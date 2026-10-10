@@ -60,7 +60,7 @@ def stack_paths(series, Yf):
                 back += f"V{Yf(v):.1f}H{X(y):.1f}"
             area = up + f"V{Yf(prev[-1][1]):.1f}" + back[back.find('H'):] if back else up
             area = up + "".join([f"V{Yf(prev[-1][1]):.1f}"]) + rev_path(prev, Yf) + "Z"
-        out.append(f'<path d="{area}" fill="{col}" stroke="#FFFFFF" stroke-width="1"></path>')
+        out.append(f'<path d="{area}" fill="{col}" stroke="#FAF9F5" stroke-width="1"></path>')
         prev = pts
     return out
 
@@ -128,7 +128,7 @@ g.append(f'<text x="{sx(1050):.1f}" y="{sy(1080):.1f}" {F} font-size="13" fill="
 above = sum(r["restrictions_total"] > r["proposal_restrictions_total"] for r in cmp)
 for r in cmp:
     c = CLAY if r["restrictions_total"] > r["proposal_restrictions_total"] else SLATE
-    g.append(f'<circle cx="{sx(min(r["proposal_restrictions_total"], mx)):.1f}" cy="{sy(min(r["restrictions_total"], mx)):.1f}" r="5" fill="{c}" fill-opacity="0.75" stroke="#FFFFFF" stroke-width="1.2"></circle>')
+    g.append(f'<circle cx="{sx(min(r["proposal_restrictions_total"], mx)):.1f}" cy="{sy(min(r["restrictions_total"], mx)):.1f}" r="5" fill="{c}" fill-opacity="0.75" stroke="#FAF9F5" stroke-width="1.2"></circle>')
 big = sorted(cmp, key=lambda r: -(r["restrictions_total"] - r["proposal_restrictions_total"]))[:4]
 for r in big:
     nm = r["name"].replace("Artificial Intelligence Act", "AI Act").replace("General Data Protection Regulation", "GDPR").replace("Markets in Crypto-Assets (MiCA)", "MiCA").split(" (")[0]
@@ -202,8 +202,8 @@ def prod_svg(PW, PH, PL=50, PR=50, PT=30, PB=40):
         g.append(f'<polyline points="{seg(a, b)}" fill="none" stroke="{c}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></polyline>')
     v22 = [o for o in pdat if o["year"] == 2022][0]["ratio_1995_100"]
     tr = min((o for o in pdat if 1940 <= o["year"] <= 1950), key=lambda o: o["ratio_1995_100"])
-    g.append(f'<circle cx="{px(1995):.1f}" cy="{py(100):.1f}" r="5.5" fill="#004494" stroke="#FFFFFF" stroke-width="2"></circle>')
-    g.append(f'<circle cx="{px(2022):.1f}" cy="{py(v22):.1f}" r="5.5" fill="{CLAY}" stroke="#FFFFFF" stroke-width="2"></circle>')
+    g.append(f'<circle cx="{px(1995):.1f}" cy="{py(100):.1f}" r="5.5" fill="#004494" stroke="#FAF9F5" stroke-width="2"></circle>')
+    g.append(f'<circle cx="{px(2022):.1f}" cy="{py(v22):.1f}" r="5.5" fill="{CLAY}" stroke="#FAF9F5" stroke-width="2"></circle>')
     g.append(f'<text x="{px(2010):.1f}" y="{py((v22 + 100) / 2 + 2):.1f}" text-anchor="middle" {F} font-size="22" fill="#8F6708" font-weight="600">{v22 - 100:+.0f}%</text>')
     g.append(f'<text x="{px(tr["year"]) + 10:.1f}" y="{py(tr["ratio_1995_100"]) + 6:.1f}" {F} font-size="14" fill="#777373" font-weight="600">{tr["ratio_1995_100"]:.0f}</text>')
     g.append(f'<text x="{px(1903):.1f}" y="{py(30):.1f}" {F} font-size="14" fill="#777373">1914–45: two world wars</text>')
@@ -350,7 +350,7 @@ for k, (title, f, ym, ticks, sv) in enumerate((("Restrictions per act", lambda r
     g.append(f'<line x1="{x0}" x2="{x0 + pw:.1f}" y1="{yy(sv):.1f}" y2="{yy(sv):.1f}" stroke="{INK}" stroke-width="1.4" stroke-dasharray="5 4"></line>'
              f'<text x="{x0 + 4}" y="{yy(sv) - 6:.1f}" {F} font-size="12.5" fill="{INK}">Sarbanes-Oxley Act {sv:g}</text>')
     for r in sorted(inst, key=lambda r: r["type"] != "Regulation"):
-        g.append(f'<circle cx="{xx(fy(r["d"])):.1f}" cy="{yy(f(r)):.1f}" r="4.5" fill="{TC[r["type"]]}" fill-opacity="0.85" stroke="#FFFFFF" stroke-width="1"></circle>')
+        g.append(f'<circle cx="{xx(fy(r["d"])):.1f}" cy="{yy(f(r)):.1f}" r="4.5" fill="{TC[r["type"]]}" fill-opacity="0.85" stroke="#FAF9F5" stroke-width="1"></circle>')
     bins = {}
     for r in inst: bins.setdefault(r["d"].year // 5 * 5, []).append(r)
     line = [(statistics.median(fy(r["d"]) for r in bins[b]), statistics.mean(f(r) for r in bins[b])) for b in sorted(bins) if len(bins[b]) >= 3]
