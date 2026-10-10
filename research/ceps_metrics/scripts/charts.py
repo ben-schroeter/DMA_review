@@ -358,3 +358,69 @@ if _pairs:
              "US words include text inserted into the US Code. GDPR's counterpart is a state law.", fontsize=8, color=MUTED)
     fig.subplots_adjust(left=0.245, right=0.925, top=0.78, bottom=0.1, wspace=0.08)
     fig.savefig(OUT + "10_eu_vs_us_counterparts.png", facecolor=SURF); plt.close(fig); print("wrote 10_eu_vs_us_counterparts.png")
+
+# 11. restrictions binding private parties only
+PRIV, PRIV2 = CAT[0], "#9cc3ef"
+fig, (axA, axB) = plt.subplots(1, 2, figsize=(13, 6.4), dpi=160, gridspec_kw={"width_ratios": [1.55, 1]})
+fig.patch.set_facecolor(SURF)
+# panel A: cumulative, main acts + implementing/delegated acts
+ev = [(r["date"], r["addr_private_parties"] or 0, 0) for r in inst] + [(r["d"], 0, r["addr_private_parties"] or 0) for r in sec]
+ev.sort(key=lambda e: e[0])
+X, Ym, Ys = [START], [0], [0]; m = s = 0
+for d, a, b in ev:
+    m += a; s += b; X.append(d); Ym.append(m); Ys.append(s)
+X.append(END); Ym.append(m); Ys.append(s)
+axA.set_facecolor(SURF)
+axA.stackplot(X, [Ym, Ys], colors=[PRIV, PRIV2], step="post", edgecolor=SURF, linewidth=0.8,
+              labels=["In the main acts", "In implementing and delegated acts"])
+axA.annotate(f"{m:,}", xy=(END, m), xytext=(6, 0), textcoords="offset points", va="center", fontsize=9.5, color=INK2, annotation_clip=False)
+axA.annotate(f"{m + s:,}", xy=(END, m + s), xytext=(6, 0), textcoords="offset points", va="center", fontsize=10, color=INK,
+             weight="bold", annotation_clip=False)
+top = sorted(inst, key=lambda r: -(r["addr_private_parties"] or 0))[:4]
+yA = {}
+for r in top:
+    yA[r["name"]] = sum(x["addr_private_parties"] or 0 for x in inst if x["date"] <= r["date"])
+for k, r in enumerate(sorted(top, key=lambda r: r["date"])):
+    short = r["name"].replace("General Data Protection Regulation", "GDPR").replace("Artificial Intelligence Act", "AI Act") \
+        .replace("Anti-Money Laundering Regulation", "AML Regulation").split(" (")[0]
+    axA.annotate(f"{short} ({r['addr_private_parties']})", xy=(r["date"], yA[r["name"]]), xytext=(-90, 40 + 28 * k), textcoords="offset points",
+                 ha="right", va="center", fontsize=8.5, color=INK2,
+                 arrowprops=dict(arrowstyle="-", color=MUTED, lw=0.7, shrinkA=2, shrinkB=2))
+mandates(axA, (m + s) * 1.1)
+axA.set_xlim(START, END); axA.set_ylim(0, (m + s) * 1.12)
+axA.yaxis.grid(True, color=GRID, lw=0.8); axA.set_axisbelow(True)
+axA.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
+for sp in ("top", "right", "left"):
+    axA.spines[sp].set_visible(False)
+axA.spines["bottom"].set_color(BASE); axA.tick_params(colors=MUTED, length=0)
+axA.legend(loc="upper left", frameon=False, labelcolor=INK2, fontsize=9.5)
+axA.set_title("Cumulative restrictions binding private parties", loc="left", fontsize=12, color=INK, weight="bold", pad=10)
+# panel B: per act by period, with share of all restrictions
+per = [(1985, 1999, "1985–99"), (2000, 2009, "2000–09"), (2010, 2014, "2010–14"), (2015, 2019, "2015–19"), (2020, 2024, "2020–24"), (2025, 2026, "2025–26")]
+vals, shares, ns = [], [], []
+for p0, p1, _ in per:
+    rs = [r for r in inst if p0 <= r["date"].year <= p1]
+    vals.append(statistics.mean(r["addr_private_parties"] or 0 for r in rs))
+    shares.append(sum(r["addr_private_parties"] or 0 for r in rs) / max(1, sum(r["restrictions_total"] for r in rs)))
+    ns.append(len(rs))
+axB.set_facecolor(SURF)
+xs = range(len(per))
+axB.bar(xs, vals, color=PRIV, width=0.62, edgecolor=SURF, linewidth=2)
+for x, v, sh in zip(xs, vals, shares):
+    axB.text(x, v + max(vals) * 0.02, f"{v:.0f}", ha="center", va="bottom", fontsize=10, color=INK, weight="bold")
+    axB.text(x, -max(vals) * 0.16, f"{sh:.0%} of all", ha="center", va="top", fontsize=8.5, color=MUTED)
+axB.set_xticks(list(xs)); axB.set_xticklabels([f"{p[2]}\n(n={n})" for p, n in zip(per, ns)], color=INK2, fontsize=9)
+axB.set_ylim(0, max(vals) * 1.15)
+axB.yaxis.grid(True, color=GRID, lw=0.8); axB.set_axisbelow(True)
+for sp in ("top", "right", "left"):
+    axB.spines[sp].set_visible(False)
+axB.spines["bottom"].set_color(BASE); axB.tick_params(colors=MUTED, length=0)
+axB.set_title("Average per act, by period of adoption", loc="left", fontsize=12, color=INK, weight="bold", pad=10)
+fig.suptitle("Restrictions on companies and other private actors", x=0.01, ha="left", fontsize=15, color=INK, weight="bold", y=0.985)
+fig.text(0.01, 0.915, "Obligations, prohibitions and conditions whose subject is a private party (undertakings, providers, platforms, controllers, persons). "
+         "Adopted acts, original texts.", fontsize=10, color=INK2)
+fig.text(0.01, 0.01, "Addressee assigned automatically from the grammatical subject; correct in 74% of a hand-checked sample, and 30% of restrictions "
+         "have no clear addressee, so these are lower bounds.\nBelow each bar: share of that period's restrictions binding private parties. Labelled: the four acts with the most.",
+         fontsize=8, color=MUTED)
+fig.subplots_adjust(left=0.06, right=0.97, top=0.82, bottom=0.19, wspace=0.18)
+fig.savefig(OUT + "11_private_parties.png", facecolor=SURF); plt.close(fig); print("wrote 11_private_parties.png")
