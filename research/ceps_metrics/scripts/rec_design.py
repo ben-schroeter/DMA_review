@@ -4,7 +4,7 @@ EU = "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:"
 indicators = [
  ind("note", "The 1993 proposal has no indicators section"),
  ind("objective", "Simple, affordable EU-wide design protection", "Unitary registered and unregistered Community design administered by EUIPO", "",
-     "Steady growth in filings (nearly 1.5m registered Community designs 2003-2019); 2020 evaluation: registration cheaper, simpler and faster than national routes, but system underused and partly outdated for digital designs.", "reported as activity", "SWD(2020) 264; Filitz et al. 2015"),
+     "Steady growth in filings (nearly 1.5m registered Community designs 2003-2019); 2020 evaluation: registration cheaper, simpler and faster than national routes, but system underused and partly outdated for digital designs.", "reported as activity", "SWD(2020) 264; EUIPO design focus report 2010-2019 (via search)"),
  ind("objective", "Single market for products embodying designs", "Undistorted competition", "",
      "Broadly achieved except spare parts: 12 Member States liberalised, others keep manufacturers' monopoly; market fragmented.", "reported as activity", "SWD(2020) 264; SWD(2022) 368"),
  ind("expected impact (2022 IA)", "Spare parts liberalisation and fee cuts", "Consumer savings from opening must-match spare parts market; fee savings", "EUR 340-544m consumer savings after 10 years; EUR 6m/yr fee savings",
@@ -25,7 +25,7 @@ literature = [
      "peer-reviewed", "exploratory qualitative (German firms in footwear, cars, tool-making) plus filing statistics", "use of design rights", "neutral",
      "About three-quarters of a million RCDs filed in the first decade; firms use RCDs in very different ways across industries; little prior empirical research on design rights",
      "A study of German firms found registered Community designs are widely used but in very different ways across industries, and that their economic effects are barely studied.",
-     "EU/Germany, 2003-2013", "qualitative; no effect estimate", "abstract read"),
+     "EU/Germany", "qualitative; no effect estimate", "abstract read"),
 ]
 write("32002R0006", "Community Design Regulation", "51993PC0342", "none (1993); evaluation SWD(2020) 264; revision IA SWD(2022) 368",
       "thin: Commission evaluation and impact assessment; independent research mostly descriptive; no causal studies",

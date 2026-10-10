@@ -4,7 +4,7 @@ EU = "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:"
 indicators = [
  ind("note", "No LFS indicators. Monitoring relies on basic descriptive data (Member States notifying national crisis compulsory licences); the Commission expects use to be rare. Evaluation is due after the first Union compulsory licence is activated (3 years in the proposal; 5 years after first licence in the IA)."),
  ind("expected impact (impact assessment)", "Effective, EU-wide compulsory licensing in cross-border crises", "Union compulsory licences granted; time to supply of crisis-critical products", "Qualitative only: 'significantly lower risk of delays or unavailability of critical products during crisis'",
-     "No Union compulsory licence has been reported since the Regulation entered into force (January 2026). Final text narrowed the scope compared with the proposal (EPRS).", "not measured", "SWD(2023) 122; EPRS 2024/2025"),
+     "No Union compulsory licence was found in searches since the Regulation entered into force (January 2026). Final text narrowed the scope compared with the proposal (EPRS).", "not measured", "SWD(2023) 122; EPRS 2024/2025"),
  ind("expected impact (impact assessment)", "Lower costs and legal certainty for patent holders, licensees and Member States", "", "Qualitative scores only (+/++/+++); no monetised estimates",
      "Not measured.", "not measured", "SWD(2023) 122"),
 ]
@@ -22,5 +22,5 @@ literature = [
 ]
 write("32025R2645", "Compulsory licensing of patents Regulation", "52023PC0224", "SWD(2023) 121 (executive summary SWD(2023) 122)",
       "ex-ante only: qualitative IA, no indicators; no licence granted so nothing to measure",
-      "The Commission expected an EU-wide compulsory patent licence to speed up access to critical products in a crisis, but gave only qualitative estimates and expected it to be used rarely. No EU licence has been granted since the law took effect in January 2026, so there is no evidence on its impact. The final text was narrowed in patent holders' favour.",
+      "The Commission expected an EU-wide compulsory patent licence to speed up access to critical products in a crisis, but gave only qualitative estimates and expected it to be used rarely. No EU licence appears to have been granted since the law took effect in January 2026, so there is no evidence on its impact. The final text was narrowed in patent holders' favour.",
       indicators, literature)

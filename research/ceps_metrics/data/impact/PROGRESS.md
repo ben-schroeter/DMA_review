@@ -125,3 +125,5 @@ Tier 3 — pending proposals and acts adopted 2024–2026 (impact assessment and
 - [x] 32021R2085 Joint Undertakings under Horizon Europe
 - [x] 32002R0006 Community Design Regulation
 - [x] 32019R0881 Cybersecurity Act
+- [x] 32019R1020 Market Surveillance Regulation
+- [x] 32002R0006 Community Design Regulation
