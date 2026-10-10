@@ -331,20 +331,15 @@ if _pairs:
             ax.plot([p[uk], p[ek]], [yi, yi], color=BASE, lw=2, solid_capstyle="round", zorder=2)
         ax.scatter([p[uk] for p in _pairs], y, s=70, color=USC, edgecolor=SURF, linewidth=2, zorder=3, label="US counterpart")
         ax.scatter([p[ek] for p in _pairs], y, s=70, color=EUC, edgecolor=SURF, linewidth=2, zorder=4, label="EU act")
-        ax.axvline(ref, color=SOXC, lw=1.4, ls=(0, (5, 3)), zorder=1)
-        _sox_right = ref >= allv            # put the two reference labels on opposite sides so they never collide
-        ax.text(ref + (1 if _sox_right else -1) * ax.get_xlim()[1] * 0, len(y) - 0.35, f" {reflab}\n {ref:g}" if _sox_right else f"{reflab} \n{ref:g} ",
-                color=SOXC, fontsize=8.5, ha="left" if _sox_right else "right", va="bottom", weight="bold")
         ax.axvline(allv, color=MUTED, lw=1.2, ls=(0, (1, 2.5)), zorder=1)
         _v = f"{allv:.0f}" if ek == "eu_restrictions" else f"{allv:.1f}"
-        ax.text(allv, len(y) - 0.35, f"{alllab} \n(all 105) {_v} " if _sox_right else f" {alllab}\n (all 105) {_v}",
-                color=INK2, fontsize=8.5, ha="right" if _sox_right else "left", va="bottom")
+        ax.text(allv, len(y) - 0.35, f"{alllab}\n(all 105) {_v}", color=INK2, fontsize=8.5, ha="center", va="bottom")
         ax.set_title(title, loc="left", fontsize=12, color=INK, weight="bold", pad=34)
         ax.xaxis.grid(True, color=GRID, lw=0.8); ax.set_axisbelow(True)
         for s in ("top", "right", "left"):
             ax.spines[s].set_visible(False)
         ax.spines["bottom"].set_color(BASE); ax.tick_params(colors=MUTED, length=0, labelsize=9)
-        ax.set_xlim(0, max(max(p[ek] for p in _pairs), ref) * 1.12)
+        ax.set_xlim(0, max(max(p[ek] for p in _pairs), allv) * 1.12)
         ax.set_ylim(-0.6, len(y) - 0.4)
     ax1.set_yticks(y); ax1.set_yticklabels([SHORT.get(p["eu_instrument"], p["eu_instrument"]) for p in _pairs], color=INK2, fontsize=9.5)
     # ratio column
@@ -358,8 +353,8 @@ if _pairs:
     fig.suptitle("EU digital acts carry about twice the restrictions of their US counterparts", x=0.01, ha="left",
                  fontsize=15, color=INK, weight="bold", y=0.99)
     fig.text(0.01, 0.935, f"{len(_pairs)} matched pairs: the EU act has more restrictions in every one (median ×{med:.1f}) and is denser in {_denser} of {len(_pairs)}. "
-             "Sarbanes-Oxley and all 105 adopted EU acts shown for reference.", fontsize=10, color=INK2)
-    fig.text(0.01, 0.012, "Same automated counter throughout; precision 84% on EU acts, 80% on these US texts, 68% on SOX. EU words = articles + annexes; "
+             "The average or median of all 105 adopted EU acts is shown for reference.", fontsize=10, color=INK2)
+    fig.text(0.01, 0.012, "Same automated counter throughout; precision 84% on EU acts, 80% on these US texts. EU words = articles + annexes; "
              "US words include text inserted into the US Code. GDPR's counterpart is a state law.", fontsize=8, color=MUTED)
     fig.subplots_adjust(left=0.245, right=0.925, top=0.78, bottom=0.1, wspace=0.08)
     fig.savefig(OUT + "10_eu_vs_us_counterparts.png", facecolor=SURF); plt.close(fig); print("wrote 10_eu_vs_us_counterparts.png")
