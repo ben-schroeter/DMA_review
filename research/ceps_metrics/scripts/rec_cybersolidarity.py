@@ -1,0 +1,26 @@
+import sys; sys.path.insert(0, ".")
+from impact_record import ind, lit, write
+EU = "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:"
+indicators = [
+ ind("LFS indicator", "European Cyber Shield / Cybersecurity Alert System: common detection and situational awareness", "Number of cybersecurity infrastructures or tools, or both, jointly procured", "",
+     "Digital Europe interim evaluation (Dec 2025): 26 cybersecurity infrastructures (CyberHubs) procured, including two cross-border CyberHubs, 'in line with the targets'. Output count only; no data on detection performance.", "reported as activity", "COM(2025) 771"),
+ ind("LFS indicator", "Cybersecurity Emergency Mechanism: preparedness, response and recovery", "Number of actions supporting preparedness and response to cybersecurity incidents under the Mechanism", "",
+     "No figures found yet. The Court of Auditors warned this indicator measures output only and gives little insight into results.", "not measured", "ECA Opinion 02/2023"),
+ ind("note", "No impact assessment was carried out ('urgent nature of the proposal'); the proposal relied on the 2018 Digital Europe Programme IA and set no outcome targets or cost estimate. Budget: EUR 100m reallocated within DEP, bringing DEP cybersecurity funding to about EUR 843m for 2023-2027. Evaluation due four years after application.", "", "", "", "", "COM(2023) 209; ECA Opinion 02/2023"),
+]
+literature = [
+ lit("eca-2023-cyber-solidarity-opinion", "European Court of Auditors", 2023, "Opinion 02/2023 concerning the proposal for a Regulation laying down measures to strengthen solidarity and capacities in the Union to detect, prepare for and respond to cybersecurity threats and incidents", "ECA Opinion 02/2023", "https://www.eca.europa.eu/ECAPublications/OP-2023-02/OP-2023-02_EN.pdf",
+     "audit body opinion", "ex-ante review", "costs; governance; performance monitoring", "critical",
+     "No impact assessment and no estimate of total costs; DEP IA does not cover the new measures; risk of added complexity and overlap in the EU cybersecurity landscape; proposed indicator measures output only",
+     "The EU's auditors criticised the absence of an impact assessment or cost estimate and warned the new structures add complexity and that the planned indicator would only count activities, not results.",
+     "EU", "official audit opinion", "full text read", pdf_url="https://www.eca.europa.eu/ECAPublications/OP-2023-02/OP-2023-02_EN.pdf"),
+ lit("ec-2025-dep-interim-evaluation", "European Commission", 2025, "The Digital Europe Programme: Main findings of the interim evaluation", "COM(2025) 771", EU + "52025DC0771",
+     "Commission evaluation", "programme evaluation (monitoring data, stakeholder consultation)", "cybersecurity infrastructure outputs", "positive (activity)",
+     "26 cybersecurity infrastructures (CyberHubs) procured including two cross-border CyberHubs, in line with targets; Cyber Solidarity Act introduced the Cyber Emergency Mechanism into Digital Europe",
+     "The Commission reports that 26 security-operations hubs, two of them cross-border, have been funded on target, but gives no measure of whether they detect threats better.",
+     "EU, 2021-2025", "self-evaluation; outputs only", "full text read"),
+]
+write("32025R0038", "Cyber Solidarity Act", "52023PC0209", "None (no impact assessment; relies on 2018 Digital Europe Programme IA)",
+      "ex-ante only and thin: no impact assessment, output indicators only; early activity counts from Commission",
+      "The Cyber Solidarity Act was proposed without an impact assessment or cost estimate, and its two indicators only count tools bought and emergency actions taken. The Commission reports 26 EU-funded security-operations hubs, including two cross-border ones, but there is no evidence yet on whether Europe detects or recovers from cyberattacks faster. The EU Court of Auditors warned the new structures add complexity.",
+      indicators, literature)

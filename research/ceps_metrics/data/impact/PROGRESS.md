@@ -74,3 +74,6 @@ Tier 3 — pending proposals and acts adopted 2024–2026 (impact assessment and
 - [x] 32021R0784 Terrorist Content Online Regulation
 - [x] 32016L0943 Trade Secrets Directive
 - [x] 32025L0516 VAT in the Digital Age (ViDA)
+- [x] 31987L0372 Frequency Bands Directive (GSM)
+- [x] 52023PC0533 Late Payment Regulation
+- [x] 32021R0887 European Cybersecurity Competence Centre
