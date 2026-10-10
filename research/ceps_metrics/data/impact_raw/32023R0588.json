@@ -1,0 +1,54 @@
+{
+ "celex": "32023R0588",
+ "name": "Union Secure Connectivity Programme",
+ "status": "adopted",
+ "proposal": "52022PC0057",
+ "lfs_specific_objectives": "1.4.2. Specific objective (s)\nThe specific objectives of the Programme are:\n(a)\nimprove the resilience of the Union communication services by developing, building and operating a multi-orbital connectivity infrastructure, continuously adapted to evolution of demand for satellite communications, while taking into account the existing and future assets of the Member States used in the frame of the GOVSATCOM component of the Union Space Programme established by Regulation (EU) 2021/696 ;\n(b)\ncontribute to cyber resilience by proactive and reactive defence against cyber and electromagnetic threats and operational cybersecurity, and integrate the space and related ground segment of the European Quantum Communication Infrastructure to enable secure transmission of cryptographic keys;\n(c)\ncontribute to cyber resilience by proactive and reactive defence against cyber and electromagnetic threats and operational cybersecurity, and integrate the European Quantum Communication Infrastructure space infrastructure to enable secure transmission of cryptographic keys;\n(d)\nimprove and expand the capabilities and services of other components of the Union Space Programme;\n(e)\nincentivise the development of innovative and disruptive technologies, in particular by leveraging the New Space industry ; and\n(f)\nallow further development of high-speed broadband and seamless connectivity throughout the Union , removing communication dead zones and increasing cohesion across Member State territories, and allow connectivity over geographical areas of strategic interest outside of the Union .",
+ "lfs_expected_results": "1.4.3. Expected result(s) and impact\nSpecify the effects which the proposal/initiative should have on the beneficiaries/groups targeted.\nMember States governments and EU institutions should benefit from resilient, global, guaranteed and flexible satellite communication solutions covering their evolving needs.\nThe EU satellite communication industry would benefit from the long-term commitment and EU-level security accreditation. With the EU as a long-term anchor customer for governmental services, the satellite communication industry business case is strengthened and de-risked for them to have better access to finance and ultimately be more competitive.\nEuropean citizens would benefit directly and indirectly from the enhanced operational effectiveness of the various security actors.",
+ "lfs_indicators": "1.4.4. Indicators of performance\nSpecify the indicators for monitoring progress and achievements.\nSpecific objective 1: Improve the resilience of the Union communication services by developing, building and operating a multi-orbital connectivity infrastructure, continuously adapted to evolution of demand for satellite communications, while taking into account the existing and future assets of the Member States used in the frame of the GOVSATCOM component of the Union Space Programme established by Regulation (EU) 2021/696.\nIndicator 1: Member States governments and EU institutions can access initial set of governmental services in 2025, with full capacity in 2027\nIndicator 2: Service availability\nIndicator 3: Full integration of existing capacity from the Union pool via the integration of GOVSATCOM ground infrastructure\nIndicator 4: Annual number of major outages of the telecommunication networks in the Member States mitigated by the secure connectivity system\nIndicator 5: User’s satisfaction with the performance of the secure connectivity system\nSpecific objective 2: Contribute to cyber resilience by proactive and reactive defence against cyber and electromagnetic threats and operational cybersecurity, and integrate the space and related ground segment of the European Quantum Communication Infrastructure to enable secure transmission of cryptographic keys.\nIndicator 1: System obtains security accreditation allowing the services to transmit EU Classified Information (EUCI) up to a certain classification level and the national classified information of EU Member States of equivalent classification level, following the principles set in Council Decision (2013/488/EU) on the security rules for protecting EUCI\nIndicator 2: Integration of EuroQCI space infrastructure based on the most suitable technical solution\nSpecific objective 3: Improve and expand the capabilities and services of other components of the Union Space Programme.\nIndicator 1: Number of payloads serving other components of the Union Space Programme\nSpecific objective 4: Incentivise the deployment of innovative and disruptive technologies, in particular by leveraging the New Space industry.\nIndicator 1: Number of start-up, SME and midcap companies participating in the development of the infrastructure\nSpecific objective 5: Allow further development of high-speed broadband and seamless connectivity throughout the Union, removing communication dead zones and increasing cohesion across Member State territories, and allow connectivity over geographical areas of strategic interest outside of the Union.\nIndicator 1: Speed of the commercial satellite broadband\nIndicator 2: Number of new commercial satellite communication potential users in EU rural areas and in geographical areas of strategic interest",
+ "memo_monitoring": "• Implementation plans and monitoring, evaluation and reporting arrangements\nArticle 6(1) of the proposal specifies that the Programme shall be implemented through contracts, including but not limited to concession contracts as defined under Article 2(14) of the Financial Regulation or mixed contracts.\nThe Programme will be evaluated after three years from the Regulation’s entry into force and every four years thereafter. The evaluation of the Programme will, in line with the Commission’s Better Regulation Guidelines, assess the effectiveness, efficiency, coherence and EU added value of the Programme. In accordance with Article 37 of the proposal, the focus will in particular be on the performance of the services provided by the Programme and on the evolution of the user needs. In addition, an assessment on critical components and maturity of EU supply chain will be carried out, to ensure that governmental communication needs are not critically dependent on non-EU infrastructure. End-user EU Institutions and Agencies, the concessionaire and the European Union Agency for the Space Programme (EUSPA) together with the Commission will perform the evaluation.",
+ "linked_documents": [
+  {
+   "celex": "52022SC0031",
+   "kind": "IA executive summary",
+   "date": "2022-02-15",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL establishing the Union Secure Connectivity Programme for the period 2022-2027"
+  },
+  {
+   "celex": "52022SC0030",
+   "kind": "impact assessment",
+   "date": "2022-02-15",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL establishing the Union Secure Connectivity Programme for the period 2022-2027"
+  },
+  {
+   "celex": "52023SC0573",
+   "kind": "evaluation",
+   "date": "2023-09-27",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Implementation of multi-country projects Accompanying the document Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions Report on the state of the Digital Decade 2023"
+  },
+  {
+   "celex": "52024SC0173",
+   "kind": "evaluation",
+   "date": "2024-07-10",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EVALUATION Accompanying the document REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS on the implementation of the EU Space Programme and on the performance of the European Union Agency for the Space Programme"
+  },
+  {
+   "celex": "52024DC0435",
+   "kind": "evaluation",
+   "date": "2024-10-03",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS on the implementation of the Communication \"Putting people first, securing sustainable and inclusive growth, unlocking the potential of the EU's Outermost Regions\""
+  },
+  {
+   "celex": "52024DC0289",
+   "kind": "evaluation",
+   "date": "2024-07-10",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS on the implementation of the EU Space Programme and on the performance of the European Union Agency for the Space Programme"
+  },
+  {
+   "celex": "52025SC0335",
+   "kind": "impact assessment",
+   "date": "2025-06-25",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council on the safety, resilience and sustainability of space activities in the Union"
+  }
+ ]
+}

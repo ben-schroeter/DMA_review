@@ -1,0 +1,72 @@
+{
+ "celex": "32023R1114",
+ "name": "Markets in Crypto-Assets (MiCA)",
+ "status": "adopted",
+ "proposal": "52020PC0593",
+ "lfs_specific_objectives": "1.4.2. Specific objective(s)\nThe specific objectives of this initiative are as follows:\nRemoving regulatory obstacles to the issuance, trading and post-trading of crypto-assets that qualify as financial instruments, while respecting the principle of technological neutrality;\nIncreasing the sources of funding for companies through increased Initial Coin Offerings and Securities Token Offerings;\nLimiting the risks of fraud and illicit practices in the crypto-asset markets;\nAllowing EU consumers and investors to access new investment opportunities or new types of payment instruments in particular for cross-border situations.",
+ "lfs_expected_results": "1.4.3. Expected result(s) and impact\nSpecify the effects which the proposal/initiative should have on the beneficiaries/groups targeted.\nThe proposals are expected to provide a fully harmonised framework for crypto-assets that currently fall outside existing financial services legislation and allow for experimentation with the use of DLT and financial instruments in crypto-asset form.\nThe bespoke regime for crypto-assets will ensure a high level of consumer and investor protection and market integrity, by regulating the main activities related to crypto-assets (such as crypto-assets issuance, wallet provision, exchange and trading platforms). By imposing requirements (such as governance, operational requirements) on the main crypto-asset service providers and issuers operating in the EU, the proposal is likely to reduce the amounts of fraud and theft of crypto-assets.\nIn addition, the bespoke regime will introduce specific requirements on e-money tokens, significant e-money tokens, asset-referenced tokens and significant asset-referenced tokens in order to address the potential risks to financial stability and monetary policy transmission these can present. Finally, it will address market fragmentation issues arising from the different national approaches across the EU.\nThe accompanying proposal for a regulation on a pilot regime on DLT market infrastructures will allow for experimentation. It will enable the development of a secondary market for financial instruments in crypto-asset form, further reaping the potential benefits offered by the technology. Additionally, this experimentation will generate further experience and evidence necessary to assess whether and how to amend existing financial services legislation to ensure it is technology neutral.",
+ "lfs_indicators": "1.4.4. Indicators of performance\nSpecify the indicators for monitoring progress and achievements.\nNon-exhaustive list of potential indicators:\n· Number and volumes of crypto-asset issuances in the EU\n· Number of entities authorised in the EU as crypto-asset services providers\n· Number of entities authorised in the EU as asset backed-crypto-asset or significant asset-referenced token issuers\n· Number and value of fraud and thefts of crypto-assets in the EU\n· Number of entities authorised by a NCA as a DLT market infrastructure under the pilot/ regime\n· Volume of transactions traded and settled by DLT market infrastructure\n· Number of market abuse cases involving crypto-assets reported to NCAs and investigated by NCAs\n· Market capitalisation of asset backed crypto-assets and significant asset-referenced tokens\n· Volume of payments through the use of asset-referenced tokens and significant asset-referenced tokens\n· Assessment if other crypto-assets/infrastructures or market participants using DLT and/or dealing with crypto-assets have reached a systemically relevant level\n· Number and volume of financial instruments issued as crypto-assets in the EU\n· Number of prospectuses of financial instruments as crypto-assets approved by NCAs\n· Number of entities authorised by NCAs to provide services under existing EU legislation (e.g. MiFID II/MiFIR, CSDR, SFD) and using a DLT/financial instruments in crypto-asset form\n· Volume of transactions traded and settled by service providers authorised under existing EU legislation (e.g. MiFID II/MiFIR, CSDR, SFD) and using a DLT/financial instruments in crypto-asset form",
+ "memo_monitoring": "• Implementation plans and monitoring, evaluation and reporting arrangements\nProviding for a robust monitoring and evaluation mechanism is crucial to ensure that the regulatory actions undertaken are effective in achieving their respective objectives. The Commission has therefore established a programme for monitoring the outputs and impacts of this Regulation. The Commission will be in charge of monitoring the effects of the preferred policy options on the basis of the non-exhaustive list of indicators indicated in the impact assessment (p.64-65). The Commission will also be in charge of assessing the impact of this Regulation and will be tasked with preparing a report to the Council and Parliament (Article 122 of the proposal).",
+ "linked_documents": [
+  {
+   "celex": "52020SC0381",
+   "kind": "IA executive summary",
+   "date": "2020-09-24",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council on Markets in Crypto-assets and amending Directive (EU) 2019/1937"
+  },
+  {
+   "celex": "52020SC0380",
+   "kind": "impact assessment",
+   "date": "2020-09-24",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council on Markets in Crypto-assets and amending Directive (EU) 2019/1937"
+  },
+  {
+   "celex": "52022SC0141",
+   "kind": "impact assessment",
+   "date": "2022-05-11",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Directive 2011/83/EU concerning financial services contracts concluded at a distance and repealing Directive 2002/65/EC"
+  },
+  {
+   "celex": "52023SC0231",
+   "kind": "impact assessment",
+   "date": "2023-06-28",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the documents Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on payment services in the internal market and amending Regulation (EU) No 1093/2010 and Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on payment services and electronic money services in the Internal Market amending "
+  },
+  {
+   "celex": "52022SC0401",
+   "kind": "impact assessment",
+   "date": "2022-12-08",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Initiative to strengthen existing rules and expand the exchange of information framework in the field of taxation so as to include crypto-assets Accompanying the document Proposal for a Council Directive amending Directive 2011/16/EU on administrative cooperation in the field of taxation"
+  },
+  {
+   "celex": "52023DC0365",
+   "kind": "evaluation",
+   "date": "2023-06-28",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN CENTRAL BANK AND THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE on the review of Directive 2015/2366/EU of the European Parliament and of the Council on payment services in the internal market"
+  },
+  {
+   "celex": "52023SC0233",
+   "kind": "impact assessment",
+   "date": "2023-06-28",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the documents Proposal for a Regulation of the European Parliament and of the Council on the establishment of the digital euro and Proposal for a Regulation of the European Parliament and of the Council on the provision of digital euro services by payment services providers incorporated in Member States whose currency is not t"
+  },
+  {
+   "celex": "52024SC0050",
+   "kind": "evaluation",
+   "date": "2024-03-11",
+   "title": "COMMISSION STAFF WORKING DOCUMENT accompanying the Report from the Commission to the European Parliament and the Council on the implementation of Directive (EU) 2015/849"
+  },
+  {
+   "celex": "52025SC0943",
+   "kind": "impact assessment",
+   "date": "2025-12-04",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the documents Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Regulations (EU) No 1095/2010, No 648/2012, No 600/2014, No 909/2014, 2015/2365, 2019/1156, 2021/23, 2022/858, 2023/1114, No 1060/2009, 2016/1011, 2017/2402, 2023/2631 and 2024/3005 as regards the further development of capital marke"
+  },
+  {
+   "celex": "52026SC0148",
+   "kind": "evaluation",
+   "date": "2026-06-17",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EVALUATION Directive (EU) 2018/1673 of the European Parliament and of the Council of 23 October 2018 on combating money laundering by criminal law"
+  }
+ ]
+}

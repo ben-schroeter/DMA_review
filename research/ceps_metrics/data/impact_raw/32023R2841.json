@@ -1,0 +1,42 @@
+{
+ "celex": "32023R2841",
+ "name": "Cybersecurity Regulation (EU institutions)",
+ "status": "adopted",
+ "proposal": "52022PC0122",
+ "lfs_specific_objectives": "1.4.2. Specific objective(s)\n(1) To lay down obligations on Union institutions, bodies and agencies to establish an internal cybersecurity risk management, governance and control framework\n(2) To lay down obligations on Union institutions, bodies and agencies to report on their cybersecurity risk management, governance and control framework as well as on cybersecurity incidents\n(3) To lay down rules on the organisation and operation of the Cybersecurity Centre for the Union institutions, bodies and agencies (CERT-EU) and on the organisation and operation of the Interinstitutional Cybersecurity Board (IICB)\n(4) To contribute to the Joint Cyber Unit",
+ "lfs_expected_results": "1.4.3. Expected result(s) and impact\nSpecify the effects which the proposal/initiative should have on the beneficiaries/groups targeted.\n– Internal cybersecurity risk management, governance and control frameworks, cybersecurity baselines, regular maturity assessments and cybersecurity plans at the Union institutions, bodies and agencies\n– Improvement of cybersecurity resilience and incident response capacities at the Union institutions, bodies and agencies\n– Modernisation of CERT-EU\n– Contribution to the Joint Cyber Unit",
+ "lfs_indicators": "1.4.4. Indicators of performance\nSpecify the indicators for monitoring progress and achievements.\n– Frameworks and baselines in place, regular maturity assessments and cybersecurity plans carri ed out in the Union institution , bodies and agencies\n– Improved handling of incidents\n– Increased awareness of cybersecurity risks at the senior management level of the Union institutions, bodies and agencies\n– Levelling ICT security spending as a percentage of overall ICT spending\n– Strong leadership of the IICB and CERT-EU\n– Increased information sharing among the Union institutions, bodies and agencies and with relevant bodies and stakeholders in the EU\n– Increased cybersecurity cooperation with relevant bodies and stakeholders in the EU, via CERT-EU and ENISA",
+ "memo_monitoring": "",
+ "linked_documents": [
+  {
+   "celex": "52022DC0530",
+   "kind": "evaluation",
+   "date": "2022-10-14",
+   "title": "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL First report on the application of the Data Protection Regulation for European Union institutions, bodies, offices and agencies (Regulation 2018/1725)"
+  },
+  {
+   "celex": "52022DC0252",
+   "kind": "evaluation",
+   "date": "2022-05-25",
+   "title": "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the Fourth Progress Report on the implementation of the EU Security Union Strategy"
+  },
+  {
+   "celex": "52022DC0745",
+   "kind": "evaluation",
+   "date": "2022-12-13",
+   "title": "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the Fifth Progress Report on the implementation of the EU Security Union Strategy"
+  },
+  {
+   "celex": "52023SC0234",
+   "kind": "IA executive summary",
+   "date": "2023-06-28",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT REPORT Accompanying the documents Proposal for a Regulation of the European Parliament and of the Council on the establishment of the digital euro and Proposal for a Regulation of the European Parliament and of the Council on the provision of digital euro services by payment services providers incorporated in Member State"
+  },
+  {
+   "celex": "52023SC0233",
+   "kind": "impact assessment",
+   "date": "2023-06-28",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the documents Proposal for a Regulation of the European Parliament and of the Council on the establishment of the digital euro and Proposal for a Regulation of the European Parliament and of the Council on the provision of digital euro services by payment services providers incorporated in Member States whose currency is not t"
+  }
+ ]
+}

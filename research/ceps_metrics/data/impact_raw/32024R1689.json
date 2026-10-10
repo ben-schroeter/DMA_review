@@ -1,0 +1,270 @@
+{
+ "celex": "32024R1689",
+ "name": "Artificial Intelligence Act",
+ "status": "adopted",
+ "proposal": "52021PC0206",
+ "lfs_specific_objectives": "1.4.2. Specific objective(s)\nSpecific objective No 1\nTo set requirements specific to AI systems and obligations on all value chain participants in order to ensure that AI systems placed on the market and used are safe and respect existing law on fundamental rights and Union values;\nSpecific objective No 2\nTo ensure legal certainty to facilitate investment and innovation in AI by making it clear what essential requirements, obligations, as well as conformity and compliance procedures must be followed to place or use an AI system in the Union market;\nSpecific objective No 3\nTo enhance governance and effective enforcement of existing law on fundamental rights and safety requirements applicable to AI systems by providing new powers, resources and clear rules for relevant authorities on conformity assessment and ex post monitoring procedures and the division of governance and supervision tasks between national and EU levels;\nSpecific objective No 4\nTo facilitate the development of a single market for lawful, safe and trustworthy AI applications and prevent market fragmentation by taking EU action to set minimum requirement for AI systems to be placed and used in the Union market in compliance with existing law on fundamental rights and safety.",
+ "lfs_expected_results": "1.4.3. Expected result(s) and impact\nSpecify the effects which the proposal/initiative should have on the beneficiaries/groups targeted.\nAI suppliers should benefit from a minimal but clear set of requirements, creating legal certainty and ensuring access to the entire single market.\nAI users should benefit from legal certainty that the high-risk AI systems they buy comply with European laws and values.\nConsumers should benefit by reducing the risk of violations of their safety or fundamental rights.",
+ "lfs_indicators": "1.4.4. Indicators of performance\nSpecify the indicators for monitoring implementation of the proposal/initiative.\nIndicator 1\nNumber of serious incidents or AI performances which constitute a serious incident or a breach of fundamental rights obligations (semi-annual) by fields of applications and calculated a) in absolute terms, b) as share of applications deployed and c) as share of citizens concerned.\nIndicator 2\na) Total AI investment in the EU (annual)\nb) Total AI investment by Member State (annual)\nc) Share of companies using AI (annual)\nd) Share of SMEs using AI (annual)\na) and b) will be calculated based on official sources and benchmarked against private estimates\nc) and d) will be collected by regular company surveys",
+ "memo_monitoring": "5.1. Implementation plans and monitoring, evaluation and reporting arrangements\nProviding for a robust monitoring and evaluation mechanism is crucial to ensure that the proposal will be effective in achieving its specific objectives. The Commission will be in charge of monitoring the effects of the proposal. It will establish a system for registering stand-alone high-risk AI applications in a public EU-wide database. This registration will also enable competent authorities, users and other interested people to verify if the high-risk AI system complies with the requirements laid down in the proposal and to exercise enhanced oversight over those AI systems posing high risks to fundamental rights. To feed this database, AI providers will be obliged to provide meaningful information about their systems and the conformity assessment carried out on those systems.\nMoreover, AI providers will be obliged to inform national competent authorities about serious incidents or malfunctioning that constitute a breach of fundamental rights obligations as soon as they become aware of them, as well as any recalls or withdrawals of AI systems from the market. National competent authorities will then investigate the incidents/or malfunctioning, collect all the necessary information and regularly transmit it to the Commission with adequate metadata. The Commission will complement this information on the incidents by a comprehensive analysis of the overall market for AI.\nThe Commission will publish a report evaluating and reviewing the proposed AI framework five years following the date on which it becomes applicable.",
+ "linked_documents": [
+  {
+   "celex": "52022SC0319",
+   "kind": "impact assessment",
+   "date": "2022-09-28",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Directive of the European Parliament and of the Council on adapting non-contractual civil liability rules to artificial intelligence"
+  },
+  {
+   "celex": "52022SC0316",
+   "kind": "impact assessment",
+   "date": "2022-09-28",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Directive of the European Parliament and of the Council on liability for defective products"
+  },
+  {
+   "celex": "52021DC0440",
+   "kind": "evaluation",
+   "date": "2021-06-23",
+   "title": "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the Second Progress Report on the implementation of the EU Security Union Strategy"
+  },
+  {
+   "celex": "52021SC0170",
+   "kind": "impact assessment",
+   "date": "2021-06-30",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on consumer credits"
+  },
+  {
+   "celex": "52021SC0085",
+   "kind": "IA executive summary",
+   "date": "2021-04-21",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT REPORT Accompanying the Proposal for a Regulation of the European Parliament and of the Council LAYING DOWN HARMONISED RULES ON ARTIFICIAL INTELLIGENCE (ARTIFICIAL INTELLIGENCE ACT) AND AMENDING CERTAIN UNION LEGISLATIVE ACTS"
+  },
+  {
+   "celex": "52021SC0084",
+   "kind": "impact assessment",
+   "date": "2021-04-21",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the Proposal for a Regulation of the European Parliament and of the Council LAYING DOWN HARMONISED RULES ON ARTIFICIAL INTELLIGENCE (ARTIFICIAL INTELLIGENCE ACT) AND AMENDING CERTAIN UNION LEGISLATIVE ACTS"
+  },
+  {
+   "celex": "52022DC0530",
+   "kind": "evaluation",
+   "date": "2022-10-14",
+   "title": "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL First report on the application of the Data Protection Regulation for European Union institutions, bodies, offices and agencies (Regulation 2018/1725)"
+  },
+  {
+   "celex": "52021SC0378",
+   "kind": "impact assessment",
+   "date": "2021-12-08",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document PROPOSAL FOR A REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on automated data exchange for police cooperation (“Prüm II”), amending Council Decisions 2008/615/JHA and 2008/616/JHA and Regulations (EU) 2018/1726, 2019/817 and 2019/818 of the European Parliament and of the Council"
+  },
+  {
+   "celex": "52021SC0396(01)",
+   "kind": "impact assessment",
+   "date": "2021-12-09",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Directive of the European Parliament and of the Council On improving working conditions in platform work"
+  },
+  {
+   "celex": "52021DC0819",
+   "kind": "evaluation",
+   "date": "2021-12-10",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS Protecting Fundamental Rights in the Digital Age - 2021 Annual Report on the Application of the EU Charter of Fundamental Rights"
+  },
+  {
+   "celex": "52024DC0121",
+   "kind": "evaluation",
+   "date": "2024-03-18",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS On the implementation of the New European Innovation Agenda"
+  },
+  {
+   "celex": "52022SC0721",
+   "kind": "impact assessment",
+   "date": "2022-11-18",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL laying down measures for a high level of public sector interoperability across the Union (Interoperable Europe Act)"
+  },
+  {
+   "celex": "52022SC0720",
+   "kind": "evaluation",
+   "date": "2022-11-18",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Final evaluation of the European Interoperability Framework (EIF) Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL laying down measures for a high level of public sector interoperability across the Union (Interoperable Europe Act)"
+  },
+  {
+   "celex": "52022DC0716",
+   "kind": "evaluation",
+   "date": "2022-12-06",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS A thriving civic space for upholding fundamental rights in the EU 2022 Annual Report on the Application of the EU Charter of Fundamental Rights"
+  },
+  {
+   "celex": "52022DC0745",
+   "kind": "evaluation",
+   "date": "2022-12-13",
+   "title": "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the Fifth Progress Report on the implementation of the EU Security Union Strategy"
+  },
+  {
+   "celex": "52022SC0131",
+   "kind": "impact assessment",
+   "date": "2022-05-03",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document PROPOSAL FOR A REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the European Health Data Space"
+  },
+  {
+   "celex": "52022SC0364",
+   "kind": "evaluation",
+   "date": "2022-11-16",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EVALUATION of the New Legislative Framework"
+  },
+  {
+   "celex": "52023SC0269",
+   "kind": "impact assessment",
+   "date": "2023-07-28",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document PROPOSAL FOR A REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the safety of toys and repealing Directive 2009/48/EC"
+  },
+  {
+   "celex": "52023SC0570",
+   "kind": "evaluation",
+   "date": "2023-09-27",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Implementation of the Digital Decade objectives and the Digital Rights and Principles Accompanying the document Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions Report on the state of the Digital Decade 2023"
+  },
+  {
+   "celex": "52024DC0198",
+   "kind": "evaluation",
+   "date": "2024-05-15",
+   "title": "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the Seventh Progress Report on the implementation of the EU Security Union Strategy"
+  },
+  {
+   "celex": "52024DC0456",
+   "kind": "evaluation",
+   "date": "2024-10-10",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS Funding to promote, protect and enforce fundamental rights 2024 Annual report on the application of the EU Charter of Fundamental Rights"
+  },
+  {
+   "celex": "52024DC0357",
+   "kind": "evaluation",
+   "date": "2024-07-25",
+   "title": "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL Second Report on the application of the General Data Protection Regulation"
+  },
+  {
+   "celex": "52024DC0420",
+   "kind": "evaluation",
+   "date": "2024-09-25",
+   "title": "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS Implementation of the 2020-2025 LGBTIQ equality strategy"
+  },
+  {
+   "celex": "52025SC0134",
+   "kind": "evaluation",
+   "date": "2025-06-03",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EVALUATION Accompanying the document REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS on the ex post evaluation of the 2014-2020 justice programme and interim evaluation of the 2021-2027 justice programme"
+  },
+  {
+   "celex": "52024DC0198(01)",
+   "kind": "evaluation",
+   "date": "2024-05-15",
+   "title": "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the Seventh Progress Report on the implementation of the EU Security Union Strategy"
+  },
+  {
+   "celex": "52025DC0117",
+   "kind": "evaluation",
+   "date": "2025-03-24",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS on the implementation of the EU Youth Strategy (2022-2024)"
+  },
+  {
+   "celex": "52025SC0073",
+   "kind": "evaluation",
+   "date": "2025-03-24",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Accompanying the document Report from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions on the implementation of the EU Youth Strategy (2022-2024)"
+  },
+  {
+   "celex": "52026SC0022",
+   "kind": "evaluation",
+   "date": "2026-01-23",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EVALUATION of the Lifts Directive 2014/33/EU"
+  },
+  {
+   "celex": "52025SC0363",
+   "kind": "evaluation",
+   "date": "2025-11-10",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EVALUATION of the impact of the Comprehensive Economic and Trade Agreement between the EU and its Member States and Canada"
+  },
+  {
+   "celex": "52025DC0708",
+   "kind": "evaluation",
+   "date": "2025-11-17",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL AND THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE on the application of Article 33 of Regulation (EU) 2022/2065 and the interaction of that Regulation with other legal acts"
+  },
+  {
+   "celex": "52025SC0368",
+   "kind": "evaluation",
+   "date": "2025-11-17",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Accompanying the document Report from the Commission to the European Parliament, the Council and the European Economic and Social Committee on the application of Article 33 of Regulation (EU) 2022/2065 and the interaction of that Regulation with other legal acts"
+  },
+  {
+   "celex": "52025SC0836",
+   "kind": "evaluation",
+   "date": "2025-11-19",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Accompanying the documents Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL Amending Regulations (EU) 2016/679, (EU) 2018/1724, (EU) 2018/1725, (EU) 2023/2854 and Directives 2002/58/EC, (EU) 2022/2555 and (EU) 2022/2557 as regards the simplification of the digital legislative framework, and repealing Regulations (EU) 2018/1807, (EU) 2019/115"
+  },
+  {
+   "celex": "52025DC0771",
+   "kind": "evaluation",
+   "date": "2025-12-18",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS The Digital Europe Programme: Main findings of the interim evaluation"
+  },
+  {
+   "celex": "52026DC0034",
+   "kind": "evaluation",
+   "date": "2026-01-21",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL Evaluation of BEREC and the BEREC Office"
+  },
+  {
+   "celex": "52026SC0023",
+   "kind": "IA executive summary",
+   "date": "2026-01-23",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE EVALUATION of the Lifts Directive 2014/33/EU"
+  },
+  {
+   "celex": "52025SC1051",
+   "kind": "evaluation",
+   "date": "2025-12-16",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EVALUATION on the Targeted evaluation of Regulation (EU)2017/745 on Medical Devices and Regulation (EU)2017/746 on In vitro Diagnostic Medical Devices Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Regulations (EU) 2017/745 and (EU) 2017/746 as regards simplifying and reducing the burden of the rules on m"
+  },
+  {
+   "celex": "52026SC0300",
+   "kind": "impact assessment",
+   "date": "2026-05-13",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the documents Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on multimodal booking and repealing Regulation (EC) No 80/2009 Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on rail ticketing"
+  },
+  {
+   "celex": "52026SC0993",
+   "kind": "impact assessment",
+   "date": "2026-09-15",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on portability of qualifications and skills and amending Regulation (EU) 2018/1724 (\"Skills Portabilty Act\")"
+  },
+  {
+   "celex": "52026SC0772",
+   "kind": "evaluation",
+   "date": "2026-05-06",
+   "title": "COMMISSION STAFF WORKING DOCUMENT reviewing progress made in the implementation of the Council Recommendation (EU) 2021/1004 of 14 June 2021 establishing a European Child Guarantee Accompanying the document COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS Breaking the cycle of child poverty - stre"
+  },
+  {
+   "celex": "52026SC0502",
+   "kind": "impact assessment",
+   "date": "2026-06-03",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL establishing a framework of measures for strengthening Europe’s cloud and AI ecosystem (Cloud and AI Development Act)"
+  },
+  {
+   "celex": "52026DC0364",
+   "kind": "evaluation",
+   "date": "2026-07-13",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the application of Council Directive 2000/43/EC implementing the principle of equal treatment between persons irrespective of racial or ethnic origin (the Racial Equality Directive) and of Council Directive 2000/78/EC establishing a general framework for equal treatment in employment and occupation (the Employment Equality Di"
+  },
+  {
+   "celex": "52026SC0650",
+   "kind": "evaluation",
+   "date": "2026-07-22",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Review of the 2021 European Pillar of Social Rights Action Plan Accompanying the document COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS on the European Pillar of Social Rights"
+  },
+  {
+   "celex": "52026SC0786",
+   "kind": "impact assessment",
+   "date": "2026-10-06",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council on European standardisation, repealing Regulation (EU) No 1025/2012 of the European Parliament and of the Council"
+  }
+ ]
+}

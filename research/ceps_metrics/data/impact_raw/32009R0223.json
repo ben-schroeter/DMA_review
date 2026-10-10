@@ -1,0 +1,204 @@
+{
+ "celex": "32009R0223",
+ "name": "European Statistics Regulation",
+ "status": "adopted",
+ "proposal": "52007PC0625",
+ "lfs_specific_objectives": "",
+ "lfs_expected_results": "",
+ "lfs_indicators": "",
+ "memo_monitoring": "",
+ "linked_documents": [
+  {
+   "celex": "52016SC0283",
+   "kind": "impact assessment",
+   "date": "2016-08-24",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL establishing a common framework for European statistics relating to persons and households, based on data at individual level collected from samples"
+  },
+  {
+   "celex": "52017DC0109",
+   "kind": "evaluation",
+   "date": "2017-03-03",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the implementation of Regulation (EC) No 1185/2009 of the European Parliament and of the Council of 25 November 2009 concerning statistics on pesticides"
+  },
+  {
+   "celex": "52016SC0288",
+   "kind": "impact assessment",
+   "date": "2016-09-07",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council amending Regulation (EU) No 99/2013 on the European statistical programme 2013-17, by extending it to 2018-20"
+  },
+  {
+   "celex": "52017SC0098",
+   "kind": "impact assessment",
+   "date": "2017-03-06",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on European Business Statistics amending Regulation (EC) No 184/2005 and repealing 10 legal acts in the field of business statistics"
+  },
+  {
+   "celex": "52016SC0287",
+   "kind": "IA executive summary",
+   "date": "2016-09-07",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council amending Regulation (EU) No 99/2013 on the European statistical programme 2013-17, by extending it to 2018-2020"
+  },
+  {
+   "celex": "52015DC0628",
+   "kind": "evaluation",
+   "date": "2015-12-14",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the implementation of Council Regulation (EC) No 577/98 on the organisation of the labour force sample survey in the Community"
+  },
+  {
+   "celex": "52016DC0114",
+   "kind": "evaluation",
+   "date": "2016-03-07",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the implementation of the European Statistics Code of Practice and coordination within the European Statistical System"
+  },
+  {
+   "celex": "52016SC0430",
+   "kind": "impact assessment",
+   "date": "2016-12-09",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Strategy for Agricultural Statistics 2020 and beyond and subsequent potential legislative scenarios"
+  },
+  {
+   "celex": "52018SC0320",
+   "kind": "impact assessment",
+   "date": "2018-06-07",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document PROPOSAL FOR A REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL establishing the Programme for single market, competitiveness of enterprises, including small and medium-sized enterprises, and European statistics and repealing Regulations (EU) No 99/2013, (EU) No 1287/2013, (EU) No 254/2014, (EU) No 258/2014, (EU)"
+  },
+  {
+   "celex": "52018DC0506",
+   "kind": "evaluation",
+   "date": "2018-06-29",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the application of Regulation (EU) No 549/2013 of the European Parliament and of the Council of 21 May 2013 on the European System of national and regional accounts in the European Union and on the application of the granted derogations"
+  },
+  {
+   "celex": "52019DC0014",
+   "kind": "evaluation",
+   "date": "2019-01-28",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the implementation of Council Regulation (EC) No 577/98"
+  },
+  {
+   "celex": "52018SC0355",
+   "kind": "evaluation",
+   "date": "2018-06-29",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Quality Report on National and Regional Accounts. 2016 data. Accompanying the document Report from the Commission to the European Parliament and the Council on the application of Regulation (EU) No 549/2013 of the European Parliament and of the Council of 21 May 2013 on the European System of national and regional accounts in the European Union and on the applicat"
+  },
+  {
+   "celex": "52018DC0843",
+   "kind": "evaluation",
+   "date": "2018-12-14",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the implementation of Regulation (EU) No 1260/2013 on European demographic statistics"
+  },
+  {
+   "celex": "52021DC0790",
+   "kind": "evaluation",
+   "date": "2021-12-14",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the implementation of Regulation (EC) No 1185/2009 of the European Parliament and of the Council of 25 November 2009 concerning statistics on pesticides"
+  },
+  {
+   "celex": "52021DC0489",
+   "kind": "evaluation",
+   "date": "2021-08-24",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the implementation of Regulation (EC) No 862/2007 on Community statistics on migration and international protection"
+  },
+  {
+   "celex": "52023SC0013",
+   "kind": "evaluation",
+   "date": "2023-01-20",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EVALUATION Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on European statistics on population and housing, amending Regulation (EC) No 862/2007 and repealing Regulations (EC) No 763/2008 and (EU) No 1260/2013"
+  },
+  {
+   "celex": "52023SC0012",
+   "kind": "IA executive summary",
+   "date": "2023-01-20",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on European statistics on population and housing, amending Regulation (EC) No 862/2007 and repealing Regulations (EC) No 763/2008 and (EU) No 1260/2013"
+  },
+  {
+   "celex": "52023SC0011",
+   "kind": "impact assessment",
+   "date": "2023-01-20",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on European statistics on population and housing, amending Regulation (EC) No 862/2007 and repealing Regulations (EC) No 763/2008 and (EU) No 1260/2013"
+  },
+  {
+   "celex": "52021DC0794",
+   "kind": "evaluation",
+   "date": "2021-12-15",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the final evaluation of the implementation of the European statistical programme 2013-2020"
+  },
+  {
+   "celex": "52021SC0383",
+   "kind": "evaluation",
+   "date": "2021-12-15",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Final evaluation of the European statistical programme 2013-2020 Accompanying the document REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the final evaluation of the implementation of the European statistical programme 2013-2020"
+  },
+  {
+   "celex": "52023SC0241",
+   "kind": "IA executive summary",
+   "date": "2023-07-10",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council amending Regulation (EC) No 223/2009 on European statistics"
+  },
+  {
+   "celex": "52023SC0240",
+   "kind": "impact assessment",
+   "date": "2023-07-10",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council amending Regulation (EC) No 223/2009 on European statistics"
+  },
+  {
+   "celex": "52019SC0425",
+   "kind": "evaluation",
+   "date": "2019-11-28",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EVALUATION of the European Fishery Statistics"
+  },
+  {
+   "celex": "52023DC0308",
+   "kind": "evaluation",
+   "date": "2023-06-13",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the application of Regulation (EU) No 549/2013 of the European Parliament and of the Council of 21 May 2013 on the European system of national and regional accounts in the European Union"
+  },
+  {
+   "celex": "52023SC0266",
+   "kind": "IA executive summary",
+   "date": "2023-07-28",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on European labour market statistics on businesses, repealing Council Regulation (EC) No 530/1999 and Regulations (EC) No 450/2003 and (EC) No 453/2008 of the European Parliament and of the Council"
+  },
+  {
+   "celex": "52023SC0265",
+   "kind": "impact assessment",
+   "date": "2023-07-28",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council on European labour market statistics on businesses, repealing Council Regulation (EC) No 530/1999 and Regulations (EC) No 450/2003 and (EC) No 453/2008 of the European Parliament and of the Council"
+  },
+  {
+   "celex": "52024DC0326",
+   "kind": "evaluation",
+   "date": "2024-07-30",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the implementation of Regulation (EU) No 1260/2013 of the European Parliament and of the Council on European demographic statistics"
+  },
+  {
+   "celex": "52025DC0012",
+   "kind": "evaluation",
+   "date": "2025-01-28",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the implementation of Regulation (EC) No 1921/2006 of the European Parliament and of the Council of 18 December 2006 on the submission of statistical data on landings of fishery products in Member States"
+  },
+  {
+   "celex": "52025SC0172",
+   "kind": "evaluation",
+   "date": "2025-07-01",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EVALUATION The interim evaluation of the Single Market Programme 2021-2027 Accompanying the document Report from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions on the interim evaluation of the Single Market Programme 2021-2027"
+  },
+  {
+   "celex": "52025SC0232",
+   "kind": "impact assessment",
+   "date": "2025-07-30",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on European fisheries and aquaculture statistics and repealing Regulations (EC) No 1921/2006, (EC) No 762/2008, (EC) No 216/2009, (EC) No 217/2009 and (EC) No 218/2009"
+  },
+  {
+   "celex": "52026SC0102",
+   "kind": "impact assessment",
+   "date": "2026-02-26",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Directive of the European Parliament and of the Council on combating firearms trafficking and other firearms-related offences and amending Directive (EU) 2024/1260 of the European Parliament and of the Council"
+  },
+  {
+   "celex": "52026DC0107",
+   "kind": "evaluation",
+   "date": "2026-03-04",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the implementation of Regulation (EU) 2018/974 of the European Parliament and of the Council of 4 July 2018 on statistics of goods transport by inland waterways"
+  }
+ ]
+}

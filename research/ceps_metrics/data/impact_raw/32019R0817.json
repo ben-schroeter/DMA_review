@@ -1,0 +1,192 @@
+{
+ "celex": "32019R0817",
+ "name": "Interoperability of EU information systems (borders and visa) Regulation",
+ "status": "adopted",
+ "proposal": "52017PC0793",
+ "lfs_specific_objectives": "1.4.2. Specific objective(s) and Specific objective No [ ]\nThe establishment of the interoperability components has the following general objectives:\n(a) to improve the management of the external borders;\n(b) to contribute to preventing and combating irregular migration; and\n(c) to contribute to a high level of security within the area of freedom, security and justice of the Union including the maintenance of public security and public policy and safeguarding the security in the territories of the Member States.\nThe objectives of ensuring interoperability shall be achieved by:\n(a)\nensuring the correct identification of persons;\n(b)\ncontributing to fighting identity fraud;\n(c)\nimproving and harmonising data quality requirements of the respective EU information systems;\n(d)\nfacilitating the technical and operational implementation by Member States of existing and future EU information systems;\n(e)\nstrengthening and simplifying and making more uniform the data security and data protection conditions that govern the respective EU information systems;\n(f)\nsimplifying and making more uniform the conditions for law enforcement access to the EES, the VIS, the ETIAS and Eurodac;\n(g)\nsupporting the purposes of the EES, the VIS, the ETIAS, Eurodac, the SIS and the ECRIS-TCN System\nABM/ABB activity(ies) concerned\nChapter Security and Safeguarding Liberties: Internal Security",
+ "lfs_expected_results": "1.4.3. Expected result(s) and impact\nSpecify the effects which the proposal/initiative should have on the beneficiaries/groups targeted.\nThe general objectives of this initiative result from the two Treaty-based goals:\n1. To improve the management of the Schengen external borders, building on the European Agenda on Migration and subsequent communications, including the Communication on preserving and strengthening Schengen area.\n2. To contribute to the internal security of the European Union, building on the European Agenda on Security and the Commission's work towards an effective and genuine Security Union.\nThe specific policy objectives of this interoperability initiative are:\nThe specific objectives of this proposal are to:\n1.\nensure that end-users, particularly border guards, law enforcement officers, immigration officials and judicial authorities have fast, seamless, systematic and controlled access to the information that they need to perform their tasks;\n2.\nprovide a solution to detect multiple identities linked to the same set of biometric data, with the dual purpose of ensuring the correct identification of bona fide persons and combating identity fraud;\n3.\nfacilitate identity checks of third-country nationals, on the territory of a Member State, by police authorities; and\n4.\nfacilitate and streamline access by law enforcement authorities to non-law enforcement information systems at EU level, where necessary for the prevention, investigation, detection or prosecution of serious crime and terrorism.\nTo meet the specific objective 1, the European search portal (ESP) will be developed.\nTo meet the specific objective 2, the multiple identity detector (MID) will be put in place, supported by the common identity repository (CIR) and the shared biometric matching service (shared BMS).\nTo meet the specific objective 3, authorised officials will be granted access to the CIR for the purpose of identification.\nTo meet objective 4 the CIR will contain a hit-flag functionality which will allow for a two-step approach for law enforcement access to border management systems.\nIn addition to these four interoperability components the objectives described in section 1.4.2 will be furthermore be supported by the establishment and governance of the Universal Message Format (UMF) as an EU standard for the development of information systems in the area of justice and home affairs, and by the establishment of a common repository for reporting and statistics (CRRS).",
+ "lfs_indicators": "1.4.4. Indicators of results and impact\nSpecify the indicators for monitoring implementation of the proposal/initiative.\nEach of the measures proposed requires the development, followed by the maintenance and operations, of that component.\nDuring the development\nThe development of each component will be done once the prerequisites are fulfilled i.e. the legal proposal is adopted by the co-legislators and the technical prerequisites fulfilled, as some components can only be built once another one is available.\nSpecific objective: ready for operations by the target due date\nBy the end of 2017, the proposal is sent to the co-legislators for their adoption. The assumption is made that the adoption process will be completed during 2018 by analogy with the time taken for other proposals.\nUnder that assumption, the start of the development period is set at the beginning of 2019 (= T0) in order to have a reference point from where durations are counted and not absolute dates. If adoption by co-legislators occurs at a later date, the whole schedule shifts accordingly. On the other hand, the shared BMS needs to be available before the CIR and the MID can be completed. The durations of development are indicated on the chart below:\n(Block in yellow relates to a specific Eurodac-related task.)\n- Common repository for reporting and statistics (CRRS): due date: T0 + 12 months (2019-2020)\n- European search portal (ESP): due date: T0+36 months (2019-2021)\n- Shared biometric matching service (shared BMS) is first created for delivering the Entry/Exit System (EES). When this milestone is achieved, the applications that will use the shared BMS need to be updated and the data contained in the SIS automated fingerprint identification system (AFIS), the Eurodac AFIS and the data of ECRIS-TCN migrated into the shared BMS. The due date for completion is end-2023.\n- The common identity repository (CIR) is first created during the implementation of EES. When the EES is completed, the data from Eurodac and ECRIS are incorporated into the CIR. The due date for completion is end-2022 (availability of shared BMS + 12 months).\n- The multiple identity detector (MID) is created after the CIR is operational. The due date for completion is end-2022 (availability of shared BMS + 24 months) but there is a very resource-consuming period of validating links between identities that are proposed by the MID. Each of the estimated links needs to be manually validated. This takes till the end of 2023.\nThe period of operations starts once the development period indicated above is completed.\nOperations\nIndicators related to each specific objective mentioned under 1.4.3 are as follows:\n1. Specific objective: Fast, seamless and systematic access to authorised data sources\n- The number of use cases executed (= number of searches that can be handled by ESP) per time period.\n- Number of searches handled by ESP compared with total number of searches (via ESP and systems directly) per time period.\n2. Specific objective: Detect multiple identities\n- The number of identities linked to the same set of biometric data compared with the number of identities with biographical information per time period.\n- The number of detected cases of identity fraud compared with the number of linked identities and total number of identities per time period.\n3. Specific objective: Facilitate identifications of third-country nationals\n- The number of identification checks performed compared with total number of transactions per time period.\n4. Specific objective: Simplify access to authorised data sources for law enforcement purposes\n- The number of 'step 1' (= a data presence check) accesses for law enforcement purposes per time period.\n- Number of 'step 2' (= the actual consultation of data from the EU systems within the scope) accesses for law enforcement purposes per time period.\n5. Cross-cutting, additional objective: Improving the quality of data and the use of data for better policymaking\n- The regular issuance of data quality monitoring reports.\n- The number of ad hoc requests for statistical information per time period.",
+ "memo_monitoring": "• Implementation plans and monitoring, evaluation and reporting arrangements\neu-LISA is responsible for the operational management of large-scale IT systems in the area of freedom, security and justice. As such, it is already entrusted with the operation and technical and operational improvements of existing systems, and the development of the future systems already envisaged. Under this proposed Regulation, it will define the design of the physical architecture of the interoperability components, develop and implement them, and ultimately host them. The respective components will be implemented incrementally, in conjunction with the development of the underlying systems.\nThe Commission will ensure that systems are in place to monitor the development and functioning of the four components (European search portal, shared biometric matching service, common identity repository, multiple-identity detector) and the central repository for reporting and statistics, and evaluate them against the main policy objectives. Four years after the functionalities are put in place and operating, and every four years thereafter, eu-LISA should submit to the European Parliament, the Council and the Commission a report on the technical functioning of the interoperability components. In addition, five years after the functionalities are put in place and operating, and every four years thereafter, the Commission should produce an overall evaluation of the components, including on the direct or indirect impact of the components and of its practical implementation on fundamental rights. It should examine results achieved against objectives and assess the continuing validity of the underlying rationale and any implications for future options. The Commission should submit the evaluation reports to the European Parliament and the Council.",
+ "linked_documents": [
+  {
+   "celex": "52018SC0304",
+   "kind": "evaluation",
+   "date": "2018-06-04",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Staff Working Document on the Application of the EU Charter of Fundamental Rights in 2017 Accompanying the document Report from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions 2017 Report on the Application of the EU Charter of Fundamental Rights"
+  },
+  {
+   "celex": "52018DC0396",
+   "kind": "evaluation",
+   "date": "2018-06-04",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS 2017 Annual Report on the Application of the EU Charter of Fundamental Rights"
+  },
+  {
+   "celex": "52018SC0195",
+   "kind": "impact assessment",
+   "date": "2018-05-16",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council amending Regulation (EC) No 767/2008, Regulation (EC) No 810/2009, Regulation (EU) 2017/2226, Regulation (EU) 2016/399, Regulation XX/2018 [Interoperability Regulation], and Decision 2004/512/EC and repealing Council Decision 2008/633/JHA"
+  },
+  {
+   "celex": "52018SC0347",
+   "kind": "impact assessment",
+   "date": "2018-06-12",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council establishing the Asylum and Migration Fund Proposal for a Regulation of the European Parliament and of the Council establishing the Internal Security Fund Proposal for a Regulation of the European Parliament and of the Council establishing, as part o"
+  },
+  {
+   "celex": "52018SC0341",
+   "kind": "evaluation",
+   "date": "2018-06-12",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Interim Evaluation of the Internal Security Fund - Police Accompanying the document Report from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions on interim evaluation of the Asylum, Migration and Integration Fund and the Internal Security Fund"
+  },
+  {
+   "celex": "52018SC0077",
+   "kind": "impact assessment",
+   "date": "2018-03-14",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document PROPOSAL FOR A REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Regulation (EC) No 810/2009 establishing a Community Code on Visas (Visa Code)"
+  },
+  {
+   "celex": "52017SC0474",
+   "kind": "IA executive summary",
+   "date": "2017-12-12",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT Accompanying the document PROPOSAL FOR A REGULATION OF THE EUROPEAN PARLIAMENT AND THE COUNCIL on establishing a framework for interoperability between EU information systems (borders and visa) and amending Council Decision 2004/512/EC, Regulation (EC) No 767/2008, Council Decision 2008/633/JHA, Regulation (EU) 2016/399 a"
+  },
+  {
+   "celex": "52017SC0473",
+   "kind": "impact assessment",
+   "date": "2017-12-12",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document PROPOSAL FOR A REGULATION OF THE EUROPEAN PARLIAMENT AND THE COUNCIL on establishing a framework for interoperability between EU information systems (borders and visa) and amending Council Decision 2004/512/EC, Regulation (EC) No 767/2008, Council Decision 2008/633/JHA, Regulation (EU) 2016/399 and Regulation (EU) 2017/2"
+  },
+  {
+   "celex": "52021SC0119",
+   "kind": "impact assessment",
+   "date": "2021-06-02",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a Council Regulation on the establishment and operation of an evaluation and monitoring mechanism to verify the application of the Schengen acquis and repealing Regulation (EU) No 1053/2013"
+  },
+  {
+   "celex": "52019DC0481",
+   "kind": "evaluation",
+   "date": "2019-10-16",
+   "title": "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE EUROPEAN COUNCIL AND THE COUNCIL Progress report on the Implementation of the European Agenda on Migration"
+  },
+  {
+   "celex": "52020SC0541",
+   "kind": "impact assessment",
+   "date": "2020-12-02",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council on a computerised system for communication in cross-border civil and criminal proceedings (e-CODEX system), and amending Regulation (EU) 2018/1726"
+  },
+  {
+   "celex": "52020DC0428",
+   "kind": "evaluation",
+   "date": "2020-08-21",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the state of play of preparations for the full implementation of the Interoperability Regulations in accordance with Article 78(5) of Regulation (EU) 2019/817 and Article 74(5) of Regulation (EU) 2019/818"
+  },
+  {
+   "celex": "52021DC0489",
+   "kind": "evaluation",
+   "date": "2021-08-24",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the implementation of Regulation (EC) No 862/2007 on Community statistics on migration and international protection"
+  },
+  {
+   "celex": "52021DC0688",
+   "kind": "evaluation",
+   "date": "2021-11-10",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the state of play of preparations for the full implementation of the Interoperability Regulations in accordance with Article 78(5) of Regulation (EU) 2019/817 and Article 74(5) of Regulation (EU) 2019/818"
+  },
+  {
+   "celex": "52022SC0422",
+   "kind": "impact assessment",
+   "date": "2022-12-13",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the documents Proposal for a Regulation of the European Parliament and of the Council on the collection and transfer of advance passenger information (API) for enhancing and facilitating external border controls, amending Regulation (EU) 2019/817 and Regulation (EU) 2018/1726, and repealing Council Directive 2004/82/EC Proposa"
+  },
+  {
+   "celex": "52021SC0462",
+   "kind": "impact assessment",
+   "date": "2021-12-14",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Regulation (EU) 2016/399 on a Union Code on the rules governing the movement of persons across borders"
+  },
+  {
+   "celex": "52021SC0378",
+   "kind": "impact assessment",
+   "date": "2021-12-08",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document PROPOSAL FOR A REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on automated data exchange for police cooperation (“Prüm II”), amending Council Decisions 2008/615/JHA and 2008/616/JHA and Regulations (EU) 2018/1726, 2019/817 and 2019/818 of the European Parliament and of the Council"
+  },
+  {
+   "celex": "52023DC0066",
+   "kind": "evaluation",
+   "date": "2023-02-09",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the state of play of preparations for the full implementation of the VIS Regulation in accordance with Article 11(3) of Regulation (EU) 2021/1134"
+  },
+  {
+   "celex": "52022DC0524",
+   "kind": "evaluation",
+   "date": "2022-10-13",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the state of play of preparations for the full implementation of the Interoperability Regulations in accordance with Article 78(5) of Regulation (EU) 2019/817 and Article 74(5) of Regulation (EU) 2019/818"
+  },
+  {
+   "celex": "52024DC0013",
+   "kind": "evaluation",
+   "date": "2024-01-18",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL Second report on the state of play of preparations for the full implementation of the VIS Regulation in accordance with Article 11(3) of Regulation (EU) 2021/1134"
+  },
+  {
+   "celex": "52024SC0251",
+   "kind": "evaluation",
+   "date": "2024-06-12",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Operational Checklist and List of Commission Implementing and Delegated Acts to be adopted for the Implementation of the Pact on Migration and Asylum Accompanying the document COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS Common Implementation Plan for the Pact"
+  },
+  {
+   "celex": "52024SC0671",
+   "kind": "impact assessment",
+   "date": "2024-10-08",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL establishing an application for the electronic submission of travel data (“EU Digital Travel application”) and amending Regulations (EU) 2016/399 and (EU) 2018/1726 of the European Parliament and of the Council and Council Regulation (EC) No 2"
+  },
+  {
+   "celex": "52024SC0075",
+   "kind": "evaluation",
+   "date": "2024-02-02",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EVALUATION Accompanying the document REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the evaluation of Regulation (EU) 2019/1896 on the European Border and Coast Guard, including a review of the Standing Corps"
+  },
+  {
+   "celex": "52024DC0293",
+   "kind": "evaluation",
+   "date": "2024-07-11",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the state of play of preparations for the full implementation of the Interoperability Regulations in accordance with Article 78(5) of Regulation (EU) 2019/817 and Article 74(5) of Regulation (EU) 2019/818"
+  },
+  {
+   "celex": "52025DC0162",
+   "kind": "evaluation",
+   "date": "2025-04-10",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the state of play of preparations for full implementation of the Interoperability Regulations in accordance with Article 78(5) of Regulation (EU) 2019/817 and Article 74(5) of Regulation (EU) 2019/818"
+  },
+  {
+   "celex": "52025DC0346",
+   "kind": "evaluation",
+   "date": "2025-07-01",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the state of play of preparations for the full implementation of the VIS Regulation in accordance with Article 11(3) of Regulation (EU) 2021/1134"
+  },
+  {
+   "celex": "52026DC0032",
+   "kind": "evaluation",
+   "date": "2026-01-26",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the evaluation of the European Union Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice (eu-LISA) in accordance with Article 39 of Regulation (EU) 2018/1726"
+  },
+  {
+   "celex": "52026SC0980",
+   "kind": "evaluation",
+   "date": "2026-01-26",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EVALUATION of the European Union Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice (eu-LISA) in accordance with Article 39 of Regulation (EU) 2018/1726 Accompanying the document Report from the Commission to the European Parliament and the Council on the evaluation of the European Union Agency for the Oper"
+  },
+  {
+   "celex": "52026SC0570",
+   "kind": "impact assessment",
+   "date": "2026-06-24",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the European Union Agency for Criminal Justice Cooperation (Eurojust) and repealing Regulation (EU) 2018/1727"
+  },
+  {
+   "celex": "52026DC0446",
+   "kind": "evaluation",
+   "date": "2026-09-07",
+   "title": "REPORT FROM THE COMMISSION TO THE COUNCIL AND THE EUROPEAN PARLIAMENT on the state of play of preparations for the full implementation of the Interoperability Regulations in accordance with Article 78(5) of Regulation (EU) 2019/817 and Article 74(5) of Regulation (EU) 2019/818"
+  }
+ ]
+}

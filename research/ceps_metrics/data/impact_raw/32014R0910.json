@@ -1,0 +1,342 @@
+{
+ "celex": "32014R0910",
+ "name": "eIDAS Regulation",
+ "status": "adopted",
+ "proposal": "52012PC0238",
+ "lfs_specific_objectives": "1.4.2. Specific objective(s) and\nABM/ABB activity(ies) concerned\nTo enhance trust in pan-European electronic transactions and to\nensure cross-border legal recognition of electronic identification,\nauthentication, signature and related trust services as well as a high level of\ndata protection and user empowerment in the single market (see Digital Agenda\nfor Europe, key actions 3 and 16).\nABM/ABB activity(ies) concerned\n09 02 - Regulatory framework for the Digital Agenda for Europe",
+ "lfs_expected_results": "1.4.3. Expected result(s) and\nimpact\nSpecify the effects\nwhich the proposal/initiative should have on the beneficiaries/groups targeted.\nEstablish a clear\nregulatory environment for eIAS services that would boost user convenience,\ntrust and confidence in the digital world.",
+ "lfs_indicators": "1.4.4. Indicators of results and\nimpact\nSpecify the\nindicators for monitoring implementation of the proposal/initiative.\n1. Existence of eIAS\nsuppliers that have activities in multiple EU Member States:\n2. Degree to which\ndevices become inter-operational (e.g. smartcard readers) between sectors and countries;\n3. Usage of eIAS by\nall categories of population;\n4. Extent to which\neIAS are used by end-users for national transactions and international\n(cross-border) transactions;\n5. Degree of\nharmonization across Members States of eIAS legislation;\n6. Electronic\nidentification schemes notified to the Commission;\n7. Services\naccessible with notified electronic identification means in the public sector (e.g.\neGovernment, eHealth, eJustice, eProcurement);\n8. Services accessible with notified electronic identification\nmeans in the private sector (e.g. online banking, eCommerce, eGambling, login\nto websites, safer internet services).",
+ "memo_monitoring": "",
+ "linked_documents": [
+  {
+   "celex": "52012SC0135",
+   "kind": "impact assessment",
+   "date": "2012-06-04",
+   "title": "COMMISSION STAFF WORKING PAPER IMPACT ASSESSMENT Accompanying the proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on electronic identification and trust services for electronic transactions in the internal market"
+  },
+  {
+   "celex": "52017SC0298",
+   "kind": "impact assessment",
+   "date": "2017-09-13",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a Directive of the European Parliament and the Council on combating fraud and counterfeiting of non-cash means of payment and replacing Council Framework Decision 2001/413/JHA"
+  },
+  {
+   "celex": "52016SC0439",
+   "kind": "impact assessment",
+   "date": "2017-01-10",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council introducing a European services e-card and related administrative facilities"
+  },
+  {
+   "celex": "52016SC0279",
+   "kind": "evaluation",
+   "date": "2016-09-01",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Final evaluation of the ISA programme Accompanying the document Report from the Commission to the European Parliament and Council on the results of the final evaluation of the ISA programme"
+  },
+  {
+   "celex": "52017SC0500",
+   "kind": "impact assessment",
+   "date": "2017-09-13",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document PROPOSAL FOR A REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on ENISA, the \"EU Cybersecurity Agency\", and repealing Regulation (EU) 526/2013, and on Information and Communication Technology cybersecurity certification (''Cybersecurity Act'')"
+  },
+  {
+   "celex": "52012SC0136",
+   "kind": "IA executive summary",
+   "date": "2012-06-04",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on electronic identification and trust services for electronic transactions in the internal market"
+  },
+  {
+   "celex": "52016SC0223",
+   "kind": "impact assessment",
+   "date": "2016-07-05",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a Directive of the European Parliament and the Council amending Directive (EU) 2015/849 on the prevention of the use of the financial system for the purposes of money laundering or terrorist financing and amending Directive 2009/101/EC"
+  },
+  {
+   "celex": "52016SC0108",
+   "kind": "evaluation",
+   "date": "2016-04-19",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Implementation and Evaluation report Accompanying the document Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions EU eGovernment Action Plan 2016 - 2020 Accelerating the digital transformation of government"
+  },
+  {
+   "celex": "52016SC0437",
+   "kind": "impact assessment",
+   "date": "2017-01-10",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a Directive of the European Parliament and of the Council on the legal and operational framework of the European services e-card introduced by Regulation ....[ESC Regulation]...."
+  },
+  {
+   "celex": "52017SC0213",
+   "kind": "impact assessment",
+   "date": "2017-05-02",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a regulation of the European parliament and of the Council on establishing a single digital gateway to provide information, procedures, assistance and problem solving services and amending Regulation (EU) No 1024/2012"
+  },
+  {
+   "celex": "52018SC0286",
+   "kind": "IA executive summary",
+   "date": "2018-05-31",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Regulation (EC) No 1393/2007 of the European Parliament and of the Council on the service in the Member States of judicial and extrajudicial documents in civil or commercial matters (service of documents)"
+  },
+  {
+   "celex": "52018SC0287",
+   "kind": "impact assessment",
+   "date": "2018-05-31",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council amending Regulation (EC) No 1393/2007 of the European Parliament and of the Council on the service in the Member States of judicial and extrajudicial documents in civil or commercial matters (service of documents)"
+  },
+  {
+   "celex": "52018SC0434",
+   "kind": "evaluation",
+   "date": "2018-10-11",
+   "title": "COMMISSION STAFF WORKING DOCUMENT on the implementation of the actions foreseen in the annual Union work programme for European standardisation for 2019 Accompanying the document COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS The annual Union work programme for European standardisation for 2019"
+  },
+  {
+   "celex": "52018SC0284",
+   "kind": "IA executive summary",
+   "date": "2018-05-31",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Council Regulation (EC) No 1206/2001 of 28 May 2001 on cooperation between the courts of the Member States in the taking of evidence in civil or commercial matters"
+  },
+  {
+   "celex": "52018SC0181",
+   "kind": "impact assessment",
+   "date": "2018-05-17",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council establishing a European Maritime Single Window environment and repealing directive 2010/65/EU"
+  },
+  {
+   "celex": "52018SC0305",
+   "kind": "impact assessment",
+   "date": "2018-06-06",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council establishing the Digital Europe programme for the period 2021-2027"
+  },
+  {
+   "celex": "52018SC0285",
+   "kind": "impact assessment",
+   "date": "2018-05-31",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Council Regulation (EC) No 1206/2001 of 28 May 2001 on cooperation between the courts of the Member States in the taking of evidence in civil or commercial matters"
+  },
+  {
+   "celex": "52018SC0110",
+   "kind": "impact assessment",
+   "date": "2018-04-17",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on strengthening the security of identity cards of Union citizens and of residence documents issued to Union citizens and their family members exercising their right of free movement"
+  },
+  {
+   "celex": "52018SC0183",
+   "kind": "impact assessment",
+   "date": "2018-05-17",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council on electronic freight transport information"
+  },
+  {
+   "celex": "52018SC0142",
+   "kind": "IA executive summary",
+   "date": "2018-04-25",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT Accompanying the document Proposal for a Directive of the European Parliament and of the Council amending Directive (EU) 2017/1132 as regards the use of digital tools and processes in company law and Proposal for a Directive of the European Parliament and of the Council amending Directive (EU) 2017/1132 as regards cross-b"
+  },
+  {
+   "celex": "52018SC0141",
+   "kind": "impact assessment",
+   "date": "2018-04-25",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a Directive of the European Parliament and of the Council amending Directive (EU) 2017/1132 as regards the use of digital tools and processes in company law and Proposal for a Directive of the European Parliament and of the Council amending Directive (EU) 2017/1132 as regards cross-border conversions, merger"
+  },
+  {
+   "celex": "52018SC0044",
+   "kind": "evaluation",
+   "date": "2018-02-14",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Accompanying the document Report from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions on the mid-term evaluation of the Connecting Europe Facility (CEF)"
+  },
+  {
+   "celex": "52021SC0130",
+   "kind": "evaluation",
+   "date": "2021-06-03",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Accompanying the document REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the evaluation of Regulation (EU) No 910/2014 on electronic identification and trust services for electronic transactions in the internal market (eIDAS)"
+  },
+  {
+   "celex": "52021SC0125",
+   "kind": "IA executive summary",
+   "date": "2021-06-03",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a regulation of the European PArliament and of the Council amending Regulation (EU) n° 910/2014 as regards establishing a framework for a European Digital Identity"
+  },
+  {
+   "celex": "52021SC0124",
+   "kind": "impact assessment",
+   "date": "2021-06-03",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council amending Regulation (EU) n° 910/2014 as regards establishing a framework for a European Digital Identity"
+  },
+  {
+   "celex": "52021DC0290",
+   "kind": "evaluation",
+   "date": "2021-06-03",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the evaluation of Regulation (EU) No 910/2014 on electronic identification and trust services for electronic transactions in the internal market (eIDAS)"
+  },
+  {
+   "celex": "52020SC0029",
+   "kind": "evaluation",
+   "date": "2020-02-10",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EVALUATION Accompanying the document REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL assessing the invoicing rules of Directive 2006/112/EC on the common system of value added tax"
+  },
+  {
+   "celex": "52018DC0794",
+   "kind": "evaluation",
+   "date": "2018-12-05",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE EUROPEAN COUNCIL, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS on the implementation of the Communication \"Tackling online disinformation: a European Approach\""
+  },
+  {
+   "celex": "52022SC0190",
+   "kind": "impact assessment",
+   "date": "2022-07-14",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council on standards of quality and safety for substances of human origin intended for human application and repealing Directives 2002/98/EC and 2004/23/EC"
+  },
+  {
+   "celex": "52020SC0203",
+   "kind": "impact assessment",
+   "date": "2020-09-24",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Directive of the European Parliament and of the Council amending Directives 2006/43/EC, 2009/65/EC, 2009/138/EU, 2011/61/EU, EU/2013/36, 2014/65/EU, (EU) 2015/2366 and EU/2016/2341"
+  },
+  {
+   "celex": "52020SC0198",
+   "kind": "impact assessment",
+   "date": "2020-09-24",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council on digital operational resilience for the financial sector and amending Regulations (EC) No 1060/2009, (EU) No 648/2012, (EU) No 600/2014 and (EU) No 909/2014"
+  },
+  {
+   "celex": "52021SC0392",
+   "kind": "impact assessment",
+   "date": "2021-12-01",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the digitalisation of judicial cooperation and access to justice in cross-border civil, commercial and criminal matters, and amending certain acts in the field of judicial cooperation and Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT "
+  },
+  {
+   "celex": "52020SC0345",
+   "kind": "impact assessment",
+   "date": "2020-12-16",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Directive of the European Parliament and of the Council on measures for a high common level of cybersecurity across the Union, repealing Directive (EU) 2016/1148"
+  },
+  {
+   "celex": "52021SC0081",
+   "kind": "evaluation",
+   "date": "2021-04-21",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Fitness Check on the EU framework for public reporting by companies Accompanying the document Report from the Commission to the European Parliament, the Council and the European Economic and Social Committee on the review clauses in Directives 2013/34/EU, 2014/95/EU, and 2013/50/EU"
+  },
+  {
+   "celex": "52020SC0238",
+   "kind": "impact assessment",
+   "date": "2020-10-28",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council establishing the European Union Single Window Environment for Customs and amending Regulation (EU) No 952/2013"
+  },
+  {
+   "celex": "52023SC0224",
+   "kind": "impact assessment",
+   "date": "2023-06-28",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council on a framework for Financial Data Access and amending Regulations (EU) No 1093/2010, (EU) No 1094/2010, (EU) No 1095/2010 and (EU) 2022/2554"
+  },
+  {
+   "celex": "52022SC0721",
+   "kind": "impact assessment",
+   "date": "2022-11-18",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL laying down measures for a high level of public sector interoperability across the Union (Interoperable Europe Act)"
+  },
+  {
+   "celex": "52022SC0720",
+   "kind": "evaluation",
+   "date": "2022-11-18",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Final evaluation of the European Interoperability Framework (EIF) Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL laying down measures for a high level of public sector interoperability across the Union (Interoperable Europe Act)"
+  },
+  {
+   "celex": "52022SC0410",
+   "kind": "evaluation",
+   "date": "2022-12-07",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EVALUATION Review of the application of Directive (EU) 2016/2102 of the European Parliament and of the Council of 26 October 2016 on the accessibility of the websites and mobile applications of public sector bodies (Web Accessibility Directive)"
+  },
+  {
+   "celex": "52022SC0131",
+   "kind": "impact assessment",
+   "date": "2022-05-03",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document PROPOSAL FOR A REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the European Health Data Space"
+  },
+  {
+   "celex": "52023SC0128",
+   "kind": "impact assessment",
+   "date": "2023-03-01",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the documents Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on driving licences, amending Directive (EU) 2022/2561 of the European Parliament and of the Council, Regulation (EU) 2018/1724 of the European Parliament and of the Council and repealing Directive 2006/126/EC of the European Parliament and of"
+  },
+  {
+   "celex": "52023SC0178",
+   "kind": "impact assessment",
+   "date": "2023-03-29",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Directives 2009/102/EC and (EU) 2017/1132 as regards further expanding and upgrading the use of digital tools and processes in company law"
+  },
+  {
+   "celex": "52023SC0573",
+   "kind": "evaluation",
+   "date": "2023-09-27",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Implementation of multi-country projects Accompanying the document Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions Report on the state of the Digital Decade 2023"
+  },
+  {
+   "celex": "52022SC0282",
+   "kind": "impact assessment",
+   "date": "2022-09-15",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council on horizontal cybersecurity requirements for products with digital elements and amending Regulation (EU) 2019/1020"
+  },
+  {
+   "celex": "52023SC0233",
+   "kind": "impact assessment",
+   "date": "2023-06-28",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the documents Proposal for a Regulation of the European Parliament and of the Council on the establishment of the digital euro and Proposal for a Regulation of the European Parliament and of the Council on the provision of digital euro services by payment services providers incorporated in Member States whose currency is not t"
+  },
+  {
+   "celex": "52023DC0787",
+   "kind": "evaluation",
+   "date": "2023-12-06",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the application of Regulation (EU) 2019/788 on the European citizens’ initiative"
+  },
+  {
+   "celex": "52024SC0039",
+   "kind": "evaluation",
+   "date": "2024-02-19",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EVALUATION Accompanying the document Report from the Commission to the European Parliament and the Council on the effects of Directive 2014/55/EU on the Internal Market and on the uptake of electronic invoicing in public procurement"
+  },
+  {
+   "celex": "52023SC0335",
+   "kind": "impact assessment",
+   "date": "2023-10-17",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Directive 2013/11/EU on alternative dispute resolution for consumer disputes, as well as Directives (EU) 2015/2302, (EU) 2019/2161 and (EU) 2020/1828"
+  },
+  {
+   "celex": "52023SC0570",
+   "kind": "evaluation",
+   "date": "2023-09-27",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Implementation of the Digital Decade objectives and the Digital Rights and Principles Accompanying the document Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions Report on the state of the Digital Decade 2023"
+  },
+  {
+   "celex": "52025SC0368",
+   "kind": "evaluation",
+   "date": "2025-11-17",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Accompanying the document Report from the Commission to the European Parliament, the Council and the European Economic and Social Committee on the application of Article 33 of Regulation (EU) 2022/2065 and the interaction of that Regulation with other legal acts"
+  },
+  {
+   "celex": "52025SC0836",
+   "kind": "evaluation",
+   "date": "2025-11-19",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Accompanying the documents Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL Amending Regulations (EU) 2016/679, (EU) 2018/1724, (EU) 2018/1725, (EU) 2023/2854 and Directives 2002/58/EC, (EU) 2022/2555 and (EU) 2022/2557 as regards the simplification of the digital legislative framework, and repealing Regulations (EU) 2018/1807, (EU) 2019/115"
+  },
+  {
+   "celex": "52026SC0002",
+   "kind": "evaluation",
+   "date": "2026-01-20",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EVALUATION Accompanying the document REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the evaluation of the European Union Agency for Cybersecurity (ENISA) and the European Cybersecurity Certification Framework"
+  },
+  {
+   "celex": "52026SC0321",
+   "kind": "impact assessment",
+   "date": "2026-03-18",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on THE 28TH REGIME CORPORATE LEGAL FRAMEWORK - 'EU INC'"
+  },
+  {
+   "celex": "52026SC0993",
+   "kind": "impact assessment",
+   "date": "2026-09-15",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on portability of qualifications and skills and amending Regulation (EU) 2018/1724 (\"Skills Portabilty Act\")"
+  },
+  {
+   "celex": "52026SC0982",
+   "kind": "impact assessment",
+   "date": "2026-09-15",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on digitalising the coordination of social security systems, laying down a framework for the European Social Security Pass (ESSPASS) and amending Regulations (EC) No 883/2004, (EC) No 987/2009 and (EU) No 2018/1724"
+  }
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "celex": "32022R2554",
+ "name": "Digital Operational Resilience Act (DORA)",
+ "status": "adopted",
+ "proposal": "52020PC0595",
+ "lfs_specific_objectives": "",
+ "lfs_expected_results": "",
+ "lfs_indicators": "",
+ "memo_monitoring": "· Implementation plans and monitoring, evaluation and reporting arrangements\nThe proposal includes a general plan for monitoring and evaluating the impact on the specific objectives, requiring the Commission to carry out a review at least three years after the entry into force, and to report to the European Parliament and the Council on its main findings.\nThe review is to be conducted in line with the Commission’s Better Regulation Guidelines.\n· Detailed explanation of the specific provisions of the proposal\nThe proposal is structured around several main policy areas which are key inter-related pillars consensually included in European and international guidance and best practices aimed at enhancing the cyber and operational resilience of the financial sector.\nScope of the Regulation and proportionality application of required measures (Article 2)\nTo ensure consistency around the ICT risk management requirements applicable to the financial sector, the regulation covers a range of financial entities regulated at Union level, namely credit institutions, payment institutions, electronic money institutions, investment firms, crypto-asset service providers, central securities depositories, central counterparties, trading venues, trade repositories, managers of alternative investment funds and management companies, data reporting service providers, insurance and reinsurance undertakings, insurance intermediaries, reinsurance intermediaries and ancillary insurance intermediaries, institutions for occupational retirement pensions, credit rating agencies, statutory auditors and audit firms, administrators of critical benchmarks and crowdfunding service providers.\nSuch a coverage facilitates a homogenous and coherent application of all components of the risk management on ICT-related areas, while safeguards the level playing field among financial entities in respect of their regulatory obligations on ICT risk. At the same time, the regulation acknowledges that significant differences exist between financial entities in terms of size, business profiles or in relation to their exposure to digital risk. Since larger financial entities have more resources, only financial entities not qualifying as microenterprises are required, for instance, to establish complex governance arrangements, dedicated management functions, perform in-depth assessments after major changes in the network and information system infrastructures, regularly conduct risk analyses on legacy ICT systems, expand the testing of business continuity and response and recovery plans to capture switchover scenarios between their primary ICT infrastructure and redundant facilities. Moreover, only financial entities identified as significant for the purposes of the advanced digital resilience testing will be required to conduct threat led penetration tests.\nNotwithstanding this broad coverage, it is not exhaustive. Notably, this regulation does not capture system operators as defined in point (p) of Article 2 of Directive 98/26/EC\n22\non settlement finality in payment and securities settlement systems (SFD), nor any system participant unless such participant is itself a financial entity regulated at Union level and as such it would be covered by this regulation in its own right (i.e. credit institution, investment firm, CCP). In addition, the Union registry for emission allowances which is operated, in accordance with Directive 2003/87/EC,\n23\nunder the aegis of the European Commission is also outside the scope.\nSuch exclusions from the SFD take into account the need for a further review of legal and policy matters touching the SFD system operators and participants while duly considering the impact of frameworks currently applying to payment systems\n24\noperated by central banks. As these matters may entail aspects, which remain distinct from issues covered by this regulation, the Commission will continue assessing the necessity and impact of a further extension of this regulation’s scope to entities and ICT infrastructures currently outside of its remit.\nGovernance related requirements (Article 4)\nThis regulation is designed to better aligning financial entities’ business strategies and the conduct of the ICT risk management. To that effect, the management body will be required to maintain a crucial, active role in steering the ICT risk management framework and shall pursue the respect of a string cyber hygiene. The full responsibility of the management body in managing financial entity’s ICT risk will be an overarching principle to be further translated into a set of specific requirements, such as the assignment of clear roles and responsibilities for all ICT-related functions, a continuous engagement in the control of the monitoring of the ICT risk management, as well in the full range of approval and control processes and an appropriate allocating of ICT investments and trainings.\nICT risk management requirements (Articles 5 to 14)\nDigital operational resilience is rooted in a set of key principles and requirements on ICT risk management framework, in line with the joint ESAs technical advice. These requirements, inspired from relevant international, national and industry-set standards, guidelines and recommendations, revolve around specific functions in ICT risk management (identification, protection and prevention, detection, response and recovery, learning and evolving and communication). To keep pace with a quickly evolving cyber threat landscape, financial entities are required to set-up and maintain resilient ICT systems and tools that minimize the impact of ICT risk, to identify on a continuous basis all sources of ICT risk, to set-up protection and prevention measures, promptly detect anomalous activities, put in place dedicated and comprehensive business continuity policies and disaster and recovery plans as an integral part of the operational business continuity policy. The latter components are required for a prompt recovery after ICT-related incidents, in particular cyber-attacks, by limiting damage and prioritising safe resumption of activities. The regulation does not itself impose specific standardization, but rather builds on European and internationally recognized technical standards or industry best practices, insofar they are fully compliant with supervisory instructions on the use and incorporation of such international standards. This regulation also covers the integrity, safety and resilience of physical infrastructures and facilities that support the use of technology and the relevant ICT-related processes and people, as part of the digital footprint of a financial entity’s operations.\nICT-related incident reporting (Articles 15 to 20)\nHarmonising and streamlining the reporting of ICT-related incidents is achieved via, first, a general requirement for financial entities to establish and implement a management process to monitor and log ICT-related incidents, followed by an obligation to classify them based on criteria detailed in the regulation and further developed by the ESAs through to specify materiality thresholds. Second, only ICT-related incidents that are deemed major must be reported to the competent authorities. The reporting should be processed using a common template and following a harmonised procedure as developed by the ESAs. Financial entities should submit initial, intermediate and final reports and inform their users and clients where the incident has or may have an impact on their financial interests. Competent authorities should provide pertinent details of the incidents to other institutions or authorities: to the ESAs, to the ECB and to the single points of contact designated under Directive (EU) 2016/1148.\nTo set off a dialogue between financial entities and competent authorities that would help minimising the impact and identifying appropriate remedies, the reporting of major ICT-related incidents should be complemented by supervisory feedback and guidance.\nLastly, the possibility of centralisation at Union level of ICT-related incident reporting should be further explored in a joint report by the ESAs, ECB and ENISA assessing the feasibility of establishing a single EU Hub for major ICT-related incident reporting by financial entities.\nDigital operational resilience testing (Articles 21 to 24)",
+ "linked_documents": [
+  {
+   "celex": "52020SC0199",
+   "kind": "IA executive summary",
+   "date": "2020-09-24",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council on digital operational resilience for the financial sector and amending Regulations (EC) No 1060/2009, (EU) No 648/2012, (EU) No 600/2014 and (EU) No 909/2014"
+  },
+  {
+   "celex": "52020SC0198",
+   "kind": "impact assessment",
+   "date": "2020-09-24",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council on digital operational resilience for the financial sector and amending Regulations (EC) No 1060/2009, (EU) No 648/2012, (EU) No 600/2014 and (EU) No 909/2014"
+  },
+  {
+   "celex": "52021DC0440",
+   "kind": "evaluation",
+   "date": "2021-06-23",
+   "title": "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the Second Progress Report on the implementation of the EU Security Union Strategy"
+  },
+  {
+   "celex": "52020SC0345",
+   "kind": "impact assessment",
+   "date": "2020-12-16",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Directive of the European Parliament and of the Council on measures for a high common level of cybersecurity across the Union, repealing Directive (EU) 2016/1148"
+  },
+  {
+   "celex": "52023SC0231",
+   "kind": "impact assessment",
+   "date": "2023-06-28",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the documents Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on payment services in the internal market and amending Regulation (EU) No 1093/2010 and Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on payment services and electronic money services in the Internal Market amending "
+  },
+  {
+   "celex": "52023SC0224",
+   "kind": "impact assessment",
+   "date": "2023-06-28",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council on a framework for Financial Data Access and amending Regulations (EU) No 1093/2010, (EU) No 1094/2010, (EU) No 1095/2010 and (EU) 2022/2554"
+  },
+  {
+   "celex": "52022SC0075",
+   "kind": "impact assessment",
+   "date": "2022-03-16",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Regulation (EU) No 909/2014 as regards settlement discipline, cross-border provision of services, supervisory cooperation, provision of banking-type ancillary services and requirements for third-country central securities depositories"
+  },
+  {
+   "celex": "52022DC0745",
+   "kind": "evaluation",
+   "date": "2022-12-13",
+   "title": "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the Fifth Progress Report on the implementation of the EU Security Union Strategy"
+  },
+  {
+   "celex": "52023SC0234",
+   "kind": "IA executive summary",
+   "date": "2023-06-28",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT REPORT Accompanying the documents Proposal for a Regulation of the European Parliament and of the Council on the establishment of the digital euro and Proposal for a Regulation of the European Parliament and of the Council on the provision of digital euro services by payment services providers incorporated in Member State"
+  },
+  {
+   "celex": "52023DC0365",
+   "kind": "evaluation",
+   "date": "2023-06-28",
+   "title": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN CENTRAL BANK AND THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE on the review of Directive 2015/2366/EU of the European Parliament and of the Council on payment services in the internal market"
+  },
+  {
+   "celex": "52023SC0233",
+   "kind": "impact assessment",
+   "date": "2023-06-28",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the documents Proposal for a Regulation of the European Parliament and of the Council on the establishment of the digital euro and Proposal for a Regulation of the European Parliament and of the Council on the provision of digital euro services by payment services providers incorporated in Member States whose currency is not t"
+  },
+  {
+   "celex": "52024DC0198",
+   "kind": "evaluation",
+   "date": "2024-05-15",
+   "title": "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the Seventh Progress Report on the implementation of the EU Security Union Strategy"
+  },
+  {
+   "celex": "52023SC0663",
+   "kind": "impact assessment",
+   "date": "2023-12-12",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Directive of the European Parliament and of the Council establishing harmonised requirements in the internal market on transparency of interest representation carried out on behalf of third countries and amending Directive (EU) 2019/1937 and Proposal for a Regulation of the European Parliament and o"
+  },
+  {
+   "celex": "52024DC0198(01)",
+   "kind": "evaluation",
+   "date": "2024-05-15",
+   "title": "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the Seventh Progress Report on the implementation of the EU Security Union Strategy"
+  },
+  {
+   "celex": "52025SC0836",
+   "kind": "evaluation",
+   "date": "2025-11-19",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Accompanying the documents Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL Amending Regulations (EU) 2016/679, (EU) 2018/1724, (EU) 2018/1725, (EU) 2023/2854 and Directives 2002/58/EC, (EU) 2022/2555 and (EU) 2022/2557 as regards the simplification of the digital legislative framework, and repealing Regulations (EU) 2018/1807, (EU) 2019/115"
+  },
+  {
+   "celex": "52025SC0943",
+   "kind": "impact assessment",
+   "date": "2025-12-04",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the documents Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Regulations (EU) No 1095/2010, No 648/2012, No 600/2014, No 909/2014, 2015/2365, 2019/1156, 2021/23, 2022/858, 2023/1114, No 1060/2009, 2016/1011, 2017/2402, 2023/2631 and 2024/3005 as regards the further development of capital marke"
+  },
+  {
+   "celex": "52026SC0002",
+   "kind": "evaluation",
+   "date": "2026-01-20",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EVALUATION Accompanying the document REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL on the evaluation of the European Union Agency for Cybersecurity (ENISA) and the European Cybersecurity Certification Framework"
+  },
+  {
+   "celex": "52026SC0011",
+   "kind": "impact assessment",
+   "date": "2026-01-20",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the documents Proposal for a Regulation of the European Parliament and of the Council on the European Union Agency for Cybersecurity (ENISA), European cybersecurity certification framework, and ICT supply chain security and repealing Regulation (EU) 2019/881 (The Cybersecurity Act 2) And Proposal for a Directive of the Europea"
+  },
+  {
+   "celex": "52026SC0502",
+   "kind": "impact assessment",
+   "date": "2026-06-03",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL establishing a framework of measures for strengthening Europe’s cloud and AI ecosystem (Cloud and AI Development Act)"
+  },
+  {
+   "celex": "52017SC0308",
+   "kind": "impact assessment",
+   "date": "2017-09-20",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Regulation (EU) No 1093/2010 establishing a European Supervisory Authority (European Banking Authority), Regulation (EU) No 1094/2010 establishing a European Supervisory Authority (European Insurance and Occupational Pensions Authority), Reg"
+  }
+ ]
+}

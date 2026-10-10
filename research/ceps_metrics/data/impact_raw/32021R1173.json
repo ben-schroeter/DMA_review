@@ -1,0 +1,42 @@
+{
+ "celex": "32021R1173",
+ "name": "EuroHPC Joint Undertaking Regulation",
+ "status": "adopted",
+ "proposal": "52020PC0569",
+ "lfs_specific_objectives": "1.4.2. Added value of Union involvement\nThe added value of union involvement includes:\n- Increasing the level of funding in HPC at European level in a single and coordinated effort with Member/Participating States.\n- Enhanced coordination and pooling of EU and national investments (based on SRIA)\n- Rationalised implementation of national and EU investments and programmes, contributing to increasing the overall HPC investments in Europe\n- Providing the EU with the best supercomputers in the world, which could not be acquired by single Participant States alone.\n- Facilitating European Institutions/users access to the best supercomputer resources in Europe\nThe EuroHPC will dramatically increase the computing power supply for EU users, contribute to provide an independent European source of key technologies changing the landscape of the European supply ecosystem, and foster and widen the use of HPC across the EU",
+ "lfs_expected_results": "1.4.3. Lessons learned from similar experiences in the past\nThe existing EuroHPC JU has already acquired solid working experience, with extensive discussions of the stakeholders on the governance, administration and other operational and implementation aspects from which the following main lessons learnt so far can be summarised as follows:\n•\nSimplification of the co-funding scheme: The combination of EU and national funds in the different EuroHPC activities needs to be simplified and optimised.\n•\nMore flexibility in defining the acquisition time and technology of new supercomputing systems\n•\nMore flexibility in the resource allocation of the EuroHPC systems.\n•\nWell-defined access policies for the industrial/commercial use of the EuroHPC infrastructure that would enable the full exploitation of the EuroHPC capabilities in either pre-competitive research access, or in commercial terms of use\n•\nA clearer framework for collaboration with relevant stakholdres: PRACE and GEANT. Specific arrangements may need to be established with PRACE for the tasks related to the allocation of the access time to the JU’s systems, and with GEANT for procuring dedicated connectivity for the EuroHPC supercomputers.\n•\nA better definition of the different contributions to the activities of EuroHPC. For example, there is a need to further define the in-kind contributions of the Participating States and of the Private Members to the EuroHPC JU; and to better define the costs that EuroHPC can/cannot support for the acquisition and operations of supercomputers.\n•\nMore flexibility in the contribution of Private Members and other private actors to the activities of the EuroHPC JU",
+ "lfs_indicators": "1.4.4. Compatibility and possible synergy with other appropriate instruments\nSynergies in Horizon Europe (H-E)\nSuccessor to ECSEL Joint Undertaking\nBig Data, Robotics & AI\nQuantum Technologies FET Flagship\nEOSC\nSynergies in DEP\nAI\nCybersecurity\nAdvanced digital skills",
+ "memo_monitoring": "• Implementation plans and monitoring, evaluation and reporting arrangements\nEvaluation and monitoring of the proposed Joint Undertaking’s activities are planned, in accordance with the Horizon Europe programme. This will determine the effectiveness of the Joint Undertaking as a legal and financial instrument for achieving the objectives of Europe’s High Performance Computing strategy, but also its effectiveness in contributing to the Union’s policies. In particular, it will assess the level of the Participating States’ and Private Members’ participation in, and contribution to, the actions of the Joint Undertaking.\nThe proposed Joint Undertaking will publish an annual activity report highlighting actions taken, corresponding expenditure, and the acquisition and operation of the High Performance Computing, quantum computing and service and data infrastructure procured and owned by the Joint Undertaking. Achievement of the general objectives will be assessed against the general key performance indicators for Joint Undertakings funded from Horizon Europe and the key performance indicators specific to the EuroHPC Joint Undertaking.",
+ "linked_documents": [
+  {
+   "celex": "52023SC0570",
+   "kind": "evaluation",
+   "date": "2023-09-27",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Implementation of the Digital Decade objectives and the Digital Rights and Principles Accompanying the document Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions Report on the state of the Digital Decade 2023"
+  },
+  {
+   "celex": "52025SC0110",
+   "kind": "evaluation",
+   "date": "2025-04-30",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EVALUATION Interim Evaluation of the Horizon Europe Framework Programme for Research and Innovation (2021 - 2024) Accompanying the document Communication from the Commission to the European Parliament and the Council Horizon Europe: Research and Innovation at the heart of competitiveness"
+  },
+  {
+   "celex": "52018SC0006",
+   "kind": "impact assessment",
+   "date": "2018-01-11",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a Council Regulation on establishing the European High Performance Computing Joint Undertaking"
+  },
+  {
+   "celex": "52018SC0289",
+   "kind": "impact assessment",
+   "date": "2018-05-30",
+   "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Accompanying the document Proposal for a Regulation of the European Parliament and the Council on the European Social Fund Plus (ESF+) Proposal for a Regulation of the European Parliament and the Council on the European Globalisation Adjustment Fund (EGF)"
+  },
+  {
+   "celex": "52018SC0306",
+   "kind": "IA executive summary",
+   "date": "2018-06-06",
+   "title": "COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council establishing the Digital Europe programme"
+  }
+ ]
+}
