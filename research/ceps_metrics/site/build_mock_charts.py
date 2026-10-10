@@ -23,7 +23,7 @@ for r in sec:
     r["d"] = dt.date.fromisoformat(str(r["date"])[:10])
 Y0, Y1 = 1986.0, 2027.0
 fy = lambda d: d.year + (d.timetuple().tm_yday - 1) / 365.25
-W, H, L, R, T, B = 1000, 360, 64, 110, 20, 36
+W, H, L, R, T, B = 1000, 360, 64, 128, 20, 36
 X = lambda y: L + (y - Y0) / (Y1 - Y0) * (W - L - R)
 
 
@@ -212,5 +212,76 @@ g.append(f'<text x="{px(1997):.1f}" y="{py(55) + 19:.1f}" {F} font-size="14" fil
 charts["productivity"] = (f'<svg viewBox="0 0 {PW} {PH}" width="100%" role="img" aria-label="Productivity per hour in Germany, France, Italy and Spain relative '
                           f'to the US, 1995 = 100: from {tr["ratio_1995_100"]:.0f} after the war to 100 in 1995, then down to {v22:.0f} in 2022">' + "".join(g) + "</svg>")
 meta["productivity_2022"] = v22
+# F. restrictions binding private parties: main acts + implementing/delegated acts
+evp = sorted([(fy(r["d"]), r["addr_private_parties"] or 0, 0) for r in inst] + [(fy(r["d"]), 0, r["addr_private_parties"] or 0) for r in sec])
+m2 = s2 = 0; qm = [(Y0, 0)]; qs = [(Y0, 0)]
+for y, a, b in evp:
+    m2 += a; s2 += b; qm.append((y, m2)); qs.append((y, m2 + s2))
+Yf, g = axes(9000, [0, 2000, 4000, 6000, 8000])
+bands = stack_paths([("main", CLAY, qm), ("sec", CLAY2, qs)], Yf)
+lab = [f'<text x="{W - R + 10}" y="{Yf(m2 / 2) + 5:.1f}" {F} font-size="14" fill="{INK2}">Main acts</text>',
+       f'<text x="{W - R + 10}" y="{Yf(m2 / 2) + 23:.1f}" {F} font-size="14" fill="{INK}" font-weight="600">{m2:,}</text>',
+       f'<text x="{W - R + 10}" y="{Yf(m2 + s2 / 2) - 4:.1f}" {F} font-size="14" fill="{INK2}">Implementing</text>',
+       f'<text x="{W - R + 10}" y="{Yf(m2 + s2 / 2) + 13:.1f}" {F} font-size="14" fill="{INK2}">&amp; delegated</text>',
+       f'<text x="{W - R + 10}" y="{Yf(m2 + s2 / 2) + 31:.1f}" {F} font-size="14" fill="{INK}" font-weight="600">{s2:,}</text>']
+charts["private"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Cumulative restrictions binding private parties: {m2:,} in the main '
+                     f'acts and {s2:,} in implementing and delegated acts">' + "".join(g + bands + lab) + "</svg>")
+meta.update({"private_main": m2, "private_secondary": s2})
+
+# G. combined: cumulative acts by legal type (top) + new acts per year by policy group (bottom), shared x axis
+GROUPS = [("Data, privacy & cybersecurity", ["Data & Privacy", "Cybersecurity"], "#D97757"),
+          ("Platforms, content & media", ["Trust & Safety", "Media"], "#5E7FA8"),
+          ("Markets, consumers & IP", ["Competition & Single Market", "E-commerce & Consumer Protection", "IPR"], "#D4A85A"),
+          ("Finance", ["Finance"], "#5E5D59"),
+          ("Industry, research & connectivity", ["Industrial Policy", "Research & Innovation", "Connectivity"], "#7D9B76"),
+          ("Law enforcement", ["Law Enforcement"], "#BDBAAE")]
+gof = {a: gi for gi, (_, areas, _) in enumerate(GROUPS) for a in areas}
+TOPH = H
+BOT0, BOTH = TOPH + 40, 200            # bottom panel origin and height
+HH = BOT0 + BOTH + 40 + 70             # + axis + legend
+Yf, g = axes(120, [0, 20, 40, 60, 80, 100, 120])
+g = [x for x in g if 'y="' + str(H - 10) + '"' not in x]          # drop top x labels (shared axis below)
+top = stack_paths([(t, cols[t], pts[t]) for t in order], Yf)
+labt = []
+run = 0
+for t in order:
+    mid = run + cum[t] / 2; run += cum[t]
+    labt.append(f'<text x="{W - R + 10}" y="{Yf(mid) + 5:.1f}" {F} font-size="14" fill="{INK2}">{t}s {cum[t]}</text>')
+peryear = {}
+for r in inst:
+    peryear.setdefault(r["d"].year, [0] * len(GROUPS))[gof[r["policy_area_ceps"]]] += 1
+ymax = max(sum(v) for v in peryear.values())
+ymaxr = 20 if ymax <= 20 else 25
+by = lambda v: BOT0 + BOTH - v / ymaxr * BOTH
+b = []
+for t in (5, 10, 15, 20) if ymaxr == 20 else (5, 10, 15, 20, 25):
+    b.append(f'<line x1="{L}" x2="{W - R}" y1="{by(t):.1f}" y2="{by(t):.1f}" stroke="{LINE}"></line>')
+    b.append(f'<text x="{L - 10}" y="{by(t) + 5:.1f}" text-anchor="end" {F} font-size="14" fill="{MUTED}">{t}</text>')
+bw = (W - L - R) / (Y1 - Y0) * 0.72
+for yr, v in sorted(peryear.items()):
+    x0 = X(yr + 0.5) - bw / 2; acc = 0
+    for gi, n in enumerate(v):
+        if not n:
+            continue
+        y_top = by(acc + n); hgt = by(acc) - by(acc + n)
+        b.append(f'<rect x="{x0:.1f}" y="{y_top:.1f}" width="{bw:.1f}" height="{max(hgt - 1, 1):.1f}" fill="{GROUPS[gi][2]}"></rect>')
+        acc += n
+b.append(f'<line x1="{L}" x2="{W - R}" y1="{BOT0 + BOTH}" y2="{BOT0 + BOTH}" stroke="{BASE}"></line>')
+b += [f'<text x="{X(y):.1f}" y="{BOT0 + BOTH + 24}" text-anchor="middle" {F} font-size="14" fill="{MUTED}">{y}</text>' for y in (1990, 2000, 2010, 2020)]
+b.append(f'<text x="{L}" y="{BOT0 - 14}" {F} font-size="14" fill="{INK2}" font-weight="600">New acts adopted each year, by policy area</text>')
+b.append(f'<text x="{L}" y="{T - 2 + 10}" {F} font-size="14" fill="{INK2}" font-weight="600">Adopted acts in force, cumulative, by type</text>')
+lx, ly = L, BOT0 + BOTH + 52
+for name, _, col in GROUPS:
+    wtxt = 7.6 * len(name) + 34
+    if lx + wtxt > W - 10:
+        lx, ly = L, ly + 24
+    b.append(f'<rect x="{lx}" y="{ly - 10}" width="12" height="12" rx="2" fill="{col}"></rect><text x="{lx + 18}" y="{ly}" {F} font-size="13.5" fill="{INK2}">{name}</text>')
+    lx += wtxt
+since = [sum(v) for yr, v in peryear.items() if yr >= 2020]
+charts["acts_combined"] = (f'<svg viewBox="0 0 {W} {ly + 16}" width="100%" role="img" aria-label="Top: cumulative adopted acts by legal type '
+                           f'({cum["Regulation"]} regulations, {cum["Directive"]} directives, {cum["Decision"]} decisions). Bottom: new acts each year by policy area; '
+                           f'{sum(since)} adopted since 2020">' + "".join(g + top + labt + b) + "</svg>")
+meta["groups_since_2020"] = {name: sum(v[gi] for yr, v in peryear.items() if yr >= 2020) for gi, (name, _, _) in enumerate(GROUPS)}
+
 json.dump({"charts": charts, "meta": meta}, open("site/mock_charts.json", "w"), ensure_ascii=False)
 print(json.dumps(meta))
