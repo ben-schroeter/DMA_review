@@ -1,0 +1,26 @@
+{
+ "tuning_0_99": {
+  "counted_true": 78,
+  "counted_false": 6,
+  "missed_true": 0,
+  "correctly_dropped": 16,
+  "precision": 0.929,
+  "recall_within_sample": 1.0,
+  "addressee_accuracy": 0.705,
+  "addressee_n": 78
+ },
+ "heldout_100_190": {
+  "counted_true": 69,
+  "counted_false": 9,
+  "missed_true": 0,
+  "correctly_dropped": 13,
+  "precision": 0.885,
+  "recall_within_sample": 1.0,
+  "addressee_accuracy": 0.652,
+  "addressee_n": 69
+ },
+ "negatives": {
+  "n": 100,
+  "true_restrictions_missed": 6
+ }
+}

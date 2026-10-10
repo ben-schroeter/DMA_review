@@ -1,0 +1,1934 @@
+{
+ "positives": [
+  {
+   "doc": "32023R1066",
+   "clause": "the requirement to refuse to meet demand from customers in the parties\u2019 respective territories, or from customers otherwise allocated between the parties by way of specialisation in the context of exploitation, where such customers would market the contract products in other territories within the internal market;",
+   "marker": "requirement to refuse",
+   "category": "explicit_requirement",
+   "addressee": "unclear",
+   "subject": ""
+  },
+  {
+   "doc": "52025PC0335",
+   "clause": "The amount shall be proportionate to the turnover of the respective space services provider.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "The amount"
+  },
+  {
+   "doc": "32019R0452",
+   "clause": "The Member State undertaking the screening shall give due consideration to the comments of the other Member States referred to in paragraph 2 and to the opinion of the Commission referred to in paragraph 3.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": ""
+  },
+  {
+   "doc": "32018R1807",
+   "clause": "Member States shall provide the Commission with the necessary information for the preparation of the report referred to in paragraph 1.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32021R0694",
+   "clause": "The Programme shall implement the European strategy on HPC by supporting a full Union ecosystem that provides the necessary HPC and data capabilities for Europe to compete globally.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "The Programme"
+  },
+  {
+   "doc": "32018R1725",
+   "clause": "Taking into account the nature, scope, context and purposes of processing as well as the risks of varying likelihood and severity for the rights and freedoms of natural persons, the controller shall implement appropriate technical and organisational measures to ensure and to be able to demonstrate that processing is performed in accordance with this Regulation.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "the controller"
+  },
+  {
+   "doc": "32006L0112",
+   "clause": "By way of definitive arrangements, passenger transport shall be taxed in the Member State of departure for that part of the journey taking place within the Community, in accordance with the detailed rules to be laid down by the Council, acting in accordance with Article 93 of the Treaty.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "passenger transport"
+  },
+  {
+   "doc": "52025PC0335",
+   "clause": "For the purposes of registration in URSO, a competent authority shall inform the Agency of all authorised Union space operators and primary space services providers and of any third country space operator they have authorised to launch from their territory.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "a competent authority"
+  },
+  {
+   "doc": "32024L2831",
+   "clause": "Where the digital labour platform seeks to rebut the legal presumption, it shall be for the digital labour platform to prove that the contractual relationship in question is not an employment relationship as defined by the law, collective agreements or practice in force in the Member States, with consideration to the case-law of the Court of Justice.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "it"
+  },
+  {
+   "doc": "32024D1432",
+   "clause": "The conditions to qualify for recognition as an international body for the application of Article 143(1)(g) and Article 151(1)(b) of Directive 2006/112/EC laid down in Article 50 of Implementing Regulation (EU) No 282/2011 shall be complied with mutatis mutandis by EUROPEUM-EDIC.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "No 282/2011"
+  },
+  {
+   "doc": "32023R2841",
+   "clause": "The cybersecurity plan shall be revised every two years, or more frequently where necessary, following the cybersecurity maturity assessments carried out pursuant to Article 7 or any substantial review of the Framework.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "The cybersecurity plan"
+  },
+  {
+   "doc": "32014R0910",
+   "clause": "If a Member State requires an advanced electronic signature to use an online service offered by, or on behalf of, a public sector body, that Member State shall recognise advanced electronic signatures, advanced electronic signatures based on a qualified certificate for electronic signatures, and qualified electronic signatures in at least the formats or using methods defined in the implementing acts referred to in paragraph 5.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "Member State"
+  },
+  {
+   "doc": "32014R0316",
+   "clause": "the market share held by the undertakings referred to in point (e) of the second subparagraph of Article 1(2) shall be apportioned equally to each undertaking having the rights or the powers listed in point (a) of the second subparagraph of Article 1(2);",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "the market share held by the undertakings referred to in point (e) of the second subparagraph of Article 1(2)"
+  },
+  {
+   "doc": "32023R2841",
+   "clause": "The Head of CERT-EU shall draw up, on an annual basis, a financial planning of administrative revenue and expenditure for its activities, a proposed annual work programme, a proposed service catalogue for CERT-EU, proposed revisions of the service catalogue, proposed arrangements for service level agreements and proposed KPIs for CERT-EU, to be approved by the IICB in accordance with Article 11.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "The Head of CERT-EU"
+  },
+  {
+   "doc": "32019R0517",
+   "clause": "A decision to revoke shall put an end to the delegation of the power specified in that decision.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "A decision to revoke"
+  },
+  {
+   "doc": "32004L0048",
+   "clause": "In that event, the parties shall be so informed without delay after the execution of the measures at the latest.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "the parties"
+  },
+  {
+   "doc": "32022R1925",
+   "clause": "With regard to personal data, the gatekeeper shall provide for such access to, and use of, personal data only where the data are directly connected with the use effectuated by the end users in respect of the products or services offered by the relevant business user through the relevant core platform service, and when the end users opt in to such sharing by giving their consent.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "the gatekeeper"
+  },
+  {
+   "doc": "32018R1807",
+   "clause": "Member States shall immediately communicate to the Commission any draft act which introduces a new data localisation requirement or makes changes to an existing data localisation requirement in accordance with the procedures set out in Articles 5, 6 and 7 of Directive (EU) 2015/1535.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32022R2554",
+   "clause": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "the Commission"
+  },
+  {
+   "doc": "32019R0517",
+   "clause": "The Registry shall accredit Registrars in accordance with reasonable, transparent and non-discriminatory accreditation procedures which have been approved in advance by the Commission.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "The Registry"
+  },
+  {
+   "doc": "32014R0316",
+   "clause": "A regulation pursuant to paragraph 1 shall not become applicable earlier than six months following its adoption.",
+   "marker": "shall not",
+   "category": "prohibition",
+   "addressee": "unclear",
+   "subject": "A regulation pursuant to paragraph 1"
+  },
+  {
+   "doc": "32019R1020",
+   "clause": "Notwithstanding any obligations set out in applicable Union harmonisation legislation, a product subject to legislation referred to in paragraph 5 may be placed on the market only if there is an economic operator established in the Union who is responsible for the tasks set out in paragraph 3 in respect of that product.",
+   "marker": "may be placed on the market only if",
+   "category": "restricted_permission",
+   "addressee": "unclear",
+   "subject": "a product subject to legislation referred to in paragraph"
+  },
+  {
+   "doc": "32014R0316",
+   "clause": "the market share of a licensor on a relevant market for the licensed technology rights shall be calculated on the basis of the presence of the licensed technology rights on the relevant market(s) (that is the product market(s) and the geographic market(s)) where the contract products are sold, that is on the basis of the sales data relating to the contract products produced by the licensor and its licensees combined;",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "the market share of a licensor on a relevant market for the licensed technology rights"
+  },
+  {
+   "doc": "32022R2554",
+   "clause": "It shall be continuously improved on the basis of lessons derived from implementation and monitoring.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "It"
+  },
+  {
+   "doc": "32019D0785",
+   "clause": "In the 2,5 GHz to 2,69 GHz and 4,8 GHz to 5 GHz frequency ranges, the total power spectral density must be 10 dB below the maximum e.i.r.p. spectral density.",
+   "marker": "must",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "the total power spectral density"
+  },
+  {
+   "doc": "52025PC0335",
+   "clause": "The officers of the Commission and the Agency shall exercise their investigation powers upon the production of this authorisation.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "The officers of the Commission and the Agency"
+  },
+  {
+   "doc": "32019D0785",
+   "clause": "These techniques shall respect the technical requirements of this Decision.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "These techniques"
+  },
+  {
+   "doc": "32023R1066",
+   "clause": "Market shares shall be calculated on the basis of data relating to the preceding calendar year.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "Market shares"
+  },
+  {
+   "doc": "32022R1925",
+   "clause": "Where the officials and other accompanying persons authorised by the Commission find that an undertaking or association of undertakings opposes an inspection ordered pursuant to this Article, the Member State concerned shall afford them the necessary assistance, requesting, where appropriate, the assistance of the police or of an equivalent enforcement authority, so as to enable them to conduct their inspection.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "the Member State concerned"
+  },
+  {
+   "doc": "32024R1735",
+   "clause": "Where the Commission differs in its assessment from the Member State, the Platform referred to in Articles 38 and 39 shall discuss the project in question.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "the Platform"
+  },
+  {
+   "doc": "32023R1543",
+   "clause": "The issuing authority shall review the European Production Order in light of the information provided by the addressee and, if necessary, set a new deadline for the addressee to produce the data.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "The issuing authority"
+  },
+  {
+   "doc": "32021R0694",
+   "clause": "The eligibility criteria for actions to be carried out under the Programme shall be set out in the work programmes.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "The eligibility criteria for actions to be carried out under the Programme"
+  },
+  {
+   "doc": "32018R1725",
+   "clause": "The data protection officer shall have the following tasks:",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "The data protection officer"
+  },
+  {
+   "doc": "32024R1028",
+   "clause": "The coordination group shall support the implementation of the provisions of this Regulation concerning the single digital entry points.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "The coordination group"
+  },
+  {
+   "doc": "32019R0817",
+   "clause": "The Commission shall adopt an implementing act to specify the technical procedure for the ESP to query the EU information systems, Europol data and Interpol databases and the format of the ESP replies.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "The Commission"
+  },
+  {
+   "doc": "32004L0048",
+   "clause": "Member States shall ensure that reasonable and proportionate legal costs and other expenses incurred by the successful party shall, as a general rule, be borne by the unsuccessful party, unless equity does not allow this.",
+   "marker": "shall ensure",
+   "category": "duty_of_result",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32004R0139",
+   "clause": "If the assistance provided for in paragraph 6 requires authorisation from a judicial authority according to national rules, such authorisation shall be applied for.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "such authorisation"
+  },
+  {
+   "doc": "32000L0031",
+   "clause": "In addition to other information requirements established by Community law, Member States shall ensure that commercial communications which are part of, or constitute, an information society service comply at least with the following conditions:",
+   "marker": "shall ensure",
+   "category": "duty_of_result",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32014L0053",
+   "clause": "The manufacturer shall draw up a written EU declaration of conformity for each radio equipment type and keep it at the disposal of the national authorities for 10 years after the radio equipment has been placed on the market.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "The manufacturer"
+  },
+  {
+   "doc": "32024D1432",
+   "clause": "The Union shall not be liable for EUROPEUM- EDIC\u2019s debts.",
+   "marker": "shall not",
+   "category": "prohibition",
+   "addressee": "eu_institutions",
+   "subject": "The Union"
+  },
+  {
+   "doc": "32023R2841",
+   "clause": "The Union entity shall submit the completed cybersecurity plan to the Interinstitutional Cybersecurity Board established pursuant to Article 10.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "The Union entity"
+  },
+  {
+   "doc": "32024L2831",
+   "clause": "The ascertainment of the existence of an employment relationship shall be guided primarily by the facts relating to the actual performance of work, including the use of automated monitoring systems or automated decision-making systems in the organisation of platform work, irrespective of how the relationship is designated in any contractual arrangement that may have been agreed between the parties involved.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "by the facts relating to the actual performance of work, including the use of automated monitoring systems or automated decision-making systems in the organisation of platform work"
+  },
+  {
+   "doc": "32021R0694",
+   "clause": "Where a European Digital Innovation Hub receives funding under the Programme, that funding shall be in the form of grants.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "funding"
+  },
+  {
+   "doc": "32018R1725",
+   "clause": "The Court of Justice shall have jurisdiction to hear all disputes relating to the provisions of this Regulation, including claims for damages.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "The Court of Justice"
+  },
+  {
+   "doc": "32019R1020",
+   "clause": "The report shall in particular evaluate the scope of that Article, its effects and its costs and benefits.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "The report"
+  },
+  {
+   "doc": "32024R1028",
+   "clause": "The coordination group shall be composed of the national coordinator from each Member State and shall be chaired by the Commission.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "The coordination group"
+  },
+  {
+   "doc": "32021R0694",
+   "clause": "Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 31(2).",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "Those implementing acts"
+  },
+  {
+   "doc": "52025PC0335",
+   "clause": "Union space operators applying a simplified risk management shall cover the key lifecycle stages referred to in Article 76(4), first subparagraph only in relation to critical assets and critical functions referred to in Article 79(1), first subparagraph.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": ""
+  },
+  {
+   "doc": "32022R1925",
+   "clause": "The report shall be communicated to the European Parliament and to the Council.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "The report"
+  },
+  {
+   "doc": "32019R0817",
+   "clause": "Where the query referred to in Article 27(2), (3) and (4) reports one or several matches and the identity data of the linked files are the same or similar, a white link shall be created in accordance with Article 33.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "a white link"
+  },
+  {
+   "doc": "32025R2518",
+   "clause": "Following the consultations and procedures under Articles 10 and 11 of this Regulation, where the lead supervisory authority intends to submit a draft decision within the meaning of Article 60(3) of Regulation (EU) 2016/679 finding an infringement of Regulation (EU) 2016/679 to the other supervisory authorities concerned, it shall draft preliminary findings.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "it"
+  },
+  {
+   "doc": "32019R0517",
+   "clause": "The delegation of power shall be tacitly extended for periods of an identical duration, unless the European Parliament or the Council opposes such extension not later than three months before the end of each period.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "The delegation of power"
+  },
+  {
+   "doc": "32023R1543",
+   "clause": "Enforcement of the European Production Order may only be denied on the basis of one or more of the following grounds:",
+   "marker": "may only",
+   "category": "restricted_permission",
+   "addressee": "unclear",
+   "subject": "Enforcement of the European Production Order"
+  },
+  {
+   "doc": "32022R1925",
+   "clause": "The Commission shall submit to the European Parliament and to the Council an annual report on the implementation of this Regulation and the progress made towards achieving its objectives.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "The Commission"
+  },
+  {
+   "doc": "32021R0784",
+   "clause": "Upon receiving a decision finding an infringement communicated in accordance with paragraph 6, the hosting service provider concerned shall immediately reinstate the content or access thereto, without prejudice to the possibility to enforce its terms and conditions in accordance with Union and national law.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "the hosting service provider concerned"
+  },
+  {
+   "doc": "31987L0372",
+   "clause": "They shall forthwith inform the Commission threof.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "They"
+  },
+  {
+   "doc": "32004L0048",
+   "clause": "Member States shall ensure that the judicial authorities may, at the request of the applicant:",
+   "marker": "shall ensure",
+   "category": "duty_of_result",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32024R1735",
+   "clause": "The Commission shall make those reports public.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "The Commission"
+  },
+  {
+   "doc": "52025PC0335",
+   "clause": "The spacecraft and the ground segment shall be configured to generate and respectively receive, upon detection of an incident, a security event which shall be sent to a security monitoring subsystem.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "which"
+  },
+  {
+   "doc": "32019R0452",
+   "clause": "Comments pursuant to paragraph 1 or opinions pursuant to paragraph 2 shall be addressed to the Member State where the foreign direct investment is planned or has been completed and shall be sent to it within a reasonable period of time, and in any case no later than 35 calendar days following receipt of the information referred to in paragraph 5 or of the notification pursuant to Article 9(5).",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "Comments pursuant to paragraph 1 or opinions pursuant to paragraph 2"
+  },
+  {
+   "doc": "32018R1725",
+   "clause": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information:",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "the controller"
+  },
+  {
+   "doc": "32004R0139",
+   "clause": "In making this appraisal, the Commission shall take into account:",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "the Commission"
+  },
+  {
+   "doc": "32024R1735",
+   "clause": "The Commission shall draw up a report in respect of the delegation of power not later than nine months before the end of the five-year period.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "The Commission"
+  },
+  {
+   "doc": "32024L2831",
+   "clause": "The persons charged by the digital labour platform with the function of oversight and evaluation shall have the competence, training and authority necessary to exercise that function, including for overriding automated decisions.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "The persons charged by the digital labour platform with the function of oversight and evaluation"
+  },
+  {
+   "doc": "32025R2518",
+   "clause": "A relevant and reasoned objection shall be sufficiently clear, coherent and precise and, where necessary, it shall identify the elements of the draft decision to be amended in order to enable supervisory authorities to prepare their positions and, as the case may be, to enable the Board to efficiently resolve the dispute.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "it"
+  },
+  {
+   "doc": "31987L0372",
+   "clause": "Member States shall ensure that the 905-914 and 950-959 MHz frequency bands or equivalent parts of the bands mentioned in paragraph 2 are reserved exclusively (1) for a public pan-European cellular digital mobile communications service by 1 January 1991.",
+   "marker": "shall ensure",
+   "category": "duty_of_result",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32024R1028",
+   "clause": "Member States shall also make public, free of charge, the lists referred in paragraph 1.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32024L2831",
+   "clause": "The penalties shall be effective, dissuasive and proportionate to the nature, gravity and duration of the undertaking\u2019s infringement and to the number of workers affected.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "The penalties"
+  },
+  {
+   "doc": "32023R2841",
+   "clause": "The IICB shall adopt its internal rules of procedure.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "The IICB"
+  },
+  {
+   "doc": "32004R0139",
+   "clause": "(a) Before publishing draft implementing provisions and before adopting such provisions, the Commission shall consult the Advisory Committee.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "the Commission"
+  },
+  {
+   "doc": "32023R1066",
+   "clause": "Where one or more parties are charged with the production of the contract products by way of specialisation in the context of exploitation, the exemption established in Article 2 shall apply on condition that those parties are required to fulfil orders for supplies of the contract products from the other parties, except where one of the following applies:",
+   "marker": "are required",
+   "category": "explicit_requirement",
+   "addressee": "private_parties",
+   "subject": "those parties"
+  },
+  {
+   "doc": "32024L2831",
+   "clause": "Where the oversight or the evaluation referred to in paragraph 1 identifies a high risk of discrimination at work in the use of automated monitoring systems or automated decision-making systems or finds that individual decisions taken or supported by automated monitoring systems or automated decision-making systems have infringed the rights of a person performing platform work, the digital labour platform shall take the steps necessary, including, if appropriate, the modification of the automated monitoring system or the automated decision-making system or the discontinuation of its use, in or",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "the digital labour platform"
+  },
+  {
+   "doc": "32018R1807",
+   "clause": "Member States shall notify to the Commission the designated single points of contact and any subsequent change thereto.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32025R1176",
+   "clause": "Compliance with the criteria referred to in Article 5 shall be assessed by requiring bidders to present a cybersecurity plan of the bidding project and update it on a regular basis during the implementation of the project.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": ""
+  },
+  {
+   "doc": "32019R0517",
+   "clause": "Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 17(2).",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "Those implementing acts"
+  },
+  {
+   "doc": "32024R1735",
+   "clause": "This shall not preclude Member States from using additional non-price criteria beyond those laid down in the first subparagraph.",
+   "marker": "shall not",
+   "category": "prohibition",
+   "addressee": "eu_institutions",
+   "subject": "This"
+  },
+  {
+   "doc": "31987L0372",
+   "clause": "Member States shall ensure that the necessary plans are prepared for the public pan-European cellular digital mobile communications service to be able to occupy the whole of the 890-915 and 935-960 Mhz bands according to commerical demand as quickly as possible.",
+   "marker": "shall ensure",
+   "category": "duty_of_result",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32024R0795",
+   "clause": "By way of derogation from paragraph 2, the contribution from the Funds or the EMFF through payments of the final balance for each priority per Fund and per category of regions in the final accounting year shall not exceed, by more than 15 %, the contribution from the Funds or the EMFF for each priority per Fund and per category of regions as laid down in the decision of the Commission approving the operational programme.",
+   "marker": "shall not",
+   "category": "prohibition",
+   "addressee": "private_parties",
+   "subject": "the contribution from the Funds or the EMFF through payments of the final balance for each priority per Fund and per category of regions in the final accounting year"
+  },
+  {
+   "doc": "32020D0636",
+   "clause": "The 2 570\u20132 620 MHz frequency sub-band shall be used for Time Division Duplex or for base station transmission (\u201cdownlink-only\u201d).",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "The 2 570\u20132 620 MHz frequency sub-band"
+  },
+  {
+   "doc": "32022R2560",
+   "clause": "For the purposes of evaluating the necessity of amending the threshold for notifications, pursuant to paragraph 1, the Commission shall conduct its assessment, covering a defined period of time which cannot be shorter than two years, in particular on the basis of the following objective criteria:",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "the Commission"
+  },
+  {
+   "doc": "32019R0817",
+   "clause": "Each Member State shall ensure that the supervisory authorities independently monitor the lawfulness of the processing of personal data under this Regulation by the Member State concerned, including their transmission to and from the interoperability components.",
+   "marker": "shall ensure",
+   "category": "duty_of_result",
+   "addressee": "member_states",
+   "subject": "Each Member State"
+  },
+  {
+   "doc": "32021R0784",
+   "clause": "As soon as it adopts a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "the Commission"
+  },
+  {
+   "doc": "32019R0517",
+   "clause": "The information on the WHOIS database shall not be excessive in relation to the purpose of the database.",
+   "marker": "shall not",
+   "category": "prohibition",
+   "addressee": "unclear",
+   "subject": "The information on the WHOIS database"
+  },
+  {
+   "doc": "32000L0031",
+   "clause": "Without prejudice to the Member State's possibility of proceeding with the measures in question, the Commission shall examine the compatibility of the notified measures with Community law in the shortest possible time;",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "the Commission"
+  },
+  {
+   "doc": "32024R0795",
+   "clause": "The Commission shall ensure that data for monitoring the implementation of the activities carried out under the STEP are collected efficiently, effectively and in a timely manner.",
+   "marker": "shall ensure",
+   "category": "duty_of_result",
+   "addressee": "eu_institutions",
+   "subject": "The Commission"
+  },
+  {
+   "doc": "32019R1020",
+   "clause": "Market surveillance authorities shall perform their activities with a high level of transparency and shall make available to the public any information that they consider to be relevant in order to protect the interests of end users.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "Market surveillance authorities"
+  },
+  {
+   "doc": "32014R0316",
+   "clause": "the market share shall be calculated on the basis of market sales value data;",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "the market share"
+  },
+  {
+   "doc": "32022R1925",
+   "clause": "The Commission shall also convene a meeting of the group when so requested by the majority of the members composing the group in order to address a specific issue.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "The Commission"
+  },
+  {
+   "doc": "32014L0053",
+   "clause": "The manufacturer shall operate an approved quality system for design, manufacture, final radio equipment inspection and testing of the radio equipment concerned as specified in point 3 and shall be subject to surveillance as specified in point 4.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "The manufacturer"
+  },
+  {
+   "doc": "31987L0372",
+   "clause": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32022R2554",
+   "clause": "A CSD shall identify, monitor and manage the risks that key participants in the securities settlement systems it operates, as well as service and utility providers, and other CSDs or other market infrastructures might pose to its operations.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "A CSD"
+  },
+  {
+   "doc": "32022R2560",
+   "clause": "The time limits provided for in paragraph 1, point (b) of this Article shall be extended if the undertakings concerned make a request to that effect not later than 15 working days after the opening of the in-depth investigation pursuant to Article 10.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "The time limits provided for in paragraph 1, point (b) of this Article"
+  },
+  {
+   "doc": "32022R2554",
+   "clause": "The designation referred to in paragraph 1, point (a), shall not be used until the Commission has adopted a delegated act in accordance with paragraph 6.",
+   "marker": "shall not",
+   "category": "prohibition",
+   "addressee": "unclear",
+   "subject": "The designation"
+  },
+  {
+   "doc": "32024R0795",
+   "clause": "The remaining 25 % of the EU guarantee under the EU compartment shall be granted to other implementing partners, which shall also provide a financial contribution to be determined in the guarantee agreements.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "which"
+  },
+  {
+   "doc": "32014R0316",
+   "clause": "the market share shall be calculated on the basis of data relating to the preceding calendar year;",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "the market share"
+  },
+  {
+   "doc": "32020D0636",
+   "clause": "( *8 ) It is noted that in some deployment scenarios this limit may not guarantee interference-free uplink operation in adjacent channels, although this would typically be mitigated by building penetration loss and/or difference in antenna height.",
+   "marker": "may not",
+   "category": "prohibition",
+   "addressee": "unclear",
+   "subject": "this limit"
+  },
+  {
+   "doc": "32022R1925",
+   "clause": "Whenever a further core platform service provided by the undertaking that has previously been designated as a gatekeeper meets the thresholds in paragraph 2, points (b) and (c), such undertaking shall notify the Commission thereof within 2 months after those thresholds are satisfied.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "such undertaking"
+  },
+  {
+   "doc": "32021R0694",
+   "clause": "In the case of actions carried out outside the Union using or generating classified information, in addition to compliance with above requirements such actions shall be subject to a security agreement concluded between the Union and the third country in which the activity is conducted.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "such actions"
+  },
+  {
+   "doc": "32025R2518",
+   "clause": "The supervisory authority with which the complaint has been lodged shall inform the complainant of the reasons for the preliminary view referred to in the first subparagraph, provide the complainant with the opportunity to make his or her views known in writing and inform the complainant of the consequences of not making his or her views known.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "The supervisory authority with which the complaint has been lodged"
+  },
+  {
+   "doc": "32018R1807",
+   "clause": "By 29 May 2019, the Commission shall publish informative guidance on the interaction of this Regulation and Regulation (EU) 2016/679, especially as regards data sets composed of both personal and non-personal data.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "the Commission"
+  },
+  {
+   "doc": "32019R0517",
+   "clause": "The Registry shall be a not-for-profit organisation.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "The Registry"
+  },
+  {
+   "doc": "32020D0636",
+   "clause": "Any guard band required to ensure compatibility of frequency use at either the 2 570 MHz or the 2 620 MHz boundary shall be decided on a national basis and taken within the 2 570\u20132 620 MHz frequency sub-band.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "Any guard band"
+  },
+  {
+   "doc": "32000L0031",
+   "clause": "The Commission shall communicate these decisions to the other Member States.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "The Commission"
+  },
+  {
+   "doc": "32006L0112",
+   "clause": "If a taxable dealer exercises the option under Article 316, the taxable amount shall be determined in accordance with Article 315.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "the taxable amount"
+  },
+  {
+   "doc": "32025R1176",
+   "clause": "With the exception of bidders that qualify as natural persons, companies that are not in the scope of Directive 2013/34/EU as defined in its Articles 19a and 29a and their subsequent modifications and renewable energy communities as defined in Article 2(16) of Directive (EU) 2018/2001, compliance with the criteria referred to in Article 4 shall be assessed against relevant supporting statements assured by independent third parties.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "companies that are not in the scope of Directive 2013/34/EU as defined in its Articles 19a and 29a and their subsequent modifications and renewable energy communities as defined in Article 2(16) of Directive (EU) 2018/2001"
+  },
+  {
+   "doc": "32004L0048",
+   "clause": "The judicial authorities shall order that those measures be carried out at the expense of the infringer, unless particular reasons are invoked for not doing so.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "The judicial authorities"
+  },
+  {
+   "doc": "32024R1028",
+   "clause": "Where, after hearing the host, the competent authority confirms its intention to suspend, or withdraw, the validity of a registration number or numbers, it shall notify the host in writing of the decision to suspend the validity of a registration number or numbers, accompanied by a copy of the order referred to in paragraphs 3 or 4, or of the decision to withdraw the registration number or numbers, accompanied by a copy of the order in accordance with paragraph 6.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "it"
+  },
+  {
+   "doc": "32019R0452",
+   "clause": "A Member State where a foreign direct investment is planned or has been completed shall give due consideration to the comments of the other Member States and to the opinion of the Commission.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "A Member State where a foreign direct investment is planned or has been completed"
+  },
+  {
+   "doc": "32018R1807",
+   "clause": "By 30 May 2021, if a Member State considers that an existing measure containing a data localisation requirement is in compliance with paragraph 1 of this Article and can therefore remain in force, it shall communicate that measure to the Commission, together with a justification for maintaining it in force.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "it"
+  },
+  {
+   "doc": "32025R1176",
+   "clause": "Where a product is not covered under paragraph 2 or 3, energy efficiency shall be measured and assessed based on other methods provided for in Union legislation, where available.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "energy efficiency"
+  },
+  {
+   "doc": "32000L0031",
+   "clause": "Where this is the case, the measures shall be notified in the shortest possible time to the Commission and to the Member State referred to in paragraph 1, indicating the reasons for which the Member State considers that there is urgency.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "the measures"
+  },
+  {
+   "doc": "32004R0139",
+   "clause": "At the request of the Commission, the competent authorities of the Member States shall undertake the inspections which the Commission considers to be necessary under Article 13(1), or which it has ordered by decision pursuant to Article 13(4).",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "the competent authorities of the Member States"
+  },
+  {
+   "doc": "32014L0053",
+   "clause": "Member States other than the Member State initiating the procedure under this Article shall without delay inform the Commission and the other Member States of any measures adopted and of any additional information at their disposal relating to the non-compliance of the radio equipment concerned, and, in the event of disagreement with the adopted national measure, of their objections.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "Member States other than the Member State initiating the procedure under this Article"
+  },
+  {
+   "doc": "32024D1432",
+   "clause": "The financial liability of the members for the debts of the EDIC shall be limited to their respective contributions provided to the EDIC, as specified in the Annex III.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "The financial liability of the members for the debts of the EDIC"
+  },
+  {
+   "doc": "32025R2518",
+   "clause": "The supervisory authority to which the information is submitted shall determine whether or not the information or relevant and specific parts of documents are confidential, in accordance with paragraph 1.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "The supervisory authority to which the information is submitted"
+  },
+  {
+   "doc": "32021R0784",
+   "clause": "The monitoring programme shall set out the indicators and the means by which and the intervals at which the data and other necessary evidence are to be collected.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "The monitoring programme"
+  },
+  {
+   "doc": "32006L0112",
+   "clause": "The chargeable event shall occur and VAT shall become chargeable when the goods are imported.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "The chargeable event"
+  },
+  {
+   "doc": "32021R0784",
+   "clause": "That competent authority shall transmit the removal order to the contact point referred to in Article 15(1) by electronic means capable of producing a written record under conditions that allow to establish the authentication of the sender, including the accuracy of the date and the time of sending and receipt of the order.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "That competent authority"
+  },
+  {
+   "doc": "32020D0636",
+   "clause": "For AAS with restrictions on antenna placement, alternative national measures compared to Table 3 or Table 5 may be required on a case-by-case basis.",
+   "marker": "be required",
+   "category": "explicit_requirement",
+   "addressee": "member_states",
+   "subject": "alternative national measures compared to Table 3 or Table 5"
+  },
+  {
+   "doc": "32024R0795",
+   "clause": "Where appropriate, the interim evaluation report shall be accompanied by a legislative proposal for an amendment of this Regulation with the aim of reducing the Union\u2019s strategic dependencies and strengthening Union industrial policy, while ensuring the proper functioning of the internal market, avoiding market distortions and creating a level playing field in the Union, or by legislative proposals for other initiatives that pursue similar objectives.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "by a legislative proposal for an amendment of this Regulation"
+  },
+  {
+   "doc": "32019D0785",
+   "clause": "Material sensing devices must fulfil the requirements of mitigation techniques specified for the generic use of UWB in section 1.",
+   "marker": "must",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "Material sensing devices"
+  },
+  {
+   "doc": "32022R2560",
+   "clause": "account shall be taken of the turnover resulting from the sale of products and the provision of services between the joint undertaking and any third undertakings, and this turnover shall be apportioned equally amongst the undertakings concerned;",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "this turnover"
+  },
+  {
+   "doc": "32019R0817",
+   "clause": "From the envelope referred to in paragraph 3, EUR 22 861 000 shall be allocated to eu-LISA, EUR 9 072 000 shall be allocated to Europol and EUR 144 000 shall be allocated to the European Union Agency for Law Enforcement Training (CEPOL) to support these agencies in performing their respective tasks under this Regulation.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "144 000"
+  },
+  {
+   "doc": "32018R1725",
+   "clause": "The controller shall publish on its website and keep up to date a list of adequacy decisions referred to in point (a) of paragraph 1, agreements, administrative arrangements and other instruments relating to the transfer of operational personal data in accordance with paragraph 1.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "The controller"
+  },
+  {
+   "doc": "32000L0031",
+   "clause": "- formal validity of contracts creating or transferring rights in real estate where such contracts are subject to mandatory formal requirements of the law of the Member State where the real estate is situated,",
+   "marker": "mandatory",
+   "category": "explicit_requirement",
+   "addressee": "unclear",
+   "subject": ""
+  },
+  {
+   "doc": "32025R1176",
+   "clause": "Where a product is covered by a delegated act adopted under Regulation (EU) 2017/1369, Directive 2010/30/EU of the European Parliament and of the Council ( 34 ) or by a related Commission implementing act, the criterion referred to in paragraph 1 shall comply with the criterion laid down in Article 7(2) of that Regulation (EU) 2017/1369.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": ""
+  },
+  {
+   "doc": "32021R0784",
+   "clause": "For the purposes of paragraph 1, Member States shall provide for the appropriate and secure communication channels or mechanisms to ensure that the relevant information is exchanged in a timely manner.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32020D0636",
+   "clause": "Within the 2 500\u20132 690 MHz frequency band, the duplex spacing for Frequency Division Duplex operation shall be 120 MHz with terminal station transmission (uplink) located in the lower part of the band starting at 2 500 MHz and ending at 2 570 MHz, and base station transmission (downlink) located in the upper part of the band starting at 2 620 MHz and ending at 2 690 MHz;",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "the duplex spacing for Frequency Division Duplex operation"
+  },
+  {
+   "doc": "32023R1543",
+   "clause": "Upon receipt of the EPOC, the data requested must be produced:",
+   "marker": "must",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": ""
+  },
+  {
+   "doc": "32019R0452",
+   "clause": "Notwithstanding the first subparagraph, if additional information was requested pursuant to paragraph 6, such comments or opinions shall be issued no later than 20 calendar days following receipt of the additional information or the notification pursuant to Article 9(5).",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "such comments or opinions"
+  },
+  {
+   "doc": "31987L0372",
+   "clause": "The Commission shall report to the Council on the implementation of the Directive not later than the end of 1996.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "The Commission"
+  },
+  {
+   "doc": "32024D1432",
+   "clause": "Without undue delay and in any event within 10 days of the closure of the winding-up procedure, EUROPEUM-EDIC shall notify the Commission thereof.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "EUROPEUM-EDIC"
+  },
+  {
+   "doc": "32014L0053",
+   "clause": "The Commission shall make available a central system allowing manufacturers to register the required information.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "The Commission"
+  },
+  {
+   "doc": "32014R0910",
+   "clause": "Qualified certificates for electronic seals shall contain:",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "Qualified certificates for electronic seals"
+  },
+  {
+   "doc": "32019R0452",
+   "clause": "The Commission shall also consider seeking the advice of that group on systemic issues relating to the implementation of this Regulation.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "The Commission"
+  },
+  {
+   "doc": "32023R1543",
+   "clause": "Where needed, the EPOC or the EPOC-PR shall be translated into an official language of the Union accepted by the addressee as provided for in Article 4 of Directive (EU) 2023/1544.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "the EPOC or the EPOC-PR"
+  },
+  {
+   "doc": "32020D0636",
+   "clause": "For situations where additional baseline is not considered necessary by the concerned Member State (e.g. where there is no nearby RAS station or situation where no coordination zone is required).",
+   "marker": "is required",
+   "category": "explicit_requirement",
+   "addressee": "unclear",
+   "subject": "no coordination zone"
+  },
+  {
+   "doc": "32023R2841",
+   "clause": "The processing of personal data under this Regulation by CERT-EU, the Interinstitutional Cybersecurity Board established pursuant to Article 10 and Union entities shall be carried out in accordance with Regulation (EU) 2018/1725.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "The processing of personal data under this Regulation by CERT-EU, the Interinstitutional Cybersecurity Board"
+  },
+  {
+   "doc": "32025R2518",
+   "clause": "After submitting the draft decision to the other supervisory authorities concerned pursuant to Article 60(3) of Regulation (EU) 2016/679 and where none of those other supervisory authorities object to the draft decision within the periods referred to in Article 60(4) or (5) of Regulation (EU) 2016/679, as applicable, the lead supervisory authority shall, within one month from the end of the period referred to in Article 60(4) or (5) of Regulation (EU) 2016/679:",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "the lead supervisory authority"
+  },
+  {
+   "doc": "32022R2560",
+   "clause": "A distortion in the internal market shall be determined on the basis of indicators, which can include, in particular, the following:",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "A distortion in the internal market"
+  },
+  {
+   "doc": "31987L0372",
+   "clause": "Member States shall bring into force the provisions necessary to comply with this Directive within 18 months of its notification (2).",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32023R1543",
+   "clause": "The Commission shall be responsible for the creation, maintenance and development of reference implementation software which Member States may choose to apply as their back-end system instead of a national IT system.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "The Commission"
+  },
+  {
+   "doc": "32024R1735",
+   "clause": "When adopting that implementing act, the Commission shall consider at least the following elements:",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "the Commission"
+  },
+  {
+   "doc": "32004R0139",
+   "clause": "Where authorisation as referred to in paragraph 7 is applied for, the national judicial authority shall ensure that the Commission decision is authentic and that the coercive measures envisaged are neither arbitrary nor excessive having regard to the subject matter of the inspection.",
+   "marker": "shall ensure",
+   "category": "duty_of_result",
+   "addressee": "member_states",
+   "subject": "the national judicial authority"
+  },
+  {
+   "doc": "32019R0452",
+   "clause": "The Member State providing comments shall send those comments to the Commission simultaneously.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "The Member State providing comments"
+  },
+  {
+   "doc": "32019D0785",
+   "clause": "In the 2,5 GHz to 2,69 GHz and 4,8 GHz to 5 GHz frequency ranges, the total power spectral density must be 10 dB below the maximum e.i.r.p. spectral density.",
+   "marker": "must",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "the total power spectral density"
+  },
+  {
+   "doc": "32023R1066",
+   "clause": "Market shares shall be calculated on the basis of market sales value or, if market sales value data are not available, on the basis of market sales volumes.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "Market shares"
+  },
+  {
+   "doc": "32019R1020",
+   "clause": "For the purposes of paragraph 1 of this Article, each Member State shall designate one or more market surveillance authorities in its territory.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "each Member State"
+  },
+  {
+   "doc": "32006L0112",
+   "clause": "Member States shall exempt the following transactions:",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32024R0795",
+   "clause": "The Member State shall submit a final report on implementation of the operational programme together with the closure documents as set out in Article 52 by 15 February 2026 at the latest.\u2019",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "The Member State"
+  },
+  {
+   "doc": "32000L0031",
+   "clause": "In addition to other information requirements established by Community law, Member States shall ensure that the service provider shall render easily, directly and permanently accessible to the recipients of the service and competent authorities, at least the following information:",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "the service provider"
+  },
+  {
+   "doc": "32024R1735",
+   "clause": "Should the report referred to in paragraph 2 show that no CO 2 storage projects are in progress on their territory, Member States shall report on plans to facilitate the decarbonisation of industrial sectors.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32024R1028",
+   "clause": "Member States shall by 20 May 2026 adopt and publish the laws, regulations and administrative provisions necessary to comply with paragraph 3 and shall notify the Commission thereof without delay.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32024L2831",
+   "clause": "Member States shall ensure that such representatives and legal entities are able to act on behalf or in support of one or several persons performing platform work in the case of the infringement of any right or obligation arising from this Directive, in accordance with national law and practice.",
+   "marker": "shall ensure",
+   "category": "duty_of_result",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32019R0817",
+   "clause": "Member States shall ensure that every access to and all exchanges of personal data within CS-SIS are logged in their N.SIS for the purposes of checking whether the search was lawful, monitoring the lawfulness of data processing, self-monitoring, ensuring the proper functioning of N.SIS, as well as for data integrity and security.",
+   "marker": "shall ensure",
+   "category": "duty_of_result",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32019R1020",
+   "clause": "The report shall assess whether this Regulation achieved its objective, in particular with regard to reducing the number of non-compliant products on the Union market, ensuring effective and efficient enforcement of Union harmonisation legislation within the Union, improving cooperation between competent authorities and strengthening the controls on products entering the Union market, while taking into account the impact on business and in particular on SMEs.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "The report"
+  },
+  {
+   "doc": "32014R0910",
+   "clause": "A qualified electronic signature shall have the equivalent legal effect of a handwritten signature.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "A qualified electronic signature"
+  },
+  {
+   "doc": "32021R0694",
+   "clause": "The Commission shall also ensure that integrated information is provided and that it reaches potential applicants to Union funding in the digital sector.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "The Commission"
+  },
+  {
+   "doc": "32018R1725",
+   "clause": "Processing by the same or another controller for any of the purposes set out in the legal act establishing the Union body, office or agency other than that for which the operational personal data are collected shall be permitted in so far as:",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "Processing by the same or another controller for any of the purposes set out in the legal act establishing the Union body, office or agency other than that for which the operational personal data are collected"
+  },
+  {
+   "doc": "32014R0910",
+   "clause": "Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 48(2).",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "Those implementing acts"
+  },
+  {
+   "doc": "32023R1066",
+   "clause": "The agreement must stipulate that each party shall be granted access to any pre-existing know-how of the other parties if such know-how is indispensable for the purposes of exploitation of the results.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "each party"
+  },
+  {
+   "doc": "32023R2841",
+   "clause": "Such data may be processed only to the extent necessary for the implementation of cybersecurity risk-management measures referred to in Articles 6 and 8, for the provision of services by CERT-EU pursuant to Article 13, for the sharing of incident-specific information pursuant to Article 17(3) and Article 18(3), for the sharing of information pursuant Article 20, for the reporting obligations pursuant to Article 21, for incident response coordination and cooperation pursuant to Article 22 and for the management of major incidents pursuant to Article 23 of this Regulation.",
+   "marker": "may be processed only to the extent",
+   "category": "restricted_permission",
+   "addressee": "private_parties",
+   "subject": "Such data"
+  },
+  {
+   "doc": "32022R2560",
+   "clause": "In accordance with Article 261 TFEU, the Court of Justice of the European Union shall have unlimited jurisdiction to review decisions by which the Commission has imposed fines or periodic penalty payments.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "the Court of Justice of the European Union"
+  },
+  {
+   "doc": "32024R0795",
+   "clause": "In accordance with Article 12(1) of Regulation (EU) 2021/695, the financial envelope for the implementation of the Fund for the period from 1 January 2021 to 31 December 2027 shall be EUR 9 453 000 000 in current prices.\u2019",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": ""
+  },
+  {
+   "doc": "32022R2560",
+   "clause": "Such reviews shall not result in the cancellation of the decision awarding a contract or in a termination of a contract.",
+   "marker": "shall not",
+   "category": "prohibition",
+   "addressee": "private_parties",
+   "subject": "Such reviews"
+  },
+  {
+   "doc": "32025R1176",
+   "clause": "When choosing to assess the auction\u2019s sustainability contribution referred to in Article 26(1), point (b), of Regulation (EU) 2024/1735 by means of innovation criteria, the relevant authorities shall distinguish, where relevant, between:",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "the relevant authorities"
+  },
+  {
+   "doc": "32021R0784",
+   "clause": "The decision as to the choice of specific measures shall remain with the hosting service provider.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "The decision as to the choice of specific measures"
+  },
+  {
+   "doc": "32004L0048",
+   "clause": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by ...",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32019R1020",
+   "clause": "Single liaison offices shall enter the following information in the information and communication system:",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "Single liaison offices"
+  },
+  {
+   "doc": "52025PC0335",
+   "clause": "As part of the application for authorisation referred to in Article 6, applicants shall submit an Environmental Footprint Declaration (\u2018EFD\u2019) to competent authorities.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "applicants"
+  },
+  {
+   "doc": "32019D0785",
+   "clause": "Material sensing devices based on UWB technology shall comply either with the generic UWB regulation based on technical conditions specified in section 1 of this Annex or with the specific limits for material sensing devices as defined in sections 5.2 and 5.3.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "Material sensing devices based on UWB technology"
+  },
+  {
+   "doc": "32014R0910",
+   "clause": "Member States shall cooperate with regard to the following:",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32022R2554",
+   "clause": "Before issuing recommendations in accordance with paragraph 1, point (d), the Lead Overseer shall give the opportunity to the ICT third-party service provider to provide, within 30 calendar days, relevant information evidencing the expected impact on customers that are entities falling outside the scope of this Regulation and, where appropriate, formulating solutions to mitigate risks.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "the Lead Overseer"
+  },
+  {
+   "doc": "32018R1807",
+   "clause": "The Commission shall encourage and facilitate the development of self-regulatory codes of conduct at Union level (\u2018codes of conduct\u2019), in order to contribute to a competitive data economy, based on the principles of transparency and interoperability and taking due account of open standards, covering, inter alia, the following aspects:",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "The Commission"
+  },
+  {
+   "doc": "32019D0785",
+   "clause": "If relevant techniques are described in harmonised standards or parts thereof the references of which have been published in the Official Journal of the European Union under Directive 2014/53/EU, performance at least equivalent to these techniques shall be ensured.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "performance at least equivalent to these techniques"
+  },
+  {
+   "doc": "32022R2554",
+   "clause": "Financial entities, other than microenterprises, shall establish a role in order to monitor the arrangements concluded with ICT third-party service providers on the use of ICT services, or shall designate a member of senior management as responsible for overseeing the related risk exposure and relevant documentation.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "Financial entities, other than microenterprises,"
+  },
+  {
+   "doc": "32024R1028",
+   "clause": "Member States shall ensure that the information and documentation provided by the host pursuant to paragraphs 1 and 2 is only processed for the purpose of issuing the registration number and ensuring compliance with the applicable rules of the Member State concerning access to, and the provision of, short-term accommodation rental services.",
+   "marker": "shall ensure",
+   "category": "duty_of_result",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32004L0048",
+   "clause": "Member States shall ensure that, even before the commencement of proceedings on the merits of the case, the competent judicial authorities may, on application by a party who has presented reasonably available evidence to support his claims that his intellectual property right has been infringed or is about to be infringed, order prompt and effective provisional measures to preserve relevant evidence in respect of the alleged infringement, subject to the protection of confidential information.",
+   "marker": "shall ensure",
+   "category": "duty_of_result",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32004R0139",
+   "clause": "It shall inform the Committee of the manner in which its opinion has been taken into account.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "It"
+  },
+  {
+   "doc": "32014L0053",
+   "clause": "Member States shall submit to the Commission regular reports on the application of this Directive by 12 June 2017 and at least every two years thereafter.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "Member States"
+  },
+  {
+   "doc": "32025R1176",
+   "clause": "In defining circular economy criteria referred to in paragraph 1, the relevant authorities shall make use of methods provided for in Union legislation specifically addressing the net-zero technologies in the scope of this implementing regulation, where available.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "the relevant authorities"
+  },
+  {
+   "doc": "32023R1066",
+   "clause": "The research and development agreement must stipulate that all the parties have full access to the final results of the joint or paid-for research and development for the purpose of further research and development and for the purpose of exploitation.",
+   "marker": "must",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "The research and development agreement"
+  },
+  {
+   "doc": "32006L0112",
+   "clause": "Where Member States designate the customer for investment gold as the person liable for payment of VAT pursuant to Article 198(1) or if, in the case of gold material, semi-manufactured products, or investment gold as defined in Article 344(1), they exercise the option provided for in Article 198(2) of designating the customer as the person liable for payment of VAT, they shall take the measures necessary to ensure that he complies with the payment obligations set out in this Section.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "they"
+  },
+  {
+   "doc": "32023R1543",
+   "clause": "If clarifications by the issuing authority are needed, the addressee shall seek them, without undue delay, using this form.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "member_states",
+   "subject": "the addressee"
+  },
+  {
+   "doc": "32025R2518",
+   "clause": "The period for adoption of the binding decision of the Board provided for in Article 65(2) of Regulation (EU) 2016/679 shall be suspended until the party under investigation or the complainant, as applicable, have made their views known or until the expiry of the time limit referred to in paragraph 2 of this Article, whichever is the earlier.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "The period for adoption of the binding decision of the Board provided for in Article 65(2) of Regulation (EU) 2016/679"
+  },
+  {
+   "doc": "32019R0817",
+   "clause": "Without prejudice to Article 46 of Regulation (EU) 2017/2226, Article 34 of Regulation (EC) No 767/2008 and Articles 12 and 18 of Regulation (EU) 2018/1861, eu-LISA shall keep logs of all data processing operations in the shared BMS.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "No 767/2008 and Articles 12 and 18 of Regulation (EU) 2018/1861"
+  },
+  {
+   "doc": "32014R0910",
+   "clause": "Qualified electronic signature creation devices shall meet the requirements laid down in Annex II.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "Qualified electronic signature creation devices"
+  },
+  {
+   "doc": "32024D1432",
+   "clause": "VAT exemptions based on Articles 143(1)(g) and 151(1)(b) of Council Directive 2006/112/EC and in accordance with Article 51 of Council Implementing Regulation (EU) No 282/2011, shall be limited to purchases by EUROPEUM-EDIC which are for the official and exclusive use by EUROPEUM-EDIC provided that such purchase is made solely for the non-economic activities of EUROPEUM-EDIC in line with its activities.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "eu_institutions",
+   "subject": "VAT exemptions based on Articles 143(1)(g) and 151(1)(b) of Council Directive 2006/112/EC and in accordance with Article 51 of Council Implementing Regulation (EU) No 282/2011"
+  },
+  {
+   "doc": "32014L0053",
+   "clause": "The notified body shall evaluate any proposed changes and decide whether the modified quality system will continue to satisfy the requirements referred to in point 3.2 or whether a reassessment is necessary.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "private_parties",
+   "subject": "The notified body"
+  },
+  {
+   "doc": "32024D1432",
+   "clause": "EUROPEUM-EDIC shall be liable for its debts.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "EUROPEUM-EDIC"
+  },
+  {
+   "doc": "32006L0112",
+   "clause": "If the customer who is not a member of the regulated gold bullion market is a taxable person required to be identified for VAT purposes in the Member State in which the tax is due solely in respect of the transactions referred to in Article 352, the vendor shall fulfil the tax obligations on behalf of the customer, in accordance with the law of that Member State.",
+   "marker": "shall",
+   "category": "obligation",
+   "addressee": "unclear",
+   "subject": "the vendor"
+  }
+ ],
+ "negatives": [
+  {
+   "doc": "32021D1780",
+   "clause": "This Decision shall apply from 1 January 2010 until 31 December 2024.\u2019."
+  },
+  {
+   "doc": "32019R0817",
+   "clause": "eu-LISA has declared the successful completion of a comprehensive test of the ESP, which it has conducted in cooperation with the Member States authorities and the Union agencies that may use the ESP;"
+  },
+  {
+   "doc": "32023R1543",
+   "clause": "such a substantial connection is to be considered to exist where the service provider has an establishment in a Member State, or, in the absence of such an establishment, where there is a significant number of users in one or more Member States, or where there is targeting of activities towards one or more Member States;"
+  },
+  {
+   "doc": "32018R1725",
+   "clause": "assists the controller in ensuring compliance with the obligations pursuant to Articles 33 to 41 taking into account the nature of processing and the information available to the processor;"
+  },
+  {
+   "doc": "32019R0817",
+   "clause": "Member States may decide that replies are to be given by central offices."
+  },
+  {
+   "doc": "32025R2518",
+   "clause": "Administrative modalities and requirements under the national procedural law of the lead supervisory authority shall continue to apply."
+  },
+  {
+   "doc": "32024R0795",
+   "clause": "Strategic projects recognised in accordance with the relevant provisions of the Net-Zero Industry Act and the Critical Raw Materials Act that fall within the scope of Article 2 of this Regulation and that receive a contribution under the programmes referred to in Article 3 of this Regulation may also receive a contribution from any other Union programme, including funds under shared management, pr"
+  },
+  {
+   "doc": "32014L0053",
+   "clause": "where radio equipment is fitted with an integral screen, allow the display of the required information on the integral screen."
+  },
+  {
+   "doc": "32023R1543",
+   "clause": "A European Preservation Order shall include the following information:"
+  },
+  {
+   "doc": "32024D1432",
+   "clause": "It may, in particular, acquire, own and dispose of movable, immovable and intellectual property, conclude contracts and be a party to legal proceedings."
+  },
+  {
+   "doc": "32023D1646",
+   "clause": "Points (1), (3), (5), (7) and (9) of the Annex shall apply from 21 February 2025."
+  },
+  {
+   "doc": "32004L0048",
+   "clause": "the provision under (a) shall apply mutatis mutandis to the holders of rights related to copyright with regard to their protected subject matter."
+  },
+  {
+   "doc": "32023D1411",
+   "clause": "Sterilisation of health care products \u2013 Low temperature steam and formaldehyde \u2013 Requirements for development, validation and routine control of a sterilisation process for medical devices (ISO 25424:2018)"
+  },
+  {
+   "doc": "32025R1176",
+   "clause": "Where the share of supply within the Union originating in a single third country referred to in the first subparagraph is above 85 %, the relevant authorities may increase the limit on the maximum quantity of components of the first subparagraph from 50 % to up to 85 %."
+  },
+  {
+   "doc": "32021D1780",
+   "clause": "This Decision shall take effect on the date of its notification."
+  },
+  {
+   "doc": "32021D1775",
+   "clause": "This Decision shall take effect on the date of its notification."
+  },
+  {
+   "doc": "32024R0795",
+   "clause": "equity-only support required for scale-up to non-bankable SMEs, including start-ups, and non-bankable small mid-caps, including entities which have already received support in line with points (a) to (c), carrying out breakthrough and disruptive non-bankable innovation in the critical technologies referred to in Article 2(1)(a) of Regulation (EU) 2024/795 of the European Parliament and of the Coun"
+  },
+  {
+   "doc": "32018R1807",
+   "clause": "This Regulation shall apply six months after its publication."
+  },
+  {
+   "doc": "32019R0452",
+   "clause": "The delegation of power referred to in Article 8(4) may be revoked at any time by the European Parliament or by the Council."
+  },
+  {
+   "doc": "32004L0048",
+   "clause": "To that end, the competent authorities may order the communication of bank, financial or commercial documents, or appropriate access to the relevant information."
+  },
+  {
+   "doc": "32021R0784",
+   "clause": "This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union ."
+  },
+  {
+   "doc": "32004R0139",
+   "clause": "If the Commission does not take a decision within this period, it shall be deemed to have adopted a decision to refer the case in accordance with the submission made by the persons or undertakings concerned."
+  },
+  {
+   "doc": "32024R1735",
+   "clause": "With regard to the environmental impacts or obligations referred to in Article 4(7) of Directive 2000/60/EC, Article 9(1), point (a), of Directive 2009/147/EC, Articles 6(4) and 16(1) of Directive 92/43/EEC and in Union legislative acts on nature restoration, net-zero technology manufacturing projects in Valleys in the Union shall be considered to be of public interest and may be considered to hav"
+  },
+  {
+   "doc": "32023R1066",
+   "clause": "For the purposes of this Regulation, the terms \u2018undertaking\u2019 and \u2018party\u2019 shall include their respective connected undertakings."
+  },
+  {
+   "doc": "32018R1725",
+   "clause": "Without prejudice to Articles 36 and 37, in the context of the use of information society services the data subject may exercise his or her right to object by automated means using technical specifications."
+  },
+  {
+   "doc": "32020D0636",
+   "clause": "In case an upper limit is set by a Member State, a value between 53dBm/5MHz and 60 dBm/5 MHz per cell ( *1 ) may be applied."
+  },
+  {
+   "doc": "32014R0316",
+   "clause": "the obligation to produce the contract products only for a particular customer, where the licence was granted in order to create an alternative source of supply for that customer,"
+  },
+  {
+   "doc": "32019D0309",
+   "clause": "This Decision shall apply from 1 March 2019 and shall expire on 28 February 2022."
+  },
+  {
+   "doc": "32022R2560",
+   "clause": "Article 14(1), (2), and (3), points (a) and (b) shall apply mutatis mutandis ."
+  },
+  {
+   "doc": "32022R2560",
+   "clause": "The Commission may adopt such delegated acts to reduce the timelines in Article 25(2) and (4) and Article 30(2), (5) and (6) where its practice in the application of this Regulation demonstrates that the Commission\u2019s assessment can be performed within a shorter period of time."
+  },
+  {
+   "doc": "32019R1020",
+   "clause": "This Regulation shall be binding in its entirety and directly applicable in all Member States."
+  },
+  {
+   "doc": "32014D0795",
+   "clause": "This Decision shall apply from 1 January 2015."
+  },
+  {
+   "doc": "32020D0636",
+   "clause": "It should be noted that small-area wireless access points (small cells) may be deployed at lower heights and thus closer to terminal stations, which can result in higher levels of interference if this power limit is used."
+  },
+  {
+   "doc": "32019R1020",
+   "clause": "For the purposes of paragraph 1, the Commission may designate a public testing facility of a Member State as a Union testing facility for specific categories of products or for specific risks related to a category of products."
+  },
+  {
+   "doc": "32022R2554",
+   "clause": "located at a geographical distance from the primary processing site to ensure that it bears a distinct risk profile and to prevent it from being affected by the event which has affected the primary site;"
+  },
+  {
+   "doc": "32006L0112",
+   "clause": "Member States may impose specific conditions on taxable persons supplying goods or services in their territory in cases where the third party, or the customer, who issues invoices is established in a country with which no legal instrument exists relating to mutual assistance similar in scope to that provided for in Directive 76/308/EEC and Regulation (EC) No 1798/2003."
+  },
+  {
+   "doc": "32004L0048",
+   "clause": "This Directive concerns the measures, procedures and remedies necessary to ensure the enforcement of intellectual property rights."
+  },
+  {
+   "doc": "32025R2518",
+   "clause": "The preliminary findings shall include the findings of the investigation and present allegations raised in an exhaustive and sufficiently clear manner to enable the parties under investigation to take cognisance of the conduct investigated by the lead supervisory authority."
+  },
+  {
+   "doc": "32018R1725",
+   "clause": "the measures envisaged to address the risks, including safeguards, security measures and mechanisms to ensure the protection of personal data and to demonstrate compliance with this Regulation taking into account the rights and legitimate interests of data subjects and other persons concerned."
+  },
+  {
+   "doc": "32022R2554",
+   "clause": "Upon receiving the reports referred to in Article 35(1), point (c), and prior to taking a decision as referred to in paragraph 6 of this Article, competent authorities may, on a voluntary basis, consult the competent authorities designated or established in accordance with Directive (EU) 2022/2555 responsible for the supervision of an essential or important entity subject to that Directive, which "
+  },
+  {
+   "doc": "32014R0316",
+   "clause": "Where the undertakings party to the agreement are not competing undertakings, the exemption provided for in Article 2 shall not apply to agreements which, directly or indirectly, in isolation or in combination with other factors under the control of the parties, have as their object any of the following:"
+  },
+  {
+   "doc": "32024R0795",
+   "clause": "The JTF may also support investments contributing to the objectives of the Strategic Technologies for Europe Platform (STEP) referred to in Article 2 of Regulation (EU) 2024/795 of the European Parliament and of the Council ( *5 ) ."
+  },
+  {
+   "doc": "32024L2831",
+   "clause": "With regard to contractual relationships entered into before and ongoing on 2 December 2026, the legal presumption provided for in this Article shall apply only to the period starting from that date."
+  },
+  {
+   "doc": "32000L0031",
+   "clause": "Member States may lay down that paragraph 1 shall not apply to all or certain contracts falling into one of the following categories:"
+  },
+  {
+   "doc": "32024L2831",
+   "clause": "The legal presumption shall not apply to proceedings which concern tax, criminal or social security matters."
+  },
+  {
+   "doc": "32023R1543",
+   "clause": "The service provider may claim reimbursement of its costs from the issuing State, if that possibility is provided for in the national law of the issuing State for domestic orders in similar situations, in accordance with the national law of that State."
+  },
+  {
+   "doc": "32018D1920",
+   "clause": "It shall apply from 1 January 2019."
+  },
+  {
+   "doc": "32022R2560",
+   "clause": "This Regulation shall not apply to public procurement contracts that have been awarded or procedures initiated before 12 July 2023."
+  },
+  {
+   "doc": "32020D0636",
+   "clause": "In case an upper limit is set by a Member State, a value between 61dBm/5MHz and 68 dBm/5 MHz per antenna may be applied."
+  },
+  {
+   "doc": "32000L0031",
+   "clause": "- the service provider has to acknowledge the receipt of the recipient's order without undue delay and by electronic means,"
+  },
+  {
+   "doc": "32021R0694",
+   "clause": "Calls for proposals, calls for tenders and grant agreements shall include the relevant requirements set out in those work programmes."
+  },
+  {
+   "doc": "32023D1411",
+   "clause": "This Decision shall enter into force on the day of its publication in the Official Journal of the European Union ."
+  },
+  {
+   "doc": "32014L0053",
+   "clause": "satisfactory knowledge of the requirements of the assessments they carry out and adequate authority to carry out those assessments;"
+  },
+  {
+   "doc": "32023R1066",
+   "clause": "If the research and development agreement includes any of the excluded restrictions referred to in paragraph 1 of this Article, the exemption established in Article 2 shall continue to apply to the remaining part of the research and development agreement, provided that the excluded restrictions can be severed from that remaining part and provided that the other conditions of this Regulation are me"
+  },
+  {
+   "doc": "32022R1925",
+   "clause": "a draft delegated act supplementing this Regulation with regard to the obligations laid down in Articles 5 and 6, or a draft delegated act amending or supplementing this Regulation with regard to the obligations laid down in Article 7, as provided for in Article 12."
+  },
+  {
+   "doc": "32023R2841",
+   "clause": "In order to ensure the proper and stable functioning of CERT-EU, the Commission may propose the reallocation of staff and financial resources to the Commission budget for use in CERT-EU operations."
+  },
+  {
+   "doc": "32022R1925",
+   "clause": "One or more Member States may request the Commission to open a market investigation pursuant to Article 18 because they consider that there are reasonable grounds to suspect that a gatekeeper has systematically infringed one or more of the obligations laid down in Articles 5, 6 and 7 and has maintained, strengthened or extended its gatekeeper position in relation to the requirements under Article "
+  },
+  {
+   "doc": "32019R0452",
+   "clause": "This Article shall not apply to foreign direct investments completed before 10 April 2019."
+  },
+  {
+   "doc": "32024R1028",
+   "clause": "Where a host fails to rectify the requested information or documentation pursuant to paragraph 2, the competent authority shall have the power to suspend the validity of the affected registration number or numbers and to issue an order requesting online short-term rental platforms to remove, or to disable access to, any listing relating to the unit or units in question without undue delay."
+  },
+  {
+   "doc": "32004R0139",
+   "clause": "In such situations, no Member State shall apply its national competition law to the concentration."
+  },
+  {
+   "doc": "32024R1735",
+   "clause": "It shall take effect on the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein."
+  },
+  {
+   "doc": "32024D1432",
+   "clause": "This Decision shall enter into force on the day of its publication in the Official Journal of the European Union ."
+  },
+  {
+   "doc": "32019D0309",
+   "clause": "This Decision shall take effect on the date of its notification."
+  },
+  {
+   "doc": "32014R0910",
+   "clause": "The Commission may, by means of implementing acts, establish reference numbers of standards for trustworthy systems and products, which comply with the requirements under points (e) and (f) of paragraph 2 of this Article."
+  },
+  {
+   "doc": "32019D0785",
+   "clause": "Technical requirements"
+  },
+  {
+   "doc": "32018D1920",
+   "clause": "This Decision shall take effect on the date of its notification."
+  },
+  {
+   "doc": "32021D1775",
+   "clause": "\u2018This Decision shall expire on 31 December 2024.\u2019."
+  },
+  {
+   "doc": "32023R2841",
+   "clause": "The IICB may make recommendations to the Commission to review this Regulation."
+  },
+  {
+   "doc": "32014R0316",
+   "clause": "the obligation on the licensor and/or the licensee, in a non-reciprocal agreement, not to produce with the licensed technology rights within the exclusive territory reserved for the other party and/or not to sell actively and/or passively into the exclusive territory or to the exclusive customer group reserved for the other party,"
+  },
+  {
+   "doc": "32025R1176",
+   "clause": "When choosing to assess the auction\u2019s sustainability contribution referred to in Article 26(1), point (b), of Regulation (EU) 2024/1735 by means of a carbon footprint criterion, the relevant authorities shall include a pre-qualification or award criterion or a combination of both and indicate the net-zero technologies, among the ones falling under the scope of Article 26 of Regulation (EU) 2024/17"
+  },
+  {
+   "doc": "32006L0112",
+   "clause": "This Directive shall not apply to the following territories not forming part of the customs territory of the Community:"
+  },
+  {
+   "doc": "32018R1807",
+   "clause": "minimum information requirements to ensure that professional users are provided, before a contract for data processing is concluded, with sufficiently detailed, clear and transparent information regarding the processes, technical requirements, timeframes and charges that apply in case a professional user wants to switch to another service provider or port data back to its own IT systems;"
+  },
+  {
+   "doc": "32024L2831",
+   "clause": "Persons performing platform work who consider that they have been dismissed, that their contract has been terminated or that they have been subject to any actions with equivalent effect, on the grounds that they have exercised the rights provided for in this Directive, may request the digital labour platform to provide duly substantiated grounds for the dismissal, the termination of the contract o"
+  },
+  {
+   "doc": "32019R0517",
+   "clause": "The Commission may request information from the Registry to that end."
+  },
+  {
+   "doc": "32004R0139",
+   "clause": "If so requested by the Commission or by the competent authority of the Member State within whose territory the inspection is to be conducted, officials and other accompanying persons authorised by the Commission may assist the officials of the authority concerned."
+  },
+  {
+   "doc": "32019R0517",
+   "clause": "ensure, without prejudice to any court proceedings, and subject to adequate procedural guarantees for the parties concerned, the possibility for Registrars and registrants to resolve any contractual dispute with the Registry by means of ADR;"
+  },
+  {
+   "doc": "32019R0517",
+   "clause": "The Commission may instruct the Registry to reserve or to register a domain name directly under the .eu TLD for use by the Union institutions and bodies."
+  },
+  {
+   "doc": "32014R0910",
+   "clause": "\u2018electronic seal\u2019 means data in electronic form, which is attached to or logically associated with other data in electronic form to ensure the latter\u2019s origin and integrity;"
+  },
+  {
+   "doc": "32024R1735",
+   "clause": "technical specifications or requirements within the meaning of Article 36 of Directive 2014/23/EU, of Article 42 of Directive 2014/24/EU and of Article 60 of Directive 2014/25/EU;"
+  },
+  {
+   "doc": "32021R0784",
+   "clause": "For the effective implementation of this Regulation as well as to avoid duplication of effort, Member States and hosting service providers may make use of dedicated tools, including those established by Europol, to facilitate in particular:"
+  },
+  {
+   "doc": "32018R1807",
+   "clause": "\u2018data localisation requirement\u2019 means any obligation, prohibition, condition, limit or other requirement provided for in the laws, regulations or administrative provisions of a Member State or resulting from general and consistent administrative practices in a Member State and in bodies governed by public law, including in the field of public procurement, without prejudice to Directive 2014/24/EU,"
+  },
+  {
+   "doc": "32021R0694",
+   "clause": "This Regulation shall not affect the continuation of or modification of actions inititated pursuant to Regulation (EU) No 283/2014 of the European Parliament and of the Council ( 29 ) and Decision (EU) 2015/2240, which shall continue to apply to those actions until their closure."
+  },
+  {
+   "doc": "32021R0694",
+   "clause": "Initial and, where appropriate, subsequent actions under this objective shall include:"
+  },
+  {
+   "doc": "32021R0784",
+   "clause": "The obligation pursuant to paragraphs 1 and 2 shall not apply where the competent authority issuing the removal order decides that it is necessary and proportionate that there be no disclosure for reasons of public security, such as the prevention, investigation, detection and prosecution of terrorist offences, for as long as necessary, but not exceeding six weeks from that decision."
+  },
+  {
+   "doc": "32019D0785",
+   "clause": "Technical requirements of the LBT mechanism for material sensing devices"
+  },
+  {
+   "doc": "32023R1066",
+   "clause": "The exemption established in Article 2 shall not apply to the following obligations in research and development agreements:"
+  },
+  {
+   "doc": "32018D1920",
+   "clause": "\u2018It shall apply until 31 December 2021.\u2019."
+  },
+  {
+   "doc": "32023D1759",
+   "clause": "This Decision shall enter into force on the day of its publication in the Official Journal of the European Union ."
+  },
+  {
+   "doc": "52025PC0335",
+   "clause": "A Member State may request the Commission to allow a third country public entity to provide space services or space-based data in the Union."
+  },
+  {
+   "doc": "32025R2518",
+   "clause": "it considers that no reasonable doubt exists as to the scope of the investigation, in particular with regard to the provisions of Regulation (EU) 2016/679 concerned by the alleged infringement which is to be investigated;"
+  },
+  {
+   "doc": "32023R2841",
+   "clause": "CERT-EU may, with the consent of the Union entity affected by an incident and provided that a non-disclosure arrangement or contract is in place with the relevant counterpart or partner, provide information related to the specific incident to counterparts or partners referred to in paragraphs 1 and 2 solely for the purpose of contributing to its analysis."
+  },
+  {
+   "doc": "52025PC0335",
+   "clause": "(e) to designate, for a determined period, a monitoring officer to oversee the process of bringing the conduct of Union space operators into compliance, as regards the requirements laid down in this Regulation."
+  },
+  {
+   "doc": "32019R1020",
+   "clause": "The approval may be granted in respect of one or more products, in respect of one or more categories of products or in respect of products or categories of products manufactured by certain manufacturers."
+  },
+  {
+   "doc": "32025R1176",
+   "clause": "This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union ."
+  },
+  {
+   "doc": "32023D1646",
+   "clause": "This Decision shall enter into force on the day of its publication in the Official Journal of the European Union ."
+  },
+  {
+   "doc": "32022R2554",
+   "clause": "The power to adopt delegated acts referred to in Articles 31(6) and 43(2) shall be conferred on the Commission for a period of five years from 17 January 2024."
+  },
+  {
+   "doc": "32019D0785",
+   "clause": "Alternative mitigation techniques may be used if they ensure at least an equivalent performance and level of spectrum protection in order to comply with the corresponding essential requirements of Directive 2014/53/EU and respect the technical requirements of this Decision."
+  },
+  {
+   "doc": "32019R0817",
+   "clause": "ensure that it is possible to verify and establish what data have been processed in the interoperability components, when, by whom and for what purpose;"
+  },
+  {
+   "doc": "31987L0372",
+   "clause": "For the purposes of this Directive, a public pan-European cellular digital land-based mobile communications service shall mean a public cellular radio service provided in each of the Member States to a common specification, which includes the feature that all voice signals are encoded into binary digits prior to radio transmission, and where users provided with a service in one Member State can al"
+  },
+  {
+   "doc": "32024R1028",
+   "clause": "Those competent authorities may, in accordance with the laws of the Member State concerned, share activity data without any data that can identify individual units or hosts, including registration numbers and URLs of the listings and the relevant information transmitted pursuant to Article 5(1)(a), points (i) to (iv), in particular with the following:"
+  }
+ ]
+}
