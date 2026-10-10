@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Methodology: The EU Digital Rulebook</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&amp;family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&amp;display=swap">
+<style>
+body{margin:0;background:#FAF9F5;color:#141413;font-family:'DM Sans',ui-sans-serif,system-ui,sans-serif;font-size:17px;line-height:1.65;font-variant-numeric:tabular-nums}
+a{color:#141413}a:hover{color:#B85C3F}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:32px}
+.eyebrow{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#6B6A64;margin:0}
+.h1{font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:56px;line-height:1.05;letter-spacing:-.02em;margin:0}
+.h2{font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:28px;line-height:1.25;margin:0}
+.body{color:#3D3D3A;margin:0;max-width:70ch}
+.cap{font-size:14px;color:#6B6A64;line-height:1.45}
+.nav a{text-decoration:none;font-size:15px;color:#3D3D3A}
+.nav a:hover{color:#141413}
+.toc a{text-decoration:none;font-size:15px;color:#3D3D3A;display:block;padding:6px 0}
+.toc a:hover{color:#B85C3F}
+.sec{display:flex;flex-direction:column;gap:14px;padding-block:36px;border-top:1px solid #E6E3D9}
+.ex{font-size:15px;padding:14px 16px;border-radius:8px;background:#F4F2EC;color:#3D3D3A;line-height:1.55}
+ul.b{margin:0;padding-left:20px;color:#3D3D3A;display:flex;flex-direction:column;gap:6px}
+@media (max-width:640px){.wrap{padding-inline:20px}.h1{font-size:40px}}
+</style>
+</helmet>
+<div style="width: 100%; background: #FAF9F5">
+  <header style="border-bottom: 1px solid #E6E3D9">
+    <div class="wrap" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding-block: 20px">
+      <a href="Main.dc.html" style="display: flex; align-items: center; gap: 10px; text-decoration: none">
+        <svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><rect x="2" y="2" width="18" height="18" rx="3" fill="none" stroke="#141413" stroke-width="1.5"></rect><path d="M6 15h10M6 11h10M6 7h6" stroke="#D97757" stroke-width="1.5" stroke-linecap="round"></path></svg>
+        <span style="font-family: 'Source Serif 4', Georgia, serif; font-size: 20px">The EU Digital Rulebook</span>
+      </a>
+      <nav class="nav" aria-label="Main" style="display: flex; flex-wrap: wrap; gap: 28px">
+        <a href="Rules.dc.html">Findings</a><a href="Instruments.dc.html">Instruments</a><a href="Studies.dc.html">Studies</a><a href="UsComparison.dc.html">EU vs US</a><a href="Methodology.dc.html" style="color: #141413; font-weight: 500">Methodology</a><a href="About.dc.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <section style="padding-block: 64px 24px">
+    <div class="wrap" style="display: flex; flex-direction: column; gap: 20px">
+      <p class="eyebrow">Methodology</p>
+      <h1 class="h1">How we built the data</h1>
+      <p class="body" style="font-size: 19px">A plain-language guide to what we measured and how far to trust it. The technical documentation, code and validation samples are in the <a href="Data.dc.html">data download</a>.</p>
+    </div>
+  </section>
+
+  <section style="padding-block: 24px 80px">
+    <div class="wrap" style="display: flex; flex-wrap: wrap; gap: 56px; align-items: flex-start">
+      <nav class="toc" aria-label="On this page" style="flex: 1 1 220px; max-width: 260px">
+        <a href="#scope">1. Scope</a><a href="#restrictions">2. Counting restrictions</a><a href="#secondary">3. Secondary acts and guidance</a><a href="#proposal">4. Proposal vs adoption</a><a href="#impact">5. Reviewing the impact evidence</a><a href="#us">6. Benchmarks and the US comparison</a><a href="#ai">7. Use of AI</a><a href="#limits">8. Limitations</a>
+      </nav>
+      <div style="flex: 999 1 560px; min-width: 0">
+        <div class="sec" id="scope" style="border-top: 0; padding-top: 0">
+          <h2 class="h2">1. Scope</h2>
+          <p class="body">The 115 instruments in the CEPS inventory of EU digital law and policy (Zenner and Marcus, July 2025), plus eight enacted instruments listed in the same table. We measured the original act as published in the Official Journal; for instruments still pending in October 2026, the Commission proposal. English versions from EUR-Lex.</p>
+        </div>
+        <div class="sec" id="restrictions">
+          <h2 class="h2">2. Counting restrictions</h2>
+          <p class="body">A restriction is a legal rule that requires, forbids or limits something. We count the markers that create them in the articles and annexes (recitals are not binding):</p>
+          <ul class="b"><li><strong>Obligations:</strong> shall, must, has to</li><li><strong>Prohibitions:</strong> shall not, may not, is prohibited, "no … shall"</li><li><strong>Restricted permissions:</strong> may only, may … only if</li><li><strong>Duties of result:</strong> shall ensure</li><li><strong>Explicit requirements:</strong> is required to, is obliged to</li></ul>
+          <div class="ex">Counted: "Gatekeepers <u>shall not</u> process personal data of end users…"<br>Not counted: "This Regulation <u>shall enter into force</u> on…" (it regulates no one)</div>
+          <p class="body">Excluded uses of "shall": entry into force, definitions, amendment instructions, saving clauses, rights and powers, and constitutive rules such as how a board is composed. Each restriction is assigned to who must act, using the grammatical subject: private parties, member states, EU institutions, or unclear.</p>
+          <p class="body"><strong>How accurate is it?</strong> In a fresh hand-checked sample of 100 counted items, 84% were genuine restrictions, and the addressee was correct for 74% of those. Totals are reliable enough for comparisons of this size; addressee shares are approximate.</p>
+        </div>
+        <div class="sec" id="secondary">
+          <h2 class="h2">3. Secondary acts and guidance</h2>
+          <p class="body">Implementing and delegated acts are those EUR-Lex records as adopted under each instrument (770 items, measured like the main acts). Guidance comes from the Commission and from the EDPB, EBA and ESMA: final guidelines only, no Q&amp;As or drafts. Amendments and national transposition measures come from EUR-Lex metadata.</p>
+        </div>
+        <div class="sec" id="proposal">
+          <h2 class="h2">4. Proposal vs adoption</h2>
+          <p class="body">For 99 adopted acts we compared the original Commission proposal with the adopted text, measured the same way on the legal text only. Three acts could not be compared because their proposals are not usable in EUR-Lex.</p>
+        </div>
+        <div class="sec" id="impact">
+          <h2 class="h2">5. Reviewing the impact evidence</h2>
+          <ul class="b"><li><strong>Promises:</strong> the objectives, indicators and quantified forecasts in each proposal's financial statement and impact assessment, each checked against the evidence available and given a status.</li><li><strong>Sources:</strong> Commission evaluations, audits, statistics and research on effects on firms, prices, innovation, jobs and consumers. Initial impact assessments are shown with the promises; enforcement decisions and court rulings are not counted as evidence.</li><li><strong>Depth:</strong> a full literature search for the 29 best-studied instruments; Commission evaluations plus a light search for other older acts; forecasts only for acts adopted since 2024.</li><li><strong>Causal studies:</strong> those using a design that isolates the law's effect, such as difference-in-differences, event studies, regression discontinuity or synthetic control.</li><li><strong>Checks:</strong> every source was located and its headline checked; each records whether the full text, an abstract or only a summary was read, and flags authors or funders with a stake.</li></ul>
+        </div>
+        <div class="sec" id="us">
+          <h2 class="h2">6. Benchmarks and the US comparison</h2>
+          <p class="body">We counted restrictions in the Sarbanes-Oxley Act and in US counterparts of EU instruments with the same counter, adapted for US drafting. Precision on US text was 80% (68% for Sarbanes-Oxley). Ten pairs passed our fairness review. US words include text inserted into the US Code; EU words are articles and annexes.</p>
+        </div>
+        <div class="sec" id="ai">
+          <h2 class="h2">7. Use of AI</h2>
+          <p class="body">Claude, an AI model, helped write the counting code, draft the objective summaries and run the literature search; every source and headline figure was checked against the original, and the validation samples were coded by hand. [To be completed with the project team's own review process.]</p>
+        </div>
+        <div class="sec" id="limits">
+          <h2 class="h2">8. Limitations</h2>
+          <ul class="b"><li>Counts are not costs: one rule can be trivial, another expensive.</li><li>Obligations on member states in directives reach companies only after transposition.</li><li>"Not measured" means not found by our searches.</li><li>EUR-Lex links for very recent acts can lag.</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer style="border-top: 1px solid #E6E3D9">
+    <div class="wrap" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 24px; padding-block: 40px">
+      <span class="cap">Data as of October 2026.</span>
+      <a href="About.dc.html" style="font-size: 15px">About the project →</a>
+    </div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":4400}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
