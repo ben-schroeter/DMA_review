@@ -37,3 +37,9 @@ Tier 3 — pending proposals and acts adopted 2024–2026 (impact assessment and
 - [x] 32021R0695 Horizon Europe
 - [x] 32019L1024 Open Data Directive (PSI)
 - [x] 32022R0868 Data Governance Act
+- [x] 32022L2555 NIS 2 Directive
+- [x] 32014R0910 eIDAS Regulation
+- [x] 32023R1114 Markets in Crypto-Assets (MiCA)
+- [x] 32011L0016 Administrative cooperation in taxation (DAC)
+- [x] 32022R2554 Digital Operational Resilience Act (DORA)
+- [x] 32018L1972 European Electronic Communications Code
