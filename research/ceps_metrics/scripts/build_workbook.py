@@ -15,6 +15,30 @@ sec = json.load(open(D + "secondary_acts.json"))
 web = list(csv.DictReader(open(D + "guidance_web_supplement.csv")))
 val = json.load(open(D + "validation_results.json"))
 pol = json.load(open(D + "policy_area.json"))
+import re as _re
+ag = []
+for f in ("agency_edpb.json", "agency_eba.json", "agency_esma.json"):
+    for it in json.load(open(D + f)):
+        if it.get("parent") and it.get("final", True):
+            ag.append(it)
+_seen = {}
+def _norm(t):
+    return _re.sub(r"[^a-z]", "", (t or "").lower().replace("final report on", "").replace("final report", ""))[:45]
+dedup = []
+_words = lambda t: set(w for w in _re.findall(r"[a-z]{4,}", (t or "").lower()) if w not in ("final", "report", "guidelines", "joint"))
+for it in ag:
+    def _same(a, b):
+        A, B = _words(a.get("title")), _words(b.get("title"))
+        if a.get("agency") == b.get("agency"):
+            return _norm(a.get("title")) == _norm(b.get("title"))
+        return min(len(A), len(B)) >= 2 and len(A & B) / min(len(A), len(B)) >= 0.8
+    dup = next((d for d in dedup if d["parent"] == it["parent"] and _same(d, it)), None)
+    if dup:
+        if dup.get("agency") != it.get("agency"):
+            dup["joint_also_published_by"] = it.get("agency")
+        continue
+    dedup.append(it)
+ag = dedup
 da = json.load(open(D + "dates_amendments.json"))
 props = json.load(open(D + "proposals.json"))
 NOT_COMPARABLE = {"32006L0112": "recast proposal: PDF includes struck-through and correlation material",
@@ -89,6 +113,28 @@ for g in web:
 n3 = ws3.max_row
 style(ws3, [8, 30, 13, 14, 11, 70, 50, 50])
 
+# ---------------- agency guidance ----------------
+wg = wb.create_sheet("guidance_agencies")
+gcols = ["parent_row_id", "parent_name", "parent_celex", "agency", "title", "date", "status", "pdf_url", "pages", "words_total",
+         "restrictions_total", "r_obligation", "r_prohibition", "r_restricted_permission", "r_explicit_requirement",
+         "r_duty_of_result", "addr_private_parties", "addr_member_states", "addr_eu_institutions", "addr_unclear",
+         "should_count", "note"]
+wg.append(gcols)
+for it in sorted(ag, key=lambda x: (int(row_of.get(x["parent"], ("999",))[0]), x.get("agency", ""), str(x.get("date") or x.get("date_text") or ""))):
+    rid, nm = row_of.get(it["parent"], ("", ""))
+    notes = []
+    if it.get("endorsed_wp29"): notes.append("Article 29 Working Party guidelines endorsed by the EDPB")
+    if it.get("joint_also_published_by"): notes.append(f"joint guidelines, also published by {it['joint_also_published_by']}")
+    if it.get("also_relates_to"): notes.append(f"also relates to {it['also_relates_to']}")
+    if it.get("agency") in ("EBA", "ESMA"): notes.append("measured on the final report (includes rationale and consultation feedback)")
+    if not it.get("pages"): notes.append("not measured: " + (it.get("error") or "PDF on a domain not reachable from this environment"))
+    notes.append("non-binding guidance; 'should' is its usual verb (should_count)")
+    wg.append([int(rid) if rid else None, nm, it["parent"], it.get("agency"), it.get("title"), it.get("date") or it.get("date_text"),
+               "final", it.get("pdf") or it.get("url"), it.get("pages"), it.get("words_total")] +
+              [it.get(k) for k in gcols[10:21]] + ["; ".join(notes)])
+ng = wg.max_row
+style(wg, [8, 30, 13, 8, 70, 11, 8, 40] + [10] * 13 + [60])
+
 # ---------------- instruments ----------------
 ws = wb.create_sheet("instruments", 0)
 cols = ["row_id", "name", "identifier", "policy_area_ceps", "ceps_table_status", "proposal_date", "confidence_proposal_date",
@@ -96,6 +142,7 @@ cols = ["row_id", "name", "identifier", "policy_area_ceps", "ceps_table_status",
         "celex_measured", "text_measured", "source_url"] + METRICS + \
        ["consolidated_celex", "consolidated_restrictions_total", "consolidated_addr_private_parties",
         "n_implementing_acts", "n_delegated_acts", "n_other_commission_council_acts", "n_guidance_eurlex", "n_guidance_web",
+        "n_guidance_edpb", "n_guidance_eba", "n_guidance_esma",
         "restrictions_in_implementing_and_delegated_acts", "national_transposition_measures", "member_states_with_measures",
         "n_amending_acts", "first_amendment_date", "latest_amendment_date", "n_corrigenda",
         "proposal_celex", "proposal_text_source", "proposal_words_legal_text", "proposal_restrictions_total",
@@ -152,7 +199,7 @@ for i, (r, m0) in enumerate(zip(rows, imap), start=2):
             pc_vals = [None, "no legislative proposal (Commission act)" if "Block Exemption" in r["name"] else "no linked proposal", None, None, None]
     else:
         pc_vals = [None, "row is itself a proposal", None, None, None]
-    ws.append(vals + [None] * 6 + [sum(nim[c]["n_measures"] for c in dirs if c in nim) if dirs else None,
+    ws.append(vals + [None] * 9 + [sum(nim[c]["n_measures"] for c in dirs if c in nim) if dirs else None,
                                    max((nim[c]["n_member_states"] for c in dirs if c in nim), default=None) if dirs else None,
                                    len(am) if adopted else None, amd[0] if amd else None, amd[-1] if amd else None,
                                    len(co) if adopted else None] + pc_vals + [None] * 5 + [note])
@@ -173,6 +220,9 @@ for i, (r, m0) in enumerate(zip(rows, imap), start=2):
          "n_other_commission_council_acts": f'=COUNTIFS({R},$A{i},{K},"other Commission/Council act")',
          "n_guidance_eurlex": f'=COUNTIFS({R},$A{i},{K},"guidance")',
          "n_guidance_web": f'=COUNTIF(guidance_web!$A$2:$A${max(n3, 2)},$A{i})',
+         "n_guidance_edpb": f'=COUNTIFS(guidance_agencies!$A$2:$A${ng},$A{i},guidance_agencies!$D$2:$D${ng},"EDPB")',
+         "n_guidance_eba": f'=COUNTIFS(guidance_agencies!$A$2:$A${ng},$A{i},guidance_agencies!$D$2:$D${ng},"EBA")',
+         "n_guidance_esma": f'=COUNTIFS(guidance_agencies!$A$2:$A${ng},$A{i},guidance_agencies!$D$2:$D${ng},"ESMA")',
          "restrictions_in_implementing_and_delegated_acts":
              f'=SUMIFS({RT},{R},$A{i},{K},"implementing")+SUMIFS({RT},{R},$A{i},{K},"delegated")'}
     for k, v in f.items():
@@ -182,10 +232,10 @@ tr = ws.max_row + 1
 ws.cell(row=tr, column=2, value="TOTAL (all rows)").font = Font(name="Arial", bold=True)
 for k in METRICS + ["consolidated_restrictions_total", "consolidated_addr_private_parties", "n_implementing_acts",
                     "n_delegated_acts", "n_other_commission_council_acts", "n_guidance_eurlex", "n_guidance_web",
-                    "restrictions_in_implementing_and_delegated_acts", "national_transposition_measures",
+                    "n_guidance_edpb", "n_guidance_eba", "n_guidance_esma", "restrictions_in_implementing_and_delegated_acts", "national_transposition_measures",
                     "n_amending_acts", "n_corrigenda"]:
     Lc = get_column_letter(ci[k]); ws.cell(row=tr, column=ci[k], value=f"=SUM({Lc}2:{Lc}{tr - 1})")
-style(ws, [6, 34, 22, 18, 12, 11, 9, 11, 11, 11, 10, 10, 16, 18, 30] + [10] * len(METRICS) + [20, 11, 11, 9, 9, 9, 9, 9, 12, 11, 10]
+style(ws, [6, 34, 22, 18, 12, 11, 9, 11, 11, 11, 10, 10, 16, 18, 30] + [10] * len(METRICS) + [20, 11, 11, 9, 9, 9, 9, 9, 9, 9, 9, 12, 11, 10]
       + [9, 11, 11, 9, 16, 18, 10, 10, 10, 10, 9, 10, 9, 10, 60])
 for c in ws[tr]:
     c.font = Font(name="Arial", bold=True, size=10)

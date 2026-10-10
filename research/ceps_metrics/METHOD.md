@@ -57,6 +57,29 @@ Restrictions are also counted in the latest consolidated version in EUR-Lex (CEL
 - Guidance is non-binding, so its restriction counts mostly reflect obligations it restates. They are shown for completeness, not as additional restrictions.
 - `guidance_web`: Commission guidance found by web search that EUR-Lex does not link to the act (e.g. AI Act guidelines). Not measured. This list is incomplete; level-3 guidance from EU agencies (EDPB, EBA, ESMA, EIOPA) is out of scope.
 
+## Policy area
+The column each instrument occupies in CEPS Table 1 (12 areas, from Research & Innovation to Finance), read from the cell positions in the CEPS PDF. `ceps_table_status` is the cell colour (enacted / proposal / planned); pending items that CEPS lists inside the cell of an enacted predecessor (e.g. PSD3 in the PSD2 cell) are labelled accordingly.
+
+## Dates and amendments
+- `adoption_date`: date of signature of the act (date of the document where no signature date is recorded); `oj_publication_date`; `entry_into_force`: the earliest entry-into-force date on or after adoption. All from Cellar.
+- Amendments: acts recorded in Cellar as amending the instrument (adopted acts only). Corrigenda are listed in the `amendments` sheet but not counted as amendments. `n_amending_acts`, `first_amendment_date`, `latest_amendment_date` summarise them.
+
+## Proposal vs adopted text
+- The original Commission proposal is the earliest proposal Cellar links to the adopted act; amended proposals are not used.
+- Measured like the adopted text, on the legal text only (preamble + articles + annexes; explanatory memorandum and financial statement excluded). Changes are formulas (absolute and %).
+- Proposals without usable HTML (pre-1996 proposals published as scans of the OJ C series, and the 2004 VAT recast whose articles sit in image tables) are measured from the PDF text layer and marked "PDF text (approximate)".
+- Not comparable (left blank, with the reason): the VAT recast (its PDF mixes struck-through text and correlation tables), the Community Design Regulation (its 1993 PDF bundles the companion Design Directive proposal) and the Merger Regulation (proposal not in EUR-Lex). Commission-only acts (block exemptions) have no legislative proposal.
+- Rows that are themselves proposals have no comparison.
+
+## EU agency guidance (EDPB, EBA, ESMA)
+- Final guidelines and recommendations only; no Q&As, consultation drafts or draft technical standards (the latter are counted once adopted as delegated/implementing acts).
+- EDPB: every guideline and recommendation in the EDPB document library, reviewed by hand for final status (one 2026 v1 consultation draft excluded); Article 29 Working Party guidelines endorsed by the EDPB are included and flagged. Mapped to GDPR unless the title points to ePrivacy, the Law Enforcement Directive, PSD2 or the DSA. Some endorsed WP29 documents sit on a European Commission archive domain not reachable here and are listed without measurements.
+- EBA: all items of type "Guidelines" in the EBA publications listing (plus the topic-filtered listings), kept only where the document names PSD2, MiCA, DORA or the AML Regulation as its legal basis (or in its title); four older PSD2 guidelines missing from the listing were added from the EBA's legacy PSD2 page. The PSD2 complaints-procedure guidelines (EBA/GL/2017/13) could not be retrieved.
+- ESMA: all "Guidelines" documents in the Digital Finance and Joint Committee sections of the ESMA library (full crawl), kept where the legal basis is MiCA, DORA or the DLT Pilot Regime, plus the MiCA crypto-asset qualification guidelines from ESMA's MiCA page.
+- Joint EBA/ESMA (ESA) guidelines are counted once.
+- EBA and ESMA guidelines are measured on the published final report, which also contains the rationale and the feedback on the consultation, so page and word counts overstate the guidelines themselves.
+- Guidance mostly uses "should"; restriction counts (which count "shall"/"must" etc.) are low by design. `should_count` is shown alongside.
+
 ## National transposition (directives only)
 Number of national implementing measures linked to the directive in EUR-Lex, and the number of Member States (including the UK before 2020) with at least one. Counts reflect what Member States notified; some notify whole codes, which inflates counts.
 
