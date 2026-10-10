@@ -1,0 +1,104 @@
+{
+ "celex": "32021R1153",
+ "name": "Connecting Europe Facility",
+ "proposal": "52018PC0438",
+ "impact_assessment": "SWD(2018) 312 (executive summary SWD(2018) 313)",
+ "evidence_rating": "thin: budget commitments and project counts only; interim evaluation pending; no causal study of CEF found",
+ "summary": "The Connecting Europe Facility co-funds cross-border transport, energy and digital networks. By 2025 the transport money was fully committed and calls had been nearly three times oversubscribed, but only a handful of the 600+ funded transport projects were finished. There is no measured evidence yet of effects on trade, energy markets or growth, and the formal interim evaluation was still under way.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "The proposal's financial statement contains no usable LFS indicators (1.4.4 in the extraction covers synergies); key indicators are in Part 1 of the Regulation's annex, with a Monitoring and Evaluation Framework published as SWD(2024) 276; interim evaluation was still under way in Sept 2025",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "programme objective (Regulation)",
+   "objective": "Transport: complete TEN-T core network",
+   "indicator": "Cross-border and missing links, military mobility, alternative fuels infrastructure",
+   "target_or_baseline": "",
+   "evidence": "Calls oversubscribed up to almost 3x; whole transport budget committed by 2025; 600+ projects ongoing but only 23 small projects finished; remaining need EUR 845bn to complete the network.",
+   "status": "reported as activity",
+   "sources": "COM(2025) 516"
+  },
+  {
+   "type": "programme objective (Regulation)",
+   "objective": "Energy: integrate internal energy market (PCIs, cross-border renewables)",
+   "indicator": "Interconnections built; cross-border renewables projects",
+   "target_or_baseline": "EUR 5.8bn budget",
+   "evidence": "EUR 3.5bn awarded 2021-2024 (e.g. 16 electricity projects >EUR 2bn incl. EuroAsia interconnector, Baltic synchronisation); some projects delayed by energy and materials price shocks; EUR 430m temporarily moved to transport.",
+   "status": "reported as activity",
+   "sources": "COM(2025) 516"
+  },
+  {
+   "type": "programme objective (Regulation)",
+   "objective": "Digital: 5G corridors and backbone networks",
+   "indicator": "5G along transport corridors; Global Gateway backbones/submarine cables",
+   "target_or_baseline": "",
+   "evidence": "Start delayed; 117 projects worth over EUR 640m funded (51 backbone/submarine cable projects EUR 420m; 25 5G corridor projects EUR 93m); first results only from 2025; portfolio judged on track.",
+   "status": "reported as activity",
+   "sources": "COM(2025) 516"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Growth, cohesion, decarbonisation",
+   "indicator": "Economic and environmental effects of completed networks",
+   "target_or_baseline": "",
+   "evidence": "Not measured; projects mostly not completed. No causal study of CEF grants found.",
+   "status": "not measured",
+   "sources": ""
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2018-cef-ia",
+   "citation": "European Commission (2018), Impact Assessment accompanying the proposal for the Connecting Europe Facility 2021-2027 (executive summary SWD(2018) 313), SWD(2018) 312",
+   "authors": "European Commission",
+   "year": 2018,
+   "title": "Impact Assessment accompanying the proposal for the Connecting Europe Facility 2021-2027 (executive summary SWD(2018) 313)",
+   "venue": "SWD(2018) 312",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52018SC0312",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante (MFF programme IA; draws on mid-term evaluation of CEF 2014-2020)",
+   "outcomes": "programme design; delivery options",
+   "direction": "positive (forecast)",
+   "headline": "Focused on structure, priorities and delivery of a continued programme; Regulatory Scrutiny Board asked for stronger monitoring and evaluation arrangements; no quantified impact forecast",
+   "summary_plain": "The Commission's assessment argued for continuing the Connecting Europe Facility with a broader digital and energy scope, but did not forecast measurable economic effects.",
+   "period_geography": "EU, 2021-2027",
+   "quality": "forecast; qualitative",
+   "verified": "full text read (executive summary)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20240816172818/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52018SC0312"
+  },
+  {
+   "id": "ec-2025-cef-progress",
+   "citation": "European Commission (2025), Progress report on the implementation of the 2021-2027 Connecting Europe Facility for the years 2021-2024, COM(2025) 516",
+   "authors": "European Commission",
+   "year": 2025,
+   "title": "Progress report on the implementation of the 2021-2027 Connecting Europe Facility for the years 2021-2024",
+   "venue": "COM(2025) 516",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0516",
+   "pdf_url": "",
+   "source_type": "Commission implementation report",
+   "method": "progress report (monitoring data)",
+   "outcomes": "commitments; projects; delays",
+   "direction": "positive",
+   "headline": "Transport calls oversubscribed up to ~3x and budget fully committed by 2025, but most projects in early stages (23 of 600+ finished); energy EUR 3.5bn awarded with some delays; digital 117 projects >EUR 640m, start delayed, judged on track; interim evaluation ongoing",
+   "summary_plain": "The Commission's first progress report shows the money is being committed quickly - transport calls were nearly three times oversubscribed - but few projects are finished, so no results on traffic, energy flows or growth are available yet.",
+   "period_geography": "EU, 2021-2024",
+   "quality": "self-assessment; descriptive",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  }
+ ]
+}

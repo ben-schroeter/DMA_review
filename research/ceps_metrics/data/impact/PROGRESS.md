@@ -87,3 +87,7 @@ Tier 3 — pending proposals and acts adopted 2024–2026 (impact assessment and
 - [x] 32017L1132 Company Law Directive
 - [x] 31993L0013 Unfair Contract Terms Directive
 - [x] 52023PC0533 Late Payment Regulation
+- [x] 52024PC0060 Child Sexual Abuse Directive (recast)
+- [x] 32021R1153 Connecting Europe Facility
+- [x] 32024L1799 Right to Repair Directive
+- [x] 32025R0327 European Health Data Space

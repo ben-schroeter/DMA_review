@@ -1,0 +1,95 @@
+{
+ "celex": "32024L1799",
+ "name": "Right to Repair Directive",
+ "proposal": "52023PC0155",
+ "impact_assessment": "SWD(2023) 59 (executive summary SWD(2023) 60)",
+ "evidence_rating": "ex-ante only: Commission forecasts plus academic critique; rules apply from July 2026",
+ "summary": "The Commission forecast that the right to repair would save consumers EUR 176.5 billion and cut 18.4 million tonnes of CO2 over 15 years. The rules only started applying in July 2026, so nothing has been measured yet, and academic critics argue the law does too little about the main barriers to repair, such as the price and availability of spare parts.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "The proposal's financial statement contains no indicators section; the memorandum promises an evaluation 5 years after application based on a set of indicators covering the sustainable-consumption package",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Environment",
+   "indicator": "CO2 savings of 18.4 million tonnes over 15 years (alongside ESPR 471 Mt and ECGT 0.33-0.47 Mt)",
+   "target_or_baseline": "18.4 Mt CO2 / 15 years",
+   "evidence": "Not measured; rules apply only from 31 July 2026.",
+   "status": "not measured",
+   "sources": "SWD(2023) 59/60"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Consumers",
+   "indicator": "Consumer savings of EUR 176.5bn over 15 years from less replacement and more repair",
+   "target_or_baseline": "EUR 176.5bn / 15 years",
+   "evidence": "Not measured.",
+   "status": "not measured",
+   "sources": "SWD(2023) 60"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Business / repair sector",
+   "indicator": "Lost sales and GVA for producers and retailers (treated as a transfer to consumers); repair-sector SMEs gain",
+   "target_or_baseline": "",
+   "evidence": "Not measured. Academic critique argues the Directive leaves the main barriers to repair (obsolescence, spare parts, repair information, price incentives) unaddressed.",
+   "status": "not measured",
+   "sources": "SWD(2023) 60; López-Bermúdez & Vence 2025"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2023-repair-ia",
+   "citation": "European Commission (2023), Impact Assessment accompanying the proposal for a Directive on common rules promoting the repair of goods (executive summary SWD(2023) 60), SWD(2023) 59",
+   "authors": "European Commission",
+   "year": 2023,
+   "title": "Impact Assessment accompanying the proposal for a Directive on common rules promoting the repair of goods (executive summary SWD(2023) 60)",
+   "venue": "SWD(2023) 59",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023SC0060",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "CO2 emissions; consumer savings; business turnover",
+   "direction": "positive (forecast)",
+   "headline": "In 15 years the initiative saves 18.4 Mt CO2 and EUR 176.5bn for consumers; producers and retailers lose sales; overall slightly beneficial for SMEs as a whole",
+   "summary_plain": "The Commission expected the right to repair to save consumers EUR 176.5 billion and 18.4 million tonnes of CO2 over 15 years, with manufacturers and retailers selling fewer new goods.",
+   "period_geography": "EU, forecast over 15 years",
+   "quality": "forecast",
+   "verified": "full text read (executive summary)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20260507090730/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52023SC0060"
+  },
+  {
+   "id": "lopez-bermudez-vence-2025-repair",
+   "citation": "López-Bermúdez & Vence (2025), A critical assessment of the European Directive proposal on the common rules promoting the repair of goods, Resources, Conservation and Recycling 212, 107996",
+   "authors": "López-Bermúdez & Vence",
+   "year": 2025,
+   "title": "A critical assessment of the European Directive proposal on the common rules promoting the repair of goods",
+   "venue": "Resources, Conservation and Recycling 212, 107996",
+   "url": "https://doi.org/10.1016/j.resconrec.2024.107996",
+   "pdf_url": "",
+   "source_type": "peer-reviewed",
+   "method": "legal-economic policy analysis (qualitative)",
+   "outcomes": "barriers to repair; repair market structure",
+   "direction": "negative (critique)",
+   "headline": "The Directive fails to address the most important barriers to repair (planned obsolescence, repair instructions and spare parts, economic incentives), may add administrative burdens for independent repairers, relies mainly on information tools and gives manufacturers power over the repair market",
+   "summary_plain": "Researchers argue the Directive mostly adds information duties and leaves untouched the biggest obstacles to repair, such as spare-part availability and cost, while strengthening manufacturers' grip on repair.",
+   "period_geography": "EU",
+   "quality": "qualitative assessment; no outcome data",
+   "verified": "abstract read",
+   "access": "paywalled",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  }
+ ]
+}

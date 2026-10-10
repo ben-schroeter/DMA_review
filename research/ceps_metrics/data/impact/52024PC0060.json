@@ -1,0 +1,63 @@
+{
+ "celex": "52024PC0060",
+ "name": "Child Sexual Abuse Directive (recast)",
+ "proposal": "52024PC0060",
+ "impact_assessment": "SWD(2024) 33 (executive summary SWD(2024) 34)",
+ "evidence_rating": "ex-ante only: qualitative impact assessment; no quantified forecasts; not yet adopted",
+ "summary": "The Commission expected the updated criminal-law rules to improve prevention, investigation and support for victims of child sexual abuse, but gave no figures. Its main monitoring tool is a new duty for countries to collect comparable statistics and survey victims every three years, which does not exist yet; a political agreement was reported in June 2026, so there is no evidence on effects.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "No LFS indicators; the memorandum relies on transposition checks, periodic Commission reports, and new obligations for Member States to collect statistics and run a population-based victim survey every 3 years (Eurostat methodology)",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "monitoring obligation (memorandum)",
+   "objective": "Measure the phenomenon",
+   "indicator": "Administrative statistics on offences (Arts 3-9) and 3-yearly prevalence survey",
+   "target_or_baseline": "Baseline cited in IA: at least one in five children falls victim to sexual violence",
+   "evidence": "Not yet applicable: provisional agreement reported June 2026; not adopted or transposed. Current data not comparable across Member States.",
+   "status": "not measured",
+   "sources": "COM(2024) 60 memorandum; SWD(2024) 33"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Prevention, investigation and victim support",
+   "indicator": "Criminalise livestreamed abuse and online solicitation; longer limitation periods; national coordinating authorities",
+   "target_or_baseline": "",
+   "evidence": "Benefits described qualitatively; costs to Member States described as limited and not quantified.",
+   "status": "not measured",
+   "sources": "SWD(2024) 33"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2024-csa-directive-ia",
+   "citation": "European Commission (2024), Impact Assessment accompanying the proposal for a Directive on combating the sexual abuse and sexual exploitation of children and child sexual abuse material (recast), SWD(2024) 33 (executive summary SWD(2024) 34)",
+   "authors": "European Commission",
+   "year": 2024,
+   "title": "Impact Assessment accompanying the proposal for a Directive on combating the sexual abuse and sexual exploitation of children and child sexual abuse material (recast)",
+   "venue": "SWD(2024) 33 (executive summary SWD(2024) 34)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52024SC0033",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante (includes 2022 evaluation of Directive 2011/93/EU)",
+   "outcomes": "victim protection; investigations; prevention",
+   "direction": "positive (forecast)",
+   "headline": "Qualitative benefits: better identification and support of victims, more effective prevention and investigation, reduced impunity for live-streamed abuse; costs mainly on Member State administrations, described as limited; no direct SME or competitiveness impact. Evaluation found that even with full transposition of the 2011 Directive, abuse is not adequately addressed",
+   "summary_plain": "The Commission expected the updated rules to help find and support more victims and prosecute more offenders, including for live-streamed abuse, at limited cost to national governments; it gave no numerical forecasts.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast; qualitative",
+   "verified": "executive summary read; full text searched",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  }
+ ]
+}
