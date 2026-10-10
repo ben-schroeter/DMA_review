@@ -154,6 +154,32 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260411234629/https://taxation-customs.ec.europa.eu/news/vat-digital-age-implementation-strategy-support-businesses-and-member-states-2025-09-24_en",
    "category": "evidence"
+  },
+  {
+   "id": "heinemann-2023-einvoicing-italy",
+   "authors": "Marwin Heinemann, Wojciech Stiller",
+   "year": 2023,
+   "title": "Digitalization and Cross-Border Tax Fraud: Evidence from E-Invoicing in Italy",
+   "venue": "CESifo Working Paper No. 10227",
+   "url": "https://ideas.repec.org/p/ces/ceswps/_10227.html",
+   "pdf_url": "https://www.cesifo.org/DocDL/cesifo1_wp10227.pdf",
+   "source_type": "academic working paper",
+   "method": "difference-in-differences on product-level intra-EU trade gaps (mirror trade data) around Italy's 2019 mandatory e-invoicing",
+   "outcomes": "cross-border VAT fraud proxied by trade gaps; revenue loss",
+   "direction": "positive",
+   "headline": "Mandatory e-invoicing in Italy significantly reduced cross-border VAT fraud, cutting Italian revenue loss by an estimated EUR 0.6-1 billion in 2019.",
+   "summary_plain": "When Italy made electronic invoices compulsory, signs of cross-border VAT fraud fell noticeably, saving the state up to about a billion euros in the first year.",
+   "period_geography": "around 2019; Italy vs other EU countries",
+   "quality": "Credible quasi-experimental design on a national predecessor of ViDA's e-invoicing/digital reporting requirements, not ViDA itself",
+   "verified": "abstract read",
+   "access": "open",
+   "interested_party": "",
+   "source_class": "academic",
+   "citation": "Marwin Heinemann, Wojciech Stiller (2023), Digitalization and Cross-Border Tax Fraud: Evidence from E-Invoicing in Italy, CESifo Working Paper No. 10227",
+   "accessed": "2026-10-10",
+   "archive_url": "",
+   "added": "2026-10 broadened search",
+   "category": "evidence"
   }
  ],
  "evidence_level": "ex-ante only"

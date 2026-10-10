@@ -236,6 +236,32 @@
    "accessed": "2026-10-10",
    "archive_url": "",
    "category": "evidence"
+  },
+  {
+   "id": "ec-2024-112-report",
+   "authors": "European Commission",
+   "year": 2024,
+   "title": "Report on the effectiveness of the implementation of the single European emergency number '112' (COM(2024) 575)",
+   "venue": "European Commission, report under Article 109(4) EECC",
+   "url": "https://digital-strategy.ec.europa.eu/en/library/2024-report-implementation-eu-emergency-number-112",
+   "pdf_url": "",
+   "source_type": "agency report",
+   "method": "statistical monitoring: Member State questionnaire (COCOM) data for 2023",
+   "outcomes": "use of 112, handset-based caller location (AML), access for persons with disabilities",
+   "direction": "descriptive",
+   "headline": "112 accounted for 62% of all emergency calls in 2023; 25 Member States had AML-enabled PSAPs by Sept 2024 but only 8 provide handset location for roaming users.",
+   "summary_plain": "Use of the EU-wide 112 emergency number has grown and most countries can now locate mobile callers automatically, but not when people are roaming, and disabled users still lack equal access.",
+   "period_geography": "EU-27 plus IS, NO; 2023 data",
+   "quality": "Official monitoring data on an EECC obligation (Art. 109); descriptive, self-reported by Member States; Commission reporting on its own framework.",
+   "verified": "abstract read",
+   "access": "open",
+   "interested_party": "European Commission reporting on implementation of its own legislation",
+   "source_class": "official",
+   "citation": "European Commission (2024), Report on the effectiveness of the implementation of the single European emergency number '112' (COM(2024) 575), European Commission, report under Article 109(4) EECC",
+   "accessed": "2026-10-10",
+   "archive_url": "",
+   "added": "2026-10 broadened search",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

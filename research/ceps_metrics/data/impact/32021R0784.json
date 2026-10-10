@@ -130,6 +130,32 @@
    "accessed": "2026-10-10",
    "archive_url": "",
    "category": "evidence"
+  },
+  {
+   "id": "bnetza-2026-tco-transparency",
+   "authors": "Bundesnetzagentur (with Bundeskriminalamt data)",
+   "year": 2026,
+   "title": "Transparency Report as per Article 8 of the Terrorist Content Online Regulation and Monitoring Report as per Article 21(1) - Year under review 2025",
+   "venue": "Bundesnetzagentur, Germany, March 2026",
+   "url": "https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/Internet/TerrorOnlIn/_DL/Transparenzbericht2025_eng.pdf?__blob=publicationFile",
+   "pdf_url": "https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/Internet/TerrorOnlIn/_DL/Transparenzbericht2025_eng.pdf?__blob=publicationFile",
+   "source_type": "agency report",
+   "method": "administrative statistics on removal orders, removal requests, objections and Article 5 procedures",
+   "outcomes": "removal orders issued and complied with, removal requests, compliance rates",
+   "direction": "descriptive",
+   "headline": "In 2025 the Bundeskriminalamt issued 245 removal orders (99.2% implemented, 237 fewer than in 2024) and 29,792 voluntary removal requests (93.2% implemented vs 87.4% in 2024).",
+   "summary_plain": "Germany's police used the regulation's binding one-hour removal orders a few hundred times in 2025 and platforms almost always complied, while far more content was taken down through voluntary requests.",
+   "period_geography": "2025 (with 2024 comparison); Germany",
+   "quality": "Official counts from the competent authority; outputs only, no measure of effect on terrorist content availability",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "National competent authority reporting on its own activity",
+   "source_class": "official",
+   "citation": "Bundesnetzagentur (with Bundeskriminalamt data) (2026), Transparency Report as per Article 8 of the Terrorist Content Online Regulation and Monitoring Report as per Article 21(1) - Year under review 2025, Bundesnetzagentur, Germany, March 2026",
+   "accessed": "2026-10-10",
+   "archive_url": "",
+   "added": "2026-10 broadened search",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

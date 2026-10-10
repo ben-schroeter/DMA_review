@@ -136,6 +136,32 @@
    "accessed": "2026-10-10",
    "archive_url": "",
    "category": "evidence"
+  },
+  {
+   "id": "edps-2024-dpo-survey",
+   "authors": "European Data Protection Supervisor (EDPS)",
+   "year": 2024,
+   "title": "Results of the Survey on the designation and position of the data protection officer in the EU institutions, bodies, offices and agencies",
+   "venue": "EDPS report (Coordinated Enforcement Action 2023)",
+   "url": "https://edps.europa.eu/system/files/2024-01/edps-report-on-dpo-survey-coordinated-enforcement-action_en.pdf",
+   "pdf_url": "https://edps.europa.eu/system/files/2024-01/edps-report-on-dpo-survey-coordinated-enforcement-action_en.pdf",
+   "source_type": "agency report",
+   "method": "supervisory questionnaire survey, 69 responses covering 71 EU institutions, bodies and agencies (March 2023)",
+   "outcomes": "DPO resources, independence, involvement, compliance with Regulation 2018/1725",
+   "direction": "mixed",
+   "headline": "Almost half of the 69 DPOs say their resources are insufficient, 30% have no full-time-equivalent support and under 30% have their own budget, while most are consulted on 75-100% of data protection issues; 3 of 69 (4%) report being penalised for their work.",
+   "summary_plain": "The EU's own data protection watchdog surveyed privacy officers in EU bodies: they are generally consulted and listened to, but many lack staff and time, which risks weakening data protection inside EU institutions.",
+   "period_geography": "EU institutions, bodies, offices and agencies, 2023",
+   "quality": "Self-reported supervisory survey with near-full coverage; descriptive, no before/after comparison.",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "EDPS is the supervisor under the Regulation",
+   "source_class": "official",
+   "citation": "European Data Protection Supervisor (EDPS) (2024), Results of the Survey on the designation and position of the data protection officer in the EU institutions, bodies, offices and agencies, EDPS report (Coordinated Enforcement Action 2023)",
+   "accessed": "2026-10-10",
+   "archive_url": "",
+   "added": "2026-10 broadened search",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

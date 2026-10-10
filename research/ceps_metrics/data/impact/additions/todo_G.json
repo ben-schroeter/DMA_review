@@ -1,0 +1,145 @@
+[
+ {
+  "row": 74,
+  "celex": "32023R1781",
+  "name": "European Chips Act",
+  "year": "2023",
+  "status": "adopted",
+  "n_ev": 3,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2026) Impact Assessment report accompanying the Chips Act 2.0 proposal, including the evaluation of the Chips Act (Annex I)",
+   "European Court of Auditors (2025) The EU's strategy for microchips: Reasonable progress in its implementation, but the Chips Act is very unlikely to be sufficient to reach the overly ambitious Digital Decade target",
+   "García-Herrero & Poitiers (Bruegel) (2022) Europe's promised semiconductor subsidies need to be better targeted"
+  ]
+ },
+ {
+  "row": 93,
+  "celex": "32024R1735",
+  "name": "Net-Zero Industry Act",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2023) Proposal for a Net-Zero Industry Act, explanatory memorandum",
+   "European Commission (2023) Investment needs assessment and funding availabilities to strengthen EU's Net-Zero technology manufacturing capacity",
+   "Tagliapietra, Veugelers & Zettelmeyer (2023) Rebooting the European Union's Net Zero Industry Act"
+  ]
+ },
+ {
+  "row": 97,
+  "celex": "32024R0795",
+  "name": "Strategic Technologies for Europe Platform (STEP)",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2023) Proposal for a Regulation establishing the Strategic Technologies for Europe Platform (STEP)",
+   "European Commission (2025) Interim evaluation of the Strategic Technologies for Europe Platform (STEP)"
+  ]
+ },
+ {
+  "row": 45,
+  "celex": "32021R0694",
+  "name": "Digital Europe Programme",
+  "year": "2021",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2018) Impact Assessment accompanying the proposal establishing the Digital Europe programme (executive summary SWD(2018) 306)",
+   "European Commission (2025) Interim Evaluation of the Digital Europe Programme (Staff Working Document) and report COM(2025) 771"
+  ]
+ },
+ {
+  "row": 50,
+  "celex": "32021R0887",
+  "name": "European Cybersecurity Competence Centre",
+  "year": "2021",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2018) Impact Assessment accompanying the proposal establishing the European Cybersecurity Industrial, Technology and Research Competence Centre and the Network of National Coordination Centres (executive summary SWD(2018) 404)",
+   "European Commission (2025) The Digital Europe Programme: Main findings of the interim evaluation (cybersecurity objective)",
+   "European Court of Auditors (2025) Annual report on EU joint undertakings for the 2024 financial year"
+  ]
+ },
+ {
+  "row": 42,
+  "celex": "32023R1543",
+  "name": "E-evidence Regulation",
+  "year": "2023",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2018) Impact Assessment accompanying the proposals on European Production and Preservation Orders for electronic evidence and on legal representatives (executive summary SWD(2018) 119)",
+   "EuroISPA (2026) e-Evidence Regulation: Closing the implementation gap before August 2026"
+  ]
+ },
+ {
+  "row": 70,
+  "celex": "32022D2481",
+  "name": "Digital Decade Policy Programme Decision",
+  "year": "2022",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2025) State of the Digital Decade 2025: Keep building the EU's sovereignty and digital future",
+   "European Commission (2026) State of the Digital Decade 2026 report (news summary)"
+  ]
+ },
+ {
+  "row": 66,
+  "celex": "32022R2560",
+  "name": "Foreign Subsidies Regulation",
+  "year": "2022",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2021) Impact Assessment accompanying the proposal for a Regulation on foreign subsidies distorting the internal market (executive summary SWD(2021) 100)",
+   "European Commission (2026) Report on the implementation and enforcement of Regulation (EU) 2022/2560 (first review, with SWD(2026) 183)"
+  ]
+ },
+ {
+  "row": 85,
+  "celex": "32024R2747",
+  "name": "Single Market Emergency Instrument (IMERA)",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 0,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2022) Impact Assessment accompanying the Single Market Emergency Instrument proposal (executive summary SWD(2022) 290)"
+  ]
+ },
+ {
+  "row": 29,
+  "celex": "32017L1132",
+  "name": "Company Law Directive",
+  "year": "2017",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2018) Impact Assessment on the EU Company Law package (digital tools; cross-border conversions, mergers and divisions), executive summary",
+   "European Commission (2023) Impact Assessment on further expanding and upgrading digital tools in company law, executive summary",
+   "Biermeyer & Meyer (2019) Cross-border Corporate Mobility in the EU: Empirical Findings 2019 (Vol. 1)"
+  ]
+ }
+]

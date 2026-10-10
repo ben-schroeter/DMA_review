@@ -1,0 +1,145 @@
+[
+ {
+  "row": 54,
+  "celex": "32021R1173",
+  "name": "EuroHPC Joint Undertaking Regulation",
+  "year": "2021",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2018) Impact Assessment accompanying the proposal for a Council Regulation on establishing the European High Performance Computing Joint Undertaking",
+   "European Commission (2025) Interim Evaluation of the Digital Europe Programme (HPC objective implemented by EuroHPC)",
+   "European Court of Auditors (2025) Annual report on EU joint undertakings for the 2024 financial year"
+  ]
+ },
+ {
+  "row": 49,
+  "celex": "32021R0690",
+  "name": "Single Market Programme",
+  "year": "2021",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2018) Impact Assessment accompanying the proposal establishing the Single Market Programme",
+   "European Commission (2025) Report on the interim evaluation of the Single Market Programme 2021-2027 (with SWD(2025) 172)"
+  ]
+ },
+ {
+  "row": 89,
+  "celex": "32024L2823",
+  "name": "Design Directive",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 1,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2022) Impact Assessment accompanying the proposals to amend the Community Design Regulation and recast the Design Directive (executive summary SWD(2022) 369)",
+   "Herz & Mejer (2020) The effect of design protection on price and price dispersion: Evidence from automotive spare parts",
+   "European Commission (2020) Evaluation of EU legislation on design protection"
+  ]
+ },
+ {
+  "row": 94,
+  "celex": "32024L1799",
+  "name": "Right to Repair Directive",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2023) Impact Assessment accompanying the proposal for a Directive on common rules promoting the repair of goods (executive summary SWD(2023) 60)",
+   "López-Bermúdez & Vence (2025) A critical assessment of the European Directive proposal on the common rules promoting the repair of goods"
+  ]
+ },
+ {
+  "row": 88,
+  "celex": "32024R0903",
+  "name": "Interoperable Europe Act",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2022) Impact Assessment accompanying the proposal for an Interoperable Europe Act (executive summary SWD(2022) 722)",
+   "European Commission (2022) Final evaluation of the European Interoperability Framework (EIF)",
+   "European Commission (2025) First Annual Report on Interoperability in the Union"
+  ]
+ },
+ {
+  "row": 91,
+  "celex": "32024R1309",
+  "name": "Gigabit Infrastructure Act",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2023) Impact Assessment accompanying the Gigabit Infrastructure Act proposal (executive summary SWD(2023) 47)",
+   "Cullen International (2026) National implementation of the EU Gigabit Infrastructure Act"
+  ]
+ },
+ {
+  "row": 114,
+  "celex": "32019R0817",
+  "name": "Interoperability of EU information systems (borders and",
+  "year": "2019",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2017) Impact Assessment accompanying the proposals on interoperability between EU information systems (executive summary SWD(2017) 474)",
+   "European Commission (2026) Sixth report on the state of play of preparations for the full implementation of the Interoperability Regulations (covering 2025)",
+   "European Commission (2026) Report on the evaluation of eu-LISA under Article 39 of Regulation (EU) 2018/1726"
+  ]
+ },
+ {
+  "row": 72,
+  "celex": "32023R2844",
+  "name": "Digitalisation of judicial cooperation Regulation",
+  "year": "2023",
+  "status": "adopted",
+  "n_ev": 0,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2021) Impact Assessment accompanying the proposals on the digitalisation of judicial cooperation and access to justice in cross-border civil, commercial and criminal matters (executive summary SWD(2021) 393)"
+  ]
+ },
+ {
+  "row": 78,
+  "celex": "32023R2841",
+  "name": "Cybersecurity Regulation (EU institutions)",
+  "year": "2023",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Court of Auditors (2022) Cybersecurity of EU institutions, bodies and agencies: Level of preparedness overall not commensurate with the threats",
+   "Interinstitutional Cybersecurity Board (IICB) (2025) IICB Annual Report 2025 on the implementation of Regulation (EU, Euratom) 2023/2841"
+  ]
+ },
+ {
+  "row": 80,
+  "celex": "32024R1781",
+  "name": "Ecodesign for Sustainable Products Regulation",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2022) Impact Assessment accompanying the proposal for an Ecodesign for Sustainable Products Regulation (executive summary SWD(2022) 83)",
+   "INFORSE-Europe (2022) EU Ecodesign for Sustainable Products proposal (summary page)"
+  ]
+ }
+]

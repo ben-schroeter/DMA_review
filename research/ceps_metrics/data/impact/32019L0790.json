@@ -226,6 +226,32 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260607102546/https://policyreview.info/articles/analysis/uploaders-perceptions-german-implementation-eu-copyright-reform",
    "category": "evidence"
+  },
+  {
+   "id": "dergacheva-2023-art17-youtube",
+   "authors": "Daria Dergacheva, Christian Katzenbach",
+   "year": 2023,
+   "title": "Mandate to overblock? Understanding the impact of the European Union's Article 17 on copyright content moderation on YouTube",
+   "venue": "Policy & Internet (Wiley), DOI 10.1002/poi3.379",
+   "url": "https://www.hiig.de/wp-content/uploads/2024/05/Policy-Internet-2023-Dergacheva-Mandate-to-overblock-Understanding-the-impact-of-the-European-Union-s-Article-17.pdf",
+   "pdf_url": "https://www.hiig.de/wp-content/uploads/2024/05/Policy-Internet-2023-Dergacheva-Mandate-to-overblock-Understanding-the-impact-of-the-European-Union-s-Article-17.pdf",
+   "source_type": "peer-reviewed article",
+   "method": "comparison of YouTube takedowns and genre diversity (Stirling dual-concept diversity index) in Germany vs France, exploiting Germany's 5-month-earlier Article 17 implementation",
+   "outcomes": "copyright-related video takedowns, cultural supply diversity on YouTube",
+   "direction": "negative",
+   "headline": "Over 2019-2022, takedowns in copyright-prone categories differed significantly between Germany and France, and content diversity (genres, videos, subscribers) fell in both, more so in Germany.",
+   "summary_plain": "Comparing Germany, which applied the new upload rules earlier, with France, the authors found more removal of copyright-sensitive videos and a larger drop in the variety of content on YouTube in Germany.",
+   "period_geography": "2019-2022; Germany and France",
+   "quality": "Quasi-experimental comparison of two countries using reused data; descriptive inference, no formal DiD; open access",
+   "verified": "abstract read",
+   "access": "open",
+   "interested_party": "",
+   "source_class": "academic",
+   "citation": "Daria Dergacheva, Christian Katzenbach (2023), Mandate to overblock? Understanding the impact of the European Union's Article 17 on copyright content moderation on YouTube, Policy & Internet (Wiley), DOI 10.1002/poi3.379",
+   "accessed": "2026-10-10",
+   "archive_url": "",
+   "added": "2026-10 broadened search",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

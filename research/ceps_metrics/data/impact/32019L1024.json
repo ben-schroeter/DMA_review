@@ -212,6 +212,32 @@
    "accessed": "2026-10-10",
    "archive_url": "",
    "category": "evidence"
+  },
+  {
+   "id": "vaneendenburg-2024-hvd-findability",
+   "authors": "Leon van Eendenburg, Jolanta Suárez (data.europa.eu / Publications Office)",
+   "year": 2024,
+   "title": "High-value datasets: Cross-country findability and comparability of metadata",
+   "venue": "data.europa.eu study, Publications Office of the EU, doi:10.2830/0033148",
+   "url": "https://data.europa.eu/sites/default/files/report/High-value%20Dataset%20Findability%20and%20Metadata%20Accessibility.pdf",
+   "pdf_url": "https://data.europa.eu/sites/default/files/report/High-value%20Dataset%20Findability%20and%20Metadata%20Accessibility.pdf",
+   "source_type": "agency report",
+   "method": "pilot audit of 24 high-value datasets in Denmark, Estonia, Latvia and Finland against Implementing Regulation 2023/138 metadata requirements (April-May 2024)",
+   "outcomes": "availability, findability and metadata quality of high-value datasets",
+   "direction": "descriptive",
+   "headline": "Of 24 high-value datasets assessed, 20 were found, 3 were gated and 1 unavailable; 14 were easily findable on data.europa.eu and 8 did not reference the regulation.",
+   "summary_plain": "A spot check of 24 key public datasets in four countries found most were available but many were hard to find or poorly labelled, just before the EU rules took effect.",
+   "period_geography": "April-May 2024; DK, EE, LV, FI",
+   "quality": "Small pilot sample, conducted just before application date; descriptive only",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "European Commission (data.europa.eu, author of the act)",
+   "source_class": "official",
+   "citation": "Leon van Eendenburg, Jolanta Suárez (data.europa.eu / Publications Office) (2024), High-value datasets: Cross-country findability and comparability of metadata, data.europa.eu study, Publications Office of the EU, doi:10.2830/0033148",
+   "accessed": "2026-10-10",
+   "archive_url": "",
+   "added": "2026-10 broadened search",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

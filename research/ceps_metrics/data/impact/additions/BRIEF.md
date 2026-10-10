@@ -40,3 +40,8 @@ Also search think tanks and policy institutes for pieces assessing the act's eff
 - Include them if they assess what has happened under the act (with data, case evidence or a structured qualitative assessment). Exclude pure opinion on the proposal or forecasts.
 - Add a key `source_class` to EVERY object you output (including academic ones already found): "academic" (peer-reviewed or university/research-institute working paper), "official" (EU institutions, agencies, national authorities, OECD/IMF/BIS), "think tank" (independent policy institutes and NGOs' research), or "consultancy or industry" (consultancies, trade associations, companies). Set `source_type` for think tank pieces to "think tank report" or "think tank policy brief".
 - Fill `interested_party` for think tanks with known funders or positions on the act where clear (e.g. industry-funded, campaigning NGO).
+
+## Addendum 2 (round 2)
+- Web searches are capped at about 200 per turn shared by all agents. Use at most **45 WebSearch calls** in total for your batch: about 3–4 per act, combining the academic and think-tank queries (e.g. "<act> impact evidence study 2025", "<act> evaluation empirical", "<act> think tank assessment"). Open pages directly (curl is fine) and follow reference lists and citation pages, which do not use the search budget.
+- **Do not use third-party reader or proxy services** (e.g. r.jina.ai) to fetch pages. If a page blocks direct access, use the DOI/Crossref/publisher abstract or leave the study out.
+- Every study object must have `source_class`. For acts with nothing, write the none_found object and say "searched: ..." honestly; if you run out of budget, write "NOT SEARCHED" in `searched`.

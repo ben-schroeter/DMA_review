@@ -222,6 +222,32 @@
    "accessed": "2026-10-10",
    "archive_url": "",
    "category": "evidence"
+  },
+  {
+   "id": "conlon-2024-mica-eventstudy",
+   "authors": "Thomas Conlon, Shaen Corbet, Les Oxley",
+   "year": 2024,
+   "title": "The influence of European MiCa regulation on cryptocurrencies",
+   "venue": "Global Finance Journal 63 (2024), doi:10.1016/j.gfj.2024.101040",
+   "url": "https://doi.org/10.1016/j.gfj.2024.101040",
+   "pdf_url": "",
+   "source_type": "peer-reviewed article",
+   "method": "event study of crypto-asset returns around MiCA-related announcements",
+   "outcomes": "crypto-asset returns by asset type",
+   "direction": "negative",
+   "headline": "Announcement-day returns fell by about 2.1% around MiCA announcements, persisting up to three days, with stronger effects for digital assets, platform tokens and utility tokens.",
+   "summary_plain": "Crypto prices dipped by about 2% on days when news about the EU's MiCA rules came out, especially for some token types.",
+   "period_geography": "MiCA legislative milestones (approx. 2020-2023); global crypto markets",
+   "quality": "Standard event study of announcements (legislative stage, not application); headline taken from the search-engine abstract snippet, publisher page blocked, metadata confirmed via Crossref/Unpaywall.",
+   "verified": "summary only",
+   "access": "paywalled",
+   "interested_party": "",
+   "source_class": "academic",
+   "citation": "Thomas Conlon, Shaen Corbet, Les Oxley (2024), The influence of European MiCa regulation on cryptocurrencies, Global Finance Journal 63 (2024), doi:10.1016/j.gfj.2024.101040",
+   "accessed": "2026-10-10",
+   "archive_url": "",
+   "added": "2026-10 broadened search",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"
