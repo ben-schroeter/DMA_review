@@ -137,3 +137,10 @@ Tier 3 — pending proposals and acts adopted 2024–2026 (impact assessment and
 - [x] 32019L0789 Satellite and Cable II Directive
 - [x] 32022D2481 Digital Decade Policy Programme Decision
 - [x] 52022PC0209 Child Sexual Abuse Regulation (CSAR, proposal)
+- [x] 32006L0112 Common VAT system Directive
+- [x] 32022R0720 Vertical Block Exemption Regulation
+- [x] 32022R0720 Vertical Block Exemption Regulation
+- [x] 32006L0112 Common VAT system Directive
+- [x] 32022R0858 DLT Pilot Regime Regulation
+- [x] 32009L0048 Toys Safety Directive
+- [x] 32022R0858 DLT Pilot Regime Regulation
