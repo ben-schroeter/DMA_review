@@ -102,7 +102,14 @@ for i, (r, m0) in enumerate(zip(rows, imap), start=2):
         url = " ; ".join(URL.format(c) for c in cel)
         met, notes = summed(cel)
     cc = [cons[c]["latest"] for c in cel if c in cons]
-    cmet, cnotes = summed(cc, "consolidated") if cc else ({}, [])
+    cmet, cnotes = {}, []
+    if cc:
+        ok = [x for x in cc if "error" not in meas.get((x, "consolidated"), {"error": 1})]
+        if ok:
+            cmet, cnotes = summed(ok, "consolidated")
+        else:                           # EUR-Lex lists only the initial version: never amended
+            cmet = {k: met.get(k) for k in ("restrictions_total", "addr_private_parties")}
+            cnotes = ["no consolidated text with amendments in EUR-Lex; consolidated count = original"]
     dirs = [c for c in cel if c[5:6] == "L"]
     note = "; ".join(x for x in [m0["note"]] + notes + cnotes if x)
     vals = [int(m0["row_id"]), r["name"], r["identifier"], r["proposal_date"], r["confidence"], m0["status_ceps_jul2025"],
