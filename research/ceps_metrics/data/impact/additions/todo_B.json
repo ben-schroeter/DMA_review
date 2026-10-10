@@ -1,0 +1,210 @@
+[
+ {
+  "row": 20,
+  "celex": "32016R0679",
+  "name": "General Data Protection Regulation",
+  "year": "2016",
+  "status": "adopted",
+  "n_ev": 10,
+  "n_causal": 8,
+  "level": "strong",
+  "existing": [
+   "European Commission (2012) Impact Assessment accompanying the data protection reform (executive summary SEC(2012) 73)",
+   "European Commission (2024) Second report on the application of the General Data Protection Regulation",
+   "Jia, Jin & Wagman (2021) The Short-Run Effects of the General Data Protection Regulation on Technology Venture Investment",
+   "Johnson, Shriver & Goldberg (2023) Privacy and Market Concentration: Intended and Unintended Consequences of the GDPR",
+   "Goldberg, Johnson & Shriver (2024) Regulating Privacy Online: An Economic Evaluation of the GDPR",
+   "Peukert, Bechtold, Batikas & Kretschmer (2022) Regulatory Spillovers and Data Governance: Evidence from the GDPR",
+   "Janssen, Kesler, Kummer & Waldfogel (2022) GDPR and the Lost Generation of Innovative Apps",
+   "Frey & Presidente (2024) Privacy regulation and firm performance: Estimating the GDPR effect globally",
+   "Demirer, Jimenez-Hernandez, Li & Peng (2024) Data, Privacy Laws and Firm Production: Evidence from the GDPR",
+   "Aridor, Che & Salz (2023) The Effect of Privacy Regulation on the Data Industry: Empirical Evidence from GDPR",
+   "Diegmann & Kubis (2025) Die Betriebe mussten in den letzten drei Jahren 325.000 Arbeitskräfte zusätzlich einstellen, um die gewachsene Bürokratie zu bewältigen"
+  ]
+ },
+ {
+  "row": 33,
+  "celex": "32019L0790",
+  "name": "Copyright in the Digital Single Market Directive",
+  "year": "2019",
+  "status": "adopted",
+  "n_ev": 5,
+  "n_causal": 2,
+  "level": "thin",
+  "existing": [
+   "European Commission (2016) Impact Assessment on the modernisation of EU copyright rules (executive summary SWD(2016) 302)",
+   "European Commission (2024) Assessment of the impact of Article 17(6) of Directive (EU) 2019/790",
+   "Calzada & Gil (2020) What Do News Aggregators Do? Evidence from Google News in Spain and Germany",
+   "Athey, Mobius & Pal (2021) The Impact of Aggregators on Internet News Consumption",
+   "European Commission Joint Research Centre (2017) The economics of online news aggregation and neighbouring rights for news publishers (draft, released after access-to-documents request)",
+   "Autorité de la concurrence (France) (2024) Decisions 21-D-17 (EUR 500m fine, July 2021) and 24-D-03 (EUR 250m fine, March 2024) against Google on press publishers' related rights",
+   "Doseva, Schmid-Petri, Schillmöller & Heckmann (2022) Uploaders' perceptions of the German implementation of the EU copyright reform and their preferences for copyright regulation"
+  ]
+ },
+ {
+  "row": 43,
+  "celex": "32019L1024",
+  "name": "Open Data Directive (PSI)",
+  "year": "2019",
+  "status": "adopted",
+  "n_ev": 4,
+  "n_causal": 1,
+  "level": "thin",
+  "existing": [
+   "European Commission (2018) Impact Assessment accompanying the proposal for a Directive on the re-use of public sector information (executive summary SWD(2018) 128)",
+   "European Commission (2018) Evaluation of Directive 2003/98/EC on the re-use of public sector information (executive summary SWD(2018) 129)",
+   "European Commission (2022) Impact assessment report accompanying the Implementing Regulation laying down a list of specific high-value datasets (executive summary SWD(2022) 433)",
+   "data.europa.eu (European Commission) (2025) Open Data Maturity Report 2025",
+   "European Data Portal (Capgemini Invent et al.) (2020) The Economic Impact of Open Data: Opportunities for value creation in Europe",
+   "Nagaraj (2022) The Private Impact of Public Data: Landsat Satellite Maps Increased Gold Discoveries and Encouraged Entry"
+  ]
+ },
+ {
+  "row": 69,
+  "celex": "32022R0720",
+  "name": "Vertical Block Exemption Regulation",
+  "year": "2022",
+  "status": "adopted",
+  "n_ev": 3,
+  "n_causal": 2,
+  "level": "thin",
+  "existing": [
+   "European Commission (2020) Evaluation of the Vertical Block Exemption Regulation and Vertical Guidelines (Staff Working Document)",
+   "European Commission (2022) Impact assessment report accompanying the revised Vertical Block Exemption Regulation and Vertical Guidelines",
+   "Hunold, Kesler, Laitenberger & Schlutter (2018) Evaluation of best price clauses in online hotel bookings",
+   "Mantovani, Piga & Reggiani (2021) Online platform price parity clauses: Evidence from the EU Booking.com case"
+  ]
+ },
+ {
+  "row": 90,
+  "celex": "32025L0516",
+  "name": "VAT in the Digital Age (ViDA)",
+  "year": "2025",
+  "status": "adopted",
+  "n_ev": 3,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2022) Impact assessment on VAT in the digital age (executive summary SWD(2022) 394)",
+   "Economisti Associati, Oxford Research, CASE, Wavestone et al. (2022) VAT in the digital age: final report (Vol. 1 Digital Reporting Requirements)",
+   "European Commission (DG TAXUD) (2025) VAT Gap in the EU - 2025 report",
+   "European Commission (DG TAXUD) (2025) VAT in the Digital Age: implementation strategy to support businesses and Member States"
+  ]
+ },
+ {
+  "row": 51,
+  "celex": "32021R0784",
+  "name": "Terrorist Content Online Regulation",
+  "year": "2021",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2018) Impact Assessment accompanying the proposal on preventing the dissemination of terrorist content online (executive summary SWD(2018) 409)",
+   "European Commission (2024) Report on the implementation of Regulation (EU) 2021/784 on addressing the dissemination of terrorist content online (with SWD(2024) 36)",
+   "EU Agency for Fundamental Rights (FRA) (2026) Regulating online terrorist content - Balancing public safety and fundamental rights"
+  ]
+ },
+ {
+  "row": 62,
+  "celex": "32021R2085",
+  "name": "Joint Undertakings under Horizon Europe",
+  "year": "2021",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2021) Impact Assessment accompanying the proposal for a Council Regulation establishing the Joint Undertakings under Horizon Europe (executive summary SWD(2021) 38)",
+   "European Commission (2025) Interim Evaluation of the Horizon Europe Framework Programme 2021-2024 (incl. annexes on 19 institutionalised partnerships)",
+   "European Court of Auditors (2025) Annual report on EU joint undertakings for the 2024 financial year"
+  ]
+ },
+ {
+  "row": 89,
+  "celex": "32024L2823",
+  "name": "Design Directive",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 1,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2022) Impact Assessment accompanying the proposals to amend the Community Design Regulation and recast the Design Directive (executive summary SWD(2022) 369)",
+   "Herz & Mejer (2020) The effect of design protection on price and price dispersion: Evidence from automotive spare parts",
+   "European Commission (2020) Evaluation of EU legislation on design protection"
+  ]
+ },
+ {
+  "row": 95,
+  "celex": "32025R0038",
+  "name": "Cyber Solidarity Act",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Court of Auditors (2023) Opinion 02/2023 concerning the proposal for a Regulation laying down measures to strengthen solidarity and capacities in the Union to detect, prepare for and respond to cybersecurity threats and incidents",
+   "European Commission (2025) The Digital Europe Programme: Main findings of the interim evaluation"
+  ]
+ },
+ {
+  "row": 45,
+  "celex": "32021R0694",
+  "name": "Digital Europe Programme",
+  "year": "2021",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2018) Impact Assessment accompanying the proposal establishing the Digital Europe programme (executive summary SWD(2018) 306)",
+   "European Commission (2025) Interim Evaluation of the Digital Europe Programme (Staff Working Document) and report COM(2025) 771"
+  ]
+ },
+ {
+  "row": 55,
+  "celex": "32022R0858",
+  "name": "DLT Pilot Regime Regulation",
+  "year": "2022",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2020) Impact Assessment accompanying the proposals on markets in crypto-assets and on a pilot regime for DLT market infrastructures (executive summary SWD(2020) 202)",
+   "European Securities and Markets Authority (2025) ESMA Report on the Functioning and Review of the DLT Pilot Regime pursuant to Article 14 of Regulation (EU) 2022/858",
+   "European Commission (2025) Market integration and supervision package: proposal amending Regulation (EU) 2022/858 and others, with impact assessment"
+  ]
+ },
+ {
+  "row": 94,
+  "celex": "32024L1799",
+  "name": "Right to Repair Directive",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2023) Impact Assessment accompanying the proposal for a Directive on common rules promoting the repair of goods (executive summary SWD(2023) 60)",
+   "López-Bermúdez & Vence (2025) A critical assessment of the European Directive proposal on the common rules promoting the repair of goods"
+  ]
+ },
+ {
+  "row": 28,
+  "celex": "32019L0771",
+  "name": "Sale of Goods Directive",
+  "year": "2019",
+  "status": "adopted",
+  "n_ev": 0,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2015) Impact Assessment accompanying the proposals for Directives on contracts for the supply of digital content and for online and other distance sales of goods (executive summary SWD(2015) 275)",
+   "European Commission (2023) Impact Assessment Report accompanying the proposal on common rules promoting the repair of goods"
+  ]
+ }
+]

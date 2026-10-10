@@ -1,0 +1,202 @@
+[
+ {
+  "row": 39,
+  "celex": "32019R0452",
+  "name": "FDI Screening Regulation",
+  "year": "2019",
+  "status": "adopted",
+  "n_ev": 6,
+  "n_causal": 2,
+  "level": "moderate",
+  "existing": [
+   "European Commission (2024) Evaluation of Regulation (EU) 2019/452 establishing a framework for the screening of foreign direct investments into the Union (executive summary SWD(2024) 24)",
+   "European Commission (2025) Fifth Annual Report on the screening of foreign direct investments into the Union",
+   "European Court of Auditors (2023) Screening foreign direct investments in the EU: First steps taken, but significant limitations remain in addressing security and public-order risks effectively",
+   "OECD (2022) Framework for Screening Foreign Direct Investment into the EU: Assessing effectiveness and efficiency",
+   "Eichenauer & Wang (2024) Mild Deglobalization: Foreign Investment Screening and Cross-Border Investment",
+   "Mau (2023) Screening or deterring investments into the European Union?"
+  ]
+ },
+ {
+  "row": 30,
+  "celex": "32018R0302",
+  "name": "Geo-blocking Regulation",
+  "year": "2018",
+  "status": "adopted",
+  "n_ev": 5,
+  "n_causal": 0,
+  "level": "moderate",
+  "existing": [
+   "European Commission (2016) Impact Assessment accompanying the Geo-blocking Regulation proposal (executive summary SWD(2016) 174)",
+   "European Commission (2020) First short-term review of the Geo-blocking Regulation",
+   "Alaveras, Duch-Brown & Martens (2020) Geo-blocking regulation: an assessment of its impact on the EU Digital Single Market",
+   "Duch-Brown & Martens (2016) The Economic Impact of Removing Geo-blocking Restrictions in the EU Digital Single Market",
+   "Bourreau & Manenti (2023) Selling cross-border in online markets: The impact of the ban on geoblocking strategies",
+   "European Court of Auditors (2025) Special report 03/2025: Geo-blocking"
+  ]
+ },
+ {
+  "row": 57,
+  "celex": "32022R2554",
+  "name": "Digital Operational Resilience Act (DORA)",
+  "year": "2022",
+  "status": "adopted",
+  "n_ev": 4,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2020) Impact Assessment accompanying the proposal for a Regulation on digital operational resilience for the financial sector (executive summary SWD(2020) 199)",
+   "EBA, EIOPA & ESMA (Joint Committee) (2024) DORA dry run exercise on reporting of registers of information - summary report",
+   "EBA, EIOPA & ESMA (2025) List of designated critical ICT third-party service providers under DORA",
+   "ENISA (2024) NIS Investments 2024 (section on readiness for DORA and other legislation)",
+   "Rubrik Zero Labs (reported by Infosecurity Magazine) (2025) DORA Compliance Costs Soar Past EUR 1m for Many UK and EU Businesses",
+   "Censuswide for Veeam Software (reported by Help Net Security) (2025) Six months into DORA, most financial firms are still not ready"
+  ]
+ },
+ {
+  "row": 53,
+  "celex": "32021R1232",
+  "name": "Temporary CSAM Derogation Regulation",
+  "year": "2021",
+  "status": "adopted",
+  "n_ev": 3,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2023) Report on the implementation of Regulation (EU) 2021/1232 (temporary derogation from the ePrivacy Directive to combat online child sexual abuse)",
+   "European Commission (2025) Second report on the implementation of Regulation (EU) 2021/1232",
+   "European Data Protection Supervisor (2026) Opinion 7/2026 on the Proposal for a Regulation extending the application of Regulation (EU) 2021/1232"
+  ]
+ },
+ {
+  "row": 113,
+  "celex": "32019R0517",
+  "name": ".eu Top-Level Domain Regulation",
+  "year": "2019",
+  "status": "adopted",
+  "n_ev": 3,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2018) Impact Assessment accompanying the proposal on the implementation and functioning of the .eu top-level domain (executive summary SWD(2018) 121)",
+   "European Commission (2018) REFIT evaluation of Regulations 733/2002 and 874/2004 on the .eu top-level domain (executive summary)",
+   "European Commission (2022) Report on the implementation, functioning and effectiveness of the .eu Top-Level Domain from April 2019 to April 2021",
+   "EURid (registry) (2026) Q4 2025 quarterly update"
+  ]
+ },
+ {
+  "row": 41,
+  "celex": "32019R1020",
+  "name": "Market Surveillance Regulation",
+  "year": "2019",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2017) Impact Assessment accompanying the proposal on compliance with and enforcement of Union harmonisation legislation on products (executive summary SWD(2017) 467)",
+   "European Commission (2025) Report on the implementation of Article 4 of Regulation (EU) 2019/1020",
+   "European Commission (2025) A comprehensive EU toolbox for safe and sustainable e-commerce"
+  ]
+ },
+ {
+  "row": 70,
+  "celex": "32022D2481",
+  "name": "Digital Decade Policy Programme Decision",
+  "year": "2022",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2025) State of the Digital Decade 2025: Keep building the EU's sovereignty and digital future",
+   "European Commission (2026) State of the Digital Decade 2026 report (news summary)"
+  ]
+ },
+ {
+  "row": 87,
+  "celex": "32023R1066",
+  "name": "Horizontal Block Exemption Regulations",
+  "year": "2023",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2021) Evaluation of the Horizontal Block Exemption Regulations (R&D and Specialisation) and the Horizontal Guidelines",
+   "European Commission (DG Competition) (2023) Explanatory note on the 2023 Horizontal Block Exemption Regulations",
+   "Ruble & Versaevel (2014) Market shares, R&D agreements, and the EU block exemption"
+  ]
+ },
+ {
+  "row": 114,
+  "celex": "32019R0817",
+  "name": "Interoperability of EU information systems (borders and",
+  "year": "2019",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2017) Impact Assessment accompanying the proposals on interoperability between EU information systems (executive summary SWD(2017) 474)",
+   "European Commission (2026) Sixth report on the state of play of preparations for the full implementation of the Interoperability Regulations (covering 2025)",
+   "European Commission (2026) Report on the evaluation of eu-LISA under Article 39 of Regulation (EU) 2018/1726"
+  ]
+ },
+ {
+  "row": 37,
+  "celex": "32019R0881",
+  "name": "Cybersecurity Act",
+  "year": "2019",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2017) Impact Assessment accompanying the Cybersecurity Act proposal (executive summary SWD(2017) 501)",
+   "European Commission (2026) Report on the evaluation of ENISA and the European Cybersecurity Certification Framework",
+   "European Commission (2026) Impact Assessment accompanying the proposal for a Cybersecurity Act 2 (executive summary SWD(2026) 12)"
+  ]
+ },
+ {
+  "row": 66,
+  "celex": "32022R2560",
+  "name": "Foreign Subsidies Regulation",
+  "year": "2022",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2021) Impact Assessment accompanying the proposal for a Regulation on foreign subsidies distorting the internal market (executive summary SWD(2021) 100)",
+   "European Commission (2026) Report on the implementation and enforcement of Regulation (EU) 2022/2560 (first review, with SWD(2026) 183)"
+  ]
+ },
+ {
+  "row": 84,
+  "celex": "32024R1083",
+  "name": "European Media Freedom Act",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2022) Impact Assessment accompanying the European Media Freedom Act proposal (executive summary SWD(2022) 287)",
+   "Blagojev, Bleyer-Simon, Brogi, Carlini, Da Costa Leite Borges, Kermer, Nenadic, Palmer, Parcu, Reviglio, Trevisan & Verza (2025) Monitoring media pluralism in the European Union: results of the MPM2025"
+  ]
+ },
+ {
+  "row": 72,
+  "celex": "32023R2844",
+  "name": "Digitalisation of judicial cooperation Regulation",
+  "year": "2023",
+  "status": "adopted",
+  "n_ev": 0,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2021) Impact Assessment accompanying the proposals on the digitalisation of judicial cooperation and access to justice in cross-border civil, commercial and criminal matters (executive summary SWD(2021) 393)"
+  ]
+ }
+]

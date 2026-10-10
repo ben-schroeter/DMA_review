@@ -1,0 +1,214 @@
+[
+ {
+  "row": 59,
+  "celex": "32022R1925",
+  "name": "Digital Markets Act",
+  "year": "2022",
+  "status": "adopted",
+  "n_ev": 13,
+  "n_causal": 5,
+  "level": "thin",
+  "existing": [
+   "European Commission (2020) Impact Assessment Report accompanying the DMA proposal",
+   "European Commission (2026) First review of the Digital Markets Act (staff working document)",
+   "European Commission (2025) Commission finds Apple and Meta in breach of the Digital Markets Act",
+   "European Commission (2026) Commission fines Google EUR 890 million for breaches of the Digital Markets Act",
+   "Akesson, Amlani, Cepeda Suarez, Chissell, Hunt, Luca, Petrie (2026) Active Choice Interventions at Scale: Browser Defaults under the Digital Markets Act",
+   "Pape, Rossi (2026) The DMA's Google Maps experiment",
+   "Yang (2025) Unintended effects of Digital Market Act on new entry and investment",
+   "Decarolis, Li, Paternollo (2025) Competition and Defaults in Online Search",
+   "Cabral, Haucap, Parker, Petropoulos, Valletti, Van Alstyne (2021) The EU Digital Markets Act: A Report from a Panel of Economic Experts",
+   "Oxera (for Amazon) (2021) The Digital Markets Act and incentives to innovate: behavioural experiment",
+   "CERRE (2025) Evaluating the DMA",
+   "Madio, Manenti, Motta (2026) Platform Tying and its Effects",
+   "Waldfogel (2024) Amazon Self-preferencing in the Shadow of the Digital Markets Act",
+   "Farronato, Fradkin, MacKay (2023) Self-Preferencing at Amazon: Evidence from Search Rankings",
+   "Motta (2023) Self-preferencing and foreclosure in digital markets: Theories of harm for abuse cases",
+   "Motta, Peitz (2020) Intervention triggers and underlying theories of harm"
+  ]
+ },
+ {
+  "row": 48,
+  "celex": "32021R0695",
+  "name": "Horizon Europe",
+  "year": "2021",
+  "status": "adopted",
+  "n_ev": 5,
+  "n_causal": 4,
+  "level": "moderate",
+  "existing": [
+   "European Commission (2018) Impact Assessment accompanying the proposals for Horizon Europe (executive summary SWD(2018) 308)",
+   "European Commission (2024) Ex-post evaluation of Horizon 2020, the EU Framework Programme for Research and Innovation (Staff Working Document)",
+   "European Commission (2025) Interim Evaluation of the Horizon Europe Framework Programme for Research and Innovation (2021-2024)",
+   "Santoleri, P., Mina, A., Di Minin, A. & Martelli, I. (2024) The Causal Effects of R&D Grants: Evidence from a Regression Discontinuity",
+   "Mitra, A. & Niakaros, K. (European Commission, DG RTD) (2023) The Horizon effect: A counterfactual analysis of EU research & innovation grants",
+   "Ghirelli, C., Havari, E., Meroni, E. & Verzillo, S. (2023) The Long-Term Causal Effects of Winning an ERC Grant"
+  ]
+ },
+ {
+  "row": 56,
+  "celex": "32023R1114",
+  "name": "Markets in Crypto-Assets (MiCA)",
+  "year": "2023",
+  "status": "adopted",
+  "n_ev": 5,
+  "n_causal": 2,
+  "level": "thin",
+  "existing": [
+   "European Commission (2020) Impact Assessment accompanying the proposal for a Regulation on Markets in Crypto-assets (executive summary SWD(2020) 381)",
+   "ESMA (2026) Interim MiCA register (authorised CASPs, e-money token issuers, ART issuers, non-compliant entities)",
+   "Calissano, Giuglini & Reiche (ESMA) (2024) Crypto-assets: Market structures and EU relevance",
+   "Borri & Shakhnov (2026) Does Regulation Bite at Gateways? Evidence from MiCA and Stablecoins",
+   "Fauche (2025) The impact of MiCAR on the stablecoin market (summary of master's thesis)",
+   "Decta (2026) Euro Stablecoin Trends Report 2026: The MiCA-Compliant Coins in the EU Market"
+  ]
+ },
+ {
+  "row": 74,
+  "celex": "32023R1781",
+  "name": "European Chips Act",
+  "year": "2023",
+  "status": "adopted",
+  "n_ev": 3,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2026) Impact Assessment report accompanying the Chips Act 2.0 proposal, including the evaluation of the Chips Act (Annex I)",
+   "European Court of Auditors (2025) The EU's strategy for microchips: Reasonable progress in its implementation, but the Chips Act is very unlikely to be sufficient to reach the overly ambitious Digital Decade target",
+   "García-Herrero & Poitiers (Bruegel) (2022) Europe's promised semiconductor subsidies need to be better targeted"
+  ]
+ },
+ {
+  "row": 81,
+  "celex": "32025R0327",
+  "name": "European Health Data Space",
+  "year": "2025",
+  "status": "adopted",
+  "n_ev": 3,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2022) Impact assessment accompanying the proposal on the European Health Data Space (executive summary SWD(2022) 132)",
+   "Marcus, Martens, Carugati, Bucher & Godlovitch (2022) The European Health Data Space",
+   "EIT Health Think Tank (2024) Report on implementing the European Health Data Space (released at EIT Health Summit, May 2024)",
+   "European Commission (DG SANTE) (2025) My rights over my health data"
+  ]
+ },
+ {
+  "row": 54,
+  "celex": "32021R1173",
+  "name": "EuroHPC Joint Undertaking Regulation",
+  "year": "2021",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2018) Impact Assessment accompanying the proposal for a Council Regulation on establishing the European High Performance Computing Joint Undertaking",
+   "European Commission (2025) Interim Evaluation of the Digital Europe Programme (HPC objective implemented by EuroHPC)",
+   "European Court of Auditors (2025) Annual report on EU joint undertakings for the 2024 financial year"
+  ]
+ },
+ {
+  "row": 60,
+  "celex": "32022R2065",
+  "name": "Digital Services Act",
+  "year": "2022",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2020) Impact Assessment accompanying the DSA proposal (executive summary SWD(2020) 349)",
+   "European Commission (2025) First DSA non-compliance decision: X fined EUR 120 million",
+   "Kaushal, van de Kerkhof, Goanta, Spanakis & Iamnitchi (2024) Automated Transparency: A Legal and Empirical Analysis of the Digital Services Act Transparency Database",
+   "Trujillo, Fagni & Cresci (2023) The DSA Transparency Database: Auditing Self-reported Moderation Actions by Social Media"
+  ]
+ },
+ {
+  "row": 92,
+  "celex": "32024R1252",
+  "name": "Critical Raw Materials Act",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2023) Impact Assessment accompanying the Critical Raw Materials Act proposal (executive summary SWD(2023) 162)",
+   "European Commission (2025) Commission selects 47 Strategic Projects to secure and diversify access to raw materials in the EU",
+   "European Court of Auditors (2026) Special report 04/2026: Critical raw materials for the energy transition - Not a rock-solid policy"
+  ]
+ },
+ {
+  "row": 93,
+  "celex": "32024R1735",
+  "name": "Net-Zero Industry Act",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2023) Proposal for a Net-Zero Industry Act, explanatory memorandum",
+   "European Commission (2023) Investment needs assessment and funding availabilities to strengthen EU's Net-Zero technology manufacturing capacity",
+   "Tagliapietra, Veugelers & Zettelmeyer (2023) Rebooting the European Union's Net Zero Industry Act"
+  ]
+ },
+ {
+  "row": 47,
+  "celex": "32021R1153",
+  "name": "Connecting Europe Facility",
+  "year": "2021",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2018) Impact Assessment accompanying the proposal for the Connecting Europe Facility 2021-2027 (executive summary SWD(2018) 313)",
+   "European Commission (2025) Progress report on the implementation of the 2021-2027 Connecting Europe Facility for the years 2021-2024"
+  ]
+ },
+ {
+  "row": 49,
+  "celex": "32021R0690",
+  "name": "Single Market Programme",
+  "year": "2021",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2018) Impact Assessment accompanying the proposal establishing the Single Market Programme",
+   "European Commission (2025) Report on the interim evaluation of the Single Market Programme 2021-2027 (with SWD(2025) 172)"
+  ]
+ },
+ {
+  "row": 96,
+  "celex": "32025R2645",
+  "name": "Compulsory licensing of patents Regulation",
+  "year": "2025",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2023) Impact assessment accompanying the proposal on compulsory licensing for crisis management (executive summary SWD(2023) 122)",
+   "European Parliamentary Research Service (2025) Union compulsory licensing of patents for crisis management (EU Legislation in Progress briefing, 4th edition)"
+  ]
+ },
+ {
+  "row": 97,
+  "celex": "32024R0795",
+  "name": "Strategic Technologies for Europe Platform (STEP)",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2023) Proposal for a Regulation establishing the Strategic Technologies for Europe Platform (STEP)",
+   "European Commission (2025) Interim evaluation of the Strategic Technologies for Europe Platform (STEP)"
+  ]
+ }
+]

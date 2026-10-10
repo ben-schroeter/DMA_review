@@ -1,0 +1,201 @@
+[
+ {
+  "row": 63,
+  "celex": "32022R0612",
+  "name": "Roaming Regulation",
+  "year": "2022",
+  "status": "adopted",
+  "n_ev": 6,
+  "n_causal": 3,
+  "level": "strong",
+  "existing": [
+   "European Commission (2021) Impact Assessment accompanying the Roaming Regulation recast (executive summary SWD(2021) 27)",
+   "European Commission (2019) Report on the review of the roaming market",
+   "European Commission (2025) Report on the review of the roaming market",
+   "Quinn, Godinho de Matos & Peukert (2024) The Welfare Effects of Mobile Internet Access: Evidence from Roam-Like-at-Home",
+   "Canzian, Mazzarella, Ronchail, Verboven & Verzillo (2025) Evaluating the impact of price caps - Evidence from the European roam-like-at-home regulation",
+   "Grzybowski & Muñoz-Acevedo (2023) Impact of roaming regulation on revenues and prices of mobile operators in the EU",
+   "Boto-García & Santana-Gallego (2026) Roam Like at Home: The Effect of Zero-Roaming Charges on Tourism Flows"
+  ]
+ },
+ {
+  "row": 68,
+  "celex": "32024R1624",
+  "name": "Anti-Money Laundering Regulation",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 6,
+  "n_causal": 1,
+  "level": "thin",
+  "existing": [
+   "European Commission (2021) Impact Assessment accompanying the Anti-money laundering package (executive summary SWD(2021) 191)",
+   "Pol, R.F. (2020) Anti-money laundering: The world's least effective policy experiment? Together, we can fix it",
+   "Slutzky, P., Villamizar-Villegas, M. & Williams, T. (2026) Drug money and bank lending: the unintended consequences of anti-money laundering policies",
+   "European Banking Authority (2022) Opinion of the European Banking Authority on 'de-risking' (EBA/Op/2022/01)",
+   "Rice, T., von Peter, G. & Boar, C. (2020) On the global retreat of correspondent banks",
+   "European Court of Auditors (2021) EU efforts to fight money laundering in the banking sector are fragmented and implementation is insufficient (Special report 13/2021)",
+   "Europol (2017) From suspicion to action: Converting financial intelligence into greater operational impact"
+  ]
+ },
+ {
+  "row": 112,
+  "celex": "32017R1128",
+  "name": "Portability Regulation",
+  "year": "2017",
+  "status": "adopted",
+  "n_ev": 4,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2015) Impact Assessment accompanying the proposal for a Regulation to ensure the cross-border portability of online content services in the internal market",
+   "European Commission (2022) Report on the application of Regulation (EU) 2017/1128 on cross-border portability of online content services in the internal market",
+   "Visionary Analytics with Kantar Public (for DG CNECT) (2022) Study on the Portability Regulation - Final report (SMART 2019/0024)",
+   "European Commission (Kantar) (2019) Flash Eurobarometer 477a: Accessing content online and cross-border portability of online content services",
+   "European Audiovisual Observatory (2019) First feedback from the implementation of the Portability Regulation by free online video services"
+  ]
+ },
+ {
+  "row": 38,
+  "celex": "32018R1807",
+  "name": "Free Flow of Non-Personal Data Regulation",
+  "year": "2018",
+  "status": "adopted",
+  "n_ev": 3,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2017) Impact Assessment accompanying the proposal on a framework for the free flow of non-personal data (executive summary SWD(2017) 305)",
+   "Bauer, Ferracane, Lee-Makiyama & van der Marel (2016) Unleashing Internal Data Flows in the EU: An Economic Assessment of Data Localisation Measures in the EU Member States",
+   "Open Evidence et al. for the European Commission (2026) Study supporting the evaluation of the free flow of non-personal data regulation, open data directive and data governance act",
+   "European Commission (2025) Staff working document accompanying the Digital Omnibus proposals"
+  ]
+ },
+ {
+  "row": 35,
+  "celex": "32018R1725",
+  "name": "Data protection by EU institutions Regulation",
+  "year": "2018",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2022) First report on the application of the Data Protection Regulation for EU institutions, bodies, offices and agencies (Regulation 2018/1725)",
+   "European Commission (2025) Staff working document accompanying the Digital Omnibus proposals"
+  ]
+ },
+ {
+  "row": 36,
+  "celex": "32018R1724",
+  "name": "Single Digital Gateway Regulation",
+  "year": "2018",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "moderate",
+  "existing": [
+   "European Commission (2017) Impact Assessment accompanying the proposal for a Regulation on establishing a single digital gateway (executive summary)",
+   "European Commission (2023) First Implementation Report on the Single Digital Gateway",
+   "Graux (2021) The Single Digital Gateway Regulation as an Enabler and Constraint of Once-Only in Europe"
+  ]
+ },
+ {
+  "row": 75,
+  "celex": "32023R0588",
+  "name": "Union Secure Connectivity Programme",
+  "year": "2023",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2022) Impact Assessment accompanying the proposal establishing the Union Secure Connectivity Programme 2023-2027 (executive summary SWD(2022) 31)",
+   "Parsonson (European Spaceflight) (2026) IRIS2 Gets Green Light With More Money and More Satellites",
+   "Gorman (Payload) (2026) Europe's IRIS2 Constellation Enters the Build Phase"
+  ]
+ },
+ {
+  "row": 78,
+  "celex": "32023R2841",
+  "name": "Cybersecurity Regulation (EU institutions)",
+  "year": "2023",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Court of Auditors (2022) Cybersecurity of EU institutions, bodies and agencies: Level of preparedness overall not commensurate with the threats",
+   "Interinstitutional Cybersecurity Board (IICB) (2025) IICB Annual Report 2025 on the implementation of Regulation (EU, Euratom) 2023/2841"
+  ]
+ },
+ {
+  "row": 27,
+  "celex": "32019L0770",
+  "name": "Digital Content Directive",
+  "year": "2019",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2015) Impact Assessment accompanying the proposals for Directives on contracts for the supply of digital content and for online and other distance sales of goods (executive summary SWD(2015) 275)",
+   "European Law Institute (2016) Statement of the European Law Institute on the European Commission's Proposed Directive on the Supply of Digital Content to Consumers"
+  ]
+ },
+ {
+  "row": 29,
+  "celex": "32017L1132",
+  "name": "Company Law Directive",
+  "year": "2017",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2018) Impact Assessment on the EU Company Law package (digital tools; cross-border conversions, mergers and divisions), executive summary",
+   "European Commission (2023) Impact Assessment on further expanding and upgrading digital tools in company law, executive summary",
+   "Biermeyer & Meyer (2019) Cross-border Corporate Mobility in the EU: Empirical Findings 2019 (Vol. 1)"
+  ]
+ },
+ {
+  "row": 77,
+  "celex": "32024L1385",
+  "name": "Violence Against Women Directive",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2022) Impact Assessment accompanying the proposal for a Directive on combating violence against women and domestic violence (executive summary SWD(2022) 63)",
+   "Eurostat, EU Agency for Fundamental Rights (FRA) & European Institute for Gender Equality (EIGE) (2024) EU gender-based violence survey - key results (2024 edition)"
+  ]
+ },
+ {
+  "row": 80,
+  "celex": "32024R1781",
+  "name": "Ecodesign for Sustainable Products Regulation",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2022) Impact Assessment accompanying the proposal for an Ecodesign for Sustainable Products Regulation (executive summary SWD(2022) 83)",
+   "INFORSE-Europe (2022) EU Ecodesign for Sustainable Products proposal (summary page)"
+  ]
+ },
+ {
+  "row": 115,
+  "celex": "32024R1028",
+  "name": "Short-Term Rental Data Regulation",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 0,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2022) Impact Assessment accompanying the proposal on data collection and sharing relating to short-term accommodation rental services (executive summary SWD(2022) 349)"
+  ]
+ }
+]

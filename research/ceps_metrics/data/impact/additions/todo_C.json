@@ -1,0 +1,204 @@
+[
+ {
+  "row": 52,
+  "celex": "32021R0241",
+  "name": "Recovery and Resilience Facility",
+  "year": "2021",
+  "status": "adopted",
+  "n_ev": 7,
+  "n_causal": 0,
+  "level": "moderate",
+  "existing": [
+   "European Commission (2024) Mid-term evaluation of the Recovery and Resilience Facility (Staff Working Document accompanying COM(2024) 82)",
+   "European Commission (2026) Report on the implementation of the Recovery and Resilience Facility",
+   "Bańkowski, K., Benalal, N., Bouabdallah, O., De Stefani, R., Dorrucci, E., Huber, C., Jacquinot, P., Modery, W., Nerlich, C., Rodríguez-Vives, M., Szörfi, B., Zorell, N. & Zwick, C. (2024) Four years into NextGenerationEU: what impact on the euro area economy?",
+   "European Court of Auditors (2024) Absorption of funds from the Recovery and Resilience Facility - Progressing with delays and risks remain regarding the completion of measures and therefore the achievement of RRF objectives (Special report 13/2024)",
+   "European Court of Auditors (2023) The Recovery and Resilience Facility's performance monitoring framework - Measuring implementation progress but not sufficient to capture performance (Special report 26/2023)",
+   "Busse, M., Caselli, F. & Fotiou, A. (2026) The EU's Recovery and Resilience Facility: Experience and Lessons for the Next Multiannual Financial Framework",
+   "Pfeiffer, P., Varga, J. & in 't Veld, J. (2022) Quantifying spillovers of coordinated investment stimulus in the EU"
+  ]
+ },
+ {
+  "row": 32,
+  "celex": "32018L1972",
+  "name": "European Electronic Communications Code",
+  "year": "2018",
+  "status": "adopted",
+  "n_ev": 5,
+  "n_causal": 1,
+  "level": "thin",
+  "existing": [
+   "European Commission (2016) Impact Assessment accompanying the proposals for a Directive establishing the European Electronic Communications Code and a BEREC Regulation (executive summary SWD(2016) 304)",
+   "European Commission (2026) Report on the functioning of the European Electronic Communications Code, Directive (EU) 2018/1972",
+   "European Commission (2026) Impact Assessment accompanying the Digital Networks Act proposal, Annex 11: Evaluation of the EECC, BEREC Regulation, Open Internet Regulation and certain aspects of the ePrivacy Directive",
+   "European Commission (2022) EU Electronic Communications Code: Commission refers 10 Member States to the Court of Justice of the EU",
+   "Briglauer, Cambini, Fetzer & Hüschelrath (2017) The European Electronic Communications Code: A critical appraisal with a focus on incentivizing investment in next generation broadband networks",
+   "Briglauer, Cambini & Grajek (2018) Speeding up the internet: Regulation and investment in the European fiber optic infrastructure",
+   "Grajek & Röller (2012) Regulation and Investment in Network Industries: Evidence from European Telecoms"
+  ]
+ },
+ {
+  "row": 44,
+  "celex": "32019R1150",
+  "name": "Platform-to-Business (P2B) Regulation",
+  "year": "2019",
+  "status": "adopted",
+  "n_ev": 4,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2018) Impact assessment accompanying the proposal on fairness and transparency for business users of online intermediation services (executive summary SWD(2018) 139)",
+   "European Commission (2023) First preliminary review on the implementation of Regulation (EU) 2019/1150 (with SWD(2023) 300)",
+   "Sovrano, Lognoul & Bacchelli (2024) An Empirical Study on Compliance with Ranking Transparency in the Software Documentation of EU Online Platforms",
+   "Competition and Consumer Protection Commission (Ireland) / Ipsos (2023) Platform to Business research: survey of businesses using online platforms (Q4 2022)",
+   "Competition and Consumer Protection Commission (Ireland) (2026) CCPC conducts sweep of online platforms to identify potential breaches of the Platform to Business Regulation",
+   "European Commission (2025) Proposal for a Digital Omnibus Regulation (repealing, among others, Regulation (EU) 2019/1150)"
+  ]
+ },
+ {
+  "row": 64,
+  "celex": "32024R1689",
+  "name": "Artificial Intelligence Act",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 3,
+  "n_causal": 1,
+  "level": "thin",
+  "existing": [
+   "European Commission (2021) Impact Assessment accompanying the AI Act proposal (executive summary SWD(2021) 85)",
+   "Eurostat (2025) Use of artificial intelligence in enterprises",
+   "Council of the EU / European Parliament (2026) Digital Omnibus on AI (amending the AI Act): postponement of high-risk obligations",
+   "appliedAI Institute / Digital Poland et al. (2022) AI Act Impact Survey: Exploring the impact of the AI Act on startups in Europe"
+  ]
+ },
+ {
+  "row": 102,
+  "celex": "32025R2518",
+  "name": "GDPR Procedural Regulation",
+  "year": "2025",
+  "status": "adopted",
+  "n_ev": 3,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2024) Second Report on the application of the General Data Protection Regulation",
+   "EDPB & EDPS (2023) Joint Opinion 01/2023 on the Proposal for a Regulation laying down additional procedural rules relating to the enforcement of Regulation (EU) 2016/679",
+   "Euronews (reporting noyb) (2025) EU plans to reform data protection rules are 'tangled mess', privacy advocates warn"
+  ]
+ },
+ {
+  "row": 50,
+  "celex": "32021R0887",
+  "name": "European Cybersecurity Competence Centre",
+  "year": "2021",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2018) Impact Assessment accompanying the proposal establishing the European Cybersecurity Industrial, Technology and Research Competence Centre and the Network of National Coordination Centres (executive summary SWD(2018) 404)",
+   "European Commission (2025) The Digital Europe Programme: Main findings of the interim evaluation (cybersecurity objective)",
+   "European Court of Auditors (2025) Annual report on EU joint undertakings for the 2024 financial year"
+  ]
+ },
+ {
+  "row": 67,
+  "celex": "32023R0988",
+  "name": "General Product Safety Regulation",
+  "year": "2023",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 1,
+  "level": "thin",
+  "existing": [
+   "European Commission (2021) Impact Assessment accompanying the proposal for a Regulation on general product safety (executive summary SWD(2021) 169)",
+   "European Commission (2026) Increased action against dangerous products in the EU in 2025 (Safety Gate annual report 2025)",
+   "Euroconsumers / Testachats-Testaankoop (2025) Systemic failures in product compliance on TEMU and Shein"
+  ]
+ },
+ {
+  "row": 88,
+  "celex": "32024R0903",
+  "name": "Interoperable Europe Act",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2022) Impact Assessment accompanying the proposal for an Interoperable Europe Act (executive summary SWD(2022) 722)",
+   "European Commission (2022) Final evaluation of the European Interoperability Framework (EIF)",
+   "European Commission (2025) First Annual Report on Interoperability in the Union"
+  ]
+ },
+ {
+  "row": 103,
+  "celex": "32025R2509",
+  "name": "Toys Safety Regulation",
+  "year": "2025",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2023) Impact assessment accompanying the proposal for a Regulation on the safety of toys (executive summary SWD(2023) 270)",
+   "European Commission (2025) Safety Gate: 2024 results",
+   "Toy Industries of Europe (2024) 80% of toys bought from third-party traders on online marketplaces fail EU safety standards"
+  ]
+ },
+ {
+  "row": 42,
+  "celex": "32023R1543",
+  "name": "E-evidence Regulation",
+  "year": "2023",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2018) Impact Assessment accompanying the proposals on European Production and Preservation Orders for electronic evidence and on legal representatives (executive summary SWD(2018) 119)",
+   "EuroISPA (2026) e-Evidence Regulation: Closing the implementation gap before August 2026"
+  ]
+ },
+ {
+  "row": 65,
+  "celex": "32023R1230",
+  "name": "Machinery Regulation",
+  "year": "2023",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2021) Impact Assessment accompanying the proposal for a Regulation on machinery products (executive summary SWD(2021) 83)",
+   "tcworld magazine (based on DIN Mitteilungen, May 2024) (2024) The European Machinery Regulation: New requirements for digital instructions for use"
+  ]
+ },
+ {
+  "row": 91,
+  "celex": "32024R1309",
+  "name": "Gigabit Infrastructure Act",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2023) Impact Assessment accompanying the Gigabit Infrastructure Act proposal (executive summary SWD(2023) 47)",
+   "Cullen International (2026) National implementation of the EU Gigabit Infrastructure Act"
+  ]
+ },
+ {
+  "row": 34,
+  "celex": "32019L0789",
+  "name": "Satellite and Cable II Directive",
+  "year": "2019",
+  "status": "adopted",
+  "n_ev": 0,
+  "n_causal": 0,
+  "level": "none",
+  "existing": [
+   "European Commission (2016) Impact Assessment on the modernisation of EU copyright rules (executive summary SWD(2016) 302)"
+  ]
+ }
+]

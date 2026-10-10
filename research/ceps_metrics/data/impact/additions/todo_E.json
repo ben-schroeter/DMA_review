@@ -1,0 +1,204 @@
+[
+ {
+  "row": 61,
+  "celex": "32022L2555",
+  "name": "NIS 2 Directive",
+  "year": "2022",
+  "status": "adopted",
+  "n_ev": 6,
+  "n_causal": 1,
+  "level": "thin",
+  "existing": [
+   "European Commission (2020) Impact Assessment accompanying the proposal for a Directive on measures for a high common level of cybersecurity across the Union (executive summary SWD(2020) 344)",
+   "European Commission (2020) Evaluation of the functioning of the NIS Directive (Annex 5 of the NIS 2 impact assessment)",
+   "Wavestone, ICF & CEPS (Adami, Cole, Massacci, Polito, Pupillo et al.) for DG CONNECT (2021) Study to support the review of Directive (EU) 2016/1148 (NIS Directive), No. 2020-665",
+   "ENISA (2020) NIS Investments (first edition)",
+   "ENISA (2024) NIS Investments 2024",
+   "ENISA (2025) NIS Investments 2025",
+   "ENISA with NIS Cooperation Group and European Commission (2024) 2024 Report on the State of Cybersecurity in the Union",
+   "European Commission (2026) Commission refers Ireland, Spain, France and the Netherlands to the Court of Justice for failing to transpose the rules on cybersecurity"
+  ]
+ },
+ {
+  "row": 76,
+  "celex": "32023R2854",
+  "name": "Data Act",
+  "year": "2023",
+  "status": "adopted",
+  "n_ev": 6,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2022) Impact assessment report accompanying the Data Act proposal (executive summary SWD(2022) 35)",
+   "European Commission (2022) Data Act: Commission proposes measures for a fair and innovative data economy (press release)",
+   "Kerber (2023) Governance of IoT Data: Why the EU Data Act Will not Fulfill Its Objectives",
+   "Martens (2023) Pro- and anti-competitive provisions in the proposed European Union Data Act",
+   "Krämer (coord.), Colangelo, Richter & Schnurr (CERRE) (2023) Data Act: Towards a Balanced EU Data Regulation",
+   "Bitkom (2025) Data Act: Kaum Unternehmen vorbereitet (survey of 605 companies)",
+   "European Commission (2025) Proposal for a Digital Omnibus Regulation (amending Regulation (EU) 2023/2854)"
+  ]
+ },
+ {
+  "row": 58,
+  "celex": "32022R0868",
+  "name": "Data Governance Act",
+  "year": "2022",
+  "status": "adopted",
+  "n_ev": 4,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2020) Impact assessment report accompanying the Data Governance Act proposal (executive summary SWD(2020) 296)",
+   "von Ditfurth & Lienemann (2022) The Data Governance Act: Promoting or Restricting Data Intermediaries?",
+   "Carovano & Finck (2023) Regulating data intermediaries: The impact of the Data Governance Act on the EU's data economy",
+   "European Commission (2024) Commission calls on 10 Member States to comply with the Data Governance Act",
+   "European Commission (2026) EU registers of data intermediation services and of recognised data altruism organisations",
+   "European Commission (2025) Proposal for a Digital Omnibus Regulation (repealing Regulation (EU) 2022/868)"
+  ]
+ },
+ {
+  "row": 46,
+  "celex": "32021R0523",
+  "name": "InvestEU Programme",
+  "year": "2021",
+  "status": "adopted",
+  "n_ev": 3,
+  "n_causal": 1,
+  "level": "moderate",
+  "existing": [
+   "European Commission (2018) Impact Assessment accompanying the proposal establishing the InvestEU Programme",
+   "European Commission (based on ICF study) (2024) Interim evaluation of the InvestEU Programme",
+   "European Court of Auditors (2025) The European Fund for Strategic Investments: contributed substantially to addressing the investment gap, but had not fully reached the EUR 500 billion target in the real economy by the end of 2022",
+   "Frayman (2026) The European Fund for Strategic Investments (EFSI): causal effects of a state lending policy"
+  ]
+ },
+ {
+  "row": 21,
+  "celex": "32016L0680",
+  "name": "Law Enforcement Directive",
+  "year": "2016",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2012) Impact Assessment for the data protection reform package (GDPR and Law Enforcement Directive), executive summary",
+   "European Commission (2022) First report on application and functioning of the Data Protection Law Enforcement Directive (EU) 2016/680",
+   "Council of the European Union (2025) Council position and findings on the evaluation and review of the Law Enforcement Directive (LED)"
+  ]
+ },
+ {
+  "row": 40,
+  "celex": "32019L0713",
+  "name": "Non-cash payment fraud Directive",
+  "year": "2019",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2017) Impact Assessment accompanying the proposal on combating fraud and counterfeiting of non-cash means of payment (executive summary SWD(2017) 299)",
+   "European Commission (2023) Report assessing the extent to which Member States have taken the necessary measures to comply with Directive (EU) 2019/713",
+   "European Banking Authority & European Central Bank (2024) 2024 Report on Payment Fraud"
+  ]
+ },
+ {
+  "row": 71,
+  "celex": "32024R0900",
+  "name": "Political Advertising Regulation",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2021) Impact Assessment accompanying the proposal for a Regulation on the transparency and targeting of political advertising (executive summary SWD(2021) 356)",
+   "Meyer et al. (European Digital Media Observatory) (2025) A Cross-Country Analysis of Electoral Advertising on Meta and Google during the EU 2024 Elections: Compliance, Transparency, and Targeting",
+   "Meta (2025) Ending Political, Electoral and Social Issue Advertising in the EU in Response to Incoming European Regulation"
+  ]
+ },
+ {
+  "row": 86,
+  "celex": "32024L2853",
+  "name": "Product Liability Directive",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2022) Impact Assessment accompanying the proposal for a Directive on liability for defective products (executive summary SWD(2022) 317)",
+   "European Commission (2018) Evaluation of Council Directive 85/374/EEC on liability for defective products",
+   "Insurance Europe (2022) Key messages on the European Commission's proposal for a revision of the Product Liability Directive (PLD)"
+  ]
+ },
+ {
+  "row": 26,
+  "celex": "32016L0943",
+  "name": "Trade Secrets Directive",
+  "year": "2016",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2013) Impact Assessment accompanying the proposal for a Directive on the protection of undisclosed know-how and business information (trade secrets)",
+   "Borghi, Cogo & Khan (for EUIPO Observatory) (2023) Trade Secrets Litigation Trends in the EU"
+  ]
+ },
+ {
+  "row": 31,
+  "celex": "32017R2394",
+  "name": "Consumer Protection Cooperation Regulation",
+  "year": "2017",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2016) Impact Assessment accompanying the proposal for a Regulation on cooperation between national authorities responsible for the enforcement of consumer protection laws",
+   "European Commission (2024) Report on the application of Regulation (EU) 2017/2394 on consumer protection cooperation"
+  ]
+ },
+ {
+  "row": 73,
+  "celex": "32024L2831",
+  "name": "Platform Work Directive",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2021) Impact Assessment accompanying the proposal for a Directive on improving working conditions in platform work (executive summary SWD(2021) 397)",
+   "Dolado, Jáñez & Wellschmied (2025) Riders on the Storm"
+  ]
+ },
+ {
+  "row": 83,
+  "celex": "32024R2847",
+  "name": "Cyber Resilience Act",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2022) Impact Assessment accompanying the Cyber Resilience Act proposal (executive summary SWD(2022) 283)",
+   "Lawson & Hendrick (2025) Unaware and Uncertain: The Stark Realities of Cyber Resilience Act Readiness in Open Source"
+  ]
+ },
+ {
+  "row": 85,
+  "celex": "32024R2747",
+  "name": "Single Market Emergency Instrument (IMERA)",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 0,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2022) Impact Assessment accompanying the Single Market Emergency Instrument proposal (executive summary SWD(2022) 290)"
+  ]
+ }
+]
