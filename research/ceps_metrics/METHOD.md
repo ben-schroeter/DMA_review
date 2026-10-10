@@ -104,7 +104,33 @@ Results are in the `validation` sheet. Headline (final fresh sample): 84% of cou
 - Validation: 68% precision and 70% addressee accuracy on a fresh 40-item sample (vs 84% / 74% for EU acts), so the benchmarks sheet also shows precision-adjusted counts.
 - US statutes have no recitals; compare against EU articles + annexes.
 
-## Impact evidence (pilot: DMA)
-- `proposal_indicators`: the specific objectives (LFS 1.4.2), expected results and impact (1.4.3), indicators of results and impact (1.4.4) and other quantified promises from the original Commission proposal and impact assessment, each with the evidence found, a status (measured / partially measured / reported as activity / mixed evidence / not measured) and sources.
-- `impact_literature`: one row per source, typed (Commission impact assessment / evaluation / enforcement record, peer-reviewed, working paper, policy, industry-funded), with method (causal designs flagged), outcomes, direction, headline finding and a quality note. Every row was found and checked; the `verified` column says whether the full text, an abstract or only a search summary was read. Interested-party authorship or funding is flagged.
-- Sources: EUR-Lex (proposal, impact assessment, Commission review), Commission press releases, NBER, Crossref, CERRE, JRC, and web search for working papers and policy reports. OpenAlex was rate-limited during the pilot.
+## Impact evidence (all 115 instruments)
+- One record per instrument in `data/impact/<CELEX>.json` (schema in `data/impact/SCHEMA.md`), built for both the workbook and the planned website.
+- Depth by tier (list in `data/impact/PROGRESS.md`):
+  - Tier 1: 29 instruments with a substantial independent literature (e.g. GDPR, DMA, DSA, PSD2, roaming, merger control). Full search.
+  - Tier 2: the other acts adopted before 2024. The Commission impact assessment and evaluations, plus a light search for independent studies.
+  - Tier 3: acts adopted 2024–26 and pending proposals. Forecasts and early critiques only.
+- `proposal_indicators`: the promises made in the original Commission proposal and impact assessment, with the evidence found for each:
+  - from the financial statement: specific objectives (1.4.2), expected results and impact (1.4.3), and indicators of results and impact (1.4.4)
+  - other quantified promises from the proposal or impact assessment
+  - `status` is a free-text label; `status_group` maps it to one of measured, partially measured, reported as activity, mixed evidence or not measured. "Not achieved" counts as measured.
+  - proposals with no indicators section carry a "note" row
+- `impact_literature`: one row per source. Each row records:
+  - type: Commission impact assessment, evaluation or enforcement record; Court of Auditors; peer-reviewed; working paper; policy; industry-funded
+  - method; outcomes; direction; headline finding; a plain-language summary; a quality note
+  - a flag where the authors or funders have a stake in the result
+  - `verified`, saying what was read: the full text, an abstract, or only a search summary
+  Shared sources (e.g. one impact assessment for PSD3 and the PSR, or a fitness check covering several directives) appear under each instrument with the same `id`.
+- Instrument summary columns:
+  - `impact_evidence_level`: strong / moderate / thin / ex-ante only / none, derived from the free-text `impact_evidence_rating`
+  - `n_indicators_measured`: indicators whose status group is anything other than not measured
+  - `n_causal_studies`: sources whose method names a causal design (causal, DiD, event study, synthetic control, regression discontinuity, natural experiment, instrumental variables, randomised)
+- Sources:
+  - EUR-Lex: proposals, impact assessments and Commission reviews
+  - official sources: Commission press releases, the Council register, the Court of Auditors, ENISA, BEREC, ECB, EBA, ESMA, JRC
+  - research: NBER, arXiv, Crossref, CERRE, Bruegel, OECD
+  - web search for working papers and policy reports
+- Several publisher and repository sites (SSRN, CERRE, some Commission PDF endpoints, europarl.europa.eu) block automated access. Those sources were checked through their abstract pages or search summaries and are marked as such.
+- Research was carried out by Claude instances working in parallel to a shared brief. Every number in a record comes from a source that was read. Where only a secondary report was available, the record says so.
+- Internet Archive snapshots (`archive_url`) were looked up read-only through the Wayback availability API. Nothing was submitted to the archive, so many sources have no snapshot.
+- Limits: coverage of non-English national studies is thin. "No study found" means none was found by these searches, not that none exists. Tier 2 and 3 records rely heavily on the Commission's own assessments.

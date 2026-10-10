@@ -138,6 +138,17 @@ for it in sorted(ag, key=lambda x: (int(row_of.get(x["parent"], ("999",))[0]), x
 ng = wg.max_row
 style(wg, [8, 30, 13, 8, 70, 11, 8, 40] + [10] * 13 + [60])
 
+import re as _re_c
+CAUSAL = ("causal", "difference-in-difference", "event study", "event-study", "synthetic control", "regression discontinuity",
+          "natural experiment", "instrumental variable", "randomi")
+
+
+def is_causal(m):
+    did = bool(_re_c.search(r"\bDiD\b|\bDID\b", m))
+    m = m.lower()
+    return (did or any(k in m for k in CAUSAL)) and "non-causal" not in m and "not causal" not in m
+
+
 # ---------------- instruments ----------------
 ws = wb.create_sheet("instruments", 0)
 cols = ["row_id", "name", "identifier", "policy_area_ceps", "ceps_table_status", "proposal_date", "confidence_proposal_date",
@@ -150,7 +161,7 @@ cols = ["row_id", "name", "identifier", "policy_area_ceps", "ceps_table_status",
         "n_amending_acts", "first_amendment_date", "latest_amendment_date", "n_corrigenda",
         "proposal_celex", "proposal_text_source", "proposal_words_legal_text", "proposal_restrictions_total",
         "proposal_addr_private_parties", "change_words", "change_words_pct", "change_restrictions", "change_restrictions_pct",
-        "change_restrictions_private", "impact_evidence_rating", "impact_summary", "n_promised_indicators", "n_indicators_measured",
+        "change_restrictions_private", "impact_evidence_level", "impact_evidence_rating", "impact_summary", "n_promised_indicators", "n_indicators_measured",
         "n_impact_studies", "n_causal_studies", "note"]
 ws.append(cols)
 ci = {c: i + 1 for i, c in enumerate(cols)}
@@ -186,11 +197,11 @@ for i, (r, m0) in enumerate(zip(rows, imap), start=2):
     _id = next((_imp_all[c] for c in cel if c in _imp_all), None)
     if _id:
         _ind = [x for x in _id["indicators"] if x["indicator"]]
-        imp_vals = [_id["evidence_rating"], _id["summary"], len(_ind),
-                    sum(1 for x in _ind if x["status"].startswith(("measur", "partially", "reported", "mixed"))),
-                    len(_id["literature"]), sum(1 for x in _id["literature"] if x["method"].startswith("causal"))]
+        imp_vals = [_id.get("evidence_level"), _id["evidence_rating"], _id["summary"], len(_ind),
+                    sum(1 for x in _ind if x.get("status_group", "not measured") != "not measured"),
+                    len(_id["literature"]), sum(1 for x in _id["literature"] if is_causal(x["method"]))]
     else:
-        imp_vals = [None] * 6
+        imp_vals = [None] * 7
     am = [a for a in da["amendments"] if a["parent"] in cel and a["kind"] == "amendment"]
     co = [a for a in da["amendments"] if a["parent"] in cel and a["kind"] == "corrigendum"]
     amd = sorted(a["date"] for a in am if a["date"])
@@ -295,7 +306,7 @@ if _os.path.isdir(_idir):
             _d = json.load(open(_idir + f)); _imp[_d["celex"]] = _d
 wpi = wb.create_sheet("proposal_indicators")
 wpi.append(["parent_row_id", "parent_name", "proposal_celex", "type", "objective", "indicator / promised impact", "target or baseline",
-            "evidence found", "status", "sources"])
+            "evidence found", "status", "status_group", "sources"])
 wil = wb.create_sheet("impact_literature")
 wil.append(["parent_row_id", "parent_name", "id", "citation", "year", "source_type", "method", "outcomes", "direction", "headline finding",
             "plain-language summary", "period / geography", "quality notes", "interested party", "access", "verified", "accessed", "url",
@@ -304,12 +315,12 @@ for c, d_ in _imp.items():
     rid, nm = row_of.get(c, ("", ""))
     for x in d_["indicators"]:
         wpi.append([int(rid) if rid else None, nm, d_["proposal"], x["type"], x["objective"], x["indicator"], x["target_or_baseline"],
-                    x["evidence"], x["status"], x["sources"]])
+                    x["evidence"], x["status"], x.get("status_group"), x["sources"]])
     for x in d_["literature"]:
         wil.append([int(rid) if rid else None, nm, x.get("id"), x["citation"], x["year"], x["source_type"], x["method"], x["outcomes"],
                     x["direction"], x["headline"], x.get("summary_plain"), x["period_geography"], x["quality"], x.get("interested_party"),
                     x.get("access"), x["verified"], x.get("accessed"), x["url"], x.get("pdf_url"), x.get("archive_url")])
-for w_, widths in ((wpi, [8, 22, 13, 18, 40, 45, 14, 70, 22, 30]), (wil, [8, 22, 22, 60, 6, 18, 30, 25, 18, 60, 60, 18, 40, 30, 14, 14, 11, 40, 30, 40])):
+for w_, widths in ((wpi, [8, 22, 13, 18, 40, 45, 14, 70, 22, 16, 30]), (wil, [8, 22, 22, 60, 6, 18, 30, 25, 18, 60, 60, 18, 40, 30, 14, 14, 11, 40, 30, 40])):
     style(w_, widths)
     for row in w_.iter_rows(min_row=2):
         for c_ in row:
