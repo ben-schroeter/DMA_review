@@ -18,3 +18,24 @@ Tier 3 — pending proposals and acts adopted 2024–2026 (impact assessment and
 - [x] 32002L0058 ePrivacy Directive
 - [x] 32024R1689 Artificial Intelligence Act
 - [x] 32022R2065 Digital Services Act
+- [x] 32017R1128 Portability Regulation
+- [x] 32024R1624 Anti-Money Laundering Regulation
+- [x] 32019L0790 Copyright in the Digital Single Market Directive
+- [x] 32018R0302 Geo-blocking Regulation
+- [x] 32021R0241 Recovery and Resilience Facility
+- [x] 32001L0029 Information Society (InfoSoc) Directive
+- [x] 31996L0009 Database Directive
+- [x] 32005L0029 Unfair Commercial Practices Directive
+- [x] 32022R0612 Roaming Regulation
+- [x] 32004R0139 EC Merger Regulation
+- [x] 32011L0083 Consumer Rights Directive
+- [x] 32005L0029 Unfair Commercial Practices Directive
+- [x] 32015R2120 Open Internet Access Regulation
+- [x] 32019R1150 Platform-to-Business (P2B) Regulation
+- [x] 32019R0452 FDI Screening Regulation
+- [x] 32000L0031 E-commerce Directive
+- [x] 32023R2854 Data Act
+- [x] 32021R0695 Horizon Europe
+- [x] 32019L1024 Open Data Directive (PSI)
+- [x] 32022R0868 Data Governance Act
+- [x] 32023R2854 Data Act
