@@ -144,3 +144,4 @@ Tier 3 — pending proposals and acts adopted 2024–2026 (impact assessment and
 - [x] 32022R0858 DLT Pilot Regime Regulation
 - [x] 32009L0048 Toys Safety Directive
 - [x] 32022R0858 DLT Pilot Regime Regulation
+- [x] 32009R0223 European Statistics Regulation
