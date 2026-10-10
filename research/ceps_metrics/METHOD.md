@@ -2,7 +2,7 @@
 
 ## Scope
 - Rows: the 115 instruments in `data/ceps_instruments.csv` (CEPS Table 1, July 2025, plus 8 enacted instruments added from the same table).
-- Text measured per row: the original act as published in the Official Journal; for instruments still pending in October 2026, the Commission proposal (COM document). Four pending items were adopted after the CEPS snapshot and are measured on the adopted act (ViDA 2025/516, compulsory licensing 2025/2645, GDPR procedural 2025/2518, toy safety 2025/2509). PSR and PSD3 were to be measured on the Council final compromise texts of 23 April 2026, but the Council register is blocked in this environment, so they are not measured.
+- Text measured per row: the original act as published in the Official Journal; for instruments still pending in October 2026, the Commission proposal (COM document). Four pending items were adopted after the CEPS snapshot and are measured on the adopted act (ViDA 2025/516, compulsory licensing 2025/2645, GDPR procedural 2025/2518, toy safety 2025/2509). PSR and PSD3 (politically agreed, not yet adopted) are measured on the 2023 Commission proposals, by choice; headline figures for the Council final compromise texts (ST 8221/26 and ST 8222/26, 17 April 2026, published 23 April) are given in the note column for comparison. Council documents use a larger page layout, so their page counts are not comparable with OJ pages.
 - Where a row covers two acts (horizontal block exemptions 2023/1066 and 2023/1067), figures are summed.
 - English language versions only. Source: EUR-Lex HTML for text, EUR-Lex / Cellar PDF for page counts.
 
