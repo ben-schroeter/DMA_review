@@ -1,0 +1,95 @@
+{
+ "celex": "52022PC0119",
+ "name": "Information Security Regulation (proposal)",
+ "proposal": "52022PC0119",
+ "impact_assessment": "SWD(2022) 65 (executive summary of impact analysis)",
+ "evidence_rating": "ex-ante only: proposal still pending; qualitative impact analysis and audit baseline",
+ "summary": "This 2022 proposal would set common information security rules for all EU institutions and agencies; it was still being negotiated in 2026. The Commission expected better protection at little net cost but set no measurable targets. The baseline is an EU audit finding that many EU bodies were poorly prepared as serious cyber incidents rose more than tenfold between 2018 and 2021.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "LFS indicator",
+   "objective": "SO1: harmonised categories of information and common handling rules",
+   "indicator": "Guidelines adopted; new markings implemented; handling instructions published; common systems for sensitive non-classified information and EUCI",
+   "target_or_baseline": "",
+   "evidence": "Not applicable yet: proposal still pending (Council Security Committee still revising the text in March 2026; no trilogue agreement found).",
+   "status": "not measured",
+   "sources": ""
+  },
+  {
+   "type": "LFS indicator",
+   "objective": "SO2: identify and close security gaps",
+   "indicator": "Recommendations made/implemented; number of information leaks across institutions",
+   "target_or_baseline": "",
+   "evidence": "Not measured. Baseline: Court of Auditors found preparedness 'not commensurate with the threats' and significant incidents up more than tenfold 2018-2021.",
+   "status": "not measured",
+   "sources": "ECA SR 05/2022"
+  },
+  {
+   "type": "LFS indicator",
+   "objective": "SO3-4: lean cooperation and modernised policies (teleworking)",
+   "indicator": "Centralised vs local procurement; inspection reports; Coordination Group queries; staff trained; awareness; share of staff with secure teleworking equipment",
+   "target_or_baseline": "",
+   "evidence": "Not measured: proposal pending.",
+   "status": "not measured",
+   "sources": ""
+  },
+  {
+   "type": "expected impact (impact analysis)",
+   "objective": "Efficiency",
+   "indicator": "Costs for institutions",
+   "target_or_baseline": "Implementation costs offset by efficiency gains; 2 Commission posts (1 AD, 1 AST) for the Coordination Group secretariat; no impact on Member States or private sector",
+   "evidence": "Not measured.",
+   "status": "not measured",
+   "sources": "SWD(2022) 65"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2022-infosec-ia",
+   "citation": "European Commission (2022), Executive summary of the impact analysis report accompanying the proposal for a Regulation on information security in the institutions, bodies, offices and agencies of the Union, SWD(2022) 65",
+   "authors": "European Commission",
+   "year": 2022,
+   "title": "Executive summary of the impact analysis report accompanying the proposal for a Regulation on information security in the institutions, bodies, offices and agencies of the Union",
+   "venue": "SWD(2022) 65",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022SC0065",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante (qualitative)",
+   "outcomes": "information security level; administrative efficiency",
+   "direction": "positive (forecast)",
+   "headline": "Baseline rules expected to raise overall information security and remove weak links; implementation effort compensated by efficiency gains from common tasks (clearances, accreditation); 1 AD + 1 AST for secretariat; no economic impact on Member States or private sector",
+   "summary_plain": "The Commission expected common security rules to close weak links between EU bodies at little net cost, but gave no measurable targets.",
+   "period_geography": "EU institutions",
+   "quality": "qualitative forecast",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20240619005429/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52022SC0065"
+  },
+  {
+   "id": "eca-2022-cybersecurity-euibas",
+   "citation": "European Court of Auditors (2022), Cybersecurity of EU institutions, bodies and agencies: Level of preparedness overall not commensurate with the threats, Special report 05/2022",
+   "authors": "European Court of Auditors",
+   "year": 2022,
+   "title": "Cybersecurity of EU institutions, bodies and agencies: Level of preparedness overall not commensurate with the threats",
+   "venue": "Special report 05/2022",
+   "url": "https://op.europa.eu/webpub/eca/special-reports/hack-proofing-eu-institutions-05-2022/en",
+   "pdf_url": "",
+   "source_type": "audit report",
+   "method": "performance audit",
+   "outcomes": "cybersecurity preparedness (baseline)",
+   "direction": "n/a",
+   "headline": "EU bodies' preparedness not commensurate with threats and maturity varies widely; significant incidents rose more than tenfold 2018-2021; recommends binding common rules and more resources for CERT-EU",
+   "summary_plain": "EU auditors found that many EU bodies were poorly prepared for cyberattacks, which had increased more than tenfold, and called for binding common rules.",
+   "period_geography": "EU institutions, 2018-2021",
+   "quality": "official audit",
+   "verified": "page summary via search",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20260313155014/https://op.europa.eu/webpub/eca/special-reports/hack-proofing-eu-institutions-05-2022/en/"
+  }
+ ]
+}
