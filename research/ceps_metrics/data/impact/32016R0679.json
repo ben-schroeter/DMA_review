@@ -348,6 +348,30 @@
    "accessed": "2026-10-10",
    "archive_url": "",
    "category": "evidence"
+  },
+  {
+   "id": "iab-2025-bureaucracy",
+   "citation": "Diegmann & Kubis (2025), Die Betriebe mussten in den letzten drei Jahren 325.000 Arbeitskräfte zusätzlich einstellen, um die gewachsene Bürokratie zu bewältigen, IAB-Forum (Institute for Employment Research, Germany), 20 October 2025",
+   "authors": "Diegmann & Kubis",
+   "year": 2025,
+   "title": "Die Betriebe mussten in den letzten drei Jahren 325.000 Arbeitskräfte zusätzlich einstellen, um die gewachsene Bürokratie zu bewältigen",
+   "venue": "IAB-Forum (Institute for Employment Research, Germany), 20 October 2025",
+   "url": "https://iab-forum.de/die-betriebe-mussten-in-den-letzten-drei-jahren-325-000-arbeitskraefte-zusaetzlich-einstellen-um-die-gewachsene-buerokratie-zu-bewaeltigen/",
+   "pdf_url": "",
+   "source_type": "survey (national research institute)",
+   "method": "firm survey: IAB Job Vacancy Survey Q1 2025, 9,209 establishments; self-reported, retrospective over three years",
+   "outcomes": "compliance costs; employment; productivity; investment; innovation",
+   "direction": "negative (self-reported)",
+   "headline": "68% of German establishments name the GDPR as the regulation that burdens them most (next: EU IT-security rules 32%, supply-chain due diligence act 14%). Across all bureaucracy, 11% of establishments hired extra staff to cope, about 325,000 workers in three years; 80% report higher costs, 55% productivity losses, 19% investment and 16% innovation obstacles.",
+   "summary_plain": "A large survey of German firms finds the GDPR is the rule they find most burdensome; rising red tape overall led them to hire about 325,000 extra staff in three years and, by their own account, cost productivity.",
+   "period_geography": "Germany, 2022-2025",
+   "quality": "self-reported survey; covers all bureaucracy, not the GDPR alone; no counterfactual",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20260215012430/https://iab-forum.de/die-betriebe-mussten-in-den-letzten-drei-jahren-325-000-arbeitskraefte-zusaetzlich-einstellen-um-die-gewachsene-buerokratie-zu-bewaeltigen/",
+   "category": "evidence"
   }
  ],
  "evidence_level": "strong"

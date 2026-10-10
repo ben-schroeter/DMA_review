@@ -1114,5 +1114,92 @@
   "themes": [
    "productivity, GDP and the EU-US gap"
   ]
+ },
+ {
+  "id": "iab-2025-bureaucracy",
+  "authors": "André Diegmann; Alexander Kubis",
+  "year": 2025,
+  "title": "Die Betriebe mussten in den letzten drei Jahren 325.000 Arbeitskräfte zusätzlich einstellen, um die gewachsene Bürokratie zu bewältigen",
+  "venue": "IAB-Forum, Institute for Employment Research (IAB), 20 October 2025",
+  "url": "https://iab-forum.de/die-betriebe-mussten-in-den-letzten-drei-jahren-325-000-arbeitskraefte-zusaetzlich-einstellen-um-die-gewachsene-buerokratie-zu-bewaeltigen/",
+  "pdf_url": "",
+  "type": "empirical-descriptive",
+  "geography_period": "Germany, Q1 2022 to Q1 2025",
+  "method": "Firm survey (IAB Job Vacancy Survey Q1 2025, 9,209 establishments), self-reported",
+  "finding": "Average perceived bureaucracy burden rose by more than one point (to 6.8 of 10) in three years; 11% of establishments hired extra staff to cope (about 325,000 workers); 80% report higher costs, 55% productivity losses, 15% competitive disadvantages, 19% investment and 16% innovation obstacles (30% among large firms). The GDPR is named most often as a burden (68%), followed by EU IT-security rules (32%).",
+  "summary_plain": "German firms say red tape has risen sharply since 2022, forcing them to hire about 325,000 extra staff; the GDPR is the rule they find most burdensome.",
+  "relevance": "Direct firm-level evidence that EU digital rules, above all the GDPR, absorb staff and time that could go to productive use, including technology adoption.",
+  "caveats": "Self-reported and retrospective; covers all bureaucracy, not the GDPR alone; no counterfactual.",
+  "verified": "full text read",
+  "interested_party": "",
+  "themes": [
+   "firms: size, entry, compliance costs and jobs",
+   "technology adoption"
+  ]
+ },
+ {
+  "id": "gordon-sayed-2020-transatlantic",
+  "authors": "Robert J. Gordon; Hassan Sayed",
+  "year": 2020,
+  "title": "Transatlantic Technologies: The Role of ICT in the Evolution of U.S. and European Productivity Growth",
+  "venue": "NBER Working Paper 27425 (also CEPR DP15011; VoxEU column 'Transatlantic technologies: Why did the ICT revolution fail to boost European productivity?')",
+  "url": "https://www.nber.org/papers/w27425",
+  "pdf_url": "",
+  "type": "empirical-descriptive",
+  "geography_period": "US and EU-10, 1977-2015",
+  "method": "Industry-level growth accounting with EU KLEMS data",
+  "finding": "Most of the 1995-2005 US productivity revival came from ICT-intensive industries producing market services and computer hardware; the EU-10 instead slowed 'due to a paucity of ICT investment, a failure to capture the efficiency benefits of ICT, and performance shortfalls' in ICT production, finance-insurance, retail-wholesale and agriculture. Much of ICT's effect ran through spillovers to TFP. Both regions slowed after 2005.",
+  "summary_plain": "Europe fell behind the US after 1995 because its firms invested less in information technology and got less out of what they did invest, especially in services such as retail and finance.",
+  "relevance": "Places the EU-US gap in the adoption and use of digital technology, which is what EU digital regulation governs.",
+  "caveats": "Growth accounting, not causal; does not itself test regulation as the cause.",
+  "verified": "abstract read (NBER); VoxEU column not reachable from our servers",
+  "interested_party": "",
+  "themes": [
+   "productivity, GDP and the EU-US gap",
+   "technology adoption"
+  ]
+ },
+ {
+  "id": "martinez-turegano-2020-sectoral",
+  "authors": "David Martinez Turegano",
+  "year": 2020,
+  "title": "Sectoral productivity vis-à-vis the US and heterogeneity within the EU27: the role of firm size distribution and firm demographics",
+  "venue": "JRC Working Papers on Territorial Modelling and Analysis / JRC Research Report JRC122059, European Commission Joint Research Centre",
+  "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC122059",
+  "pdf_url": "",
+  "type": "empirical-descriptive",
+  "geography_period": "EU27 Member States and US, sector level",
+  "method": "Cross-country, cross-sector regressions of productivity levels and growth on technology, innovation, capital, firm size distribution and firm demographics",
+  "finding": "The EU27 keeps a large negative productivity gap with the US and strong heterogeneity across Member States. Findings point to improving technological adoption, raising innovation intensity, boosting human, tangible and intangible capital, eliminating barriers to growth in firm size and easing firm entry and exit; these matter even more in business services.",
+  "summary_plain": "A Commission research study finds EU countries close more of the productivity gap with the US where firms adopt technology, grow larger and enter and exit freely, especially in business services.",
+  "relevance": "Links the productivity gap to technology adoption and to barriers to firm growth and entry, the channels through which regulation operates.",
+  "caveats": "Associations, not causal; regulation enters only indirectly via firm size and demographics.",
+  "verified": "abstract read (RePEc); JRC repository not reachable from our servers",
+  "interested_party": "European Commission (JRC) authors",
+  "themes": [
+   "productivity, GDP and the EU-US gap",
+   "technology adoption"
+  ]
+ },
+ {
+  "id": "hall-sun-2026-policy-teams",
+  "authors": "Andrew B. Hall; Anna Le Sun",
+  "year": 2026,
+  "title": "Investing in Political Expertise: The Remarkable Scale of Corporate Policy Teams",
+  "venue": "Working paper, Stanford Graduate School of Business (31 May 2026)",
+  "url": "https://www.andrewbenjaminhall.com/pdfs/HallSun26.pdf",
+  "pdf_url": "https://www.andrewbenjaminhall.com/pdfs/HallSun26.pdf",
+  "type": "empirical-descriptive",
+  "geography_period": "US firms, about 2005-2025",
+  "method": "Classification of job titles of about 100 million workers (LinkedIn/Revelio data, 100,000+ job listings), merged with lobbying records for 10,000 firms",
+  "finding": "More than 250,000 people work in corporate policy roles in the US; policy teams are very roughly 13 times larger than lobbying teams and have grown relative to other corporate positions over two decades. The average firm has about 1.5 policy staff and 0.68 lobbyists; the average Fortune 100 firm has about 52 policy staff and 18 lobbyists. Lobbying and policy teams are complements.",
+  "summary_plain": "Large companies employ whole teams to track, interpret and shape regulation: the average Fortune 100 firm has about 52 policy staff, while the average firm has one or two.",
+  "relevance": "Shows the scale advantage large firms have in absorbing and influencing regulation, one reason heavy rulebooks can favour incumbents over small firms and start-ups.",
+  "caveats": "US only; descriptive; policy roles include some compliance staff; job-title classification is approximate.",
+  "verified": "full text read",
+  "interested_party": "",
+  "themes": [
+   "market power and regulatory rents"
+  ]
  }
 ]

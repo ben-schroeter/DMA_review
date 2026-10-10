@@ -1,6 +1,6 @@
 # What economics says about regulation and growth
 
-*Draft for /why-it-matters/ (literature section). 53 studies; references with links in `data/literature/regulation_economics.json`. "(summary only)" marks figures checked only against a secondary source.*
+*Draft for /why-it-matters/ (literature section). 57 studies; references with links in `data/literature/regulation_economics.json`. "(summary only)" marks figures checked only against a secondary source.*
 
 ## The short version
 
@@ -30,6 +30,8 @@ Those are the channels through which the productivity gap with the US opened. Th
   - Philippon (2019) and Gutiérrez & Philippon (2023) find EU markets became *more* competitive than US ones, with lower concentration, lower excess profits and lower regulatory entry barriers. They credit independent EU competition enforcement.
   - **European Commission, *Protecting competition in a changing world* (2024):** across 23 European countries, average markups rose about 7% between 2000 and 2019 and industry concentration rose about 5 points. A model simulation attributes a GDP loss of about 5.7% to the markup rise if it fully reflects weaker competition.
   - Koltay, Lőrincz & Valletti (2023) find the same moderate rise. OECD work (Calligaris et al. 2018) finds markups highest and rising fastest in digital-intensive sectors.
+
+- **Hall & Sun (2026):** large firms employ whole policy teams to track and shape regulation, very roughly 13 times the size of their lobbying teams. The average Fortune 100 firm has about 52 policy staff and 18 lobbyists; the average firm has 1.5 and 0.7. This is a scale advantage small firms and start-ups cannot match.
 
 **Why it matters here:** much of the EU's digital rulebook (the DMA, P2B, the Data Act) aims at platform market power. The rents literature warns that complex rules can also entrench large incumbents, who absorb compliance costs more easily.
 
@@ -90,6 +92,24 @@ Those are the channels through which the productivity gap with the US opened. Th
   - Mayer, Vicard & Zignago (2019): the single market raises trade more than three times as much as a typical trade agreement and is worth 3–7% of GDP.
   - The European Parliament's research service (2019) puts the potential gains from deeper integration at €2.2 trillion over ten years (summary only).
   - **Implication:** EU-level rules that *replace* 27 national regimes can cut costs, even as their volume grows.
+
+## 6. Regulation and technology adoption: the link to the productivity gap
+
+The productivity gap opened after 1995, when the US gained from using information technology and Europe did not. Regulation can slow that adoption directly.
+
+- **Europe missed the ICT gains.** Gordon & Sayed (2020) find most of the 1995–2005 US productivity revival came from ICT-intensive services and hardware. Europe instead slowed "due to a paucity of ICT investment, a failure to capture the efficiency benefits of ICT", and shortfalls in finance, retail and wholesale.
+- **Adoption, firm growth and entry explain differences within the EU.** A JRC study (Martinez Turegano 2020) finds productivity relative to the US is higher where firms adopt technology, grow larger, and enter and exit freely. Its policy conclusions: improve technology adoption, remove barriers to firm growth, and ease entry and exit, especially in business services.
+- **Data rules make data-driven technology costlier.**
+  - Demirer et al. (2024): after the GDPR, EU firms store 26% less data and do 15% less computation than comparable US firms, equivalent to a 22% rise in the cost of data.
+  - Janssen et al. (2022): a third of apps exited.
+  - Johnson, Shriver & Goldberg (2023): web-technology vendor use fell 15%.
+- **Compliance absorbs the staff and time that adoption needs.** In an IAB survey of 9,209 German establishments (Diegmann & Kubis 2025):
+  - 68% name the GDPR as the regulation that burdens them most, followed by EU IT-security rules at 32%.
+  - Red tape overall led firms to hire about 325,000 extra staff in three years.
+  - 55% report productivity losses, 19% investment obstacles and 16% innovation obstacles.
+- **Large firms cope better.** Hall & Sun (2026) show the scale of in-house policy teams at large firms. Together with the size-dependent compliance costs in section 3, this explains why regulation can entrench incumbents.
+
+**The argument, and its limits:** regulation raises the cost of adopting and using digital technology, especially for smaller firms. That slows the diffusion that drove US productivity growth. Each link has supporting evidence. The full chain from EU rules to the aggregate gap has not been estimated in a single study.
 
 ## What this means for reading our data
 
