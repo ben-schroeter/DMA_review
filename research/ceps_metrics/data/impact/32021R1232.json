@@ -175,6 +175,32 @@
    "archive_url": "",
    "added": "2026-10 broadened search",
    "category": "evidence"
+  },
+  {
+   "id": "edri-2024-epriv-derogation-submission",
+   "authors": "European Digital Rights (EDRi)",
+   "year": 2024,
+   "title": "Submission to the European Commission's post-adoption consultation on Combating online child sexual abuse - amending temporary derogation from certain provisions of Directive 2002/58/EC",
+   "venue": "EDRi",
+   "url": "https://edri.org/wp-content/uploads/2024/02/EDRi-submission-on-temporary-ePrivacy-derogation-extension-8-February-2024.pdf",
+   "pdf_url": "https://edri.org/wp-content/uploads/2024/02/EDRi-submission-on-temporary-ePrivacy-derogation-extension-8-February-2024.pdf",
+   "source_type": "think tank policy brief",
+   "method": "structured critique of the Commission's 2023 implementation report and provider transparency data (re-analysis of reported error rates)",
+   "outcomes": "evidence of necessity/effectiveness, false-positive rates of detection tools",
+   "direction": "negative",
+   "headline": "Using the only provider that reported actual error rates under the Regulation, EDRi shows LinkedIn's automated tools flagged 75 items of which only 31 were confirmed as CSAM in 2021, a 59% false-positive rate, versus the 99.9% accuracy cited by the Commission.",
+   "summary_plain": "A digital-rights network argues that the Commission's own report on the temporary scanning rules contains no solid evidence that scanning private messages has helped protect children, and that the little real data available shows many false alarms.",
+   "period_geography": "EU, 2021-2023 reporting under Regulation 2021/1232",
+   "quality": "Secondary analysis of official report data; very small sample for the error-rate figure; written by a campaigning organisation.",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "Campaigning digital-rights NGO network opposed to CSAM scanning of private communications",
+   "source_class": "think tank",
+   "citation": "European Digital Rights (EDRi) (2024), Submission to the European Commission's post-adoption consultation on Combating online child sexual abuse - amending temporary derogation from certain provisions of Directive 2002/58/EC, EDRi",
+   "accessed": "2026-10-10",
+   "archive_url": "",
+   "added": "2026-10 broadened search",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

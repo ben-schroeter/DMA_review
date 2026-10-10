@@ -3,7 +3,7 @@
  "name": "Company Law Directive",
  "proposal": "52015PC0616",
  "impact_assessment": "None (codification); amendment IAs SWD(2018) 141 and SWD(2023) 178",
- "evidence_rating": "ex-ante only: codification with no promises of its own; amendment forecasts not yet evaluated; only descriptive mobility counts",
+ "evidence_rating": "thin: descriptive data on the use of corporate mobility instruments; no evaluation of the codification itself",
  "summary": "The 2017 Company Law Directive merely consolidated older rules, so it set no targets of its own. Later amendments promised EUR 42-84 million in savings from online company registration and about EUR 437 million a year from easier cross-border use of company data, but none has been evaluated. Independent counts show cross-border company moves remain concentrated in a few countries.",
  "last_reviewed": "2026-10-10",
  "indicators": [
@@ -151,5 +151,6 @@
    "category": "evidence"
   }
  ],
- "evidence_level": "ex-ante only"
+ "evidence_level": "thin",
+ "evidence_rating_previous": "ex-ante only: codification with no promises of its own; amendment forecasts not yet evaluated; only descriptive mobility counts"
 }

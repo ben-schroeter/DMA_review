@@ -3,7 +3,7 @@
  "name": "European Media Freedom Act",
  "proposal": "52022PC0457",
  "impact_assessment": "SWD(2022) 286 (executive summary SWD(2022) 287)",
- "evidence_rating": "ex-ante only: Act fully applicable since Aug 2025; only baseline monitoring data",
+ "evidence_rating": "thin: NGO and think tank monitoring since full application in August 2025 finds most provisions not applied nationally (Hungary none); no measurement of effects on media freedom",
  "summary": "The Commission forecast that the Media Freedom Act would lift media companies' revenues by about EUR 2.9 billion a year and reduce risks to editorial independence. The Act has only applied in full since August 2025; the new EU media board is operating, but the Media Pluralism Monitor's latest results describe the situation before the Act and use a new scale. No study has yet measured its effects.",
  "last_reviewed": "2026-10-10",
  "indicators": [
@@ -162,5 +162,6 @@
    "category": "evidence"
   }
  ],
- "evidence_level": "ex-ante only"
+ "evidence_level": "thin",
+ "evidence_rating_previous": "ex-ante only: Act fully applicable since Aug 2025; only baseline monitoring data"
 }

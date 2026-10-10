@@ -3,7 +3,7 @@
  "name": "Sale of Goods Directive",
  "proposal": "52015PC0635",
  "impact_assessment": "SWD(2015) 274 (executive summary SWD(2015) 275), joint with the Digital Content Directive",
- "evidence_rating": "none ex-post: forecasts only; the review due June 2024 was not found and no independent impact studies were found",
+ "evidence_rating": "thin: a 2024 coordinated sweep of 356 online second-hand sellers found 57% not respecting the minimum legal guarantee; the review due June 2024 was not found",
  "summary": "The Directive harmonised consumers' rights when goods bought in shops or online are faulty, including a minimum two-year guarantee. The Commission forecast slightly lower prices, 122,000 more firms selling across borders online and about EUR 4 billion a year more GDP. None of this has been measured: the review due in June 2024 has not been found, and the rules have since been amended by the 2024 Right to Repair Directive without an evaluation.",
  "last_reviewed": "2026-10-10",
  "indicators": [
@@ -146,5 +146,6 @@
    "category": "evidence"
   }
  ],
- "evidence_level": "ex-ante only"
+ "evidence_level": "thin",
+ "evidence_rating_previous": "none ex-post: forecasts only; the review due June 2024 was not found and no independent impact studies were found"
 }

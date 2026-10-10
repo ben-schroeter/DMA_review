@@ -311,7 +311,7 @@ wpi = wb.create_sheet("proposal_indicators")
 wpi.append(["parent_row_id", "parent_name", "proposal_celex", "type", "objective", "indicator / promised impact", "target or baseline",
             "evidence found", "status", "status_group", "sources"])
 wil = wb.create_sheet("impact_literature")
-wil.append(["parent_row_id", "parent_name", "category", "id", "citation", "year", "source_type", "method", "outcomes", "direction", "headline finding",
+wil.append(["parent_row_id", "parent_name", "category", "source_class", "added_in", "id", "citation", "year", "source_type", "method", "outcomes", "direction", "headline finding",
             "plain-language summary", "period / geography", "quality notes", "interested party", "access", "verified", "accessed", "url",
             "pdf_url", "archive_url"])
 for c, d_ in _imp.items():
@@ -320,7 +320,7 @@ for c, d_ in _imp.items():
         wpi.append([int(rid) if rid else None, nm, d_["proposal"], x["type"], x["objective"], x["indicator"], x["target_or_baseline"],
                     x["evidence"], x["status"], x.get("status_group"), x["sources"]])
     for x in d_["literature"]:
-        wil.append([int(rid) if rid else None, nm, x.get("category"), x.get("id"), x["citation"], x["year"], x["source_type"], x["method"], x["outcomes"],
+        wil.append([int(rid) if rid else None, nm, x.get("category"), x.get("source_class"), x.get("added", "initial review"), x.get("id"), x["citation"], x["year"], x["source_type"], x["method"], x["outcomes"],
                     x["direction"], x["headline"], x.get("summary_plain"), x["period_geography"], x["quality"], x.get("interested_party"),
                     x.get("access"), x["verified"], x.get("accessed"), x["url"], x.get("pdf_url"), x.get("archive_url")])
 for w_, widths in ((wpi, [8, 22, 13, 18, 40, 45, 14, 70, 22, 16, 30]), (wil, [8, 22, 16, 22, 60, 6, 18, 30, 25, 18, 60, 60, 18, 40, 30, 14, 14, 11, 40, 30, 40])):

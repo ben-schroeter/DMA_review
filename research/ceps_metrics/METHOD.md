@@ -162,3 +162,14 @@ Results are in the `validation` sheet. Headline (final fresh sample): 84% of cou
 - The `objectives` column (and `data/objectives/objectives.json`) gives a plain-language summary of each instrument's stated aims, scope and main mechanisms, in 2–3 sentences of at most 70 words.
 - Drafted from the act's own text on EUR-Lex: Article 1 (subject matter), the scope article, the first recitals and, for programmes, the budget article. For pending items it is drafted from the proposal.
 - The summaries are neutral descriptions of what each act says it sets out to do; evaluation is kept to the impact-evidence fields. A few details rest on general knowledge rather than the articles cited, and the `source` field says which parts of the act were used.
+
+## Broadened impact search (October 2026)
+A second search covered all 77 adopted acts dated 2016 or later (pending proposals excluded), in three rounds of parallel research agents working from a common brief (`data/impact/additions/BRIEF.md`):
+1. academic and official empirical studies for every act (rounds 1–2);
+2. a think tank sweep of the acts covered in round 1 (round 3).
+
+Rules: only ex-post studies of what happened after adoption; the agent had to open each source page and confirm title, authors, year and headline; `verified` records what was read. Opinion, legal analysis, forecasts, enforcement decisions and duplicates were excluded. Results are in `data/impact/additions/found_*.json` and were merged by `scripts/impact_merge_additions.py` (duplicates skipped by id, URL or title; each added source carries `added = "2026-10 broadened search"`).
+
+Outcome: 189 new sources (evidence base 299 → 489; causal designs 42 → 68). Every source now has a `source_class`: academic, official, think tank (including NGOs and consumer organisations) or consultancy or industry. Sources from round 1–3 were classed by the agents; older ones are inferred from `source_type` in `impact_normalise.py`. Evidence levels were re-graded by hand where new sources measure outcomes after application (ten acts; previous ratings kept in `evidence_rating_previous`): DMA, DSA and Copyright DSM Directive to moderate; Political Advertising, Critical Raw Materials, Media Freedom, Digital Decade, Sale of Goods, Digital Content and Company Law to thin. Readiness surveys and baselines collected before rules apply do not change an "ex-ante only" grade.
+
+Caveats: a shared web-search cap meant each act received a limited number of queries; some sources are verified from abstracts or official summaries only; several entries are evidence on predecessor rules and say so in `quality`. The 440 proposal promises were not re-assessed in this round.

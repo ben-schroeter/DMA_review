@@ -3,7 +3,7 @@
  "name": "Digital Content Directive",
  "proposal": "52015PC0634",
  "impact_assessment": "SWD(2015) 274 (executive summary SWD(2015) 275), joint with the Sale of Goods Directive",
- "evidence_rating": "none ex-post: forecasts only; the review due June 2024 was not found and no independent impact studies were found",
+ "evidence_rating": "thin: one study of 100 platforms' terms (28% do not describe the digital content offered); the review due June 2024 was not found",
  "summary": "The Directive gave consumers EU-wide rights when apps, streaming, software and other digital content or services are faulty. The Commission forecast that, with the sister Sale of Goods Directive, it would add about EUR 4 billion a year to EU GDP and bring 8-13 million more people to shop online across borders. None of this has been measured: the Commission's review was due in June 2024 but has not been found, and no independent study has assessed the effects.",
  "last_reviewed": "2026-10-10",
  "indicators": [
@@ -136,5 +136,6 @@
    "category": "evidence"
   }
  ],
- "evidence_level": "ex-ante only"
+ "evidence_level": "thin",
+ "evidence_rating_previous": "none ex-post: forecasts only; the review due June 2024 was not found and no independent impact studies were found"
 }

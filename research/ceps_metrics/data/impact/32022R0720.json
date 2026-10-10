@@ -226,6 +226,32 @@
    "archive_url": "",
    "added": "2026-10 broadened search",
    "category": "evidence"
+  },
+  {
+   "id": "ma-2022-price-parity-ban-hotels",
+   "authors": "Peiyao Ma, Andrea Mantovani, Carlo Reggiani, Annette Broocks, Néstor Duch-Brown",
+   "year": 2022,
+   "title": "The Price Effects of Banning Price Parity Clauses in the EU: Evidence from International Hotel Groups",
+   "venue": "TSE Working Paper 1371 (Toulouse School of Economics)",
+   "url": "https://publications.ut-capitole.fr/id/eprint/46352/1/wp_tse_1371.pdf",
+   "pdf_url": "https://publications.ut-capitole.fr/id/eprint/46352/1/wp_tse_1371.pdf",
+   "source_type": "academic working paper",
+   "method": "quasi-experimental difference-in-differences on hotel room prices of three international hotel groups around the 2015 French ban (validated with Germany 2016 and Austria 2017 bans)",
+   "outcomes": "hotel room prices",
+   "direction": "no effect",
+   "headline": "The full removal of price parity clauses in France in 2015 had a limited and non-significant effect on room prices, with similar results for Germany and Austria.",
+   "summary_plain": "Banning the contract terms that stopped hotels offering cheaper rooms outside booking platforms did not noticeably lower the prices consumers paid.",
+   "period_geography": "France, Germany, Austria; around 2015-2017",
+   "quality": "Predecessor evidence: national parity bans before VBER 2022 (which removed wide parity clauses from the block exemption); credible DiD but limited to three hotel groups; co-authors at the Commission's JRC.",
+   "verified": "abstract read",
+   "access": "open",
+   "interested_party": "",
+   "source_class": "academic",
+   "citation": "Peiyao Ma, Andrea Mantovani, Carlo Reggiani, Annette Broocks, Néstor Duch-Brown (2022), The Price Effects of Banning Price Parity Clauses in the EU: Evidence from International Hotel Groups, TSE Working Paper 1371 (Toulouse School of Economics)",
+   "accessed": "2026-10-10",
+   "archive_url": "",
+   "added": "2026-10 broadened search",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

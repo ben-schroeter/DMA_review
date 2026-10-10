@@ -3,7 +3,7 @@
  "name": "Critical Raw Materials Act",
  "proposal": "52023PC0160",
  "impact_assessment": "SWD(2023) 161 (executive summary SWD(2023) 162)",
- "evidence_rating": "ex-ante plus early audit: Commission activity data and a critical ECA audit; no causal study",
+ "evidence_rating": "thin: early stock-takes of the strategic-project pipeline (Bruegel: targets met for only five materials; delays in Global South projects) and a critical ECA audit; no causal studies",
  "summary": "The Act set 2030 goals for the EU to mine 10%, process 40% and recycle 25% of the strategic raw materials it uses, and to rely on no single country for more than 65%. The Commission has designated 47 EU Strategic Projects with EUR 22.5 billion of planned investment, but the European Court of Auditors concluded in 2026 that the goals are unlikely to be met. No study has yet measured the Act's effect on supply security or prices.",
  "last_reviewed": "2026-10-10",
  "indicators": [
@@ -239,5 +239,6 @@
    "category": "evidence"
   }
  ],
- "evidence_level": "ex-ante only"
+ "evidence_level": "thin",
+ "evidence_rating_previous": "ex-ante plus early audit: Commission activity data and a critical ECA audit; no causal study"
 }

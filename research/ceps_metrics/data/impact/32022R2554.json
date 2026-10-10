@@ -296,6 +296,32 @@
    "archive_url": "",
    "added": "2026-10 broadened search",
    "category": "evidence"
+  },
+  {
+   "id": "afm-dnb-2025-digitaldependence",
+   "authors": "Dutch Authority for the Financial Markets (AFM) and De Nederlandsche Bank (DNB)",
+   "year": 2025,
+   "title": "Digital dependence of the financial sector",
+   "venue": "AFM and DNB joint report (20 October 2025)",
+   "url": "https://www.afm.nl/en/sector/actueel/2025/okt/pb-digitale-autonomie",
+   "pdf_url": "https://www.afm.nl/~/profmedia/files/rapporten/2025/digital-dependence-of-the-financial-sector.pdf",
+   "source_type": "agency report",
+   "method": "supervisory assessment based on interviews with banks, insurers, payment providers, asset managers and ICT vendors, plus desk analysis",
+   "outcomes": "concentration on non-EU ICT providers; unintended effects of DORA on ICT supplier market; adequacy of DORA oversight",
+   "direction": "mixed",
+   "headline": "Interviewed institutions report that smaller ICT suppliers are withdrawing from the financial sector because they cannot or will not comply with DORA and that DORA encourages using fewer providers, raising concentration; the supervisors judge DORA's critical-provider oversight insufficient for geopolitical risks while noting it prompted firms to demand uptime guarantees, exit options and audit rights.",
+   "summary_plain": "The Dutch financial supervisors found that banks and insurers rely heavily on a few US cloud companies. Firms told them that the new EU resilience rules have pushed some small IT suppliers out of the sector and led firms to use fewer suppliers, which could make the concentration problem worse.",
+   "period_geography": "2025; Netherlands",
+   "quality": "Qualitative, interview-based (number of interviews not stated); early evidence less than a year after DORA applied; supervisors are DORA competent authorities.",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "Supervisors responsible for applying DORA",
+   "source_class": "official",
+   "citation": "Dutch Authority for the Financial Markets (AFM) and De Nederlandsche Bank (DNB) (2025), Digital dependence of the financial sector, AFM and DNB joint report (20 October 2025)",
+   "accessed": "2026-10-10",
+   "archive_url": "",
+   "added": "2026-10 broadened search",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

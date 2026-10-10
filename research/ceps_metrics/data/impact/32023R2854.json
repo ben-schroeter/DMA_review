@@ -233,6 +233,32 @@
    "archive_url": "",
    "category": "evidence",
    "source_class": "official"
+  },
+  {
+   "id": "hpe-2024-dataactsurvey",
+   "authors": "Hewlett Packard Enterprise (HPE) / YouGov",
+   "year": 2024,
+   "title": "Deutsche Industrie sieht Data Act als Chance - aber es gibt noch viel zu tun (survey of 400 industry executives)",
+   "venue": "HPE-commissioned YouGov survey, reported by it-daily.net",
+   "url": "https://www.it-daily.net/it-management/industrie-rpa/deutsche-industrie-sieht-data-act-als-chance-aber-es-gibt-noch-viel-zu-tun",
+   "pdf_url": "",
+   "source_type": "survey report",
+   "method": "survey of 400 executives in German industrial firms (YouGov, March 2024)",
+   "outcomes": "perceptions and preparation for the Data Act",
+   "direction": "descriptive",
+   "headline": "Two thirds (67%) of German industrial firms saw the Data Act more as an opportunity than a risk, and 43% had started preparing for it, about 18 months before it applied.",
+   "summary_plain": "A survey of German manufacturers after the Data Act was adopted found most saw it as a chance to use machine data, but fewer than half had started getting ready.",
+   "period_geography": "March 2024; Germany",
+   "quality": "Readiness/perception survey before application; commissioned by a vendor; only secondary press report available",
+   "verified": "summary only",
+   "access": "open",
+   "interested_party": "Commissioned by HPE, a data-infrastructure vendor that benefits from Data Act compliance demand",
+   "source_class": "consultancy or industry",
+   "citation": "Hewlett Packard Enterprise (HPE) / YouGov (2024), Deutsche Industrie sieht Data Act als Chance - aber es gibt noch viel zu tun (survey of 400 industry executives), HPE-commissioned YouGov survey, reported by it-daily.net",
+   "accessed": "2026-10-10",
+   "archive_url": "",
+   "added": "2026-10 broadened search",
+   "category": "evidence"
   }
  ],
  "evidence_level": "ex-ante only"

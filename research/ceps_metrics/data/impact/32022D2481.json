@@ -3,7 +3,7 @@
  "name": "Digital Decade Policy Programme Decision",
  "proposal": "52021PC0574",
  "impact_assessment": "None (staff working document instead of an IA)",
- "evidence_rating": "monitoring only: annual Commission KPI tracking against 2030 targets; no assessment of whether the governance mechanism itself changed outcomes",
+ "evidence_rating": "thin: annual Commission KPI tracking plus an independent assessment finding the EU off track on all targets; no assessment of whether the Decision changed outcomes",
  "summary": "The Digital Decade programme sets EU targets for 2030 on connectivity, skills, business digitalisation and public services, and makes the Commission report progress every year. Its own reports show basic 5G at 96.8% of households and online public services above 80%, but the EU is far off target on AI use by firms (about 20% vs 75%), basic digital skills (just over 60% vs 80%), fibre and chips. No study has assessed whether the programme's governance changed what Member States do.",
  "last_reviewed": "2026-10-10",
  "indicators": [
@@ -156,5 +156,6 @@
    "category": "evidence"
   }
  ],
- "evidence_level": "ex-ante only"
+ "evidence_level": "thin",
+ "evidence_rating_previous": "monitoring only: annual Commission KPI tracking against 2030 targets; no assessment of whether the governance mechanism itself changed outcomes"
 }

@@ -164,6 +164,32 @@
    "archive_url": "",
    "added": "2026-10 broadened search",
    "category": "evidence"
+  },
+  {
+   "id": "edps-2025-cefaccess-euis",
+   "authors": "European Data Protection Supervisor (national report in EDPB CEF 2024 annex)",
+   "year": 2025,
+   "title": "EDPS report on the right of access in EU institutions, bodies, offices and agencies (Coordinated Enforcement Framework 2024, Appendix: national reports)",
+   "venue": "EDPB CEF 2024 report annex",
+   "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/other/coordinated-enforcement-action-implementation-right-access_en",
+   "pdf_url": "https://www.edpb.europa.eu/system/files/documents/2025-01/edpb_cef-report-2024_20250116_annex_en.pdf",
+   "source_type": "agency report",
+   "method": "survey of all 75 EUIs (63 responded) plus complaint-handling records 2023-mid 2024, DPO activity reports and a DPO workshop",
+   "outcomes": "volume and handling of data subject access requests under Regulation 2018/1725",
+   "direction": "mixed",
+   "headline": "58 of 63 responding EU institutions and agencies received only 0-25 access requests in 2023; the EDPS found decentralised handling, difficulty distinguishing access requests from other requests, and excessive identity checks.",
+   "summary_plain": "The EU's own privacy watchdog checked how EU bodies deal with people asking for their personal data. Few such requests arrive, but many bodies lack central systems and some ask for too much identification.",
+   "period_geography": "2023-2024; EU institutions",
+   "quality": "Official census-type survey with descriptive statistics; qualitative findings from supervisor's own case work",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "Supervisor assessing compliance with the law it enforces",
+   "source_class": "official",
+   "citation": "European Data Protection Supervisor (national report in EDPB CEF 2024 annex) (2025), EDPS report on the right of access in EU institutions, bodies, offices and agencies (Coordinated Enforcement Framework 2024, Appendix: national reports), EDPB CEF 2024 report annex",
+   "accessed": "2026-10-10",
+   "archive_url": "",
+   "added": "2026-10 broadened search",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"
