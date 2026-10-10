@@ -14,6 +14,12 @@ nim = json.load(open(D + "national_measures.json"))
 sec = json.load(open(D + "secondary_acts.json"))
 web = list(csv.DictReader(open(D + "guidance_web_supplement.csv")))
 val = json.load(open(D + "validation_results.json"))
+pol = json.load(open(D + "policy_area.json"))
+da = json.load(open(D + "dates_amendments.json"))
+props = json.load(open(D + "proposals.json"))
+NOT_COMPARABLE = {"32006L0112": "recast proposal: PDF includes struck-through and correlation material",
+                  "32002R0006": "1993 proposal PDF bundles the companion Design Directive proposal",
+                  "32004R0139": "proposal COM(2002) 711 not available in EUR-Lex"}
 
 URL = "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:{}"
 METRICS = ["pages", "words_legal_text", "words_preamble", "words_recitals", "words_articles", "words_annexes",
@@ -85,11 +91,16 @@ style(ws3, [8, 30, 13, 14, 11, 70, 50, 50])
 
 # ---------------- instruments ----------------
 ws = wb.create_sheet("instruments", 0)
-cols = ["row_id", "name", "identifier", "proposal_date", "confidence_proposal_date", "status_ceps_jul2025", "status_oct2026",
+cols = ["row_id", "name", "identifier", "policy_area_ceps", "ceps_table_status", "proposal_date", "confidence_proposal_date",
+        "adoption_date", "oj_publication_date", "entry_into_force", "status_ceps_jul2025", "status_oct2026",
         "celex_measured", "text_measured", "source_url"] + METRICS + \
        ["consolidated_celex", "consolidated_restrictions_total", "consolidated_addr_private_parties",
         "n_implementing_acts", "n_delegated_acts", "n_other_commission_council_acts", "n_guidance_eurlex", "n_guidance_web",
-        "restrictions_in_implementing_and_delegated_acts", "national_transposition_measures", "member_states_with_measures", "note"]
+        "restrictions_in_implementing_and_delegated_acts", "national_transposition_measures", "member_states_with_measures",
+        "n_amending_acts", "first_amendment_date", "latest_amendment_date", "n_corrigenda",
+        "proposal_celex", "proposal_text_source", "proposal_words_legal_text", "proposal_restrictions_total",
+        "proposal_addr_private_parties", "change_words", "change_words_pct", "change_restrictions", "change_restrictions_pct",
+        "change_restrictions_private", "note"]
 ws.append(cols)
 ci = {c: i + 1 for i, c in enumerate(cols)}
 for i, (r, m0) in enumerate(zip(rows, imap), start=2):
@@ -114,12 +125,47 @@ for i, (r, m0) in enumerate(zip(rows, imap), start=2):
     if "Block Exemption" in r["name"]:
         notes.append("Block exemption: defines a safe harbour ('the exemption shall not apply to...'), so few direct restrictions are counted")
     note = "; ".join(x for x in [m0["note"]] + notes + cnotes if x)
-    vals = [int(m0["row_id"]), r["name"], r["identifier"], r["proposal_date"], r["confidence"], m0["status_ceps_jul2025"],
+    pa = pol[r["name"]]
+    dd = [da["dates"].get(c, {}) for c in cel]
+    first = lambda k: min((d.get(k) for d in dd if d.get(k)), default=None)
+    vals = [int(m0["row_id"]), r["name"], r["identifier"], pa["policy_area"], pa["ceps_colour_status"], r["proposal_date"], r["confidence"],
+            first("adoption_date"), first("oj_publication_date"), first("entry_into_force"), m0["status_ceps_jul2025"],
             m0["status_oct2026"], ";".join(cel), text, url] + [met.get(k) for k in METRICS] + \
            [";".join(cc) or None, cmet.get("restrictions_total"), cmet.get("addr_private_parties")]
+    am = [a for a in da["amendments"] if a["parent"] in cel and a["kind"] == "amendment"]
+    co = [a for a in da["amendments"] if a["parent"] in cel and a["kind"] == "corrigendum"]
+    amd = sorted(a["date"] for a in am if a["date"])
+    adopted = cel[0][:1] == "3"
+    # proposal comparison (adopted acts only)
+    pc_vals = [None] * 5
+    if adopted:
+        pcs = [props["links"].get(c, {}).get("proposal_celex") for c in cel]
+        why = next((NOT_COMPARABLE[c] for c in cel if c in NOT_COMPARABLE), None)
+        if all(pcs) and not why:
+            pm = [props["measurements"][p] for p in pcs]
+            src = "PDF text (approximate)" if any(p.get("source") for p in pm) else "EUR-Lex HTML"
+            pc_vals = [";".join(pcs), src, sum(p["words_legal_text"] for p in pm), sum(p["restrictions_total"] for p in pm),
+                       sum(p["addr_private_parties"] for p in pm)]
+        elif why:
+            pc_vals = [";".join(p for p in pcs if p) or None, "not comparable: " + why, None, None, None]
+        else:
+            pc_vals = [None, "no legislative proposal (Commission act)" if "Block Exemption" in r["name"] else "no linked proposal", None, None, None]
+    else:
+        pc_vals = [None, "row is itself a proposal", None, None, None]
     ws.append(vals + [None] * 6 + [sum(nim[c]["n_measures"] for c in dirs if c in nim) if dirs else None,
                                    max((nim[c]["n_member_states"] for c in dirs if c in nim), default=None) if dirs else None,
-                                   note])
+                                   len(am) if adopted else None, amd[0] if amd else None, amd[-1] if amd else None,
+                                   len(co) if adopted else None] + pc_vals + [None] * 5 + [note])
+    L = lambda k: get_column_letter(ci[k])
+    pw, aw, pr, ar = f"{L('proposal_words_legal_text')}{i}", f"{L('words_legal_text')}{i}", f"{L('proposal_restrictions_total')}{i}", f"{L('restrictions_total')}{i}"
+    pp, ap = f"{L('proposal_addr_private_parties')}{i}", f"{L('addr_private_parties')}{i}"
+    ws.cell(row=i, column=ci["change_words"], value=f'=IF(ISNUMBER({pw}),{aw}-{pw},"")')
+    ws.cell(row=i, column=ci["change_words_pct"], value=f'=IF(AND(ISNUMBER({pw}),{pw}>0),({aw}-{pw})/{pw},"")')
+    ws.cell(row=i, column=ci["change_restrictions"], value=f'=IF(ISNUMBER({pr}),{ar}-{pr},"")')
+    ws.cell(row=i, column=ci["change_restrictions_pct"], value=f'=IF(AND(ISNUMBER({pr}),{pr}>0),({ar}-{pr})/{pr},"")')
+    ws.cell(row=i, column=ci["change_restrictions_private"], value=f'=IF(ISNUMBER({pp}),{ap}-{pp},"")')
+    for k in ("change_words_pct", "change_restrictions_pct"):
+        ws.cell(row=i, column=ci[k]).number_format = "0.0%"
     R = f"secondary_acts!$A$2:$A${n2}"; K = f"secondary_acts!$E$2:$E${n2}"
     RT = f"secondary_acts!${get_column_letter(10 + METRICS.index('restrictions_total') + 1)}$2:${get_column_letter(10 + METRICS.index('restrictions_total') + 1)}${n2}"
     f = {"n_implementing_acts": f'=COUNTIFS({R},$A{i},{K},"implementing")',
@@ -136,14 +182,24 @@ tr = ws.max_row + 1
 ws.cell(row=tr, column=2, value="TOTAL (all rows)").font = Font(name="Arial", bold=True)
 for k in METRICS + ["consolidated_restrictions_total", "consolidated_addr_private_parties", "n_implementing_acts",
                     "n_delegated_acts", "n_other_commission_council_acts", "n_guidance_eurlex", "n_guidance_web",
-                    "restrictions_in_implementing_and_delegated_acts", "national_transposition_measures"]:
-    L = get_column_letter(ci[k]); ws.cell(row=tr, column=ci[k], value=f"=SUM({L}2:{L}{tr - 1})")
-style(ws, [6, 34, 22, 11, 9, 10, 10, 16, 18, 30] + [10] * len(METRICS) + [20, 11, 11, 9, 9, 9, 9, 9, 12, 11, 10, 60])
+                    "restrictions_in_implementing_and_delegated_acts", "national_transposition_measures",
+                    "n_amending_acts", "n_corrigenda"]:
+    Lc = get_column_letter(ci[k]); ws.cell(row=tr, column=ci[k], value=f"=SUM({Lc}2:{Lc}{tr - 1})")
+style(ws, [6, 34, 22, 18, 12, 11, 9, 11, 11, 11, 10, 10, 16, 18, 30] + [10] * len(METRICS) + [20, 11, 11, 9, 9, 9, 9, 9, 12, 11, 10]
+      + [9, 11, 11, 9, 16, 18, 10, 10, 10, 10, 9, 10, 9, 10, 60])
 for c in ws[tr]:
     c.font = Font(name="Arial", bold=True, size=10)
 for k in METRICS + ["consolidated_restrictions_total", "restrictions_in_implementing_and_delegated_acts", "national_transposition_measures"]:
     for row in ws.iter_rows(min_row=2, min_col=ci[k], max_col=ci[k]):
         row[0].number_format = "#,##0"
+
+# ---------------- amendments ----------------
+wa = wb.create_sheet("amendments", 2)
+wa.append(["parent_row_id", "parent_name", "parent_celex", "celex", "kind", "date", "title", "source_url"])
+for a in sorted(da["amendments"], key=lambda a: (int(row_of.get(a["parent"], ("999",))[0]), a["kind"], a["date"])):
+    rid, nm = row_of.get(a["parent"], ("", ""))
+    wa.append([int(rid) if rid else None, nm, a["parent"], a["celex"], a["kind"], a["date"], a["title"], URL.format(a["celex"])])
+style(wa, [8, 30, 13, 18, 12, 11, 80, 40])
 
 # ---------------- method + validation ----------------
 wm = wb.create_sheet("method")

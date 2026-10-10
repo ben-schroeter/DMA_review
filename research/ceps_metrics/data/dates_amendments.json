@@ -1,0 +1,4337 @@
+{
+ "dates": {
+  "32019L0771": {
+   "adoption_date": "2019-05-20",
+   "oj_publication_date": "2019-05-22",
+   "entry_into_force": "2019-06-11"
+  },
+  "32019R0517": {
+   "adoption_date": "2019-03-19",
+   "oj_publication_date": "2019-03-29",
+   "entry_into_force": "2019-04-18"
+  },
+  "32021R0694": {
+   "adoption_date": "2021-04-29",
+   "oj_publication_date": "2021-05-11",
+   "entry_into_force": "2021-05-12"
+  },
+  "32021R0695": {
+   "adoption_date": "2021-04-28",
+   "oj_publication_date": "2021-05-12",
+   "entry_into_force": "2021-05-12"
+  },
+  "32022R2065": {
+   "adoption_date": "2022-10-19",
+   "oj_publication_date": "2022-10-27",
+   "entry_into_force": "2022-11-16"
+  },
+  "32025R0327": {
+   "adoption_date": "2025-02-11",
+   "oj_publication_date": "2025-03-05",
+   "entry_into_force": "2025-03-25"
+  },
+  "32012R1025": {
+   "adoption_date": "2012-10-25",
+   "oj_publication_date": "2012-10-25",
+   "entry_into_force": "2012-12-04"
+  },
+  "31987L0372": {
+   "adoption_date": "1987-06-25",
+   "oj_publication_date": "1987-06-25",
+   "entry_into_force": "1987-06-30"
+  },
+  "31998L0006": {
+   "adoption_date": "1998-02-16",
+   "oj_publication_date": "1998-03-25",
+   "entry_into_force": "1998-03-18"
+  },
+  "32018R1807": {
+   "adoption_date": "2018-11-14",
+   "oj_publication_date": "2018-11-28",
+   "entry_into_force": "2018-12-18"
+  },
+  "32021R0784": {
+   "adoption_date": "2021-04-29",
+   "oj_publication_date": "2021-05-17",
+   "entry_into_force": "2021-06-06"
+  },
+  "32022R2554": {
+   "adoption_date": "2022-12-14",
+   "oj_publication_date": "2022-12-27",
+   "entry_into_force": "2023-01-16"
+  },
+  "32021R1232": {
+   "adoption_date": "2021-07-14",
+   "oj_publication_date": "2021-07-30",
+   "entry_into_force": "2021-08-02"
+  },
+  "32024R0900": {
+   "adoption_date": "2024-03-13",
+   "oj_publication_date": "2024-03-20",
+   "entry_into_force": "2024-04-09"
+  },
+  "32024L1799": {
+   "adoption_date": "2024-06-13",
+   "oj_publication_date": "2024-07-10",
+   "entry_into_force": "2024-07-30"
+  },
+  "32024L2831": {
+   "adoption_date": "2024-10-23",
+   "oj_publication_date": "2024-11-11",
+   "entry_into_force": "2024-12-01"
+  },
+  "32024R1252": {
+   "adoption_date": "2024-04-11",
+   "oj_publication_date": "2024-05-03",
+   "entry_into_force": "2024-05-23"
+  },
+  "32025R2509": {
+   "adoption_date": "2025-11-26",
+   "oj_publication_date": "2025-12-12",
+   "entry_into_force": "2026-01-01"
+  },
+  "31993L0013": {
+   "adoption_date": "1993-04-05",
+   "oj_publication_date": "1993-04-21",
+   "entry_into_force": "1993-04-16"
+  },
+  "32005L0029": {
+   "adoption_date": "2005-05-11",
+   "oj_publication_date": "2005-06-16",
+   "entry_into_force": "2005-06-12"
+  },
+  "32019L0789": {
+   "adoption_date": "2019-04-17",
+   "oj_publication_date": "2019-05-17",
+   "entry_into_force": "2019-06-06"
+  },
+  "32019L0770": {
+   "adoption_date": "2019-05-20",
+   "oj_publication_date": "2019-05-22",
+   "entry_into_force": "2019-06-11"
+  },
+  "32023R1114": {
+   "adoption_date": "2023-05-31",
+   "oj_publication_date": "2023-06-09",
+   "entry_into_force": "2023-06-29"
+  },
+  "32022R0858": {
+   "adoption_date": "2022-05-30",
+   "oj_publication_date": "2022-06-02",
+   "entry_into_force": "2022-06-22"
+  },
+  "32021R1153": {
+   "adoption_date": "2021-07-07",
+   "oj_publication_date": "2021-07-14",
+   "entry_into_force": "2021-07-14"
+  },
+  "32022R0868": {
+   "adoption_date": "2022-05-30",
+   "oj_publication_date": "2022-06-03",
+   "entry_into_force": "2022-06-23"
+  },
+  "32024R2847": {
+   "adoption_date": "2024-10-23",
+   "oj_publication_date": "2024-11-20",
+   "entry_into_force": "2024-12-10"
+  },
+  "32025R2518": {
+   "adoption_date": "2025-11-26",
+   "oj_publication_date": "2025-12-12",
+   "entry_into_force": "2026-01-01"
+  },
+  "32024R1028": {
+   "adoption_date": "2024-04-11",
+   "oj_publication_date": "2024-04-29",
+   "entry_into_force": "2024-05-19"
+  },
+  "32004R0139": {
+   "adoption_date": "2004-01-20",
+   "oj_publication_date": "2004-01-30",
+   "entry_into_force": "2004-02-18"
+  },
+  "32001L0029": {
+   "adoption_date": "2001-05-22",
+   "oj_publication_date": "2001-06-25",
+   "entry_into_force": "2001-06-22"
+  },
+  "32014R0910": {
+   "adoption_date": "2014-07-23",
+   "oj_publication_date": "2014-08-28",
+   "entry_into_force": "2014-09-17"
+  },
+  "32025L0516": {
+   "adoption_date": "2025-03-11",
+   "oj_publication_date": "2025-03-25",
+   "entry_into_force": "2025-04-14"
+  },
+  "32016L0680": {
+   "adoption_date": "2016-04-27",
+   "oj_publication_date": "2016-05-04",
+   "entry_into_force": "2016-05-05"
+  },
+  "32021R0887": {
+   "adoption_date": "2021-05-20",
+   "oj_publication_date": "2021-06-08",
+   "entry_into_force": "2021-06-28"
+  },
+  "32023R0988": {
+   "adoption_date": "2023-05-10",
+   "oj_publication_date": "2023-05-23",
+   "entry_into_force": "2023-06-12"
+  },
+  "32022R2560": {
+   "adoption_date": "2022-12-14",
+   "oj_publication_date": "2022-12-23",
+   "entry_into_force": "2023-01-12"
+  },
+  "32023R0588": {
+   "adoption_date": "2023-03-15",
+   "oj_publication_date": "2023-03-17",
+   "entry_into_force": "2023-03-20"
+  },
+  "32024L2823": {
+   "adoption_date": "2024-10-23",
+   "oj_publication_date": "2024-11-18",
+   "entry_into_force": "2024-12-08"
+  },
+  "32010L0013": {
+   "adoption_date": "2010-03-10",
+   "oj_publication_date": "2010-03-10",
+   "entry_into_force": "2010-05-05"
+  },
+  "32014L0030": {
+   "adoption_date": "2014-02-26",
+   "oj_publication_date": "2014-03-29",
+   "entry_into_force": "2014-04-18"
+  },
+  "32000L0031": {
+   "adoption_date": "2000-06-08",
+   "oj_publication_date": "2000-06-08",
+   "entry_into_force": "2000-07-17"
+  },
+  "32002D0676": {
+   "adoption_date": "2002-03-07",
+   "oj_publication_date": "2002-04-25",
+   "entry_into_force": "2002-04-24"
+  },
+  "32016L0943": {
+   "adoption_date": "2016-06-08",
+   "oj_publication_date": "2016-06-15",
+   "entry_into_force": "2016-07-05"
+  },
+  "32019L1024": {
+   "adoption_date": "2019-06-20",
+   "oj_publication_date": "2019-06-26",
+   "entry_into_force": "2019-07-16"
+  },
+  "32024R1624": {
+   "adoption_date": "2024-05-31",
+   "oj_publication_date": "2024-06-19",
+   "entry_into_force": "2024-07-09"
+  },
+  "32024L2853": {
+   "adoption_date": "2024-10-23",
+   "oj_publication_date": "2024-11-18",
+   "entry_into_force": "2024-12-08"
+  },
+  "32024R0903": {
+   "adoption_date": "2024-03-13",
+   "oj_publication_date": "2024-03-22",
+   "entry_into_force": "2024-04-11"
+  },
+  "32024R1083": {
+   "adoption_date": "2024-04-11",
+   "oj_publication_date": "2024-04-17",
+   "entry_into_force": "2024-05-07"
+  },
+  "32014R0316": {
+   "adoption_date": "2014-03-21",
+   "oj_publication_date": "2014-03-28",
+   "entry_into_force": "2014-05-01"
+  },
+  "32011L0016": {
+   "adoption_date": "2011-02-15",
+   "oj_publication_date": "2011-02-15",
+   "entry_into_force": "2011-03-11"
+  },
+  "32015L2366": {
+   "adoption_date": "2015-11-25",
+   "oj_publication_date": "2015-12-23",
+   "entry_into_force": "2016-01-12"
+  },
+  "32014L0055": {
+   "adoption_date": "2014-04-16",
+   "oj_publication_date": "2014-05-06",
+   "entry_into_force": "2014-05-26"
+  },
+  "32023R1067": {
+   "adoption_date": "2023-06-01",
+   "oj_publication_date": "2023-06-02",
+   "entry_into_force": "2023-07-01"
+  },
+  "32019L0790": {
+   "adoption_date": "2019-04-17",
+   "oj_publication_date": "2019-05-17",
+   "entry_into_force": "2019-06-06"
+  },
+  "32018R1724": {
+   "adoption_date": "2018-10-02",
+   "oj_publication_date": "2018-11-21",
+   "entry_into_force": "2018-12-11"
+  },
+  "32021R0241": {
+   "adoption_date": "2021-02-12",
+   "oj_publication_date": "2021-02-18",
+   "entry_into_force": "2021-02-19"
+  },
+  "32021R0523": {
+   "adoption_date": "2021-03-24",
+   "oj_publication_date": "2021-03-26",
+   "entry_into_force": "2021-03-26"
+  },
+  "32023R2854": {
+   "adoption_date": "2023-12-13",
+   "oj_publication_date": "2023-12-22",
+   "entry_into_force": "2024-01-11"
+  },
+  "32024R0795": {
+   "adoption_date": "2024-02-29",
+   "oj_publication_date": "2024-02-29",
+   "entry_into_force": "2024-03-01"
+  },
+  "32006L0112": {
+   "adoption_date": "2006-11-28",
+   "oj_publication_date": "2006-12-12",
+   "entry_into_force": "2007-01-01"
+  },
+  "32009L0048": {
+   "adoption_date": "2009-06-18",
+   "oj_publication_date": "2009-06-18",
+   "entry_into_force": "2009-07-20"
+  },
+  "32021R2085": {
+   "adoption_date": "2021-11-19",
+   "oj_publication_date": "2021-11-30",
+   "entry_into_force": "2021-11-30"
+  },
+  "32016R0679": {
+   "adoption_date": "2016-04-27",
+   "oj_publication_date": "2016-05-04",
+   "entry_into_force": "2016-05-24"
+  },
+  "32017R1128": {
+   "adoption_date": "2017-06-14",
+   "oj_publication_date": "2017-06-30",
+   "entry_into_force": "2017-07-20"
+  },
+  "32019R0881": {
+   "adoption_date": "2019-04-17",
+   "oj_publication_date": "2019-06-07",
+   "entry_into_force": "2019-06-27"
+  },
+  "32019R0817": {
+   "adoption_date": "2019-05-20",
+   "oj_publication_date": "2019-05-22",
+   "entry_into_force": "2019-06-11"
+  },
+  "32024R2747": {
+   "adoption_date": "2024-10-09",
+   "oj_publication_date": "2024-11-08",
+   "entry_into_force": "2024-11-28"
+  },
+  "32024R1309": {
+   "adoption_date": "2024-04-29",
+   "oj_publication_date": "2024-05-08",
+   "entry_into_force": "2024-05-11"
+  },
+  "32025R2645": {
+   "adoption_date": "2025-12-16",
+   "oj_publication_date": "2025-12-30",
+   "entry_into_force": "2026-01-19"
+  },
+  "32014L0053": {
+   "adoption_date": "2014-04-16",
+   "oj_publication_date": "2014-05-22",
+   "entry_into_force": "2014-06-11"
+  },
+  "32022R0720": {
+   "adoption_date": "2022-05-10",
+   "oj_publication_date": "2022-05-11",
+   "entry_into_force": "2022-06-01"
+  },
+  "32018L1972": {
+   "adoption_date": "2018-12-11",
+   "oj_publication_date": "2018-12-17",
+   "entry_into_force": "2018-12-20"
+  },
+  "32017L1132": {
+   "adoption_date": "2017-06-14",
+   "oj_publication_date": "2017-06-30",
+   "entry_into_force": "2017-07-20"
+  },
+  "32022L2555": {
+   "adoption_date": "2022-12-14",
+   "oj_publication_date": "2022-12-27",
+   "entry_into_force": "2023-01-16"
+  },
+  "32018R0302": {
+   "adoption_date": "2018-02-28",
+   "oj_publication_date": "2018-03-02",
+   "entry_into_force": "2018-03-22"
+  },
+  "32018R1725": {
+   "adoption_date": "2018-10-23",
+   "oj_publication_date": "2018-11-21",
+   "entry_into_force": "2018-12-11"
+  },
+  "32019R0452": {
+   "adoption_date": "2019-03-19",
+   "oj_publication_date": "2019-03-21",
+   "entry_into_force": "2019-04-10"
+  },
+  "32022R1925": {
+   "adoption_date": "2022-09-14",
+   "oj_publication_date": "2022-10-12",
+   "entry_into_force": "2022-11-01"
+  },
+  "32024R1735": {
+   "adoption_date": "2024-06-13",
+   "oj_publication_date": "2024-06-28",
+   "entry_into_force": "2024-06-29"
+  },
+  "32023R1781": {
+   "adoption_date": "2023-09-13",
+   "oj_publication_date": "2023-09-18",
+   "entry_into_force": "2023-09-21"
+  },
+  "32023R2841": {
+   "adoption_date": "2023-12-13",
+   "oj_publication_date": "2023-12-18",
+   "entry_into_force": "2024-01-07"
+  },
+  "32002L0058": {
+   "adoption_date": "2002-07-12",
+   "oj_publication_date": "2002-08-01",
+   "entry_into_force": "2002-07-31"
+  },
+  "32004L0048": {
+   "adoption_date": "2004-04-29",
+   "oj_publication_date": "2004-07-08",
+   "entry_into_force": "2004-05-20"
+  },
+  "32011L0083": {
+   "adoption_date": "2011-10-25",
+   "oj_publication_date": "2011-11-22",
+   "entry_into_force": "2011-12-12"
+  },
+  "32024L1385": {
+   "adoption_date": "2024-05-14",
+   "oj_publication_date": "2024-05-24",
+   "entry_into_force": "2024-06-13"
+  },
+  "32017R2394": {
+   "adoption_date": "2017-12-12",
+   "oj_publication_date": "2017-12-27",
+   "entry_into_force": "2018-01-16"
+  },
+  "32023R1230": {
+   "adoption_date": "2023-06-14",
+   "oj_publication_date": "2023-06-29",
+   "entry_into_force": "2023-07-19"
+  },
+  "32024R1781": {
+   "adoption_date": "2024-06-13",
+   "oj_publication_date": "2024-06-28",
+   "entry_into_force": "2024-07-18"
+  },
+  "32025R0038": {
+   "adoption_date": "2024-12-19",
+   "oj_publication_date": "2025-01-15",
+   "entry_into_force": "2025-02-04"
+  },
+  "32009R0223": {
+   "adoption_date": "2009-03-11",
+   "oj_publication_date": "2009-04-02",
+   "entry_into_force": "2009-04-01"
+  },
+  "32015R2120": {
+   "adoption_date": "2015-11-25",
+   "oj_publication_date": "2015-11-26",
+   "entry_into_force": "2015-11-29"
+  },
+  "32019L0713": {
+   "adoption_date": "2019-04-17",
+   "oj_publication_date": "2019-05-10",
+   "entry_into_force": "2019-05-30"
+  },
+  "32021R0690": {
+   "adoption_date": "2021-04-28",
+   "oj_publication_date": "2021-05-03",
+   "entry_into_force": "2021-05-03"
+  },
+  "32019R1150": {
+   "adoption_date": "2019-06-20",
+   "oj_publication_date": "2019-07-11",
+   "entry_into_force": "2019-07-31"
+  },
+  "32023R1543": {
+   "adoption_date": "2023-07-12",
+   "oj_publication_date": "2023-07-28",
+   "entry_into_force": "2023-08-17"
+  },
+  "32022R0612": {
+   "adoption_date": "2022-04-06",
+   "oj_publication_date": "2022-04-13",
+   "entry_into_force": "2022-07-01"
+  },
+  "32002R0006": {
+   "adoption_date": "2001-12-12",
+   "oj_publication_date": "2002-01-09",
+   "entry_into_force": "2002-03-06"
+  },
+  "31993L0083": {
+   "adoption_date": "1993-09-27",
+   "oj_publication_date": "1993-10-06",
+   "entry_into_force": "1993-10-04"
+  },
+  "32023R1066": {
+   "adoption_date": "2023-06-01",
+   "oj_publication_date": "2023-06-02",
+   "entry_into_force": "2023-07-01"
+  },
+  "32019R1020": {
+   "adoption_date": "2019-06-20",
+   "oj_publication_date": "2019-06-25",
+   "entry_into_force": "2019-07-15"
+  },
+  "32023R2844": {
+   "adoption_date": "2023-12-13",
+   "oj_publication_date": "2023-12-27",
+   "entry_into_force": "2024-01-16"
+  },
+  "32022D2481": {
+   "adoption_date": "2022-12-14",
+   "oj_publication_date": "2022-12-19",
+   "entry_into_force": "2023-01-08"
+  },
+  "32024R1689": {
+   "adoption_date": "2024-06-13",
+   "oj_publication_date": "2024-07-12",
+   "entry_into_force": "2024-08-01"
+  },
+  "31996L0009": {
+   "adoption_date": "1996-03-11",
+   "oj_publication_date": "1996-03-27",
+   "entry_into_force": "1996-04-16"
+  },
+  "32021R1173": {
+   "adoption_date": "2021-07-13",
+   "oj_publication_date": "2021-07-19",
+   "entry_into_force": "2021-08-08"
+  }
+ },
+ "amendments": [
+  {
+   "parent": "32006L0112",
+   "celex": "32009L0047",
+   "kind": "amendment",
+   "date": "2009-05-05",
+   "title": "Council Directive 2009/47/EC of 5\u00a0May 2009 amending Directive 2006/112/EC as regards reduced rates of value added tax"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32009L0162",
+   "kind": "amendment",
+   "date": "2009-12-22",
+   "title": "Council Directive 2009/162/EU of 22\u00a0December 2009 amending various provisions of Directive 2006/112/EC on the common system of value added tax"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32007L0075",
+   "kind": "amendment",
+   "date": "2007-12-20",
+   "title": "Council Directive 2007/75/EC of 20 December 2007 amending Directive 2006/112/EC with regard to certain temporary provisions concerning rates of value added tax"
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32014L0081",
+   "kind": "amendment",
+   "date": "2014-06-23",
+   "title": "Commission Directive 2014/81/EU of 23 June 2014 amending Appendix C of Annex II to Directive 2009/48/EC of the European Parliament and of the Council on the safety of toys, as regards bisphenol A  Text with EEA relevance"
+  },
+  {
+   "parent": "32012R1025",
+   "celex": "32013L0029",
+   "kind": "amendment",
+   "date": "2013-06-12",
+   "title": "Directive 2013/29/EU of the European Parliament and of the Council of 12\u00a0June 2013 on the harmonisation of the laws of the Member States relating to the making available on the market of pyrotechnic articles (recast)  Text with EEA relevance"
+  },
+  {
+   "parent": "32012R1025",
+   "celex": "32014L0031",
+   "kind": "amendment",
+   "date": "2014-02-26",
+   "title": "Directive 2014/31/EU of the European Parliament and of the Council of 26\u00a0February 2014 on the harmonisation of the laws of the Member States relating to the making available on the market of non-automatic weighing instruments (recast)  Text with EEA relevance"
+  },
+  {
+   "parent": "32012R1025",
+   "celex": "32014L0033",
+   "kind": "amendment",
+   "date": "2014-02-26",
+   "title": "Directive 2014/33/EU of the European Parliament and of the Council of 26\u00a0February 2014 on the harmonisation of the laws of the Member States relating to lifts and safety components for lifts (recast)  Text with EEA relevance"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32010L0023",
+   "kind": "amendment",
+   "date": "2010-03-16",
+   "title": "Council Directive 2010/23/EU of 16\u00a0March 2010 amending Directive 2006/112/EC on the common system of value added tax, as regards an optional and temporary application of the reverse charge mechanism in relation to supplies of certain services susceptible to fraud"
+  },
+  {
+   "parent": "32002L0058",
+   "celex": "32009L0136",
+   "kind": "amendment",
+   "date": "2009-11-25",
+   "title": "Directive 2009/136/EC of the European Parliament and of the Council of 25 November 2009 amending Directive 2002/22/EC on universal service and users\u2019 rights relating to electronic communications networks and services, Directive 2002/58/EC concerning the processing of personal data and the protection of privacy in the electronic communications sector and Regulation (EC) No 2006/2004 on cooperation between national authorities responsible for the enforcement of consumer protection laws (Text with EEA relevance)"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32018L0912",
+   "kind": "amendment",
+   "date": "2018-06-22",
+   "title": "Council Directive (EU) 2018/912 of 22 June 2018 amending Directive 2006/112/EC on the common system of value added tax as regards the obligation to respect a minimum standard rate"
+  },
+  {
+   "parent": "32010L0013",
+   "celex": "32018L1808",
+   "kind": "amendment",
+   "date": "2018-11-14",
+   "title": "Directive (EU) 2018/1808 of the European Parliament and of the Council of 14 November 2018 amending Directive 2010/13/EU on the coordination of certain provisions laid down by law, regulation or administrative action in Member States concerning the provision of audiovisual media services (Audiovisual Media Services Directive) in view of changing market realities"
+  },
+  {
+   "parent": "32001L0029",
+   "celex": "32019L0790",
+   "kind": "amendment",
+   "date": "2019-04-17",
+   "title": "Directive (EU) 2019/790 of the European Parliament and of the Council of 17 April 2019 on copyright and related rights in the Digital Single Market and amending Directives 96/9/EC and 2001/29/EC (Text with EEA relevance.)"
+  },
+  {
+   "parent": "32009R0223",
+   "celex": "32015R0759",
+   "kind": "amendment",
+   "date": "2015-04-29",
+   "title": "Regulation (EU) 2015/759 of the European Parliament and of the Council of 29 April 2015 amending Regulation (EC) No 223/2009 on European statistics (Text with relevance for the EEA and Switzerland)"
+  },
+  {
+   "parent": "32012R1025",
+   "celex": "32014L0032",
+   "kind": "amendment",
+   "date": "2014-02-26",
+   "title": "Directive 2014/32/EU of the European Parliament and of the Council of 26\u00a0February 2014 on the harmonisation of the laws of the Member States relating to the making available on the market of measuring instruments (recast)  Text with EEA relevance"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32009D1008",
+   "kind": "amendment",
+   "date": "2009-12-07",
+   "title": "Council Implementing Decision of 7\u00a0December 2009 authorising the Republic of Latvia to extend the application of a measure derogating from Article 193 of Directive 2006/112/EC on the common system of value added tax"
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32012L0007",
+   "kind": "amendment",
+   "date": "2012-03-02",
+   "title": "Commission Directive 2012/7/EU of 2\u00a0March 2012 amending, for the purpose of adaptation to technical progress, part III of Annex II to Directive 2009/48/EC of the European Parliament and of the Council relating to toy safety  Text with EEA relevance"
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32015L2116",
+   "kind": "amendment",
+   "date": "2015-11-23",
+   "title": "Commission Directive (EU) 2015/2116 of 23 November 2015 amending, for the purpose of adopting specific limit values for chemicals used in toys, Appendix C to Annex II to Directive 2009/48/EC of the European Parliament and of the Council on the safety of toys, as regards benzisothiazolinone (Text with EEA relevance)"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32021L1159",
+   "kind": "amendment",
+   "date": "2021-07-13",
+   "title": "Council Directive (EU) 2021/1159 of 13\u00a0July 2021 amending Directive 2006/112/EC as regards temporary exemptions on importations and on certain supplies, in response to the COVID-19 pandemic"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32018L1910",
+   "kind": "amendment",
+   "date": "2018-12-04",
+   "title": "Council Directive (EU) 2018/1910 of 4 December 2018 amending Directive 2006/112/EC as regards the harmonisation and simplification of certain rules in the value added tax system for the taxation of trade between Member States"
+  },
+  {
+   "parent": "32009R0223",
+   "celex": "32024R3018",
+   "kind": "amendment",
+   "date": "2024-11-27",
+   "title": "Regulation (EU) 2024/3018 of the European Parliament and of the Council of 27 November 2024 amending Regulation (EC) No 223/2009 on European statistics (Text with EEA relevance)"
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32006R1891",
+   "kind": "amendment",
+   "date": "2006-12-18",
+   "title": "Council Regulation (EC) No 1891/2006 of 18\u00a0December 2006 amending Regulations\u00a0(EC) No\u00a06/2002 and\u00a0(EC) No\u00a040/94 to give effect to the accession of the European Community to the Geneva Act of the Hague Agreement concerning the international registration of industrial designs"
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32014L0079",
+   "kind": "amendment",
+   "date": "2014-06-20",
+   "title": "Commission Directive 2014/79/EU of 20 June 2014 amending Appendix C of Annex II to Directive 2009/48/EC of the European Parliament and of the Council on the safety of toys, as regards TCEP, TCPP and TDCP  Text with EEA relevance"
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32014L0084",
+   "kind": "amendment",
+   "date": "2014-06-30",
+   "title": "Commission Directive 2014/84/EU of 30 June 2014 amending Appendix A of Annex II to Directive 2009/48/EC of the European Parliament and of the Council on the safety of toys, as regards nickel  Text with EEA relevance"
+  },
+  {
+   "parent": "31993L0013",
+   "celex": "32019L2161",
+   "kind": "amendment",
+   "date": "2019-11-27",
+   "title": "Directive (EU) 2019/2161 of the European Parliament and of the Council of 27 November 2019 amending Council Directive 93/13/EEC and Directives 98/6/EC, 2005/29/EC and 2011/83/EU of the European Parliament and of the Council as regards the better enforcement and modernisation of Union consumer protection rules (Text with EEA relevance)"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32020L1756",
+   "kind": "amendment",
+   "date": "2020-11-20",
+   "title": "Council Directive (EU) 2020/1756 of 20 November 2020 amending Directive 2006/112/EC on the common system of value added tax as regards the identification of taxable persons in Northern Ireland"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32018L2057",
+   "kind": "amendment",
+   "date": "2018-12-20",
+   "title": "Council Directive (EU) 2018/2057 of 20 December 2018 amending Directive 2006/112/EC on the common system of value added tax as regards the temporary application of a generalised reverse charge mechanism in relation to supplies of goods and services above a certain threshold"
+  },
+  {
+   "parent": "32012R1025",
+   "celex": "32023R0988",
+   "kind": "amendment",
+   "date": "2023-05-10",
+   "title": "Regulation (EU) 2023/988 of the European Parliament and of the Council of 10\u00a0May 2023 on general product safety, amending Regulation (EU) No\u00a01025/2012 of the European Parliament and of the Council and Directive (EU)\u00a02020/1828 of the European Parliament and the Council, and repealing Directive\u00a02001/95/EC of the European Parliament and of the Council and Council Directive\u00a087/357/EEC (Text with EEA relevance)"
+  },
+  {
+   "parent": "32011L0083",
+   "celex": "32024L0825",
+   "kind": "amendment",
+   "date": "2024-02-28",
+   "title": "Directive (EU) 2024/825 of the European Parliament and of the Council of 28\u00a0February 2024 amending Directives\u00a02005/29/EC and\u00a02011/83/EU as regards empowering consumers for the green transition through better protection against unfair practices and through better information (Text with EEA relevance)"
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32017L0774",
+   "kind": "amendment",
+   "date": "2017-05-03",
+   "title": "Commission Directive (EU) 2017/774 of 3 May 2017 amending, for the purpose of adopting specific limit values for chemicals used in toys, Appendix C to Annex II to Directive 2009/48/EC of the European Parliament and of the Council on the safety of toys, as regards phenol (Text with EEA relevance. )"
+  },
+  {
+   "parent": "31993L0013",
+   "celex": "32011L0083",
+   "kind": "amendment",
+   "date": "2011-10-25",
+   "title": "Directive 2011/83/EU of the European Parliament and of the Council of 25\u00a0October 2011 on consumer rights, amending Council Directive 93/13/EEC and Directive 1999/44/EC of the European Parliament and of the Council and repealing Council Directive 85/577/EEC and Directive 97/7/EC of the European Parliament and of the Council Text with EEA relevance"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32022L0890",
+   "kind": "amendment",
+   "date": "2022-06-03",
+   "title": "Council Directive (EU) 2022/890 of 3\u00a0June 2022 amending Directive 2006/112/EC as regards the extension of the application period of the optional reverse charge mechanism in relation to supplies of certain goods and services susceptible to fraud and of the Quick Reaction Mechanism against VAT fraud"
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32019L1922",
+   "kind": "amendment",
+   "date": "2019-11-18",
+   "title": "Commission Directive (EU) 2019/1922 of 18 November 2019 amending, for the purposes of adaptation to technical and scientific developments, point 13 of part III of Annex II to Directive 2009/48/EC of the European Parliament and of the Council on the safety of toys, as regards aluminium (Text with EEA relevance)"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32025L0425",
+   "kind": "amendment",
+   "date": "2025-02-18",
+   "title": "Council Directive (EU) 2025/425 of 18 February 2025 amending Directive 2006/112/EC as regards the electronic value added tax exemption certificate"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32025L1539",
+   "kind": "amendment",
+   "date": "2025-07-18",
+   "title": "Council Directive (EU) 2025/1539 of 18 July 2025 amending Directive 2006/112/EC as regards VAT rules relating to taxable persons who facilitate distance sales of imported goods and the application of the special scheme for distance sales of goods imported from third territories or third countries and special arrangements for declaration and payment of import VAT"
+  },
+  {
+   "parent": "32012R1025",
+   "celex": "32014L0034",
+   "kind": "amendment",
+   "date": "2014-02-26",
+   "title": "Directive 2014/34/EU of the European Parliament and of the Council of 26\u00a0February 2014 on the harmonisation of the laws of the Member States relating to equipment and protective systems intended for use in potentially explosive atmospheres (recast)  Text with EEA relevance"
+  },
+  {
+   "parent": "32011L0083",
+   "celex": "32015L2302",
+   "kind": "amendment",
+   "date": "2015-11-25",
+   "title": "Directive (EU) 2015/2302 of the European Parliament and of the Council of 25 November 2015 on package travel and linked travel arrangements, amending Regulation (EC) No 2006/2004 and Directive 2011/83/EU of the European Parliament and of the Council and repealing Council Directive 90/314/EEC"
+  },
+  {
+   "parent": "32011L0016",
+   "celex": "32016L0881",
+   "kind": "amendment",
+   "date": "2016-05-25",
+   "title": "Council Directive (EU) 2016/881 of 25 May 2016 amending Directive 2011/16/EU as regards mandatory automatic exchange of information in the field of taxation"
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32015L2117",
+   "kind": "amendment",
+   "date": "2015-11-23",
+   "title": "Commission Directive (EU) 2015/2117 of 23 November 2015 amending, for the purpose of adopting specific limit values for chemicals used in toys, Appendix C to Annex II to Directive 2009/48/EC of the European Parliament and of the Council on the safety of toys, as regards chloromethylisothiazolinone and methylisothiazolinone, both individually and in a ratio of 3:1 (Text with EEA relevance)"
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32017L0738",
+   "kind": "amendment",
+   "date": "2017-03-27",
+   "title": "Council Directive (EU) 2017/738 of 27 March 2017 amending, for the purpose of adapting to technical progress, Annex II to Directive 2009/48/EC of the European Parliament and of the Council on the safety of toys, as regards lead (Text with EEA relevance. )"
+  },
+  {
+   "parent": "32011L0083",
+   "celex": "32019L2161",
+   "kind": "amendment",
+   "date": "2019-11-27",
+   "title": "Directive (EU) 2019/2161 of the European Parliament and of the Council of 27 November 2019 amending Council Directive 93/13/EEC and Directives 98/6/EC, 2005/29/EC and 2011/83/EU of the European Parliament and of the Council as regards the better enforcement and modernisation of Union consumer protection rules (Text with EEA relevance)"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32020L0284",
+   "kind": "amendment",
+   "date": "2020-02-18",
+   "title": "Council Directive (EU) 2020/284 of 18 February 2020 amending Directive 2006/112/EC as regards introducing certain requirements for payment service providers"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32020L0285",
+   "kind": "amendment",
+   "date": "2020-02-18",
+   "title": "Council Directive (EU) 2020/285 of 18 February 2020 amending Directive 2006/112/EC on the common system of value added tax as regards the special scheme for small enterprises and Regulation (EU) No 904/2010 as regards the administrative cooperation and exchange of information for the purpose of monitoring the correct application of the special scheme for small enterprises"
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32020L2088",
+   "kind": "amendment",
+   "date": "2020-12-11",
+   "title": "Commission Directive (EU) 2020/2088 of 11 December 2020 amending Annex II to Directive 2009/48/EC of the European Parliament and of the Council as regards the labelling of allergenic fragrances in toys (Text with EEA relevance)"
+  },
+  {
+   "parent": "32010L0013",
+   "celex": "32024R1083",
+   "kind": "amendment",
+   "date": "2024-04-11",
+   "title": "Regulation (EU) 2024/1083 of the European Parliament and of the Council of 11 April 2024 establishing a common framework for media services in the internal market and amending Directive 2010/13/EU (European Media Freedom Act) (Text with EEA relevance)"
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32024R2822",
+   "kind": "amendment",
+   "date": "2024-10-23",
+   "title": "Regulation (EU) 2024/2822 of the European Parliament and of the Council of 23 October 2024 amending Council Regulation (EC) No 6/2002 on Community designs and repealing Commission Regulation (EC) No 2246/2002 (Text with EEA relevance)"
+  },
+  {
+   "parent": "32002L0058",
+   "celex": "32006L0024",
+   "kind": "amendment",
+   "date": "2006-03-15",
+   "title": "Directive 2006/24/EC of the European Parliament and of the Council of  15\u00a0March 2006  on the retention of data generated or processed in connection with the provision of publicly available electronic communications services or of public communications networks and amending Directive 2002/58/EC"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32010L0045",
+   "kind": "amendment",
+   "date": "2010-07-13",
+   "title": "Council Directive 2010/45/EU of 13\u00a0July 2010 amending Directive 2006/112/EC on the common system of value added tax as regards the rules on invoicing"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32013L0042",
+   "kind": "amendment",
+   "date": "2013-07-22",
+   "title": "Council Directive 2013/42/EU of 22\u00a0July 2013 amending Directive 2006/112/EC on the common system of value added tax, as regards a Quick Reaction Mechanism against VAT fraud"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32009L0069",
+   "kind": "amendment",
+   "date": "2009-06-25",
+   "title": "Council Directive 2009/69/EC of 25\u00a0June 2009 amending Directive 2006/112/EC on the common system of value added tax as regards tax evasion linked to imports"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32022L0542",
+   "kind": "amendment",
+   "date": "2022-04-05",
+   "title": "Council Directive (EU) 2022/542 of 5\u00a0April 2022 amending Directives 2006/112/EC and (EU) 2020/285 as regards rates of value added tax"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32010L0088",
+   "kind": "amendment",
+   "date": "2010-12-07",
+   "title": "Council Directive 2010/88/EU of 7\u00a0December 2010 amending Directive 2006/112/EC on the common system of value added tax, with regard to the duration of the obligation to respect a minimum standard rate"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32013L0043",
+   "kind": "amendment",
+   "date": "2013-07-22",
+   "title": "Council Directive 2013/43/EU of 22\u00a0July 2013 amending Directive 2006/112/EC on the common system of value added tax, as regards an optional and temporary application of the reverse charge mechanism in relation to supplies of certain goods and services susceptible to fraud"
+  },
+  {
+   "parent": "32011L0016",
+   "celex": "32025L0872",
+   "kind": "amendment",
+   "date": "2025-04-14",
+   "title": "Council Directive (EU) 2025/872 of 14 April 2025 amending Directive 2011/16/EU on administrative cooperation in the field of taxation"
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32026L0192",
+   "kind": "amendment",
+   "date": "2026-01-28",
+   "title": "Commission Directive (EU) 2026/192 of 28\u00a0January 2026 amending Appendix A of Annex\u00a0II to Directive\u00a02009/48/EC of the European Parliament and of the Council on the safety of toys, as regards cobalt"
+  },
+  {
+   "parent": "32012R1025",
+   "celex": "32013L0053",
+   "kind": "amendment",
+   "date": "2013-11-20",
+   "title": "Directive 2013/53/EU of the European Parliament and of the Council of 20\u00a0November 2013 on recreational craft and personal watercraft and repealing Directive 94/25/EC  Text with EEA relevance"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32008L0008",
+   "kind": "amendment",
+   "date": "2008-02-12",
+   "title": "Council Directive 2008/8/EC of 12 February 2008 amending Directive 2006/112/EC as regards the place of supply of services"
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32017L0898",
+   "kind": "amendment",
+   "date": "2017-05-24",
+   "title": "Commission Directive (EU) 2017/898 of 24 May 2017 amending, for the purpose of adopting specific limit values for chemicals used in toys, Appendix C to Annex II to Directive 2009/48/EC of the European Parliament and of the Council on the safety of toys, as regards bisphenol A (Text with EEA relevance. )"
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32018L0725",
+   "kind": "amendment",
+   "date": "2018-05-16",
+   "title": "Commission Directive (EU) 2018/725 of 16 May 2018 amending, for the purpose of adaptation to technical and scientific developments, point 13 of part III of Annex II to Directive 2009/48/EC of the European Parliament and of the Council on the safety of toys, as regards chromium VI"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32018L1695",
+   "kind": "amendment",
+   "date": "2018-11-06",
+   "title": "Council Directive (EU) 2018/1695 of 6 November 2018 amending Directive 2006/112/EC on the common system of value added tax as regards the period of application of the optional reverse charge mechanism in relation to supplies of certain goods and services susceptible to fraud and of the Quick Reaction Mechanism against VAT fraud"
+  },
+  {
+   "parent": "32011L0016",
+   "celex": "32020L0876",
+   "kind": "amendment",
+   "date": "2020-06-24",
+   "title": "Council Directive (EU) 2020/876 of 24 June 2020 amending Directive 2011/16/EU to address the urgent need to defer certain time limits for the filing and exchange of information in the field of taxation because of the COVID-19 pandemic"
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32019L1929",
+   "kind": "amendment",
+   "date": "2019-11-19",
+   "title": "Commission Directive (EU) 2019/1929 of 19 November 2019 amending Appendix C to Annex II to Directive 2009/48/EC of the European Parliament and of the Council for the purpose of adopting specific limit values for chemicals used in certain toys, as regards formaldehyde (Text with EEA relevance)"
+  },
+  {
+   "parent": "31998L0006",
+   "celex": "32019L2161",
+   "kind": "amendment",
+   "date": "2019-11-27",
+   "title": "Directive (EU) 2019/2161 of the European Parliament and of the Council of 27 November 2019 amending Council Directive 93/13/EEC and Directives 98/6/EC, 2005/29/EC and 2011/83/EU of the European Parliament and of the Council as regards the better enforcement and modernisation of Union consumer protection rules (Text with EEA relevance)"
+  },
+  {
+   "parent": "32012R1025",
+   "celex": "32022R2480",
+   "kind": "amendment",
+   "date": "2022-12-14",
+   "title": "Regulation (EU) 2022/2480 of the European Parliament and of the Council of 14\u00a0December 2022 amending Regulation (EU) No\u00a01025/2012 as regards decisions of European standardisation organisations concerning European standards and European standardisation deliverables (Text with EEA relevance)"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32008L0117",
+   "kind": "amendment",
+   "date": "2008-12-16",
+   "title": "Council Directive 2008/117/EC of 16\u00a0December 2008 amending Directive 2006/112/EC on the common system of value added tax to combat tax evasion connected with intra-Community transactions"
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32013R0681",
+   "kind": "amendment",
+   "date": "2013-07-17",
+   "title": "Commission Regulation (EU) No\u00a0681/2013 of 17\u00a0July 2013 amending part III of Annex II to Directive 2009/48/EC of the European Parliament and of the Council on the safety of toys  Text with EEA relevance"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32013L0061",
+   "kind": "amendment",
+   "date": "2013-12-17",
+   "title": "Council Directive 2013/61/EU of 17\u00a0December 2013 amending Directives 2006/112/EC and 2008/118/EC as regards the French outermost regions and Mayotte in particular"
+  },
+  {
+   "parent": "32012R1025",
+   "celex": "32014L0068",
+   "kind": "amendment",
+   "date": "2014-05-15",
+   "title": "Directive 2014/68/EU of the European Parliament and of the Council of 15\u00a0May 2014 on the harmonisation of the laws of the Member States relating to the making available on the market of pressure equipment (recast)  Text with EEA relevance"
+  },
+  {
+   "parent": "32012R1025",
+   "celex": "32014L0029",
+   "kind": "amendment",
+   "date": "2014-02-26",
+   "title": "Directive 2014/29/EU of the European Parliament and of the Council of 26\u00a0February 2014 on the harmonisation of the laws of the Member States relating to the making available on the market of simple pressure vessels (recast)  Text with EEA relevance"
+  },
+  {
+   "parent": "32011L0016",
+   "celex": "32016L2258",
+   "kind": "amendment",
+   "date": "2016-12-06",
+   "title": "Council Directive (EU) 2016/2258 of 6 December 2016 amending Directive 2011/16/EU as regards access to anti-money-laundering information by tax authorities"
+  },
+  {
+   "parent": "32011L0016",
+   "celex": "32018L0822",
+   "kind": "amendment",
+   "date": "2018-05-25",
+   "title": "Council Directive (EU) 2018/822 of 25 May 2018 amending Directive 2011/16/EU as regards mandatory automatic exchange of information in the field of taxation in relation to reportable cross-border arrangements"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32017L2455",
+   "kind": "amendment",
+   "date": "2017-12-05",
+   "title": "Council Directive (EU) 2017/2455 of 5 December 2017 amending Directive 2006/112/EC and Directive 2009/132/EC as regards certain value added tax obligations for supplies of services and distance sales of goods"
+  },
+  {
+   "parent": "32005L0029",
+   "celex": "32019L2161",
+   "kind": "amendment",
+   "date": "2019-11-27",
+   "title": "Directive (EU) 2019/2161 of the European Parliament and of the Council of 27 November 2019 amending Council Directive 93/13/EEC and Directives 98/6/EC, 2005/29/EC and 2011/83/EU of the European Parliament and of the Council as regards the better enforcement and modernisation of Union consumer protection rules (Text with EEA relevance)"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32025L0516",
+   "kind": "amendment",
+   "date": "2025-03-11",
+   "title": "Council Directive (EU) 2025/516 of 11 March 2025 amending Directive 2006/112/EC as regards VAT rules for the digital age"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32020L2020",
+   "kind": "amendment",
+   "date": "2020-12-07",
+   "title": "Council Directive (EU) 2020/2020 of 7 December 2020 amending Directive 2006/112/EC as regards temporary measures in relation to value added tax applicable to COVID-19 vaccines and in vitro diagnostic medical devices in response to the COVID-19 pandemic"
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32020L2089",
+   "kind": "amendment",
+   "date": "2020-12-11",
+   "title": "Commission Directive (EU) 2020/2089 of 11 December 2020 amending Annex II to Directive 2009/48/EC of the European Parliament and of the Council as regards the prohibition of allergenic fragrances in toys (Text with EEA relevance)"
+  },
+  {
+   "parent": "32012R1025",
+   "celex": "32014L0028",
+   "kind": "amendment",
+   "date": "2014-02-26",
+   "title": "Directive 2014/28/EU of the European Parliament and of the Council of 26\u00a0February 2014 on the harmonisation of the laws of the Member States relating to the making available on the market and supervision of explosives for civil uses (recast)  Text with EEA relevance"
+  },
+  {
+   "parent": "32001L0029",
+   "celex": "32017L1564",
+   "kind": "amendment",
+   "date": "2017-09-13",
+   "title": "Directive (EU) 2017/1564 of the European Parliament and of the Council of 13 September 2017 on certain permitted uses of certain works and other subject matter protected by copyright and related rights for the benefit of persons who are blind, visually impaired or otherwise print-disabled and amending Directive 2001/29/EC on the harmonisation of certain aspects of copyright and related rights in the information society"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32016L1065",
+   "kind": "amendment",
+   "date": "2016-06-27",
+   "title": "Council Directive (EU) 2016/1065 of 27 June 2016 amending Directive 2006/112/EC as regards the treatment of vouchers"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32019L0475",
+   "kind": "amendment",
+   "date": "2019-02-18",
+   "title": "Council Directive (EU) 2019/475 of 18 February 2019 amending Directives 2006/112/EC and 2008/118/EC as regards the inclusion of the Italian municipality of Campione d'Italia and the Italian waters of Lake Lugano in the customs territory of the Union and in the territorial application of Directive 2008/118/EC"
+  },
+  {
+   "parent": "31996L0009",
+   "celex": "32019L0790",
+   "kind": "amendment",
+   "date": "2019-04-17",
+   "title": "Directive (EU) 2019/790 of the European Parliament and of the Council of 17 April 2019 on copyright and related rights in the Digital Single Market and amending Directives 96/9/EC and 2001/29/EC (Text with EEA relevance.)"
+  },
+  {
+   "parent": "31993L0083",
+   "celex": "32019L0789",
+   "kind": "amendment",
+   "date": "2019-04-17",
+   "title": "Directive (EU) 2019/789 of the European Parliament and of the Council of 17 April 2019 laying down rules on the exercise of copyright and related rights applicable to certain online transmissions of broadcasting organisations and retransmissions of television and radio programmes, and amending Council Directive 93/83/EEC (Text with EEA relevance.)"
+  },
+  {
+   "parent": "32011L0016",
+   "celex": "32014L0107",
+   "kind": "amendment",
+   "date": "2014-12-09",
+   "title": "Council Directive 2014/107/EU of 9 December 2014 amending Directive 2011/16/EU as regards mandatory automatic exchange of information in the field of taxation"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0138",
+   "kind": "amendment",
+   "date": "2006-12-19",
+   "title": "Council Directive 2006/138/EC of 19 December 2006 amending Directive 2006/112/EC on the common system of value added tax as regards the period of application of the value added tax arrangements applicable to radio and television broadcasting services and certain electronically supplied services"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32018L1713",
+   "kind": "amendment",
+   "date": "2018-11-06",
+   "title": "Council Directive (EU) 2018/1713 of 6 November 2018 amending Directive 2006/112/EC as regards rates of value added tax applied to books, newspapers and periodicals"
+  },
+  {
+   "parent": "32011L0016",
+   "celex": "32015L2376",
+   "kind": "amendment",
+   "date": "2015-12-08",
+   "title": "Council Directive (EU) 2015/2376 of 8 December 2015 amending Directive 2011/16/EU as regards mandatory automatic exchange of information in the field of taxation"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32019L1995",
+   "kind": "amendment",
+   "date": "2019-11-21",
+   "title": "Council Directive (EU) 2019/1995 of 21 November 2019 amending Directive 2006/112/EC as regards provisions relating to distance sales of goods and certain domestic supplies of goods"
+  },
+  {
+   "parent": "32011L0016",
+   "celex": "32021L0514",
+   "kind": "amendment",
+   "date": "2021-03-22",
+   "title": "Council Directive (EU) 2021/514 of 22\u00a0March 2021 amending Directive 2011/16/EU on administrative cooperation in the field of taxation"
+  },
+  {
+   "parent": "32000L0031",
+   "celex": "32022R2065",
+   "kind": "amendment",
+   "date": "2022-10-19",
+   "title": "Regulation (EU) 2022/2065 of the European Parliament and of the Council of 19\u00a0October 2022 on a Single Market For Digital Services and amending Directive\u00a02000/31/EC (Digital Services Act) (Text with EEA relevance)"
+  },
+  {
+   "parent": "31987L0372",
+   "celex": "32009L0114",
+   "kind": "amendment",
+   "date": "2009-09-16",
+   "title": "Directive 2009/114/EC of the European Parliament and of the Council of 16 September 2009 amending Council Directive 87/372/EEC on the frequency bands to be reserved for the coordinated introduction of public pan-European cellular digital land-based mobile communications in the Community (Text with EEA relevance)"
+  },
+  {
+   "parent": "32012R1025",
+   "celex": "32015L1535",
+   "kind": "amendment",
+   "date": "2015-09-09",
+   "title": "Directive (EU) 2015/1535 of the European Parliament and of the Council of 9 September 2015 laying down a procedure for the provision of information in the field of technical regulations and of rules on Information Society services (codification) (Text with EEA relevance)"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32016L0856",
+   "kind": "amendment",
+   "date": "2016-05-25",
+   "title": "Council Directive (EU) 2016/856 of 25 May 2016 amending Directive 2006/112/EC on the common system of value added tax, as regards the duration of the obligation to respect a minimum standard rate"
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32015L2115",
+   "kind": "amendment",
+   "date": "2015-11-23",
+   "title": "Commission Directive (EU) 2015/2115 of 23 November 2015 amending, for the purpose of adopting specific limit values for chemicals used in toys, Appendix C to Annex II to Directive 2009/48/EC of the European Parliament and of the Council on the safety of toys, as regards formamide (Text with EEA relevance)"
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32021L0903",
+   "kind": "amendment",
+   "date": "2021-06-03",
+   "title": "Commission Directive (EU) 2021/903 of 3\u00a0June 2021 amending Directive 2009/48/EC of the European Parliament and of the Council as regards specific limit values for aniline in certain toys (Text with EEA relevance)"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32019L2235",
+   "kind": "amendment",
+   "date": "2019-12-16",
+   "title": "Council Directive (EU) 2019/2235 of 16 December 2019 amending Directive 2006/112/EC on the common system of value added tax and Directive 2008/118/EC concerning the general arrangements for excise duty as regards defence efforts within the Union framework"
+  },
+  {
+   "parent": "32011L0016",
+   "celex": "32023L2226",
+   "kind": "amendment",
+   "date": "2023-10-17",
+   "title": "Council Directive (EU) 2023/2226 of 17\u00a0October 2023 amending Directive\u00a02011/16/EU on administrative cooperation in the field of taxation"
+  },
+  {
+   "parent": "32011L0083",
+   "celex": "32023L2673",
+   "kind": "amendment",
+   "date": "2023-11-22",
+   "title": "Directive (EU) 2023/2673 of the European Parliament and of the Council of 22\u00a0November 2023 amending Directive\u00a02011/83/EU as regards financial services contracts concluded at a distance and repealing Directive\u00a02002/65/EC (Text with EEA relevance)"
+  },
+  {
+   "parent": "32005L0029",
+   "celex": "32024L0825",
+   "kind": "amendment",
+   "date": "2024-02-28",
+   "title": "Directive (EU) 2024/825 of the European Parliament and of the Council of 28\u00a0February 2024 amending Directives\u00a02005/29/EC and\u00a02011/83/EU as regards empowering consumers for the green transition through better protection against unfair practices and through better information (Text with EEA relevance)"
+  },
+  {
+   "parent": "32004L0048",
+   "celex": "32004L0048R(02)",
+   "kind": "corrigendum",
+   "date": "2004-11-26",
+   "title": ""
+  },
+  {
+   "parent": "32011L0083",
+   "celex": "32011L0083R(01)",
+   "kind": "corrigendum",
+   "date": "2014-11-08",
+   "title": ""
+  },
+  {
+   "parent": "32005L0029",
+   "celex": "32005L0029R(02)",
+   "kind": "corrigendum",
+   "date": "2009-09-25",
+   "title": ""
+  },
+  {
+   "parent": "32001L0029",
+   "celex": "32001L0029R(08)",
+   "kind": "corrigendum",
+   "date": "2016-06-25",
+   "title": ""
+  },
+  {
+   "parent": "32011L0016",
+   "celex": "32011L0016R(01)",
+   "kind": "corrigendum",
+   "date": "2012-02-23",
+   "title": ""
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32002R0006R(05)",
+   "kind": "corrigendum",
+   "date": "2017-03-01",
+   "title": ""
+  },
+  {
+   "parent": "32011L0083",
+   "celex": "32011L0083R(04)",
+   "kind": "corrigendum",
+   "date": "2019-10-24",
+   "title": ""
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32002R0006R(10)",
+   "kind": "corrigendum",
+   "date": "2023-03-09",
+   "title": ""
+  },
+  {
+   "parent": "32004R0139",
+   "celex": "32004R0139R(07)",
+   "kind": "corrigendum",
+   "date": "2023-09-28",
+   "title": ""
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32009L0048R(01)",
+   "kind": "corrigendum",
+   "date": "2013-12-31",
+   "title": "Corrigendum to Directive 2009/48/EC of the European Parliament and of the Council of 18\u00a0June 2009 on the safety of toys ( OJ L 170, 30.6.2009 )"
+  },
+  {
+   "parent": "32001L0029",
+   "celex": "32001L0029R(05)",
+   "kind": "corrigendum",
+   "date": "2010-10-06",
+   "title": ""
+  },
+  {
+   "parent": "32002L0058",
+   "celex": "32002L0058R(02)",
+   "kind": "corrigendum",
+   "date": "2014-10-04",
+   "title": ""
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32002R0006R(04)",
+   "kind": "corrigendum",
+   "date": "2016-12-02",
+   "title": ""
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(15)",
+   "kind": "corrigendum",
+   "date": "2018-09-19",
+   "title": ""
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32002R0006R(07)",
+   "kind": "corrigendum",
+   "date": "2019-05-29",
+   "title": ""
+  },
+  {
+   "parent": "31993L0013",
+   "celex": "31993L0013R(05)",
+   "kind": "corrigendum",
+   "date": "2018-06-19",
+   "title": ""
+  },
+  {
+   "parent": "31993L0013",
+   "celex": "31993L0013R(06)",
+   "kind": "corrigendum",
+   "date": "2019-08-16",
+   "title": ""
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(16)",
+   "kind": "corrigendum",
+   "date": "2019-01-10",
+   "title": ""
+  },
+  {
+   "parent": "32011L0016",
+   "celex": "32011L0016R(05)",
+   "kind": "corrigendum",
+   "date": "2020-11-05",
+   "title": ""
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32002R0006R(09)",
+   "kind": "corrigendum",
+   "date": "2020-12-10",
+   "title": ""
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32002R0006R(08)",
+   "kind": "corrigendum",
+   "date": "2020-08-13",
+   "title": ""
+  },
+  {
+   "parent": "32000L0031",
+   "celex": "32000L0031R(02)",
+   "kind": "corrigendum",
+   "date": "2021-05-06",
+   "title": ""
+  },
+  {
+   "parent": "32002L0058",
+   "celex": "32002L0058R(04)",
+   "kind": "corrigendum",
+   "date": "2023-11-15",
+   "title": ""
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32002R0006R(12)",
+   "kind": "corrigendum",
+   "date": "2025-07-03",
+   "title": ""
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(22)",
+   "kind": "corrigendum",
+   "date": "2026-01-26",
+   "title": ""
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32002R0006R(20)",
+   "kind": "corrigendum",
+   "date": "2026-03-30",
+   "title": ""
+  },
+  {
+   "parent": "31987L0372",
+   "celex": "31987L0372R(02)",
+   "kind": "corrigendum",
+   "date": "1987-09-16",
+   "title": "Corrigendum to Council Directive 87/372/EEC of 25 June 1987 on the frequency bands to be reserved for the coordinated introduction of public pan-European cellular digital land-based mobile communications in the Community (OJ No L 196 of 17.7.1987)"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(06)",
+   "kind": "corrigendum",
+   "date": "2007-12-20",
+   "title": ""
+  },
+  {
+   "parent": "32001L0029",
+   "celex": "32001L0029R(06)",
+   "kind": "corrigendum",
+   "date": "2012-02-04",
+   "title": ""
+  },
+  {
+   "parent": "32001L0029",
+   "celex": "32001L0029R(04)",
+   "kind": "corrigendum",
+   "date": "2008-11-25",
+   "title": ""
+  },
+  {
+   "parent": "32001L0029",
+   "celex": "32001L0029R(03)",
+   "kind": "corrigendum",
+   "date": "2007-08-21",
+   "title": ""
+  },
+  {
+   "parent": "31993L0013",
+   "celex": "31993L0013R(01)",
+   "kind": "corrigendum",
+   "date": "2014-10-09",
+   "title": ""
+  },
+  {
+   "parent": "32002L0058",
+   "celex": "32002L0058R(03)",
+   "kind": "corrigendum",
+   "date": "2017-06-08",
+   "title": ""
+  },
+  {
+   "parent": "31993L0083",
+   "celex": "31993L0083R(01)",
+   "kind": "corrigendum",
+   "date": "2012-03-17",
+   "title": ""
+  },
+  {
+   "parent": "31993L0013",
+   "celex": "31993L0013R(07)",
+   "kind": "corrigendum",
+   "date": "2020-10-29",
+   "title": ""
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32002R0006R(13)",
+   "kind": "corrigendum",
+   "date": "2025-12-23",
+   "title": ""
+  },
+  {
+   "parent": "32005L0029",
+   "celex": "32005L0029R(03)",
+   "kind": "corrigendum",
+   "date": "2013-05-14",
+   "title": ""
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(02)",
+   "kind": "corrigendum",
+   "date": "2007-12-20",
+   "title": ""
+  },
+  {
+   "parent": "32011L0083",
+   "celex": "32011L0083R(02)",
+   "kind": "corrigendum",
+   "date": "2016-11-30",
+   "title": ""
+  },
+  {
+   "parent": "31993L0013",
+   "celex": "31993L0013R(02)",
+   "kind": "corrigendum",
+   "date": "2015-06-04",
+   "title": ""
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(18)",
+   "kind": "corrigendum",
+   "date": "2021-08-12",
+   "title": ""
+  },
+  {
+   "parent": "32011L0083",
+   "celex": "32011L0083R(05)",
+   "kind": "corrigendum",
+   "date": "2024-02-09",
+   "title": ""
+  },
+  {
+   "parent": "31993L0013",
+   "celex": "31993L0013R(12)",
+   "kind": "corrigendum",
+   "date": "2025-05-23",
+   "title": ""
+  },
+  {
+   "parent": "32012R1025",
+   "celex": "32012R1025R(01)",
+   "kind": "corrigendum",
+   "date": "2025-09-19",
+   "title": ""
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(11)",
+   "kind": "corrigendum",
+   "date": "2012-09-14",
+   "title": ""
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(08)",
+   "kind": "corrigendum",
+   "date": "2011-03-19",
+   "title": ""
+  },
+  {
+   "parent": "32011L0016",
+   "celex": "32011L0016R(02)",
+   "kind": "corrigendum",
+   "date": "2013-06-14",
+   "title": ""
+  },
+  {
+   "parent": "32002L0058",
+   "celex": "32002L0058R(01)",
+   "kind": "corrigendum",
+   "date": "2011-04-08",
+   "title": ""
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32002R0006R(06)",
+   "kind": "corrigendum",
+   "date": "2018-03-15",
+   "title": ""
+  },
+  {
+   "parent": "32010L0013",
+   "celex": "32010L0013R(03)",
+   "kind": "corrigendum",
+   "date": "2018-09-21",
+   "title": ""
+  },
+  {
+   "parent": "32004R0139",
+   "celex": "32004R0139R(05)",
+   "kind": "corrigendum",
+   "date": "2022-03-31",
+   "title": ""
+  },
+  {
+   "parent": "32004R0139",
+   "celex": "32004R0139R(06)",
+   "kind": "corrigendum",
+   "date": "2023-01-26",
+   "title": ""
+  },
+  {
+   "parent": "32000L0031",
+   "celex": "32000L0031R(04)",
+   "kind": "corrigendum",
+   "date": "2025-11-20",
+   "title": ""
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32002R0006R(16)",
+   "kind": "corrigendum",
+   "date": "2026-01-20",
+   "title": ""
+  },
+  {
+   "parent": "32004L0048",
+   "celex": "32004L0048R(04)",
+   "kind": "corrigendum",
+   "date": "2026-01-19",
+   "title": ""
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(03)",
+   "kind": "corrigendum",
+   "date": "2007-12-20",
+   "title": ""
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(09)",
+   "kind": "corrigendum",
+   "date": "2011-03-19",
+   "title": ""
+  },
+  {
+   "parent": "32009R0223",
+   "celex": "32009R0223R(02)",
+   "kind": "corrigendum",
+   "date": "2022-07-07",
+   "title": ""
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(04)",
+   "kind": "corrigendum",
+   "date": "2007-12-20",
+   "title": ""
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(05)",
+   "kind": "corrigendum",
+   "date": "2007-12-20",
+   "title": ""
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32002R0006R(01)",
+   "kind": "corrigendum",
+   "date": "2002-07-09",
+   "title": ""
+  },
+  {
+   "parent": "32005L0029",
+   "celex": "32005L0029R(04)",
+   "kind": "corrigendum",
+   "date": "2016-12-07",
+   "title": ""
+  },
+  {
+   "parent": "32009R0223",
+   "celex": "32009R0223R(01)",
+   "kind": "corrigendum",
+   "date": "2018-11-14",
+   "title": ""
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32009L0048R(05)",
+   "kind": "corrigendum",
+   "date": "2022-06-30",
+   "title": ""
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(21)",
+   "kind": "corrigendum",
+   "date": "2025-02-05",
+   "title": ""
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32002R0006R(15)",
+   "kind": "corrigendum",
+   "date": "2026-01-09",
+   "title": ""
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32002R0006R(17)",
+   "kind": "corrigendum",
+   "date": "2026-02-04",
+   "title": ""
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(07)",
+   "kind": "corrigendum",
+   "date": "2009-03-12",
+   "title": ""
+  },
+  {
+   "parent": "32004R0139",
+   "celex": "32004R0139R(01)",
+   "kind": "corrigendum",
+   "date": "2004-12-23",
+   "title": ""
+  },
+  {
+   "parent": "32011L0016",
+   "celex": "32011L0016R(03)",
+   "kind": "corrigendum",
+   "date": "2015-01-27",
+   "title": ""
+  },
+  {
+   "parent": "32001L0029",
+   "celex": "32001L0029R(02)",
+   "kind": "corrigendum",
+   "date": "2002-01-10",
+   "title": ""
+  },
+  {
+   "parent": "32011L0016",
+   "celex": "32011L0016R(04)",
+   "kind": "corrigendum",
+   "date": "2020-08-21",
+   "title": ""
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32009L0048R(03)",
+   "kind": "corrigendum",
+   "date": "2021-02-04",
+   "title": ""
+  },
+  {
+   "parent": "32010L0013",
+   "celex": "32010L0013R(01)",
+   "kind": "corrigendum",
+   "date": "2010-10-06",
+   "title": "Corrigendum to Directive 2010/13/EU of the European Parliament and of the Council of 10\u00a0March 2010 on the coordination of certain provisions laid down by law, regulation or administrative action in Member States concerning the provision of audiovisual media services (Audiovisual Media Services Directive) ( OJ L 95, 15.4.2010 )"
+  },
+  {
+   "parent": "31998L0006",
+   "celex": "31998L0006R(01)",
+   "kind": "corrigendum",
+   "date": "1998-07-04",
+   "title": ""
+  },
+  {
+   "parent": "32005L0029",
+   "celex": "32005L0029R(01)",
+   "kind": "corrigendum",
+   "date": "2006-04-27",
+   "title": ""
+  },
+  {
+   "parent": "32001L0029",
+   "celex": "32001L0029R(07)",
+   "kind": "corrigendum",
+   "date": "2014-01-15",
+   "title": ""
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(13)",
+   "kind": "corrigendum",
+   "date": "2017-12-16",
+   "title": ""
+  },
+  {
+   "parent": "31993L0013",
+   "celex": "31993L0013R(11)",
+   "kind": "corrigendum",
+   "date": "2024-08-28",
+   "title": ""
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32002R0006R(14)",
+   "kind": "corrigendum",
+   "date": "2026-01-09",
+   "title": ""
+  },
+  {
+   "parent": "32010L0013",
+   "celex": "32010L0013R(02)",
+   "kind": "corrigendum",
+   "date": "2014-12-04",
+   "title": ""
+  },
+  {
+   "parent": "31993L0013",
+   "celex": "31993L0013R(03)",
+   "kind": "corrigendum",
+   "date": "2016-10-13",
+   "title": ""
+  },
+  {
+   "parent": "31993L0013",
+   "celex": "31993L0013R(04)",
+   "kind": "corrigendum",
+   "date": "2016-11-10",
+   "title": ""
+  },
+  {
+   "parent": "32000L0031",
+   "celex": "32000L0031R(01)",
+   "kind": "corrigendum",
+   "date": "2002-10-23",
+   "title": ""
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(19)",
+   "kind": "corrigendum",
+   "date": "2023-03-09",
+   "title": ""
+  },
+  {
+   "parent": "31996L0009",
+   "celex": "31996L0009R(01)",
+   "kind": "corrigendum",
+   "date": "2021-02-11",
+   "title": ""
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32009L0048R(04)",
+   "kind": "corrigendum",
+   "date": "2021-06-17",
+   "title": ""
+  },
+  {
+   "parent": "32001L0029",
+   "celex": "32001L0029R(01)",
+   "kind": "corrigendum",
+   "date": "2002-01-10",
+   "title": "Corrigendum to Directive 2001/29/EC of the European Parliament and of the Council of 22 May 2001 on the harmonisation of certain aspects of copyright and related rights in the information society (OJ L 167 of 22.6.2001)"
+  },
+  {
+   "parent": "32004R0139",
+   "celex": "32004R0139R(03)",
+   "kind": "corrigendum",
+   "date": "2017-04-22",
+   "title": ""
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32002R0006R(03)",
+   "kind": "corrigendum",
+   "date": "2015-01-13",
+   "title": ""
+  },
+  {
+   "parent": "32011L0083",
+   "celex": "32011L0083R(03)",
+   "kind": "corrigendum",
+   "date": "2018-05-23",
+   "title": ""
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(14)",
+   "kind": "corrigendum",
+   "date": "2018-09-19",
+   "title": ""
+  },
+  {
+   "parent": "31993L0013",
+   "celex": "31993L0013R(08)",
+   "kind": "corrigendum",
+   "date": "2023-01-19",
+   "title": ""
+  },
+  {
+   "parent": "32004R0139",
+   "celex": "32004R0139R(08)",
+   "kind": "corrigendum",
+   "date": "2024-12-20",
+   "title": ""
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32002R0006R(18)",
+   "kind": "corrigendum",
+   "date": "2026-02-09",
+   "title": ""
+  },
+  {
+   "parent": "32011L0083",
+   "celex": "32011L0083R(06)",
+   "kind": "corrigendum",
+   "date": "2026-07-20",
+   "title": ""
+  },
+  {
+   "parent": "31993L0013",
+   "celex": "31993L0013R(13)",
+   "kind": "corrigendum",
+   "date": "2026-09-23",
+   "title": ""
+  },
+  {
+   "parent": "32004L0048",
+   "celex": "32004L0048R(01)",
+   "kind": "corrigendum",
+   "date": "2004-06-02",
+   "title": "Corrigendum to Directive 2004/48/EC of the European Parliament and of the Council of 29 April 2004 on the enforcement of intellectual property rights (OJ L 157, 30.4.2004)"
+  },
+  {
+   "parent": "32004L0048",
+   "celex": "32004L0048R(03)",
+   "kind": "corrigendum",
+   "date": "2007-08-04",
+   "title": "Corrigendum to Directive 2004/48/EC of the European Parliament and of the Council of 29 April 2004 on the enforcement of intellectual property rights ( OJ L 157, 30.4.2004 . Corrected version in OJ L 195, 2.6.2004 )"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(10)",
+   "kind": "corrigendum",
+   "date": "2012-09-14",
+   "title": "Corrigendum to Council Directive 2006/112/EC of 28\u00a0November 2006 on the common system of value added tax ( OJ L 347, 11.12.2006 )"
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(01)",
+   "kind": "corrigendum",
+   "date": "2007-12-20",
+   "title": "Corrigendum to Council Directive 2006/112/EC of 28 November 2006 on the common system of value added tax ( OJ L 347, 11.12.2006 )"
+  },
+  {
+   "parent": "31987L0372",
+   "celex": "31987L0372R(01)",
+   "kind": "corrigendum",
+   "date": "1987-07-29",
+   "title": ""
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(12)",
+   "kind": "corrigendum",
+   "date": "2015-12-09",
+   "title": ""
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32002R0006R(02)",
+   "kind": "corrigendum",
+   "date": "2013-12-31",
+   "title": ""
+  },
+  {
+   "parent": "32004R0139",
+   "celex": "32004R0139R(02)",
+   "kind": "corrigendum",
+   "date": "2015-11-21",
+   "title": ""
+  },
+  {
+   "parent": "32002D0676",
+   "celex": "32002D0676R(01)",
+   "kind": "corrigendum",
+   "date": "2018-09-27",
+   "title": ""
+  },
+  {
+   "parent": "32009L0048",
+   "celex": "32009L0048R(02)",
+   "kind": "corrigendum",
+   "date": "2019-10-03",
+   "title": ""
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(20)",
+   "kind": "corrigendum",
+   "date": "2023-05-17",
+   "title": ""
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(17)",
+   "kind": "corrigendum",
+   "date": "2021-04-29",
+   "title": ""
+  },
+  {
+   "parent": "32004R0139",
+   "celex": "32004R0139R(04)",
+   "kind": "corrigendum",
+   "date": "2021-07-01",
+   "title": ""
+  },
+  {
+   "parent": "31993L0013",
+   "celex": "31993L0013R(09)",
+   "kind": "corrigendum",
+   "date": "2023-05-25",
+   "title": ""
+  },
+  {
+   "parent": "31993L0013",
+   "celex": "31993L0013R(10)",
+   "kind": "corrigendum",
+   "date": "2024-01-17",
+   "title": ""
+  },
+  {
+   "parent": "32000L0031",
+   "celex": "32000L0031R(03)",
+   "kind": "corrigendum",
+   "date": "2024-03-15",
+   "title": ""
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32002R0006R(11)",
+   "kind": "corrigendum",
+   "date": "2025-04-02",
+   "title": ""
+  },
+  {
+   "parent": "32002R0006",
+   "celex": "32002R0006R(19)",
+   "kind": "corrigendum",
+   "date": "2026-02-12",
+   "title": ""
+  },
+  {
+   "parent": "32006L0112",
+   "celex": "32006L0112R(23)",
+   "kind": "corrigendum",
+   "date": "2026-07-01",
+   "title": ""
+  },
+  {
+   "parent": "32014L0053",
+   "celex": "32018R1139",
+   "kind": "amendment",
+   "date": "2018-07-04",
+   "title": "Regulation (EU) 2018/1139 of the European Parliament and of the Council of 4 July 2018 on common rules in the field of civil aviation and establishing a European Union Aviation Safety Agency, and amending Regulations (EC) No 2111/2005, (EC) No 1008/2008, (EU) No 996/2010, (EU) No 376/2014 and Directives 2014/30/EU and 2014/53/EU of the European Parliament and of the Council, and repealing Regulations (EC) No 552/2004 and (EC) No 216/2008 of the European Parliament and of the Council and Council Regulation (EEC) No 3922/91 (Text with EEA relevance.)"
+  },
+  {
+   "parent": "32017R2394",
+   "celex": "32019L0771",
+   "kind": "amendment",
+   "date": "2019-05-20",
+   "title": "Directive (EU) 2019/771 of the European Parliament and of the Council of 20 May 2019 on certain aspects concerning contracts for the sale of goods, amending Regulation (EU) 2017/2394 and Directive 2009/22/EC, and repealing Directive 1999/44/EC (Text with EEA relevance.)"
+  },
+  {
+   "parent": "32018R1724",
+   "celex": "32022R0868",
+   "kind": "amendment",
+   "date": "2022-05-30",
+   "title": "Regulation (EU)\u00a02022/868 of the European Parliament and of the Council of 30\u00a0May 2022 on European data governance and amending Regulation (EU)\u00a02018/1724 (Data Governance Act) (Text with EEA relevance)"
+  },
+  {
+   "parent": "32018R1724",
+   "celex": "32024R3228",
+   "kind": "amendment",
+   "date": "2024-12-19",
+   "title": "Regulation (EU) 2024/3228 of the European Parliament and of the Council of 19 December 2024 repealing Regulation (EU) No 524/2013, and amending Regulations (EU) 2017/2394 and (EU) 2018/1724 with regard to the discontinuation of the European Online Dispute Resolution Platform (Text with EEA relevance)"
+  },
+  {
+   "parent": "32014L0053",
+   "celex": "32023R1717",
+   "kind": "amendment",
+   "date": "2023-06-27",
+   "title": "Commission Delegated Regulation (EU) 2023/1717 of 27\u00a0June 2023 amending Directive\u00a02014/53/EU of the European Parliament and of the Council as regards the technical specifications for the charging receptacle and charging communication protocol for all the categories or classes of radio equipment capable of being recharged by means of wired charging (Text with EEA relevance)"
+  },
+  {
+   "parent": "32014L0030",
+   "celex": "32024L2749",
+   "kind": "amendment",
+   "date": "2024-10-09",
+   "title": "Directive (EU) 2024/2749 of the European Parliament and of the Council of 9 October 2024 amending Directives 2000/14/EC, 2006/42/EC, 2010/35/EU, 2014/29/EU, 2014/30/EU, 2014/33/EU, 2014/34/EU, 2014/35/EU, 2014/53/EU and 2014/68/EU as regards emergency procedures for the conformity assessment, presumption of conformity, adoption of common specifications and market surveillance due to an internal market emergency (Text with EEA relevance)"
+  },
+  {
+   "parent": "32017L1132",
+   "celex": "32019L1023",
+   "kind": "amendment",
+   "date": "2019-06-20",
+   "title": "Directive (EU) 2019/1023 of the European Parliament and of the Council of 20 June 2019 on preventive restructuring frameworks, on discharge of debt and disqualifications, and on measures to increase the efficiency of procedures concerning restructuring, insolvency and discharge of debt, and amending Directive (EU) 2017/1132 (Directive on restructuring and insolvency) (Text with EEA relevance.)"
+  },
+  {
+   "parent": "32017R2394",
+   "celex": "32024R3228",
+   "kind": "amendment",
+   "date": "2024-12-19",
+   "title": "Regulation (EU) 2024/3228 of the European Parliament and of the Council of 19 December 2024 repealing Regulation (EU) No 524/2013, and amending Regulations (EU) 2017/2394 and (EU) 2018/1724 with regard to the discontinuation of the European Online Dispute Resolution Platform (Text with EEA relevance)"
+  },
+  {
+   "parent": "32014R0910",
+   "celex": "32022L2555",
+   "kind": "amendment",
+   "date": "2022-12-14",
+   "title": "Directive (EU) 2022/2555 of the European Parliament and of the Council of 14\u00a0December 2022 on measures for a high common level of cybersecurity across the Union, amending Regulation (EU) No\u00a0910/2014 and Directive (EU) 2018/1972, and repealing Directive (EU) 2016/1148 (NIS\u00a02 Directive) (Text with EEA relevance)"
+  },
+  {
+   "parent": "32015L2366",
+   "celex": "32022L2556",
+   "kind": "amendment",
+   "date": "2022-12-14",
+   "title": "Directive (EU)\u00a02022/2556 of the European Parliament and of the Council of 14\u00a0December 2022 amending Directives 2009/65/EC, 2009/138/EC, 2011/61/EU, 2013/36/EU, 2014/59/EU, 2014/65/EU, (EU) 2015/2366 and (EU) 2016/2341 as regards digital operational resilience for the financial sector (Text with EEA relevance)"
+  },
+  {
+   "parent": "32018R1724",
+   "celex": "32024R1735",
+   "kind": "amendment",
+   "date": "2024-06-13",
+   "title": "Regulation (EU) 2024/1735 of the European Parliament and of the Council of 13 June 2024 on establishing a framework of measures for strengthening Europe\u2019s net-zero technology manufacturing ecosystem and amending Regulation (EU) 2018/1724 (Text with EEA relevance)"
+  },
+  {
+   "parent": "32017L1132",
+   "celex": "32021R0023",
+   "kind": "amendment",
+   "date": "2020-12-16",
+   "title": "Regulation (EU) 2021/23 of the European Parliament and of the Council of 16 December 2020 on a framework for the recovery and resolution of central counterparties and amending Regulations (EU) No 1095/2010, (EU) No 648/2012, (EU) No 600/2014, (EU) No 806/2014 and (EU) 2015/2365 and Directives 2002/47/EC, 2004/25/EC, 2007/36/EC, 2014/59/EU and (EU) 2017/1132 (Text with EEA relevance)"
+  },
+  {
+   "parent": "32017R2394",
+   "celex": "32023R2854",
+   "kind": "amendment",
+   "date": "2023-12-13",
+   "title": "Regulation (EU) 2023/2854 of the European Parliament and of the Council of 13\u00a0December 2023 on harmonised rules on fair access to and use of data and amending Regulation (EU)\u00a02017/2394 and Directive (EU)\u00a02020/1828 (Data Act) (Text with EEA relevance)"
+  },
+  {
+   "parent": "32015R2120",
+   "celex": "32024R1309",
+   "kind": "amendment",
+   "date": "2024-04-29",
+   "title": "Regulation (EU) 2024/1309 of the European Parliament and of the Council of 29 April 2024 on measures to reduce the cost of deploying gigabit electronic communications networks, amending Regulation (EU) 2015/2120 and repealing Directive 2014/61/EU (Gigabit Infrastructure Act) (Text with EEA relevance)"
+  },
+  {
+   "parent": "32018R1724",
+   "celex": "32025L2205",
+   "kind": "amendment",
+   "date": "2025-10-22",
+   "title": "Directive (EU) 2025/2205 of the European Parliament and of the Council of 22 October 2025 on driving licences, amending Regulation (EU) 2018/1724 of the European Parliament and of the Council and Directive (EU) 2022/2561 of the European Parliament and of the Council, and repealing Directive 2006/126/EC of the European Parliament and of the Council and Commission Regulation (EU) No 383/2012 (Text with EEA relevance)"
+  },
+  {
+   "parent": "32017R2394",
+   "celex": "32018R0302",
+   "kind": "amendment",
+   "date": "2018-02-28",
+   "title": "Regulation (EU) 2018/302 of the European Parliament and of the Council of 28 February 2018 on addressing unjustified geo-blocking and other forms of discrimination based on customers' nationality, place of residence or place of establishment within the internal market and amending Regulations (EC) No 2006/2004 and (EU) 2017/2394 and Directive 2009/22/EC (Text with EEA relevance. )"
+  },
+  {
+   "parent": "32017R2394",
+   "celex": "32019L0770",
+   "kind": "amendment",
+   "date": "2019-05-20",
+   "title": "Directive (EU) 2019/770 of the European Parliament and of the Council of 20 May 2019 on certain aspects concerning contracts for the supply of digital content and digital services (Text with EEA relevance.)"
+  },
+  {
+   "parent": "32017L1132",
+   "celex": "32025L0001",
+   "kind": "amendment",
+   "date": "2024-11-27",
+   "title": "Directive (EU) 2025/1 of the European Parliament and of the Council of 27 November 2024 establishing a framework for the recovery and resolution of insurance and reinsurance undertakings and amending Directives 2002/47/EC, 2004/25/EC, 2007/36/EC, 2014/59/EU and (EU) 2017/1132 and Regulations (EU) No 1094/2010, (EU) No 648/2012, (EU) No 806/2014 and (EU) 2017/1129 (Text with EEA relevance)"
+  },
+  {
+   "parent": "32014L0053",
+   "celex": "32024L2839",
+   "kind": "amendment",
+   "date": "2024-10-23",
+   "title": "Directive (EU) 2024/2839 of the European Parliament and of the Council of 23 October 2024 amending Directives 1999/2/EC, 2000/14/EC, 2011/24/EU and 2014/53/EU as regards certain reporting requirements in the fields of food and food ingredients, outdoor noise, patients\u2019 rights, and radio equipment (Text with EEA relevance)"
+  },
+  {
+   "parent": "32017L1132",
+   "celex": "32019L1151",
+   "kind": "amendment",
+   "date": "2019-06-20",
+   "title": "Directive (EU) 2019/1151 of the European Parliament and of the Council of 20 June 2019 amending Directive (EU) 2017/1132 as regards the use of digital tools and processes in company law (Text with EEA relevance)"
+  },
+  {
+   "parent": "32018R1724",
+   "celex": "32024R1252",
+   "kind": "amendment",
+   "date": "2024-04-11",
+   "title": "Regulation (EU) 2024/1252 of the European Parliament and of the Council of 11 April 2024 establishing a framework for ensuring a secure and sustainable supply of critical raw materials and amending Regulations (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1724 and (EU) 2019/1020 (Text with EEA relevance)"
+  },
+  {
+   "parent": "32015L2366",
+   "celex": "32024R0886",
+   "kind": "amendment",
+   "date": "2024-03-13",
+   "title": "Regulation (EU) 2024/886 of the European Parliament and of the Council of 13\u00a0March 2024 amending Regulations (EU) No\u00a0260/2012 and (EU)\u00a02021/1230 and Directives\u00a098/26/EC and (EU)\u00a02015/2366 as regards instant credit transfers in euro (Text with EEA relevance)"
+  },
+  {
+   "parent": "32014L0030",
+   "celex": "32018R1139",
+   "kind": "amendment",
+   "date": "2018-07-04",
+   "title": "Regulation (EU) 2018/1139 of the European Parliament and of the Council of 4 July 2018 on common rules in the field of civil aviation and establishing a European Union Aviation Safety Agency, and amending Regulations (EC) No 2111/2005, (EC) No 1008/2008, (EU) No 996/2010, (EU) No 376/2014 and Directives 2014/30/EU and 2014/53/EU of the European Parliament and of the Council, and repealing Regulations (EC) No 552/2004 and (EC) No 216/2008 of the European Parliament and of the Council and Council Regulation (EEC) No 3922/91 (Text with EEA relevance.)"
+  },
+  {
+   "parent": "32014L0053",
+   "celex": "32022L2380",
+   "kind": "amendment",
+   "date": "2022-11-23",
+   "title": "Directive (EU) 2022/2380 of the European Parliament and of the Council of 23\u00a0November 2022 amending Directive 2014/53/EU on the harmonisation of the laws of the Member States relating to the making available on the market of radio equipment (Text with EEA relevance)"
+  },
+  {
+   "parent": "32014R0910",
+   "celex": "32024R1183",
+   "kind": "amendment",
+   "date": "2024-04-11",
+   "title": "Regulation (EU) 2024/1183 of the European Parliament and of the Council of 11 April 2024 amending Regulation (EU) No 910/2014 as regards establishing the European Digital Identity Framework"
+  },
+  {
+   "parent": "32014L0053",
+   "celex": "32024L2749",
+   "kind": "amendment",
+   "date": "2024-10-09",
+   "title": "Directive (EU) 2024/2749 of the European Parliament and of the Council of 9 October 2024 amending Directives 2000/14/EC, 2006/42/EC, 2010/35/EU, 2014/29/EU, 2014/30/EU, 2014/33/EU, 2014/34/EU, 2014/35/EU, 2014/53/EU and 2014/68/EU as regards emergency procedures for the conformity assessment, presumption of conformity, adoption of common specifications and market surveillance due to an internal market emergency (Text with EEA relevance)"
+  },
+  {
+   "parent": "32017L1132",
+   "celex": "32025L0025",
+   "kind": "amendment",
+   "date": "2024-12-19",
+   "title": "Directive (EU) 2025/25 of the European Parliament and of the Council of 19 December 2024 amending Directives 2009/102/EC and (EU) 2017/1132 as regards further expanding and upgrading the use of digital tools and processes in company law (Text with EEA relevance)"
+  },
+  {
+   "parent": "32018L1972",
+   "celex": "32022L2555",
+   "kind": "amendment",
+   "date": "2022-12-14",
+   "title": "Directive (EU) 2022/2555 of the European Parliament and of the Council of 14\u00a0December 2022 on measures for a high common level of cybersecurity across the Union, amending Regulation (EU) No\u00a0910/2014 and Directive (EU) 2018/1972, and repealing Directive (EU) 2016/1148 (NIS\u00a02 Directive) (Text with EEA relevance)"
+  },
+  {
+   "parent": "32017R2394",
+   "celex": "32024L1799",
+   "kind": "amendment",
+   "date": "2024-06-13",
+   "title": "Directive (EU) 2024/1799 of the European Parliament and of the Council of 13 June 2024 on common rules promoting the repair of goods and amending Regulation (EU) 2017/2394 and Directives (EU) 2019/771 and (EU) 2020/1828 (Text with EEA relevance)"
+  },
+  {
+   "parent": "32017L1132",
+   "celex": "32019L2121",
+   "kind": "amendment",
+   "date": "2019-11-27",
+   "title": "Directive (EU) 2019/2121 of the European Parliament and of the Council of 27 November 2019 amending Directive (EU) 2017/1132 as regards cross-border conversions, mergers and divisions (Text with EEA relevance)"
+  },
+  {
+   "parent": "32015R2120",
+   "celex": "32018R1971",
+   "kind": "amendment",
+   "date": "2018-12-11",
+   "title": "Regulation (EU) 2018/1971 of the European Parliament and of the Council of 11 December 2018 establishing the Body of European Regulators for Electronic Communications (BEREC) and the Agency for Support for BEREC (BEREC Office), amending Regulation (EU) 2015/2120 and repealing Regulation (EC) No 1211/2009 (Text with EEA relevance)"
+  },
+  {
+   "parent": "32018R1724",
+   "celex": "32024R1028",
+   "kind": "amendment",
+   "date": "2024-04-11",
+   "title": "Regulation (EU) 2024/1028 of the European Parliament and of the Council of 11 April 2024 on data collection and sharing relating to short-term accommodation rental services and amending Regulation (EU) 2018/1724 (Text with EEA relevance)"
+  },
+  {
+   "parent": "32014R0316",
+   "celex": "32014R0316R(01)",
+   "kind": "corrigendum",
+   "date": "2014-11-14",
+   "title": ""
+  },
+  {
+   "parent": "32014L0030",
+   "celex": "32014L0030R(02)",
+   "kind": "corrigendum",
+   "date": "2015-04-01",
+   "title": ""
+  },
+  {
+   "parent": "32015L2366",
+   "celex": "32015L2366R(04)",
+   "kind": "corrigendum",
+   "date": "2018-01-10",
+   "title": ""
+  },
+  {
+   "parent": "32015L2366",
+   "celex": "32015L2366R(02)",
+   "kind": "corrigendum",
+   "date": "2016-06-28",
+   "title": ""
+  },
+  {
+   "parent": "32014R0910",
+   "celex": "32014R0910R(05)",
+   "kind": "corrigendum",
+   "date": "2016-06-14",
+   "title": ""
+  },
+  {
+   "parent": "32017L1132",
+   "celex": "32017L1132R(01)",
+   "kind": "corrigendum",
+   "date": "2018-06-18",
+   "title": ""
+  },
+  {
+   "parent": "32017L1132",
+   "celex": "32017L1132R(02)",
+   "kind": "corrigendum",
+   "date": "2019-12-20",
+   "title": ""
+  },
+  {
+   "parent": "32016R0679",
+   "celex": "32016R0679R(02)",
+   "kind": "corrigendum",
+   "date": "2018-05-23",
+   "title": "Corrigendum to Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ L 119, 4.5.2016)"
+  },
+  {
+   "parent": "32014R0910",
+   "celex": "32014R0910R(01)",
+   "kind": "corrigendum",
+   "date": "2014-11-12",
+   "title": ""
+  },
+  {
+   "parent": "32014L0053",
+   "celex": "32014L0053R(01)",
+   "kind": "corrigendum",
+   "date": "2015-01-23",
+   "title": ""
+  },
+  {
+   "parent": "32014L0055",
+   "celex": "32014L0055R(01)",
+   "kind": "corrigendum",
+   "date": "2014-11-26",
+   "title": ""
+  },
+  {
+   "parent": "32015R2120",
+   "celex": "32015R2120R(02)",
+   "kind": "corrigendum",
+   "date": "2025-10-17",
+   "title": ""
+  },
+  {
+   "parent": "32015L2366",
+   "celex": "32015L2366R(08)",
+   "kind": "corrigendum",
+   "date": "2026-06-18",
+   "title": ""
+  },
+  {
+   "parent": "32018L1972",
+   "celex": "32018L1972R(01)",
+   "kind": "corrigendum",
+   "date": "2019-12-27",
+   "title": "Corrigendum to Directive (EU) 2018/1972 of the European Parliament and of the Council of 11 December 2018 establishing the European Electronic Communications Code (OJ L 321, 17.12.2018)"
+  },
+  {
+   "parent": "32015L2366",
+   "celex": "32015L2366R(01)",
+   "kind": "corrigendum",
+   "date": "2016-06-10",
+   "title": ""
+  },
+  {
+   "parent": "32017R1128",
+   "celex": "32017R1128R(02)",
+   "kind": "corrigendum",
+   "date": "2018-06-25",
+   "title": ""
+  },
+  {
+   "parent": "32018R0302",
+   "celex": "32018R0302R(03)",
+   "kind": "corrigendum",
+   "date": "2019-01-07",
+   "title": ""
+  },
+  {
+   "parent": "32019L0770",
+   "celex": "32019L0770R(03)",
+   "kind": "corrigendum",
+   "date": "2022-05-05",
+   "title": ""
+  },
+  {
+   "parent": "32014R0316",
+   "celex": "32014R0316R(02)",
+   "kind": "corrigendum",
+   "date": "2015-08-21",
+   "title": ""
+  },
+  {
+   "parent": "32018R1724",
+   "celex": "32018R1724R(01)",
+   "kind": "corrigendum",
+   "date": "2019-02-22",
+   "title": ""
+  },
+  {
+   "parent": "32018L1972",
+   "celex": "32018L1972R(02)",
+   "kind": "corrigendum",
+   "date": "2020-06-16",
+   "title": ""
+  },
+  {
+   "parent": "32014R0910",
+   "celex": "32014R0910R(12)",
+   "kind": "corrigendum",
+   "date": "2026-01-29",
+   "title": ""
+  },
+  {
+   "parent": "32018R0302",
+   "celex": "32018R0302R(01)",
+   "kind": "corrigendum",
+   "date": "2018-03-08",
+   "title": "Corrigendum to Regulation (EU) 2018/302 of the European Parliament and of the Council of 28 February 2018 on addressing unjustified geo-blocking and other forms of discrimination based on customers' nationality, place of residence or place of establishment within the internal market and amending Regulations (EC) No 2006/2004 and (EU) 2017/2394 and Directive 2009/22/EC (OJ L 60 I, 2.3.2018)"
+  },
+  {
+   "parent": "32014R0910",
+   "celex": "32014R0910R(04)",
+   "kind": "corrigendum",
+   "date": "2015-04-28",
+   "title": ""
+  },
+  {
+   "parent": "32014R0910",
+   "celex": "32014R0910R(09)",
+   "kind": "corrigendum",
+   "date": "2018-04-30",
+   "title": ""
+  },
+  {
+   "parent": "32018R1724",
+   "celex": "32018R1724R(02)",
+   "kind": "corrigendum",
+   "date": "2019-08-05",
+   "title": ""
+  },
+  {
+   "parent": "32016L0680",
+   "celex": "32016L0680R(02)",
+   "kind": "corrigendum",
+   "date": "2019-08-20",
+   "title": ""
+  },
+  {
+   "parent": "32014L0053",
+   "celex": "32014L0053R(03)",
+   "kind": "corrigendum",
+   "date": "2025-02-28",
+   "title": ""
+  },
+  {
+   "parent": "32014L0053",
+   "celex": "32014L0053R(02)",
+   "kind": "corrigendum",
+   "date": "2015-03-27",
+   "title": ""
+  },
+  {
+   "parent": "32014R0910",
+   "celex": "32014R0910R(02)",
+   "kind": "corrigendum",
+   "date": "2015-01-29",
+   "title": ""
+  },
+  {
+   "parent": "32014L0055",
+   "celex": "32014L0055R(02)",
+   "kind": "corrigendum",
+   "date": "2022-08-11",
+   "title": ""
+  },
+  {
+   "parent": "32018L1972",
+   "celex": "32018L1972R(06)",
+   "kind": "corrigendum",
+   "date": "2025-03-17",
+   "title": ""
+  },
+  {
+   "parent": "32018R1725",
+   "celex": "32018R1725R(03)",
+   "kind": "corrigendum",
+   "date": "2026-04-28",
+   "title": ""
+  },
+  {
+   "parent": "32016L0680",
+   "celex": "32016L0680R(01)",
+   "kind": "corrigendum",
+   "date": "2018-05-23",
+   "title": "Corrigendum to Directive (EU) 2016/680 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data by competent authorities for the purposes of the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, and on the free movement of such data, and repealing Council Framework Decision 2008/977/JHA (OJ L 119, 4.5.2016)"
+  },
+  {
+   "parent": "32018L1972",
+   "celex": "32018L1972R(05)",
+   "kind": "corrigendum",
+   "date": "2020-12-11",
+   "title": "Corrigendum to Directive (EU) 2018/1972 of the European Parliament and of the Council of 11 December 2018 establishing the European Electronic Communications Code (Official Journal of the European Union L 321 of 17 December 2018)"
+  },
+  {
+   "parent": "32014R0910",
+   "celex": "32014R0910R(10)",
+   "kind": "corrigendum",
+   "date": "2024-03-14",
+   "title": ""
+  },
+  {
+   "parent": "32019L0770",
+   "celex": "32019L0770R(04)",
+   "kind": "corrigendum",
+   "date": "2026-05-27",
+   "title": ""
+  },
+  {
+   "parent": "32015L2366",
+   "celex": "32015L2366R(05)",
+   "kind": "corrigendum",
+   "date": "2018-04-23",
+   "title": "Corrigendum to Directive (EU) 2015/2366 of the European Parliament and of the Council of 25 November 2015 on payment services in the internal market, amending Directives 2002/65/EC, 2009/110/EC and 2013/36/EU and Regulation (EU) No 1093/2010 and repealing Directive 2007/64/EC (OJ L 337, 23.12.2015)"
+  },
+  {
+   "parent": "32016R0679",
+   "celex": "32016R0679R(01)",
+   "kind": "corrigendum",
+   "date": "2016-11-22",
+   "title": ""
+  },
+  {
+   "parent": "32014R0910",
+   "celex": "32014R0910R(03)",
+   "kind": "corrigendum",
+   "date": "2015-02-20",
+   "title": ""
+  },
+  {
+   "parent": "32018R0302",
+   "celex": "32018R0302R(02)",
+   "kind": "corrigendum",
+   "date": "2018-03-27",
+   "title": ""
+  },
+  {
+   "parent": "32017L1132",
+   "celex": "32017L1132R(03)",
+   "kind": "corrigendum",
+   "date": "2020-01-09",
+   "title": ""
+  },
+  {
+   "parent": "32014R0910",
+   "celex": "32014R0910R(11)",
+   "kind": "corrigendum",
+   "date": "2025-08-04",
+   "title": ""
+  },
+  {
+   "parent": "32015L2366",
+   "celex": "32015L2366R(07)",
+   "kind": "corrigendum",
+   "date": "2020-06-16",
+   "title": ""
+  },
+  {
+   "parent": "32014R0910",
+   "celex": "32014R0910R(07)",
+   "kind": "corrigendum",
+   "date": "2016-11-01",
+   "title": ""
+  },
+  {
+   "parent": "32014R0910",
+   "celex": "32014R0910R(08)",
+   "kind": "corrigendum",
+   "date": "2017-04-20",
+   "title": ""
+  },
+  {
+   "parent": "32014L0030",
+   "celex": "32014L0030R(01)",
+   "kind": "corrigendum",
+   "date": "2014-11-04",
+   "title": ""
+  },
+  {
+   "parent": "32016L0943",
+   "celex": "32016L0943R(01)",
+   "kind": "corrigendum",
+   "date": "2018-06-22",
+   "title": ""
+  },
+  {
+   "parent": "32018L1972",
+   "celex": "32018L1972R(03)",
+   "kind": "corrigendum",
+   "date": "2020-06-19",
+   "title": ""
+  },
+  {
+   "parent": "32019L0770",
+   "celex": "32019L0770R(02)",
+   "kind": "corrigendum",
+   "date": "2020-03-16",
+   "title": ""
+  },
+  {
+   "parent": "32018R1725",
+   "celex": "32018R1725R(02)",
+   "kind": "corrigendum",
+   "date": "2024-12-09",
+   "title": ""
+  },
+  {
+   "parent": "32017R1128",
+   "celex": "32017R1128R(01)",
+   "kind": "corrigendum",
+   "date": "2017-07-28",
+   "title": "Corrigendum to Regulation (EU) 2017/1128 of the European Parliament and of the Council of 14 June 2017 on cross-border portability of online content services in the internal market (OJ L 168, 30.6.2017)"
+  },
+  {
+   "parent": "32015L2366",
+   "celex": "32015L2366R(03)",
+   "kind": "corrigendum",
+   "date": "2017-01-25",
+   "title": ""
+  },
+  {
+   "parent": "32015R2120",
+   "celex": "32015R2120R(01)",
+   "kind": "corrigendum",
+   "date": "2016-02-03",
+   "title": ""
+  },
+  {
+   "parent": "32015L2366",
+   "celex": "32015L2366R(06)",
+   "kind": "corrigendum",
+   "date": "2018-05-23",
+   "title": ""
+  },
+  {
+   "parent": "32014R0910",
+   "celex": "32014R0910R(06)",
+   "kind": "corrigendum",
+   "date": "2016-10-07",
+   "title": ""
+  },
+  {
+   "parent": "32016L0680",
+   "celex": "32016L0680R(03)",
+   "kind": "corrigendum",
+   "date": "2021-03-04",
+   "title": ""
+  },
+  {
+   "parent": "32019L0770",
+   "celex": "32019L0770R(01)",
+   "kind": "corrigendum",
+   "date": "2019-11-26",
+   "title": ""
+  },
+  {
+   "parent": "32018L1972",
+   "celex": "32018L1972R(04)",
+   "kind": "corrigendum",
+   "date": "2020-08-14",
+   "title": ""
+  },
+  {
+   "parent": "32018R1725",
+   "celex": "32018R1725R(01)",
+   "kind": "corrigendum",
+   "date": "2019-11-11",
+   "title": ""
+  },
+  {
+   "parent": "32018L1972",
+   "celex": "32018L1972R(07)",
+   "kind": "corrigendum",
+   "date": "2026-03-02",
+   "title": ""
+  },
+  {
+   "parent": "32016R0679",
+   "celex": "32016R0679R(03)",
+   "kind": "corrigendum",
+   "date": "2021-03-04",
+   "title": ""
+  },
+  {
+   "parent": "32015R2120",
+   "celex": "32015R2120R(03)",
+   "kind": "corrigendum",
+   "date": "2026-09-03",
+   "title": ""
+  },
+  {
+   "parent": "32021R0523",
+   "celex": "32024R0795",
+   "kind": "amendment",
+   "date": "2024-02-29",
+   "title": "Regulation (EU) 2024/795 of the European Parliament and of the Council of 29\u00a0February 2024 establishing the Strategic Technologies for Europe Platform (STEP), and amending Directive\u00a02003/87/EC and Regulations (EU)\u00a02021/1058, (EU)\u00a02021/1056, (EU)\u00a02021/1057, (EU) No\u00a01303/2013, (EU) No\u00a0223/2014, (EU)\u00a02021/1060, (EU)\u00a02021/523, (EU)\u00a02021/695, (EU)\u00a02021/697 and (EU)\u00a02021/241"
+  },
+  {
+   "parent": "32021R1232",
+   "celex": "32024R1307",
+   "kind": "amendment",
+   "date": "2024-04-29",
+   "title": "Regulation (EU) 2024/1307 of the European Parliament and of the Council of 29 April 2024 amending Regulation (EU) 2021/1232 on a temporary derogation from certain provisions of Directive 2002/58/EC as regards the use of technologies by providers of number-independent interpersonal communications services for the processing of personal and other data for the purpose of combating online child sexual abuse (Text with EEA relevance)"
+  },
+  {
+   "parent": "32021R0523",
+   "celex": "32025R2088",
+   "kind": "amendment",
+   "date": "2025-10-08",
+   "title": "Regulation (EU) 2025/2088 of the European Parliament and of the Council of 8 October 2025 amending Regulations (EU) No 1092/2010, (EU) No 1093/2010, (EU) No 1094/2010, (EU) No 1095/2010, (EU) No 806/2014, (EU) 2021/523 and (EU) 2024/1620 as regards certain reporting requirements in the fields of financial services and investment support (Text with EEA relevance)"
+  },
+  {
+   "parent": "32021R0695",
+   "celex": "32025R2653",
+   "kind": "amendment",
+   "date": "2025-12-19",
+   "title": "Regulation (EU) 2025/2653 of the European Parliament and of the Council of 19 December 2025 amending Regulations (EU) 2021/694, (EU) 2021/695, (EU) 2021/697, (EU) 2021/1153 and (EU) 2024/795, as regards incentivising defence-related investment in the EU budget to implement the ReArm Europe Plan (Text with EEA relevance)"
+  },
+  {
+   "parent": "32021R1153",
+   "celex": "32025R2005",
+   "kind": "amendment",
+   "date": "2025-12-16",
+   "title": "Regulation (EU) 2025/2005 of the European Parliament and of the Council of 16 December 2025 amending Regulations (EU) 2015/1017, (EU) 2021/523, (EU) 2021/695 and (EU) 2021/1153 as regards increasing the efficiency of the EU guarantee under Regulation (EU) 2021/523 and simplifying reporting requirements"
+  },
+  {
+   "parent": "32019R1020",
+   "celex": "32023R1542",
+   "kind": "amendment",
+   "date": "2023-07-12",
+   "title": "Regulation (EU) 2023/1542 of the European Parliament and of the Council of 12 July 2023 concerning batteries and waste batteries, amending Directive 2008/98/EC and Regulation (EU) 2019/1020 and repealing Directive 2006/66/EC (Text with EEA relevance)"
+  },
+  {
+   "parent": "32021R1153",
+   "celex": "32024R1679",
+   "kind": "amendment",
+   "date": "2024-06-13",
+   "title": "Regulation (EU) 2024/1679 of the European Parliament and of the Council of 13 June 2024 on Union guidelines for the development of the trans-European transport network, amending Regulations (EU) 2021/1153 and (EU) No 913/2010 and repealing Regulation (EU) No 1315/2013 (Text with EEA relevance)"
+  },
+  {
+   "parent": "32019R1020",
+   "celex": "32026R1738",
+   "kind": "amendment",
+   "date": "2026-07-08",
+   "title": "Regulation (EU) 2026/1738 of the European Parliament and of the Council of 8 July 2026 on circularity requirements for vehicle design and on management of end-of-life vehicles, amending Regulations (EU) No 168/2013, (EU) 2018/858, (EU) 2019/1020 and (EU) 2023/1542 and repealing Directives 2000/53/EC and 2005/64/EC (Text with EEA relevance)"
+  },
+  {
+   "parent": "32021R0241",
+   "celex": "32024R0795",
+   "kind": "amendment",
+   "date": "2024-02-29",
+   "title": "Regulation (EU) 2024/795 of the European Parliament and of the Council of 29\u00a0February 2024 establishing the Strategic Technologies for Europe Platform (STEP), and amending Directive\u00a02003/87/EC and Regulations (EU)\u00a02021/1058, (EU)\u00a02021/1056, (EU)\u00a02021/1057, (EU) No\u00a01303/2013, (EU) No\u00a0223/2014, (EU)\u00a02021/1060, (EU)\u00a02021/523, (EU)\u00a02021/695, (EU)\u00a02021/697 and (EU)\u00a02021/241"
+  },
+  {
+   "parent": "32019R0817",
+   "celex": "32024R1356",
+   "kind": "amendment",
+   "date": "2024-05-14",
+   "title": "Regulation (EU) 2024/1356 of the European Parliament and of the Council of 14 May 2024 introducing the screening of third-country nationals at the external borders and amending Regulations (EC) No 767/2008, (EU) 2017/2226, (EU) 2018/1240 and (EU) 2019/817"
+  },
+  {
+   "parent": "32019R1020",
+   "celex": "32024R2847",
+   "kind": "amendment",
+   "date": "2024-10-23",
+   "title": "Regulation (EU) 2024/2847 of the European Parliament and of the Council of 23 October 2024 on horizontal cybersecurity requirements for products with digital elements and amending Regulations (EU) No 168/2013 and (EU) 2019/1020 and Directive (EU) 2020/1828 (Cyber Resilience Act) (Text with EEA relevance)"
+  },
+  {
+   "parent": "32021R0695",
+   "celex": "32025R2005",
+   "kind": "amendment",
+   "date": "2025-12-16",
+   "title": "Regulation (EU) 2025/2005 of the European Parliament and of the Council of 16 December 2025 amending Regulations (EU) 2015/1017, (EU) 2021/523, (EU) 2021/695 and (EU) 2021/1153 as regards increasing the efficiency of the EU guarantee under Regulation (EU) 2021/523 and simplifying reporting requirements"
+  },
+  {
+   "parent": "32019R0817",
+   "celex": "32021R1134",
+   "kind": "amendment",
+   "date": "2021-07-07",
+   "title": "Regulation (EU) 2021/1134 of the European Parliament and of the Council of 7\u00a0July 2021 amending Regulations (EC) No\u00a0767/2008, (EC) No\u00a0810/2009, (EU)\u00a02016/399, (EU)\u00a02017/2226, (EU)\u00a02018/1240, (EU)\u00a02018/1860, (EU)\u00a02018/1861, (EU)\u00a02019/817 and (EU)\u00a02019/1896 of the European\u00a0Parliament and of the Council and repealing Council Decisions\u00a02004/512/EC and\u00a02008/633/JHA, for the purpose of reforming the Visa Information System"
+  },
+  {
+   "parent": "32021R0695",
+   "celex": "32024R0795",
+   "kind": "amendment",
+   "date": "2024-02-29",
+   "title": "Regulation (EU) 2024/795 of the European Parliament and of the Council of 29\u00a0February 2024 establishing the Strategic Technologies for Europe Platform (STEP), and amending Directive\u00a02003/87/EC and Regulations (EU)\u00a02021/1058, (EU)\u00a02021/1056, (EU)\u00a02021/1057, (EU) No\u00a01303/2013, (EU) No\u00a0223/2014, (EU)\u00a02021/1060, (EU)\u00a02021/523, (EU)\u00a02021/695, (EU)\u00a02021/697 and (EU)\u00a02021/241"
+  },
+  {
+   "parent": "32021R0694",
+   "celex": "32023R1781",
+   "kind": "amendment",
+   "date": "2023-09-13",
+   "title": "Regulation (EU) 2023/1781 of the European Parliament and of the Council of 13\u00a0September 2023 establishing a framework of measures for strengthening Europe\u2019s semiconductor ecosystem and amending Regulation (EU)\u00a02021/694 (Chips Act) (Text with EEA relevance)"
+  },
+  {
+   "parent": "32019R1020",
+   "celex": "32025R0014",
+   "kind": "amendment",
+   "date": "2024-12-19",
+   "title": "Regulation (EU) 2025/14 of the European Parliament and of the Council of 19 December 2024 on the approval and market surveillance of non-road mobile machinery circulating on public roads and amending Regulation (EU) 2019/1020 (Text with EEA relevance)"
+  },
+  {
+   "parent": "32021R1173",
+   "celex": "32024R1732",
+   "kind": "amendment",
+   "date": "2024-06-17",
+   "title": "Council Regulation (EU) 2024/1732 of 17 June 2024 amending Regulation (EU) 2021/1173 as regards a EuroHPC initiative for start-ups in order to boost European leadership in trustworthy artificial intelligence"
+  },
+  {
+   "parent": "32019R1020",
+   "celex": "32025R0040",
+   "kind": "amendment",
+   "date": "2024-12-19",
+   "title": "Regulation (EU) 2025/40 of the European Parliament and of the Council of 19 December 2024 on packaging and packaging waste, amending Regulation (EU) 2019/1020 and Directive (EU) 2019/904, and repealing Directive 94/62/EC (Text with EEA relevance)"
+  },
+  {
+   "parent": "32019R0817",
+   "celex": "32024R0982",
+   "kind": "amendment",
+   "date": "2024-03-13",
+   "title": "Regulation (EU) 2024/982 of the European Parliament and of the Council of 13\u00a0March 2024 on the automated search and exchange of data for police cooperation, and amending Council Decisions\u00a02008/615/JHA and\u00a02008/616/JHA and Regulations (EU)\u00a02018/1726, (EU) No\u00a02019/817 and (EU)\u00a02019/818 of the European Parliament and of the Council (the Pr\u00fcm II Regulation)"
+  },
+  {
+   "parent": "32019R0817",
+   "celex": "32025R0012",
+   "kind": "amendment",
+   "date": "2024-12-19",
+   "title": "Regulation (EU) 2025/12 of the European Parliament and of the Council of 19 December 2024 on the collection and transfer of advance passenger information for enhancing and facilitating external border checks, amending Regulations (EU) 2018/1726 and (EU) 2019/817, and repealing Council Directive 2004/82/EC"
+  },
+  {
+   "parent": "32019R0452",
+   "celex": "32020R1298",
+   "kind": "amendment",
+   "date": "2020-07-13",
+   "title": "Commission Delegated Regulation (EU) 2020/1298 of 13 July 2020 amending the Annex to Regulation (EU) 2019/452 of the European Parliament and of the Council establishing a framework for the screening of foreign direct investments into the Union"
+  },
+  {
+   "parent": "32021R0241",
+   "celex": "32023R0435",
+   "kind": "amendment",
+   "date": "2023-02-27",
+   "title": "Regulation (EU) 2023/435 of the European Parliament and of the Council of 27\u00a0February 2023 amending Regulation (EU)\u00a02021/241 as regards REPowerEU chapters in recovery and resilience plans and amending Regulations (EU) No\u00a01303/2013, (EU)\u00a02021/1060 and (EU)\u00a02021/1755, and Directive\u00a02003/87/EC"
+  },
+  {
+   "parent": "32019L0771",
+   "celex": "32024L1799",
+   "kind": "amendment",
+   "date": "2024-06-13",
+   "title": "Directive (EU) 2024/1799 of the European Parliament and of the Council of 13 June 2024 on common rules promoting the repair of goods and amending Regulation (EU) 2017/2394 and Directives (EU) 2019/771 and (EU) 2020/1828 (Text with EEA relevance)"
+  },
+  {
+   "parent": "32019R0881",
+   "celex": "32025R0037",
+   "kind": "amendment",
+   "date": "2024-12-19",
+   "title": "Regulation (EU) 2025/37 of the European Parliament and of the Council of 19 December 2024 amending Regulation (EU) 2019/881 as regards managed security services (Text with EEA relevance)"
+  },
+  {
+   "parent": "32021R0694",
+   "celex": "32025R2653",
+   "kind": "amendment",
+   "date": "2025-12-19",
+   "title": "Regulation (EU) 2025/2653 of the European Parliament and of the Council of 19 December 2025 amending Regulations (EU) 2021/694, (EU) 2021/695, (EU) 2021/697, (EU) 2021/1153 and (EU) 2024/795, as regards incentivising defence-related investment in the EU budget to implement the ReArm Europe Plan (Text with EEA relevance)"
+  },
+  {
+   "parent": "32021R0523",
+   "celex": "32025R2005",
+   "kind": "amendment",
+   "date": "2025-12-16",
+   "title": "Regulation (EU) 2025/2005 of the European Parliament and of the Council of 16 December 2025 amending Regulations (EU) 2015/1017, (EU) 2021/523, (EU) 2021/695 and (EU) 2021/1153 as regards increasing the efficiency of the EU guarantee under Regulation (EU) 2021/523 and simplifying reporting requirements"
+  },
+  {
+   "parent": "32019R0452",
+   "celex": "32021R2126",
+   "kind": "amendment",
+   "date": "2021-09-29",
+   "title": "Commission Delegated Regulation (EU) 2021/2126 of 29\u00a0September 2021 amending the Annex to Regulation (EU) 2019/452 of the European Parliament and of the Council establishing a framework for the screening of foreign direct investments into the Union"
+  },
+  {
+   "parent": "32019R0817",
+   "celex": "32021R1152",
+   "kind": "amendment",
+   "date": "2021-07-07",
+   "title": "Regulation (EU) 2021/1152 of the European Parliament and of the Council of 7\u00a0July 2021 amending Regulations (EC) No\u00a0767/2008, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1860, (EU) 2018/1861 and (EU) 2019/817 as regards the establishment of the conditions for accessing other EU information systems for the purposes of the European Travel Information and Authorisation System"
+  },
+  {
+   "parent": "32021R0694",
+   "celex": "32025R0038",
+   "kind": "amendment",
+   "date": "2024-12-19",
+   "title": "Regulation (EU) 2025/38 of the European Parliament and of the Council of 19 December 2024 laying down measures to strengthen solidarity and capacities in the Union to detect, prepare for and respond to cyber threats and incidents and amending Regulation (EU) 2021/694 (Cyber Solidarity Act)"
+  },
+  {
+   "parent": "32019R1020",
+   "celex": "32024R1252",
+   "kind": "amendment",
+   "date": "2024-04-11",
+   "title": "Regulation (EU) 2024/1252 of the European Parliament and of the Council of 11 April 2024 establishing a framework for ensuring a secure and sustainable supply of critical raw materials and amending Regulations (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1724 and (EU) 2019/1020 (Text with EEA relevance)"
+  },
+  {
+   "parent": "32021R1173",
+   "celex": "32026R0150",
+   "kind": "amendment",
+   "date": "2026-01-16",
+   "title": "Council Regulation (EU) 2026/150 of 16 January 2026 amending Regulation (EU) 2021/1173 on establishing the European High Performance Computing Joint Undertaking"
+  },
+  {
+   "parent": "32021R1153",
+   "celex": "32025R2653",
+   "kind": "amendment",
+   "date": "2025-12-19",
+   "title": "Regulation (EU) 2025/2653 of the European Parliament and of the Council of 19 December 2025 amending Regulations (EU) 2021/694, (EU) 2021/695, (EU) 2021/697, (EU) 2021/1153 and (EU) 2024/795, as regards incentivising defence-related investment in the EU budget to implement the ReArm Europe Plan (Text with EEA relevance)"
+  },
+  {
+   "parent": "32021R0241",
+   "celex": "32021R0241R(02)",
+   "kind": "corrigendum",
+   "date": "2021-03-31",
+   "title": ""
+  },
+  {
+   "parent": "32021R0690",
+   "celex": "32021R0690R(01)",
+   "kind": "corrigendum",
+   "date": "2021-06-17",
+   "title": ""
+  },
+  {
+   "parent": "32019R1020",
+   "celex": "32019R1020R(04)",
+   "kind": "corrigendum",
+   "date": "2020-10-08",
+   "title": ""
+  },
+  {
+   "parent": "32019R1020",
+   "celex": "32019R1020R(08)",
+   "kind": "corrigendum",
+   "date": "2022-06-02",
+   "title": ""
+  },
+  {
+   "parent": "32021R1153",
+   "celex": "32021R1153R(01)",
+   "kind": "corrigendum",
+   "date": "2021-08-12",
+   "title": ""
+  },
+  {
+   "parent": "32021R0695",
+   "celex": "32021R0695R(02)",
+   "kind": "corrigendum",
+   "date": "2021-09-23",
+   "title": ""
+  },
+  {
+   "parent": "32021R0695",
+   "celex": "32021R0695R(05)",
+   "kind": "corrigendum",
+   "date": "2022-11-24",
+   "title": ""
+  },
+  {
+   "parent": "32021R0523",
+   "celex": "32021R0523R(01)",
+   "kind": "corrigendum",
+   "date": "2021-11-04",
+   "title": ""
+  },
+  {
+   "parent": "32019R0817",
+   "celex": "32019R0817R(01)",
+   "kind": "corrigendum",
+   "date": "2020-01-15",
+   "title": "Corrigendum to Regulation (EU) 2019/817 of the European Parliament and of the Council of 20 May 2019 on establishing a framework for interoperability between EU information systems in the field of borders and visa and amending Regulations (EC) No 767/2008, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1726 and (EU) 2018/1861 of the European Parliament and of the Council and Council Decisions 2004/512/EC and 2008/633/JHA (Official Journal of the European Union L 135 of 22 May 2019)"
+  },
+  {
+   "parent": "32019R1020",
+   "celex": "32019R1020R(06)",
+   "kind": "corrigendum",
+   "date": "2021-06-10",
+   "title": ""
+  },
+  {
+   "parent": "32021R0695",
+   "celex": "32021R0695R(01)",
+   "kind": "corrigendum",
+   "date": "2021-06-10",
+   "title": ""
+  },
+  {
+   "parent": "32021R0241",
+   "celex": "32021R0241R(04)",
+   "kind": "corrigendum",
+   "date": "2021-11-18",
+   "title": "Corrigendum to Regulation (EU) 2021/241 of the European Parliament and of the Council of 12\u00a0February 2021 establishing the Recovery and Resilience Facility (Official Journal of the European Union L 57 of 18\u00a0February\u00a02021)"
+  },
+  {
+   "parent": "32019R1020",
+   "celex": "32019R1020R(07)",
+   "kind": "corrigendum",
+   "date": "2021-12-09",
+   "title": ""
+  },
+  {
+   "parent": "32019R0517",
+   "celex": "32019R0517R(01)",
+   "kind": "corrigendum",
+   "date": "2020-07-10",
+   "title": ""
+  },
+  {
+   "parent": "32019R1150",
+   "celex": "32019R1150R(01)",
+   "kind": "corrigendum",
+   "date": "2020-06-26",
+   "title": ""
+  },
+  {
+   "parent": "32019R0881",
+   "celex": "32019R0881R(04)",
+   "kind": "corrigendum",
+   "date": "2024-10-31",
+   "title": ""
+  },
+  {
+   "parent": "32019L0789",
+   "celex": "32019L0789R(01)",
+   "kind": "corrigendum",
+   "date": "2019-11-15",
+   "title": ""
+  },
+  {
+   "parent": "32021R0690",
+   "celex": "32021R0690R(03)",
+   "kind": "corrigendum",
+   "date": "2022-06-16",
+   "title": ""
+  },
+  {
+   "parent": "32019R1020",
+   "celex": "32019R1020R(12)",
+   "kind": "corrigendum",
+   "date": "2025-07-17",
+   "title": ""
+  },
+  {
+   "parent": "32019R1020",
+   "celex": "32019R1020R(03)",
+   "kind": "corrigendum",
+   "date": "2020-07-10",
+   "title": ""
+  },
+  {
+   "parent": "32019R1020",
+   "celex": "32019R1020R(02)",
+   "kind": "corrigendum",
+   "date": "2020-03-05",
+   "title": ""
+  },
+  {
+   "parent": "32019R1020",
+   "celex": "32019R1020R(01)",
+   "kind": "corrigendum",
+   "date": "2020-02-10",
+   "title": ""
+  },
+  {
+   "parent": "32019L0790",
+   "celex": "32019L0790R(03)",
+   "kind": "corrigendum",
+   "date": "2021-08-12",
+   "title": ""
+  },
+  {
+   "parent": "32019L0771",
+   "celex": "32019L0771R(02)",
+   "kind": "corrigendum",
+   "date": "2020-03-20",
+   "title": ""
+  },
+  {
+   "parent": "32019R1020",
+   "celex": "32019R1020R(10)",
+   "kind": "corrigendum",
+   "date": "2023-07-19",
+   "title": ""
+  },
+  {
+   "parent": "32019L0771",
+   "celex": "32019L0771R(01)",
+   "kind": "corrigendum",
+   "date": "2019-11-26",
+   "title": ""
+  },
+  {
+   "parent": "32021R1153",
+   "celex": "32021R1153R(02)",
+   "kind": "corrigendum",
+   "date": "2022-06-22",
+   "title": ""
+  },
+  {
+   "parent": "32019R0881",
+   "celex": "32019R0881R(03)",
+   "kind": "corrigendum",
+   "date": "2024-01-12",
+   "title": ""
+  },
+  {
+   "parent": "32019R0817",
+   "celex": "32019R0817R(04)",
+   "kind": "corrigendum",
+   "date": "2023-04-27",
+   "title": ""
+  },
+  {
+   "parent": "32021R1173",
+   "celex": "32021R1173R(01)",
+   "kind": "corrigendum",
+   "date": "2023-05-04",
+   "title": "Corrigendum to Council Regulation (EU)\u00a02021/1173 of 13\u00a0July 2021 on establishing the European High Performance Computing Joint Undertaking and repealing Regulation (EU)\u00a02018/1488 (Official Journal of the European Union L 256 of 19\u00a0July\u00a02021)"
+  },
+  {
+   "parent": "32019R1020",
+   "celex": "32019R1020R(09)",
+   "kind": "corrigendum",
+   "date": "2022-11-17",
+   "title": ""
+  },
+  {
+   "parent": "32019R0881",
+   "celex": "32019R0881R(06)",
+   "kind": "corrigendum",
+   "date": "2024-12-06",
+   "title": ""
+  },
+  {
+   "parent": "32021R0241",
+   "celex": "32021R0241R(06)",
+   "kind": "corrigendum",
+   "date": "2022-06-02",
+   "title": ""
+  },
+  {
+   "parent": "32021R0694",
+   "celex": "32021R0694R(01)",
+   "kind": "corrigendum",
+   "date": "2022-06-16",
+   "title": ""
+  },
+  {
+   "parent": "32021R0695",
+   "celex": "32021R0695R(04)",
+   "kind": "corrigendum",
+   "date": "2022-06-16",
+   "title": ""
+  },
+  {
+   "parent": "32021R0241",
+   "celex": "32021R0241R(09)",
+   "kind": "corrigendum",
+   "date": "2025-12-09",
+   "title": ""
+  },
+  {
+   "parent": "32019R1020",
+   "celex": "32019R1020R(11)",
+   "kind": "corrigendum",
+   "date": "2025-01-27",
+   "title": ""
+  },
+  {
+   "parent": "32019R1020",
+   "celex": "32019R1020R(05)",
+   "kind": "corrigendum",
+   "date": "2021-03-31",
+   "title": ""
+  },
+  {
+   "parent": "32019R0817",
+   "celex": "32019R0817R(02)",
+   "kind": "corrigendum",
+   "date": "2020-02-07",
+   "title": ""
+  },
+  {
+   "parent": "32019L0790",
+   "celex": "32019L0790R(01)",
+   "kind": "corrigendum",
+   "date": "2019-05-22",
+   "title": ""
+  },
+  {
+   "parent": "32019R1150",
+   "celex": "32019R1150R(02)",
+   "kind": "corrigendum",
+   "date": "2022-01-06",
+   "title": ""
+  },
+  {
+   "parent": "32021R0690",
+   "celex": "32021R0690R(02)",
+   "kind": "corrigendum",
+   "date": "2021-12-16",
+   "title": ""
+  },
+  {
+   "parent": "32021R0695",
+   "celex": "32021R0695R(03)",
+   "kind": "corrigendum",
+   "date": "2021-11-18",
+   "title": ""
+  },
+  {
+   "parent": "32019R0817",
+   "celex": "32019R0817R(05)",
+   "kind": "corrigendum",
+   "date": "2025-11-27",
+   "title": "Corrigendum to Regulation (EU) 2019/817 of the European Parliament and of the Council of 20 May 2019 on establishing a framework for interoperability between EU information systems in the field of borders and visa and amending Regulations (EC) No 767/2008, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1726 and (EU) 2018/1861 of the European Parliament and of the Council and Council Decisions 2004/512/EC and 2008/633/JHA (OJ L 135, 22.5.2019)"
+  },
+  {
+   "parent": "32019R0881",
+   "celex": "32019R0881R(01)",
+   "kind": "corrigendum",
+   "date": "2019-07-04",
+   "title": ""
+  },
+  {
+   "parent": "32021R0241",
+   "celex": "32021R0241R(03)",
+   "kind": "corrigendum",
+   "date": "2021-05-06",
+   "title": ""
+  },
+  {
+   "parent": "32021R0784",
+   "celex": "32021R0784R(02)",
+   "kind": "corrigendum",
+   "date": "2022-12-22",
+   "title": ""
+  },
+  {
+   "parent": "32021R0241",
+   "celex": "32021R0241R(08)",
+   "kind": "corrigendum",
+   "date": "2023-05-25",
+   "title": "Corrigendum to Regulation (EU)\u00a02021/241 of the European Parliament and of the Council of 12\u00a0February 2021 establishing the Recovery and Resilience Facility (Official Journal of the European Union L 57 of 18\u00a0February\u00a02021)"
+  },
+  {
+   "parent": "32019R0817",
+   "celex": "32019R0817R(03)",
+   "kind": "corrigendum",
+   "date": "2021-02-18",
+   "title": ""
+  },
+  {
+   "parent": "32019L0790",
+   "celex": "32019L0790R(02)",
+   "kind": "corrigendum",
+   "date": "2019-10-10",
+   "title": ""
+  },
+  {
+   "parent": "32019R0881",
+   "celex": "32019R0881R(05)",
+   "kind": "corrigendum",
+   "date": "2024-12-03",
+   "title": ""
+  },
+  {
+   "parent": "32019R0881",
+   "celex": "32019R0881R(02)",
+   "kind": "corrigendum",
+   "date": "2021-04-15",
+   "title": ""
+  },
+  {
+   "parent": "32021R0523",
+   "celex": "32021R0523R(02)",
+   "kind": "corrigendum",
+   "date": "2022-09-29",
+   "title": ""
+  },
+  {
+   "parent": "32019R0881",
+   "celex": "32019R0881R(07)",
+   "kind": "corrigendum",
+   "date": "2026-03-11",
+   "title": ""
+  },
+  {
+   "parent": "32019R0452",
+   "celex": "32019R0452R(01)",
+   "kind": "corrigendum",
+   "date": "2020-10-29",
+   "title": ""
+  },
+  {
+   "parent": "32021R0241",
+   "celex": "32021R0241R(05)",
+   "kind": "corrigendum",
+   "date": "2022-02-03",
+   "title": ""
+  },
+  {
+   "parent": "32019L0771",
+   "celex": "32019L0771R(03)",
+   "kind": "corrigendum",
+   "date": "2021-02-11",
+   "title": ""
+  },
+  {
+   "parent": "32021R0241",
+   "celex": "32021R0241R(01)",
+   "kind": "corrigendum",
+   "date": "2021-02-23",
+   "title": ""
+  },
+  {
+   "parent": "32021R0784",
+   "celex": "32021R0784R(01)",
+   "kind": "corrigendum",
+   "date": "2022-10-13",
+   "title": ""
+  },
+  {
+   "parent": "32021R0784",
+   "celex": "32021R0784R(03)",
+   "kind": "corrigendum",
+   "date": "2025-03-17",
+   "title": ""
+  },
+  {
+   "parent": "32021R0241",
+   "celex": "32021R0241R(07)",
+   "kind": "corrigendum",
+   "date": "2023-04-13",
+   "title": ""
+  },
+  {
+   "parent": "32021R1173",
+   "celex": "32021R1173R(02)",
+   "kind": "corrigendum",
+   "date": "2024-11-28",
+   "title": ""
+  },
+  {
+   "parent": "32023R1230",
+   "celex": "32026R1744",
+   "kind": "amendment",
+   "date": "2026-07-08",
+   "title": "Regulation (EU) 2026/1744 of the European Parliament and of the Council of 8 July 2026 amending Regulations (EU) 2024/1689, (EU) 2018/1139 and (EU) 2023/1230 as regards the simplification of the implementation of harmonised rules on artificial intelligence (Digital Omnibus on AI) (Text with EEA relevance)"
+  },
+  {
+   "parent": "32022R0720",
+   "celex": "32024R0323",
+   "kind": "amendment",
+   "date": "2024-01-19",
+   "title": "Commission Regulation (EU) 2024/323 of 19\u00a0January 2024 correcting the Czech language version of Regulation (EU)\u00a02022/720 on the application of Article\u00a0101(3) of the Treaty on the Functioning of the European Union to categories of vertical agreements and concerted practices"
+  },
+  {
+   "parent": "32023R1114",
+   "celex": "32023R2869",
+   "kind": "amendment",
+   "date": "2023-12-13",
+   "title": "Regulation (EU) 2023/2869 of the European Parliament and of the Council of 13\u00a0December 2023 amending certain Regulations as regards the establishment and functioning of the European single access point (Text with EEA relevance)"
+  },
+  {
+   "parent": "32021R2085",
+   "celex": "32023R1782",
+   "kind": "amendment",
+   "date": "2023-07-25",
+   "title": "Council Regulation (EU) 2023/1782 of 25\u00a0July 2023 amending Regulation (EU)\u00a02021/2085 establishing the Joint Undertakings under Horizon Europe, as regards the Chips Joint Undertaking (Text with EEA relevance)"
+  },
+  {
+   "parent": "32023R1230",
+   "celex": "32024R2748",
+   "kind": "amendment",
+   "date": "2024-10-09",
+   "title": "Regulation (EU) 2024/2748 of the European Parliament and of the Council of 9 October 2024 amending Regulations (EU) No 305/2011, (EU) 2016/424, (EU) 2016/425, (EU) 2016/426, (EU) 2023/988 and (EU) 2023/1230 as regards emergency procedures for the conformity assessment, presumption of conformity, adoption of common specifications and market surveillance due to an internal market emergency (Text with EEA relevance)"
+  },
+  {
+   "parent": "32023R0988",
+   "celex": "32024R2748",
+   "kind": "amendment",
+   "date": "2024-10-09",
+   "title": "Regulation (EU) 2024/2748 of the European Parliament and of the Council of 9 October 2024 amending Regulations (EU) No 305/2011, (EU) 2016/424, (EU) 2016/425, (EU) 2016/426, (EU) 2023/988 and (EU) 2023/1230 as regards emergency procedures for the conformity assessment, presumption of conformity, adoption of common specifications and market surveillance due to an internal market emergency (Text with EEA relevance)"
+  },
+  {
+   "parent": "32023R1543",
+   "celex": "32023R1543R(02)",
+   "kind": "corrigendum",
+   "date": "2026-07-13",
+   "title": "Corrigendum to Regulation (EU) 2023/1543 of the European Parliament and of the Council of 12 July 2023 on European Production Orders and European Preservation Orders for electronic evidence in criminal proceedings and for the execution of custodial sentences following criminal proceedings (OJ L 191, 28.7.2023)"
+  },
+  {
+   "parent": "32022R2065",
+   "celex": "32022R2065R(01)",
+   "kind": "corrigendum",
+   "date": "2022-12-01",
+   "title": ""
+  },
+  {
+   "parent": "32022R2065",
+   "celex": "32022R2065R(06)",
+   "kind": "corrigendum",
+   "date": "2024-12-20",
+   "title": ""
+  },
+  {
+   "parent": "32023R1114",
+   "celex": "32023R1114R(05)",
+   "kind": "corrigendum",
+   "date": "2025-01-28",
+   "title": ""
+  },
+  {
+   "parent": "32022R2065",
+   "celex": "32022R2065R(02)",
+   "kind": "corrigendum",
+   "date": "2023-01-05",
+   "title": ""
+  },
+  {
+   "parent": "32022R2554",
+   "celex": "32022R2554R(03)",
+   "kind": "corrigendum",
+   "date": "2024-03-12",
+   "title": ""
+  },
+  {
+   "parent": "32022R2554",
+   "celex": "32022R2554R(08)",
+   "kind": "corrigendum",
+   "date": "2025-10-01",
+   "title": ""
+  },
+  {
+   "parent": "32022R0868",
+   "celex": "32022R0868R(01)",
+   "kind": "corrigendum",
+   "date": "2022-10-06",
+   "title": ""
+  },
+  {
+   "parent": "32023R2841",
+   "celex": "32023R2841R(01)",
+   "kind": "corrigendum",
+   "date": "2025-09-30",
+   "title": ""
+  },
+  {
+   "parent": "32022R2560",
+   "celex": "32022R2560R(02)",
+   "kind": "corrigendum",
+   "date": "2024-09-17",
+   "title": "Corrigendum to Regulation (EU) 2022/2560 of the European Parliament and of the Council of 14 December 2022 on foreign subsidies distorting the internal market (OJ L 330, 23.12.2022)"
+  },
+  {
+   "parent": "32022R2554",
+   "celex": "32022R2554R(01)",
+   "kind": "corrigendum",
+   "date": "2023-05-04",
+   "title": ""
+  },
+  {
+   "parent": "32022R2554",
+   "celex": "32022R2554R(02)",
+   "kind": "corrigendum",
+   "date": "2023-06-29",
+   "title": ""
+  },
+  {
+   "parent": "32022R2554",
+   "celex": "32022R2554R(07)",
+   "kind": "corrigendum",
+   "date": "2025-07-30",
+   "title": ""
+  },
+  {
+   "parent": "32022R2065",
+   "celex": "32022R2065R(03)",
+   "kind": "corrigendum",
+   "date": "2023-06-29",
+   "title": ""
+  },
+  {
+   "parent": "32023R1543",
+   "celex": "32023R1543R(01)",
+   "kind": "corrigendum",
+   "date": "2025-02-06",
+   "title": ""
+  },
+  {
+   "parent": "32022R1925",
+   "celex": "32022R1925R(03)",
+   "kind": "corrigendum",
+   "date": "2026-10-01",
+   "title": ""
+  },
+  {
+   "parent": "32023R1114",
+   "celex": "32023R1114R(03)",
+   "kind": "corrigendum",
+   "date": "2024-05-02",
+   "title": "Corrigendum to Regulation (EU) 2023/1114 of the European Parliament and of the Council of 31 May 2023 on markets in crypto-assets, and amending Regulations (EU) No 1093/2010 and (EU) No 1095/2010 and Directives 2013/36/EU and (EU) 2019/1937 (OJ L 150, 9.6.2023)"
+  },
+  {
+   "parent": "32022R0858",
+   "celex": "32022R0858R(01)",
+   "kind": "corrigendum",
+   "date": "2022-09-08",
+   "title": ""
+  },
+  {
+   "parent": "32022R2065",
+   "celex": "32022R2065R(04)",
+   "kind": "corrigendum",
+   "date": "2023-11-07",
+   "title": ""
+  },
+  {
+   "parent": "32023R1230",
+   "celex": "32023R1230R(03)",
+   "kind": "corrigendum",
+   "date": "2025-04-01",
+   "title": ""
+  },
+  {
+   "parent": "32023R0988",
+   "celex": "32023R0988R(03)",
+   "kind": "corrigendum",
+   "date": "2025-08-20",
+   "title": ""
+  },
+  {
+   "parent": "32022R0612",
+   "celex": "32022R0612R(02)",
+   "kind": "corrigendum",
+   "date": "2023-06-01",
+   "title": ""
+  },
+  {
+   "parent": "32022L2555",
+   "celex": "32022L2555R(08)",
+   "kind": "corrigendum",
+   "date": "2025-07-24",
+   "title": ""
+  },
+  {
+   "parent": "32022R2554",
+   "celex": "32022R2554R(04)",
+   "kind": "corrigendum",
+   "date": "2024-10-25",
+   "title": ""
+  },
+  {
+   "parent": "32022R0868",
+   "celex": "32022R0868R(05)",
+   "kind": "corrigendum",
+   "date": "2024-12-17",
+   "title": ""
+  },
+  {
+   "parent": "32023R1114",
+   "celex": "32023R1114R(04)",
+   "kind": "corrigendum",
+   "date": "2024-10-30",
+   "title": ""
+  },
+  {
+   "parent": "32023R1114",
+   "celex": "32023R1114R(02)",
+   "kind": "corrigendum",
+   "date": "2024-01-17",
+   "title": ""
+  },
+  {
+   "parent": "32023R0988",
+   "celex": "32023R0988R(04)",
+   "kind": "corrigendum",
+   "date": "2026-03-18",
+   "title": ""
+  },
+  {
+   "parent": "32022R2065",
+   "celex": "32022R2065R(09)",
+   "kind": "corrigendum",
+   "date": "2026-03-16",
+   "title": ""
+  },
+  {
+   "parent": "32023R2841",
+   "celex": "32023R2841R(02)",
+   "kind": "corrigendum",
+   "date": "2026-07-31",
+   "title": ""
+  },
+  {
+   "parent": "32021R2085",
+   "celex": "32021R2085R(01)",
+   "kind": "corrigendum",
+   "date": "2026-10-05",
+   "title": ""
+  },
+  {
+   "parent": "32023R1230",
+   "celex": "32023R1230R(01)",
+   "kind": "corrigendum",
+   "date": "2023-07-04",
+   "title": "Corrigendum to Regulation (EU)\u00a02023/1230 of the European Parliament and of the Council of 14\u00a0June 2023 on machinery and repealing Directive\u00a02006/42/EC of the European Parliament and of the Council and Council Directive\u00a073/361/EEC (Official Journal of the European Union L 165 of 29\u00a0June\u00a02023)"
+  },
+  {
+   "parent": "32022L2555",
+   "celex": "32022L2555R(04)",
+   "kind": "corrigendum",
+   "date": "2023-12-22",
+   "title": "Corrigendum to Directive (EU)\u00a02022/2555 of the European Parliament and of the Council of 14\u00a0December\u00a02022 on measures for a high common level of cybersecurity across the Union, amending Regulation (EU) No\u00a0910/2014 and Directive (EU)\u00a02018/1972, and repealing Directive (EU)\u00a02016/1148 (NIS 2 Directive) (OJ\u00a0L\u00a0333, 27.12.2022)"
+  },
+  {
+   "parent": "32022R2065",
+   "celex": "32022R2065R(07)",
+   "kind": "corrigendum",
+   "date": "2025-11-05",
+   "title": ""
+  },
+  {
+   "parent": "32023R0988",
+   "celex": "32023R0988R(01)",
+   "kind": "corrigendum",
+   "date": "2023-12-19",
+   "title": ""
+  },
+  {
+   "parent": "32023R0988",
+   "celex": "32023R0988R(02)",
+   "kind": "corrigendum",
+   "date": "2025-01-21",
+   "title": ""
+  },
+  {
+   "parent": "32023R1066",
+   "celex": "32023R1066R(01)",
+   "kind": "corrigendum",
+   "date": "2025-10-29",
+   "title": ""
+  },
+  {
+   "parent": "32022R1925",
+   "celex": "32022R1925R(01)",
+   "kind": "corrigendum",
+   "date": "2023-05-04",
+   "title": ""
+  },
+  {
+   "parent": "32022L2555",
+   "celex": "32022L2555R(02)",
+   "kind": "corrigendum",
+   "date": "2023-06-15",
+   "title": ""
+  },
+  {
+   "parent": "32022L2555",
+   "celex": "32022L2555R(01)",
+   "kind": "corrigendum",
+   "date": "2023-04-27",
+   "title": ""
+  },
+  {
+   "parent": "32022L2555",
+   "celex": "32022L2555R(06)",
+   "kind": "corrigendum",
+   "date": "2024-12-03",
+   "title": ""
+  },
+  {
+   "parent": "32022L2555",
+   "celex": "32022L2555R(05)",
+   "kind": "corrigendum",
+   "date": "2024-06-12",
+   "title": ""
+  },
+  {
+   "parent": "32023R1114",
+   "celex": "32023R1114R(06)",
+   "kind": "corrigendum",
+   "date": "2025-07-01",
+   "title": ""
+  },
+  {
+   "parent": "32022R2560",
+   "celex": "32022R2560R(01)",
+   "kind": "corrigendum",
+   "date": "2023-02-02",
+   "title": ""
+  },
+  {
+   "parent": "32022R0720",
+   "celex": "32022R0720R(01)",
+   "kind": "corrigendum",
+   "date": "2023-12-01",
+   "title": ""
+  },
+  {
+   "parent": "32022R0868",
+   "celex": "32022R0868R(04)",
+   "kind": "corrigendum",
+   "date": "2023-12-21",
+   "title": ""
+  },
+  {
+   "parent": "32022L2555",
+   "celex": "32022L2555R(07)",
+   "kind": "corrigendum",
+   "date": "2025-04-04",
+   "title": ""
+  },
+  {
+   "parent": "32022R0868",
+   "celex": "32022R0868R(06)",
+   "kind": "corrigendum",
+   "date": "2025-12-15",
+   "title": ""
+  },
+  {
+   "parent": "32022R2065",
+   "celex": "32022R2065R(05)",
+   "kind": "corrigendum",
+   "date": "2024-07-04",
+   "title": ""
+  },
+  {
+   "parent": "32023R1230",
+   "celex": "32023R1230R(02)",
+   "kind": "corrigendum",
+   "date": "2025-03-25",
+   "title": ""
+  },
+  {
+   "parent": "32022R2554",
+   "celex": "32022R2554R(06)",
+   "kind": "corrigendum",
+   "date": "2025-02-20",
+   "title": ""
+  },
+  {
+   "parent": "32022R2065",
+   "celex": "32022R2065R(10)",
+   "kind": "corrigendum",
+   "date": "2026-05-12",
+   "title": ""
+  },
+  {
+   "parent": "32022R0868",
+   "celex": "32022R0868R(03)",
+   "kind": "corrigendum",
+   "date": "2023-11-09",
+   "title": ""
+  },
+  {
+   "parent": "32022R2554",
+   "celex": "32022R2554R(09)",
+   "kind": "corrigendum",
+   "date": "2025-11-21",
+   "title": ""
+  },
+  {
+   "parent": "32022R1925",
+   "celex": "32022R1925R(02)",
+   "kind": "corrigendum",
+   "date": "2025-01-10",
+   "title": "Corrigendum to Regulation (EU) 2022/1925 of the European Parliament and of the Council of 14 September 2022 on contestable and fair markets in the digital sector and amending Directives (EU) 2019/1937 and (EU) 2020/1828 (Digital Markets Act) (OJ L 265, 12.10.2022)"
+  },
+  {
+   "parent": "32022L2555",
+   "celex": "32022L2555R(09)",
+   "kind": "corrigendum",
+   "date": "2025-11-06",
+   "title": ""
+  },
+  {
+   "parent": "32022R2065",
+   "celex": "32022R2065R(08)",
+   "kind": "corrigendum",
+   "date": "2026-02-11",
+   "title": ""
+  },
+  {
+   "parent": "32023R1067",
+   "celex": "32023R1067R(01)",
+   "kind": "corrigendum",
+   "date": "2025-11-03",
+   "title": ""
+  },
+  {
+   "parent": "32022R0612",
+   "celex": "32022R0612R(01)",
+   "kind": "corrigendum",
+   "date": "2022-07-14",
+   "title": ""
+  },
+  {
+   "parent": "32022L2555",
+   "celex": "32022L2555R(03)",
+   "kind": "corrigendum",
+   "date": "2023-09-28",
+   "title": ""
+  },
+  {
+   "parent": "32023R1114",
+   "celex": "32023R1114R(01)",
+   "kind": "corrigendum",
+   "date": "2023-06-15",
+   "title": ""
+  },
+  {
+   "parent": "32022R2554",
+   "celex": "32022R2554R(05)",
+   "kind": "corrigendum",
+   "date": "2024-12-19",
+   "title": ""
+  },
+  {
+   "parent": "32022R0868",
+   "celex": "32022R0868R(02)",
+   "kind": "corrigendum",
+   "date": "2023-05-17",
+   "title": ""
+  },
+  {
+   "parent": "32024R1735",
+   "celex": "32025R1463",
+   "kind": "amendment",
+   "date": "2025-05-23",
+   "title": "Commission Delegated Regulation (EU) 2025/1463 of 23\u00a0May 2025 amending Regulation (EU)\u00a02024/1735 of the European Parliament and of the Council as regards the identification of sub-categories within net-zero technologies and the list of specific components used for those technologies"
+  },
+  {
+   "parent": "32024R0795",
+   "celex": "32025R2653",
+   "kind": "amendment",
+   "date": "2025-12-19",
+   "title": "Regulation (EU) 2025/2653 of the European Parliament and of the Council of 19 December 2025 amending Regulations (EU) 2021/694, (EU) 2021/695, (EU) 2021/697, (EU) 2021/1153 and (EU) 2024/795, as regards incentivising defence-related investment in the EU budget to implement the ReArm Europe Plan (Text with EEA relevance)"
+  },
+  {
+   "parent": "32024R2847",
+   "celex": "32025R0327",
+   "kind": "amendment",
+   "date": "2025-02-11",
+   "title": "Regulation (EU) 2025/327 of the European Parliament and of the Council of 11 February 2025 on the European Health Data Space and amending Directive 2011/24/EU and Regulation (EU) 2024/2847 (Text with EEA relevance)"
+  },
+  {
+   "parent": "32024R1689",
+   "celex": "32026R1744",
+   "kind": "amendment",
+   "date": "2026-07-08",
+   "title": "Regulation (EU) 2026/1744 of the European Parliament and of the Council of 8 July 2026 amending Regulations (EU) 2024/1689, (EU) 2018/1139 and (EU) 2023/1230 as regards the simplification of the implementation of harmonised rules on artificial intelligence (Digital Omnibus on AI) (Text with EEA relevance)"
+  },
+  {
+   "parent": "32024L1799",
+   "celex": "32026L0074",
+   "kind": "amendment",
+   "date": "2026-01-12",
+   "title": "Commission Delegated Directive (EU) 2026/74 of 12\u00a0January 2026 amending Annex\u00a0II to Directive (EU)\u00a02024/1799 of the European Parliament and of the Council promoting the repair of goods to include domestic local space heaters as provided in Commission Regulation (EU)\u00a02024/1103 as regards ecodesign requirements for local space heaters and separate related controls"
+  },
+  {
+   "parent": "32024R1781",
+   "celex": "32024R1781R(03)",
+   "kind": "corrigendum",
+   "date": "2025-11-27",
+   "title": ""
+  },
+  {
+   "parent": "32024L2823",
+   "celex": "32024L2823R(02)",
+   "kind": "corrigendum",
+   "date": "2026-02-17",
+   "title": ""
+  },
+  {
+   "parent": "32024R1689",
+   "celex": "32024R1689R(04)",
+   "kind": "corrigendum",
+   "date": "2026-05-04",
+   "title": ""
+  },
+  {
+   "parent": "32024R1735",
+   "celex": "32024R1735R(04)",
+   "kind": "corrigendum",
+   "date": "2026-09-03",
+   "title": ""
+  },
+  {
+   "parent": "32024R2847",
+   "celex": "32024R2847R(08)",
+   "kind": "corrigendum",
+   "date": "2026-10-09",
+   "title": ""
+  },
+  {
+   "parent": "32024R1252",
+   "celex": "32024R1252R(02)",
+   "kind": "corrigendum",
+   "date": "2024-10-01",
+   "title": "Corrigendum to Regulation (EU) 2024/1252 of the European Parliament and of the Council of 11 April 2024 establishing a framework for ensuring a secure and sustainable supply of critical raw materials and amending Regulations (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1724 and (EU) 2019/1020 (OJ L, 2024/1252, 3.5.2024)"
+  },
+  {
+   "parent": "32024R2847",
+   "celex": "32024R2847R(01)",
+   "kind": "corrigendum",
+   "date": "2024-12-05",
+   "title": "Corrigendum to Regulation (EU) 2024/2847 of the European Parliament and of the Council of 23 October 2024 on horizontal cybersecurity requirements for products with digital elements and amending Regulations (EU) No 168/2013 and (EU) 2019/1020 and Directive (EU) 2020/1828 (Cyber Resilience Act) (OJ L, 2024/2847, 23.10.2024)"
+  },
+  {
+   "parent": "32024L1799",
+   "celex": "32024L1799R(03)",
+   "kind": "corrigendum",
+   "date": "2026-10-07",
+   "title": "Corrigendum to Directive (EU) 2024/1799 of the European Parliament and of the Council of 13 June 2024 on common rules promoting the repair of goods and amending Regulation (EU) 2017/2394 and Directives (EU) 2019/771 and (EU) 2020/1828 (OJ L, 2024/1799, 10.7.2024)"
+  },
+  {
+   "parent": "32024R1689",
+   "celex": "32024R1689R(03)",
+   "kind": "corrigendum",
+   "date": "2026-03-27",
+   "title": ""
+  },
+  {
+   "parent": "32024R0795",
+   "celex": "32024R0795R(01)",
+   "kind": "corrigendum",
+   "date": "2024-03-06",
+   "title": ""
+  },
+  {
+   "parent": "32024R1252",
+   "celex": "32024R1252R(05)",
+   "kind": "corrigendum",
+   "date": "2026-02-11",
+   "title": ""
+  },
+  {
+   "parent": "32024R1083",
+   "celex": "32024R1083R(03)",
+   "kind": "corrigendum",
+   "date": "2025-01-15",
+   "title": ""
+  },
+  {
+   "parent": "32024R1083",
+   "celex": "32024R1083R(02)",
+   "kind": "corrigendum",
+   "date": "2024-10-17",
+   "title": ""
+  },
+  {
+   "parent": "32024R1689",
+   "celex": "32024R1689R(01)",
+   "kind": "corrigendum",
+   "date": "2025-10-09",
+   "title": ""
+  },
+  {
+   "parent": "32024R2847",
+   "celex": "32024R2847R(07)",
+   "kind": "corrigendum",
+   "date": "2026-08-06",
+   "title": ""
+  },
+  {
+   "parent": "32024R1781",
+   "celex": "32024R1781R(01)",
+   "kind": "corrigendum",
+   "date": "2024-08-07",
+   "title": "Corrigendum to Regulation (EU) 2024/1781 of the European Parliament and of the Council of 13 June 2024 establishing a framework for the setting of ecodesign requirements for sustainable products, amending Directive (EU) 2020/1828 and Regulation (EU) 2023/1542 and repealing Directive 2009/125/EC (OJ L, 2024/1781, 28.6.2024)"
+  },
+  {
+   "parent": "32024R1735",
+   "celex": "32024R1735R(01)",
+   "kind": "corrigendum",
+   "date": "2025-02-05",
+   "title": "Corrigendum to Regulation (EU) 2024/1735 of the European Parliament and of the Council of 13 June 2024 on establishing a framework of measures for strengthening Europe\u2019s net-zero technology manufacturing ecosystem and amending Regulation (EU) 2018/1724 (OJ L, 2024/1735, 28.6.2024)"
+  },
+  {
+   "parent": "32024L2853",
+   "celex": "32024L2853R(01)",
+   "kind": "corrigendum",
+   "date": "2026-05-07",
+   "title": "Corrigendum to Directive (EU) 2024/2853 of the European Parliament and of the Council of 23 October 2024 on liability for defective products and repealing Council Directive 85/374/EEC (OJ L, 2024/2853, 18.11.2024)"
+  },
+  {
+   "parent": "32024R1028",
+   "celex": "32024R1028R(01)",
+   "kind": "corrigendum",
+   "date": "2026-09-22",
+   "title": "Corrigendum to Regulation (EU) 2024/1028 of the European Parliament and of the Council of 11 April 2024 on data collection and sharing relating to short-term accommodation rental services and amending Regulation (EU) 2018/1724 (OJ L, 2024/1028, 29.4.2024)"
+  },
+  {
+   "parent": "32024R0900",
+   "celex": "32024R0900R(01)",
+   "kind": "corrigendum",
+   "date": "2024-05-21",
+   "title": ""
+  },
+  {
+   "parent": "32024R1309",
+   "celex": "32024R1309R(02)",
+   "kind": "corrigendum",
+   "date": "2025-01-24",
+   "title": ""
+  },
+  {
+   "parent": "32024R1781",
+   "celex": "32024R1781R(02)",
+   "kind": "corrigendum",
+   "date": "2025-04-28",
+   "title": "Corrigendum to Regulation (EU) 2024/1781 of the European Parliament and of the Council of 13 June 2024 establishing a framework for the setting of ecodesign requirements for sustainable products, amending Directive (EU) 2020/1828 and Regulation (EU) 2023/1542 and repealing Directive 2009/125/EC (OJ L, 2024/1781, 28.6.2024)"
+  },
+  {
+   "parent": "32024R1309",
+   "celex": "32024R1309R(03)",
+   "kind": "corrigendum",
+   "date": "2026-02-12",
+   "title": ""
+  },
+  {
+   "parent": "32024R2847",
+   "celex": "32024R2847R(03)",
+   "kind": "corrigendum",
+   "date": "2025-10-03",
+   "title": ""
+  },
+  {
+   "parent": "32024R1624",
+   "celex": "32024R1624R(01)",
+   "kind": "corrigendum",
+   "date": "2025-03-20",
+   "title": ""
+  },
+  {
+   "parent": "32024R0795",
+   "celex": "32024R0795R(02)",
+   "kind": "corrigendum",
+   "date": "2025-11-24",
+   "title": ""
+  },
+  {
+   "parent": "32024R2847",
+   "celex": "32024R2847R(06)",
+   "kind": "corrigendum",
+   "date": "2026-03-25",
+   "title": ""
+  },
+  {
+   "parent": "32023R2854",
+   "celex": "32023R2854R(06)",
+   "kind": "corrigendum",
+   "date": "2026-09-24",
+   "title": ""
+  },
+  {
+   "parent": "32024L2853",
+   "celex": "32024L2853R(02)",
+   "kind": "corrigendum",
+   "date": "2026-09-29",
+   "title": ""
+  },
+  {
+   "parent": "32024L2831",
+   "celex": "32024L2831R(01)",
+   "kind": "corrigendum",
+   "date": "2025-02-28",
+   "title": "Corrigendum to Directive (EU) 2024/2831 of the European Parliament and of the Council of 23 October 2024 on improving working conditions in platform work (OJ L, 2024/2831, 11.11.2024)"
+  },
+  {
+   "parent": "32023R2844",
+   "celex": "32023R2844R(01)",
+   "kind": "corrigendum",
+   "date": "2025-08-01",
+   "title": "Corrigendum to Regulation (EU) 2023/2844 of the European Parliament and of the Council of 13 December 2023 on the digitalisation of judicial cooperation and access to justice in cross-border civil, commercial and criminal matters, and amending certain acts in the field of judicial cooperation (OJ L, 2023/2844, 27.12.2023)"
+  },
+  {
+   "parent": "32024R1689",
+   "celex": "32024R1689R(02)",
+   "kind": "corrigendum",
+   "date": "2025-12-19",
+   "title": ""
+  },
+  {
+   "parent": "32023R2844",
+   "celex": "32023R2844R(02)",
+   "kind": "corrigendum",
+   "date": "2026-03-26",
+   "title": ""
+  },
+  {
+   "parent": "32024L1799",
+   "celex": "32024L1799R(01)",
+   "kind": "corrigendum",
+   "date": "2024-12-09",
+   "title": "Corrigendum to Directive (EU) 2024/1799 of the European Parliament and of the Council of 13 June 2024 on common rules promoting the repair of goods and amending Regulation (EU) 2017/2394 and Directives (EU) 2019/771 and (EU) 2020/1828 (OJ L, 2024/1799, 10.7.2024)"
+  },
+  {
+   "parent": "32024R2747",
+   "celex": "32024R2747R(01)",
+   "kind": "corrigendum",
+   "date": "2025-07-03",
+   "title": ""
+  },
+  {
+   "parent": "32024R1252",
+   "celex": "32024R1252R(01)",
+   "kind": "corrigendum",
+   "date": "2024-06-03",
+   "title": "Corrigendum to Regulation (EU) 2024/1252 of the European Parliament and of the Council of 11 April 2024 establishing a framework for ensuring a secure and sustainable supply of critical raw materials and amending Regulations (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1724 and (EU) 2019/1020 (OJ L, 2024/1252, 3.5.2024)"
+  },
+  {
+   "parent": "32024R1309",
+   "celex": "32024R1309R(01)",
+   "kind": "corrigendum",
+   "date": "2024-05-24",
+   "title": "Corrigendum to Regulation (EU) 2024/1309 of the European Parliament and of the Council of 29 April 2024 on measures to reduce the cost of deploying gigabit electronic communications networks, amending Regulation (EU) 2015/2120 and repealing Directive 2014/61/EU (Gigabit Infrastructure Act) (OJ L, 2024/1309, 8.5.2024)"
+  },
+  {
+   "parent": "32023R2854",
+   "celex": "32023R2854R(01)",
+   "kind": "corrigendum",
+   "date": "2024-12-09",
+   "title": "Corrigendum to Regulation (EU) 2023/2854 of the European Parliament and of the Council of 13 December 2023 on harmonised rules on fair access to and use of data and amending Regulation (EU) 2017/2394 and Directive (EU) 2020/1828 (Data Act) (OJ L, 2023/2854, 22.12.2023)"
+  },
+  {
+   "parent": "32023R2854",
+   "celex": "32023R2854R(02)",
+   "kind": "corrigendum",
+   "date": "2024-12-17",
+   "title": ""
+  },
+  {
+   "parent": "32024R1252",
+   "celex": "32024R1252R(03)",
+   "kind": "corrigendum",
+   "date": "2025-02-14",
+   "title": ""
+  },
+  {
+   "parent": "32024R1083",
+   "celex": "32024R1083R(01)",
+   "kind": "corrigendum",
+   "date": "2024-06-18",
+   "title": ""
+  },
+  {
+   "parent": "32023R2854",
+   "celex": "32023R2854R(03)",
+   "kind": "corrigendum",
+   "date": "2025-06-30",
+   "title": ""
+  },
+  {
+   "parent": "32024R1083",
+   "celex": "32024R1083R(04)",
+   "kind": "corrigendum",
+   "date": "2026-03-10",
+   "title": ""
+  },
+  {
+   "parent": "32024R1624",
+   "celex": "32024R1624R(03)",
+   "kind": "corrigendum",
+   "date": "2026-04-16",
+   "title": ""
+  },
+  {
+   "parent": "32024R1624",
+   "celex": "32024R1624R(04)",
+   "kind": "corrigendum",
+   "date": "2026-06-26",
+   "title": ""
+  },
+  {
+   "parent": "32024R1735",
+   "celex": "32024R1735R(02)",
+   "kind": "corrigendum",
+   "date": "2025-10-27",
+   "title": ""
+  },
+  {
+   "parent": "32024L1799",
+   "celex": "32024L1799R(02)",
+   "kind": "corrigendum",
+   "date": "2025-10-23",
+   "title": ""
+  },
+  {
+   "parent": "32024R2847",
+   "celex": "32024R2847R(02)",
+   "kind": "corrigendum",
+   "date": "2025-07-02",
+   "title": "Corrigendum to Regulation (EU) 2024/2847 of the European Parliament and of the Council of 23 October 2024 on horizontal cybersecurity requirements for products with digital elements and amending Regulations (EU) No 168/2013 and (EU) 2019/1020 and Directive (EU) 2020/1828 (Cyber Resilience Act) (OJ L, 2024/2847, 20.11.2024)"
+  },
+  {
+   "parent": "32023R2854",
+   "celex": "32023R2854R(04)",
+   "kind": "corrigendum",
+   "date": "2025-09-09",
+   "title": ""
+  },
+  {
+   "parent": "32024L2823",
+   "celex": "32024L2823R(01)",
+   "kind": "corrigendum",
+   "date": "2025-10-08",
+   "title": ""
+  },
+  {
+   "parent": "32024R1624",
+   "celex": "32024R1624R(02)",
+   "kind": "corrigendum",
+   "date": "2026-03-31",
+   "title": ""
+  },
+  {
+   "parent": "32024R1252",
+   "celex": "32024R1252R(04)",
+   "kind": "corrigendum",
+   "date": "2025-11-14",
+   "title": ""
+  },
+  {
+   "parent": "32024R2847",
+   "celex": "32024R2847R(05)",
+   "kind": "corrigendum",
+   "date": "2026-02-23",
+   "title": ""
+  },
+  {
+   "parent": "32024R2847",
+   "celex": "32024R2847R(04)",
+   "kind": "corrigendum",
+   "date": "2025-10-17",
+   "title": "Corrigendum to Regulation (EU) 2024/2847 of the European Parliament and of the Council of 23 October 2024 on horizontal cybersecurity requirements for products with digital elements and amending Regulations (EU) No 168/2013 and (EU) 2019/1020 and Directive (EU) 2020/1828 (Cyber Resilience Act) (OJ L, 2024/2847, 20.11.2024)"
+  },
+  {
+   "parent": "32024R1781",
+   "celex": "32024R1781R(04)",
+   "kind": "corrigendum",
+   "date": "2026-02-04",
+   "title": ""
+  },
+  {
+   "parent": "32024R2747",
+   "celex": "32024R2747R(02)",
+   "kind": "corrigendum",
+   "date": "2025-11-07",
+   "title": ""
+  },
+  {
+   "parent": "32023R2854",
+   "celex": "32023R2854R(05)",
+   "kind": "corrigendum",
+   "date": "2026-03-10",
+   "title": ""
+  },
+  {
+   "parent": "32024R1735",
+   "celex": "32024R1735R(03)",
+   "kind": "corrigendum",
+   "date": "2026-05-20",
+   "title": ""
+  },
+  {
+   "parent": "32025R0038",
+   "celex": "32025R0038R(01)",
+   "kind": "corrigendum",
+   "date": "2025-01-24",
+   "title": "Corrigendum to Regulation (EU) 2025/38 of the European Parliament and of the Council of 19 December 2024 laying down measures to strengthen solidarity and capacities in the Union to detect, prepare for and respond to cyber threats and incidents and amending Regulation (EU) 2021/694 (Cyber Solidarity Act) (OJ L, 2025/38, 15.1.2025)"
+  },
+  {
+   "parent": "32025R0038",
+   "celex": "32025R0038R(02)",
+   "kind": "corrigendum",
+   "date": "2025-10-15",
+   "title": ""
+  },
+  {
+   "parent": "32025R0327",
+   "celex": "32025R0327R(03)",
+   "kind": "corrigendum",
+   "date": "2026-08-13",
+   "title": ""
+  },
+  {
+   "parent": "32025L0516",
+   "celex": "32025L0516R(01)",
+   "kind": "corrigendum",
+   "date": "2025-10-02",
+   "title": ""
+  },
+  {
+   "parent": "32025R0327",
+   "celex": "32025R0327R(01)",
+   "kind": "corrigendum",
+   "date": "2025-11-07",
+   "title": ""
+  },
+  {
+   "parent": "32025R2509",
+   "celex": "32025R2509R(01)",
+   "kind": "corrigendum",
+   "date": "2026-02-09",
+   "title": ""
+  },
+  {
+   "parent": "32025R0038",
+   "celex": "32025R0038R(03)",
+   "kind": "corrigendum",
+   "date": "2025-11-06",
+   "title": "Corrigendum to Regulation (EU) 2025/38 of the European Parliament and of the Council of 19 December 2024 laying down measures to strengthen solidarity and capacities in the Union to detect, prepare for and respond to cyber threats and incidents and amending Regulation (EU) 2021/694 (Cyber Solidarity Act) (OJ L, 2025/38, 15.1.2025)"
+  },
+  {
+   "parent": "32025R0327",
+   "celex": "32025R0327R(02)",
+   "kind": "corrigendum",
+   "date": "2026-03-18",
+   "title": ""
+  },
+  {
+   "parent": "32025R2509",
+   "celex": "32025R2509R(02)",
+   "kind": "corrigendum",
+   "date": "2026-08-11",
+   "title": ""
+  }
+ ]
+}

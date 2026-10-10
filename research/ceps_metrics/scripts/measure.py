@@ -109,3 +109,46 @@ def measure(celex, is_proposal=None, want_pages=True, with_addressee=True, sampl
 
 if __name__ == "__main__":
     print(json.dumps(measure(sys.argv[1]), indent=1))
+
+
+def pdf_text_lines(celex):
+    """Text of the document's PDF(s), de-hyphenated and joined into paragraphs (fallback for scanned/table HTML)."""
+    data = fetch(f"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:{celex}", binary=True)
+    blobs = [data] if data.startswith(b"%PDF") else [fetch(i, binary=True) for i in cellar_pdf_items(celex)]
+    text = ""
+    for b in blobs:
+        with tempfile.NamedTemporaryFile(suffix=".pdf") as f:
+            f.write(b); f.flush()
+            text += subprocess.run(["pdftotext", f.name, "-"], capture_output=True, text=True).stdout + "\n"
+    text = re.sub(r"-\n(?=[a-z])", "", text.replace("\f", "\n"))
+    paras, cur = [], []
+    for l in text.split("\n"):
+        l = l.strip()
+        if not l:
+            if cur: paras.append(" ".join(cur)); cur = []
+            continue
+        if re.match(r"^(Article \d+|ANNEX|HAS ADOPTED|HAVE ADOPTED|Whereas|Having regard|Proposal for)", l) and cur:
+            paras.append(" ".join(cur)); cur = []
+        cur.append(l)
+    if cur: paras.append(" ".join(cur))
+    return paras
+
+
+def measure_from_pdf(celex, is_proposal=True):
+    paras = pdf_text_lines(celex)
+    start = next((i for i, p in enumerate(paras) if re.match(r"^Proposal for an?\b", p, re.I)
+                  and any(q.startswith("Having regard") or q.startswith("THE COUNCIL") for q in paras[i:i + 12])), 0)
+    p = split_parts(paras[start:], is_proposal=False)
+    rec = recital_lines(p["preamble"])
+    out = {"celex": celex, "source": "PDF text (approximate)", "words_memorandum": words(" ".join(paras[:start])),
+           "words_preamble": words(" ".join(p["preamble"])), "words_recitals": words(" ".join(rec)),
+           "words_articles": words(" ".join(p["articles"])), "words_annexes": words(" ".join(p["annexes"])),
+           "words_financial_statement": words(" ".join(p["financial_statement"]))}
+    out["words_legal_text"] = out["words_preamble"] + out["words_articles"] + out["words_annexes"]
+    res, by_addr, n_excl = count_restrictions(p["articles"] + p["annexes"])
+    for c in CATS:
+        out["r_" + c] = res[c]
+    out["restrictions_total"] = sum(res.values())
+    for a in ADDR:
+        out["addr_" + a] = by_addr[a]
+    return out
