@@ -10,3 +10,9 @@ python3 build_map.py && python3 consolidated.py && python3 secondary.py && pytho
 python3 download.py && python3 run_all.py && python3 build_workbook.py
 ```
 Requires `spacy` with `en_core_web_sm`, `openpyxl`, and `pdfinfo` (poppler).
+
+## Planned website
+The findings will be published as a website at the end of the project. Everything the site needs is kept as data, not only in the workbook:
+- `data/impact/<CELEX>.json` — per instrument: plain-language summary, evidence rating, promised indicators and their status, and every source with a stable `id`, link, open PDF link, Internet Archive copy, plain-language summary, access type and date checked (schema in `data/impact/SCHEMA.md`).
+- `data/*.json|csv` and the workbook — metrics per instrument, secondary acts, amendments, guidance and benchmarks.
+- `charts/` — figures, regenerated from the workbook by `scripts/charts.py`.

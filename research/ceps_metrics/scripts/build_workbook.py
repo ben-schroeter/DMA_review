@@ -297,17 +297,19 @@ wpi = wb.create_sheet("proposal_indicators")
 wpi.append(["parent_row_id", "parent_name", "proposal_celex", "type", "objective", "indicator / promised impact", "target or baseline",
             "evidence found", "status", "sources"])
 wil = wb.create_sheet("impact_literature")
-wil.append(["parent_row_id", "parent_name", "citation", "year", "source_type", "method", "outcomes", "direction", "headline finding",
-            "period / geography", "quality notes", "verified", "url"])
+wil.append(["parent_row_id", "parent_name", "id", "citation", "year", "source_type", "method", "outcomes", "direction", "headline finding",
+            "plain-language summary", "period / geography", "quality notes", "interested party", "access", "verified", "accessed", "url",
+            "pdf_url", "archive_url"])
 for c, d_ in _imp.items():
     rid, nm = row_of.get(c, ("", ""))
     for x in d_["indicators"]:
         wpi.append([int(rid) if rid else None, nm, d_["proposal"], x["type"], x["objective"], x["indicator"], x["target_or_baseline"],
                     x["evidence"], x["status"], x["sources"]])
     for x in d_["literature"]:
-        wil.append([int(rid) if rid else None, nm, x["citation"], x["year"], x["source_type"], x["method"], x["outcomes"], x["direction"],
-                    x["headline"], x["period_geography"], x["quality"], x["verified"], x["url"]])
-for w_, widths in ((wpi, [8, 22, 13, 18, 40, 45, 14, 70, 22, 30]), (wil, [8, 22, 60, 6, 18, 30, 25, 18, 70, 18, 45, 16, 40])):
+        wil.append([int(rid) if rid else None, nm, x.get("id"), x["citation"], x["year"], x["source_type"], x["method"], x["outcomes"],
+                    x["direction"], x["headline"], x.get("summary_plain"), x["period_geography"], x["quality"], x.get("interested_party"),
+                    x.get("access"), x["verified"], x.get("accessed"), x["url"], x.get("pdf_url"), x.get("archive_url")])
+for w_, widths in ((wpi, [8, 22, 13, 18, 40, 45, 14, 70, 22, 30]), (wil, [8, 22, 22, 60, 6, 18, 30, 25, 18, 60, 60, 18, 40, 30, 14, 14, 11, 40, 30, 40])):
     style(w_, widths)
     for row in w_.iter_rows(min_row=2):
         for c_ in row:

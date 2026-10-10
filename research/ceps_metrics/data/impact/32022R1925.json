@@ -136,7 +136,17 @@
    "period_geography": "EU, forecast",
    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020SC0364",
    "quality": "forecast; no compliance-cost figure",
-   "verified": "full text read"
+   "verified": "full text read",
+   "id": "ec-2020-dma-ia",
+   "authors": "European Commission",
+   "title": "Impact Assessment Report accompanying the DMA proposal",
+   "venue": "SWD(2020) 363 / 364",
+   "access": "open",
+   "summary_plain": "The Commission forecast that the DMA would raise consumer surplus by about EUR 13 billion a year, but did not estimate compliance costs for gatekeepers.",
+   "pdf_url": "",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20250615204207/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020SC0364"
   },
   {
    "citation": "European Commission (2026), Staff Working Document accompanying the Report on the Review of the DMA, SWD(2026) 123, 28 April 2026",
@@ -149,7 +159,17 @@
    "period_geography": "EU, 2023-2025",
    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026SC0123",
    "quality": "self-evaluation; no quantified outcome indicators",
-   "verified": "full text read"
+   "verified": "full text read",
+   "id": "ec-2026-dma-review",
+   "authors": "European Commission",
+   "title": "First review of the Digital Markets Act (staff working document)",
+   "venue": "SWD(2026) 123",
+   "access": "open",
+   "summary_plain": "The Commission finds that the DMA has started to change how gatekeepers behave and to open their ecosystems, but says most effects cannot yet be measured and proposes no legislative changes.",
+   "pdf_url": "",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20261002180620/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52026SC0123"
   },
   {
    "citation": "European Commission (2025), press release: Commission finds Apple and Meta in breach of the DMA, 23 April 2025",
@@ -162,7 +182,17 @@
    "period_geography": "EU",
    "url": "https://digital-strategy.ec.europa.eu/en/news/commission-finds-apple-and-meta-breach-digital-markets-act",
    "quality": "primary source",
-   "verified": "page read"
+   "verified": "page read",
+   "id": "ec-2025-apple-meta-fines",
+   "authors": "European Commission",
+   "title": "Commission finds Apple and Meta in breach of the Digital Markets Act",
+   "venue": "Press release, 23 April 2025",
+   "access": "open",
+   "summary_plain": "First DMA fines: EUR 500 million for Apple (anti-steering in the App Store) and EUR 200 million for Meta (pay-or-consent).",
+   "pdf_url": "",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
   },
   {
    "citation": "European Commission (2026), press release: Commission fines Google EUR 890 million for breaches of the DMA, 23 July 2026",
@@ -175,7 +205,17 @@
    "period_geography": "EU",
    "url": "https://digital-strategy.ec.europa.eu/en/news/commission-fines-google-eu890-million-breaches-digital-markets-act",
    "quality": "primary source",
-   "verified": "page read"
+   "verified": "page read",
+   "id": "ec-2026-google-fines",
+   "authors": "European Commission",
+   "title": "Commission fines Google EUR 890 million for breaches of the Digital Markets Act",
+   "venue": "Press release, 23 July 2026",
+   "access": "open",
+   "summary_plain": "Google fined EUR 460 million for favouring its own services in search results and EUR 430 million for restricting app developers from steering users to cheaper offers outside Google Play.",
+   "pdf_url": "",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20260919064216/https://digital-strategy.ec.europa.eu/en/news/commission-fines-google-eu890-million-breaches-digital-markets-act"
   },
   {
    "citation": "Akesson, J., Amlani, K., Cepeda Suarez, R., Chissell, E., Hunt, S., Luca, M. & Petrie, G. (2026), Active Choice Interventions at Scale: Browser Defaults under the Digital Markets Act, NBER Working Paper 35112 (first issued April 2026 as \"The Effect of Choice Screens on Mobile Browser Usage: Evidence from the EU Digital Markets Act\")",
@@ -188,7 +228,17 @@
    "period_geography": "EU vs non-EU, 2024-2025",
    "url": "https://www.nber.org/papers/w35112",
    "quality": "strong design (difference-in-differences); not peer-reviewed; two authors are Mozilla employees and Mozilla provided the data (Firefox is an affected rival)",
-   "verified": "abstract read"
+   "verified": "abstract read",
+   "id": "akesson-2026-choice-screens",
+   "authors": "Akesson, Amlani, Cepeda Suarez, Chissell, Hunt, Luca, Petrie",
+   "title": "Active Choice Interventions at Scale: Browser Defaults under the Digital Markets Act",
+   "venue": "NBER Working Paper 35112",
+   "access": "abstract only",
+   "summary_plain": "Browser choice screens required by the DMA substantially increased use of rival browsers: Firefox usage rose 91% on iPhones and 13% on Android compared with what would otherwise have happened.",
+   "pdf_url": "https://www.nber.org/system/files/working_papers/w35112/w35112.pdf",
+   "interested_party": "Two authors are Mozilla employees; Mozilla provided the data",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20260920031758/https://www.nber.org/papers/w35112"
   },
   {
    "citation": "Pape, L. & Rossi, M. (2026), research on the DMA's self-preferencing ban and Google Maps; summarised in ProMarket, 18 May 2026",
@@ -201,7 +251,17 @@
    "period_geography": "EU vs European non-EU, 2024",
    "url": "https://www.promarket.org/2026/05/18/the-dmas-google-maps-experiment-shows-that-competition-is-not-one-click-away/",
    "quality": "strong design; one remedy only",
-   "verified": "summary article read"
+   "verified": "summary article read",
+   "id": "pape-rossi-2026-maps",
+   "authors": "Pape, Rossi",
+   "title": "The DMA's Google Maps experiment",
+   "venue": "Working paper; ProMarket summary, 18 May 2026",
+   "access": "open (summary)",
+   "summary_plain": "When Google removed the direct link to Google Maps from EU search results, users simply searched for \"google maps\" instead; rival map services gained no meaningful traffic.",
+   "pdf_url": "",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
   },
   {
    "citation": "Yang, J. (2025), Unintended effects of Digital Market Act on new entry and investment, Digital Policy, Regulation and Governance, doi:10.1108/DPRG-03-2025-0080",
@@ -214,7 +274,17 @@
    "period_geography": "EU-27, 2020-2024",
    "url": "https://doi.org/10.1108/DPRG-03-2025-0080",
    "quality": "small sample; short post-period; abstract only",
-   "verified": "abstract read (Crossref)"
+   "verified": "abstract read (Crossref)",
+   "id": "yang-2025-entry-investment",
+   "authors": "Yang",
+   "title": "Unintended effects of Digital Market Act on new entry and investment",
+   "venue": "Digital Policy, Regulation and Governance",
+   "access": "paywalled (abstract open)",
+   "summary_plain": "Using start-up and investment records from 27 EU countries, the study finds fewer new entrants and less investment in industries affected by the DMA.",
+   "pdf_url": "",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
   },
   {
    "citation": "Decarolis, F., Li, M. & Paternollo, F. A., Competition and Defaults in Online Search (working paper, Bocconi)",
@@ -227,7 +297,17 @@
    "period_geography": "EEA, Russia, Turkey",
    "url": "https://www.tse-fr.eu/sites/default/files/TSE/documents/conf/2022/Yale/decarolis.pdf",
    "quality": "abstract only; DMA-specific effect not confirmed",
-   "verified": "abstract seen via search"
+   "verified": "abstract seen via search",
+   "id": "decarolis-li-paternollo-defaults",
+   "authors": "Decarolis, Li, Paternollo",
+   "title": "Competition and Defaults in Online Search",
+   "venue": "Working paper, Bocconi University",
+   "access": "open",
+   "summary_plain": "Across the EEA, Russia and Turkey, changes to default search settings reduced Google's market share; the DMA-specific effect has not been separately confirmed here.",
+   "pdf_url": "",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20240330211131/https://www.tse-fr.eu/sites/default/files/TSE/documents/conf/2022/Yale/decarolis.pdf"
   },
   {
    "citation": "Cabral, L., Haucap, J., Parker, G., Petropoulos, G., Valletti, T. & Van Alstyne, M. (2021), The EU Digital Markets Act: A Report from a Panel of Economic Experts, JRC",
@@ -240,7 +320,17 @@
    "period_geography": "EU, ex-ante",
    "url": "https://ide.mit.edu/wp-content/uploads/2021/02/jrc122910_external_study_report_-_the_eu_digital_markets_act.pdf",
    "quality": "ex-ante expert opinion",
-   "verified": "seen via search"
+   "verified": "seen via search",
+   "id": "jrc-2021-expert-panel",
+   "authors": "Cabral, Haucap, Parker, Petropoulos, Valletti, Van Alstyne",
+   "title": "The EU Digital Markets Act: A Report from a Panel of Economic Experts",
+   "venue": "European Commission Joint Research Centre",
+   "access": "open",
+   "summary_plain": "Before adoption, a panel of economists supported intervention but warned that legal uncertainty could discourage innovation.",
+   "pdf_url": "",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20260622103357/https://ide.mit.edu/wp-content/uploads/2021/02/jrc122910_external_study_report_-_the_eu_digital_markets_act.pdf"
   },
   {
    "citation": "Oxera (2021), The Digital Markets Act and incentives to innovate: behavioural experiment (prepared for Amazon)",
@@ -253,7 +343,17 @@
    "period_geography": "experimental",
    "url": "https://www.oxera.com/wp-content/uploads/2021/05/The-Digital-Markets-Act-and-incentives-to-innovate_final.pdf",
    "quality": "funded by a gatekeeper; ex-ante",
-   "verified": "seen via search"
+   "verified": "seen via search",
+   "id": "oxera-2021-innovation",
+   "authors": "Oxera (for Amazon)",
+   "title": "The Digital Markets Act and incentives to innovate: behavioural experiment",
+   "venue": "Consultancy report",
+   "access": "open",
+   "summary_plain": "An experiment commissioned by Amazon suggests rules of this kind would reduce innovation in highly digital industries.",
+   "pdf_url": "",
+   "interested_party": "Commissioned by Amazon, a designated gatekeeper",
+   "accessed": "2026-10-10",
+   "archive_url": ""
   },
   {
    "citation": "CERRE (2025), Evaluating the DMA (DMA Implementation Forum), March 2025",
@@ -266,7 +366,18 @@
    "period_geography": "EU",
    "url": "https://cerre.eu/wp-content/uploads/2025/03/DMA-Evaluation_FINAL.pdf",
    "quality": "methodological, not impact evidence",
-   "verified": "full text partly read"
+   "verified": "full text partly read",
+   "id": "cerre-2025-dma-evaluation",
+   "authors": "CERRE",
+   "title": "Evaluating the DMA",
+   "venue": "CERRE DMA Implementation Forum report, March 2025",
+   "access": "open",
+   "summary_plain": "Sets out how the DMA should be evaluated (effectiveness, efficiency, consistency) and which indicators to use; notes early gains for users and complexity for firms and regulators.",
+   "pdf_url": "",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20260211002559/https://cerre.eu/wp-content/uploads/2025/03/DMA-Evaluation_FINAL.pdf"
   }
- ]
+ ],
+ "last_reviewed": "2026-10-10"
 }
