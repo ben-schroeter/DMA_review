@@ -1,0 +1,2191 @@
+[
+ {
+  "row_id": 1,
+  "eu_instrument": "Frequency Bands Directive (GSM)",
+  "us_counterpart": "FCC Cellular Radiotelephone Service rules (47 CFR Part 22, Subpart H)",
+  "us_citation": "47 CFR Part 22, Subpart H",
+  "us_date": "1981",
+  "level": "federal agency rule",
+  "match_quality": "agency rule only",
+  "rationale": "The FCC set aside the 800 MHz cellular bands by rule under its general Communications Act powers, but unlike the EU directive it did not mandate a single technology standard such as GSM.",
+  "us_text_url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-B/part-22/subpart-H",
+  "us_status": "in force (amended many times)",
+  "us_key_rules": "47 CFR Part 22 Subpart H; 47 CFR Part 2 (Table of Frequency Allocations)",
+  "alternatives": [
+   "Communications Act of 1934, 47 U.S.C. 151 et seq. (general FCC spectrum authority)",
+   "47 CFR Part 24 (PCS bands)"
+  ],
+  "verified": "eCFR structure checked (Part 22 Subpart H Cellular Radiotelephone Service exists); original 1981 Report and Order (CC Docket 79-318) FR cite not verified, left out",
+  "notes": "US deliberately left technology choice to the market; date is the 1981 cellular allocation order, year only."
+ },
+ {
+  "row_id": 2,
+  "eu_instrument": "Unfair Contract Terms Directive",
+  "us_counterpart": "Consumer Review Fairness Act of 2016",
+  "us_citation": "Pub. L. 114-258, 130 Stat. 1355",
+  "us_date": "2016-12-14",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The CRFA voids form-contract clauses that restrict consumer reviews, a single banned term, whereas the EU directive sets a general unfairness test for all non-negotiated consumer terms.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-114publ258",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "UCC 2-302 unconscionability (state law)",
+   "FTC Credit Practices Rule, 16 CFR Part 444",
+   "FTC Act s5, 15 U.S.C. 45 (unfairness)"
+  ],
+  "verified": "govinfo PLAW text opened (title, Stat. page, Dec. 14, 2016 confirmed); 16 CFR 444 checked in eCFR",
+  "notes": "No general federal unfair-terms statute; general unconscionability doctrine is state common law and UCC."
+ },
+ {
+  "row_id": 3,
+  "eu_instrument": "Satellite and Cable Directive",
+  "us_counterpart": "Satellite Home Viewer Act of 1988",
+  "us_citation": "Pub. L. 100-667, title II, 102 Stat. 3949",
+  "us_date": "1988-11-16",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "SHVA created the statutory licence for satellite retransmission of broadcast signals (17 U.S.C. 119), paralleling the cable compulsory licence in 17 U.S.C. 111, but it uses compulsory licences rather than the EU's country-of-origin rule and collective cable rights management.",
+  "us_text_url": "https://www.govinfo.gov/app/details/STATUTE-102/STATUTE-102-Pg3949",
+  "us_status": "in force as amended (17 U.S.C. 119, last extended by the Satellite Television Community Protection and Promotion Act of 2019)",
+  "us_key_rules": "37 CFR Part 201 (Copyright Office licence rules)",
+  "alternatives": [
+   "Copyright Act of 1976, 17 U.S.C. 111 (cable compulsory licence)",
+   "Satellite Television Community Protection and Promotion Act of 2019"
+  ],
+  "verified": "govinfo Statutes at Large PDF opened; Title II 'Satellite Home Viewer Act' confirmed at 102 Stat. 3949, Pub. L. 100-667 dated Nov. 16, 1988",
+  "notes": ""
+ },
+ {
+  "row_id": 4,
+  "eu_instrument": "Database Directive",
+  "us_counterpart": "Database Investment and Intellectual Property Antipiracy Act of 1996 (H.R. 3531, 104th Congress)",
+  "us_citation": "H.R. 3531, 104th Congress",
+  "us_date": "1996-05-23",
+  "level": "proposed federal bill",
+  "match_quality": "proposed only",
+  "rationale": "This bill would have created a sui generis database right like the EU's, but it and later versions failed; US databases are protected only by copyright in original selection (Feist) and contract.",
+  "us_text_url": "https://www.govinfo.gov/app/details/BILLS-104hr3531ih",
+  "us_status": "never enacted",
+  "us_key_rules": "",
+  "alternatives": [
+   "Collections of Information Antipiracy Act, H.R. 354, 106th Congress (1999)",
+   "Copyright Act, 17 U.S.C. 103 (compilations)"
+  ],
+  "verified": "govinfo BILLS text opened (title, introduced May 23, 1996); H.R. 354 (106th) text opened, Jan. 19, 1999",
+  "notes": ""
+ },
+ {
+  "row_id": 5,
+  "eu_instrument": "Community Design Regulation",
+  "us_counterpart": "Patent Act of 1952 (design patents, 35 U.S.C. 171-173)",
+  "us_citation": "Pub. L. 82-593, 66 Stat. 792",
+  "us_date": "1952-07-19",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "US design patents protect new ornamental designs after examination, but there is no unregistered design right and no unitary registration system like the Community design.",
+  "us_text_url": "https://www.govinfo.gov/app/details/STATUTE-66/STATUTE-66-Pg792",
+  "us_status": "in force as amended",
+  "us_key_rules": "37 CFR Part 1 (patent rules, design applications)",
+  "alternatives": [
+   "Vessel Hull Design Protection Act (DMCA title V, Pub. L. 105-304), 17 U.S.C. ch. 13",
+   "Lanham Act trade dress protection"
+  ],
+  "verified": "govinfo Statutes at Large PDF opened (Public Law 593, July 19, 1952); uscode 35 U.S.C. 171 page loaded",
+  "notes": "Design patent protection predates 1952; 1952 Act is the current codification."
+ },
+ {
+  "row_id": 6,
+  "eu_instrument": "Price Indication Directive",
+  "us_counterpart": "FTC Trade Regulation Rule on Unfair or Deceptive Fees",
+  "us_citation": "16 CFR Part 464; 90 FR 2066",
+  "us_date": "2025-01-10",
+  "level": "federal agency rule",
+  "match_quality": "agency rule only",
+  "rationale": "The FTC rule requires the total price to be shown up front, but only for live-event tickets and short-term lodging, while the EU directive requires selling and unit prices for all consumer goods.",
+  "us_text_url": "https://www.federalregister.gov/documents/2025/01/10/2024-30293/trade-regulation-rule-on-unfair-or-deceptive-fees",
+  "us_status": "in force (effective 2025)",
+  "us_key_rules": "16 CFR Part 464",
+  "alternatives": [
+   "Fair Packaging and Labeling Act, Pub. L. 89-755, 80 Stat. 1296 (net quantity, not price)",
+   "NIST Handbook 130 Uniform Unit Pricing Regulation, adopted by some states"
+  ],
+  "verified": "federalregister.gov API checked (90 FR 2066, 2025-01-10, 16 CFR 464); eCFR Part 464 exists; FPLA Statutes at Large PDF opened",
+  "notes": "Unit pricing is left to the states in the US."
+ },
+ {
+  "row_id": 7,
+  "eu_instrument": "Information Society (InfoSoc) Directive",
+  "us_counterpart": "Digital Millennium Copyright Act",
+  "us_citation": "Pub. L. 105-304, 112 Stat. 2860",
+  "us_date": "1998-10-28",
+  "level": "federal statute",
+  "match_quality": "close",
+  "rationale": "Both implement the 1996 WIPO Copyright Treaty, including anti-circumvention rules; the US relies on flexible fair use instead of the EU's closed list of exceptions.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-105publ304",
+  "us_status": "in force",
+  "us_key_rules": "37 CFR Part 201.40 (triennial anti-circumvention exemptions)",
+  "alternatives": [
+   "Copyright Act of 1976, 17 U.S.C. 106-122"
+  ],
+  "verified": "govinfo PLAW text opened (title, 112 Stat. 2860)",
+  "notes": ""
+ },
+ {
+  "row_id": 8,
+  "eu_instrument": "E-commerce Directive",
+  "us_counterpart": "Telecommunications Act of 1996, title V (Communications Decency Act, s230)",
+  "us_citation": "Pub. L. 104-104, 110 Stat. 56",
+  "us_date": "1996-02-08",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "Section 230 gives online intermediaries liability protection like the directive's safe harbours, but it is broader (no notice-and-takedown condition) and the US has no country-of-origin or information-duty rules.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-104publ104",
+  "us_status": "in force (47 U.S.C. 230)",
+  "us_key_rules": "",
+  "alternatives": [
+   "DMCA s512 safe harbours, Pub. L. 105-304",
+   "E-SIGN Act, Pub. L. 106-229 (electronic contracts)"
+  ],
+  "verified": "govinfo PLAW text opened (110 Stat. 56, Feb. 8, 1996)",
+  "notes": ""
+ },
+ {
+  "row_id": 9,
+  "eu_instrument": "ePrivacy Directive",
+  "us_counterpart": "Electronic Communications Privacy Act of 1986",
+  "us_citation": "Pub. L. 99-508, 100 Stat. 1848",
+  "us_date": "1986-10-21",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "ECPA protects the confidentiality of communications against interception and stored-communications access, but the US splits the other ePrivacy topics (spam, telemarketing, telecom customer data) across separate laws and has no cookie consent rule.",
+  "us_text_url": "https://www.govinfo.gov/app/details/STATUTE-100/STATUTE-100-Pg1848",
+  "us_status": "in force as amended",
+  "us_key_rules": "",
+  "alternatives": [
+   "CAN-SPAM Act of 2003, Pub. L. 108-187, 117 Stat. 2699",
+   "Telephone Consumer Protection Act of 1991, 47 U.S.C. 227",
+   "47 U.S.C. 222 (CPNI) and 47 CFR Part 64 Subpart U"
+  ],
+  "verified": "govinfo Statutes at Large PDF opened (ECPA, Oct. 21, 1986); CAN-SPAM PLAW text opened",
+  "notes": ""
+ },
+ {
+  "row_id": 10,
+  "eu_instrument": "Radio Spectrum Decision",
+  "us_counterpart": "National Telecommunications and Information Administration Organization Act (Telecommunications Authorization Act of 1992, title I)",
+  "us_citation": "Pub. L. 102-538, title I, 106 Stat. 3533",
+  "us_date": "1992-10-27",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The NTIA Organization Act sets how federal spectrum is managed and coordinated with the FCC, while the EU decision creates a framework for harmonising spectrum across member states.",
+  "us_text_url": "https://www.govinfo.gov/app/details/STATUTE-106/STATUTE-106-Pg3533",
+  "us_status": "in force as amended (47 U.S.C. 901 et seq.)",
+  "us_key_rules": "47 CFR Part 2; NTIA Manual (federal spectrum)",
+  "alternatives": [
+   "Communications Act of 1934, 47 U.S.C. 151 et seq.",
+   "Spectrum Pipeline Act of 2015"
+  ],
+  "verified": "govinfo Statutes at Large PDF opened; Title I NTIA Organization Act at 106 Stat. 3533, Oct. 27, 1992",
+  "notes": "Partly an EU single-market coordination mechanism with no exact US equivalent."
+ },
+ {
+  "row_id": 11,
+  "eu_instrument": "EC Merger Regulation",
+  "us_counterpart": "Hart-Scott-Rodino Antitrust Improvements Act of 1976",
+  "us_citation": "Pub. L. 94-435, 90 Stat. 1383",
+  "us_date": "1976-09-30",
+  "level": "federal statute",
+  "match_quality": "close",
+  "rationale": "HSR sets up pre-merger notification and waiting periods for large deals reviewed under Clayton Act s7, which matches the EUMR's notification and review system; the substantive test is a court-applied standard rather than a Commission decision.",
+  "us_text_url": "https://www.govinfo.gov/app/details/STATUTE-90/STATUTE-90-Pg1383",
+  "us_status": "in force (15 U.S.C. 18a)",
+  "us_key_rules": "16 CFR Parts 801-803",
+  "alternatives": [
+   "Clayton Act s7, 15 U.S.C. 18"
+  ],
+  "verified": "govinfo Statutes at Large PDF opened (Pub. L. 94-435, Sept. 30, 1976); 16 CFR 801-803 in eCFR",
+  "notes": ""
+ },
+ {
+  "row_id": 12,
+  "eu_instrument": "IPR Enforcement Directive",
+  "us_counterpart": "Prioritizing Resources and Organization for Intellectual Property Act of 2008 (PRO-IP Act)",
+  "us_citation": "Pub. L. 110-403, 122 Stat. 4256",
+  "us_date": "2008-10-13",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "PRO-IP strengthened civil and criminal IP remedies and enforcement coordination, but most US civil remedies sit in the separate copyright, patent and trademark statutes rather than one cross-cutting law.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-110publ403",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "Copyright Act remedies, 17 U.S.C. 501-505",
+   "Lanham Act remedies, 15 U.S.C. 1116-1117",
+   "Patent Act remedies, 35 U.S.C. 281-285"
+  ],
+  "verified": "govinfo PLAW text opened (122 Stat. 4256, Oct. 13, 2008)",
+  "notes": ""
+ },
+ {
+  "row_id": 13,
+  "eu_instrument": "Unfair Commercial Practices Directive",
+  "us_counterpart": "Federal Trade Commission Act s5 (as amended by the Wheeler-Lea Act)",
+  "us_citation": "15 U.S.C. 45; Wheeler-Lea Act, Pub. L. 75-447, 52 Stat. 111",
+  "us_date": "1938-03-21",
+  "level": "federal statute",
+  "match_quality": "close",
+  "rationale": "Section 5 bans unfair or deceptive acts or practices in commerce, enforced by the FTC, which matches the directive's general ban; the US has no blacklist of practices that are always unfair.",
+  "us_text_url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section45&num=0&edition=prelim",
+  "us_status": "in force",
+  "us_key_rules": "16 CFR Part 255 (endorsement guides) and other FTC rules",
+  "alternatives": [
+   "State UDAP statutes, e.g. California Unfair Competition Law, Bus. & Prof. Code 17200"
+  ],
+  "verified": "Statutes at Large PDF opened (Mar. 21, 1938, Public No. 447, 75th Congress, 52 Stat. 111); uscode 15 U.S.C. 45 page loaded",
+  "notes": "FTC Act itself dates from 1914 (38 Stat. 717); 'unfair or deceptive acts' added in 1938."
+ },
+ {
+  "row_id": 14,
+  "eu_instrument": "Common VAT system Directive",
+  "us_counterpart": "",
+  "us_citation": "",
+  "us_date": "",
+  "level": "none",
+  "match_quality": "none",
+  "rationale": "The US has no federal VAT or general consumption tax; sales taxes are set by each state, so no federal measure does the job of the directive.",
+  "us_text_url": "",
+  "us_status": "",
+  "us_key_rules": "",
+  "alternatives": [
+   "State sales and use tax laws (post South Dakota v. Wayfair, 2018)",
+   "Internet Tax Freedom Act, 47 U.S.C. 151 note",
+   "Marketplace Fairness Act (unenacted bills)"
+  ],
+  "verified": "no counterpart; nothing to verify",
+  "notes": "Reason: US has no federal VAT."
+ },
+ {
+  "row_id": 15,
+  "eu_instrument": "Audiovisual Media Services Directive",
+  "us_counterpart": "Children's Television Act of 1990",
+  "us_citation": "Pub. L. 101-437, 104 Stat. 996",
+  "us_date": "1990-10-17",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The CTA limits advertising minutes in children's TV programmes, overlapping with AVMSD's ad and minors rules, but the US has no rules for on-demand services or content quotas.",
+  "us_text_url": "https://www.govinfo.gov/app/details/STATUTE-104/STATUTE-104-Pg996",
+  "us_status": "in force",
+  "us_key_rules": "47 CFR 73.670-73.671",
+  "alternatives": [
+   "Communications Act broadcast indecency rules, 18 U.S.C. 1464",
+   "CALM Act of 2010"
+  ],
+  "verified": "govinfo Statutes at Large PDF opened (Pub. L. 101-437, Oct. 17, 1990)",
+  "notes": "US broadcast content regulation is limited by the First Amendment."
+ },
+ {
+  "row_id": 16,
+  "eu_instrument": "European Statistics Regulation",
+  "us_counterpart": "Foundations for Evidence-Based Policymaking Act of 2018",
+  "us_citation": "Pub. L. 115-435, 132 Stat. 5529",
+  "us_date": "2019-01-14",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "Its title III (CIPSEA 2018) sets confidentiality and duties for federal statistical agencies, similar to the European Statistical System rules, but there is no central statistical authority like Eurostat.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-115publ435",
+  "us_status": "in force",
+  "us_key_rules": "5 CFR Part 1321 (statistical agency responsibilities)",
+  "alternatives": [
+   "Confidential Information Protection and Statistical Efficiency Act of 2002 (E-Government Act title V, Pub. L. 107-347, 116 Stat. 2899)"
+  ],
+  "verified": "govinfo PLAW texts opened for Pub. L. 115-435 (Jan. 14, 2019) and 107-347 (Dec. 17, 2002); 5 CFR 1321 not checked",
+  "notes": ""
+ },
+ {
+  "row_id": 17,
+  "eu_instrument": "Toys Safety Directive",
+  "us_counterpart": "Consumer Product Safety Improvement Act of 2008",
+  "us_citation": "Pub. L. 110-314, 122 Stat. 3016",
+  "us_date": "2008-08-14",
+  "level": "federal statute",
+  "match_quality": "close",
+  "rationale": "CPSIA made the ASTM F963 toy standard mandatory and set lead and phthalate limits and third-party testing, matching the directive's safety and conformity rules; the US uses certification rather than CE marking.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-110publ314",
+  "us_status": "in force",
+  "us_key_rules": "16 CFR Part 1250 (Safety Standard for Toys)",
+  "alternatives": [
+   "Federal Hazardous Substances Act, 15 U.S.C. 1261 et seq."
+  ],
+  "verified": "govinfo PLAW text opened (122 Stat. 3016, Aug. 14, 2008); 16 CFR 1250 in eCFR",
+  "notes": ""
+ },
+ {
+  "row_id": 18,
+  "eu_instrument": "Consumer Rights Directive",
+  "us_counterpart": "Restore Online Shoppers' Confidence Act",
+  "us_citation": "Pub. L. 111-345, 124 Stat. 3618",
+  "us_date": "2010-12-29",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "ROSCA requires clear disclosure and consent for online negative-option sales, overlapping with the directive's distance-selling information rules, but the US has no general 14-day withdrawal right.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-111publ345",
+  "us_status": "in force (15 U.S.C. 8401-8405)",
+  "us_key_rules": "",
+  "alternatives": [
+   "FTC Cooling-Off Rule, 16 CFR Part 429 (3-day cancellation for off-premises sales)",
+   "FTC Mail, Internet, or Telephone Order Merchandise Rule, 16 CFR Part 435"
+  ],
+  "verified": "govinfo PLAW text opened (124 Stat. 3618, Dec. 29, 2010); 16 CFR 429 and 435 in eCFR",
+  "notes": ""
+ },
+ {
+  "row_id": 19,
+  "eu_instrument": "Administrative cooperation in taxation (DAC)",
+  "us_counterpart": "Foreign Account Tax Compliance Act (HIRE Act, title V)",
+  "us_citation": "Pub. L. 111-147, 124 Stat. 71",
+  "us_date": "2010-03-18",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "FATCA requires automatic reporting of foreign financial accounts of US taxpayers, implemented through intergovernmental exchange agreements, but it is unilateral rather than mutual cooperation among tax authorities.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-111publ147",
+  "us_status": "in force (26 U.S.C. 1471-1474)",
+  "us_key_rules": "26 CFR 1.1471-1 to 1.1474-7",
+  "alternatives": [
+   "Tax treaties and Tax Information Exchange Agreements"
+  ],
+  "verified": "govinfo PLAW text opened (124 Stat. 71, Mar. 18, 2010); FATCA is title V of the HIRE Act (from knowledge)",
+  "notes": ""
+ },
+ {
+  "row_id": 20,
+  "eu_instrument": "General Data Protection Regulation",
+  "us_counterpart": "California Consumer Privacy Act of 2018 (as amended by the CPRA)",
+  "us_citation": "Cal. Civ. Code 1798.100-1798.199.100",
+  "us_date": "2018-06-28",
+  "level": "state law",
+  "match_quality": "state only",
+  "rationale": "The CCPA gives California residents rights to know, delete, correct and opt out of the sale or sharing of personal data, but it is an opt-out regime without a lawful-basis requirement, unlike the GDPR.",
+  "us_text_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+  "us_status": "in force (amended by Proposition 24, 2020)",
+  "us_key_rules": "Cal. Code Regs. tit. 11, 7000 et seq. (CPPA regulations)",
+  "alternatives": [
+   "American Data Privacy and Protection Act, H.R. 8152, 117th Congress (unenacted)",
+   "American Privacy Rights Act draft (2024, unenacted)",
+   "Sectoral federal laws: HIPAA, GLBA, COPPA"
+  ],
+  "verified": "leginfo URL returned 403 to curl; citation and date from knowledge (AB 375 signed June 28, 2018), not re-verified",
+  "notes": "No comprehensive federal privacy statute."
+ },
+ {
+  "row_id": 21,
+  "eu_instrument": "Law Enforcement Directive",
+  "us_counterpart": "Privacy Act of 1974",
+  "us_citation": "Pub. L. 93-579, 88 Stat. 1896",
+  "us_date": "1974-12-31",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The Privacy Act sets fair-information rules for federal agency records, including law enforcement, but it covers only federal agencies and lets them exempt criminal-law systems.",
+  "us_text_url": "https://www.govinfo.gov/app/details/STATUTE-88/STATUTE-88-Pg1896",
+  "us_status": "in force (5 U.S.C. 552a)",
+  "us_key_rules": "28 CFR Part 16 (DOJ Privacy Act rules)",
+  "alternatives": [
+   "Judicial Redress Act of 2015",
+   "Criminal Justice Information Services rules, 28 CFR Part 20"
+  ],
+  "verified": "govinfo Statutes at Large PDF opened (Pub. L. 93-579, Dec. 31, 1974)",
+  "notes": ""
+ },
+ {
+  "row_id": 22,
+  "eu_instrument": "eIDAS Regulation",
+  "us_counterpart": "Electronic Signatures in Global and National Commerce Act (E-SIGN)",
+  "us_citation": "Pub. L. 106-229, 114 Stat. 464",
+  "us_date": "2000-06-30",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "E-SIGN gives electronic signatures and records legal effect, like eIDAS's signature rules, but it has no electronic ID scheme, trust-service supervision or qualified signature tier.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-106publ229",
+  "us_status": "in force (15 U.S.C. 7001 et seq.)",
+  "us_key_rules": "",
+  "alternatives": [
+   "Uniform Electronic Transactions Act (state law)",
+   "NIST SP 800-63 Digital Identity Guidelines",
+   "Improving Digital Identity Act (unenacted bills)"
+  ],
+  "verified": "govinfo PLAW text opened (114 Stat. 464, June 30, 2000)",
+  "notes": ""
+ },
+ {
+  "row_id": 23,
+  "eu_instrument": "Payment Services Directive 2 (PSD2)",
+  "us_counterpart": "Electronic Fund Transfer Act",
+  "us_citation": "Pub. L. 95-630, title XX, 92 Stat. 3728",
+  "us_date": "1978-11-10",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "EFTA and Regulation E set consumer rights and liability rules for electronic payments, overlapping with PSD2's conduct rules, but payment firms are licensed by states and open-banking access came only through the CFPB's 2024 s1033 rule.",
+  "us_text_url": "https://www.govinfo.gov/app/details/STATUTE-92/STATUTE-92-Pg3728",
+  "us_status": "in force (15 U.S.C. 1693 et seq.)",
+  "us_key_rules": "12 CFR Part 1005 (Regulation E); 12 CFR Part 1033 (Personal Financial Data Rights, 89 FR 90838)",
+  "alternatives": [
+   "Dodd-Frank Act s1033, Pub. L. 111-203, 124 Stat. 1376, and CFPB rule 12 CFR Part 1033 (2024-11-18, under reconsideration)",
+   "State money transmitter laws"
+  ],
+  "verified": "Statutes at Large PDF of Pub. L. 95-630 opened; 'Electronic Fund Transfer Act' title confirmed at 92 Stat. 3728; FR API confirmed 89 FR 90838; 12 CFR 1005 and 1033 in eCFR",
+  "notes": "Status of the 1033 rule as of 2026 not checked."
+ },
+ {
+  "row_id": 24,
+  "eu_instrument": "Open Internet Access Regulation",
+  "us_counterpart": "FCC Protecting and Promoting the Open Internet Order (2015)",
+  "us_citation": "47 CFR Part 8; 80 FR 19738",
+  "us_date": "2015-04-13",
+  "level": "federal agency rule",
+  "match_quality": "agency rule only",
+  "rationale": "The 2015 order banned blocking, throttling and paid prioritisation by broadband providers, the same core rules as the EU regulation, but it was repealed in 2018 and a 2024 revival was vacated in court.",
+  "us_text_url": "https://www.federalregister.gov/documents/2015/04/13/2015-07841/protecting-and-promoting-the-open-internet",
+  "us_status": "repealed 2018",
+  "us_key_rules": "47 CFR Part 8 (now transparency only)",
+  "alternatives": [
+   "Restoring Internet Freedom Order, 83 FR 7852 (2018-02-22) (repeal)",
+   "Safeguarding and Securing the Open Internet Order, 89 FR 45404 (2024-05-22), vacated 2025 by the Sixth Circuit",
+   "California Internet Consumer Protection and Net Neutrality Act of 2018 (SB 822), Cal. Civ. Code 3100-3104"
+  ],
+  "verified": "federalregister.gov API checked for 80 FR 19738, 83 FR 7852, 89 FR 45404 and the 2025 deletion order 90 FR 38406",
+  "notes": "No net neutrality statute; California SB 822 is the main law in force."
+ },
+ {
+  "row_id": 25,
+  "eu_instrument": "Technology Transfer Block Exemption",
+  "us_counterpart": "DOJ/FTC Antitrust Guidelines for the Licensing of Intellectual Property",
+  "us_citation": "Agency guidance (no CFR part)",
+  "us_date": "2017-01-12",
+  "level": "federal agency rule",
+  "match_quality": "agency rule only",
+  "rationale": "The guidelines describe how the agencies assess IP licences, including a safety zone, much like the block exemption, but they are non-binding enforcement guidance rather than a legal exemption.",
+  "us_text_url": "https://www.justice.gov/atr/IPguidelines/download",
+  "us_status": "in force (guidance)",
+  "us_key_rules": "",
+  "alternatives": [
+   "Sherman Act ss1-2, 15 U.S.C. 1-2"
+  ],
+  "verified": "justice.gov PDF opened (title and date January 12, 2017 confirmed)",
+  "notes": "Guidance, not a rule; listed under federal agency rule for lack of a better level."
+ },
+ {
+  "row_id": 26,
+  "eu_instrument": "Trade Secrets Directive",
+  "us_counterpart": "Defend Trade Secrets Act of 2016",
+  "us_citation": "Pub. L. 114-153, 130 Stat. 376",
+  "us_date": "2016-05-11",
+  "level": "federal statute",
+  "match_quality": "close",
+  "rationale": "Both give trade-secret owners civil remedies against misappropriation; the DTSA adds an ex parte civil seizure remedy and sits beside state UTSA laws.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-114publ153",
+  "us_status": "in force (18 U.S.C. 1836)",
+  "us_key_rules": "",
+  "alternatives": [
+   "Uniform Trade Secrets Act (state law)",
+   "Economic Espionage Act of 1996"
+  ],
+  "verified": "govinfo PLAW text opened (130 Stat. 376, May 11, 2016)",
+  "notes": ""
+ },
+ {
+  "row_id": 27,
+  "eu_instrument": "Digital Content Directive",
+  "us_counterpart": "Virginia Uniform Computer Information Transactions Act",
+  "us_citation": "Va. Code 59.1-501.1 et seq.",
+  "us_date": "2000",
+  "level": "state law",
+  "match_quality": "state only",
+  "rationale": "Virginia's UCITA sets contract and warranty rules for software and other computer information, but it was enacted in only two states and is more licensor-friendly than the EU's consumer conformity rules.",
+  "us_text_url": "https://law.lis.virginia.gov/vacodefull/title59.1/chapter43/",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "Maryland UCITA, Md. Code Com. Law 22-101 et seq.",
+   "California AB 2426 (2024) on disclosures for digital goods 'purchases'",
+   "Magnuson-Moss Warranty Act (tangible goods only)"
+  ],
+  "verified": "Virginia Code chapter 43 page opened (title confirmed; history 2000, cc. 101, 996); exact enactment day not verified",
+  "notes": "No federal law on digital content conformity."
+ },
+ {
+  "row_id": 28,
+  "eu_instrument": "Sale of Goods Directive",
+  "us_counterpart": "Magnuson-Moss Warranty Act",
+  "us_citation": "Pub. L. 93-637, 88 Stat. 2183",
+  "us_date": "1975-01-04",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "Magnuson-Moss regulates written consumer product warranties and protects implied warranties, but it does not create a mandatory legal guarantee period; core sales warranty rules are in the state UCC Article 2.",
+  "us_text_url": "https://www.govinfo.gov/app/details/STATUTE-88/STATUTE-88-Pg2183",
+  "us_status": "in force (15 U.S.C. 2301 et seq.)",
+  "us_key_rules": "16 CFR Parts 700-703",
+  "alternatives": [
+   "Uniform Commercial Code Article 2 (state law)"
+  ],
+  "verified": "govinfo Statutes at Large PDF opened (Pub. L. 93-637, Jan. 4, 1975; title confirmed)",
+  "notes": ""
+ },
+ {
+  "row_id": 29,
+  "eu_instrument": "Company Law Directive",
+  "us_counterpart": "Delaware General Corporation Law",
+  "us_citation": "Del. Code Ann. tit. 8, ch. 1",
+  "us_date": "1899",
+  "level": "state law",
+  "match_quality": "state only",
+  "rationale": "US company formation, mergers and corporate governance are governed by state law, with Delaware the leading model, while the EU directive harmonises member-state company law and registers.",
+  "us_text_url": "https://delcode.delaware.gov/title8/c001/index.html",
+  "us_status": "in force (amended yearly)",
+  "us_key_rules": "",
+  "alternatives": [
+   "Corporate Transparency Act (NDAA FY2021, Pub. L. 116-283, div. F), beneficial ownership reporting, narrowed for domestic companies in 2025",
+   "Model Business Corporation Act (adopted by many states)",
+   "Securities Exchange Act of 1934 (listed companies)"
+  ],
+  "verified": "delcode.delaware.gov Title 8 ch. 1 page opened; NDAA FY2021 PLAW page opened (134 Stat. 3388); original enactment year 1899 from knowledge, day not verified",
+  "notes": ""
+ },
+ {
+  "row_id": 30,
+  "eu_instrument": "Geo-blocking Regulation",
+  "us_counterpart": "",
+  "us_citation": "",
+  "us_date": "",
+  "level": "none",
+  "match_quality": "none",
+  "rationale": "none: EU single-market mechanism banning unjustified discrimination by customers' nationality or residence across Member States; the US has no equivalent inter-state rule beyond the dormant Commerce Clause.",
+  "us_text_url": "",
+  "us_status": "",
+  "us_key_rules": "",
+  "alternatives": [
+   "Dormant Commerce Clause doctrine (constitutional, not statute)"
+  ],
+  "verified": "reasoned from knowledge; no counterpart to verify",
+  "notes": ""
+ },
+ {
+  "row_id": 31,
+  "eu_instrument": "Consumer Protection Cooperation Regulation",
+  "us_counterpart": "U.S. SAFE WEB Act of 2006",
+  "us_citation": "Pub. L. 109-455, 120 Stat. 3372",
+  "us_date": "2006-12-22",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The SAFE WEB Act empowers the FTC to share information and cooperate with foreign consumer-protection authorities on cross-border fraud, whereas the CPC Regulation builds a binding enforcement network of national authorities with mutual-assistance and coordinated-action duties.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-109publ455",
+  "us_status": "in force (sunset repeatedly extended)",
+  "us_key_rules": "",
+  "alternatives": [
+   "FTC Act (15 U.S.C. 41 et seq.)",
+   "State attorney general cooperation via NAAG (informal)"
+  ],
+  "verified": "govinfo page and MODS metadata opened (title, date, Stat. cite checked)",
+  "notes": ""
+ },
+ {
+  "row_id": 32,
+  "eu_instrument": "European Electronic Communications Code",
+  "us_counterpart": "Telecommunications Act of 1996",
+  "us_citation": "Pub. L. 104-104, 110 Stat. 56",
+  "us_date": "1996-02-08",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The 1996 Act amends the Communications Act of 1934 to open telecom markets, set interconnection, universal service and spectrum rules, as the EECC does, but US broadband is largely outside common-carrier regulation and there is no EU-style SMP framework.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-104publ104",
+  "us_status": "in force",
+  "us_key_rules": "47 CFR parts 1, 20, 51, 54, 64",
+  "alternatives": [
+   "Communications Act of 1934 (47 U.S.C. 151 et seq.)",
+   "Infrastructure Investment and Jobs Act broadband provisions (Pub. L. 117-58)"
+  ],
+  "verified": "govinfo page and MODS metadata opened (title, date, Stat. cite checked)",
+  "notes": ""
+ },
+ {
+  "row_id": 33,
+  "eu_instrument": "Copyright in the Digital Single Market Directive",
+  "us_counterpart": "Digital Millennium Copyright Act",
+  "us_citation": "Pub. L. 105-304, 112 Stat. 2860",
+  "us_date": "1998-10-28",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The DMCA sets the online copyright framework (notice-and-takedown safe harbours, anti-circumvention), while the CDSM Directive goes further with TDM exceptions, a press publishers' right and Article 17 platform licensing duties that reverse the safe-harbour logic.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-105publ304",
+  "us_status": "in force",
+  "us_key_rules": "37 CFR part 201 (DMCA agent designation, 1201 exemptions)",
+  "alternatives": [
+   "Orrin G. Hatch-Bob Goodlatte Music Modernization Act (Pub. L. 115-264, 132 Stat. 3676)",
+   "Copyright Act of 1976 fair use (17 U.S.C. 107)"
+  ],
+  "verified": "govinfo page and MODS metadata opened (title, date, Stat. cite checked)",
+  "notes": "No US press publishers' right or text-and-data-mining exception; fair use plays that role."
+ },
+ {
+  "row_id": 34,
+  "eu_instrument": "Satellite and Cable II Directive",
+  "us_counterpart": "STELA Reauthorization Act of 2014",
+  "us_citation": "Pub. L. 113-200, 128 Stat. 2059",
+  "us_date": "2014-12-04",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "STELAR renewed the statutory licences for satellite and cable retransmission of broadcast signals (17 U.S.C. 111, 119), comparable to the Directive's retransmission and direct-injection rules, but the US has no country-of-origin rule for online ancillary services.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-113publ200",
+  "us_status": "in force (distant-signal licence made permanent in 2019)",
+  "us_key_rules": "37 CFR part 201; 47 CFR part 76",
+  "alternatives": [
+   "Satellite Television Community Protection and Promotion Act of 2019 (Pub. L. 116-94, div. P, title XI, 133 Stat. 3201)",
+   "Copyright Act of 1976 s.111 cable licence"
+  ],
+  "verified": "govinfo page and MODS metadata opened (title, date, Stat. cite checked)",
+  "notes": ""
+ },
+ {
+  "row_id": 35,
+  "eu_instrument": "Data protection by EU institutions Regulation",
+  "us_counterpart": "Privacy Act of 1974",
+  "us_citation": "Pub. L. 93-579, 88 Stat. 1896",
+  "us_date": "1974-12-31",
+  "level": "federal statute",
+  "match_quality": "close",
+  "rationale": "Both regulate how the government's own institutions collect, use and disclose personal data and give individuals access and correction rights; the Privacy Act is older and narrower (records systems, no independent supervisor like the EDPS).",
+  "us_text_url": "https://www.law.cornell.edu/uscode/text/5/552a",
+  "us_status": "in force",
+  "us_key_rules": "OMB Circular A-130; agency Privacy Act rules in CFR",
+  "alternatives": [
+   "E-Government Act of 2002 s.208 (privacy impact assessments)",
+   "Computer Matching and Privacy Protection Act of 1988"
+  ],
+  "verified": "law.cornell.edu 5 U.S.C. 552a source credit opened (Pub. L. 93-579, Dec. 31, 1974; s.3 at 88 Stat. 1897); govinfo has no PLAW text for 1974",
+  "notes": "Act begins at 88 Stat. 1896."
+ },
+ {
+  "row_id": 36,
+  "eu_instrument": "Single Digital Gateway Regulation",
+  "us_counterpart": "21st Century Integrated Digital Experience Act",
+  "us_citation": "Pub. L. 115-336, 132 Stat. 5025",
+  "us_date": "2018-12-20",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "21st Century IDEA requires federal agencies to digitise forms and services and modernise websites, overlapping with the SDG's online-procedures goal, but it lacks the SDG's single EU portal, once-only cross-border evidence exchange and assistance-service network.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-115publ336",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "E-Government Act of 2002",
+   "Paperwork Reduction Act"
+  ],
+  "verified": "govinfo page and MODS metadata opened (title, date, Stat. cite checked)",
+  "notes": ""
+ },
+ {
+  "row_id": 37,
+  "eu_instrument": "Cybersecurity Act",
+  "us_counterpart": "Cybersecurity and Infrastructure Security Agency Act of 2018",
+  "us_citation": "Pub. L. 115-278, 132 Stat. 4168",
+  "us_date": "2018-11-16",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The CISA Act creates a standing federal cybersecurity agency as the Cybersecurity Act does for ENISA, but the US has no statutory product cybersecurity certification framework; certification is voluntary (NIST, FCC Cyber Trust Mark).",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-115publ278",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "Internet of Things Cybersecurity Improvement Act of 2020 (Pub. L. 116-207, 134 Stat. 1001)",
+   "FCC IoT Cyber Trust Mark labelling programme (47 CFR part 8, 2024)"
+  ],
+  "verified": "govinfo page and MODS metadata opened (title, date, Stat. cite checked)",
+  "notes": ""
+ },
+ {
+  "row_id": 38,
+  "eu_instrument": "Free Flow of Non-Personal Data Regulation",
+  "us_counterpart": "",
+  "us_citation": "",
+  "us_date": "",
+  "level": "none",
+  "match_quality": "none",
+  "rationale": "none: EU single-market mechanism prohibiting data-localisation requirements between Member States; US states do not impose such requirements and no federal statute addresses it.",
+  "us_text_url": "",
+  "us_status": "",
+  "us_key_rules": "",
+  "alternatives": [
+   "USMCA digital trade chapter (data-localisation ban, trade agreement)"
+  ],
+  "verified": "reasoned from knowledge; no counterpart to verify",
+  "notes": ""
+ },
+ {
+  "row_id": 39,
+  "eu_instrument": "FDI Screening Regulation",
+  "us_counterpart": "Foreign Investment Risk Review Modernization Act of 2018 (FIRRMA)",
+  "us_citation": "Pub. L. 115-232, div. A, title XVII, 132 Stat. 2173",
+  "us_date": "2018-08-13",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "FIRRMA expanded CFIUS review of foreign investments on national-security grounds, including critical technology and sensitive data; the EU Regulation only sets a cooperation framework for national screening and gives the Commission advisory opinions, not a blocking power.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-115publ232",
+  "us_status": "in force",
+  "us_key_rules": "31 CFR parts 800 and 802",
+  "alternatives": [
+   "Defense Production Act of 1950 s.721 (50 U.S.C. 4565)",
+   "Outbound investment rules (31 CFR part 850)"
+  ],
+  "verified": "govinfo page and MODS metadata opened (title, date, Stat. cite checked); FIRRMA located in NDAA FY2019 text at 132 Stat. 2173",
+  "notes": "FIRRMA is title XVII of the John S. McCain NDAA for FY2019 (Pub. L. 115-232, 132 Stat. 1636)."
+ },
+ {
+  "row_id": 40,
+  "eu_instrument": "Non-cash payment fraud Directive",
+  "us_counterpart": "Counterfeit Access Device and Computer Fraud and Abuse Act of 1984 (18 U.S.C. 1029)",
+  "us_citation": "Pub. L. 98-473, title II, s.1602(a), 98 Stat. 2183",
+  "us_date": "1984-10-12",
+  "level": "federal statute",
+  "match_quality": "close",
+  "rationale": "18 U.S.C. 1029 criminalises producing, trafficking and using counterfeit or unauthorised access devices (cards, codes, account numbers), the same core offences the Directive harmonises for non-cash payment instruments.",
+  "us_text_url": "https://www.law.cornell.edu/uscode/text/18/1029",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "Identity Theft and Assumption Deterrence Act of 1998",
+   "Wire fraud (18 U.S.C. 1343)",
+   "Computer Fraud and Abuse Act (18 U.S.C. 1030)"
+  ],
+  "verified": "law.cornell.edu 18 U.S.C. 1029 source credit opened; govinfo has no PLAW text for 1984",
+  "notes": "Enacted within the Comprehensive Crime Control Act of 1984."
+ },
+ {
+  "row_id": 41,
+  "eu_instrument": "Market Surveillance Regulation",
+  "us_counterpart": "Consumer Product Safety Improvement Act of 2008",
+  "us_citation": "Pub. L. 110-314, 122 Stat. 3016",
+  "us_date": "2008-08-14",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "CPSIA strengthened CPSC powers over product safety compliance, testing, import inspection and recalls, overlapping with EU market surveillance, but it covers consumer products only and not the full range of harmonised product legislation or a responsible-economic-operator rule.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-110publ314",
+  "us_status": "in force",
+  "us_key_rules": "16 CFR parts 1107, 1110",
+  "alternatives": [
+   "Consumer Product Safety Act of 1972",
+   "INFORM Consumers Act (2022, online marketplace seller verification)"
+  ],
+  "verified": "govinfo page and MODS metadata opened (title, date, Stat. cite checked)",
+  "notes": ""
+ },
+ {
+  "row_id": 42,
+  "eu_instrument": "E-evidence Regulation",
+  "us_counterpart": "Clarifying Lawful Overseas Use of Data Act (CLOUD Act)",
+  "us_citation": "Pub. L. 115-141, div. V, 132 Stat. 1213",
+  "us_date": "2018-03-23",
+  "level": "federal statute",
+  "match_quality": "close",
+  "rationale": "The CLOUD Act requires US providers to disclose data under their control regardless of storage location and authorises executive agreements for foreign direct orders, the same cross-border e-evidence problem the EU Regulation addresses with production and preservation orders.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-115publ141",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "Stored Communications Act (18 U.S.C. 2701 et seq.)"
+  ],
+  "verified": "govinfo page and MODS metadata opened (title, date, Stat. cite checked); CLOUD Act division located at 132 Stat. 1213; 18 U.S.C. 2523 source credit checked on law.cornell.edu",
+  "notes": "Division V of the Consolidated Appropriations Act, 2018 (Pub. L. 115-141, 132 Stat. 348)."
+ },
+ {
+  "row_id": 43,
+  "eu_instrument": "Open Data Directive (PSI)",
+  "us_counterpart": "OPEN Government Data Act (title II of the Foundations for Evidence-Based Policymaking Act of 2018)",
+  "us_citation": "Pub. L. 115-435, title II, 132 Stat. 5529",
+  "us_date": "2019-01-14",
+  "level": "federal statute",
+  "match_quality": "close",
+  "rationale": "Both require public-sector data to be published by default in open, machine-readable formats for reuse; the US law covers federal agencies only while the Directive also covers public undertakings and high-value datasets.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-115publ435",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "Federal Data Strategy (OMB M-19-18)",
+   "E-Government Act of 2002"
+  ],
+  "verified": "govinfo page and MODS metadata opened (title, date, Stat. cite checked)",
+  "notes": "Pub. L. 115-435 begins at 132 Stat. 5529; title II page not separately checked."
+ },
+ {
+  "row_id": 44,
+  "eu_instrument": "Platform-to-Business (P2B) Regulation",
+  "us_counterpart": "",
+  "us_citation": "",
+  "us_date": "",
+  "level": "none",
+  "match_quality": "none",
+  "rationale": "none: no US rule imposes transparency and redress duties on platforms toward business users; the US relies on general antitrust law and FTC Act s.5.",
+  "us_text_url": "",
+  "us_status": "",
+  "us_key_rules": "",
+  "alternatives": [
+   "American Innovation and Choice Online Act (S. 2992, 117th Congress, never enacted)",
+   "FTC Act s.5 (15 U.S.C. 45)"
+  ],
+  "verified": "reasoned from knowledge; no counterpart to verify",
+  "notes": ""
+ },
+ {
+  "row_id": 45,
+  "eu_instrument": "Digital Europe Programme",
+  "us_counterpart": "CHIPS and Science Act",
+  "us_citation": "Pub. L. 117-167, 136 Stat. 1366",
+  "us_date": "2022-08-09",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "CHIPS and Science funds semiconductors, AI, quantum and advanced computing research and deployment, overlapping with Digital Europe's capacity-building aims, but it is research and industrial-policy funding rather than a deployment programme for digital skills and EDIHs.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-117publ167",
+  "us_status": "in force",
+  "us_key_rules": "15 CFR part 231 (CHIPS incentives)",
+  "alternatives": [
+   "Infrastructure Investment and Jobs Act (Pub. L. 117-58)"
+  ],
+  "verified": "govinfo page and MODS metadata opened (title, date, Stat. cite checked)",
+  "notes": "'CHIPS and Science Act' is the popular name; the law's text has division short titles (e.g. CHIPS Act of 2022) but no overall short title."
+ },
+ {
+  "row_id": 46,
+  "eu_instrument": "InvestEU Programme",
+  "us_counterpart": "Infrastructure Investment and Jobs Act",
+  "us_citation": "Pub. L. 117-58, 135 Stat. 429",
+  "us_date": "2021-11-15",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "IIJA finances infrastructure through grants and federal credit programmes, overlapping with InvestEU's mobilisation of investment, but InvestEU is an EU budget guarantee implemented through the EIB and partners with no direct US equivalent.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-117publ58",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "Inflation Reduction Act of 2022 (loan guarantee authority)",
+   "Small Business Investment Act of 1958"
+  ],
+  "verified": "govinfo page and MODS metadata opened (title, date, Stat. cite checked)",
+  "notes": ""
+ },
+ {
+  "row_id": 47,
+  "eu_instrument": "Connecting Europe Facility",
+  "us_counterpart": "Infrastructure Investment and Jobs Act",
+  "us_citation": "Pub. L. 117-58, 135 Stat. 429",
+  "us_date": "2021-11-15",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "IIJA funds transport, energy and broadband networks, the same three sectors as CEF, though it is national infrastructure spending rather than funding of cross-border trans-European networks.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-117publ58",
+  "us_status": "in force",
+  "us_key_rules": "47 CFR part 54; NTIA BEAD programme rules",
+  "alternatives": [
+   "American Rescue Plan Act of 2021 (broadband funds)"
+  ],
+  "verified": "govinfo page and MODS metadata opened (title, date, Stat. cite checked)",
+  "notes": ""
+ },
+ {
+  "row_id": 48,
+  "eu_instrument": "Horizon Europe",
+  "us_counterpart": "CHIPS and Science Act",
+  "us_citation": "Pub. L. 117-167, 136 Stat. 1366",
+  "us_date": "2022-08-09",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "CHIPS and Science authorises large NSF, DOE and NIST research programmes, overlapping with Horizon Europe's framework funding of research and innovation, but US research funding is spread across agencies and annual appropriations.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-117publ167",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "America COMPETES Act (2007)"
+  ],
+  "verified": "govinfo page and MODS metadata opened (title, date, Stat. cite checked)",
+  "notes": "'CHIPS and Science Act' is the popular name; no overall short title in the text."
+ },
+ {
+  "row_id": 49,
+  "eu_instrument": "Single Market Programme",
+  "us_counterpart": "",
+  "us_citation": "",
+  "us_date": "",
+  "level": "none",
+  "match_quality": "none",
+  "rationale": "none: EU budget programme supporting single-market governance, SME support, standardisation and consumer policy across Member States.",
+  "us_text_url": "",
+  "us_status": "",
+  "us_key_rules": "",
+  "alternatives": [
+   "Small Business Act programmes (partial overlap on SME support)"
+  ],
+  "verified": "reasoned from knowledge; no counterpart to verify",
+  "notes": ""
+ },
+ {
+  "row_id": 50,
+  "eu_instrument": "European Cybersecurity Competence Centre",
+  "us_counterpart": "Cybersecurity Enhancement Act of 2014",
+  "us_citation": "Pub. L. 113-274, 128 Stat. 2971",
+  "us_date": "2014-12-18",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The 2014 Act directs NIST and NSF to fund cybersecurity research, education and standards work, overlapping with the ECCC's research-and-competence mission, but it creates no joint funding body pooling national centres.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-113publ274",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "Cybersecurity and Infrastructure Security Agency Act of 2018 (Pub. L. 115-278)",
+   "NIST National Cybersecurity Center of Excellence (administrative)"
+  ],
+  "verified": "govinfo page and MODS metadata opened (title, date, Stat. cite checked)",
+  "notes": ""
+ },
+ {
+  "row_id": 51,
+  "eu_instrument": "Terrorist Content Online Regulation",
+  "us_counterpart": "",
+  "us_citation": "",
+  "us_date": "",
+  "level": "none",
+  "match_quality": "none",
+  "rationale": "none: the First Amendment and Section 230 of the Communications Act preclude mandatory one-hour removal orders for terrorist content; US relies on voluntary platform moderation.",
+  "us_text_url": "",
+  "us_status": "",
+  "us_key_rules": "",
+  "alternatives": [
+   "47 U.S.C. 230",
+   "18 U.S.C. 2339B (material support, criminal law)"
+  ],
+  "verified": "reasoned from knowledge; no counterpart to verify",
+  "notes": ""
+ },
+ {
+  "row_id": 52,
+  "eu_instrument": "Recovery and Resilience Facility",
+  "us_counterpart": "American Rescue Plan Act of 2021",
+  "us_citation": "Pub. L. 117-2, 135 Stat. 4",
+  "us_date": "2021-03-11",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "ARPA is the US post-COVID recovery package, including state and local fiscal recovery funds, as the RRF is for the EU, but the RRF ties grants and loans to reform milestones and green and digital spending targets.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-117publ2",
+  "us_status": "in force (funds largely obligated)",
+  "us_key_rules": "31 CFR part 35 (state and local fiscal recovery funds)",
+  "alternatives": [
+   "Infrastructure Investment and Jobs Act (Pub. L. 117-58)",
+   "CARES Act (2020)"
+  ],
+  "verified": "govinfo page and MODS metadata opened (title, date, Stat. cite checked)",
+  "notes": ""
+ },
+ {
+  "row_id": 53,
+  "eu_instrument": "Temporary CSAM Derogation Regulation",
+  "us_counterpart": "PROTECT Our Children Act of 2008 (18 U.S.C. 2258A)",
+  "us_citation": "Pub. L. 110-401, 122 Stat. 4229",
+  "us_date": "2008-10-13",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "18 U.S.C. 2258A requires providers to report CSAM they find to NCMEC and makes clear they have no duty to monitor, which lets voluntary scanning proceed, whereas the EU Regulation is a temporary ePrivacy derogation that permits voluntary detection under conditions.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-110publ401",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "REPORT Act (2024, expanded reporting)",
+   "EARN IT Act (proposed, never enacted)"
+  ],
+  "verified": "govinfo page and MODS metadata opened (title, date, Stat. cite checked); 18 U.S.C. 2258A source credit checked on law.cornell.edu (122 Stat. 4243)",
+  "notes": ""
+ },
+ {
+  "row_id": 54,
+  "eu_instrument": "EuroHPC Joint Undertaking Regulation",
+  "us_counterpart": "Department of Energy High-End Computing Revitalization Act of 2004",
+  "us_citation": "Pub. L. 108-423, 118 Stat. 2400",
+  "us_date": "2004-11-30",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The Act directs DOE to run a high-end computing research programme and leadership computing facilities, comparable to EuroHPC's procurement of supercomputers, but EuroHPC is a joint EU-national funding body.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-108publ423",
+  "us_status": "in force (amended 2017 by the American Super Computing Leadership Act)",
+  "us_key_rules": "",
+  "alternatives": [
+   "CHIPS and Science Act (Pub. L. 117-167)",
+   "National Strategic Computing Initiative (Executive Order 13702, 2015)"
+  ],
+  "verified": "govinfo page and MODS metadata opened (title, date, Stat. cite checked)",
+  "notes": ""
+ },
+ {
+  "row_id": 55,
+  "eu_instrument": "DLT Pilot Regime Regulation",
+  "us_counterpart": "",
+  "us_citation": "",
+  "us_date": "",
+  "level": "none",
+  "match_quality": "none",
+  "rationale": "none: no US statutory sandbox exempting DLT market infrastructures from securities-market rules; the SEC handles this case by case through no-action letters and exemptive relief.",
+  "us_text_url": "",
+  "us_status": "",
+  "us_key_rules": "",
+  "alternatives": [
+   "Digital Asset Market Clarity Act of 2025 (H.R. 3633, 119th Congress, pending)",
+   "SEC Regulation ATS (17 CFR 242.300 et seq.)"
+  ],
+  "verified": "reasoned from knowledge; no counterpart to verify",
+  "notes": ""
+ },
+ {
+  "row_id": 56,
+  "eu_instrument": "Markets in Crypto-Assets (MiCA)",
+  "us_counterpart": "GENIUS Act",
+  "us_citation": "Pub. L. 119-27, 139 Stat. 419",
+  "us_date": "2025-07-18",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The GENIUS Act licenses and regulates payment-stablecoin issuers, matching MiCA's e-money and asset-referenced token titles, but it does not cover other crypto-asset issuance or service providers, which the pending CLARITY Act would address.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-119publ27",
+  "us_status": "in force (implementing rules pending)",
+  "us_key_rules": "",
+  "alternatives": [
+   "Digital Asset Market Clarity Act of 2025 (H.R. 3633, 119th Congress; passed House, pending in Senate)",
+   "New York BitLicense (23 NYCRR part 200)"
+  ],
+  "verified": "govinfo page and MODS metadata opened (title, date, Stat. cite checked); CLARITY Act ih/eh/rfs versions found on govinfo, no enrolled version",
+  "notes": "Senate status of CLARITY Act not confirmed beyond govinfo bill versions."
+ },
+ {
+  "row_id": 57,
+  "eu_instrument": "Digital Operational Resilience Act (DORA)",
+  "us_counterpart": "Computer-Security Incident Notification Requirements for Banking Organizations and Their Bank Service Providers",
+  "us_citation": "86 FR 66424; 12 CFR parts 53, 225, 304",
+  "us_date": "2021-11-23",
+  "level": "federal agency rule",
+  "match_quality": "agency rule only",
+  "rationale": "The OCC, Fed and FDIC rule requires banks and their service providers to notify regulators of significant cyber incidents, one element of DORA, but the US has no statute covering ICT risk management, testing and third-party provider oversight for the whole financial sector.",
+  "us_text_url": "https://www.federalregister.gov/documents/2021/11/23/2021-25510/computer-security-incident-notification-requirements-for-banking-organizations-and-their-bank",
+  "us_status": "in force",
+  "us_key_rules": "12 CFR parts 53, 225, 304",
+  "alternatives": [
+   "Bank Service Company Act (third-party examination authority)",
+   "GLBA Safeguards Rule (16 CFR part 314)",
+   "NCUA cyber incident notification rule (12 CFR part 748, 2023)",
+   "NYDFS Cybersecurity Regulation (23 NYCRR part 500)"
+  ],
+  "verified": "federalregister.gov API checked (citation, date, CFR parts)",
+  "notes": ""
+ },
+ {
+  "row_id": 58,
+  "eu_instrument": "Data Governance Act",
+  "us_counterpart": "Foundations for Evidence-Based Policymaking Act of 2018 (Evidence Act)",
+  "us_citation": "Pub. L. 115-435, 132 Stat. 5529",
+  "us_date": "2019-01-14",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The Evidence Act (OPEN Government Data Act and CIPSEA 2018) sets rules for publishing government data and for secure access to confidential statistical data, overlapping with the DGA's reuse of protected public-sector data, but it has no regime for data intermediaries or data altruism.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-115publ435",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "National Secure Data Service demonstration (CHIPS and Science Act)"
+  ],
+  "verified": "govinfo page and MODS metadata opened (title, date, Stat. cite checked)",
+  "notes": "Same act as row 43 counterpart; different titles are relevant."
+ },
+ {
+  "row_id": 59,
+  "eu_instrument": "Digital Markets Act",
+  "us_counterpart": "American Innovation and Choice Online Act",
+  "us_citation": "S. 2992, 117th Congress",
+  "us_date": "2021-10-18",
+  "level": "proposed federal bill",
+  "match_quality": "proposed only",
+  "rationale": "The bill would have imposed self-preferencing and discrimination bans on designated large online platforms, close to DMA gatekeeper obligations, but it was never enacted.",
+  "us_text_url": "https://www.govinfo.gov/app/details/BILLS-117s2992is",
+  "us_status": "never enacted (died with 117th Congress, 2023)",
+  "us_key_rules": "",
+  "alternatives": [
+   "American Choice and Innovation Online Act (H.R. 3816, 117th, introduced 2021-06-11)",
+   "Open App Markets Act (S. 2710, 117th)",
+   "Sherman Act section 2 (general antitrust law)"
+  ],
+  "verified": "govinfo BILLS MODS opened for S. 2992 and H.R. 3816 (titles and introduction dates confirmed)",
+  "notes": "Enacted US law relies on case-by-case antitrust (e.g. US v. Google)."
+ },
+ {
+  "row_id": 60,
+  "eu_instrument": "Digital Services Act",
+  "us_counterpart": "Communications Decency Act Section 230 (47 U.S.C. 230)",
+  "us_citation": "Pub. L. 104-104, title V, sec. 509, 110 Stat. 56 (Telecommunications Act of 1996); 47 U.S.C. 230",
+  "us_date": "1996-02-08",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "Section 230 sets the intermediary-liability regime for online platforms, like the DSA's liability safe harbours, but it grants immunity and imposes none of the DSA's due-diligence, transparency or risk-assessment duties.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-104publ104",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "TAKE IT DOWN Act (Pub. L. 119-12, 139 Stat. 55, 2025-05-19; notice-and-removal for intimate images)",
+   "California AB 587 (2022) social media content moderation transparency",
+   "Kids Internet and Digital Safety Act (H.R. 7757, 119th; passed House 2026, pending)"
+  ],
+  "verified": "govinfo MODS metadata and Public Law HTML opened (date and Stat. page confirmed); LII page for 47 U.S.C. 230 opened",
+  "notes": "Section 230 sits in the Telecommunications Act of 1996 (Stat. cite is for the whole Act)."
+ },
+ {
+  "row_id": 61,
+  "eu_instrument": "NIS 2 Directive",
+  "us_counterpart": "Cyber Incident Reporting for Critical Infrastructure Act of 2022 (CIRCIA)",
+  "us_citation": "Pub. L. 117-103, div. Y, 136 Stat. 1038; 6 U.S.C. 681-681g",
+  "us_date": "2022-03-15",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "CIRCIA mandates incident and ransom-payment reporting by critical-infrastructure entities to CISA, matching NIS2's reporting duties, but it sets no general cybersecurity risk-management obligations.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-117publ103",
+  "us_status": "in force (implementing rule not yet final as of 2026)",
+  "us_key_rules": "Proposed 6 CFR part 226 (89 FR 23644, 2024-04-04); final rule pending",
+  "alternatives": [
+   "Federal Information Security Modernization Act of 2014 (federal agencies only)",
+   "Cybersecurity Information Sharing Act of 2015",
+   "TSA pipeline/rail security directives",
+   "EO 14028 Improving the Nation's Cybersecurity (86 FR 26633)"
+  ],
+  "verified": "govinfo MODS metadata and Public Law HTML opened (date and Stat. page confirmed); division Y located in Pub. L. 117-103 text at 136 Stat. 1038; federalregister.gov API for proposed rule; LII 6 U.S.C. 681b",
+  "notes": "CIRCIA is a division of the Consolidated Appropriations Act, 2022."
+ },
+ {
+  "row_id": 62,
+  "eu_instrument": "Joint Undertakings under Horizon Europe",
+  "us_counterpart": "CHIPS and Science Act",
+  "us_citation": "Pub. L. 117-167, 136 Stat. 1366",
+  "us_date": "2022-08-09",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The Act authorises large public research and innovation funding programmes (NSF, DOE, NIST, Manufacturing USA) that overlap the purpose of the Horizon Europe public-private partnerships, but uses agency programmes rather than joint-undertaking bodies.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-117publ167",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "Manufacturing USA institutes (Revitalize American Manufacturing and Innovation Act of 2014)",
+   "National Quantum Initiative Act (2018)"
+  ],
+  "verified": "govinfo MODS metadata and Public Law HTML opened (date and Stat. page confirmed)",
+  "notes": "EU budget/research programme; overlap is in purpose only."
+ },
+ {
+  "row_id": 63,
+  "eu_instrument": "Roaming Regulation",
+  "us_counterpart": "",
+  "us_citation": "",
+  "us_date": "",
+  "level": "none",
+  "match_quality": "none",
+  "rationale": "No meaningful counterpart: EU single-market mechanism capping intra-EU retail roaming charges; US carriers offer nationwide plans and the FCC only imposes a wholesale roaming duty.",
+  "us_text_url": "",
+  "us_status": "",
+  "us_key_rules": "",
+  "alternatives": [
+   "47 CFR 20.12 Resale and roaming (FCC automatic and data roaming obligations)"
+  ],
+  "verified": "eCFR section 47 CFR 20.12 heading opened",
+  "notes": ""
+ },
+ {
+  "row_id": 64,
+  "eu_instrument": "Artificial Intelligence Act",
+  "us_counterpart": "Colorado Artificial Intelligence Act (SB 24-205)",
+  "us_citation": "Colo. Rev. Stat. 6-1-1701 et seq. (SB 24-205, 2024)",
+  "us_date": "2024-05-17",
+  "level": "state law",
+  "match_quality": "state only",
+  "rationale": "Colorado's act was the closest US analogue to the AI Act's risk-based regime, imposing duties on developers and deployers of high-risk AI systems to avoid algorithmic discrimination, but it covered only consequential decisions and never took effect.",
+  "us_text_url": "https://leg.colorado.gov/bills/sb24-205",
+  "us_status": "repealed 2026 before taking effect (replaced by SB 26-189, effective 2027-01-01)",
+  "us_key_rules": "",
+  "alternatives": [
+   "Colorado SB 26-189 (2026, narrower notice-based replacement)",
+   "California SB 53 Transparency in Frontier AI Act (2025)",
+   "EO 14110 (88 FR 75191, 2023; revoked 2025)",
+   "EO 14365 Ensuring a National Policy Framework for AI (2025)"
+  ],
+  "verified": "web search summary (signing date, 2026 repeal/replacement, enforcement blocked April 2026); Colorado legislature page did not load; EO 14110 on federalregister.gov API",
+  "notes": "No federal AI statute; federal AI preemption bills pending in 2026. Signing date 2024-05-17 from search summary."
+ },
+ {
+  "row_id": 65,
+  "eu_instrument": "Machinery Regulation",
+  "us_counterpart": "Occupational Safety and Health Act of 1970",
+  "us_citation": "Pub. L. 91-596, 84 Stat. 1590; 29 U.S.C. 651 et seq.",
+  "us_date": "1970-12-29",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The OSH Act and OSHA's machine-guarding standards regulate machinery safety at the workplace (user side) rather than setting product design and conformity-assessment requirements for manufacturers as the EU regulation does.",
+  "us_text_url": "https://www.govinfo.gov/app/details/STATUTE-84/STATUTE-84-Pg1590",
+  "us_status": "in force",
+  "us_key_rules": "29 CFR part 1910 subpart O (Machinery and Machine Guarding)",
+  "alternatives": [
+   "Consumer Product Safety Act (consumer machinery)",
+   "ANSI B11 voluntary machine safety standards"
+  ],
+  "verified": "govinfo STATUTE MODS opened (Pub. L. 91-596, approval 1970-12-29); eCFR 29 CFR 1910 subpart O heading opened",
+  "notes": ""
+ },
+ {
+  "row_id": 66,
+  "eu_instrument": "Foreign Subsidies Regulation",
+  "us_counterpart": "Merger Filing Fee Modernization Act of 2022, title II (disclosure of foreign subsidies)",
+  "us_citation": "Pub. L. 117-328, div. GG, title II, 136 Stat. 5969; 15 U.S.C. 18b",
+  "us_date": "2022-12-29",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "Title II requires merging parties to disclose subsidies from foreign entities of concern in premerger filings, echoing the FSR's notification of subsidised acquisitions, but it does not assess or remedy distortions and does not cover public procurement.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-117publ328",
+  "us_status": "in force; implementing HSR form rule vacated 2026",
+  "us_key_rules": "16 CFR parts 801-803 (HSR form rule 89 FR 89216, 2024-11-12; vacated by E.D. Tex. 2026)",
+  "alternatives": [
+   "Foreign Investment Risk Review Modernization Act of 2018 (Pub. L. 115-232, title XVII, 132 Stat. 2173)",
+   "Countervailing duty law (Tariff Act of 1930, title VII)"
+  ],
+  "verified": "govinfo MODS metadata and Public Law HTML opened (date and Stat. page confirmed); division GG title II located at 136 Stat. 5969; LII 15 U.S.C. 18b; federalregister.gov API; web search on 2026 vacatur",
+  "notes": "Disclosure is limited to subsidies from foreign adversary countries."
+ },
+ {
+  "row_id": 67,
+  "eu_instrument": "General Product Safety Regulation",
+  "us_counterpart": "Consumer Product Safety Act",
+  "us_citation": "Pub. L. 92-573, 86 Stat. 1207; 15 U.S.C. 2051 et seq.",
+  "us_date": "1972-10-27",
+  "level": "federal statute",
+  "match_quality": "close",
+  "rationale": "The CPSA is the general US consumer product safety law, with safety standards, hazard reporting and recall powers comparable to the GPSR.",
+  "us_text_url": "https://www.govinfo.gov/app/details/STATUTE-86/STATUTE-86-Pg1207",
+  "us_status": "in force",
+  "us_key_rules": "16 CFR part 1115 (substantial product hazard reports)",
+  "alternatives": [
+   "Consumer Product Safety Improvement Act of 2008 (Pub. L. 110-314, 122 Stat. 3016)",
+   "INFORM Consumers Act (in Pub. L. 117-328, online marketplaces)"
+  ],
+  "verified": "govinfo STATUTE MODS opened (approval 1972-10-27); eCFR 16 CFR 1115 heading opened; LII 15 U.S.C. 2051",
+  "notes": ""
+ },
+ {
+  "row_id": 68,
+  "eu_instrument": "Anti-Money Laundering Regulation",
+  "us_counterpart": "Bank Secrecy Act",
+  "us_citation": "Pub. L. 91-508, titles I-II, 84 Stat. 1114; 31 U.S.C. 5311 et seq.",
+  "us_date": "1970-10-26",
+  "level": "federal statute",
+  "match_quality": "close",
+  "rationale": "The BSA, as amended, sets the US AML/CFT rulebook of customer due diligence, recordkeeping and suspicious-activity reporting for financial institutions, the same job as the single EU AML rulebook.",
+  "us_text_url": "https://www.govinfo.gov/app/details/STATUTE-84/STATUTE-84-Pg1114-2",
+  "us_status": "in force (as amended)",
+  "us_key_rules": "31 CFR chapter X (parts 1010-1060)",
+  "alternatives": [
+   "Anti-Money Laundering Act of 2020 (Pub. L. 116-283, div. F, 134 Stat. 4547)",
+   "Corporate Transparency Act (Pub. L. 116-283, div. F, title LXIV)",
+   "USA PATRIOT Act title III (2001)"
+  ],
+  "verified": "govinfo STATUTE MODS opened (Pub. L. 91-508, approval 1970-10-26); AMLA division F located at 134 Stat. 4547; eCFR 31 CFR 1010; LII 31 U.S.C. 5311",
+  "notes": ""
+ },
+ {
+  "row_id": 69,
+  "eu_instrument": "Vertical Block Exemption Regulation",
+  "us_counterpart": "",
+  "us_citation": "",
+  "us_date": "",
+  "level": "none",
+  "match_quality": "none",
+  "rationale": "No counterpart: US relies on general antitrust law, judging vertical restraints case by case under the Sherman Act rule of reason (Leegin, 2007) with no safe-harbour regulation.",
+  "us_text_url": "",
+  "us_status": "",
+  "us_key_rules": "",
+  "alternatives": [
+   "Sherman Act section 1 (15 U.S.C. 1)",
+   "Robinson-Patman Act (price discrimination)"
+  ],
+  "verified": "no source needed; general knowledge",
+  "notes": ""
+ },
+ {
+  "row_id": 70,
+  "eu_instrument": "Digital Decade Policy Programme Decision",
+  "us_counterpart": "Infrastructure Investment and Jobs Act",
+  "us_citation": "Pub. L. 117-58, 135 Stat. 429",
+  "us_date": "2021-11-15",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The IIJA funds universal broadband (BEAD) and digital-equity programmes, overlapping the Digital Decade connectivity and skills targets, but it is a spending law without a target-setting and monitoring framework.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-117publ58",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "CHIPS and Science Act (Pub. L. 117-167)",
+   "Digital Equity Act of 2021 (IIJA div. F, title III)"
+  ],
+  "verified": "govinfo MODS metadata and Public Law HTML opened (date and Stat. page confirmed)",
+  "notes": ""
+ },
+ {
+  "row_id": 71,
+  "eu_instrument": "Political Advertising Regulation",
+  "us_counterpart": "Federal Election Campaign Act of 1971",
+  "us_citation": "Pub. L. 92-225, 86 Stat. 3; 52 U.S.C. 30101 et seq.",
+  "us_date": "1972-02-07",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "FECA, as amended, requires sponsor disclaimers and spending disclosure for federal political communications, but it has no rules on ad repositories or the targeting and amplification of political ads.",
+  "us_text_url": "https://www.govinfo.gov/app/details/STATUTE-86/STATUTE-86-Pg3",
+  "us_status": "in force (as amended)",
+  "us_key_rules": "11 CFR 110.11 (disclaimers; internet communications rule 87 FR 77467, 2022-12-19)",
+  "alternatives": [
+   "Bipartisan Campaign Reform Act of 2002 (Pub. L. 107-155, 116 Stat. 81)",
+   "Honest Ads Act (proposed, never enacted)",
+   "California Political Reform Act / DISCLOSE Act (online ad disclosure)"
+  ],
+  "verified": "govinfo STATUTE MODS opened (Pub. L. 92-225, approval 1972-02-07); BCRA PLAW MODS; eCFR 11 CFR 110.11; federalregister.gov API; LII 52 U.S.C. 30120",
+  "notes": ""
+ },
+ {
+  "row_id": 72,
+  "eu_instrument": "Digitalisation of judicial cooperation Regulation",
+  "us_counterpart": "",
+  "us_citation": "",
+  "us_date": "",
+  "level": "none",
+  "match_quality": "none",
+  "rationale": "No counterpart: EU cross-border judicial cooperation mechanism between member-state courts; US federal courts digitised filing (CM/ECF) through court rules, not a statute.",
+  "us_text_url": "",
+  "us_status": "",
+  "us_key_rules": "",
+  "alternatives": [
+   "Federal Rules of Civil Procedure electronic filing rule (Rule 5(d)(3))"
+  ],
+  "verified": "no source needed; general knowledge",
+  "notes": ""
+ },
+ {
+  "row_id": 73,
+  "eu_instrument": "Platform Work Directive",
+  "us_counterpart": "DOL rule on Employee or Independent Contractor Classification Under the FLSA",
+  "us_citation": "29 CFR part 795; 89 FR 1638",
+  "us_date": "2024-01-10",
+  "level": "federal agency rule",
+  "match_quality": "agency rule only",
+  "rationale": "The DOL rule sets the economic-reality test for whether workers, including app-based gig workers, are employees, overlapping the directive's employment-status provisions, but it has no legal presumption of employment and no algorithmic-management rules.",
+  "us_text_url": "https://www.federalregister.gov/documents/2024/01/10/2024-00067/employee-or-independent-contractor-classification-under-the-fair-labor-standards-act",
+  "us_status": "in force but not enforced; rescission proposed 2026 (91 FR 9932)",
+  "us_key_rules": "29 CFR part 795",
+  "alternatives": [
+   "California AB 5 (2019, ABC-test presumption of employment, Lab. Code 2775)",
+   "California Proposition 22 (2020, app-based drivers)",
+   "NYC delivery-worker minimum pay rule"
+  ],
+  "verified": "federalregister.gov API (89 FR 1638 and 2026 proposed rescission); eCFR 29 CFR 795 heading opened; web search on 2026 status",
+  "notes": "California AB 5 is closer on the presumption of employment but state law ranks below a federal rule under the brief."
+ },
+ {
+  "row_id": 74,
+  "eu_instrument": "European Chips Act",
+  "us_counterpart": "CHIPS Act of 2022 (Division A of the CHIPS and Science Act)",
+  "us_citation": "Pub. L. 117-167, div. A, 136 Stat. 1366",
+  "us_date": "2022-08-09",
+  "level": "federal statute",
+  "match_quality": "close",
+  "rationale": "Both laws fund domestic semiconductor manufacturing and research to strengthen supply-chain resilience; the US act relies more on direct incentives and tax credits, the EU act adds a crisis-monitoring mechanism.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-117publ167",
+  "us_status": "in force",
+  "us_key_rules": "15 CFR part 231 (CHIPS funding guardrails, 88 FR 65600, 2023-09-25)",
+  "alternatives": [
+   "Advanced manufacturing investment credit (26 U.S.C. 48D)"
+  ],
+  "verified": "govinfo MODS metadata and Public Law HTML opened (date and Stat. page confirmed); eCFR 15 CFR 231; federalregister.gov API",
+  "notes": ""
+ },
+ {
+  "row_id": 75,
+  "eu_instrument": "Union Secure Connectivity Programme",
+  "us_counterpart": "",
+  "us_citation": "",
+  "us_date": "",
+  "level": "none",
+  "match_quality": "none",
+  "rationale": "No counterpart: EU budget programme for a sovereign satellite constellation (IRIS2); the US relies on defence procurement and commercial constellations rather than a dedicated statute.",
+  "us_text_url": "",
+  "us_status": "",
+  "us_key_rules": "",
+  "alternatives": [
+   "Space Development Agency Proliferated Warfighter Space Architecture (DoD procurement)"
+  ],
+  "verified": "no source needed; general knowledge",
+  "notes": ""
+ },
+ {
+  "row_id": 76,
+  "eu_instrument": "Data Act",
+  "us_counterpart": "CFPB Personal Financial Data Rights rule (section 1033)",
+  "us_citation": "12 CFR part 1033; 89 FR 90838",
+  "us_date": "2024-11-18",
+  "level": "federal agency rule",
+  "match_quality": "agency rule only",
+  "rationale": "The rule gives consumers a right to access and port their financial data to third parties, like the Data Act's user data-access right, but only for financial accounts, not connected products or cloud switching.",
+  "us_text_url": "https://www.federalregister.gov/documents/2024/11/18/2024-25079/required-rulemaking-on-personal-financial-data-rights",
+  "us_status": "in force on paper; enforcement enjoined and under reconsideration 2025-26",
+  "us_key_rules": "12 CFR part 1033",
+  "alternatives": [
+   "Dodd-Frank Act section 1033 (12 U.S.C. 5533)",
+   "Massachusetts vehicle telematics data access law (2020 ballot Question 1)",
+   "California Consumer Privacy Act (right of access and portability)"
+  ],
+  "verified": "federalregister.gov API (rule and 2025 reconsideration ANPR); eCFR 12 CFR 1033 heading; web search on 2026 injunction",
+  "notes": ""
+ },
+ {
+  "row_id": 77,
+  "eu_instrument": "Violence Against Women Directive",
+  "us_counterpart": "Violence Against Women Act Reauthorization Act of 2022",
+  "us_citation": "Pub. L. 117-103, div. W, 136 Stat. 840",
+  "us_date": "2022-03-15",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The 2022 reauthorization funds measures against gender-based violence and created a federal civil action for non-consensual disclosure of intimate images (15 U.S.C. 6851), but it does not harmonise criminal offences as the directive does.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-117publ103",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "TAKE IT DOWN Act (Pub. L. 119-12, 139 Stat. 55, 2025-05-19)",
+   "Violence Against Women Act of 1994 (Pub. L. 103-322, title IV)"
+  ],
+  "verified": "govinfo MODS metadata and Public Law HTML opened (date and Stat. page confirmed); division W located at 136 Stat. 840; LII 15 U.S.C. 6851; TAKE IT DOWN Act PLAW MODS",
+  "notes": ""
+ },
+ {
+  "row_id": 78,
+  "eu_instrument": "Cybersecurity Regulation (EU institutions)",
+  "us_counterpart": "Federal Information Security Modernization Act of 2014",
+  "us_citation": "Pub. L. 113-283, 128 Stat. 3073; 44 U.S.C. 3551 et seq.",
+  "us_date": "2014-12-18",
+  "level": "federal statute",
+  "match_quality": "close",
+  "rationale": "FISMA requires federal agencies to run risk-based information security programmes and report incidents under central oversight (OMB, CISA), the same job the EU regulation does for EU institutions.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-113publ283",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "EO 14028 Improving the Nation's Cybersecurity (86 FR 26633, 2021)",
+   "Federal Cybersecurity Enhancement Act of 2015"
+  ],
+  "verified": "govinfo MODS metadata and Public Law HTML opened (date and Stat. page confirmed); LII 44 U.S.C. 3551",
+  "notes": ""
+ },
+ {
+  "row_id": 79,
+  "eu_instrument": "Information Security Regulation",
+  "us_counterpart": "Executive Order 13526, Classified National Security Information",
+  "us_citation": "EO 13526, 75 FR 707",
+  "us_date": "2009-12-29",
+  "level": "executive order",
+  "match_quality": "partial",
+  "rationale": "EO 13526 sets classification levels and safeguarding rules for classified information across federal agencies, like the proposal's rules for EU classified information, while sensitive unclassified information is covered separately by the CUI order.",
+  "us_text_url": "https://www.federalregister.gov/documents/2010/01/05/E9-31418/classified-national-security-information",
+  "us_status": "in force",
+  "us_key_rules": "32 CFR part 2001 (classified national security information); 32 CFR part 2002 (CUI)",
+  "alternatives": [
+   "EO 13556 Controlled Unclassified Information (75 FR 68675, 2010)",
+   "Federal Information Security Modernization Act of 2014"
+  ],
+  "verified": "federalregister.gov API (signing 2009-12-29, published 2010-01-05); eCFR 32 CFR 2001 and 2002 headings opened",
+  "notes": "EU act is a pending proposal applying to EU institutions."
+ },
+ {
+  "row_id": 80,
+  "eu_instrument": "Ecodesign for Sustainable Products Regulation",
+  "us_counterpart": "Energy Policy and Conservation Act",
+  "us_citation": "Pub. L. 94-163, 89 Stat. 871; 42 U.S.C. 6291 et seq.",
+  "us_date": "1975-12-22",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "EPCA's appliance and equipment efficiency standards and labelling resemble the energy side of ecodesign, but the US has no federal rules on durability, repairability, recycled content or digital product passports.",
+  "us_text_url": "https://www.govinfo.gov/app/details/STATUTE-89/STATUTE-89-Pg871",
+  "us_status": "in force (as amended)",
+  "us_key_rules": "10 CFR parts 430 and 431",
+  "alternatives": [
+   "Energy Independence and Security Act of 2007",
+   "State extended producer responsibility and right-to-repair laws"
+  ],
+  "verified": "govinfo STATUTE MODS opened (approval 1975-12-22); eCFR 10 CFR 430 heading; LII 42 U.S.C. 6291",
+  "notes": ""
+ },
+ {
+  "row_id": 81,
+  "eu_instrument": "European Health Data Space",
+  "us_counterpart": "21st Century Cures Act",
+  "us_citation": "Pub. L. 114-255, 130 Stat. 1033",
+  "us_date": "2016-12-13",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The Cures Act mandates health IT interoperability and patient access to electronic health information and bans information blocking, overlapping the EHDS primary-use rules, but it has no secondary-use data permit system.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-114publ255",
+  "us_status": "in force",
+  "us_key_rules": "45 CFR parts 170 and 171",
+  "alternatives": [
+   "HIPAA (Pub. L. 104-191, 1996) and its Privacy and Security Rules (45 CFR parts 160, 164)",
+   "TEFCA rule (89 FR 101772, 2024)"
+  ],
+  "verified": "govinfo MODS metadata and Public Law HTML opened (date and Stat. page confirmed); eCFR 45 CFR 170, 171 headings; LII 42 U.S.C. 300jj-52",
+  "notes": ""
+ },
+ {
+  "row_id": 82,
+  "eu_instrument": "Child Sexual Abuse Regulation (CSAR)",
+  "us_counterpart": "Provider reporting requirements, 18 U.S.C. 2258A (PROTECT Our Children Act of 2008)",
+  "us_citation": "Pub. L. 110-401, 122 Stat. 4229; 18 U.S.C. 2258A",
+  "us_date": "2008-10-13",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "Section 2258A obliges online providers to report known child sexual abuse material to NCMEC, like the CSAR reporting duties, but explicitly imposes no duty to scan or detect, unlike the proposed detection orders.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-110publ401",
+  "us_status": "in force (amended 2024)",
+  "us_key_rules": "",
+  "alternatives": [
+   "REPORT Act (Pub. L. 118-59, 138 Stat. 1014, 2024-05-07)",
+   "EARN IT Act (proposed, never enacted)",
+   "STOP CSAM Act (proposed)"
+  ],
+  "verified": "govinfo MODS metadata and Public Law HTML opened (date and Stat. page confirmed); LII 18 U.S.C. 2258A",
+  "notes": "EU act is a pending proposal."
+ },
+ {
+  "row_id": 83,
+  "eu_instrument": "Cyber Resilience Act",
+  "us_counterpart": "Internet of Things Cybersecurity Improvement Act of 2020",
+  "us_citation": "Pub. L. 116-207, 134 Stat. 1001",
+  "us_date": "2020-12-04",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The Act sets security standards for IoT devices bought by federal agencies, a procurement lever, whereas the CRA imposes mandatory security requirements on all products with digital elements sold on the market.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-116publ207",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "FCC Cyber Trust Mark voluntary IoT labelling (47 CFR part 8, 89 FR 61242, 2024)",
+   "California SB 327 IoT security law (Civ. Code 1798.91.04, 2018)",
+   "EO 14028 secure software development"
+  ],
+  "verified": "govinfo MODS metadata and Public Law HTML opened (date and Stat. page confirmed); federalregister.gov API; LII 15 U.S.C. 278g-3a",
+  "notes": ""
+ },
+ {
+  "row_id": 84,
+  "eu_instrument": "European Media Freedom Act",
+  "us_counterpart": "",
+  "us_citation": "",
+  "us_date": "",
+  "level": "none",
+  "match_quality": "none",
+  "rationale": "No meaningful counterpart: US media freedom rests on the First Amendment, and there is no federal statute on editorial independence, public-service media or media-market plurality reviews.",
+  "us_text_url": "",
+  "us_status": "",
+  "us_key_rules": "",
+  "alternatives": [
+   "PRESS Act (journalist source protection; proposed, never enacted)",
+   "FCC broadcast ownership rules (47 CFR 73.3555)"
+  ],
+  "verified": "no source needed; general knowledge",
+  "notes": ""
+ },
+ {
+  "row_id": 85,
+  "eu_instrument": "Single Market Emergency Instrument (IMERA)",
+  "us_counterpart": "Defense Production Act of 1950",
+  "us_citation": "Pub. L. 81-774, 64 Stat. 798; 50 U.S.C. 4501 et seq.",
+  "us_date": "1950-09-08",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The DPA lets the President prioritise contracts, allocate materials and expand supply in emergencies, like IMERA's crisis tools, but it is national-security based and has no single-market free-movement component.",
+  "us_text_url": "https://www.govinfo.gov/app/details/STATUTE-64/STATUTE-64-Pg798-3",
+  "us_status": "in force (as amended)",
+  "us_key_rules": "15 CFR part 700 (Defense Priorities and Allocations System)",
+  "alternatives": [
+   "National Emergencies Act (1976)",
+   "Stafford Act (disaster response)"
+  ],
+  "verified": "govinfo STATUTE MODS opened (Pub. L. 81-774, approval 1950-09-08); eCFR 15 CFR 700 heading; LII 50 U.S.C. 4511",
+  "notes": ""
+ },
+ {
+  "row_id": 86,
+  "eu_instrument": "Product Liability Directive",
+  "us_counterpart": "Washington Product Liability Act",
+  "us_citation": "Rev. Code Wash. ch. 7.72",
+  "us_date": "1981",
+  "level": "state law",
+  "match_quality": "state only",
+  "rationale": "US product liability is state tort law; Washington's codified act sets manufacturer and seller liability for defective products like the directive, though most states (including California) rely on common-law strict liability.",
+  "us_text_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=7.72",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "California common-law strict liability (Greenman v. Yuba Power Products, 1963)",
+   "Restatement (Third) of Torts: Products Liability (1998)",
+   "AI LEAD Act (proposed federal AI product liability bill, 2025)"
+  ],
+  "verified": "Washington legislature RCW 7.72 chapter page opened (section titles confirmed); enactment year 1981 from memory, day not verified",
+  "notes": "No federal product liability statute; chosen as a codified state law for text measurement."
+ },
+ {
+  "row_id": 87,
+  "eu_instrument": "Horizontal Block Exemption Regulations",
+  "us_counterpart": "National Cooperative Research and Production Act",
+  "us_citation": "Pub. L. 98-462, 98 Stat. 1815 (as amended by Pub. L. 103-42, 107 Stat. 117); 15 U.S.C. 4301 et seq.",
+  "us_date": "1984-10-11",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The NCRPA gives notified R&D and production joint ventures rule-of-reason treatment and single-damages protection, overlapping the R&D and specialisation block exemptions, but it is a notification-based liability limit, not a market-share safe harbour.",
+  "us_text_url": "https://www.govinfo.gov/app/details/STATUTE-98/STATUTE-98-Pg1815",
+  "us_status": "in force (as amended)",
+  "us_key_rules": "",
+  "alternatives": [
+   "National Cooperative Production Amendments of 1993 (Pub. L. 103-42, 107 Stat. 117)",
+   "FTC/DOJ Antitrust Guidelines for Collaborations Among Competitors (2000; withdrawn 2024)"
+  ],
+  "verified": "govinfo STATUTE MODS opened for Pub. L. 98-462 (1984-10-11) and Pub. L. 103-42 (1993-06-10); LII 15 U.S.C. 4301",
+  "notes": "Covers both 2023/1066 (R&D) and 2023/1067 (specialisation)."
+ },
+ {
+  "row_id": 88,
+  "eu_instrument": "Interoperable Europe Act",
+  "us_counterpart": "E-Government Act of 2002",
+  "us_citation": "Pub. L. 107-347, 116 Stat. 2899",
+  "us_date": "2002-12-17",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The E-Government Act sets up federal coordination of IT and electronic public services (OMB e-Gov office, standards), but unlike the EU Act it does not create a cross-border interoperability assessment duty or a governance board spanning separate governments.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-107publ347",
+  "us_status": "in force",
+  "us_key_rules": "OMB Circular A-130",
+  "alternatives": [
+   "21st Century Integrated Digital Experience Act (Pub. L. 115-336, 2018)",
+   "Modernizing Government Technology Act (2017, in NDAA FY2018)"
+  ],
+  "verified": "govinfo PLAW MODS metadata opened (title, date, Stat. page)",
+  "notes": "EU Act is about interoperability between Member State administrations; US federalism has no equivalent cross-state mandate."
+ },
+ {
+  "row_id": 89,
+  "eu_instrument": "Design Directive",
+  "us_counterpart": "Patent Act design patent provisions (35 U.S.C. 171)",
+  "us_citation": "35 U.S.C. 171 (Act of July 19, 1952, ch. 950, 66 Stat. 805)",
+  "us_date": "1952-07-19",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "US protects industrial designs through design patents under the Patent Act rather than a registered-design right, and has no repair clause for visible spare parts like the one the Directive introduces.",
+  "us_text_url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title35-section171&num=0&edition=prelim",
+  "us_status": "in force (amended 2012 by Pub. L. 112-211)",
+  "us_key_rules": "37 CFR part 1 (design applications, 37 CFR 1.151-1.155)",
+  "alternatives": [
+   "Patent Law Treaties Implementation Act of 2012 (Pub. L. 112-211, 126 Stat. 1527), Hague design agreement",
+   "SMART Act (repair-parts design patent limit, proposed, not enacted)"
+  ],
+  "verified": "LII 35 U.S.C. 171 source credit read; govinfo MODS for PLAW-112publ211 opened",
+  "notes": "EU directive harmonises national design laws and adds the spare-parts repair clause; compare the US repair-clause debate (SMART Act)."
+ },
+ {
+  "row_id": 90,
+  "eu_instrument": "VAT in the Digital Age (ViDA)",
+  "us_counterpart": "California Marketplace Facilitator Act",
+  "us_citation": "Cal. Rev. & Tax. Code 6040-6049.5 (AB 147, Stats. 2019, ch. 5)",
+  "us_date": "2019-04-25",
+  "level": "state law",
+  "match_quality": "state only",
+  "rationale": "The US has no federal VAT or e-invoicing mandate; the nearest analogue to ViDA's platform deemed-supplier rule is state marketplace-facilitator laws that make platforms the retailer for sales-tax purposes.",
+  "us_text_url": "https://cdtfa.ca.gov/lawguides/vol1/sutl/6040.html",
+  "us_status": "in force (operative 2019-10-01)",
+  "us_key_rules": "",
+  "alternatives": [
+   "Other state marketplace facilitator laws after South Dakota v. Wayfair (2018)",
+   "Streamlined Sales and Use Tax Agreement (interstate)"
+  ],
+  "verified": "search summary (CDTFA law guide and LegiScan chaptered text); leginfo blocked by Cloudflare",
+  "notes": "ViDA's core parts (EU-wide e-invoicing, digital reporting, single VAT registration) have no US counterpart; only the platform rule maps."
+ },
+ {
+  "row_id": 91,
+  "eu_instrument": "Gigabit Infrastructure Act",
+  "us_counterpart": "Middle Class Tax Relief and Job Creation Act of 2012, section 6409 (wireless facilities deployment)",
+  "us_citation": "Pub. L. 112-96, title VI, § 6409, 126 Stat. 156, 232 (47 U.S.C. 1455)",
+  "us_date": "2012-02-22",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "Section 6409 limits local refusals of collocation and grants access to federal property for broadband siting, overlapping with the EU Act's permit and infrastructure-access rules but without its in-building, dig-once and civil-works coordination package.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-112publ96",
+  "us_status": "in force",
+  "us_key_rules": "47 CFR 1.6100 (wireless facility modifications); 47 CFR 1.1401-1.1425 (pole attachments)",
+  "alternatives": [
+   "Pole Attachments Act, 47 U.S.C. 224 (Pub. L. 95-234, 1978)",
+   "MOBILE NOW Act (Pub. L. 115-141, div. P, title VI, 2018), incl. dig-once provisions",
+   "Infrastructure Investment and Jobs Act (Pub. L. 117-58), BEAD funding"
+  ],
+  "verified": "govinfo PLAW MODS opened; LII 47 U.S.C. 1455 and 224 source credits read",
+  "notes": ""
+ },
+ {
+  "row_id": 92,
+  "eu_instrument": "Critical Raw Materials Act",
+  "us_counterpart": "Energy Act of 2020, section 7002 (Mineral security)",
+  "us_citation": "Pub. L. 116-260, div. Z, title VII, § 7002, 134 Stat. 1182, 2562 (30 U.S.C. 1606)",
+  "us_date": "2020-12-27",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "Section 7002 directs a federal critical-minerals list, resource assessment, permitting review and recycling R&D, overlapping with the CRMA's list and supply-security aims but without its 2030 extraction/processing benchmarks or strategic-project permitting deadlines.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-116publ260",
+  "us_status": "in force (amended 2025 by Pub. L. 118-233)",
+  "us_key_rules": "",
+  "alternatives": [
+   "Defense Production Act of 1950, Title III (50 U.S.C. 4533)",
+   "Inflation Reduction Act of 2022 (Pub. L. 117-169), critical-mineral sourcing for EV credit (26 U.S.C. 30D)",
+   "Executive Order 14241, Immediate Measures To Increase American Mineral Production (90 FR 13673, 2025-03-25)"
+  ],
+  "verified": "govinfo PLAW MODS opened; LII 30 U.S.C. 1606 source credit read; FR API for EO 14241",
+  "notes": "Energy Act of 2020 is division Z of the Consolidated Appropriations Act, 2021."
+ },
+ {
+  "row_id": 93,
+  "eu_instrument": "Net-Zero Industry Act",
+  "us_counterpart": "Inflation Reduction Act of 2022",
+  "us_citation": "Pub. L. 117-169, 136 Stat. 1818",
+  "us_date": "2022-08-16",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "Both target domestic manufacturing of clean-energy technologies, but the IRA works mainly through tax credits and grants while the NZIA uses capacity benchmarks, permitting deadlines and procurement/auction criteria.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-117publ169",
+  "us_status": "in force (credits curtailed 2025 by Pub. L. 119-21)",
+  "us_key_rules": "26 CFR part 1 (Treasury guidance on sections 45X, 48C, domestic content)",
+  "alternatives": [
+   "CHIPS and Science Act (Pub. L. 117-167)",
+   "Infrastructure Investment and Jobs Act (Pub. L. 117-58)"
+  ],
+  "verified": "govinfo PLAW MODS opened (date, 136 Stat. 1818)",
+  "notes": "The 2025 reconciliation act (One Big Beautiful Bill Act) phased out several IRA clean-energy credits; status note from general knowledge, not separately verified."
+ },
+ {
+  "row_id": 94,
+  "eu_instrument": "Right to Repair Directive",
+  "us_counterpart": "California Right to Repair Act (SB 244)",
+  "us_citation": "Cal. Pub. Res. Code 42488 et seq. (SB 244, Stats. 2023, ch. 704)",
+  "us_date": "2023-10-10",
+  "level": "state law",
+  "match_quality": "state only",
+  "rationale": "SB 244 requires makers of electronics and appliances to provide parts, tools and documentation for 3-7 years, close to the Directive's repair-availability duties, but it is a single-state law and lacks the EU obligation to repair beyond warranty.",
+  "us_text_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB244",
+  "us_status": "in force (from 2024-07-01)",
+  "us_key_rules": "",
+  "alternatives": [
+   "Magnuson-Moss Warranty Act (Pub. L. 93-637, 88 Stat. 2183, 1975), anti-tying rule",
+   "New York Digital Fair Repair Act (2022)",
+   "Minnesota Digital Fair Repair Act (2023)",
+   "FTC 'Nixing the Fix' report (2021)"
+  ],
+  "verified": "search summary (LegiScan chaptered text: ch. 704, Stats. 2023, Pub. Res. Code 42488); LII 15 U.S.C. 2301 source credit read for Magnuson-Moss",
+  "notes": "Date is the chaptering date; governor approval was days earlier."
+ },
+ {
+  "row_id": 95,
+  "eu_instrument": "Cyber Solidarity Act",
+  "us_counterpart": "Cyber Response and Recovery Act (IIJA)",
+  "us_citation": "Pub. L. 117-58, div. G, title VI, §§ 70601-70602, 135 Stat. 429 (6 U.S.C. 677-677h)",
+  "us_date": "2021-11-15",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The Cyber Response and Recovery Act lets DHS declare a significant cyber incident and draw on a Cyber Response and Recovery Fund, similar to the EU Cyber Emergency Mechanism, but it has no counterpart to the cross-border SOC alert network or EU-level reserve of private providers.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-117publ58",
+  "us_status": "in force (fund authorisation time-limited)",
+  "us_key_rules": "",
+  "alternatives": [
+   "Cybersecurity Information Sharing Act of 2015 (Pub. L. 114-113, div. N)",
+   "State and Local Cybersecurity Grant Program (IIJA § 70612, 6 U.S.C. 665g)",
+   "Cyber Incident Reporting for Critical Infrastructure Act of 2022"
+  ],
+  "verified": "govinfo PLAW MODS opened; LII 6 U.S.C. 677, 677a and 665g source credits read",
+  "notes": ""
+ },
+ {
+  "row_id": 96,
+  "eu_instrument": "Compulsory licensing of patents Regulation",
+  "us_counterpart": "Government use of patented inventions (28 U.S.C. 1498)",
+  "us_citation": "28 U.S.C. 1498 (Act of June 25, 1948, ch. 646, 62 Stat. 941)",
+  "us_date": "1948-06-25",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "Section 1498 lets the US government use any patent without consent subject to compensation, which serves the crisis-supply purpose of an EU compulsory licence, but it is a standing government-use right enforced via damages rather than a crisis-triggered licensing procedure.",
+  "us_text_url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title28-section1498&num=0&edition=prelim",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "Bayh-Dole Act march-in rights (35 U.S.C. 203; Pub. L. 96-517, 94 Stat. 3015, 1980)",
+   "Defense Production Act of 1950",
+   "Clean Air Act mandatory licensing (42 U.S.C. 7608)"
+  ],
+  "verified": "LII 28 U.S.C. 1498 and 35 U.S.C. 203 source credits read; govinfo STATUTE-94 granule MODS opened",
+  "notes": ""
+ },
+ {
+  "row_id": 97,
+  "eu_instrument": "Strategic Technologies for Europe Platform (STEP)",
+  "us_counterpart": "CHIPS and Science Act",
+  "us_citation": "Pub. L. 117-167, 136 Stat. 1366",
+  "us_date": "2022-08-09",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "Both channel public funding into strategic technologies (semiconductors, deep tech, clean tech), but CHIPS creates new dedicated appropriations and tax credits whereas STEP re-targets existing EU funds under a label and portal.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-117publ167",
+  "us_status": "in force",
+  "us_key_rules": "15 CFR part 231 (CHIPS incentives national security guardrails)",
+  "alternatives": [
+   "Inflation Reduction Act of 2022 (Pub. L. 117-169)",
+   "Infrastructure Investment and Jobs Act (Pub. L. 117-58)"
+  ],
+  "verified": "govinfo PLAW MODS opened (date, 136 Stat. 1366)",
+  "notes": "EU budget programme; partial match by purpose only."
+ },
+ {
+  "row_id": 98,
+  "eu_instrument": "Financial Data Access Regulation (FiDA)",
+  "us_counterpart": "Dodd-Frank Act section 1033 (consumer rights to access information) and CFPB Personal Financial Data Rights rule",
+  "us_citation": "Pub. L. 111-203, title X, § 1033, 124 Stat. 1376, 2008 (12 U.S.C. 5533); rule 12 CFR part 1033, 89 FR 90838",
+  "us_date": "2010-07-21",
+  "level": "federal statute",
+  "match_quality": "close",
+  "rationale": "Section 1033 and its 2024 rule give consumers and authorised third parties a right to access financial account data, the same core purpose as FiDA, though the US rule so far covers deposit and card accounts rather than FiDA's wider investment, pension and insurance data.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-111publ203",
+  "us_status": "statute in force; 2024 rule under reconsideration (ANPR 90 FR 40986, 2025-08-22), compliance dates stayed",
+  "us_key_rules": "12 CFR part 1033 (89 FR 90838, 2024-11-18)",
+  "alternatives": [
+   "CFPB industry standard-setting rule (89 FR 49084, 2024-06-11)"
+  ],
+  "verified": "govinfo PLAW MODS opened; LII 12 U.S.C. 5533 source credit read; FR API search for rule and reconsideration",
+  "notes": "Rule litigation status (court stay) from general knowledge."
+ },
+ {
+  "row_id": 99,
+  "eu_instrument": "Payment Services Regulation (PSR)",
+  "us_counterpart": "Electronic Fund Transfer Act",
+  "us_citation": "Pub. L. 95-630, title XX, 92 Stat. 3728 (15 U.S.C. 1693 et seq.)",
+  "us_date": "1978-11-10",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The EFTA and Regulation E set consumer rights for electronic payments (disclosures, error resolution, unauthorised-transfer liability, remittances), overlapping with PSR's user-protection rules, but do not cover PSR's open-banking access, fraud-sharing or IBAN-name verification duties.",
+  "us_text_url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section1693&num=0&edition=prelim",
+  "us_status": "in force",
+  "us_key_rules": "12 CFR part 1005 (Regulation E)",
+  "alternatives": [
+   "CFPB larger participant rule for digital payment apps (89 FR 99582, 2024-12-10), overturned by Congress 2025",
+   "GENIUS Act (Pub. L. 119-27, 2025) for stablecoin payments"
+  ],
+  "verified": "LII 15 U.S.C. 1693 source credit read; FR API search",
+  "notes": "EFTA was enacted as title XX of the Financial Institutions Regulatory and Interest Rate Control Act of 1978. CRA repeal of the larger participant rule from general knowledge."
+ },
+ {
+  "row_id": 100,
+  "eu_instrument": "Payment Services Directive 3 (PSD3)",
+  "us_counterpart": "California Money Transmission Act",
+  "us_citation": "Cal. Fin. Code 2000 et seq. (AB 2789, Stats. 2010, ch. 612)",
+  "us_date": "2010-09-30",
+  "level": "state law",
+  "match_quality": "state only",
+  "rationale": "Licensing and prudential supervision of non-bank payment and e-money firms, PSD3's core, is done in the US by state money-transmitter laws, California's being the most prominent; there is only a federal registration duty, not a federal licence.",
+  "us_text_url": "https://law.justia.com/codes/california/code-fin/division-1-2/chapter-1/section-2000",
+  "us_status": "in force (effective 2011-07-01)",
+  "us_key_rules": "",
+  "alternatives": [
+   "Registration of money transmitting businesses, 31 U.S.C. 5330 (Pub. L. 103-325, 1994)",
+   "CSBS Money Transmission Modernization Act (model state law)"
+  ],
+  "verified": "search summary (Senate committee analysis gives ch. 612, Stats. 2010; signed 2010-09-30); LII 31 U.S.C. 5330 source credit read",
+  "notes": "Official leginfo site blocked by Cloudflare; Justia link used for code text."
+ },
+ {
+  "row_id": 101,
+  "eu_instrument": "Digital Euro Regulation",
+  "us_counterpart": "",
+  "us_citation": "",
+  "us_date": "",
+  "level": "none",
+  "match_quality": "none",
+  "rationale": "None: the US has no retail CBDC; federal policy runs the other way, with Executive Order 14178 (2025) prohibiting agencies from establishing a CBDC and a House-passed bill to bar the Federal Reserve from issuing one.",
+  "us_text_url": "",
+  "us_status": "",
+  "us_key_rules": "",
+  "alternatives": [
+   "Executive Order 14178, Strengthening American Leadership in Digital Financial Technology (90 FR 8647, 2025-01-31)",
+   "Anti-CBDC Surveillance State Act (H.R. 1919, 119th Congress; introduced 2025-03-06, passed House 2025-07-17; https://www.govinfo.gov/app/details/BILLS-119hr1919eh)",
+   "GENIUS Act (Pub. L. 119-27, 139 Stat. 419, 2025-07-18), private stablecoins"
+  ],
+  "verified": "FR API for EO 14178; govinfo MODS for BILLS-119hr1919ih/eh and PLAW-119publ27",
+  "notes": "Opposite policy stance; the anti-CBDC bill or EO could be measured as a contrast case."
+ },
+ {
+  "row_id": 102,
+  "eu_instrument": "GDPR Procedural Regulation",
+  "us_counterpart": "",
+  "us_citation": "",
+  "us_date": "",
+  "level": "none",
+  "match_quality": "none",
+  "rationale": "None: the regulation sets procedures for cooperation among EU data protection authorities in cross-border GDPR cases; the US has no comprehensive federal privacy law and no network of regulators to coordinate.",
+  "us_text_url": "",
+  "us_status": "",
+  "us_key_rules": "",
+  "alternatives": [
+   "FTC Rules of Practice (16 CFR parts 2-4) for Section 5 privacy enforcement",
+   "California Privacy Protection Agency enforcement regulations"
+  ],
+  "verified": "none needed (no counterpart)",
+  "notes": "EU enforcement-coordination mechanism."
+ },
+ {
+  "row_id": 103,
+  "eu_instrument": "Toys Safety Regulation",
+  "us_counterpart": "Consumer Product Safety Improvement Act of 2008",
+  "us_citation": "Pub. L. 110-314, 122 Stat. 3016",
+  "us_date": "2008-08-14",
+  "level": "federal statute",
+  "match_quality": "close",
+  "rationale": "CPSIA made the ASTM F963 toy standard mandatory, set lead and phthalate limits and required third-party testing and certification of children's products, the same core purpose as the EU Toy Safety Regulation, though without a digital product passport.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-110publ314",
+  "us_status": "in force",
+  "us_key_rules": "16 CFR part 1250 (toy safety, ASTM F963; latest update 89 FR 3344, 2024-01-18); 16 CFR part 1307 (phthalates)",
+  "alternatives": [
+   "Consumer Product Safety Act (1972)",
+   "Federal Hazardous Substances Act"
+  ],
+  "verified": "govinfo PLAW MODS opened; FR API search for 16 CFR 1250 rules",
+  "notes": ""
+ },
+ {
+  "row_id": 104,
+  "eu_instrument": "Late Payment Regulation",
+  "us_counterpart": "Prompt Payment Act",
+  "us_citation": "Pub. L. 97-177, 96 Stat. 85 (31 U.S.C. 3901-3907)",
+  "us_date": "1982-05-21",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The Prompt Payment Act requires federal agencies to pay contractors within set periods or owe interest, matching the EU proposal's public-authority leg, but it does not cap B2B payment terms as the EU regulation would.",
+  "us_text_url": "https://www.govinfo.gov/app/details/STATUTE-96/STATUTE-96-Pg85",
+  "us_status": "in force (recodified 1983)",
+  "us_key_rules": "5 CFR part 1315",
+  "alternatives": [
+   "State prompt payment acts for public and private construction contracts",
+   "New York City Freelance Isn't Free Act (local)"
+  ],
+  "verified": "govinfo STATUTE-96 granule MODS opened; LII 31 U.S.C. 3901 revision notes read",
+  "notes": "Recodified into title 31 by Pub. L. 97-452 (1983)."
+ },
+ {
+  "row_id": 105,
+  "eu_instrument": "Child Sexual Abuse Directive (recast)",
+  "us_counterpart": "PROTECT Act",
+  "us_citation": "Pub. L. 108-21, 117 Stat. 650",
+  "us_date": "2003-04-30",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The PROTECT Act strengthened federal child sexual abuse and exploitation offences, including computer-generated obscene material and extraterritorial offences, overlapping with the recast's criminal definitions; US criminal law is spread across several statutes rather than one harmonising act.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-108publ21",
+  "us_status": "in force",
+  "us_key_rules": "",
+  "alternatives": [
+   "18 U.S.C. 2251-2260A (sexual exploitation of children)",
+   "Adam Walsh Child Protection and Safety Act of 2006 (Pub. L. 109-248)",
+   "TAKE IT DOWN Act (Pub. L. 119-12, 139 Stat. 55, 2025)",
+   "EARN IT Act (proposed, not enacted)"
+  ],
+  "verified": "govinfo PLAW MODS opened for 108publ21 and 119publ12",
+  "notes": "EU act is a recast of Directive 2011/93/EU."
+ },
+ {
+  "row_id": 106,
+  "eu_instrument": "EU Digital Travel Application Regulation",
+  "us_counterpart": "TSA mobile driver's licence rule (REAL ID)",
+  "us_citation": "6 CFR part 37, 89 FR 85340",
+  "us_date": "2024-10-25",
+  "level": "federal agency rule",
+  "match_quality": "agency rule only",
+  "rationale": "The TSA rule lets agencies accept digital identity credentials (mDLs) at federal checkpoints, a similar digital-credential idea, while US border digital-passport submission (CBP Mobile Passport Control) runs as a programme without a dedicated statute or rule.",
+  "us_text_url": "https://www.federalregister.gov/documents/2024/10/25/2024-23881/minimum-standards-for-drivers-licenses-and-identification-cards-acceptable-by-federal-agencies-for",
+  "us_status": "in force",
+  "us_key_rules": "6 CFR part 37",
+  "alternatives": [
+   "REAL ID Act of 2005 (Pub. L. 109-13, div. B)",
+   "CBP Mobile Passport Control app (programme, no rule)"
+  ],
+  "verified": "FR API search (89 FR 85340, 2024-10-25)",
+  "notes": "Weak match: domestic identity check rather than Schengen border crossing."
+ },
+ {
+  "row_id": 107,
+  "eu_instrument": "EU Space Act",
+  "us_counterpart": "Commercial Space Launch Act",
+  "us_citation": "Pub. L. 98-575, 98 Stat. 3055 (51 U.S.C. 50901 et seq.)",
+  "us_date": "1984-10-30",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The Act set up FAA licensing of commercial launch and re-entry, overlapping with the EU Space Act's authorisation of space operators, but the EU act also covers in-orbit safety, debris, cybersecurity and environmental footprint, which the US splits across FCC and NOAA rules.",
+  "us_text_url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title51-section50901&num=0&edition=prelim",
+  "us_status": "in force (recodified 2010, amended 2015)",
+  "us_key_rules": "14 CFR part 450 (launch and re-entry licensing); 47 CFR part 25 (FCC satellite and orbital debris rules); 15 CFR part 960 (remote sensing)",
+  "alternatives": [
+   "U.S. Commercial Space Launch Competitiveness Act (Pub. L. 114-90, 2015)",
+   "Land Remote Sensing Policy Act of 1992",
+   "Executive Order on Enabling Competition in the Commercial Space Industry (90 FR 40219, 2025-08-19)"
+  ],
+  "verified": "LII 51 U.S.C. revision notes read (Pub. L. 98-575, 98 Stat. 3055, Oct. 30, 1984); govinfo MODS for PLAW-114publ90; FR API for 2025 EO",
+  "notes": ""
+ },
+ {
+  "row_id": 108,
+  "eu_instrument": "European Standardisation Regulation",
+  "us_counterpart": "National Technology Transfer and Advancement Act of 1995",
+  "us_citation": "Pub. L. 104-113, 110 Stat. 775",
+  "us_date": "1996-03-07",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "Section 12(d) requires federal agencies to use voluntary consensus standards in regulation and procurement, overlapping with the EU regime for using harmonised standards, but the US has no mandated standards bodies or Commission standardisation requests.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-104publ113",
+  "us_status": "in force",
+  "us_key_rules": "OMB Circular A-119 (2016 revision)",
+  "alternatives": [],
+  "verified": "govinfo PLAW MODS opened (title, date, 110 Stat. 775)",
+  "notes": "Despite the 1995 name, the Act was signed 1996-03-07."
+ },
+ {
+  "row_id": 109,
+  "eu_instrument": "Electromagnetic Compatibility Directive",
+  "us_counterpart": "FCC Part 15 radio frequency devices rules",
+  "us_citation": "47 CFR part 15 (under 47 U.S.C. 302a)",
+  "us_date": "",
+  "level": "federal agency rule",
+  "match_quality": "close",
+  "rationale": "FCC Part 15 limits unintended radio-frequency emissions from electronic devices and requires equipment authorisation before marketing, the same core purpose as the EMC Directive, though the US rules address emissions rather than immunity.",
+  "us_text_url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-A/part-15",
+  "us_status": "in force",
+  "us_key_rules": "47 CFR part 15; 47 CFR part 2 subpart J (equipment authorisation)",
+  "alternatives": [
+   "Communications Act section 302, 47 U.S.C. 302a (Pub. L. 90-379, 82 Stat. 290, 1968)"
+  ],
+  "verified": "LII 47 U.S.C. 302a source credit read; FR cite for original Part 15 not verified (pre-1994, outside FR API)",
+  "notes": "us_date left empty: Part 15 dates from the 1930s-1989 revisions and no single FR cite was verified."
+ },
+ {
+  "row_id": 110,
+  "eu_instrument": "Radio Equipment Directive",
+  "us_counterpart": "FCC equipment authorisation rules",
+  "us_citation": "47 CFR part 2 subpart J (under 47 U.S.C. 302a)",
+  "us_date": "",
+  "level": "federal agency rule",
+  "match_quality": "partial",
+  "rationale": "FCC equipment authorisation (certification, supplier's declaration of conformity) governs placing radio devices on the market as the RED does, but US rules focus on spectrum and RF exposure and leave product safety and cybersecurity to separate or voluntary schemes.",
+  "us_text_url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-A/part-2/subpart-J",
+  "us_status": "in force",
+  "us_key_rules": "47 CFR part 2 subpart J; 47 CFR part 15; 47 CFR part 8 (IoT Cyber Trust Mark, 89 FR 61242, 2024-07-30)",
+  "alternatives": [
+   "Communications Act section 302, 47 U.S.C. 302a (Pub. L. 90-379, 1968)"
+  ],
+  "verified": "LII 47 U.S.C. 302a source credit read; FR API for Cyber Trust Mark rule",
+  "notes": "No single FR cite for subpart J; RED's cybersecurity delegated act compares with the voluntary US Cyber Trust Mark."
+ },
+ {
+  "row_id": 111,
+  "eu_instrument": "E-invoicing Directive",
+  "us_counterpart": "OMB Memorandum M-15-19, Improving Government Efficiency and Saving Taxpayer Dollars Through Electronic Invoicing",
+  "us_citation": "OMB M-15-19",
+  "us_date": "2015-07-17",
+  "level": "federal agency rule",
+  "match_quality": "agency rule only",
+  "rationale": "M-15-19 directed federal agencies to move procurement invoices to electronic invoicing by end of FY2018, matching the Directive's public-procurement e-invoicing aim, but as guidance with no binding standard comparable to EN 16931.",
+  "us_text_url": "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2015/m-15-19.pdf",
+  "us_status": "in force (guidance)",
+  "us_key_rules": "DFARS 252.232-7006 (Wide Area WorkFlow for DoD)",
+  "alternatives": [
+   "10 U.S.C. electronic invoice submission requirement for DoD contracts (NDAA FY2001)"
+  ],
+  "verified": "search summary (memo date, title, FY2018 deadline)",
+  "notes": "Not a CFR rule; OMB guidance. DoD statutory provision not separately verified."
+ },
+ {
+  "row_id": 112,
+  "eu_instrument": "Portability Regulation",
+  "us_counterpart": "",
+  "us_citation": "",
+  "us_date": "",
+  "level": "none",
+  "match_quality": "none",
+  "rationale": "None: the regulation removes geo-blocking of online content subscriptions for travellers within the EU single market; the US is a single national market and has no such rule.",
+  "us_text_url": "",
+  "us_status": "",
+  "us_key_rules": "",
+  "alternatives": [],
+  "verified": "none needed (no counterpart)",
+  "notes": "EU single-market mechanism."
+ },
+ {
+  "row_id": 113,
+  "eu_instrument": ".eu Top-Level Domain Regulation",
+  "us_counterpart": "Dot Kids Implementation and Efficiency Act of 2002",
+  "us_citation": "Pub. L. 107-317, 116 Stat. 2766",
+  "us_date": "2002-12-04",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "The only US statute on a country-code domain, it sets up the kids.us second-level domain within .us; the .us TLD itself is run by a contractor under NTIA rather than under a statute like the .eu Regulation.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-107publ317",
+  "us_status": "in force (kids.us suspended in practice since 2012)",
+  "us_key_rules": "",
+  "alternatives": [
+   "NTIA .us ccTLD administrator contract"
+  ],
+  "verified": "govinfo PLAW MODS opened",
+  "notes": "kids.us suspension status from general knowledge."
+ },
+ {
+  "row_id": 114,
+  "eu_instrument": "Interoperability of EU information systems (borders and visa) Regulation",
+  "us_counterpart": "Enhanced Border Security and Visa Entry Reform Act of 2002",
+  "us_citation": "Pub. L. 107-173, 116 Stat. 543",
+  "us_date": "2002-05-14",
+  "level": "federal statute",
+  "match_quality": "partial",
+  "rationale": "Section 202 requires an interoperable electronic data system linking law-enforcement and intelligence information for visa and admission decisions, and the Act mandates biometric travel documents, similar to the EU's link-up of border databases, but without a single shared biometric matching service and multiple-identity detector set in law.",
+  "us_text_url": "https://www.govinfo.gov/app/details/PLAW-107publ173",
+  "us_status": "in force",
+  "us_key_rules": "8 CFR part 215 and 235 (biometric entry-exit)",
+  "alternatives": [
+   "Intelligence Reform and Terrorism Prevention Act of 2004, sec. 7208 (biometric entry-exit)",
+   "DHS IDENT/HART biometric system (programme)"
+  ],
+  "verified": "govinfo PLAW MODS opened",
+  "notes": ""
+ },
+ {
+  "row_id": 115,
+  "eu_instrument": "Short-Term Rental Data Regulation",
+  "us_counterpart": "",
+  "us_citation": "",
+  "us_date": "",
+  "level": "none",
+  "match_quality": "none",
+  "rationale": "None at federal or prominent state level: host registration and platform data-sharing for short-term rentals are regulated by city ordinances in the US.",
+  "us_text_url": "",
+  "us_status": "",
+  "us_key_rules": "",
+  "alternatives": [
+   "New York City Local Law 18 of 2022 (host registration)",
+   "San Francisco short-term rental registration ordinance"
+  ],
+  "verified": "none needed (no counterpart); local laws from general knowledge, not opened",
+  "notes": "Municipal regulation; not a level offered in the schema."
+ }
+]

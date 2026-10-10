@@ -327,6 +327,20 @@ for w_, widths in ((wpi, [8, 22, 13, 18, 40, 45, 14, 70, 22, 16, 30]), (wil, [8,
         for c_ in row:
             c_.alignment = Alignment(wrap_text=True, vertical="top")
 
+# ---------------- US counterparts ----------------
+_usp = D + "us_map/us_counterparts.json"
+if _os.path.exists(_usp):
+    wus = wb.create_sheet("us_counterparts")
+    _uc = ["row_id", "eu_instrument", "match_quality", "level", "us_counterpart", "us_citation", "us_date", "us_status", "rationale",
+           "us_key_rules", "alternatives", "us_text_url", "verified", "notes"]
+    wus.append(_uc)
+    for x in json.load(open(_usp)):
+        wus.append([int(x["row_id"])] + [("; ".join(x[k]) if isinstance(x.get(k), list) else x.get(k)) for k in _uc[1:]])
+    style(wus, [8, 30, 14, 16, 36, 26, 11, 18, 60, 26, 36, 40, 24, 40])
+    for row in wus.iter_rows(min_row=2):
+        for c_ in row:
+            c_.alignment = Alignment(wrap_text=True, vertical="top")
+
 # ---------------- method + validation ----------------
 wm = wb.create_sheet("method")
 for line in open(D + "../METHOD.md").read().splitlines():
