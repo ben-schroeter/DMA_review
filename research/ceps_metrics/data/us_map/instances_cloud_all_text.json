@@ -1,0 +1,368 @@
+[
+ {
+  "clause": "``A provider of electronic communication service or remote computing service shall comply with the obligations of this chapter to preserve, backup, or disclose the contents of a wire or electronic communication and any record or other information pertaining to a customer or subscriber within such provider's possession, custody, or control, regardless of whether such communication, record, or other information is located within or outside of the United States.''.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "and ``(B) the term `United States person' has the meaning given the term in section 2523. ``(2) Motions to quash or modify.--(A) A provider of electronic communication service to the public or remote computing service, including a foreign electronic communication service or remote computing service, that is being required to disclose pursuant to legal process issued under this section the contents of a wire or electronic communication of a subscriber or customer, may file a motion to modify or q",
+  "marker": "is being required",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Such a motion shall be filed not later than 14 days after the date on which the provider was served with the legal process, absent agreement with the government or permission from the court to extend the deadline based on an application made within the 14 days.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "move to quash or defenses thereto, but it shall be the sole basis for moving to quash on the grounds of a conflict of law related to a qualifying foreign government. ``(B) Upon receipt of a motion filed pursuant to subparagraph (A), the court shall afford the governmental entity that applied for or issued the legal process under this section the opportunity to respond.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "move to quash or defenses thereto, but it shall be the sole basis for moving to quash on the grounds of a conflict of law related to a qualifying foreign government. ``(B) Upon receipt of a motion filed pursuant to subparagraph (A), the court shall afford the governmental entity that applied for or issued the legal process under this section the opportunity to respond.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The court may modify or quash the legal process, as appropriate, only if the court finds that-- ``(i) the required disclosure would cause the provider to violate the laws of a qualifying foreign government;",
+  "marker": "may modify or quash the legal process, as appropriate, only if",
+  "category": "restricted_permission",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "and ``(iii) the customer or subscriber is not a United States person and does not reside in the United States. ``(3) Comity analysis.--For purposes of making a determination under paragraph (2)(B)(ii), the court shall take into account, as appropriate-- ``(A) the interests of the United States, including the investigative interests of the governmental entity seeking to require the disclosure;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(B) the interests of the qualifying foreign government in preventing any prohibited disclosure;",
+  "marker": "prohibited",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(F) the importance to the investigation of the information required to be disclosed;",
+  "marker": "required to be",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(G) the likelihood of timely and effective access to the information required to be disclosed through means that would cause less serious negative consequences;",
+  "marker": "required to be",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "and ``(H) if the legal process has been sought on behalf of a foreign authority pursuant to section 3512, the investigative interests of the foreign authority making the request for assistance. ``(4) Disclosure obligations during pendency of challenge.-- A service provider shall preserve, but not be obligated to produce, information sought during the pendency of a motion brought under this subsection, unless the court finds that immediate production is necessary to prevent an adverse result iden",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "and ``(H) if the legal process has been sought on behalf of a foreign authority pursuant to section 3512, the investigative interests of the foreign authority making the request for assistance. ``(4) Disclosure obligations during pendency of challenge.-- A service provider shall preserve, but not be obligated to produce, information sought during the pendency of a motion brought under this subsection, unless the court finds that immediate production is necessary to prevent an adverse result iden",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "``(j) It shall not be unlawful under this chapter for a provider of electronic communication service to the public or remote computing service to intercept or disclose the contents of a wire or electronic communication in response to an order from a foreign government that is subject to an executive agreement that the Attorney General has determined and certified to Congress satisfies section 2523.'';",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "``(d) No Cause of Action Against a Provider Disclosing Information Under This Chapter.--No cause of action shall lie in any court against any provider of a wire or electronic communication service, its officers, employees, agents, or other specified persons for providing information, facilities, or assistance in accordance with a court order under this chapter, request pursuant to section 3125 of this title, or an order from a foreign government that is subject to an executive agreement that the",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "``(3) the terms of the agreement shall not create any obligation that providers be capable of decrypting data or limitation that prevents providers from decrypting data;",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(A) the foreign government may not intentionally target a United States person or a person located in the United States, and shall adopt targeting procedures designed to meet this requirement;",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(A) the foreign government may not intentionally target a United States person or a person located in the United States, and shall adopt targeting procedures designed to meet this requirement;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "member_states"
+ },
+ {
+  "clause": "``(B) the foreign government may not target a non- United States person located outside the United States if the purpose is to obtain information concerning a United States person or a person located in the United States;",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(C) the foreign government may not issue an order at the request of or to obtain information to provide to the United States Government or a third-party government, nor shall the foreign government be required to share any information produced with the United States Government or a third-party government;",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "member_states"
+ },
+ {
+  "clause": "``(C) the foreign government may not issue an order at the request of or to obtain information to provide to the United States Government or a third-party government, nor shall the foreign government be required to share any information produced with the United States Government or a third-party government;",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(D) an order issued by the foreign government-- ``(i) shall be for the purpose of obtaining information relating to the prevention, detection, investigation, or prosecution of serious crime, including terrorism;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(ii) shall identify a specific person, account, address, or personal device, or any other specific identifier as the object of the order;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(iii) shall be in compliance with the domestic law of that country, and any obligation for a provider of an electronic communications service or a remote computing service to produce data shall derive solely from that law;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(iii) shall be in compliance with the domestic law of that country, and any obligation for a provider of an electronic communications service or a remote computing service to produce data shall derive solely from that law;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "``(iv) shall be based on requirements for a reasonable justification based on articulable and credible facts, particularity, legality, and severity regarding the conduct under investigation;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "and ``(vi) in the case of an order for the interception of wire or electronic communications, and any extensions thereof, shall require that the interception order-- ``(I) be for a fixed, limited duration;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "and ``(II) may not last longer than is reasonably necessary to accomplish the approved purposes of the order;",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(E) an order issued by the foreign government may not be used to infringe freedom of speech;",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(F) the foreign government shall promptly review material collected pursuant to the agreement and store any unreviewed communications on a secure system accessible only to those persons trained in applicable procedures;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(G) the foreign government shall, using procedures that, to the maximum extent possible, meet the definition of minimization procedures in section 101 of the Foreign Intelligence Surveillance Act of 1978 (50 U.S.C. 1801), segregate, seal, or delete, and not disseminate material found not to be information that is, or is necessary to understand",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(H) the foreign government may not disseminate the content of a communication of a United States person to United States authorities unless the communication may be disseminated pursuant to subparagraph (G) and relates to significant harm, or the threat thereof, to the United States or United States persons, including crimes involving national security such as terrorism, significant violent crime, child exploitation, transnational organized crime, or significant financial fraud;",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(I) the foreign government shall afford reciprocal rights of data access, to include, where applicable, removing restrictions on communications service providers, including providers subject to United States jurisdiction, and thereby allow them to respond to valid legal process sought by a governmental entity (as defined in section 2711) if foreign law would otherwise prohibit communications-service providers from disclosing the data;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(J) the foreign government shall agree to periodic review of compliance by the foreign government with the terms of the agreement to be conducted by the United States Government;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "and ``(K) the United States Government shall reserve the right to render the agreement inapplicable as to any order for which the United States Government concludes the agreement may not properly be invoked.",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "member_states"
+ },
+ {
+  "clause": "and ``(K) the United States Government shall reserve the right to render the agreement inapplicable as to any order for which the United States Government concludes the agreement may not properly be invoked.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "member_states"
+ },
+ {
+  "clause": "``(c) Limitation on Judicial Review.--A determination or certification made by the Attorney General under subsection (b) shall not be subject to judicial or administrative review. ``(d) Effective Date of Certification.-- ``(1) Notice.--Not later than 7 days after the date on which the Attorney General certifies an executive agreement under subsection (b), the Attorney General shall provide notice of the determination under subsection (b) and a copy of the executive agreement to Congress, includi",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and ``(B) the Committee on the Judiciary and the Committee on Foreign Affairs of the House of Representatives. ``(2) Entry into force.--An executive agreement that is determined and certified by the Attorney General to satisfy the requirements of this section shall enter into force not earlier than the date that is 180 days after the date on which notice is provided under paragraph (1), unless Congress enacts a joint resolution of disapproval in accordance with paragraph (4). ``(3) Requests for ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and ``(ii) in the Senate, by the majority leader (or the majority leader's designee) or the minority leader (or the minority leader's designee). ``(5) Floor consideration in house of representatives.--If a committee of the House of Representatives to which a joint resolution of disapproval has been referred has not reported the joint resolution within 120 days after the date of referral, that committee shall be discharged from further consideration of the joint resolution. ``(6) Consideration in",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and ``(ii) in the Senate, by the majority leader (or the majority leader's designee) or the minority leader (or the minority leader's designee). ``(5) Floor consideration in house of representatives.--If a committee of the House of Representatives to which a joint resolution of disapproval has been referred has not reported the joint resolution within 120 days after the date of referral, that committee shall be discharged from further consideration of the joint resolution. ``(6) Consideration in",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and ``(ii) to the Committee on Foreign Relations. ``(B) Reporting and discharge.--If a committee to which a joint resolution of disapproval was referred has not reported the joint resolution within 120 days after the date of referral of the joint resolution, that committee shall be discharged from further consideration of the joint resolution and the joint resolution shall be placed on the appropriate calendar. ``(C) Proceeding to consideration.--It is in order at any time after both the Committ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and ``(ii) to the Committee on Foreign Relations. ``(B) Reporting and discharge.--If a committee to which a joint resolution of disapproval was referred has not reported the joint resolution within 120 days after the date of referral of the joint resolution, that committee shall be discharged from further consideration of the joint resolution and the joint resolution shall be placed on the appropriate calendar. ``(C) Proceeding to consideration.--It is in order at any time after both the Committ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "A motion to reconsider the vote by which the motion is agreed to or disagreed to shall not be in order. ``(D) Consideration in the senate.--In the Senate, consideration of the joint resolution, and on all debatable motions and appeals in connection therewith, shall be limited to not more than 10 hours, which shall be divided equally between those favoring and those opposing the joint resolution.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "A motion to reconsider the vote by which the motion is agreed to or disagreed to shall not be in order. ``(D) Consideration in the senate.--In the Senate, consideration of the joint resolution, and on all debatable motions and appeals in connection therewith, shall be limited to not more than 10 hours, which shall be divided equally between those favoring and those opposing the joint resolution.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(i) The joint resolution shall be referred to the appropriate committees. ``(ii) If a committee to which a joint resolution has been referred has not reported the joint resolution within 7 days after the date of referral, that committee shall be discharged from further consideration of the joint resolution. ``(iii) Beginning on the third legislative day after each committee to which a joint resolution has been referred reports the joint resolution to the House or has been discharged from furth",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(i) The joint resolution shall be referred to the appropriate committees. ``(ii) If a committee to which a joint resolution has been referred has not reported the joint resolution within 7 days after the date of referral, that committee shall be discharged from further consideration of the joint resolution. ``(iii) Beginning on the third legislative day after each committee to which a joint resolution has been referred reports the joint resolution to the House or has been discharged from furth",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(i) The joint resolution shall be referred to the appropriate committees. ``(ii) If a committee to which a joint resolution has been referred has not reported the joint resolution within 7 days after the date of referral, that committee shall be discharged from further consideration of the joint resolution. ``(iii) Beginning on the third legislative day after each committee to which a joint resolution has been referred reports the joint resolution to the House or has been discharged from furth",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Such a motion shall not be in order after the House has disposed of a motion to proceed on the joint resolution.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The motion shall not be debatable.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "A motion to reconsider the vote by which the motion is disposed of shall not be in order. ``(iv) The joint resolution shall be considered as read.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "A motion to reconsider the vote on passage of the joint resolution shall not be in order. ``(B) Treatment of house joint resolution in senate.-- ``(i) If, before the passage by the Senate of a joint resolution of disapproval, the Senate receives an identical joint resolution from the House of Representatives, the following procedures shall apply:",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(I) That joint resolution shall not be referred to a committee. ``(II) With respect to that joint resolution-- ``(aa) the procedure in the Senate shall be the same as if no joint resolution had been received from the House of Representatives;",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(I) That joint resolution shall not be referred to a committee. ``(II) With respect to that joint resolution-- ``(aa) the procedure in the Senate shall be the same as if no joint resolution had been received from the House of Representatives;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "but ``(bb) the vote on passage shall be on the joint resolution from the House of Representatives. ``(ii) If, following passage of a joint resolution of disapproval in the Senate, the Senate receives an identical joint resolution from the House of Representatives, that joint resolution shall be placed on the appropriate Senate calendar. ``(iii) If a joint resolution of disapproval is received from the House, and no companion joint resolution has been introduced in the Senate, the Senate procedur",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "but ``(bb) the vote on passage shall be on the joint resolution from the House of Representatives. ``(ii) If, following passage of a joint resolution of disapproval in the Senate, the Senate receives an identical joint resolution from the House of Representatives, that joint resolution shall be placed on the appropriate Senate calendar. ``(iii) If a joint resolution of disapproval is received from the House, and no companion joint resolution has been introduced in the Senate, the Senate procedur",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(e) Renewal of Determination.-- ``(1) In general.--The Attorney General, with the concurrence of the Secretary of State, shall review and may renew a determination under subsection (b) every 5 years. ``(2) Report.--Upon renewing a determination under subsection (b), the Attorney General shall file a report with the Committee on the Judiciary and the Committee on Foreign Relations of the Senate and the Committee on the Judiciary and the Committee on Foreign Affairs of the House of Representativ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(e) Renewal of Determination.-- ``(1) In general.--The Attorney General, with the concurrence of the Secretary of State, shall review and may renew a determination under subsection (b) every 5 years. ``(2) Report.--Upon renewing a determination under subsection (b), the Attorney General shall file a report with the Committee on the Judiciary and the Committee on Foreign Relations of the Senate and the Committee on the Judiciary and the Committee on Foreign Affairs of the House of Representativ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and ``(C) how the agreement has been implemented and what problems or controversies, if any, have arisen as a result of the agreement or its implementation. ``(3) Nonrenewal.--If a determination is not renewed under paragraph (1), the agreement shall no longer be considered to satisfy the requirements of this section.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(f) Revisions to Agreement.--A revision to an agreement under this section shall be treated as a new agreement for purposes of this section and shall be subject to the certification requirement under subsection (b), and to the procedures under subsection (d), except that for purposes of a revision to an agreement-- ``(1) the applicable time period under paragraphs (2), (4)(A)(i), (4)(B), and (4)(C) of subsection (d) shall be 90 days after the date notice is provided under subsection (d)(1);",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "and ``(2) the applicable time period under paragraphs (5) and (6)(B) of subsection (d) shall be 60 days after the date notice is provided under subsection (d)(1).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(g) Publication.--Any determination or certification under subsection (b) regarding an executive agreement under this section, including any termination or renewal of such an agreement, shall be published in the Federal Register as soon as is reasonably practicable. ``(h) Minimization Procedures.--A United States authority that receives the content of a communication described in subsection (b)(4)(H) from a foreign government in accordance with an executive agreement under this section shall u",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(g) Publication.--Any determination or certification under subsection (b) regarding an executive agreement under this section, including any termination or renewal of such an agreement, shall be published in the Federal Register as soon as is reasonably practicable. ``(h) Minimization Procedures.--A United States authority that receives the content of a communication described in subsection (b)(4)(H) from a foreign government in accordance with an executive agreement under this section shall u",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "member_states"
+ }
+]

@@ -1,0 +1,314 @@
+[
+ {
+  "clause": "``(3) provide for development and maintenance of minimum controls required to protect Federal information and information systems;",
+  "marker": "required to protect",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(B) shall be in accordance with policies, principles, standards, and guidelines issued by the Director;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(a) Director.--The Director shall oversee agency information security policies and practices, including-- ``(1) developing and overseeing the implementation of policies, principles, standards, and guidelines on information security, including through ensuring timely agency adoption of and compliance with standards promulgated under section 11331 of title 40;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(b) Secretary.--The Secretary, in consultation with the Director, shall administer the implementation of agency information security policies and practices for information systems, except for national security systems and information systems described in paragraph (2) or (3) of subsection (e), including--",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(B) requirements for the contents of the annual reports required to be submitted under section 3554(c)(1);",
+  "marker": "required to be",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(c) Report.--Not later than March 1 of each year, the Director, in consultation with the Secretary, shall submit to Congress a report on the effectiveness of information security policies and practices during the preceding year, including-- ``(1) a summary of the incidents described in the annual reports required to be submitted under section 3554(c)(1),",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(3) a summary of the results of evaluations required to be performed under section 3555;",
+  "marker": "required to be",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(d) National Security Systems.--Except for the authorities and functions described in subsection (a)(5) and subsection (c), the authorities and functions of the Director and the Secretary under this section shall not apply to national security systems. ``(e) Department of Defense and Intelligence Community Systems.--(1) The authorities of the Director described in paragraphs (1) and (2) of subsection (a) shall be delegated to the Secretary of Defense in the case of systems described in paragra",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(2) The systems described in this paragraph are systems that are operated by the Department of Defense, a contractor of the Department of Defense, or another entity on behalf of the Department of Defense that processes any information the unauthorized access, use, disclosure, disruption, modification, or destruction of which would have a debilitating impact on the mission of the Department of Defense. ``(3) The systems described in this paragraph are systems that are operated by an element of ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(2) The systems described in this paragraph are systems that are operated by the Department of Defense, a contractor of the Department of Defense, or another entity on behalf of the Department of Defense that processes any information the unauthorized access, use, disclosure, disruption, modification, or destruction of which would have a debilitating impact on the mission of the Department of Defense. ``(3) The systems described in this paragraph are systems that are operated by an element of ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(g) Exercise of Authority.--To ensure fiscal and policy consistency, the Secretary shall exercise the authority under this",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(a) In General.--The head of each agency shall-- ``(1) be responsible for-- ``(A) providing information security protections commensurate with the risk and magnitude of the harm resulting from unauthorized access, use, disclosure, disruption, modification, or destruction of-- ``(i) information collected or maintained by or on behalf of the agency;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(3) delegate to the agency Chief Information Officer established under section 3506 (or comparable official in an agency not covered by such section) the authority to ensure compliance with the requirements imposed on the agency under this subchapter, including-- ``(A) designating a senior agency information security officer who shall-- ``(i) carry out the Chief Information Officer's responsibilities under this section;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(ii) possess professional qualifications, including training and experience, required to administer the functions described under this section;",
+  "marker": "required to administer",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(b) Agency Program.--Each agency shall develop, document, and implement an agency-wide information security program to provide information security for the information and information systems that support the operations and assets of the agency, including those provided or managed by another agency, contractor, or other source, that includes-- ``(1) periodic assessments of the risk and magnitude of the harm that could result from the unauthorized access, use, disclosure, disruption, modificati",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(5) periodic testing and evaluation of the effectiveness of information security policies, procedures, and practices, to be performed with a frequency depending on risk, but no less than annually, of which such testing-- ``(A) shall include testing of management, operational, and technical controls of every information system identified in the inventory required under section 3505(c);",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "and ``(C) shall include using automated tools, consistent with standards and guidelines promulgated under section 11331 of title 40;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(7) procedures for detecting, reporting, and responding to security incidents, which-- ``(A) shall be consistent with the standards and guidelines described in section 3556(b);",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "and ``(C) shall include-- ``(i) mitigating risks associated with such incidents before substantial damage is done;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(c) Agency Reporting.-- ``(1) Annual report.-- ``(A) In general.--Each agency shall submit to the Director, the Secretary, the Committee on Government Reform, the Committee on Homeland Security, and the Committee on Science of the House of Representatives, the Committee on Homeland Security and Governmental Affairs and the Committee on Commerce, Science, and Transportation of the Senate, the appropriate authorization and appropriations committees of Congress, and the Comptroller General a repo",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(iv) any other information as the Director or the Secretary, in consultation with the Director, may require. ``(B) Unclassified report.-- ``(i) In general.--Each report submitted under subparagraph (A) shall be in unclassified form, but may include a classified annex. ``(ii) Access to information.--The head of an agency shall ensure that, to the greatest extent practicable, information is included in the unclassified version of the reports submitted by the agency under subparagraph (A). ``(2) ",
+  "marker": "shall ensure",
+  "category": "duty_of_result",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(iv) any other information as the Director or the Secretary, in consultation with the Director, may require. ``(B) Unclassified report.-- ``(i) In general.--Each report submitted under subparagraph (A) shall be in unclassified form, but may include a classified annex. ``(ii) Access to information.--The head of an agency shall ensure that, to the greatest extent practicable, information is included in the unclassified version of the reports submitted by the agency under subparagraph (A). ``(2) ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(iv) any other information as the Director or the Secretary, in consultation with the Director, may require. ``(B) Unclassified report.-- ``(i) In general.--Each report submitted under subparagraph (A) shall be in unclassified form, but may include a classified annex. ``(ii) Access to information.--The head of an agency shall ensure that, to the greatest extent practicable, information is included in the unclassified version of the reports submitted by the agency under subparagraph (A). ``(2) ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(d) Performance Plan.--(1) In addition to the requirements of subsection (c), each agency, in consultation with the Director, shall include as part of the performance plan required under section 1115 of title 31 a description of-- ``(A) the time periods;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "that are necessary to implement the program required under subsection (b). ``(2) The description under paragraph (1) shall be based on the risk assessments required under subsection (b)(1). ``(e) Public Notice and Comment.--Each agency shall provide the public with timely notice and opportunities for comment on proposed information security policies and procedures to the extent that such policies and procedures affect communication with the public. ``Sec. 3555.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "that are necessary to implement the program required under subsection (b). ``(2) The description under paragraph (1) shall be based on the risk assessments required under subsection (b)(1). ``(e) Public Notice and Comment.--Each agency shall provide the public with timely notice and opportunities for comment on proposed information security policies and procedures to the extent that such policies and procedures affect communication with the public. ``Sec. 3555.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(a) In General.--(1) Each year each agency shall have performed an independent evaluation of the information security program and practices of that agency to determine the effectiveness of such program and practices. ``(2) Each evaluation under this section shall include-- ``(A) testing of the effectiveness of information security policies, procedures, and practices of a representative subset of the agency's information systems;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(b) Independent Auditor.--Subject to subsection (c)-- ``(1) for each agency with an Inspector General appointed under the Inspector General Act of 1978, the annual evaluation required by this section shall be performed by the Inspector General or by an independent external auditor, as determined by the Inspector General of the agency;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "and ``(2) for each agency to which paragraph (1) does not apply, the head of the agency shall engage an independent external auditor to perform the evaluation.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "of the evaluation required by this section directly relating to a national security system shall be performed-- ``(1) only by an entity designated by the agency head;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(d) Existing Evaluations.--The evaluation required by this section may be based in whole or in part on an audit, evaluation, or report relating to programs or practices of the applicable agency. ``(e) Agency Reporting.--(1) Each year, not later than such date established by the Director, the head of each agency shall submit to the Director the results of the evaluation required under this section. ``(2) To the extent an evaluation required under this section directly relates to a national secu",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(d) Existing Evaluations.--The evaluation required by this section may be based in whole or in part on an audit, evaluation, or report relating to programs or practices of the applicable agency. ``(e) Agency Reporting.--(1) Each year, not later than such date established by the Director, the head of each agency shall submit to the Director the results of the evaluation required under this section. ``(2) To the extent an evaluation required under this section directly relates to a national secu",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(f) Protection of Information.--Agencies and evaluators shall take appropriate steps to ensure the protection of information which, if disclosed, may adversely affect information security.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Such protections shall be commensurate with the risk and comply with all applicable laws and regulations. ``(g) OMB Reports to Congress.--(1) The Director shall summarize the results of the evaluations conducted under this section in the report to Congress required under section 3553(c). ``(2) The Director's report to Congress under this subsection shall summarize information regarding information security relating to national security systems in such a manner as to ensure appropriate protection",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Such protections shall be commensurate with the risk and comply with all applicable laws and regulations. ``(g) OMB Reports to Congress.--(1) The Director shall summarize the results of the evaluations conducted under this section in the report to Congress required under section 3553(c). ``(2) The Director's report to Congress under this subsection shall summarize information regarding information security relating to national security systems in such a manner as to ensure appropriate protection",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Such protections shall be commensurate with the risk and comply with all applicable laws and regulations. ``(g) OMB Reports to Congress.--(1) The Director shall summarize the results of the evaluations conducted under this section in the report to Congress required under section 3553(c). ``(2) The Director's report to Congress under this subsection shall summarize information regarding information security relating to national security systems in such a manner as to ensure appropriate protection",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Such protections shall be commensurate with the risk and comply with all applicable laws and regulations. ``(g) OMB Reports to Congress.--(1) The Director shall summarize the results of the evaluations conducted under this section in the report to Congress required under section 3553(c). ``(2) The Director's report to Congress under this subsection shall summarize information regarding information security relating to national security systems in such a manner as to ensure appropriate protection",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(h) Comptroller General.--The Comptroller General shall periodically evaluate and report to Congress on-- ``(1) the adequacy and effectiveness of agency information security policies and practices;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(j) Guidance.--The Director, in consultation with the Secretary, the Chief Information Officers Council established under section 3603, the Council of the Inspectors General on Integrity and Efficiency, and other interested parties as appropriate, shall ensure the development of guidance for evaluating the effectiveness of an information security program and practices.",
+  "marker": "shall ensure",
+  "category": "duty_of_result",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(a) In General.--The Secretary shall ensure the operation of a central Federal information security incident center to-- ``(1) provide timely technical assistance to operators of agency information systems regarding security incidents, including guidance on detecting and handling information security incidents;",
+  "marker": "shall ensure",
+  "category": "duty_of_result",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(b) National Security Systems.--Each agency operating or exercising control of a national security system shall share information about information security incidents, threats, and vulnerabilities with the Federal information security incident center to the extent consistent with standards and guidelines for national security systems, issued in accordance with law and as directed by the President. ``Sec. 3557.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``The head of each agency operating or exercising control of a national security system shall be responsible for ensuring that the agency-- ``(1) provides information security protections commensurate with the risk and magnitude of the harm resulting from the unauthorized access, use, disclosure, disruption, modification, or destruction of the information contained in such system;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) Major Incident.--The Director of the Office of Management and Budget shall-- (1) develop guidance on what constitutes a major incident for purposes of section 3554(b) of title 44, United States Code, as added by subsection (a);",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(c) Continuous Diagnostics.-- During the 2 year period beginning on the date of enactment of this Act, the Director of the Office of Management and Budget, with the assistance of the Secretary of Homeland Security, shall include in each report submitted under section 3553(c) of title 44, United States Code, as added by subsection (a), an assessment of the adoption by agencies of continuous diagnostics technologies, including through the Continuous Diagnostics and Mitigation program, and other ad",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(d) Breaches.-- (1) Requirements.--The Director of the Office of Management and Budget shall ensure that data breach notification policies and guidelines are updated periodically and require-- (A) except as provided in paragraph (4), notice by the affected agency to each committee of Congress described in section 3554(c)(1) of title 44, United States Code, as added by subsection (a), the Committee on the Judiciary of the Senate, and the Committee on the Judiciary of the House of Representatives,",
+  "marker": "shall ensure",
+  "category": "duty_of_result",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(d) Breaches.-- (1) Requirements.--The Director of the Office of Management and Budget shall ensure that data breach notification policies and guidelines are updated periodically and require-- (A) except as provided in paragraph (4), notice by the affected agency to each committee of Congress described in section 3554(c)(1) of title 44, United States Code, as added by subsection (a), the Committee on the Judiciary of the Senate, and the Committee on the Judiciary of the House of Representatives,",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and (B) notice by the affected agency to affected individuals, pursuant to data breach notification policies and guidelines, which shall be provided as expeditiously as practicable and without unreasonable delay after the agency discovers the unauthorized acquisition or access.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(3) Reports.-- (A) Director of omb.--During the first 2 years beginning after the date of enactment of this Act, the Director of the Office of Management and Budget shall, on an annual basis-- (i) assess agency implementation of data breach notification policies and guidelines in aggregate;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(B) Secretary of homeland security.--During the first 2 years beginning after the date of enactment of this Act, the Secretary of Homeland Security shall include an assessment of the status of agency implementation of data breach notification policies and guidelines in the requirements under section 3553(b)(2)(B) of title 44, United States Code.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(4) Exception.--Any element of the intelligence community (as such term is defined under section 3(4) of the National Security Act of 1947 (50 U.S.C. 3003(4)) that is required to provide notice under paragraph (1)(A) shall only provide such notice to appropriate committees of Congress.",
+  "marker": "shall only",
+  "category": "restricted_permission",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(f) Other Provisions.-- (1) Circular a-130.--Not later than 1 year after the date of enactment of this Act, the Director of the Office of Management and Budget shall amend or revise Office of Management and Budget Circular A-130 to eliminate inefficient or wasteful reporting.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The Director of the Office of Management and Budget shall provide quarterly briefings to Congress on the status of the amendment or revision required under this paragraph.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ }
+]

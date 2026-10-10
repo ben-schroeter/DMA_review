@@ -1,0 +1,38 @@
+[
+ {
+  "clause": "(a) In General.--Subject to rules prescribed by the Bureau, a covered person shall make available to a consumer, upon request, information in the control or possession of the covered person concerning the consumer financial product or service that the consumer obtained from such covered person, including information relating to any transaction, series of transactions, or to the account including costs, charges and usage data.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The information shall be made available in an electronic form usable by consumers.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(b) Exceptions.--A covered person may not be required by this section to make available to the consumer-- (1) any confidential commercial information, including an algorithm used to derive credit scores or other risk scores or predictors;",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(3) any information required to be kept confidential by any other provision of law;",
+  "marker": "required to be",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(d) Standardized Formats for Data.--The Bureau, by rule, shall prescribe standards applicable to covered persons to promote the development and use of standardized formats for information, including through the use of machine readable files, to be made available to consumers under this section.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(e) Consultation.--The Bureau shall, when prescribing any rule under this section, consult with the Federal banking agencies and the Federal Trade Commission to ensure, to the extent appropriate, that the rules-- (1) impose substantively similar requirements on covered persons;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ }
+]

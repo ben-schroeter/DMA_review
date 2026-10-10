@@ -1,0 +1,11 @@
+{
+ "sample": "fresh random sample of 40 counted instances across the 17 US texts (seed 7), hand-coded by Claude",
+ "counted_true": 32,
+ "counted_false": 8,
+ "precision": 0.8,
+ "false_positive_types": "funding/budget mechanics (credited, PAYGO), constitutive rules (members shall have equal responsibility, rates shall include), exemptions ('is not required'), 'shall permit', saving clauses, descriptive 'must'",
+ "addressee_correct": 8,
+ "addressee_n": 32,
+ "addressee_accuracy": 0.25,
+ "addressee_note": "US statutes and especially the CFR use devices, systems, applications and passive voice as subjects ('a device must', 'emissions shall comply'); these fall into 'unclear'. Addressee shares are not reported for the US comparison."
+}

@@ -1,0 +1,548 @@
+[
+ {
+  "clause": "(2) Subpart B provides the general obligation of data providers to make covered data available upon the request of a consumer or authorized third party, including what types of information must be made available.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "If, as a result of a merger or acquisition, a depository institution data provider does not have the named four quarterly call report submissions, the depository institution data provider shall use the process set out in \u00a7 1033.111(d)(3) to determine total assets for the time period named in this paragraph (a)(1).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A data provider defined under \u00a7 1033.111(c)(1) through (3) must comply with the requirements in subparts B and C of this part beginning on:",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A depository institution data provider under \u00a7 1033.111(c)(1) through (3) that has total assets as calculated in \u00a7 1033.111(d)(2) equal to or less than the SBA size standard as determined in accordance with \u00a7 1033.111(d)(1), but that subsequently holds total assets that exceed that SBA size standard, as measured in \u00a7 1033.111(d)(2), must comply with the requirements in subparts B and C of this part within a reasonable amount of time after exceeding the size standard, not to exceed five years.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "A data provider must make available to a consumer and an authorized third party, upon request, covered data in the data provider's control or possession concerning a covered consumer financial product or service that the consumer obtained from the data provider, in an electronic form usable by consumers and authorized third parties.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A data provider must not take any action:",
+  "marker": "must not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "In complying with paragraph (a) of this section, a data provider must make available the most recently updated covered data that it has in its control or possession at the time of a request.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A data provider must make available information concerning authorized but not yet settled transactions.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "For example, a data provider that merely facilitates pass-through payments would not be required to make available account and routing number for the underlying Regulation E account.",
+  "marker": "be required",
+  "category": "explicit_requirement",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "If a data provider directly or indirectly holds a Regulation E or Regulation Z account belonging to the consumer, the data provider must also make available a truncated account number or other identifier for that account.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A data provider is not required to make available the following covered data to a consumer or authorized third party:",
+  "marker": "is not required",
+  "category": "explicit_requirement",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(c) Any information required to be kept confidential by any other provision of law.",
+  "marker": "required to be",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Information does not qualify for this exception merely because the data provider must protect it for the consumer.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(a) Requirement to maintain interfaces.",
+  "marker": "Requirement to maintain",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "A data provider subject to the requirements of this part must maintain a consumer interface and a developer interface.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The consumer interface and the developer interface must satisfy the requirements set forth in this section.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The developer interface must satisfy the additional requirements set forth in \u00a7 1033.311.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Upon request for covered data in a machine-readable file, and subject to paragraphs (b)(1) and (2) of this section, a data provider must make available to a consumer or an authorized third party covered data in a file that is machine-readable and that the consumer or authorized third party can retain and transfer for processing into a separate information system that is reasonably available to and in the control of the consumer or authorized third party.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "With respect to covered data provided through its consumer interface, a data provider is not required to comply with:",
+  "marker": "is not required",
+  "category": "explicit_requirement",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(c) Fees prohibited.",
+  "marker": "prohibited",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "A data provider must not impose any fees or charges on a consumer or an authorized third party in connection with:",
+  "marker": "must not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A developer interface required by \u00a7 1033.301(a) must satisfy the requirements set forth in this section.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The developer interface must make available covered data in a standardized and machine-readable format.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A developer interface's performance must be commercially reasonable.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The number of proper responses by the interface divided by the total number of requests for covered data to the interface must be equal to or greater than 99.5 percent in each calendar month.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(i) Any responses by and requests to the interface during scheduled downtime for the interface must be excluded respectively from the numerator and the denominator of the calculation.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(ii) In order for any downtime of the interface to qualify as scheduled downtime, the data provider must have provided reasonable notice of the downtime to all third parties to which the data provider has granted access to the interface.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(iii) The total amount of scheduled downtime for the interface in a calendar month must be reasonable.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Except as otherwise permitted by \u00a7\u00a7 1033.221, 1033.321, and 1033.331(b) and (c), a data provider must not unreasonably restrict the frequency with which it receives or responds to requests for covered data from an authorized third party through its developer interface.",
+  "marker": "must not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Any frequency restrictions must be applied in a manner that is non-discriminatory and consistent with the reasonable written policies and procedures that the data provider establishes and maintains pursuant to \u00a7 1033.351(a).",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "A data provider must not allow a third party to access the data provider's developer interface by using any credentials that a consumer uses to access the consumer interface.",
+  "marker": "must not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(i) A data provider must apply to the developer interface an information security program that satisfies the applicable rules issued pursuant to section 501 of the Gramm-Leach-Bliley Act, 15 U.S.C. 6801;",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(ii) If the data provider is not subject to section 501 of the Gramm-Leach-Bliley Act, the data provider must apply to its developer interface the information security program required by the Federal Trade Commission's Standards for Safeguarding Customer Information, 16 CFR part 314.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(2) The third party does not make the following information available in both human-readable and machine-readable formats, and readily identifiable to members of the public, meaning the information must be at least as available as it would be on a public website:",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "To comply with the requirements in \u00a7 1033.201(a)(1), upon request from a consumer, a data provider must make available covered data when it receives information sufficient to:",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(1) To comply with the requirements in \u00a7 1033.201(a)(1), upon request from an authorized third party, a data provider must make available covered data when it receives information sufficient to:",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(c) Covered data not required to be made available.",
+  "marker": "required to be",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "A data provider is not required to make covered data available in response to a request when:",
+  "marker": "is not required",
+  "category": "explicit_requirement",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A data provider that receives a request for covered data from a consumer that jointly holds an account or from an authorized third party acting on behalf of such a consumer must make available covered data to that consumer or authorized third party, subject to the other provisions of this section.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A data provider that receives a revocation request from a consumer through a revocation method it makes available must revoke the authorized third party's access and notify the authorized third party of the request in a timely manner.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(a) Requirement to make information about the data provider readily identifiable.",
+  "marker": "Requirement to make",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "A data provider must make the information described in paragraphs (b) through (d) of this section:",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(1) Readily identifiable to members of the public, meaning the information must be at least as available as it would be on a public website;",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "A data provider must disclose in the manner required by paragraph (a) of this section:",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "For its developer interface, a data provider must disclose in the manner required by paragraph (a) of this section documentation, including metadata describing all covered data and their corresponding data fields, and other documentation sufficient for a third party to access and use the interface.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A data provider is not required to make publicly available information that would impede its ability to deny a third party access to its developer interface, consistent with \u00a7 1033.321.",
+  "marker": "is not required",
+  "category": "explicit_requirement",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The documentation must:",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "On or before the final day of each calendar month, a data provider must disclose in the manner required by paragraph (a) of this section the quantitative minimum performance specification for the response rate described in \u00a7 1033.311(c)(1)(i) through (iv) that the data provider's developer interface achieved in the previous calendar month.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The data provider's disclosure must include at least a rolling 13 months of the required monthly figure, except that the disclosure need not include the monthly figure for months prior to the compliance date applicable to the data provider.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The data provider must disclose the metric as a percentage rounded to four decimal places, such as \u201c99.9999 percent.\u201d",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A data provider must establish and maintain written policies and procedures that are reasonably designed to achieve the objectives set forth in subparts B and C of this part, including paragraphs (b) through (d) of this section.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Policies and procedures must be appropriate to the size, nature, and complexity of the data provider's activities.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "A data provider must periodically review the policies and procedures required by this section and update them as appropriate to ensure their continued effectiveness.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The policies and procedures required by paragraph (a) of this section must be reasonably designed to ensure that:",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "When a data provider denies a request for information for a reason described in \u00a7 1033.331(c), to the extent the communication of the denial is not required to be standardized by \u00a7 1033.311(b), the data provider:",
+  "marker": "is not required",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The policies and procedures required by paragraph (a) of this section must be reasonably designed to ensure that covered data are accurately made available through the data provider's developer interface.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "In developing its policies and procedures regarding accuracy, a data provider must consider, for example:",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The policies and procedures required by paragraph (a) of this section must be reasonably designed to ensure retention of records that are evidence of compliance with subparts B and C of this part.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Records that are evidence of a data provider's actions in response to a consumer's or third party's request for information or a third party's request to access a developer interface must be retained for at least three years after a data provider has responded to the request.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "All other records that are evidence of compliance with subparts B and C of this part must be retained for a reasonable period of time of at least three years from the date of the action required under subparts B and C of this part.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Records retained pursuant to policies and procedures required under paragraph (a) of this section must include, without limitation:",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "To become an authorized third party, the third party must seek access to covered data from a data provider on behalf of a consumer to provide a product or service the consumer requested and:",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "To comply with \u00a7 1033.401(a), a third party must provide the consumer with an authorization disclosure electronically or in writing.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The authorization disclosure must be clear, conspicuous, and segregated from other material.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The names included in the authorization disclosure as required by paragraphs (b)(1) and (2) of this section and by \u00a7 1033.431(b) must be readily understandable to the consumer.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The authorization disclosure must include:",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Categories must have a substantially similar level of specificity as the categories in \u00a7 1033.211.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The authorization disclosure must be in the same language as the communication in which the authorization disclosure is conveyed to the consumer.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Any translation of the authorization disclosure provided to the consumer must be complete and accurate.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "If the authorization disclosure is in a language other than English, it must include a link to an English-language translation, and it is permitted to include links to translations in other languages.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(1) Uses that are specifically required under other provisions of law, including to comply with a properly authorized subpoena or summons or to respond to a judicial process or government regulatory authority;",
+  "marker": "are specifically required",
+  "category": "explicit_requirement",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "In developing its policies and procedures regarding accuracy, a third party must consider, for example:",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The contact information must be readily identifiable to the consumer.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The policies and procedures must be designed to ensure that the third party provides the following to the consumer, upon request:",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The names must be readily understandable to the consumer;",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "However, the third party seeking authorization remains responsible for compliance with the authorization procedures described in \u00a7 1033.401, and the data aggregator must comply with paragraph (c) of this section.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The authorization disclosure must include the name of any data aggregator that will assist the third party seeking authorization under \u00a7 1033.401 with accessing covered data and a brief description of the services the data aggregator will provide.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "When the third party seeking authorization under \u00a7 1033.401 will use a data aggregator to assist with accessing covered data on behalf of a consumer, the data aggregator must certify to the consumer that it agrees to the conditions on accessing the consumer's data in \u00a7 1033.421(a) through (f) and the condition in \u00a7 1033.421(i) upon receipt of the notice described in \u00a7 1033.421(h)(2) before accessing the consumer's data.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "For this requirement to be satisfied:",
+  "marker": "requirement to be",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(1) The third party seeking authorization under \u00a7 1033.401 must include the data aggregator's certification in the authorization disclosure described in \u00a7 1033.411;",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(2) The data aggregator must provide its certification to the consumer, electronically or in writing, separate from the authorization disclosure.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The certification must be in the same language as the authorization disclosure and must be clear, conspicuous, and segregated from other material.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The certification must be in the same language as the authorization disclosure and must be clear, conspicuous, and segregated from other material.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The name of any data aggregator in the certification must be readily understandable to the consumer.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "If, after the consumer has completed the authorization procedures, the authorized third party retains a data aggregator to assist with accessing covered data on behalf of the consumer, this data aggregator must provide its certification in accordance with this paragraph (c)(2).",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A third party that is a covered person or service provider, as defined in 12 U.S.C. 5481(6) and (26), must establish and maintain written policies and procedures that are reasonably designed to ensure retention of records that are evidence of compliance with the requirements of subpart D of this part.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Records required under paragraph (a) of this section must be retained for a reasonable period of time, not less than three years after a third party obtains the consumer's most recent authorization under \u00a7 1033.401(a).",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "A third party covered under paragraph (a) of this section must periodically review its policies and procedures and update them as appropriate to ensure their continued effectiveness to evidence compliance with the requirements of subpart D of this part.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Records retained pursuant to policies and procedures required under this section must include, without limitation:",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "You must also provide us, within 10 days, written explanation of any material change to information that was submitted with your application or during recognition, as well as any reason your organization may no longer meet underlying requirements for recognition.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "In addition, you must meet any other specified terms and conditions of your recognition, which may include our reserving the right to observe or participate in standard setting.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "unclear"
+ }
+]

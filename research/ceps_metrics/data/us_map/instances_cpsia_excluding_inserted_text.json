@@ -1,0 +1,614 @@
+[
+ {
+  "clause": "Mandatory third party testing for certain children's products.",
+  "marker": "Mandatory",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Mandatory toy safety standards.",
+  "marker": "Mandatory",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Prohibited acts.",
+  "marker": "Prohibited",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(C) 100 parts per million.-- Except as provided in subparagraphs (D) and (E), beginning on the date that is 3 years after the date of enactment of this Act, subparagraph (B) shall be applied by substituting   for   unless the Commission determines that a limit of 100 parts per million is not technologically feasible for a product or product category.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The Commission may make such a determination only after notice and a hearing and after analyzing the public health protections associated with substantially reducing lead in children's products.",
+  "marker": "may make such a determination only after",
+  "category": "restricted_permission",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(D) Alternate reduction of limit.--If the Commission determines under subparagraph (C) that the 100 parts per million limit is not technologically feasible for a product or product category, the Commission shall, by regulation, establish an amount that is the lowest amount of lead, lower than 300 parts per million, the Commission determines to be technologically feasible to achieve for that product or product category.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The amount of lead established by the Commission under the preceding sentence shall be substituted for the 300 parts per million limit under subparagraph (B) beginning on the date that is 3 years after the date of enactment of this Act.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(E) Periodic review and further reductions.--The Commission shall, based on the best available scientific and technical information, periodically review and revise downward the limit set forth in this subsection, no less frequently than every 5 years after promulgation of the limit under subparagraph (C) or (D) to require the lowest amount of lead that the Commission determines is technologically feasible to achieve.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The amount of lead established by the Commission under the preceding sentence shall be substituted for the lead limit in effect immediately before such revision.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Reasonably foreseeable use and abuse shall include to, swallowing, mouthing, breaking, or other children's activities, and the aging of the product.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(B) Inaccessibility proceeding.-- Within 1 year after the date of enactment of this Act, the Commission shall promulgate a rule providing guidance with respect to what product components, or classes of components, will be considered to be inaccessible for purposes of subparagraph (A).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(C) Application pending cpsc guidance.--Until the Commission promulgates a rule pursuant to subparagraph (B), the determination of whether a product component is inaccessible to a child shall be made in accordance with the requirements laid out in subparagraph (A) for considering a component to be inaccessible to a child.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(3) Certain barriers disqualified.--For purposes of this subsection, paint, coatings, or electroplating may not be considered to be a barrier that would render lead in the substrate inaccessible to a child, or to prevent absorption of any lead into the human body, through normal and reasonably foreseeable use and abuse of the product.",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(4) Certain electronic devices.--If the Commission determines that it is not technologically feasible for certain electronic devices, including devices containing batteries, to comply with subsection (a), the Commission, by regulation, shall-- (A) issue requirements to eliminate or minimize the potential for exposure to and accessibility of lead in such electronic devices, which may include requirements that such electronic devices be equipped with a child-resistant cover or casing that prevents",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and (B) establish a schedule by which such electronic devices shall be in full compliance with the limits in subsection (a), unless the Commission determines that full compliance will not be technologically feasible for such devices within a schedule set by the Commission.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(5) Periodic review.--The Commission shall, based on the best available scientific and technical information, periodically review and revise the regulations promulgated pursuant to this subsection no less frequently than every 5 years after the first promulgation of a regulation under this subsection to make them more stringent and to require the lowest amount of lead the Commission determines is technologically feasible to achieve.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "promulgated regulation shall supersede the ASTM F963 standard to the extent of the inconsistency.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "shall not delay the effect of any provision or limit under this section nor shall it stay general enforcement of the requirements of this section.",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "shall not delay the effect of any provision or limit under this section nor shall it stay general enforcement of the requirements of this section.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(f) More Stringent Lead Paint Ban.-- (1) In general.--Effective on the date that is 1 year after the date of enactment of this Act, the Commission shall modify section 1303.1 of its regulations (16 C.F.R. 1301.1) by substituting   for   in subsection (a) of that section.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) Periodic review and reduction.--The Commission shall, no less frequently than every 5 years after the date on which the Commission modifies the regulations pursuant to paragraph (1), review the limit for lead in paint set forth in section 1303.1 of title 16, Code of Federal Regulations (as revised by paragraph (1)), and shall by regulation revise downward the limit to require the lowest amount of lead that the Commission determines is technologically feasible to achieve.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) Periodic review and reduction.--The Commission shall, no less frequently than every 5 years after the date on which the Commission modifies the regulations pursuant to paragraph (1), review the limit for lead in paint set forth in section 1303.1 of title 16, Code of Federal Regulations (as revised by paragraph (1)), and shall by regulation revise downward the limit to require the lowest amount of lead that the Commission determines is technologically feasible to achieve.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Such alternative methods for measurement shall not permit more than 2 micrograms of lead in a total weight of 10 milligrams or less of paint or other surface coating or in a surface area of 1 square centimeter or less.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(4) Alternative methods of measuring lead in paint generally.-- (A) Study.--Not later than 1 year after the date of enactment of this Act, the Commission shall complete a study to evaluate the effectiveness, precision, and reliability of x-ray fluorescence technology and other alternative methods for measuring lead in paint or other surface coatings when used on a children's product or furniture article in order to determine compliance with part 1303 of title 16, Code of Federal Regulations, as ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Any regulations promulgated by the Commission shall ensure that such alternative methods are no less effective, precise, and reliable than the methodology used by the Commission prior to the date of enactment of this Act.",
+  "marker": "shall ensure",
+  "category": "duty_of_result",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(5) Periodic review.--The Commission shall, no less frequently than every 5 years after the Commission completes the study required by paragraph (4)(A), review and revise any methods for measurement utilized by the Commission pursuant to paragraph (3) or pursuant to any regulations promulgated under paragraph (4) to ensure that such methods are the most effective methods available to protect children's health.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The Commission shall conduct an ongoing effort to study and encourage the further development of alternative methods for measuring lead in paint and other surface coating that can effectively, precisely, and reliably detect lead levels at or below the level set forth in part 1303 of title 16, Code of Federal Regulations, or any lower level established by regulation.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "MANDATORY THIRD PARTY TESTING FOR CERTAIN CHILDREN'S PRODUCTS.",
+  "marker": "MANDATORY",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(a) Mandatory and Third Party Testing.-- (1) General conformity certification.-- (A) Amendment.--Paragraph (1) of section 14(a) (15 U.S.C. 2063(a)) is amended to read as follows:",
+  "marker": "Mandatory",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(c) CPSC Consideration of Existing Requirements.--In establishing standards for accreditation of a third party conformity assessment body under section 14(a)(3) of the Consumer Product Safety Act, as added by subsection (a), the Commission may consider standards and protocols for accreditation of such conformity assessment bodies by independent accreditation organizations that are in effect on the date of enactment of this Act, but shall ensure that the protocols, standards, and requirements pre",
+  "marker": "shall ensure",
+  "category": "duty_of_result",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(b) Safety Standards.-- (1) In general.--The Commission shall-- (A) in consultation with representatives of consumer groups, juvenile product manufacturers, and independent child product engineers and experts, examine and assess the effectiveness of any voluntary consumer product safety standards for durable infant or toddler products;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) Timetable for rulemaking.--Not later than 1 year after the date of enactment of this Act, the Commission shall",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "commence the rulemaking required under paragraph (1) and shall promulgate standards for no fewer than 2 categories of durable infant or toddler products every 6 months thereafter, beginning with the product categories that the Commission determines to be of highest priority, until the Commission has promulgated standards for all such product categories.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Thereafter, the Commission shall periodically review and revise the standards set forth under this subsection to ensure that such standards provide the highest level of safety for such products that is feasible.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(c) Cribs.-- (1) In general.--It shall be a violation of section 19(a)(1) of the Consumer Product Safety Act (15 U.S.C. 2068(a)(1)) for any person to which this subsection applies to manufacture, sell, contract to sell or resell, lease, sublet, offer, provide for use, or otherwise place in the stream of commerce a crib that is not in compliance with a standard promulgated under subsection (b).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(d) Consumer Registration Requirement.-- (1) Rulemaking.--Notwithstanding any provision of chapter 6 of title 5, United States Code, or the Paperwork Reduction Act of 1980 (44 U.S.C. 3501 et seq.), not later than 1 year after the date of enactment of this Act, the Commission shall, pursuant to its authority under section 16(b) of the Consumer Product Safety Act (15 U.S.C. 2065(b)), promulgate a final consumer product safety rule to require each manufacturer of a durable infant or toddler product",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) Requirements for registration form.--The registration form required to be provided to consumers under paragraph (1) shall-- (A) include spaces for a consumer to provide the consumer's name, address, telephone number, and e-mail address;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(C) be attached to the surface of each durable infant or toddler product so that, as a practical matter, the consumer must notice and handle the form after purchasing the product;",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "and (G) include a statement that information provided by the consumer shall not be used for any purpose other than to facilitate a recall of or safety alert regarding that product.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(3) Record keeping and notification requirements.--The rules required under this section shall require each manufacturer of a durable infant or toddler product to maintain a record of registrants for each product manufactured that includes all of the information provided by each consumer registered, and to use such information to notify such consumers in the event of a voluntary or involuntary recall of or safety alert regarding such product.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Each manufacturer shall maintain such a record for a period of not less than 6 years after the date of manufacture of the product.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Consumer information collected by a manufacturer under this Act may not be used by the manufacturer, nor disseminated by such manufacturer to any other party, for any purpose other than notification to such consumer in the event of a product recall or safety alert.",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(4) Study.--The Commission shall conduct a study at such time as it considers appropriate on the effectiveness of the consumer registration forms required by this section in facilitating product recalls and whether such registration forms should be required for other children's products.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Not later than 4 years after the date of enactment of this Act, the Commission shall report its findings to the appropriate Congressional committees.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(1) Technology assessment and report.--The Commission shall-- (A) beginning 2 years after a rule is promulgated under subsection (d), regularly review recall notification technology and assess the effectiveness of such technology in facilitating recalls of durable infant or toddler products;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) Determination.--If, based on the assessment required by paragraph (1), the Commission determines by rule that a recall notification technology is likely to be as effective or more effective in facilitating recalls of durable infant or toddler products as the registration forms required by subsection (d), the Commission-- (A) shall submit to the appropriate Congressional committees a report on such determination;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and (B) shall permit a manufacturer of durable infant or toddler products to use such technology in lieu of such registration forms to facilitate recalls of durable infant or toddler products.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "MANDATORY TOY SAFETY STANDARDS.",
+  "marker": "MANDATORY",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(a) In General.--Beginning 180 days after the date of enactment of this Act, the provisions of ASTM International Standard F963-07 Consumer Safety Specifications for Toy Safety (ASTM F963), as it exists on the date of enactment of this Act (except for section 4.2 and Annex 4 or any provision that restates or incorporates an existing mandatory standard or ban promulgated by the Commission or by statute) shall be considered to be consumer product safety standards issued by the Commission under sec",
+  "marker": "mandatory",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(b) Rulemaking for Specific Toys, Components and Risks.-- (1) Evaluation.--Not later than 1 year after the date of enactment of this Act, the Commission, in consultation with representatives of consumer groups, juvenile product manufacturers, and independent child product engineers and experts, shall examine and assess the effectiveness of ASTM F963 or its successor standard (except for section 4.2 and Annex 4), as it relates to safety requirements, safety labeling requirements, and test methods",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) Rulemaking.--Within 1 year after the completion of the assessment required by paragraph (1), the Commission shall promulgate rules in accordance with section 553 of title 5, United States Code, that-- (A) take into account other children's product safety rules;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(c) Periodic Review.--The Commission shall periodically review and revise the rules set forth under this section to ensure that such rules provide the highest level of safety for such products that is feasible.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(d) Consideration of Remaining ASTM Standards.--After promulgating the rules required by subsection (b), the Commission shall-- (1) in consultation with representatives of consumer groups, juvenile product manufacturers, and independent child product engineers and experts, examine and assess the effectiveness of ASTM F963 (and alternative health protective requirements to prevent or minimize flammability of children's products) or its successor standard, and shall assess the adequacy of such sta",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(d) Consideration of Remaining ASTM Standards.--After promulgating the rules required by subsection (b), the Commission shall-- (1) in consultation with representatives of consumer groups, juvenile product manufacturers, and independent child product engineers and experts, examine and assess the effectiveness of ASTM F963 (and alternative health protective requirements to prevent or minimize flammability of children's products) or its successor standard, and shall assess the adequacy of such sta",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(e) Prioritization.--The Commission shall promulgate rules beginning with the product categories that the Commission determines to be of highest priority, until the Commission has promulgated standards for all such product categories.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(g) Revisions.--If ASTM International (or its successor entity) proposes to revise ASTM F963-07, or a successor standard, it shall notify the Commission of the proposed revision.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The Commission shall incorporate the revision or a section of the revision into the consumer product safety rule.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "If the Commission so notifies ASTM International with respect to a proposed revision of the standard, the existing standard shall continue to be considered to be a consumer product safety rule without regard to the proposed revision.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(h) Rulemaking to Consider Exemption From Preemption.-- (1) Exemption of state law from preemption.--Upon application of a State or political subdivision of a State, the Commission shall, after notice and opportunity for oral presentation of views, consider a rulemaking to exempt from the provisions of section 26(a) of the Consumer Product Safety Act (under such conditions as it may impose in the rule) any proposed safety standard or regulation which is described in such application and which is",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The Commission shall grant such an exemption if the State or political subdivision standard or regulation--",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "In determining the burden, if any, of a State or political subdivision standard or regulation on interstate commerce, the Commission shall consider and make appropriate (as determined by the Commission in its discretion) findings on the technological and economic feasibility of complying with such standard or regulation, the cost of complying with such standard or regulation, the geographic distribution of the consumer product to which the standard or regulation would apply, the probability of o",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) Effect of standards on established state laws.--Nothing in this section or in section 26 of the Consumer Product Safety Act (15 U.S.C. 2075) shall prevent a State or political subdivision of a State from continuing in effect a safety requirement applicable to a toy or other children's product that is designed to deal with the same risk of injury as the consumer product safety standards established by this section and that is in effect on the day before the date of enactment of this Act, if s",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "member_states"
+ },
+ {
+  "clause": "(a) In General.--Not later than 90 days after the date of enactment of this Act, the Comptroller General shall initiate a study, by the Government Accountability Office or by contract through an independent entity, to assess disparities in the risks and incidence of preventable injuries and deaths among children of minority populations, including Black, Hispanic, American Indian, Alaska Native, Native Hawaiian, and Asian/Pacific Islander children in the United States.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The Comptroller General shall consult with the Commission as necessary.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) Requirements.--The study shall examine the racial disparities of the rates of preventable injuries and deaths related to suffocation, poisonings, and drownings, including those associated with the use of cribs, mattresses and bedding materials, swimming pools and spas, and toys and other products intended for use by children.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(c) Report.--Not later than 1 year after the date of enactment of this Act, the Comptroller General shall report the findings to the appropriate Congressional committees.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The report shall include-- (1) the Comptroller General's findings on the incidence of preventable risks of injuries and deaths among children",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(a) Prohibition on the Sale of Certain Products Containing Phthalates.--Beginning on the date that is 180 days after the date of enactment of this Act, it shall be unlawful for any person to manufacture for sale, offer for sale, distribute in commerce, or import into the United States any children's toy or child care article that contains concentrations of more than 0.1 percent of di-(2-ethylhexyl) phthalate (DEHP), dibutyl phthalate (DBP), or benzyl butyl phthalate (BBP).",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) Prohibition on the Sale of Additional Products Containing Certain Phthalates.-- (1) Interim prohibition.--Beginning on the date that is 180 days after the date of enactment of this Act and until a final rule is promulgated under paragraph (3), it shall be unlawful for any person to manufacture for sale, offer for sale, distribute in commerce, or import into the United States any children's toy that can be placed in a child's mouth or child care article that contains concentrations of more th",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) Chronic hazard advisory panel.-- (A) Appointment.--Not earlier than 180 days after the date of enactment of this Act, the Commission shall begin the process of appointing a Chronic Hazard Advisory Panel pursuant to the procedures of section 28 of the Consumer Product Safety Act (15 U.S.C. 2077) to study the effects on children's health of all phthalates and phthalate alternatives as used in children's toys and child care articles.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(B) Examination.--The panel shall, within 18 months after its appointment under subparagraph (A), complete an examination of the full range of phthalates that are used in products for children and shall-- (i) examine all of the potential health effects (including endocrine disrupting effects) of the full range of phthalates;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(B) Examination.--The panel shall, within 18 months after its appointment under subparagraph (A), complete an examination of the full range of phthalates that are used in products for children and shall-- (i) examine all of the potential health effects (including endocrine disrupting effects) of the full range of phthalates;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The panel's examinations pursuant to this paragraph shall be conducted de novo.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The findings and conclusions of any previous Chronic Hazard Advisory Panel on this issue and other studies conducted by the Commission shall be reviewed by the panel but shall not be considered determinative.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(C) Report.--Not later than 180 days after completing its examination, the panel appointed under subparagraph (A) shall report to the Commission the results of the examination conducted under this section and shall make recommendations to the Commission regarding any phthalates (or combinations of phthalates) in addition to those identified in subsection (a) or phthalate alternatives that the panel determines should be declared banned hazardous substances.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(C) Report.--Not later than 180 days after completing its examination, the panel appointed under subparagraph (A) shall report to the Commission the results of the examination conducted under this section and shall make recommendations to the Commission regarding any phthalates (or combinations of phthalates) in addition to those identified in subsection (a) or phthalate alternatives that the panel determines should be declared banned hazardous substances.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(3) Permanent prohibition by rule.--Not later than 180 days after receiving the report of the panel under paragraph (2)(C), the Commission shall, pursuant to section 553 of title 5, United States Code, promulgate a final rule to-- (A) determine, based on such report, whether to continue in effect the prohibition under paragraph (1), in order to ensure a reasonable certainty of no harm to children, pregnant women, or other susceptible individuals with an adequate margin of safety;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) Report.--Not later than 180 days after the date of enactment of this Act, the Commission shall transmit to the appropriate Congressional committees a report of its plans to allocate the funding authorized by subsection (a).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Such report shall include-- (1) the number of full-time investigators and other full- time equivalents the Commission intends to employ;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) Temporary Quorum.--Notwithstanding section 4(d) of the Consumer Product Safety Act (15 U.S.C. 2053(d)), 2 members of the Commission, if they are not affiliated with the same political party, shall constitute a quorum for the transaction of business",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(c) Personnel.-- (1) Professional staff.--The Commission shall increase the number of full-time personnel employed by the Commission to at least 500 by October 1, 2013, subject to the availability of appropriations.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "overseas inspectors.--As part of the 500 full-time employees required by paragraph (1), the Commission shall hire personnel to be assigned to duty stations at United States ports of entry, or to inspect overseas manufacturing facilities, subject to the availability of appropriations.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) In General.--Notwithstanding any rule, regulation, or order to the contrary, the Commission shall comply with the requirements of section 27(k) of the Consumer Product Safety Act (15 U.S.C. 2076(k)) with respect to budget recommendations, legislative recommendations, testimony, and comments on legislation submitted by the Commission to the President or the Office of Management and Budget after the date of enactment of this Act.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) Improvements by the Commission.--The Inspector General of the Commission shall conduct reviews and audits to assess-- (1) the Commission's capital improvement efforts, including improvements and upgrades of the Commission's information technology architecture and systems and the development of the database of publicly available information on incidents involving injury or death required under section 6A of the Consumer Product Safety Act, as added by section 212 of this Act;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) Employee Complaints.--Within 1 year after the date of enactment of this Act, the Inspector General shall conduct a review of-- (1) complaints received by the Inspector General from employees of the Commission about failures of other employees to enforce the rules or regulations of the Consumer Product Safety Act or any other Act enforced by the Commission or otherwise carry out their responsibilities under such Acts if such alleged failures raise issues of conflicts of interest, ethical viol",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(c) Public Internet Website Links.--Not later than 30 days after the date of enactment of this Act, the Commission shall establish and maintain-- (1) a direct link on the homepage of its Internet website to the Internet webpage of the Commission's Office of Inspector General;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(d) Reports.-- (1) Activities and needs of inspector general.--Not later than 60 days after the date of enactment of this Act, the Inspector General of the Commission shall transmit a report to the appropriate Congressional committees on the activities of the Inspector General, any structural barriers which prevent the Inspector General from providing robust oversight of the activities of the Commission, and any additional authority or resources that would facilitate more effective oversight.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) Reviews of improvements and employee complaints.-- Beginning for fiscal year 2010, the Inspector General of the Commission shall include in an annual report to the appropriate Congressional committees the Inspector General's findings, conclusions, and recommendations from the reviews and audits under subsections (a) and (b).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Any amounts received as reimbursement for expenses incurred by the Commission under this section shall be credited to the appropriations account from which such expenses were paid.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) Upgrade of Commission Information Technology Systems.--The Commission shall expedite efforts to upgrade and improve the information technology systems in use by the Commission on the date of enactment of this Act.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "PROHIBITED ACTS.",
+  "marker": "PROHIBITED",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(2) Civil penalty criteria.-- Not later than 1 year after the date of enactment of this Act, and in accordance with the procedures of section 553 of title 5, United States Code, the Commission shall issue a final regulation providing its interpretation of the penalty factors described in section 20(b) of the Consumer Product Safety Act (15 U.S.C. 2069(b)), section 5(c)(3) of the Federal Hazardous Substances Act (15 U.S.C.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) Risk Assessment Methodology.--Not later than 2 years after the date of enactment of this Act, the Commission shall develop a risk assessment methodology for the identification of shipments of consumer products that are-- (1) intended for import into the United States;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) Use of International Trade Data System and Other Databases.--In developing the methodology required under subsection (a), the Commission shall-- (1) provide for the use of the International Trade Data System, insofar as is practicable, established under section 411(d) of the Tariff Act of 1930 (19 U.S.C. 1411(d)) to evaluate and assess information about shipments of consumer products intended for import into the customs territory of the United States;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Customs and Border Protection.--Not later than 1 year after the date of enactment of this Act, the Commission shall develop a plan for sharing information and coordinating with U.S.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(d) Report to Congress.--Not later than 180 days after completion of the risk assessment methodology required under this section, the Commission shall submit a report to the appropriate Congressional committees concerning, at a minimum, the following:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Not later than 1 year after the date of enactment of this Act, the Comptroller General of the United States shall-- (1) conduct a study of the authorities and provisions of the Consumer Product Safety Act (15 U.S.C. 2051 et seq.) to assess the effectiveness of such authorities and provisions in preventing unsafe consumer products from entering the customs territory of the United States;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) Rule With Regard to Preemption.--The provisions of sections 25 and 26 of the Consumer Product Safety Act (15 U.S.C. 2074 and 2075, respectively), section 18 of the Federal Hazardous Substances Act (15 U.S.C. 1261 note), section 16 of the Flammable Fabrics Act (15 U.S.C. 1203), and section 7 of the Poison Packaging Prevention Act of 1970 (15 U.S.C. 1476) establishing the extent to which those Acts preempt, limit, or otherwise affect any other Federal, State, or local law, any rule, procedure,",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "In accordance with the provisions of those Acts, the Commission may not construe any such Act as preempting any cause of action under State or local common law or State statutory law regarding damage claims.",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) GAO Study.--The Comptroller General shall conduct a study of the utility, recreational, and other benefits of all-terrain vehicles to which section 42 of the Consumer Product Safety Act (15 U.S.C. 2085) applies, and the costs associated with all-terrain vehicle-related accidents and injuries.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Not later than 2 years after the date of enactment of this Act, the Comptroller General, in consultation with the Commission, shall conduct a study on the use of formaldehyde in the manufacture of textile and apparel articles, or in any component of such articles, to identify any risks to consumers caused by the use of formaldehyde in the manufacturing of such articles, or components of such articles.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "any person or circumstance, is held invalid, the remainder of this Act and the amendments made by this Act, and the application of such provision to other persons not similarly situated or to other circumstances, shall not be affected by such invalidation.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ }
+]

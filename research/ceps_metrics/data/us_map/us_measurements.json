@@ -1,0 +1,621 @@
+[
+ {
+  "id": "dmca",
+  "eu_rows": [
+   7
+  ],
+  "label": "Digital Millennium Copyright Act (1998)",
+  "kind": "plaw",
+  "source": "PLAW-105publ304",
+  "pages": 61,
+  "all_text": {
+   "words": 26838,
+   "restrictions_total": 188,
+   "by_category": {
+    "prohibition": 29,
+    "obligation": 155,
+    "restricted_permission": 2,
+    "explicit_requirement": 2
+   },
+   "by_addressee": {
+    "unclear": 121,
+    "private_parties": 43,
+    "eu_institutions": 20,
+    "member_states": 4
+   },
+   "per_1000_words": 7.0
+  },
+  "excluding_inserted_text": {
+   "words": 3206,
+   "restrictions_total": 7,
+   "by_category": {
+    "obligation": 7
+   },
+   "by_addressee": {
+    "eu_institutions": 2,
+    "private_parties": 2,
+    "unclear": 3
+   },
+   "per_1000_words": 2.2
+  }
+ },
+ {
+  "id": "hsr",
+  "eu_rows": [
+   11
+  ],
+  "label": "Hart-Scott-Rodino Act, title II (1976)",
+  "kind": "pdf",
+  "source": "STATUTE-90-Pg1383",
+  "pages": 5,
+  "all_text": {
+   "words": 2387,
+   "restrictions_total": 21,
+   "by_category": {
+    "prohibition": 3,
+    "obligation": 16,
+    "explicit_requirement": 2
+   },
+   "by_addressee": {
+    "private_parties": 5,
+    "unclear": 8,
+    "eu_institutions": 4,
+    "member_states": 4
+   },
+   "per_1000_words": 8.8
+  },
+  "excluding_inserted_text": {
+   "words": 1327,
+   "restrictions_total": 11,
+   "by_category": {
+    "obligation": 9,
+    "explicit_requirement": 1,
+    "prohibition": 1
+   },
+   "by_addressee": {
+    "private_parties": 2,
+    "eu_institutions": 2,
+    "unclear": 4,
+    "member_states": 3
+   },
+   "per_1000_words": 8.3
+  }
+ },
+ {
+  "id": "ftc5",
+  "eu_rows": [
+   13
+  ],
+  "label": "FTC Act section 5 (15 U.S.C. 45, current)",
+  "kind": "cornell",
+  "source": "https://www.law.cornell.edu/uscode/text/15/45",
+  "pages": null,
+  "all_text": {
+   "words": 3637,
+   "restrictions_total": 40,
+   "by_category": {
+    "obligation": 36,
+    "prohibition": 3,
+    "explicit_requirement": 1
+   },
+   "by_addressee": {
+    "eu_institutions": 20,
+    "unclear": 10,
+    "member_states": 4,
+    "private_parties": 6
+   },
+   "per_1000_words": 11.0
+  }
+ },
+ {
+  "id": "cpsia",
+  "eu_rows": [
+   17,
+   103
+  ],
+  "label": "Consumer Product Safety Improvement Act (2008)",
+  "kind": "plaw",
+  "source": "PLAW-110publ314",
+  "pages": 64,
+  "all_text": {
+   "words": 27499,
+   "restrictions_total": 244,
+   "by_category": {
+    "explicit_requirement": 9,
+    "prohibition": 30,
+    "obligation": 200,
+    "restricted_permission": 2,
+    "duty_of_result": 3
+   },
+   "by_addressee": {
+    "unclear": 93,
+    "eu_institutions": 120,
+    "private_parties": 26,
+    "member_states": 5
+   },
+   "per_1000_words": 8.9
+  },
+  "excluding_inserted_text": {
+   "words": 12948,
+   "restrictions_total": 102,
+   "by_category": {
+    "explicit_requirement": 6,
+    "prohibition": 13,
+    "obligation": 80,
+    "restricted_permission": 1,
+    "duty_of_result": 2
+   },
+   "by_addressee": {
+    "unclear": 29,
+    "eu_institutions": 65,
+    "private_parties": 7,
+    "member_states": 1
+   },
+   "per_1000_words": 7.9
+  }
+ },
+ {
+  "id": "ccpa",
+  "eu_rows": [
+   20
+  ],
+  "label": "California Consumer Privacy Act, as amended by the CPRA (current)",
+  "kind": "ccpa",
+  "source": "ccpa",
+  "pages": 64,
+  "all_text": {
+   "words": 24688,
+   "restrictions_total": 192,
+   "by_category": {
+    "obligation": 139,
+    "prohibition": 42,
+    "explicit_requirement": 9,
+    "restricted_permission": 2
+   },
+   "by_addressee": {
+    "private_parties": 97,
+    "unclear": 51,
+    "eu_institutions": 41,
+    "member_states": 3
+   },
+   "per_1000_words": 7.8
+  }
+ },
+ {
+  "id": "dtsa",
+  "eu_rows": [
+   26
+  ],
+  "label": "Defend Trade Secrets Act (2016)",
+  "kind": "plaw",
+  "source": "PLAW-114publ153",
+  "pages": 13,
+  "all_text": {
+   "words": 4233,
+   "restrictions_total": 33,
+   "by_category": {
+    "prohibition": 11,
+    "obligation": 22
+   },
+   "by_addressee": {
+    "unclear": 17,
+    "private_parties": 8,
+    "eu_institutions": 5,
+    "member_states": 3
+   },
+   "per_1000_words": 7.8
+  },
+  "excluding_inserted_text": {
+   "words": 1297,
+   "restrictions_total": 4,
+   "by_category": {
+    "obligation": 4
+   },
+   "by_addressee": {
+    "eu_institutions": 4
+   },
+   "per_1000_words": 3.1
+  }
+ },
+ {
+  "id": "privacy_act",
+  "eu_rows": [
+   35
+  ],
+  "label": "Privacy Act (1974)",
+  "kind": "pdf",
+  "source": "STATUTE-88-Pg1896",
+  "pages": 16,
+  "all_text": {
+   "words": 8183,
+   "restrictions_total": 73,
+   "by_category": {
+    "prohibition": 14,
+    "obligation": 57,
+    "explicit_requirement": 2
+   },
+   "by_addressee": {
+    "eu_institutions": 51,
+    "unclear": 15,
+    "member_states": 7
+   },
+   "per_1000_words": 8.9
+  },
+  "excluding_inserted_text": {
+   "words": 4822,
+   "restrictions_total": 47,
+   "by_category": {
+    "obligation": 36,
+    "explicit_requirement": 1,
+    "prohibition": 10
+   },
+   "by_addressee": {
+    "eu_institutions": 27,
+    "unclear": 15,
+    "member_states": 5
+   },
+   "per_1000_words": 9.7
+  }
+ },
+ {
+  "id": "cfaa1984",
+  "eu_rows": [
+   40
+  ],
+  "label": "Counterfeit Access Device and Computer Fraud and Abuse Act (1984)",
+  "kind": "pdf",
+  "source": "STATUTE-98-Pg1837",
+  "pages": 3,
+  "all_text": {
+   "words": 1045,
+   "restrictions_total": 6,
+   "by_category": {
+    "obligation": 6
+   },
+   "by_addressee": {
+    "unclear": 2,
+    "member_states": 2,
+    "eu_institutions": 2
+   },
+   "per_1000_words": 5.7
+  },
+  "excluding_inserted_text": {
+   "words": 460,
+   "restrictions_total": 2,
+   "by_category": {
+    "obligation": 2
+   },
+   "by_addressee": {
+    "unclear": 1,
+    "eu_institutions": 1
+   },
+   "per_1000_words": 4.3
+  }
+ },
+ {
+  "id": "cloud",
+  "eu_rows": [
+   42
+  ],
+  "label": "CLOUD Act (2018, division V of Pub. L. 115-141)",
+  "kind": "plaw",
+  "source": "PLAW-115publ141",
+  "pages": 13,
+  "all_text": {
+   "words": 5112,
+   "restrictions_total": 61,
+   "by_category": {
+    "obligation": 38,
+    "explicit_requirement": 3,
+    "restricted_permission": 1,
+    "prohibition": 19
+   },
+   "by_addressee": {
+    "private_parties": 7,
+    "unclear": 39,
+    "member_states": 5,
+    "eu_institutions": 10
+   },
+   "per_1000_words": 11.9
+  },
+  "excluding_inserted_text": {
+   "words": 751,
+   "restrictions_total": 0,
+   "by_category": {},
+   "by_addressee": {},
+   "per_1000_words": 0.0
+  }
+ },
+ {
+  "id": "open_data",
+  "eu_rows": [
+   43
+  ],
+  "label": "OPEN Government Data Act (2019, title II of Pub. L. 115-435)",
+  "kind": "plaw",
+  "source": "PLAW-115publ435",
+  "pages": 11,
+  "all_text": {
+   "words": 3991,
+   "restrictions_total": 34,
+   "by_category": {
+    "duty_of_result": 4,
+    "obligation": 29,
+    "prohibition": 1
+   },
+   "by_addressee": {
+    "eu_institutions": 31,
+    "unclear": 2,
+    "private_parties": 1
+   },
+   "per_1000_words": 8.5
+  },
+  "excluding_inserted_text": {
+   "words": 703,
+   "restrictions_total": 3,
+   "by_category": {
+    "duty_of_result": 1,
+    "obligation": 2
+   },
+   "by_addressee": {
+    "eu_institutions": 3
+   },
+   "per_1000_words": 4.3
+  }
+ },
+ {
+  "id": "cpsa",
+  "eu_rows": [
+   67
+  ],
+  "label": "Consumer Product Safety Act (1972)",
+  "kind": "pdf",
+  "source": "STATUTE-86-Pg1207",
+  "pages": 28,
+  "all_text": {
+   "words": 15209,
+   "restrictions_total": 191,
+   "by_category": {
+    "prohibition": 22,
+    "obligation": 157,
+    "restricted_permission": 3,
+    "explicit_requirement": 9
+   },
+   "by_addressee": {
+    "unclear": 57,
+    "eu_institutions": 85,
+    "private_parties": 43,
+    "member_states": 6
+   },
+   "per_1000_words": 12.6
+  },
+  "excluding_inserted_text": {
+   "words": 7754,
+   "restrictions_total": 95,
+   "by_category": {
+    "prohibition": 15,
+    "obligation": 77,
+    "restricted_permission": 1,
+    "explicit_requirement": 2
+   },
+   "by_addressee": {
+    "unclear": 22,
+    "eu_institutions": 51,
+    "private_parties": 19,
+    "member_states": 3
+   },
+   "per_1000_words": 12.3
+  }
+ },
+ {
+  "id": "bsa",
+  "eu_rows": [
+   68
+  ],
+  "label": "Bank Secrecy Act, titles I-II (1970)",
+  "kind": "pdf",
+  "source": "STATUTE-84-Pg1114-2",
+  "pages": 11,
+  "all_text": {
+   "words": 4883,
+   "restrictions_total": 41,
+   "by_category": {
+    "obligation": 32,
+    "prohibition": 4,
+    "explicit_requirement": 5
+   },
+   "by_addressee": {
+    "private_parties": 12,
+    "unclear": 22,
+    "eu_institutions": 5,
+    "member_states": 2
+   },
+   "per_1000_words": 8.4
+  },
+  "excluding_inserted_text": {
+   "words": 3483,
+   "restrictions_total": 35,
+   "by_category": {
+    "obligation": 28,
+    "explicit_requirement": 4,
+    "prohibition": 3
+   },
+   "by_addressee": {
+    "private_parties": 10,
+    "unclear": 19,
+    "eu_institutions": 4,
+    "member_states": 2
+   },
+   "per_1000_words": 10.0
+  }
+ },
+ {
+  "id": "chips",
+  "eu_rows": [
+   74
+  ],
+  "label": "CHIPS Act of 2022 (division A of Pub. L. 117-167)",
+  "kind": "plaw",
+  "source": "PLAW-117publ167",
+  "pages": 28,
+  "all_text": {
+   "words": 11710,
+   "restrictions_total": 95,
+   "by_category": {
+    "obligation": 76,
+    "prohibition": 19
+   },
+   "by_addressee": {
+    "unclear": 59,
+    "eu_institutions": 15,
+    "private_parties": 18,
+    "member_states": 3
+   },
+   "per_1000_words": 8.1
+  },
+  "excluding_inserted_text": {
+   "words": 5593,
+   "restrictions_total": 47,
+   "by_category": {
+    "obligation": 36,
+    "prohibition": 11
+   },
+   "by_addressee": {
+    "unclear": 32,
+    "eu_institutions": 14,
+    "private_parties": 1
+   },
+   "per_1000_words": 8.4
+  }
+ },
+ {
+  "id": "fisma",
+  "eu_rows": [
+   78
+  ],
+  "label": "Federal Information Security Modernization Act (2014)",
+  "kind": "plaw",
+  "source": "PLAW-113publ283",
+  "pages": 17,
+  "all_text": {
+   "words": 5949,
+   "restrictions_total": 52,
+   "by_category": {
+    "explicit_requirement": 4,
+    "obligation": 43,
+    "duty_of_result": 4,
+    "restricted_permission": 1
+   },
+   "by_addressee": {
+    "unclear": 20,
+    "eu_institutions": 31,
+    "private_parties": 1
+   },
+   "per_1000_words": 8.7
+  },
+  "excluding_inserted_text": {
+   "words": 1178,
+   "restrictions_total": 10,
+   "by_category": {
+    "obligation": 8,
+    "duty_of_result": 1,
+    "restricted_permission": 1
+   },
+   "by_addressee": {
+    "eu_institutions": 9,
+    "unclear": 1
+   },
+   "per_1000_words": 8.5
+  }
+ },
+ {
+  "id": "df1033",
+  "eu_rows": [
+   98
+  ],
+  "label": "Dodd-Frank Act section 1033 (2010)",
+  "kind": "plaw",
+  "source": "PLAW-111publ203",
+  "pages": 1,
+  "all_text": {
+   "words": 342,
+   "restrictions_total": 6,
+   "by_category": {
+    "obligation": 4,
+    "prohibition": 1,
+    "explicit_requirement": 1
+   },
+   "by_addressee": {
+    "private_parties": 2,
+    "unclear": 4
+   },
+   "per_1000_words": 17.5
+  },
+  "excluding_inserted_text": {
+   "words": 342,
+   "restrictions_total": 6,
+   "by_category": {
+    "obligation": 4,
+    "prohibition": 1,
+    "explicit_requirement": 1
+   },
+   "by_addressee": {
+    "private_parties": 2,
+    "unclear": 4
+   },
+   "per_1000_words": 17.5
+  }
+ },
+ {
+  "id": "cfr1033",
+  "eu_rows": [
+   98
+  ],
+  "label": "CFPB personal financial data rights rule (12 CFR part 1033)",
+  "kind": "ecfr",
+  "source": "title-12.xml?part=1033",
+  "pages": null,
+  "all_text": {
+   "words": 9721,
+   "restrictions_total": 91,
+   "by_category": {
+    "obligation": 74,
+    "prohibition": 5,
+    "explicit_requirement": 12
+   },
+   "by_addressee": {
+    "private_parties": 52,
+    "unclear": 39
+   },
+   "per_1000_words": 9.4
+  }
+ },
+ {
+  "id": "fcc15",
+  "eu_rows": [
+   109
+  ],
+  "label": "FCC radio frequency devices rules (47 CFR part 15)",
+  "kind": "ecfr",
+  "source": "title-47.xml?part=15",
+  "pages": null,
+  "all_text": {
+   "words": 69963,
+   "restrictions_total": 1186,
+   "by_category": {
+    "obligation": 788,
+    "prohibition": 312,
+    "explicit_requirement": 55,
+    "duty_of_result": 7,
+    "restricted_permission": 24
+   },
+   "by_addressee": {
+    "unclear": 1000,
+    "private_parties": 162,
+    "eu_institutions": 14,
+    "member_states": 10
+   },
+   "per_1000_words": 17.0
+  }
+ }
+]

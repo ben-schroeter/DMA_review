@@ -138,3 +138,17 @@ Results are in the `validation` sheet. Headline (final fresh sample): 84% of cou
 - Research was carried out by Claude instances working in parallel to a shared brief. Every number in a record comes from a source that was read. Where only a secondary report was available, the record says so.
 - Internet Archive snapshots (`archive_url`) were looked up read-only through the Wayback availability API. Nothing was submitted to the archive, so many sources have no snapshot.
 - Limits: coverage of non-English national studies is thin. "No study found" means none was found by these searches, not that none exists. Tier 2 and 3 records rely heavily on the Commission's own assessments.
+
+## US counterparts
+- Mapping (`us_counterparts` sheet, `data/us_map/us_counterparts.json`): for each of the 115 instruments, the closest US measure with its citation, level and status, a match quality and a one-line reason. Match qualities: close, partial, state only, proposed only, agency rule only, none. Federal citations were checked against govinfo, the Federal Register API, eCFR or Cornell LII. Some state citations rest on search summaries, because the California and Colorado legislature sites block automated access.
+- Measured (`us_comparison` sheet, `scripts/us_measure.py`): the 16 close matches plus GDPR → CCPA, as chosen by the project lead. Partial matches were not measured.
+- Texts:
+  - enacted Public Laws from govinfo: HTML for laws from 1995 on, scanned Statutes at Large PDFs before that
+  - only the relevant title or division of omnibus laws: HSR title II, the 1984 access-device chapter, CLOUD Act division V, OPEN Government Data Act title II, CHIPS Act division A, Bank Secrecy Act titles I–II
+  - Dodd-Frank §1033 together with the CFPB's 12 CFR part 1033 rule
+  - current text where the counterpart is a code section or a rule: FTC Act §5 (15 U.S.C. 45), FCC 47 CFR part 15, and the CCPA as amended by the CPRA (CPPA edition)
+- Counting: the same US-adapted counter as the Sarbanes-Oxley benchmark. US words include text inserted into the US Code, because US statutes legislate by amending the Code. The inserted text is the substantive rule, unlike quoted amendments to other EU acts. A variant excluding inserted text is stored in `us_measurements.json`. EU figures are the original act's articles and annexes (recitals excluded).
+- Validation: a fresh random sample of 40 counted US instances. 80% are genuine restrictions. False positives are mostly budget mechanics, constitutive rules, exemptions and saving clauses. The addressee was right for only 25%, because US texts, especially the CFR, use devices, systems and passive constructions as subjects, so addressee shares are not reported for the US side. `us_restrictions_precision_adjusted` = count × 0.80, against × 0.84 for EU acts.
+- Not like-for-like:
+  - The EMC Directive is compared with an FCC rulebook and FiDA with a statute plus a rule. Headline statistics are given for the 15 statute pairs as well.
+  - US federal statutes leave detail to agency rules, which are not included except where they are the counterpart. EU implementing and delegated acts are likewise not included.

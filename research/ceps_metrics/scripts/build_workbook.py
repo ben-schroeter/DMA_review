@@ -341,6 +341,20 @@ if _os.path.exists(_usp):
         for c_ in row:
             c_.alignment = Alignment(wrap_text=True, vertical="top")
 
+# ---------------- EU vs US comparison (close matches + GDPR/CCPA) ----------------
+_ucp = D + "us_map/us_comparison.json"
+if _os.path.exists(_ucp):
+    wcmp = wb.create_sheet("us_comparison")
+    _cc = ["row_id", "eu_instrument", "eu_celex", "eu_year", "eu_status", "eu_words_articles_annexes", "eu_restrictions", "eu_per_1000",
+           "us_counterpart", "us_level", "us_year", "us_words", "us_restrictions", "us_per_1000", "us_restrictions_precision_adjusted"]
+    wcmp.append(_cc + ["eu_minus_us", "eu_to_us_ratio"])
+    for i_, x in enumerate(json.load(open(_ucp)), start=2):
+        wcmp.append([x[k] for k in _cc] + [f"=G{i_}-M{i_}", f'=IF(M{i_}>0,ROUND(G{i_}/M{i_},1),"")'])
+    style(wcmp, [8, 30, 13, 8, 10, 12, 11, 10, 44, 16, 8, 10, 11, 10, 12, 10, 10])
+    for row in wcmp.iter_rows(min_row=2):
+        for c_ in row:
+            c_.alignment = Alignment(wrap_text=True, vertical="top")
+
 # ---------------- method + validation ----------------
 wm = wb.create_sheet("method")
 for line in open(D + "../METHOD.md").read().splitlines():

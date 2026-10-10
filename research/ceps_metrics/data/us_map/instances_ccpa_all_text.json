@@ -1,0 +1,1154 @@
+[
+ {
+  "clause": "A business that controls the collection of a consumer\u2019s personal information shall, at or before the point of collection, inform consumers of the following:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business shall not collect additional categories of personal information or use personal information collected for additional purposes that are incompatible with the disclosed purpose for which the personal information was collected without providing the consumer with notice consistent with this section.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business shall not collect additional categories of sensitive personal information or use sensitive personal information collected for additional purposes that are incompatible with the disclosed purpose for which the sensitive personal information was collected without providing the consumer with notice consistent with this section.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The length of time the business intends to retain each category of personal information, including sensitive personal information, or if that is not possible, the criteria used to determine that period provided that a business shall not retain a consumer\u2019s personal information or sensitive personal information for each disclosed purpose for which the personal information was collected for longer than is reasonably necessary for that disclosed purpose.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "In addition, if a business acting as a third party controls the collection of personal information about a consumer on its premises, including in a vehicle, then the business shall, at or before the point of collection, inform consumers as to the categories of personal information to be collected and the purposes for which the categories of personal information are used, and whether that personal information is sold, in a clear and conspicuous manner at the location.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business\u2019 collection, use, retention, and sharing of a consumer\u2019s personal information shall be reasonably necessary and proportionate to achieve the purposes for which the personal information was collected or processed, or for another disclosed purpose that is compatible with the context in which the personal information was collected, and not further processed in a manner that is incompatible with those purposes.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business that collects a consumer\u2019s personal information and that sells that personal information to, or shares it with, a third party or that discloses it to a service provider or contractor for a business purpose shall enter into an agreement with the third party, service provider, or contractor, that:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business that collects a consumer\u2019s personal information shall implement reasonable security procedures and practices appropriate to the nature of the personal information to protect the personal information from unauthorized or illegal access, destruction, use, modification, or disclosure in accordance with Section 1798.81.5.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Nothing in this section shall require a business to disclose trade secrets, as specified in regulations adopted pursuant to paragraph (3) of subdivision (a) of Section 1798.185.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "A business that collects personal information about consumers shall disclose, pursuant to Section 1798.130, the consumer\u2019s rights to request the deletion of the consumer\u2019s personal information.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business that receives a verifiable consumer request from a consumer to delete the consumer\u2019s personal information pursuant to subdivision (a) of this section shall delete the consumer\u2019s personal information from its records, notify any service providers or contractors to delete the consumer\u2019s personal information from their records, and notify all third parties to whom the business has sold or shared the Page 4 of 64",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A service provider or contractor shall cooperate with the business in responding to a verifiable consumer request, and at the direction of the business, shall delete, or enable the business to delete and shall notify any of its own service providers or contractors to delete personal information about the consumer collected, used, processed, or retained by the service provider or the contractor.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A service provider or contractor shall cooperate with the business in responding to a verifiable consumer request, and at the direction of the business, shall delete, or enable the business to delete and shall notify any of its own service providers or contractors to delete personal information about the consumer collected, used, processed, or retained by the service provider or the contractor.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A service provider or contractor shall cooperate with the business in responding to a verifiable consumer request, and at the direction of the business, shall delete, or enable the business to delete and shall notify any of its own service providers or contractors to delete personal information about the consumer collected, used, processed, or retained by the service provider or the contractor.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The service provider or contractor shall notify any service providers, contractors, or third parties who may have accessed personal information from or through the service provider or contractor, unless the information was accessed at the direction of the business, to delete the consumer\u2019s personal information unless this proves impossible or involves disproportionate effort.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A service provider or contractor shall not be required to comply with a deletion request submitted by the consumer directly to the service provider or contractor to the extent that the service provider or contractor has collected, used, processed, or retained the consumer\u2019s personal information in its role as a service provider or contractor to the business.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business, or a service provider or contractor acting pursuant to its contract with the business, another service provider, or another contractor, shall not be required to comply with a consumer\u2019s request to delete the consumer\u2019s personal information if it is reasonably necessary for the business, service provider, or contractor to maintain the consumer\u2019s personal information in order to:",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business that collects personal information about consumers shall disclose, pursuant to Section 1798.130, the consumer\u2019s right to request correction of inaccurate personal information.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business that receives a verifiable consumer request to correct inaccurate personal information shall use commercially reasonable efforts to correct the inaccurate personal information as directed by the consumer, pursuant to Section 1798.130 and regulations adopted pursuant to paragraph (7) of subdivision (a) of Section 1798.185.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business that collects personal information about a consumer shall disclose to the consumer, pursuant to subparagraph (B) of paragraph (3) of subdivision (a) of Section 1798.130, the information specified in subdivision (a) upon receipt of a verifiable consumer request from the consumer, provided that a business shall be deemed to be in compliance with paragraphs (1) to (4), inclusive, of subdivision (a) to the extent that the categories of information and the business or commercial purpose fo",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business that collects personal information about consumers shall disclose, pursuant to subparagraph (B) of paragraph (5) of subdivision (a) of Section 1798.130:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business that sells or shares personal information about a consumer, or that discloses a consumer\u2019s personal information for a business purpose, shall disclose, pursuant to paragraph (4) of subdivision (a) of Section 1798.130, the information specified in subdivision (a) to the consumer upon receipt of a verifiable consumer request from the consumer.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business that sells or shares consumers\u2019 personal information, or that discloses consumers\u2019 personal information for a business purpose, shall disclose, pursuant to subparagraph (C) of paragraph (5) of subdivision (a) of Section 1798.130:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The category or categories of consumers\u2019 personal information it has sold or shared, or if the business has not sold or shared consumers\u2019 personal information, it shall disclose that fact.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The category or categories of consumers\u2019 personal information it has disclosed for a business purpose, or if the business has not disclosed consumers\u2019 personal information for a business purpose, it shall disclose that fact.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A third party shall not sell or share personal information about a consumer that has been sold to, or shared with, the third party by a business unless the consumer has received explicit notice and is provided an opportunity to exercise the right to opt-out pursuant to Section 1798.120.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business that sells consumers\u2019 personal information to, or shares it with, third parties shall provide notice to consumers, pursuant to subdivision (a) of Section 1798.135, that this information may be sold or shared and that consumers have the \u201cright to opt-out\u201d of the sale or sharing of their personal information.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Notwithstanding subdivision (a), a business shall not sell or share the personal information of consumers if the business has actual knowledge that the consumer is less than 16 years of age, unless the consumer, in the case of consumers at least 13 years of age and less than 16 years of age, or the consumer\u2019s parent or guardian, in the case of consumers who are less than 13 years of age, has affirmatively authorized the sale or",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business that has received direction from a consumer not to sell or share the consumer\u2019s personal information or, in the case of a minor consumer\u2019s personal information has not received consent to sell or share the minor consumer\u2019s personal information, shall be prohibited, pursuant to paragraph (4) of subdivision (c) of Section 1798.135, from selling or sharing the consumer\u2019s personal information after its receipt of the consumer\u2019s direction, unless the consumer subsequently provides consent,",
+  "marker": "shall be prohibited",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business that uses or discloses a consumer\u2019s sensitive personal information for purposes other than those specified in this subdivision shall provide notice to consumers, pursuant to subdivision (a) of Section 1798.135, that this information may be used, or disclosed to a service provider or contractor, for additional, specified purposes and that consumers have the right to limit the use or disclosure of their sensitive personal information.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business that has received direction from a consumer not to use or disclose the consumer\u2019s sensitive personal information, except as authorized by subdivision (a), shall be prohibited, pursuant to paragraph (4) of subdivision (c) of Section 1798.135, from using or disclosing the consumer\u2019s sensitive personal information for any other purpose after its receipt of the consumer\u2019s direction unless the consumer subsequently provides consent for the use or disclosure of the consumer\u2019s sensitive pers",
+  "marker": "shall be prohibited",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A service provider or contractor that assists a business in performing the purposes authorized by subdivision (a) may not use the sensitive personal information after it has received instructions from the business and to the extent it has actual knowledge that the personal information is sensitive personal information for any other purpose.",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A service provider or contractor is only required to limit its use of sensitive personal information received pursuant to a written contract with the business in response to instructions from the business and only with respect to its relationship with that business.",
+  "marker": "is only required",
+  "category": "explicit_requirement",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business shall not discriminate against a consumer because the consumer exercised any of the consumer\u2019s rights under this title, including, but not limited to, by:",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business that offers any financial incentives pursuant to this subdivision, shall notify consumers of the financial incentives pursuant to Section 1798.130.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business may enter a consumer into a financial incentive program only if the consumer gives the business prior opt-in consent pursuant to Section 1798.130 that clearly describes the material terms of the financial incentive program, and which Page 10 of 64",
+  "marker": "may enter a consumer into a financial incentive program only if",
+  "category": "restricted_permission",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "If a consumer refuses to provide optin consent, then the business shall wait for at least 12 months before next requesting that the consumer provide opt-in consent, or as prescribed by regulations adopted pursuant to Section 1798.185.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business shall not use financial incentive practices that are unjust, unreasonable, coercive, or usurious in nature.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "In order to comply with Sections 1798.100, 1798.105, 1798.106, 1798.110, 1798.115, and 1798.125, a business shall, in a form that is reasonably accessible to consumers:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Make available to consumers two or more designated methods for submitting requests for information required to be disclosed pursuant to Sections 1798.110 and 1798.115, or requests for deletion or correction pursuant to Sections 1798.105 and 1798.106, respectively, including, at a minimum, a tollfree telephone number.",
+  "marker": "required to be",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "A business that operates exclusively online and has a direct relationship with a consumer from whom it collects personal information shall only be required to provide an email address for submitting requests for information required to be disclosed pursuant to Sections 1798.110 and 1798.115, or for requests for deletion or correction pursuant to Sections 1798.105 and 1798.106, respectively.",
+  "marker": "shall only",
+  "category": "restricted_permission",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "If the business maintains an internet website, make the internet website available to consumers to submit requests for information required to be disclosed pursuant to Sections 1798.110 and 1798.115, or requests for deletion or correction pursuant to Sections 1798.105 and 1798.106, respectively.",
+  "marker": "required to be",
+  "category": "explicit_requirement",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The business shall promptly take steps to determine whether the request is a verifiable consumer request, but this shall not extend the business\u2019 duty to disclose and deliver the information, to correct inaccurate personal information, or to delete personal information within 45 days of receipt of the consumer\u2019s request.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The business shall promptly take steps to determine whether the request is a verifiable consumer request, but this shall not extend the business\u2019 duty to disclose and deliver the information, to correct inaccurate personal information, or to delete personal information within 45 days of receipt of the consumer\u2019s request.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The disclosure of the required information shall be made in writing and delivered through the consumer\u2019s account with the business, if the consumer maintains an account with the business, or by mail or electronically at the consumer\u2019s option if the Page 11 of 64",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The business may require authentication of the consumer that is reasonable in light of the nature of the personal information requested, but shall not require the consumer to create an account with the business in order to make a verifiable consumer request provided that if the consumer, has an account with the business, the business may require the consumer to use that account to submit a verifiable consumer request.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The disclosure of the required information shall cover the 12-month period preceding the business\u2019 receipt of the verifiable consumer request provided that, upon the adoption of a regulation pursuant to paragraph (8) of subdivision (a) of Section 1798.185, a consumer may request that the business disclose the required information beyond the 12-month period, and the business shall be required to provide that information unless doing so proves impossible or would involve a disproportionate effort.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The disclosure of the required information shall cover the 12-month period preceding the business\u2019 receipt of the verifiable consumer request provided that, upon the adoption of a regulation pursuant to paragraph (8) of subdivision (a) of Section 1798.185, a consumer may request that the business disclose the required information beyond the 12-month period, and the business shall be required to provide that information unless doing so proves impossible or would involve a disproportionate effort.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Nothing in this subparagraph shall require a business to keep personal information for any length of time.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "A business that receives a verifiable consumer request pursuant to Section 1798.110 or 1798.115 shall disclose any personal information it has collected about a consumer, directly or indirectly, including through or by a service provider or contractor, to the consumer.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A service provider or contractor shall not be required to comply with a verifiable consumer request received directly from a consumer or a consumer\u2019s authorized agent, pursuant to Section 1798.110 or 1798.115, to the extent that the service provider or contractor has collected personal information about the consumer in its role as a service provider or contractor.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A service provider or contractor shall provide assistance to a business with which it has a contractual relationship with respect to the business\u2019 response to a verifiable consumer request, including, but not limited to, by providing to the business the consumer\u2019s personal information in the service provider or contractor\u2019s possession, which the service provider or contractor obtained as a result of providing services to the business, and by correcting inaccurate information or by enabling the b",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A service provider or contractor that collects personal information pursuant to a written contract with a business shall be required to assist the business through appropriate technical and organizational measures in complying with the requirements of subdivisions (d) to (f), inclusive, of Section 1798.100, taking into account the nature of the processing.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The business shall disclose the information in a list that is separate from a list generated for the purposes of subparagraph (C).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The business shall disclose the information in a list that is separate from a list generated for the purposes of subparagraph (B).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A list of the categories of personal information it has sold or shared about consumers in the preceding 12 months by reference to the enumerated category or categories in subdivision (c) that most closely describe the personal information sold or shared, or if the business has not sold or shared consumers\u2019 personal information in the preceding 12 months, the business shall prominently disclose that fact in its privacy policy.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "reference to the enumerated category in subdivision (c) that most closely describes the personal information disclosed, or if the business has not disclosed consumers\u2019 personal information for a business purpose in the preceding 12 months, the business shall disclose that fact.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Use any personal information collected from the consumer in connection with the business\u2019 verification of the consumer\u2019s request solely for the purposes of verification and shall not further disclose the personal information, retain it longer than necessary for purposes of verification, or use it for unrelated purposes.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The categories of personal information required to be disclosed pursuant to Sections 1798.100, 1798.110, and 1798.115 shall follow the definitions of personal information and sensitive personal information in Section 1798.140 by describing the categories of personal information using the specific terms set forth in subparagraphs (A) to (K), inclusive, of paragraph (1) of subdivision (v) of Section 1798.140 and by describing the categories of sensitive personal information using the specific term",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business that sells or shares consumers\u2019 personal information or uses or discloses consumers\u2019 sensitive personal information for purposes other than those authorized by subdivision (a) of Section 1798.121 shall, in a form that is reasonably accessible to consumers:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "A business shall not be required to comply with subdivision (a) if the business allows consumers to opt out of the sale or sharing of their personal information and to limit the use of their sensitive personal information through an opt-out preference signal sent with the consumer\u2019s consent by a platform, technology, or mechanism, based on technical specifications set forth in regulations adopted pursuant to paragraph (19) of subdivision (a) of Section 1798.185, to the business indicating the co",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business that complies with subdivision (a) is not required to comply with subdivision (b).",
+  "marker": "is not required",
+  "category": "explicit_requirement",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business that is subject to this section shall:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A consumer may authorize another person to opt out of the sale or sharing of the consumer\u2019s personal information and to limit the use of the consumer\u2019s sensitive personal information on the consumer\u2019s behalf, including through an opt-out preference signal, as defined in paragraph (1) of subdivision (b), indicating the consumer\u2019s intent to opt out, and a business shall comply with an opt-out request received from a person authorized by the consumer to act on the consumer\u2019s behalf, pursuant to reg",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "If a business communicates a consumer\u2019s opt-out request to any person authorized by the business to collect personal information, the person shall thereafter only use that consumer\u2019s personal information for a business purpose specified by the business, or as otherwise permitted by this title, and shall be prohibited from:",
+  "marker": "shall be prohibited",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "If a business communicates a consumer\u2019s opt-out request to any person authorized by the business to collect personal information, the person shall thereafter only use that consumer\u2019s personal information for a business purpose specified by the business, or as otherwise permitted by this title, and shall be prohibited from:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "For purposes of this title, the joint venture or partnership and each business that composes the joint venture or partnership shall separately be considered a single business, except that personal information in the possession of each business and disclosed to the joint venture or partnership shall not be shared with the other business.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "For purposes of this title, the joint venture or partnership and each business that composes the joint venture or partnership shall separately be considered a single business, except that personal information in the possession of each business and disclosed to the joint venture or partnership shall not be shared with the other business.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "\u201cBusiness purpose\u201d means the use of personal information for the business\u2019 operational purposes, or other notified purposes, or for the service provider or contractor\u2019s operational purposes, as defined by regulations adopted pursuant to paragraph (10) of subdivision (a) of Section 1798.185, provided that the use of personal information shall be reasonably necessary and proportionate to achieve the purpose for which the personal information was collected or processed or for another purpose that i",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Providing advertising and marketing services, except for cross-context behavioral advertising, to the consumer provided that, for the purpose of advertising and marketing, a service provider or contractor shall not combine the personal information of opted-out consumers that the service provider or contractor receives from, or on behalf of, the business with personal information that the service provider or contractor receives from, or on behalf of, another person or persons or collects from its",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "If a contractor engages any other person to assist it in processing personal information for a business purpose on behalf of the business, or if any other person engaged by the contractor engages another person to assist in processing personal information for that business purpose, it shall notify the business of that",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "engagement, and the engagement shall be pursuant to a written contract binding the other person to observe all the requirements set forth in paragraph (1).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Research with personal information that may have been collected from a consumer in the course of the consumer\u2019s interactions with a business\u2019 service or device for other purposes shall be:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "If a third party materially alters how it uses or shares the personal information of a consumer in a manner that is materially inconsistent with the promises made at the time of collection, it shall provide prior notice of the new or changed practice to the consumer.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The notice shall be sufficiently prominent and robust to ensure that existing consumers can easily exercise their choices consistently with this title.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "If a service provider engages any other person to assist it in processing personal information for a business purpose on behalf of the business, or if any other person engaged by the service provider engages another person to assist in processing personal information for that business purpose, it shall notify the business of that engagement, and the engagement shall be pursuant to a written contract binding the other person to observe all the requirements set forth in paragraph (1).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "If a service provider engages any other person to assist it in processing personal information for a business purpose on behalf of the business, or if any other person engaged by the service provider engages another person to assist in processing personal information for that business purpose, it shall notify the business of that engagement, and the engagement shall be pursuant to a written contract binding the other person to observe all the requirements set forth in paragraph (1).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "If a third party materially alters how it uses or shares the personal information of a consumer in a manner that is materially inconsistent with the promises made at the time of collection, it shall provide prior notice of the new or changed practice to the consumer.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The notice shall be sufficiently prominent and robust to ensure that existing consumers can easily exercise their choices consistently with this title.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The obligations imposed on businesses by this title shall not restrict a business\u2019s ability to:",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Law enforcement agencies, including police and sheriff\u2019s departments, may direct a business pursuant to a law enforcement agency-approved investigation with an active case number not to delete a consumer\u2019s personal information, and, upon receipt of that direction, a business shall not delete the personal information for 90 days in order to allow the law enforcement agency to obtain a court-issued subpoena, order, or warrant to obtain a consumer\u2019s personal information.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business that has received direction from a law enforcement agency not to delete the personal information of a consumer who has requested deletion of the consumer\u2019s personal information shall not use the consumer\u2019s personal information for any purpose other than retaining it to produce to law enforcement in response to a court-issued subpoena, order, or warrant unless the consumer\u2019s deletion request is subject to an exemption from deletion under this title.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "For purposes of this subparagraph, a consumer accessing, procuring, or searching for services regarding contraception, pregnancy care, and perinatal care, including, but not limited to, abortion services, shall not constitute a natural person being at risk or danger of death or serious physical injury.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "This paragraph shall not prohibit a business from storing, including on a device, personal information about a consumer when the consumer is in California and then collecting that personal information when the consumer and stored personal information is outside of California.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The obligations imposed on businesses by Sections 1798.110, 1798.115, 1798.120, 1798.121, 1798.130, and 1798.135 shall not apply where compliance by the business with the title would violate an evidentiary privilege under California law and shall not prevent a business from providing the personal information of a consumer to a person covered by an evidentiary privilege under California law as part of a privileged communication.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The business shall inform the consumer of any such extension within 45 days of receipt of the request, together with the reasons for the delay.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "If the business does not take action on the request of the consumer, the business shall inform the consumer, without delay and at the latest within the time period permitted of response by this section, of the reasons for not taking action and any rights the consumer may have to appeal the decision to the business.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "If the business does not take action on the request of the consumer, the business shall inform the consumer, without delay and at the latest within the time period permitted of response by this section, of the reasons for not taking action and any rights the consumer may have to appeal the decision to the business.",
+  "marker": "have to",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The business shall bear the burden of demonstrating that any verifiable consumer request is manifestly unfounded or excessive.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A service provider or contractor shall likewise not be liable under this title for the obligations of a business for which it provides services as set forth in this title provided that the service provider or contractor shall be liable for its own violations of this title.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The rights afforded to consumers and the obligations imposed on the business in this title shall not adversely affect the rights and freedoms of other natural persons.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "1798.110, to delete a consumer\u2019s personal information pursuant to Section 1798.105, or to correct inaccurate personal information pursuant to Section 1798.106, shall not extend to personal information about the consumer that belongs to, or the business maintains on behalf of, another natural person.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A business may rely on representations made in a verifiable consumer request as to rights with respect to personal information and is under no legal requirement to seek out other persons that may have or claim to have rights to personal information, and a business is under no legal obligation under this title or any other provision of law to take any action under this title in the event of a dispute between or among persons claiming rights to personal information in the business\u2019s possession.",
+  "marker": "requirement to seek",
+  "category": "explicit_requirement",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "This subdivision shall become inoperative on January 1, 2023.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "This subdivision shall become inoperative on January 1, 2023.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "If a business does not comply with a request pursuant to this section, it shall notify the consumer that it is acting pursuant to this exception.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "If a business does not comply with a request pursuant to this section, it shall notify the consumer that it is acting pursuant to this exception.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Information that met the requirements of subparagraph (A) but is subsequently reidentified shall no longer be eligible for the exemption in this paragraph, and shall be subject to applicable federal and state data privacy and security laws, including, but not limited to, the Health Insurance Portability and Accountability Act, the Confidentiality Of Medical Information Act, and this title.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "A business or other person shall not reidentify, or attempt to reidentify, information that has met the requirements of paragraph (4) of subdivision (a) of Section 1798.146, except for one or more of the following purposes:",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Beginning January 1, 2021, any contract for the sale or license of deidentified information that has met the requirements of paragraph (4) of subdivision (a) of Section 1798.146, where one of the parties is a person residing or doing business in the state, shall include the following, or substantially similar, provisions:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "member_states"
+ },
+ {
+  "clause": "A statement that reidentification, and attempted reidentification, of the deidentified information by the purchaser or licensee of the information is prohibited pursuant to this section.",
+  "marker": "is prohibited",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "A requirement that, unless otherwise required by law, the purchaser or licensee of the deidentified information may not further disclose the deidentified information to any third party unless the third party is contractually bound by the same or stricter restrictions and conditions.",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The amounts in this subdivision shall be adjusted pursuant to subdivision (d) of Section 1798.199.95.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "In assessing the amount of statutory damages, the court shall consider any one or more of the relevant circumstances presented by any of the parties to the case, including, but not limited to, the nature and seriousness of the misconduct, the number of violations, the persistence of the misconduct, the length of time over which the misconduct occurred, the willfulness of the defendant\u2019s misconduct, and the defendant\u2019s assets, liabilities, and net worth.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "In the event a cure is possible, if within the 30 days the business actually cures the noticed violation and provides the consumer an express written statement that the violations have been cured and that no further violations shall occur, no action for individual statutory damages or class-wide statutory damages may be initiated against the business.",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "No notice shall be required prior to an individual consumer initiating an action solely for actual pecuniary damages suffered as a result of the alleged violations of this title.",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The cause of action established by this section shall apply only to violations as defined in subdivision (a) and shall not be based on violations of any other section of this title.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Nothing in this title shall be interpreted to serve as the basis for a private right of action under any other law.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Any administrative fine assessed for a violation of this title, and the proceeds of any settlement of an action brought pursuant to subdivision (a), shall be deposited in the Consumer Privacy Fund, created within the General Fund pursuant to subdivision (a) of Section 1798.160 with the intent to fully offset any costs incurred by the state courts, the Attorney General, and the California Privacy Protection Agency in connection with this title.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Funds transferred to the Consumer Privacy Fund shall be used exclusively as follows:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Ninety-one percent shall be invested by the Treasurer in financial assets with the goal of maximizing long-term yields consistent with a prudent level of risk.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The principal shall not be subject to transfer or appropriation, provided that any interest and earnings shall be transferred on an annual basis to the General Fund for appropriation by the Legislature for General Fund purposes.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Subject to subdivision (d), 9 percent shall be made available to the California Privacy Protection Agency for the purposes of making grants in California, with 3 percent allocated to each of the following grant recipients:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The California Privacy Protection Agency shall begin administering the grant program described in subparagraph (B) of paragraph (2) of subdivision (b) when the amount of grant funds available after all other distributions have been made in accordance with this section exceeds three hundred thousand dollars ($300,000).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "In a fiscal year in which the amount of funds available for grants pursuant to subparagraph (B) of paragraph (2) of subdivision (b) are equal to or less than three hundred thousand dollars ($300,000), the funds shall remain in the Consumer Privacy Fund and that amount shall be reserved for future year appropriations for the purpose of making grants pursuant to subparagraph (B) of paragraph (2) of subdivision (b) until the total funds accrued for that purpose after all other distributions have be",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "In a fiscal year in which the amount of funds available for grants pursuant to subparagraph (B) of paragraph (2) of subdivision (b) are equal to or less than three hundred thousand dollars ($300,000), the funds shall remain in the Consumer Privacy Fund and that amount shall be reserved for future year appropriations for the purpose of making grants pursuant to subparagraph (B) of paragraph (2) of subdivision (b) until the total funds accrued for that purpose after all other distributions have be",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Wherever possible, law relating to consumers\u2019 personal information should be construed to harmonize with the provisions of this title, but in the event of a conflict between other laws and the provisions of this title, the provisions of the law that afford the greatest protection for the right of privacy for consumers shall control.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "On or before July 1, 2020, the Attorney General shall solicit broad public participation and adopt regulations to further the purposes of this title, including, but not limited to, the following areas:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Establishing rules, procedures, and any exceptions necessary to ensure that the notices and information that businesses are required to provide pursuant to this title are provided in a manner that may be easily understood by the average consumer, are accessible to consumers with disabilities, and are available in the language primarily used to interact with the consumer, including establishing rules and guidelines regarding financial incentives within one year of passage of this title and as nee",
+  "marker": "are required",
+  "category": "explicit_requirement",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The addendum shall be limited to 250 words per alleged incomplete or incorrect item and shall clearly indicate in writing that the consumer requests the addendum to be made a part of the consumer\u2019s record.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "For delivery of the most sensitive personal information, the regulations may require a higher standard of authentication provided that the agency shall monitor the impact of the higher standard on the right of consumers to obtain their personal information to ensure that the requirements of verification do not result in the unreasonable denial of verifiable consumer requests.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The factors to be considered in determining when processing may result in significant risk to the security of personal information shall include the size and complexity of the business and the nature and scope of processing activities.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Nothing in this section shall require a business to divulge trade secrets.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "business\u2019 products or services or that those products or services may not function properly or fully.",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Does not require or imply that the consumer must click the link to receive full functionality of any products or services, including the internet website.",
+  "marker": "must",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Upon completing its review, the agency shall adopt a regulation that applies only the more protective provisions of this title to insurance companies.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The Attorney General shall not bring an enforcement action under this title until six months after the publication of the final regulations issued pursuant to this section or July 1, 2020, whichever is sooner.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Notwithstanding subdivision (a), the timeline for adopting final regulations required by the act adding this subdivision shall be July 1, 2022.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Beginning the later of July 1, 2021, or six months after the agency provides notice to the Attorney General that it is prepared to begin rulemaking under this title, the authority assigned to the Attorney General to adopt regulations under this section shall be exercised by the California Privacy Protection Agency.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Notwithstanding any other law, civil and administrative enforcement of the provisions of law added or amended by this act shall not commence until July 1, 2023, and shall only apply to violations occurring on or after that date.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Enforcement of provisions of law contained in the California Consumer Privacy Act of 2018 amended by this act shall remain in effect and shall be enforceable until the same provisions of this act become enforceable.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Anti-Avoidance A court or the agency shall disregard the intermediate steps or transactions for purposes of effectuating the purposes of this title:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "This section shall not prevent a consumer from declining to request information from a business, declining to opt out of a business\u2019s sale of the consumer\u2019s personal information, or authorizing a business to sell or share the consumer\u2019s personal information after previously opting out. 1798.194.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "This title shall be liberally construed to effectuate its purposes. 1798.196.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Subject to limitation provided in subdivision (b), and in Section 1798.199, this title shall be operative January 1, 2020.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "This title shall become operative only if initiative measure No. 17-0039, The Consumer Right to Privacy Act of 2018, is withdrawn from the ballot pursuant to Section 9604 of the Elections Code.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Notwithstanding Section 1798.198, Section 1798.180 shall be operative on the effective date of the act adding this section. 1798.199.10.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The agency shall be governed by a five-member board, including the chairperson.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The chairperson and one member of the board shall be appointed by the Governor.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The Attorney General, Senate Rules Committee, and Speaker of the Assembly shall each appoint one member.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The initial appointments to the agency shall be made within 90 days of the effective date of the act adding this section.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Members of the agency board shall:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Have qualifications, experience, and skills, in particular in the areas of privacy and technology, required to perform the duties of the agency and exercise its powers.",
+  "marker": "required to perform",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Maintain the confidentiality of information which has come to their knowledge in the course of the performance of their tasks or exercise of their powers, except to the extent that disclosure is required by the Public Records Act.",
+  "marker": "is required",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Remain free from external influence, whether direct or indirect, and shall neither seek nor take instructions from another.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Members of the agency board, including the chairperson, shall serve at the pleasure of their appointing authority but shall serve for no longer than eight consecutive years. 1798.199.25.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Members of the agency board, including the chairperson, shall serve at the pleasure of their appointing authority but shall serve for no longer than eight consecutive years. 1798.199.25.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "For each day on which they engage in official duties, members of the agency board shall be compensated at the rate of one hundred dollars ($100), adjusted pursuant to subdivision (d) of Section 1798.199.95, and shall be reimbursed for expenses incurred in performance of their official duties. 1798.199.30.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "For each day on which they engage in official duties, members of the agency board shall be compensated at the rate of one hundred dollars ($100), adjusted pursuant to subdivision (d) of Section 1798.199.95, and shall be reimbursed for expenses incurred in performance of their official duties. 1798.199.30.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The agency board shall appoint an executive director who shall act in accordance with agency policies and regulations and with applicable law.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The agency board shall appoint an executive director who shall act in accordance with agency policies and regulations and with applicable law.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The agency shall appoint and discharge officers, counsel, and employees, consistent with applicable civil service laws, and shall fix the compensation of employees and prescribe their duties.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The agency shall appoint and discharge officers, counsel, and employees, consistent with applicable civil service laws, and shall fix the compensation of employees and prescribe their duties.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The agency shall perform the following functions:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The agency shall notify in writing the person who made the complaint of the action, if any, the agency has taken or plans to take on the complaint, together with the reasons for that action or nonaction.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The written notification required by this subdivision shall not include information that is subject to law enforcement exemptions and privileges, including, but not limited to, confidential information related to an investigation and information that is privileged under the Evidence Code and the Government Code.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "No finding of probable cause to believe this title has been violated shall be made by the agency unless, at least 30 days prior to the agency\u2019s consideration of the alleged violation, the business, service provider, contractor, or person alleged to have violated this title is notified of the violation by service of process or registered mail with return receipt requested, provided with a summary of the evidence, and informed of their right to be present in person and represented by counsel at an",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "A proceeding held for the purpose of considering probable cause shall be private unless the alleged violator files with the agency a written request that the proceeding be public. 1798.199.55.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "When the agency determines there is probable cause for believing this title has been violated, it shall hold a hearing to determine if a violation has or violations have occurred.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Notice shall be given and the hearing conducted in accordance with the Administrative Procedure Act (Chapter 5 (commencing with Section 11500), Part 1, Division 3, Title 2, Government Code).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The agency shall have all the powers granted by that chapter.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "If the agency determines on the basis of the hearing conducted pursuant to this subdivision that a violation or violations have occurred, it shall issue an order that may require the violator to do all or any of the following:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "When the agency determines that no violation has occurred, it shall publish a declaration so stating.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Whenever the agency rejects the decision of an administrative law judge made pursuant to Section 11517 of the Government Code, the agency shall state the reasons in writing for rejecting the decision. 1798.199.65.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "No administrative action brought pursuant to this title alleging a violation of any of the provisions of this title shall be commenced more than five years after the date on which the violation occurred.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The service of the probable cause hearing notice, as required by Section 1798.199.50, upon the person alleged to have violated this title shall constitute the commencement of the administrative action.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "If the person alleged to have violated this title engages in the fraudulent concealment of the person\u2019s acts or identity, the five-year period shall be tolled for the period of the concealment.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "If, upon being ordered by a superior court to produce any documents sought by a subpoena in any administrative proceeding under this title, the person alleged to have violated this title fails to produce documents in response to the order by the date ordered to comply therewith, the five-year period shall be tolled for the period of the delay from the date of filing of the motion to compel until the date the documents are produced.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The venue for this action shall be in the county where the administrative fines were imposed by the agency.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "In order to obtain a judgment in a proceeding under this section, the agency shall show, following the procedures and rules of evidence as applied in ordinary civil actions, all of the following:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "A civil action brought pursuant to subdivision (a) shall be commenced within four years after the date on which the administrative fines were imposed.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The application, which shall include a certified copy of the order or decision, or the order as modified in accordance with a decision on judicial review, and proof of service of the order or decision, constitutes a sufficient showing to warrant issuance of the judgment to collect the administrative fines.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The clerk of the court shall enter the judgment immediately in conformity with the application.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "An application made pursuant to this section shall be made to the clerk of the superior court in the county where the administrative fines were imposed by the agency.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Any business, service provider, contractor, or other person that violates this title shall be subject to an injunction and liable for a civil penalty of not more than two thousand five hundred dollars ($2,500) for each violation or seven thousand five hundred dollars ($7,500) for each intentional violation and each violation involving the personal information of minor consumers, as adjusted pursuant subdivision (d) of Section 1798.199.95, which shall be assessed and recovered in a civil action b",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Any civil penalty recovered by an action brought by the Attorney General for a violation of this title, and the proceeds of any settlement of any said action, shall be deposited in the Consumer Privacy Fund.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The agency shall, upon request by the Attorney General, stay an administrative action or investigation under this title to permit the Attorney General to proceed with an investigation or civil action and shall not pursue an administrative action or investigation, unless the Attorney General subsequently determines not to pursue an investigation or civil action.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The agency shall, upon request by the Attorney General, stay an administrative action or investigation under this title to permit the Attorney General to proceed with an investigation or civil action and shall not pursue an administrative action or investigation, unless the Attorney General subsequently determines not to pursue an investigation or civil action.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The agency may not limit the authority of the Attorney General to enforce this title.",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The Legislature shall appropriate those additional amounts to the commission and other agencies as may be necessary to carry out the provisions of this title.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The Department of Finance, in preparing the state budget and the Budget Act bill submitted to the Legislature, shall include an item for the support of this title that shall indicate all of the following:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "member_states"
+ },
+ {
+  "clause": "The Department of Finance, in preparing the state budget and the Budget Act bill submitted to the Legislature, shall include an item for the support of this title that shall indicate all of the following:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "member_states"
+ },
+ {
+  "clause": "The amounts to be appropriated to other agencies to carry out their duties under this title, which amounts shall be in augmentation of the support items of those agencies.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The additional amounts required to be appropriated by the Legislature to the agency to carry out the purposes of this title, as provided for in this section.",
+  "marker": "required to be",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The Attorney General shall provide staff support to the agency until the agency has hired its own staff.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The Attorney General shall be reimbursed by the agency for these services.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "On January 1, 2025, and on January 1 of any odd-numbered year thereafter, the California Privacy Protection Agency shall adjust the monetary thresholds in subparagraph (A) of paragraph (1) of subdivision (d) of Section 1798.140, subparagraph (A) of paragraph (1) of subdivision (a) of Section 1798.150, subdivision (a) of Section 1798.155, Section 1798.199.25, and subdivision (a) of Section 1798.199.90 to reflect any increase in the Consumer Price Index.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The agency shall use the Consumer Price Index (CPI)\u2014California, All Items, All Urban Consumers percentage change from the previous two years' reports, published by the Department of Industrial Relations, Office of the Director\u2013Research.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The increase in the thresholds shall be rounded to the nearest whole dollar.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The agency shall post the adjusted monetary thresholds on its internet website no later than January 15 of the year in which the adjustment becomes effective.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The agency and any court, as applicable, shall consider the good faith cooperation of the business, service provider, contractor, or other person in determining the amount of any administrative fine or civil penalty for a violation of this title.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "A business shall not be required by the agency, a court, or otherwise to pay both an administrative fine and a civil penalty for the same violation.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ }
+]
