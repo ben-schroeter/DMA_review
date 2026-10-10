@@ -310,7 +310,7 @@ if _pairs:
              "General Data Protection Regulation": "GDPR → CCPA (California)",
              "Toys Safety Regulation": "Toy Safety Reg. 2025 → CPSIA",
              "Trade Secrets Directive": "Trade Secrets → Defend Trade Secrets Act",
-             "Toys Safety Directive": "Toy Safety Dir. 2009 → CPSIA",
+             "Toys Safety Directive": "Toy Safety → CPSIA",
              "General Product Safety Regulation": "Product Safety → Cons. Product Safety Act",
              "Unfair Commercial Practices Directive": "Unfair Commercial Practices → FTC Act §5"}
     _pairs.sort(key=lambda p: p["ratio_restrictions_eu_to_us"])

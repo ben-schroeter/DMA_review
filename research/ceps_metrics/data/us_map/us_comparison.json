@@ -381,8 +381,8 @@
    "cpsia"
   ],
   "fairness": "usable with caveat",
-  "included": true,
-  "fairness_note": ""
+  "included": false,
+  "fairness_note": "excluded to avoid counting the CPSIA twice: the 2009 Toy Safety Directive (in force, same era as the CPSIA) is used instead; the 2025 Regulation replaces it from 2030"
  },
  {
   "row_id": 109,
