@@ -262,16 +262,34 @@ GROUPS = [("Data, privacy & cybersecurity", ["Data & Privacy", "Cybersecurity"],
           ("Law enforcement", ["Law Enforcement"], "#C4C1BE")]
 gof = {a: gi for gi, (_, areas, _) in enumerate(GROUPS) for a in areas}
 TOPH = H
-BOT0, BOTH = TOPH + 40, 200            # bottom panel origin and height
-HH = BOT0 + BOTH + 40 + 70             # + axis + legend
+BOT0, BOTH = TOPH + 64, 200            # bottom panel origin and height
 Yf, g = axes(120, [0, 20, 40, 60, 80, 100, 120])
 g = [x for x in g if 'y="' + str(H - 10) + '"' not in x]          # drop top x labels (shared axis below)
-top = stack_paths([(t, cols[t], pts[t]) for t in order], Yf)
-labt = []
-run = 0
-for t in order:
-    mid = run + cum[t] / 2; run += cum[t]
-    labt.append(f'<text x="{W - R + 10}" y="{Yf(mid) + 5:.1f}" {F} font-size="14" fill="{INK2}">{t}s {cum[t]}</text>')
+# Commission terms: dashed rules with names in two staggered rows
+TERMS = [("Santer", dt.date(1995, 1, 23)), ("Prodi", dt.date(1999, 9, 16)), ("Barroso", dt.date(2004, 11, 22)), ("Barroso II", dt.date(2010, 2, 10)),
+         ("Juncker", dt.date(2014, 11, 1)), ("von der Leyen I", dt.date(2019, 12, 1)), ("von der Leyen II", dt.date(2024, 12, 1))]
+for i, (nm, d) in enumerate(TERMS):
+    x = X(fy(d)); ly_ = T + 14 + (i % 2) * 16
+    g.append(f'<line x1="{x:.1f}" x2="{x:.1f}" y1="{ly_ + 4}" y2="{BOT0 + BOTH}" stroke="#B5B1AC" stroke-dasharray="2 4"></line>')
+    g.append(f'<text x="{x + 4:.1f}" y="{ly_:.1f}" {F} font-size="11.5" letter-spacing="0.02em" fill="{MUTED}">{nm}</text>')
+# light stacked fills, solid outlines on the regulation boundary and the total
+rs = [resample(pts[t]) for t in order]
+FILL = {"Regulation": (CLAY, 0.30), "Directive": (SLATE, 0.16), "Decision": (SLATE, 0.08)}
+prev = None
+top = []
+for t, cur in zip(order, rs):
+    c, o = FILL[t]
+    top.append(f'<path d="{band_d(cur, prev, X, Yf)}" fill="{c}" fill-opacity="{o}"></path>')
+    prev = cur
+top.append(f'<path d="{smooth_d([(X(x), Yf(v)) for x, v in rs[0]])}" fill="none" stroke="{CLAY}" stroke-width="2"></path>')
+top.append(f'<path d="{smooth_d([(X(x), Yf(v)) for x, v in rs[-1]])}" fill="none" stroke="{INK}" stroke-width="2.2"></path>')
+ex, ey = X(rs[-1][-1][0]), Yf(rs[-1][-1][1])
+top.append(f'<circle cx="{ex:.1f}" cy="{ey:.1f}" r="5" fill="{INK}" stroke="#FAF9F5" stroke-width="2"></circle>')
+labt = [f'<text x="{W - R + 12}" y="{ey + 6:.1f}" {F} font-size="20" fill="{INK}" font-weight="600">{tot}</text>',
+        f'<text x="{W - R + 12}" y="{ey + 24:.1f}" {F} font-size="13" fill="{MUTED}">adopted acts</text>',
+        f'<text x="{W - R + 12}" y="{Yf(cum["Regulation"] / 2) + 5:.1f}" {F} font-size="14" fill="{CLAY}" font-weight="600">Regulations {cum["Regulation"]}</text>',
+        f'<text x="{W - R + 12}" y="{Yf(cum["Regulation"] + cum["Directive"] / 2) - 2:.1f}" {F} font-size="14" fill="{INK2}">Directives {cum["Directive"]}</text>',
+        f'<text x="{W - R + 12}" y="{Yf(cum["Regulation"] + cum["Directive"] / 2) + 15:.1f}" {F} font-size="12.5" fill="{MUTED}">+ {cum["Decision"]} decisions</text>']
 peryear = {}
 for r in inst:
     peryear.setdefault(r["d"].year, [0] * len(GROUPS))[gof[r["policy_area_ceps"]]] += 1
@@ -289,12 +307,13 @@ for yr, v in sorted(peryear.items()):
         if not n:
             continue
         y_top = by(acc + n); hgt = by(acc) - by(acc + n)
-        b.append(f'<rect x="{x0:.1f}" y="{y_top:.1f}" width="{bw:.1f}" height="{max(hgt - 1, 1):.1f}" fill="{GROUPS[gi][2]}"></rect>')
+        b.append(f'<rect x="{x0:.1f}" y="{y_top:.1f}" width="{bw:.1f}" height="{max(hgt - 1, 1):.1f}" fill="{GROUPS[gi][2]}" fill-opacity="0.85"></rect>')
         acc += n
 b.append(f'<line x1="{L}" x2="{W - R}" y1="{BOT0 + BOTH}" y2="{BOT0 + BOTH}" stroke="{BASE}"></line>')
-b += [f'<text x="{X(y):.1f}" y="{BOT0 + BOTH + 24}" text-anchor="middle" {F} font-size="14" fill="{MUTED}">{y}</text>' for y in (1990, 2000, 2010, 2020)]
-b.append(f'<text x="{L}" y="{BOT0 - 14}" {F} font-size="14" fill="{INK2}" font-weight="600">New acts adopted each year, by policy area</text>')
-b.append(f'<text x="{L}" y="{T - 2 + 10}" {F} font-size="14" fill="{INK2}" font-weight="600">Adopted acts in force, cumulative, by type</text>')
+b += [f'<text x="{X(y):.1f}" y="{BOT0 + BOTH + 24}" text-anchor="middle" {F} font-size="13.5" fill="{MUTED}">{y}</text>' for y in range(1990, 2026, 5)]
+b.append(f'<text x="{L}" y="{BOT0 - 24}" {F} font-size="15" fill="{INK}"><tspan font-weight="600">New acts adopted each year, by policy area.</tspan>'
+         f'<tspan fill="{INK2}"> Adoptions bunch before each European election; none on the list was adopted in 2020.</tspan></text>')
+
 lx, ly = L, BOT0 + BOTH + 52
 for name, _, col in GROUPS:
     wtxt = 7.6 * len(name) + 34
