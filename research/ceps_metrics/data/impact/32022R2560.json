@@ -14,7 +14,8 @@
    "target_or_baseline": "IA projected 30-40 merger notifications a year",
    "evidence": "By 31 May 2026: 273 merger notifications (about 100 a year, well above the 30-40 projected), 5,150 submissions across 863 public procurement procedures; 3 in-depth merger and 4 in-depth procurement investigations; ex officio cases opened (e.g. Nuctech, Goldwind).",
    "status": "reported as activity",
-   "sources": "COM(2026) 368"
+   "sources": "COM(2026) 368",
+   "status_group": "reported as activity"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "About 97% of notified mergers cleared after preliminary review; two merger cases (e&/PPF Telecom, ADNOC/Covestro) and one procurement case ended with commitments; three procurement probes closed after the Chinese bidders withdrew.",
    "status": "partially measured",
-   "sources": "COM(2026) 368"
+   "sources": "COM(2026) 368",
+   "status_group": "partially measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "No case has yet applied the balancing test in practice, according to the review.",
    "status": "not measured",
-   "sources": "COM(2026) 368"
+   "sources": "COM(2026) 368",
+   "status_group": "not measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Review consultation: stakeholders support the objective but say compliance costs are disproportionate, especially for notifications; Commission plans simplification (higher thresholds, shorter forms). Procurement filing compliance reportedly fell from about 70% to 45% by late 2025.",
    "status": "reported as activity",
-   "sources": "COM(2026) 368"
+   "sources": "COM(2026) 368",
+   "status_group": "reported as activity"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "No study measures the FSR's effect on FDI, M&A or tender participation.",
    "status": "not measured",
-   "sources": "SWD(2021) 99/100"
+   "sources": "SWD(2021) 99/100",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -100,5 +105,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

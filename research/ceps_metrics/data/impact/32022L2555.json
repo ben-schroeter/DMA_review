@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "monitoring indicator (IA Annex 11)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "IA baseline: no data on NIS1's effect on security spending",
    "evidence": "ENISA's annual survey tracks the share of IT budgets spent on information security: 7.1% (2023 report), 9.0% (2024, n=1,350), about 9% again in 2025 (median EUR 1.5m). 2024 data are a pre-NIS2 baseline; sector convergence not yet assessed against the target.",
    "status": "partially measured",
-   "sources": "ENISA NIS Investments 2023-2025"
+   "sources": "ENISA NIS Investments 2023-2025",
+   "status_group": "partially measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "+12% to +22%",
    "evidence": "Not measured directly. ENISA 2024: most organisations expect a one-off or permanent budget increase for NIS2; 89% say they need more security staff; 34% of SMEs say they cannot ask for the extra budget. ENISA 2025: compliance is the main driver of security investment for 70% of organisations.",
    "status": "partially measured",
-   "sources": "ENISA NIS Investments 2024, 2025"
+   "sources": "ENISA NIS Investments 2024, 2025",
+   "status_group": "partially measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "EUR 11.3bn / 10 years",
    "evidence": "Not measured. No EU-level series on incident costs exists; the IA itself notes the lack of systematic data. ENISA 2025 reports 28% of organisations take over three months to patch critical vulnerabilities and 30% did no security assessment in the past year.",
    "status": "not measured",
-   "sources": "SWD(2020) 344; ENISA NIS Investments 2025"
+   "sources": "SWD(2020) 344; ENISA NIS Investments 2025",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "+20-30%",
    "evidence": "No systematic data found on authorities' resources since 2023.",
    "status": "not measured",
-   "sources": "SWD(2020) 344"
+   "sources": "SWD(2020) 344",
+   "status_group": "not measured"
   },
   {
    "type": "monitoring indicator (IA Annex 11)",
@@ -59,7 +64,8 @@
    "target_or_baseline": "Transposition deadline 17 Oct 2024",
    "evidence": "Transposition slow: letters of formal notice (28 Nov 2024) and reasoned opinions (7 May 2025) to the laggards; in July 2026 Ireland, Spain, France and the Netherlands were referred to the Court of Justice. Commission proposed targeted amendments in Jan 2026. ENISA's first State of Cybersecurity in the Union report (Dec 2024) gives a pre-implementation snapshot.",
    "status": "reported as activity",
-   "sources": "Commission IP/26/1499; ENISA 2024"
+   "sources": "Commission IP/26/1499; ENISA 2024",
+   "status_group": "reported as activity"
   }
  ],
  "literature": [
@@ -247,5 +253,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260811180832/https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1499"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

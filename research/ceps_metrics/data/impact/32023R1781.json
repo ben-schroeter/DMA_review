@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "policy target (Digital Decade)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "20% by 2030 (baseline ~10%)",
    "evidence": "Off track: Commission July 2024 forecast had the EU's value-chain share rising only from 9.8% (2022) to 11.7% (2030); the 2026 Chips Act 2.0 impact assessment puts EU production share at 8.1% in 2030 despite a 30% capacity rise. ECA: 20% target very unlikely.",
    "status": "measured",
-   "sources": "ECA SR 12/2025; SWD(2026) 504"
+   "sources": "ECA SR 12/2025; SWD(2026) 504",
+   "status_group": "measured"
   },
   {
    "type": "expected impact",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "About EUR 80bn in announced or planned manufacturing investments; 11 first-of-a-kind facilities approved by end-2025 worth over EUR 31.6bn; capacity expected to rise from 1.07m to 1.39m wafers per month by 2030. Some projects cancelled or suspended (e.g. Intel Magdeburg, per press reports). EU budget provides only EUR 4.5bn of an estimated EUR 86bn.",
    "status": "partially measured",
-   "sources": "SWD(2026) 504; ECA SR 12/2025"
+   "sources": "SWD(2026) 504; ECA SR 12/2025",
+   "status_group": "partially measured"
   },
   {
    "type": "expected impact",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Over 85% of the Pillar I budget committed to five pilot lines, competence centres in all Member States, a design platform and six quantum chip pilot lines; outcomes not yet measurable.",
    "status": "reported as activity",
-   "sources": "SWD(2026) 504"
+   "sources": "SWD(2026) 504",
+   "status_group": "reported as activity"
   },
   {
    "type": "expected impact",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Commission evaluation: coordination improved but voluntary information collection insufficient; limited visibility of supply chains weakens crisis preparedness.",
    "status": "mixed evidence",
-   "sources": "SWD(2026) 504 Annex I"
+   "sources": "SWD(2026) 504 Annex I",
+   "status_group": "mixed evidence"
   }
  ],
  "literature": [
@@ -98,7 +103,7 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20260929052219/https://www.eca.europa.eu/en/publications/SR-2025-12"
   },
   {
    "id": "garcia-herrero-poitiers-2022",
@@ -123,5 +128,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

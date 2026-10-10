@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "-42% (2023), -52% (2025); >40% fewer users at risk",
    "evidence": "Since 2022 no mobile network operator has requested a sustainability derogation; volumes subject to surcharges below 0.82% in every Member State considered; actual wholesale data prices fell to EUR 0.7/GB in Q3 2024 (-50% vs Q3 2021).",
    "status": "measured",
-   "sources": "COM(2025) 324"
+   "sources": "COM(2025) 324",
+   "status_group": "measured"
   },
   {
    "type": "lesson from past (proposal 1.4.3)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "Data x12, voice x3 (2016-18)",
    "evidence": "Data roaming up 48-fold in Q3 since 2017; voice slowly declining since 2019 (OTT substitution). Causal studies confirm large traffic and consumer-surplus gains (EUR 2.44 per user per travel day).",
    "status": "measured",
-   "sources": "COM(2019) 616; COM(2025) 324; Quinn et al. 2024; Canzian et al. 2025"
+   "sources": "COM(2019) 616; COM(2025) 324; Quinn et al. 2024; Canzian et al. 2025",
+   "status_group": "measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "BEREC data: domestic average revenue per paying user stable 2019-2024. Grzybowski & Muñoz-Acevedo find the regulation reduced operator revenue per user but had no effect on tariffs in the latest phase.",
    "status": "measured",
-   "sources": "COM(2025) 324; Grzybowski & Muñoz-Acevedo 2023"
+   "sources": "COM(2025) 324; Grzybowski & Muñoz-Acevedo 2023",
+   "status_group": "measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "2025 study for the Commission: 76% of roaming users had lower download speeds than on their home network and latency was worse in 92% of cases; compliance 'could be significantly improved'. Complaints low; about 80% of travellers say they benefit.",
    "status": "measured",
-   "sources": "COM(2025) 324 (Mozark QoS study)"
+   "sources": "COM(2025) 324 (Mozark QoS study)",
+   "status_group": "measured"
   }
  ],
  "literature": [
@@ -215,5 +220,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "strong"
 }

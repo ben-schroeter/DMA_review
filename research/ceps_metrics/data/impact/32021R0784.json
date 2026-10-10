@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "1 hour",
    "evidence": "At least 349 removal orders issued by six Member States by end-2023 (to Telegram, Meta, X, TikTok, Archive.org and others), mostly with swift follow-up; Commission judges impact 'positive'. No measure of overall prevalence of terrorist content.",
    "status": "reported as activity",
-   "sources": "COM(2024) 64"
+   "sources": "COM(2024) 64",
+   "status_group": "reported as activity"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "23 Member States had designated authorities by end-2023 after infringement procedures against 22; 14,615 referrals processed in PERCI July-Dec 2023.",
    "status": "measured (outputs)",
-   "sources": "COM(2024) 64"
+   "sources": "COM(2024) 64",
+   "status_group": "measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "No removal order scrutinised, reinstated or challenged in court by end-2023. FRA (2026) interviews flag risk of over-removal and disproportionate effects on Muslims and Arabic speakers. No quantitative evidence.",
    "status": "mixed evidence",
-   "sources": "COM(2024) 64; FRA 2026"
+   "sources": "COM(2024) 64; FRA 2026",
+   "status_group": "mixed evidence"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Not evaluated.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -123,5 +128,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "evaluation question",
@@ -23,7 +24,8 @@
    "target_or_baseline": "Deadline 6 May 2018",
    "evidence": "Two-thirds of Member States missed the deadline; infringement cases against 19 Member States (2018), later one against Germany (2022). Transposition complete by 2019-2022 but gaps on storage limits, legal basis and supervisory powers.",
    "status": "measured",
-   "sources": "COM(2022) 364"
+   "sources": "COM(2022) 364",
+   "status_group": "measured"
   },
   {
    "type": "evaluation question",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "More than a third of supervisory authorities reported more complaints; most inadmissible, some led to erasure/rectification orders; representative complaints rarely used. Council (2025) finds DPOs improved awareness but access requests and DPIAs burdensome.",
    "status": "reported as activity",
-   "sources": "COM(2022) 364; Council ST 15616/25"
+   "sources": "COM(2022) 364; Council ST 15616/25",
+   "status_group": "reported as activity"
   },
   {
    "type": "evaluation question",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured; Council reports international transfer rules (Art. 37) hard to use in practice.",
    "status": "not measured",
-   "sources": "Council ST 15616/25"
+   "sources": "Council ST 15616/25",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -114,5 +118,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

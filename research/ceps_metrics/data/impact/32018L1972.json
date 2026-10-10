@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "specific objective",
@@ -23,7 +24,8 @@
    "target_or_baseline": "Gigabit Society 2025 / Digital Decade 2030: gigabit for all, 5G in all populated areas",
    "evidence": "Measured (DESI/Digital Decade): fixed VHCN coverage 82.5% of EU households in 2024, fibre-to-the-premises 69.2% (rural 58.8%); 5G coverage 94.3% (rural 79.6%). Progress is real but cannot be attributed to the EECC; mid-band and standalone 5G lag.",
    "status": "measured",
-   "sources": "SWD(2026) 13 Annex 11; State of the Digital Decade 2025"
+   "sources": "SWD(2026) 13 Annex 11; State of the Digital Decade 2025",
+   "status_group": "measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "+1.45% GDP; +0.18% jobs",
    "evidence": "Not measured. The Commission's 2026 review gives no macroeconomic evaluation; governments and most industry stakeholders argued the EECC missed its connectivity and investment objectives.",
    "status": "not measured",
-   "sources": "SWD(2016) 304; COM(2026) 35; SWD(2026) 13"
+   "sources": "SWD(2016) 304; COM(2026) 35; SWD(2026) 13",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "EUR 146.5bn/yr",
    "evidence": "Not measured as such. Review found spectrum assignment delays and high prices in some auctions; benefit not evaluated.",
    "status": "not measured",
-   "sources": "SWD(2016) 304; SWD(2026) 13"
+   "sources": "SWD(2016) 304; SWD(2026) 13",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Measured as use: no national regulator formally applied the co-investment provision in five years; symmetric in-building access applied in 8 countries; Commission proposes revising or removing Art. 76.",
    "status": "measured",
-   "sources": "COM(2026) 35"
+   "sources": "COM(2026) 35",
+   "status_group": "measured"
   },
   {
    "type": "implementation milestone",
@@ -59,7 +64,8 @@
    "target_or_baseline": "Deadline 21 Dec 2020",
    "evidence": "24 infringement procedures opened Feb 2021; 10 Member States referred to the Court of Justice in April 2022. Review finds significant national divergence; Commission proposed replacing the Directive with a Digital Networks Act regulation (Jan 2026).",
    "status": "reported as activity",
-   "sources": "IP/22/1975; COM(2026) 35"
+   "sources": "IP/22/1975; COM(2026) 35",
+   "status_group": "reported as activity"
   }
  ],
  "literature": [
@@ -224,5 +230,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

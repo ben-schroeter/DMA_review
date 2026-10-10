@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "monitoring (memorandum)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Measured: EU-27 average maturity 86% in 2025 (+3 pp on 2024); policy 93%, portal 85%, quality 83%; the 'impact' dimension is least mature at 82%. Self-assessment questionnaire filled in by national administrations, so it tracks activity rather than economic effect.",
    "status": "reported as activity",
-   "sources": "Open Data Maturity Report 2025"
+   "sources": "Open Data Maturity Report 2025",
+   "status_group": "reported as activity"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "EUR 194bn (2028)",
    "evidence": "Not measured against the forecast. A Commission-funded market study estimated the EU open data market at EUR 184bn in 2019 with a 2025 forecast of EUR 200-334bn, but it uses different definitions and cannot attribute value to the Directive.",
    "status": "not measured",
-   "sources": "SWD(2018) 127; data.europa.eu 2020"
+   "sources": "SWD(2018) 127; data.europa.eu 2020",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "709,000",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "SWD(2018) 127"
+   "sources": "SWD(2018) 127",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "SWD(2018) 127"
+   "sources": "SWD(2018) 127",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (HVD implementing act)",
@@ -59,7 +64,8 @@
    "target_or_baseline": "",
    "evidence": "HVD Regulation (EU) 2023/138 applicable since June 2024; Open Data Maturity 2025 reports implementation ongoing. No impact measurement yet.",
    "status": "reported as activity",
-   "sources": "SWD(2022) 432/433; ODM 2025"
+   "sources": "SWD(2022) 432/433; ODM 2025",
+   "status_group": "reported as activity"
   }
  ],
  "literature": [
@@ -201,5 +207,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

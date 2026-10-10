@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "LFS objective",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Regulation applies from 29 May 2026; no vigilance or emergency mode activated and no data found.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "LFS objective",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "No crisis activation yet; not measured.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -57,7 +60,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20241106214056/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52022SC0290"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

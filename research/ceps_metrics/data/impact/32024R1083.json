@@ -14,7 +14,8 @@
    "target_or_baseline": "Baseline 2013-2021: 478 EU and 389 non-EU investor transactions; gradual increase expected",
    "evidence": "No post-EMFA tracking found.",
    "status": "not measured",
-   "sources": "COM(2022) 457 LFS 1.4.4"
+   "sources": "COM(2022) 457 LFS 1.4.4",
+   "status_group": "not measured"
   },
   {
    "type": "LFS indicator",
@@ -23,7 +24,8 @@
    "target_or_baseline": "n/a",
    "evidence": "European Board for Media Services set up in 2025 and adopted its first reports and deliverables (Dec 2025 plenary); no data on uptake of opinions found.",
    "status": "reported as activity",
-   "sources": "Media Board news"
+   "sources": "Media Board news",
+   "status_group": "reported as activity"
   },
   {
    "type": "LFS indicator",
@@ -32,7 +34,8 @@
    "target_or_baseline": "2021 MPM scores 16-60%; gradual reduction expected",
    "evidence": "MPM2025 (2024 data) published, but switched to a six-tier scale so results are not strictly comparable with earlier editions; it covers the period before EMFA fully applied (Aug 2025).",
    "status": "partially measured",
-   "sources": "Blagojev et al. 2025"
+   "sources": "Blagojev et al. 2025",
+   "status_group": "partially measured"
   },
   {
    "type": "LFS indicator",
@@ -41,7 +44,8 @@
    "target_or_baseline": "16 Member States with self-regulatory bodies",
    "evidence": "Not tracked against the EMFA.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "EUR 2.9bn per year",
    "evidence": "Not evaluated; first evaluation due four years after entry into force.",
    "status": "not measured",
-   "sources": "SWD(2022) 287"
+   "sources": "SWD(2022) 287",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -98,7 +103,8 @@
    "access": "open",
    "interested_party": "Centre is co-financed by the EU and its MPM is the Act's own monitoring indicator source",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20260126133633/https://cadmus.eui.eu/handle/1814/92916"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

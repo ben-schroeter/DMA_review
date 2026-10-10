@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "EUR 340-544m / year",
    "evidence": "Not measured; transposition deadline December 2027. Ex-ante causal evidence (Herz & Mejer) finds design protection raises spare-part prices by about 5-8%.",
    "status": "not measured",
-   "sources": "SWD(2022) 368/369; Herz & Mejer 2020"
+   "sources": "SWD(2022) 368/369; Herz & Mejer 2020",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "EUR 7.6m / year",
    "evidence": "Not evaluated (fee changes apply via the parallel EU Design Regulation 2024/2822).",
    "status": "not measured",
-   "sources": "SWD(2022) 369"
+   "sources": "SWD(2022) 369",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "SWD(2022) 369"
+   "sources": "SWD(2022) 369",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -114,5 +118,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20231115082100/https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:52020SC0264"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

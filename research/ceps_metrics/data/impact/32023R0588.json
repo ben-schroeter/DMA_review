@@ -14,7 +14,8 @@
    "target_or_baseline": "Initial services 2025; full capacity 2027",
    "evidence": "Missed: concession signed Dec 2024 foresaw initial capacity in 2030; after the 2026 review the first satellites are expected to launch in 2029. Interim services rely on pooled GOVSATCOM capacity.",
    "status": "measured",
-   "sources": "European Spaceflight 2026; Payload 2026"
+   "sources": "European Spaceflight 2026; Payload 2026",
+   "status_group": "measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "EUR 6bn",
    "evidence": "Concession (Dec 2024): EUR 10.55bn for 290 satellites; after the Aug 2026 review over EUR 15.6bn for about 348 satellites, with about EUR 11.6bn public and up to EUR 4bn from the SpaceRISE partners (figures from company releases; Commission did not disclose the revised total).",
    "status": "measured",
-   "sources": "European Spaceflight 2026; Payload 2026"
+   "sources": "European Spaceflight 2026; Payload 2026",
+   "status_group": "measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Not reported; Commission lists large subcontractors (Airbus, Thales Alenia Space, OHB) plus some newer firms (e.g. Aerospacelab).",
    "status": "not measured",
-   "sources": "Payload 2026"
+   "sources": "Payload 2026",
+   "status_group": "not measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Not yet applicable: system not deployed.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Not yet applicable: no commercial service before the constellation is deployed.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -123,5 +128,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

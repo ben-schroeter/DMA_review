@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "EUR 7.2-10.9bn (2028)",
    "evidence": "Not measured. The Commission's implementation study (announced with the Digital Omnibus) was not yet published; the Omnibus proposes repealing the DGA and moving its rules into the Data Act.",
    "status": "not measured",
-   "sources": "SWD(2020) 295/296; COM(2025) 837"
+   "sources": "SWD(2020) 295/296; COM(2025) 837",
+   "status_group": "not measured"
   },
   {
    "type": "expected result",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Measured (activity): the EU register lists 38 data intermediation services notified in 10 Member States (page updated August 2026), concentrated in France (12) and the Netherlands (11). The Commission itself calls the market 'emerging' and proposes making the regime voluntary.",
    "status": "reported as activity",
-   "sources": "Commission register of data intermediation services; COM(2025) 837"
+   "sources": "Commission register of data intermediation services; COM(2025) 837",
+   "status_group": "reported as activity"
   },
   {
    "type": "expected result",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Measured (activity): 7 recognised organisations in 4 Member States (register updated July 2026).",
    "status": "reported as activity",
-   "sources": "Commission register of data altruism organisations"
+   "sources": "Commission register of data altruism organisations",
+   "status_group": "reported as activity"
   },
   {
    "type": "expected result",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Slow: letters of formal notice to 18 Member States (May 2024) and reasoned opinions to 10 (December 2024) for failing to designate or empower DGA authorities.",
    "status": "reported as activity",
-   "sources": "Commission press release 16 Dec 2024"
+   "sources": "Commission press release 16 Dec 2024",
+   "status_group": "reported as activity"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -59,7 +64,8 @@
    "target_or_baseline": "EUR 684m/yr",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "SWD(2020) 296"
+   "sources": "SWD(2020) 296",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -201,5 +207,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

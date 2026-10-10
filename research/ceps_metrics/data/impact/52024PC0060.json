@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "monitoring obligation (memorandum)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "Baseline cited in IA: at least one in five children falls victim to sexual violence",
    "evidence": "Not yet applicable: provisional agreement reported June 2026; not adopted or transposed. Current data not comparable across Member States.",
    "status": "not measured",
-   "sources": "COM(2024) 60 memorandum; SWD(2024) 33"
+   "sources": "COM(2024) 60 memorandum; SWD(2024) 33",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Benefits described qualitatively; costs to Member States described as limited and not quantified.",
    "status": "not measured",
-   "sources": "SWD(2024) 33"
+   "sources": "SWD(2024) 33",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -59,5 +62,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

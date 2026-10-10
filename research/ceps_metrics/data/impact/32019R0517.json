@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "specific objective (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Registrations broadly flat: 3.7m in April 2021 and about 3.79m at end-2025 (EURid figures); Brexit losses offset by pandemic demand; Q3 2025 was the strongest growth quarter.",
    "status": "measured (registry statistics)",
-   "sources": "COM(2022) 1; EURid quarterly reports"
+   "sources": "COM(2022) 1; EURid quarterly reports",
+   "status_group": "measured"
   },
   {
    "type": "specific objective (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Multistakeholder Council and new registry selection set up under the Regulation (applies since 13 Oct 2022); no assessment of effects yet.",
    "status": "reported as activity",
-   "sources": "COM(2023) 485"
+   "sources": "COM(2023) 485",
+   "status_group": "reported as activity"
   },
   {
    "type": "specific objective (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Registry reports 100% availability, abuse-prevention early warning system and know-your-customer checks (2019-2021).",
    "status": "reported as activity",
-   "sources": "COM(2022) 1"
+   "sources": "COM(2022) 1",
+   "status_group": "reported as activity"
   }
  ],
  "literature": [
@@ -137,5 +141,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "legal objective (Regulation)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Member State data incomplete and fragmented; Commission says a comprehensive and reliable overview of reports, children identified and convictions is not possible. Available data show thousands of children identified and millions of images/videos removed.",
    "status": "partially measured",
-   "sources": "COM(2023) 797; COM(2025) 740"
+   "sources": "COM(2023) 797; COM(2025) 740",
+   "status_group": "partially measured"
   },
   {
    "type": "legal safeguard (Regulation)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Providers report aggregate error ratios using different methods: e.g. Google 1.14% (2023) and 0.54% (2024) of hash-matched flags not confirmed on human review; Meta 0.32% and 0.12% of actioned items restored; Microsoft could not calculate. Not comparable.",
    "status": "partially measured",
-   "sources": "COM(2025) 740"
+   "sources": "COM(2025) 740",
+   "status_group": "partially measured"
   },
   {
    "type": "legal test (Article 9)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Commission: available data insufficient for a definitive answer, though no indications that the derogation is not proportionate; providers gave no information on data protection impact assessments. EDPS (2026) calls for safeguards against general and indiscriminate scanning.",
    "status": "mixed evidence",
-   "sources": "COM(2025) 740; EDPS Opinion 7/2026"
+   "sources": "COM(2025) 740; EDPS Opinion 7/2026",
+   "status_group": "mixed evidence"
   }
  ],
  "literature": [
@@ -114,5 +118,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

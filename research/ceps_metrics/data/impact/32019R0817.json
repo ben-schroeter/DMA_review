@@ -14,7 +14,8 @@
    "target_or_baseline": "complete by end-2023",
    "evidence": "Far behind schedule: shared biometric matching service launched May 2025; European search portal and common identity repository due June 2026; multiple-identity detector in testing; reporting repository expected Q4 2026.",
    "status": "measured (delayed)",
-   "sources": "COM(2026) 446"
+   "sources": "COM(2026) 446",
+   "status_group": "measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Not yet operational in the reporting period.",
    "status": "not measured",
-   "sources": "COM(2026) 446"
+   "sources": "COM(2026) 446",
+   "status_group": "not measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Multiple-identity detector not yet operational.",
    "status": "not measured",
-   "sources": "COM(2026) 446"
+   "sources": "COM(2026) 446",
+   "status_group": "not measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Not yet operational.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "EUR 77.5m/yr",
    "evidence": "Not measured; components not yet operating.",
    "status": "not measured",
-   "sources": "SWD(2017) 474"
+   "sources": "SWD(2017) 474",
+   "status_group": "not measured"
   },
   {
    "type": "expected cost (impact assessment)",
@@ -59,7 +64,8 @@
    "target_or_baseline": "EUR 169.8m one-off",
    "evidence": "By 1 Dec 2025 eu-LISA alone had signed contracts worth EUR 170.8m for interoperability (EUR 133.2m paid), already above the whole one-off estimate for the EU and Member States combined.",
    "status": "partially measured (cost overrun likely)",
-   "sources": "COM(2026) 446"
+   "sources": "COM(2026) 446",
+   "status_group": "partially measured"
   }
  ],
  "literature": [
@@ -132,5 +138,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

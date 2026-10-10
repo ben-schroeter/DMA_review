@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "specific objective",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Reported qualitatively: EDPS replies to legislative consultations with opinions and comments; EDPB output growing. No time series tied to the Regulation.",
    "status": "reported as activity",
-   "sources": "COM(2022) 530"
+   "sources": "COM(2022) 530",
+   "status_group": "reported as activity"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Survey of 56 EU bodies: 54% gave more resources to DPOs; 84% adapted processes so staff consult DPOs. No breakdown of DPO activities.",
    "status": "partially measured",
-   "sources": "COM(2022) 530"
+   "sources": "COM(2022) 530",
+   "status_group": "partially measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Annex table of DPIAs by institution 2019-2021 (most by ECB, EIB and Commission); cases sent to the EDPS fell sharply compared with the old prior-checking system, as intended; 94% of bodies find DPIA criteria adequate.",
    "status": "measured",
-   "sources": "COM(2022) 530"
+   "sources": "COM(2022) 530",
+   "status_group": "measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -59,7 +64,8 @@
    "target_or_baseline": "",
    "evidence": "Report notes inadmissible complaints to the EDPS rose 2019-2021 (mostly aimed at national controllers); no clear trend in requests from individuals because institutions record them differently.",
    "status": "partially measured",
-   "sources": "COM(2022) 530"
+   "sources": "COM(2022) 530",
+   "status_group": "partially measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -68,7 +74,8 @@
    "target_or_baseline": "",
    "evidence": "None: by 2022 the EDPS had used most powers (e.g. temporary processing bans) but had never issued a fine.",
    "status": "measured (zero)",
-   "sources": "COM(2022) 530"
+   "sources": "COM(2022) 530",
+   "status_group": "measured"
   },
   {
    "type": "note",
@@ -77,7 +84,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   }
  ],
  "literature": [
@@ -127,5 +135,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

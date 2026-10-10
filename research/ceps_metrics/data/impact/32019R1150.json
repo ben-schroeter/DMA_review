@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "monitoring (memorandum)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Only 19 of 179 platforms studied published the mandatory complaint-handling report; reported numbers range from 12 complaints (Apple) to over 3 million (Google), showing divergent interpretations and possible non-compliance.",
    "status": "partially measured",
-   "sources": "COM(2023) 525"
+   "sources": "COM(2023) 525",
+   "status_group": "partially measured"
   },
   {
    "type": "monitoring (memorandum)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Only 25 of 179 large and medium platforms named the required two mediators; no specialised mediation bodies set up; very few complaints or court cases.",
    "status": "partially measured",
-   "sources": "COM(2023) 525"
+   "sources": "COM(2023) 525",
+   "status_group": "partially measured"
   },
   {
    "type": "expected result",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Only about a third of platforms reviewed listed ranking parameters in their terms; 10% of business users report little or no ranking information and 42% only moderate. Irish CCPC sweep (late 2025): about 80% of 17 platforms non-compliant in some respect.",
    "status": "partially measured",
-   "sources": "COM(2023) 525; CCPC 2026; Sovrano et al. 2024"
+   "sources": "COM(2023) 525; CCPC 2026; Sovrano et al. 2024",
+   "status_group": "partially measured"
   },
   {
    "type": "expected result",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Low: Irish survey (2022, n=177) found 51% of businesses had no knowledge of the Regulation and 4% detailed knowledge; Commission 2023 review reports a lack of awareness, lower where Member States set up no public enforcement.",
    "status": "partially measured",
-   "sources": "CCPC 2023; COM(2023) 525"
+   "sources": "CCPC 2023; COM(2023) 525",
+   "status_group": "partially measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -59,7 +64,8 @@
    "target_or_baseline": "EUR 0.81-4.05bn",
    "evidence": "Not measured. The 2023 review assessed compliance only; in November 2025 the Commission proposed repealing the Regulation as having 'only residual value' after the DSA and DMA.",
    "status": "not measured",
-   "sources": "SWD(2018) 139; COM(2023) 525; COM(2025) 837"
+   "sources": "SWD(2018) 139; COM(2023) 525; COM(2025) 837",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -201,5 +207,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

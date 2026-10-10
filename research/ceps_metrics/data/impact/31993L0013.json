@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "objective (recitals)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "2000 report: injunction actions in mobile, cable/satellite TV, car rental and timeshare mostly led traders to change terms, but traders rarely gave consumers terms in advance. 2017 fitness check: largely fit for purpose. 2024 fitness check: limited effectiveness online; legal analysis finds many big online service terms likely unfair.",
    "status": "reported as activity",
-   "sources": "COM(2000) 248; SWD(2017) 209; SWD(2024) 230; Loos & Luzak 2016"
+   "sources": "COM(2000) 248; SWD(2017) 209; SWD(2024) 230; Loos & Luzak 2016",
+   "status_group": "reported as activity"
   },
   {
    "type": "objective (recitals)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "No measurement of cross-border effects attributable to the Directive found.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "cost (evaluation)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "2024 fitness check: combined compliance costs of UCPD, CRD and UCTD about EUR 511-737m a year; only 10-18% of traders report high costs.",
    "status": "measured",
-   "sources": "SWD(2024) 230"
+   "sources": "SWD(2024) 230",
+   "status_group": "measured"
   }
  ],
  "literature": [
@@ -137,5 +141,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

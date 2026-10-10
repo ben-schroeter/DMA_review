@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "No systematic data on licence revenue. In France, Google first refused to pay; the competition authority fined it EUR 500m (2021) and EUR 250m (2024) for failing to negotiate in good faith / breaching commitments. Earlier national rights (Germany 2013, Spain 2014) produced little or no revenue; when Google News left Spain, traffic to news sites fell (8-14% in one study, about 10% for non-Google-News publishers in another), mostly hurting small outlets.",
    "status": "mixed evidence",
-   "sources": "Autorité de la concurrence 21-D-17, 24-D-03; Calzada & Gil 2020; Athey et al. 2021; JRC draft 2016/17"
+   "sources": "Autorité de la concurrence 21-D-17, 24-D-03; Calzada & Gil 2020; Athey et al. 2021; JRC draft 2016/17",
+   "status_group": "mixed evidence"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured. The Commission's 2024 assessment of the start-up regime (Art. 17(6)) found 'limited evidence': almost no qualifying platforms identified, no platform answered the consultation. No study measures effects on licensing revenue, over-blocking or user uploads.",
    "status": "not measured",
-   "sources": "SWD(2024) 259; Doseva et al. 2022"
+   "sources": "SWD(2024) 259; Doseva et al. 2022",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "No evaluation found.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "No evaluation found.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -215,5 +220,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260607102546/https://policyreview.info/articles/analysis/uploaders-perceptions-german-implementation-eu-copyright-reform"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

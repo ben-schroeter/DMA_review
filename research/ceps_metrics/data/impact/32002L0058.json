@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (evaluation criteria)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Commission REFIT evaluation (2017): cookie rule 'not fully effective' - users accept tracking without understanding it, some cookies set without consent; rule also over-inclusive for non-privacy-intrusive cookies.",
    "status": "measured (qualitative) - not achieved",
-   "sources": "SWD(2017) 5/6"
+   "sources": "SWD(2017) 5/6",
+   "status_group": "measured"
   },
   {
    "type": "expected impact (evaluation criteria)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Supporting study estimates about EUR 658 per business; Commission notes robust cost data largely do not exist.",
    "status": "partially measured",
-   "sources": "SWD(2017) 6"
+   "sources": "SWD(2017) 6",
+   "status_group": "partially measured"
   }
  ],
  "literature": [
@@ -82,5 +85,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "moderate"
 }

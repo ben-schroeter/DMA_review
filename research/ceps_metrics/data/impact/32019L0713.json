@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "specific objective (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Transposition report: 9 Member States on time; infringement cases opened against 16 in July 2021; most provisions transposed, with gaps notably on virtual currency coverage.",
    "status": "partially measured",
-   "sources": "COM(2023) 363"
+   "sources": "COM(2023) 363",
+   "status_group": "partially measured"
   },
   {
    "type": "specific objective (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "No outcome data published; the impact evaluation due May 2026 was not found.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "general objective (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Fraud is tracked by the ECB/EBA under PSD2 reporting (EUR 4.3bn in 2022, EUR 2.0bn in H1 2023 across instruments), but these figures cannot be attributed to the Directive.",
    "status": "measured (not attributable)",
-   "sources": "EBA/ECB 2024"
+   "sources": "EBA/ECB 2024",
+   "status_group": "measured"
   },
   {
    "type": "expected cost (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Not evaluated.",
    "status": "not measured",
-   "sources": "SWD(2017) 298"
+   "sources": "SWD(2017) 298",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -123,5 +128,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20261001003502/https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.pr240801~f21cc4a009.en.html"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

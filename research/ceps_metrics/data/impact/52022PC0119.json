@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "Not applicable yet: proposal still pending (Council Security Committee still revising the text in March 2026; no trilogue agreement found).",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "LFS indicator",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured. Baseline: Court of Auditors found preparedness 'not commensurate with the threats' and significant incidents up more than tenfold 2018-2021.",
    "status": "not measured",
-   "sources": "ECA SR 05/2022"
+   "sources": "ECA SR 05/2022",
+   "status_group": "not measured"
   },
   {
    "type": "LFS indicator",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured: proposal pending.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact analysis)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "Implementation costs offset by efficiency gains; 2 Commission posts (1 AD, 1 AST) for the Coordination Group secretariat; no impact on Member States or private sector",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "SWD(2022) 65"
+   "sources": "SWD(2022) 65",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -91,5 +95,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260313155014/https://op.europa.eu/webpub/eca/special-reports/hack-proofing-eu-institutions-05-2022/en/"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

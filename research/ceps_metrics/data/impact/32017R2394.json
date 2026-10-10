@@ -14,7 +14,8 @@
    "target_or_baseline": "Baseline (IA): average 37% non-compliance in website screenings; detriment ~EUR 770m in five cross-border online markets",
    "evidence": "Sweeps keep finding high non-compliance (e.g. 2022 sweep: 37% of 399 websites used dark patterns); no consistent trend series against the baseline and no updated detriment estimate.",
    "status": "partially measured",
-   "sources": "SWD(2016) 164; COM(2024) 311"
+   "sources": "SWD(2016) 164; COM(2024) 311",
+   "status_group": "partially measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "2024 report describes coordinated-action procedures as 'long and cumbersome' but gives no systematic time-limit compliance figure in the sections reviewed.",
    "status": "not measured",
-   "sources": "COM(2024) 311"
+   "sources": "COM(2024) 311",
+   "status_group": "not measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Coordinated actions and alerts counted in the 2024 application report; alerts used unevenly across Member States; outcomes (commitments by major traders) reported qualitatively.",
    "status": "reported as activity",
-   "sources": "COM(2024) 311"
+   "sources": "COM(2024) 311",
+   "status_group": "reported as activity"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Report finds large differences in national resources are a main impediment; limited evidence on use of the new minimum investigation powers.",
    "status": "reported as activity",
-   "sources": "COM(2024) 311"
+   "sources": "COM(2024) 311",
+   "status_group": "reported as activity"
   }
  ],
  "literature": [
@@ -91,5 +95,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260307124236/https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:52024DC0311"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

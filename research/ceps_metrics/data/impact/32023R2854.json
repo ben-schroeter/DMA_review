@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "+EUR 270bn GDP by 2028",
    "evidence": "Not measured; obligations applied only from September 2025 (design obligations from 2026). No ex-post estimate exists. Critics (Kerber, Martens) argue the access mechanism is weak, making the forecast doubtful.",
    "status": "not measured",
-   "sources": "SWD(2022) 34/35; IP/22/1113"
+   "sources": "SWD(2022) 34/35; IP/22/1113",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured. A German industry survey 100 days before application found only 1% of companies had fully and 4% partly implemented the Act; 52% thought it did not apply to them.",
    "status": "not measured",
-   "sources": "SWD(2022) 35; Bitkom 2025"
+   "sources": "SWD(2022) 35; Bitkom 2025",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "SWD(2022) 35"
+   "sources": "SWD(2022) 35",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured. The November 2025 Digital Omnibus proposes amendments (e.g. on trade-secret refusals and business-to-government data requests in public emergencies) and claims savings of at least EUR 1bn a year across the digital acquis.",
    "status": "not measured",
-   "sources": "SWD(2022) 35; COM(2025) 837"
+   "sources": "SWD(2022) 35; COM(2025) 837",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -75,7 +80,7 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20251123045340/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022SC0035"
   },
   {
    "id": "ec-2022-dataact-press",
@@ -144,7 +149,7 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20260927001100/https://www.bruegel.org/working-paper/pro-and-anti-competitive-provisions-proposed-european-union-data-act"
   },
   {
    "id": "cerre-2023-dataact",
@@ -167,7 +172,7 @@
    "access": "open",
    "interested_party": "CERRE is funded partly by industry members, including large digital firms",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20260514230429/https://cerre.eu/publications/data-act-towards-a-balanced-eu-data-regulation/"
   },
   {
    "id": "bitkom-2025-dataact-survey",
@@ -215,5 +220,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

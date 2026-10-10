@@ -14,7 +14,8 @@
    "target_or_baseline": "Target 28% from 2022 baseline 43% (-35%)",
    "evidence": "Not applicable: regulation not adopted (Parliament position 2024; blocking minority reported in Council).",
    "status": "not measured",
-   "sources": "COM(2023) 533 memorandum"
+   "sources": "COM(2023) 533 memorandum",
+   "status_group": "not measured"
   },
   {
    "type": "monitoring target (memorandum)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "Target 26-31% from baselines 40-47% (-35%)",
    "evidence": "Not applicable: regulation not adopted.",
    "status": "not measured",
-   "sources": "COM(2023) 533 memorandum"
+   "sources": "COM(2023) 533 memorandum",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "Costs: EUR 243m one-off (invoices); EUR 70-105m/yr public enforcement and mediation",
    "evidence": "Forecast only; industry (trade credit insurers) claims a strict 30-day cap creates up to EUR 2tn new financing need.",
    "status": "not measured",
-   "sources": "SWD(2023) 314; ICISA"
+   "sources": "SWD(2023) 314; ICISA",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -105,5 +108,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

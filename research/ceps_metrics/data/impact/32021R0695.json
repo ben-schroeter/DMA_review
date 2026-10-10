@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "+0.08-0.19% GDP; up to EUR 11 per EUR 1",
    "evidence": "Model-based only: interim evaluation's NEMESIS, RHOMOLO and FIDELIO runs give GDP multipliers of 4-11 by 2045 and say results are on track (RHOMOLO peak +0.10% of GDP in 2024). These re-run the same type of models used ex ante; no observed macro effect.",
    "status": "partially measured (model re-estimates)",
-   "sources": "SWD(2018) 307; SWD(2025) 110"
+   "sources": "SWD(2018) 307; SWD(2025) 110",
+   "status_group": "partially measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "100k direct / 200k indirect",
    "evidence": "Reported: 39,543 FTE jobs created or maintained by participants (data from only 21% of projects, Jan 2025); NEMESIS estimates up to 60,000 research jobs by 2023-24; RHOMOLO about 128,000 persons (+0.06%) at 2023 peak.",
    "status": "partially measured",
-   "sources": "SWD(2025) 110"
+   "sources": "SWD(2025) 110",
+   "status_group": "partially measured"
   },
   {
    "type": "key impact pathway",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Measured: EUR 10.2bn co-investment by participants by the interim evaluation, against just over EUR 5bn at the same stage of Horizon 2020.",
    "status": "measured",
-   "sources": "SWD(2025) 110"
+   "sources": "SWD(2025) 110",
+   "status_group": "measured"
   },
   {
    "type": "key impact pathway",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Measured: average success rate rose from 12% (Horizon 2020) to 16.4%; only 30.1% of high-quality proposals funded (25% in Horizon 2020) - funding all would have required an extra EUR 81.8bn. 15,148 grants worth EUR 43.2bn signed 2021-2024; budget cut from EUR 95.5bn to 93.5bn in 2024.",
    "status": "measured",
-   "sources": "SWD(2025) 110"
+   "sources": "SWD(2025) 110",
+   "status_group": "measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -59,7 +64,8 @@
    "target_or_baseline": "",
    "evidence": "No causal estimate yet for Horizon Europe. For its predecessor (Horizon 2020) quasi-experimental studies find positive effects: SME Instrument grants raised investment, patents and survival (regression discontinuity); Horizon 2020 grantees grew employment ~20% and assets/revenue ~30% vs high-quality rejected applicants (difference-in-differences).",
    "status": "mixed evidence (predecessor only)",
-   "sources": "Santoleri et al. 2024; Mitra & Niakaros 2023; SWD(2024) 29"
+   "sources": "Santoleri et al. 2024; Mitra & Niakaros 2023; SWD(2024) 29",
+   "status_group": "mixed evidence"
   }
  ],
  "literature": [
@@ -201,5 +207,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260920142540/https://docs.iza.org/dp16108.pdf"
   }
- ]
+ ],
+ "evidence_level": "moderate"
 }

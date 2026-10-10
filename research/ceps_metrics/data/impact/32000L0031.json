@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "objective (proposal)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "2020 evaluation: the Directive 'enabled growth and accessibility of digital services cross-border' but there is clear evidence of legal fragmentation, national laws with extraterritorial effect and little use of the cooperation mechanism. No quantitative ex-post estimate of its effect on cross-border trade.",
    "status": "partially measured",
-   "sources": "SWD(2020) 348 Annex 5"
+   "sources": "SWD(2020) 348 Annex 5",
+   "status_group": "partially measured"
   },
   {
    "type": "objective (proposal)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "2020 evaluation: liability regime remains the 'key regulatory pillar' but conflicting national court interpretations create significant uncertainty; incentives favour removal over protecting legal content. No causal study of the EU safe harbours' effect on investment or innovation; the main quantitative estimate (Oxera 2015) is a Google-funded simulation.",
    "status": "mixed evidence",
-   "sources": "SWD(2020) 348; Oxera 2015; Erickson & Kretschmer 2020"
+   "sources": "SWD(2020) 348; Oxera 2015; Erickson & Kretschmer 2020",
+   "status_group": "mixed evidence"
   },
   {
    "type": "objective (proposal)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "2020 evaluation: these provisions are still relevant and largely complied with, but not measured with outcome data.",
    "status": "reported as activity",
-   "sources": "SWD(2020) 348"
+   "sources": "SWD(2020) 348",
+   "status_group": "reported as activity"
   }
  ],
  "literature": [
@@ -183,5 +187,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

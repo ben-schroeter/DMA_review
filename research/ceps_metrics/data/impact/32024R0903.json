@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured; the IA itself says direct impact is difficult to quantify. First annual report (Dec 2025) says comprehensive monitoring data not yet available.",
    "status": "not measured",
-   "sources": "SWD(2022) 721/722; Commission annual report 2025"
+   "sources": "SWD(2022) 721/722; Commission annual report 2025",
+   "status_group": "not measured"
   },
   {
    "type": "objective (proposal)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Board and working group operating since Q4 2024; interoperability assessments mandatory from January 2025; regulatory sandbox implementing act adopted; over 12,000 Academy enrolments.",
    "status": "reported as activity",
-   "sources": "Commission annual report 2025"
+   "sources": "Commission annual report 2025",
+   "status_group": "reported as activity"
   }
  ],
  "literature": [
@@ -57,7 +60,7 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20250120045558/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52022SC0722"
   },
   {
    "id": "ec-2022-eif-evaluation",
@@ -105,5 +108,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260512082745/https://commission.europa.eu/news-and-media/news/state-interoperability-union-2025-12-16_en"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

@@ -12,137 +12,118 @@ all other adopted acts
 Tier 3 — pending proposals and acts adopted 2024–2026 (impact assessment and forecasts; little ex-post evidence)
 
 ## Done
-- [x] 32022R1925 Digital Markets Act (pilot)
-- [x] 32016R0679 General Data Protection Regulation
-- [x] 32015L2366 Payment Services Directive 2 (PSD2)
-- [x] 32002L0058 ePrivacy Directive
-- [x] 32024R1689 Artificial Intelligence Act
-- [x] 32022R2065 Digital Services Act
-- [x] 32017R1128 Portability Regulation
-- [x] 32024R1624 Anti-Money Laundering Regulation
-- [x] 32019L0790 Copyright in the Digital Single Market Directive
-- [x] 32018R0302 Geo-blocking Regulation
-- [x] 32021R0241 Recovery and Resilience Facility
-- [x] 32001L0029 Information Society (InfoSoc) Directive
-- [x] 31996L0009 Database Directive
-- [x] 32005L0029 Unfair Commercial Practices Directive
-- [x] 32022R0612 Roaming Regulation
-- [x] 32004R0139 EC Merger Regulation
-- [x] 32011L0083 Consumer Rights Directive
-- [x] 32015R2120 Open Internet Access Regulation
-- [x] 32019R1150 Platform-to-Business (P2B) Regulation
-- [x] 32019R0452 FDI Screening Regulation
-- [x] 32000L0031 E-commerce Directive
-- [x] 32023R2854 Data Act
-- [x] 32021R0695 Horizon Europe
-- [x] 32019L1024 Open Data Directive (PSI)
-- [x] 32022R0868 Data Governance Act
-- [x] 32022L2555 NIS 2 Directive
-- [x] 32014R0910 eIDAS Regulation
-- [x] 32023R1114 Markets in Crypto-Assets (MiCA)
-- [x] 32011L0016 Administrative cooperation in taxation (DAC)
-- [x] 32022R2554 Digital Operational Resilience Act (DORA)
-- [x] 32018L1972 European Electronic Communications Code
-- [x] 32012R1025 European Standardisation Regulation
-- [x] 32022R2560 Foreign Subsidies Regulation
-- [x] 32023R0588 Union Secure Connectivity Programme (IRIS²)
-- [x] 32014L0030 Electromagnetic Compatibility Directive
-- [x] 32014L0053 Radio Equipment Directive
-- [x] 32023R0988 General Product Safety Regulation
-- [x] 32014L0055 E-invoicing Directive
-- [x] 32023R1066 Horizontal Block Exemption Regulations (R&D 2023/1066 and specialisation 2023/1067)
-- [x] 32023R1230 Machinery Regulation
-- [x] 32014R0316 Technology Transfer Block Exemption
-- [x] 32024R1028 Short-Term Rental Data Regulation
-- [x] 32023R1543 E-evidence Regulation
-- [x] 52023PC0360 Financial Data Access Regulation (FiDA)
-- [x] 32024R1083 European Media Freedom Act
-- [x] 52023PC0360 Financial Data Access Regulation (FiDA)
-- [x] 32021R0690 Single Market Programme
-- [x] 32016L0680 Law Enforcement Directive
-- [x] 52023PC0366 Payment Services Directive 3 (PSD3)
-- [x] 52023PC0367 Payment Services Regulation (PSR)
-- [x] 32023R1781 European Chips Act
-- [x] 32023R1781 European Chips Act
-- [x] 32024R1252 Critical Raw Materials Act
-- [x] 32021R0694 Digital Europe Programme
-- [x] 32024R1309 Gigabit Infrastructure Act
-- [x] 32023R2841 Cybersecurity Regulation (EU institutions)
-- [x] 32024R1735 Net-Zero Industry Act
-- [x] 52023PC0369 Digital Euro Regulation
-- [x] 32023R2844 Digitalisation of judicial cooperation Regulation
-- [x] 32021R0784 Terrorist Content Online Regulation
-- [x] 32016L0943 Trade Secrets Directive
-- [x] 32025L0516 VAT in the Digital Age (ViDA)
 - [x] 31987L0372 Frequency Bands Directive (GSM)
-- [x] 52023PC0533 Late Payment Regulation
-- [x] 32021R0887 European Cybersecurity Competence Centre
-- [x] 32024R1781 Ecodesign for Sustainable Products Regulation
-- [x] 32025R0038 Cyber Solidarity Act
-- [x] 32024R2747 Single Market Emergency Instrument (IMERA)
-- [x] 52023PC0533 Late Payment Regulation
-- [x] 31987L0372 Frequency Bands Directive (GSM)
-- [x] 32024R2847 Cyber Resilience Act
-- [x] 32024L1385 Violence Against Women Directive
-- [x] 32017L1132 Company Law Directive
 - [x] 31993L0013 Unfair Contract Terms Directive
-- [x] 52023PC0533 Late Payment Regulation
-- [x] 52024PC0060 Child Sexual Abuse Directive (recast)
-- [x] 32021R1153 Connecting Europe Facility
-- [x] 32024L1799 Right to Repair Directive
-- [x] 32025R0327 European Health Data Space
-- [x] 32024L2823 Design Directive
-- [x] 32018R1725 Data protection by EU institutions Regulation
 - [x] 31993L0083 Satellite and Cable Directive
-- [x] 32024L2831 Platform Work Directive
-- [x] 32017R2394 Consumer Protection Cooperation Regulation
-- [x] 32021R1173 EuroHPC Joint Undertaking Regulation
-- [x] 32018R1807 Free Flow of Non-Personal Data Regulation
-- [x] 32025R2509 Toys Safety Regulation
-- [x] 32024L2853 Product Liability Directive
-- [x] 52024PC0670 EU Digital Travel Application Regulation
-- [x] 32019L0713 Non-cash payment fraud Directive
+- [x] 31996L0009 Database Directive
 - [x] 31998L0006 Price Indication Directive
-- [x] 32024R0795 Strategic Technologies for Europe Platform (STEP)
-- [x] 32019L0770 Digital Content Directive
-- [x] 31998L0006 Price Indication Directive
-- [x] 32019L0771 Sale of Goods Directive
-- [x] 31993L0083 Satellite and Cable Directive
-- [x] 31993L0083 Satellite and Cable Directive
-- [x] 52024PC0670 EU Digital Travel Application Regulation
-- [x] 32024R0900 Political Advertising Regulation
-- [x] 32021R1232 Temporary CSAM Derogation Regulation
-- [x] 32025R2518 GDPR Procedural Regulation
-- [x] 32019R0517 .eu Top-Level Domain Regulation
-- [x] 32024R0903 Interoperable Europe Act
-- [x] 52025PC0335 EU Space Act
-- [x] 32019R0817 Interoperability of EU information systems (borders and visa) Regulation
-- [x] 32025R2518 GDPR Procedural Regulation
-- [x] 32018R1724 Single Digital Gateway Regulation
+- [x] 32000L0031 E-commerce Directive
+- [x] 32001L0029 Information Society (InfoSoc) Directive
 - [x] 32002D0676 Radio Spectrum Decision
-- [x] 32025R2645 Compulsory licensing of patents Regulation
-- [x] 32018R1724 Single Digital Gateway Regulation
-- [x] 32021R2085 Joint Undertakings under Horizon Europe
+- [x] 32002L0058 ePrivacy Directive
 - [x] 32002R0006 Community Design Regulation
-- [x] 32019R0881 Cybersecurity Act
-- [x] 32019R1020 Market Surveillance Regulation
-- [x] 32002R0006 Community Design Regulation
-- [x] 32025R2645 Compulsory licensing of patents Regulation
-- [x] 52022PC0119 Information Security Regulation (proposal)
-- [x] 32021R0523 InvestEU Programme
-- [x] 32022D2481 Digital Decade Policy Programme Decision
 - [x] 32004L0048 IPR Enforcement Directive
-- [x] 52022PC0209 Child Sexual Abuse Regulation (CSAR, proposal)
-- [x] 32004L0048 IPR Enforcement Directive
-- [x] 32019L0789 Satellite and Cable II Directive
-- [x] 32022D2481 Digital Decade Policy Programme Decision
-- [x] 52022PC0209 Child Sexual Abuse Regulation (CSAR, proposal)
+- [x] 32004R0139 EC Merger Regulation
+- [x] 32005L0029 Unfair Commercial Practices Directive
 - [x] 32006L0112 Common VAT system Directive
-- [x] 32022R0720 Vertical Block Exemption Regulation
-- [x] 32022R0720 Vertical Block Exemption Regulation
-- [x] 32006L0112 Common VAT system Directive
-- [x] 32022R0858 DLT Pilot Regime Regulation
 - [x] 32009L0048 Toys Safety Directive
-- [x] 32022R0858 DLT Pilot Regime Regulation
 - [x] 32009R0223 European Statistics Regulation
 - [x] 32010L0013 Audiovisual Media Services Directive
+- [x] 32011L0016 Administrative cooperation in taxation (DAC)
+- [x] 32011L0083 Consumer Rights Directive
+- [x] 32012R1025 European Standardisation Regulation
+- [x] 32014L0030 Electromagnetic Compatibility Directive
+- [x] 32014L0053 Radio Equipment Directive
+- [x] 32014L0055 E-invoicing Directive
+- [x] 32014R0316 Technology Transfer Block Exemption
+- [x] 32014R0910 eIDAS Regulation
+- [x] 32015L2366 Payment Services Directive 2 (PSD2)
+- [x] 32015R2120 Open Internet Access Regulation
+- [x] 32016L0680 Law Enforcement Directive
+- [x] 32016L0943 Trade Secrets Directive
+- [x] 32016R0679 General Data Protection Regulation
+- [x] 32017L1132 Company Law Directive
+- [x] 32017R1128 Portability Regulation
+- [x] 32017R2394 Consumer Protection Cooperation Regulation
+- [x] 32018L1972 European Electronic Communications Code
+- [x] 32018R0302 Geo-blocking Regulation
+- [x] 32018R1724 Single Digital Gateway Regulation
+- [x] 32018R1725 Data protection by EU institutions Regulation
+- [x] 32018R1807 Free Flow of Non-Personal Data Regulation
+- [x] 32019L0713 Non-cash payment fraud Directive
+- [x] 32019L0770 Digital Content Directive
+- [x] 32019L0771 Sale of Goods Directive
+- [x] 32019L0789 Satellite and Cable II Directive
+- [x] 32019L0790 Copyright in the Digital Single Market Directive
+- [x] 32019L1024 Open Data Directive (PSI)
+- [x] 32019R0452 FDI Screening Regulation
+- [x] 32019R0517 .eu Top-Level Domain Regulation
+- [x] 32019R0817 Interoperability of EU information systems (borders and visa) Regulation
+- [x] 32019R0881 Cybersecurity Act
+- [x] 32019R1020 Market Surveillance Regulation
+- [x] 32019R1150 Platform-to-Business (P2B) Regulation
+- [x] 32021R0241 Recovery and Resilience Facility
+- [x] 32021R0523 InvestEU Programme
+- [x] 32021R0690 Single Market Programme
+- [x] 32021R0694 Digital Europe Programme
+- [x] 32021R0695 Horizon Europe
+- [x] 32021R0784 Terrorist Content Online Regulation
+- [x] 32021R0887 European Cybersecurity Competence Centre
+- [x] 32021R1153 Connecting Europe Facility
+- [x] 32021R1173 EuroHPC Joint Undertaking Regulation
+- [x] 32021R1232 Temporary CSAM Derogation Regulation
+- [x] 32021R2085 Joint Undertakings under Horizon Europe
+- [x] 32022D2481 Digital Decade Policy Programme Decision
+- [x] 32022L2555 NIS 2 Directive
+- [x] 32022R0612 Roaming Regulation
+- [x] 32022R0720 Vertical Block Exemption Regulation
+- [x] 32022R0858 DLT Pilot Regime Regulation
+- [x] 32022R0868 Data Governance Act
+- [x] 32022R1925 Digital Markets Act
+- [x] 32022R2065 Digital Services Act
+- [x] 32022R2554 Digital Operational Resilience Act (DORA)
+- [x] 32022R2560 Foreign Subsidies Regulation
+- [x] 32023R0588 Union Secure Connectivity Programme (IRIS²)
+- [x] 32023R0988 General Product Safety Regulation
+- [x] 32023R1066 Horizontal Block Exemption Regulations (R&D 2023/1066 and specialisation 2023/1067)
+- [x] 32023R1114 Markets in Crypto-Assets (MiCA)
+- [x] 32023R1230 Machinery Regulation
+- [x] 32023R1543 E-evidence Regulation
+- [x] 32023R1781 European Chips Act
+- [x] 32023R2841 Cybersecurity Regulation (EU institutions)
+- [x] 32023R2844 Digitalisation of judicial cooperation Regulation
+- [x] 32023R2854 Data Act
+- [x] 32024L1385 Violence Against Women Directive
+- [x] 32024L1799 Right to Repair Directive
+- [x] 32024L2823 Design Directive
+- [x] 32024L2831 Platform Work Directive
+- [x] 32024L2853 Product Liability Directive
+- [x] 32024R0795 Strategic Technologies for Europe Platform (STEP)
+- [x] 32024R0900 Political Advertising Regulation
+- [x] 32024R0903 Interoperable Europe Act
+- [x] 32024R1028 Short-Term Rental Data Regulation
+- [x] 32024R1083 European Media Freedom Act
+- [x] 32024R1252 Critical Raw Materials Act
+- [x] 32024R1309 Gigabit Infrastructure Act
+- [x] 32024R1624 Anti-Money Laundering Regulation
+- [x] 32024R1689 Artificial Intelligence Act
+- [x] 32024R1735 Net-Zero Industry Act
+- [x] 32024R1781 Ecodesign for Sustainable Products Regulation
+- [x] 32024R2747 Single Market Emergency Instrument (IMERA)
+- [x] 32024R2847 Cyber Resilience Act
+- [x] 32025L0516 VAT in the Digital Age (ViDA)
+- [x] 32025R0038 Cyber Solidarity Act
+- [x] 32025R0327 European Health Data Space
+- [x] 32025R2509 Toys Safety Regulation
+- [x] 32025R2518 GDPR Procedural Regulation
+- [x] 32025R2645 Compulsory licensing of patents Regulation
+- [x] 52022PC0119 Information Security Regulation (proposal)
+- [x] 52022PC0209 Child Sexual Abuse Regulation (CSAR, proposal)
+- [x] 52023PC0360 Financial Data Access Regulation (FiDA)
+- [x] 52023PC0366 Payment Services Directive 3 (PSD3)
+- [x] 52023PC0367 Payment Services Regulation (PSR)
+- [x] 52023PC0369 Digital Euro Regulation
+- [x] 52023PC0533 Late Payment Regulation
+- [x] 52024PC0060 Child Sexual Abuse Directive (recast)
+- [x] 52024PC0670 EU Digital Travel Application Regulation
+- [x] 52025PC0335 EU Space Act

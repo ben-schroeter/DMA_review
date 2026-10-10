@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "objective",
@@ -23,7 +24,8 @@
    "target_or_baseline": "majority share",
    "evidence": "Member States report 68-69% European works on TV (2020-21), down from 72.6% (2019); an independent sample study found only 38%, and under 3% independent European works vs 40-41% reported.",
    "status": "mixed evidence",
-   "sources": "COM(2024) 261"
+   "sources": "COM(2024) 261",
+   "status_group": "mixed evidence"
   },
   {
    "type": "objective (2018 amendment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "30%",
    "evidence": "Member States report 63-64% (2020-21); independent snapshot of 1,062 services (2023) found 35%; methods differ and data incomplete.",
    "status": "mixed evidence",
-   "sources": "COM(2024) 261"
+   "sources": "COM(2024) 261",
+   "status_group": "mixed evidence"
   },
   {
    "type": "objective",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "2016 evaluation: perceived as effective, brought legal certainty and economies of scale; robust economic data lacking.",
    "status": "reported as activity",
-   "sources": "SWD(2016) 170"
+   "sources": "SWD(2016) 170",
+   "status_group": "reported as activity"
   },
   {
    "type": "expected impact (2016 IA)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Costs and benefits not quantified; no outcome measurement found.",
    "status": "not measured",
-   "sources": "SWD(2016) 168"
+   "sources": "SWD(2016) 168",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -123,5 +128,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260312183224/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52024DC0261"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

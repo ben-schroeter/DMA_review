@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "Reporting obligations apply from Sept 2026 and main requirements from Dec 2027; no measurement yet. A 2025 survey found most open-source respondents unfamiliar with the Act and few manufacturers producing SBOMs.",
    "status": "not measured",
-   "sources": "Lawson & Hendrick 2025"
+   "sources": "Lawson & Hendrick 2025",
+   "status_group": "not measured"
   },
   {
    "type": "LFS indicator",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Not assessed.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "LFS indicator",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "EUR 180-290bn a year",
    "evidence": "Not evaluated; Commission report due 36 months after application.",
    "status": "not measured",
-   "sources": "SWD(2022) 283"
+   "sources": "SWD(2022) 283",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "up to ~EUR 29bn (market value up to EUR 1,485bn)",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "SWD(2022) 283"
+   "sources": "SWD(2022) 283",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -98,7 +103,8 @@
    "access": "open",
    "interested_party": "Linux Foundation and OpenSSF represent open-source projects and member companies directly affected by the CRA",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20260515051911/https://www.linuxfoundation.org/research/cra-readiness"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "2025 evaluation: 'moderately effective' in reducing development time, but harmonised standards still take on average six years (three for drafting and consensus). 2022 report: median 100 days from ESO adoption to delivery to the Commission; formal objections take on average 1,084 days.",
    "status": "measured",
-   "sources": "SWD(2025) 171; COM(2022) 30"
+   "sources": "SWD(2025) 171; COM(2022) 30",
+   "status_group": "measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "2015-2020: 44 standardisation requests issued, 6 rejected by the ESOs (13.6%); only 27.6% of HAS consultant assessments of draft harmonised standards were positive. No outcome-based count of standards linked to effects.",
    "status": "reported as activity",
-   "sources": "COM(2022) 30"
+   "sources": "COM(2022) 30",
+   "status_group": "reported as activity"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Annex III organisations funded (EUR 20m 2015-2019); CEN-CENELEC gave them a formal right of opinion in 2017; ETSI criticised as less inclusive. 2025 evaluation: 'moderately effective' but real influence limited by lack of resources.",
    "status": "reported as activity",
-   "sources": "COM(2022) 30; SWD(2025) 171"
+   "sources": "COM(2022) 30; SWD(2025) 171",
+   "status_group": "reported as activity"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Evaluation found new CJEU-driven procedures made the process more burdensome; cost-benefit analysis suggests benefits exceed costs but data described as lacking.",
    "status": "mixed evidence",
-   "sources": "SWD(2025) 171"
+   "sources": "SWD(2025) 171",
+   "status_group": "mixed evidence"
   }
  ],
  "literature": [
@@ -114,5 +118,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

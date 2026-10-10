@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "objective (proposal / recitals)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Mixed. DG Competition estimates EU enforcement saved customers EUR 12-21bn a year (2012-2025), about 60% from merger control, but this is an ex-ante calculation that assumes decisions were correct. Independent event-study evidence (Duso et al. 2011) finds only prohibitions fully reverse anticipated market-power rents; remedies only partly. Cross-country evidence (Genakos et al. 2018) shows 4-to-3 mobile mergers raised prices ~16%, and concentration in EU antitrust markets has risen since 1995 (Affeldt et al. 2021).",
    "status": "mixed evidence",
-   "sources": "Verouden et al. 2026; Duso et al. 2011; Genakos et al. 2018; Affeldt et al. 2021"
+   "sources": "Verouden et al. 2026; Duso et al. 2011; Genakos et al. 2018; Affeldt et al. 2021",
+   "status_group": "mixed evidence"
   },
   {
    "type": "objective (proposal / recitals)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "2021 evaluation: referral mechanisms 'generally served their objectives well', avoiding many parallel national reviews; 2009 report found thresholds and referrals broadly effective.",
    "status": "reported as activity",
-   "sources": "SWD(2021) 66/67; COM(2009) 281"
+   "sources": "SWD(2021) 66/67; COM(2009) 281",
+   "status_group": "reported as activity"
   },
   {
    "type": "objective (2013 simplification)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "2021 evaluation found the 2013 simplification package increased use of the simplified procedure and reduced burden, without quantified savings in the executive summary.",
    "status": "partially measured",
-   "sources": "SWD(2021) 66/67"
+   "sources": "SWD(2021) 66/67",
+   "status_group": "partially measured"
   },
   {
    "type": "objective",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "2021 evaluation found some cross-border deals involving low-turnover innovative firms escaped review; the Commission's response (accepting Article 22 referrals of deals below national thresholds) was annulled by the Court of Justice in Illumina/Grail (3 Sept 2024). Academic evidence on killer acquisitions is US-based (pharma: 5.3-7.4% of acquisitions).",
    "status": "mixed evidence",
-   "sources": "SWD(2021) 66/67; CJEU C-611/22 P; Cunningham et al. 2021"
+   "sources": "SWD(2021) 66/67; CJEU C-611/22 P; Cunningham et al. 2021",
+   "status_group": "mixed evidence"
   }
  ],
  "literature": [
@@ -238,5 +243,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260212201803/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A62022CJ0611"
   }
- ]
+ ],
+ "evidence_level": "moderate"
 }

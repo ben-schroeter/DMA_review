@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "Baseline EUR 2-27bn/yr (industry estimates)",
    "evidence": "Not measured. DORA applies since 17 Jan 2025; no published statistics yet on incident numbers or costs under the new reporting regime.",
    "status": "not measured",
-   "sources": "SWD(2020) 199"
+   "sources": "SWD(2020) 199",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "EUR 40-100m/yr",
    "evidence": "Not measured. Industry surveys report high compliance costs: 38% of EU CISOs surveyed by Rubrik reported over EUR 1m spent on DORA/PRA compliance over two years; 37% of firms in a Veeam-commissioned survey face higher costs passed on by ICT vendors. No evidence on reporting savings.",
    "status": "not measured",
-   "sources": "Rubrik Zero Labs 2025; Veeam/Censuswide 2025"
+   "sources": "Rubrik Zero Labs 2025; Veeam/Censuswide 2025",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "0.1-0.3% of ICT budget",
    "evidence": "No ex-post data found.",
    "status": "not measured",
-   "sources": "SWD(2020) 199"
+   "sources": "SWD(2020) 199",
+   "status_group": "not measured"
   },
   {
    "type": "implementation milestone",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Dry run (2024): 1,039 entities took part, only 6.5% of 947 analysed registers passed all data-quality checks. First 19 critical providers designated on 18 Nov 2025 (incl. AWS, Google Cloud, Microsoft, Oracle, SAP, Deutsche Telekom, Bloomberg, LSEG Data).",
    "status": "reported as activity",
-   "sources": "ESAs 2024; ESAs 2025"
+   "sources": "ESAs 2024; ESAs 2025",
+   "status_group": "reported as activity"
   },
   {
    "type": "implementation milestone",
@@ -59,7 +64,8 @@
    "target_or_baseline": "",
    "evidence": "Survey evidence only: a vendor-commissioned survey six months in found 96% of EMEA respondents felt their data resilience fell short; ENISA 2024: 84% of entities expect to need more staff for DORA.",
    "status": "partially measured",
-   "sources": "Veeam/Censuswide 2025; ENISA 2024"
+   "sources": "Veeam/Censuswide 2025; ENISA 2024",
+   "status_group": "partially measured"
   }
  ],
  "literature": [
@@ -201,5 +207,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260616055036/https://www.helpnetsecurity.com/2025/07/25/dora-compliance-challenges-financial-firms/"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

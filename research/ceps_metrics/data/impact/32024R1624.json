@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "indicator (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Not yet measurable (Regulation applies from July 2027). Baseline: Europol (2017) found only around 10% of STRs lead to further investigation and about 1% of criminal proceeds are confiscated.",
    "status": "not measured",
-   "sources": "SWD(2021) 190; Europol 2017"
+   "sources": "SWD(2021) 190; Europol 2017",
+   "status_group": "not measured"
   },
   {
    "type": "indicator (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Not yet measurable; no baseline series published by the Commission.",
    "status": "not measured",
-   "sources": "SWD(2021) 190"
+   "sources": "SWD(2021) 190",
+   "status_group": "not measured"
   },
   {
    "type": "indicator (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Not yet measurable; AMLA (which hosts the FIU support mechanism) only began operating in 2025.",
    "status": "not measured",
-   "sources": "SWD(2021) 190"
+   "sources": "SWD(2021) 190",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured; the IA itself says undetected laundering cannot be measured. Independent work questions the effectiveness of the AML model in general (Pol 2020: less than 0.1% impact on criminal finances) and documents unintended costs such as de-risking (EBA 2022) and reduced lending to small firms (Slutzky et al., Colombia).",
    "status": "not measured (independent evidence sceptical)",
-   "sources": "SWD(2021) 191; Pol 2020; EBA 2022; Slutzky et al."
+   "sources": "SWD(2021) 191; Pol 2020; EBA 2022; Slutzky et al.",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -59,7 +64,8 @@
    "target_or_baseline": "~EUR 40m/yr",
    "evidence": "Not evaluated.",
    "status": "not measured",
-   "sources": "SWD(2021) 191"
+   "sources": "SWD(2021) 191",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -84,7 +90,7 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20260403050307/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52021SC0190"
   },
   {
    "id": "pol-2020-aml-effectiveness",
@@ -176,7 +182,7 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20260606174214/https://www.bis.org/publ/qtrpdf/r_qt2003g.htm"
   },
   {
    "id": "eca-2021-aml-banking",
@@ -199,7 +205,7 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20251125175117/https://op.europa.eu/webpub/eca/special-reports/fight-money-laundering-13-2021/en/"
   },
   {
    "id": "europol-2017-suspicion-action",
@@ -224,5 +230,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

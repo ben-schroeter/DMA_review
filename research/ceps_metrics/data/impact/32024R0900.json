@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Regulation applies from 10 October 2025. Google (Nov 2024 announcement) and Meta (from 6 Oct 2025) stopped selling political, electoral and social-issue ads in the EU rather than comply, so the main online channels and their ad libraries for such ads have largely disappeared. Pre-application audit found Meta met 9 and Google 7 of 19 transparency criteria in the 2024 EU elections.",
    "status": "mixed evidence",
-   "sources": "Meta 2025; EDMO 2025"
+   "sources": "Meta 2025; EDMO 2025",
+   "status_group": "mixed evidence"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured; the exit of the largest platforms points the other way for online services.",
    "status": "not measured",
-   "sources": "SWD(2021) 356"
+   "sources": "SWD(2021) 356",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "SWD(2021) 356"
+   "sources": "SWD(2021) 356",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -66,7 +70,7 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20240813033958/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021SC0356"
   },
   {
    "id": "edmo-2025-eu-election-ads",
@@ -112,7 +116,8 @@
    "access": "open",
    "interested_party": "Regulated company; statement explains its own commercial decision",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20261006124032/https://about.fb.com/news/2025/07/ending-political-electoral-and-social-issue-advertising-in-the-eu/"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

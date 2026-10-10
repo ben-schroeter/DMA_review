@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "Digital Europe interim evaluation (Dec 2025): 26 cybersecurity infrastructures (CyberHubs) procured, including two cross-border CyberHubs, 'in line with the targets'. Output count only; no data on detection performance.",
    "status": "reported as activity",
-   "sources": "COM(2025) 771"
+   "sources": "COM(2025) 771",
+   "status_group": "reported as activity"
   },
   {
    "type": "LFS indicator",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "No figures found yet. The Court of Auditors warned this indicator measures output only and gives little insight into results.",
    "status": "not measured",
-   "sources": "ECA Opinion 02/2023"
+   "sources": "ECA Opinion 02/2023",
+   "status_group": "not measured"
   },
   {
    "type": "note",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": "COM(2023) 209; ECA Opinion 02/2023"
+   "sources": "COM(2023) 209; ECA Opinion 02/2023",
+   "status_group": ""
   }
  ],
  "literature": [
@@ -57,7 +60,7 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20250921122905/https://www.eca.europa.eu/ECAPublications/OP-2023-02/OP-2023-02_EN.pdf"
   },
   {
    "id": "ec-2025-dep-interim-evaluation",
@@ -82,5 +85,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

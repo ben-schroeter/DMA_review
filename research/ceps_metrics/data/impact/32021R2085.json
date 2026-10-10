@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "EU EUR 17.2bn to leverage EUR 21.3bn (123%) in 2021-2027",
    "evidence": "ECA: planned leverage lower than 2014-2020 (158%); shortfalls for some JUs - Global Health EDCTP3 partners' cash only EUR 15.6m (4% of EUR 400m target) by end-2024; SESAR 3/Eurocontrol and IHI also short. HE interim evaluation: JU projects have highest direct leverage factor (0.8) among HE actions.",
    "status": "partially measured",
-   "sources": "ECA 2025; SWD(2025) 110"
+   "sources": "ECA 2025; SWD(2025) 110",
+   "status_group": "partially measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "HE interim evaluation: partnerships contributed to new knowledge and EU leadership in key technologies; only a smaller number of JUs had an impact on accelerating uptake of innovative solutions. Based on partnership evaluations, not counterfactual.",
    "status": "partially measured",
-   "sources": "SWD(2025) 110"
+   "sources": "SWD(2025) 110",
+   "status_group": "partially measured"
   },
   {
    "type": "partnership criterion (Horizon Europe Regulation)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "308 new organisations joined partnerships 2022-2024, mostly EIT KICs; few newcomers in JUs; only three JUs have SMEs as members; about 15% of JU funding went to SMEs.",
    "status": "measured",
-   "sources": "SWD(2025) 110"
+   "sources": "SWD(2025) 110",
+   "status_group": "measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Too early; no ex-post measures of sector outcomes found. Predecessor (Horizon 2020) JUs covered in SWD(2024) 29.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -123,5 +128,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "Directive adopted May 2024; transposition deadline June 2027, so no Member State reporting under the Directive yet. Baseline exists from the joint Eurostat-FRA-EIGE EU gender-based violence survey (key results Nov 2024).",
    "status": "not measured",
-   "sources": "Directive 2024/1385; EU-GBV survey 2024"
+   "sources": "Directive 2024/1385; EU-GBV survey 2024",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "EUR 53.1-82.7bn",
    "evidence": "Not evaluated. Survey baseline: about 1 in 3 women in the EU (30.7%) report physical violence, threats and/or sexual violence in their lifetime.",
    "status": "not measured",
-   "sources": "SWD(2022) 62/63; EIGE 2024"
+   "sources": "SWD(2022) 62/63; EIGE 2024",
+   "status_group": "not measured"
   },
   {
    "type": "expected cost (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "EUR 5-6.6bn",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "SWD(2022) 63"
+   "sources": "SWD(2022) 63",
+   "status_group": "not measured"
   },
   {
    "type": "monitoring (memorandum)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Not yet due.",
    "status": "not measured",
-   "sources": "COM(2022) 105"
+   "sources": "COM(2022) 105",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -89,7 +93,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20261005124409/https://eige.europa.eu/newsroom/news/one-three-women-eu-have-experienced-violence"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

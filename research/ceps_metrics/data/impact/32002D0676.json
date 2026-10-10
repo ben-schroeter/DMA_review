@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "objective",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "14 harmonisation decisions for wireless broadband 2007-2015; 990 MHz harmonised by 2014 and up to 1,268 MHz by 2015, more than other world regions; all measures put to the committee received a positive opinion.",
    "status": "reported as activity",
-   "sources": "COM(2014) 228; SWD(2016) 313"
+   "sources": "COM(2014) 228; SWD(2016) 313",
+   "status_group": "reported as activity"
   },
   {
    "type": "target (RSPP 2012, built on the RSD)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "1,200 MHz",
    "evidence": "Harmonised: about 1,268 MHz; but Member States had on average assigned only 708 MHz in 2015 (+77% since 2010).",
    "status": "partially measured",
-   "sources": "SWD(2016) 313"
+   "sources": "SWD(2016) 313",
+   "status_group": "partially measured"
   },
   {
    "type": "outcome (2026 IA)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "5G pioneer bands deadline 31 Dec 2020",
    "evidence": "Assignment of 5G pioneer bands spanned over a decade; about half of Member States missed the 2020 deadline; Commission links late assignment to slower 5G coverage.",
    "status": "measured",
-   "sources": "SWD(2026) 13"
+   "sources": "SWD(2026) 13",
+   "status_group": "measured"
   }
  ],
  "literature": [
@@ -114,5 +118,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260327044123/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52026SC0013"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

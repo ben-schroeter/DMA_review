@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "headline forecast (proposal)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "up to EUR 160bn",
    "evidence": "Final regulation added only EUR 1.5bn new money (to the European Defence Fund). By March 2025: about EUR 6.3bn of cohesion funds reprogrammed and EUR 9.5bn of calls under Commission-managed programmes, EUR 5.1-5.2bn awarded.",
    "status": "reported as activity",
-   "sources": "COM(2023) 335; COM(2025) 421"
+   "sources": "COM(2023) 335; COM(2025) 421",
+   "status_group": "reported as activity"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Interim evaluation reports funds and 190 STEP Seals awarded; about 15% of cohesion reallocations for skills; no figures yet on enterprises, trainees or jobs; Commission says too early for impact evaluation.",
    "status": "reported as activity",
-   "sources": "COM(2025) 421"
+   "sources": "COM(2025) 421",
+   "status_group": "reported as activity"
   },
   {
    "type": "expected impact (LFS 1.4.3)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured. Seal projects had not yet received cohesion or RRF funding by March 2025; Seals concentrated in more developed regions.",
    "status": "not measured",
-   "sources": "COM(2025) 421"
+   "sources": "COM(2025) 421",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -91,5 +95,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20251116092010/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52025DC0421"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

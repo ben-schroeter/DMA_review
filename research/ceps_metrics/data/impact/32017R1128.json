@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "29m (2015) -> ~72m (2020)",
    "evidence": "Partially measured: Flash Eurobarometer (Feb 2019) found 32% of subscribers (49% of those who travelled) had tried to use their service in another Member State; providers report cross-border users are under 5% of their subscribers; COVID-19 travel restrictions reduced use. No headcount comparable to the forecast.",
    "status": "partially measured",
-   "sources": "SWD(2015) 270; Flash Eurobarometer 477a; SWD(2022) 173"
+   "sources": "SWD(2015) 270; Flash Eurobarometer 477a; SWD(2022) 173",
+   "status_group": "partially measured"
   },
   {
    "type": "monitoring (memorandum)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Measured once: 52% of respondents aware of portability; 58% of users satisfied (2019). Over 80% of surveyed providers and 23 of 32 consumer bodies received no complaints.",
    "status": "measured",
-   "sources": "Flash Eurobarometer 477a; SWD(2022) 173"
+   "sources": "Flash Eurobarometer 477a; SWD(2022) 173",
+   "status_group": "measured"
   },
   {
    "type": "monitoring (memorandum)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Survey-based: music, e-book and games providers already offered portability and faced no significant cost; audiovisual and sports providers had to adapt verification and infrastructure, costs reported as minor; SMEs found residence verification and data-protection compliance challenging. Some non-compliance: 10 providers limit portability to periods of 14 days to one year; some small providers unaware of the rules. No cost figures.",
    "status": "reported as activity",
-   "sources": "Visionary Analytics study (2022); SWD(2022) 173"
+   "sources": "Visionary Analytics study (2022); SWD(2022) 173",
+   "status_group": "reported as activity"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Study found no significant impact on rightholders' overall revenues (self-reported; no quantitative analysis).",
    "status": "partially measured",
-   "sources": "Visionary Analytics study (2022)"
+   "sources": "Visionary Analytics study (2022)",
+   "status_group": "partially measured"
   }
  ],
  "literature": [
@@ -169,5 +174,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

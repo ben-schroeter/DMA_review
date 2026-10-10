@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Not applicable: regulation not adopted (trilogues stalled in 2025-26, per secondary reports).",
    "status": "not measured",
-   "sources": "SWD(2023) 224"
+   "sources": "SWD(2023) 224",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "EUR 2.2-2.4bn one-off; EUR 147-465m a year recurring",
    "evidence": "Forecast only.",
    "status": "not measured",
-   "sources": "SWD(2023) 224"
+   "sources": "SWD(2023) 224",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "1-1.5% of EU GDP by 2030",
    "evidence": "Third-party estimate cited in the IA; not a Commission forecast of this regulation's effect.",
    "status": "not measured",
-   "sources": "SWD(2023) 224"
+   "sources": "SWD(2023) 224",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -66,7 +70,7 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20260517133706/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52023SC0224"
   },
   {
    "id": "ec-2023-psd2-review",
@@ -91,5 +95,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

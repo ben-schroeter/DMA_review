@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "monitoring indicator (memorandum)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Not applicable: regulation not adopted (Council position Dec 2025; Parliament mandate 2026; ECB targets issuance around 2029).",
    "status": "not measured",
-   "sources": "COM(2023) 369 memorandum"
+   "sources": "COM(2023) 369 memorandum",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "ECB: a EUR 3,000 holding limit caps supply at max ~EUR 1tn",
    "evidence": "Ex-ante simulations only: ECB (2025) estimates flight-to-safety outflows of EUR 156bn (EUR 500 limit) to EUR 699bn (EUR 3,000 limit; 8.2% of retail sight deposits); contained in business-as-usual.",
    "status": "not measured",
-   "sources": "SWD(2023) 233; ECB 2025; Adalid et al. 2022"
+   "sources": "SWD(2023) 233; ECB 2025; Adalid et al. 2022",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "PSPs up to EUR 3.6-6.8bn; merchants already accepting cards EUR 0.8-14bn",
    "evidence": "Contested ex-ante: bank-commissioned PwC study puts bank costs at ~EUR 18bn over four years; ECB counters with ~EUR 4-5.8bn (per secondary reports).",
    "status": "mixed evidence",
-   "sources": "SWD(2023) 233; PwC 2025"
+   "sources": "SWD(2023) 233; PwC 2025",
+   "status_group": "mixed evidence"
   }
  ],
  "literature": [
@@ -66,7 +70,7 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20261004132438/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52023SC0233"
   },
   {
    "id": "adalid-et-al-2022-ecb-op293",
@@ -137,5 +141,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

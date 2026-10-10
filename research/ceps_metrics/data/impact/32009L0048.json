@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "objective (2008 IA)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "No data on accidents or injuries; one in three toy samples inspected by market surveillance is non-compliant; chemical limits judged deficient (age limit 36 months, CMR derogations).",
    "status": "not measured",
-   "sources": "SWD(2020) 287"
+   "sources": "SWD(2020) 287",
+   "status_group": "not measured"
   },
   {
    "type": "objective (2008 IA)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Intra-EU toy exports rose about 60% after full application in 2013; number of toy companies +10% in 5 years (not attributed causally).",
    "status": "partially measured",
-   "sources": "SWD(2020) 287"
+   "sources": "SWD(2020) 287",
+   "status_group": "partially measured"
   },
   {
    "type": "cost (evaluation)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "One-off costs about 2% of annual turnover, recovered within about 3 years; recurring costs ~7% higher than predecessor; adaptations ~1% of turnover.",
    "status": "measured",
-   "sources": "SWD(2020) 287"
+   "sources": "SWD(2020) 287",
+   "status_group": "measured"
   },
   {
    "type": "expected impact (2023 IA)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "Health benefits EUR 240m-1.2bn/yr (endocrine disruptors alone); one-off costs EUR 23.5-397m",
    "evidence": "Not yet applicable.",
    "status": "not measured",
-   "sources": "SWD(2023) 269"
+   "sources": "SWD(2023) 269",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -123,5 +128,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "26 cybersecurity infrastructures (CyberHubs, incl. two cross-border) procured and first 12 tools deployed under Digital Europe, in line with targets.",
    "status": "measured (outputs)",
-   "sources": "COM(2025) 771"
+   "sources": "COM(2025) 771",
+   "status_group": "measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "25% by 2027",
    "evidence": "No data on market share found in Commission or ECCC reporting.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Not reported.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Network of 27 national coordination centres set up; stakeholders cite standardised practices and cross-border cooperation as main benefits. ECCC reached financial autonomy only in September 2024.",
    "status": "reported as activity",
-   "sources": "COM(2025) 771; ECA 2025"
+   "sources": "COM(2025) 771; ECA 2025",
+   "status_group": "reported as activity"
   },
   {
    "type": "evaluation clause (Article 38)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "No published Commission evaluation found (Oct 2026).",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -123,5 +128,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

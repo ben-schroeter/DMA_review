@@ -14,7 +14,8 @@
    "target_or_baseline": "Extraction 10%, processing 40%, recycling 25%; no more than 65% from a single third country",
    "evidence": "European Court of Auditors (Feb 2026) judges the EU unlikely to meet the 2030 benchmarks: targets are non-binding, unclear in basis, mining projects take up to two decades, and 10 of 26 energy-transition materials are not recycled at all.",
    "status": "mixed evidence",
-   "sources": "ECA SR 04/2026"
+   "sources": "ECA SR 04/2026",
+   "status_group": "mixed evidence"
   },
   {
    "type": "LFS indicator",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "47 EU Strategic Projects selected in March 2025 (expected capital investment EUR 22.5bn; 25 extraction, 24 processing, 10 recycling, 2 substitution), further third-country projects in June 2025 and a second call in Sept 2025. Investment actually made not reported.",
    "status": "reported as activity",
-   "sources": "Commission, March 2025"
+   "sources": "Commission, March 2025",
+   "status_group": "reported as activity"
   },
   {
    "type": "LFS indicator",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "ECA found imports from the 14 strategic-partner countries fell between 2020 and 2024 for around half of materials examined.",
    "status": "partially measured",
-   "sources": "ECA SR 04/2026"
+   "sources": "ECA SR 04/2026",
+   "status_group": "partially measured"
   },
   {
    "type": "LFS indicator",
@@ -41,7 +44,8 @@
    "target_or_baseline": "25% recycling benchmark",
    "evidence": "ECA: recycling still in its infancy; no Commission measurement yet.",
    "status": "partially measured",
-   "sources": "ECA SR 04/2026"
+   "sources": "ECA SR 04/2026",
+   "status_group": "partially measured"
   },
   {
    "type": "LFS indicator",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "No consolidated figures found.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -75,7 +80,7 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20250618162233/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52023SC0162"
   },
   {
    "id": "ec-2025-crma-strategic-projects",
@@ -123,5 +128,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260930163305/https://www.eca.europa.eu/en/publications/sr-2026-04"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

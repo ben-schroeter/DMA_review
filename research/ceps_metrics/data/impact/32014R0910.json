@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Measured: 19 schemes from 14 Member States by early 2021, covering 59% of the EU population. Commission list (updated Feb 2026) shows notified schemes for 24 of 27 Member States (none for Greece, Hungary, Ireland), plus Liechtenstein and Norway.",
    "status": "measured",
-   "sources": "COM(2021) 290; WK 163/2021; Commission eID overview"
+   "sources": "COM(2021) 290; WK 163/2021; Commission eID overview",
+   "status_group": "measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Measured once: 100 to 30,000 successful cross-border authentications a year, against millions domestically; only 14% of seven key public services for cross-border users offered eIDAS login (2020). No later series found.",
    "status": "measured",
-   "sources": "WK 163/2021 (Commission evaluation results)"
+   "sources": "WK 163/2021 (Commission evaluation results)",
+   "status_group": "measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Public: 67% of Member States could accept notified eIDs (2020). Private: 17 Member States had a national eID open to private providers but only 12 had notified one; evaluation found private-sector use very limited.",
    "status": "partially measured",
-   "sources": "SWD(2021) 130; WK 163/2021"
+   "sources": "SWD(2021) 130; WK 163/2021",
+   "status_group": "partially measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "202 active qualified trust service providers in 29 of 30 EU/EEA countries (2021), concentrated in Spain, France, Italy, Germany; evaluation found take-up of trust services increased but supervision and interpretation still diverge.",
    "status": "partially measured",
-   "sources": "SWD(2021) 130"
+   "sources": "SWD(2021) 130",
+   "status_group": "partially measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -59,7 +64,8 @@
    "target_or_baseline": "",
    "evidence": "Evaluation's baseline cost-benefit analysis: quantifiable costs so far higher than benefits, because eID uptake was too low for benefits to materialise; costs fall mainly on public authorities.",
    "status": "measured",
-   "sources": "COM(2021) 290; SWD(2021) 130"
+   "sources": "COM(2021) 290; SWD(2021) 130",
+   "status_group": "measured"
   }
  ],
  "literature": [
@@ -201,5 +207,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

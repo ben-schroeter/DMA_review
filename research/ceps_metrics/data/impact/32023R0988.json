@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "Baseline EUR 19.3bn/yr",
    "evidence": "Not evaluated (GPSR applies only since 13 Dec 2024; evaluation due 5 years after application).",
    "status": "not measured",
-   "sources": "SWD(2021) 168/169"
+   "sources": "SWD(2021) 168/169",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "No EU injury data series to track it; the IA itself could not quantify this for lack of injury data.",
    "status": "not measured",
-   "sources": "SWD(2021) 169"
+   "sources": "SWD(2021) 169",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "No ex-post cost measurement found.",
    "status": "not measured",
-   "sources": "SWD(2021) 169"
+   "sources": "SWD(2021) 169",
+   "status_group": "not measured"
   },
   {
    "type": "LFS objective (1.4.2)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "2025: record 4,671 Safety Gate alerts (+13%), 5,794 follow-up actions (+35%); over 1,200 online marketplaces registered. Activity rise, not proof of safer markets. Consumer-group tests in 2025 still found about two-thirds of Temu and 73% of Shein products non-compliant.",
    "status": "reported as activity",
-   "sources": "Commission Safety Gate report 2025; Euroconsumers 2025"
+   "sources": "Commission Safety Gate report 2025; Euroconsumers 2025",
+   "status_group": "reported as activity"
   }
  ],
  "literature": [
@@ -123,5 +128,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260919053429/https://www.euroconsumers.org/systemic-failures-in-product-compliance-on-temu-and-shein/"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

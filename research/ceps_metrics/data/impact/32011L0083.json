@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "Baseline: 60% of traders saw extra costs of complying with different national consumer laws as an important obstacle to cross-border B2C trade (Eurobarometer 2008)",
    "evidence": "Not measured. The 2017 evaluation found too little data for definitive conclusions on business costs. The UK ex-ante assessment put the harmonisation benefit at about GBP 358m a year for UK business; the UK's 2019 statutory review did not quantify it. Eurostat: 19.1% of EU individuals bought online from sellers in other EU countries (3 months, 2023), not attributable to the CRD.",
    "status": "not measured",
-   "sources": "SEC(2008) 2544/2545; SWD(2017) 169/170; BIS 2013 IA; UK statutory report 2019; Eurostat isoc_ec_ibos"
+   "sources": "SEC(2008) 2544/2545; SWD(2017) 169/170; BIS 2013 IA; UK statutory report 2019; Eurostat isoc_ec_ibos",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Partially measured in the 2017 evaluation: right of withdrawal the most frequent cross-border complaint topic (79% of European Consumer Centres say consumers complain often); in mystery shopping 25% of online shops selling goods gave no withdrawal-form information; only 13% of traders aware of the new digital-content rules. 2024 Digital Fairness Fitness Check flags information duties and withdrawal right for simplification.",
    "status": "partially measured",
-   "sources": "SWD(2017) 169; SWD(2024) 231"
+   "sources": "SWD(2017) 169; SWD(2024) 231",
+   "status_group": "partially measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "2024 Fitness Check: costs of UCPD, CRD and UCTD together about EUR 511-737m a year; only 10-18% of traders report high costs. In the 2017 CRD survey a majority of traders said information requirements raised costs, and 44% cited reimbursement rules tied to withdrawal.",
    "status": "partially measured",
-   "sources": "SWD(2024) 231; SWD(2017) 169"
+   "sources": "SWD(2024) 231; SWD(2017) 169",
+   "status_group": "partially measured"
   }
  ],
  "literature": [
@@ -183,5 +187,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

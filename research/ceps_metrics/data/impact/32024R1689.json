@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "specific objective",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "specific objective",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "specific objective",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Not yet reportable: high-risk obligations not yet applicable; the 2026 AI omnibus postponed them to 2 Dec 2027 (Annex III) and 2 Aug 2028 (Annex I).",
    "status": "not yet measurable",
-   "sources": "AI omnibus (2026)"
+   "sources": "AI omnibus (2026)",
+   "status_group": "not measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -59,7 +64,8 @@
    "target_or_baseline": "",
    "evidence": "No Commission series linked to the Act found yet.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -68,7 +74,8 @@
    "target_or_baseline": "",
    "evidence": "Measurable via Eurostat: 7.7% (2021), 8.1% (2023), 13.5% (2024), about 20% (2025) of EU enterprises with 10+ staff; 55% of large firms in 2025. Rise cannot be attributed to the Act (main obligations not yet applicable; generative-AI boom).",
    "status": "measured (not attributable)",
-   "sources": "Eurostat"
+   "sources": "Eurostat",
+   "status_group": "measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -77,7 +84,8 @@
    "target_or_baseline": "",
    "evidence": "Not evaluated. Start-up surveys put the high-risk share at 33-50% of their systems, far above the 5-15% assumed; obligations later postponed and simplified.",
    "status": "not measured (contested assumptions)",
-   "sources": "SWD(2021) 85; appliedAI/Digital Poland survey"
+   "sources": "SWD(2021) 85; appliedAI/Digital Poland survey",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -173,5 +181,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260514221615/https://digitalpoland.org/en/blog/2022/12/artificial-intelligence-act-will-reduce-the-competitiveness-of-the-european-ai-ecosystem"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

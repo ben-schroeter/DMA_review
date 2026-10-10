@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "Partial: authorities report non-compliance in about 10% of checks (11% in 2019, 9% in 2022), 12% for products under Article 4; no EU-wide compliance-rate series. Commission reports 4.6bn low-value parcels imported in 2024, straining controls.",
    "status": "partially measured",
-   "sources": "COM(2025) 63; COM(2025) 37"
+   "sources": "COM(2025) 63; COM(2025) 37",
+   "status_group": "partially measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Joint actions run through the Union Product Compliance Network (e.g. 2023 online check of 215 offers); no aggregate count found.",
    "status": "reported as activity",
-   "sources": "COM(2025) 63"
+   "sources": "COM(2025) 63",
+   "status_group": "reported as activity"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Not reported in available documents; full evaluation (due July 2026) not found.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Very low economic operator response to the Article 4 study survey; no measure.",
    "status": "not measured",
-   "sources": "COM(2025) 63"
+   "sources": "COM(2025) 63",
+   "status_group": "not measured"
   },
   {
    "type": "specific provision (Article 4)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Article 4 report: operator missing in 7% of checks and wrong in 5%; in a 2023 online joint action only 34% of indicated operators could be confirmed; half of authorities saw no change in compliance and none clearly attributable.",
    "status": "measured (low compliance online)",
-   "sources": "COM(2025) 63"
+   "sources": "COM(2025) 63",
+   "status_group": "measured"
   },
   {
    "type": "expected cost (impact assessment)",
@@ -59,7 +64,8 @@
    "target_or_baseline": "",
    "evidence": "Not evaluated.",
    "status": "not measured",
-   "sources": "SWD(2017) 467"
+   "sources": "SWD(2017) 467",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -132,5 +138,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20261001140548/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52025DC0037"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

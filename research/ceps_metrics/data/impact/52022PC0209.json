@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "Qualitative: number of reports expected to increase; reduced fragmentation",
    "evidence": "Not measurable: Regulation not adopted. EPRS complementary IA found tools to detect new material and grooming substantially less accurate than for known material.",
    "status": "not measured",
-   "sources": "SWD(2022) 210; EPRS 2023"
+   "sources": "SWD(2022) 210; EPRS 2023",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "Providers EUR 1.6bn one-off + EUR 1.5bn/yr; public authorities EUR 5.4m one-off + EUR 825.6m/yr; EU Centre EUR 5m one-off + EUR 25.7m/yr",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "SWD(2022) 210"
+   "sources": "SWD(2022) 210",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "Safeguards to ensure fair balance and respect prohibition of general monitoring",
    "evidence": "Contested ex ante: EDPB-EDPS and EPRS concluded detection orders risk generalised scanning and would likely fail the proportionality test for new material and grooming.",
    "status": "mixed evidence",
-   "sources": "EDPB-EDPS 2022; EPRS 2023"
+   "sources": "EDPB-EDPS 2022; EPRS 2023",
+   "status_group": "mixed evidence"
   }
  ],
  "literature": [
@@ -114,5 +118,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

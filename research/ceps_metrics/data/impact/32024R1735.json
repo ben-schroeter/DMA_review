@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "benchmark (Regulation)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "At least 40% by 2030; 15% of world production by 2040",
    "evidence": "No published assessment of progress against the benchmark found; Bruegel criticised the 40% benchmark as poorly defined.",
    "status": "not measured",
-   "sources": "Regulation (EU) 2024/1735; Tagliapietra et al. 2023"
+   "sources": "Regulation (EU) 2024/1735; Tagliapietra et al. 2023",
+   "status_group": "not measured"
   },
   {
    "type": "target (Regulation)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "50 Mt per year by 2030",
    "evidence": "Commission to report annually; no figures verified.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (Commission analysis)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "around EUR 92bn to 2030 (reported)",
    "evidence": "Not tracked against the Act.",
    "status": "not measured",
-   "sources": "SWD(2023) 68 (figure as reported secondary)"
+   "sources": "SWD(2023) 68 (figure as reported secondary)",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -114,5 +118,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

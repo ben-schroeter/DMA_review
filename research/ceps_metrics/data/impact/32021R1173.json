@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "Around 2022 (2017 HPC strategy, cited in IA)",
    "evidence": "Delayed: JUPITER, the first EU exascale system, ranked 4th on TOP500 (2025) and its JEDI module 1st on Green500; 19 of 30 planned procurements done by end-2024.",
    "status": "measured",
-   "sources": "SWD(2025) 420; COM(2025) 771"
+   "sources": "SWD(2025) 420; COM(2025) 771",
+   "status_group": "measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "19 AI Factories being deployed; JUPITER made available to first users end-2024; usage statistics for industry not reported in sources reviewed.",
    "status": "reported as activity",
-   "sources": "COM(2025) 771"
+   "sources": "COM(2025) 771",
+   "status_group": "reported as activity"
   },
   {
    "type": "legal target (Regulation)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "EUR 900m under Horizon Europe; EUR 420m minimum under Horizon 2020",
    "evidence": "ECA: private members contributed only about EUR 19.8m against the EUR 420m Horizon 2020 minimum; risk to the much larger 2021-2027 target rated medium.",
    "status": "measured",
-   "sources": "ECA 2025"
+   "sources": "ECA 2025",
+   "status_group": "measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "JUPITER installed by European companies; no systematic market-share data found.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -123,5 +128,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

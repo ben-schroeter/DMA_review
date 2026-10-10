@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "monitoring promise (memorandum)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "baseline at entry into force",
    "evidence": "No baseline or monitoring data found.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Not quantified ex ante or measured ex post.",
    "status": "not measured",
-   "sources": "SWD(2016) 301"
+   "sources": "SWD(2016) 301",
+   "status_group": "not measured"
   },
   {
    "type": "review question (Directive recital 24)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Review report not found.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -68,5 +72,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20240714024358/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52016SC0302"
   }
- ]
+ ],
+ "evidence_level": "none"
 }

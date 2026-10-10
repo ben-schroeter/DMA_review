@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "Baseline 37% success (2015)",
    "evidence": "2019 mystery shopping (about 9,000 websites): rerouting/denial of access decreased, registration blocking halved, success rate 'slightly increased'; but when cross-border delivery was requested only 1 in 3 attempts succeeded, as delivery refusals (not banned) affected more than 50% of attempts. ECA (2025): geo-blocking still persists.",
    "status": "partially measured",
-   "sources": "COM(2020) 766; ECA SR 03/2025"
+   "sources": "COM(2020) 766; ECA SR 03/2025",
+   "status_group": "partially measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "+1.1% / +0.4%",
    "evidence": "JRC event study using website traffic finds cross-border intra-EU e-commerce traffic up 9.2-13% after Dec 2018; no study of actual sales volumes.",
    "status": "partially measured",
-   "sources": "Alaveras, Duch-Brown & Martens 2020"
+   "sources": "Alaveras, Duch-Brown & Martens 2020",
+   "status_group": "partially measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "-0.5% / -0.6%; +0.8% consumer surplus",
    "evidence": "Not measured ex post. Theory (Bourreau & Manenti 2023) predicts lower prices short-run but possibly lower investment and welfare long-run.",
    "status": "not measured",
-   "sources": "SWD(2016) 174; Bourreau & Manenti 2023"
+   "sources": "SWD(2016) 174; Bourreau & Manenti 2023",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Slow empowerment of national enforcement bodies (2020 review); ECA found penalties ranging from EUR 26 to EUR 5m and unclear jurisdiction.",
    "status": "reported as activity",
-   "sources": "COM(2020) 766; ECA SR 03/2025"
+   "sources": "COM(2020) 766; ECA SR 03/2025",
+   "status_group": "reported as activity"
   }
  ],
  "literature": [
@@ -192,5 +197,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "moderate"
 }

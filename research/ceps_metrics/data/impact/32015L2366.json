@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "specific objective",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "specific objective",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "specific objective",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "specific objective",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "specific objective",
@@ -59,7 +64,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "specific objective",
@@ -68,7 +74,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -77,7 +84,8 @@
    "target_or_baseline": "",
    "evidence": "Done: Commission review COM(2023) 365 and evaluation (with SWD(2023) 231). Finds 'varying degrees of success'.",
    "status": "measured (qualitative review)",
-   "sources": "COM(2023) 365"
+   "sources": "COM(2023) 365",
+   "status_group": "measured"
   },
   {
    "type": "expected impact (LFS 1.4.3)",
@@ -86,7 +94,8 @@
    "target_or_baseline": "",
    "evidence": "Clear success: SCA-authenticated remote card payments show 70-80% lower fraud than non-SCA ones.",
    "status": "measured",
-   "sources": "COM(2023) 365"
+   "sources": "COM(2023) 365",
+   "status_group": "measured"
   },
   {
    "type": "expected impact (LFS 1.4.3)",
@@ -95,7 +104,8 @@
    "target_or_baseline": "",
    "evidence": "Mixed: hundreds of new non-bank providers with millions of clients, but open-banking uptake uneven and data-access interfaces of variable quality; banks report high API costs. Cross-country evidence: open-banking policies spur fintech investment (Babina et al.).",
    "status": "mixed evidence",
-   "sources": "COM(2023) 365; Babina et al. 2024"
+   "sources": "COM(2023) 365; Babina et al. 2024",
+   "status_group": "mixed evidence"
   },
   {
    "type": "expected impact (LFS 1.4.3)",
@@ -104,7 +114,8 @@
    "target_or_baseline": "",
    "evidence": "Not achieved yet: anticipated cost reductions for merchants from cheaper payment methods 'have not yet fully materialised'; card systems remain largely national; no pan-European solution yet.",
    "status": "not achieved (per Commission)",
-   "sources": "COM(2023) 365"
+   "sources": "COM(2023) 365",
+   "status_group": "measured"
   },
   {
    "type": "expected impact (LFS 1.4.3)",
@@ -113,7 +124,8 @@
    "target_or_baseline": "",
    "evidence": "Surcharging ban covers 95% of EU payments; Commission sees no need for further alignment.",
    "status": "measured",
-   "sources": "COM(2023) 365"
+   "sources": "COM(2023) 365",
+   "status_group": "measured"
   }
  ],
  "literature": [
@@ -209,5 +221,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "moderate"
 }

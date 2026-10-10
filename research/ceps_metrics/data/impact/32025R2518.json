@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "objective (memorandum)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Baseline only (Commission 2nd GDPR report, data to Nov 2023): ~2,400 cross-border case entries; ~1,500 lead-authority draft decisions, 990 final infringement decisions; median complaint handling 1-12 months across authorities. No post-application data.",
    "status": "not measured",
-   "sources": "COM(2024) 357"
+   "sources": "COM(2024) 357",
+   "status_group": "not measured"
   },
   {
    "type": "objective (memorandum)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured. Critics (noyb) argued the trilogue text created many procedure types and could lengthen cases; no evidence either way yet.",
    "status": "not measured",
-   "sources": "Euronews Apr 2025; EDPB-EDPS Joint Opinion 01/2023"
+   "sources": "Euronews Apr 2025; EDPB-EDPS Joint Opinion 01/2023",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -80,7 +83,7 @@
    "access": "open",
    "interested_party": "The regulators who apply the rules (the proposal followed the EDPB's own 2022 wish list)",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20260306021907/https://www.edps.europa.eu/system/files/2023-09/EDPS-EDPB-2023-10-Joint-Opinion-Procedural-Rules-GDPR_EN.pdf"
   },
   {
    "id": "euronews-2025-noyb-procedural",
@@ -103,7 +106,8 @@
    "access": "open",
    "interested_party": "noyb files many cross-border GDPR complaints",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20251226081717/https://www.euronews.com/next/2025/04/18/eu-plans-to-reform-data-protection-rules-are-tangled-mess-privacy-advocates-warn"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

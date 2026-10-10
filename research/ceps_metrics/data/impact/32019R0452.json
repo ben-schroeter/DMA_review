@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "Delivered: evaluation SWD(2024) 23 (Jan 2024) plus five annual reports (latest COM(2025) 632). Led to a revised Regulation agreed Dec 2025 and adopted in 2026, replacing 2019/452.",
    "status": "reported as activity",
-   "sources": "SWD(2024) 23/24; COM(2025) 632"
+   "sources": "SWD(2024) 23/24; COM(2025) 632",
+   "status_group": "reported as activity"
   },
   {
    "type": "objective (proposal)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Measured as activity: 24 of 27 Member States had screening laws by end-2024 (ECA counted six without in 2023). In 2024, 477 notifications from 21 Member States; Commission closed 92% in Phase 1 and issued opinions in under 2%. National authorities handled 3,136 cases; of formally screened cases 86% cleared unconditionally, 9% conditioned, ~1% blocked. ECA judged the framework only 'partially effective' with 'blind spots'.",
    "status": "reported as activity",
-   "sources": "COM(2025) 632; ECA SR 27/2023; SWD(2024) 23"
+   "sources": "COM(2025) 632; ECA SR 27/2023; SWD(2024) 23",
+   "status_group": "reported as activity"
   },
   {
    "type": "objective (proposal)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Mixed. The Commission's 2024 evaluation states the Regulation 'has not had chilling effects' on FDI inflows (not backed by a causal test). Independent staggered DiD evidence finds national screening cuts cross-border M&A in newly screened sectors by about 12-16% (Eichenauer & Wang 2024), and EU countries adopting screening in line with the EU framework saw larger declines in M&A (Mau 2023). EU FDI inflows fell 23% in 2023 and 8.4% in 2024, driven by many factors.",
    "status": "mixed evidence",
-   "sources": "SWD(2024) 24; Eichenauer & Wang 2024; Mau 2023; COM(2025) 632"
+   "sources": "SWD(2024) 24; Eichenauer & Wang 2024; Mau 2023; COM(2025) 632",
+   "status_group": "mixed evidence"
   },
   {
    "type": "objective (proposal)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Evaluation found burden 'reasonable' based on stakeholder views; ECA found many low-risk or ineligible notifications overburden the mechanism. Not quantified.",
    "status": "partially measured",
-   "sources": "SWD(2024) 24; ECA SR 27/2023"
+   "sources": "SWD(2024) 24; ECA SR 27/2023",
+   "status_group": "partially measured"
   }
  ],
  "literature": [
@@ -183,5 +187,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "moderate"
 }

@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "EUR 54-115m over 5 years",
    "evidence": "Regulation applies only from 20 May 2026; no data yet.",
    "status": "not measured",
-   "sources": "SWD(2022) 349"
+   "sources": "SWD(2022) 349",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "> EUR 1 480m over first 5 years",
    "evidence": "No data yet.",
    "status": "not measured",
-   "sources": "SWD(2022) 349"
+   "sources": "SWD(2022) 349",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Registration and data-sharing obligations applicable since 20 May 2026; no published figures on data flows or compliance found.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -68,5 +72,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20251007083040/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52022SC0349"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

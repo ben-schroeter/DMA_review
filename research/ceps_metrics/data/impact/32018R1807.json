@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "evaluation question (memorandum)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Not quantified. The 2026 evaluation support study finds limited effectiveness in removing localisation requirements, hampered by the national-security exemption and uncertainty about mixed data sets.",
    "status": "mixed evidence",
-   "sources": "Open Evidence et al. 2026 study"
+   "sources": "Open Evidence et al. 2026 study",
+   "status_group": "mixed evidence"
   },
   {
    "type": "evaluation question (memorandum)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "No publicly reported cases under the Article 5 cooperation or penalty mechanisms; authorities report low demand.",
    "status": "reported as activity (none)",
-   "sources": "SWD(2025) 836"
+   "sources": "SWD(2025) 836",
+   "status_group": "reported as activity"
   },
   {
    "type": "evaluation question (memorandum)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Codes of conduct had limited uptake and were superseded by binding switching rules in the Data Act (2023); Commission calls Article 6 practically obsolete.",
    "status": "not achieved (superseded)",
-   "sources": "SWD(2025) 836"
+   "sources": "SWD(2025) 836",
+   "status_group": "measured"
   },
   {
    "type": "evaluation question (memorandum)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Consultation: fewer than 4 in 10 respondents see any objective fully met; weakest scores on trust/security and switching; about half have little or no familiarity with the Regulation.",
    "status": "partially measured (opinion survey)",
-   "sources": "SWD(2025) 836"
+   "sources": "SWD(2025) 836",
+   "status_group": "partially measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -59,7 +64,8 @@
    "target_or_baseline": "up to EUR 8bn/yr",
    "evidence": "Never evaluated.",
    "status": "not measured",
-   "sources": "SWD(2017) 304; ECIPE 2016"
+   "sources": "SWD(2017) 304; ECIPE 2016",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -155,5 +161,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

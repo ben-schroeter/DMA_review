@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment, joint with Digital Content)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "+5 pp",
    "evidence": "Not evaluated.",
    "status": "not measured",
-   "sources": "SWD(2015) 274"
+   "sources": "SWD(2015) 274",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment, joint with Digital Content)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Not evaluated.",
    "status": "not measured",
-   "sources": "SWD(2015) 274"
+   "sources": "SWD(2015) 274",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment, joint with Digital Content)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "EUR 4bn/yr",
    "evidence": "Not evaluated.",
    "status": "not measured",
-   "sources": "SWD(2015) 274"
+   "sources": "SWD(2015) 274",
+   "status_group": "not measured"
   },
   {
    "type": "expected cost (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Not evaluated.",
    "status": "not measured",
-   "sources": "SWD(2015) 275"
+   "sources": "SWD(2015) 275",
+   "status_group": "not measured"
   },
   {
    "type": "later amendment",
@@ -59,7 +64,8 @@
    "target_or_baseline": "",
    "evidence": "The repair impact assessment reviewed how the remedies work but did not evaluate the Directive's market effects; several Member States said it was too early as the rules had only just applied.",
    "status": "reported as activity",
-   "sources": "SWD(2023) 59"
+   "sources": "SWD(2023) 59",
+   "status_group": "reported as activity"
   }
  ],
  "literature": [
@@ -109,5 +115,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20261002210650/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52023SC0059"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

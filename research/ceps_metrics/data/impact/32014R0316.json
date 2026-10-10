@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "evaluation question",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "2024 evaluation: rules 'largely meet their objectives', providing legal certainty and lower compliance costs, but market-share thresholds hard to apply (especially early-stage licensing) and data licensing/licensing negotiation groups not covered. Based on consultation, not measured outcomes.",
    "status": "reported as activity",
-   "sources": "SWD(2024) 268"
+   "sources": "SWD(2024) 268",
+   "status_group": "reported as activity"
   },
   {
    "type": "expected impact (impact assessment, successor TTBER)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "-15 to -40% (forecast)",
    "evidence": "Forecast only; new TTBER applies from May 2026.",
    "status": "not measured",
-   "sources": "SWD(2026) 114/116"
+   "sources": "SWD(2026) 114/116",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment, successor TTBER)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "up to -33% (forecast)",
    "evidence": "Forecast only.",
    "status": "not measured",
-   "sources": "SWD(2026) 114/116"
+   "sources": "SWD(2026) 114/116",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -91,5 +95,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

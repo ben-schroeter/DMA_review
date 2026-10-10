@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "Your Europe user survey: 77% of businesses and 76% of citizens found what they were looking for (2023 report).",
    "status": "measured",
-   "sources": "COM(2023) 534"
+   "sources": "COM(2023) 534",
+   "status_group": "measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Your Europe ~43 million visits in 2022 (third most visited Commission site); national SDG pages >100 million visits a year in 2021-2022.",
    "status": "measured",
-   "sources": "COM(2023) 534"
+   "sources": "COM(2023) 534",
+   "status_group": "measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "92.5% of citizens and 90.3% of businesses rated the portal satisfactory or better; assistance services 4.3/5 average from ~3,200 feedbacks (self-selected respondents).",
    "status": "measured",
-   "sources": "COM(2023) 534"
+   "sources": "COM(2023) 534",
+   "status_group": "measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "21 procedures fully online by end-2023",
    "evidence": "eGovernment Benchmark (preliminary, 2023): SDG procedures 84% completable online by nationals but only 47% by cross-border users; Once-Only Technical System still being rolled out.",
    "status": "partially measured",
-   "sources": "COM(2023) 534"
+   "sources": "COM(2023) 534",
+   "status_group": "partially measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "EUR 11-55bn a year (indicative)",
    "evidence": "Not measured; the Commission's only ex-post figure is about EUR 2.5m a year in avoided legal-advice costs for Your Europe business users.",
    "status": "not measured",
-   "sources": "SWD(2017) 213/214; COM(2023) 534"
+   "sources": "SWD(2017) 213/214; COM(2023) 534",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -123,5 +128,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "moderate"
 }

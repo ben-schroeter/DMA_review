@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "evaluation question",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "2019 evaluation: benefits largely unmeasured; the few monetised estimates summed to about EUR 620m. 2025 evaluation: estimated benefits around EUR 6.8bn a year (EUR 1.2bn from automatic exchange under DAC1/DAC2, EUR 5.6bn from country-by-country reporting under DAC4), based on a contractor study and Member State estimates.",
    "status": "partially measured",
-   "sources": "SWD(2019) 327; COM(2025) 695"
+   "sources": "SWD(2019) 327; COM(2025) 695",
+   "status_group": "partially measured"
   },
   {
    "type": "evaluation question",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "2019: cumulative cost about EUR 230m (EUR 90m Member States, EUR 140m financial institutions). 2025: recurring costs about EUR 646m a year, EUR 604m borne by business (EUR 550m DAC2 reporting).",
    "status": "measured",
-   "sources": "SWD(2019) 327; COM(2025) 695"
+   "sources": "SWD(2019) 327; COM(2025) 695",
+   "status_group": "measured"
   },
   {
    "type": "evaluation question",
@@ -41,7 +44,8 @@
    "target_or_baseline": "Target: 100% matching",
    "evidence": "5-15% of DAC1-4 data still cannot be matched to taxpayers; Member States do not systematically monitor or publish outcomes (ECA 2021). TADEUS KPIs agreed but not binding.",
    "status": "partially measured",
-   "sources": "COM(2025) 695; ECA SR 03/2021"
+   "sources": "COM(2025) 695; ECA SR 03/2021",
+   "status_group": "partially measured"
   },
   {
    "type": "evaluation question",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Independent difference-in-differences study of the OECD Common Reporting Standard (implemented in the EU by DAC2) finds an 11.5% fall in cross-border deposits in tax havens, but relocation to non-participating jurisdictions (notably the US).",
    "status": "measured",
-   "sources": "Casi, Spengel & Stage 2020"
+   "sources": "Casi, Spengel & Stage 2020",
+   "status_group": "measured"
   }
  ],
  "literature": [
@@ -146,5 +151,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "moderate"
 }

@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "objective",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "ECA 2012: Code not yet fully implemented, weak verification and enforcement. 2013-15 peer reviews: 707 recommendations (65 to achieve compliance), professional independence a recurring issue.",
    "status": "partially measured",
-   "sources": "ECA SR 12/2012; COM(2016) 114"
+   "sources": "ECA SR 12/2012; COM(2016) 114",
+   "status_group": "partially measured"
   },
   {
    "type": "expected impact (2023 IA, amendment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "Benefits EUR 1.5bn/yr (EUR 577m to business) vs costs EUR 757m/yr",
    "evidence": "Amendment adopted as Regulation (EU) 2024/3018; evaluation due five years after implementation.",
    "status": "not measured",
-   "sources": "SWD(2023) 240"
+   "sources": "SWD(2023) 240",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -105,5 +108,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260223065025/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52023SC0241"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

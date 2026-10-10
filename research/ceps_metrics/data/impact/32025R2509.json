@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "EUR 240m-1.2bn per year",
    "evidence": "Not measured; chemical bans apply from 2030.",
    "status": "not measured",
-   "sources": "SWD(2023) 270"
+   "sources": "SWD(2023) 270",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "Industry savings EUR 13-20m/yr on inspections and EUR 2.6-3.9m/yr from digital information; costs EUR 18m one-off + EUR 10.5m/yr for the passport",
    "evidence": "Baseline only. Toys were 15% of the record 4,137 Safety Gate alerts in 2024 (second after cosmetics). Industry test purchases found 80% of 100+ toys from third-party sellers on 10 marketplaces failed EU rules (2024).",
    "status": "not measured",
-   "sources": "Safety Gate 2024; TIE 2024"
+   "sources": "Safety Gate 2024; TIE 2024",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "EUR 23.5-397m one-off; EUR 249-367m of products affected (of EUR 6.56bn industry turnover)",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "SWD(2023) 270"
+   "sources": "SWD(2023) 270",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -66,7 +70,7 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20231210004816/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52023SC0270"
   },
   {
    "id": "ec-2025-safety-gate-2024",
@@ -114,5 +118,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260807081840/https://www.toyindustries.eu/80-of-toys-bought-from-third-party-traders-on-online-marketplaces-fail-eu-safety-standards-and-could-be-a-danger-to-children/"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

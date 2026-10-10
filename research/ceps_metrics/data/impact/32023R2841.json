@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "IICB 2025 report: Union entities set up risk-management frameworks and completed maturity and risk assessments; all milestones foreseen for 2025 completed on time. Aggregate maturity scores not published.",
    "status": "reported as activity",
-   "sources": "IICB annual report 2025"
+   "sources": "IICB annual report 2025",
+   "status_group": "reported as activity"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "Baseline: significant incidents rose more than tenfold 2018-2021",
    "evidence": "8 significant incidents confirmed for 2025 as of early November, fewer than in 2024; CERT-EU analysed over 800 malicious activities in depth; threat level 'very high'.",
    "status": "partially measured",
-   "sources": "IICB annual report 2025; ECA SR 05/2022"
+   "sources": "IICB annual report 2025; ECA SR 05/2022",
+   "status_group": "partially measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "No spending share reported; IICB notes an internal assessment that cybersecurity staff would need to rise by about 75% by 2027, which may be hard to achieve.",
    "status": "not measured",
-   "sources": "IICB annual report 2025"
+   "sources": "IICB annual report 2025",
+   "status_group": "not measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "CERT-EU notified all significant incidents to national counterparts as required; participates in CSIRTs Network.",
    "status": "reported as activity",
-   "sources": "IICB annual report 2025"
+   "sources": "IICB annual report 2025",
+   "status_group": "reported as activity"
   }
  ],
  "literature": [
@@ -100,5 +105,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260928225406/https://cert.europa.eu/iicb/annual-report-2025/"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

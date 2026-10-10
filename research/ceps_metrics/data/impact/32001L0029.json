@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "objective (proposal / recitals)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Commission-commissioned study (IViR 2007) found the harmonising effect of the optional list of exceptions 'very modest at best', producing a 'mosaic' of national rules; the Commission's own 2007 review confirmed very diverse national provisions. The 2016 copyright impact assessment again cited legal uncertainty over exceptions (teaching, text and data mining, preservation) as a major problem, leading to new mandatory exceptions in Directive 2019/790.",
    "status": "mixed evidence",
-   "sources": "IViR 2007; SEC(2007) 1556; SWD(2016) 301"
+   "sources": "IViR 2007; SEC(2007) 1556; SWD(2016) 301",
+   "status_group": "mixed evidence"
   },
   {
    "type": "objective (proposal / recitals)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Never measured quantitatively. The IViR evaluation concluded the Directive had 'at best only partly achieved' its goal of promoting growth and innovation in online content services. No causal study isolates the Directive's effect on creative output or investment.",
    "status": "not measured",
-   "sources": "IViR 2007"
+   "sources": "IViR 2007",
+   "status_group": "not measured"
   },
   {
    "type": "objective (proposal / recitals)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "IViR found the DRM rules created 'confusion, legal uncertainty and disharmonisation'; Member States chose widely different mechanisms to safeguard exceptions. Independent evidence from the music industry (Zhang 2018) shows that dropping DRM raised digital sales by about 10%, suggesting DRM did not support sales as assumed.",
    "status": "mixed evidence",
-   "sources": "IViR 2007; SEC(2007) 1556; Zhang 2018"
+   "sources": "IViR 2007; SEC(2007) 1556; Zhang 2018",
+   "status_group": "mixed evidence"
   },
   {
    "type": "expected impact (implicit)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Cross-country bibliometric evidence links copyright regimes that require rightholder consent for data mining (as in most EU states under the InfoSoc list) to a markedly smaller share of data-mining research output (Handke et al. 2015).",
    "status": "partially measured",
-   "sources": "Handke, Guibault & Vallbe 2015"
+   "sources": "Handke, Guibault & Vallbe 2015",
+   "status_group": "partially measured"
   }
  ],
  "literature": [
@@ -169,5 +174,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

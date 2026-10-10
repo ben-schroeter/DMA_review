@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "By 31 May 2025 only three authorised (CSD Prague, 21X AG, 360X AG) with minimal live trading activity; growing applicant interest reported.",
    "status": "measured",
-   "sources": "ESMA 2025"
+   "sources": "ESMA 2025",
+   "status_group": "measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured; ESMA finds current thresholds restrict participation and cites lack of interoperability and access to central bank money. Commission proposed in Dec 2025 to make the regime permanent and lift the aggregate cap from EUR 6bn to EUR 100bn.",
    "status": "not measured",
-   "sources": "ESMA 2025; SWD(2025) 943"
+   "sources": "ESMA 2025; SWD(2025) 943",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Not evaluated.",
    "status": "not measured",
-   "sources": "SWD(2020) 202"
+   "sources": "SWD(2020) 202",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -114,5 +118,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260225043623/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025SC0943"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

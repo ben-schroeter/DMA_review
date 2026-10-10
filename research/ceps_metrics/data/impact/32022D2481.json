@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "2030 target (Article 4)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "100% by 2030",
    "evidence": "Basic 5G covers 96.8% of households (2026); fibre-to-the-premises 69% and very-high-capacity networks 82% (2025 report) - FTTP 'not enough to reach 100% by 2030'; stand-alone 5G lagging.",
    "status": "measured",
-   "sources": "COM(2025) 290; Commission news 17 June 2026"
+   "sources": "COM(2025) 290; Commission news 17 June 2026",
+   "status_group": "measured"
   },
   {
    "type": "2030 target (Article 4)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "75% by 2030",
    "evidence": "2026: 46.7% of firms use cloud, 39.9% data analytics, nearly 20% AI; AI, cloud and data analytics progress rated 'deeply unsatisfactory' in 2025.",
    "status": "measured",
-   "sources": "COM(2025) 290; Commission news 17 June 2026"
+   "sources": "COM(2025) 290; Commission news 17 June 2026",
+   "status_group": "measured"
   },
   {
    "type": "2030 target (Article 4)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "80%; 20m by 2030",
    "evidence": "More than 60% have at least basic skills (2026); ICT specialist shortages and gender gap persist; both rated deeply unsatisfactory in 2025.",
    "status": "measured",
-   "sources": "COM(2025) 290; Commission news 17 June 2026"
+   "sources": "COM(2025) 290; Commission news 17 June 2026",
+   "status_group": "measured"
   },
   {
    "type": "2030 target (Article 4)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "20% by 2030",
    "evidence": "About 10% of the global market at the programme's launch; secondary summaries of the 2026 report put it at 9%, far below target; the Commission says semiconductors still lag.",
    "status": "measured",
-   "sources": "COM(2025) 771; Commission news 17 June 2026"
+   "sources": "COM(2025) 771; Commission news 17 June 2026",
+   "status_group": "measured"
   },
   {
    "type": "2030 target (Article 4)",
@@ -59,7 +64,8 @@
    "target_or_baseline": "100% by 2030",
    "evidence": "82% for citizens and 86% for businesses (2025 report).",
    "status": "measured",
-   "sources": "COM(2025) 290"
+   "sources": "COM(2025) 290",
+   "status_group": "measured"
   },
   {
    "type": "governance mechanism (Articles 7-9)",
@@ -68,7 +74,8 @@
    "target_or_baseline": "",
    "evidence": "All Member States adopted roadmaps: 1,910 measures worth EUR 288.6bn (EUR 205.1bn public, 1.14% of EU GDP); 57% of 306 country recommendations from 2024 addressed, mostly only partly (12% significant changes).",
    "status": "measured",
-   "sources": "COM(2025) 290"
+   "sources": "COM(2025) 290",
+   "status_group": "measured"
   }
  ],
  "literature": [
@@ -118,5 +125,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260620124641/https://commission.europa.eu/news-and-media/news/state-digital-decade-report-progress-made-gaps-remain-2026-06-17_en"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "programme objective (proposal)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Interim evaluation: tools improved enforcement and cooperation, but CASE@EC rollout only partly done and broader impact of tools not measured because user feedback is not collected regularly.",
    "status": "reported as activity",
-   "sources": "COM(2025) 347"
+   "sources": "COM(2025) 347",
+   "status_group": "reported as activity"
   },
   {
    "type": "programme objective (proposal)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Interim evaluation reports very high client satisfaction and 'tangible effects on business performance' but recommends systematic tracking of all SMEs supported and a harmonised survey of effects on growth, digitalisation and internationalisation - i.e. impact on firms is not yet measured.",
    "status": "reported as activity",
-   "sources": "COM(2025) 347"
+   "sources": "COM(2025) 347",
+   "status_group": "reported as activity"
   },
   {
    "type": "programme objective (proposal)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Interim evaluation finds all pillars effective; e.g. reduced brucellosis, rabies and Salmonella cases; 95% of surveyed users confident in European statistics (2024). Mostly output and satisfaction evidence.",
    "status": "partially measured",
-   "sources": "COM(2025) 347"
+   "sources": "COM(2025) 347",
+   "status_group": "partially measured"
   },
   {
    "type": "budget execution",
@@ -50,7 +54,8 @@
    "target_or_baseline": "EUR 4,353m total 2021-2027",
    "evidence": "EUR 1,909m (44%) allocated in the first three years; inflation reduced the number and scope of actions.",
    "status": "measured",
-   "sources": "COM(2025) 347"
+   "sources": "COM(2025) 347",
+   "status_group": "measured"
   }
  ],
  "literature": [
@@ -100,5 +105,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260213153009/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0347"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

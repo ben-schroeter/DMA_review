@@ -14,7 +14,8 @@
    "target_or_baseline": "Start of operation by end 2030",
    "evidence": "Not applicable: proposal not adopted; app not built.",
    "status": "not measured",
-   "sources": "COM(2024) 670 LFS"
+   "sources": "COM(2024) 670 LFS",
+   "status_group": "not measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "100%",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "COM(2024) 670 LFS"
+   "sources": "COM(2024) 670 LFS",
+   "status_group": "not measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "0 to 25% of applicants within 2 years; 30% of travellers within 5 years",
    "evidence": "Not measured; only national DTC pilots (e.g. Finland, Croatia, Netherlands) exist.",
    "status": "not measured",
-   "sources": "COM(2024) 670 LFS; SWD(2024) 671"
+   "sources": "COM(2024) 670 LFS; SWD(2024) 671",
+   "status_group": "not measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "0%",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "COM(2024) 670 LFS"
+   "sources": "COM(2024) 670 LFS",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Pilot evidence only (Finland, Croatia, Netherlands, cited in IA): processing time of pre-cleared DTC travellers fell from 30-90 seconds to under 9 seconds; monetary value of time savings not quantified.",
    "status": "partially measured",
-   "sources": "SWD(2024) 671"
+   "sources": "SWD(2024) 671",
+   "status_group": "partially measured"
   }
  ],
  "literature": [
@@ -75,7 +80,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20250520235220/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52024SC0671"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

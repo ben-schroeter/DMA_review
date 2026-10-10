@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "Baseline: APP fraud on SEPA credit transfers est. EUR 323m (2020)",
    "evidence": "Baseline worsening, pre-application: EBA-ECB report EEA payment fraud EUR 3.4bn (2022), 3.5bn (2023), 4.2bn (2024); credit transfer fraud EUR 2.2bn in 2024 (+16%), ~85% of losses borne by users. Rules not yet applied (provisional agreement Nov 2025).",
    "status": "not measured",
-   "sources": "SWD(2023) 231; EBA-ECB 2025"
+   "sources": "SWD(2023) 231; EBA-ECB 2025",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "One-off cost ~EUR 185-190m (net) for interfaces; up to EUR 47m for dashboards",
    "evidence": "Forecast only.",
    "status": "not measured",
-   "sources": "SWD(2023) 231"
+   "sources": "SWD(2023) 231",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured; Settlement Finality Directive access change partly delivered via the Instant Payments Regulation (2024).",
    "status": "not measured",
-   "sources": "SWD(2023) 231"
+   "sources": "SWD(2023) 231",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -114,5 +118,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260711113023/https://www.eba.europa.eu/publications-and-media/press-releases/joint-eba-ecb-report-payment-fraud-strong-authentication-remains-effective-fraudsters-are-adapting"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

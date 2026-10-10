@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "headline target (Regulation / Commission)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "EUR 372bn",
    "evidence": "Interim evaluation: about EUR 218bn expected to be mobilised by end-2023 (65% private), anticipated multiplier 14.76; 90% of the guarantee allocated, almost 80% of that approved. Figures are expected/approved, not disbursed.",
    "status": "partially measured (self-reported)",
-   "sources": "SWD(2024) 228/229"
+   "sources": "SWD(2024) 228/229",
+   "status_group": "partially measured"
   },
   {
    "type": "objective",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Interim evaluation reports high additionality based on implementing partners' assessments; the Court of Auditors found additionality of the predecessor EFSI insufficiently demonstrated and its mobilised investment overstated by EUR 131bn (26%).",
    "status": "mixed evidence",
-   "sources": "SWD(2024) 228; ECA SR 07/2025"
+   "sources": "SWD(2024) 228; ECA SR 07/2025",
+   "status_group": "mixed evidence"
   },
   {
    "type": "outcome",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "No causal study of InvestEU yet; a causal study of predecessor EFSI direct loans finds about 12 percentage points extra fixed-asset growth.",
    "status": "not measured (predecessor evidence only)",
-   "sources": "Frayman 2026"
+   "sources": "Frayman 2026",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -137,5 +141,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "moderate"
 }

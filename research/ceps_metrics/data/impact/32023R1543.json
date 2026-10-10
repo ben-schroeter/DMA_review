@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "No data yet; Regulation applicable only since 18 Aug 2026. Industry reports the decentralised IT system (e-CODEX) was still under development in mid-2026 and 22 Member States received formal notices (27 Mar 2026) for not transposing the companion Directive 2023/1544.",
    "status": "not measured",
-   "sources": "SWD(2018) 118/119; EuroISPA 2026"
+   "sources": "SWD(2018) 118/119; EuroISPA 2026",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "SWD(2018) 119"
+   "sources": "SWD(2018) 119",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -82,5 +85,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

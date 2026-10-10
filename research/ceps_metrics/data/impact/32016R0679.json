@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "specific objective",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured. Commission reports describe fragmentation in national implementation and inconsistent interpretation, but give no cost or time series.",
    "status": "not measured",
-   "sources": "COM(2024) 357"
+   "sources": "COM(2024) 357",
+   "status_group": "not measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Measured: between 2020 and 2024 all but two authorities gained staff; increase above 25% in 14 Member States (Ireland +79%). Authorities still cite insufficient resources as the main limit on enforcement.",
    "status": "measured",
-   "sources": "COM(2024) 357"
+   "sources": "COM(2024) 357",
+   "status_group": "measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "No systematic count reported.",
    "status": "not measured",
-   "sources": "COM(2024) 357"
+   "sources": "COM(2024) 357",
+   "status_group": "not measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -59,7 +64,8 @@
    "target_or_baseline": "",
    "evidence": "No systematic data; report notes SMEs need templates and guidance for DPIAs.",
    "status": "not measured",
-   "sources": "COM(2024) 357"
+   "sources": "COM(2024) 357",
+   "status_group": "not measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -68,7 +74,8 @@
    "target_or_baseline": "",
    "evidence": "Complaint handling and amicable settlements described; cross-border cooperation ~2,400 case entries; compensation not quantified.",
    "status": "partially measured",
-   "sources": "COM(2024) 357"
+   "sources": "COM(2024) 357",
+   "status_group": "partially measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -77,7 +84,8 @@
    "target_or_baseline": "",
    "evidence": "Not reported as such; corrective measures vary widely between authorities.",
    "status": "not measured",
-   "sources": "COM(2024) 357"
+   "sources": "COM(2024) 357",
+   "status_group": "not measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -86,7 +94,8 @@
    "target_or_baseline": "",
    "evidence": "Measured: over 6,680 fines totalling about EUR 4.2bn (Ireland EUR 2.8bn, Luxembourg EUR 746m). Nine binding EDPB dispute-resolution decisions.",
    "status": "measured",
-   "sources": "COM(2024) 357"
+   "sources": "COM(2024) 357",
+   "status_group": "measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -95,7 +104,8 @@
    "target_or_baseline": "EUR 2.3bn/yr",
    "evidence": "Never evaluated. Independent studies instead find substantial compliance and data costs (data costs +22%, tech-firm profits -2.1%).",
    "status": "not measured (independent evidence points the other way)",
-   "sources": "SEC(2012) 72/73; Demirer et al.; Frey & Presidente"
+   "sources": "SEC(2012) 72/73; Demirer et al.; Frey & Presidente",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -329,5 +339,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "strong"
 }

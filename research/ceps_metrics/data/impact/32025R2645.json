@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "Qualitative only: 'significantly lower risk of delays or unavailability of critical products during crisis'",
    "evidence": "No Union compulsory licence was found in searches since the Regulation entered into force (January 2026). Final text narrowed the scope compared with the proposal (EPRS).",
    "status": "not measured",
-   "sources": "SWD(2023) 122; EPRS 2024/2025"
+   "sources": "SWD(2023) 122; EPRS 2024/2025",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "Qualitative scores only (+/++/+++); no monetised estimates",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "SWD(2023) 122"
+   "sources": "SWD(2023) 122",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -80,7 +83,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20260617174349/https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2024)757634"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

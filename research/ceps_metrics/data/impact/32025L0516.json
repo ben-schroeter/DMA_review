@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "EUR 135-177bn over 10 years (about 0.1% of GDP a year)",
    "evidence": "Not measurable yet: EU-level digital reporting and e-invoicing for intra-EU trade only applies from 1 July 2030 and the package phases in to 2035. Baseline: the EU VAT compliance gap was EUR 128bn in 2023 (Commission VAT Gap report 2025).",
    "status": "not measured",
-   "sources": "SWD(2022) 394; Commission VAT Gap report 2025"
+   "sources": "SWD(2022) 394; Commission VAT Gap report 2025",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "EUR 50.6bn savings (41.4bn reporting, 0.5bn platform economy, 8.7bn registration) against EUR 11.3bn new DRR costs",
    "evidence": "Not measured. Commission still cites 'EUR 51 billion in savings for businesses' in its Sept 2025 implementation strategy.",
    "status": "not measured",
-   "sources": "SWD(2022) 394; DG TAXUD Sept 2025"
+   "sources": "SWD(2022) 394; DG TAXUD Sept 2025",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "280,000 SMEs; up to EUR 7bn saved 2023-2032",
    "evidence": "Not measured; single VAT registration measures apply from 2027-2028.",
    "status": "not measured",
-   "sources": "SWD(2022) 394"
+   "sources": "SWD(2022) 394",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "EUR 172-214bn (enhanced option)",
    "evidence": "Forecast only; the adopted text differs from the assessed option (some measures softened or delayed), so the figure is an upper reference rather than a forecast for the final law.",
    "status": "not measured",
-   "sources": "SWD(2022) 394"
+   "sources": "SWD(2022) 394",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -121,7 +126,7 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20261008142928/https://taxation-customs.ec.europa.eu/taxation/vat/fight-against-vat-fraud/vat-gap_en"
   },
   {
    "id": "ec-2025-vida-implementation",
@@ -144,7 +149,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20260411234629/https://taxation-customs.ec.europa.eu/news/vat-digital-age-implementation-strategy-support-businesses-and-member-states-2025-09-24_en"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

@@ -14,7 +14,8 @@
    "target_or_baseline": "Monitored annually for at least 5 years from start of digital exchanges",
    "evidence": "No published data found; obligations phase in from 2025 onwards as implementing acts and IT systems are rolled out.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "Baseline: paper submissions in control group",
    "evidence": "No published data found.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "SWD(2021) 392/393"
+   "sources": "SWD(2021) 392/393",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "SWD(2021) 393"
+   "sources": "SWD(2021) 393",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -68,5 +72,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20240602054854/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021SC0393"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

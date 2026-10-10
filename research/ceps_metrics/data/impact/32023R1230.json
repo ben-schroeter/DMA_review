@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "Up to EUR 16.6bn/yr (lower bound ~EUR 4bn per the IA's assumptions as summarised by tcworld)",
    "evidence": "Not yet applicable (digital instructions allowed from 2027). The estimate rests on an assumption that printing costs are 1-4% of sector turnover, which a technical-communication trade article flags as untested.",
    "status": "not measured",
-   "sources": "SWD(2021) 82/83; tcworld 2024"
+   "sources": "SWD(2021) 82/83; tcworld 2024",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured; Regulation not yet applicable.",
    "status": "not measured",
-   "sources": "SWD(2021) 83"
+   "sources": "SWD(2021) 83",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured; Regulation not yet applicable.",
    "status": "not measured",
-   "sources": "SWD(2021) 83"
+   "sources": "SWD(2021) 83",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -66,7 +70,7 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20260121232154/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52021SC0083"
   },
   {
    "id": "tcworld-2024-machinery-digital",
@@ -89,7 +93,8 @@
    "access": "open",
    "interested_party": "Technical-communication industry (tekom) lobbied for digital instructions",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20250806174308/https://www.tcworld.info/news/the-european-machinery-regulation-1327"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

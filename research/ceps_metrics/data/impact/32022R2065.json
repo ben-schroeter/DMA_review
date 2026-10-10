@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "+1-1.8%",
    "evidence": "Not evaluated.",
    "status": "not measured",
-   "sources": "SWD(2020) 349"
+   "sources": "SWD(2020) 349",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Enforcement under way: first non-compliance decision fined X EUR 120m (5 Dec 2025) for misleading verification, deficient ad repository and blocking researcher data access; other investigations ongoing. Transparency database operational but platform self-reports inconsistent.",
    "status": "reported as activity",
-   "sources": "Commission decision Dec 2025; Kaushal et al.; Trujillo et al."
+   "sources": "Commission decision Dec 2025; Kaushal et al.; Trujillo et al.",
+   "status_group": "reported as activity"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "No evidence found.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -137,5 +141,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

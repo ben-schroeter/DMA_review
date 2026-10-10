@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "objective",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "2010 report: 'substantial and positive effect'. 2017 evaluation: improved enforcement conceptually, but econometric models found no statistically measurable effect on litigation indicators; application diverges across courts.",
    "status": "mixed evidence",
-   "sources": "COM(2010) 779; SWD(2017) 431"
+   "sources": "COM(2010) 779; SWD(2017) 431",
+   "status_group": "mixed evidence"
   },
   {
    "type": "outcome",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Sweden's 2009 implementation cut internet traffic 18% and raised music sales (physical +27%, digital +48%) over six months, with no effect on films; effects faded later. Commission notes counterfeiting still rising EU-wide.",
    "status": "partially measured",
-   "sources": "Adermon & Liang 2014; SWD(2017) 431"
+   "sources": "Adermon & Liang 2014; SWD(2017) 431",
+   "status_group": "partially measured"
   },
   {
    "type": "cost (evaluation)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Evaluation study found no incremental direct costs from the Directive; average firm spends about EUR 115,000 a year on IP enforcement overall.",
    "status": "measured",
-   "sources": "SWD(2017) 431"
+   "sources": "SWD(2017) 431",
+   "status_group": "measured"
   }
  ],
  "literature": [
@@ -114,5 +118,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Commission (2019, 2023) and BEREC report consistent application and high end-user and content-provider satisfaction; few penalties, all well below maximums. Zero-rating (application-specific zero tariffs) spread to all but two EU countries (186 offers, 2019) until CJEU rulings (2020-21) made them incompatible; BEREC guidelines revised in 2022.",
    "status": "reported as activity",
-   "sources": "COM(2019) 203; COM(2023) 233; epicenter.works 2019"
+   "sources": "COM(2019) 203; COM(2023) 233; epicenter.works 2019",
+   "status_group": "reported as activity"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "EUR 110bn p.a.",
    "evidence": "Not evaluated; the figure covered the whole Connected Continent package, most of which was not adopted.",
    "status": "not measured",
-   "sources": "SWD(2013) 332"
+   "sources": "SWD(2013) 332",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Commission (2019): regulation 'does not seem to affect' ISP investment (stakeholder-based). OECD panel study (Briglauer et al. 2022) finds strict net neutrality rules significantly slow fibre investment and take-up. Evidence conflicts.",
    "status": "mixed evidence",
-   "sources": "COM(2019) 203; Briglauer et al. 2022"
+   "sources": "COM(2019) 203; Briglauer et al. 2022",
+   "status_group": "mixed evidence"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Mixed: epicenter.works found mobile data prices rose about 2% in markets with zero-rating vs fell about 8% elsewhere (2015-16); Austrian regulator RTR (11,000+ tariffs, 15 countries, 2015-18) found no systematic effect on data caps or price per GB.",
    "status": "mixed evidence",
-   "sources": "epicenter.works 2019; Király & Schwarz (RTR) 2019"
+   "sources": "epicenter.works 2019; Király & Schwarz (RTR) 2019",
+   "status_group": "mixed evidence"
   }
  ],
  "literature": [
@@ -192,5 +197,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

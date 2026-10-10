@@ -14,7 +14,8 @@
    "target_or_baseline": "Baseline (IA): 28-56% compliance with essential requirements in market surveillance campaigns; of 6,168 R&TTE items inspected, 68% met essential requirements",
    "evidence": "ADCO RED statistics: 11,491 inspections in 2022 with about 60% non-compliance, but inspections target problem sectors so not representative. 2018 report found no category with demonstrably low compliance; 2024 report says self-assessment 'has led to low levels of compliance' according to stakeholders.",
    "status": "partially measured",
-   "sources": "SWD(2012) 329; COM(2018) 740; COM(2024) 158"
+   "sources": "SWD(2012) 329; COM(2018) 740; COM(2024) 158",
+   "status_group": "partially measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "No quantified burden estimate in either operation report; interpretation issues handled via guidance and expert group.",
    "status": "not measured",
-   "sources": "COM(2018) 740; COM(2024) 158"
+   "sources": "COM(2018) 740; COM(2024) 158",
+   "status_group": "not measured"
   },
   {
    "type": "LFS indicator (1.4.4)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Only stakeholder survey views in the 2024 report; no systematic measure.",
    "status": "not measured",
-   "sources": "COM(2024) 158"
+   "sources": "COM(2024) 158",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Not separately measured.",
    "status": "not measured",
-   "sources": "SWD(2012) 329"
+   "sources": "SWD(2012) 329",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -114,5 +118,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20240731080647/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52024DC0158"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

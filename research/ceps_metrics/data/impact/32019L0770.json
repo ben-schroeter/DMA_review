@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment, joint with Sale of Goods)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "+122,000 firms",
    "evidence": "Not evaluated.",
    "status": "not measured",
-   "sources": "SWD(2015) 274"
+   "sources": "SWD(2015) 274",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment, joint with Sale of Goods)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Not evaluated; cross-border e-commerce has grown, but no study attributes any change to the Directive.",
    "status": "not measured",
-   "sources": "SWD(2015) 274"
+   "sources": "SWD(2015) 274",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment, joint with Sale of Goods)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "EUR 4bn/yr",
    "evidence": "Not evaluated.",
    "status": "not measured",
-   "sources": "SWD(2015) 274"
+   "sources": "SWD(2015) 274",
+   "status_group": "not measured"
   },
   {
    "type": "problem baseline (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "baseline EUR 9-11bn",
    "evidence": "No follow-up measurement.",
    "status": "not measured",
-   "sources": "SWD(2015) 275"
+   "sources": "SWD(2015) 275",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -100,5 +105,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260617200235/https://europeanlawinstitute.eu/fileadmin/user_upload/p_eli/Publications/ELI_Statement_on_DCD.pdf"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

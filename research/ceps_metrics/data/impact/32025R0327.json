@@ -14,7 +14,8 @@
    "target_or_baseline": "Patient summaries and ePrescriptions to be exchangeable in all Member States by 2029; images, lab results and discharge reports by 2031",
    "evidence": "Commission (early 2025): 15 Member States support sharing patient summaries and ePrescriptions via MyHealth@EU; only a few countries can send or receive data digitally across borders; 10 countries still use paper prescriptions. No provider-level, volume or satisfaction figures published yet.",
    "status": "partially measured",
-   "sources": "Commission health data rights page (2025)"
+   "sources": "Commission health data rights page (2025)",
+   "status_group": "partially measured"
   },
   {
    "type": "LFS indicator",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured: EHR requirements apply only from 2029 onward.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "LFS indicator",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured: secondary-use rules apply from 2029; health data access bodies being set up.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "Above EUR 11bn benefits vs EUR 0.7-2.5bn costs over 10 years",
    "evidence": "Forecast only. Independent commentators (EIT Health Think Tank 2024) argue implementation funding is 'significantly misaligned' with the ambition, which could delay benefits.",
    "status": "not measured",
-   "sources": "SWD(2022) 132; EIT Health 2024"
+   "sources": "SWD(2022) 132; EIT Health 2024",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -137,5 +141,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

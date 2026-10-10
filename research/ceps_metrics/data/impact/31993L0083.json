@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "objective (recitals)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "2002 report: correctly transposed, but rightholders still license territorially (encryption), so practice is not in line with the country-of-origin principle. 2016 evaluation: mechanisms helped clear rights for satellite broadcasts, but are technology-specific and do not reach online transmission.",
    "status": "reported as activity",
-   "sources": "COM(2002) 430; SWD(2016) 308"
+   "sources": "COM(2002) 430; SWD(2016) 308",
+   "status_group": "reported as activity"
   },
   {
    "type": "objective (recitals)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Reported as contributing to cross-border retransmission; some rightholders say they lose income; long mediation disputes.",
    "status": "reported as activity",
-   "sources": "COM(2002) 430"
+   "sources": "COM(2002) 430",
+   "status_group": "reported as activity"
   },
   {
    "type": "baseline (2016 IA)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "82% of public and 62% of commercial broadcasters geo-block at least one online service (sector inquiry)",
    "evidence": "Led to Directive (EU) 2019/789; its review was due June 2025 (not found).",
    "status": "not measured",
-   "sources": "SWD(2016) 301"
+   "sources": "SWD(2016) 301",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -114,5 +118,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

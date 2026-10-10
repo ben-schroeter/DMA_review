@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "objective (proposal / recitals)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Measured and negative/flat: the 2005 evaluation found EU-based entries in the Gale Directory of Databases back at pre-Directive levels by 2004 (3,095 vs 3,092 in 1998, after a 4,085 peak in 2001) and the EU/US production ratio worsening from about 1:2 (1996) to 1:3 (2004). The 2018 evaluation again found 'no proven impact on the overall production of databases in Europe, nor on the competitiveness of the EU database industry'.",
    "status": "measured",
-   "sources": "DG MARKT 2005; SWD(2018) 146/147"
+   "sources": "DG MARKT 2005; SWD(2018) 146/147",
+   "status_group": "measured"
   },
   {
    "type": "objective (proposal / recitals)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Commission's 2018 evaluation judges harmonisation effective, helped by CJEU case law; based on qualitative assessment and stakeholder input.",
    "status": "reported as activity",
-   "sources": "SWD(2018) 146/147"
+   "sources": "SWD(2018) 146/147",
+   "status_group": "reported as activity"
   },
   {
    "type": "objective (Art. 16(3))",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "2018 evaluation found costs and benefits 'moderate', benefits 'seem to be higher', no significant regulatory burdens; after the 2004 CJEU rulings the right does not cover by-product data, limiting effects on the data economy. Not quantified.",
    "status": "partially measured",
-   "sources": "SWD(2018) 146/147; Technopolis/JIIP 2018"
+   "sources": "SWD(2018) 146/147; Technopolis/JIIP 2018",
+   "status_group": "partially measured"
   }
  ],
  "literature": [
@@ -137,5 +141,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260803192909/https://law.duke.edu/boylesite/experiment.html"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

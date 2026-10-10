@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "1.7-4.1 million",
    "evidence": "Not measured; transposition deadline 2 December 2026. The adopted text dropped the proposal's list of criteria for the presumption, leaving them to Member States, so the forecast may not hold. Model-based evidence from Spain's 2021 Riders' Law suggests reclassification raised the employee share but reduced riders' total work and wages.",
    "status": "not measured",
-   "sources": "SWD(2021) 396/397; Dolado et al. 2025"
+   "sources": "SWD(2021) 396/397; Dolado et al. 2025",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "SWD(2021) 397"
+   "sources": "SWD(2021) 397",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "28 million",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "SWD(2021) 397"
+   "sources": "SWD(2021) 397",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -89,7 +93,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20260421110729/https://www.iza.org/publications/dp/17740"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Evaluation: ENISA delivered nearly all planned outputs and stakeholders value its work, but 'with no sufficient indicators in place' the assessment relies mainly on interviews and surveys; insufficient resources and hiring problems caused delays.",
    "status": "reported as activity",
-   "sources": "COM(2026) 9"
+   "sources": "COM(2026) 9",
+   "status_group": "reported as activity"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "One scheme (EUCC, common criteria) adopted in early 2024, 57 months after initiation; cloud scheme (EUCS) stalled over data-sovereignty disputes; 5G scheme not adopted. Framework judged unable to reduce fragmentation.",
    "status": "measured (low)",
-   "sources": "COM(2026) 9"
+   "sources": "COM(2026) 9",
+   "status_group": "measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "COM(2026) 9"
+   "sources": "COM(2026) 9",
+   "status_group": "not measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "No time series reported in the evaluation.",
    "status": "not measured",
-   "sources": "COM(2026) 9"
+   "sources": "COM(2026) 9",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (LFS 1.4.3)",
@@ -59,7 +64,8 @@
    "target_or_baseline": "baseline EUR 55bn",
    "evidence": "Not measured or attributed.",
    "status": "not measured",
-   "sources": "COM(2017) 477"
+   "sources": "COM(2017) 477",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -132,5 +138,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

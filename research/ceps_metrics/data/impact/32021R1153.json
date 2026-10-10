@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "programme objective (Regulation)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Calls oversubscribed up to almost 3x; whole transport budget committed by 2025; 600+ projects ongoing but only 23 small projects finished; remaining need EUR 845bn to complete the network.",
    "status": "reported as activity",
-   "sources": "COM(2025) 516"
+   "sources": "COM(2025) 516",
+   "status_group": "reported as activity"
   },
   {
    "type": "programme objective (Regulation)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "EUR 5.8bn budget",
    "evidence": "EUR 3.5bn awarded 2021-2024 (e.g. 16 electricity projects >EUR 2bn incl. EuroAsia interconnector, Baltic synchronisation); some projects delayed by energy and materials price shocks; EUR 430m temporarily moved to transport.",
    "status": "reported as activity",
-   "sources": "COM(2025) 516"
+   "sources": "COM(2025) 516",
+   "status_group": "reported as activity"
   },
   {
    "type": "programme objective (Regulation)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Start delayed; 117 projects worth over EUR 640m funded (51 backbone/submarine cable projects EUR 420m; 25 5G corridor projects EUR 93m); first results only from 2025; portfolio judged on track.",
    "status": "reported as activity",
-   "sources": "COM(2025) 516"
+   "sources": "COM(2025) 516",
+   "status_group": "reported as activity"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured; projects mostly not completed. No causal study of CEF grants found.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -100,5 +105,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20251119145236/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52025DC0516"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

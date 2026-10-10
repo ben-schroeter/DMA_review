@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (2016 IA)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "Status quo losses EUR 7bn/yr by 2020; preferred option cuts business VAT admin burden 42% (EUR 1.8bn)",
    "evidence": "OSS/IOSS VAT declared rose from EUR 26.3bn (2023) to EUR 33.1bn (2024), about EUR 88bn in 2021-2024; MOSS for e-services collected about EUR 3bn in 2015 and saved firms ~EUR 500m. Revenue is gross collection through the schemes, not a net causal effect.",
    "status": "partially measured",
-   "sources": "SWD(2016) 379; Commission OSS report 2025"
+   "sources": "SWD(2016) 379; Commission OSS report 2025",
+   "status_group": "partially measured"
   },
   {
    "type": "expected impact (2022 IA)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "Net impact EUR 172-214bn 2023-2032; extra VAT EUR 135-177bn; business savings EUR 50.6bn",
    "evidence": "Adopted 2025; phased in to 2035; not yet measured.",
    "status": "not measured",
-   "sources": "SWD(2022) 393"
+   "sources": "SWD(2022) 393",
+   "status_group": "not measured"
   },
   {
    "type": "outcome (independent research)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Using EU VAT changes 1996-2015, prices respond about twice as much to VAT increases as to decreases.",
    "status": "measured",
-   "sources": "Benzarti et al. 2020"
+   "sources": "Benzarti et al. 2020",
+   "status_group": "measured"
   }
  ],
  "literature": [
@@ -137,5 +141,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20261001073646/https://www.nber.org/papers/w23849"
   }
- ]
+ ],
+ "evidence_level": "moderate"
 }

@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "18.4 Mt CO2 / 15 years",
    "evidence": "Not measured; rules apply only from 31 July 2026.",
    "status": "not measured",
-   "sources": "SWD(2023) 59/60"
+   "sources": "SWD(2023) 59/60",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "EUR 176.5bn / 15 years",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "SWD(2023) 60"
+   "sources": "SWD(2023) 60",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured. Academic critique argues the Directive leaves the main barriers to repair (obsolescence, spare parts, repair information, price incentives) unaddressed.",
    "status": "not measured",
-   "sources": "SWD(2023) 60; López-Bermúdez & Vence 2025"
+   "sources": "SWD(2023) 60; López-Bermúdez & Vence 2025",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -91,5 +95,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

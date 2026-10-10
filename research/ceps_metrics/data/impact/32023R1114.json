@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Measured: ESMA interim register (downloaded 10 Oct 2026) lists 370 authorised CASP entries (365 distinct legal entities) across 27 EU/EEA states, 103 of them in Germany; authorisations peaked around the end of the transitional period (30 June 2026). A separate list names 173 non-compliant entities.",
    "status": "measured",
-   "sources": "ESMA interim MiCA register"
+   "sources": "ESMA interim MiCA register",
+   "status_group": "measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "ESMA register: zero authorised asset-referenced token issuers; 25 e-money token issuers with 50 white papers. Industry tracker: market cap of eight MiCA-compliant euro stablecoins rose from USD 296m to USD 674m (June 2025-June 2026), still tiny against dollar stablecoins.",
    "status": "measured",
-   "sources": "ESMA interim MiCA register; Decta 2026"
+   "sources": "ESMA interim MiCA register; Decta 2026",
+   "status_group": "measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured: no EU-level statistics published. Commission's Article 140 report on application (interim due 30 June 2025) not located on EUR-Lex; public consultation opened May 2026.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "White papers for other crypto-assets are notified to ESMA's register, but no volume statistics or analysis of company funding found.",
    "status": "not measured",
-   "sources": "ESMA interim MiCA register"
+   "sources": "ESMA interim MiCA register",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -59,7 +64,8 @@
    "target_or_baseline": "EUR 220-570m/yr",
    "evidence": "Not measured. ESMA (2024): euro plays a minor role in crypto trading and MiCA's announcement did not raise euro transactions.",
    "status": "not measured",
-   "sources": "SWD(2020) 381; ESMA TRV 2024"
+   "sources": "SWD(2020) 381; ESMA TRV 2024",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -68,7 +74,8 @@
    "target_or_baseline": "",
    "evidence": "No ex-post cost survey found.",
    "status": "not measured",
-   "sources": "SWD(2020) 381"
+   "sources": "SWD(2020) 381",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -210,5 +217,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

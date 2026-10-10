@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "First ESPR working plan (April 2025) prioritises steel, aluminium, textiles, furniture, tyres and others, with indicative adoption 2026-2028; ban on destroying unsold apparel and footwear applies to large firms from 19 July 2026. No product-specific ESPR requirements yet in force.",
    "status": "reported as activity",
-   "sources": "Commission working plan 2025-2030 (secondary reports)"
+   "sources": "Commission working plan 2025-2030 (secondary reports)",
+   "status_group": "reported as activity"
   },
   {
    "type": "LFS indicator",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured; depends on future delegated acts.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "LFS indicator",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Eurostat publishes the circular material use rate, but no attribution to ESPR.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "LFS indicator",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Not tracked against ESPR.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (Commission)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "132 Mtoe, ~150 bcm gas (reported)",
    "evidence": "Not evaluated; evaluation due eight years after application.",
    "status": "not measured",
-   "sources": "Commission 2022 announcement as reported by INFORSE-Europe"
+   "sources": "Commission 2022 announcement as reported by INFORSE-Europe",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -100,5 +105,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

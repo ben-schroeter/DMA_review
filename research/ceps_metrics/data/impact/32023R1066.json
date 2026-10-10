@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "evaluation objective",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "2021 evaluation: rules still relevant and made economically desirable cooperation easier, but some conditions seen as too strict or unclear; need to reflect digitalisation and sustainability. The 2023 revision responds to this; no ex-post check of the new rules yet (they expire in 2035).",
    "status": "partially measured",
-   "sources": "SWD(2021) 103"
+   "sources": "SWD(2021) 103",
+   "status_group": "partially measured"
   },
   {
    "type": "evaluation objective",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Evaluation could not quantify savings: most stakeholders did not know whether costs had changed; few gave estimates.",
    "status": "not measured",
-   "sources": "SWD(2021) 103"
+   "sources": "SWD(2021) 103",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "No empirical study found of the block exemption's effect on R&D cooperation or innovation; theory suggests the 25% market-share safe harbour is not clearly justified.",
    "status": "not measured",
-   "sources": "Ruble & Versaevel 2014"
+   "sources": "Ruble & Versaevel 2014",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -114,5 +118,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "objective (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured. The 2020 evaluation itself found too little quantitative data to assess compliance costs robustly.",
    "status": "not measured",
-   "sources": "SWD(2020) 172"
+   "sources": "SWD(2020) 172",
+   "status_group": "not measured"
   },
   {
    "type": "objective (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "No study of the 2022 rules' effects found. Earlier causal studies of national bans on hotel-booking parity clauses (Germany, France) found more room availability and direct-channel price competition and some short-run price falls - background evidence for the change.",
    "status": "not measured (background evidence only)",
-   "sources": "Hunold et al. 2018; Mantovani et al. 2021"
+   "sources": "Hunold et al. 2018; Mantovani et al. 2021",
+   "status_group": "not measured"
   },
   {
    "type": "objective (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Enforcement continues case by case; no aggregate measure.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -137,5 +141,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

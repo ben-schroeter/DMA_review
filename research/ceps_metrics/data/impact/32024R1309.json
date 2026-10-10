@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "EUR 14.5bn; public subsidies EUR 2.4bn lower",
    "evidence": "Main provisions applied from 12 Nov 2025; not evaluated.",
    "status": "not measured",
-   "sources": "SWD(2023) 47"
+   "sources": "SWD(2023) 47",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "470,000 km vs 250,000 km baseline",
    "evidence": "No data yet.",
    "status": "not measured",
-   "sources": "SWD(2023) 47"
+   "sources": "SWD(2023) 47",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "EUR 40m a year for operators; EUR 3-4m a year for local authorities",
    "evidence": "About half of Member States had begun adopting implementing measures by March 2026, with divergent approaches to tacit approval of permits.",
    "status": "reported as activity",
-   "sources": "Cullen International 2026"
+   "sources": "Cullen International 2026",
+   "status_group": "reported as activity"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "100% gigabit by 2030 (Digital Decade)",
    "evidence": "Coverage tracked in Digital Decade reports but not attributed to the GIA.",
    "status": "not measured",
-   "sources": ""
+   "sources": "",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -98,7 +103,8 @@
    "access": "abstract only",
    "interested_party": "Commercial regulatory-intelligence firm whose clients include telecom operators",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20260401130938/https://www.cullen-international.com/news/2026/03/National-implementation-of-the-EU-Gigabit-Infrastructure-Act.html"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

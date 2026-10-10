@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "objective",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Steady growth in filings (nearly 1.5m registered Community designs 2003-2019); 2020 evaluation: registration cheaper, simpler and faster than national routes, but system underused and partly outdated for digital designs.",
    "status": "reported as activity",
-   "sources": "SWD(2020) 264; EUIPO design focus report 2010-2019 (via search)"
+   "sources": "SWD(2020) 264; EUIPO design focus report 2010-2019 (via search)",
+   "status_group": "reported as activity"
   },
   {
    "type": "objective",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Broadly achieved except spare parts: 12 Member States liberalised, others keep manufacturers' monopoly; market fragmented.",
    "status": "reported as activity",
-   "sources": "SWD(2020) 264; SWD(2022) 368"
+   "sources": "SWD(2020) 264; SWD(2022) 368",
+   "status_group": "reported as activity"
   },
   {
    "type": "expected impact (2022 IA)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "EUR 340-544m consumer savings after 10 years; EUR 6m/yr fee savings",
    "evidence": "Reform adopted 2024; not yet evaluated.",
    "status": "not measured",
-   "sources": "SWD(2022) 368"
+   "sources": "SWD(2022) 368",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -114,5 +118,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

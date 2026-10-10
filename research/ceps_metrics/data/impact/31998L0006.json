@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "objective (recitals)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "2006 communication: transposed in all Member States without major problems, but exemptions diverge widely. 2017 fitness check: rules largely fit for purpose.",
    "status": "reported as activity",
-   "sources": "COM(2006) 325; SWD(2017) 209"
+   "sources": "COM(2006) 325; SWD(2017) 209",
+   "status_group": "reported as activity"
   },
   {
    "type": "objective (2019 amendment, Art. 6a)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Nov 2022 CPC sweep: 23% of 16,000 price-reduction announcements on 176 websites breached Art. 6a, on at least 43% of sites; Swedish 2023 check: 70% of firms with reductions infringed.",
    "status": "partially measured",
-   "sources": "COM(2024) 258"
+   "sources": "COM(2024) 258",
+   "status_group": "partially measured"
   }
  ],
  "literature": [
@@ -105,5 +108,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20251212002809/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52024DC0258"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

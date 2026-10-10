@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Not applicable: proposal pending (June 2025).",
    "status": "not measured",
-   "sources": "SWD(2025) 335"
+   "sources": "SWD(2025) 335",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "+3-10% vs baseline; risk management up to EUR 240,000 initial then ~1% of turnover",
    "evidence": "Forecast only; US government and some industry argue costs and burdens are underestimated and discriminatory (qualitative, no published cost estimate).",
    "status": "not measured",
-   "sources": "SWD(2025) 335; US Government comments 2025"
+   "sources": "SWD(2025) 335; US Government comments 2025",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "SWD(2025) 335"
+   "sources": "SWD(2025) 335",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -66,7 +70,7 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20251226052323/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52025SC0335"
   },
   {
    "id": "usg-2025-space-act-comments",
@@ -91,5 +95,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260307042558/https://space.commerce.gov/wp-content/uploads/2025/11/090166e52487d15d.pdf"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

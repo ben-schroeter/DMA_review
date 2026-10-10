@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "up to about EUR 66m / year",
    "evidence": "Not measured; Member States must apply the new rules to products placed on the market from 9 December 2026.",
    "status": "not measured",
-   "sources": "SWD(2022) 316/317"
+   "sources": "SWD(2022) 316/317",
+   "status_group": "not measured"
   },
   {
    "type": "expected cost (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured. Insurers argued the reform would make some risks (psychological harm, data loss, cyber) hard to price and raise litigation and consumer costs.",
    "status": "not measured",
-   "sources": "SWD(2022) 317; Insurance Europe 2022"
+   "sources": "SWD(2022) 317; Insurance Europe 2022",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "Not measured.",
    "status": "not measured",
-   "sources": "SWD(2022) 317"
+   "sources": "SWD(2022) 317",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -89,7 +93,7 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "http://web.archive.org/web/20260906162828/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52018SC0157"
   },
   {
    "id": "insurance-europe-2022-pld",
@@ -114,5 +118,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

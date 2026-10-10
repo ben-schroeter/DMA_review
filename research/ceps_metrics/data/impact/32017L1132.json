@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment, Directive 2019/1151)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "EUR 42-84m (forecast)",
    "evidence": "Online formation applies since 2021-2023 (with extensions); no ex-post measurement of savings found.",
    "status": "not measured",
-   "sources": "SWD(2018) 141/142"
+   "sources": "SWD(2018) 141/142",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment, Directive 2019/2121)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "Baseline 2000-2019: 4,305 cross-border mergers, 553 conversions, 19 divisions (concentrated in DE, NL, LU)",
    "evidence": "Independent counts exist up to 2023 (Biermeyer & Meyer series); no evaluation of the 2019 mobility rules yet.",
    "status": "partially measured",
-   "sources": "Biermeyer & Meyer 2019"
+   "sources": "Biermeyer & Meyer 2019",
+   "status_group": "partially measured"
   },
   {
    "type": "expected impact (impact assessment, Directive 2025/25)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "about EUR 437m a year (forecast); one-off costs ~EUR 311m",
    "evidence": "Transposition due 2027; forecast only.",
    "status": "not measured",
-   "sources": "SWD(2023) 178/179"
+   "sources": "SWD(2023) 178/179",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -114,5 +118,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

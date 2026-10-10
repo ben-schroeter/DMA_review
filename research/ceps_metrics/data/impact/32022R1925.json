@@ -13,7 +13,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "specific objective",
@@ -22,7 +23,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "specific objective",
@@ -31,7 +33,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -40,7 +43,8 @@
    "target_or_baseline": "none stated",
    "evidence": "Not reported in the 2026 review. The review records stakeholder concerns about fragmentation and parallel national enforcement and requests for guidance on Article 1(6), but gives no count.",
    "status": "not measured",
-   "sources": "SWD(2026) 123"
+   "sources": "SWD(2026) 123",
+   "status_group": "not measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -49,7 +53,8 @@
    "target_or_baseline": "none stated",
    "evidence": "Not reported. The review describes regulatory dialogue and possible guidelines but gives no count of clarification requests.",
    "status": "not measured",
-   "sources": "SWD(2026) 123"
+   "sources": "SWD(2026) 123",
+   "status_group": "not measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -58,7 +63,8 @@
    "target_or_baseline": "none stated",
    "evidence": "Activity reported, not as the indicator: non-compliance proceedings opened against Alphabet, Apple and Meta (March 2024) and Apple (June 2024); two specification decisions on Apple interoperability (March 2025); one investigation into Apple's choice obligations closed after changes. Seven gatekeepers designated. Independent evidence of conduct change: Amazon's search-rank advantage for its own products fell from about 30 to about 20 positions soon after designation (Waldfogel 2024).",
    "status": "reported as activity (no per-gatekeeper series)",
-   "sources": "SWD(2026) 123; Commission press releases; Waldfogel 2024"
+   "sources": "SWD(2026) 123; Commission press releases; Waldfogel 2024",
+   "status_group": "reported as activity"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -67,7 +73,8 @@
    "target_or_baseline": "none stated",
    "evidence": "Four fines in two years of application: Apple EUR 500m (anti-steering) and Meta EUR 200m (pay or consent), 23 April 2025; Alphabet EUR 460m (search self-preferencing) and EUR 430m (Google Play anti-steering), 23 July 2026. Total EUR 1.59bn. Apple's decision is under appeal.",
    "status": "measurable (activity indicator)",
-   "sources": "Commission press releases 23.4.2025 and 23.7.2026; SWD(2026) 123"
+   "sources": "Commission press releases 23.4.2025 and 23.7.2026; SWD(2026) 123",
+   "status_group": "not measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -76,7 +83,8 @@
    "target_or_baseline": "none stated",
    "evidence": "Not measured by the Commission (review says it will monitor switching). Independent evidence on one remedy: after Google removed the Maps link from EU search results, users searched for 'google maps' instead; no robust shift to rival map services (Pape & Rossi 2026).",
    "status": "not measured (partial independent evidence)",
-   "sources": "SWD(2026) 123; Pape & Rossi 2026"
+   "sources": "SWD(2026) 123; Pape & Rossi 2026",
+   "status_group": "not measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -85,7 +93,8 @@
    "target_or_baseline": "none stated",
    "evidence": "Commission cites company figures only (Aloha +250% new users; Firefox daily users doubled on iOS in DE and FR). Independent causal estimate: Firefox usage +91% on iOS and +13% on Android vs counterfactual after the choice-screen mandate; Safari declined on iOS with gains mostly to Chrome (Akesson et al. 2026). Consent: >45% of users (up to 90%) refuse data combination under Art 5(2).",
    "status": "partially measured (independent study for browsers)",
-   "sources": "SWD(2026) 123; NBER w35112"
+   "sources": "SWD(2026) 123; NBER w35112",
+   "status_group": "partially measured"
   },
   {
    "type": "expected impact (LFS 1.4.3 / IA)",
@@ -94,7 +103,8 @@
    "target_or_baseline": "EUR 13bn/yr",
    "evidence": "Not assessed in the 2026 review, which says impacts are not yet fully observable.",
    "status": "not measured",
-   "sources": "SWD(2020) 364; SWD(2026) 123"
+   "sources": "SWD(2020) 364; SWD(2026) 123",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (LFS 1.5.2)",
@@ -103,7 +113,8 @@
    "target_or_baseline": "EUR 92.8bn by 2025",
    "evidence": "Not assessed.",
    "status": "not measured",
-   "sources": "COM(2020) 842 LFS"
+   "sources": "COM(2020) 842 LFS",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (LFS 1.4.3)",
@@ -112,7 +123,8 @@
    "target_or_baseline": "as stated",
    "evidence": "Not assessed; the figure is borrowed from Digital Single Market estimates and is not attributable to the DMA alone.",
    "status": "not measured",
-   "sources": "COM(2020) 842 LFS"
+   "sources": "COM(2020) 842 LFS",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (LFS 1.4.3)",
@@ -121,7 +133,8 @@
    "target_or_baseline": "qualitative",
    "evidence": "Mixed. Commission review: new third-party app stores on iOS (Epic, Aptoide, AltStore PAL) and gains for alternative browsers. Yang (2025): DMA reduced start-up entry and investment in DMA-related industries (difference-in-differences, 1,034 records). Oxera (2021, Amazon-funded experiment): such rules likely reduce innovation.",
    "status": "mixed evidence",
-   "sources": "SWD(2026) 123; Yang 2025; Oxera 2021"
+   "sources": "SWD(2026) 123; Yang 2025; Oxera 2021",
+   "status_group": "mixed evidence"
   }
  ],
  "literature": [
@@ -494,5 +507,6 @@
    "archive_url": ""
   }
  ],
- "last_reviewed": "2026-10-10"
+ "last_reviewed": "2026-10-10",
+ "evidence_level": "thin"
 }

@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "Measured: all 27 plans approved and repeatedly revised; by 1 October 2026 EUR 450bn disbursed (79% of the envelope: EUR 279bn grants, 78% of grant envelope; EUR 171bn loans, 80%); final payment requests worth EUR 123bn under assessment; payment deadline 31 Dec 2026.",
    "status": "measured",
-   "sources": "COM(2026) 546"
+   "sources": "COM(2026) 546",
+   "status_group": "measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Measured: 4,082 of 5,981 milestones and targets (68%) assessed as fulfilled by 1 Oct 2026; implementation on the ground ended 31 Aug 2026. ECA found absorption delayed (EUR 213bn disbursed by end-2023; only about half of funds received had reached final recipients by Oct 2023).",
    "status": "measured",
-   "sources": "COM(2026) 546; ECA SR 13/2024"
+   "sources": "COM(2026) 546; ECA SR 13/2024",
+   "status_group": "measured"
   },
   {
    "type": "indicator (LFS 1.4.4)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Only outputs measured: 14 common indicators reported by Member States (e.g. 71.3 TWh annual primary energy savings by Dec 2025), but no targets or counterfactual; ECA (SR 26/2023) concluded the framework measures implementation progress, not performance. Ex-post evaluation due 2028.",
    "status": "reported as activity",
-   "sources": "COM(2026) 546; ECA SR 26/2023"
+   "sources": "COM(2026) 546; ECA SR 26/2023",
+   "status_group": "reported as activity"
   },
   {
    "type": "expected impact (Commission model estimates)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "+1.4% GDP (2026)",
    "evidence": "Model-based only. NiGEM simulation in the mid-term evaluation: EU GDP 0.4% higher in 2022 and unemployment 0.2 pp lower. ECB staff later estimated a smaller euro-area effect of 0.4-0.9% of GDP by 2026 (0.8-1.2% by 2031), revised over time because of widespread delays. IMF finds a short-term demand boost in high-allocation countries. No ex-post causal estimate yet.",
    "status": "mixed evidence",
-   "sources": "SWD(2024) 70; ECB OP 362; IMF WP/26/114"
+   "sources": "SWD(2024) 70; ECB OP 362; IMF WP/26/114",
+   "status_group": "mixed evidence"
   },
   {
    "type": "expected impact (Commission evaluation)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "Model and market evidence (NiGEM, IMF) indicate joint borrowing helped stabilise sovereign debt markets; not separately quantified in a causal study.",
    "status": "partially measured",
-   "sources": "SWD(2024) 70; IMF WP/26/114"
+   "sources": "SWD(2024) 70; IMF WP/26/114",
+   "status_group": "partially measured"
   }
  ],
  "literature": [
@@ -215,5 +220,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "moderate"
 }

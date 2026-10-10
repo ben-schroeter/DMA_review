@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "performance indicator (Regulation annex)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "30 procurements by 2029",
    "evidence": "19 of 30 planned procurements done; JUPITER, the EU's first exascale computer, ranked 4th on TOP500 and 1st on Green500 (its JEDI module); 19 AI Factories being deployed.",
    "status": "measured (outputs)",
-   "sources": "SWD(2025) 420; COM(2025) 771"
+   "sources": "SWD(2025) 420; COM(2025) 771",
+   "status_group": "measured"
   },
   {
    "type": "performance indicator (Regulation annex)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "Over 150 EDIHs covering 90% of regions by end-2024; 29,000 services to 54,600 companies; users value services at EUR 8,000-15,300 per organisation (perceived value, not measured effect).",
    "status": "reported as activity",
-   "sources": "COM(2025) 771"
+   "sources": "COM(2025) 771",
+   "status_group": "reported as activity"
   },
   {
    "type": "performance indicator (Regulation annex)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "By end-2024: 50+ master's programmes, 530 short courses, 20,700+ people trained in AI, cybersecurity, semiconductors etc.",
    "status": "reported as activity",
-   "sources": "COM(2025) 771"
+   "sources": "COM(2025) 771",
+   "status_group": "reported as activity"
   },
   {
    "type": "performance indicator (Regulation annex)",
@@ -50,7 +54,8 @@
    "target_or_baseline": "",
    "evidence": "26 CyberHubs procured (in line with targets); network of 27 national coordination centres; first 12 cybersecurity tools deployed.",
    "status": "measured (outputs)",
-   "sources": "COM(2025) 771"
+   "sources": "COM(2025) 771",
+   "status_group": "measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -59,7 +64,8 @@
    "target_or_baseline": "",
    "evidence": "Interim evaluation: programme on track or ahead on activities and outputs, first outcome-level benefits only now emerging; no measured effect on productivity, uptake or competitiveness.",
    "status": "not measured",
-   "sources": "SWD(2025) 420"
+   "sources": "SWD(2025) 420",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -109,5 +115,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

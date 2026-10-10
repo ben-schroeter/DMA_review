@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "EUR 1.5-2.3bn a year (potential, full uptake)",
    "evidence": "2024 evaluation does not quantify EU-wide savings; 17 of 23 surveyed Member States say benefits outweigh costs.",
    "status": "not measured",
-   "sources": "SWD(2013) 222; SWD(2024) 39/40"
+   "sources": "SWD(2013) 222; SWD(2024) 39/40",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "",
    "evidence": "European standard (EN 16931) published 2017; accepted at central level in all Member States except Cyprus and Slovakia, but only partly at sub-central level; transmission-level interoperability still lacking.",
    "status": "partially measured",
-   "sources": "SWD(2024) 39/40"
+   "sources": "SWD(2024) 39/40",
+   "status_group": "partially measured"
   },
   {
    "type": "expected impact (impact assessment)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "",
    "evidence": "High uptake only where governments mandate e-invoices or are digitally mature (e.g. Estonia, Finland, Sweden); no EU-wide uptake rate in executive summary.",
    "status": "partially measured",
-   "sources": "SWD(2024) 39/40"
+   "sources": "SWD(2024) 39/40",
+   "status_group": "partially measured"
   }
  ],
  "literature": [
@@ -91,5 +95,6 @@
    "accessed": "2026-10-10",
    "archive_url": ""
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

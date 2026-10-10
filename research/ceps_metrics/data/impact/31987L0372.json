@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "objective (recitals)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "GSM became the dominant world standard; cross-country econometric work finds the analogue-to-digital switch (with more spectrum) had a major effect on EU mobile diffusion, but a single mandated digital standard had no significant extra effect on diffusion compared with competing standards elsewhere.",
    "status": "mixed evidence",
-   "sources": "Gruber & Verboven 2001a, 2001b"
+   "sources": "Gruber & Verboven 2001a, 2001b",
+   "status_group": "mixed evidence"
   },
   {
    "type": "expected impact (2009 amendment)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "Industry capital savings up to EUR 1.6bn (Commission estimate)",
    "evidence": "Not evaluated ex post; the figure is a Commission forecast reported in the trade press.",
    "status": "not measured",
-   "sources": "telecoms.com 2009"
+   "sources": "telecoms.com 2009",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -128,5 +131,6 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20250122033910/https://www.telecoms.com/wireless-networking/eu-move-lends-helping-hand-to-umts900"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }
