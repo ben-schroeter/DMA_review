@@ -28,7 +28,7 @@ literature = [
      "peer-reviewed (book chapter)", "legal analysis", "once-only principle; cross-border evidence exchange", "mixed",
      "Analyses how the Regulation enables the once-only principle for cross-border procedures while its design constrains its scope",
      "A legal analysis argues the Regulation both pushes forward and limits the 'tell us once' idea for cross-border paperwork.",
-     "EU", "qualitative; no impact data", "page summary via search (Crossref metadata)", access="open"),
+     "EU", "qualitative; no impact data", "metadata only (Crossref); content not read"),
 ]
 write("32018R1724", "Single Digital Gateway Regulation", "52017PC0256", "SWD(2017) 213 (executive summary SWD(2017) 214)",
       "moderate on usage, thin on impact: usage and satisfaction indicators measured by the Commission; forecast cost savings unmeasured; no independent impact studies found",

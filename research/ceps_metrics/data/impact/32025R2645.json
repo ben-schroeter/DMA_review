@@ -1,0 +1,86 @@
+{
+ "celex": "32025R2645",
+ "name": "Compulsory licensing of patents Regulation",
+ "proposal": "52023PC0224",
+ "impact_assessment": "SWD(2023) 121 (executive summary SWD(2023) 122)",
+ "evidence_rating": "ex-ante only: qualitative IA, no indicators; no licence granted so nothing to measure",
+ "summary": "The Commission expected an EU-wide compulsory patent licence to speed up access to critical products in a crisis, but gave only qualitative estimates and expected it to be used rarely. No EU licence has been granted since the law took effect in January 2026, so there is no evidence on its impact. The final text was narrowed in patent holders' favour.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "No LFS indicators. Monitoring relies on basic descriptive data (Member States notifying national crisis compulsory licences); the Commission expects use to be rare. Evaluation is due after the first Union compulsory licence is activated (3 years in the proposal; 5 years after first licence in the IA).",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Effective, EU-wide compulsory licensing in cross-border crises",
+   "indicator": "Union compulsory licences granted; time to supply of crisis-critical products",
+   "target_or_baseline": "Qualitative only: 'significantly lower risk of delays or unavailability of critical products during crisis'",
+   "evidence": "No Union compulsory licence has been reported since the Regulation entered into force (January 2026). Final text narrowed the scope compared with the proposal (EPRS).",
+   "status": "not measured",
+   "sources": "SWD(2023) 122; EPRS 2024/2025"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Lower costs and legal certainty for patent holders, licensees and Member States",
+   "indicator": "",
+   "target_or_baseline": "Qualitative scores only (+/++/+++); no monetised estimates",
+   "evidence": "Not measured.",
+   "status": "not measured",
+   "sources": "SWD(2023) 122"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2023-compulsory-licensing-ia",
+   "citation": "European Commission (2023), Impact assessment accompanying the proposal on compulsory licensing for crisis management (executive summary SWD(2023) 122), SWD(2023) 121",
+   "authors": "European Commission",
+   "year": 2023,
+   "title": "Impact assessment accompanying the proposal on compulsory licensing for crisis management (executive summary SWD(2023) 122)",
+   "venue": "SWD(2023) 121",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023SC0122",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante (qualitative scoring)",
+   "outcomes": "crisis supply; negotiation costs; legal certainty; patent owners' control",
+   "direction": "positive (forecast)",
+   "headline": "Single EU-level licence expected to cut negotiation and procedure costs and give significantly lower risk of delays or unavailability of critical products in crises; patent owners face some loss of control; compulsory licensing described as an 'extremely low probability event'; impacts scored qualitatively, not monetised",
+   "summary_plain": "The Commission expected an EU-wide compulsory licence to get critical products to people faster in a crisis, but gave no monetary estimates and expected the tool to be used rarely.",
+   "period_geography": "EU, forecast",
+   "quality": "qualitative forecast",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20250723082015/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023SC0122"
+  },
+  {
+   "id": "eprs-2025-compulsory-licensing",
+   "citation": "European Parliamentary Research Service (2025), Union compulsory licensing of patents for crisis management (EU Legislation in Progress briefing, 4th edition), EPRS_BRI(2024)757634",
+   "authors": "European Parliamentary Research Service",
+   "year": 2025,
+   "title": "Union compulsory licensing of patents for crisis management (EU Legislation in Progress briefing, 4th edition)",
+   "venue": "EPRS_BRI(2024)757634",
+   "url": "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2024)757634",
+   "pdf_url": "",
+   "source_type": "Parliament research briefing",
+   "method": "legislative analysis",
+   "outcomes": "scope; stakeholder positions",
+   "direction": "n/a",
+   "headline": "Civil society backed broad application, industry a narrow scope; the 21 May 2025 provisional agreement largely amended the proposal in favour of rights-holders, excluding semiconductor, gas supply and defence crises and dropping the proposed cap on licence fees",
+   "summary_plain": "The Parliament's researchers report that the final deal narrowed the tool in rights-holders' favour, excluding some crises and dropping a cap on royalties.",
+   "period_geography": "EU, 2023-2025",
+   "quality": "descriptive",
+   "verified": "page summary via search",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  }
+ ]
+}

@@ -120,3 +120,8 @@ Tier 3 — pending proposals and acts adopted 2024–2026 (impact assessment and
 - [x] 32025R2518 GDPR Procedural Regulation
 - [x] 32018R1724 Single Digital Gateway Regulation
 - [x] 32002D0676 Radio Spectrum Decision
+- [x] 32025R2645 Compulsory licensing of patents Regulation
+- [x] 32018R1724 Single Digital Gateway Regulation
+- [x] 32021R2085 Joint Undertakings under Horizon Europe
+- [x] 32002R0006 Community Design Regulation
+- [x] 32019R0881 Cybersecurity Act
