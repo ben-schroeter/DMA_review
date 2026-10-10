@@ -1,0 +1,188 @@
+[
+ {
+  "row": 20,
+  "celex": "32016R0679",
+  "name": "General Data Protection Regulation",
+  "year": "2016",
+  "status": "adopted",
+  "n_ev": 10,
+  "n_causal": 8,
+  "level": "strong",
+  "existing": [
+   "European Commission (2012) Impact Assessment accompanying the data protection reform (executive summary SEC(2012) 73)",
+   "European Commission (2024) Second report on the application of the General Data Protection Regulation",
+   "Jia, Jin & Wagman (2021) The Short-Run Effects of the General Data Protection Regulation on Technology Venture Investment",
+   "Johnson, Shriver & Goldberg (2023) Privacy and Market Concentration: Intended and Unintended Consequences of the GDPR",
+   "Goldberg, Johnson & Shriver (2024) Regulating Privacy Online: An Economic Evaluation of the GDPR",
+   "Peukert, Bechtold, Batikas & Kretschmer (2022) Regulatory Spillovers and Data Governance: Evidence from the GDPR",
+   "Janssen, Kesler, Kummer & Waldfogel (2022) GDPR and the Lost Generation of Innovative Apps",
+   "Frey & Presidente (2024) Privacy regulation and firm performance: Estimating the GDPR effect globally",
+   "Demirer, Jimenez-Hernandez, Li & Peng (2024) Data, Privacy Laws and Firm Production: Evidence from the GDPR",
+   "Aridor, Che & Salz (2023) The Effect of Privacy Regulation on the Data Industry: Empirical Evidence from GDPR",
+   "Diegmann & Kubis (2025) Die Betriebe mussten in den letzten drei Jahren 325.000 Arbeitskräfte zusätzlich einstellen, um die gewachsene Bürokratie zu bewältigen",
+   "Klaus M. Miller, Karlo Lukic, Bernd Skiera (2024) The Impact of the General Data Protection Regulation (GDPR) on Online Tracking",
+   "Klaus M. Miller, Bernd Skiera, Julia Schmitt (2024) The Impact of the General Data Protection Regulation (GDPR) on Online Usage Behavior",
+   "Raffaele Congiu, Lorien Sabatino, Geza Sapi (2022) The Impact of Privacy Regulation on Web Traffic: Evidence From the GDPR",
+   "Miguel Godinho de Matos, Idris Adjerid (2022) Consumer Consent and Firm Targeting After GDPR: The Case of a Large Telecom Provider",
+   "Knut Blind, Crispin Niebel, Christian Rammer (2024) The impact of the EU General data protection regulation on product innovation",
+   "Vincent Lefrere, Logan Warberg, Cristobal Cheyre, Veronica Marotta, Alessandro Acquisti (2024) Does Privacy Regulation Harm Content Providers? A Longitudinal Analysis of the Impact of the GDPR",
+   "Heli Koski, Nelli Valmari (2020) Short-term Impacts of the GDPR on Firm Performance",
+   "James Bessen, Stephen Michael Impink, Lydia Reichensperger, Robert Seamans (2020) GDPR and the Importance of Data to AI Startups",
+   "Martin Degeling, Christine Utz, Christopher Lentzsch, Henry Hosseini, Florian Schaub, Thorsten Holz (2019) We Value Your Privacy ... Now Take Some Cookies: Measuring the GDPR's Impact on Web Privacy",
+   "Midas Nouwens, Ilaria Liccardi, Michael Veale, David Karger, Lalana Kagal (2020) Dark Patterns after the GDPR: Scraping Consent Pop-ups and Demonstrating their Influence",
+   "Bernhard Ganglmair, Julia Krämer, Jacopo Gambato (2024) Regulatory Compliance With Limited Enforceability: Evidence From Privacy Policies",
+   "European Commission (Kantar) (2019) Special Eurobarometer 487a: The General Data Protection Regulation"
+  ]
+ },
+ {
+  "row": 76,
+  "celex": "32023R2854",
+  "name": "Data Act",
+  "year": "2023",
+  "status": "adopted",
+  "n_ev": 6,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2022) Impact assessment report accompanying the Data Act proposal (executive summary SWD(2022) 35)",
+   "European Commission (2022) Data Act: Commission proposes measures for a fair and innovative data economy (press release)",
+   "Kerber (2023) Governance of IoT Data: Why the EU Data Act Will not Fulfill Its Objectives",
+   "Martens (2023) Pro- and anti-competitive provisions in the proposed European Union Data Act",
+   "Krämer (coord.), Colangelo, Richter & Schnurr (CERRE) (2023) Data Act: Towards a Balanced EU Data Regulation",
+   "Bitkom (2025) Data Act: Kaum Unternehmen vorbereitet (survey of 605 companies)",
+   "European Commission (2025) Proposal for a Digital Omnibus Regulation (amending Regulation (EU) 2023/2854)"
+  ]
+ },
+ {
+  "row": 56,
+  "celex": "32023R1114",
+  "name": "Markets in Crypto-Assets (MiCA)",
+  "year": "2023",
+  "status": "adopted",
+  "n_ev": 5,
+  "n_causal": 2,
+  "level": "thin",
+  "existing": [
+   "European Commission (2020) Impact Assessment accompanying the proposal for a Regulation on Markets in Crypto-assets (executive summary SWD(2020) 381)",
+   "ESMA (2026) Interim MiCA register (authorised CASPs, e-money token issuers, ART issuers, non-compliant entities)",
+   "Calissano, Giuglini & Reiche (ESMA) (2024) Crypto-assets: Market structures and EU relevance",
+   "Borri & Shakhnov (2026) Does Regulation Bite at Gateways? Evidence from MiCA and Stablecoins",
+   "Fauche (2025) The impact of MiCAR on the stablecoin market (summary of master's thesis)",
+   "Decta (2026) Euro Stablecoin Trends Report 2026: The MiCA-Compliant Coins in the EU Market",
+   "Thomas Conlon, Shaen Corbet, Les Oxley (2024) The influence of European MiCa regulation on cryptocurrencies"
+  ]
+ },
+ {
+  "row": 43,
+  "celex": "32019L1024",
+  "name": "Open Data Directive (PSI)",
+  "year": "2019",
+  "status": "adopted",
+  "n_ev": 4,
+  "n_causal": 1,
+  "level": "thin",
+  "existing": [
+   "European Commission (2018) Impact Assessment accompanying the proposal for a Directive on the re-use of public sector information (executive summary SWD(2018) 128)",
+   "European Commission (2018) Evaluation of Directive 2003/98/EC on the re-use of public sector information (executive summary SWD(2018) 129)",
+   "European Commission (2022) Impact assessment report accompanying the Implementing Regulation laying down a list of specific high-value datasets (executive summary SWD(2022) 433)",
+   "data.europa.eu (European Commission) (2025) Open Data Maturity Report 2025",
+   "European Data Portal (Capgemini Invent et al.) (2020) The Economic Impact of Open Data: Opportunities for value creation in Europe",
+   "Nagaraj (2022) The Private Impact of Public Data: Landsat Satellite Maps Increased Gold Discoveries and Encouraged Entry",
+   "Leon van Eendenburg, Jolanta Suárez (data.europa.eu / Publications Office) (2024) High-value datasets: Cross-country findability and comparability of metadata"
+  ]
+ },
+ {
+  "row": 112,
+  "celex": "32017R1128",
+  "name": "Portability Regulation",
+  "year": "2017",
+  "status": "adopted",
+  "n_ev": 4,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2015) Impact Assessment accompanying the proposal for a Regulation to ensure the cross-border portability of online content services in the internal market",
+   "European Commission (2022) Report on the application of Regulation (EU) 2017/1128 on cross-border portability of online content services in the internal market",
+   "Visionary Analytics with Kantar Public (for DG CNECT) (2022) Study on the Portability Regulation - Final report (SMART 2019/0024)",
+   "European Commission (Kantar) (2019) Flash Eurobarometer 477a: Accessing content online and cross-border portability of online content services",
+   "European Audiovisual Observatory (2019) First feedback from the implementation of the Portability Regulation by free online video services"
+  ]
+ },
+ {
+  "row": 102,
+  "celex": "32025R2518",
+  "name": "GDPR Procedural Regulation",
+  "year": "2025",
+  "status": "adopted",
+  "n_ev": 3,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2024) Second Report on the application of the General Data Protection Regulation",
+   "EDPB & EDPS (2023) Joint Opinion 01/2023 on the Proposal for a Regulation laying down additional procedural rules relating to the enforcement of Regulation (EU) 2016/679",
+   "Euronews (reporting noyb) (2025) EU plans to reform data protection rules are 'tangled mess', privacy advocates warn"
+  ]
+ },
+ {
+  "row": 38,
+  "celex": "32018R1807",
+  "name": "Free Flow of Non-Personal Data Regulation",
+  "year": "2018",
+  "status": "adopted",
+  "n_ev": 3,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2017) Impact Assessment accompanying the proposal on a framework for the free flow of non-personal data (executive summary SWD(2017) 305)",
+   "Bauer, Ferracane, Lee-Makiyama & van der Marel (2016) Unleashing Internal Data Flows in the EU: An Economic Assessment of Data Localisation Measures in the EU Member States",
+   "Open Evidence et al. for the European Commission (2026) Study supporting the evaluation of the free flow of non-personal data regulation, open data directive and data governance act",
+   "European Commission (2025) Staff working document accompanying the Digital Omnibus proposals"
+  ]
+ },
+ {
+  "row": 21,
+  "celex": "32016L0680",
+  "name": "Law Enforcement Directive",
+  "year": "2016",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2012) Impact Assessment for the data protection reform package (GDPR and Law Enforcement Directive), executive summary",
+   "European Commission (2022) First report on application and functioning of the Data Protection Law Enforcement Directive (EU) 2016/680",
+   "Council of the European Union (2025) Council position and findings on the evaluation and review of the Law Enforcement Directive (LED)",
+   "European Data Protection Board (2026) Contribution of the EDPB to the European Commission's evaluation of the Data Protection Law Enforcement Directive (LED) under Article 62 LED",
+   "EDRi (authors: Fitzjean Ó Cobhthaigh, A., Le Querrec, B., Korenke, C., Chelioudakis, E., Nikiforov, L., Križnar, P., Golla, S.) (2026) Shadow evaluation report of the Law Enforcement Directive (2016/680) implementation"
+  ]
+ },
+ {
+  "row": 35,
+  "celex": "32018R1725",
+  "name": "Data protection by EU institutions Regulation",
+  "year": "2018",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2022) First report on the application of the Data Protection Regulation for EU institutions, bodies, offices and agencies (Regulation 2018/1725)",
+   "European Commission (2025) Staff working document accompanying the Digital Omnibus proposals",
+   "European Data Protection Supervisor (EDPS) (2024) Results of the Survey on the designation and position of the data protection officer in the EU institutions, bodies, offices and agencies"
+  ]
+ },
+ {
+  "row": 73,
+  "celex": "32024L2831",
+  "name": "Platform Work Directive",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2021) Impact Assessment accompanying the proposal for a Directive on improving working conditions in platform work (executive summary SWD(2021) 397)",
+   "Dolado, Jáñez & Wellschmied (2025) Riders on the Storm"
+  ]
+ }
+]

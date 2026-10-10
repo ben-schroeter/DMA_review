@@ -130,6 +130,32 @@
    "accessed": "2026-10-10",
    "archive_url": "",
    "category": "evidence"
+  },
+  {
+   "id": "poitiers-2026-chips-indispensability",
+   "authors": "Niclas Poitiers; Tillman Schenk",
+   "year": 2026,
+   "title": "Revamping Europe's chips strategy: indispensability, not self-sufficiency",
+   "venue": "Bruegel Analysis 12/2026",
+   "url": "https://www.bruegel.org/analysis/revamping-europes-chips-strategy-indispensability-not-self-sufficiency",
+   "pdf_url": "",
+   "source_type": "think tank report",
+   "method": "structured qualitative stock-take of the Chips Act's implementation using state-aid approval totals, ECA findings and case evidence (Intel Magdeburg cancellation, Nexperia), with comparison to US CHIPS Act awards",
+   "outcomes": "state aid mobilised under Pillar II, strategic coordination, flagship fab investments, fit with European chip demand",
+   "direction": "negative",
+   "headline": "Only EUR 13.75 billion of state aid had been approved under the Chips Act, against USD 33.7 billion in grants and USD 5.5 billion in loans awarded under the US CHIPS Act by January 2025; the authors judge the Act has 'underdelivered' on funding scale and coordination.",
+   "summary_plain": "Bruegel looked back at what the EU Chips Act has achieved since 2023. It finds far less public money has flowed than planned, the flagship Intel factory in Germany was cancelled, and the subsidies do not match what European chip buyers (mainly carmakers and industry) actually need.",
+   "period_geography": "EU, 2023 to early 2026 (with US comparison)",
+   "quality": "Descriptive stock-take relying largely on secondary data (ECA, state-aid decisions); no counterfactual; written as input to the Chips Act 2 revision.",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "Bruegel is funded partly by EU member states and corporate members, including technology firms",
+   "source_class": "think tank",
+   "citation": "Niclas Poitiers; Tillman Schenk (2026), Revamping Europe's chips strategy: indispensability, not self-sufficiency, Bruegel Analysis 12/2026",
+   "accessed": "2026-10-10",
+   "archive_url": "",
+   "added": "2026-10 broadened search",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

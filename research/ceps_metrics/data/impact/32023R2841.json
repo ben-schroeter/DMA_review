@@ -106,6 +106,32 @@
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260928225406/https://cert.europa.eu/iicb/annual-report-2025/",
    "category": "evidence"
+  },
+  {
+   "id": "certeu-2026-tlr2025",
+   "authors": "CERT-EU (Cybersecurity Service for the Union institutions, bodies, offices and agencies)",
+   "year": 2026,
+   "title": "Threat Landscape Report 2025: A Year in Review",
+   "venue": "CERT-EU, version 1, 8 April 2026",
+   "url": "https://www.cert.europa.eu/publications/threat-intelligence/tlr2025/pdf",
+   "pdf_url": "https://www.cert.europa.eu/publications/threat-intelligence/tlr2025/pdf",
+   "source_type": "agency report",
+   "method": "annual threat and incident monitoring under Regulation 2023/2841, including counts of significant incidents reported under Article 21; descriptive",
+   "outcomes": "significant incidents at Union entities, threat actors, initial access vectors, critical exposures",
+   "direction": "descriptive",
+   "headline": "Significant incidents at EU institutions, bodies and agencies fell from 15 in 2024 to nine in 2025 (seven via vulnerability exploitation), and critical exposures to threat actors fell from 20 to 5, while tracked threat actors rose from 110 to 174; CERT-EU says the cause of the drop is unclear.",
+   "summary_plain": "The EU's own cyber-response team counts serious cyber incidents hitting EU institutions under the new rules. Serious incidents fell in 2025 compared with 2024, even though more hacker groups were targeting the institutions.",
+   "period_geography": "2024-2025; EU institutions, bodies, offices and agencies",
+   "quality": "Official incident counts from the Regulation's reporting duty; two years only, small numbers, no attribution of the change to the Regulation.",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "CERT-EU is a body set up under the Regulation",
+   "source_class": "official",
+   "citation": "CERT-EU (Cybersecurity Service for the Union institutions, bodies, offices and agencies) (2026), Threat Landscape Report 2025: A Year in Review, CERT-EU, version 1, 8 April 2026",
+   "accessed": "2026-10-10",
+   "archive_url": "",
+   "added": "2026-10 broadened search",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

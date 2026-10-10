@@ -1,0 +1,212 @@
+[
+ {
+  "row": 59,
+  "celex": "32022R1925",
+  "name": "Digital Markets Act",
+  "year": "2022",
+  "status": "adopted",
+  "n_ev": 13,
+  "n_causal": 5,
+  "level": "thin",
+  "existing": [
+   "European Commission (2020) Impact Assessment Report accompanying the DMA proposal",
+   "European Commission (2026) First review of the Digital Markets Act (staff working document)",
+   "European Commission (2025) Commission finds Apple and Meta in breach of the Digital Markets Act",
+   "European Commission (2026) Commission fines Google EUR 890 million for breaches of the Digital Markets Act",
+   "Akesson, Amlani, Cepeda Suarez, Chissell, Hunt, Luca, Petrie (2026) Active Choice Interventions at Scale: Browser Defaults under the Digital Markets Act",
+   "Pape, Rossi (2026) The DMA's Google Maps experiment",
+   "Yang (2025) Unintended effects of Digital Market Act on new entry and investment",
+   "Decarolis, Li, Paternollo (2025) Competition and Defaults in Online Search",
+   "Cabral, Haucap, Parker, Petropoulos, Valletti, Van Alstyne (2021) The EU Digital Markets Act: A Report from a Panel of Economic Experts",
+   "Oxera (for Amazon) (2021) The Digital Markets Act and incentives to innovate: behavioural experiment",
+   "CERRE (2025) Evaluating the DMA",
+   "Madio, Manenti, Motta (2026) Platform Tying and its Effects",
+   "Waldfogel (2024) Amazon Self-preferencing in the Shadow of the Digital Markets Act",
+   "Farronato, Fradkin, MacKay (2023) Self-Preferencing at Amazon: Evidence from Search Rankings",
+   "Motta (2023) Self-preferencing and foreclosure in digital markets: Theories of harm for abuse cases",
+   "Motta, Peitz (2020) Intervention triggers and underlying theories of harm",
+   "Omar Vasquez Duque (2025) The Magical Number 2 (Minus Two): An Empirical Analysis on the Efficacy of Choice Screens to Increase Competition in Digital Markets",
+   "Joan Calzada, Néstor Duch-Brown, Xavier Fageda, Nicandro Quirós (2026) Who benefits from Google's SERP? The impact of the DMA on the Air Travel Market",
+   "Victorine Verlooy, Monty Lukas Meier, Vincent Heimburg, Maximilian Schreieck (2025) The Impact of the EU's Digital Markets Act: An Event Study",
+   "Matthias Bauer, Dyuti Pandya (ECIPE) (2025) What About Us? Consumer Response to the Digital Markets Act",
+   "Nextrade Group (for CCIA Europe) (2025) Impact of the Digital Markets Act (DMA) on consumers across the European Union: Results from a survey with 5,000 consumers",
+   "Jane Choi (Analysis Group) (2025) What Happens to App Prices when Developers Pay Lower Commission Fees? Evidence from the European Union",
+   "Dirk Auer (ICLE) (2026) The Commission's Seven Claims, Tested",
+   "Javier Delgado (Mirai) (2024) DMA implementation sinks 30% of clicks and bookings on Google Hotel Ads",
+   "Pablo Delgado (Mirai) (2024) DMA impact on hotels: 0.8% loss of direct reservations"
+  ]
+ },
+ {
+  "row": 61,
+  "celex": "32022L2555",
+  "name": "NIS 2 Directive",
+  "year": "2022",
+  "status": "adopted",
+  "n_ev": 6,
+  "n_causal": 1,
+  "level": "thin",
+  "existing": [
+   "European Commission (2020) Impact Assessment accompanying the proposal for a Directive on measures for a high common level of cybersecurity across the Union (executive summary SWD(2020) 344)",
+   "European Commission (2020) Evaluation of the functioning of the NIS Directive (Annex 5 of the NIS 2 impact assessment)",
+   "Wavestone, ICF & CEPS (Adami, Cole, Massacci, Polito, Pupillo et al.) for DG CONNECT (2021) Study to support the review of Directive (EU) 2016/1148 (NIS Directive), No. 2020-665",
+   "ENISA (2020) NIS Investments (first edition)",
+   "ENISA (2024) NIS Investments 2024",
+   "ENISA (2025) NIS Investments 2025",
+   "ENISA with NIS Cooperation Group and European Commission (2024) 2024 Report on the State of Cybersecurity in the Union",
+   "European Commission (2026) Commission refers Ireland, Spain, France and the Netherlands to the Court of Justice for failing to transpose the rules on cybersecurity",
+   "ENISA (European Union Agency for Cybersecurity) (2025) ENISA NIS360 - 2024",
+   "ENISA (European Union Agency for Cybersecurity) (2026) ENISA NIS360 (third edition; press release 'NIS360: The bigger picture on maturity and criticality of NIS critical sectors')",
+   "ZEW Mannheim (Daniel Erdsiek, Eliza Stenzhorn) (2026) Companies Suffered Damage from Cyberattacks and Are Sceptical About NIS-2 (ZEW Information Economy Report Q4 2025)",
+   "ENISA (European Union Agency for Cybersecurity) (2022) NIS Investments 2022",
+   "ENISA (European Union Agency for Cybersecurity) (2023) NIS Investments Report 2023"
+  ]
+ },
+ {
+  "row": 48,
+  "celex": "32021R0695",
+  "name": "Horizon Europe",
+  "year": "2021",
+  "status": "adopted",
+  "n_ev": 5,
+  "n_causal": 4,
+  "level": "moderate",
+  "existing": [
+   "European Commission (2018) Impact Assessment accompanying the proposals for Horizon Europe (executive summary SWD(2018) 308)",
+   "European Commission (2024) Ex-post evaluation of Horizon 2020, the EU Framework Programme for Research and Innovation (Staff Working Document)",
+   "European Commission (2025) Interim Evaluation of the Horizon Europe Framework Programme for Research and Innovation (2021-2024)",
+   "Santoleri, P., Mina, A., Di Minin, A. & Martelli, I. (2024) The Causal Effects of R&D Grants: Evidence from a Regression Discontinuity",
+   "Mitra, A. & Niakaros, K. (European Commission, DG RTD) (2023) The Horizon effect: A counterfactual analysis of EU research & innovation grants",
+   "Ghirelli, C., Havari, E., Meroni, E. & Verzillo, S. (2023) The Long-Term Causal Effects of Winning an ERC Grant",
+   "Maria del Sorbo, Carina Faber, Marco Grazzi, Francesco Matteucci, Miriam Ruß (2026) Assessing changes in EU innovation policy programs: from SME instrument to EIC accelerator for start-up funding",
+   "PPMI, IDEA Consult, UNU-MERIT for European Commission DG RTD (2025) To what extent are Widening countries part of knowledge networks formed by the framework programmes? Working paper supporting the interim evaluation of Horizon Europe (support study on Excellent Science)",
+   "Veronica Orsanigo, Thomas Louf, Eleonora Andreotti, et al. (2026) Collaboration, Integration, and Thematic Exploration in European Framework Programmes: A Longitudinal Network Analysis",
+   "European Court of Auditors (2025) Annual reports concerning the 2024 financial year, Chapter 5 'Competitiveness for growth and jobs' (research: Horizon 2020 and Horizon Europe)",
+   "European Commission (2026) Annual Report on Research and Technological Development Activities of the European Union and Monitoring of Horizon Europe in 2025"
+  ]
+ },
+ {
+  "row": 30,
+  "celex": "32018R0302",
+  "name": "Geo-blocking Regulation",
+  "year": "2018",
+  "status": "adopted",
+  "n_ev": 5,
+  "n_causal": 0,
+  "level": "moderate",
+  "existing": [
+   "European Commission (2016) Impact Assessment accompanying the Geo-blocking Regulation proposal (executive summary SWD(2016) 174)",
+   "European Commission (2020) First short-term review of the Geo-blocking Regulation",
+   "Alaveras, Duch-Brown & Martens (2020) Geo-blocking regulation: an assessment of its impact on the EU Digital Single Market",
+   "Duch-Brown & Martens (2016) The Economic Impact of Removing Geo-blocking Restrictions in the EU Digital Single Market",
+   "Bourreau & Manenti (2023) Selling cross-border in online markets: The impact of the ban on geoblocking strategies",
+   "European Court of Auditors (2025) Special report 03/2025: Geo-blocking",
+   "European Commission, DG GROW (contracted study) (2020) Mystery Shopping Survey on territorial restrictions and geo-blocking in the European Digital Single Market (MSS 2019) - Executive summary",
+   "Basalisco, B.; Salmaso, E.; Marquardt, G.; Ballebye Okholm, H.; Kotiranta, J.; Abecasis, P.; Kleberg, S. W.; Graef, I.; Monti, G. (Copenhagen Economics) (2024) Study for further evaluation of the geo-blocking regulation"
+  ]
+ },
+ {
+  "row": 58,
+  "celex": "32022R0868",
+  "name": "Data Governance Act",
+  "year": "2022",
+  "status": "adopted",
+  "n_ev": 4,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2020) Impact assessment report accompanying the Data Governance Act proposal (executive summary SWD(2020) 296)",
+   "von Ditfurth & Lienemann (2022) The Data Governance Act: Promoting or Restricting Data Intermediaries?",
+   "Carovano & Finck (2023) Regulating data intermediaries: The impact of the Data Governance Act on the EU's data economy",
+   "European Commission (2024) Commission calls on 10 Member States to comply with the Data Governance Act",
+   "European Commission (2026) EU registers of data intermediation services and of recognised data altruism organisations",
+   "European Commission (2025) Proposal for a Digital Omnibus Regulation (repealing Regulation (EU) 2022/868)",
+   "Gardner, H., Enzerink, S., Page, M., Brincat, A. (Capgemini); Tenge, E., Velcsov, T., Macchioni, M.S. (Spark Legal and Policy Consulting); Lechardoy, L., Spolverato, G. (Open Evidence) (2025) Study supporting the evaluation of the Free Flow of Non-Personal Data Regulation, Open Data Directive and Data Governance Act - Final Report"
+  ]
+ },
+ {
+  "row": 64,
+  "celex": "32024R1689",
+  "name": "Artificial Intelligence Act",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 3,
+  "n_causal": 1,
+  "level": "thin",
+  "existing": [
+   "European Commission (2021) Impact Assessment accompanying the AI Act proposal (executive summary SWD(2021) 85)",
+   "Eurostat (2025) Use of artificial intelligence in enterprises",
+   "Council of the EU / European Parliament (2026) Digital Omnibus on AI (amending the AI Act): postponement of high-risk obligations",
+   "appliedAI Institute / Digital Poland et al. (2022) AI Act Impact Survey: Exploring the impact of the AI Act on startups in Europe",
+   "Lidiard, J., Vereschak, O., Gibbs, T. & Anderljung, M. (2026) Delays to Frontier AI in the EU and UK: Analysis of 375 LLM Releases by Meta, Google, OpenAI, and Anthropic",
+   "Guldimann, P., Spiridonov, A., Staab, R., Jovanović, N., Vero, M., Vechev, V., Gueorguieva, A.-M., Balunović, M., Konstantinov, N., Bielik, P., Tsankov, P. & Vechev, M. (2024) COMPL-AI Framework: A Technical Interpretation and LLM Benchmarking Suite for the EU Artificial Intelligence Act",
+   "Gutierrez, E. F., Rykaczewski, M. & Vulcheva, M. (2026) European Union's AI Act: Protecting the Public at the Cost of Innovation?",
+   "Bitkom (Bitkom Research) (2024) Jedes vierte Unternehmen beschäftigt sich mit dem AI Act (One in four companies is dealing with the AI Act)",
+   "Littler Mendelson (2025) Littler European Employer Survey Report 2025"
+  ]
+ },
+ {
+  "row": 46,
+  "celex": "32021R0523",
+  "name": "InvestEU Programme",
+  "year": "2021",
+  "status": "adopted",
+  "n_ev": 3,
+  "n_causal": 1,
+  "level": "moderate",
+  "existing": [
+   "European Commission (2018) Impact Assessment accompanying the proposal establishing the InvestEU Programme",
+   "European Commission (based on ICF study) (2024) Interim evaluation of the InvestEU Programme",
+   "European Court of Auditors (2025) The European Fund for Strategic Investments: contributed substantially to addressing the investment gap, but had not fully reached the EUR 500 billion target in the real economy by the end of 2022",
+   "Frayman (2026) The European Fund for Strategic Investments (EFSI): causal effects of a state lending policy",
+   "Bertoni, F., Colombo, M.G., Quas, A. (2025) Economic impact assessment of the COSME Loan Guarantee Facility: evidence from Belgium, France and Italy",
+   "Bertoni, F., Colombo, M.G., Quas, A. (2025) Economic impact assessment of the COSME Loan Guarantee Facility: evidence from Greece, Poland, Spain and Romania",
+   "EIB Operations Evaluation Division (Bernabè, S., Benko, B. et al.; with Ramboll, GDCC, Panteia) (2018) Evaluation of the European Fund for Strategic Investments"
+  ]
+ },
+ {
+  "row": 41,
+  "celex": "32019R1020",
+  "name": "Market Surveillance Regulation",
+  "year": "2019",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2017) Impact Assessment accompanying the proposal on compliance with and enforcement of Union harmonisation legislation on products (executive summary SWD(2017) 467)",
+   "European Commission (2025) Report on the implementation of Article 4 of Regulation (EU) 2019/1020",
+   "European Commission (2025) A comprehensive EU toolbox for safe and sustainable e-commerce",
+   "European Commission (DG TAXUD) (2026) Large scale EU customs control action shows most third-country e-commerce goods do not follow standards (results of priority control area action and product compliance controls report 2022-2024)"
+  ]
+ },
+ {
+  "row": 86,
+  "celex": "32024L2853",
+  "name": "Product Liability Directive",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2022) Impact Assessment accompanying the proposal for a Directive on liability for defective products (executive summary SWD(2022) 317)",
+   "European Commission (2018) Evaluation of Council Directive 85/374/EEC on liability for defective products",
+   "Insurance Europe (2022) Key messages on the European Commission's proposal for a revision of the Product Liability Directive (PLD)"
+  ]
+ },
+ {
+  "row": 31,
+  "celex": "32017R2394",
+  "name": "Consumer Protection Cooperation Regulation",
+  "year": "2017",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2016) Impact Assessment accompanying the proposal for a Regulation on cooperation between national authorities responsible for the enforcement of consumer protection laws",
+   "European Commission (2024) Report on the application of Regulation (EU) 2017/2394 on consumer protection cooperation",
+   "European Commission and national CPC authorities (2025) Sweeps (coordinated screening actions under the CPC Regulation), 2020-2025 results"
+  ]
+ }
+]

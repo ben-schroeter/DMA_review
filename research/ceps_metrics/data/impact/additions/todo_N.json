@@ -1,0 +1,165 @@
+[
+ {
+  "row": 39,
+  "celex": "32019R0452",
+  "name": "FDI Screening Regulation",
+  "year": "2019",
+  "status": "adopted",
+  "n_ev": 6,
+  "n_causal": 2,
+  "level": "moderate",
+  "existing": [
+   "European Commission (2024) Evaluation of Regulation (EU) 2019/452 establishing a framework for the screening of foreign direct investments into the Union (executive summary SWD(2024) 24)",
+   "European Commission (2025) Fifth Annual Report on the screening of foreign direct investments into the Union",
+   "European Court of Auditors (2023) Screening foreign direct investments in the EU: First steps taken, but significant limitations remain in addressing security and public-order risks effectively",
+   "OECD (2022) Framework for Screening Foreign Direct Investment into the EU: Assessing effectiveness and efficiency",
+   "Eichenauer & Wang (2024) Mild Deglobalization: Foreign Investment Screening and Cross-Border Investment",
+   "Mau (2023) Screening or deterring investments into the European Union?",
+   "Eichenauer, V. Z.; Köppl, S.; Köppl-Turyna, M. (2024) Investment screening and venture capital",
+   "Kaya, O.; Mostowfi, M.; Sugandhita, S. (2026) Foreign investment screening and cross-border M&A in sensitive sectors: Evidence from Germany"
+  ]
+ },
+ {
+  "row": 68,
+  "celex": "32024R1624",
+  "name": "Anti-Money Laundering Regulation",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 6,
+  "n_causal": 1,
+  "level": "thin",
+  "existing": [
+   "European Commission (2021) Impact Assessment accompanying the Anti-money laundering package (executive summary SWD(2021) 191)",
+   "Pol, R.F. (2020) Anti-money laundering: The world's least effective policy experiment? Together, we can fix it",
+   "Slutzky, P., Villamizar-Villegas, M. & Williams, T. (2026) Drug money and bank lending: the unintended consequences of anti-money laundering policies",
+   "European Banking Authority (2022) Opinion of the European Banking Authority on 'de-risking' (EBA/Op/2022/01)",
+   "Rice, T., von Peter, G. & Boar, C. (2020) On the global retreat of correspondent banks",
+   "European Court of Auditors (2021) EU efforts to fight money laundering in the banking sector are fragmented and implementation is insufficient (Special report 13/2021)",
+   "Europol (2017) From suspicion to action: Converting financial intelligence into greater operational impact",
+   "Arjan Premti, Mohammad Jafarinejad, Henry Balani (2021) The impact of the Fourth Anti-Money Laundering Directive on the valuation of EU banks",
+   "Cécile Volten, Michel van Eeten, Rolf van Wegberg (2025) Money for Nothing, Supervision for a Fee: Investigating the Effects of the 5th Anti-Money Laundering Directive on Cryptocurrency Exchanges in the Netherlands"
+  ]
+ },
+ {
+  "row": 32,
+  "celex": "32018L1972",
+  "name": "European Electronic Communications Code",
+  "year": "2018",
+  "status": "adopted",
+  "n_ev": 5,
+  "n_causal": 1,
+  "level": "thin",
+  "existing": [
+   "European Commission (2016) Impact Assessment accompanying the proposals for a Directive establishing the European Electronic Communications Code and a BEREC Regulation (executive summary SWD(2016) 304)",
+   "European Commission (2026) Report on the functioning of the European Electronic Communications Code, Directive (EU) 2018/1972",
+   "European Commission (2026) Impact Assessment accompanying the Digital Networks Act proposal, Annex 11: Evaluation of the EECC, BEREC Regulation, Open Internet Regulation and certain aspects of the ePrivacy Directive",
+   "European Commission (2022) EU Electronic Communications Code: Commission refers 10 Member States to the Court of Justice of the EU",
+   "Briglauer, Cambini, Fetzer & Hüschelrath (2017) The European Electronic Communications Code: A critical appraisal with a focus on incentivizing investment in next generation broadband networks",
+   "Briglauer, Cambini & Grajek (2018) Speeding up the internet: Regulation and investment in the European fiber optic infrastructure",
+   "Grajek & Röller (2012) Regulation and Investment in Network Industries: Evidence from European Telecoms",
+   "European Commission (2024) Report on the effectiveness of the implementation of the single European emergency number '112' (COM(2024) 575)"
+  ]
+ },
+ {
+  "row": 57,
+  "celex": "32022R2554",
+  "name": "Digital Operational Resilience Act (DORA)",
+  "year": "2022",
+  "status": "adopted",
+  "n_ev": 4,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2020) Impact Assessment accompanying the proposal for a Regulation on digital operational resilience for the financial sector (executive summary SWD(2020) 199)",
+   "EBA, EIOPA & ESMA (Joint Committee) (2024) DORA dry run exercise on reporting of registers of information - summary report",
+   "EBA, EIOPA & ESMA (2025) List of designated critical ICT third-party service providers under DORA",
+   "ENISA (2024) NIS Investments 2024 (section on readiness for DORA and other legislation)",
+   "Rubrik Zero Labs (reported by Infosecurity Magazine) (2025) DORA Compliance Costs Soar Past EUR 1m for Many UK and EU Businesses",
+   "Censuswide for Veeam Software (reported by Help Net Security) (2025) Six months into DORA, most financial firms are still not ready",
+   "EBA, EIOPA & ESMA (Joint Committee of the ESAs) (2026) 2025 Report on major ICT-related incidents (JC 2026 16)",
+   "Deloitte Luxembourg (2025) DORA European Survey - 2025 edition",
+   "McKinsey & Company (2024) Europe's new resilience regime: The race to get ready for DORA"
+  ]
+ },
+ {
+  "row": 90,
+  "celex": "32025L0516",
+  "name": "VAT in the Digital Age (ViDA)",
+  "year": "2025",
+  "status": "adopted",
+  "n_ev": 3,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2022) Impact assessment on VAT in the digital age (executive summary SWD(2022) 394)",
+   "Economisti Associati, Oxford Research, CASE, Wavestone et al. (2022) VAT in the digital age: final report (Vol. 1 Digital Reporting Requirements)",
+   "European Commission (DG TAXUD) (2025) VAT Gap in the EU - 2025 report",
+   "European Commission (DG TAXUD) (2025) VAT in the Digital Age: implementation strategy to support businesses and Member States",
+   "Marwin Heinemann, Wojciech Stiller (2023) Digitalization and Cross-Border Tax Fraud: Evidence from E-Invoicing in Italy"
+  ]
+ },
+ {
+  "row": 113,
+  "celex": "32019R0517",
+  "name": ".eu Top-Level Domain Regulation",
+  "year": "2019",
+  "status": "adopted",
+  "n_ev": 3,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2018) Impact Assessment accompanying the proposal on the implementation and functioning of the .eu top-level domain (executive summary SWD(2018) 121)",
+   "European Commission (2018) REFIT evaluation of Regulations 733/2002 and 874/2004 on the .eu top-level domain (executive summary)",
+   "European Commission (2022) Report on the implementation, functioning and effectiveness of the .eu Top-Level Domain from April 2019 to April 2021",
+   "EURid (registry) (2026) Q4 2025 quarterly update"
+  ]
+ },
+ {
+  "row": 51,
+  "celex": "32021R0784",
+  "name": "Terrorist Content Online Regulation",
+  "year": "2021",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2018) Impact Assessment accompanying the proposal on preventing the dissemination of terrorist content online (executive summary SWD(2018) 409)",
+   "European Commission (2024) Report on the implementation of Regulation (EU) 2021/784 on addressing the dissemination of terrorist content online (with SWD(2024) 36)",
+   "EU Agency for Fundamental Rights (FRA) (2026) Regulating online terrorist content - Balancing public safety and fundamental rights",
+   "Bundesnetzagentur (with Bundeskriminalamt data) (2026) Transparency Report as per Article 8 of the Terrorist Content Online Regulation and Monitoring Report as per Article 21(1) - Year under review 2025"
+  ]
+ },
+ {
+  "row": 71,
+  "celex": "32024R0900",
+  "name": "Political Advertising Regulation",
+  "year": "2024",
+  "status": "adopted",
+  "n_ev": 2,
+  "n_causal": 0,
+  "level": "ex-ante only",
+  "existing": [
+   "European Commission (2021) Impact Assessment accompanying the proposal for a Regulation on the transparency and targeting of political advertising (executive summary SWD(2021) 356)",
+   "Meyer et al. (European Digital Media Observatory) (2025) A Cross-Country Analysis of Electoral Advertising on Meta and Google during the EU 2024 Elections: Compliance, Transparency, and Targeting",
+   "Meta (2025) Ending Political, Electoral and Social Issue Advertising in the EU in Response to Incoming European Regulation",
+   "MedDMO (Mediterranean Digital Media Observatory; researchers incl. Sirivianos, M. and Andreou, A., Cyprus University of Technology) (2026) Anonymous third-party paid political advertising in the Cyprus 2026 parliamentary elections",
+   "Votta, F. (2025) What Data Reveals About Meta and Google's Political Ad Ban in the EU"
+  ]
+ },
+ {
+  "row": 26,
+  "celex": "32016L0943",
+  "name": "Trade Secrets Directive",
+  "year": "2016",
+  "status": "adopted",
+  "n_ev": 1,
+  "n_causal": 0,
+  "level": "thin",
+  "existing": [
+   "European Commission (2013) Impact Assessment accompanying the proposal for a Directive on the protection of undisclosed know-how and business information (trade secrets)",
+   "Borghi, Cogo & Khan (for EUIPO Observatory) (2023) Trade Secrets Litigation Trends in the EU",
+   "Aplin, T., Radauer, A., Bader, M.A., Searle, N. (2023) The Role of EU Trade Secrets Law in the Data Economy: An Empirical Analysis"
+  ]
+ }
+]

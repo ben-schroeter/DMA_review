@@ -144,6 +144,32 @@
    "accessed": "2026-10-10",
    "archive_url": "",
    "category": "evidence"
+  },
+  {
+   "id": "hiqa-2026-ehds-readiness",
+   "authors": "Health Information and Quality Authority (HIQA), HealthData@IE project (with Department of Health and Health Research Board)",
+   "year": 2026,
+   "title": "Report on the findings of a readiness assessment of data holders in Ireland in relation to health data access body services (HealthData@IE Deliverable 8.12)",
+   "venue": "HIQA / HealthData@IE (EU4Health-funded project), March 2026",
+   "url": "https://www.hiqa.ie/sites/default/files/2026-03/Report-on-the-findings-of-a-readiness-assessment-of-data-holders-in-Ireland.pdf",
+   "pdf_url": "https://www.hiqa.ie/sites/default/files/2026-03/Report-on-the-findings-of-a-readiness-assessment-of-data-holders-in-Ireland.pdf",
+   "source_type": "agency report",
+   "method": "national readiness survey of 16 data holders covering 21 datasets (100% response rate), plus focus groups, analysed with descriptive statistics and content analysis, built around three use cases (influenza, diabetes, colorectal cancer)",
+   "outcomes": "data holders' readiness for EHDS secondary-use obligations: unique identifiers, data linkage, anonymisation, data quality, information-management maturity",
+   "direction": "descriptive",
+   "headline": "Only 57% of surveyed datasets use the Individual Health Identifier and 48% the PPS number; a third do not link with other datasets at all, and only 38% use anonymisation techniques.",
+   "summary_plain": "Ireland's health quality authority surveyed its main health data holders to see how ready they are for the new EU health data rules. Many are not ready yet: no common patient ID is used across them, data are often not linked, and few anonymise data, so a lot of work is needed before 2029.",
+   "period_geography": "2025 survey; Ireland",
+   "quality": "Early implementation baseline from a national authority; small, purposive sample of mostly well-established national collections; descriptive only, no counterfactual; single country.",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "National body tasked with setting up EHDS health data access services; EU-funded project",
+   "source_class": "official",
+   "citation": "Health Information and Quality Authority (HIQA), HealthData@IE project (with Department of Health and Health Research Board) (2026), Report on the findings of a readiness assessment of data holders in Ireland in relation to health data access body services (HealthData@IE Deliverable 8.12), HIQA / HealthData@IE (EU4Health-funded project), March 2026",
+   "accessed": "2026-10-10",
+   "archive_url": "",
+   "added": "2026-10 broadened search",
+   "category": "evidence"
   }
  ],
  "evidence_level": "ex-ante only"
