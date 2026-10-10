@@ -36,41 +36,60 @@ def axes(ymax, ticks, fmt=lambda v: f"{v:,.0f}"):
     return Yf, g
 
 
-def step(points, Yf, base=None):
-    """points: [(year_float, value)] sorted; returns path for step-after line and, with base, the area down to base series."""
-    d = f"M{L},{Yf(points[0][1]):.1f}"
-    for y, v in points:
-        d += f"H{X(y):.1f}V{Yf(v):.1f}"
-    d += f"H{X(Y1 - 0.3):.1f}"
-    return d
-
-
-def stack_paths(series, Yf):
-    """series: list of (label, color, [(year, cumvalue_total_of_this_and_below)]) bottom to top -> filled bands."""
-    out, prev = [], None
-    for lab, col, pts in series:
-        top = [f"M{L},{Yf(0):.1f}"] if False else []
-        up = step(pts, Yf)
-        if prev is None:
-            area = up + f"V{Yf(0):.1f}H{L}Z"
-        else:
-            # walk back along previous top
-            back = ""
-            for y, v in reversed(prev):
-                back += f"V{Yf(v):.1f}H{X(y):.1f}"
-            area = up + f"V{Yf(prev[-1][1]):.1f}" + back[back.find('H'):] if back else up
-            area = up + "".join([f"V{Yf(prev[-1][1]):.1f}"]) + rev_path(prev, Yf) + "Z"
-        out.append(f'<path d="{area}" fill="{col}" stroke="#FAF9F5" stroke-width="1"></path>')
-        prev = pts
+def resample(points, x0=None, x1=None, stepy=1.0):
+    """Cumulative step series [(year, value)] -> values on a regular grid (yearly by default) (value reached by each grid date)."""
+    x0 = Y0 if x0 is None else x0; x1 = Y1 - 0.3 if x1 is None else x1
+    out, j, v, x = [], 0, 0, x0
+    while x < x1 + 1e-9:
+        while j < len(points) and points[j][0] <= x:
+            v = points[j][1]; j += 1
+        out.append((x, v)); x += stepy
+    if out[-1][0] < x1:
+        out.append((x1, points[-1][1]))
     return out
 
 
-def rev_path(pts, Yf):
-    s = ""
-    for i in range(len(pts) - 1, -1, -1):
-        y, v = pts[i]
-        s += f"H{X(y):.1f}V{Yf(pts[i - 1][1] if i else 0):.1f}"
-    return s + f"H{L}"
+def smooth_d(pts, start="M"):
+    """Monotone cubic (Fritsch-Carlson) through screen points: smooth, no overshoot, never dips."""
+    n = len(pts)
+    if n < 2:
+        return f"{start}{pts[0][0]:.1f},{pts[0][1]:.1f}"
+    dx = [pts[i + 1][0] - pts[i][0] for i in range(n - 1)]
+    sl = [(pts[i + 1][1] - pts[i][1]) / dx[i] if dx[i] else 0 for i in range(n - 1)]
+    m = [sl[0]] + [0 if sl[i - 1] * sl[i] <= 0 else (sl[i - 1] + sl[i]) / 2 for i in range(1, n - 1)] + [sl[-1]]
+    for i in range(n - 1):
+        if sl[i] == 0:
+            m[i] = m[i + 1] = 0
+        else:
+            a_, b_ = m[i] / sl[i], m[i + 1] / sl[i]
+            h = a_ * a_ + b_ * b_
+            if h > 9:
+                t = 3 / h ** 0.5; m[i] = t * a_ * sl[i]; m[i + 1] = t * b_ * sl[i]
+    d = f"{start}{pts[0][0]:.1f},{pts[0][1]:.1f}"
+    for i in range(n - 1):
+        (xa, ya), (xb, yb), h3 = pts[i], pts[i + 1], dx[i] / 3
+        d += f"C{xa + h3:.1f},{ya + m[i] * h3:.1f} {xb - h3:.1f},{yb - m[i + 1] * h3:.1f} {xb:.1f},{yb:.1f}"
+    return d
+
+
+def band_d(top, bot, Xf, Yf):
+    """Smooth filled band between two resampled series (bot None = down to zero)."""
+    T = [(Xf(x), Yf(v)) for x, v in top]
+    d = smooth_d(T)
+    if bot is None:
+        return d + f"L{T[-1][0]:.1f},{Yf(0):.1f}L{T[0][0]:.1f},{Yf(0):.1f}Z"
+    B = [(Xf(x), Yf(v)) for x, v in reversed(bot)]
+    return d + smooth_d(B, start="L") + "Z"
+
+
+def stack_paths(series, Yf):
+    """series: list of (label, color, [(year, cumvalue_total_of_this_and_below)]) bottom to top -> smooth filled bands."""
+    out, prev = [], None
+    for lab, col, pts in series:
+        cur = resample(pts)
+        out.append(f'<path d="{band_d(cur, prev, X, Yf)}" fill="{col}" stroke="#FAF9F5" stroke-width="1"></path>')
+        prev = cur
+    return out
 
 
 charts = {}
@@ -308,20 +327,13 @@ for i, a in enumerate(areas):
         p += pv; o += r["restrictions_total"] - pv
         pp.append((fy(r["d"]), p)); po.append((fy(r["d"]), p + o))
     pa_tot[a] = p + o
-    def band(top, bot):
-        d = f"M{x0},{yv(top[0][1]):.1f}"
-        for y, v in top: d += f"H{xpx(x0, y):.1f}V{yv(v):.1f}"
-        d += f"H{x0 + PW_}"
-        if bot is None: return d + f"V{yv(0):.1f}H{x0}Z"
-        d += f"V{yv(bot[-1][1]):.1f}"
-        for j in range(len(bot) - 1, -1, -1):
-            d += f"H{xpx(x0, bot[j][0]):.1f}V{yv(bot[j - 1][1] if j else 0):.1f}"
-        return d + f"H{x0}Z"
+    rp, ro = resample(pp, stepy=2.0), resample(po, stepy=2.0)
+    xf = lambda y, x0=x0: xpx(x0, y)
     for t in (2000, 4000):
         g.append(f'<line x1="{x0}" x2="{x0 + PW_}" y1="{yv(t):.1f}" y2="{yv(t):.1f}" stroke="{LINE}"></line>')
         if i % NC == 0:
             g.append(f'<text x="{x0 - 6}" y="{yv(t) + 4:.1f}" text-anchor="end" {F} font-size="12" fill="{MUTED}">{t // 1000}k</text>')
-    g.append(f'<path d="{band(po, pp)}" fill="{STONE}"></path><path d="{band(pp, None)}" fill="{CLAY}"></path>')
+    g.append(f'<path d="{band_d(ro, rp, xf, yv)}" fill="{STONE}"></path><path d="{band_d(rp, None, xf, yv)}" fill="{CLAY}"></path>')
     g.append(f'<line x1="{x0}" x2="{x0 + PW_}" y1="{y0 + PH_}" y2="{y0 + PH_}" stroke="{BASE}"></line>')
     for y in (1990, 2010):
         g.append(f'<text x="{xpx(x0, y):.1f}" y="{y0 + PH_ + 16}" text-anchor="middle" {F} font-size="12" fill="{MUTED}">{y}</text>')
