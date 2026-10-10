@@ -91,3 +91,32 @@ Tier 3 — pending proposals and acts adopted 2024–2026 (impact assessment and
 - [x] 32021R1153 Connecting Europe Facility
 - [x] 32024L1799 Right to Repair Directive
 - [x] 32025R0327 European Health Data Space
+- [x] 32024L2823 Design Directive
+- [x] 32018R1725 Data protection by EU institutions Regulation
+- [x] 31993L0083 Satellite and Cable Directive
+- [x] 32024L2831 Platform Work Directive
+- [x] 32017R2394 Consumer Protection Cooperation Regulation
+- [x] 32021R1173 EuroHPC Joint Undertaking Regulation
+- [x] 32018R1807 Free Flow of Non-Personal Data Regulation
+- [x] 32025R2509 Toys Safety Regulation
+- [x] 32024L2853 Product Liability Directive
+- [x] 52024PC0670 EU Digital Travel Application Regulation
+- [x] 32019L0713 Non-cash payment fraud Directive
+- [x] 31998L0006 Price Indication Directive
+- [x] 32024R0795 Strategic Technologies for Europe Platform (STEP)
+- [x] 32019L0770 Digital Content Directive
+- [x] 31998L0006 Price Indication Directive
+- [x] 32019L0771 Sale of Goods Directive
+- [x] 31993L0083 Satellite and Cable Directive
+- [x] 31993L0083 Satellite and Cable Directive
+- [x] 52024PC0670 EU Digital Travel Application Regulation
+- [x] 32024R0900 Political Advertising Regulation
+- [x] 32021R1232 Temporary CSAM Derogation Regulation
+- [x] 32025R2518 GDPR Procedural Regulation
+- [x] 32019R0517 .eu Top-Level Domain Regulation
+- [x] 32024R0903 Interoperable Europe Act
+- [x] 52025PC0335 EU Space Act
+- [x] 32019R0817 Interoperability of EU information systems (borders and visa) Regulation
+- [x] 32025R2518 GDPR Procedural Regulation
+- [x] 32018R1724 Single Digital Gateway Regulation
+- [x] 32002D0676 Radio Spectrum Decision

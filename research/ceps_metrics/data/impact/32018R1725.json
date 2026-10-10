@@ -1,0 +1,131 @@
+{
+ "celex": "32018R1725",
+ "name": "Data protection by EU institutions Regulation",
+ "proposal": "52017PC0008",
+ "impact_assessment": "none (relied on the GDPR impact assessment SEC(2012) 72)",
+ "evidence_rating": "thin: one Commission self-assessment based on a survey of EU bodies; no independent studies found",
+ "summary": "These rules bring data protection in the EU institutions in line with the GDPR. The Commission's 2022 review, based on a survey of 56 EU bodies, judged them to be working well: over half gave their data protection officers more resources and routine checks by the supervisor fell as intended, but the supervisor had not issued any fines. No independent study has assessed the rules' effects.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "specific objective",
+   "objective": "Ensure consistent application of data protection rules throughout the Union (alignment of EU institutions' rules with the GDPR)",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "specific objective",
+   "objective": "Rationalise the governance model and strengthen compliance and enforcement in EU institutions and bodies",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "indicator (LFS 1.4.4)",
+   "objective": "Governance",
+   "indicator": "Number of opinions issued by the EDPB and the EDPS",
+   "target_or_baseline": "",
+   "evidence": "Reported qualitatively: EDPS replies to legislative consultations with opinions and comments; EDPB output growing. No time series tied to the Regulation.",
+   "status": "reported as activity",
+   "sources": "COM(2022) 530"
+  },
+  {
+   "type": "indicator (LFS 1.4.4)",
+   "objective": "Accountability",
+   "indicator": "Breakdown of activities of data protection officers",
+   "target_or_baseline": "",
+   "evidence": "Survey of 56 EU bodies: 54% gave more resources to DPOs; 84% adapted processes so staff consult DPOs. No breakdown of DPO activities.",
+   "status": "partially measured",
+   "sources": "COM(2022) 530"
+  },
+  {
+   "type": "indicator (LFS 1.4.4)",
+   "objective": "Accountability",
+   "indicator": "Use made of data protection impact assessments",
+   "target_or_baseline": "",
+   "evidence": "Annex table of DPIAs by institution 2019-2021 (most by ECB, EIB and Commission); cases sent to the EDPS fell sharply compared with the old prior-checking system, as intended; 94% of bodies find DPIA criteria adequate.",
+   "status": "measured",
+   "sources": "COM(2022) 530"
+  },
+  {
+   "type": "indicator (LFS 1.4.4)",
+   "objective": "Enforcement",
+   "indicator": "Number of complaints made by data subjects",
+   "target_or_baseline": "",
+   "evidence": "Report notes inadmissible complaints to the EDPS rose 2019-2021 (mostly aimed at national controllers); no clear trend in requests from individuals because institutions record them differently.",
+   "status": "partially measured",
+   "sources": "COM(2022) 530"
+  },
+  {
+   "type": "indicator (LFS 1.4.4)",
+   "objective": "Enforcement",
+   "indicator": "Fines imposed on data controllers responsible for breaches",
+   "target_or_baseline": "",
+   "evidence": "None: by 2022 the EDPS had used most powers (e.g. temporary processing bans) but had never issued a fine.",
+   "status": "measured (zero)",
+   "sources": "COM(2022) 530"
+  },
+  {
+   "type": "note",
+   "objective": "No dedicated impact assessment: the proposal (COM(2017) 8) relied on the GDPR impact assessment and gave no quantified forecasts",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2022-eudpr-report",
+   "citation": "European Commission (2022), First report on the application of the Data Protection Regulation for EU institutions, bodies, offices and agencies (Regulation 2018/1725), COM(2022) 530",
+   "authors": "European Commission",
+   "year": 2022,
+   "title": "First report on the application of the Data Protection Regulation for EU institutions, bodies, offices and agencies (Regulation 2018/1725)",
+   "venue": "COM(2022) 530",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022DC0530",
+   "pdf_url": "",
+   "source_type": "Commission evaluation",
+   "method": "review (survey of 56 EU bodies, EDPS contribution)",
+   "outcomes": "compliance; enforcement; resources",
+   "direction": "positive (self-assessment)",
+   "headline": "Regulation 'working well and fit for purpose'; 54% of bodies gave more resources to DPOs; DPIAs replaced prior checking and cut routine consultations of the EDPS; EDPS had not used its power to fine; proposes aligning rules for Europol/Eurojust/EPPO",
+   "summary_plain": "The Commission found the rules for EU institutions work well: bodies invested more in data protection officers and risk assessments, and the supervisor used bans but never fines.",
+   "period_geography": "EU institutions, 2018-2021",
+   "quality": "self-evaluation based on self-reported survey; no outcome measures",
+   "verified": "full text partly read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20251208125840/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52022DC0530"
+  },
+  {
+   "id": "ec-2025-digital-omnibus-swd",
+   "citation": "European Commission (2025), Staff working document accompanying the Digital Omnibus proposals, SWD(2025) 836",
+   "authors": "European Commission",
+   "year": 2025,
+   "title": "Staff working document accompanying the Digital Omnibus proposals",
+   "venue": "SWD(2025) 836",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025SC0836",
+   "pdf_url": "",
+   "source_type": "Commission staff working document",
+   "method": "review (simplification analysis)",
+   "outcomes": "compliance burden",
+   "direction": "n/a",
+   "headline": "Proposes mirroring the Omnibus GDPR amendments in Regulation 2018/1725 to keep EU-institution rules aligned with the GDPR; no new evidence on the Regulation's effects",
+   "summary_plain": "The Commission's 2025 simplification package would change these rules in step with planned GDPR changes, but presents no new evidence on how they have worked.",
+   "period_geography": "EU",
+   "quality": "policy document; no ex-post data on EUDPR",
+   "verified": "full text partly read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  }
+ ]
+}

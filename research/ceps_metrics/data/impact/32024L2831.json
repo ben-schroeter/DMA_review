@@ -1,0 +1,95 @@
+{
+ "celex": "32024L2831",
+ "name": "Platform Work Directive",
+ "proposal": "52021PC0762",
+ "impact_assessment": "SWD(2021) 396 (executive summary SWD(2021) 397)",
+ "evidence_rating": "ex-ante only: Commission forecasts plus model-based evidence from a similar Spanish law; transposition due December 2026",
+ "summary": "The Commission expected 1.7-4.1 million people working through apps to be reclassified as employees and to earn up to EUR 484 million a year more. The final law left the test for employment status to national rules and applies only from late 2026, so nothing has been measured; a study of a similar Spanish law suggests more riders got contracts but overall rider work and pay fell.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "The proposal's financial statement contains no indicators section; the memorandum refers to core indicators listed in the impact assessment and a review 5 years after entry into force",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Correct employment status",
+   "indicator": "1.7-4.1 million people reclassified as workers (of about 5.5 million at risk of misclassification among 28 million platform workers)",
+   "target_or_baseline": "1.7-4.1 million",
+   "evidence": "Not measured; transposition deadline 2 December 2026. The adopted text dropped the proposal's list of criteria for the presumption, leaving them to Member States, so the forecast may not hold. Model-based evidence from Spain's 2021 Riders' Law suggests reclassification raised the employee share but reduced riders' total work and wages.",
+   "status": "not measured",
+   "sources": "SWD(2021) 396/397; Dolado et al. 2025"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Earnings and public finances",
+   "indicator": "Platform workers' earnings up to EUR 484m a year; up to EUR 4bn a year more tax and social contributions; platform costs EUR 1.9-4.5bn a year",
+   "target_or_baseline": "",
+   "evidence": "Not measured.",
+   "status": "not measured",
+   "sources": "SWD(2021) 397"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Algorithmic management",
+   "indicator": "Improved working conditions for 28 million people through transparency, human oversight and redress rights",
+   "target_or_baseline": "28 million",
+   "evidence": "Not measured.",
+   "status": "not measured",
+   "sources": "SWD(2021) 397"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2021-platformwork-ia",
+   "citation": "European Commission (2021), Impact Assessment accompanying the proposal for a Directive on improving working conditions in platform work (executive summary SWD(2021) 397), SWD(2021) 396",
+   "authors": "European Commission",
+   "year": 2021,
+   "title": "Impact Assessment accompanying the proposal for a Directive on improving working conditions in platform work (executive summary SWD(2021) 397)",
+   "venue": "SWD(2021) 396",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021SC0397",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "employment status; earnings; platform costs; public revenue",
+   "direction": "positive (forecast)",
+   "headline": "1.7-4.1 million people reclassified as workers; earnings up to +EUR 484m a year; platform costs EUR 1.9-4.5bn a year, partly passed on; up to EUR 4bn a year extra public revenue",
+   "summary_plain": "The Commission expected 1.7-4.1 million people working through apps to be reclassified as employees, gaining up to EUR 484 million a year, at a cost to platforms of EUR 1.9-4.5 billion a year.",
+   "period_geography": "EU-27, forecast",
+   "quality": "forecast; based on the proposal's criteria, later dropped",
+   "verified": "full text read (executive summary)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  },
+  {
+   "id": "dolado-janez-wellschmied-2025-riders",
+   "citation": "Dolado, Jáñez & Wellschmied (2025), Riders on the Storm, IZA Discussion Paper 17740 (also CEPR DP19974)",
+   "authors": "Dolado, Jáñez & Wellschmied",
+   "year": 2025,
+   "title": "Riders on the Storm",
+   "venue": "IZA Discussion Paper 17740 (also CEPR DP19974)",
+   "url": "https://www.iza.org/publications/dp/17740",
+   "pdf_url": "https://docs.iza.org/dp17740.pdf",
+   "source_type": "working paper",
+   "method": "structural search-and-matching model calibrated to Spain's 2021 Riders' Law (presumption of employment)",
+   "outcomes": "employment; wages; welfare of delivery riders",
+   "direction": "mixed",
+   "headline": "Spain's presumption of employment for riders raised the share of employees but did not absorb the large outflow from self-employment and lowered riders' wages, causing welfare losses; adding a payroll tax cut for platforms hiring employees would preserve employment and raise welfare",
+   "summary_plain": "Spain's 2021 law presuming delivery riders are employees - a model for the EU Directive - increased the share of riders on employment contracts but, according to this model, cut overall rider jobs and wages.",
+   "period_geography": "Spain, 2021 reform (national precursor)",
+   "quality": "model-based, not quasi-experimental; analogous national law",
+   "verified": "abstract read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  }
+ ]
+}

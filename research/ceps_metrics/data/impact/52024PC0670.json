@@ -1,0 +1,81 @@
+{
+ "celex": "52024PC0670",
+ "name": "EU Digital Travel Application Regulation",
+ "proposal": "52024PC0670",
+ "impact_assessment": "SWD(2024) 671 (executive summary SWD(2024) 672)",
+ "evidence_rating": "ex-ante only: detailed LFS uptake targets; small pilot evidence cited by the Commission; proposal pending",
+ "summary": "The Commission wants an EU app that lets travellers send a digital copy of their passport before crossing Schengen's external borders, with targets of 30% of travellers using it within five years of launch (planned for end 2030). It expects faster, safer border checks at modest cost, about EUR 2 million per country and EUR 49.5 million for the EU app, Pilots in Finland and Croatia cut border processing of pre-cleared travellers from 30-90 seconds to under 9 seconds, but the EU-wide effect cannot be measured until the app exists.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "LFS indicator (1.4.4)",
+   "objective": "Common standard and app",
+   "indicator": "Adoption of implementing acts; start of operation of the EU Digital Travel application",
+   "target_or_baseline": "Start of operation by end 2030",
+   "evidence": "Not applicable: proposal not adopted; app not built.",
+   "status": "not measured",
+   "sources": "COM(2024) 670 LFS"
+  },
+  {
+   "type": "LFS indicator (1.4.4)",
+   "objective": "Advance checks",
+   "indicator": "Share of Member States connected to the Traveller Router at go-live",
+   "target_or_baseline": "100%",
+   "evidence": "Not measured.",
+   "status": "not measured",
+   "sources": "COM(2024) 670 LFS"
+  },
+  {
+   "type": "LFS indicator (1.4.4)",
+   "objective": "Uptake",
+   "indicator": "Share of passport/ID applicants also requesting a digital travel credential; share of border crossers using DTCs",
+   "target_or_baseline": "0 to 25% of applicants within 2 years; 30% of travellers within 5 years",
+   "evidence": "Not measured; only national DTC pilots (e.g. Finland, Croatia, Netherlands) exist.",
+   "status": "not measured",
+   "sources": "COM(2024) 670 LFS; SWD(2024) 671"
+  },
+  {
+   "type": "LFS indicator (1.4.4)",
+   "objective": "Data quality",
+   "indicator": "Errors in creating/submitting DTCs from ICAO-compliant documents",
+   "target_or_baseline": "0%",
+   "evidence": "Not measured.",
+   "status": "not measured",
+   "sources": "COM(2024) 670 LFS"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Smoother border crossing",
+   "indicator": "Shorter waiting times at external borders; 1-3 minutes for travellers to create a DTC",
+   "target_or_baseline": "",
+   "evidence": "Pilot evidence only (Finland, Croatia, Netherlands, cited in IA): processing time of pre-cleared DTC travellers fell from 30-90 seconds to under 9 seconds; monetary value of time savings not quantified.",
+   "status": "partially measured",
+   "sources": "SWD(2024) 671"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2024-digital-travel-ia",
+   "citation": "European Commission (2024), Impact Assessment accompanying the proposal establishing an application for the electronic submission of travel data (EU Digital Travel application), SWD(2024) 671 (executive summary SWD(2024) 672)",
+   "authors": "European Commission",
+   "year": 2024,
+   "title": "Impact Assessment accompanying the proposal establishing an application for the electronic submission of travel data (EU Digital Travel application)",
+   "venue": "SWD(2024) 671 (executive summary SWD(2024) 672)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52024SC0671",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "border security; waiting times; public costs",
+   "direction": "positive (forecast)",
+   "headline": "Preferred option (mandatory acceptance of DTCs) has highest expected uptake and allows advance checks; costs: about EUR 2m per Member State on average (pilots: EUR 300,000-700,000 plus up to EUR 250,000 servers), eu-LISA EUR 49.5m one-off to 2031 and ~20 FTE; time savings not monetised; EU-funded DTC pilots cut processing of pre-cleared travellers from 30-90 seconds to under 9 seconds",
+   "summary_plain": "The Commission expected a common EU travel app for digital passports to speed up border checks and improve security, at about EUR 2 million per country plus EUR 49.5 million for the EU agency that would build it.",
+   "period_geography": "EU/Schengen, forecast",
+   "quality": "forecast; benefits not quantified",
+   "verified": "executive summary read; full text searched",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "celex": "32019L0770",
+ "name": "Digital Content Directive",
+ "proposal": "52015PC0634",
+ "impact_assessment": "SWD(2015) 274 (executive summary SWD(2015) 275), joint with the Sale of Goods Directive",
+ "evidence_rating": "none ex-post: forecasts only; the review due June 2024 was not found and no independent impact studies were found",
+ "summary": "The Directive gave consumers EU-wide rights when apps, streaming, software and other digital content or services are faulty. The Commission forecast that, with the sister Sale of Goods Directive, it would add about EUR 4 billion a year to EU GDP and bring 8-13 million more people to shop online across borders. None of this has been measured: the Commission's review was due in June 2024 but has not been found, and no independent study has assessed the effects.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "The proposal's financial statement has no indicators section; the memorandum promised a monitoring and evaluation exercise feeding a review (Article 25 set the review for 12 June 2024), which was not found published",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "expected impact (impact assessment, joint with Sale of Goods)",
+   "objective": "Cross-border trade",
+   "indicator": "122,000 more businesses selling online across borders; intra-EU exports +0.04% (about EUR 1bn)",
+   "target_or_baseline": "+122,000 firms",
+   "evidence": "Not evaluated.",
+   "status": "not measured",
+   "sources": "SWD(2015) 274"
+  },
+  {
+   "type": "expected impact (impact assessment, joint with Sale of Goods)",
+   "objective": "Consumers",
+   "indicator": "8-13 million more consumers buying online cross-border; retail prices -0.25%; household consumption +0.23% (about EUR 18bn)",
+   "target_or_baseline": "",
+   "evidence": "Not evaluated; cross-border e-commerce has grown, but no study attributes any change to the Directive.",
+   "status": "not measured",
+   "sources": "SWD(2015) 274"
+  },
+  {
+   "type": "expected impact (impact assessment, joint with Sale of Goods)",
+   "objective": "Growth",
+   "indicator": "EU GDP +0.03% (about EUR 4bn a year, permanent)",
+   "target_or_baseline": "EUR 4bn/yr",
+   "evidence": "Not evaluated.",
+   "status": "not measured",
+   "sources": "SWD(2015) 274"
+  },
+  {
+   "type": "problem baseline (impact assessment)",
+   "objective": "Consumer detriment",
+   "indicator": "Detriment from faulty digital content of EUR 9-11bn a year (four content types)",
+   "target_or_baseline": "baseline EUR 9-11bn",
+   "evidence": "No follow-up measurement.",
+   "status": "not measured",
+   "sources": "SWD(2015) 275"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2015-dcd-sgd-ia",
+   "citation": "European Commission (2015), Impact Assessment accompanying the proposals for Directives on contracts for the supply of digital content and for online and other distance sales of goods (executive summary SWD(2015) 275), SWD(2015) 274",
+   "authors": "European Commission",
+   "year": 2015,
+   "title": "Impact Assessment accompanying the proposals for Directives on contracts for the supply of digital content and for online and other distance sales of goods (executive summary SWD(2015) 275)",
+   "venue": "SWD(2015) 274",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52015SC0275",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante (survey-based estimates and CGE macro model)",
+   "outcomes": "cross-border trade; prices; consumption; GDP",
+   "direction": "positive (forecast)",
+   "headline": "Joint package forecast: 122,000 more firms selling cross-border online, 8-13m more cross-border online shoppers, retail prices -0.25%, household consumption +0.23% (EUR 18bn), GDP +0.03% (EUR 4bn a year); one-off contract adaptation cost about EUR 7,000 per firm; consumer detriment from faulty digital content EUR 9-11bn a year",
+   "summary_plain": "The Commission expected the digital content and sale of goods rules together to add about EUR 4 billion a year to EU GDP and bring millions more people to shop online across borders.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast for the original (fully harmonised, online-only) proposals, later changed in negotiation",
+   "verified": "full text read (executive summary)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20240513084932/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52015SC0275"
+  },
+  {
+   "id": "eli-2016-dcd-statement",
+   "citation": "European Law Institute (2016), Statement of the European Law Institute on the European Commission's Proposed Directive on the Supply of Digital Content to Consumers, ELI statement",
+   "authors": "European Law Institute",
+   "year": 2016,
+   "title": "Statement of the European Law Institute on the European Commission's Proposed Directive on the Supply of Digital Content to Consumers",
+   "venue": "ELI statement",
+   "url": "https://www.europeanlawinstitute.eu/fileadmin/user_upload/p_eli/Publications/ELI_Statement_on_DCD.pdf",
+   "pdf_url": "https://www.europeanlawinstitute.eu/fileadmin/user_upload/p_eli/Publications/ELI_Statement_on_DCD.pdf",
+   "source_type": "expert legal commentary",
+   "method": "legal analysis (ex-ante)",
+   "outcomes": "consumer protection level",
+   "direction": "mixed",
+   "headline": "Supports EU rules on digital content but argues some provisions give insufficient protection and could lower protection existing under national laws",
+   "summary_plain": "Europe's leading law reform body backed the idea of EU rules on digital content but warned some provisions could reduce consumer protection in some countries.",
+   "period_geography": "EU, 2016",
+   "quality": "legal opinion on the proposal; not an impact study",
+   "verified": "page summary via search",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  }
+ ]
+}

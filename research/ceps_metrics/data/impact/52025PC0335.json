@@ -1,0 +1,95 @@
+{
+ "celex": "52025PC0335",
+ "name": "EU Space Act",
+ "proposal": "52025PC0335",
+ "impact_assessment": "SWD(2025) 335 (executive summary SWD(2025) 336)",
+ "evidence_rating": "ex-ante only: impact assessment with cost estimates; qualitative critiques; proposal pending",
+ "summary": "The Commission expects one EU-wide licensing regime for space activities to replace 13 or more national systems, reduce space debris and cyber risks, and help European start-ups grow, at the price of satellites costing 3-10% more to build. The United States and some companies argue the burden is higher and unfairly hits non-EU operators. The proposal is still under negotiation, so there is no evidence of effects yet.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "No LFS indicators extracted; memorandum says specific objectives would be monitored annually and the act evaluated five years after entry into force (IA executive summary says three years), focusing on market and SME impact",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Single market for space",
+   "indicator": "One set of EU licensing requirements instead of 13+ national regimes; lower administrative burden; cross-border recognition",
+   "target_or_baseline": "",
+   "evidence": "Not applicable: proposal pending (June 2025).",
+   "status": "not measured",
+   "sources": "SWD(2025) 335"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Compliance costs",
+   "indicator": "Satellite manufacturing cost increase from binding safety, resilience and environmental requirements",
+   "target_or_baseline": "+3-10% vs baseline; risk management up to EUR 240,000 initial then ~1% of turnover",
+   "evidence": "Forecast only; US government and some industry argue costs and burdens are underestimated and discriminatory (qualitative, no published cost estimate).",
+   "status": "not measured",
+   "sources": "SWD(2025) 335; US Government comments 2025"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Safety and sustainability",
+   "indicator": "Less space debris; trackable space objects; cybersecurity risk framework; common environmental footprint method",
+   "target_or_baseline": "",
+   "evidence": "Not measured.",
+   "status": "not measured",
+   "sources": "SWD(2025) 335"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2025-space-act-ia",
+   "citation": "European Commission (2025), Impact Assessment accompanying the proposal for a Regulation on the safety, resilience and sustainability of space activities in the Union (EU Space Act), SWD(2025) 335 (executive summary SWD(2025) 336)",
+   "authors": "European Commission",
+   "year": 2025,
+   "title": "Impact Assessment accompanying the proposal for a Regulation on the safety, resilience and sustainability of space activities in the Union (EU Space Act)",
+   "venue": "SWD(2025) 335 (executive summary SWD(2025) 336)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025SC0335",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "compliance costs; single market; competitiveness; space debris",
+   "direction": "positive (forecast)",
+   "headline": "Preferred option (binding EU framework plus support measures): satellite manufacturing costs +3-10% vs baseline; risk management up to EUR 240,000 initially then 1% of turnover; benefits (less debris and cyber risk, business continuity, single market, attracting investment) described qualitatively",
+   "summary_plain": "The Commission expected a single EU licensing regime to cut red tape and make space safer and greener, while raising satellite manufacturing costs by 3-10%.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast; benefits not quantified",
+   "verified": "executive summary read; full text searched",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  },
+  {
+   "id": "usg-2025-space-act-comments",
+   "citation": "US Departments of State and Commerce (2025), U.S. Government feedback on the draft EU Space Act, Comments released 4 November 2025",
+   "authors": "US Departments of State and Commerce",
+   "year": 2025,
+   "title": "U.S. Government feedback on the draft EU Space Act",
+   "venue": "Comments released 4 November 2025",
+   "url": "https://space.commerce.gov/wp-content/uploads/2025/11/090166e52487d15d.pdf",
+   "pdf_url": "",
+   "source_type": "government position",
+   "method": "qualitative (drawing on input from 70+ companies and trade associations)",
+   "outcomes": "compliance costs; market access",
+   "direction": "negative",
+   "headline": "Argues the act would impose unacceptable regulatory burdens and drive up costs, especially via environmental requirements, and that some provisions (e.g. on large constellations) unfairly target non-EU operators; no quantified cost estimate",
+   "summary_plain": "The US government said the EU Space Act would raise costs and unfairly burden American satellite operators, but gave no cost figures.",
+   "period_geography": "EU/US, 2025",
+   "quality": "stakeholder position",
+   "verified": "page summary via search",
+   "access": "open",
+   "interested_party": "Government representing affected non-EU (US) operators",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20260307042558/https://space.commerce.gov/wp-content/uploads/2025/11/090166e52487d15d.pdf"
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "celex": "32017R2394",
+ "name": "Consumer Protection Cooperation Regulation",
+ "proposal": "52016PC0283",
+ "impact_assessment": "SWD(2016) 164",
+ "evidence_rating": "thin: activity counts and stakeholder views; headline non-compliance indicator not tracked consistently; no independent studies found",
+ "summary": "The CPC Regulation promised to cut widespread breaches of consumer law, which the Commission put at 37% of websites checked and about EUR 770 million in consumer losses in five online markets. Its 2024 review found joint actions against big traders work, but procedures are slow and national resources uneven, and recent checks still find more than a third of websites using manipulative designs. No study has measured whether consumer harm actually fell.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "LFS indicator (1.4.4)",
+   "objective": "Reduce cross-border consumer detriment",
+   "indicator": "Non-compliance rate",
+   "target_or_baseline": "Baseline (IA): average 37% non-compliance in website screenings; detriment ~EUR 770m in five cross-border online markets",
+   "evidence": "Sweeps keep finding high non-compliance (e.g. 2022 sweep: 37% of 399 websites used dark patterns); no consistent trend series against the baseline and no updated detriment estimate.",
+   "status": "partially measured",
+   "sources": "SWD(2016) 164; COM(2024) 311"
+  },
+  {
+   "type": "LFS indicator (1.4.4)",
+   "objective": "Efficient cooperation",
+   "indicator": "Mutual assistance requests where binding time limits were not respected",
+   "target_or_baseline": "",
+   "evidence": "2024 report describes coordinated-action procedures as 'long and cumbersome' but gives no systematic time-limit compliance figure in the sections reviewed.",
+   "status": "not measured",
+   "sources": "COM(2024) 311"
+  },
+  {
+   "type": "LFS indicator (1.4.4)",
+   "objective": "Tackle widespread infringements",
+   "indicator": "Number of coordinated and common actions; number of alerts",
+   "target_or_baseline": "",
+   "evidence": "Coordinated actions and alerts counted in the 2024 application report; alerts used unevenly across Member States; outcomes (commitments by major traders) reported qualitatively.",
+   "status": "reported as activity",
+   "sources": "COM(2024) 311"
+  },
+  {
+   "type": "LFS indicator (1.4.4)",
+   "objective": "Enforcement capacity",
+   "indicator": "National enforcement plans; benchmarking of CPC resources",
+   "target_or_baseline": "",
+   "evidence": "Report finds large differences in national resources are a main impediment; limited evidence on use of the new minimum investigation powers.",
+   "status": "reported as activity",
+   "sources": "COM(2024) 311"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2016-cpc-ia",
+   "citation": "European Commission (2016), Impact Assessment accompanying the proposal for a Regulation on cooperation between national authorities responsible for the enforcement of consumer protection laws, SWD(2016) 164",
+   "authors": "European Commission",
+   "year": 2016,
+   "title": "Impact Assessment accompanying the proposal for a Regulation on cooperation between national authorities responsible for the enforcement of consumer protection laws",
+   "venue": "SWD(2016) 164",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52016SC0164",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "consumer detriment; non-compliance; enforcement efficiency",
+   "direction": "positive (forecast)",
+   "headline": "Average non-compliance of 37% in website screenings; consumer detriment of about EUR 770m in five cross-border online sectors; reform expected to reduce non-compliance and detriment",
+   "summary_plain": "The Commission found more than a third of websites checked broke consumer law, costing consumers about EUR 770 million in five online markets, and expected stronger joint enforcement to cut this.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast",
+   "verified": "full text read (relevant sections)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20251122032342/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52016SC0164"
+  },
+  {
+   "id": "ec-2024-cpc-report",
+   "citation": "European Commission (2024), Report on the application of Regulation (EU) 2017/2394 on consumer protection cooperation, COM(2024) 311",
+   "authors": "European Commission",
+   "year": 2024,
+   "title": "Report on the application of Regulation (EU) 2017/2394 on consumer protection cooperation",
+   "venue": "COM(2024) 311",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52024DC0311",
+   "pdf_url": "",
+   "source_type": "Commission evaluation",
+   "method": "application report (supporting study: surveys of authorities, alert entities and targeted traders)",
+   "outcomes": "enforcement; coordinated actions; sweeps",
+   "direction": "mixed",
+   "headline": "Stakeholders consider objectives generally met and coordinated actions efficient; but procedures long and cumbersome, resources uneven across Member States, consumer groups say harm not significantly reduced; sweeps still find widespread non-compliance (37% of sites using dark patterns in 2022)",
+   "summary_plain": "The Commission's review says joint enforcement against big traders works better than 27 separate actions, but procedures are slow, national resources uneven, and rule-breaking online remains widespread.",
+   "period_geography": "EU, 2020-2023",
+   "quality": "Commission self-assessment; stakeholder-based",
+   "verified": "full text read (relevant sections)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20260307124236/https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:52024DC0311"
+  }
+ ]
+}

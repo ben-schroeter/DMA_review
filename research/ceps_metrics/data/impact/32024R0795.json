@@ -1,0 +1,95 @@
+{
+ "celex": "32024R0795",
+ "name": "Strategic Technologies for Europe Platform (STEP)",
+ "proposal": "52023PC0335",
+ "impact_assessment": "none (proposal relied on existing programmes' impact assessments)",
+ "evidence_rating": "ex-ante only: no impact assessment; Commission activity figures; no independent impact study",
+ "summary": "The Commission claimed STEP could trigger up to EUR 160 billion of investment in critical technologies, but the final law added only EUR 1.5 billion of new money and mostly redirects existing EU funds. Its own interim review counts about EUR 15 billion steered to strategic technologies in the first year but no data yet on jobs, firms or competitiveness.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "No impact assessment: the Commission argued STEP creates no new instrument and relies on existing programmes' assessments",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "headline forecast (proposal)",
+   "objective": "Investment mobilised",
+   "indicator": "Total new investment through STEP could reach up to EUR 160bn (proposal assumed EUR 10bn of fresh EU money)",
+   "target_or_baseline": "up to EUR 160bn",
+   "evidence": "Final regulation added only EUR 1.5bn new money (to the European Defence Fund). By March 2025: about EUR 6.3bn of cohesion funds reprogrammed and EUR 9.5bn of calls under Commission-managed programmes, EUR 5.1-5.2bn awarded.",
+   "status": "reported as activity",
+   "sources": "COM(2023) 335; COM(2025) 421"
+  },
+  {
+   "type": "LFS indicator (1.4.4)",
+   "objective": "Critical technologies and skills",
+   "indicator": "Enterprises supported; participants in trainings; total investment mobilised; jobs created or maintained",
+   "target_or_baseline": "",
+   "evidence": "Interim evaluation reports funds and 190 STEP Seals awarded; about 15% of cohesion reallocations for skills; no figures yet on enterprises, trainees or jobs; Commission says too early for impact evaluation.",
+   "status": "reported as activity",
+   "sources": "COM(2025) 421"
+  },
+  {
+   "type": "expected impact (LFS 1.4.3)",
+   "objective": "Industrial capability and competitiveness",
+   "indicator": "Substantial strengthening of EU industrial capabilities in clean, bio and deep tech",
+   "target_or_baseline": "",
+   "evidence": "Not measured. Seal projects had not yet received cohesion or RRF funding by March 2025; Seals concentrated in more developed regions.",
+   "status": "not measured",
+   "sources": "COM(2025) 421"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2023-step-proposal",
+   "citation": "European Commission (2023), Proposal for a Regulation establishing the Strategic Technologies for Europe Platform (STEP), COM(2023) 335",
+   "authors": "European Commission",
+   "year": 2023,
+   "title": "Proposal for a Regulation establishing the Strategic Technologies for Europe Platform (STEP)",
+   "venue": "COM(2023) 335",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023PC0335",
+   "pdf_url": "",
+   "source_type": "Commission proposal (no impact assessment)",
+   "method": "ex-ante (explanatory memorandum)",
+   "outcomes": "investment mobilised",
+   "direction": "positive (forecast)",
+   "headline": "Total estimated new investment through STEP could reach up to EUR 160bn; no impact assessment because STEP works through existing instruments",
+   "summary_plain": "The Commission claimed STEP could trigger up to EUR 160 billion of investment in critical technologies, without a dedicated impact assessment.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast",
+   "verified": "full text read (relevant sections)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  },
+  {
+   "id": "ec-2025-step-interim-evaluation",
+   "citation": "European Commission (2025), Interim evaluation of the Strategic Technologies for Europe Platform (STEP), COM(2025) 421 and SWD(2025) 194",
+   "authors": "European Commission",
+   "year": 2025,
+   "title": "Interim evaluation of the Strategic Technologies for Europe Platform (STEP)",
+   "venue": "COM(2025) 421 and SWD(2025) 194",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0421",
+   "pdf_url": "",
+   "source_type": "Commission evaluation",
+   "method": "interim evaluation (implementation monitoring, first 13 months)",
+   "outcomes": "funds mobilised; STEP Seals; regional distribution",
+   "direction": "mixed",
+   "headline": "About EUR 6.3bn of cohesion funds redirected (38 programme amendments, 11 Member States); EUR 9.5bn of STEP calls in centrally managed programmes with over EUR 5.1bn awarded; 190 STEP Seals but no Seal project yet funded from cohesion or RRF; complexity of 11 programmes limits impact; too early for full assessment",
+   "summary_plain": "The Commission's own interim review found about EUR 15 billion of existing EU money steered towards strategic technologies, but said the quality label has not yet unlocked new funding and it is too early to judge impact.",
+   "period_geography": "EU, Mar 2024-Mar 2025",
+   "quality": "self-assessment; activity data only",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20251116092010/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52025DC0421"
+  }
+ ]
+}
