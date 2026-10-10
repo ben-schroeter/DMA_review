@@ -1,7 +1,7 @@
 """Sketch-style hero illustration options for the mockup front page. Writes site/hero_options.json {key: svg}."""
 import json, math
 
-INK, CLAY, PAPER, SOFT = "#141413", "#D97757", "#F4F2EC", "#EDE6D8"
+INK, CLAY, PAPER, SOFT = "#282424", "#B8860B", "#F5F5F0", "#EFEBDD"
 
 
 def star(cx, cy, r, pts=5):
@@ -38,7 +38,7 @@ for i in range(12):
     b.append(f'<path d="M{sx - 14 * math.cos(a):.1f},{sy - 14 * math.sin(a):.1f} L{mx:.1f},{my:.1f} L{ex if abs(math.cos(a)) > 0.7 else mx:.1f},{ey if abs(math.cos(a)) <= 0.7 else my:.1f} L{ex:.1f},{ey:.1f}"></path>')
     b.append(f'<circle cx="{mx:.1f}" cy="{my:.1f}" r="3" fill="{INK}"></circle>')
     b.append(f'<polygon points="{star(sx, sy, 12)}" stroke="{CLAY}" fill="{CLAY}" fill-opacity="0.25"></polygon>')
-b.append(f'<rect x="{cx - 52}" y="{cy - 52}" width="104" height="104" rx="8" fill="#FAF9F5"></rect>')
+b.append(f'<rect x="{cx - 52}" y="{cy - 52}" width="104" height="104" rx="8" fill="#FFFFFF"></rect>')
 b.append(f'<rect x="{cx - 36}" y="{cy - 36}" width="72" height="72" rx="4" fill="{SOFT}"></rect>')
 b.append(f'<text x="{cx}" y="{cy + 16}" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="46" fill="{INK}" stroke="none">§</text>')
 out["A"] = wrap("A", "".join(b))
@@ -57,7 +57,7 @@ for k in range(4):
     for j in range(3):
         b.append(f'<rect x="{310 + k * 8 + j * 14}" y="{y - 4}" width="8" height="8" fill="{CLAY if (j + k) % 2 else INK}" fill-opacity="{0.8 - j * 0.2:.1f}" stroke="none"></rect>')
 for (x0, y0, x1, y1) in ((300, 236, 360, 176), (330, 252, 404, 210), (280, 262, 340, 120)):
-    b.append(f'<path d="M{x0},{y0} V{(y0 + y1) / 2:.0f} H{x1} V{y1}"></path><circle cx="{x1}" cy="{y1}" r="4" fill="#FAF9F5"></circle>')
+    b.append(f'<path d="M{x0},{y0} V{(y0 + y1) / 2:.0f} H{x1} V{y1}"></path><circle cx="{x1}" cy="{y1}" r="4" fill="#FFFFFF"></circle>')
 for i in range(12):
     a = math.pi + i * math.pi / 11
     b.append(f'<polygon points="{star(240 + 175 * math.cos(a), 118 + 70 * math.sin(a) * 0.9, 9)}" stroke="{CLAY}" fill="{CLAY}" fill-opacity="0.25"></polygon>')
@@ -70,7 +70,7 @@ for i in range(12):
     b.append(f'<polygon points="{star(240 + 30 * math.cos(a), 118 + 20 * math.sin(a), 4.5)}" stroke="{CLAY}" fill="{CLAY}"></polygon>')
 for c in range(4):
     x = 104 + c * 76
-    b.append(f'<rect x="{x}" y="170" width="44" height="150" rx="3" fill="#FAF9F5"></rect>')
+    b.append(f'<rect x="{x}" y="170" width="44" height="150" rx="3" fill="#FFFFFF"></rect>')
     for s in range(6):
         y = 182 + s * 23
         b.append(f'<path d="M{x + 8},{y + 6} H{x + 28}" stroke-width="1.3"></path><circle cx="{x + 35}" cy="{y + 6}" r="2.6" fill="{CLAY if (s + c) % 3 == 0 else INK}" stroke="none"></circle>')
@@ -82,7 +82,7 @@ out["C"] = wrap("C", "".join(b))
 b = []
 for k in range(6):
     dx, dy = k * 6, -k * 9
-    b.append(f'<path d="M{110 + dx},{330 + dy} L{290 + dx},{330 + dy} L{330 + dx},{280 + dy} L{150 + dx},{280 + dy} Z" fill="{PAPER if k % 2 else "#FAF9F5"}"></path>')
+    b.append(f'<path d="M{110 + dx},{330 + dy} L{290 + dx},{330 + dy} L{330 + dx},{280 + dy} L{150 + dx},{280 + dy} Z" fill="{PAPER if k % 2 else "#FFFFFF"}"></path>')
 top_y = 330 - 5 * 9
 for j in range(4):
     b.append(f'<path d="M{180 + j * 6},{top_y - 12 - j * 9} H{290 + j * 6}" stroke-width="1.2"></path>')
@@ -92,7 +92,7 @@ b.append('<path d="M225,250 L200,200 M262,250 L262,168 M300,250 L330,196" stroke
 for a_, b_ in edges:
     b.append(f'<path d="M{nodes[a_][0]},{nodes[a_][1]} L{nodes[b_][0]},{nodes[b_][1]}"></path>')
 for i, (x, y) in enumerate(nodes):
-    b.append(f'<circle cx="{x}" cy="{y}" r="{7 if i % 3 else 9}" fill="{CLAY if i in (1, 4, 7) else "#FAF9F5"}"></circle>')
+    b.append(f'<circle cx="{x}" cy="{y}" r="{7 if i % 3 else 9}" fill="{CLAY if i in (1, 4, 7) else "#FFFFFF"}"></circle>')
 sx, sy = 110, 120
 b.append(f'<circle cx="{sx}" cy="{sy}" r="46" fill="{PAPER}"></circle><circle cx="{sx}" cy="{sy}" r="38" stroke-width="1.1"></circle>')
 for i in range(12):
@@ -117,7 +117,7 @@ for sgn in (-1, 1):
     bn, bf = (240 + sgn * NX, BOT), (240 + sgn * FX, FBOT)
     ct = (240 + sgn * (NX + FX) / 2, (TOP + FTOP) / 2 + 6)       # concave bow
     cb = (240 + sgn * (NX + FX) / 2, (BOT + FBOT) / 2 + 5)
-    b.append(f'<path d="M{tn[0]},{tn[1]} Q{ct[0]},{ct[1]} {tf[0]},{tf[1]} L{bf[0]},{bf[1]} Q{cb[0]},{cb[1]} {bn[0]},{bn[1]} Z" fill="#FAF9F5"></path>')
+    b.append(f'<path d="M{tn[0]},{tn[1]} Q{ct[0]},{ct[1]} {tf[0]},{tf[1]} L{bf[0]},{bf[1]} Q{cb[0]},{cb[1]} {bn[0]},{bn[1]} Z" fill="#FFFFFF"></path>')
     # roof crown: a darker band along the top of each wing
     d = 7
     b.append(f'<path d="M{tn[0]},{tn[1]} Q{ct[0]},{ct[1]} {tf[0]},{tf[1]} L{tf[0]},{tf[1] + d} Q{ct[0]},{ct[1] + d} {tn[0]},{tn[1] + d} Z" fill="{INK}" fill-opacity="0.12" stroke-width="1.1"></path>')
@@ -154,14 +154,14 @@ for k in range(4):
     for j in range(3):
         b.append(f'<rect x="{300 + k * 6 + j * 12}" y="{y - 3.5}" width="7" height="7" fill="{CLAY if (j + k) % 2 else INK}" fill-opacity="{0.8 - j * 0.2:.1f}" stroke="none"></rect>')
 # circuit traces from the right page up to a cloud of connected nodes
-b.append('<path d="M372,318 H392 V246"></path><path d="M384,346 H410 V258"></path><circle cx="372" cy="318" r="3" fill="#141413"></circle><circle cx="384" cy="346" r="3" fill="#141413"></circle>')
-b.append(f'<path d="M370,240 a16,16 0 0 1 22,-22 a20,20 0 0 1 36,6 a14,14 0 0 1 4,28 H376 a12,12 0 0 1 -6,-12 Z" fill="#FAF9F5"></path>')
+b.append('<path d="M372,318 H392 V246"></path><path d="M384,346 H410 V258"></path><circle cx="372" cy="318" r="3" fill="#282424"></circle><circle cx="384" cy="346" r="3" fill="#282424"></circle>')
+b.append(f'<path d="M370,240 a16,16 0 0 1 22,-22 a20,20 0 0 1 36,6 a14,14 0 0 1 4,28 H376 a12,12 0 0 1 -6,-12 Z" fill="#FFFFFF"></path>')
 for (x0, y0, x1, y1) in ((388, 238, 404, 228), (404, 228, 418, 240)):
     b.append(f'<path d="M{x0},{y0} L{x1},{y1}" stroke-width="1.1"></path>')
 for (x, y, c) in ((388, 238, INK), (404, 228, CLAY), (418, 240, INK)):
     b.append(f'<circle cx="{x}" cy="{y}" r="3.2" fill="{c}" stroke="none"></circle>')
 # a chip on the left, linked to the law page
-b.append(f'<rect x="66" y="214" width="38" height="38" rx="4" fill="#FAF9F5"></rect><rect x="76" y="224" width="18" height="18" rx="2" fill="{CLAY}" fill-opacity="0.3" stroke="{CLAY}"></rect>')
+b.append(f'<rect x="66" y="214" width="38" height="38" rx="4" fill="#FFFFFF"></rect><rect x="76" y="224" width="18" height="18" rx="2" fill="{CLAY}" fill-opacity="0.3" stroke="{CLAY}"></rect>')
 for k in range(3):
     o = 223 + k * 10
     b.append(f'<path d="M66,{o} h-7 M104,{o} h7 M{75 + k * 10},214 v-7 M{75 + k * 10},252 v7" stroke-width="1.2"></path>')

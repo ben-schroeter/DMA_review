@@ -3,8 +3,8 @@ Writes site/mock_charts.json: {name: svg string}. Run from research/ceps_metrics
 import datetime as dt, json, statistics
 import openpyxl
 
-INK, INK2, MUTED, LINE, BASE = "#141413", "#3D3D3A", "#6B6A64", "#E6E3D9", "#C9C6BA"
-CLAY, CLAY2, SLATE, STONE = "#D97757", "#EDB9A3", "#5E5D59", "#BDBAAE"
+INK, INK2, MUTED, LINE, BASE = "#282424", "#3F3B3B", "#666666", "#E8E6E3", "#C9C6C3"
+CLAY, CLAY2, SLATE, STONE = "#B8860B", "#E3CF9C", "#5C5858", "#C4C1BE"
 F = "font-family=\"DM Sans, sans-serif\""
 wb = openpyxl.load_workbook("ceps_instruments_metrics.xlsx", read_only=True, data_only=True)
 
@@ -60,7 +60,7 @@ def stack_paths(series, Yf):
                 back += f"V{Yf(v):.1f}H{X(y):.1f}"
             area = up + f"V{Yf(prev[-1][1]):.1f}" + back[back.find('H'):] if back else up
             area = up + "".join([f"V{Yf(prev[-1][1]):.1f}"]) + rev_path(prev, Yf) + "Z"
-        out.append(f'<path d="{area}" fill="{col}" stroke="#FAF9F5" stroke-width="1"></path>')
+        out.append(f'<path d="{area}" fill="{col}" stroke="#FFFFFF" stroke-width="1"></path>')
         prev = pts
     return out
 
@@ -128,7 +128,7 @@ g.append(f'<text x="{sx(1050):.1f}" y="{sy(1080):.1f}" {F} font-size="13" fill="
 above = sum(r["restrictions_total"] > r["proposal_restrictions_total"] for r in cmp)
 for r in cmp:
     c = CLAY if r["restrictions_total"] > r["proposal_restrictions_total"] else SLATE
-    g.append(f'<circle cx="{sx(min(r["proposal_restrictions_total"], mx)):.1f}" cy="{sy(min(r["restrictions_total"], mx)):.1f}" r="5" fill="{c}" fill-opacity="0.75" stroke="#FAF9F5" stroke-width="1.2"></circle>')
+    g.append(f'<circle cx="{sx(min(r["proposal_restrictions_total"], mx)):.1f}" cy="{sy(min(r["restrictions_total"], mx)):.1f}" r="5" fill="{c}" fill-opacity="0.75" stroke="#FFFFFF" stroke-width="1.2"></circle>')
 big = sorted(cmp, key=lambda r: -(r["restrictions_total"] - r["proposal_restrictions_total"]))[:4]
 for r in big:
     nm = r["name"].replace("Artificial Intelligence Act", "AI Act").replace("General Data Protection Regulation", "GDPR").replace("Markets in Crypto-Assets (MiCA)", "MiCA").split(" (")[0]
@@ -185,7 +185,7 @@ def prod_svg(PW, PH, PL=50, PR=50, PT=30, PB=40):
     """Productivity chart at a given viewBox size (fonts stay in viewBox units)."""
     px = lambda y: PL + (y - 1900) / (2022 - 1900) * (PW - PL - PR)
     py = lambda v: PH - PB - v / 115 * (PH - PB - PT)
-    g = [f'<rect x="{px(1945):.1f}" y="{PT}" width="{px(1995) - px(1945):.1f}" height="{PH - PB - PT}" fill="#5E7FA8" fill-opacity="0.06"></rect>',
+    g = [f'<rect x="{px(1945):.1f}" y="{PT}" width="{px(1995) - px(1945):.1f}" height="{PH - PB - PT}" fill="#004494" fill-opacity="0.06"></rect>',
          f'<rect x="{px(1995):.1f}" y="{PT}" width="{px(2022) - px(1995):.1f}" height="{PH - PB - PT}" fill="{CLAY}" fill-opacity="0.08"></rect>']
     for t in (20, 40, 60, 80):
         g.append(f'<line x1="{PL}" x2="{PW - PR}" y1="{py(t):.1f}" y2="{py(t):.1f}" stroke="{LINE}"></line>')
@@ -198,18 +198,18 @@ def prod_svg(PW, PH, PL=50, PR=50, PT=30, PB=40):
     seg = lambda a, b: " ".join(f"{px(o['year']):.1f},{py(o['ratio_1995_100']):.1f}" for o in pdat if a <= o["year"] <= b)
     fill = seg(1995, 2022) + f" {px(2022):.1f},{py(100):.1f} {px(1995):.1f},{py(100):.1f}"
     g.append(f'<polygon points="{fill}" fill="{CLAY}" fill-opacity="0.22"></polygon>')
-    for (a, b), c in (((1900, 1945), "#9C9A92"), ((1945, 1995), "#5E7FA8"), ((1995, 2022), CLAY)):
+    for (a, b), c in (((1900, 1945), "#9A9696"), ((1945, 1995), "#004494"), ((1995, 2022), CLAY)):
         g.append(f'<polyline points="{seg(a, b)}" fill="none" stroke="{c}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></polyline>')
     v22 = [o for o in pdat if o["year"] == 2022][0]["ratio_1995_100"]
     tr = min((o for o in pdat if 1940 <= o["year"] <= 1950), key=lambda o: o["ratio_1995_100"])
-    g.append(f'<circle cx="{px(1995):.1f}" cy="{py(100):.1f}" r="5.5" fill="#5E7FA8" stroke="#FAF9F5" stroke-width="2"></circle>')
-    g.append(f'<circle cx="{px(2022):.1f}" cy="{py(v22):.1f}" r="5.5" fill="{CLAY}" stroke="#FAF9F5" stroke-width="2"></circle>')
-    g.append(f'<text x="{px(2010):.1f}" y="{py((v22 + 100) / 2 + 2):.1f}" text-anchor="middle" {F} font-size="22" fill="#B85C3F" font-weight="600">{v22 - 100:+.0f}%</text>')
-    g.append(f'<text x="{px(tr["year"]) + 10:.1f}" y="{py(tr["ratio_1995_100"]) + 6:.1f}" {F} font-size="14" fill="#7A786F" font-weight="600">{tr["ratio_1995_100"]:.0f}</text>')
-    g.append(f'<text x="{px(1903):.1f}" y="{py(30):.1f}" {F} font-size="14" fill="#7A786F">1914–45: two world wars</text>')
-    g.append(f'<text x="{px(1958):.1f}" y="{py(18):.1f}" {F} font-size="14" fill="#5E7FA8" font-weight="600">1945–95: Europe catches up</text>')
-    g.append(f'<text x="{px(1997):.1f}" y="{py(55):.1f}" {F} font-size="14" fill="#B85C3F" font-weight="600">Since 1995:</text>')
-    g.append(f'<text x="{px(1997):.1f}" y="{py(55) + 19:.1f}" {F} font-size="14" fill="#B85C3F" font-weight="600">falling behind</text>')
+    g.append(f'<circle cx="{px(1995):.1f}" cy="{py(100):.1f}" r="5.5" fill="#004494" stroke="#FFFFFF" stroke-width="2"></circle>')
+    g.append(f'<circle cx="{px(2022):.1f}" cy="{py(v22):.1f}" r="5.5" fill="{CLAY}" stroke="#FFFFFF" stroke-width="2"></circle>')
+    g.append(f'<text x="{px(2010):.1f}" y="{py((v22 + 100) / 2 + 2):.1f}" text-anchor="middle" {F} font-size="22" fill="#8F6708" font-weight="600">{v22 - 100:+.0f}%</text>')
+    g.append(f'<text x="{px(tr["year"]) + 10:.1f}" y="{py(tr["ratio_1995_100"]) + 6:.1f}" {F} font-size="14" fill="#777373" font-weight="600">{tr["ratio_1995_100"]:.0f}</text>')
+    g.append(f'<text x="{px(1903):.1f}" y="{py(30):.1f}" {F} font-size="14" fill="#777373">1914–45: two world wars</text>')
+    g.append(f'<text x="{px(1958):.1f}" y="{py(18):.1f}" {F} font-size="14" fill="#004494" font-weight="600">1945–95: Europe catches up</text>')
+    g.append(f'<text x="{px(1997):.1f}" y="{py(55):.1f}" {F} font-size="14" fill="#8F6708" font-weight="600">Since 1995:</text>')
+    g.append(f'<text x="{px(1997):.1f}" y="{py(55) + 19:.1f}" {F} font-size="14" fill="#8F6708" font-weight="600">falling behind</text>')
     return (f'<svg viewBox="0 0 {PW} {PH}" width="100%" role="img" aria-label="Productivity per hour in Germany, France, Italy and Spain relative '
                               f'to the US, 1995 = 100: from {tr["ratio_1995_100"]:.0f} after the war to 100 in 1995, then down to {v22:.0f} in 2022">' + "".join(g) + "</svg>")
 
@@ -235,12 +235,12 @@ charts["private"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-l
 meta.update({"private_main": m2, "private_secondary": s2})
 
 # G. combined: cumulative acts by legal type (top) + new acts per year by policy group (bottom), shared x axis
-GROUPS = [("Data, privacy & cybersecurity", ["Data & Privacy", "Cybersecurity"], "#D97757"),
-          ("Platforms, content & media", ["Trust & Safety", "Media"], "#5E7FA8"),
-          ("Markets, consumers & IP", ["Competition & Single Market", "E-commerce & Consumer Protection", "IPR"], "#D4A85A"),
-          ("Finance", ["Finance"], "#5E5D59"),
-          ("Industry, research & connectivity", ["Industrial Policy", "Research & Innovation", "Connectivity"], "#7D9B76"),
-          ("Law enforcement", ["Law Enforcement"], "#BDBAAE")]
+GROUPS = [("Data, privacy & cybersecurity", ["Data & Privacy", "Cybersecurity"], "#B8860B"),
+          ("Platforms, content & media", ["Trust & Safety", "Media"], "#004494"),
+          ("Markets, consumers & IP", ["Competition & Single Market", "E-commerce & Consumer Protection", "IPR"], "#D9BE7A"),
+          ("Finance", ["Finance"], "#5C5858"),
+          ("Industry, research & connectivity", ["Industrial Policy", "Research & Innovation", "Connectivity"], "#7FA3CC"),
+          ("Law enforcement", ["Law Enforcement"], "#C4C1BE")]
 gof = {a: gi for gi, (_, areas, _) in enumerate(GROUPS) for a in areas}
 TOPH = H
 BOT0, BOTH = TOPH + 40, 200            # bottom panel origin and height
@@ -350,7 +350,7 @@ for k, (title, f, ym, ticks, sv) in enumerate((("Restrictions per act", lambda r
     g.append(f'<line x1="{x0}" x2="{x0 + pw:.1f}" y1="{yy(sv):.1f}" y2="{yy(sv):.1f}" stroke="{INK}" stroke-width="1.4" stroke-dasharray="5 4"></line>'
              f'<text x="{x0 + 4}" y="{yy(sv) - 6:.1f}" {F} font-size="12.5" fill="{INK}">Sarbanes-Oxley Act {sv:g}</text>')
     for r in sorted(inst, key=lambda r: r["type"] != "Regulation"):
-        g.append(f'<circle cx="{xx(fy(r["d"])):.1f}" cy="{yy(f(r)):.1f}" r="4.5" fill="{TC[r["type"]]}" fill-opacity="0.85" stroke="#FAF9F5" stroke-width="1"></circle>')
+        g.append(f'<circle cx="{xx(fy(r["d"])):.1f}" cy="{yy(f(r)):.1f}" r="4.5" fill="{TC[r["type"]]}" fill-opacity="0.85" stroke="#FFFFFF" stroke-width="1"></circle>')
     bins = {}
     for r in inst: bins.setdefault(r["d"].year // 5 * 5, []).append(r)
     line = [(statistics.median(fy(r["d"]) for r in bins[b]), statistics.mean(f(r) for r in bins[b])) for b in sorted(bins) if len(bins[b]) >= 3]
