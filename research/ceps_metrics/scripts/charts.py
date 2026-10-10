@@ -139,7 +139,7 @@ for ax, key, title, f in ((axes[0], "restrictions_total", "Restrictions per act"
         bins[(r["date"].year // 5) * 5].append(r)
     xs = sorted(b for b in bins if len(bins[b]) >= 3)
     mid = lambda rs: dt.date.fromordinal(int(statistics.median(x["date"].toordinal() for x in rs)))
-    ax.plot([mid(bins[b]) for b in xs], [statistics.median(f(x) for x in bins[b]) for b in xs], color=INK, lw=2, label="5-year median", zorder=4)
+    ax.plot([mid(bins[b]) for b in xs], [statistics.mean(f(x) for x in bins[b]) for b in xs], color=INK, lw=2, label="5-year average", zorder=4)
     ax.set_title(title, loc="left", fontsize=12, color=INK, weight="bold")
     ax.yaxis.grid(True, color=GRID, lw=0.8); ax.set_axisbelow(True)
     for s in ("top", "right", "left"):
