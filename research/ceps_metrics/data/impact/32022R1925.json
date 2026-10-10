@@ -1,0 +1,272 @@
+{
+ "celex": "32022R1925",
+ "name": "Digital Markets Act",
+ "proposal": "52020PC0842",
+ "impact_assessment": "SWD(2020) 363 (executive summary SWD(2020) 364)",
+ "evidence_rating": "early and thin: Commission review is qualitative; two causal studies of individual remedies; one small causal study on start-ups; headline benefits never measured",
+ "summary": "The DMA has changed gatekeeper conduct (choice screens, steering, alternative app stores, consent) and produced EUR 1.59bn of fines, but none of the six promised indicators is reported systematically and the EUR 13bn consumer-surplus estimate has not been assessed. Causal studies find large default effects for browsers (Firefox +91% on iOS) but no shift to rival map services; one study finds lower start-up entry and investment in DMA-related sectors.",
+ "indicators": [
+  {
+   "type": "specific objective",
+   "objective": "Address market failures to ensure contestable and competitive digital markets for increased innovation and consumer choice",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "specific objective",
+   "objective": "Address gatekeepers' unfair conduct",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "specific objective",
+   "objective": "Enhance coherence and legal certainty to preserve the internal market",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "indicator (LFS 1.4.4)",
+   "objective": "Enhance coherence and legal certainty / limit diverging national regulatory interventions",
+   "indicator": "Number of regulatory interventions at the national level",
+   "target_or_baseline": "none stated",
+   "evidence": "Not reported in the 2026 review. The review records stakeholder concerns about fragmentation and parallel national enforcement and requests for guidance on Article 1(6), but gives no count.",
+   "status": "not measured",
+   "sources": "SWD(2026) 123"
+  },
+  {
+   "type": "indicator (LFS 1.4.4)",
+   "objective": "Enhance coherence and legal certainty / ensure coherent interpretation of obligations",
+   "indicator": "Number of clarification requests per year",
+   "target_or_baseline": "none stated",
+   "evidence": "Not reported. The review describes regulatory dialogue and possible guidelines but gives no count of clarification requests.",
+   "status": "not measured",
+   "sources": "SWD(2026) 123"
+  },
+  {
+   "type": "indicator (LFS 1.4.4)",
+   "objective": "Address gatekeepers' unfair conduct / prevent self-preferencing",
+   "indicator": "Number of compliance interventions by the Commission per gatekeeper per year",
+   "target_or_baseline": "none stated",
+   "evidence": "Activity reported, not as the indicator: non-compliance proceedings opened against Alphabet, Apple and Meta (March 2024) and Apple (June 2024); two specification decisions on Apple interoperability (March 2025); one investigation into Apple's choice obligations closed after changes. Seven gatekeepers designated.",
+   "status": "reported as activity (no per-gatekeeper series)",
+   "sources": "SWD(2026) 123; Commission press releases"
+  },
+  {
+   "type": "indicator (LFS 1.4.4)",
+   "objective": "Address gatekeepers' unfair conduct / prevent self-preferencing",
+   "indicator": "Number of sanction decisions per gatekeeper per year",
+   "target_or_baseline": "none stated",
+   "evidence": "Four fines in two years of application: Apple EUR 500m (anti-steering) and Meta EUR 200m (pay or consent), 23 April 2025; Alphabet EUR 460m (search self-preferencing) and EUR 430m (Google Play anti-steering), 23 July 2026. Total EUR 1.59bn. Apple's decision is under appeal.",
+   "status": "measurable (activity indicator)",
+   "sources": "Commission press releases 23.4.2025 and 23.7.2026; SWD(2026) 123"
+  },
+  {
+   "type": "indicator (LFS 1.4.4)",
+   "objective": "Contestable markets / prevent unfair access and data practices",
+   "indicator": "Share of users multi-homing with different platforms or services",
+   "target_or_baseline": "none stated",
+   "evidence": "Not measured by the Commission (review says it will monitor switching). Independent evidence on one remedy: after Google removed the Maps link from EU search results, users searched for 'google maps' instead; no robust shift to rival map services (Pape & Rossi 2026).",
+   "status": "not measured (partial independent evidence)",
+   "sources": "SWD(2026) 123; Pape & Rossi 2026"
+  },
+  {
+   "type": "indicator (LFS 1.4.4)",
+   "objective": "Contestable markets / prevent unfair access and data practices",
+   "indicator": "Share of users switching between different platforms and services",
+   "target_or_baseline": "none stated",
+   "evidence": "Commission cites company figures only (Aloha +250% new users; Firefox daily users doubled on iOS in DE and FR). Independent causal estimate: Firefox usage +91% on iOS and +13% on Android vs counterfactual after the choice-screen mandate; Safari declined on iOS with gains mostly to Chrome (Akesson et al. 2026). Consent: >45% of users (up to 90%) refuse data combination under Art 5(2).",
+   "status": "partially measured (independent study for browsers)",
+   "sources": "SWD(2026) 123; NBER w35112"
+  },
+  {
+   "type": "expected impact (LFS 1.4.3 / IA)",
+   "objective": "Consumer welfare",
+   "indicator": "Consumer surplus +EUR 13bn per year (about +6% vs baseline)",
+   "target_or_baseline": "EUR 13bn/yr",
+   "evidence": "Not assessed in the 2026 review, which says impacts are not yet fully observable.",
+   "status": "not measured",
+   "sources": "SWD(2020) 364; SWD(2026) 123"
+  },
+  {
+   "type": "expected impact (LFS 1.5.2)",
+   "objective": "Internal market",
+   "indicator": "Cross-border trade gain of EUR 92.8bn by 2025",
+   "target_or_baseline": "EUR 92.8bn by 2025",
+   "evidence": "Not assessed.",
+   "status": "not measured",
+   "sources": "COM(2020) 842 LFS"
+  },
+  {
+   "type": "expected impact (LFS 1.4.3)",
+   "objective": "Growth and jobs (Digital Single Market-wide, not DMA-specific)",
+   "indicator": "GDP +0.44-0.82% and 307-561 thousand FTEs from a more efficient Digital Single Market",
+   "target_or_baseline": "as stated",
+   "evidence": "Not assessed; the figure is borrowed from Digital Single Market estimates and is not attributable to the DMA alone.",
+   "status": "not measured",
+   "sources": "COM(2020) 842 LFS"
+  },
+  {
+   "type": "expected impact (LFS 1.4.3)",
+   "objective": "Innovation by smaller businesses",
+   "indicator": "Greater innovation potential among smaller businesses",
+   "target_or_baseline": "qualitative",
+   "evidence": "Mixed. Commission review: new third-party app stores on iOS (Epic, Aptoide, AltStore PAL) and gains for alternative browsers. Yang (2025): DMA reduced start-up entry and investment in DMA-related industries (difference-in-differences, 1,034 records). Oxera (2021, Amazon-funded experiment): such rules likely reduce innovation.",
+   "status": "mixed evidence",
+   "sources": "SWD(2026) 123; Yang 2025; Oxera 2021"
+  }
+ ],
+ "literature": [
+  {
+   "citation": "European Commission (2020), Impact Assessment Report accompanying the DMA proposal, SWD(2020) 363; Executive summary SWD(2020) 364",
+   "year": 2020,
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante assessment / modelling",
+   "outcomes": "consumer welfare; compliance costs; SMEs",
+   "direction": "positive (forecast)",
+   "headline": "Consumer surplus +EUR 13bn/yr; compliance costs for gatekeepers not quantified; SMEs expected to benefit",
+   "period_geography": "EU, forecast",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020SC0364",
+   "quality": "forecast; no compliance-cost figure",
+   "verified": "full text read"
+  },
+  {
+   "citation": "European Commission (2026), Staff Working Document accompanying the Report on the Review of the DMA, SWD(2026) 123, 28 April 2026",
+   "year": 2026,
+   "source_type": "Commission evaluation",
+   "method": "qualitative review using compliance data, compliance reports and consultation",
+   "outcomes": "conduct change; user choice; entry of alternative providers",
+   "direction": "positive (early, qualitative)",
+   "headline": "DMA 'has already created positive impacts' but 'has not yet achieved its full potential'; no legislative changes proposed; most impacts 'not yet fully observable'",
+   "period_geography": "EU, 2023-2025",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026SC0123",
+   "quality": "self-evaluation; no quantified outcome indicators",
+   "verified": "full text read"
+  },
+  {
+   "citation": "European Commission (2025), press release: Commission finds Apple and Meta in breach of the DMA, 23 April 2025",
+   "year": 2025,
+   "source_type": "Commission enforcement",
+   "method": "enforcement record",
+   "outcomes": "sanctions",
+   "direction": "n/a",
+   "headline": "Apple EUR 500m, Meta EUR 200m",
+   "period_geography": "EU",
+   "url": "https://digital-strategy.ec.europa.eu/en/news/commission-finds-apple-and-meta-breach-digital-markets-act",
+   "quality": "primary source",
+   "verified": "page read"
+  },
+  {
+   "citation": "European Commission (2026), press release: Commission fines Google EUR 890 million for breaches of the DMA, 23 July 2026",
+   "year": 2026,
+   "source_type": "Commission enforcement",
+   "method": "enforcement record",
+   "outcomes": "sanctions",
+   "direction": "n/a",
+   "headline": "EUR 460m (search self-preferencing, Art 6(5)) and EUR 430m (Google Play anti-steering, Art 5(4))",
+   "period_geography": "EU",
+   "url": "https://digital-strategy.ec.europa.eu/en/news/commission-fines-google-eu890-million-breaches-digital-markets-act",
+   "quality": "primary source",
+   "verified": "page read"
+  },
+  {
+   "citation": "Akesson, J., Amlani, K., Cepeda Suarez, R., Chissell, E., Hunt, S., Luca, M. & Petrie, G. (2026), Active Choice Interventions at Scale: Browser Defaults under the Digital Markets Act, NBER Working Paper 35112 (first issued April 2026 as \"The Effect of Choice Screens on Mobile Browser Usage: Evidence from the EU Digital Markets Act\")",
+   "year": 2026,
+   "source_type": "working paper",
+   "method": "causal: difference-in-differences",
+   "outcomes": "user switching; market shares (browsers)",
+   "direction": "positive (more switching away from defaults)",
+   "headline": "From month 15, Firefox usage +91% on iOS and +13% on Android vs no-mandate counterfactual; Safari declined on iOS with gains concentrated in Chrome",
+   "period_geography": "EU vs non-EU, 2024-2025",
+   "url": "https://www.nber.org/papers/w35112",
+   "quality": "strong design (difference-in-differences); not peer-reviewed; two authors are Mozilla employees and Mozilla provided the data (Firefox is an affected rival)",
+   "verified": "abstract read"
+  },
+  {
+   "citation": "Pape, L. & Rossi, M. (2026), research on the DMA's self-preferencing ban and Google Maps; summarised in ProMarket, 18 May 2026",
+   "year": 2026,
+   "source_type": "working paper (summary)",
+   "method": "causal: difference-in-differences (search volumes, web traffic)",
+   "outcomes": "user switching; competition (map services)",
+   "direction": "null for rivals; small negative for user experience",
+   "headline": "Searches for 'google maps' +21% in EU vs non-EU; no robust gain for Bing Maps, Mappy, OpenStreetMap; total Google Maps desktop traffic unchanged; visit duration -5%, bounce rate +16%",
+   "period_geography": "EU vs European non-EU, 2024",
+   "url": "https://www.promarket.org/2026/05/18/the-dmas-google-maps-experiment-shows-that-competition-is-not-one-click-away/",
+   "quality": "strong design; one remedy only",
+   "verified": "summary article read"
+  },
+  {
+   "citation": "Yang, J. (2025), Unintended effects of Digital Market Act on new entry and investment, Digital Policy, Regulation and Governance, doi:10.1108/DPRG-03-2025-0080",
+   "year": 2025,
+   "source_type": "peer-reviewed",
+   "method": "causal: difference-in-differences (1,034 start-up and investment records, 27 EU countries, 2020-2024)",
+   "outcomes": "firm entry; venture investment",
+   "direction": "negative",
+   "headline": "DMA negatively affected new entry and investment in DMA-related industries",
+   "period_geography": "EU-27, 2020-2024",
+   "url": "https://doi.org/10.1108/DPRG-03-2025-0080",
+   "quality": "small sample; short post-period; abstract only",
+   "verified": "abstract read (Crossref)"
+  },
+  {
+   "citation": "Decarolis, F., Li, M. & Paternollo, F. A., Competition and Defaults in Online Search (working paper, Bocconi)",
+   "year": 2025,
+   "source_type": "working paper",
+   "method": "causal: event studies of default interventions (EEA, Russia, Turkey)",
+   "outcomes": "market shares (search engines)",
+   "direction": "positive (default changes reduce Google share)",
+   "headline": "Changes to default settings reduced Google's market share in all three cases; DMA-specific estimate not verified",
+   "period_geography": "EEA, Russia, Turkey",
+   "url": "https://www.tse-fr.eu/sites/default/files/TSE/documents/conf/2022/Yale/decarolis.pdf",
+   "quality": "abstract only; DMA-specific effect not confirmed",
+   "verified": "abstract seen via search"
+  },
+  {
+   "citation": "Cabral, L., Haucap, J., Parker, G., Petropoulos, G., Valletti, T. & Van Alstyne, M. (2021), The EU Digital Markets Act: A Report from a Panel of Economic Experts, JRC",
+   "year": 2021,
+   "source_type": "policy (JRC)",
+   "method": "expert assessment (ex-ante)",
+   "outcomes": "innovation; competition",
+   "direction": "mixed (forecast)",
+   "headline": "Supports intervention but warns legal uncertainty could chill innovation",
+   "period_geography": "EU, ex-ante",
+   "url": "https://ide.mit.edu/wp-content/uploads/2021/02/jrc122910_external_study_report_-_the_eu_digital_markets_act.pdf",
+   "quality": "ex-ante expert opinion",
+   "verified": "seen via search"
+  },
+  {
+   "citation": "Oxera (2021), The Digital Markets Act and incentives to innovate: behavioural experiment (prepared for Amazon)",
+   "year": 2021,
+   "source_type": "industry-funded",
+   "method": "lab experiment (ex-ante)",
+   "outcomes": "innovation",
+   "direction": "negative (forecast)",
+   "headline": "Interventions of this type likely to reduce total innovation in high digital-intensity industries",
+   "period_geography": "experimental",
+   "url": "https://www.oxera.com/wp-content/uploads/2021/05/The-Digital-Markets-Act-and-incentives-to-innovate_final.pdf",
+   "quality": "funded by a gatekeeper; ex-ante",
+   "verified": "seen via search"
+  },
+  {
+   "citation": "CERRE (2025), Evaluating the DMA (DMA Implementation Forum), March 2025",
+   "year": 2025,
+   "source_type": "policy (CERRE)",
+   "method": "evaluation framework",
+   "outcomes": "evaluation design",
+   "direction": "n/a",
+   "headline": "Proposes effectiveness, efficiency and consistency dimensions and indicators for the Article 53 review; first year shows gains for users and complexity for firms and regulators",
+   "period_geography": "EU",
+   "url": "https://cerre.eu/wp-content/uploads/2025/03/DMA-Evaluation_FINAL.pdf",
+   "quality": "methodological, not impact evidence",
+   "verified": "full text partly read"
+  }
+ ]
+}

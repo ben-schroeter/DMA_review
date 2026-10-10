@@ -15,6 +15,9 @@ sec = json.load(open(D + "secondary_acts.json"))
 web = list(csv.DictReader(open(D + "guidance_web_supplement.csv")))
 val = json.load(open(D + "validation_results.json"))
 pol = json.load(open(D + "policy_area.json"))
+import os as _os0
+_imp_all = {json.load(open(D + "impact/" + f))["celex"]: json.load(open(D + "impact/" + f))
+            for f in (_os0.listdir(D + "impact") if _os0.path.isdir(D + "impact") else []) if f.endswith(".json")}
 import re as _re
 ag = []
 for f in ("agency_edpb.json", "agency_eba.json", "agency_esma.json"):
@@ -147,7 +150,8 @@ cols = ["row_id", "name", "identifier", "policy_area_ceps", "ceps_table_status",
         "n_amending_acts", "first_amendment_date", "latest_amendment_date", "n_corrigenda",
         "proposal_celex", "proposal_text_source", "proposal_words_legal_text", "proposal_restrictions_total",
         "proposal_addr_private_parties", "change_words", "change_words_pct", "change_restrictions", "change_restrictions_pct",
-        "change_restrictions_private", "note"]
+        "change_restrictions_private", "impact_evidence_rating", "impact_summary", "n_promised_indicators", "n_indicators_measured",
+        "n_impact_studies", "n_causal_studies", "note"]
 ws.append(cols)
 ci = {c: i + 1 for i, c in enumerate(cols)}
 for i, (r, m0) in enumerate(zip(rows, imap), start=2):
@@ -179,6 +183,14 @@ for i, (r, m0) in enumerate(zip(rows, imap), start=2):
             first("adoption_date"), first("oj_publication_date"), first("entry_into_force"), m0["status_ceps_jul2025"],
             m0["status_oct2026"], ";".join(cel), text, url] + [met.get(k) for k in METRICS] + \
            [";".join(cc) or None, cmet.get("restrictions_total"), cmet.get("addr_private_parties")]
+    _id = next((_imp_all[c] for c in cel if c in _imp_all), None)
+    if _id:
+        _ind = [x for x in _id["indicators"] if x["indicator"]]
+        imp_vals = [_id["evidence_rating"], _id["summary"], len(_ind),
+                    sum(1 for x in _ind if x["status"].startswith(("measur", "partially", "reported", "mixed"))),
+                    len(_id["literature"]), sum(1 for x in _id["literature"] if x["method"].startswith("causal"))]
+    else:
+        imp_vals = [None] * 6
     am = [a for a in da["amendments"] if a["parent"] in cel and a["kind"] == "amendment"]
     co = [a for a in da["amendments"] if a["parent"] in cel and a["kind"] == "corrigendum"]
     amd = sorted(a["date"] for a in am if a["date"])
@@ -202,7 +214,7 @@ for i, (r, m0) in enumerate(zip(rows, imap), start=2):
     ws.append(vals + [None] * 9 + [sum(nim[c]["n_measures"] for c in dirs if c in nim) if dirs else None,
                                    max((nim[c]["n_member_states"] for c in dirs if c in nim), default=None) if dirs else None,
                                    len(am) if adopted else None, amd[0] if amd else None, amd[-1] if amd else None,
-                                   len(co) if adopted else None] + pc_vals + [None] * 5 + [note])
+                                   len(co) if adopted else None] + pc_vals + [None] * 5 + imp_vals + [note])
     L = lambda k: get_column_letter(ci[k])
     pw, aw, pr, ar = f"{L('proposal_words_legal_text')}{i}", f"{L('words_legal_text')}{i}", f"{L('proposal_restrictions_total')}{i}", f"{L('restrictions_total')}{i}"
     pp, ap = f"{L('proposal_addr_private_parties')}{i}", f"{L('addr_private_parties')}{i}"
@@ -236,7 +248,7 @@ for k in METRICS + ["consolidated_restrictions_total", "consolidated_addr_privat
                     "n_amending_acts", "n_corrigenda"]:
     Lc = get_column_letter(ci[k]); ws.cell(row=tr, column=ci[k], value=f"=SUM({Lc}2:{Lc}{tr - 1})")
 style(ws, [6, 34, 22, 18, 12, 11, 9, 11, 11, 11, 10, 10, 16, 18, 30] + [10] * len(METRICS) + [20, 11, 11, 9, 9, 9, 9, 9, 9, 9, 9, 12, 11, 10]
-      + [9, 11, 11, 9, 16, 18, 10, 10, 10, 10, 9, 10, 9, 10, 60])
+      + [9, 11, 11, 9, 16, 18, 10, 10, 10, 10, 9, 10, 9, 10, 30, 50, 9, 9, 9, 9, 60])
 for c in ws[tr]:
     c.font = Font(name="Arial", bold=True, size=10)
 for k in METRICS + ["consolidated_restrictions_total", "restrictions_in_implementing_and_delegated_acts", "national_transposition_measures"]:
@@ -273,6 +285,33 @@ wbm.append(["EU comparison (105 adopted acts, original texts)", "mean per act", 
             "=E" + str(wbm.max_row + 1) + "*N" + str(wbm.max_row + 1), "Words = articles + annexes (no recitals), comparable to a US statute's text"])
 style(wbm, [22, 24, 8, 10, 12, 10, 10, 10, 12, 10, 10, 14, 10, 12, 14, 80])
 wbm.freeze_panes = None
+
+# ---------------- impact evidence (pilot) ----------------
+_imp = {}
+_idir = D + "impact/"
+if _os.path.isdir(_idir):
+    for f in sorted(_os.listdir(_idir)):
+        if f.endswith(".json"):
+            _d = json.load(open(_idir + f)); _imp[_d["celex"]] = _d
+wpi = wb.create_sheet("proposal_indicators")
+wpi.append(["parent_row_id", "parent_name", "proposal_celex", "type", "objective", "indicator / promised impact", "target or baseline",
+            "evidence found", "status", "sources"])
+wil = wb.create_sheet("impact_literature")
+wil.append(["parent_row_id", "parent_name", "citation", "year", "source_type", "method", "outcomes", "direction", "headline finding",
+            "period / geography", "quality notes", "verified", "url"])
+for c, d_ in _imp.items():
+    rid, nm = row_of.get(c, ("", ""))
+    for x in d_["indicators"]:
+        wpi.append([int(rid) if rid else None, nm, d_["proposal"], x["type"], x["objective"], x["indicator"], x["target_or_baseline"],
+                    x["evidence"], x["status"], x["sources"]])
+    for x in d_["literature"]:
+        wil.append([int(rid) if rid else None, nm, x["citation"], x["year"], x["source_type"], x["method"], x["outcomes"], x["direction"],
+                    x["headline"], x["period_geography"], x["quality"], x["verified"], x["url"]])
+for w_, widths in ((wpi, [8, 22, 13, 18, 40, 45, 14, 70, 22, 30]), (wil, [8, 22, 60, 6, 18, 30, 25, 18, 70, 18, 45, 16, 40])):
+    style(w_, widths)
+    for row in w_.iter_rows(min_row=2):
+        for c_ in row:
+            c_.alignment = Alignment(wrap_text=True, vertical="top")
 
 # ---------------- method + validation ----------------
 wm = wb.create_sheet("method")
