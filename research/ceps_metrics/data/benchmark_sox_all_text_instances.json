@@ -1,0 +1,1442 @@
+[
+ {
+  "clause": "(7) ISSUER.\u2014The term \u2018\u2018issuer\u2019\u2019 means an issuer (as defined in section 3 of the Securities Exchange Act of 1934 (15 U.S.C. 78c)), the securities of which are registered under section 12 of that Act (15 U.S.C. 78l), or that is required to file reports under section 15(d) (15 U.S.C. 78o(d)), or that files or has filed a registration statement that has not yet become effective under the Securities Act of 1933 (15 U.S.C. 77a et seq.), and that it has not withdrawn.",
+  "marker": "is required",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(a) REGULATORY ACTION.\u2014The Commission shall promulgate such rules and regulations, as may be necessary or appropriate in the public interest or for the protection of investors, and in furtherance of this Act.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) ENFORCEMENT.\u2014 (1) IN GENERAL.\u2014A violation by any person of this Act, any rule or regulation of the Commission issued under this Act, or any rule of the Board shall be treated for all purposes in the same manner as a violation of the Securities Exchange Act of 1934 (15 U.S.C. 78a et seq.) or the rules and regulations issued thereunder, consistent with the provisions of this Act, and any such person shall be subject to the same penalties, and to the same extent, as for a violation of that Act ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The Board shall be a body corporate, operate as a nonprofit corporation, and have succession until dissolved by an Act of Congress.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(c) DUTIES OF THE BOARD.\u2014The Board shall, subject to action by the Commission under section 107, and once a determination is made by the Commission under subsection (d) of this section\u2014 (1) register public accounting firms that prepare audit reports for issuers, in accordance with section 102;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(d) COMMISSION DETERMINATION.\u2014The members of the Board shall take such action (including hiring of staff, proposal of rules, and adoption of initial and transitional auditing and other professional standards) as may be necessary or appropriate to enable the Commission to determine, not later than 270 days after the date of enactment of this Act, that the Board is so organized and has the capacity to carry out the requirements of this title, and to enforce compliance with this title by registered",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The Commission shall be responsible, prior to the appointment of the Board, for the planning for the establishment and administrative transition to the Board\u2019s operation.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(e) BOARD MEMBERSHIP.\u2014 (1) COMPOSITION.\u2014The Board shall have 5 members, appointed from among prominent individuals of integrity and reputation who have a demonstrated commitment to the interests of investors and the public, and an understanding of the responsibilities for and nature of the financial disclosures required of issuers under the securities laws and the obligations of accountants with respect to the preparation and issuance of audit reports with respect to such disclosures.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) LIMITATION.\u2014Two members, and only 2 members, of the Board shall be or have been certified public accountants pursuant to the laws of 1 or more States, provided that, if 1 of those 2 members is the chairperson, he or she may not have been a practicing certified public accountant for at least 5 years prior to his or her appointment to the Board.",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) LIMITATION.\u2014Two members, and only 2 members, of the Board shall be or have been certified public accountants pursuant to the laws of 1 or more States, provided that, if 1 of those 2 members is the chairperson, he or she may not have been a practicing certified public accountant for at least 5 years prior to his or her appointment to the Board.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(3) FULL-TIME INDEPENDENT SERVICE.\u2014Each member of the Board shall serve on a full-time basis, and may not, concurrent with service on the Board, be employed by any other person or engage in any other professional or business activity.",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(3) FULL-TIME INDEPENDENT SERVICE.\u2014Each member of the Board shall serve on a full-time basis, and may not, concurrent with service on the Board, be employed by any other person or engage in any other professional or business activity.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "of the Federal Reserve System and the Secretary of the Treasury, shall appoint the chairperson and other initial members of the Board, and shall designate a term of service for each.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "of the Federal Reserve System and the Secretary of the Treasury, shall appoint the chairperson and other initial members of the Board, and shall designate a term of service for each.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(B) VACANCIES.\u2014A vacancy on the Board shall not affect the powers of the Board, but shall be filled in the same manner as provided for appointments under this section.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and (ii) any Board member appointed to fill a vacancy occurring before the expiration of the term for which the predecessor was appointed shall be appointed only for the remainder of that term.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(g) RULES OF THE BOARD.\u2014The rules of the Board shall, subject to the approval of the Commission\u2014 (1) provide for the operation and administration of the Board, the exercise of its authority, and the performance of its responsibilities under this Act;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) permit, as the Board determines necessary or appropriate, delegation by the Board of any of its functions to an individual member or employee of the Board, or to a division of the Board, including functions with respect to hearing, determining, ordering, certifying, reporting, or otherwise acting as to any matter, except that\u2014 (A) the Board shall retain a discretionary right to review any action pursuant to any such delegated function, upon its own motion;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and (C) if the right to exercise a review described in subparagraph (A) is declined, or if no such review is sought within the time stated in the rules of the Board, then the action taken by the holder of such delegation shall for all purposes, including appeal or review thereof, be deemed to be the action of the Board;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(h) ANNUAL REPORT TO THE COMMISSION.\u2014The Board shall submit an annual report (including its audited financial statements) to the Commission, and the Commission shall transmit a copy of that report to the Committee on Banking, Housing, and Urban Affairs of the Senate, and the Committee on Financial Services of the House of Representatives, not later than 30 days after the date of receipt of that report by the Commission.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(h) ANNUAL REPORT TO THE COMMISSION.\u2014The Board shall submit an annual report (including its audited financial statements) to the Commission, and the Commission shall transmit a copy of that report to the Committee on Banking, Housing, and Urban Affairs of the Senate, and the Committee on Financial Services of the House of Representatives, not later than 30 days after the date of receipt of that report by the Commission.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) MANDATORY REGISTRATION.\u2014Beginning 180 days after the date of the determination of the Commission under section 101(d), it shall be unlawful for any person that is not a registered public accounting firm to prepare or issue, or to participate in the preparation or issuance of, any audit report with respect to any issuer.",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) APPLICATIONS FOR REGISTRATION.\u2014 (1) FORM OF APPLICATION.\u2014A public accounting firm shall use such form as the Board may prescribe, by rule, to apply for registration under this section.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(2) CONTENTS OF APPLICATIONS.\u2014Each public accounting firm shall submit, as part of its application for registration, in such detail as the Board shall specify\u2014 (A) the names of all issuers for which the firm prepared or issued audit reports during the immediately preceding calendar year, and for which the firm expects to prepare or issue audit reports during the current calendar year;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(2) CONTENTS OF APPLICATIONS.\u2014Each public accounting firm shall submit, as part of its application for registration, in such detail as the Board shall specify\u2014 (A) the names of all issuers for which the firm prepared or issued audit reports during the immediately preceding calendar year, and for which the firm expects to prepare or issue audit reports during the current calendar year;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and (H) such other information as the rules of the Board or the Commission shall specify as necessary or appropriate in the public interest or for the protection of investors.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(3) CONSENTS.\u2014Each application for registration under this subsection shall include\u2014 (A) a consent executed by the public accounting firm to cooperation in and compliance with any request for testimony or the production of documents made by the Board in the furtherance of its authority and responsibilities under this title (and an agreement to secure and enforce similar consents from each of the associated persons of the public accounting firm as a condition of their continued employment by or o",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "and (B) a statement that such firm understands and agrees that cooperation and compliance, as described in the consent required by subparagraph (A), and the securing and enforcement of such consents from its associated persons, in accordance with the rules of the Board, shall be a condition to the continuing effectiveness of the registration of the firm with the Board.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(c) ACTION ON APPLICATIONS.\u2014 (1) TIMING.\u2014The Board shall approve a completed application for registration not later than 45 days after the date of receipt of the application, in accordance with the rules of the Board, unless the Board, prior to such date, issues a written notice of disapproval to, or requests more information from, the prospective registrant.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(d) PERIODIC REPORTS.\u2014Each registered public accounting firm shall submit an annual report to the Board, and may be required",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(e) PUBLIC AVAILABILITY.\u2014Registration applications and annual reports required by this subsection, or such portions of such applications or reports as may be designated under rules of the Board, shall be made available for public inspection, subject to rules of the Board or the Commission, and to applicable laws relating to the confidentiality of proprietary, personal, or other information contained in such applications or reports, provided that, in all events, the Board shall protect from publi",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(e) PUBLIC AVAILABILITY.\u2014Registration applications and annual reports required by this subsection, or such portions of such applications or reports as may be designated under rules of the Board, shall be made available for public inspection, subject to rules of the Board or the Commission, and to applicable laws relating to the confidentiality of proprietary, personal, or other information contained in such applications or reports, provided that, in all events, the Board shall protect from publi",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(f) REGISTRATION AND ANNUAL FEES.\u2014The Board shall assess and collect a registration fee and an annual fee from each registered public accounting firm, in amounts that are sufficient to recover the costs of processing and reviewing applications and annual reports.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) AUDITING, QUALITY CONTROL, AND ETHICS STANDARDS.\u2014 (1) IN GENERAL.\u2014The Board shall, by rule, establish, including, to the extent it determines appropriate, through adoption of standards proposed by 1 or more professional groups of accountants designated pursuant to paragraph (3)(A) or advisory groups convened pursuant to paragraph (4), and amend or otherwise modify or alter, such auditing and related attestation standards, such quality control standards, and such ethics standards to be used b",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) RULE REQUIREMENTS.\u2014In carrying out paragraph (1), the Board\u2014 (A) shall include in the auditing standards that it adopts, requirements that each registered public accounting firm shall\u2014 (i) prepare, and maintain for a period of not less than 7 years, audit work papers, and other information related to any audit report, in sufficient detail to support the conclusions reached in such report;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) RULE REQUIREMENTS.\u2014In carrying out paragraph (1), the Board\u2014 (A) shall include in the auditing standards that it adopts, requirements that each registered public accounting firm shall\u2014 (i) prepare, and maintain for a period of not less than 7 years, audit work papers, and other information related to any audit report, in sufficient detail to support the conclusions reached in such report;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(B) shall include, in the quality control standards that it adopts with respect to the issuance of audit reports, requirements for every registered public accounting firm relating to\u2014 (i) monitoring of professional ethics and independence from issuers on behalf of which the firm issues audit reports;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(3) AUTHORITY TO ADOPT OTHER STANDARDS.\u2014 (A) IN GENERAL.\u2014In carrying out this subsection, the Board\u2014 (i) may adopt as its rules, subject to the terms of section 107, any portion of any statement of auditing standards or other professional standards that the Board determines satisfy the requirements of paragraph (1), and that were proposed by 1 or more professional groups of accountants that shall be designated or recognized by the Board, by rule, for such purpose, pursuant to this paragraph or 1",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "and (ii) notwithstanding clause (i), shall retain full authority to modify, supplement, revise, or subsequently amend, modify, or repeal, in whole or in part, any portion of any statement described in clause (i).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(B) INITIAL AND TRANSITIONAL STANDARDS.\u2014The Board shall adopt standards described in subparagraph (A)(i) as initial or transitional standards, to the extent the Board determines necessary, prior to a determination of the",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Commission under section 101(d), and such standards shall be separately approved by the Commission at the time of that determination, without regard to the procedures required by section 107 that otherwise would apply to the approval of rules of the Board.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(4) ADVISORY GROUPS.\u2014The Board shall convene, or authorize its staff to convene, such expert advisory groups as may be appropriate, which may include practicing accountants and other experts, as well as representatives of other interested groups, subject to such rules as the Board may prescribe to prevent conflicts of interest, to make recommendations concerning the content (including proposed drafts) of auditing, quality control, ethics, independence, or other standards required to be establish",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) INDEPENDENCE STANDARDS AND RULES.\u2014The Board shall establish such rules as may be necessary or appropriate in the public interest or for the protection of investors, to implement, or as authorized under, title II of this Act.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(c) COOPERATION WITH DESIGNATED PROFESSIONAL GROUPS OF ACCOUNTANTS AND ADVISORY GROUPS.\u2014 (1) IN GENERAL.\u2014The Board shall cooperate on an ongoing basis with professional groups of accountants designated under subsection (a)(3)(A) and advisory groups convened under subsection (a)(4) in the examination of the need for changes in any standards subject to its authority under subsection (a), recommend issues for inclusion on the agendas of such designated professional groups of accountants or advisory",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) BOARD RESPONSES.\u2014The Board shall respond in a timely fashion to requests from designated professional groups of accountants and advisory groups referred to in paragraph (1) for any changes in standards over which the Board has authority.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(d) EVALUATION OF STANDARD SETTING PROCESS.\u2014The Board shall include in the annual report required by section 101(h) the results of its standard setting responsibilities during the period to which the report relates, including a discussion of the work of the Board with any designated professional groups of accountants and advisory groups described in paragraphs (3)(A) and (4) of subsection (a), and its pending issues agenda for future standard setting projects.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) IN GENERAL.\u2014The Board shall conduct a continuing program of inspections to assess the degree of compliance of each registered public accounting firm and associated persons of that firm with this Act, the rules of the Board, the rules of the Commission, or professional standards, in connection with its performance of audits, issuance of audit reports, and related matters involving issuers.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) INSPECTION FREQUENCY.\u2014 (1) IN GENERAL.\u2014Subject to paragraph (2), inspections required by this section shall be conducted\u2014 (A) annually with respect to each registered public accounting firm that regularly provides audit reports for more than 100 issuers;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(c) PROCEDURES.\u2014The Board shall, in each inspection under this section, and in accordance with its rules for such inspections\u2014 (1) identify any act or practice or omission to act by the registered public accounting firm, or by any associated person thereof, revealed by such inspection that may be in violation of this Act, the rules of the Board, the rules of the Commission, the firm\u2019s own quality control policies, or professional standards;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(d) CONDUCT OF INSPECTIONS.\u2014In conducting an inspection of a registered public accounting firm under this section, the Board shall\u2014 (1) inspect and review selected audit and review engagements of the firm (which may include audit engagements that are the subject of ongoing litigation or other controversy between the firm and 1 or more third parties), performed at various offices and by various associated persons of the firm, as selected by the Board;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(f) PROCEDURES FOR REVIEW.\u2014The rules of the Board shall provide a procedure for the review of and response to a draft inspection report by the registered public accounting firm under inspection.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The Board shall take such action with respect to such response as it considers appropriate (including revising the draft report or continuing or supplementing its inspection activities before issuing a final report), but the text of any such response, appropriately redacted to protect information reasonably identified by the accounting firm as confidential, shall be attached to and made part of the inspection report.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The Board shall take such action with respect to such response as it considers appropriate (including revising the draft report or continuing or supplementing its inspection activities before issuing a final report), but the text of any such response, appropriately redacted to protect information reasonably identified by the accounting firm as confidential, shall be attached to and made part of the inspection report.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(g) REPORT.\u2014A written report of the findings of the Board for each inspection under this section, subject to subsection (h), shall be\u2014",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and (2) made available in appropriate detail to the public (subject to section 105(b)(5)(A), and to the protection of such confidential and proprietary information as the Board may determine to be appropriate, or as may be required by law), except that no portions of the inspection report that deal with criticisms of or potential defects in the quality control systems of the firm under inspection shall be made public if those criticisms or defects are addressed by the firm, to the satisfaction o",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(h) INTERIM COMMISSION REVIEW.\u2014 (1) REVIEWABLE MATTERS.\u2014A registered public accounting firm may seek review by the Commission, pursuant to such rules as the Commission shall promulgate, if the firm\u2014 (A) has provided the Board with a response, pursuant to rules issued by the Board under subsection (f), to the substance of particular items in a draft inspection report, and disagrees with the assessments contained in any final report prepared by the Board following such response;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) TREATMENT OF REVIEW.\u2014Any decision of the Commission with respect to a review under paragraph (1) shall not be reviewable under section 25 of the Securities Exchange Act of 1934 (15 U.S.C. 78y), or deemed to be \u2018\u2018final agency action\u2019\u2019 for purposes of section 704 of title 5, United States Code.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) IN GENERAL.\u2014The Board shall establish, by rule, subject to the requirements of this section, fair procedures for the investigation and disciplining of registered public accounting firms and associated persons of such firms.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(4) COORDINATION AND REFERRAL OF INVESTIGATIONS.\u2014 (A) COORDINATION.\u2014The Board shall notify the Commission of any pending Board investigation involving a potential violation of the securities laws, and thereafter coordinate its work with the work of the Commission\u2019s Division of Enforcement, as necessary to protect an ongoing Commission investigation.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(5) USE OF DOCUMENTS.\u2014 (A) CONFIDENTIALITY.\u2014Except as provided in subparagraph (B), all documents and information prepared or received by or specifically for the Board, and deliberations of the Board and its employees and agents, in connection with an inspection under section 104 or with an investigation under this section, shall be confidential and privileged as an evidentiary matter (and shall not be subject to civil discovery or other legal process) in any proceeding in any Federal or State c",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(5) USE OF DOCUMENTS.\u2014 (A) CONFIDENTIALITY.\u2014Except as provided in subparagraph (B), all documents and information prepared or received by or specifically for the Board, and deliberations of the Board and its employees and agents, in connection with an inspection under section 104 or with an investigation under this section, shall be confidential and privileged as an evidentiary matter (and shall not be subject to civil discovery or other legal process) in any proceeding in any Federal or State c",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and (IV) any appropriate State regulatory authority, each of which shall maintain such information as confidential and privileged.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "member_states"
+ },
+ {
+  "clause": "(6) IMMUNITY.\u2014Any employee of the Board engaged in carrying out an investigation under this Act shall be immune from any civil liability arising out of such investigation in the same manner and to the same extent as an employee of the Federal Government in similar circumstances.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "RECORDKEEPING.\u2014The rules of the Board shall provide that in any proceeding by the Board to determine",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "whether a registered public accounting firm, or an associated person thereof, should be disciplined, the Board shall\u2014 (A) bring specific charges with respect to the firm or associated person;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) PUBLIC HEARINGS.\u2014Hearings under this section shall not be public, unless otherwise ordered by the Board for good cause shown, with the consent of the parties to such hearing.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(3) SUPPORTING STATEMENT.\u2014A determination by the Board to impose a sanction under this subsection shall be supported by a statement setting forth\u2014 (A) each act or practice in which the registered public accounting firm, or associated person, has engaged (or omitted to engage), or that forms a basis for all or a part of such sanction;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(7) EFFECT OF SUSPENSION.\u2014 (A) ASSOCIATION WITH A PUBLIC ACCOUNTING FIRM.\u2014 It shall be unlawful for any person that is suspended or barred from being associated with a registered public accounting firm under this subsection willfully to become or remain associated with any registered public accounting firm, or for any registered public accounting firm that knew, or, in the exercise of reasonable care should have known, of the suspension or bar, to permit such an association, without the consent ",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(B) ASSOCIATION WITH AN ISSUER.\u2014It shall be unlawful for any person that is suspended or barred from being associated with an issuer under this subsection willfully to become or remain associated with any issuer in an accountancy or a financial management capacity, and for any issuer that knew, or in the exercise of reasonable",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(d) REPORTING OF SANCTIONS.\u2014 (1) RECIPIENTS.\u2014If the Board imposes a disciplinary sanction, in accordance with this section, the Board shall report the sanction to\u2014 (A) the Commission;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) CONTENTS.\u2014The information reported under paragraph (1) shall include\u2014 (A) the name of the sanctioned person;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(e) STAY OF SANCTIONS.\u2014 (1) IN GENERAL.\u2014Application to the Commission for review, or the institution by the Commission of review, of any disciplinary action of the Board shall operate as a stay of any such disciplinary action, unless and until the Commission orders (summarily or after notice and opportunity for hearing on the question of a stay, which hearing may consist solely of the submission of affidavits or presentation of oral arguments) that no such stay shall continue to operate.",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(e) STAY OF SANCTIONS.\u2014 (1) IN GENERAL.\u2014Application to the Commission for review, or the institution by the Commission of review, of any disciplinary action of the Board shall operate as a stay of any such disciplinary action, unless and until the Commission orders (summarily or after notice and opportunity for hearing on the question of a stay, which hearing may consist solely of the submission of affidavits or presentation of oral arguments) that no such stay shall continue to operate.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) EXPEDITED PROCEDURES.\u2014The Commission shall establish for appropriate cases an expedited procedure for consideration and determination of the question of the duration of a stay pending review of any disciplinary action of the Board under this subsection.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) GENERAL OVERSIGHT RESPONSIBILITY.\u2014The Commission shall have oversight and enforcement authority over the Board, as provided in this Act.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) PRIOR APPROVAL REQUIRED.\u2014No rule of the Board shall become effective without prior approval of the Commission in accordance with this section, other than as provided in section 103(a)(3)(B) with respect to initial or transitional standards.",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(3) APPROVAL CRITERIA.\u2014The Commission shall approve a proposed rule, if it finds that the rule is consistent with the requirements of this Act and the securities laws, or is necessary or appropriate in the public interest or for the protection of investors.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(4) PROPOSED RULE PROCEDURES.\u2014The provisions of paragraphs (1) through (3) of section 19(b) of the Securities Exchange Act of 1934 (15 U.S.C. 78s(b)) shall govern the proposed rules of the Board, as fully as if the Board were a \u2018\u2018registered securities association\u2019\u2019 for purposes of that section 19(b), except that, for purposes of this paragraph\u2014 (A) the phrase \u2018\u2018consistent with the requirements of this title and the rules and regulations thereunder applicable to such organization\u2019\u2019 in section 19(",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(5) COMMISSION AUTHORITY TO AMEND RULES OF THE BOARD.\u2014The provisions of section 19(c) of the Securities Exchange Act of 1934 (15 U.S.C. 78s(c)) shall govern the abrogation, deletion, or addition to portions of the rules of the Board by the Commission as fully as if the Board were a \u2018\u2018registered securities association\u2019\u2019 for purposes of that section 19(c), except that the phrase \u2018\u2018to conform its rules to the requirements of this title and the rules and regulations thereunder applicable to such org",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(5) COMMISSION AUTHORITY TO AMEND RULES OF THE BOARD.\u2014The provisions of section 19(c) of the Securities Exchange Act of 1934 (15 U.S.C. 78s(c)) shall govern the abrogation, deletion, or addition to portions of the rules of the Board by the Commission as fully as if the Board were a \u2018\u2018registered securities association\u2019\u2019 for purposes of that section 19(c), except that the phrase \u2018\u2018to conform its rules to the requirements of this title and the rules and regulations thereunder applicable to such org",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(c) COMMISSION REVIEW OF DISCIPLINARY ACTION TAKEN BY THE BOARD.\u2014 (1) NOTICE OF SANCTION.\u2014The Board shall promptly file notice with the Commission of any final sanction on any registered public accounting firm or on any associated person thereof, in such form and containing such information as the Commission, by rule, may prescribe.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) REVIEW OF SANCTIONS.\u2014The provisions of sections 19(d)(2) and 19(e)(1) of the Securities Exchange Act of 1934 (15 U.S.C. 78s (d)(2) and (e)(1)) shall govern the review by the Commission of final disciplinary sanctions imposed by the Board (including sanctions imposed under section 105(b)(3) of this Act for noncooperation in an investigation of the Board), as fully as if the Board were a self-regulatory organization and the Commission were the appropriate regulatory agency for such organizatio",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(A) section 105(e) of this Act (rather than that section 19(d)(2)) shall govern the extent to which application for, or institution by the Commission on its own motion of, review of any disciplinary action of the Board operates as a stay of such action;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "and (E) the reference to section 19(e)(2) of the Securities Exchange Act of 1934 shall refer instead to section 107(c)(3) of this Act.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(2) ANNUAL REPORT.\u2014A standard setting body described in paragraph (1) shall submit an annual report to the Commission and the public, containing audited financial statements of that standard setting body.\u2019\u2019.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(b) COMMISSION AUTHORITY.\u2014The Commission shall promulgate such rules and regulations to carry out section 19(b) of the Securities Act of 1933, as added by this section, as it deems necessary or appropriate in the public interest or for the protection of investors.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(d) STUDY AND REPORT ON ADOPTING PRINCIPLES-BASED ACCOUNTING.\u2014 (1) STUDY.\u2014 (A) IN GENERAL.\u2014The Commission shall conduct a study on the adoption by the United States financial reporting system of a principles-based accounting system.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(B) STUDY TOPICS.\u2014The study required by subparagraph (A) shall include an examination of\u2014 (i) the extent to which principles-based accounting and financial reporting exists in the United States;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(2) REPORT.\u2014Not later than 1 year after the date of enactment of this Act, the Commission shall submit a report on the results of the study required by paragraph (1) to the Committee on Banking, Housing, and Urban Affairs of the Senate and the Committee on Financial Services of the House of Representatives.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) IN GENERAL.\u2014The Board, and the standard setting body designated pursuant to section 19(b) of the Securities Act of 1933, as amended by section 108, shall be funded as provided in this section.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(b) ANNUAL BUDGETS.\u2014The Board and the standard setting body referred to in subsection (a) shall each establish a budget for each fiscal year, which shall be reviewed and approved according to their respective internal procedures not less than 1 month prior to the commencement of the fiscal year to which the budget pertains (or at the beginning of the Board\u2019s first fiscal year, which may be a short fiscal year).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) ANNUAL BUDGETS.\u2014The Board and the standard setting body referred to in subsection (a) shall each establish a budget for each fiscal year, which shall be reviewed and approved according to their respective internal procedures not less than 1 month prior to the commencement of the fiscal year to which the budget pertains (or at the beginning of the Board\u2019s first fiscal year, which may be a short fiscal year).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The budget for the first fiscal year of the Board shall be prepared and approved promptly following the appointment of the initial five Board members, to permit action by the Board of the organizational tasks contemplated by section 101(d).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(1) RECOVERABLE BUDGET EXPENSES.\u2014The budget of the Board (reduced by any registration or annual fees received under section 102(e) for the year preceding the year for which the budget is being computed), and all of the budget of the standard setting body referred to in subsection (a), for each fiscal year of each of those 2 entities, shall be payable from annual accounting support fees, in accordance with subsections (d) and (e).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) FUNDS GENERATED FROM THE COLLECTION OF MONETARY PENALTIES.\u2014Subject to the availability in advance in an appropriations Act, and notwithstanding subsection (i), all funds collected by the Board as a result of the assessment of monetary penalties shall be used to fund a merit scholarship program for undergraduate and graduate students enrolled in accredited accounting degree programs, which program is to be administered by the Board or by an entity or agent identified by the Board.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(d) ANNUAL ACCOUNTING SUPPORT FEE FOR THE BOARD.\u2014 (1) ESTABLISHMENT OF FEE.\u2014The Board shall establish, with the approval of the Commission, a reasonable annual accounting support fee (or a formula for the computation thereof), as may be necessary or appropriate to establish and maintain the Board.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) ASSESSMENTS.\u2014The rules of the Board under paragraph (1) shall provide for the equitable allocation, assessment, and collection by the Board (or an agent appointed by the Board) of the fee established under paragraph (1), among issuers, in accordance with subsection (g), allowing for differentiation among classes of issuers, as appropriate.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(f) LIMITATION ON FEE.\u2014The amount of fees collected under this section for a fiscal year on behalf of the Board or the standards setting body, as the case may be, shall not exceed the recoverable budget expenses of the Board or body, respectively (which may include operating, capital, and accrued items), referred to in subsection (c)(1).",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(i) RULE OF CONSTRUCTION.\u2014Nothing in this section shall be construed to render either the Board, the standard setting body referred to in subsection (a), or both, subject to procedures in Congress to authorize or appropriate public funds, or to prevent such organization from utilizing additional sources of revenue for its activities, such as earnings from publication sales, provided that each additional source of revenue shall not jeopardize, in the judgment of the Commission, the actual and per",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(a) PROHIBITED ACTIVITIES.\u2014Section 10A of the Securities Exchange Act of 1934 (15 U.S.C. 78j\u20131) is amended by adding at the end the following:",
+  "marker": "PROHIBITED",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(g) PROHIBITED ACTIVITIES.\u2014Except as provided in subsection (h), it shall be unlawful for a registered public accounting firm (and any associated person of that firm, to the extent determined appropriate by the Commission) that performs for any issuer any audit required by this title or the rules of the Commission under this title or, beginning 180 days after the date of commencement of the operations of the Public Company Accounting Oversight Board established under section 101 of the Sarbane",
+  "marker": "PROHIBITED",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(g) PROHIBITED ACTIVITIES.\u2014Except as provided in subsection (h), it shall be unlawful for a registered public accounting firm (and any associated person of that firm, to the extent determined appropriate by the Commission) that performs for any issuer any audit required by this title or the rules of the Commission under this title or, beginning 180 days after the date of commencement of the operations of the Public Company Accounting Oversight Board established under section 101 of the Sarbane",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "\u2018\u2018(i) PREAPPROVAL REQUIREMENTS.\u2014 \u2018\u2018(1) IN GENERAL.\u2014 \u2018\u2018(A) AUDIT COMMITTEE ACTION.\u2014All auditing services (which may entail providing comfort letters in connection with securities underwritings or statutory audits required for insurance companies for purposes of State law) and non-audit services, other than as provided in subparagraph (B), provided to an issuer by the auditor of the issuer shall be preapproved by the audit committee of the issuer.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "\u2018\u2018(2) DISCLOSURE TO INVESTORS.\u2014Approval by an audit committee of an issuer under this subsection of a non-audit service to be performed by the auditor of the issuer shall be disclosed to investors in periodic reports required by section 13(a).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The decisions of any member to whom authority is delegated under this paragraph to preapprove an activity under this subsection shall be presented to the full audit committee at each of its scheduled meetings.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(j) AUDIT PARTNER ROTATION.\u2014It shall be unlawful for a registered public accounting firm to provide audit services to an issuer if the lead (or coordinating) audit partner (having primary responsibility for the audit), or the audit partner responsible for reviewing the audit, has performed audit services for that issuer in each of the 5 previous fiscal years of that issuer.\u2019\u2019.",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(k) REPORTS TO AUDIT COMMITTEES.\u2014Each registered public accounting firm that performs for any issuer any audit required by this title shall timely report to the audit committee of the issuer\u2014 \u2018\u2018(1) all critical accounting policies and practices to be used;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "\u2018\u2018As used in this section, the term \u2018issuer\u2019 means an issuer (as defined in section 3), the securities of which are registered under section 12, or that is required to file reports pursuant to section 15(d), or that files or has filed a registration statement that has not yet become effective under the Securities Act of 1933 (15 U.S.C. 77a et seq.), and that it has not withdrawn.\u2019\u2019.",
+  "marker": "is required",
+  "category": "explicit_requirement",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "\u2018\u2018(l) CONFLICTS OF INTEREST.\u2014It shall be unlawful for a registered public accounting firm to perform for an issuer any audit service required by this title, if a chief executive officer, controller, chief financial officer, chief accounting officer, or any person serving in an equivalent position for the issuer, was employed by that registered independent public accounting firm and participated in",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "STUDY OF MANDATORY ROTATION OF REGISTERED PUBLIC ACCOUNTING FIRMS.",
+  "marker": "MANDATORY",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(a) STUDY AND REVIEW REQUIRED.\u2014The Comptroller General of the United States shall conduct a study and review of the potential effects of requiring the mandatory rotation of registered public accounting firms.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) REPORT REQUIRED.\u2014Not later than 1 year after the date of enactment of this Act, the Comptroller General shall submit a report to the Committee on Banking, Housing, and Urban Affairs of the Senate and the Committee on Financial Services of the House of Representatives on the results of the study and review required by this section.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(c) DEFINITION.\u2014For purposes of this section, the term \u2018\u2018mandatory rotation\u2019\u2019 refers to the imposition of a limit on the period of years in which a particular registered public accounting firm may be the auditor of record for a particular issuer.",
+  "marker": "mandatory",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(a) COMMISSION REGULATIONS.\u2014Not later than 180 days after the date of enactment of this Act, the Commission shall issue final regulations to carry out each of subsections (g) through (l) of section 10A of the Securities Exchange Act of 1934, as added by this title.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) AUDITOR INDEPENDENCE.\u2014It shall be unlawful for any registered public accounting firm (or an associated person thereof, as applicable) to prepare or issue any audit report with respect to any issuer, if the firm or associated person engages in any activity with respect to that issuer prohibited by any of subsections (g) through (l) of section 10A of the Securities Exchange Act of 1934, as added by this title, or any rule or regulation of the Commission or of the Board issued thereunder.",
+  "marker": "prohibited",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(b) AUDITOR INDEPENDENCE.\u2014It shall be unlawful for any registered public accounting firm (or an associated person thereof, as applicable) to prepare or issue any audit report with respect to any issuer, if the firm or associated person engages in any activity with respect to that issuer prohibited by any of subsections (g) through (l) of section 10A of the Securities Exchange Act of 1934, as added by this title, or any rule or regulation of the Commission or of the Board issued thereunder.",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "\u2018\u2018(A) IN GENERAL.\u2014Effective not later than 270 days after the date of enactment of this subsection, the Commission shall, by rule, direct the national securities exchanges and national securities associations to prohibit the listing of any security of an issuer that is not in compliance with the requirements of any portion of paragraphs (2) through (6).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "\u2018\u2018(B) OPPORTUNITY TO CURE DEFECTS.\u2014The rules of the Commission under subparagraph (A) shall provide for appropriate procedures for an issuer to have an opportunity to cure any defects that would be the basis for a prohibition under subparagraph (A), before the imposition of such prohibition.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "\u2018\u2018(2) RESPONSIBILITIES RELATING TO REGISTERED PUBLIC ACCOUNTING FIRMS.\u2014The audit committee of each issuer, in its capacity as a committee of the board of directors, shall be directly responsible for the appointment, compensation, and oversight of the work of any registered public accounting firm employed by that issuer (including resolution of disagreements between management and the auditor regarding financial reporting) for the purpose of preparing or issuing an audit report or related work, a",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "\u2018\u2018(2) RESPONSIBILITIES RELATING TO REGISTERED PUBLIC ACCOUNTING FIRMS.\u2014The audit committee of each issuer, in its capacity as a committee of the board of directors, shall be directly responsible for the appointment, compensation, and oversight of the work of any registered public accounting firm employed by that issuer (including resolution of disagreements between management and the auditor regarding financial reporting) for the purpose of preparing or issuing an audit report or related work, a",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "\u2018\u2018(3) INDEPENDENCE.\u2014 \u2018\u2018(A) IN GENERAL.\u2014Each member of the audit committee of the issuer shall be a member of the board of directors of the issuer, and shall otherwise be independent.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "\u2018\u2018(3) INDEPENDENCE.\u2014 \u2018\u2018(A) IN GENERAL.\u2014Each member of the audit committee of the issuer shall be a member of the board of directors of the issuer, and shall otherwise be independent.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "\u2018\u2018(B) CRITERIA.\u2014In order to be considered to be independent for purposes of this paragraph, a member of an audit committee of an issuer may not, other than in his or her capacity as a member of the audit committee, the board of directors, or any other board committee\u2014 \u2018\u2018(i) accept any consulting, advisory, or other compensatory fee from the issuer;",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "\u2018\u2018(4) COMPLAINTS.\u2014Each audit committee shall establish procedures for\u2014 \u2018\u2018(A) the receipt, retention, and treatment of complaints received by the issuer regarding accounting, internal accounting controls, or auditing matters;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "\u2018\u2018(5) AUTHORITY TO ENGAGE ADVISERS.\u2014Each audit committee shall have the authority to engage independent counsel and other advisers, as it determines necessary to carry out its duties.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "\u2018\u2018(6) FUNDING.\u2014Each issuer shall provide for appropriate funding, as determined by the audit committee, in its capacity as a committee of the board of directors, for payment of compensation\u2014",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(a) REGULATIONS REQUIRED.\u2014The Commission shall, by rule, require, for each company filing periodic reports under section 13(a) or 15(d) of the Securities Exchange Act of 1934 (15 U.S.C. 78m, 78o(d)), that the principal executive officer or officers and the principal financial officer or officers, or persons performing similar functions, certify in each annual or quarterly report filed or submitted under either such section of such Act that\u2014 (1) the signing officer has reviewed the report;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) FOREIGN REINCORPORATIONS HAVE NO EFFECT.\u2014Nothing in this section 302 shall be interpreted or applied in any way to allow any issuer to lessen the legal force of the statement required under this section 302, by an issuer having reincorporated or having engaged in any other transaction that resulted in the transfer of the corporate domicile or offices of the issuer from inside the United States to outside of the United States.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(a) RULES TO PROHIBIT.\u2014It shall be unlawful, in contravention of such rules or regulations as the Commission shall prescribe as necessary and appropriate in the public interest or for the protection of investors, for any officer or director of an issuer, or any other person acting under the direction thereof, to take any action to fraudulently influence, coerce, manipulate, or mislead any independent public or certified accountant engaged in the performance of an audit of the financial statement",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(a) RULES TO PROHIBIT.\u2014It shall be unlawful, in contravention of such rules or regulations as the Commission shall prescribe as necessary and appropriate in the public interest or for the protection of investors, for any officer or director of an issuer, or any other person acting under the direction thereof, to take any action to fraudulently influence, coerce, manipulate, or mislead any independent public or certified accountant engaged in the performance of an audit of the financial statement",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) ENFORCEMENT.\u2014In any civil proceeding, the Commission shall have exclusive authority to enforce this section and any rule or regulation issued under this section.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(d) DEADLINE FOR RULEMAKING.\u2014The Commission shall\u2014 (1) propose the rules or regulations required by this section, not later than 90 days after the date of enactment of this Act;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) ADDITIONAL COMPENSATION PRIOR TO NONCOMPLIANCE WITH COMMISSION FINANCIAL REPORTING REQUIREMENTS.\u2014If an issuer is required to prepare an accounting restatement due to the material noncompliance of the issuer, as a result of misconduct, with any financial reporting requirement under the securities laws, the chief executive officer and chief financial officer of the issuer shall reimburse the issuer for\u2014 (1) any bonus or other incentive-based or equity-based compensation received by that person",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(a) PROHIBITION OF INSIDER TRADING DURING PENSION FUND BLACKOUT PERIODS.\u2014 (1) IN GENERAL.\u2014Except to the extent otherwise provided by rule of the Commission pursuant to paragraph (3), it shall be unlawful for any director or executive officer of an issuer of any equity security (other than an exempted security), directly or indirectly, to purchase, sell, or otherwise acquire or transfer any equity security of the issuer (other than an exempted security) during any blackout period with respect to ",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) REMEDY.\u2014 (A) IN GENERAL.\u2014Any profit realized by a director or executive officer referred to in paragraph (1) from any purchase, sale, or other acquisition or transfer in violation of this subsection shall inure to and be recoverable by the issuer, irrespective of any intention on the part of such director or executive officer in entering into the transaction.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(B) ACTIONS TO RECOVER PROFITS.\u2014An action to recover profits in accordance with this subsection may be instituted at law or in equity in any court of competent jurisdiction by the issuer, or by the owner of any security of the issuer in the name and in behalf of the issuer if the issuer fails or refuses to bring such action within 60 days after the date of request, or fails diligently to prosecute the action thereafter, except that no such suit shall be brought more than 2 years after the date o",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(3) RULEMAKING AUTHORIZED.\u2014The Commission shall, in consultation with the Secretary of Labor, issue rules to clarify the application of this subsection and to prevent evasion thereof.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Such rules shall provide for the application of the requirements of paragraph (1) with respect to entities treated as a single employer with respect to an issuer under section 414(b), (c), (m), or (o) of the Internal Revenue Code of 1986 to the extent necessary to clarify the application of such requirements and to prevent evasion thereof.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and (B) does not include, under regulations which shall be prescribed by the Commission\u2014 (i) a regularly scheduled period in which the participants and beneficiaries may not purchase, sell, or otherwise acquire or transfer an interest in any equity of such issuer, if such period is\u2014 (I) incorporated into the individual account plan;",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "and (B) does not include, under regulations which shall be prescribed by the Commission\u2014 (i) a regularly scheduled period in which the participants and beneficiaries may not purchase, sell, or otherwise acquire or transfer an interest in any equity of such issuer, if such period is\u2014 (I) incorporated into the individual account plan;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(5) INDIVIDUAL ACCOUNT PLAN.\u2014For purposes of this subsection, the term \u2018\u2018individual account plan\u2019\u2019 has the meaning provided in section 3(34) of the Employee Retirement Income Security Act of 1974 (29 U.S.C. 1002(34), except that such term shall not include a one-participant retirement plan (within the meaning of section 101(i)(8)(B) of such Act (29 U.S.C. 1021(i)(8)(B))).",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(6) NOTICE TO DIRECTORS, EXECUTIVE OFFICERS, AND THE COMMISSION.\u2014In any case in which a director or executive officer is subject to the requirements of this subsection in connection with a blackout period (as defined in paragraph (4)) with respect to any equity securities, the issuer of such equity securities shall timely notify such director or officer and the Securities and Exchange Commission of such blackout period.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "\u2018\u2018(i) NOTICE OF BLACKOUT PERIODS TO PARTICIPANT OR BENEFICIARY UNDER INDIVIDUAL ACCOUNT PLAN.\u2014 \u2018\u2018(1) DUTIES OF PLAN ADMINISTRATOR.\u2014In advance of the commencement of any blackout period with respect to an individual account plan, the plan administrator shall notify the plan participants and beneficiaries who are affected by such action in accordance with this subsection.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(2) NOTICE REQUIREMENTS.\u2014 \u2018\u2018(A) IN GENERAL.\u2014The notices described in paragraph (1) shall be written in a manner calculated to be understood by the average plan participant and shall include\u2014 \u2018\u2018(i) the reasons for the blackout period, \u2018\u2018(ii) an identification of the investments and other rights affected, \u2018\u2018(iii) the expected beginning date and length of the blackout period, \u2018\u2018(iv) in the case of investments affected, a statement that the participant or beneficiary should evaluate the appropriat",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(B) NOTICE TO PARTICIPANTS AND BENEFICIARIES.\u2014 Except as otherwise provided in this subsection, notices described in paragraph (1) shall be furnished to all participants and beneficiaries under the plan to whom the blackout period applies at least 30 days in advance of the blackout period.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(C) EXCEPTION TO 30-DAY NOTICE REQUIREMENT.\u2014In any case in which\u2014 \u2018\u2018(i) a deferral of the blackout period would violate the requirements of subparagraph (A) or (B) of section 404(a)(1), and a fiduciary of the plan reasonably so determines in writing, or \u2018\u2018(ii) the inability to provide the 30-day advance notice is due to events that were unforeseeable or circumstances beyond the reasonable control of the plan administrator, and a fiduciary of the plan reasonably so determines in writing, subpar",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(D) WRITTEN NOTICE.\u2014The notice required to be provided under this subsection shall be in writing, except that such notice may be in electronic or other form to the extent that such form is reasonably accessible to the recipient.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(E) NOTICE TO ISSUERS OF EMPLOYER SECURITIES SUBJECT TO BLACKOUT PERIOD.\u2014In the case of any blackout period in connection with an individual account plan, the plan administrator shall provide timely notice of such",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(4) CHANGES IN LENGTH OF BLACKOUT PERIOD.\u2014If, following the furnishing of the notice pursuant to this subsection, there is a change in the beginning date or length of the blackout period (specified in such notice pursuant to paragraph (2)(A)(iii)), the administrator shall provide affected participants and beneficiaries notice of the change as soon as reasonably practicable.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "In relation to the extended blackout period, such notice shall meet the requirements of paragraph (2)(D) and shall specify any material change in the matters referred to in clauses (i) through (v) of paragraph (2)(A).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "In relation to the extended blackout period, such notice shall meet the requirements of paragraph (2)(D) and shall specify any material change in the matters referred to in clauses (i) through (v) of paragraph (2)(A).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "\u2018\u2018(6) GUIDANCE AND MODEL NOTICES.\u2014The Secretary shall issue guidance and model notices which meet the requirements of this subsection.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(8) INDIVIDUAL ACCOUNT PLAN.\u2014 \u2018\u2018(A) IN GENERAL.\u2014For purposes of this subsection, the term \u2018individual account plan\u2019 shall have the meaning provided such term in section 3(34), except that such term shall not include a one-participant retirement plan.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "\u2018\u2018(8) INDIVIDUAL ACCOUNT PLAN.\u2014 \u2018\u2018(A) IN GENERAL.\u2014For purposes of this subsection, the term \u2018individual account plan\u2019 shall have the meaning provided such term in section 3(34), except that such term shall not include a one-participant retirement plan.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(2) ISSUANCE OF INITIAL GUIDANCE AND MODEL NOTICE.\u2014 The Secretary of Labor shall issue initial guidance and a model notice pursuant to section 101(i)(6) of the Employee Retirement Income Security Act of 1974 (as added by this subsection) not later than January 1, 2003.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Not later than 75 days after the date of the enactment of this Act, the Secretary shall promulgate interim final rules necessary to carry out the amendments made by this subsection.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(3) PLAN AMENDMENTS.\u2014If any amendment made by this subsection requires an amendment to any plan, such plan amendment shall not be required to be made before the first plan year beginning on or after the effective date of this section, if\u2014 (A) during the period after such amendment made by this subsection takes effect and before such first plan year, the plan is operated in good faith compliance with the requirements of such amendment made by this subsection, and (B) such plan amendment applies r",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Not later than 180 days after the date of enactment of this Act, the Commission shall issue rules, in the public interest and for the protection of investors, setting forth minimum standards of professional conduct for attorneys appearing and practicing before the Commission in any way in the representation of issuers, including a rule\u2014 (1) requiring an attorney to report evidence of a material violation of securities law or breach of fiduciary duty or similar violation by the company or any age",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) CIVIL PENALTIES ADDED TO DISGORGEMENT FUNDS FOR THE RELIEF OF VICTIMS.\u2014If in any judicial or administrative action brought by the Commission under the securities laws (as such term is defined in section 3(a)(47) of the Securities Exchange Act of 1934 (15 U.S.C. 78c(a)(47)) the Commission obtains an order requiring disgorgement against any person for a violation of such laws or the rules or regulations thereunder, or such person agrees in settlement of any such action to such disgorgement, an",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Such gifts, bequests, and devises of money and proceeds from sales of other property received as gifts, bequests, or devises shall be deposited in the disgorgement fund and shall be available for allocation in accordance with subsection (a).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(c) STUDY REQUIRED.\u2014 (1) SUBJECT OF STUDY.\u2014The Commission shall review and analyze\u2014 (A) enforcement actions by the Commission over the five years preceding the date of the enactment of this Act that have included proceedings to obtain civil penalties or disgorgements to identify areas where such proceedings may be utilized to efficiently, effectively, and fairly provide restitution for injured investors;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) REPORT REQUIRED.\u2014The Commission shall report its findings to the Committee on Financial Services of the House of Representatives and the Committee on Banking, Housing, and Urban Affairs of the Senate within 180 days after of the date of the enactment of this Act, and shall use such findings to revise its rules and regulations as necessary.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) REPORT REQUIRED.\u2014The Commission shall report its findings to the Committee on Financial Services of the House of Representatives and the Committee on Banking, Housing, and Urban Affairs of the Senate within 180 days after of the date of the enactment of this Act, and shall use such findings to revise its rules and regulations as necessary.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The report shall include a discussion of regulatory or legislative actions that are recommended or that may be necessary to address concerns identified in the study.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(i) ACCURACY OF FINANCIAL REPORTS.\u2014Each financial report that contains financial statements, and that is required to be prepared in accordance with (or reconciled to) generally accepted accounting principles under this title and filed with the Commission shall reflect all material correcting adjustments that have been",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "\u2018\u2018(j) OFF-BALANCE SHEET TRANSACTIONS.\u2014Not later than 180 days after the date of enactment of the Sarbanes-Oxley Act of 2002, the Commission shall issue final rules providing that each annual and quarterly financial report required to be filed with the Commission shall disclose all material off-balance sheet transactions, arrangements, obligations (including contingent obligations), and other relationships of the issuer with unconsolidated entities or other persons, that may have a material curre",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "\u2018\u2018(j) OFF-BALANCE SHEET TRANSACTIONS.\u2014Not later than 180 days after the date of enactment of the Sarbanes-Oxley Act of 2002, the Commission shall issue final rules providing that each annual and quarterly financial report required to be filed with the Commission shall disclose all material off-balance sheet transactions, arrangements, obligations (including contingent obligations), and other relationships of the issuer with unconsolidated entities or other persons, that may have a material curre",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) COMMISSION RULES ON PRO FORMA FIGURES.\u2014Not later than 180 days after the date of enactment of the Sarbanes-Oxley Act fo 2002, the Commission shall issue final rules providing that pro forma financial information included in any periodic or other report filed with the Commission pursuant to the securities laws, or in any public disclosure or press or other release, shall be presented in a manner that\u2014 (1) does not contain an untrue statement of a material fact or omit to state a material fact",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) COMMISSION RULES ON PRO FORMA FIGURES.\u2014Not later than 180 days after the date of enactment of the Sarbanes-Oxley Act fo 2002, the Commission shall issue final rules providing that pro forma financial information included in any periodic or other report filed with the Commission pursuant to the securities laws, or in any public disclosure or press or other release, shall be presented in a manner that\u2014 (1) does not contain an untrue statement of a material fact or omit to state a material fact",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(c) STUDY AND REPORT ON SPECIAL PURPOSE ENTITIES.\u2014 (1) STUDY REQUIRED.\u2014The Commission shall, not later than 1 year after the effective date of adoption of off-balance sheet disclosure rules required by section 13(j) of the Securities Exchange Act of 1934, as added by this section, complete a study of filings by issuers and their disclosures to determine\u2014 (A) the extent of off-balance sheet transactions, including assets, liabilities, leases, losses, and the use of special purpose entities;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) REPORT AND RECOMMENDATIONS.\u2014Not later than 6 months after the date of completion of the study required by paragraph (1), the Commission shall submit a report to the President, the Committee on Banking, Housing, and Urban Affairs of the Senate, and the Committee on Financial Services of the House of Representatives, setting forth\u2014 (A) the amount or an estimate of the amount of offbalance sheet transactions, including assets, liabilities, leases, and losses of, and the use of special purpose e",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and (E) any recommendations of the Commission for improving the transparency and quality of reporting offbalance sheet transactions in the financial statements and disclosures required to be filed by an issuer with the Commission.",
+  "marker": "required to be",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(k) PROHIBITION ON PERSONAL LOANS TO EXECUTIVES.\u2014 \u2018\u2018(1) IN GENERAL.\u2014It shall be unlawful for any issuer (as defined in section 2 of the Sarbanes-Oxley Act of 2002), directly or indirectly, including through any subsidiary, to extend or maintain credit, to arrange for the extension of credit, or to renew an extension of credit, in the form of a personal loan to or for any director or executive officer (or equivalent thereof) of that issuer.",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "\u2018\u2018(a) DISCLOSURES REQUIRED.\u2014 \u2018\u2018(1) DIRECTORS, OFFICERS, AND PRINCIPAL STOCKHOLDERS REQUIRED TO FILE.\u2014Every person who is directly or indirectly the beneficial owner of more than 10 percent of any class of any equity security (other than an exempted security) which is registered pursuant to section 12, or who is a director or an officer of the issuer of such security, shall file the statements required by this subsection with the Commission (and, if such security is registered on a national secur",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "\u2018\u2018(2) TIME OF FILING.\u2014The statements required by this subsection shall be filed\u2014 \u2018\u2018(A) at the time of the registration of such security on a national securities exchange or by the effective date of a registration statement filed pursuant to section 12(g);",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(C) if there has been a change in such ownership, or if such person shall have purchased or sold a securitybased swap agreement (as defined in section 206(b) of the Gramm-Leach-Bliley Act (15 U.S.C. 78c note)) involving such equity security, before the end of the second business day following the day on which the subject transaction has been executed, or at such other time as the Commission shall establish, by rule, in any case in which the Commission determines that such 2-day period is not f",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "\u2018\u2018(3) CONTENTS OF STATEMENTS.\u2014A statement filed\u2014 \u2018\u2018(A) under subparagraph (A) or (B) of paragraph (2) shall contain a statement of the amount of all equity securities of such issuer of which the filing person is the beneficial owner;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "and \u2018\u2018(B) under subparagraph (C) of such paragraph shall indicate ownership by the filing person at the date of filing, any such changes in such ownership, and such purchases and sales of the security-based swap agreements as have occurred since the most recent such filing under such subparagraph.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(4) ELECTRONIC FILING AND AVAILABILITY.\u2014Beginning not later than 1 year after the date of enactment of the SarbanesOxley Act of 2002\u2014 \u2018\u2018(A) a statement filed under subparagraph (C) of paragraph (2) shall be filed electronically;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(B) the Commission shall provide each such statement on a publicly accessible Internet site not later than the end of the business day following that filing;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "\u2018\u2018(C) the issuer (if the issuer maintains a corporate website) shall provide that statement on that corporate website, not later than the end of the business day following that filing.\u2019\u2019.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(a) RULES REQUIRED.\u2014The Commission shall prescribe rules requiring each annual report required by section 13(a) or 15(d) of the Securities Exchange Act of 1934 (15 U.S.C. 78m or 78o(d)) to contain an internal control report, which shall\u2014 (1) state the responsibility of management for establishing and maintaining an adequate internal control structure and procedures for financial reporting;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) RULES REQUIRED.\u2014The Commission shall prescribe rules requiring each annual report required by section 13(a) or 15(d) of the Securities Exchange Act of 1934 (15 U.S.C. 78m or 78o(d)) to contain an internal control report, which shall\u2014 (1) state the responsibility of management for establishing and maintaining an adequate internal control structure and procedures for financial reporting;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) INTERNAL CONTROL EVALUATION AND REPORTING.\u2014With respect to the internal control assessment required by subsection (a), each registered public accounting firm that prepares or issues the audit report for the issuer shall attest to, and report on, the assessment made by the management of the issuer.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "An attestation made under this subsection shall be made in accordance with standards for attestation engagements issued or adopted by the Board.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Any such attestation shall not be the subject of a separate engagement.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(a) CODE OF ETHICS DISCLOSURE.\u2014The Commission shall issue rules to require each issuer, together with periodic reports required pursuant to section 13(a) or 15(d) of the Securities Exchange Act of 1934, to disclose whether or not, and if not, the reason therefor, such issuer has adopted a code of ethics for senior financial officers, applicable to its principal financial officer and comptroller or principal accounting officer, or persons performing similar functions.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) CHANGES IN CODES OF ETHICS.\u2014The Commission shall revise its regulations concerning matters requiring prompt disclosure on Form 8\u2013K (or any successor thereto) to require the immediate disclosure, by means of the filing of such form, dissemination by the Internet or by other electronic means, by any issuer of any change in or waiver of the code of ethics for senior financial officers.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) full, fair, accurate, timely, and understandable disclosure in the periodic reports required to be filed by the issuer;",
+  "marker": "required to be",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(d) DEADLINE FOR RULEMAKING.\u2014The Commission shall\u2014 (1) propose rules to implement this section, not later than 90 days after the date of enactment of this Act;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) RULES DEFINING \u2018\u2018FINANCIAL EXPERT\u2019\u2019.\u2014The Commission shall issue rules, as necessary or appropriate in the public interest and consistent with the protection of investors, to require each issuer, together with periodic reports required pursuant to sections 13(a) and 15(d) of the Securities Exchange Act of 1934, to disclose whether or not, and if not, the reasons therefor, the audit committee of that issuer is comprised of at least 1 member who is a financial expert, as such term is defined by",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) CONSIDERATIONS.\u2014In defining the term \u2018\u2018financial expert\u2019\u2019 for purposes of subsection (a), the Commission shall consider whether a person has, through education and experience as a public accountant or auditor or a principal financial officer, comptroller, or principal accounting officer of an issuer, or from a position involving the performance of similar functions\u2014 (1) an understanding of generally accepted accounting principles and financial statements;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(c) DEADLINE FOR RULEMAKING.\u2014The Commission shall\u2014 (1) propose rules to implement this section, not later than 90 days after the date of enactment of this Act;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) REGULAR AND SYSTEMATIC REVIEW.\u2014The Commission shall review disclosures made by issuers reporting under section 13(a) of the Securities Exchange Act of 1934 (including reports filed on Form 10\u2013K), and which have a class of securities listed on a national securities exchange or traded on an automated quotation facility of a national securities association, on a regular and systematic basis for the protection of investors.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Such review shall include a review of an issuer\u2019s financial statement.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) REVIEW CRITERIA.\u2014For purposes of scheduling the reviews required by subsection (a), the Commission shall consider, among other factors\u2014 (1) issuers that have issued material restatements of financial results;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(c) MINIMUM REVIEW PERIOD.\u2014In no event shall an issuer required to file reports under section 13(a) or 15(d) of the Securities Exchange Act of 1934 be reviewed under this section less frequently than once every 3 years.",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(l) REAL TIME ISSUER DISCLOSURES.\u2014Each issuer reporting under section 13(a) or 15(d) shall disclose to the public on a rapid and current basis such additional information concerning material changes in the financial condition or operations of the issuer, in plain English, which may include trend and qualitative information and graphic presentations, as the Commission determines, by rule, is necessary or useful for the protection of investors and in the public interest.\u2019\u2019.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "\u2018\u2018(C) requiring that a broker or dealer and persons employed by a broker or dealer who are involved with investment banking activities may not, directly or indirectly, retaliate against or threaten to retaliate against any securities analyst employed by that broker or dealer or its affiliates as a result of an adverse, negative, or otherwise unfavorable research report that may adversely affect the present or prospective investment banking relationship of the broker or dealer with the issuer tha",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "\u2018\u2018(C) requiring that a broker or dealer and persons employed by a broker or dealer who are involved with investment banking activities may not, directly or indirectly, retaliate against or threaten to retaliate against any securities analyst employed by that broker or dealer or its affiliates as a result of an adverse, negative, or otherwise unfavorable research report that may adversely affect the present or prospective investment banking relationship of the broker or dealer with the issuer tha",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(a) STUDY REQUIRED.\u2014The Comptroller General of the United States shall conduct a study\u2014 (1) to identify\u2014 (A) the factors that have led to the consolidation of public accounting firms since 1989 and the consequent reduction in the number of firms capable of providing audit services to large national and multi-national business organizations that are subject to the securities laws;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) CONSULTATION.\u2014In planning and conducting the study under this section, the Comptroller General shall consult with\u2014 (1) the Commission;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(c) REPORT REQUIRED.\u2014Not later than 1 year after the date of enactment of this Act, the Comptroller General shall submit a report on the results of the study required by this section to the Committee on Banking, Housing, and Urban Affairs of the Senate and the Committee on Financial Services of the House of Representatives.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) STUDY REQUIRED.\u2014 (1) IN GENERAL.\u2014The Commission shall conduct a study of the role and function of credit rating agencies in the operation of the securities market.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) AREAS OF CONSIDERATION.\u2014The study required by this subsection shall examine\u2014 (A) the role of credit rating agencies in the evaluation of issuers of securities;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(E) any measures which may be required to improve the dissemination of information concerning such resources and risks when credit rating agencies announce credit ratings;",
+  "marker": "be required",
+  "category": "explicit_requirement",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) REPORT REQUIRED.\u2014The Commission shall submit a report on the study required by subsection (a) to the President, the Committee on Financial Services of the House of Representatives, and the Committee on Banking, Housing, and Urban Affairs of the Senate not later than 180 days after the date of enactment of this Act.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) STUDY.\u2014The Commission shall conduct a study to determine, based upon information for the period from January 1, 1998, to December 31, 2001\u2014 (1) the number of securities professionals, defined as public accountants, public accounting firms, investment bankers, investment advisers, brokers, dealers, attorneys, and other securities professionals practicing before the Commission\u2014 (A) who have been found to have aided and abetted a violation of the Federal securities laws, including rules or regu",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) REPORT.\u2014A report based upon the study conducted pursuant to subsection (a) shall be submitted to the Committee on Banking, Housing, and Urban Affairs of the Senate, and the Committee on Financial Services of the House of Representatives not later than 6 months after the date of enactment of this Act.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(a) STUDY REQUIRED.\u2014The Commission shall review and analyze all enforcement actions by the Commission involving violations of reporting requirements imposed under the securities laws, and restatements of financial statements, over the 5-year period preceding the date of enactment of this Act, to identify areas of reporting that are most susceptible to fraud, inappropriate manipulation, or inappropriate earnings management, such as revenue recognition and the accounting treatment of off-balance s",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) REPORT REQUIRED.\u2014The Commission shall report its findings to the Committee on Financial Services of the House of Representatives and the Committee on Banking, Housing, and Urban Affairs of the Senate, not later than 180 days after the date of enactment of this Act, and shall use such findings to revise its rules and regulations, as necessary.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) REPORT REQUIRED.\u2014The Commission shall report its findings to the Committee on Financial Services of the House of Representatives and the Committee on Banking, Housing, and Urban Affairs of the Senate, not later than 180 days after the date of enactment of this Act, and shall use such findings to revise its rules and regulations, as necessary.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The report shall include a discussion of regulatory or legislative steps that are recommended or that may be necessary to address concerns identified in the study.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(a) GAO STUDY.\u2014The Comptroller General of the United States shall conduct a study on whether investment banks and financial advisers assisted public companies in manipulating their earnings and obfuscating their true financial condition.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) REPORT.\u2014The Comptroller General shall report to Congress not later than 180 days after the date of enactment of this Act on the results of the study required by this section.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The report shall include a discussion of regulatory or legislative steps that",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Destruction of corporate audit records \u2018\u2018(a)(1) Any accountant who conducts an audit of an issuer of securities to which section 10A(a) of the Securities Exchange Act of 1934 (15 U.S.C. 78j\u20131(a)) applies, shall maintain all audit or review workpapers for a period of 5 years from the end of the fiscal period in which the audit or review was concluded.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(2) The Securities and Exchange Commission shall promulgate, within 180 days, after adequate notice and an opportunity for comment, such rules and regulations, as are reasonably necessary, relating to the retention of relevant records such as workpapers, documents that form the basis of an audit or review, memoranda, correspondence, communications, other documents, and records (including electronic records) which are created, sent, or received in connection with an audit or review and contain ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The Commission may, from time to time, amend or supplement the rules and regulations that it is required to promulgate under this section, after adequate notice and an opportunity for comment, in order to ensure that such rules and regulations adequately comport with the purposes of this section.",
+  "marker": "is required",
+  "category": "explicit_requirement",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(c) NO CREATION OF ACTIONS.\u2014Nothing in this section shall create a new, private right of action.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(a) ENHANCEMENT OF FRAUD AND OBSTRUCTION OF JUSTICE SENTENCES.\u2014Pursuant to section 994 of title 28, United States Code, and in accordance with this section, the United States Sentencing Commission shall review and amend, as appropriate, the Federal Sentencing Guidelines and related policy statements to ensure that\u2014 (1) the base offense level and existing enhancements contained in United States Sentencing Guideline 2J1.2 relating to obstruction of justice are sufficient to deter and punish that a",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Civil action to protect against retaliation in fraud cases \u2018\u2018(a) WHISTLEBLOWER PROTECTION FOR EMPLOYEES OF PUBLICLY TRADED COMPANIES.\u2014No company with a class of securities registered under section 12 of the Securities Exchange Act of 1934 (15 U.S.C. 78l), or that is required to file reports under section 15(d) of the Securities Exchange Act of 1934 (15 U.S.C. 78o(d)),",
+  "marker": "is required",
+  "category": "explicit_requirement",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "\u2018\u2018(2) PROCEDURE.\u2014 \u2018\u2018(A) IN GENERAL.\u2014An action under paragraph (1)(A) shall be governed under the rules and procedures set forth in section 42121(b) of title 49, United States Code.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(B) EXCEPTION.\u2014Notification made under section 42121(b)(1) of title 49, United States Code, shall be made to the person named in the complaint and to the employer.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "member_states"
+ },
+ {
+  "clause": "\u2018\u2018(C) BURDENS OF PROOF.\u2014An action brought under paragraph (1)(B) shall be governed by the legal burdens of proof set forth in section 42121(b) of title 49, United States Code.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(D) STATUTE OF LIMITATIONS.\u2014An action under paragraph (1) shall be commenced not later than 90 days after the date on which the violation occurs.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Securities fraud \u2018\u2018Whoever knowingly executes, or attempts to execute, a scheme or artifice\u2014 \u2018\u2018(1) to defraud any person in connection with any security of an issuer with a class of securities registered under section 12 of the Securities Exchange Act of 1934 (15 U.S.C. 78l) or that is required to file reports under section 15(d) of the Securities Exchange Act of 1934 (15 U.S.C. 78o(d));",
+  "marker": "is required",
+  "category": "explicit_requirement",
+  "addressee": "member_states"
+ },
+ {
+  "clause": "or \u2018\u2018(2) to obtain, by means of false or fraudulent pretenses, representations, or promises, any money or property in connection with the purchase or sale of any security of an issuer with a class of securities registered under section 12 of the Securities Exchange Act of 1934 (15 U.S.C. 78l) or that is required to file reports under section 15(d) of the Securities Exchange Act of 1934 (15 U.S.C. 78o(d));",
+  "marker": "is required",
+  "category": "explicit_requirement",
+  "addressee": "member_states"
+ },
+ {
+  "clause": "(a) DIRECTIVE TO THE UNITED STATES SENTENCING COMMISSION.\u2014Pursuant to its authority under section 994(p) of title 18, United States Code, and in accordance with this section, the United States Sentencing Commission shall review and, as appropriate, amend the Federal Sentencing Guidelines and related policy statements to implement the provisions of this Act.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) REQUIREMENTS.\u2014In carrying out this section, the Sentencing Commission shall\u2014 (1) ensure that the sentencing guidelines and policy statements reflect the serious nature of the offenses and the penalties set forth in this Act, the growing incidence of serious fraud offenses which are identified above, and the need to modify the sentencing guidelines and policy statements to deter, prevent, and punish such offenses;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Failure of corporate officers to certify financial reports (a) CERTIFICATION OF PERIODIC FINANCIAL REPORTS.\u2014Each periodic report containing financial statements filed by an issuer with the Securities Exchange Commission pursuant to section 13(a) or 15(d) of the Securities Exchange Act of 1934 (15 U.S.C. 78m(a) or 78o(d)) shall be accompanied by a written statement by the chief executive officer and chief financial officer (or equivalent thereof) of the issuer.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(b) CONTENT.\u2014The statement required under subsection (a) shall certify that the periodic report containing the financial statements fully complies with the requirements of section 13(a) or 15(d) of the Securities Exchange Act pf 1934 (15 U.S.C. 78m or 78o(d)) and that information contained in the periodic report fairly presents, in all material respects, the financial condition and results of operations of the issuer.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(3) TEMPORARY FREEZE.\u2014 \u2018\u2018(A) IN GENERAL.\u2014 \u2018\u2018(i) ISSUANCE OF TEMPORARY ORDER.\u2014Whenever, during the course of a lawful investigation involving possible violations of the Federal securities laws by an issuer of publicly traded securities or any of its directors, officers, partners, controlling persons, agents, or employees, it shall appear to the Commission that it is likely that the issuer will make extraordinary payments (whether compensation or otherwise) to any of the foregoing persons, the C",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "\u2018\u2018(ii) STANDARD.\u2014A temporary order shall be entered under clause (i), only after notice and opportunity for a hearing, unless the court determines that",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(iii) EFFECTIVE PERIOD.\u2014A temporary order issued under clause (i) shall\u2014 \u2018\u2018(I) become effective immediately;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(iv) EXTENSIONS AUTHORIZED.\u2014The effective period of an order under this subparagraph may be extended by the court upon good cause shown for not longer than 45 additional days, provided that the combined period of the order shall not exceed 90 days.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(ii) VIOLATIONS NOT CHARGED.\u2014If the issuer or other person described in subparagraph (A) is not charged with any violation of the Federal securities laws before the expiration of the effective period of a temporary order under subparagraph (A) (including any applicable extension period), the escrow shall terminate at the expiration of the 45-day effective period (or the expiration of any extension period, as applicable), and the disputed payments (with accrued interest) shall be returned to th",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "\u2018\u2018(ii) VIOLATIONS NOT CHARGED.\u2014If the issuer or other person described in subparagraph (A) is not charged with any violation of the Federal securities laws before the expiration of the effective period of a temporary order under subparagraph (A) (including any applicable extension period), the escrow shall terminate at the expiration of the 45-day effective period (or the expiration of any extension period, as applicable), and the disputed payments (with accrued interest) shall be returned to th",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "\u2018\u2018(f) AUTHORITY OF THE COMMISSION TO PROHIBIT PERSONS FROM SERVING AS OFFICERS OR DIRECTORS.\u2014In any cease-and-desist proceeding under subsection (a), the Commission may issue an order to prohibit, conditionally or unconditionally, and permanently or for such period of time as it shall determine, any person who has violated section 10(b) or the rules or regulations thereunder, from acting as an officer or director of any issuer that has a class of securities registered pursuant to section 12, or ",
+  "marker": "is required",
+  "category": "explicit_requirement",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "\u2018\u2018(f) AUTHORITY OF THE COMMISSION TO PROHIBIT PERSONS FROM SERVING AS OFFICERS OR DIRECTORS.\u2014In any cease-and-desist proceeding under subsection (a), the Commission may issue an order to prohibit, conditionally or unconditionally, and permanently or for such period of time as it shall determine, any person who has violated section 17(a)(1) or the rules or regulations thereunder, from acting as an officer or director of any issuer that has a class of securities registered pursuant to section 12 o",
+  "marker": "is required",
+  "category": "explicit_requirement",
+  "addressee": "private_parties"
+ }
+]

@@ -251,6 +251,29 @@ for a in sorted(da["amendments"], key=lambda a: (int(row_of.get(a["parent"], ("9
     wa.append([int(rid) if rid else None, nm, a["parent"], a["celex"], a["kind"], a["date"], a["title"], URL.format(a["celex"])])
 style(wa, [8, 30, 13, 18, 12, 11, 80, 40])
 
+# ---------------- external benchmarks ----------------
+import os as _os
+wbm = wb.create_sheet("benchmarks")
+wbm.append(["benchmark", "variant", "pages", "words", "restrictions_total", "obligation", "prohibition", "explicit_requirement",
+            "restrictions_per_1000_words", "private_parties", "US_States", "federal_government_regulators", "unclear",
+            "validation_precision", "precision_adjusted_restrictions", "note"])
+for f in sorted(x for x in _os.listdir(D) if x.startswith("benchmark_") and x.endswith(".json") and "_instances" not in x):
+    bm = json.load(open(D + f))
+    for var in ("all_text", "excluding_inserted_text"):
+        v = bm[var]; a = v["by_addressee"]; c = v["by_category"]; prec = bm.get("validation", {}).get("precision")
+        rr = wbm.max_row + 1
+        wbm.append([bm["label"].upper(), var.replace("_", " "), bm["pages"], v["words"], v["restrictions_total"], c.get("obligation"),
+                    c.get("prohibition"), c.get("explicit_requirement"), v["per_1000_words"],
+                    a.get("private parties"), a.get("US States"), a.get("federal government / regulators (SEC, PCAOB)"), a.get("unclear / none"),
+                    prec, f"=E{rr}*N{rr}" if prec else None,
+                    (bm.get("source", "") + ". " + bm.get("validation", {}).get("note", "")) if var == "all_text" else
+                    "Excludes text inserted into other statutes (in quotation marks), mirroring how quoted amending text is skipped for EU acts"])
+wbm.append([])
+wbm.append(["EU comparison (105 adopted acts, original texts)", "mean per act", None, 14601, 207, None, None, None, 14.0, None, None, None, None, 0.84,
+            "=E" + str(wbm.max_row + 1) + "*N" + str(wbm.max_row + 1), "Words = articles + annexes (no recitals), comparable to a US statute's text"])
+style(wbm, [22, 24, 8, 10, 12, 10, 10, 10, 12, 10, 10, 14, 10, 12, 14, 80])
+wbm.freeze_panes = None
+
 # ---------------- method + validation ----------------
 wm = wb.create_sheet("method")
 for line in open(D + "../METHOD.md").read().splitlines():

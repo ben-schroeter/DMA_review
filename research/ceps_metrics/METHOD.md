@@ -96,3 +96,10 @@ Results are in the `validation` sheet. Headline (final fresh sample): 84% of cou
 - Member-State obligations in directives are indirect; the real burden depends on transposition.
 - EUR-Lex metadata links for very recent acts can lag; secondary-act lists may be incomplete for 2025–2026.
 - Scanned older acts with little HTML text are flagged in the note column.
+
+## External benchmark: Sarbanes-Oxley Act (US)
+- Text: Public Law 107-204 (116 Stat. 745, 30 July 2002), enacted version, PDF from govinfo.gov. Measured with the same counter (`scripts/benchmark_us.py`), after removing page headers, US Code margin notes and the table of contents.
+- Two variants: all enacted text, and excluding text inserted into other statutes (quoted ‘‘ … ’’), mirroring how quoted amending text is skipped for EU acts.
+- US-specific handling, for the benchmark only: "it shall be unlawful" counts as a prohibition; additional constitutive uses of "shall" are excluded (remain in effect, be available, be treated as, be fined/imprisoned, as it shall determine, term lengths, saving and pre-emption clauses). Addressee groups become private parties, US States, and federal government / regulators (SEC, PCAOB, GAO).
+- Validation: 68% precision and 70% addressee accuracy on a fresh 40-item sample (vs 84% / 74% for EU acts), so the benchmarks sheet also shows precision-adjusted counts.
+- US statutes have no recitals; compare against EU articles + annexes.

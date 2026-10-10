@@ -146,6 +146,15 @@ for ax, key, title, f in ((axes[0], "restrictions_total", "Restrictions per act"
         ax.spines[s].set_visible(False)
     ax.spines["bottom"].set_color(BASE); ax.tick_params(colors=MUTED, length=0)
     ax.xaxis.set_major_locator(md.YearLocator(8)); ax.xaxis.set_major_formatter(md.DateFormatter("%Y"))
+import json as _json
+try:
+    _sox = _json.load(open("../data/benchmark_sox.json"))
+    for ax, val in ((axes[0], _sox["all_text"]["restrictions_total"]), (axes[1], _sox["all_text"]["per_1000_words"])):
+        ax.axhline(val, color=CAT[6], lw=1.4, ls=(0, (5, 3)), zorder=2)
+        ax.text(START + dt.timedelta(days=200), val, f"Sarbanes-Oxley Act (US, 2002): {val:g}", color=CAT[6], fontsize=8.5,
+                va="bottom", ha="left")
+except FileNotFoundError:
+    pass
 axes[0].legend(loc="upper left", frameon=False, labelcolor=INK2, fontsize=9)
 top = sorted(inst, key=lambda r: -r["restrictions_total"])[:5]
 for r in top:

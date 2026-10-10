@@ -1,0 +1,46 @@
+{
+ "label": "sox",
+ "pages": 66,
+ "all_text": {
+  "words": 29466,
+  "restrictions_total": 240,
+  "by_category": {
+   "explicit_requirement": 13,
+   "obligation": 195,
+   "prohibition": 32
+  },
+  "by_addressee": {
+   "unclear / none": 67,
+   "federal government / regulators (SEC, PCAOB)": 134,
+   "private parties": 35,
+   "US States": 4
+  },
+  "per_1000_words": 8.1
+ },
+ "excluding_inserted_text": {
+  "words": 20086,
+  "restrictions_total": 172,
+  "by_category": {
+   "explicit_requirement": 5,
+   "obligation": 145,
+   "prohibition": 22
+  },
+  "by_addressee": {
+   "unclear / none": 38,
+   "federal government / regulators (SEC, PCAOB)": 115,
+   "private parties": 18,
+   "US States": 1
+  },
+  "per_1000_words": 8.6
+ },
+ "inserted_text_words": 9380,
+ "validation": {
+  "sample_n": 40,
+  "precision": 0.68,
+  "addressee_accuracy": 0.7,
+  "tuning_sample_n": 50,
+  "tuning_precision_before_us_rules": 0.66,
+  "note": "Hand-coded by Claude. US-specific exclusions (remain in effect, be available, be treated as, be fined/imprisoned, as it shall determine, term lengths, saving/preemption) were added after the 50-item tuning sample; the 40-item sample is fresh."
+ },
+ "source": "Public Law 107-204 (116 Stat. 745), 30 July 2002; PDF from govinfo.gov supplied by the user"
+}
