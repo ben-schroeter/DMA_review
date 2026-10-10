@@ -244,10 +244,10 @@ finish(fig, "08_proposal_vs_adopted.png")
 import json as _json, random as _random
 sox = _json.load(open("../data/benchmark_sox.json"))["all_text"]
 SOXC = CAT[6]
-fig = plt.figure(figsize=(14, 6.4), dpi=160); fig.patch.set_facecolor(SURF)
-gs = fig.add_gridspec(1, 3, width_ratios=[1.35, 1, 1.1], wspace=0.45)
-ax1, ax2, ax3 = (fig.add_subplot(gs[0, i]) for i in range(3))
-for ax in (ax1, ax2, ax3):
+fig = plt.figure(figsize=(11.5, 6.2), dpi=160); fig.patch.set_facecolor(SURF)
+gs = fig.add_gridspec(1, 2, width_ratios=[1.35, 1], wspace=0.35)
+ax1, ax2 = (fig.add_subplot(gs[0, i]) for i in range(2))
+for ax in (ax1, ax2):
     ax.set_facecolor(SURF)
     for s_ in ("top", "right", "left"):
         ax.spines[s_].set_visible(False)
@@ -288,36 +288,10 @@ ax2.set_ylim(0, max(dens) * 1.08)
 ax2.yaxis.grid(True, color=GRID, lw=0.8); ax2.set_axisbelow(True)
 ax2.set_title("Restrictions per 1,000 words", loc="left", fontsize=12, color=INK, weight="bold")
 
-# panel 3: who is bound
-def shares(rows):
-    t = sum(r["restrictions_total"] for r in rows)
-    return [sum(r[a] or 0 for r in rows) / t for a in ADDR]
-sa = sox["by_addressee"]; st = sox["restrictions_total"]
-groups = [("Sarbanes-Oxley", [sa.get("private parties", 0) / st, sa.get("US States", 0) / st,
-                              sa.get("federal government / regulators (SEC, PCAOB)", 0) / st, sa.get("unclear / none", 0) / st]),
-          ("EU acts since 2020", shares(recent)), ("All 105 EU acts", shares(inst))]
-labels3 = ["Private parties", "Member States / US States", "EU bodies / US regulators", "Unclear / none"]
-cols3 = CAT[:3] + [NEUTRAL]
-yy = [2, 1, 0]
-left = [0, 0, 0]
-for k in range(4):
-    vals = [g[1][k] for g in groups]
-    ax3.barh(yy, vals, left=left, color=cols3[k], edgecolor=SURF, linewidth=2, height=0.6, label=labels3[k])
-    for yi, v, l in zip(yy, vals, left):
-        if v >= 0.08:
-            ax3.text(l + v / 2, yi, f"{v:.0%}", ha="center", va="center", fontsize=9,
-                     color="white" if cols3[k] in (CAT[0], CAT[1]) else INK)
-    left = [l + v for l, v in zip(left, vals)]
-ax3.set_yticks(yy); ax3.set_yticklabels([g[0] for g in groups], color=INK2, fontsize=9.5)
-ax3.get_yticklabels()[0].set_color(SOXC); ax3.get_yticklabels()[0].set_weight("bold")
-ax3.set_xlim(0, 1); ax3.xaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(1.0))
-ax3.legend(loc="upper center", bbox_to_anchor=(0.35, -0.1), ncol=2, frameon=False, labelcolor=INK2, fontsize=8.5)
-ax3.set_title("Who the restrictions bind", loc="left", fontsize=12, color=INK, weight="bold")
-
 fig.suptitle("EU digital acts vs the Sarbanes-Oxley Act", x=0.01, ha="left", fontsize=15, color=INK, weight="bold", y=0.99)
-fig.text(0.01, 0.915, "Recent EU acts carry more restrictions than SOX and pack them more densely; most of SOX's bind the SEC and PCAOB, not firms directly",
+fig.text(0.01, 0.915, "Recent EU acts carry more restrictions than SOX and pack them more densely",
          fontsize=10, color=INK2)
 fig.text(0.01, 0.01, "Same automated counter for both; precision 84% on EU acts, 68% on SOX (so SOX is, if anything, overstated). "
          "SOX words = enacted text; EU words = articles + annexes (recitals excluded).", fontsize=8, color=MUTED)
-fig.subplots_adjust(left=0.17, right=0.97, top=0.82, bottom=0.2)
+fig.subplots_adjust(left=0.22, right=0.95, top=0.82, bottom=0.14)
 fig.savefig(OUT + "09_benchmark_sox.png", facecolor=SURF); plt.close(fig); print("wrote 09_benchmark_sox.png")
