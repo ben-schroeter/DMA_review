@@ -44,3 +44,33 @@ Tier 3 — pending proposals and acts adopted 2024–2026 (impact assessment and
 - [x] 32022R2554 Digital Operational Resilience Act (DORA)
 - [x] 32018L1972 European Electronic Communications Code
 - [x] 32012R1025 European Standardisation Regulation
+- [x] 32022R2560 Foreign Subsidies Regulation
+- [x] 32023R0588 Union Secure Connectivity Programme (IRIS²)
+- [x] 32014L0030 Electromagnetic Compatibility Directive
+- [x] 32014L0053 Radio Equipment Directive
+- [x] 32023R0988 General Product Safety Regulation
+- [x] 32014L0055 E-invoicing Directive
+- [x] 32023R1066 Horizontal Block Exemption Regulations (R&D 2023/1066 and specialisation 2023/1067)
+- [x] 32023R1230 Machinery Regulation
+- [x] 32014R0316 Technology Transfer Block Exemption
+- [x] 32024R1028 Short-Term Rental Data Regulation
+- [x] 32023R1543 E-evidence Regulation
+- [x] 52023PC0360 Financial Data Access Regulation (FiDA)
+- [x] 32024R1083 European Media Freedom Act
+- [x] 52023PC0360 Financial Data Access Regulation (FiDA)
+- [x] 32021R0690 Single Market Programme
+- [x] 32016L0680 Law Enforcement Directive
+- [x] 52023PC0366 Payment Services Directive 3 (PSD3)
+- [x] 52023PC0367 Payment Services Regulation (PSR)
+- [x] 32023R1781 European Chips Act
+- [x] 32023R1781 European Chips Act
+- [x] 32024R1252 Critical Raw Materials Act
+- [x] 32021R0694 Digital Europe Programme
+- [x] 32024R1309 Gigabit Infrastructure Act
+- [x] 32023R2841 Cybersecurity Regulation (EU institutions)
+- [x] 32024R1735 Net-Zero Industry Act
+- [x] 52023PC0369 Digital Euro Regulation
+- [x] 32023R2844 Digitalisation of judicial cooperation Regulation
+- [x] 32021R0784 Terrorist Content Online Regulation
+- [x] 32016L0943 Trade Secrets Directive
+- [x] 32025L0516 VAT in the Digital Age (ViDA)

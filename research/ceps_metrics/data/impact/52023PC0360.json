@@ -1,0 +1,95 @@
+{
+ "celex": "52023PC0360",
+ "name": "Financial Data Access Regulation (FiDA)",
+ "proposal": "52023PC0360",
+ "impact_assessment": "SWD(2023) 224 (executive summary SWD(2023) 230)",
+ "evidence_rating": "ex-ante only: impact assessment cost estimates; no indicators; regulation not adopted",
+ "summary": "The Commission estimated that letting customers share their insurance, investment, pension and loan data would cost financial firms EUR 2.2-2.4 billion up front, in return for more competition and new services whose value it did not estimate. The proposal sets no monitoring indicators, and as it has not been adopted (talks stalled in 2025-26) there is no evidence on its effects.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "The FiDA proposal has no LFS indicators section; the memorandum only refers to a Commission review (Art. 31), with evaluation no earlier than 3 years after application",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Open finance uptake and innovation",
+   "indicator": "Customers share financial data beyond payment accounts; market entry of data-driven start-ups",
+   "target_or_baseline": "",
+   "evidence": "Not applicable: regulation not adopted (trilogues stalled in 2025-26, per secondary reports).",
+   "status": "not measured",
+   "sources": "SWD(2023) 224"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Compliance costs",
+   "indicator": "One-off API cost for 17,745 data holders",
+   "target_or_baseline": "EUR 2.2-2.4bn one-off; EUR 147-465m a year recurring",
+   "evidence": "Forecast only.",
+   "status": "not measured",
+   "sources": "SWD(2023) 224"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Economic value",
+   "indicator": "Potential boost from open financial data (external estimate cited by the IA)",
+   "target_or_baseline": "1-1.5% of EU GDP by 2030",
+   "evidence": "Third-party estimate cited in the IA; not a Commission forecast of this regulation's effect.",
+   "status": "not measured",
+   "sources": "SWD(2023) 224"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2023-fida-ia",
+   "citation": "European Commission (2023), Impact Assessment accompanying the proposal for a framework for Financial Data Access, SWD(2023) 224 (executive summary SWD(2023) 230)",
+   "authors": "European Commission",
+   "year": 2023,
+   "title": "Impact Assessment accompanying the proposal for a framework for Financial Data Access",
+   "venue": "SWD(2023) 224 (executive summary SWD(2023) 230)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023SC0224",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "compliance costs; competition; innovation",
+   "direction": "positive (forecast)",
+   "headline": "Preferred option: one-off API costs of EUR 2.2-2.4bn for 17,745 data holders and EUR 147-465m recurring annual costs, recouped from 3,838 data users through compensation; licensing 350 FISPs about EUR 22m one-off. Benefits (competition, new services, SME access) described qualitatively; cites an outside estimate that open financial data could add 1-1.5% to EU GDP by 2030",
+   "summary_plain": "The Commission expected FiDA to cost financial firms about EUR 2.2-2.4 billion up front to build data interfaces, in return for more competition and new data-driven services, which it did not put a figure on.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast",
+   "verified": "executive summary read; full text searched",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  },
+  {
+   "id": "ec-2023-psd2-review",
+   "citation": "European Commission (2023), Report on the review of Directive 2015/2366/EU on payment services (PSD2), COM(2023) 365",
+   "authors": "European Commission",
+   "year": 2023,
+   "title": "Report on the review of Directive 2015/2366/EU on payment services (PSD2)",
+   "venue": "COM(2023) 365",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023DC0365",
+   "pdf_url": "",
+   "source_type": "Commission review report",
+   "method": "evaluation (ex-post, of predecessor open banking rules)",
+   "outcomes": "open banking; competition",
+   "direction": "mixed",
+   "headline": "PSD2 objectives only partly achieved; open banking grew but was hampered by poor-quality data interfaces - the experience FiDA builds on",
+   "summary_plain": "The Commission's review of the existing open banking rules found they helped new services grow but that banks' data interfaces were often poor, a lesson used in designing FiDA.",
+   "period_geography": "EU, 2018-2022",
+   "quality": "Commission self-assessment",
+   "verified": "page summary via search",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "celex": "32023R1543",
+ "name": "E-evidence Regulation",
+ "proposal": "52018PC0225",
+ "impact_assessment": "SWD(2018) 118 (executive summary SWD(2018) 119)",
+ "evidence_rating": "ex-ante only: rules applied from August 2026; impact assessment forecasts and an industry readiness paper",
+ "summary": "The E-evidence Regulation lets prosecutors order online service providers in other EU countries to hand over or preserve electronic data. The Commission expected faster investigations and savings of over EUR 11 million a year, but the rules only applied from August 2026 and industry warned that the IT system and national laws were not ready. There is no evidence yet on how well it works.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "The 2018 proposal's financial statement has no indicators section; the memorandum says Member States will collect yearly monitoring data and the Commission will report within 5 years. The Regulation applies only from 18 August 2026",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Effective investigations",
+   "indicator": "Faster, more effective cross-border access to electronic evidence; fewer gaps in investigations",
+   "target_or_baseline": "",
+   "evidence": "No data yet; Regulation applicable only since 18 Aug 2026. Industry reports the decentralised IT system (e-CODEX) was still under development in mid-2026 and 22 Member States received formal notices (27 Mar 2026) for not transposing the companion Directive 2023/1544.",
+   "status": "not measured",
+   "sources": "SWD(2018) 118/119; EuroISPA 2026"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Costs and savings",
+   "indicator": "One-off costs EUR 3.3m for Member States and EUR 1.7m for service providers; recurrent savings over EUR 7.1m/yr (Member States) and EUR 4.3m/yr (providers)",
+   "target_or_baseline": "",
+   "evidence": "Not measured.",
+   "status": "not measured",
+   "sources": "SWD(2018) 119"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2018-eevidence-ia",
+   "citation": "European Commission (2018), Impact Assessment accompanying the proposals on European Production and Preservation Orders for electronic evidence and on legal representatives (executive summary SWD(2018) 119), SWD(2018) 118",
+   "authors": "European Commission",
+   "year": 2018,
+   "title": "Impact Assessment accompanying the proposals on European Production and Preservation Orders for electronic evidence and on legal representatives (executive summary SWD(2018) 119)",
+   "venue": "SWD(2018) 118",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52018SC0119",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "investigation effectiveness; administrative costs",
+   "direction": "positive (forecast)",
+   "headline": "More effective and efficient investigations and prosecutions; one-off costs EUR 3.3m (Member States) and EUR 1.7m (providers); no recurrent costs; recurrent savings >EUR 7.1m/yr for Member States and >EUR 4.3m/yr for providers; possible crime reduction through deterrence",
+   "summary_plain": "The Commission expected the new orders to speed up police access to online evidence across borders and to save authorities and providers more than EUR 11 million a year.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  },
+  {
+   "id": "euroispa-2026-eevidence",
+   "citation": "EuroISPA (2026), e-Evidence Regulation: Closing the implementation gap before August 2026, EuroISPA position paper, June 2026",
+   "authors": "EuroISPA",
+   "year": 2026,
+   "title": "e-Evidence Regulation: Closing the implementation gap before August 2026",
+   "venue": "EuroISPA position paper, June 2026",
+   "url": "https://www.euroispa.org/wp-content/uploads/2026/06/final_e-Evidence-implementation-paper.pdf",
+   "pdf_url": "https://www.euroispa.org/wp-content/uploads/2026/06/final_e-Evidence-implementation-paper.pdf",
+   "source_type": "industry position paper",
+   "method": "descriptive (member survey and national engagement)",
+   "outcomes": "implementation readiness",
+   "direction": "negative",
+   "headline": "Systemic readiness gap: Directive transposition deadline (18 Feb 2026) met by few states; Commission formal notices to 22 Member States on 27 Mar 2026; decentralised e-CODEX system still under development; providers need at least 18 months after technical specifications; asks for a grace period",
+   "summary_plain": "Internet providers warned in mid-2026 that neither governments nor the IT system were ready for the new e-evidence rules.",
+   "period_geography": "EU, 2026",
+   "quality": "advocacy document",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "Association of internet service providers subject to the obligations",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  }
+ ]
+}

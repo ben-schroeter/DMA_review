@@ -1,0 +1,104 @@
+{
+ "celex": "32022R2560",
+ "name": "Foreign Subsidies Regulation",
+ "proposal": "52021PC0223",
+ "impact_assessment": "SWD(2021) 99 (executive summary SWD(2021) 100)",
+ "evidence_rating": "thin: Commission enforcement statistics and self-assessed review only; no independent or causal study of effects on competition, investment or prices",
+ "summary": "The Foreign Subsidies Regulation lets the Commission check whether subsidies from non-EU governments distort EU takeovers and public tenders. Its first review (July 2026) counted about 100 merger notifications a year, far above the 30-40 expected, a handful of in-depth cases ending in commitments, and several Chinese bidders withdrawing from tenders. No independent study yet measures its effect on competition, investment or prices, and businesses say the filing burden is heavy.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "LFS indicator (1.4.4)",
+   "objective": "Identify the most distortive subsidies",
+   "indicator": "Yearly number of cases of alleged distortive foreign subsidies dealt with",
+   "target_or_baseline": "IA projected 30-40 merger notifications a year",
+   "evidence": "By 31 May 2026: 273 merger notifications (about 100 a year, well above the 30-40 projected), 5,150 submissions across 863 public procurement procedures; 3 in-depth merger and 4 in-depth procurement investigations; ex officio cases opened (e.g. Nuctech, Goldwind).",
+   "status": "reported as activity",
+   "sources": "COM(2026) 368"
+  },
+  {
+   "type": "LFS indicator (1.4.4)",
+   "objective": "Identify the most distortive subsidies",
+   "indicator": "Share of cases found distortive vs total cases",
+   "target_or_baseline": "",
+   "evidence": "About 97% of notified mergers cleared after preliminary review; two merger cases (e&/PPF Telecom, ADNOC/Covestro) and one procurement case ended with commitments; three procurement probes closed after the Chinese bidders withdrew.",
+   "status": "partially measured",
+   "sources": "COM(2026) 368"
+  },
+  {
+   "type": "LFS indicator (1.4.4)",
+   "objective": "Identify the most distortive subsidies",
+   "indicator": "Share of cases cleared thanks to the balancing test",
+   "target_or_baseline": "",
+   "evidence": "No case has yet applied the balancing test in practice, according to the review.",
+   "status": "not measured",
+   "sources": "COM(2026) 368"
+  },
+  {
+   "type": "LFS indicator (1.4.4)",
+   "objective": "Remove distortions caused by foreign subsidies",
+   "indicator": "Stakeholder perceptions of the impact of redressive measures",
+   "target_or_baseline": "",
+   "evidence": "Review consultation: stakeholders support the objective but say compliance costs are disproportionate, especially for notifications; Commission plans simplification (higher thresholds, shorter forms). Procurement filing compliance reportedly fell from about 70% to 45% by late 2025.",
+   "status": "reported as activity",
+   "sources": "COM(2026) 368"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Investment",
+   "indicator": "Possible short-term drop in foreign direct investment, offset in the medium term by a level playing field",
+   "target_or_baseline": "",
+   "evidence": "No study measures the FSR's effect on FDI, M&A or tender participation.",
+   "status": "not measured",
+   "sources": "SWD(2021) 99/100"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2021-fsr-ia",
+   "citation": "European Commission (2021), Impact Assessment accompanying the proposal for a Regulation on foreign subsidies distorting the internal market (executive summary SWD(2021) 100), SWD(2021) 99",
+   "authors": "European Commission",
+   "year": 2021,
+   "title": "Impact Assessment accompanying the proposal for a Regulation on foreign subsidies distorting the internal market (executive summary SWD(2021) 100)",
+   "venue": "SWD(2021) 99",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021SC0100",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "level playing field; compliance costs; FDI",
+   "direction": "positive (forecast)",
+   "headline": "New instrument with notification for large mergers and tenders; low burden for SMEs; possible short-term drop in FDI offset by fairer competition",
+   "summary_plain": "The Commission expected the new tool to restore fair competition with foreign-subsidised firms at modest cost, while warning that foreign investment might dip at first.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast; few quantified impacts",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  },
+  {
+   "id": "ec-2026-fsr-review",
+   "citation": "European Commission (2026), Report on the implementation and enforcement of Regulation (EU) 2022/2560 (first review, with SWD(2026) 183), COM(2026) 368",
+   "authors": "European Commission",
+   "year": 2026,
+   "title": "Report on the implementation and enforcement of Regulation (EU) 2022/2560 (first review, with SWD(2026) 183)",
+   "venue": "COM(2026) 368",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026DC0368",
+   "pdf_url": "",
+   "source_type": "Commission review report",
+   "method": "implementation review (case statistics, consultation, call for evidence)",
+   "outcomes": "enforcement activity; administrative burden",
+   "direction": "positive (self-assessment)",
+   "headline": "Fit for purpose; 273 merger notifications to 31 May 2026 (about 100 a year vs 30-40 projected), 97% cleared in preliminary review; 5,150 procurement submissions in 863 procedures; commitments in e&/PPF and ADNOC/Covestro; deterrence via bidder withdrawals; stakeholders report disproportionate costs; targeted simplification planned",
+   "summary_plain": "The Commission's first review says the regime works and has deterred some subsidised bidders, but handles far more filings than expected and firms complain of heavy paperwork.",
+   "period_geography": "EU, Oct 2023-May 2026",
+   "quality": "self-assessment; no counterfactual",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  }
+ ]
+}

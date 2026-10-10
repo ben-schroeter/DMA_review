@@ -1,0 +1,104 @@
+{
+ "celex": "32021R0690",
+ "name": "Single Market Programme",
+ "proposal": "52018PC0441",
+ "impact_assessment": "SWD(2018) 320",
+ "evidence_rating": "thin: Commission interim evaluation based on outputs and satisfaction surveys; no counterfactual or independent study found",
+ "summary": "The EUR 4.4bn Single Market Programme funds SME support networks, consumer enforcement, standards, food safety and statistics. The Commission's 2025 mid-term review calls it effective, citing satisfied users and disease control results, but admits it does not yet measure effects on firms' growth. No independent study of its impact was found.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "The proposal's financial statement contains no usable LFS indicators (section 1.4.4 in the extraction is about synergies); performance is tracked through the indicators in the Regulation's annex, continuous monitoring and mid-term/final evaluations",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "programme objective (proposal)",
+   "objective": "Internal market and enforcement (Pillar 1)",
+   "indicator": "Better digital tools for enforcement and administrative cooperation (e.g. IMI, Your Europe, competition case tools)",
+   "target_or_baseline": "",
+   "evidence": "Interim evaluation: tools improved enforcement and cooperation, but CASE@EC rollout only partly done and broader impact of tools not measured because user feedback is not collected regularly.",
+   "status": "reported as activity",
+   "sources": "COM(2025) 347"
+  },
+  {
+   "type": "programme objective (proposal)",
+   "objective": "SME competitiveness (Pillar 2)",
+   "indicator": "SMEs supported through Enterprise Europe Network, Erasmus for Young Entrepreneurs, Euroclusters",
+   "target_or_baseline": "",
+   "evidence": "Interim evaluation reports very high client satisfaction and 'tangible effects on business performance' but recommends systematic tracking of all SMEs supported and a harmonised survey of effects on growth, digitalisation and internationalisation - i.e. impact on firms is not yet measured.",
+   "status": "reported as activity",
+   "sources": "COM(2025) 347"
+  },
+  {
+   "type": "programme objective (proposal)",
+   "objective": "Consumer protection, standardisation, food safety, statistics (Pillars 3-6)",
+   "indicator": "Effective consumer enforcement (CPC, Safety Gate), standards adoption, animal disease eradication, trusted statistics",
+   "target_or_baseline": "",
+   "evidence": "Interim evaluation finds all pillars effective; e.g. reduced brucellosis, rabies and Salmonella cases; 95% of surveyed users confident in European statistics (2024). Mostly output and satisfaction evidence.",
+   "status": "partially measured",
+   "sources": "COM(2025) 347"
+  },
+  {
+   "type": "budget execution",
+   "objective": "Implementation",
+   "indicator": "Budget committed",
+   "target_or_baseline": "EUR 4,353m total 2021-2027",
+   "evidence": "EUR 1,909m (44%) allocated in the first three years; inflation reduced the number and scope of actions.",
+   "status": "measured",
+   "sources": "COM(2025) 347"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2018-smp-ia",
+   "citation": "European Commission (2018), Impact Assessment accompanying the proposal establishing the Single Market Programme, SWD(2018) 320",
+   "authors": "European Commission",
+   "year": 2018,
+   "title": "Impact Assessment accompanying the proposal establishing the Single Market Programme",
+   "venue": "SWD(2018) 320",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52018SC0320",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante (programme design; qualitative)",
+   "outcomes": "programme design; single market functioning",
+   "direction": "positive (forecast)",
+   "headline": "Merges six predecessor programmes (COSME, consumer, standardisation, food chain, statistics, internal market tools) into one; justification largely qualitative, citing evaluations of predecessors; no macro forecast of programme impact",
+   "summary_plain": "The Commission argued that combining six existing funding lines into one Single Market Programme would make support for SMEs, consumers and enforcement simpler and more flexible, but did not forecast measurable economic effects.",
+   "period_geography": "EU, 2021-2027",
+   "quality": "forecast; qualitative",
+   "verified": "full text skimmed",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20251122023230/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52018SC0320"
+  },
+  {
+   "id": "ec-2025-smp-interim",
+   "citation": "European Commission (2025), Report on the interim evaluation of the Single Market Programme 2021-2027 (with SWD(2025) 172), COM(2025) 347",
+   "authors": "European Commission",
+   "year": 2025,
+   "title": "Report on the interim evaluation of the Single Market Programme 2021-2027 (with SWD(2025) 172)",
+   "venue": "COM(2025) 347",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0347",
+   "pdf_url": "",
+   "source_type": "Commission evaluation",
+   "method": "interim evaluation (external study by Prognos consortium; surveys, monitoring data, case studies)",
+   "outcomes": "outputs; user satisfaction; SME support",
+   "direction": "positive",
+   "headline": "Positive conclusions for 2021-2023 across all pillars; EUR 1.9bn (44%) of EUR 4.35bn allocated; flagship SME services highly rated; but data collection weak, indicators need refining, and impact on SME growth should be measured with a harmonised survey",
+   "summary_plain": "The Commission's mid-term review rates the programme as effective, but most evidence is satisfaction surveys and activity counts; it admits impact on firms' growth is not yet measured.",
+   "period_geography": "EU, 2021-2023",
+   "quality": "self-evaluation; no counterfactual",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20260213153009/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0347"
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "celex": "32024R1028",
+ "name": "Short-Term Rental Data Regulation",
+ "proposal": "52022PC0571",
+ "impact_assessment": "SWD(2022) 350 (executive summary SWD(2022) 349)",
+ "evidence_rating": "ex-ante only: rules applied from May 2026; no evaluation or independent study yet",
+ "summary": "The regulation requires hosts to register and platforms such as Airbnb to share activity data with public authorities. The Commission forecast savings of EUR 54-115 million for platforms and over EUR 1.4 billion in time saved for hosts over five years. The rules only started to apply in May 2026, so there is no evidence yet on whether these savings, or better local regulation of short-term rentals, have materialised.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "The proposal's financial statement has no LFS indicators; the memorandum says effectiveness will be judged mainly on a set of key performance indicators, with a first evaluation no earlier than five years after application (i.e. after 2031)",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Lower compliance costs for platforms",
+   "indicator": "Savings for online platforms from replacing uncoordinated data requests",
+   "target_or_baseline": "EUR 54-115m over 5 years",
+   "evidence": "Regulation applies only from 20 May 2026; no data yet.",
+   "status": "not measured",
+   "sources": "SWD(2022) 349"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Simpler host registration",
+   "indicator": "Time saved by new hosts registering (monetised)",
+   "target_or_baseline": "> EUR 1 480m over first 5 years",
+   "evidence": "No data yet.",
+   "status": "not measured",
+   "sources": "SWD(2022) 349"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Better public-authority data on short-term rentals",
+   "indicator": "Regular data flow from platforms via national Single Digital Entry Points",
+   "target_or_baseline": "",
+   "evidence": "Registration and data-sharing obligations applicable since 20 May 2026; no published figures on data flows or compliance found.",
+   "status": "not measured",
+   "sources": ""
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2022-str-ia",
+   "citation": "European Commission (2022), Impact Assessment accompanying the proposal on data collection and sharing relating to short-term accommodation rental services (executive summary SWD(2022) 349), SWD(2022) 350",
+   "authors": "European Commission",
+   "year": 2022,
+   "title": "Impact Assessment accompanying the proposal on data collection and sharing relating to short-term accommodation rental services (executive summary SWD(2022) 349)",
+   "venue": "SWD(2022) 350",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022SC0349",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "compliance costs; administrative savings",
+   "direction": "positive (forecast)",
+   "headline": "Platform savings EUR 54-115m over 5 years; host time savings above EUR 1.48bn over 5 years; one-off costs ~EUR 8.2m for platforms (~EUR 30,000 each) and ~EUR 3m for national authorities",
+   "summary_plain": "The Commission expected the rules to save platforms EUR 54-115 million and new hosts more than EUR 1.4 billion in registration time over five years, at small set-up costs.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20251007083040/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52022SC0349"
+  }
+ ]
+}

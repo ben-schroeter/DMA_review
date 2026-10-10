@@ -1,0 +1,95 @@
+{
+ "celex": "32014L0055",
+ "name": "E-invoicing Directive",
+ "proposal": "52013PC0449",
+ "impact_assessment": "SWD(2013) 222 (executive summary SWD(2013) 223)",
+ "evidence_rating": "thin: Commission evaluation confirms standard and partial uptake; forecast savings never measured; no independent studies of this Directive found",
+ "summary": "The Commission forecast that full e-invoicing in public procurement could save EUR 1.5-2.3 billion a year. Its 2024 evaluation found the directive did create a common European e-invoice standard accepted by almost all central governments, but uptake is high only where it is mandatory and the promised savings were never measured. No independent study of the directive's effects was found.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "The 2013 proposal (COM(2013) 449) has no financial-statement indicators; Article 12 required a Commission report on effects on the internal market and uptake",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Savings in public procurement",
+   "indicator": "Annual savings if all public procurement invoices were electronic",
+   "target_or_baseline": "EUR 1.5-2.3bn a year (potential, full uptake)",
+   "evidence": "2024 evaluation does not quantify EU-wide savings; 17 of 23 surveyed Member States say benefits outweigh costs.",
+   "status": "not measured",
+   "sources": "SWD(2013) 222; SWD(2024) 39/40"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Interoperability",
+   "indicator": "Adoption of a European e-invoicing standard and its acceptance by public authorities",
+   "target_or_baseline": "",
+   "evidence": "European standard (EN 16931) published 2017; accepted at central level in all Member States except Cyprus and Slovakia, but only partly at sub-central level; transmission-level interoperability still lacking.",
+   "status": "partially measured",
+   "sources": "SWD(2024) 39/40"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Uptake",
+   "indicator": "Uptake of e-invoicing in public procurement (B2G)",
+   "target_or_baseline": "",
+   "evidence": "High uptake only where governments mandate e-invoices or are digitally mature (e.g. Estonia, Finland, Sweden); no EU-wide uptake rate in executive summary.",
+   "status": "partially measured",
+   "sources": "SWD(2024) 39/40"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2013-einvoicing-ia",
+   "citation": "European Commission (2013), Impact Assessment accompanying the proposal for a Directive on electronic invoicing in public procurement, SWD(2013) 222 (executive summary SWD(2013) 223)",
+   "authors": "European Commission",
+   "year": 2013,
+   "title": "Impact Assessment accompanying the proposal for a Directive on electronic invoicing in public procurement",
+   "venue": "SWD(2013) 222 (executive summary SWD(2013) 223)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52013SC0222",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "procurement costs; administrative burden; environment",
+   "direction": "positive (forecast)",
+   "headline": "Savings of about EUR 1.5-2.3bn a year potentially achievable if all public procurement invoices were electronic; actual impact of the initiative explicitly said to possibly differ",
+   "summary_plain": "The Commission estimated that switching all public procurement invoices to electronic form could save EUR 1.5-2.3 billion a year.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast; extrapolated from national estimates",
+   "verified": "full text read (relevant sections)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  },
+  {
+   "id": "ec-2024-einvoicing-evaluation",
+   "citation": "European Commission (2024), Evaluation of Directive 2014/55/EU on electronic invoicing in public procurement (executive summary), SWD(2024) 40 (full evaluation SWD(2024) 39)",
+   "authors": "European Commission",
+   "year": 2024,
+   "title": "Evaluation of Directive 2014/55/EU on electronic invoicing in public procurement (executive summary)",
+   "venue": "SWD(2024) 40 (full evaluation SWD(2024) 39)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52024SC0040",
+   "pdf_url": "",
+   "source_type": "Commission evaluation",
+   "method": "ex-post evaluation (Member State survey, stakeholder consultation)",
+   "outcomes": "interoperability; uptake; costs",
+   "direction": "positive but incomplete",
+   "headline": "European standard established and widely accepted by central governments; adoption high only where mandated; 17 of 23 Member States report benefits exceed costs; transmission-level interoperability and divergent national implementations remain problems",
+   "summary_plain": "The evaluation found the directive created a common e-invoice standard used across Europe, but uptake is high only where governments make e-invoices compulsory.",
+   "period_geography": "EU, 2014-2023",
+   "quality": "Commission self-assessment; savings not quantified",
+   "verified": "full text read (executive summary)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  }
+ ]
+}

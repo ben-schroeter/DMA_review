@@ -1,0 +1,72 @@
+{
+ "celex": "32023R2844",
+ "name": "Digitalisation of judicial cooperation Regulation",
+ "proposal": "52021PC0759",
+ "impact_assessment": "SWD(2021) 392 (executive summary SWD(2021) 393)",
+ "evidence_rating": "ex-ante only: impact assessment forecasts; no monitoring data or independent studies found",
+ "summary": "This regulation moves communication between courts and authorities in cross-border cases onto secure digital channels and lets people and firms file claims online and join hearings by video. The Commission forecast savings of about EUR 25 million a year in postage and paper and shorter proceedings. Its obligations are still being phased in, and no data or studies on its effects have been published yet.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "LFS indicator (1.4.4)",
+   "objective": "Efficient judicial cooperation between authorities",
+   "indicator": "Number of electronic exchanges via the decentralised IT system, against a baseline of traditional exchanges in a control group of authorities",
+   "target_or_baseline": "Monitored annually for at least 5 years from start of digital exchanges",
+   "evidence": "No published data found; obligations phase in from 2025 onwards as implementing acts and IT systems are rolled out.",
+   "status": "not measured",
+   "sources": ""
+  },
+  {
+   "type": "LFS indicator (1.4.4)",
+   "objective": "Access to justice",
+   "indicator": "Number of electronic claims and submissions by citizens and businesses (e.g. European Small Claims) via the European electronic access point",
+   "target_or_baseline": "Baseline: paper submissions in control group",
+   "evidence": "No published data found.",
+   "status": "not measured",
+   "sources": ""
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Cost savings",
+   "indicator": "Yearly savings of about EUR 25.6m in postage and paper (EUR 4.5m for individuals and firms); procedures shortened by ~15.4m days in total per year",
+   "target_or_baseline": "",
+   "evidence": "Not measured.",
+   "status": "not measured",
+   "sources": "SWD(2021) 392/393"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Costs",
+   "indicator": "One-off IT cost EUR 18.7m over 5 years; recurrent EUR 8.1m/yr at EU-27 level",
+   "target_or_baseline": "",
+   "evidence": "Not measured.",
+   "status": "not measured",
+   "sources": "SWD(2021) 393"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2021-ejustice-ia",
+   "citation": "European Commission (2021), Impact Assessment accompanying the proposals on the digitalisation of judicial cooperation and access to justice in cross-border civil, commercial and criminal matters (executive summary SWD(2021) 393), SWD(2021) 392",
+   "authors": "European Commission",
+   "year": 2021,
+   "title": "Impact Assessment accompanying the proposals on the digitalisation of judicial cooperation and access to justice in cross-border civil, commercial and criminal matters (executive summary SWD(2021) 393)",
+   "venue": "SWD(2021) 392",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021SC0393",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "administrative costs; case duration; access to justice",
+   "direction": "positive (forecast)",
+   "headline": "Yearly savings EUR 25.59m in postage and paper at EU level (EUR 4.49m for individuals and legal entities); total case duration cut by ~15.4m days a year; one-off IT cost EUR 18.7m over 5 years; recurrent EUR 8.1m/yr; videoconferencing emits 7% of the carbon of physical meetings",
+   "summary_plain": "The Commission expected that moving cross-border court paperwork online would save about EUR 25 million a year in postage and paper and shorten proceedings.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20240602054854/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021SC0393"
+  }
+ ]
+}

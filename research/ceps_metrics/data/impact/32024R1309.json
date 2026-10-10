@@ -1,0 +1,104 @@
+{
+ "celex": "32024R1309",
+ "name": "Gigabit Infrastructure Act",
+ "proposal": "52023PC0094",
+ "impact_assessment": "SWD(2023) 46 (executive summary SWD(2023) 47)",
+ "evidence_rating": "ex-ante only: applied from Nov 2025; only implementation tracking",
+ "summary": "The Commission forecast that the Act would cut the cost of building fibre and 5G networks by EUR 14.5 billion and reduce the public subsidies needed by EUR 2.4 billion, mainly through re-using ducts and poles and faster permits. Its main rules have only applied since November 2025, and by March 2026 about half of EU countries had started adapting national law. No evidence yet shows whether costs have fallen.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "The proposal has no LFS indicators; the memorandum foresees a report five years after entry into force, based on indicators and a data-collection mechanism to be drawn up by the Communications Committee",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Reduce deployment cost",
+   "indicator": "Reduction in cost of network deployment to 2030",
+   "target_or_baseline": "EUR 14.5bn; public subsidies EUR 2.4bn lower",
+   "evidence": "Main provisions applied from 12 Nov 2025; not evaluated.",
+   "status": "not measured",
+   "sources": "SWD(2023) 47"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Re-use of infrastructure",
+   "indicator": "New network km deployed by re-using physical infrastructure or coordinating civil works",
+   "target_or_baseline": "470,000 km vs 250,000 km baseline",
+   "evidence": "No data yet.",
+   "status": "not measured",
+   "sources": "SWD(2023) 47"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Faster permits",
+   "indicator": "Administrative cost savings for operators; digital permit procedures",
+   "target_or_baseline": "EUR 40m a year for operators; EUR 3-4m a year for local authorities",
+   "evidence": "About half of Member States had begun adopting implementing measures by March 2026, with divergent approaches to tacit approval of permits.",
+   "status": "reported as activity",
+   "sources": "Cullen International 2026"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Contribute to Digital Decade gigabit targets",
+   "indicator": "Gigabit coverage of households",
+   "target_or_baseline": "100% gigabit by 2030 (Digital Decade)",
+   "evidence": "Coverage tracked in Digital Decade reports but not attributed to the GIA.",
+   "status": "not measured",
+   "sources": ""
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2023-gia-ia",
+   "citation": "European Commission (2023), Impact Assessment accompanying the Gigabit Infrastructure Act proposal (executive summary SWD(2023) 47), SWD(2023) 46",
+   "authors": "European Commission",
+   "year": 2023,
+   "title": "Impact Assessment accompanying the Gigabit Infrastructure Act proposal (executive summary SWD(2023) 47)",
+   "venue": "SWD(2023) 46",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023SC0047",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "deployment costs; subsidies; admin costs; emissions",
+   "direction": "positive (forecast)",
+   "headline": "Deployment costs EUR 14.5bn lower and public subsidies EUR 2.4bn lower; 470,000 km of network via re-use (vs 250,000 km); one-off costs EUR 70m; operator admin savings EUR 40m a year; 0.7 Mt GHG avoided to 2030",
+   "summary_plain": "The Commission expected the Act to cut the cost of rolling out fibre and 5G by EUR 14.5 billion and save EUR 2.4 billion of public subsidies.",
+   "period_geography": "EU, to 2030",
+   "quality": "forecast",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20241111040005/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023SC0047"
+  },
+  {
+   "id": "cullen-2026-gia-implementation",
+   "citation": "Cullen International (2026), National implementation of the EU Gigabit Infrastructure Act, Cullen International benchmark (March 2026)",
+   "authors": "Cullen International",
+   "year": 2026,
+   "title": "National implementation of the EU Gigabit Infrastructure Act",
+   "venue": "Cullen International benchmark (March 2026)",
+   "url": "https://www.cullen-international.com/news/2026/03/National-implementation-of-the-EU-Gigabit-Infrastructure-Act.html",
+   "pdf_url": "",
+   "source_type": "consultancy benchmark",
+   "method": "legal benchmarking",
+   "outcomes": "implementation",
+   "direction": "n/a",
+   "headline": "Main provisions applied from 12 Nov 2025; about half of Member States had begun adopting implementing legislation; approaches diverge on tacit approval, access to private buildings and fibre-ready labels",
+   "summary_plain": "A March 2026 survey found only about half of EU countries had started adapting national law, with different approaches to automatic permit approval.",
+   "period_geography": "EU27, 2025-26",
+   "quality": "descriptive; full detail paywalled",
+   "verified": "page summary via search",
+   "access": "abstract only",
+   "interested_party": "Commercial regulatory-intelligence firm whose clients include telecom operators",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  }
+ ]
+}

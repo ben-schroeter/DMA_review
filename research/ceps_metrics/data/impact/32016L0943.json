@@ -1,0 +1,95 @@
+{
+ "celex": "32016L0943",
+ "name": "Trade Secrets Directive",
+ "proposal": "52013PC0813",
+ "impact_assessment": "SWD(2013) 471 (executive summary SWD(2013) 472)",
+ "evidence_rating": "thin: one descriptive litigation study; the Commission's Article 18 impact evaluation (due June 2026) was not found; no causal evidence on innovation",
+ "summary": "The Trade Secrets Directive aimed to encourage innovation by giving firms the same protection for confidential know-how across the EU; the Commission cited a survey in which 40% of firms said they held back from sharing secrets. An EU-commissioned study of about 700 court cases shows litigation still varies widely between countries and rarely crosses borders. No study has measured whether the directive changed innovation, knowledge-sharing or worker mobility.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "The 2013 proposal (COM(2013) 813) has no financial-statement indicators; Article 18 requires an EUIPO litigation report (2021), a Commission intermediate report (2022) and an impact evaluation (2026)",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Better incentives for cross-border innovation and knowledge-sharing",
+   "indicator": "Willingness to share trade secrets; spending on protective measures",
+   "target_or_baseline": "Baseline (2012 survey): 40% of EU firms would refrain from sharing trade secrets for fear of misuse; 35% reported higher protection spending after misappropriation",
+   "evidence": "No follow-up survey or measurement found.",
+   "status": "not measured",
+   "sources": "SWD(2013) 471/472"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Effective legal redress across the EU",
+   "indicator": "Litigation patterns and remedies",
+   "target_or_baseline": "",
+   "evidence": "EUIPO study of ~700 national judgments (2017-Oct 2022): litigation volumes and fora vary widely between Member States; cross-border disputes rare; most disputed secrets commercial (62%) rather than technical (33%).",
+   "status": "reported as activity",
+   "sources": "Borghi, Cogo & Khan / EUIPO 2023"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Innovation, employee mobility, freedom of expression",
+   "indicator": "Effects on R&D, mobility and whistleblowing",
+   "target_or_baseline": "",
+   "evidence": "No Commission impact evaluation or independent empirical study of these effects found.",
+   "status": "not measured",
+   "sources": ""
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2013-tradesecrets-ia",
+   "citation": "European Commission (2013), Impact Assessment accompanying the proposal for a Directive on the protection of undisclosed know-how and business information (trade secrets), SWD(2013) 471 (executive summary SWD(2013) 472)",
+   "authors": "European Commission",
+   "year": 2013,
+   "title": "Impact Assessment accompanying the proposal for a Directive on the protection of undisclosed know-how and business information (trade secrets)",
+   "venue": "SWD(2013) 471 (executive summary SWD(2013) 472)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52013SC0472",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante (2012 business survey, studies)",
+   "outcomes": "innovation; knowledge sharing; legal certainty",
+   "direction": "positive (forecast)",
+   "headline": "Fragmented national protection weakens incentives for cross-border innovation; 40% of firms would refrain from sharing trade secrets; misappropriation can cut turnover by up to 30%; harmonised redress expected to boost cross-border R&D cooperation",
+   "summary_plain": "The Commission argued that patchy national protection made firms afraid to share know-how, with 40% saying they held back, and that common rules would encourage innovation.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast; survey-based problem definition",
+   "verified": "full text read (executive summary)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  },
+  {
+   "id": "borghi-cogo-khan-2023-euipo",
+   "citation": "Borghi, Cogo & Khan (for EUIPO Observatory) (2023), Trade Secrets Litigation Trends in the EU, EUIPO / European Observatory on Infringements of IP Rights",
+   "authors": "Borghi, Cogo & Khan (for EUIPO Observatory)",
+   "year": 2023,
+   "title": "Trade Secrets Litigation Trends in the EU",
+   "venue": "EUIPO / European Observatory on Infringements of IP Rights",
+   "url": "https://iris.unito.it/handle/2318/1928879",
+   "pdf_url": "https://iris.unito.it/bitstream/2318/1928879/1/2023_Trade_Secrets_Litigation_Trends_Study_FullR_en.pdf",
+   "source_type": "agency-commissioned study",
+   "method": "descriptive (quantitative and qualitative analysis of ~700 national judgments, 2017-2022)",
+   "outcomes": "litigation; enforcement",
+   "direction": "n/a",
+   "headline": "Litigation highly uneven across Member States; cross-border cases uncommon; disputes mostly over commercial information (62%) such as customer lists; data gaps (party identity unknown in 45% of cases)",
+   "summary_plain": "A study of about 700 court cases found trade-secret litigation still differs a lot between EU countries and mostly concerns commercial data such as customer lists.",
+   "period_geography": "EU, 2017-2022",
+   "quality": "descriptive; required by Art. 18",
+   "verified": "page summary via search; repository metadata checked",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  }
+ ]
+}

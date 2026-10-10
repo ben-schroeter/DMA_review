@@ -1,0 +1,104 @@
+{
+ "celex": "32024R1083",
+ "name": "European Media Freedom Act",
+ "proposal": "52022PC0457",
+ "impact_assessment": "SWD(2022) 286 (executive summary SWD(2022) 287)",
+ "evidence_rating": "ex-ante only: Act fully applicable since Aug 2025; only baseline monitoring data",
+ "summary": "The Commission forecast that the Media Freedom Act would lift media companies' revenues by about EUR 2.9 billion a year and reduce risks to editorial independence. The Act has only applied in full since August 2025; the new EU media board is operating, but the Media Pluralism Monitor's latest results describe the situation before the Act and use a new scale. No study has yet measured its effects.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "LFS indicator",
+   "objective": "Fostering cross-border activity and investment",
+   "indicator": "Number and value of cross-border investments in EU media markets (annual)",
+   "target_or_baseline": "Baseline 2013-2021: 478 EU and 389 non-EU investor transactions; gradual increase expected",
+   "evidence": "No post-EMFA tracking found.",
+   "status": "not measured",
+   "sources": "COM(2022) 457 LFS 1.4.4"
+  },
+  {
+   "type": "LFS indicator",
+   "objective": "Regulatory cooperation and convergence",
+   "indicator": "Board opinions taken into account; share of cases solved by the Board; number of guidance documents",
+   "target_or_baseline": "n/a",
+   "evidence": "European Board for Media Services set up in 2025 and adopted its first reports and deliverables (Dec 2025 plenary); no data on uptake of opinions found.",
+   "status": "reported as activity",
+   "sources": "Media Board news"
+  },
+  {
+   "type": "LFS indicator",
+   "objective": "Quality media services / editorial independence",
+   "indicator": "Media Pluralism Monitor risk scores on political independence, PSM governance, owner influence, source protection, ownership transparency",
+   "target_or_baseline": "2021 MPM scores 16-60%; gradual reduction expected",
+   "evidence": "MPM2025 (2024 data) published, but switched to a six-tier scale so results are not strictly comparable with earlier editions; it covers the period before EMFA fully applied (Aug 2025).",
+   "status": "partially measured",
+   "sources": "Blagojev et al. 2025"
+  },
+  {
+   "type": "LFS indicator",
+   "objective": "Quality media services",
+   "indicator": "Citizens' trust in media; number of Member States with media self-regulatory bodies",
+   "target_or_baseline": "16 Member States with self-regulatory bodies",
+   "evidence": "Not tracked against the EMFA.",
+   "status": "not measured",
+   "sources": ""
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Economic",
+   "indicator": "Net economic benefit (higher media company revenues)",
+   "target_or_baseline": "EUR 2.9bn per year",
+   "evidence": "Not evaluated; first evaluation due four years after entry into force.",
+   "status": "not measured",
+   "sources": "SWD(2022) 287"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2022-emfa-ia",
+   "citation": "European Commission (2022), Impact Assessment accompanying the European Media Freedom Act proposal (executive summary SWD(2022) 287), SWD(2022) 286",
+   "authors": "European Commission",
+   "year": 2022,
+   "title": "Impact Assessment accompanying the European Media Freedom Act proposal (executive summary SWD(2022) 287)",
+   "venue": "SWD(2022) 286",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022SC0287",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "media revenues; compliance costs; regulator costs",
+   "direction": "positive (forecast)",
+   "headline": "Annual net economic benefits EUR 2.9bn in higher media revenues; one-off business costs EUR 9.4-14m and recurrent EUR 5.6-14.5m; public authority costs EUR 6.1m a year",
+   "summary_plain": "The Commission expected the Act to raise media companies' revenues by about EUR 2.9 billion a year, at negligible cost to businesses.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20251120144216/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52022SC0287"
+  },
+  {
+   "id": "blagojev-et-al-2025-mpm",
+   "citation": "Blagojev, Bleyer-Simon, Brogi, Carlini, Da Costa Leite Borges, Kermer, Nenadic, Palmer, Parcu, Reviglio, Trevisan & Verza (2025), Monitoring media pluralism in the European Union: results of the MPM2025, EUI Centre for Media Pluralism and Media Freedom, RSC Research Report (doi:10.2870/2415644)",
+   "authors": "Blagojev, Bleyer-Simon, Brogi, Carlini, Da Costa Leite Borges, Kermer, Nenadic, Palmer, Parcu, Reviglio, Trevisan & Verza",
+   "year": 2025,
+   "title": "Monitoring media pluralism in the European Union: results of the MPM2025",
+   "venue": "EUI Centre for Media Pluralism and Media Freedom, RSC Research Report (doi:10.2870/2415644)",
+   "url": "https://cadmus.eui.eu/handle/1814/92916",
+   "pdf_url": "",
+   "source_type": "independent monitoring report (EU co-financed)",
+   "method": "expert risk assessment (indicator-based)",
+   "outcomes": "media pluralism; editorial independence; ownership transparency",
+   "direction": "n/a (baseline)",
+   "headline": "Risk assessment for 2024 across 32 countries, with insights on EMFA-related themes before the Act fully applied; new six-tier scale not strictly comparable with earlier years",
+   "summary_plain": "The EU-funded Media Pluralism Monitor gives a pre-EMFA baseline of risks to media freedom; commentary on it describes uneven readiness to apply the Act.",
+   "period_geography": "EU27 + 5 candidates, 2024",
+   "quality": "descriptive baseline; methodology break",
+   "verified": "abstract read",
+   "access": "open",
+   "interested_party": "Centre is co-financed by the EU and its MPM is the Act's own monitoring indicator source",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  }
+ ]
+}

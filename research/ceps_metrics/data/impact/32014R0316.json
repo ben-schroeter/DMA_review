@@ -1,0 +1,95 @@
+{
+ "celex": "32014R0316",
+ "name": "Technology Transfer Block Exemption",
+ "proposal": null,
+ "impact_assessment": "No IA for the 2014 Regulation reviewed; evaluation SWD(2024) 268; successor IA SWD(2026) 114",
+ "evidence_rating": "thin: Commission evaluation based on stakeholder views; no independent empirical study of the Regulation's effect on licensing or innovation found",
+ "summary": "This competition-law safe harbour for technology licensing had no monitoring indicators. The Commission's 2024 evaluation, based mostly on stakeholder views, found it largely did its job of giving firms legal certainty, but had gaps on early-stage technologies and data licensing; its 2026 replacement is forecast to cut legal-assessment costs by 15-40%. No independent study measuring its effect on licensing or innovation was found.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "Commission Regulation adopted without a legislative proposal or financial statement; no monitoring indicators. Assessed through the 2022-2024 evaluation and the 2026 impact assessment for its replacement",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "evaluation question",
+   "objective": "Legal certainty and lower compliance costs for licensing",
+   "indicator": "Stakeholder-reported legal certainty and compliance costs",
+   "target_or_baseline": "",
+   "evidence": "2024 evaluation: rules 'largely meet their objectives', providing legal certainty and lower compliance costs, but market-share thresholds hard to apply (especially early-stage licensing) and data licensing/licensing negotiation groups not covered. Based on consultation, not measured outcomes.",
+   "status": "reported as activity",
+   "sources": "SWD(2024) 268"
+  },
+  {
+   "type": "expected impact (impact assessment, successor TTBER)",
+   "objective": "Simplify threshold assessment",
+   "indicator": "Cost of applying market-share thresholds per licensing agreement",
+   "target_or_baseline": "-15 to -40% (forecast)",
+   "evidence": "Forecast only; new TTBER applies from May 2026.",
+   "status": "not measured",
+   "sources": "SWD(2026) 114/116"
+  },
+  {
+   "type": "expected impact (impact assessment, successor TTBER)",
+   "objective": "Facilitate data licensing",
+   "indicator": "Compliance assessment costs for covered data licensing agreements",
+   "target_or_baseline": "up to -33% (forecast)",
+   "evidence": "Forecast only.",
+   "status": "not measured",
+   "sources": "SWD(2026) 114/116"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2024-ttber-evaluation",
+   "citation": "European Commission (2024), Evaluation of the Technology Transfer Block Exemption Regulation and Technology Transfer Guidelines, SWD(2024) 268 (with SWD(2024) 269)",
+   "authors": "European Commission",
+   "year": 2024,
+   "title": "Evaluation of the Technology Transfer Block Exemption Regulation and Technology Transfer Guidelines",
+   "venue": "SWD(2024) 268 (with SWD(2024) 269)",
+   "url": "https://competition-policy.ec.europa.eu/public-consultations/2023-technology-transfer_en",
+   "pdf_url": "",
+   "source_type": "Commission evaluation",
+   "method": "ex-post evaluation (stakeholder consultation, targeted survey)",
+   "outcomes": "legal certainty; compliance costs; licensing",
+   "direction": "positive with gaps",
+   "headline": "Rules largely meet objectives, providing legal certainty and lower compliance costs; problems applying market-share thresholds, the '4+' test and technology pools; data licensing not addressed",
+   "summary_plain": "The Commission's evaluation found the licensing safe harbour still useful, but out of date for early-stage technologies and data licensing.",
+   "period_geography": "EU, 2014-2023",
+   "quality": "Commission self-assessment based on stakeholder views",
+   "verified": "page summary via search",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20260711114357/https://competition-policy.ec.europa.eu/public-consultations/2023-technology-transfer_en"
+  },
+  {
+   "id": "ec-2026-ttber-ia",
+   "citation": "European Commission (2026), Impact Assessment accompanying the revised Technology Transfer Block Exemption Regulation and Guidelines (executive summary), SWD(2026) 116 (full IA SWD(2026) 114)",
+   "authors": "European Commission",
+   "year": 2026,
+   "title": "Impact Assessment accompanying the revised Technology Transfer Block Exemption Regulation and Guidelines (executive summary)",
+   "venue": "SWD(2026) 116 (full IA SWD(2026) 114)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026SC0116",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "compliance costs; licensing; SMEs",
+   "direction": "positive (forecast)",
+   "headline": "Preferred options to cut cost of applying market-share thresholds by 15-40% per agreement and data-licensing assessment costs by up to 33%; no new obligations on business",
+   "summary_plain": "For the replacement rules, the Commission expects firms' legal-assessment costs for licensing deals to fall by 15-40%.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast",
+   "verified": "full text read (executive summary)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  }
+ ]
+}

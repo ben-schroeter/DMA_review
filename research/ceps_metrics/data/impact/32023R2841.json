@@ -1,0 +1,104 @@
+{
+ "celex": "32023R2841",
+ "name": "Cybersecurity Regulation (EU institutions)",
+ "proposal": "52022PC0122",
+ "impact_assessment": "None (proposal states an impact assessment was not necessary)",
+ "evidence_rating": "thin: self-reported implementation monitoring plus a pre-regulation audit baseline; no independent assessment of outcomes",
+ "summary": "This regulation sets common cybersecurity rules for the EU's own institutions and agencies and strengthens their response team, CERT-EU. The board overseeing it reports that all 2025 milestones were met and serious incidents fell to 8 in 2025, though threats remain very high and staff numbers fall short. There is no independent assessment yet of whether EU bodies are actually more secure than when auditors found them poorly prepared in 2022.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "No impact assessment: the Commission judged one unnecessary because the rules apply only to EU institutions, bodies and agencies. Indicators below are from the proposal's financial statement (1.4.4); progress is reported annually by the Interinstitutional Cybersecurity Board (IICB)",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "LFS indicator (1.4.4)",
+   "objective": "Risk management frameworks",
+   "indicator": "Frameworks and baselines in place; regular maturity assessments and cybersecurity plans in all Union entities",
+   "target_or_baseline": "",
+   "evidence": "IICB 2025 report: Union entities set up risk-management frameworks and completed maturity and risk assessments; all milestones foreseen for 2025 completed on time. Aggregate maturity scores not published.",
+   "status": "reported as activity",
+   "sources": "IICB annual report 2025"
+  },
+  {
+   "type": "LFS indicator (1.4.4)",
+   "objective": "Incident handling",
+   "indicator": "Improved handling of incidents",
+   "target_or_baseline": "Baseline: significant incidents rose more than tenfold 2018-2021",
+   "evidence": "8 significant incidents confirmed for 2025 as of early November, fewer than in 2024; CERT-EU analysed over 800 malicious activities in depth; threat level 'very high'.",
+   "status": "partially measured",
+   "sources": "IICB annual report 2025; ECA SR 05/2022"
+  },
+  {
+   "type": "LFS indicator (1.4.4)",
+   "objective": "Resources",
+   "indicator": "Levelling ICT security spending as a share of overall ICT spending",
+   "target_or_baseline": "",
+   "evidence": "No spending share reported; IICB notes an internal assessment that cybersecurity staff would need to rise by about 75% by 2027, which may be hard to achieve.",
+   "status": "not measured",
+   "sources": "IICB annual report 2025"
+  },
+  {
+   "type": "LFS indicator (1.4.4)",
+   "objective": "Cooperation",
+   "indicator": "Information sharing and cooperation with ENISA and Member State bodies",
+   "target_or_baseline": "",
+   "evidence": "CERT-EU notified all significant incidents to national counterparts as required; participates in CSIRTs Network.",
+   "status": "reported as activity",
+   "sources": "IICB annual report 2025"
+  }
+ ],
+ "literature": [
+  {
+   "id": "eca-2022-euiba-cyber",
+   "citation": "European Court of Auditors (2022), Cybersecurity of EU institutions, bodies and agencies: Level of preparedness overall not commensurate with the threats, ECA Special Report 05/2022",
+   "authors": "European Court of Auditors",
+   "year": 2022,
+   "title": "Cybersecurity of EU institutions, bodies and agencies: Level of preparedness overall not commensurate with the threats",
+   "venue": "ECA Special Report 05/2022",
+   "url": "https://op.europa.eu/webpub/eca/special-reports/hack-proofing-eu-institutions-05-2022/en",
+   "pdf_url": "",
+   "source_type": "audit report",
+   "method": "performance audit (baseline)",
+   "outcomes": "cyber preparedness",
+   "direction": "negative (baseline)",
+   "headline": "Preparedness not commensurate with threats; very different maturity levels across bodies; significant incidents up more than tenfold 2018-2021; recommended binding rules and more resources for CERT-EU",
+   "summary_plain": "Before the regulation, the EU's auditors found EU bodies poorly and unevenly prepared for cyberattacks and called for binding rules - which this regulation introduced.",
+   "period_geography": "EU institutions, 2018-2021",
+   "quality": "independent audit; pre-regulation baseline",
+   "verified": "page summary via search",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20260313155014/https://op.europa.eu/webpub/eca/special-reports/hack-proofing-eu-institutions-05-2022/en/"
+  },
+  {
+   "id": "iicb-2025-annual-report",
+   "citation": "Interinstitutional Cybersecurity Board (IICB) (2025), IICB Annual Report 2025 on the implementation of Regulation (EU, Euratom) 2023/2841, IICB, adopted 16 December 2025",
+   "authors": "Interinstitutional Cybersecurity Board (IICB)",
+   "year": 2025,
+   "title": "IICB Annual Report 2025 on the implementation of Regulation (EU, Euratom) 2023/2841",
+   "venue": "IICB, adopted 16 December 2025",
+   "url": "https://www.cert.europa.eu/iicb/annual-report-2025/",
+   "pdf_url": "",
+   "source_type": "official implementation report",
+   "method": "self-reported implementation monitoring",
+   "outcomes": "frameworks; incidents; resources",
+   "direction": "positive (activity)",
+   "headline": "2025 milestones met on time; entities completed maturity and risk assessments; 8 significant incidents to early November 2025 (down from 2024); >800 malicious activities analysed; staffing would need to rise ~75% by 2027",
+   "summary_plain": "The board overseeing the rules reports that EU bodies met their 2025 deadlines and suffered fewer serious incidents, but warns that threats remain very high and staff are short.",
+   "period_geography": "EU institutions, 2025",
+   "quality": "self-assessment by the governing body",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20260928225406/https://cert.europa.eu/iicb/annual-report-2025/"
+  }
+ ]
+}
