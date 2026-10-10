@@ -1,0 +1,72 @@
+{
+ "celex": "32019L0789",
+ "name": "Satellite and Cable II Directive",
+ "proposal": "52016PC0594",
+ "impact_assessment": "SWD(2016) 301 (executive summary SWD(2016) 302)",
+ "evidence_rating": "none: qualitative forecasts only; no baseline data, no review report found and no independent studies found",
+ "summary": "The Directive aimed to make more TV and radio programmes available online across borders by simplifying copyright clearance for broadcasters' online services and for internet-based retransmission. The Commission promised to monitor cross-border availability but no data have been published, the review due in June 2025 has not been found, and no independent study has measured the effects.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "The proposal's financial statement has no indicators section; the memorandum promised baseline data collection at entry into force and monitoring of cross-border availability of TV and radio programmes every two to three years. Article 13 required a review report by 7 June 2025, which was not found published",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "monitoring promise (memorandum)",
+   "objective": "Cross-border access",
+   "indicator": "Cross-border availability of TV and radio programmes (incl. broadcasters' ancillary online services)",
+   "target_or_baseline": "baseline at entry into force",
+   "evidence": "No baseline or monitoring data found.",
+   "status": "not measured",
+   "sources": ""
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Transaction costs",
+   "indicator": "Lower rights-clearance costs for broadcasters' cross-border online services and for retransmission over closed networks (e.g. IPTV)",
+   "target_or_baseline": "",
+   "evidence": "Not quantified ex ante or measured ex post.",
+   "status": "not measured",
+   "sources": "SWD(2016) 301"
+  },
+  {
+   "type": "review question (Directive recital 24)",
+   "objective": "Consumers and creative sector",
+   "indicator": "Benefits for consumers, impact on creative industries and on investment in new content",
+   "target_or_baseline": "",
+   "evidence": "Review report not found.",
+   "status": "not measured",
+   "sources": ""
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2016-copyright-ia",
+   "citation": "European Commission (2016), Impact Assessment on the modernisation of EU copyright rules (executive summary SWD(2016) 302), SWD(2016) 301",
+   "authors": "European Commission",
+   "year": 2016,
+   "title": "Impact Assessment on the modernisation of EU copyright rules (executive summary SWD(2016) 302)",
+   "venue": "SWD(2016) 301",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52016SC0302",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante (qualitative)",
+   "outcomes": "rights-clearance costs; cross-border availability of broadcasts",
+   "direction": "positive (forecast, qualitative)",
+   "headline": "Country-of-origin principle for broadcasters' ancillary online services and mandatory collective management for retransmission over closed networks would reduce transaction costs and enhance cross-border distribution of and access to TV and radio programmes; benefits not quantified",
+   "summary_plain": "The Commission expected simpler copyright clearance to make more TV and radio programmes available online across borders, but did not put a number on the gain.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast; qualitative only; the adopted scope was narrowed to news, current affairs and fully financed own productions",
+   "verified": "full text read (executive summary)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  }
+ ]
+}

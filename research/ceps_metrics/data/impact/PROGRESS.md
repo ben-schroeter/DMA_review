@@ -129,3 +129,10 @@ Tier 3 — pending proposals and acts adopted 2024–2026 (impact assessment and
 - [x] 32002R0006 Community Design Regulation
 - [x] 32025R2645 Compulsory licensing of patents Regulation
 - [x] 52022PC0119 Information Security Regulation (proposal)
+- [x] 32021R0523 InvestEU Programme
+- [x] 32022D2481 Digital Decade Policy Programme Decision
+- [x] 32004L0048 IPR Enforcement Directive
+- [x] 52022PC0209 Child Sexual Abuse Regulation (CSAR, proposal)
+- [x] 32004L0048 IPR Enforcement Directive
+- [x] 32019L0789 Satellite and Cable II Directive
+- [x] 32022D2481 Digital Decade Policy Programme Decision
