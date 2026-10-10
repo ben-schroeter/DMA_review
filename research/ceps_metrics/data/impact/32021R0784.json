@@ -80,7 +80,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20250226073143/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52018SC0409"
+   "archive_url": "http://web.archive.org/web/20250226073143/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52018SC0409",
+   "category": "ex-ante assessment"
   },
   {
    "id": "ec-2024-tco-implementation",
@@ -103,7 +104,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260603022448/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52024DC0064"
+   "archive_url": "http://web.archive.org/web/20260603022448/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52024DC0064",
+   "category": "evidence"
   },
   {
    "id": "fra-2026-terrorist-content",
@@ -126,7 +128,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

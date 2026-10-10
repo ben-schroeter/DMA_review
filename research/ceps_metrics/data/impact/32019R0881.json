@@ -90,7 +90,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20231112102655/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52017SC0501"
+   "archive_url": "http://web.archive.org/web/20231112102655/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52017SC0501",
+   "category": "ex-ante assessment"
   },
   {
    "id": "ec-2026-csa-evaluation",
@@ -113,7 +114,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "ec-2026-csa2-ia",
@@ -136,7 +138,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "ex-ante assessment"
   }
  ],
  "evidence_level": "thin"

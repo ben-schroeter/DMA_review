@@ -80,7 +80,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "ex-ante assessment"
   },
   {
    "id": "ec-2025-dep-interim-cyber",
@@ -103,7 +104,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260120151444/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0771"
+   "archive_url": "http://web.archive.org/web/20260120151444/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0771",
+   "category": "evidence"
   },
   {
    "id": "eca-2025-ju-annual-2024",
@@ -126,7 +128,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

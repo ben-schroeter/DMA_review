@@ -60,7 +60,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20250921122905/https://www.eca.europa.eu/ECAPublications/OP-2023-02/OP-2023-02_EN.pdf"
+   "archive_url": "http://web.archive.org/web/20250921122905/https://www.eca.europa.eu/ECAPublications/OP-2023-02/OP-2023-02_EN.pdf",
+   "category": "evidence"
   },
   {
    "id": "ec-2025-dep-interim-evaluation",
@@ -83,7 +84,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   }
  ],
  "evidence_level": "ex-ante only"

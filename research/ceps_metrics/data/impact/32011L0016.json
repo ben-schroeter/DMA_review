@@ -80,7 +80,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "ec-2025-dac-evaluation",
@@ -103,7 +104,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "eca-2021-tax-exchange",
@@ -126,7 +128,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20250704043727/https://op.europa.eu/webpub/eca/special-reports/tax-03-2021/en/"
+   "archive_url": "http://web.archive.org/web/20250704043727/https://op.europa.eu/webpub/eca/special-reports/tax-03-2021/en/",
+   "category": "evidence"
   },
   {
    "id": "casi-spengel-stage-2020",
@@ -149,7 +152,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   }
  ],
  "evidence_level": "moderate"

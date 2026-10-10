@@ -80,7 +80,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20240714024358/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52016SC0302"
+   "archive_url": "http://web.archive.org/web/20240714024358/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52016SC0302",
+   "category": "ex-ante assessment"
   },
   {
    "id": "ec-2024-art17-6-assessment",
@@ -103,7 +104,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "calzada-gil-2020-news-aggregators",
@@ -126,7 +128,8 @@
    "access": "paywalled",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "athey-mobius-pal-2021-aggregators",
@@ -149,7 +152,8 @@
    "access": "open",
    "interested_party": "Data from Microsoft users; Athey and Mobius affiliated with Microsoft Research",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "jrc-2016-news-aggregation",
@@ -172,7 +176,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "adlc-2021-2024-google-neighbouring-rights",
@@ -195,7 +200,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "enforcement or case law"
   },
   {
    "id": "doseva-et-al-2022-uploaders",
@@ -218,7 +224,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260607102546/https://policyreview.info/articles/analysis/uploaders-perceptions-german-implementation-eu-copyright-reform"
+   "archive_url": "http://web.archive.org/web/20260607102546/https://policyreview.info/articles/analysis/uploaders-perceptions-german-implementation-eu-copyright-reform",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

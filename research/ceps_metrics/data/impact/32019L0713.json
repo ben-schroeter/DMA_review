@@ -80,7 +80,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20240706033523/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52017SC0299"
+   "archive_url": "http://web.archive.org/web/20240706033523/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52017SC0299",
+   "category": "ex-ante assessment"
   },
   {
    "id": "ec-2023-ncpfraud-transposition",
@@ -103,7 +104,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260215091959/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52023DC0363"
+   "archive_url": "http://web.archive.org/web/20260215091959/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52023DC0363",
+   "category": "evidence"
   },
   {
    "id": "eba-ecb-2024-payment-fraud",
@@ -126,7 +128,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20261001003502/https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.pr240801~f21cc4a009.en.html"
+   "archive_url": "http://web.archive.org/web/20261001003502/https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.pr240801~f21cc4a009.en.html",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

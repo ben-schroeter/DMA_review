@@ -70,7 +70,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260507090730/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52023SC0060"
+   "archive_url": "http://web.archive.org/web/20260507090730/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52023SC0060",
+   "category": "ex-ante assessment"
   },
   {
    "id": "lopez-bermudez-vence-2025-repair",
@@ -93,7 +94,8 @@
    "access": "paywalled",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   }
  ],
  "evidence_level": "ex-ante only"

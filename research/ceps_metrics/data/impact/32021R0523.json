@@ -70,7 +70,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "ex-ante assessment"
   },
   {
    "id": "ec-2024-investeu-interim-eval",
@@ -93,7 +94,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "eca-2025-efsi-sr07",
@@ -116,7 +118,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20250803150211/https://www.eca.europa.eu/ECAPublications/SR-2025-07/SR-2025-07_EN.pdf"
+   "archive_url": "http://web.archive.org/web/20250803150211/https://www.eca.europa.eu/ECAPublications/SR-2025-07/SR-2025-07_EN.pdf",
+   "category": "evidence"
   },
   {
    "id": "frayman-2026-efsi",
@@ -139,7 +142,8 @@
    "access": "paywalled",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   }
  ],
  "evidence_level": "moderate"

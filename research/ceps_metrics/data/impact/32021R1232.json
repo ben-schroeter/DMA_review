@@ -70,7 +70,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "ec-2025-csam-interim-report",
@@ -93,7 +94,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260829151130/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52025DC0740"
+   "archive_url": "http://web.archive.org/web/20260829151130/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52025DC0740",
+   "category": "evidence"
   },
   {
    "id": "edps-2026-opinion-7",
@@ -116,7 +118,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

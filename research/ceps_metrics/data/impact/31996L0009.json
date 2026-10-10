@@ -70,7 +70,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "ec-2018-database-evaluation",
@@ -93,7 +94,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "technopolis-jiip-2018-database-study",
@@ -116,7 +118,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "boyle-2004-database-experiment",
@@ -139,7 +142,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260803192909/https://law.duke.edu/boylesite/experiment.html"
+   "archive_url": "http://web.archive.org/web/20260803192909/https://law.duke.edu/boylesite/experiment.html",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

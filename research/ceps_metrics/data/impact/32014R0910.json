@@ -90,7 +90,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "ex-ante assessment"
   },
   {
    "id": "ec-2021-eidas-evaluation",
@@ -113,7 +114,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "ec-2021-eidas-evaluation-swd",
@@ -136,7 +138,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20241228111941/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021SC0130"
+   "archive_url": "http://web.archive.org/web/20241228111941/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021SC0130",
+   "category": "evidence"
   },
   {
    "id": "ec-2021-eidas-council-presentation",
@@ -159,7 +162,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "ec-2026-notified-eid-overview",
@@ -182,7 +186,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "lips-bharosa-draheim-2020",
@@ -205,7 +210,8 @@
    "access": "paywalled",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

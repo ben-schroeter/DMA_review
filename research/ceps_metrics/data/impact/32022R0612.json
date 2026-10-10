@@ -80,7 +80,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "ex-ante assessment"
   },
   {
    "id": "ec-2019-roaming-review",
@@ -103,7 +104,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "ec-2025-roaming-review",
@@ -126,7 +128,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260727101405/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0324"
+   "archive_url": "http://web.archive.org/web/20260727101405/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0324",
+   "category": "evidence"
   },
   {
    "id": "quinn-godinho-peukert-2024-rlah",
@@ -149,7 +152,8 @@
    "access": "paywalled",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "canzian-et-al-2025-price-caps",
@@ -172,7 +176,8 @@
    "access": "paywalled",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "grzybowski-munoz-2023-roaming",
@@ -195,7 +200,8 @@
    "access": "paywalled",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "boto-garcia-santana-2026-tourism",
@@ -218,7 +224,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   }
  ],
  "evidence_level": "strong"

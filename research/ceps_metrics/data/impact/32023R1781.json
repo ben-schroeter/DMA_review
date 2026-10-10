@@ -80,7 +80,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "eca-2025-chips",
@@ -103,7 +104,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260929052219/https://www.eca.europa.eu/en/publications/SR-2025-12"
+   "archive_url": "http://web.archive.org/web/20260929052219/https://www.eca.europa.eu/en/publications/SR-2025-12",
+   "category": "evidence"
   },
   {
    "id": "garcia-herrero-poitiers-2022",
@@ -126,7 +128,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

@@ -70,7 +70,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20240527030044/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52020SC0349"
+   "archive_url": "http://web.archive.org/web/20240527030044/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52020SC0349",
+   "category": "ex-ante assessment"
   },
   {
    "id": "ec-2025-x-dsa-fine",
@@ -93,7 +94,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "enforcement or case law"
   },
   {
    "id": "kaushal-et-al-2024",
@@ -116,7 +118,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260810112321/https://arxiv.org/abs/2404.02894"
+   "archive_url": "http://web.archive.org/web/20260810112321/https://arxiv.org/abs/2404.02894",
+   "category": "evidence"
   },
   {
    "id": "trujillo-fagni-cresci-2023",
@@ -139,7 +142,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

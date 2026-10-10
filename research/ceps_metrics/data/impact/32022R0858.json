@@ -70,7 +70,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260322014319/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52020SC0202"
+   "archive_url": "http://web.archive.org/web/20260322014319/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52020SC0202",
+   "category": "ex-ante assessment"
   },
   {
    "id": "esma-2025-dlt-review",
@@ -93,7 +94,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "ec-2025-misp-dlt",
@@ -116,7 +118,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260225043623/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025SC0943"
+   "archive_url": "http://web.archive.org/web/20260225043623/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025SC0943",
+   "category": "ex-ante assessment"
   }
  ],
  "evidence_level": "thin"

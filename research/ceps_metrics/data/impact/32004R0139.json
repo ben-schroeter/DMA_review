@@ -80,7 +80,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20210424031543/https://data.consilium.europa.eu/doc/document/ST-7792-2021-ADD-2/en/pdf"
+   "archive_url": "http://web.archive.org/web/20210424031543/https://data.consilium.europa.eu/doc/document/ST-7792-2021-ADD-2/en/pdf",
+   "category": "evidence"
   },
   {
    "id": "ec-2009-merger-report",
@@ -103,7 +104,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "verouden-et-al-2026-customer-savings",
@@ -126,7 +128,8 @@
    "access": "open",
    "interested_party": "Authored by Commission (DG Competition) staff assessing their own enforcement",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "duso-gugler-yurtoglu-2011",
@@ -149,7 +152,8 @@
    "access": "paywalled",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "genakos-valletti-verboven-2018",
@@ -172,7 +176,8 @@
    "access": "paywalled",
    "interested_party": "Valletti later served as DG Competition chief economist (2016-2019)",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "affeldt-et-al-2021-concentration",
@@ -195,7 +200,8 @@
    "access": "open (SSRN)",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "cunningham-ederer-ma-2021",
@@ -218,7 +224,8 @@
    "access": "paywalled",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "cjeu-2024-illumina",
@@ -241,7 +248,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260212201803/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A62022CJ0611"
+   "archive_url": "http://web.archive.org/web/20260212201803/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A62022CJ0611",
+   "category": "enforcement or case law"
   }
  ],
  "evidence_level": "moderate"

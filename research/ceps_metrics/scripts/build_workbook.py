@@ -197,9 +197,10 @@ for i, (r, m0) in enumerate(zip(rows, imap), start=2):
     _id = next((_imp_all[c] for c in cel if c in _imp_all), None)
     if _id:
         _ind = [x for x in _id["indicators"] if x["indicator"]]
+        _ev = [x for x in _id["literature"] if x.get("category", "evidence") == "evidence"]
         imp_vals = [_id.get("evidence_level"), _id["evidence_rating"], _id["summary"], len(_ind),
                     sum(1 for x in _ind if x.get("status_group", "not measured") != "not measured"),
-                    len(_id["literature"]), sum(1 for x in _id["literature"] if is_causal(x["method"]))]
+                    sum(1 for x in _ev), sum(1 for x in _ev if is_causal(x["method"]))]
     else:
         imp_vals = [None] * 7
     am = [a for a in da["amendments"] if a["parent"] in cel and a["kind"] == "amendment"]
@@ -308,7 +309,7 @@ wpi = wb.create_sheet("proposal_indicators")
 wpi.append(["parent_row_id", "parent_name", "proposal_celex", "type", "objective", "indicator / promised impact", "target or baseline",
             "evidence found", "status", "status_group", "sources"])
 wil = wb.create_sheet("impact_literature")
-wil.append(["parent_row_id", "parent_name", "id", "citation", "year", "source_type", "method", "outcomes", "direction", "headline finding",
+wil.append(["parent_row_id", "parent_name", "category", "id", "citation", "year", "source_type", "method", "outcomes", "direction", "headline finding",
             "plain-language summary", "period / geography", "quality notes", "interested party", "access", "verified", "accessed", "url",
             "pdf_url", "archive_url"])
 for c, d_ in _imp.items():
@@ -317,10 +318,10 @@ for c, d_ in _imp.items():
         wpi.append([int(rid) if rid else None, nm, d_["proposal"], x["type"], x["objective"], x["indicator"], x["target_or_baseline"],
                     x["evidence"], x["status"], x.get("status_group"), x["sources"]])
     for x in d_["literature"]:
-        wil.append([int(rid) if rid else None, nm, x.get("id"), x["citation"], x["year"], x["source_type"], x["method"], x["outcomes"],
+        wil.append([int(rid) if rid else None, nm, x.get("category"), x.get("id"), x["citation"], x["year"], x["source_type"], x["method"], x["outcomes"],
                     x["direction"], x["headline"], x.get("summary_plain"), x["period_geography"], x["quality"], x.get("interested_party"),
                     x.get("access"), x["verified"], x.get("accessed"), x["url"], x.get("pdf_url"), x.get("archive_url")])
-for w_, widths in ((wpi, [8, 22, 13, 18, 40, 45, 14, 70, 22, 16, 30]), (wil, [8, 22, 22, 60, 6, 18, 30, 25, 18, 60, 60, 18, 40, 30, 14, 14, 11, 40, 30, 40])):
+for w_, widths in ((wpi, [8, 22, 13, 18, 40, 45, 14, 70, 22, 16, 30]), (wil, [8, 22, 16, 22, 60, 6, 18, 30, 25, 18, 60, 60, 18, 40, 30, 14, 14, 11, 40, 30, 40])):
     style(w_, widths)
     for row in w_.iter_rows(min_row=2):
         for c_ in row:

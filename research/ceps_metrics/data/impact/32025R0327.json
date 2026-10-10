@@ -70,7 +70,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20240713074117/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52022SC0132"
+   "archive_url": "http://web.archive.org/web/20240713074117/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52022SC0132",
+   "category": "ex-ante assessment"
   },
   {
    "id": "marcus-et-al-2022-ehds",
@@ -93,7 +94,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "eit-health-2024-ehds-funding",
@@ -116,7 +118,8 @@
    "access": "open",
    "interested_party": "EIT Health network includes industry partners that would use health data",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20240521223823/https://www.researchprofessionalnews.com/rr-news-europe-innovation-2024-4-more-commitment-needed-for-european-health-data-space/"
+   "archive_url": "http://web.archive.org/web/20240521223823/https://www.researchprofessionalnews.com/rr-news-europe-innovation-2024-4-more-commitment-needed-for-european-health-data-space/",
+   "category": "evidence"
   },
   {
    "id": "ec-2025-myhealth-status",
@@ -139,7 +142,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   }
  ],
  "evidence_level": "ex-ante only"

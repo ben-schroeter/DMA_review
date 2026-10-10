@@ -70,7 +70,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260417022317/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020SC0172"
+   "archive_url": "http://web.archive.org/web/20260417022317/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020SC0172",
+   "category": "evidence"
   },
   {
    "id": "ec-2022-vber-ia",
@@ -93,7 +94,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20250419202236/https://competition-policy.ec.europa.eu/public-consultations/2018-vber_en"
+   "archive_url": "http://web.archive.org/web/20250419202236/https://competition-policy.ec.europa.eu/public-consultations/2018-vber_en",
+   "category": "ex-ante assessment"
   },
   {
    "id": "hunold-et-al-2018",
@@ -116,7 +118,8 @@
    "access": "paywalled",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "mantovani-piga-reggiani-2021",
@@ -139,7 +142,8 @@
    "access": "paywalled",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

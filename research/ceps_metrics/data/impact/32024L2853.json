@@ -70,7 +70,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20240519073228/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52022SC0317"
+   "archive_url": "http://web.archive.org/web/20240519073228/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52022SC0317",
+   "category": "ex-ante assessment"
   },
   {
    "id": "ec-2018-pld-evaluation",
@@ -93,7 +94,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260906162828/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52018SC0157"
+   "archive_url": "http://web.archive.org/web/20260906162828/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52018SC0157",
+   "category": "evidence"
   },
   {
    "id": "insurance-europe-2022-pld",
@@ -116,7 +118,8 @@
    "access": "open",
    "interested_party": "Insurance industry federation; members underwrite product liability risk",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   }
  ],
  "evidence_level": "ex-ante only"

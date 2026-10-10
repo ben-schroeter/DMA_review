@@ -60,7 +60,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260327203225/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52006DC0325"
+   "archive_url": "http://web.archive.org/web/20260327203225/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52006DC0325",
+   "category": "evidence"
   },
   {
    "id": "ec-2017-consumer-fitness-check",
@@ -83,7 +84,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "ec-2024-omnibus-report",
@@ -106,7 +108,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20251212002809/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52024DC0258"
+   "archive_url": "http://web.archive.org/web/20251212002809/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52024DC0258",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

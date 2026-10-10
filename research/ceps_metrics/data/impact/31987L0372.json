@@ -60,7 +60,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "gruber-verboven-2001-eu-diffusion",
@@ -83,7 +84,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "ec-2007-gsm-repeal-proposal",
@@ -106,7 +108,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20230804165404/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52007PC0367"
+   "archive_url": "http://web.archive.org/web/20230804165404/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52007PC0367",
+   "category": "ex-ante assessment"
   },
   {
    "id": "telecoms-2009-umts900",
@@ -129,7 +132,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20250122033910/https://www.telecoms.com/wireless-networking/eu-move-lends-helping-hand-to-umts900"
+   "archive_url": "http://web.archive.org/web/20250122033910/https://www.telecoms.com/wireless-networking/eu-move-lends-helping-hand-to-umts900",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

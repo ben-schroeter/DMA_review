@@ -70,7 +70,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20251106193711/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52012SC0329"
+   "archive_url": "http://web.archive.org/web/20251106193711/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52012SC0329",
+   "category": "ex-ante assessment"
   },
   {
    "id": "ec-2018-red-report",
@@ -93,7 +94,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20250911184710/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52018DC0740"
+   "archive_url": "http://web.archive.org/web/20250911184710/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52018DC0740",
+   "category": "evidence"
   },
   {
    "id": "ec-2024-red-report",
@@ -116,7 +118,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20240731080647/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52024DC0158"
+   "archive_url": "http://web.archive.org/web/20240731080647/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52024DC0158",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

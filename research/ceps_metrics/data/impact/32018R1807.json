@@ -90,7 +90,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20240606105617/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52017SC0304"
+   "archive_url": "http://web.archive.org/web/20240606105617/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52017SC0304",
+   "category": "ex-ante assessment"
   },
   {
    "id": "bauer-et-al-2016-ecipe",
@@ -113,7 +114,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260118033233/https://ecipe.org/publications/unleashing-internal-data-flows-in-the-eu/"
+   "archive_url": "http://web.archive.org/web/20260118033233/https://ecipe.org/publications/unleashing-internal-data-flows-in-the-eu/",
+   "category": "evidence"
   },
   {
    "id": "open-evidence-2026-ffd-eval-study",
@@ -136,7 +138,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "ec-2025-digital-omnibus-swd",
@@ -159,7 +162,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

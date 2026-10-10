@@ -90,7 +90,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20251206070935/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52017SC0474"
+   "archive_url": "http://web.archive.org/web/20251206070935/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52017SC0474",
+   "category": "ex-ante assessment"
   },
   {
    "id": "ec-2026-interop-state-of-play",
@@ -113,7 +114,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "ec-2026-eulisa-eval",
@@ -136,7 +138,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

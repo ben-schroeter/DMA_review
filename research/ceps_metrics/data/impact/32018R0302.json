@@ -80,7 +80,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "ex-ante assessment"
   },
   {
    "id": "ec-2020-geoblocking-review",
@@ -103,7 +104,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "alaveras-duchbrown-martens-2020-gbr",
@@ -126,7 +128,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "duchbrown-martens-2016-geoblocking",
@@ -149,7 +152,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260615014441/https://publications.jrc.ec.europa.eu/repository/handle/JRC101100"
+   "archive_url": "http://web.archive.org/web/20260615014441/https://publications.jrc.ec.europa.eu/repository/handle/JRC101100",
+   "category": "evidence"
   },
   {
    "id": "bourreau-manenti-2023-geoblocking",
@@ -172,7 +176,8 @@
    "access": "paywalled",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "eca-2025-geoblocking",
@@ -195,7 +200,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   }
  ],
  "evidence_level": "moderate"

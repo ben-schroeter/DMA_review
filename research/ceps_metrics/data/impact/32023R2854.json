@@ -80,7 +80,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20251123045340/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022SC0035"
+   "archive_url": "http://web.archive.org/web/20251123045340/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022SC0035",
+   "category": "ex-ante assessment"
   },
   {
    "id": "ec-2022-dataact-press",
@@ -103,7 +104,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "kerber-2023-iot-data",
@@ -126,7 +128,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "martens-2023-bruegel-dataact",
@@ -149,7 +152,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260927001100/https://www.bruegel.org/working-paper/pro-and-anti-competitive-provisions-proposed-european-union-data-act"
+   "archive_url": "http://web.archive.org/web/20260927001100/https://www.bruegel.org/working-paper/pro-and-anti-competitive-provisions-proposed-european-union-data-act",
+   "category": "evidence"
   },
   {
    "id": "cerre-2023-dataact",
@@ -172,7 +176,8 @@
    "access": "open",
    "interested_party": "CERRE is funded partly by industry members, including large digital firms",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260514230429/https://cerre.eu/publications/data-act-towards-a-balanced-eu-data-regulation/"
+   "archive_url": "http://web.archive.org/web/20260514230429/https://cerre.eu/publications/data-act-towards-a-balanced-eu-data-regulation/",
+   "category": "evidence"
   },
   {
    "id": "bitkom-2025-dataact-survey",
@@ -195,7 +200,8 @@
    "access": "open",
    "interested_party": "Bitkom is the German digital industry association and lobbied on the Act",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "ec-2025-digital-omnibus-dataact",
@@ -218,7 +224,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   }
  ],
  "evidence_level": "ex-ante only"

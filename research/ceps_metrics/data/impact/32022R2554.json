@@ -90,7 +90,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "ex-ante assessment"
   },
   {
    "id": "esas-2024-dora-dry-run",
@@ -113,7 +114,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20251122234947/https://www.eba.europa.eu/sites/default/files/2024-12/c1454b59-15cc-445e-be14-966e3338cedc/ESA%202024%2035%20DORA%20Dry%20Run%20exercise%20summary%20report%20for%20publication.pdf"
+   "archive_url": "http://web.archive.org/web/20251122234947/https://www.eba.europa.eu/sites/default/files/2024-12/c1454b59-15cc-445e-be14-966e3338cedc/ESA%202024%2035%20DORA%20Dry%20Run%20exercise%20summary%20report%20for%20publication.pdf",
+   "category": "evidence"
   },
   {
    "id": "esas-2025-ctpp-list",
@@ -136,7 +138,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260510102504/https://www.eiopa.europa.eu/european-supervisory-authorities-designate-critical-ict-third-party-providers-under-digital-2025-11-18_en"
+   "archive_url": "http://web.archive.org/web/20260510102504/https://www.eiopa.europa.eu/european-supervisory-authorities-designate-critical-ict-third-party-providers-under-digital-2025-11-18_en",
+   "category": "enforcement or case law"
   },
   {
    "id": "enisa-2024-nis-investments-dora",
@@ -159,7 +162,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20261001031158/https://www.enisa.europa.eu/publications/nis-investments-2024"
+   "archive_url": "http://web.archive.org/web/20261001031158/https://www.enisa.europa.eu/publications/nis-investments-2024",
+   "category": "evidence"
   },
   {
    "id": "rubrik-2025-dora-costs",
@@ -182,7 +186,8 @@
    "access": "open",
    "interested_party": "Rubrik sells data-resilience software marketed for DORA compliance",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260722070138/https://www.infosecurity-magazine.com/news/dora-compliance-costs-soar/"
+   "archive_url": "http://web.archive.org/web/20260722070138/https://www.infosecurity-magazine.com/news/dora-compliance-costs-soar/",
+   "category": "evidence"
   },
   {
    "id": "veeam-censuswide-2025-dora",
@@ -205,7 +210,8 @@
    "access": "open",
    "interested_party": "Veeam sells backup/resilience software",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260616055036/https://www.helpnetsecurity.com/2025/07/25/dora-compliance-challenges-financial-firms/"
+   "archive_url": "http://web.archive.org/web/20260616055036/https://www.helpnetsecurity.com/2025/07/25/dora-compliance-challenges-financial-firms/",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

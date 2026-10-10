@@ -1,6 +1,6 @@
 """Add canonical fields for filtering on the website and in the workbook:
-indicator `status_group` and instrument `evidence_level`. Free-text labels stay as written."""
-import glob, json, os
+indicator `status_group`, instrument `evidence_level` and source `category`. Free-text labels stay as written."""
+import glob, json, os, re
 from impact_record import OUT
 
 
@@ -23,10 +23,27 @@ def evidence_level(r):
     return "thin"
 
 
+EXANTE = re.compile(r"impact assessment|legislative proposal|commission proposal|explanatory note", re.I)
+ENFORCE = ("enforcement", "infringement", "legal ruling", "administrative record")
+
+
+def category(l):
+    """ex-ante assessment: grouped with the proposal's promises; enforcement or case law: kept in the record but not counted as impact evidence."""
+    st = l.get("source_type", "").lower()
+    if st == "court judgment" or (l.get("method", "").lower().startswith(ENFORCE) and "implementation" not in st):
+        return "enforcement or case law"
+    # later amending proposals (e.g. the 2025 Digital Omnibus) carry evaluation evidence, not the initial assessment
+    if EXANTE.search(st) and "omnibus" not in l.get("title", "").lower():
+        return "ex-ante assessment"
+    return "evidence"
+
+
 for f in sorted(glob.glob(os.path.join(OUT, "[35]*.json"))):
     rec = json.load(open(f))
     rec["evidence_level"] = evidence_level(rec["evidence_rating"])
     for i in rec["indicators"]:
         i["status_group"] = status_group(i["status"])
+    for l in rec["literature"]:
+        l["category"] = category(l)
     json.dump(rec, open(f, "w"), indent=1, ensure_ascii=False)
 print("normalised")

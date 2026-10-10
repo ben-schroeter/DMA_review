@@ -120,6 +120,10 @@ Results are in the `validation` sheet. Headline (final fresh sample): 84% of cou
   - method; outcomes; direction; headline finding; a plain-language summary; a quality note
   - a flag where the authors or funders have a stake in the result
   - `verified`, saying what was read: the full text, an abstract, or only a search summary
+  Each source also has a `category`:
+  - ex-ante assessment: the initial Commission impact assessment, or the proposal itself where there was none. Shown with the proposal's promises, not as evidence of impact.
+  - enforcement or case law: fines, non-compliance decisions, infringement procedures, enforcement sweeps, designations and court rulings. Kept in the record for reference, but not counted or shown as impact evidence.
+  - evidence: everything else (evaluations, audits, research, statistics). Only these count towards `n_impact_studies` and `n_causal_studies`.
   Shared sources (e.g. one impact assessment for PSD3 and the PSR, or a fitness check covering several directives) appear under each instrument with the same `id`.
 - Instrument summary columns:
   - `impact_evidence_level`: strong / moderate / thin / ex-ante only / none, derived from the free-text `impact_evidence_rating`

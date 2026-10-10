@@ -80,7 +80,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20261004172942/https://www.ivir.nl/publicaties/download/Infosoc_report_2007.pdf"
+   "archive_url": "http://web.archive.org/web/20261004172942/https://www.ivir.nl/publicaties/download/Infosoc_report_2007.pdf",
+   "category": "evidence"
   },
   {
    "id": "ec-2007-infosoc-application",
@@ -103,7 +104,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "ec-2016-copyright-ia",
@@ -126,7 +128,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20250411215956/https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:52016SC0301"
+   "archive_url": "http://web.archive.org/web/20250411215956/https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:52016SC0301",
+   "category": "ex-ante assessment"
   },
   {
    "id": "handke-guibault-vallbe-2015",
@@ -149,7 +152,8 @@
    "access": "open (SSRN)",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "zhang-2018-drm",
@@ -172,7 +176,8 @@
    "access": "paywalled",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

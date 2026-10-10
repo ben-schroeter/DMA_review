@@ -90,7 +90,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260403050307/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52021SC0190"
+   "archive_url": "http://web.archive.org/web/20260403050307/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52021SC0190",
+   "category": "ex-ante assessment"
   },
   {
    "id": "pol-2020-aml-effectiveness",
@@ -113,7 +114,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "slutzky-villamizar-williams-2026",
@@ -136,7 +138,8 @@
    "access": "paywalled",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "eba-2022-derisking-opinion",
@@ -159,7 +162,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260926054127/https://www.eba.europa.eu/publications-and-media/press-releases/eba-alerts-detrimental-impact-unwarranted-de-risking-and"
+   "archive_url": "http://web.archive.org/web/20260926054127/https://www.eba.europa.eu/publications-and-media/press-releases/eba-alerts-detrimental-impact-unwarranted-de-risking-and",
+   "category": "evidence"
   },
   {
    "id": "rice-vonpeter-boar-2020",
@@ -182,7 +186,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260606174214/https://www.bis.org/publ/qtrpdf/r_qt2003g.htm"
+   "archive_url": "http://web.archive.org/web/20260606174214/https://www.bis.org/publ/qtrpdf/r_qt2003g.htm",
+   "category": "evidence"
   },
   {
    "id": "eca-2021-aml-banking",
@@ -205,7 +210,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20251125175117/https://op.europa.eu/webpub/eca/special-reports/fight-money-laundering-13-2021/en/"
+   "archive_url": "http://web.archive.org/web/20251125175117/https://op.europa.eu/webpub/eca/special-reports/fight-money-laundering-13-2021/en/",
+   "category": "evidence"
   },
   {
    "id": "europol-2017-suspicion-action",
@@ -228,7 +234,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"

@@ -130,7 +130,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "ex-ante assessment"
   },
   {
    "id": "ec-2024-gdpr-report",
@@ -153,7 +154,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "jia-jin-wagman-2021",
@@ -176,7 +178,8 @@
    "access": "paywalled (NBER version open)",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260510200923/https://www.nber.org/papers/w25248"
+   "archive_url": "http://web.archive.org/web/20260510200923/https://www.nber.org/papers/w25248",
+   "category": "evidence"
   },
   {
    "id": "johnson-shriver-goldberg-2023",
@@ -199,7 +202,8 @@
    "access": "paywalled",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "goldberg-johnson-shriver-2024",
@@ -222,7 +226,8 @@
    "access": "paywalled",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "peukert-et-al-2022",
@@ -245,7 +250,8 @@
    "access": "paywalled",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "janssen-et-al-2022",
@@ -268,7 +274,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "frey-presidente-2024",
@@ -291,7 +298,8 @@
    "access": "paywalled",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "demirer-et-al-2024",
@@ -314,7 +322,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "aridor-che-salz-2023",
@@ -337,7 +346,8 @@
    "access": "paywalled (NBER version open)",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   }
  ],
  "evidence_level": "strong"

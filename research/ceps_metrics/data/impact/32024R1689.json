@@ -110,7 +110,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260212030150/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52021SC0085"
+   "archive_url": "http://web.archive.org/web/20260212030150/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52021SC0085",
+   "category": "ex-ante assessment"
   },
   {
    "id": "eurostat-ai-use-2025",
@@ -133,7 +134,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence"
   },
   {
    "id": "ai-omnibus-2026",
@@ -156,7 +158,8 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260616000131/https://www.addleshawgoddard.com/en/insights/insights-briefings/2026/technology/ai-omnibus-provisional-agreement-changes-eu-ai-act-delayed-deadlines/"
+   "archive_url": "http://web.archive.org/web/20260616000131/https://www.addleshawgoddard.com/en/insights/insights-briefings/2026/technology/ai-omnibus-provisional-agreement-changes-eu-ai-act-delayed-deadlines/",
+   "category": "evidence"
   },
   {
    "id": "appliedai-2022-startups",
@@ -179,7 +182,8 @@
    "access": "open",
    "interested_party": "Start-up and digital-industry associations",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260514221615/https://digitalpoland.org/en/blog/2022/12/artificial-intelligence-act-will-reduce-the-competitiveness-of-the-european-ai-ecosystem"
+   "archive_url": "http://web.archive.org/web/20260514221615/https://digitalpoland.org/en/blog/2022/12/artificial-intelligence-act-will-reduce-the-competitiveness-of-the-european-ai-ecosystem",
+   "category": "evidence"
   }
  ],
  "evidence_level": "thin"
