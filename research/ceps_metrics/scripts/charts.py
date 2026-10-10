@@ -295,3 +295,71 @@ fig.text(0.01, 0.01, "Same automated counter for both; precision 84% on EU acts,
          "SOX words = enacted text; EU words = articles + annexes (recitals excluded).", fontsize=8, color=MUTED)
 fig.subplots_adjust(left=0.22, right=0.95, top=0.82, bottom=0.14)
 fig.savefig(OUT + "09_benchmark_sox.png", facecolor=SURF); plt.close(fig); print("wrote 09_benchmark_sox.png")
+
+# 10. EU vs US counterparts (11 fair / usable pairs) with the Sarbanes-Oxley benchmark
+try:
+    _pairs = [p for p in _json.load(open("../data/us_map/us_comparison.json")) if p.get("included")]
+except FileNotFoundError:
+    _pairs = []
+if _pairs:
+    SHORT = {"Data protection by EU institutions Regulation": "EU institutions data protection → Privacy Act",
+             "E-evidence Regulation": "E-evidence → CLOUD Act",
+             "Cybersecurity Regulation (EU institutions)": "EU institutions cybersecurity → FISMA",
+             "Open Data Directive (PSI)": "Open Data → OPEN Government Data Act",
+             "European Chips Act": "Chips Act → CHIPS Act",
+             "General Data Protection Regulation": "GDPR → CCPA (California)",
+             "Toys Safety Regulation": "Toy Safety Reg. 2025 → CPSIA",
+             "Trade Secrets Directive": "Trade Secrets → Defend Trade Secrets Act",
+             "Toys Safety Directive": "Toy Safety Dir. 2009 → CPSIA",
+             "General Product Safety Regulation": "Product Safety → Cons. Product Safety Act",
+             "Unfair Commercial Practices Directive": "Unfair Commercial Practices → FTC Act §5"}
+    _pairs.sort(key=lambda p: p["ratio_restrictions_eu_to_us"])
+    sox = _json.load(open("../data/benchmark_sox.json"))["all_text"]
+    eu_all_mean = statistics.mean(r["restrictions_total"] for r in inst)
+    eu_all_dens = statistics.median(1000 * r["restrictions_total"] / max(1, (r["words_articles"] or 0) + (r["words_annexes"] or 0)) for r in inst)
+    EUC, USC, SOXC = CAT[0], CAT[1], CAT[6]
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(13, 6.6), dpi=160, sharey=True, gridspec_kw={"width_ratios": [1.25, 1]})
+    fig.patch.set_facecolor(SURF)
+    y = list(range(len(_pairs)))
+    for ax, ek, uk, ref, reflab, allv, alllab, title in (
+            (ax1, "eu_restrictions", "us_restrictions", sox["restrictions_total"], "Sarbanes-Oxley", eu_all_mean, "average EU act",
+             "Restrictions per act"),
+            (ax2, "eu_per_1000", "us_per_1000", sox["per_1000_words"], "Sarbanes-Oxley", eu_all_dens, "median EU act",
+             "Restrictions per 1,000 words")):
+        ax.set_facecolor(SURF)
+        for yi, p in zip(y, _pairs):
+            ax.plot([p[uk], p[ek]], [yi, yi], color=BASE, lw=2, solid_capstyle="round", zorder=2)
+        ax.scatter([p[uk] for p in _pairs], y, s=70, color=USC, edgecolor=SURF, linewidth=2, zorder=3, label="US counterpart")
+        ax.scatter([p[ek] for p in _pairs], y, s=70, color=EUC, edgecolor=SURF, linewidth=2, zorder=4, label="EU act")
+        ax.axvline(ref, color=SOXC, lw=1.4, ls=(0, (5, 3)), zorder=1)
+        _sox_right = ref >= allv            # put the two reference labels on opposite sides so they never collide
+        ax.text(ref + (1 if _sox_right else -1) * ax.get_xlim()[1] * 0, len(y) - 0.35, f" {reflab}\n {ref:g}" if _sox_right else f"{reflab} \n{ref:g} ",
+                color=SOXC, fontsize=8.5, ha="left" if _sox_right else "right", va="bottom", weight="bold")
+        ax.axvline(allv, color=MUTED, lw=1.2, ls=(0, (1, 2.5)), zorder=1)
+        _v = f"{allv:.0f}" if ek == "eu_restrictions" else f"{allv:.1f}"
+        ax.text(allv, len(y) - 0.35, f"{alllab} \n(all 105) {_v} " if _sox_right else f" {alllab}\n (all 105) {_v}",
+                color=INK2, fontsize=8.5, ha="right" if _sox_right else "left", va="bottom")
+        ax.set_title(title, loc="left", fontsize=12, color=INK, weight="bold", pad=34)
+        ax.xaxis.grid(True, color=GRID, lw=0.8); ax.set_axisbelow(True)
+        for s in ("top", "right", "left"):
+            ax.spines[s].set_visible(False)
+        ax.spines["bottom"].set_color(BASE); ax.tick_params(colors=MUTED, length=0, labelsize=9)
+        ax.set_xlim(0, max(max(p[ek] for p in _pairs), ref) * 1.12)
+        ax.set_ylim(-0.6, len(y) - 0.4)
+    ax1.set_yticks(y); ax1.set_yticklabels([SHORT.get(p["eu_instrument"], p["eu_instrument"]) for p in _pairs], color=INK2, fontsize=9.5)
+    # ratio column
+    for yi, p in zip(y, _pairs):
+        ax2.text(1.02, yi, f"×{p['ratio_restrictions_eu_to_us']:.1f}", transform=ax2.get_yaxis_transform(), va="center", fontsize=9.5, color=INK)
+    ax2.text(1.02, len(y) - 0.35, "EU ÷ US\n(per act)", transform=ax2.get_yaxis_transform(), va="bottom", fontsize=8.5, color=INK2)
+    h, l = ax1.get_legend_handles_labels()
+    fig.legend(h[::-1], l[::-1], loc="upper left", bbox_to_anchor=(0.01, 0.905), ncol=2, frameon=False, labelcolor=INK2, fontsize=9.5)
+    med = statistics.median(p["ratio_restrictions_eu_to_us"] for p in _pairs)
+    _denser = sum(p["eu_per_1000"] > p["us_per_1000"] for p in _pairs)
+    fig.suptitle("EU digital acts carry about twice the restrictions of their US counterparts", x=0.01, ha="left",
+                 fontsize=15, color=INK, weight="bold", y=0.99)
+    fig.text(0.01, 0.935, f"{len(_pairs)} matched pairs: the EU act has more restrictions in every one (median ×{med:.1f}) and is denser in {_denser} of {len(_pairs)}. "
+             "Sarbanes-Oxley and all 105 adopted EU acts shown for reference.", fontsize=10, color=INK2)
+    fig.text(0.01, 0.012, "Same automated counter throughout; precision 84% on EU acts, 80% on these US texts, 68% on SOX. EU words = articles + annexes; "
+             "US words include text inserted into the US Code. GDPR's counterpart is a state law.", fontsize=8, color=MUTED)
+    fig.subplots_adjust(left=0.245, right=0.925, top=0.78, bottom=0.1, wspace=0.08)
+    fig.savefig(OUT + "10_eu_vs_us_counterparts.png", facecolor=SURF); plt.close(fig); print("wrote 10_eu_vs_us_counterparts.png")
