@@ -5,7 +5,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from impact_record import OUT, TODAY, wayback
 
 KEYS = ["id", "authors", "year", "title", "venue", "url", "pdf_url", "source_type", "method", "outcomes", "direction",
-        "headline", "summary_plain", "period_geography", "quality", "verified", "access", "interested_party"]
+        "headline", "summary_plain", "period_geography", "quality", "verified", "access", "interested_party", "source_class"]
 norm = lambda t: re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()
 added, skipped, none = {}, [], []
 for f in sorted(glob.glob(os.path.join(OUT, "additions", "found_*.json"))):

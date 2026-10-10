@@ -34,3 +34,9 @@ period_geography, quality (one short line: design strength, caveats), verified, 
 Also include one extra object per act where you found nothing: `{"celex": "...", "none_found": true, "searched": "short note of what you searched"}`.
 
 When done, reply with a short summary: per act, number of new studies (and how many causal designs), plus anything notable.
+
+## Addendum (2026-10-10): think tank pieces
+Also search think tanks and policy institutes for pieces assessing the act's effects since adoption, for example Bruegel, CEPS, CERRE, ECIPE, CEP (Centrum für Europäische Politik), Kiel Institute, ifo, ZEW policy briefs, DIW, IW Köln, Centre for European Reform, Lisbon Council, EPC, Jacques Delors Institute, Breughel-style national institutes, ITIF, Brookings, PIIE, CSIS, Ada Lovelace Institute, AlgorithmWatch, Future of Life Institute, Stiftung Neue Verantwortung / interface, Mercatus, Copenhagen Economics or Oxera studies.
+- Include them if they assess what has happened under the act (with data, case evidence or a structured qualitative assessment). Exclude pure opinion on the proposal or forecasts.
+- Add a key `source_class` to EVERY object you output (including academic ones already found): "academic" (peer-reviewed or university/research-institute working paper), "official" (EU institutions, agencies, national authorities, OECD/IMF/BIS), "think tank" (independent policy institutes and NGOs' research), or "consultancy or industry" (consultancies, trade associations, companies). Set `source_type` for think tank pieces to "think tank report" or "think tank policy brief".
+- Fill `interested_party` for think tanks with known funders or positions on the act where clear (e.g. industry-funded, campaigning NGO).
