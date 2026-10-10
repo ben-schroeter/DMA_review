@@ -7,7 +7,7 @@ indicators = [
      "Not measured. The Commission's implementation study (announced with the Digital Omnibus) was not yet published; the Omnibus proposes repealing the DGA and moving its rules into the Data Act.",
      "not measured", "SWD(2020) 295/296; COM(2025) 837"),
  ind("expected result", "Trusted data intermediaries", "Uptake of notified data intermediation services", "",
-     "Measured (activity): the EU register lists 38 data intermediation services notified in 10 Member States (page updated August 2026), concentrated in France (12) and the Netherlands (11); in 2024 only one was listed. The Commission itself calls the market 'emerging' and proposes making the regime voluntary.",
+     "Measured (activity): the EU register lists 38 data intermediation services notified in 10 Member States (page updated August 2026), concentrated in France (12) and the Netherlands (11). The Commission itself calls the market 'emerging' and proposes making the regime voluntary.",
      "reported as activity", "Commission register of data intermediation services; COM(2025) 837"),
  ind("expected result", "Data altruism", "Recognised data altruism organisations", "",
      "Measured (activity): 7 recognised organisations in 4 Member States (register updated July 2026).", "reported as activity", "Commission register of data altruism organisations"),

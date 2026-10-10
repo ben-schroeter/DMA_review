@@ -29,7 +29,6 @@ Tier 3 — pending proposals and acts adopted 2024–2026 (impact assessment and
 - [x] 32022R0612 Roaming Regulation
 - [x] 32004R0139 EC Merger Regulation
 - [x] 32011L0083 Consumer Rights Directive
-- [x] 32005L0029 Unfair Commercial Practices Directive
 - [x] 32015R2120 Open Internet Access Regulation
 - [x] 32019R1150 Platform-to-Business (P2B) Regulation
 - [x] 32019R0452 FDI Screening Regulation
@@ -38,4 +37,3 @@ Tier 3 — pending proposals and acts adopted 2024–2026 (impact assessment and
 - [x] 32021R0695 Horizon Europe
 - [x] 32019L1024 Open Data Directive (PSI)
 - [x] 32022R0868 Data Governance Act
-- [x] 32023R2854 Data Act
