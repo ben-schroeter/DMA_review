@@ -1,0 +1,104 @@
+{
+ "celex": "32024R1781",
+ "name": "Ecodesign for Sustainable Products Regulation",
+ "proposal": "52022PC0142",
+ "impact_assessment": "SWD(2022) 82 (executive summary SWD(2022) 83)",
+ "evidence_rating": "ex-ante only: framework law, product rules not yet adopted; forecasts largely unquantified",
+ "summary": "This framework law lets the EU set durability, repairability, recycled-content and digital-passport rules for almost any product. The Commission said it could save energy by 2030 roughly equal to EU imports of Russian gas, but its impact assessment did not quantify overall costs and benefits. Apart from a ban on destroying unsold clothes (from July 2026), product rules are still being prepared, so there is no evidence of impact yet.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "LFS indicator",
+   "objective": "Product sustainability",
+   "indicator": "Number of product groups covered by delegated acts",
+   "target_or_baseline": "",
+   "evidence": "First ESPR working plan (April 2025) prioritises steel, aluminium, textiles, furniture, tyres and others, with indicative adoption 2026-2028; ban on destroying unsold apparel and footwear applies to large firms from 19 July 2026. No product-specific ESPR requirements yet in force.",
+   "status": "reported as activity",
+   "sources": "Commission working plan 2025-2030 (secondary reports)"
+  },
+  {
+   "type": "LFS indicator",
+   "objective": "Product sustainability",
+   "indicator": "Change in GHG and pollutant emissions; energy, water and material efficiency of regulated products",
+   "target_or_baseline": "",
+   "evidence": "Not measured; depends on future delegated acts.",
+   "status": "not measured",
+   "sources": ""
+  },
+  {
+   "type": "LFS indicator",
+   "objective": "Circularity",
+   "indicator": "Product lifetime; recycled content; circular material use rate",
+   "target_or_baseline": "",
+   "evidence": "Eurostat publishes the circular material use rate, but no attribution to ESPR.",
+   "status": "not measured",
+   "sources": ""
+  },
+  {
+   "type": "LFS indicator",
+   "objective": "Sustainable business models",
+   "indicator": "Value added, investment and jobs in recycling, repair and re-use; green public procurement share; consumer cost impacts",
+   "target_or_baseline": "",
+   "evidence": "Not tracked against ESPR.",
+   "status": "not measured",
+   "sources": ""
+  },
+  {
+   "type": "expected impact (Commission)",
+   "objective": "Energy savings",
+   "indicator": "Primary energy savings by 2030 (ecodesign scope)",
+   "target_or_baseline": "132 Mtoe, ~150 bcm gas (reported)",
+   "evidence": "Not evaluated; evaluation due eight years after application.",
+   "status": "not measured",
+   "sources": "Commission 2022 announcement as reported by INFORSE-Europe"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2022-espr-ia",
+   "citation": "European Commission (2022), Impact Assessment accompanying the proposal for an Ecodesign for Sustainable Products Regulation (executive summary SWD(2022) 83), SWD(2022) 82",
+   "authors": "European Commission",
+   "year": 2022,
+   "title": "Impact Assessment accompanying the proposal for an Ecodesign for Sustainable Products Regulation (executive summary SWD(2022) 83)",
+   "venue": "SWD(2022) 82",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022SC0083",
+   "pdf_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52022SC0083",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "environment; consumer costs; business costs",
+   "direction": "positive (forecast, qualitative)",
+   "headline": "Framework design means costs and benefits cannot be identified precisely; expects significant GHG reductions and market greening, some costs passed to consumers but offset by long-run savings; each delegated act to have its own IA (RSB first gave a negative opinion)",
+   "summary_plain": "The Commission expected greener, longer-lasting products and lower emissions, but said overall costs and benefits could only be estimated when rules for each product are set.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast; largely unquantified",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": "http://web.archive.org/web/20251212160049/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52022SC0083"
+  },
+  {
+   "id": "inforse-2022-espr",
+   "citation": "INFORSE-Europe (2022), EU Ecodesign for Sustainable Products proposal (summary page), INFORSE-Europe",
+   "authors": "INFORSE-Europe",
+   "year": 2022,
+   "title": "EU Ecodesign for Sustainable Products proposal (summary page)",
+   "venue": "INFORSE-Europe",
+   "url": "https://inforse.org/europe/eu_ecodesign_sust_products.htm",
+   "pdf_url": "",
+   "source_type": "NGO summary of Commission figures",
+   "method": "secondary report",
+   "outcomes": "energy savings",
+   "direction": "positive (forecast)",
+   "headline": "Reports Commission estimate that the framework could deliver 132 Mtoe primary energy savings by 2030, about 150 bcm of gas, nearly equal to EU imports of Russian gas",
+   "summary_plain": "The Commission said the ecodesign framework could save energy by 2030 roughly equal to the EU's imports of Russian gas.",
+   "period_geography": "EU, to 2030",
+   "quality": "secondary report of Commission forecast",
+   "verified": "page summary via search",
+   "access": "open",
+   "interested_party": "Environmental NGO network advocating energy-efficiency policy",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  }
+ ]
+}

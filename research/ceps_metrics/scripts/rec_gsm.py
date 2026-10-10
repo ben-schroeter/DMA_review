@@ -18,7 +18,7 @@ literature = [
      "peer-reviewed", "logistic diffusion model, EU countries", "mobile diffusion", "positive",
      "Transition from analogue to digital in the early 1990s, with the increase in spectrum capacity, had a major impact on diffusion; competition also significant; late-licensing countries catch up",
      "Across the EU, the switch to digital mobile (GSM) and the extra spectrum it brought were the main drivers of mobile phone take-up in the 1990s.",
-     "EU, 1984-1997", "correlational; cannot separate the Directive from the technology", "abstract read"),
+     "EU, 1980s-1990s", "correlational; cannot separate the Directive from the technology", "abstract read"),
  lit("ec-2007-gsm-repeal-proposal", "European Commission", 2007, "Proposal for a Directive repealing Council Directive 87/372/EEC (GSM Directive)", "COM(2007) 367", EU + "52007PC0367",
      "Commission proposal (impact statement)", "ex-ante (CEPT technical studies; no quantified IA in the text)", "spectrum flexibility; rural coverage", "positive (forecast)",
      "Reserving 900 MHz exclusively for GSM blocks more advanced systems such as UMTS; the band's propagation allows cheaper coverage of rural areas; CEPT found UMTS can coexist with GSM",

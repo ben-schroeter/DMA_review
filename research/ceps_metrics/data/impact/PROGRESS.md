@@ -77,3 +77,13 @@ Tier 3 — pending proposals and acts adopted 2024–2026 (impact assessment and
 - [x] 31987L0372 Frequency Bands Directive (GSM)
 - [x] 52023PC0533 Late Payment Regulation
 - [x] 32021R0887 European Cybersecurity Competence Centre
+- [x] 32024R1781 Ecodesign for Sustainable Products Regulation
+- [x] 32025R0038 Cyber Solidarity Act
+- [x] 32024R2747 Single Market Emergency Instrument (IMERA)
+- [x] 52023PC0533 Late Payment Regulation
+- [x] 31987L0372 Frequency Bands Directive (GSM)
+- [x] 32024R2847 Cyber Resilience Act
+- [x] 32024L1385 Violence Against Women Directive
+- [x] 32017L1132 Company Law Directive
+- [x] 31993L0013 Unfair Contract Terms Directive
+- [x] 52023PC0533 Late Payment Regulation

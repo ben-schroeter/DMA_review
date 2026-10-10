@@ -1,0 +1,104 @@
+{
+ "celex": "32024R2847",
+ "name": "Cyber Resilience Act",
+ "proposal": "52022PC0454",
+ "impact_assessment": "SWD(2022) 282 (executive summary SWD(2022) 283)",
+ "evidence_rating": "ex-ante only: obligations apply 2026-27; one readiness survey by an interested party",
+ "summary": "The Commission forecast that mandatory security rules for connected products and software would cut the cost of cyber incidents for businesses by EUR 180-290 billion a year, against compliance costs of up to EUR 29 billion. The main requirements apply only from December 2027. An open-source industry survey in 2025 found low awareness and readiness, but no study has measured effects on security or costs.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "LFS indicator",
+   "objective": "Secure products throughout their life cycle",
+   "indicator": "Significant incidents caused by vulnerabilities; share of manufacturers with secure development life cycle; patch frequency and time-to-patch",
+   "target_or_baseline": "",
+   "evidence": "Reporting obligations apply from Sept 2026 and main requirements from Dec 2027; no measurement yet. A 2025 survey found most open-source respondents unfamiliar with the Act and few manufacturers producing SBOMs.",
+   "status": "not measured",
+   "sources": "Lawson & Hendrick 2025"
+  },
+  {
+   "type": "LFS indicator",
+   "objective": "Coherent framework",
+   "indicator": "Absence of product-specific national cybersecurity legislation",
+   "target_or_baseline": "",
+   "evidence": "Not assessed.",
+   "status": "not measured",
+   "sources": ""
+  },
+  {
+   "type": "LFS indicator",
+   "objective": "Transparency and secure use",
+   "indicator": "Share of products shipped with security information and secure-use instructions",
+   "target_or_baseline": "",
+   "evidence": "Not measured.",
+   "status": "not measured",
+   "sources": ""
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Fewer cyber incidents",
+   "indicator": "Reduction in incident costs for businesses",
+   "target_or_baseline": "EUR 180-290bn a year",
+   "evidence": "Not evaluated; Commission report due 36 months after application.",
+   "status": "not measured",
+   "sources": "SWD(2022) 283"
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Compliance costs",
+   "indicator": "Aggregate compliance costs for manufacturers",
+   "target_or_baseline": "up to ~EUR 29bn (market value up to EUR 1,485bn)",
+   "evidence": "Not measured.",
+   "status": "not measured",
+   "sources": "SWD(2022) 283"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2022-cra-ia",
+   "citation": "European Commission (2022), Impact Assessment accompanying the Cyber Resilience Act proposal (executive summary SWD(2022) 283), SWD(2022) 282",
+   "authors": "European Commission",
+   "year": 2022,
+   "title": "Impact Assessment accompanying the Cyber Resilience Act proposal (executive summary SWD(2022) 283)",
+   "venue": "SWD(2022) 282",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022SC0283",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "incident costs; compliance costs; prices",
+   "direction": "positive (forecast)",
+   "headline": "Incident costs for businesses reduced by roughly EUR 180-290bn a year; compliance costs up to about EUR 29bn; possible higher prices for users; SMEs more affected as manufacturers",
+   "summary_plain": "The Commission expected the Act to cut the cost of cyber incidents for firms by EUR 180-290 billion a year, against compliance costs of up to EUR 29 billion.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  },
+  {
+   "id": "lawson-hendrick-2025-cra",
+   "citation": "Lawson & Hendrick (2025), Unaware and Uncertain: The Stark Realities of Cyber Resilience Act Readiness in Open Source, Linux Foundation Research (with OpenSSF and LF Europe)",
+   "authors": "Lawson & Hendrick",
+   "year": 2025,
+   "title": "Unaware and Uncertain: The Stark Realities of Cyber Resilience Act Readiness in Open Source",
+   "venue": "Linux Foundation Research (with OpenSSF and LF Europe)",
+   "url": "https://www.linuxfoundation.org/research/cra-readiness",
+   "pdf_url": "",
+   "source_type": "industry survey report",
+   "method": "survey (descriptive)",
+   "outcomes": "awareness; readiness; SBOM use",
+   "direction": "negative (readiness gaps)",
+   "headline": "Most respondents unfamiliar with the CRA (62% not at all or only slightly familiar), uncertain about deadlines and penalties; manufacturers rely passively on upstream fixes and few produce SBOMs; calls for funding, legal support and clear guidance",
+   "summary_plain": "A 2025 survey of the open-source community found most people knew little about the Act and many manufacturers were not ready.",
+   "period_geography": "global open-source community, 2024-25",
+   "quality": "non-random survey",
+   "verified": "abstract read",
+   "access": "open",
+   "interested_party": "Linux Foundation and OpenSSF represent open-source projects and member companies directly affected by the CRA",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  }
+ ]
+}

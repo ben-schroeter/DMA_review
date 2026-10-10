@@ -1,0 +1,63 @@
+{
+ "celex": "32024R2747",
+ "name": "Single Market Emergency Instrument (IMERA)",
+ "proposal": "52022PC0459",
+ "impact_assessment": "SWD(2022) 289 (executive summary SWD(2022) 290)",
+ "evidence_rating": "ex-ante only: unquantified forecasts; applies from May 2026 and never yet activated",
+ "summary": "The instrument gives the EU powers to keep goods, services and people moving in a crisis and, as a last resort, to request information from firms or prioritise orders for crisis goods. The Commission's impact assessment described the benefits only in general terms and flagged costs for businesses. It has applied only since May 2026 and has not been activated, so there is no evidence on its effects.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "The LFS lists no quantified indicators: it promises a Commission evaluation five years after application and regular monitoring of the effect of free-movement measures, information requests and strategic reserves",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "LFS objective",
+   "objective": "Minimise obstacles to free movement in crises",
+   "indicator": "Fewer and better-coordinated national crisis restrictions",
+   "target_or_baseline": "",
+   "evidence": "Regulation applies from 29 May 2026; no vigilance or emergency mode activated and no data found.",
+   "status": "not measured",
+   "sources": ""
+  },
+  {
+   "type": "LFS objective",
+   "objective": "Safeguard availability of crisis-relevant goods and services",
+   "indicator": "Availability of crisis-relevant products during emergencies",
+   "target_or_baseline": "",
+   "evidence": "No crisis activation yet; not measured.",
+   "status": "not measured",
+   "sources": ""
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2022-smei-ia",
+   "citation": "European Commission (2022), Impact Assessment accompanying the Single Market Emergency Instrument proposal (executive summary SWD(2022) 290), SWD(2022) 289",
+   "authors": "European Commission",
+   "year": 2022,
+   "title": "Impact Assessment accompanying the Single Market Emergency Instrument proposal (executive summary SWD(2022) 290)",
+   "venue": "SWD(2022) 289",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022SC0290",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "free movement in crises; supply of crisis-relevant goods; business costs",
+   "direction": "positive (forecast, qualitative)",
+   "headline": "Benefits described qualitatively (fewer obstacles to free movement, better availability of crisis goods); costs for firms from information requests, ramp-up obligations and priority-rated orders; SMEs could be hit by mandatory information requests; no headline monetised figures",
+   "summary_plain": "The Commission expected better crisis coordination and supply of essential goods but did not put a figure on the benefits, and warned that information requests and priority orders could burden firms.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast; unquantified",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  }
+ ]
+}
