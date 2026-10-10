@@ -136,3 +136,4 @@ Tier 3 — pending proposals and acts adopted 2024–2026 (impact assessment and
 - [x] 32004L0048 IPR Enforcement Directive
 - [x] 32019L0789 Satellite and Cable II Directive
 - [x] 32022D2481 Digital Decade Policy Programme Decision
+- [x] 52022PC0209 Child Sexual Abuse Regulation (CSAR, proposal)
