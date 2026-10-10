@@ -43,3 +43,4 @@ Tier 3 — pending proposals and acts adopted 2024–2026 (impact assessment and
 - [x] 32011L0016 Administrative cooperation in taxation (DAC)
 - [x] 32022R2554 Digital Operational Resilience Act (DORA)
 - [x] 32018L1972 European Electronic Communications Code
+- [x] 32012R1025 European Standardisation Regulation
