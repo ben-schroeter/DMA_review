@@ -1,0 +1,86 @@
+{
+ "celex": "32002L0058",
+ "name": "ePrivacy Directive",
+ "proposal": "52000PC0385",
+ "impact_assessment": "none (2000 proposal); REFIT evaluation SWD(2017) 5",
+ "evidence_rating": "moderate: one influential peer-reviewed causal study; Commission evaluation with acknowledged data gaps",
+ "summary": "The ePrivacy Directive set no measurable targets. The Commission's own 2017 evaluation found its cookie-consent rule had not given users real control and was over-inclusive, at around EUR 658 compliance cost per business. Independent research found the EU tracking rules made online display advertising markedly less effective, especially for news sites. The proposed ePrivacy Regulation meant to fix this was withdrawn in 2025.",
+ "last_reviewed": "2026-10-10",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "2000 proposal (COM(2000) 385) predates standard indicators sections; no quantified objectives or indicators were set",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "expected impact (evaluation criteria)",
+   "objective": "Confidentiality of communications / user control (cookie rule)",
+   "indicator": "Effectiveness of consent rules",
+   "target_or_baseline": "",
+   "evidence": "Commission REFIT evaluation (2017): cookie rule 'not fully effective' - users accept tracking without understanding it, some cookies set without consent; rule also over-inclusive for non-privacy-intrusive cookies.",
+   "status": "measured (qualitative) - not achieved",
+   "sources": "SWD(2017) 5/6"
+  },
+  {
+   "type": "expected impact (evaluation criteria)",
+   "objective": "Efficiency",
+   "indicator": "Compliance costs",
+   "target_or_baseline": "",
+   "evidence": "Supporting study estimates about EUR 658 per business; Commission notes robust cost data largely do not exist.",
+   "status": "partially measured",
+   "sources": "SWD(2017) 6"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2017-eprivacy-refit",
+   "citation": "European Commission (2017), Ex-post REFIT evaluation of the ePrivacy Directive 2002/58/EC (executive summary SWD(2017) 6), SWD(2017) 5",
+   "authors": "European Commission",
+   "year": 2017,
+   "title": "Ex-post REFIT evaluation of the ePrivacy Directive 2002/58/EC (executive summary SWD(2017) 6)",
+   "venue": "SWD(2017) 5",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52017SC0006",
+   "pdf_url": "",
+   "source_type": "Commission evaluation",
+   "method": "REFIT evaluation (studies, consultation)",
+   "outcomes": "effectiveness; compliance costs",
+   "direction": "mixed",
+   "headline": "Directive broadly appropriate but enforcement fragmented; cookie rule not fully effective and over-inclusive; compliance costs around EUR 658 per business; robust cost data lacking",
+   "summary_plain": "The Commission found the cookie consent rule had not really given people control - they click 'accept' without understanding - while costing businesses a few hundred euros each.",
+   "period_geography": "EU, 2002-2016",
+   "quality": "self-evaluation; data gaps acknowledged",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  },
+  {
+   "id": "goldfarb-tucker-2011",
+   "citation": "Goldfarb & Tucker (2011), Privacy Regulation and Online Advertising, Management Science 57(1)",
+   "authors": "Goldfarb & Tucker",
+   "year": 2011,
+   "title": "Privacy Regulation and Online Advertising",
+   "venue": "Management Science 57(1)",
+   "url": "https://doi.org/10.1287/mnsc.1100.1246",
+   "pdf_url": "",
+   "source_type": "peer-reviewed",
+   "method": "causal: difference-in-differences (3.3m survey takers, 9,596 ad campaigns; EU vs other countries)",
+   "outcomes": "advertising effectiveness; firm performance",
+   "direction": "negative",
+   "headline": "After the EU privacy rules (ePrivacy Directive) took effect, display advertising became far less effective at changing purchase intent relative to other countries; larger losses for general-content sites such as news and for plain, small ads",
+   "summary_plain": "Early EU privacy rules on tracking made online display ads much less effective, hitting news sites hardest.",
+   "period_geography": "EU vs non-EU, early 2000s",
+   "quality": "measures ad effectiveness (stated purchase intent), not revenue",
+   "verified": "abstract read (Crossref)",
+   "access": "paywalled",
+   "interested_party": "",
+   "accessed": "2026-10-10",
+   "archive_url": ""
+  }
+ ]
+}
