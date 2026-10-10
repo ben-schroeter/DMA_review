@@ -283,5 +283,79 @@ charts["acts_combined"] = (f'<svg viewBox="0 0 {W} {ly + 16}" width="100%" role=
                            f'{sum(since)} adopted since 2020">' + "".join(g + top + labt + b) + "</svg>")
 meta["groups_since_2020"] = {name: sum(v[gi] for yr, v in peryear.items() if yr >= 2020) for gi, (name, _, _) in enumerate(GROUPS)}
 
+# H. small multiples: cumulative restrictions by CEPS policy area (private parties vs others)
+areas = sorted({r["policy_area_ceps"] for r in inst}, key=lambda a: -sum(r["restrictions_total"] for r in inst if r["policy_area_ceps"] == a))
+SW, NC, PW_, PH_, GX, GY, TOP0 = 1000, 4, 222, 150, 30, 62, 36
+SH = TOP0 + 3 * (PH_ + GY) + 10
+YM = 4500
+g = [f'<rect x="28" y="4" width="12" height="12" rx="2" fill="{CLAY}"></rect><text x="46" y="15" {F} font-size="13.5" fill="{INK2}">Binding private parties</text>',
+     f'<rect x="228" y="4" width="12" height="12" rx="2" fill="{STONE}"></rect><text x="246" y="15" {F} font-size="13.5" fill="{INK2}">Other addressees</text>']
+xpx = lambda x0, y: x0 + (y - Y0) / (Y1 - Y0) * PW_
+pa_tot = {}
+for i, a in enumerate(areas):
+    x0 = 28 + (i % NC) * (PW_ + GX); y0 = TOP0 + 28 + (i // NC) * (PH_ + GY)
+    yv = lambda v: y0 + PH_ - v / YM * PH_
+    rs = sorted([r for r in inst if r["policy_area_ceps"] == a], key=lambda r: r["d"])
+    p = o = 0; pp, po = [(Y0, 0)], [(Y0, 0)]
+    for r in rs:
+        pv = r["addr_private_parties"] or 0
+        p += pv; o += r["restrictions_total"] - pv
+        pp.append((fy(r["d"]), p)); po.append((fy(r["d"]), p + o))
+    pa_tot[a] = p + o
+    def band(top, bot):
+        d = f"M{x0},{yv(top[0][1]):.1f}"
+        for y, v in top: d += f"H{xpx(x0, y):.1f}V{yv(v):.1f}"
+        d += f"H{x0 + PW_}"
+        if bot is None: return d + f"V{yv(0):.1f}H{x0}Z"
+        d += f"V{yv(bot[-1][1]):.1f}"
+        for j in range(len(bot) - 1, -1, -1):
+            d += f"H{xpx(x0, bot[j][0]):.1f}V{yv(bot[j - 1][1] if j else 0):.1f}"
+        return d + f"H{x0}Z"
+    for t in (2000, 4000):
+        g.append(f'<line x1="{x0}" x2="{x0 + PW_}" y1="{yv(t):.1f}" y2="{yv(t):.1f}" stroke="{LINE}"></line>')
+        if i % NC == 0:
+            g.append(f'<text x="{x0 - 6}" y="{yv(t) + 4:.1f}" text-anchor="end" {F} font-size="12" fill="{MUTED}">{t // 1000}k</text>')
+    g.append(f'<path d="{band(po, pp)}" fill="{STONE}"></path><path d="{band(pp, None)}" fill="{CLAY}"></path>')
+    g.append(f'<line x1="{x0}" x2="{x0 + PW_}" y1="{y0 + PH_}" y2="{y0 + PH_}" stroke="{BASE}"></line>')
+    for y in (1990, 2010):
+        g.append(f'<text x="{xpx(x0, y):.1f}" y="{y0 + PH_ + 16}" text-anchor="middle" {F} font-size="12" fill="{MUTED}">{y}</text>')
+    g.append(f'<text x="{x0}" y="{y0 - 10}" {F} font-size="14" fill="{INK}" font-weight="600">{a.replace(" Protection", "").replace("&", "&amp;")} <tspan font-weight="400" fill="{MUTED}">{p + o:,}</tspan></text>')
+charts["policy_areas"] = (f'<svg viewBox="0 0 {SW} {SH}" width="100%" role="img" aria-label="Cumulative restrictions by CEPS policy area, twelve panels on shared axes, '
+                          f'split into restrictions binding private parties and other addressees">' + "".join(g) + "</svg>")
+meta["policy_area_totals"] = pa_tot
+
+# I. restrictions per act and per 1,000 words over time, with 5-year averages and the Sarbanes-Oxley line
+TC = {"Regulation": CLAY, "Directive": SLATE, "Decision": STONE}
+VW, VH, PL, PR_, PT, PB, PGAP = 1000, 400, 52, 16, 40, 36, 60
+pw = (VW - 2 * PL - PR_ - PGAP) / 2
+dens = lambda r: 1000 * r["restrictions_total"] / max(1, (r["words_articles"] or 0) + (r["words_annexes"] or 0))
+g = []
+for k, (title, f, ym, ticks, sv) in enumerate((("Restrictions per act", lambda r: r["restrictions_total"], 1200, (400, 800, 1200), sox["restrictions_total"]),
+                                               ("Restrictions per 1,000 words", dens, 40, (10, 20, 30, 40), sox["per_1000_words"]))):
+    x0 = PL + k * (pw + PL + PGAP)
+    xx = lambda y: x0 + (y - Y0) / (Y1 - Y0) * pw
+    yy = lambda v: PT + (VH - PT - PB) * (1 - min(v, ym) / ym)
+    g.append(f'<text x="{x0}" y="18" {F} font-size="15" fill="{INK}" font-weight="600">{title}</text>')
+    for t in ticks:
+        g.append(f'<line x1="{x0}" x2="{x0 + pw:.1f}" y1="{yy(t):.1f}" y2="{yy(t):.1f}" stroke="{LINE}"></line>'
+                 f'<text x="{x0 - 8}" y="{yy(t) + 5:.1f}" text-anchor="end" {F} font-size="13" fill="{MUTED}">{t:,}</text>')
+    g.append(f'<line x1="{x0}" x2="{x0 + pw:.1f}" y1="{VH - PB}" y2="{VH - PB}" stroke="{BASE}"></line>')
+    g += [f'<text x="{xx(y):.1f}" y="{VH - 12}" text-anchor="middle" {F} font-size="13" fill="{MUTED}">{y}</text>' for y in (1990, 2000, 2010, 2020)]
+    g.append(f'<line x1="{x0}" x2="{x0 + pw:.1f}" y1="{yy(sv):.1f}" y2="{yy(sv):.1f}" stroke="{INK}" stroke-width="1.4" stroke-dasharray="5 4"></line>'
+             f'<text x="{x0 + 4}" y="{yy(sv) - 6:.1f}" {F} font-size="12.5" fill="{INK}">Sarbanes-Oxley Act {sv:g}</text>')
+    for r in sorted(inst, key=lambda r: r["type"] != "Regulation"):
+        g.append(f'<circle cx="{xx(fy(r["d"])):.1f}" cy="{yy(f(r)):.1f}" r="4.5" fill="{TC[r["type"]]}" fill-opacity="0.85" stroke="#FAF9F5" stroke-width="1"></circle>')
+    bins = {}
+    for r in inst: bins.setdefault(r["d"].year // 5 * 5, []).append(r)
+    line = [(statistics.median(fy(r["d"]) for r in bins[b]), statistics.mean(f(r) for r in bins[b])) for b in sorted(bins) if len(bins[b]) >= 3]
+    g.append(f'<polyline points="{" ".join(f"{xx(a):.1f},{yy(v):.1f}" for a, v in line)}" fill="none" stroke="{INK}" stroke-width="2.5"></polyline>')
+    meta[f"avg5_{k}"] = [(round(a, 1), round(v, 1)) for a, v in line]
+lx = PL
+for t in ("Regulation", "Directive", "Decision"):
+    g.append(f'<circle cx="{lx + 6}" cy="{VH + 14}" r="5" fill="{TC[t]}"></circle><text x="{lx + 16}" y="{VH + 19}" {F} font-size="13.5" fill="{INK2}">{t}s</text>'); lx += 120
+g.append(f'<line x1="{lx}" x2="{lx + 22}" y1="{VH + 14}" y2="{VH + 14}" stroke="{INK}" stroke-width="2.5"></line><text x="{lx + 30}" y="{VH + 19}" {F} font-size="13.5" fill="{INK2}">5-year average</text>')
+charts["per_act_density"] = (f'<svg viewBox="0 0 {VW} {VH + 30}" width="100%" role="img" aria-label="Left: restrictions per act over time, rising. Right: restrictions per 1,000 words, roughly flat. '
+                             f'Dots are acts; lines are 5-year averages; dashed line is the Sarbanes-Oxley Act">' + "".join(g) + "</svg>")
+
 json.dump({"charts": charts, "meta": meta}, open("site/mock_charts.json", "w"), ensure_ascii=False)
 print(json.dumps(meta))
