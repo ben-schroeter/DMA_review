@@ -22,5 +22,16 @@
  "negatives": {
   "n": 100,
   "true_restrictions_missed": 6
- }
+ },
+ "final_fresh_sample_100": {
+  "counted_true": 84,
+  "counted_false": 16,
+  "missed_true": null,
+  "correctly_dropped": null,
+  "precision": 0.84,
+  "recall_within_sample": null,
+  "addressee_accuracy": 0.738,
+  "addressee_n": 84
+ },
+ "note": "Tuning and held-out samples were scored after rule changes informed by them; the final fresh sample (drawn after the full run, documents sampled in proportion to their restriction counts) is the headline estimate. Recall check: 6 of 100 uncounted clauses with modal-like words were true restrictions before the round-2 fixes (shall include, 'no X shall', 'has to'), which were then added."
 }

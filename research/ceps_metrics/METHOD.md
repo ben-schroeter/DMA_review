@@ -66,7 +66,7 @@ Hand-coded by Claude (not an independent coder) on a random sample drawn across 
 - Held-out sample: 91 counted instances.
 - Recall check: 100 clauses the counter did not count that contain modal-like words.
 - Final check: a fresh sample of 100 instances drawn after the full run, scored with the final rules.
-Results are in the `validation` sheet. Treat restriction counts as approximate; addressee shares are less reliable than totals.
+Results are in the `validation` sheet. Headline (final fresh sample): 84% of counted items are genuine restrictions (roughly ±7 points); the addressee is correct for 74% of those. Remaining false positives are mainly guidance paraphrasing case law ("must be interpreted as"), organisational rules ("the members shall be") and limitation-period mechanics. Most addressee errors are passive sentences with no named actor, which fall into "unclear". Treat restriction counts as approximate; addressee shares are less reliable than totals.
 
 ## Caveats
 - This counts obligations, not their cost.

@@ -111,6 +111,8 @@ for i, (r, m0) in enumerate(zip(rows, imap), start=2):
             cmet = {k: met.get(k) for k in ("restrictions_total", "addr_private_parties")}
             cnotes = ["no consolidated text with amendments in EUR-Lex; consolidated count = original"]
     dirs = [c for c in cel if c[5:6] == "L"]
+    if "Block Exemption" in r["name"]:
+        notes.append("Block exemption: defines a safe harbour ('the exemption shall not apply to...'), so few direct restrictions are counted")
     note = "; ".join(x for x in [m0["note"]] + notes + cnotes if x)
     vals = [int(m0["row_id"]), r["name"], r["identifier"], r["proposal_date"], r["confidence"], m0["status_ceps_jul2025"],
             m0["status_oct2026"], ";".join(cel), text, url] + [met.get(k) for k in METRICS] + \
@@ -160,6 +162,8 @@ for k, v in val.items():
                                          "recall_within_sample", "addressee_accuracy", "addressee_n"]])
     elif isinstance(v, dict):
         wv.append([k] + [json.dumps(v)])
+    else:
+        wv.append([k, str(v)])
 style(wv, [28, 12, 12, 12, 14, 10, 14, 14, 12])
 wv.freeze_panes = None
 wb.save("../ceps_instruments_metrics.xlsx")
