@@ -17,3 +17,4 @@ Tier 3 — pending proposals and acts adopted 2024–2026 (impact assessment and
 - [x] 32015L2366 Payment Services Directive 2 (PSD2)
 - [x] 32002L0058 ePrivacy Directive
 - [x] 32024R1689 Artificial Intelligence Act
+- [x] 32022R2065 Digital Services Act
