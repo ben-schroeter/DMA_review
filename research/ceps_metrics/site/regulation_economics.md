@@ -95,9 +95,9 @@ Those are the channels through which the productivity gap with the US opened. Th
 
 ## 6. Regulation and technology adoption: the link to the productivity gap
 
-The productivity gap opened after 1995, when the US gained from using information technology and Europe did not. Regulation can slow that adoption directly.
+The productivity gap opened after 1995, when the US gained from using information technology and Europe did not. The lesson is that adopting technology matters more for growth than inventing it. Adoption is hardest for small firms, especially when regulation adds uncertainty and red tape.
 
-- **Europe missed the ICT gains.** Gordon & Sayed (2020) find most of the 1995–2005 US productivity revival came from ICT-intensive services and hardware. Europe instead slowed "due to a paucity of ICT investment, a failure to capture the efficiency benefits of ICT", and shortfalls in finance, retail and wholesale.
+- **Europe missed the ICT gains by not adopting, not by not inventing.** Gordon & Sayed (2020) find most of the 1995–2005 US productivity revival came from ICT-intensive services, such as retail, wholesale and finance, that put IT to use. Europe instead slowed "due to a paucity of ICT investment, a failure to capture the efficiency benefits of ICT", and shortfalls in those same sectors.
 - **Adoption, firm growth and entry explain differences within the EU.** A JRC study (Martinez Turegano 2020) finds productivity relative to the US is higher where firms adopt technology, grow larger, and enter and exit freely. Its policy conclusions: improve technology adoption, remove barriers to firm growth, and ease entry and exit, especially in business services.
 - **Data rules make data-driven technology costlier.**
   - Demirer et al. (2024): after the GDPR, EU firms store 26% less data and do 15% less computation than comparable US firms, equivalent to a 22% rise in the cost of data.
@@ -107,9 +107,9 @@ The productivity gap opened after 1995, when the US gained from using informatio
   - 68% name the GDPR as the regulation that burdens them most, followed by EU IT-security rules at 32%.
   - Red tape overall led firms to hire about 325,000 extra staff in three years.
   - 55% report productivity losses, 19% investment obstacles and 16% innovation obstacles.
-- **Large firms cope better.** Hall & Sun (2026) show the scale of in-house policy teams at large firms. Together with the size-dependent compliance costs in section 3, this explains why regulation can entrench incumbents.
+- **Small firms bear more, especially under uncertainty; large firms cope better.** Hall & Sun (2026) show the scale of in-house policy teams at large firms: about 52 at the average Fortune 100 firm, against one or two at the average firm. Compliance costs per employee can be up to ten times higher for small firms (section 3). Unclear rules add delay: Stern (2017) finds pioneer products spend 34% longer in approval until regulators publish guidance. Together these explain why regulation can slow adoption among small firms and entrench incumbents.
 
-**The argument, and its limits:** regulation raises the cost of adopting and using digital technology, especially for smaller firms. That slows the diffusion that drove US productivity growth. Each link has supporting evidence. The full chain from EU rules to the aggregate gap has not been estimated in a single study.
+**The argument, and its limits:** regulation raises the cost and uncertainty of adopting and using digital technology, especially for smaller firms. That slows the diffusion that drove US productivity growth. Each link has supporting evidence. The full chain from EU rules to the aggregate gap has not been estimated in a single study.
 
 ## What this means for reading our data
 
