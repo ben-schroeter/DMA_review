@@ -18,7 +18,10 @@
   "ratio_restrictions_eu_to_us": 0.2,
   "us_ids": [
    "dmca"
-  ]
+  ],
+  "fairness": "not fair",
+  "included": false,
+  "fairness_note": "excluded: DMCA much broader than InfoSoc (title I alone would match)"
  },
  {
   "row_id": 11,
@@ -39,7 +42,10 @@
   "ratio_restrictions_eu_to_us": 7.5,
   "us_ids": [
    "hsr"
-  ]
+  ],
+  "fairness": "not fair",
+  "included": false,
+  "fairness_note": "excluded: HSR covers only the filing procedure, not the substantive test"
  },
  {
   "row_id": 13,
@@ -60,7 +66,10 @@
   "ratio_restrictions_eu_to_us": 1.2,
   "us_ids": [
    "ftc5"
-  ]
+  ],
+  "fairness": "usable with caveat",
+  "included": true,
+  "fairness_note": ""
  },
  {
   "row_id": 17,
@@ -81,7 +90,10 @@
   "ratio_restrictions_eu_to_us": 1.3,
   "us_ids": [
    "cpsia"
-  ]
+  ],
+  "fairness": "usable with caveat",
+  "included": true,
+  "fairness_note": ""
  },
  {
   "row_id": 20,
@@ -102,7 +114,10 @@
   "ratio_restrictions_eu_to_us": 2.2,
   "us_ids": [
    "ccpa"
-  ]
+  ],
+  "fairness": "usable with caveat",
+  "included": true,
+  "fairness_note": ""
  },
  {
   "row_id": 26,
@@ -123,7 +138,10 @@
   "ratio_restrictions_eu_to_us": 1.8,
   "us_ids": [
    "dtsa"
-  ]
+  ],
+  "fairness": "fair",
+  "included": true,
+  "fairness_note": ""
  },
  {
   "row_id": 35,
@@ -144,7 +162,10 @@
   "ratio_restrictions_eu_to_us": 4.6,
   "us_ids": [
    "privacy_act"
-  ]
+  ],
+  "fairness": "fair",
+  "included": true,
+  "fairness_note": ""
  },
  {
   "row_id": 40,
@@ -165,7 +186,10 @@
   "ratio_restrictions_eu_to_us": 8.7,
   "us_ids": [
    "cfaa1984"
-  ]
+  ],
+  "fairness": "not fair",
+  "included": false,
+  "fairness_note": "excluded: EU directive adds Member State duties federal law does not need"
  },
  {
   "row_id": 42,
@@ -186,7 +210,10 @@
   "ratio_restrictions_eu_to_us": 3.4,
   "us_ids": [
    "cloud"
-  ]
+  ],
+  "fairness": "fair",
+  "included": true,
+  "fairness_note": ""
  },
  {
   "row_id": 43,
@@ -207,7 +234,10 @@
   "ratio_restrictions_eu_to_us": 2.9,
   "us_ids": [
    "open_data"
-  ]
+  ],
+  "fairness": "fair",
+  "included": true,
+  "fairness_note": ""
  },
  {
   "row_id": 67,
@@ -228,7 +258,10 @@
   "ratio_restrictions_eu_to_us": 1.3,
   "us_ids": [
    "cpsa"
-  ]
+  ],
+  "fairness": "fair",
+  "included": true,
+  "fairness_note": ""
  },
  {
   "row_id": 68,
@@ -249,7 +282,10 @@
   "ratio_restrictions_eu_to_us": 11.4,
   "us_ids": [
    "bsa"
-  ]
+  ],
+  "fairness": "not fair",
+  "included": false,
+  "fairness_note": "excluded: 1970 enabling act against a 2024 comprehensive rulebook"
  },
  {
   "row_id": 74,
@@ -270,7 +306,10 @@
   "ratio_restrictions_eu_to_us": 2.5,
   "us_ids": [
    "chips"
-  ]
+  ],
+  "fairness": "fair",
+  "included": true,
+  "fairness_note": ""
  },
  {
   "row_id": 78,
@@ -291,7 +330,10 @@
   "ratio_restrictions_eu_to_us": 3.2,
   "us_ids": [
    "fisma"
-  ]
+  ],
+  "fairness": "fair",
+  "included": true,
+  "fairness_note": ""
  },
  {
   "row_id": 98,
@@ -313,7 +355,10 @@
   "us_ids": [
    "df1033",
    "cfr1033"
-  ]
+  ],
+  "fairness": "not fair",
+  "included": false,
+  "fairness_note": "excluded: law plus agency rule against a pending EU proposal"
  },
  {
   "row_id": 103,
@@ -334,7 +379,10 @@
   "ratio_restrictions_eu_to_us": 2.0,
   "us_ids": [
    "cpsia"
-  ]
+  ],
+  "fairness": "usable with caveat",
+  "included": true,
+  "fairness_note": ""
  },
  {
   "row_id": 109,
@@ -355,6 +403,9 @@
   "ratio_restrictions_eu_to_us": 0.2,
   "us_ids": [
    "fcc15"
-  ]
+  ],
+  "fairness": "not fair",
+  "included": false,
+  "fairness_note": "excluded: FCC rulebook against a directive relying on standards"
  }
 ]
