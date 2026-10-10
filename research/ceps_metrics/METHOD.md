@@ -157,3 +157,8 @@ Results are in the `validation` sheet. Headline (final fresh sample): 84% of cou
 - Not like-for-like:
   - The EMC Directive is compared with an FCC rulebook and FiDA with a statute plus a rule. Headline statistics are given for the 15 statute pairs as well.
   - US federal statutes leave detail to agency rules, which are not included except where they are the counterpart. EU implementing and delegated acts are likewise not included.
+
+## Objectives
+- The `objectives` column (and `data/objectives/objectives.json`) gives a plain-language summary of each instrument's stated aims, scope and main mechanisms, in 2–3 sentences of at most 70 words.
+- Drafted from the act's own text on EUR-Lex: Article 1 (subject matter), the scope article, the first recitals and, for programmes, the budget article. For pending items it is drafted from the proposal.
+- The summaries are neutral descriptions of what each act says it sets out to do; evaluation is kept to the impact-evidence fields. A few details rest on general knowledge rather than the articles cited, and the `source` field says which parts of the act were used.

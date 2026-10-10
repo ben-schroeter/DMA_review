@@ -26,7 +26,7 @@ for r in rows[1:]:
         cel2id[c] = g("row_id")
     adopted = g("status_oct2026") == "adopted"
     yr = (g("adoption_date") if adopted else g("proposal_date")) or ""
-    inst.append({"id": g("row_id"), "instrument": g("name"), "policy_area": g("policy_area_ceps"),
+    inst.append({"id": g("row_id"), "instrument": g("name"), "objectives": g("objectives"), "policy_area": g("policy_area_ceps"),
                  "status": "adopted" if adopted else "pending", "year": int(str(yr)[:4]) if yr else None,
                  "words": g("words_legal_text"), "restrictions": g("restrictions_total"), "restrictions_private": g("addr_private_parties"),
                  "secondary_acts": (g("n_implementing_acts") or 0) + (g("n_delegated_acts") or 0),

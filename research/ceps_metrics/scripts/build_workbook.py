@@ -149,9 +149,11 @@ def is_causal(m):
     return (did or any(k in m for k in CAUSAL)) and "non-causal" not in m and "not causal" not in m
 
 
+_obj = {int(o["row_id"]): o["objectives"] for o in json.load(open(D + "objectives/objectives.json"))} if _os0.path.exists(D + "objectives/objectives.json") else {}
+
 # ---------------- instruments ----------------
 ws = wb.create_sheet("instruments", 0)
-cols = ["row_id", "name", "identifier", "policy_area_ceps", "ceps_table_status", "proposal_date", "confidence_proposal_date",
+cols = ["row_id", "name", "objectives", "identifier", "policy_area_ceps", "ceps_table_status", "proposal_date", "confidence_proposal_date",
         "adoption_date", "oj_publication_date", "entry_into_force", "status_ceps_jul2025", "status_oct2026",
         "celex_measured", "text_measured", "source_url"] + METRICS + \
        ["consolidated_celex", "consolidated_restrictions_total", "consolidated_addr_private_parties",
@@ -190,7 +192,7 @@ for i, (r, m0) in enumerate(zip(rows, imap), start=2):
     pa = pol[r["name"]]
     dd = [da["dates"].get(c, {}) for c in cel]
     first = lambda k: min((d.get(k) for d in dd if d.get(k)), default=None)
-    vals = [int(m0["row_id"]), r["name"], r["identifier"], pa["policy_area"], pa["ceps_colour_status"], r["proposal_date"], r["confidence"],
+    vals = [int(m0["row_id"]), r["name"], _obj.get(int(m0["row_id"]), ""), r["identifier"], pa["policy_area"], pa["ceps_colour_status"], r["proposal_date"], r["confidence"],
             first("adoption_date"), first("oj_publication_date"), first("entry_into_force"), m0["status_ceps_jul2025"],
             m0["status_oct2026"], ";".join(cel), text, url] + [met.get(k) for k in METRICS] + \
            [";".join(cc) or None, cmet.get("restrictions_total"), cmet.get("addr_private_parties")]

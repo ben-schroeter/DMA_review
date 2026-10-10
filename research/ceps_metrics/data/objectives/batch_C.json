@@ -1,0 +1,234 @@
+[
+ {
+  "row_id": 59,
+  "celex": "32022R1925",
+  "name": "Digital Markets Act",
+  "objectives": "Aims to ensure contestable and fair markets in the digital sector where large online platforms act as gatekeepers. It applies to core platform services, such as app stores, search engines and social networks, that designated gatekeepers offer to users in the EU. It sets out obligations and prohibitions for gatekeepers and empowers the Commission to designate them, investigate and enforce compliance.",
+  "source": "Art. 1 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 60,
+  "celex": "32022R2065",
+  "name": "Digital Services Act",
+  "objectives": "Aims to create a safe, predictable and trusted online environment in which fundamental rights, including consumer protection, are protected. It applies to intermediary services offered in the EU, such as hosting services and online platforms. It sets conditions for the exemption of these providers from liability, imposes due diligence obligations scaled to the type and size of service, and sets up enforcement and cooperation between authorities.",
+  "source": "Arts. 1-2 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 61,
+  "celex": "32022L2555",
+  "name": "NIS 2 Directive",
+  "objectives": "Aims to achieve a high common level of cybersecurity across the EU. It requires Member States to adopt national cybersecurity strategies and designate competent authorities, crisis management bodies and incident response teams (CSIRTs). Medium-sized and large entities in sectors listed in its annexes, such as energy, transport, health and digital infrastructure, must take cybersecurity risk-management measures and report significant incidents.",
+  "source": "Arts. 1-2 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 62,
+  "celex": "32021R2085",
+  "name": "Joint Undertakings under Horizon Europe",
+  "objectives": "Sets up nine joint undertakings: public-private partnerships that carry out research and innovation under Horizon Europe in areas such as key digital technologies, smart networks and services, clean aviation, rail, hydrogen, health and bio-based industries. It sets out each partnership's objectives and tasks, membership, organisation and operating rules, including the contributions of the EU and of private and public members.",
+  "source": "Art. 1 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 63,
+  "celex": "32022R0612",
+  "name": "Roaming Regulation",
+  "objectives": "Aims to ensure that mobile users travelling within the EU do not pay excessive prices for calls, SMS and data compared with domestic prices. It sets maximum charges that network operators may levy on each other at wholesale level and the conditions for wholesale access to mobile networks, and governs retail roaming charges. It also requires roaming providers to give users clearer information on charges, including outside the EU.",
+  "source": "Art. 1 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 64,
+  "celex": "32024R1689",
+  "name": "Artificial Intelligence Act",
+  "objectives": "Aims to promote the uptake of human-centric and trustworthy artificial intelligence while protecting health, safety and fundamental rights. It applies to providers, deployers, importers and distributors of AI systems used in the EU. It bans certain AI practices, sets requirements for high-risk AI systems, imposes transparency duties on some systems and rules for general-purpose AI models, and sets up governance, enforcement and innovation support measures.",
+  "source": "Arts. 1-2 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 65,
+  "celex": "32023R1230",
+  "name": "Machinery Regulation",
+  "objectives": "Sets health and safety requirements for the design and construction of machinery, related products such as safety components and lifting accessories, and partly completed machinery. Its aim is to protect consumers and professional users, and where relevant animals, property and the environment, while allowing compliant products to move freely in the EU. Manufacturers must meet these requirements before placing products on the market.",
+  "source": "Arts. 1-2 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 66,
+  "celex": "32022R2560",
+  "name": "Foreign Subsidies Regulation",
+  "objectives": "Aims to address distortions of the EU internal market caused by subsidies granted by non-EU countries and to ensure a level playing field. It applies to companies active in the EU that receive such subsidies. It empowers the Commission to investigate foreign subsidies and to redress distortions, with specific procedures for mergers and acquisitions and public procurement tenders.",
+  "source": "Art. 1 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 67,
+  "celex": "32023R0988",
+  "name": "General Product Safety Regulation",
+  "objectives": "Aims to ensure a high level of consumer protection while improving the functioning of the internal market. It sets essential safety rules for consumer products placed or made available on the market, both offline and online, where no more specific EU safety rules apply. It sets obligations for manufacturers, importers, distributors and online marketplaces, and provides for market surveillance and product recalls.",
+  "source": "Arts. 1-2 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 68,
+  "celex": "32024R1624",
+  "name": "Anti-Money Laundering Regulation",
+  "objectives": "Aims to prevent the EU financial system from being used for money laundering and terrorist financing. It sets the measures that obliged entities, such as banks, other financial firms and certain professions, must apply, including checks on their customers. It also sets beneficial ownership transparency rules for companies, trusts and similar arrangements, and limits the use of anonymous instruments.",
+  "source": "Art. 1 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 69,
+  "celex": "32022R0720",
+  "name": "Vertical Block Exemption Regulation",
+  "objectives": "Exempts certain agreements between companies at different levels of the production or distribution chain, such as suppliers and distributors, from the EU ban on anti-competitive agreements. The exemption applies where the market shares of supplier and buyer each do not exceed 30%, and excludes agreements containing listed serious restrictions. It also covers online intermediation services and applies until 31 May 2034.",
+  "source": "Arts. 1-3 and 11 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 70,
+  "celex": "32022D2481",
+  "name": "Digital Decade Policy Programme Decision",
+  "objectives": "Establishes the Digital Decade Policy Programme 2030 to set a clear direction for the EU's digital transformation. It sets EU-level digital targets for 2030 on skills, infrastructure, business digitalisation and public services, measured by indicators. It creates a monitoring and cooperation mechanism between the Commission and Member States, including national roadmaps and annual reports, and a framework for multi-country projects.",
+  "source": "Arts. 1-2 and 4 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 71,
+  "celex": "32024R0900",
+  "name": "Political Advertising Regulation",
+  "objectives": "Aims to support the internal market for political advertising while protecting fundamental rights, including privacy and data protection. It requires political advertisements to be labelled and accompanied by information on who paid for them and related transparency duties for advertising service providers. It restricts the use of targeting and ad-delivery techniques based on personal data in online political advertising and sets up supervision and enforcement.",
+  "source": "Arts. 1-2 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 72,
+  "celex": "32023R2844",
+  "name": "Digitalisation of judicial cooperation Regulation",
+  "objectives": "Creates a uniform legal framework for electronic communication between courts and other competent authorities in cross-border judicial cooperation in civil, commercial and criminal matters. It also allows people and businesses to communicate electronically with authorities in cross-border civil and commercial cases. It sets rules on hearings by videoconference, electronic signatures and seals, the legal effect of electronic documents and electronic payment of fees.",
+  "source": "Art. 1 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 73,
+  "celex": "32024L2831",
+  "name": "Platform Work Directive",
+  "objectives": "Aims to improve working conditions and the protection of personal data in platform work. It applies to digital labour platforms organising work in the EU. It introduces measures, including a legal presumption, to help determine the correct employment status of platform workers, sets rules on transparency, fairness, human oversight and accountability in algorithmic management, and improves transparency on platform work.",
+  "source": "Art. 1 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 74,
+  "celex": "32023R1781",
+  "name": "European Chips Act",
+  "objectives": "Aims to strengthen the EU's semiconductor ecosystem, its competitiveness and innovation capacity, and its resilience and security of supply. It establishes the Chips for Europe Initiative to support research, design and production capacity, and sets criteria to recognise and support first-of-a-kind production facilities. It also creates a coordination mechanism between Member States and the Commission to monitor the sector and respond to chip shortages.",
+  "source": "Art. 1 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 75,
+  "celex": "32023R0588",
+  "name": "Union Secure Connectivity Programme",
+  "objectives": "Establishes a programme to provide secure satellite communication services to government-authorised users in the EU through a multi-orbital connectivity system under civil control (known as IRIS²). It also aims to enable commercial services, including high-speed broadband, and to reduce communication dead zones. It sets the programme's objectives, funding rules and implementation, with a budget of EUR 1.65 billion for 2023-2027.",
+  "source": "Arts. 1, 3 and 13 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 76,
+  "celex": "32023R2854",
+  "name": "Data Act",
+  "objectives": "Sets harmonised rules on access to and use of data. It gives users of connected products and related services the right to access data they generate and share it with third parties, sets conditions for data holders making data available to recipients, and allows public bodies to request data in cases of exceptional need. It also makes switching between cloud and other data processing services easier and supports interoperability standards.",
+  "source": "Art. 1 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 77,
+  "celex": "32024L1385",
+  "name": "Violence Against Women Directive",
+  "objectives": "Aims to prevent and combat violence against women and domestic violence. It requires Member States to criminalise female genital mutilation, forced marriage, non-consensual sharing of intimate or manipulated images, cyber stalking, cyber harassment and cyber incitement to violence or hatred. It also sets minimum rules on victims' rights, protection and support, and on prevention and early intervention.",
+  "source": "Arts. 1 and 3-8 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 78,
+  "celex": "32023R2841",
+  "name": "Cybersecurity Regulation (EU institutions)",
+  "objectives": "Aims to achieve a high common level of cybersecurity within EU institutions, bodies, offices and agencies. It requires each of them to set up an internal cybersecurity risk-management, governance and control framework and sets rules on risk management, incident reporting and information sharing. It establishes an Interinstitutional Cybersecurity Board and sets out the role of CERT-EU, the EU entities' cybersecurity service.",
+  "source": "Arts. 1-2 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 79,
+  "celex": "52022PC0119",
+  "name": "Information Security Regulation",
+  "objectives": "Would lay down common information security rules for all EU institutions and bodies. It would apply to all information they handle and store, both non-classified and EU classified information, with common confidentiality levels and protective measures. It would create an Interinstitutional Coordination Group of the institutions' security authorities to issue guidance and work with Member States' national security authorities.",
+  "source": "Arts. 1-2 and recitals 2 and 8 of the proposal; explanatory memorandum",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 80,
+  "celex": "32024R1781",
+  "name": "Ecodesign for Sustainable Products Regulation",
+  "objectives": "Aims to make sustainable products the norm in the EU and reduce their environmental and carbon footprint over their life cycle. It sets a framework for ecodesign requirements, such as durability, repairability and recycled content, that almost all physical goods must meet before being placed on the market. It also creates a digital product passport, enables green public procurement requirements and addresses the destruction of unsold consumer products.",
+  "source": "Art. 1 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 81,
+  "celex": "32025R0327",
+  "name": "European Health Data Space",
+  "objectives": "Establishes the European Health Data Space to make it easier to access electronic health data, both for patient care and for uses such as research, innovation and policymaking. It strengthens people's rights over their health data, sets common rules for electronic health record systems, creates cross-border infrastructures for exchanging health data, and sets up governance at EU and national level.",
+  "source": "Art. 1 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 82,
+  "celex": "52022PC0209",
+  "name": "Child Sexual Abuse Regulation (CSAR)",
+  "objectives": "Would set uniform rules to tackle the misuse of online services for child sexual abuse. It would require online service providers to assess and reduce the risk of such misuse and, following a detection order, require hosting and messaging services to detect and report abuse. It would also require removing or blocking child sexual abuse material and would create an EU Centre on Child Sexual Abuse.",
+  "source": "Art. 1 of the proposal",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 83,
+  "celex": "32024R2847",
+  "name": "Cyber Resilience Act",
+  "objectives": "Aims to ensure the cybersecurity of hardware and software products with digital elements that connect to a device or network. It sets essential cybersecurity requirements for their design, development and production, and requires manufacturers to handle vulnerabilities throughout the period the products are expected to be in use. It sets obligations for manufacturers, importers and distributors and provides for market surveillance and enforcement.",
+  "source": "Arts. 1-2 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 84,
+  "celex": "32024R1083",
+  "name": "European Media Freedom Act",
+  "objectives": "Sets common rules for the internal market for media services while safeguarding media independence and pluralism. It protects editorial independence and journalistic sources, sets requirements for the independent functioning of public service media and for transparency of media ownership, and requires assessment of media market concentrations. It establishes the European Board for Media Services to support consistent application.",
+  "source": "Art. 1 and Chapters II-III of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 85,
+  "celex": "32024R2747",
+  "name": "Single Market Emergency Instrument (IMERA)",
+  "objectives": "Creates a framework to anticipate, prepare for and respond to the impact of crises on the EU internal market. It aims to keep goods, services and people moving freely and to ensure the availability of crisis-relevant goods and services. It sets up an Internal Market Emergency and Resilience Board, contingency planning and measures for vigilance and emergency modes, including joint public procurement.",
+  "source": "Arts. 1-2 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 86,
+  "celex": "32024L2853",
+  "name": "Product Liability Directive",
+  "objectives": "Sets common rules on the liability of economic operators for damage that defective products cause to people, and on compensation. It aims to ensure a high level of protection for consumers and other natural persons while supporting the internal market. It covers products placed on the market from 9 December 2026, including software, and does not apply to non-commercial free and open-source software.",
+  "source": "Arts. 1-2 of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 87,
+  "celex": "32023R1066",
+  "name": "Horizontal Block Exemption Regulations",
+  "objectives": "Two regulations exempt certain agreements between companies, including competitors, from the EU ban on anti-competitive agreements. Regulation 2023/1066 covers research and development agreements, subject to conditions on access to results and market share thresholds; Regulation 2023/1067 covers specialisation and joint production agreements where the parties' combined market share does not exceed 20%. Agreements with listed serious restrictions are excluded.",
+  "source": "Arts. 1-6 of Regulations (EU) 2023/1066 and 2023/1067",
+  "verified": "act text read"
+ }
+]
