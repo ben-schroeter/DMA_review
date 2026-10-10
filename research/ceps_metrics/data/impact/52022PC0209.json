@@ -71,7 +71,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20250816235506/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52022SC0210",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "eprs-2023-csar-complementary-ia",
@@ -95,7 +96,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "edpb-edps-2022-csam-opinion",
@@ -119,7 +121,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   }
  ],
  "evidence_level": "ex-ante only"

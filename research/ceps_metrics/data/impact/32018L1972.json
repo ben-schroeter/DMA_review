@@ -91,7 +91,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20240709232400/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52016SC0304",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "ec-2026-eecc-review",
@@ -115,7 +116,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2026-dna-ia-evaluation",
@@ -139,7 +141,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2022-eecc-referral",
@@ -163,7 +166,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20250610033948/https://ec.europa.eu/commission/presscorner/detail/en/ip_22_1975",
-   "category": "enforcement or case law"
+   "category": "enforcement or case law",
+   "source_class": "official"
   },
   {
    "id": "briglauer-cambini-fetzer-huschelrath-2017",
@@ -187,7 +191,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "briglauer-cambini-grajek-2018",
@@ -211,7 +216,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "grajek-roller-2012",
@@ -235,7 +241,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "ec-2024-112-report",

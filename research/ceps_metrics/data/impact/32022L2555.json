@@ -91,7 +91,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20240705204139/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52020SC0344",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "ec-2020-nis1-evaluation",
@@ -115,7 +116,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "wavestone-icf-ceps-2021-nis-review",
@@ -139,7 +141,8 @@
    "interested_party": "CEPS (co-author) hosts this metrics project",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20241111142217/https://op.europa.eu/en/publication-detail/-/publication/3b6ad641-d23c-11eb-ac72-01aa75ed71a1",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "enisa-2020-nis-investments",
@@ -163,7 +166,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "enisa-2024-nis-investments",
@@ -187,7 +191,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20261001031158/https://www.enisa.europa.eu/publications/nis-investments-2024",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "enisa-2025-nis-investments",
@@ -211,7 +216,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260806080039/https://www.enisa.europa.eu/publications/nis-investments-2025",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "enisa-2024-state-of-cybersecurity",
@@ -235,7 +241,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2026-nis2-referral",
@@ -259,7 +266,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260811180832/https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1499",
-   "category": "enforcement or case law"
+   "category": "enforcement or case law",
+   "source_class": "official"
   },
   {
    "id": "enisa-2025-nis360",

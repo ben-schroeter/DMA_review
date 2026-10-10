@@ -71,7 +71,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20261004132438/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52023SC0233",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "adalid-et-al-2022-ecb-op293",
@@ -95,7 +96,8 @@
    "interested_party": "ECB is the prospective issuer of the digital euro",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260331231428/https://www.ecb.europa.eu/pub/pdf/scpops/ecb.op293%7E652cf2b1aa.en.pdf",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ecb-2025-holding-limits-technical",
@@ -119,7 +121,8 @@
    "interested_party": "ECB is the prospective issuer of the digital euro",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "pwc-2025-digital-euro-cost",
@@ -143,7 +146,8 @@
    "interested_party": "Commissioned by bank associations (EACB, EBF, ESBG) opposed to current design",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   }
  ],
  "evidence_level": "ex-ante only"

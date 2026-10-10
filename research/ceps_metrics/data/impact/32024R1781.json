@@ -81,7 +81,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20251212160049/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52022SC0083",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "inforse-2022-espr",
@@ -105,7 +106,8 @@
    "interested_party": "Environmental NGO network advocating energy-efficiency policy",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "think tank"
   },
   {
    "id": "kpmg-2026-dpp-readiness",

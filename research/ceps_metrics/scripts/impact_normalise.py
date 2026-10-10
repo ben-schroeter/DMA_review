@@ -38,6 +38,18 @@ def category(l):
     return "evidence"
 
 
+def source_class(l):
+    """academic / official / think tank / consultancy or industry / other; set by the search agents for new sources, inferred here for older ones."""
+    if l.get("source_class"):
+        return l["source_class"]
+    st = l.get("source_type", "").lower()
+    if re.search(r"think[- ]tank|ngo|consumer organisation|observatory|cerre|bruegel|ceps|independent monitoring", st): return "think tank"
+    if re.search(r"industry|consultancy|company|trade press|stakeholder|advocacy", st) and "commission" not in st: return "consultancy or industry"
+    if re.search(r"peer-reviewed|working paper|book chapter|academic|conference", st) and "jrc" not in st: return "academic"
+    if re.search(r"jrc|national post-implementation|commission|agency|audit|regulator|central bank|statistic|register|parliament|government|court|official|intergovernmental|supervisory|member state|legislative|advisory|enforcement", st): return "official"
+    return "other"
+
+
 for f in sorted(glob.glob(os.path.join(OUT, "[35]*.json"))):
     rec = json.load(open(f))
     rec["evidence_level"] = evidence_level(rec["evidence_rating"])
@@ -45,5 +57,6 @@ for f in sorted(glob.glob(os.path.join(OUT, "[35]*.json"))):
         i["status_group"] = status_group(i["status"])
     for l in rec["literature"]:
         l["category"] = category(l)
+        l["source_class"] = source_class(l)
     json.dump(rec, open(f, "w"), indent=1, ensure_ascii=False)
 print("normalised")

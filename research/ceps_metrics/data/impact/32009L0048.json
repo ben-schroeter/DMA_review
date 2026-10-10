@@ -81,7 +81,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20220808175357/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52008SC0039",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "ec-2020-toys-evaluation",
@@ -105,7 +106,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20231115082444/http://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:52020SC0287",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2023-toys-ia",
@@ -129,7 +131,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   }
  ],
  "evidence_level": "thin"

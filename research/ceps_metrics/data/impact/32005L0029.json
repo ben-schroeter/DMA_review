@@ -81,7 +81,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20251009141108/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52003SC0724",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "ec-2013-ucpd-report",
@@ -105,7 +106,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20251123133623/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52013DC0139",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2017-consumer-fitness-check",
@@ -129,7 +131,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "roesner-haucap-heimeshoff-2020",
@@ -153,7 +156,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "lupianez-villanueva-2022-dark-patterns",
@@ -177,7 +181,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "cpc-2023-dark-patterns-sweep",
@@ -201,7 +206,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20261004181804/https://ec.europa.eu/commission/presscorner/detail/en/ip_23_418",
-   "category": "enforcement or case law"
+   "category": "enforcement or case law",
+   "source_class": "official"
   },
   {
    "id": "ec-2024-digital-fairness-fitness-check",
@@ -225,7 +231,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2024-omnibus-report",
@@ -249,7 +256,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   }
  ],
  "evidence_level": "moderate"

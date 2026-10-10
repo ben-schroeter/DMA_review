@@ -71,7 +71,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2016-satcab-evaluation",
@@ -95,7 +96,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20220812152401/https://data.consilium.europa.eu/doc/document/ST-12281-2016-INIT/en/pdf",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2016-copyright-ia-satcab",
@@ -119,7 +121,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   }
  ],
  "evidence_level": "thin"

@@ -91,7 +91,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260403050307/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52021SC0190",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "pol-2020-aml-effectiveness",
@@ -115,7 +116,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "slutzky-villamizar-williams-2026",
@@ -139,7 +141,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "eba-2022-derisking-opinion",
@@ -163,7 +166,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260926054127/https://www.eba.europa.eu/publications-and-media/press-releases/eba-alerts-detrimental-impact-unwarranted-de-risking-and",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "rice-vonpeter-boar-2020",
@@ -187,7 +191,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260606174214/https://www.bis.org/publ/qtrpdf/r_qt2003g.htm",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "eca-2021-aml-banking",
@@ -211,7 +216,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20251125175117/https://op.europa.eu/webpub/eca/special-reports/fight-money-laundering-13-2021/en/",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "europol-2017-suspicion-action",
@@ -235,7 +241,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "premti-2021-4amld-bankvaluation",

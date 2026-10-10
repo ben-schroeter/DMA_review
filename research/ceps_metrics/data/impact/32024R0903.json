@@ -61,7 +61,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20250120045558/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52022SC0722",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "ec-2022-eif-evaluation",
@@ -85,7 +86,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2025-interop-annual-report",
@@ -109,7 +111,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260512082745/https://commission.europa.eu/news-and-media/news/state-interoperability-union-2025-12-16_en",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2025-iopa-study",

@@ -71,7 +71,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2020-ecd-evaluation",
@@ -95,7 +96,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260818202611/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52020SC0348",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "eprs-2020-dsa-eava",
@@ -119,7 +121,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "oxera-2015-safe-harbours",
@@ -143,7 +146,8 @@
    "interested_party": "Commissioned by Google",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "consultancy or industry"
   },
   {
    "id": "lefouili-madio-2022-platform-liability",
@@ -167,7 +171,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "erickson-kretschmer-2020-empirical-il",
@@ -191,7 +196,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   }
  ],
  "evidence_level": "thin"

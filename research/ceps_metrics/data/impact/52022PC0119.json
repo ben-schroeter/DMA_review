@@ -71,7 +71,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20240619005429/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52022SC0065",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "eca-2022-cybersecurity-euibas",
@@ -95,7 +96,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260313155014/https://op.europa.eu/webpub/eca/special-reports/hack-proofing-eu-institutions-05-2022/en/",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   }
  ],
  "evidence_level": "ex-ante only"

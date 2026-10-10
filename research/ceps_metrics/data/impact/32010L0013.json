@@ -81,7 +81,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260227044509/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52016SC0170",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2016-avmsd-ia",
@@ -105,7 +106,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "ec-2024-avmsd-european-works-report",
@@ -129,7 +131,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260312183224/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52024DC0261",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   }
  ],
  "evidence_level": "thin"

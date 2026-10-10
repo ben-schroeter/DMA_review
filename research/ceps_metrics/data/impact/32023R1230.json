@@ -71,7 +71,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260121232154/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52021SC0083",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "tcworld-2024-machinery-digital",
@@ -95,7 +96,8 @@
    "interested_party": "Technical-communication industry (tekom) lobbied for digital instructions",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20250806174308/https://www.tcworld.info/news/the-european-machinery-regulation-1327",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "consultancy or industry"
   }
  ],
  "evidence_level": "ex-ante only"

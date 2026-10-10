@@ -71,7 +71,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20251006224201/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52013SC0472",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "borghi-cogo-khan-2023-euipo",
@@ -95,7 +96,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "aplin-2023-tradesecretsdata",

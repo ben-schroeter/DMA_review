@@ -71,7 +71,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260619083541/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52012SC0073",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "ec-2022-led-report",
@@ -95,7 +96,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260415024244/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022DC0364",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "council-2025-led-findings",
@@ -119,7 +121,8 @@
    "interested_party": "Member State governments (whose police and justice authorities are the regulated parties)",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "edpb-2026-ledevaluation",

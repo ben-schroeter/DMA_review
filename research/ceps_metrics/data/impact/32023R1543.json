@@ -61,7 +61,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "euroispa-2026-eevidence",
@@ -85,7 +86,8 @@
    "interested_party": "Association of internet service providers subject to the obligations",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "consultancy or industry"
   }
  ],
  "evidence_level": "ex-ante only"

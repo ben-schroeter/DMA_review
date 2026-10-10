@@ -91,7 +91,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "ec-2024-h2020-expost",
@@ -115,7 +116,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20240627150752/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52024SC0029",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2025-horizon-europe-interim",
@@ -139,7 +141,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260919202535/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52025SC0110",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "santoleri-et-al-2024-rd-grants",
@@ -163,7 +166,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "mitra-niakaros-2023-horizon-effect",
@@ -187,7 +191,8 @@
    "interested_party": "Authors are European Commission (DG Research and Innovation) staff evaluating their own programme",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "ghirelli-et-al-2023-erc",
@@ -211,7 +216,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260920142540/https://docs.iza.org/dp16108.pdf",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "delsorbo-2026-eicaccelerator",

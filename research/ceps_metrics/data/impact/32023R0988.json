@@ -81,7 +81,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20240805024925/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021SC0169",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "ec-2026-safety-gate-2025",
@@ -105,7 +106,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260510210622/https://commission.europa.eu/news-and-media/news/increased-action-against-dangerous-products-eu-2025-2026-03-09_en",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "euroconsumers-2025-temu-shein",
@@ -129,7 +131,8 @@
    "interested_party": "Consumer organisation (advocacy for stronger enforcement)",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260919053429/https://www.euroconsumers.org/systemic-failures-in-product-compliance-on-temu-and-shein/",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "think tank"
   },
   {
    "id": "csn-2025-gpsr-sweep",

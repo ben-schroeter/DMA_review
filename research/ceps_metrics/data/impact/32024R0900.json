@@ -71,7 +71,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20240813033958/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021SC0356",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "edmo-2025-eu-election-ads",
@@ -95,7 +96,8 @@
    "interested_party": "Funded by the European Union",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260114162950/https://edmo.eu/wp-content/uploads/2025/09/EDMO-Analysis-of-Electoral-Advertising.pdf",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "think tank"
   },
   {
    "id": "meta-2025-ttpa-exit",
@@ -119,7 +121,8 @@
    "interested_party": "Regulated company; statement explains its own commercial decision",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20261006124032/https://about.fb.com/news/2025/07/ending-political-electoral-and-social-issue-advertising-in-the-eu/",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "consultancy or industry"
   },
   {
    "id": "meddmo-2026-cyprusads",

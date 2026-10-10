@@ -131,7 +131,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "ec-2024-gdpr-report",
@@ -155,7 +156,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "jia-jin-wagman-2021",
@@ -179,7 +181,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260510200923/https://www.nber.org/papers/w25248",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "johnson-shriver-goldberg-2023",
@@ -203,7 +206,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "goldberg-johnson-shriver-2024",
@@ -227,7 +231,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "peukert-et-al-2022",
@@ -251,7 +256,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "janssen-et-al-2022",
@@ -275,7 +281,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "frey-presidente-2024",
@@ -299,7 +306,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "demirer-et-al-2024",
@@ -323,7 +331,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "aridor-che-salz-2023",
@@ -347,7 +356,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "iab-2025-bureaucracy",
@@ -371,7 +381,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260215012430/https://iab-forum.de/die-betriebe-mussten-in-den-letzten-drei-jahren-325-000-arbeitskraefte-zusaetzlich-einstellen-um-die-gewachsene-buerokratie-zu-bewaeltigen/",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "other"
   },
   {
    "id": "miller-2024-gdpr-tracking",

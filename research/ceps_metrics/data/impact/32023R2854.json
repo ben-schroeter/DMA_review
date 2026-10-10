@@ -81,7 +81,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20251123045340/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022SC0035",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "ec-2022-dataact-press",
@@ -105,7 +106,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "kerber-2023-iot-data",
@@ -129,7 +131,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "martens-2023-bruegel-dataact",
@@ -153,7 +156,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260927001100/https://www.bruegel.org/working-paper/pro-and-anti-competitive-provisions-proposed-european-union-data-act",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "think tank"
   },
   {
    "id": "cerre-2023-dataact",
@@ -177,7 +181,8 @@
    "interested_party": "CERRE is funded partly by industry members, including large digital firms",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260514230429/https://cerre.eu/publications/data-act-towards-a-balanced-eu-data-regulation/",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "think tank"
   },
   {
    "id": "bitkom-2025-dataact-survey",
@@ -201,7 +206,8 @@
    "interested_party": "Bitkom is the German digital industry association and lobbied on the Act",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "consultancy or industry"
   },
   {
    "id": "ec-2025-digital-omnibus-dataact",
@@ -225,7 +231,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   }
  ],
  "evidence_level": "ex-ante only"

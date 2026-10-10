@@ -71,7 +71,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20231115082100/https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:52020SC0264",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2022-design-ia",
@@ -95,7 +96,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20240809041951/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52022SC0368",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "filitz-henkel-tether-2015",
@@ -119,7 +121,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   }
  ],
  "evidence_level": "thin"

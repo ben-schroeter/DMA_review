@@ -71,7 +71,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "dolado-janez-wellschmied-2025-riders",
@@ -95,7 +96,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260421110729/https://www.iza.org/publications/dp/17740",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   }
  ],
  "evidence_level": "ex-ante only"

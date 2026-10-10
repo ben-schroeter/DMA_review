@@ -61,7 +61,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "eesc-2024-late-payment-opinion",
@@ -85,7 +86,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "icisa-2024-late-payment",
@@ -109,7 +111,8 @@
    "interested_party": "Trade credit insurers' association whose business depends on payment terms",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "consultancy or industry"
   }
  ],
  "evidence_level": "ex-ante only"

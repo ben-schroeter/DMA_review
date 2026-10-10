@@ -71,7 +71,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260113041719/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52014DC0228",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2016-ecomms-evaluation",
@@ -95,7 +96,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260312235058/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52016SC0313",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2026-dna-ia",
@@ -119,7 +121,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260327044123/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52026SC0013",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   }
  ],
  "evidence_level": "thin"

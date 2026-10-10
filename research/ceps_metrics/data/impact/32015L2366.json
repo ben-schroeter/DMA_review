@@ -151,7 +151,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "ec-2023-psd2-review",
@@ -175,7 +176,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20241219081330/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023DC0365",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "babina-et-al-2024",
@@ -199,7 +201,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "multisafepay-sca-conversion",
@@ -223,7 +226,8 @@
    "interested_party": "Payment service provider",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "consultancy or industry"
   }
  ],
  "evidence_level": "moderate"

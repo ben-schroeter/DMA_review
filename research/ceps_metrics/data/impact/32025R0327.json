@@ -71,7 +71,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20240713074117/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52022SC0132",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "marcus-et-al-2022-ehds",
@@ -95,7 +96,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "eit-health-2024-ehds-funding",
@@ -119,7 +121,8 @@
    "interested_party": "EIT Health network includes industry partners that would use health data",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20240521223823/https://www.researchprofessionalnews.com/rr-news-europe-innovation-2024-4-more-commitment-needed-for-european-health-data-space/",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "think tank"
   },
   {
    "id": "ec-2025-myhealth-status",
@@ -143,7 +146,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "hiqa-2026-ehds-readiness",

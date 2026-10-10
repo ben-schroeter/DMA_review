@@ -81,7 +81,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20240714024358/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52016SC0302",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "ec-2024-art17-6-assessment",
@@ -105,7 +106,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "calzada-gil-2020-news-aggregators",
@@ -129,7 +131,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "athey-mobius-pal-2021-aggregators",
@@ -153,7 +156,8 @@
    "interested_party": "Data from Microsoft users; Athey and Mobius affiliated with Microsoft Research",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "jrc-2016-news-aggregation",
@@ -177,7 +181,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "adlc-2021-2024-google-neighbouring-rights",
@@ -201,7 +206,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "enforcement or case law"
+   "category": "enforcement or case law",
+   "source_class": "official"
   },
   {
    "id": "doseva-et-al-2022-uploaders",
@@ -225,7 +231,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260607102546/https://policyreview.info/articles/analysis/uploaders-perceptions-german-implementation-eu-copyright-reform",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "dergacheva-2023-art17-youtube",

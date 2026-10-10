@@ -71,7 +71,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20251226052323/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52025SC0335",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "usg-2025-space-act-comments",
@@ -95,7 +96,8 @@
    "interested_party": "Government representing affected non-EU (US) operators",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260307042558/https://space.commerce.gov/wp-content/uploads/2025/11/090166e52487d15d.pdf",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   }
  ],
  "evidence_level": "ex-ante only"

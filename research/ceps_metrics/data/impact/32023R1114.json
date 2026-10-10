@@ -101,7 +101,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "ex-ante assessment"
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "esma-2026-mica-register",
@@ -125,7 +126,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20261004232619/https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "calissano-giuglini-reiche-2024",
@@ -149,7 +151,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20261008165323/https://www.esma.europa.eu/sites/default/files/2024-04/ESMA50-524821-3153_risk_article_crypto_assets_market_structures_and_eu_relevance.pdf",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "borri-shakhnov-2026",
@@ -173,7 +176,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "fauche-2025-micar-euro-stablecoins",
@@ -197,7 +201,8 @@
    "interested_party": "",
    "accessed": "2026-10-10",
    "archive_url": "http://web.archive.org/web/20260411232523/https://financialforum.be/en/bfw-digitaal/the-impact-of-micar-on-the-stablecoin-market",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "other"
   },
   {
    "id": "decta-2026-euro-stablecoins",
@@ -221,7 +226,8 @@
    "interested_party": "Decta is a payments/card-processing company",
    "accessed": "2026-10-10",
    "archive_url": "",
-   "category": "evidence"
+   "category": "evidence",
+   "source_class": "consultancy or industry"
   },
   {
    "id": "conlon-2024-mica-eventstudy",
