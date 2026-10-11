@@ -181,6 +181,41 @@ def run(rows):
     return out
 
 
+_DEC = None
+
+
+def key(r, with_doc=True):
+    import hashlib
+    d = r["doc"] if with_doc else ""
+    return hashlib.sha1(f"{d}|{r['clause']}|{r['pos']}|{r['marker']}".encode()).hexdigest()
+
+
+def decisions():
+    """Second-reader (model) decisions for restrictions the rules leave unclear, keyed by key()."""
+    global _DEC
+    if _DEC is None:
+        _DEC = {}
+        p = os.path.join(os.path.dirname(__file__), "..", "data", "addressee", "model_decisions.jsonl")
+        if os.path.exists(p):
+            for l in open(p):
+                d = json.loads(l); _DEC[d["key"]] = d
+                if d.get("text_key"):
+                    _DEC.setdefault("t:" + d["text_key"], d)   # same clause in another text (proposal, consolidated version)
+    return _DEC
+
+
+def apply(rows):
+    """Rules, then the logged second-reader decision where the rules leave a restriction unclear."""
+    res, dec = run(rows), decisions()
+    for r, x in zip(rows, res):
+        if x["formal"] == U:
+            d = dec.get(key(r)) or dec.get("t:" + key(r, with_doc=False))
+            if d:
+                x.update(formal=d["formal"], ultimately_bound=d["ultimately_bound"], how="model",
+                         model_not_a_restriction=d["not_a_restriction"])
+    return res
+
+
 if __name__ == "__main__":
     kind = sys.argv[1] if len(sys.argv) > 1 else "main"
     D = os.path.join(os.path.dirname(__file__), "..", "data", "addressee")

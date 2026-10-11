@@ -6,7 +6,8 @@ from textparse import html_to_lines, split_parts, recital_lines, words
 from restrictions import strip_quoted, clauses, find_instances
 
 CATS = ["obligation", "prohibition", "restricted_permission", "explicit_requirement", "duty_of_result"]
-ADDR = ["private_parties", "member_states", "eu_institutions", "unclear"]
+ADDR = ["private_parties", "member_states", "eu_institutions", "no_actor", "unclear"]   # formal addressee (codebook v2)
+ULT = ["private_parties", "member_states", "eu_institutions", "no_actor", "unclear"]    # ultimately bound
 
 
 def _pages(data):
@@ -55,23 +56,26 @@ def pdf_pages(celex):
     return (total or None), "cellar_pdf_items"
 
 
-def count_restrictions(lines, with_addressee=True, sample_sink=None, doc_id=""):
-    from addressee import addressee, _LAST
-    _LAST["who"] = None
-    res = collections.Counter()
+def count_restrictions(lines, with_addressee=True, sample_sink=None, doc_id="", inst_sink=None):
+    """Counts by category; addressees by the v2 rules plus logged second-reader decisions (see data/addressee/CODEBOOK.md).
+    The addressee counter holds formal codes under their names and ultimately-bound codes under 'ult_<code>'."""
+    from addr_dump import walk
+    from addressee_v2 import apply
+    rows = walk(lines, doc_id)
+    res = collections.Counter(r["category"] for r in rows)
+    n_excl = sum(find_instances(c)[1] for c in clauses(strip_quoted(lines)))
     by_addr = collections.Counter()
-    n_excl = 0
-    for cl in clauses(strip_quoted(lines)):
-        inst, ne = find_instances(cl)
-        n_excl += ne
-        for cat, a, b in inst:
-            res[cat] += 1
-            if with_addressee:
-                who, subj = addressee(cl[:600], min(a, 599))
-                by_addr[who] += 1
-                if sample_sink is not None:
-                    sample_sink.append({"doc": doc_id, "clause": cl[:600], "marker": cl[a:b], "category": cat,
-                                        "addressee": who, "subject": subj})
+    if with_addressee and rows:
+        for r, x in zip(rows, apply(rows)):
+            by_addr[x["formal"]] += 1
+            by_addr["ult_" + x["ultimately_bound"]] += 1
+            by_addr["unresolved_by_rules"] += x["how"] == "model" or x["formal"] == "unclear"
+            by_addr["model_not_a_restriction"] += bool(x.get("model_not_a_restriction"))
+            if inst_sink is not None:
+                inst_sink.append({**r, **x})
+            if sample_sink is not None:
+                sample_sink.append({"doc": doc_id, "clause": r["clause"], "marker": r["marker"], "category": r["category"],
+                                    "addressee": x["formal"], "subject": r["subject"]})
     return res, by_addr, n_excl
 
 
@@ -103,6 +107,10 @@ def measure(celex, is_proposal=None, want_pages=True, with_addressee=True, sampl
     out["restrictions_total"] = sum(res.values())
     for a in ADDR:
         out["addr_" + a] = by_addr[a] if with_addressee else None
+    for a in ULT:
+        out["ult_" + a] = by_addr["ult_" + a] if with_addressee else None
+    out["addr_unresolved_by_rules"] = by_addr["unresolved_by_rules"] if with_addressee else None
+    out["addr_model_not_a_restriction"] = by_addr["model_not_a_restriction"] if with_addressee else None
     out["excluded_shall_uses"] = n_excl
     return out
 
@@ -151,4 +159,6 @@ def measure_from_pdf(celex, is_proposal=True):
     out["restrictions_total"] = sum(res.values())
     for a in ADDR:
         out["addr_" + a] = by_addr[a]
+    for a in ULT:
+        out["ult_" + a] = by_addr["ult_" + a]
     return out

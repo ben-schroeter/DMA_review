@@ -3,7 +3,7 @@ import json, re, subprocess, sys, os
 sys.path.insert(0, ".")
 from common import fetch
 from textparse import split_parts, recital_lines, words
-from measure import count_restrictions, CATS, ADDR, _pages
+from measure import count_restrictions, CATS, ADDR, ULT, _pages
 
 DOCS = {"COUNCIL-2026-04-23-PSR": "8221", "COUNCIL-2026-04-23-PSD3": "8222"}
 HEADER = re.compile(r"^\s*(\d{4}/26\s+\d+|[A-Z]{3,}\.\d\.[A-Z]\s+LIMITE\s+EN|LIMITE|EN)\s*$")
@@ -58,6 +58,7 @@ for cid, n in DOCS.items():
     for c in CATS: o["r_" + c] = r[c]
     o["restrictions_total"] = sum(r.values())
     for x in ADDR: o["addr_" + x] = a[x]
+    for x in ULT: o["ult_" + x] = a["ult_" + x]
     o["excluded_shall_uses"] = ne
     res.append(o); print(json.dumps(o))
 json.dump(res, open("../data/measurements_council.json", "w"), indent=1)

@@ -54,7 +54,8 @@ def measure_doc(url):
     res, addr, _ = count_restrictions(paras)
     m = {"pages": _pages(b), "words_total": words(text), "restrictions_total": sum(res.values()),
          "addr_private_parties": addr["private_parties"], "addr_member_states": addr["member_states"],
-         "addr_eu_institutions": addr["eu_institutions"], "addr_unclear": addr["unclear"],
+         "addr_eu_institutions": addr["eu_institutions"], "addr_no_actor": addr["no_actor"], "addr_unclear": addr["unclear"],
+         "ult_private_parties": addr["ult_private_parties"],
          "should_count": len(re.findall(r"\bshould\b", text, re.I))}
     for c in CATS:
         m["r_" + c] = res[c]

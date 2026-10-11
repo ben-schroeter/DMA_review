@@ -52,7 +52,8 @@ URL = "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:{}"
 METRICS = ["pages", "words_legal_text", "words_preamble", "words_recitals", "words_articles", "words_annexes",
            "words_memorandum", "words_financial_statement", "restrictions_total", "r_obligation", "r_prohibition",
            "r_restricted_permission", "r_explicit_requirement", "r_duty_of_result", "addr_private_parties",
-           "addr_member_states", "addr_eu_institutions", "addr_unclear"]
+           "addr_member_states", "addr_eu_institutions", "addr_unclear", "addr_no_actor",
+           "ult_private_parties", "ult_member_states", "ult_eu_institutions"]
 HDR = Font(name="Arial", bold=True, color="FFFFFF"); FILL = PatternFill("solid", fgColor="1F4E78")
 BODY = Font(name="Arial", size=10)
 
@@ -120,7 +121,7 @@ style(ws3, [8, 30, 13, 14, 11, 70, 50, 50])
 wg = wb.create_sheet("guidance_agencies")
 gcols = ["parent_row_id", "parent_name", "parent_celex", "agency", "title", "date", "status", "pdf_url", "pages", "words_total",
          "restrictions_total", "r_obligation", "r_prohibition", "r_restricted_permission", "r_explicit_requirement",
-         "r_duty_of_result", "addr_private_parties", "addr_member_states", "addr_eu_institutions", "addr_unclear",
+         "r_duty_of_result", "addr_private_parties", "addr_member_states", "addr_eu_institutions", "addr_unclear", "addr_no_actor",
          "should_count", "note"]
 wg.append(gcols)
 for it in sorted(ag, key=lambda x: (int(row_of.get(x["parent"], ("999",))[0]), x.get("agency", ""), str(x.get("date") or x.get("date_text") or ""))):

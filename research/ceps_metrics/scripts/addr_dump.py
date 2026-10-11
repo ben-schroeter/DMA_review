@@ -16,13 +16,11 @@ ART = re.compile(r"^Article\s+(\d+[a-z]?)\s*$", re.I)
 ANNEX = re.compile(r"^ANNEX(ES)?(\s+[IVXLC0-9]+[a-z]?)?\s*$", re.I)
 
 
-def dump(celex, kind):
-    raw = fetch(f"https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:{celex}")
-    lines = html_to_lines(raw)
-    parts = split_parts(lines, is_proposal=bool(re.match(r"5\d{4}PC", celex)))
+def walk(lines, celex, kind=""):
+    """Every counted restriction in `lines` (articles + annexes, before amendment text is stripped), with its context."""
     _LAST["who"] = None
     out, art, head, chapeau, expect_head, buf = [], "", "", "", False, ""
-    for line in strip_quoted(parts["articles"] + parts["annexes"]):
+    for line in strip_quoted(lines):
         s = line.strip()
         m = ART.match(s)
         if m:
@@ -34,7 +32,7 @@ def dump(celex, kind):
         if expect_head:
             expect_head = False
             if len(s) < 160 and not s.endswith((".", ";", ":")):
-                head = s
+                head = s          # article headings are titles, not rules: not counted
                 continue
         # a new numbered paragraph resets the lead-in; a line ending with ':' opens one
         if re.match(r"^\d+\.\s", s):
@@ -53,6 +51,12 @@ def dump(celex, kind):
         if s.endswith(":"):
             chapeau = s[-400:]
     return out
+
+
+def dump(celex, kind):
+    raw = fetch(f"https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:{celex}")
+    parts = split_parts(html_to_lines(raw), is_proposal=bool(re.match(r"5\d{4}PC", celex)))
+    return walk(parts["articles"] + parts["annexes"], celex, kind)
 
 
 if __name__ == "__main__":

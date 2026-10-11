@@ -32,7 +32,9 @@ EXCLUDE_SHALL = re.compile(
     # round 2 (held-out false positives)
     r"be\s+determined\s+(?:in\s+accordance|on\s+the\s+basis|by\s+reference)|occur|become\s+(?:chargeable|due|payable|effective)|"
     r"be\s+limited\s+to|be\s+allocated|be\s+EUR|amount\s+to|have\s+(?:the\s+)?(?:equivalent\s+)?(?:same\s+)?legal\s+effect|"
-    r"remain\s+with|not\s+result\s+in|not\s+entail|be\s+null\s+and\s+void|be\s+(?:automatically\s+)?void)\b", re.I)
+    r"remain\s+with|not\s+result\s+in|not\s+entail|be\s+null\s+and\s+void|be\s+(?:automatically\s+)?void|"
+    # round 3 (October 2026 addressee recheck): committee boilerplate
+    r"be\s+assisted\s+by\s+(?:a|the)\s+committee|be\s+a\s+committee\s+within\s+the\s+meaning)\b", re.I)
 DEFN_INCLUDE = re.compile(r"\bshall\s+(?:also\s+)?(?:include|comprise|cover)\b", re.I)
 NEG_SUBJECT = re.compile(r"\b(?:no|neither|nor)\s+(?:[\w\-’']+\s+){0,5}?shall\b", re.I)
 EXCLUDE_OTHER = re.compile(r"\b(?:is|are)\s+(?:hereby\s+)?(?:replaced|amended|inserted|deleted|repealed)\b|"
@@ -49,7 +51,8 @@ REQ = re.compile(r"\b(?:(?:is|are|be|been|being)\s+(?:\w+\s+)?required\b(?!\s+by
 CLAUSE_SPLIT = re.compile(r"(?<=[;:])\s+|(?<=\.)\s+(?=[A-Z(‘“])")
 
 
-AMEND_INTRO = re.compile(r"(replaced\s+by|inserted|added|substituted|following\s+(?:point|paragraph|article|subparagraph|"
+AMEND_INTRO = re.compile(r"(replaced\s+by(?:\s+the\s+following)?|(?:replaced|supplemented|amended)\s+(?:with|by)\s+the\s+following(?:\s+[\w()]+){0,2}|"
+                         r"inserted|added|substituted|following\s+(?:point|paragraph|article|subparagraph|"
                          r"sentence|text|words|annex|section|chapter|title|indent|recital)s?\b.*|as\s+follows|reads?\s+as\s+follows)\s*:?\s*$", re.I)
 OPEN_Q = ("‘", "“", "\"")
 CLOSE_Q = ("’", "”", "\"")
