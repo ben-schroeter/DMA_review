@@ -1,0 +1,1002 @@
+[
+ {
+  "sid": 100,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "document_producer",
+  "where": "whole_article",
+  "term": "manufacturer",
+  "confidence": "medium",
+  "reason": "Product requirement on toys; CE marking is affixed by the manufacturer placing the toy on the market."
+ },
+ {
+  "sid": 101,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "document_producer",
+  "where": "before",
+  "term": "taxable person",
+  "confidence": "medium",
+  "reason": "The VAT return is drawn up and submitted by the taxable person under Article 369f."
+ },
+ {
+  "sid": 102,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "cause": "passive_actor_in_context",
+  "where": "before",
+  "term": "competent authorities",
+  "confidence": "medium",
+  "reason": "Cap on the clock-stop triggered by competent authorities requesting missing information."
+ },
+ {
+  "sid": 103,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "document_producer",
+  "where": "heading",
+  "term": "providers",
+  "confidence": "high",
+  "reason": "Heading assigns post-market monitoring to providers of high-risk AI systems."
+ },
+ {
+  "sid": 104,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "document_producer",
+  "where": "before",
+  "term": "notified body",
+  "confidence": "high",
+  "reason": "The EC-type examination certificate is issued by the notified body carrying out the examination."
+ },
+ {
+  "sid": 105,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "document_producer",
+  "where": "before",
+  "term": "hosting service provider",
+  "confidence": "high",
+  "reason": "The contact-point information is made public by the hosting service provider (para 1)."
+ },
+ {
+  "sid": 106,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "term_not_recognised",
+  "where": "sentence",
+  "term": "sub-group on EUCI sharing",
+  "confidence": "high",
+  "reason": "A sub-group of the inter-institutional security body, an EU body."
+ },
+ {
+  "sid": 107,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "cause": "passive_actor_in_context",
+  "where": "whole_article",
+  "term": "Member States",
+  "confidence": "medium",
+  "reason": "Victim-support right in a directive; Member States must provide access to referral centres."
+ },
+ {
+  "sid": 108,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "cause": "passive_actor_in_context",
+  "where": "whole_article",
+  "term": "office / court",
+  "confidence": "medium",
+  "reason": "Constrains the national office or court that declares invalidity."
+ },
+ {
+  "sid": 109,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "document_producer",
+  "where": "before",
+  "term": "proposals",
+  "confidence": "high",
+  "reason": "The exploitation plan is part of proposals drawn up by applicants."
+ },
+ {
+  "sid": 110,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "document_producer",
+  "where": "whole_article",
+  "term": "manufacturer",
+  "confidence": "medium",
+  "reason": "Instructions for use are supplied by the manufacturer of the machinery."
+ },
+ {
+  "sid": 111,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "document_producer",
+  "where": "whole_article",
+  "term": "manufacturer",
+  "confidence": "medium",
+  "reason": "Design requirement on machinery binding the manufacturer; the chapeau shown is misattached."
+ },
+ {
+  "sid": 112,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "cause": "document_producer",
+  "where": "before",
+  "term": "Member States",
+  "confidence": "high",
+  "reason": "The database is established by Member States (previous sentence)."
+ },
+ {
+  "sid": 113,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "not_a_restriction",
+  "where": "before",
+  "term": "payment service provider",
+  "confidence": "medium",
+  "reason": "Exemption from the SCA obligation of payment service providers, not a restriction."
+ },
+ {
+  "sid": 114,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "document_producer",
+  "where": "before",
+  "term": "Union institution and body",
+  "confidence": "high",
+  "reason": "The plans are developed by each Union institution and body."
+ },
+ {
+  "sid": 115,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "passive_actor_in_context",
+  "where": "before",
+  "term": "competent advisory body",
+  "confidence": "medium",
+  "reason": "Annexing to the opinion falls to the Union advisory body or Commission handling the procedure."
+ },
+ {
+  "sid": 116,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "document_producer",
+  "where": "before",
+  "term": "Commission",
+  "confidence": "high",
+  "reason": "The evaluation report is drawn up by the Commission."
+ },
+ {
+  "sid": 117,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "term_not_recognised",
+  "where": "sentence",
+  "term": "European Digital Innovation Hubs",
+  "confidence": "medium",
+  "reason": "EDIHs are selected entities funded by the Programme (beneficiaries)."
+ },
+ {
+  "sid": 118,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "cause": "content_or_status",
+  "where": "none",
+  "term": "EU Centre",
+  "confidence": "high",
+  "reason": "Legal-status provision; binds no actor."
+ },
+ {
+  "sid": 119,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "cause": "passive_actor_in_context",
+  "where": "sentence",
+  "term": "issuing authority",
+  "confidence": "high",
+  "reason": "The issuing authority named earlier in the same footnote sentence adds the justification."
+ },
+ {
+  "sid": 120,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "cause": "content_or_status",
+  "where": "none",
+  "term": "",
+  "confidence": "medium",
+  "reason": "Definition-like statement of when an exceptional need exists."
+ },
+ {
+  "sid": 121,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "document_producer",
+  "where": "before",
+  "term": "roaming provider",
+  "confidence": "high",
+  "reason": "Notifications to roaming customers are sent by the roaming provider."
+ },
+ {
+  "sid": 122,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "not_a_restriction",
+  "where": "lead_in",
+  "term": "controller",
+  "confidence": "medium",
+  "reason": "Deeming rule permitting further processing; relaxes rather than restricts the controller."
+ },
+ {
+  "sid": 123,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "passive_actor_in_context",
+  "where": "lead_in",
+  "term": "Union ISOS provider",
+  "confidence": "high",
+  "reason": "The ISOS provider named in the lead-in and previous point must trigger the cancel command."
+ },
+ {
+  "sid": 124,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "cause": "content_or_status",
+  "where": "none",
+  "term": "",
+  "confidence": "high",
+  "reason": "Definition of average daily turnover for calculating penalties."
+ },
+ {
+  "sid": 125,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "passive_actor_in_context",
+  "where": "before",
+  "term": "eu-LISA",
+  "confidence": "high",
+  "reason": "eu-LISA submits the reports to Parliament and Council (previous sentence)."
+ },
+ {
+  "sid": 126,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "cause": "document_producer",
+  "where": "before",
+  "term": "Member States",
+  "confidence": "high",
+  "reason": "Penalties are laid down by Member States (para 1)."
+ },
+ {
+  "sid": 127,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "cause": "mixed_subject",
+  "where": "before",
+  "term": "Digital Services Coordinators / Board",
+  "confidence": "medium",
+  "reason": "Requests come from DSCs (para 1) or the Board (para 2)."
+ },
+ {
+  "sid": 128,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "cause": "term_not_recognised",
+  "where": "sentence",
+  "term": "offices",
+  "confidence": "high",
+  "reason": "The offices are the national (and Benelux) industrial property offices."
+ },
+ {
+  "sid": 129,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "document_producer",
+  "where": "heading",
+  "term": "Infrastructure Advisory Group",
+  "confidence": "high",
+  "reason": "The contribution is produced by the EuroHPC JU Infrastructure Advisory Group."
+ },
+ {
+  "sid": 130,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "document_producer",
+  "where": "whole_article",
+  "term": "spacecraft operator",
+  "confidence": "medium",
+  "reason": "Spacecraft design requirement binding the operator."
+ },
+ {
+  "sid": 131,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "cause": "passive_actor_in_context",
+  "where": "whole_article",
+  "term": "office",
+  "confidence": "medium",
+  "reason": "Binds the national office holding the register and files."
+ },
+ {
+  "sid": 132,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "passive_actor_in_context",
+  "where": "before",
+  "term": "Union institution or body",
+  "confidence": "high",
+  "reason": "Visit is carried out for the Union institution or body concluding the arrangement."
+ },
+ {
+  "sid": 133,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "document_producer",
+  "where": "before",
+  "term": "Competence Centre",
+  "confidence": "high",
+  "reason": "Revocation decisions are taken by the Competence Centre."
+ },
+ {
+  "sid": 134,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "document_producer",
+  "where": "whole_article",
+  "term": "manufacturer",
+  "confidence": "medium",
+  "reason": "Marking on machinery is the manufacturer's duty."
+ },
+ {
+  "sid": 135,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "cause": "document_producer",
+  "where": "before",
+  "term": "notifying authorities",
+  "confidence": "high",
+  "reason": "The notification is made by national notifying authorities."
+ },
+ {
+  "sid": 136,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "document_producer",
+  "where": "before",
+  "term": "implementing acts",
+  "confidence": "medium",
+  "reason": "Arrangements are adopted by Commission implementing acts."
+ },
+ {
+  "sid": 137,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "term_not_recognised",
+  "where": "sentence",
+  "term": "conformity assessment body",
+  "confidence": "high",
+  "reason": "Conformity assessment bodies (notified bodies) are private."
+ },
+ {
+  "sid": 138,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "cause": "content_or_status",
+  "where": "none",
+  "term": "",
+  "confidence": "medium",
+  "reason": "Time computation rule for the start of the period."
+ },
+ {
+  "sid": 139,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "term_not_recognised",
+  "where": "sentence",
+  "term": "Lead Overseer",
+  "confidence": "high",
+  "reason": "Lead Overseer is an ESA (EBA/ESMA/EIOPA)."
+ },
+ {
+  "sid": 140,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "document_producer",
+  "where": "whole_article",
+  "term": "manufacturer",
+  "confidence": "medium",
+  "reason": "Labels and instructions are provided by the manufacturer."
+ },
+ {
+  "sid": 141,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "document_producer",
+  "where": "whole_article",
+  "term": "manufacturer",
+  "confidence": "medium",
+  "reason": "The EU declaration of conformity is drawn up by the manufacturer."
+ },
+ {
+  "sid": 142,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "cause": "passive_actor_in_context",
+  "where": "sentence",
+  "term": "legal proceedings",
+  "confidence": "medium",
+  "reason": "Binds courts and authorities assessing evidence in legal proceedings."
+ },
+ {
+  "sid": 143,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "term_not_recognised",
+  "where": "sentence",
+  "term": "Private Member",
+  "confidence": "high",
+  "reason": "Private Members of the EuroHPC JU are private associations."
+ },
+ {
+  "sid": 144,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "document_producer",
+  "where": "sentence",
+  "term": "manufacturer",
+  "confidence": "high",
+  "reason": "The safety assessment is carried out by the manufacturer."
+ },
+ {
+  "sid": 145,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "document_producer",
+  "where": "before",
+  "term": "controller",
+  "confidence": "medium",
+  "reason": "The controller (a Union institution or body under Reg 2018/1725) provides the copy."
+ },
+ {
+  "sid": 146,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "document_producer",
+  "where": "before",
+  "term": "eu-LISA",
+  "confidence": "high",
+  "reason": "eu-LISA keeps the logs."
+ },
+ {
+  "sid": 147,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "passive_actor_in_context",
+  "where": "whole_article",
+  "term": "Joint Undertaking",
+  "confidence": "medium",
+  "reason": "Supplier selection is run by the EuroHPC Joint Undertaking."
+ },
+ {
+  "sid": 148,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "document_producer",
+  "where": "whole_article",
+  "term": "Commission",
+  "confidence": "medium",
+  "reason": "Interim evaluations under Article 171(2) are carried out by the Commission."
+ },
+ {
+  "sid": 149,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "term_not_recognised",
+  "where": "before",
+  "term": "RCO",
+  "confidence": "high",
+  "reason": "The RCO is assigned by a Union institution or body."
+ },
+ {
+  "sid": 150,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "passive_actor_in_context",
+  "where": "before",
+  "term": "financial entities",
+  "confidence": "high",
+  "reason": "Financial entities must test their detection mechanisms."
+ },
+ {
+  "sid": 151,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "passive_actor_in_context",
+  "where": "before",
+  "term": "Commission",
+  "confidence": "high",
+  "reason": "The Commission convenes the meeting and sends the draft."
+ },
+ {
+  "sid": 152,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "cause": "passive_actor_in_context",
+  "where": "before",
+  "term": "Digital Services Coordinator",
+  "confidence": "high",
+  "reason": "The investigation is opened by the Digital Services Coordinator."
+ },
+ {
+  "sid": 153,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "cause": "passive_actor_in_context",
+  "where": "before",
+  "term": "competent authorities",
+  "confidence": "high",
+  "reason": "Orders are issued by national competent authorities."
+ },
+ {
+  "sid": 154,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "term_not_recognised",
+  "where": "sentence",
+  "term": "Competence Centre",
+  "confidence": "medium",
+  "reason": "Mandate of the Competence Centre, an EU body."
+ },
+ {
+  "sid": 155,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "passive_actor_in_context",
+  "where": "before",
+  "term": "EASA",
+  "confidence": "low",
+  "reason": "Fee rules govern certification services provided by EASA."
+ },
+ {
+  "sid": 156,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "document_producer",
+  "where": "before",
+  "term": "Commission",
+  "confidence": "high",
+  "reason": "Strategic planning is carried out by the Commission."
+ },
+ {
+  "sid": 157,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "not_a_restriction",
+  "where": "whole_article",
+  "term": "Commission",
+  "confidence": "medium",
+  "reason": "Exemption from the requirement to launch a call for proposals."
+ },
+ {
+  "sid": 158,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "document_producer",
+  "where": "sentence",
+  "term": "Union entity",
+  "confidence": "high",
+  "reason": "The plan is the Union entity's cybersecurity plan."
+ },
+ {
+  "sid": 159,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "document_producer",
+  "where": "whole_article",
+  "term": "manufacturer",
+  "confidence": "medium",
+  "reason": "Design requirement on machinery binding the manufacturer."
+ },
+ {
+  "sid": 160,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "cause": "passive_actor_in_context",
+  "where": "sentence",
+  "term": "Member State which issued the VAT identification number",
+  "confidence": "medium",
+  "reason": "The reduction is made by the Member State that issued the VAT number."
+ },
+ {
+  "sid": 161,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "document_producer",
+  "where": "whole_article",
+  "term": "manufacturer",
+  "confidence": "medium",
+  "reason": "Design requirement on machinery binding the manufacturer."
+ },
+ {
+  "sid": 162,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "passive_actor_in_context",
+  "where": "whole_article",
+  "term": "Commission",
+  "confidence": "medium",
+  "reason": "Governmental services under the Union programme are provided by the Commission."
+ },
+ {
+  "sid": 163,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "document_producer",
+  "where": "lead_in",
+  "term": "Commission",
+  "confidence": "medium",
+  "reason": "Digital tools are set up by the Commission (lead-in)."
+ },
+ {
+  "sid": 164,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "document_producer",
+  "where": "definitions",
+  "term": "taxable person",
+  "confidence": "medium",
+  "reason": "The VAT return is submitted by the non-established taxable person."
+ },
+ {
+  "sid": 165,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "pronoun_or_ellipsis",
+  "where": "before",
+  "term": "roaming provider",
+  "confidence": "medium",
+  "reason": "The customer request goes to a number the roaming provider must designate."
+ },
+ {
+  "sid": 166,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "cause": "term_not_recognised",
+  "where": "sentence",
+  "term": "National competent authorities",
+  "confidence": "medium",
+  "reason": "Actor is named in the sentence; the parser picked the conditional clause instead."
+ },
+ {
+  "sid": 167,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "passive_actor_in_context",
+  "where": "before",
+  "term": "ETIAS Central Unit",
+  "confidence": "high",
+  "reason": "The ETIAS Central Unit carries out the detection and creates links."
+ },
+ {
+  "sid": 168,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "document_producer",
+  "where": "before",
+  "term": "Innovative Health Initiative Joint Undertaking",
+  "confidence": "medium",
+  "reason": "The work programme is adopted by the Joint Undertaking."
+ },
+ {
+  "sid": 169,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "passive_actor_in_context",
+  "where": "whole_article",
+  "term": "Chips Joint Undertaking",
+  "confidence": "low",
+  "reason": "The network is set up under the Union Initiative (Commission/Chips JU)."
+ },
+ {
+  "sid": 170,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "passive_actor_in_context",
+  "where": "whole_article",
+  "term": "manufacturer",
+  "confidence": "medium",
+  "reason": "Design requirement on machinery binding the manufacturer."
+ },
+ {
+  "sid": 171,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "term_not_recognised",
+  "where": "sentence",
+  "term": "RCO",
+  "confidence": "high",
+  "reason": "RCO and witness are officials of the Union institution or body."
+ },
+ {
+  "sid": 172,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "document_producer",
+  "where": "whole_article",
+  "term": "manufacturer",
+  "confidence": "medium",
+  "reason": "Design requirement on machinery binding the manufacturer."
+ },
+ {
+  "sid": 173,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "passive_actor_in_context",
+  "where": "before",
+  "term": "crypto-asset service providers operating a trading platform",
+  "confidence": "high",
+  "reason": "The operator of the trading platform draws up the operating rules."
+ },
+ {
+  "sid": 174,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "passive_actor_in_context",
+  "where": "before",
+  "term": "manufacturer",
+  "confidence": "medium",
+  "reason": "Limits what the manufacturer may delegate to its authorised representative."
+ },
+ {
+  "sid": 175,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "cause": "document_producer",
+  "where": "before",
+  "term": "Member State concerned",
+  "confidence": "high",
+  "reason": "Recovery and resilience plans are drawn up by Member States."
+ },
+ {
+  "sid": 176,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "term_not_recognised",
+  "where": "sentence",
+  "term": "certification bodies",
+  "confidence": "high",
+  "reason": "Accredited certification bodies are private."
+ },
+ {
+  "sid": 177,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "passive_actor_in_context",
+  "where": "whole_article",
+  "term": "manufacturer",
+  "confidence": "medium",
+  "reason": "Design requirement on machinery binding the manufacturer."
+ },
+ {
+  "sid": 178,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "passive_actor_in_context",
+  "where": "whole_article",
+  "term": "manufacturer",
+  "confidence": "medium",
+  "reason": "Design requirement on machinery binding the manufacturer."
+ },
+ {
+  "sid": 179,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "passive_actor_in_context",
+  "where": "whole_article",
+  "term": "Joint Undertaking",
+  "confidence": "medium",
+  "reason": "Ex post audits are carried out by the Joint Undertaking or Commission."
+ },
+ {
+  "sid": 180,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "passive_actor_in_context",
+  "where": "whole_article",
+  "term": "Commission",
+  "confidence": "medium",
+  "reason": "The Commission grants the EU guarantee to implementing partners."
+ },
+ {
+  "sid": 181,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "passive_actor_in_context",
+  "where": "whole_article",
+  "term": "Commission",
+  "confidence": "medium",
+  "reason": "The Commission appoints the experts and reports on their remuneration."
+ },
+ {
+  "sid": 182,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "term_not_recognised",
+  "where": "sentence",
+  "term": "contractors",
+  "confidence": "high",
+  "reason": "Passive agent named: the contractors."
+ },
+ {
+  "sid": 183,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "not_a_restriction",
+  "where": "none",
+  "term": "the Programme",
+  "confidence": "low",
+  "reason": "Statement of programme objectives, not a restriction."
+ },
+ {
+  "sid": 184,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "cause": "document_producer",
+  "where": "before",
+  "term": "Member States",
+  "confidence": "high",
+  "reason": "The means are provided by Member States (para 1)."
+ },
+ {
+  "sid": 185,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "term_not_recognised",
+  "where": "sentence",
+  "term": "ECCC",
+  "confidence": "high",
+  "reason": "The ECCC is an EU body."
+ },
+ {
+  "sid": 186,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "mixed_subject",
+  "where": "whole_article",
+  "term": "Commission",
+  "confidence": "low",
+  "reason": "Governance principles apply to several actors (Commission, Member States, agencies)."
+ },
+ {
+  "sid": 187,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "passive_actor_in_context",
+  "where": "heading",
+  "term": "holder of the design right",
+  "confidence": "medium",
+  "reason": "Limits the design holder's exercise of the right."
+ },
+ {
+  "sid": 188,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "term_not_recognised",
+  "where": "sentence",
+  "term": "financial data sharing scheme",
+  "confidence": "medium",
+  "reason": "The scheme is an arrangement among private data holders and users."
+ },
+ {
+  "sid": 189,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "cause": "passive_actor_in_context",
+  "where": "whole_article",
+  "term": "competent authority",
+  "confidence": "high",
+  "reason": "The removal order is sent by the issuing competent authority."
+ },
+ {
+  "sid": 190,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "document_producer",
+  "where": "before",
+  "term": "Commission",
+  "confidence": "high",
+  "reason": "The information is provided by the Commission."
+ },
+ {
+  "sid": 191,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "document_producer",
+  "where": "before",
+  "term": "manufacturer",
+  "confidence": "high",
+  "reason": "The technical documentation is drawn up by the manufacturer."
+ },
+ {
+  "sid": 192,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "cause": "passive_actor_in_context",
+  "where": "sentence",
+  "term": "competent authorities",
+  "confidence": "high",
+  "reason": "The competent authorities taking the measure must justify and communicate it."
+ },
+ {
+  "sid": 193,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "document_producer",
+  "where": "whole_article",
+  "term": "launch operator",
+  "confidence": "medium",
+  "reason": "Launcher design requirement binding the launch operator."
+ },
+ {
+  "sid": 194,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "cause": "passive_actor_in_context",
+  "where": "whole_article",
+  "term": "debtor",
+  "confidence": "medium",
+  "reason": "Compensation for late payment is paid by the debtor."
+ },
+ {
+  "sid": 195,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "document_producer",
+  "where": "whole_article",
+  "term": "work programme",
+  "confidence": "high",
+  "reason": "The work programme is adopted by the Commission."
+ },
+ {
+  "sid": 196,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "passive_actor_in_context",
+  "where": "whole_article",
+  "term": "Commission",
+  "confidence": "medium",
+  "reason": "Strategic project applications are assessed by the Commission."
+ },
+ {
+  "sid": 197,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "cause": "passive_actor_in_context",
+  "where": "before",
+  "term": "national measures",
+  "confidence": "high",
+  "reason": "Measures are imposed by Member States (national measures, para 1)."
+ },
+ {
+  "sid": 198,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "cause": "passive_actor_in_context",
+  "where": "sentence",
+  "term": "Member State",
+  "confidence": "medium",
+  "reason": "Member States must not allow deduction or refund."
+ },
+ {
+  "sid": 199,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "cause": "term_not_recognised",
+  "where": "sentence",
+  "term": "Competence Centre",
+  "confidence": "high",
+  "reason": "The Competence Centre is an EU body."
+ }
+]
