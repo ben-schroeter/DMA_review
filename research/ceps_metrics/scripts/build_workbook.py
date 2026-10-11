@@ -379,8 +379,10 @@ wv.append(["sample", "counted_true", "counted_false", "missed_true", "correctly_
            "addressee_accuracy", "addressee_n"])
 for k, v in val.items():
     if isinstance(v, dict) and "precision" in v:
-        wv.append([k] + [v[x] for x in ["counted_true", "counted_false", "missed_true", "correctly_dropped", "precision",
-                                         "recall_within_sample", "addressee_accuracy", "addressee_n"]])
+        wv.append([k] + [v.get(x, v.get("addressee_accuracy_v2_rules_plus_model") if x == "addressee_accuracy" else
+                                (v.get("counted_true") if x == "addressee_n" else None))
+                         for x in ["counted_true", "counted_false", "missed_true", "correctly_dropped", "precision",
+                                   "recall_within_sample", "addressee_accuracy", "addressee_n"]])
     elif isinstance(v, dict):
         wv.append([k] + [json.dumps(v)])
     else:
