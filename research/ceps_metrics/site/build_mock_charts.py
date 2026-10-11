@@ -1,6 +1,6 @@
 """Generate inline-SVG charts for the website mockup's front page (palette and fonts match the mockup).
 Writes site/mock_charts.json: {name: svg string}. Run from research/ceps_metrics."""
-import datetime as dt, json, statistics
+import collections, datetime as dt, json, statistics
 import openpyxl
 
 INK, INK2, MUTED, LINE, BASE = "#282424", "#3F3B3B", "#666666", "#E8E6E3", "#C9C6C3"
@@ -314,51 +314,55 @@ b += [f'<text x="{X(y):.1f}" y="{BOT0 + BOTH + 24}" text-anchor="middle" {F} fon
 b.append(f'<text x="{L}" y="{BOT0 - 24}" {F} font-size="15" fill="{INK}"><tspan font-weight="600">New acts adopted each year, by policy area.</tspan>'
          f'<tspan fill="{INK2}"> Adoptions bunch before each European election; none on the list was adopted in 2020.</tspan></text>')
 
-lx, ly = L, BOT0 + BOTH + 52
-for name, _, col in GROUPS:
-    wtxt = 7.6 * len(name) + 34
-    if lx + wtxt > W - 10:
-        lx, ly = L, ly + 24
-    b.append(f'<rect x="{lx}" y="{ly - 10}" width="12" height="12" rx="2" fill="{col}"></rect><text x="{lx + 18}" y="{ly}" {F} font-size="13.5" fill="{INK2}">{name}</text>')
-    lx += wtxt
+ly = BOT0 + BOTH + 52
+COLW = [0, 260, 500, 730]            # legend columns: row 2 sits under row 1
+for i, (name, _, col) in enumerate(GROUPS):
+    lx, yy = L + COLW[i % 4], ly + (i // 4) * 24
+    b.append(f'<rect x="{lx}" y="{yy - 10}" width="12" height="12" rx="2" fill="{col}"></rect><text x="{lx + 18}" y="{yy}" {F} font-size="13.5" fill="{INK2}">{name}</text>')
+ly += 24 * ((len(GROUPS) - 1) // 4)
 since = [sum(v) for yr, v in peryear.items() if yr >= 2020]
 charts["acts_combined"] = (f'<svg viewBox="0 0 {W} {ly + 16}" width="100%" role="img" aria-label="Top: cumulative adopted acts by legal type '
                            f'({cum["Regulation"]} regulations, {cum["Directive"]} directives, {cum["Decision"]} decisions). Bottom: new acts each year by policy area; '
                            f'{sum(since)} adopted since 2020">' + "".join(g + top + labt + b) + "</svg>")
 meta["groups_since_2020"] = {name: sum(v[gi] for yr, v in peryear.items() if yr >= 2020) for gi, (name, _, _) in enumerate(GROUPS)}
 
-# H. small multiples: cumulative restrictions by CEPS policy area (private parties vs others)
-areas = sorted({r["policy_area_ceps"] for r in inst}, key=lambda a: -sum(r["restrictions_total"] for r in inst if r["policy_area_ceps"] == a))
+# H. small multiples: cumulative restrictions by CEPS policy area, main acts vs their implementing and delegated acts
+area_of = {r["row_id"]: r["policy_area_ceps"] for r in sheet("instruments")}
+secs_by_area = collections.defaultdict(list)
+for r in sec:
+    secs_by_area[area_of.get(r["parent_row_id"])].append(r)
+tot_area = lambda a: sum(r["restrictions_total"] for r in inst if r["policy_area_ceps"] == a) + sum(r["restrictions_total"] for r in secs_by_area[a])
+areas = sorted({r["policy_area_ceps"] for r in inst}, key=lambda a: -tot_area(a))
 SW, NC, PW_, PH_, GX, GY, TOP0 = 1000, 4, 222, 150, 30, 62, 36
 SH = TOP0 + 3 * (PH_ + GY) + 10
-YM = 4500
-g = [f'<rect x="28" y="4" width="12" height="12" rx="2" fill="{CLAY}"></rect><text x="46" y="15" {F} font-size="13.5" fill="{INK2}">Binding private parties</text>',
-     f'<rect x="228" y="4" width="12" height="12" rx="2" fill="{STONE}"></rect><text x="246" y="15" {F} font-size="13.5" fill="{INK2}">Other addressees</text>']
+YM = 1000 * (max(tot_area(a) for a in areas) // 1000 + 1)
+g = [f'<rect x="28" y="4" width="12" height="12" rx="2" fill="{CLAY}"></rect><text x="46" y="15" {F} font-size="13.5" fill="{INK2}">Main acts</text>',
+     f'<rect x="148" y="4" width="12" height="12" rx="2" fill="{CLAY2}"></rect><text x="166" y="15" {F} font-size="13.5" fill="{INK2}">Implementing and delegated acts</text>']
 xpx = lambda x0, y: x0 + (y - Y0) / (Y1 - Y0) * PW_
 pa_tot = {}
 for i, a in enumerate(areas):
     x0 = 28 + (i % NC) * (PW_ + GX); y0 = TOP0 + 28 + (i // NC) * (PH_ + GY)
     yv = lambda v: y0 + PH_ - v / YM * PH_
-    rs = sorted([r for r in inst if r["policy_area_ceps"] == a], key=lambda r: r["d"])
+    ev_a = sorted([(fy(r["d"]), r["restrictions_total"], 0) for r in inst if r["policy_area_ceps"] == a] +
+                  [(fy(r["d"]), 0, r["restrictions_total"]) for r in secs_by_area[a]])
     p = o = 0; pp, po = [(Y0, 0)], [(Y0, 0)]
-    for r in rs:
-        pv = r["addr_private_parties"] or 0
-        p += pv; o += r["restrictions_total"] - pv
-        pp.append((fy(r["d"]), p)); po.append((fy(r["d"]), p + o))
+    for y_, mv, sv in ev_a:
+        p += mv; o += sv
+        pp.append((y_, p)); po.append((y_, p + o))
     pa_tot[a] = p + o
     rp, ro = resample(pp, stepy=2.0), resample(po, stepy=2.0)
     xf = lambda y, x0=x0: xpx(x0, y)
-    for t in (2000, 4000):
+    for t in [k * (2000 if YM > 6000 else 1000) for k in range(1, 10) if k * (2000 if YM > 6000 else 1000) < YM]:
         g.append(f'<line x1="{x0}" x2="{x0 + PW_}" y1="{yv(t):.1f}" y2="{yv(t):.1f}" stroke="{LINE}"></line>')
         if i % NC == 0:
             g.append(f'<text x="{x0 - 6}" y="{yv(t) + 4:.1f}" text-anchor="end" {F} font-size="12" fill="{MUTED}">{t // 1000}k</text>')
-    g.append(f'<path d="{band_d(ro, rp, xf, yv)}" fill="{STONE}"></path><path d="{band_d(rp, None, xf, yv)}" fill="{CLAY}"></path>')
+    g.append(f'<path d="{band_d(ro, rp, xf, yv)}" fill="{CLAY2}"></path><path d="{band_d(rp, None, xf, yv)}" fill="{CLAY}"></path>')
     g.append(f'<line x1="{x0}" x2="{x0 + PW_}" y1="{y0 + PH_}" y2="{y0 + PH_}" stroke="{BASE}"></line>')
     for y in (1990, 2010):
         g.append(f'<text x="{xpx(x0, y):.1f}" y="{y0 + PH_ + 16}" text-anchor="middle" {F} font-size="12" fill="{MUTED}">{y}</text>')
     g.append(f'<text x="{x0}" y="{y0 - 10}" {F} font-size="14" fill="{INK}" font-weight="600">{a.replace(" Protection", "").replace("&", "&amp;")} <tspan font-weight="400" fill="{MUTED}">{p + o:,}</tspan></text>')
 charts["policy_areas"] = (f'<svg viewBox="0 0 {SW} {SH}" width="100%" role="img" aria-label="Cumulative restrictions by CEPS policy area, twelve panels on shared axes, '
-                          f'split into restrictions binding private parties and other addressees">' + "".join(g) + "</svg>")
+                          f'split into restrictions in the main acts and in their implementing and delegated acts">' + "".join(g) + "</svg>")
 meta["policy_area_totals"] = pa_tot
 
 # I. restrictions per act and per 1,000 words over time, with 5-year averages and the Sarbanes-Oxley line
@@ -393,6 +397,74 @@ for t in ("Regulation", "Directive", "Decision"):
 g.append(f'<line x1="{lx}" x2="{lx + 22}" y1="{VH + 14}" y2="{VH + 14}" stroke="{INK}" stroke-width="2.5"></line><text x="{lx + 30}" y="{VH + 19}" {F} font-size="13.5" fill="{INK2}">5-year average</text>')
 charts["per_act_density"] = (f'<svg viewBox="0 0 {VW} {VH + 30}" width="100%" role="img" aria-label="Left: restrictions per act over time, rising. Right: restrictions per 1,000 words, roughly flat. '
                              f'Dots are acts; lines are 5-year averages; dashed line is the Sarbanes-Oxley Act">' + "".join(g) + "</svg>")
+
+# J. compact cumulative charts (half page width, or tall for a side column): same style as the restyled rulebook chart
+TERMS_SHORT = [("Santer", dt.date(1995, 1, 23)), ("Prodi", dt.date(1999, 9, 16)), ("Barroso", dt.date(2004, 11, 22)),
+               ("Barroso II", dt.date(2010, 2, 10)), ("Juncker", dt.date(2014, 11, 1)), ("vdL I", dt.date(2019, 12, 1)), ("vdL II", dt.date(2024, 12, 1))]
+
+
+def compact(layers, ymax, ticks, labels, aria, W_=560, H_=420, L_=48, R_=150, T_=44, B_=34, fmt=lambda v: f"{v:,.0f}", terms=True, years=(1990, 2000, 2010, 2020)):
+    """layers: [(color, opacity, cumulative points stacked bottom->top, outline color or None)]; labels: [(text, value_y, color, weight, size)]."""
+    Xc = lambda y: L_ + (y - Y0) / (Y1 - Y0) * (W_ - L_ - R_)
+    Yc = lambda v: H_ - B_ - v / ymax * (H_ - B_ - T_)
+    g = []
+    for t in ticks:
+        g.append(f'<line x1="{L_}" x2="{W_ - R_}" y1="{Yc(t):.1f}" y2="{Yc(t):.1f}" stroke="{LINE}"></line>')
+        if t:
+            g.append(f'<text x="{L_ - 8}" y="{Yc(t) + 5:.1f}" text-anchor="end" {F} font-size="14" fill="{MUTED}">{fmt(t)}</text>')
+    g += [f'<text x="{Xc(y):.1f}" y="{H_ - 10}" text-anchor="middle" {F} font-size="14" fill="{MUTED}">{y}</text>' for y in years]
+    g.append(f'<line x1="{L_}" x2="{W_ - R_}" y1="{H_ - B_}" y2="{H_ - B_}" stroke="{BASE}"></line>')
+    if terms:
+        for i, (nm, d) in enumerate(TERMS_SHORT):
+            x = Xc(fy(d)); ly_ = 14 + (i % 2) * 15
+            g.append(f'<line x1="{x:.1f}" x2="{x:.1f}" y1="{ly_ + 4}" y2="{H_ - B_}" stroke="#B5B1AC" stroke-dasharray="2 4"></line>')
+            g.append(f'<text x="{x + 3:.1f}" y="{ly_}" {F} font-size="11.5" fill="{MUTED}">{nm}</text>')
+    prev = None
+    for col, op, pts_, line in layers:
+        cur = resample(pts_)
+        g.append(f'<path d="{band_d(cur, prev, Xc, Yc)}" fill="{col}" fill-opacity="{op}"></path>')
+        if line:
+            g.append(f'<path d="{smooth_d([(Xc(x), Yc(v)) for x, v in cur])}" fill="none" stroke="{line}" stroke-width="2"></path>')
+        prev = cur
+    ex, ey = Xc(prev[-1][0]), Yc(prev[-1][1])
+    g.append(f'<circle cx="{ex:.1f}" cy="{ey:.1f}" r="4.5" fill="{INK}" stroke="#FAF9F5" stroke-width="2"></circle>')
+    for text, vy, col, wt, sz in labels:
+        g.append(f'<text x="{W_ - R_ + 10}" y="{Yc(vy) + 5:.1f}" {F} font-size="{sz}" fill="{col}" font-weight="{wt}">{text}</text>')
+    return f'<svg viewBox="0 0 {W_} {H_}" width="100%" role="img" aria-label="{aria}">' + "".join(g) + "</svg>"
+
+
+def by_type(weight):
+    c = {t: 0 for t in order}; pts_ = {t: [(Y0, 0)] for t in order}
+    for r in sorted(inst, key=lambda r: r["d"]):
+        c[r["type"]] += weight(r); run = 0
+        for t in order:
+            run += c[t]; pts_[t].append((fy(r["d"]), run))
+    return c, pts_
+
+
+FILLS = {"Regulation": (CLAY, 0.30, CLAY), "Directive": (SLATE, 0.16, None), "Decision": (SLATE, 0.08, INK)}
+for key, wfun, ymax, ticks, unit in (("acts_by_type_half", lambda r: 1, 120, [0, 20, 40, 60, 80, 100, 120], "adopted acts"),
+                                     ("restr_by_type_half", lambda r: r["restrictions_total"], 24000, [0, 4000, 8000, 12000, 16000, 20000, 24000], "restrictions")):
+    cc, pp_ = by_type(wfun)
+    tot_ = sum(cc.values())
+    layers = [(FILLS[t][0], FILLS[t][1], pp_[t], FILLS[t][2]) for t in order]
+    reg, dirc = cc["Regulation"], cc["Directive"]
+    dy = min(reg + dirc / 2, tot_ - ymax * 0.17)
+    labs = [(f"{tot_:,}", tot_ + ymax * 0.02, INK, 600, 19), (unit, tot_ - ymax * 0.055, MUTED, 400, 12.5),
+            ("Regulations", reg / 2 + ymax * 0.03, CLAY, 600, 13.5), (f"{reg:,}", reg / 2 - ymax * 0.03, CLAY, 600, 13.5),
+            (f"Directives {dirc:,}", dy, INK2, 400, 13.5), (f"+ {cc['Decision']:,} in decisions", dy - ymax * 0.055, MUTED, 400, 12)]
+    fmt = (lambda v: f"{v / 1000:.0f}k") if ymax > 1000 else (lambda v: f"{v:,.0f}")
+    charts[key] = compact(layers, ymax, ticks, labs, f"Cumulative {unit} in adopted EU digital acts by legal type: {reg:,} in regulations, {dirc:,} in directives, "
+                          f"{cc['Decision']:,} in decisions; dashed lines mark new Commissions", fmt=fmt)
+    meta[key] = cc
+
+# private parties, tall version for the side column of the rulebook page
+labs = [(f"{m2 + s2:,}", m2 + s2 + 300, INK, 600, 19), ("in total", m2 + s2 - 500, MUTED, 400, 12.5),
+        ("Main acts", m2 / 2 + 250, CLAY, 600, 13.5), (f"{m2:,}", m2 / 2 - 450, INK, 600, 13.5),
+        ("Implementing", m2 + s2 / 2 + 300, INK2, 400, 13.5), ("& delegated", m2 + s2 / 2 - 250, INK2, 400, 13.5), (f"{s2:,}", m2 + s2 / 2 - 900, INK, 600, 13.5)]
+charts["private_tall"] = compact([(CLAY, 0.85, qm, None), (CLAY2, 0.9, qs, INK)], 14000, [0, 2000, 4000, 6000, 8000, 10000, 12000, 14000], labs,
+                                 f"Cumulative restrictions binding private parties: {m2:,} in the main acts and {s2:,} in implementing and delegated acts",
+                                 W_=560, H_=600, fmt=lambda v: f"{v / 1000:.0f}k")
 
 json.dump({"charts": charts, "meta": meta}, open("site/mock_charts.json", "w"), ensure_ascii=False)
 print(json.dumps(meta))

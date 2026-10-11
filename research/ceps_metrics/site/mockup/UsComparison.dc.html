@@ -52,12 +52,22 @@ a{color:#282424}a:hover{color:#8F6708}
         <a class="tab" href="UsComparison.dc.html" style="background: #282424; color: #FAF9F5; border-color: #282424">EU vs US</a>
       </nav>
       <p class="eyebrow">Findings · EU vs US</p>
-      <h1 class="h1" style="max-width: 20ch">Matched against US laws doing the same job, EU acts carry about twice the rules</h1>
-      <p class="body" style="font-size: 19px">In ten matched pairs, the EU act contains more legal restrictions in nine and the same number in one: 2.3 times as many at the median, 212 against 102 on average. EU acts are also denser, with 13.9 restrictions per 1,000 words against 8.8, so length alone does not explain the gap.</p>
+      <h1 class="h1" style="max-width: 20ch">EU digital acts against the Sarbanes-Oxley Act</h1>
+      <p class="body" style="font-size: 19px">Sarbanes-Oxley is a byword in the US for a demanding law. Counted the same way, recent EU digital acts carry more restrictions and pack them more densely.</p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap: 40px; padding-top: 16px">
+        <figure style="margin: 0; display: flex; flex-direction: column; gap: 12px"><figcaption style="font-weight: 500">Restrictions per act</figcaption><img src="/_blob/9778e79162335c2fcec918f0d63b75b4" alt="AI Act 764, DSA 477, GDPR 415, DMA 279, Data Act 262, EU average since 2020 251, Sarbanes-Oxley 240, EU average 204" style="width: 100%; height: auto"></figure>
+        <figure style="margin: 0; display: flex; flex-direction: column; gap: 12px"><figcaption style="font-weight: 500">Restrictions per 1,000 words</figcaption><img src="/_blob/51bd9ad686c8656f2558cb40ab916260" alt="EU median 14.1 against Sarbanes-Oxley 8.1" style="width: 100%; height: auto"><span class="cap">Each dot is one adopted EU act.</span></figure>
+      </div>
+      <span class="cap">Sarbanes-Oxley Act 2002, enacted text; EU acts: original adopted texts, articles and annexes. Counter precision: 89% on EU acts, 68% on Sarbanes-Oxley.</span>
     </div>
   </section>
-
-  <section style="padding-block: 24px 80px">
+  <section style="padding-block: 80px 24px; background: #F5F5F0; border-top: 1px solid #E8E6E3">
+    <div class="wrap" style="display: flex; flex-direction: column; gap: 20px">
+      <h2 class="h2" style="max-width: 24ch">Matched against US laws doing the same job, EU acts carry about twice the rules</h2>
+      <p class="body">In ten matched pairs, the EU act contains more legal restrictions in nine and the same number in one: 2.3 times as many at the median, 212 against 102 on average. EU acts are also denser, with 13.9 restrictions per 1,000 words against 8.8, so length alone does not explain the gap.</p>
+    </div>
+  </section>
+  <section style="background: #F5F5F0; border-bottom: 1px solid #E8E6E3; padding-block: 24px 80px">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 28px">
       <div style="display: flex; flex-wrap: wrap; gap: 24px" class="cap">
         <span style="display: inline-flex; align-items: center; gap: 8px"><span style="width: 12px; height: 12px; border-radius: 50%; background: #B8860B"></span>EU act</span>
@@ -121,16 +131,6 @@ a{color:#282424}a:hover{color:#8F6708}
     </div>
   </section>
 
-  <section style="padding-block: 80px; background: #F5F5F0; border-top: 1px solid #E8E6E3; border-bottom: 1px solid #E8E6E3">
-    <div class="wrap" style="display: flex; flex-direction: column; gap: 24px">
-      <h2 class="h2">A second benchmark: the Sarbanes-Oxley Act</h2>
-      <p class="body">Sarbanes-Oxley is a byword in the US for a demanding law. Counted the same way, recent EU digital acts carry more restrictions and pack them more densely.</p>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap: 40px">
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 12px"><figcaption style="font-weight: 500">Restrictions per act</figcaption><img src="/_blob/9778e79162335c2fcec918f0d63b75b4" alt="AI Act 764, DSA 477, GDPR 415, DMA 279, Data Act 262, EU average since 2020 251, Sarbanes-Oxley 240, EU average 204" style="width: 100%; height: auto"></figure>
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 12px"><figcaption style="font-weight: 500">Restrictions per 1,000 words</figcaption><img src="/_blob/51bd9ad686c8656f2558cb40ab916260" alt="EU median 14.1 against Sarbanes-Oxley 8.1" style="width: 100%; height: auto"><span class="cap">Each dot is one adopted EU act.</span></figure>
-      </div>
-    </div>
-  </section>
 
   <section style="padding-block: 80px">
     <div class="wrap" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 56px">
@@ -166,7 +166,7 @@ a{color:#282424}a:hover{color:#8F6708}
   </footer>
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":4800}}'>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":3900}}'>
 class Component extends DCLogic {
   renderVals() { return {}; }
 }
