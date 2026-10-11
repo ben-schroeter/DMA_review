@@ -1,0 +1,1402 @@
+[
+ {
+  "vid": 0,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 1,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 2,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 3,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": true
+ },
+ {
+  "vid": 4,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 5,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 6,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 7,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 8,
+  "is_restriction": false,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "adjudicated": false
+ },
+ {
+  "vid": 9,
+  "is_restriction": false,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "adjudicated": false
+ },
+ {
+  "vid": 10,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 11,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 12,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 13,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 14,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 15,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 16,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "adjudicated": true
+ },
+ {
+  "vid": 17,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 18,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 19,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 20,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 21,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 22,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 23,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 24,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 25,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 26,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 27,
+  "is_restriction": false,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 28,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 29,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 30,
+  "is_restriction": false,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": true
+ },
+ {
+  "vid": 31,
+  "is_restriction": false,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": true
+ },
+ {
+  "vid": 32,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 33,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 34,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 35,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 36,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 37,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 38,
+  "is_restriction": false,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 39,
+  "is_restriction": false,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "adjudicated": false
+ },
+ {
+  "vid": 40,
+  "is_restriction": false,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 41,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 42,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 43,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 44,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 45,
+  "is_restriction": false,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": true
+ },
+ {
+  "vid": 46,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 47,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 48,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 49,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 50,
+  "is_restriction": false,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 51,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 52,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 53,
+  "is_restriction": false,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "adjudicated": false
+ },
+ {
+  "vid": 54,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 55,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 56,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 57,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 58,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 59,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 60,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 61,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 62,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 63,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 64,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 65,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 66,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 67,
+  "is_restriction": false,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": true
+ },
+ {
+  "vid": 68,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 69,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 70,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 71,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 72,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 73,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 74,
+  "is_restriction": false,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "adjudicated": false
+ },
+ {
+  "vid": 75,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 76,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 77,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 78,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 79,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 80,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 81,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 82,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 83,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 84,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 85,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 86,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 87,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 88,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 89,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 90,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 91,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 92,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 93,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 94,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 95,
+  "is_restriction": false,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": true
+ },
+ {
+  "vid": 96,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 97,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 98,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 99,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 100,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 101,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 102,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 103,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 104,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 105,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 106,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 107,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 108,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 109,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 110,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 111,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 112,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 113,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 114,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 115,
+  "is_restriction": false,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "adjudicated": false
+ },
+ {
+  "vid": 116,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 117,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 118,
+  "is_restriction": false,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 119,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 120,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 121,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 122,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 123,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 124,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 125,
+  "is_restriction": false,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "adjudicated": false
+ },
+ {
+  "vid": 126,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 127,
+  "is_restriction": false,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 128,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 129,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 130,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 131,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 132,
+  "is_restriction": false,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "adjudicated": false
+ },
+ {
+  "vid": 133,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 134,
+  "is_restriction": false,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 135,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 136,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 137,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 138,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 139,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 140,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 141,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 142,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 143,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 144,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 145,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 146,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 147,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 148,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 149,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 150,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 151,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 152,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 153,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 154,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 155,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 156,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 157,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 158,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 159,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 160,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 161,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 162,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 163,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 164,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 165,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 166,
+  "is_restriction": false,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 167,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 168,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 169,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 170,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 171,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 172,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 173,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 174,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 175,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 176,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 177,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 178,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 179,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 180,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 181,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 182,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 183,
+  "is_restriction": false,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": true
+ },
+ {
+  "vid": 184,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 185,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 186,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 187,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 188,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 189,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "adjudicated": false
+ },
+ {
+  "vid": 190,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 191,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 192,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 193,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 194,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 195,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 196,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 197,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "adjudicated": false
+ },
+ {
+  "vid": 198,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ },
+ {
+  "vid": 199,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "adjudicated": false
+ }
+]
