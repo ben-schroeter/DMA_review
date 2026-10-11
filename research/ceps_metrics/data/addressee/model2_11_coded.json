@@ -1,0 +1,2050 @@
+[
+ {
+  "rid": 2926,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Legal-effect statement on the Agenda; binds no actor."
+ },
+ {
+  "rid": 2927,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Union budget costs are implemented by the Commission under the basic act."
+ },
+ {
+  "rid": 2928,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Conformity assessment procedures for critical products are carried out by manufacturers (CRA)."
+ },
+ {
+  "rid": 2929,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Declaration drawn up by manufacturers, stated in the sentence."
+ },
+ {
+  "rid": 2930,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Declaration content binds the manufacturer who draws it up (Art. 20(1))."
+ },
+ {
+  "rid": 2931,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Declaration content binds the manufacturer who draws it up (Art. 20(1))."
+ },
+ {
+  "rid": 2932,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer updates its declaration (Art. 20(1))."
+ },
+ {
+  "rid": 2933,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Single declaration drawn up by the manufacturer (Art. 20(1))."
+ },
+ {
+  "rid": 2934,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Declaration content binds the manufacturer drawing it up."
+ },
+ {
+  "rid": 2935,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "CE marking principles bind the manufacturer who affixes it."
+ },
+ {
+  "rid": 2936,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "CE marking is affixed by the manufacturer."
+ },
+ {
+  "rid": 2937,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "CE marking is affixed by the manufacturer."
+ },
+ {
+  "rid": 2938,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical documentation is drawn up by the manufacturer."
+ },
+ {
+  "rid": 2939,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical documentation is drawn up by the manufacturer."
+ },
+ {
+  "rid": 2940,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical documentation is drawn up by the manufacturer."
+ },
+ {
+  "rid": 2941,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Single technical documentation is drawn up by the manufacturer."
+ },
+ {
+  "rid": 2942,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Application is submitted by the conformity assessment body (para 1)."
+ },
+ {
+  "rid": 2943,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Market surveillance authority must require the operator to take measures."
+ },
+ {
+  "rid": 2944,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Transitional scope rule; binds no actor."
+ },
+ {
+  "rid": 2945,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Essential product requirement binds the manufacturer."
+ },
+ {
+  "rid": 2946,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Declaration content binds the manufacturer drawing it up."
+ },
+ {
+  "rid": 2947,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical documentation content binds the manufacturer."
+ },
+ {
+  "rid": 2948,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "User right whose correlative duty falls on device/interface manufacturers and providers (Art. 19(2))."
+ },
+ {
+  "rid": 2949,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Binds providers of audience measurement systems."
+ },
+ {
+  "rid": 2950,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission ensures the monitoring exercise under Art. 25."
+ },
+ {
+  "rid": 2951,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission publishes the monitoring results under Art. 25."
+ },
+ {
+  "rid": 2952,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Actions under SMEI are taken by the Commission and Council."
+ },
+ {
+  "rid": 2953,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission is named as subject."
+ },
+ {
+  "rid": 2954,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Condition on the Commission adopting binding implementing acts."
+ },
+ {
+  "rid": 2955,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Information requests are issued by the Commission."
+ },
+ {
+  "rid": 2956,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The formal decision is adopted by the Commission."
+ },
+ {
+  "rid": 2957,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Priority rated order is imposed by Commission decision."
+ },
+ {
+  "rid": 2958,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Agreement concluded by participating Member States with the Commission (mixed)."
+ },
+ {
+  "rid": 2959,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission assesses risk when amending Annex I (para 3-4)."
+ },
+ {
+  "rid": 2960,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "A Member State is named as subject."
+ },
+ {
+  "rid": 2961,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Declaration drawn up by the manufacturer."
+ },
+ {
+  "rid": 2962,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Declaration drawn up by the manufacturer."
+ },
+ {
+  "rid": 2963,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Declaration drawn up and updated by the manufacturer."
+ },
+ {
+  "rid": 2964,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Single declaration drawn up by the manufacturer."
+ },
+ {
+  "rid": 2965,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical documentation drawn up by the manufacturer."
+ },
+ {
+  "rid": 2966,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Provider ensures compliance of high-risk AI systems (AI Act Ch. 2)."
+ },
+ {
+  "rid": 2967,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Risk management measures adopted by the provider."
+ },
+ {
+  "rid": 2968,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Risk management measures adopted by the provider."
+ },
+ {
+  "rid": 2969,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Provider communicates residual risks to users."
+ },
+ {
+  "rid": 2970,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Provider identifies risk management measures."
+ },
+ {
+  "rid": 2971,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Testing performed by the provider."
+ },
+ {
+  "rid": 2972,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Testing procedures set by the provider."
+ },
+ {
+  "rid": 2973,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Testing performed by the provider."
+ },
+ {
+  "rid": 2974,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Provider implements the risk management system."
+ },
+ {
+  "rid": 2975,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Credit institutions named; private."
+ },
+ {
+  "rid": 2976,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Data governance for training data is the provider duty."
+ },
+ {
+  "rid": 2977,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Data governance practices are the provider duty."
+ },
+ {
+  "rid": 2978,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Data set quality is the provider duty."
+ },
+ {
+  "rid": 2979,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Data set quality is the provider duty."
+ },
+ {
+  "rid": 2980,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical documentation drawn up by the provider."
+ },
+ {
+  "rid": 2981,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Single technical documentation drawn up by the provider."
+ },
+ {
+  "rid": 2982,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Logging design requirement binds the provider."
+ },
+ {
+  "rid": 2983,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Logging design requirement binds the provider."
+ },
+ {
+  "rid": 2984,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Logging design requirement binds the provider."
+ },
+ {
+  "rid": 2985,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Logging design requirement binds the provider."
+ },
+ {
+  "rid": 2986,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Human oversight design aim binds the provider designing the system."
+ },
+ {
+  "rid": 2987,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Oversight measures built in or identified by the provider (para 3)."
+ },
+ {
+  "rid": 2988,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Oversight measures built by the provider."
+ },
+ {
+  "rid": 2989,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Oversight measures built by the provider."
+ },
+ {
+  "rid": 2990,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Quality management system of providers (para 1)."
+ },
+ {
+  "rid": 2991,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Quality management system of providers (para 1)."
+ },
+ {
+  "rid": 2992,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Proportionality of QMS implementation by the provider."
+ },
+ {
+  "rid": 2993,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Credit-institution providers take standards into account."
+ },
+ {
+  "rid": 2994,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Providers keep logs (para 1)."
+ },
+ {
+  "rid": 2995,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Authorisation issued by the market surveillance authority."
+ },
+ {
+  "rid": 2996,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "CE marking affixed by the provider."
+ },
+ {
+  "rid": 2997,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "CE marking principles bind the provider who affixes it."
+ },
+ {
+  "rid": 2998,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Provider indicates identification number in promotional material."
+ },
+ {
+  "rid": 2999,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Evaluations of large-scale IT systems are carried out by the Commission under those acts."
+ },
+ {
+  "rid": 3000,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Declaration content binds the provider drawing it up."
+ },
+ {
+  "rid": 3001,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of financial contribution."
+ },
+ {
+  "rid": 3002,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of financial contribution."
+ },
+ {
+  "rid": 3003,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Notification is made by the undertakings concerned."
+ },
+ {
+  "rid": 3004,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Standstill binds the undertakings concerned."
+ },
+ {
+  "rid": 3005,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Exception from the standstill for undertakings."
+ },
+ {
+  "rid": 3006,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Contract awarded by the contracting authority."
+ },
+ {
+  "rid": 3007,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Contract awarded by the contracting authority."
+ },
+ {
+  "rid": 3008,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Time-limit computation rule."
+ },
+ {
+  "rid": 3009,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Information acquired by the Commission under the FSR."
+ },
+ {
+  "rid": 3010,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope/applicability rule."
+ },
+ {
+  "rid": 3011,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope/applicability rule."
+ },
+ {
+  "rid": 3012,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Investigations and measures are by the Commission."
+ },
+ {
+  "rid": 3013,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Investigations and measures are by the Commission."
+ },
+ {
+  "rid": 3014,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Action under the FSR is taken by the Commission."
+ },
+ {
+  "rid": 3015,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Interpretive principle for authorities applying the GPSR."
+ },
+ {
+  "rid": 3016,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Safety assessment by economic operators under the general safety requirement."
+ },
+ {
+  "rid": 3017,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Safety assessment by economic operators under the general safety requirement."
+ },
+ {
+  "rid": 3018,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Application of Reg 2019/1020 by market surveillance authorities."
+ },
+ {
+  "rid": 3019,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recall notice issued by the responsible economic operator."
+ },
+ {
+  "rid": 3020,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Basis for third-country participation; binds no actor."
+ },
+ {
+  "rid": 3021,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Information exchanged by the Commission with third countries."
+ },
+ {
+  "rid": 3022,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States lay down penalties."
+ },
+ {
+  "rid": 3023,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Establishment provision for the Cyber Shield."
+ },
+ {
+  "rid": 3024,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Objectives of the Cyber Shield."
+ },
+ {
+  "rid": 3025,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Development of the Cyber Shield implemented via DEP by the Commission."
+ },
+ {
+  "rid": 3026,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Cross-border SOCs are platforms of national SOCs of Member States."
+ },
+ {
+  "rid": 3027,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Participating Member States named."
+ },
+ {
+  "rid": 3028,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Participating Member States named."
+ },
+ {
+  "rid": 3029,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme funding provision."
+ },
+ {
+  "rid": 3030,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme scope of supported actions."
+ },
+ {
+  "rid": 3031,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Establishment provision for the Reserve."
+ },
+ {
+  "rid": 3032,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Reserve set up by the Commission/ENISA via contracts."
+ },
+ {
+  "rid": 3033,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Reserve services procured by the Commission/ENISA."
+ },
+ {
+  "rid": 3034,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requests assessed by the Commission."
+ },
+ {
+  "rid": 3035,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Prioritisation done by the Commission."
+ },
+ {
+  "rid": 3036,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Services provided by trusted service providers under agreements."
+ },
+ {
+  "rid": 3037,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Agreements between service provider and user."
+ },
+ {
+  "rid": 3038,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Without-prejudice coordination clause."
+ },
+ {
+  "rid": 3039,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Support handled by the Commission within IPCR."
+ },
+ {
+  "rid": 3040,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Support granted by the Commission."
+ },
+ {
+  "rid": 3041,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Support granted by the Commission."
+ },
+ {
+  "rid": 3042,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Applicable-law rule."
+ },
+ {
+  "rid": 3043,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Conflict rule."
+ },
+ {
+  "rid": 3044,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Legal effect of the compulsory licence."
+ },
+ {
+  "rid": 3045,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Budget amounts implemented by the Commission."
+ },
+ {
+  "rid": 3046,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Sovereignty portal run by the Commission."
+ },
+ {
+  "rid": 3047,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Programming of cohesion resources by Member States."
+ },
+ {
+  "rid": 3048,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Derogation raising co-financing rates."
+ },
+ {
+  "rid": 3049,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Lead supervisory authority provides the information."
+ },
+ {
+  "rid": 3050,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Supervisory authorities restrict access."
+ },
+ {
+  "rid": 3051,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Lead supervisory authority provides access."
+ },
+ {
+  "rid": 3052,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Heading in a form."
+ },
+ {
+  "rid": 3053,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Extends Member State support duties to FGM victims."
+ },
+ {
+  "rid": 3054,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Framework of the Union institution, body or agency."
+ },
+ {
+  "rid": 3055,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Framework of the Union institution, body or agency."
+ },
+ {
+  "rid": 3056,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Cybersecurity plan of the Union entity."
+ },
+ {
+  "rid": 3057,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Cybersecurity plan of the Union entity."
+ },
+ {
+  "rid": 3058,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Cybersecurity plan of the Union entity."
+ },
+ {
+  "rid": 3059,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Baseline implemented by Union entities."
+ },
+ {
+  "rid": 3060,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Performance requirements set by Commission delegated acts."
+ },
+ {
+  "rid": 3061,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Performance requirements set by Commission delegated acts."
+ },
+ {
+  "rid": 3062,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Data carrier provided by the economic operator placing the product."
+ },
+ {
+  "rid": 3063,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Empowerment of the Commission."
+ },
+ {
+  "rid": 3064,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Passport operated by economic operators / service providers."
+ },
+ {
+  "rid": 3065,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Declarants named."
+ },
+ {
+  "rid": 3066,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Signatories of the self-regulation measure publish information."
+ },
+ {
+  "rid": 3067,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission named."
+ },
+ {
+  "rid": 3068,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Signatories publish their reports."
+ },
+ {
+  "rid": 3069,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definitional clarification."
+ },
+ {
+  "rid": 3070,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer design requirement on updates."
+ },
+ {
+  "rid": 3071,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Permission on form of Commission-set GPP requirements."
+ },
+ {
+  "rid": 3072,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission sets performance requirements."
+ },
+ {
+  "rid": 3073,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission sets performance requirements."
+ },
+ {
+  "rid": 3074,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission sets performance requirements."
+ },
+ {
+  "rid": 3075,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission carries out the analysis."
+ },
+ {
+  "rid": 3076,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission carries out the analysis."
+ },
+ {
+  "rid": 3077,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission carries out the analysis."
+ },
+ {
+  "rid": 3078,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Declaration content binds the manufacturer."
+ },
+ {
+  "rid": 3079,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Subject-matter statement."
+ },
+ {
+  "rid": 3080,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Subject-matter statement."
+ },
+ {
+  "rid": 3081,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope rule."
+ },
+ {
+  "rid": 3082,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Scope extension to medical device manufacturers."
+ },
+ {
+  "rid": 3083,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Scope extension to AI system providers."
+ },
+ {
+  "rid": 3084,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Placing on market by manufacturers."
+ },
+ {
+  "rid": 3085,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical documentation by the manufacturer."
+ },
+ {
+  "rid": 3086,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical documentation by the manufacturer."
+ },
+ {
+  "rid": 3087,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical documentation by the manufacturer."
+ },
+ {
+  "rid": 3088,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical documentation by the manufacturer."
+ },
+ {
+  "rid": 3089,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Declaration by the manufacturer."
+ },
+ {
+  "rid": 3090,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Declaration by the manufacturer."
+ },
+ {
+  "rid": 3091,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Declaration by the manufacturer."
+ },
+ {
+  "rid": 3092,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "CE marking affixed by the manufacturer."
+ },
+ {
+  "rid": 3093,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "CE marking principles bind the manufacturer."
+ },
+ {
+  "rid": 3094,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Label issued by the wellness application manufacturer."
+ },
+ {
+  "rid": 3095,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Delimits data categories covered by para 1."
+ },
+ {
+  "rid": 3096,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data holders make data available."
+ },
+ {
+  "rid": 3097,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Health data access bodies take confidentiality measures."
+ },
+ {
+  "rid": 3098,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Data users seeking access."
+ },
+ {
+  "rid": 3099,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Health data access bodies named."
+ },
+ {
+  "rid": 3100,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Fees charged by health data access bodies and data holders (mixed)."
+ },
+ {
+  "rid": 3101,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Health data access bodies make enriched data available."
+ },
+ {
+  "rid": 3102,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Health data access bodies pass the fee on."
+ },
+ {
+  "rid": 3103,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Health data access bodies and data holders (mixed)."
+ },
+ {
+  "rid": 3104,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Applicant provides information."
+ },
+ {
+  "rid": 3105,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Health data access bodies named."
+ },
+ {
+  "rid": 3106,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Health data access body named."
+ },
+ {
+  "rid": 3107,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Health data access bodies named."
+ },
+ {
+  "rid": 3108,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Tacit permit issued by the health data access body."
+ },
+ {
+  "rid": 3109,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Permit issued by the health data access body."
+ },
+ {
+  "rid": 3110,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Competence rule for health data access bodies."
+ },
+ {
+  "rid": 3111,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Health data access bodies maintain the catalogue (para 1)."
+ },
+ {
+  "rid": 3112,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical documentation by the manufacturer."
+ },
+ {
+  "rid": 3113,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Declaration by the manufacturer."
+ },
+ {
+  "rid": 3114,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Conflict rule."
+ },
+ {
+  "rid": 3115,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Network operators meet survey requests."
+ },
+ {
+  "rid": 3116,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States publish and notify exceptions."
+ },
+ {
+  "rid": 3117,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Single information points are national bodies."
+ },
+ {
+  "rid": 3118,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States ensure repairers provide the form."
+ },
+ {
+  "rid": 3119,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Form provided by the repairer."
+ },
+ {
+  "rid": 3120,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Repairer named."
+ },
+ {
+  "rid": 3121,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving clause permitting repairers."
+ },
+ {
+  "rid": 3122,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Repairer fills in the form."
+ },
+ {
+  "rid": 3123,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Thresholds applied by the Commission in its assessment."
+ },
+ {
+  "rid": 3124,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Combined assessment by national authorities."
+ },
+ {
+  "rid": 3125,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Combined assessment by national authorities."
+ },
+ {
+  "rid": 3126,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Permitting decisions by national authorities."
+ },
+ {
+  "rid": 3127,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Sub-group of the Board."
+ },
+ {
+  "rid": 3128,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States set up the database."
+ },
+ {
+  "rid": 3129,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Persons placing products on the market."
+ },
+ {
+  "rid": 3130,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Persons placing products on the market."
+ },
+ {
+  "rid": 3131,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Responsible natural or legal person."
+ },
+ {
+  "rid": 3132,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Responsible natural or legal person."
+ },
+ {
+  "rid": 3133,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Responsible natural or legal person."
+ },
+ {
+  "rid": 3134,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Persons placing products on the market."
+ },
+ {
+  "rid": 3135,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Commission empowerment."
+ },
+ {
+  "rid": 3136,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission determines strategic importance."
+ },
+ {
+  "rid": 3137,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission performs calculations."
+ },
+ {
+  "rid": 3138,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission assesses strategic project applications."
+ },
+ {
+  "rid": 3139,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission assesses strategic project applications."
+ },
+ {
+  "rid": 3140,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission assesses strategic project applications."
+ },
+ {
+  "rid": 3141,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Feasibility studies prepared by the project promoter."
+ },
+ {
+  "rid": 3142,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Permission to require further studies."
+ },
+ {
+  "rid": 3143,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission assesses strategic project applications."
+ },
+ {
+  "rid": 3144,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission assesses strategic project applications."
+ },
+ {
+  "rid": 3145,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Certification scheme owners set requirements."
+ },
+ {
+  "rid": 3146,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Calculation rules adopted by the Commission."
+ },
+ {
+  "rid": 3147,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Calculation rules adopted by the Commission."
+ },
+ {
+  "rid": 3148,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Calculation rules adopted by the Commission."
+ },
+ {
+  "rid": 3149,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Calculation rules adopted by the Commission."
+ },
+ {
+  "rid": 3150,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Calculation rules adopted by the Commission."
+ },
+ {
+  "rid": 3151,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission chooses impact category."
+ },
+ {
+  "rid": 3152,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Footprint results declared by the responsible operator."
+ },
+ {
+  "rid": 3153,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Performance classes set by the Commission."
+ },
+ {
+  "rid": 3154,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope exclusion."
+ },
+ {
+  "rid": 3155,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition."
+ },
+ {
+  "rid": 3156,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition."
+ },
+ {
+  "rid": 3157,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "National, regional and local planning authorities."
+ },
+ {
+  "rid": 3158,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "National authorities conduct assessments."
+ },
+ {
+  "rid": 3159,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "National authorities conduct assessments."
+ },
+ {
+  "rid": 3160,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Decisions by national authorities."
+ },
+ {
+  "rid": 3161,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Project promoter submits the application."
+ },
+ {
+  "rid": 3162,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Permit-granting by national authorities."
+ },
+ {
+  "rid": 3163,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Permit-granting by national authorities."
+ },
+ {
+  "rid": 3164,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Permit-granting by national authorities."
+ },
+ {
+  "rid": 3165,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Decisions by national authorities."
+ },
+ {
+  "rid": 3166,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Authorised oil and gas producers."
+ },
+ {
+  "rid": 3167,
+  "formal": "unclear",
+  "ultimately_bound": "unclear",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Net-Zero Industry Academies; their public/private nature is not fixed by the act."
+ },
+ {
+  "rid": 3168,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Warnings provided by the manufacturer."
+ },
+ {
+  "rid": 3169,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Labels provided by the manufacturer."
+ },
+ {
+  "rid": 3170,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "CE marking affixed by the manufacturer."
+ },
+ {
+  "rid": 3171,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "CE marking affixed by the manufacturer."
+ },
+ {
+  "rid": 3172,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Data carrier provided by the manufacturer."
+ },
+ {
+  "rid": 3173,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Declarants named."
+ },
+ {
+  "rid": 3174,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Safety assessment by the manufacturer."
+ },
+ {
+  "rid": 3175,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Safety assessment by the manufacturer."
+ },
+ {
+  "rid": 3176,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturers named."
+ },
+ {
+  "rid": 3177,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conformity assessment body submits the application."
+ },
+ {
+  "rid": 3178,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Requests submitted by interested persons to ECHA."
+ },
+ {
+  "rid": 3179,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ECHA named."
+ },
+ {
+  "rid": 3180,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Toy design requirement binds the manufacturer."
+ },
+ {
+  "rid": 3181,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Conditional permission for fragrances in toys."
+ }
+]
