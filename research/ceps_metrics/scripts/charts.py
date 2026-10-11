@@ -24,6 +24,8 @@ for r in inst:
     c = r["celex_measured"].split(";")[0]
     r["type"] = {"R": "Regulation", "L": "Directive", "D": "Decision"}[c[5]]
 inst.sort(key=lambda r: r["date"])
+for r in inst:   # codebook v2: "no actor" and the (few) unresolved cases are shown together
+    r["addr_unclear"] = (r.get("addr_unclear") or 0) + (r.get("addr_no_actor") or 0)
 sec = [r for r in sheet("secondary_acts") if r["kind"] in ("implementing", "delegated") and r["date"] and r["restrictions_total"] is not None]
 for r in sec:
     r["d"] = dt.date.fromisoformat(str(r["date"])[:10])
@@ -94,7 +96,7 @@ def cumulative_stack(rows, datef, series, key_of, title, subtitle, name, colors,
 # 1. by addressee
 ADDR = ["addr_private_parties", "addr_member_states", "addr_eu_institutions", "addr_unclear"]
 LAB = {"addr_private_parties": "Private parties", "addr_member_states": "Member States", "addr_eu_institutions": "EU institutions",
-       "addr_unclear": "Unclear / none"}
+       "addr_unclear": "No actor / unclear"}
 cumulative_stack(inst, lambda r: r["date"], ADDR, lambda r, s: r[s] or 0,
                  "Restrictions in EU digital law, cumulative by adoption date",
                  "Restrictions in the original adopted texts of 105 instruments, by who they bind", "01_cumulative_by_addressee.png",

@@ -33,5 +33,33 @@
   "addressee_accuracy": 0.738,
   "addressee_n": 84
  },
- "note": "Tuning and held-out samples were scored after rule changes informed by them; the final fresh sample (drawn after the full run, documents sampled in proportion to their restriction counts) is the headline estimate. Recall check: 6 of 100 uncounted clauses with modal-like words were true restrictions before the round-2 fixes (shall include, 'no X shall', 'has to'), which were then added."
+ "note": "Tuning and held-out samples were scored after rule changes informed by them; the final fresh sample (drawn after the full run, documents sampled in proportion to their restriction counts) is the headline estimate. Recall check: 6 of 100 uncounted clauses with modal-like words were true restrictions before the round-2 fixes (shall include, 'no X shall', 'has to'), which were then added.",
+ "addressee_v2_fresh_200": {
+  "n_items": 200,
+  "counted_true": 178,
+  "counted_false": 22,
+  "precision": 0.89,
+  "addressee_accuracy_v1": 0.7,
+  "addressee_accuracy_v2_rules": 0.86,
+  "addressee_accuracy_v2_rules_plus_model": 0.9,
+  "ultimately_bound_accuracy": 0.9,
+  "unclear_share_v1": 0.25,
+  "unclear_share_v2": 0.0,
+  "per_class_precision_recall": {
+   "private_parties": [
+    0.85,
+    0.93
+   ],
+   "member_states": [
+    0.96,
+    0.9
+   ],
+   "eu_institutions": [
+    0.9,
+    0.88
+   ]
+  },
+  "coders": "two independent model coders (no classifier output shown), 8 disagreements adjudicated; coder agreement on addressee 177/177, on is_restriction 193/200",
+  "note": "Drawn after the v2 rules were built, excluding all development cases; acts sampled in proportion to restriction counts. Coders and second readers are the same model family, so agreement overstates reliability."
+ }
 }
