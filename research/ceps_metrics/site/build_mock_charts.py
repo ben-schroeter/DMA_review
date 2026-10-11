@@ -476,5 +476,28 @@ charts["private_half"] = compact([(CLAY, 0.30, qm, CLAY), (SLATE, 0.16, qs, None
                                  f"Cumulative restrictions binding private parties: {m2:,} in the main acts and {s2:,} in implementing and delegated acts; dashed lines mark new Commissions",
                                  fmt=lambda v: f"{v / 1000:.0f}k")
 
+# acts per CEPS policy area, half-width bar chart for the front page: adopted acts, split before / since 2020
+pa = collections.defaultdict(lambda: [0, 0])
+for r in inst:
+    pa[r["policy_area_ceps"]][r["d"].year >= 2020] += 1
+pa_rows = sorted(pa.items(), key=lambda kv: (-sum(kv[1]), kv[0]))
+PW, PH, PL, PT = 560, 420, 238, 40
+prow = (PH - PT - 8) / len(pa_rows)
+pmax = max(sum(v) for _, v in pa_rows)
+px = lambda v: v / pmax * (PW - PL - 44)
+g = [f'<rect x="{PL}" y="8" width="12" height="12" rx="2" fill="{CLAY}"></rect><text x="{PL + 18}" y="18.5" {F} font-size="12.5" fill="{INK2}">2020 or later</text>',
+     f'<rect x="{PL + 118}" y="8" width="12" height="12" rx="2" fill="{CLAY2}"></rect><text x="{PL + 136}" y="18.5" {F} font-size="12.5" fill="{INK2}">Before 2020</text>']
+for i, (a, (old, new)) in enumerate(pa_rows):
+    y = PT + i * prow
+    g.append(f'<text x="{PL - 12}" y="{y + prow / 2 + 4.5:.1f}" text-anchor="end" {F} font-size="13" fill="{INK2}">{a.replace("&", "&amp;")}</text>')
+    if new:
+        g.append(f'<rect x="{PL}" y="{y + 5:.1f}" width="{px(new):.1f}" height="{prow - 10:.1f}" fill="{CLAY}"></rect>')
+    if old:
+        g.append(f'<rect x="{PL + px(new):.1f}" y="{y + 5:.1f}" width="{px(old):.1f}" height="{prow - 10:.1f}" fill="{CLAY2}"></rect>')
+    g.append(f'<text x="{PL + px(old + new) + 8:.1f}" y="{y + prow / 2 + 4.5:.1f}" {F} font-size="13.5" fill="{INK}" font-weight="600">{old + new}</text>')
+charts["acts_by_area_half"] = (f'<svg viewBox="0 0 {PW} {PH}" width="100%" role="img" aria-label="Adopted EU digital acts by CEPS policy area, split into acts adopted before 2020 and from 2020: '
+                               + "; ".join(f"{a} {o + n} ({n} since 2020)" for a, (o, n) in pa_rows).replace("&", "&amp;") + '">' + "".join(g) + "</svg>")
+meta["acts_by_area"] = {a: v for a, v in pa_rows}
+
 json.dump({"charts": charts, "meta": meta}, open("site/mock_charts.json", "w"), ensure_ascii=False)
 print(json.dumps(meta))
