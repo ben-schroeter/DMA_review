@@ -1,0 +1,1634 @@
+[
+ {
+  "rid": 20281,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Non-regression saving clause; states no conduct for any actor."
+ },
+ {
+  "rid": 20464,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Each Union institution and body runs the risk management process (Art. 5(1))."
+ },
+ {
+  "rid": 20482,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Union institutions and bodies creating or procuring CISs must assess security needs; the act regulates them."
+ },
+ {
+  "rid": 20483,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Union institution or body operating the CIS must have it accredited."
+ },
+ {
+  "rid": 20484,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Union institution or body operating the CIS must meet Chapter 4 minimum requirements."
+ },
+ {
+  "rid": 20493,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Logs are kept by the Union institution or body operating the CIS."
+ },
+ {
+  "rid": 20494,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Union institution or body operating the CIS must keep logs searchable for its Security Authority."
+ },
+ {
+  "rid": 20532,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Approval by management of the Union institution or body concerned."
+ },
+ {
+  "rid": 20533,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Classification and marking are done by the originating Union institution or body."
+ },
+ {
+  "rid": 20534,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Classification and marking are done by the originating Union institution or body."
+ },
+ {
+  "rid": 20558,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Briefings are given by the security authority of the Union institution or body."
+ },
+ {
+  "rid": 20583,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The originator is the Union institution or body under whose authority the document is created (Art. 32(1))."
+ },
+ {
+  "rid": 20584,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The originator is the Union institution or body under whose authority the document is created (Art. 32(1))."
+ },
+ {
+  "rid": 20585,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Consent must be sought by the Union institution or body holding the EUCI before release."
+ },
+ {
+  "rid": 20587,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Originators are Union institutions or bodies (Art. 32(1))."
+ },
+ {
+  "rid": 20588,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Marking of aggregated information falls on the originating Union institution or body."
+ },
+ {
+  "rid": 20589,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Marking and structuring of EUCI documents falls on the originating Union institution or body."
+ },
+ {
+  "rid": 20590,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Marking and structuring of EUCI documents falls on the originating Union institution or body."
+ },
+ {
+  "rid": 20591,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Marking and structuring of EUCI documents falls on the originating Union institution or body."
+ },
+ {
+  "rid": 20611,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The downgrading Union institution or body stamps the document."
+ },
+ {
+  "rid": 20625,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union institutions and bodies must evacuate or destroy EUCI (previous sentence)."
+ },
+ {
+  "rid": 20648,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Union institution or body operating the CIS must put it through accreditation."
+ },
+ {
+  "rid": 20649,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Union institution or body operating the CIS must put it through accreditation."
+ },
+ {
+  "rid": 20650,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Accreditation procedure run by the institution's security accreditation authority."
+ },
+ {
+  "rid": 20651,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Accreditation statement issued by the institution's security accreditation authority."
+ },
+ {
+  "rid": 20656,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Sender of the classified material is a Union institution or body under the act."
+ },
+ {
+  "rid": 20669,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The contracting Union institution or body drafts classified contracts and grant agreements."
+ },
+ {
+  "rid": 20679,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Security Aspects Letter is drawn up by the contracting Union institution or body."
+ },
+ {
+  "rid": 20687,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Sub-group on EUCI sharing of the inter-institutional Coordination Group."
+ },
+ {
+  "rid": 20689,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Sub-group on EUCI sharing of the inter-institutional Coordination Group."
+ },
+ {
+  "rid": 20690,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Follow-up visit organised by the sub-group on EUCI sharing (paragraph 3)."
+ },
+ {
+  "rid": 20696,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Sub-group on EUCI sharing carries out the visit."
+ },
+ {
+  "rid": 20853,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Subject-matter statement."
+ },
+ {
+  "rid": 20893,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Performance requirements are set by the Commission in delegated acts (Art. 4)."
+ },
+ {
+  "rid": 20894,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Performance requirements are set by the Commission in delegated acts (Art. 4)."
+ },
+ {
+  "rid": 20895,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Limit on what the Commission may set as performance requirements."
+ },
+ {
+  "rid": 20896,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission sets performance requirements in delegated acts."
+ },
+ {
+  "rid": 20936,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Access-right controls in the passport are implemented by the economic operator creating it or its passport service provider."
+ },
+ {
+  "rid": 20937,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data integrity of the digital product passport is ensured by the responsible economic operator."
+ },
+ {
+  "rid": 20941,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Economic operators supplying the identifiers in the passport must use compliant identifiers."
+ },
+ {
+  "rid": 20975,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Economic operators placing products on the market."
+ },
+ {
+  "rid": 21090,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Dealers."
+ },
+ {
+  "rid": 21091,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Dealers."
+ },
+ {
+  "rid": 21119,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Manufacturers carrying out tests to demonstrate compliance (authorities also for verification)."
+ },
+ {
+  "rid": 21128,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer pushing the software update."
+ },
+ {
+  "rid": 21150,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Cross-reference to Regulation 765/2008 principles; no own conduct."
+ },
+ {
+  "rid": 21206,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Accreditation certificate issued by the national accreditation body."
+ },
+ {
+  "rid": 21207,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Accreditation certificate issued by the national accreditation body."
+ },
+ {
+  "rid": 21214,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conformity assessment body seeking to act as notified body."
+ },
+ {
+  "rid": 21254,
+  "formal": "eu_institutions",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content rules for the GPP requirements the Commission sets in implementing acts under Art. 65; applied by contracting authorities."
+ },
+ {
+  "rid": 21255,
+  "formal": "eu_institutions",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content rules for the GPP requirements the Commission sets in implementing acts under Art. 65; applied by contracting authorities."
+ },
+ {
+  "rid": 21259,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Market surveillance authorities."
+ },
+ {
+  "rid": 21260,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Market surveillance authorities."
+ },
+ {
+  "rid": 21365,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Legal effect of identified ICT specifications."
+ },
+ {
+  "rid": 21449,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer demonstrates compliance via conformity assessment."
+ },
+ {
+  "rid": 21450,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer draws up the EU declaration of conformity."
+ },
+ {
+  "rid": 21451,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer draws up the EU declaration of conformity."
+ },
+ {
+  "rid": 21452,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer draws up the EU declaration of conformity."
+ },
+ {
+  "rid": 21453,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer draws up the EU declaration of conformity."
+ },
+ {
+  "rid": 21455,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer draws up the EU declaration of conformity."
+ },
+ {
+  "rid": 21456,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer draws up the EU declaration of conformity."
+ },
+ {
+  "rid": 21458,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Cross-reference to Regulation 765/2008 principles; no own conduct."
+ },
+ {
+  "rid": 21459,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer affixes the CE marking."
+ },
+ {
+  "rid": 21461,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer affixes the CE marking."
+ },
+ {
+  "rid": 21463,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States."
+ },
+ {
+  "rid": 21464,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer supplies accompanying information and instructions."
+ },
+ {
+  "rid": 21467,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer supplies accompanying information and instructions."
+ },
+ {
+  "rid": 21468,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Scope statement for apparatus in fixed installations."
+ },
+ {
+  "rid": 21469,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Exemption from requirements."
+ },
+ {
+  "rid": 21521,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conformity assessment body submits the application."
+ },
+ {
+  "rid": 21639,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition."
+ },
+ {
+  "rid": 21750,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Cross-reference to Regulation 765/2008 principles; no own conduct."
+ },
+ {
+  "rid": 21759,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer draws up the technical documentation."
+ },
+ {
+  "rid": 21761,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer draws up the technical documentation."
+ },
+ {
+  "rid": 21762,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer draws up the technical documentation."
+ },
+ {
+  "rid": 21763,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Manufacturer drafts the documentation and EU-type examination correspondence."
+ },
+ {
+  "rid": 21807,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conformity assessment body submits the application."
+ },
+ {
+  "rid": 21969,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer draws up technical documentation."
+ },
+ {
+  "rid": 21971,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer draws up the EU declaration of conformity."
+ },
+ {
+  "rid": 21972,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer draws up the EU declaration of conformity."
+ },
+ {
+  "rid": 21973,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope exclusion."
+ },
+ {
+  "rid": 21974,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition."
+ },
+ {
+  "rid": 22040,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The .eu Registry (a non-profit organisation designated by the Commission) carries out registrations."
+ },
+ {
+  "rid": 22085,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Transitional saving of existing rights."
+ },
+ {
+  "rid": 22090,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Statement of how objectives are achieved."
+ },
+ {
+  "rid": 22091,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Processing by users, i.e. Member State authorities and Union agencies (mixed)."
+ },
+ {
+  "rid": 22110,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "eu-LISA develops and operates the ESP."
+ },
+ {
+  "rid": 22111,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "eu-LISA develops and operates the ESP."
+ },
+ {
+  "rid": 22115,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "eu-LISA develops and operates the ESP."
+ },
+ {
+  "rid": 22140,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "eu-LISA operates CIR, SIS and the shared BMS."
+ },
+ {
+  "rid": 22141,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Queries are launched by Member State authorities (and Union agencies)."
+ },
+ {
+  "rid": 22142,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "eu-LISA operates the shared BMS."
+ },
+ {
+  "rid": 22143,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "eu-LISA operates the shared BMS."
+ },
+ {
+  "rid": 22233,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Link classification in the MID, which eu-LISA operates; manual verification by national authorities."
+ },
+ {
+  "rid": 22234,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Link classification in the MID, which eu-LISA operates; manual verification by national authorities."
+ },
+ {
+  "rid": 22235,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Link classification in the MID, which eu-LISA operates; manual verification by national authorities."
+ },
+ {
+  "rid": 22281,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "eu-LISA provides the reports (previous sentence)."
+ },
+ {
+  "rid": 22282,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission adopts implementing acts."
+ },
+ {
+  "rid": 22354,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Web portal developed and hosted by eu-LISA."
+ },
+ {
+  "rid": 22355,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Web portal developed and hosted by eu-LISA."
+ },
+ {
+  "rid": 22356,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Web portal developed and hosted by eu-LISA."
+ },
+ {
+  "rid": 22415,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ETIAS Central Unit (within Frontex)."
+ },
+ {
+  "rid": 22416,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Member States must restrict VIS access to authorised staff of their competent authorities."
+ },
+ {
+  "rid": 22437,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "ETIAS Central System, operated by eu-LISA."
+ },
+ {
+  "rid": 22438,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "ETIAS Central System, operated by eu-LISA."
+ },
+ {
+  "rid": 22444,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Reporting functionality of eu-LISA's central repository."
+ },
+ {
+  "rid": 22453,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Description of system architecture."
+ },
+ {
+  "rid": 22466,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Transitional disapplication of obligations."
+ },
+ {
+  "rid": 22483,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Budget allocation rule on cost exclusions."
+ },
+ {
+  "rid": 22493,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ETIAS Central Unit."
+ },
+ {
+  "rid": 22788,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Competent authorities taking the measures."
+ },
+ {
+  "rid": 22860,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Applicable-law provision."
+ },
+ {
+  "rid": 22880,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Legal tender status (legal effect)."
+ },
+ {
+  "rid": 22881,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Legal tender status (legal effect)."
+ },
+ {
+  "rid": 22882,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Burden of proof on the payee refusing digital euro."
+ },
+ {
+  "rid": 22884,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Empowerment of the Commission."
+ },
+ {
+  "rid": 22911,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ECB sets and applies the holding-limit parameters."
+ },
+ {
+  "rid": 22943,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Intermediaries in third countries."
+ },
+ {
+  "rid": 22981,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Mobile device OEMs and electronic communication service providers."
+ },
+ {
+  "rid": 22984,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Mobile device OEMs and electronic communication service providers."
+ },
+ {
+  "rid": 23057,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "National courts assessing whether a supervisory authority failed to handle a complaint."
+ },
+ {
+  "rid": 23082,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Supervisory authority informs the complainant."
+ },
+ {
+  "rid": 23086,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Concerned supervisory authority raising the objection."
+ },
+ {
+  "rid": 23095,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Supervisory authority holding the information."
+ },
+ {
+  "rid": 23108,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Supervisory authorities maintaining the cooperation file."
+ },
+ {
+  "rid": 23133,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Supervisory authority requesting the urgent binding decision."
+ },
+ {
+  "rid": 23146,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition."
+ },
+ {
+  "rid": 23163,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer provides warnings, labels and instructions."
+ },
+ {
+  "rid": 23164,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer provides warnings, labels and instructions."
+ },
+ {
+  "rid": 23165,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer provides warnings, labels and instructions."
+ },
+ {
+  "rid": 23246,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer affixes the CE marking."
+ },
+ {
+  "rid": 23247,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Cross-reference to Regulation 765/2008 principles; no own conduct."
+ },
+ {
+  "rid": 23248,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer affixes the CE marking."
+ },
+ {
+  "rid": 23251,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer affixes the CE marking."
+ },
+ {
+  "rid": 23253,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States."
+ },
+ {
+  "rid": 23295,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Customs authorities verify the passport via the automated interconnection."
+ },
+ {
+  "rid": 23300,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer carries out the safety assessment."
+ },
+ {
+  "rid": 23301,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer carries out the safety assessment."
+ },
+ {
+  "rid": 23302,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer carries out the safety assessment."
+ },
+ {
+  "rid": 23360,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conformity assessment body submits the application."
+ },
+ {
+  "rid": 23440,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ECHA, which receives the requests, publishes them."
+ },
+ {
+  "rid": 23442,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ECHA."
+ },
+ {
+  "rid": 23443,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ECHA."
+ },
+ {
+  "rid": 23444,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ECHA."
+ },
+ {
+  "rid": 23550,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer designs toy warnings (Annex III)."
+ },
+ {
+  "rid": 23552,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer designs toy warnings (Annex III)."
+ },
+ {
+  "rid": 23553,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer designs toy warnings (Annex III)."
+ },
+ {
+  "rid": 23557,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer designs toy warnings (Annex III)."
+ },
+ {
+  "rid": 23558,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer designs toy warnings (Annex III)."
+ },
+ {
+  "rid": 23559,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer designs toy warnings (Annex III)."
+ },
+ {
+  "rid": 23566,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer designs toy warnings (Annex III)."
+ },
+ {
+  "rid": 23620,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer draws up technical documentation."
+ },
+ {
+  "rid": 23642,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Debtor owes the compensation."
+ },
+ {
+  "rid": 23677,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Temporal application rule."
+ },
+ {
+  "rid": 23684,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Criminalisation duty: Member States must make the conduct punishable."
+ },
+ {
+  "rid": 23687,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Criminalisation duty: Member States must make the conduct punishable."
+ },
+ {
+  "rid": 23688,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Criminalisation duty: Member States must make the conduct punishable."
+ },
+ {
+  "rid": 23693,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Criminalisation duty: Member States must make the conduct punishable."
+ },
+ {
+  "rid": 23694,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Criminalisation duty: Member States must make the conduct punishable."
+ },
+ {
+  "rid": 23695,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Criminalisation duty: Member States must make the conduct punishable."
+ },
+ {
+  "rid": 23696,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Criminalisation duty: Member States must make the conduct punishable."
+ },
+ {
+  "rid": 23761,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States must provide assistance to child victims."
+ },
+ {
+  "rid": 23838,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Subject-matter statement."
+ },
+ {
+  "rid": 23839,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Design requirements for the EU Digital Travel application, developed and operated by eu-LISA."
+ },
+ {
+  "rid": 23840,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Design requirements for the EU Digital Travel application, developed and operated by eu-LISA."
+ },
+ {
+  "rid": 23841,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Design requirements for the EU Digital Travel application, developed and operated by eu-LISA."
+ },
+ {
+  "rid": 23842,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Design requirements for the EU Digital Travel application, developed and operated by eu-LISA."
+ },
+ {
+  "rid": 23844,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Design requirements for the EU Digital Travel application, developed and operated by eu-LISA."
+ },
+ {
+  "rid": 24008,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Agency (EUSPA) issues the e-certificate (paragraph 4)."
+ },
+ {
+  "rid": 24009,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Agency (EUSPA) issues the e-certificate (paragraph 4)."
+ },
+ {
+  "rid": 24010,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Agency (EUSPA) issues the e-certificate (paragraph 4)."
+ },
+ {
+  "rid": 24011,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Agency (EUSPA) issues the e-certificate (paragraph 4)."
+ },
+ {
+  "rid": 24040,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States."
+ },
+ {
+  "rid": 24061,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Qualified technical bodies (conformity-assessor role)."
+ },
+ {
+  "rid": 24062,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Qualified technical bodies (conformity-assessor role)."
+ },
+ {
+  "rid": 24063,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Status condition met through Member State designation of public bodies."
+ },
+ {
+  "rid": 24065,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Qualified technical body that subcontracts."
+ },
+ {
+  "rid": 24066,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Qualified technical body that subcontracts."
+ },
+ {
+  "rid": 24180,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Union spacecraft operator benefiting from the exemption must keep a contact point."
+ },
+ {
+  "rid": 24196,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union spacecraft operators (Art. 66(1))."
+ },
+ {
+  "rid": 24197,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union spacecraft operators (Art. 66(1))."
+ },
+ {
+  "rid": 24217,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union spacecraft operators draw up the plan."
+ },
+ {
+  "rid": 24278,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union space operators."
+ },
+ {
+  "rid": 24335,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Reporting by space operators routed through CSIRTs, which then transmit (mixed)."
+ },
+ {
+  "rid": 24351,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Information-sharing arrangements set up by Union space operators."
+ },
+ {
+  "rid": 24363,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Space operators calculate the environmental footprint (Art. 96)."
+ },
+ {
+  "rid": 24364,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Space operators calculate the environmental footprint (Art. 96)."
+ },
+ {
+  "rid": 24480,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union launch operators draw up the launcher safety plan."
+ },
+ {
+  "rid": 24545,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union spacecraft operators (Annex V debris mitigation)."
+ },
+ {
+  "rid": 24556,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union spacecraft operators (Annex V debris mitigation)."
+ },
+ {
+  "rid": 24573,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union spacecraft operators (Annex V debris mitigation)."
+ },
+ {
+  "rid": 24578,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union spacecraft operators (Annex V debris mitigation)."
+ },
+ {
+  "rid": 24579,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union spacecraft operators (Annex V debris mitigation)."
+ },
+ {
+  "rid": 24581,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union spacecraft operators (Annex V debris mitigation)."
+ },
+ {
+  "rid": 24582,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union spacecraft operators (Annex V debris mitigation)."
+ },
+ {
+  "rid": 24584,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union spacecraft operators (Annex V debris mitigation)."
+ },
+ {
+  "rid": 24588,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union spacecraft operators (Annex V debris mitigation)."
+ },
+ {
+  "rid": 24592,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union spacecraft operators (Annex V debris mitigation)."
+ },
+ {
+  "rid": 24594,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union spacecraft operators (Annex V debris mitigation)."
+ },
+ {
+  "rid": 24595,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union spacecraft operators (Annex V debris mitigation)."
+ },
+ {
+  "rid": 24613,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union spacecraft operators (Annex V debris mitigation)."
+ },
+ {
+  "rid": 24615,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union spacecraft operators (Annex V debris mitigation)."
+ },
+ {
+  "rid": 24616,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union spacecraft operators (Annex V debris mitigation)."
+ },
+ {
+  "rid": 24617,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union spacecraft operators (Annex V debris mitigation)."
+ }
+]
