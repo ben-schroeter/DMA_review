@@ -466,5 +466,15 @@ charts["private_tall"] = compact([(CLAY, 0.85, qm, None), (CLAY2, 0.9, qs, INK)]
                                  f"Cumulative restrictions binding private parties: {m2:,} in the main acts and {s2:,} in implementing and delegated acts",
                                  W_=560, H_=600, fmt=lambda v: f"{v / 1000:.0f}k")
 
+# private parties, half-width version for the front page (same size as acts_by_type_half)
+ym = 14000
+labs = [(f"{m2 + s2:,}", m2 + s2 + ym * 0.02, INK, 600, 19), ("restrictions", m2 + s2 - ym * 0.055, MUTED, 400, 12.5),
+        ("Main acts", m2 / 2 + ym * 0.03, CLAY, 600, 13.5), (f"{m2:,}", m2 / 2 - ym * 0.03, CLAY, 600, 13.5),
+        ("Implementing", m2 + s2 / 2 + ym * 0.06, INK2, 400, 13.5), ("&amp; delegated", m2 + s2 / 2 + ym * 0.005, INK2, 400, 13.5),
+        (f"{s2:,}", m2 + s2 / 2 - ym * 0.05, INK, 600, 13.5)]
+charts["private_half"] = compact([(CLAY, 0.30, qm, CLAY), (SLATE, 0.16, qs, None)], ym, [0, 2000, 4000, 6000, 8000, 10000, 12000, 14000], labs,
+                                 f"Cumulative restrictions binding private parties: {m2:,} in the main acts and {s2:,} in implementing and delegated acts; dashed lines mark new Commissions",
+                                 fmt=lambda v: f"{v / 1000:.0f}k")
+
 json.dump({"charts": charts, "meta": meta}, open("site/mock_charts.json", "w"), ensure_ascii=False)
 print(json.dumps(meta))
