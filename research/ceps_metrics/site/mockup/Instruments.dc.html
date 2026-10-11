@@ -66,14 +66,14 @@ a{color:#282424}a:hover{color:#8F6708}
         </label>
         <label for="srt" style="display: flex; flex-direction: column; gap: 6px; flex: 1 1 180px" class="cap">Sort by
           <select id="srt" class="ctl" value="{{srt}}" onChange="{{onSrt}}">
-            <option value="name">Name</option><option value="year">Newest first</option><option value="restr">Most restrictions</option><option value="studies">Most studies</option>
+            <option value="name">Name</option><option value="year">Newest first</option><option value="restr">Most obligations</option><option value="studies">Most studies</option>
           </select>
         </label>
       </div>
       <span class="cap">{{count}} of 115 instruments</span>
       <div style="overflow-x: auto; border-top: 1px solid #E8E6E3">
         <table class="tbl">
-          <thead><tr><th scope="col">Instrument</th><th scope="col">Year</th><th scope="col" class="hide-n">Type</th><th scope="col" class="hide-n">Policy area</th><th scope="col" style="text-align: right">Restrictions</th><th scope="col" style="text-align: right" class="hide-n">Impl./del. acts</th><th scope="col">Evidence</th><th scope="col" style="text-align: right" class="hide-n">Studies</th></tr></thead>
+          <thead><tr><th scope="col">Instrument</th><th scope="col">Year</th><th scope="col" class="hide-n">Type</th><th scope="col" class="hide-n">Policy area</th><th scope="col" style="text-align: right">Obligations</th><th scope="col" style="text-align: right" class="hide-n">Impl./del. acts</th><th scope="col">Evidence</th><th scope="col" style="text-align: right" class="hide-n">Studies</th></tr></thead>
           <tbody>
             <sc-for list="{{rows}}" as="r" hint-placeholder-count="12">
               <tr><td style="min-width: 220px"><a href="Instrument.dc.html">{{r.name}}</a></td><td>{{r.year}}</td><td class="hide-n">{{r.type}}</td><td class="hide-n cap" style="font-size: 14px">{{r.area}}</td><td class="n">{{r.restr}}</td><td class="n hide-n">{{r.sec}}</td><td><span class="lvl" style="{{r.lvlStyle}}">{{r.lvlLabel}}</span></td><td class="n hide-n">{{r.studies}}</td></tr>
@@ -81,7 +81,7 @@ a{color:#282424}a:hover{color:#8F6708}
           </tbody>
         </table>
       </div>
-      <span class="cap">Restrictions counted in the original text (the proposal for pending items). Mockup: every row opens the Digital Markets Act page.</span>
+      <span class="cap">Obligations counted in the original text (the proposal for pending items). Mockup: every row opens the Digital Markets Act page.</span>
     </div>
   </section>
 

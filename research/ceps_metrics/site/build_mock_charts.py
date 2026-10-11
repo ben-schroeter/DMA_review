@@ -115,7 +115,7 @@ for t in order:
 charts["acts_by_type"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Cumulative number of adopted EU digital acts by legal type: '
                           f'{cum["Regulation"]} regulations, {cum["Directive"]} directives, {cum["Decision"]} decisions">' + "".join(g + bands + lab) + "</svg>")
 
-# B. cumulative restrictions: main acts vs implementing and delegated acts
+# B. cumulative obligations: main acts vs implementing and delegated acts
 evs = sorted([(fy(r["d"]), r["restrictions_total"], 0) for r in inst] + [(fy(r["d"]), 0, r["restrictions_total"]) for r in sec])
 m = s = 0; pm = [(Y0, 0)]; ps = [(Y0, 0)]
 for y, a, b in evs:
@@ -127,7 +127,7 @@ lab = [f'<text x="{W - R + 10}" y="{Yf(m / 2) + 5:.1f}" {F} font-size="14" fill=
        f'<text x="{W - R + 10}" y="{Yf(m + s / 2) - 4:.1f}" {F} font-size="14" fill="{INK2}">Implementing</text>',
        f'<text x="{W - R + 10}" y="{Yf(m + s / 2) + 13:.1f}" {F} font-size="14" fill="{INK2}">&amp; delegated</text>',
        f'<text x="{W - R + 10}" y="{Yf(m + s / 2) + 31:.1f}" {F} font-size="14" fill="{INK}" font-weight="600">{s:,}</text>']
-charts["main_vs_secondary"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Cumulative restrictions: {m:,} in the main acts and {s:,} in '
+charts["main_vs_secondary"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Cumulative obligations: {m:,} in the main acts and {s:,} in '
                                f'implementing and delegated acts">' + "".join(g + bands + lab) + "</svg>")
 meta = {"acts_by_type": cum, "main": m, "secondary": s}
 
@@ -152,10 +152,10 @@ big = sorted(cmp, key=lambda r: -(r["restrictions_total"] - r["proposal_restrict
 for r in big:
     nm = r["name"].replace("Artificial Intelligence Act", "AI Act").replace("General Data Protection Regulation", "GDPR").replace("Markets in Crypto-Assets (MiCA)", "MiCA").split(" (")[0]
     g.append(f'<text x="{sx(r["proposal_restrictions_total"]) + 9:.1f}" y="{sy(r["restrictions_total"]) + 4:.1f}" {F} font-size="13" fill="{INK2}">{nm}</text>')
-g.append(f'<text x="{(P + S) / 2:.0f}" y="{S - 8}" text-anchor="middle" {F} font-size="13" fill="{MUTED}">Restrictions in the Commission proposal</text>')
-g.append(f'<text x="14" y="{(S - P) / 2:.0f}" text-anchor="middle" {F} font-size="13" fill="{MUTED}" transform="rotate(-90 14 {(S - P) / 2:.0f})">Restrictions in the adopted act</text>')
+g.append(f'<text x="{(P + S) / 2:.0f}" y="{S - 8}" text-anchor="middle" {F} font-size="13" fill="{MUTED}">Obligations in the Commission proposal</text>')
+g.append(f'<text x="14" y="{(S - P) / 2:.0f}" text-anchor="middle" {F} font-size="13" fill="{MUTED}" transform="rotate(-90 14 {(S - P) / 2:.0f})">Obligations in the adopted act</text>')
 charts["proposal_vs_adopted"] = (f'<svg viewBox="0 0 {S} {S}" width="100%" style="max-width: 560px" role="img" aria-label="{above} of {len(cmp)} acts have more '
-                                 f'restrictions after adoption than in the proposal">' + "".join(g) + "</svg>")
+                                 f'obligations after adoption than in the proposal">' + "".join(g) + "</svg>")
 meta.update({"cmp_n": len(cmp), "cmp_above": above})
 
 # D. EU acts vs Sarbanes-Oxley: per act (bars) and density (strip)
@@ -177,7 +177,7 @@ for i, (n, v, c) in enumerate(bars):
     g.append(f'<text x="{LB - 14}" y="{y + 20}" text-anchor="end" {F} font-size="15" fill="{INK if c == INK else INK2}" {"font-weight=\"600\"" if c == INK else ""}>{n}</text>')
     g.append(f'<rect x="{LB}" y="{y + 6}" width="{w:.1f}" height="20" rx="4" fill="{c}"></rect>')
     g.append(f'<text x="{LB + w + 10:.1f}" y="{y + 21}" {F} font-size="15" fill="{INK}" font-weight="600">{v:,}</text>')
-charts["sox_per_act"] = (f'<svg viewBox="0 0 {BW} {10 + len(bars) * rowh + 6}" width="100%" role="img" aria-label="Restrictions per act: recent EU acts '
+charts["sox_per_act"] = (f'<svg viewBox="0 0 {BW} {10 + len(bars) * rowh + 6}" width="100%" role="img" aria-label="Obligations per act: recent EU acts '
                          f'against the Sarbanes-Oxley Act ({sox["restrictions_total"]})">' + "".join(g) + "</svg>")
 dens = sorted(1000 * r["restrictions_total"] / max(1, (r["words_articles"] or 0) + (r["words_annexes"] or 0)) for r in inst)
 med = statistics.median(dens)
@@ -194,7 +194,7 @@ g.append(f'<line x1="{dx(med):.1f}" x2="{dx(med):.1f}" y1="{DH - 100}" y2="{DH -
 g.append(f'<text x="{dx(med):.1f}" y="{DH - 108}" text-anchor="middle" {F} font-size="14" fill="{INK}" font-weight="600">EU median {med:.1f}</text>')
 g.append(f'<line x1="{dx(sox["per_1000_words"]):.1f}" x2="{dx(sox["per_1000_words"]):.1f}" y1="{DH - 100}" y2="{DH - 44}" stroke="{INK}" stroke-width="2.5"></line>')
 g.append(f'<text x="{dx(sox["per_1000_words"]):.1f}" y="{DH - 108}" text-anchor="end" {F} font-size="14" fill="{INK}" font-weight="600">SOX {sox["per_1000_words"]:g}</text>')
-charts["sox_density"] = (f'<svg viewBox="0 0 {DW} {DH}" width="100%" role="img" aria-label="Restrictions per 1,000 words: median EU act {med:.1f}, '
+charts["sox_density"] = (f'<svg viewBox="0 0 {DW} {DH}" width="100%" role="img" aria-label="Obligations per 1,000 words: median EU act {med:.1f}, '
                          f'Sarbanes-Oxley {sox["per_1000_words"]:g}">' + "".join(g) + "</svg>")
 meta.update({"eu_median_density": round(med, 1), "sox": sox["restrictions_total"], "sox_density": sox["per_1000_words"]})
 
@@ -237,7 +237,7 @@ charts["productivity"] = prod_svg(1000, 420)
 charts["productivity_tall"] = prod_svg(560, 430, PL=16, PR=36, PT=24, PB=36)
 v22 = [o for o in pdat if o["year"] == 2022][0]["ratio_1995_100"]
 meta["productivity_2022"] = v22
-# F. restrictions binding private parties: main acts + implementing/delegated acts
+# F. obligations binding private parties: main acts + implementing/delegated acts
 evp = sorted([(fy(r["d"]), r["addr_private_parties"] or 0, 0) for r in inst] + [(fy(r["d"]), 0, r["addr_private_parties"] or 0) for r in sec])
 m2 = s2 = 0; qm = [(Y0, 0)]; qs = [(Y0, 0)]
 for y, a, b in evp:
@@ -249,7 +249,7 @@ lab = [f'<text x="{W - R + 10}" y="{Yf(m2 / 2) + 5:.1f}" {F} font-size="14" fill
        f'<text x="{W - R + 10}" y="{Yf(m2 + s2 / 2) - 4:.1f}" {F} font-size="14" fill="{INK2}">Implementing</text>',
        f'<text x="{W - R + 10}" y="{Yf(m2 + s2 / 2) + 13:.1f}" {F} font-size="14" fill="{INK2}">&amp; delegated</text>',
        f'<text x="{W - R + 10}" y="{Yf(m2 + s2 / 2) + 31:.1f}" {F} font-size="14" fill="{INK}" font-weight="600">{s2:,}</text>']
-charts["private"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Cumulative restrictions binding private parties: {m2:,} in the main '
+charts["private"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Cumulative obligations binding private parties: {m2:,} in the main '
                      f'acts and {s2:,} in implementing and delegated acts">' + "".join(g + bands + lab) + "</svg>")
 meta.update({"private_main": m2, "private_secondary": s2})
 
@@ -326,7 +326,7 @@ charts["acts_combined"] = (f'<svg viewBox="0 0 {W} {ly + 16}" width="100%" role=
                            f'{sum(since)} adopted since 2020">' + "".join(g + top + labt + b) + "</svg>")
 meta["groups_since_2020"] = {name: sum(v[gi] for yr, v in peryear.items() if yr >= 2020) for gi, (name, _, _) in enumerate(GROUPS)}
 
-# H. small multiples: cumulative restrictions by CEPS policy area, main acts vs their implementing and delegated acts
+# H. small multiples: cumulative obligations by CEPS policy area, main acts vs their implementing and delegated acts
 area_of = {r["row_id"]: r["policy_area_ceps"] for r in sheet("instruments")}
 secs_by_area = collections.defaultdict(list)
 for r in sec:
@@ -361,18 +361,18 @@ for i, a in enumerate(areas):
     for y in (1990, 2010):
         g.append(f'<text x="{xpx(x0, y):.1f}" y="{y0 + PH_ + 16}" text-anchor="middle" {F} font-size="12" fill="{MUTED}">{y}</text>')
     g.append(f'<text x="{x0}" y="{y0 - 10}" {F} font-size="14" fill="{INK}" font-weight="600">{a.replace(" Protection", "").replace("&", "&amp;")} <tspan font-weight="400" fill="{MUTED}">{p + o:,}</tspan></text>')
-charts["policy_areas"] = (f'<svg viewBox="0 0 {SW} {SH}" width="100%" role="img" aria-label="Cumulative restrictions by CEPS policy area, twelve panels on shared axes, '
-                          f'split into restrictions in the main acts and in their implementing and delegated acts">' + "".join(g) + "</svg>")
+charts["policy_areas"] = (f'<svg viewBox="0 0 {SW} {SH}" width="100%" role="img" aria-label="Cumulative obligations by CEPS policy area, twelve panels on shared axes, '
+                          f'split into obligations in the main acts and in their implementing and delegated acts">' + "".join(g) + "</svg>")
 meta["policy_area_totals"] = pa_tot
 
-# I. restrictions per act and per 1,000 words over time, with 5-year averages and the Sarbanes-Oxley line
+# I. obligations per act and per 1,000 words over time, with 5-year averages and the Sarbanes-Oxley line
 TC = {"Regulation": CLAY, "Directive": SLATE, "Decision": STONE}
 VW, VH, PL, PR_, PT, PB, PGAP = 1000, 400, 52, 16, 40, 36, 60
 pw = (VW - 2 * PL - PR_ - PGAP) / 2
 dens = lambda r: 1000 * r["restrictions_total"] / max(1, (r["words_articles"] or 0) + (r["words_annexes"] or 0))
 g = []
-for k, (title, f, ym, ticks, sv) in enumerate((("Restrictions per act", lambda r: r["restrictions_total"], 1200, (400, 800, 1200), sox["restrictions_total"]),
-                                               ("Restrictions per 1,000 words", dens, 40, (10, 20, 30, 40), sox["per_1000_words"]))):
+for k, (title, f, ym, ticks, sv) in enumerate((("Obligations per act", lambda r: r["restrictions_total"], 1200, (400, 800, 1200), sox["restrictions_total"]),
+                                               ("Obligations per 1,000 words", dens, 40, (10, 20, 30, 40), sox["per_1000_words"]))):
     x0 = PL + k * (pw + PL + PGAP)
     xx = lambda y: x0 + (y - Y0) / (Y1 - Y0) * pw
     yy = lambda v: PT + (VH - PT - PB) * (1 - min(v, ym) / ym)
@@ -395,7 +395,7 @@ lx = PL
 for t in ("Regulation", "Directive", "Decision"):
     g.append(f'<circle cx="{lx + 6}" cy="{VH + 14}" r="5" fill="{TC[t]}"></circle><text x="{lx + 16}" y="{VH + 19}" {F} font-size="13.5" fill="{INK2}">{t}s</text>'); lx += 120
 g.append(f'<line x1="{lx}" x2="{lx + 22}" y1="{VH + 14}" y2="{VH + 14}" stroke="{INK}" stroke-width="2.5"></line><text x="{lx + 30}" y="{VH + 19}" {F} font-size="13.5" fill="{INK2}">5-year average</text>')
-charts["per_act_density"] = (f'<svg viewBox="0 0 {VW} {VH + 30}" width="100%" role="img" aria-label="Left: restrictions per act over time, rising. Right: restrictions per 1,000 words, roughly flat. '
+charts["per_act_density"] = (f'<svg viewBox="0 0 {VW} {VH + 30}" width="100%" role="img" aria-label="Left: obligations per act over time, rising. Right: obligations per 1,000 words, roughly flat. '
                              f'Dots are acts; lines are 5-year averages; dashed line is the Sarbanes-Oxley Act">' + "".join(g) + "</svg>")
 
 # J. compact cumulative charts (half page width, or tall for a side column): same style as the restyled rulebook chart
@@ -444,7 +444,7 @@ def by_type(weight):
 
 FILLS = {"Regulation": (CLAY, 0.30, CLAY), "Directive": (SLATE, 0.16, None), "Decision": (SLATE, 0.08, INK)}
 for key, wfun, ymax, ticks, unit in (("acts_by_type_half", lambda r: 1, 120, [0, 20, 40, 60, 80, 100, 120], "adopted acts"),
-                                     ("restr_by_type_half", lambda r: r["restrictions_total"], 24000, [0, 4000, 8000, 12000, 16000, 20000, 24000], "restrictions")):
+                                     ("restr_by_type_half", lambda r: r["restrictions_total"], 24000, [0, 4000, 8000, 12000, 16000, 20000, 24000], "obligations")):
     cc, pp_ = by_type(wfun)
     tot_ = sum(cc.values())
     layers = [(FILLS[t][0], FILLS[t][1], pp_[t], FILLS[t][2]) for t in order]
@@ -463,17 +463,17 @@ labs = [(f"{m2 + s2:,}", m2 + s2 + 300, INK, 600, 19), ("in total", m2 + s2 - 50
         ("Main acts", m2 / 2 + 250, CLAY, 600, 13.5), (f"{m2:,}", m2 / 2 - 450, INK, 600, 13.5),
         ("Implementing", m2 + s2 / 2 + 300, INK2, 400, 13.5), ("& delegated", m2 + s2 / 2 - 250, INK2, 400, 13.5), (f"{s2:,}", m2 + s2 / 2 - 900, INK, 600, 13.5)]
 charts["private_tall"] = compact([(CLAY, 0.85, qm, None), (CLAY2, 0.9, qs, INK)], 14000, [0, 2000, 4000, 6000, 8000, 10000, 12000, 14000], labs,
-                                 f"Cumulative restrictions binding private parties: {m2:,} in the main acts and {s2:,} in implementing and delegated acts",
+                                 f"Cumulative obligations binding private parties: {m2:,} in the main acts and {s2:,} in implementing and delegated acts",
                                  W_=560, H_=600, fmt=lambda v: f"{v / 1000:.0f}k")
 
 # private parties, half-width version for the front page (same size as acts_by_type_half)
 ym = 14000
-labs = [(f"{m2 + s2:,}", m2 + s2 + ym * 0.02, INK, 600, 19), ("restrictions", m2 + s2 - ym * 0.055, MUTED, 400, 12.5),
+labs = [(f"{m2 + s2:,}", m2 + s2 + ym * 0.02, INK, 600, 19), ("obligations", m2 + s2 - ym * 0.055, MUTED, 400, 12.5),
         ("Main acts", m2 / 2 + ym * 0.03, CLAY, 600, 13.5), (f"{m2:,}", m2 / 2 - ym * 0.03, CLAY, 600, 13.5),
         ("Implementing", m2 + s2 / 2 + ym * 0.06, INK2, 400, 13.5), ("&amp; delegated", m2 + s2 / 2 + ym * 0.005, INK2, 400, 13.5),
         (f"{s2:,}", m2 + s2 / 2 - ym * 0.05, INK, 600, 13.5)]
 charts["private_half"] = compact([(CLAY, 0.30, qm, CLAY), (SLATE, 0.16, qs, None)], ym, [0, 2000, 4000, 6000, 8000, 10000, 12000, 14000], labs,
-                                 f"Cumulative restrictions binding private parties: {m2:,} in the main acts and {s2:,} in implementing and delegated acts; dashed lines mark new Commissions",
+                                 f"Cumulative obligations binding private parties: {m2:,} in the main acts and {s2:,} in implementing and delegated acts; dashed lines mark new Commissions",
                                  fmt=lambda v: f"{v / 1000:.0f}k")
 
 # acts per CEPS policy area, half-width bar chart for the front page: adopted acts, split before / since 2020
@@ -498,6 +498,50 @@ for i, (a, (old, new)) in enumerate(pa_rows):
 charts["acts_by_area_half"] = (f'<svg viewBox="0 0 {PW} {PH}" width="100%" role="img" aria-label="Adopted EU digital acts by CEPS policy area, split into acts adopted before 2020 and from 2020: '
                                + "; ".join(f"{a} {o + n} ({n} since 2020)" for a, (o, n) in pa_rows).replace("&", "&amp;") + '">' + "".join(g) + "</svg>")
 meta["acts_by_area"] = {a: v for a, v in pa_rows}
+
+# instrument page: where one act sits among all adopted acts by number of obligations (dot strip, beeswarm)
+def rank_strip(celex, refs=("General Data Protection Regulation", "Artificial Intelligence Act", "Markets in Crypto-Assets Regulation")):
+    vals = sorted(((r["restrictions_total"], r) for r in inst), key=lambda t: t[0])
+    me = next(r for v, r in vals if r["celex_measured"] == celex)
+    W_, L_, R_, rad = 1000, 24, 24, 5.5
+    vmax = 1200
+    X = lambda v: L_ + v / vmax * (W_ - L_ - R_)
+    placed = []  # (x, dy)
+    for v, r in vals:
+        x = X(v); dy = 0; k = 0
+        while any(abs(x - px_) < 2 * rad + 1 and abs(dy - pdy) < 2 * rad + 1 for px_, pdy in placed):
+            k += 1; dy = (k + 1) // 2 * (2 * rad + 1) * (1 if k % 2 else -1)
+        placed.append((x, dy)); r["_dy"] = dy
+    span = max(abs(d) for _, d in placed)
+    BASE_ = 70 + span
+    H_ = BASE_ + span + 64
+    med = statistics.median(v for v, _ in vals)
+    below = sum(v < me["restrictions_total"] for v, _ in vals)
+    g = [f'<line x1="{L_}" x2="{W_ - R_}" y1="{BASE_}" y2="{BASE_}" stroke="{BASE}" stroke-width="1"></line>']
+    for t in range(0, vmax + 1, 200):
+        g.append(f'<line x1="{X(t):.1f}" x2="{X(t):.1f}" y1="{BASE_ + span + 14}" y2="{BASE_ + span + 20}" stroke="{BASE}"></line>')
+        g.append(f'<text x="{X(t):.1f}" y="{BASE_ + span + 38}" text-anchor="middle" {F} font-size="13" fill="{MUTED}">{t:,}</text>')
+    g.append(f'<line x1="{X(med):.1f}" x2="{X(med):.1f}" y1="{BASE_ - span - 16}" y2="{BASE_ + span + 10}" stroke="{INK2}" stroke-dasharray="3 3"></line>')
+    g.append(f'<text x="{X(med) + 6:.1f}" y="{BASE_ - span - 6}" {F} font-size="12.5" fill="{INK2}">median {med:,.0f}</text>')
+    for v, r in vals:
+        if r is me: continue
+        g.append(f'<circle cx="{X(v):.1f}" cy="{BASE_ + r["_dy"]:.1f}" r="{rad}" fill="{STONE}" fill-opacity="0.85"><title>{r["name"].replace("&", "&amp;")}: {v:,}</title></circle>')
+    for n in refs:
+        r = next((r for r in inst if r["name"] == n), None)
+        if r is None or r is me: continue
+        lbl = n.replace("General Data Protection Regulation", "GDPR").replace("Artificial Intelligence Act", "AI Act").replace("Markets in Crypto-Assets Regulation", "MiCA")
+        g.append(f'<text x="{X(r["restrictions_total"]):.1f}" y="{BASE_ + r["_dy"] - 12:.1f}" text-anchor="middle" {F} font-size="12.5" fill="{MUTED}">{lbl}</text>')
+    mx_, my_ = X(me["restrictions_total"]), BASE_ + me["_dy"]
+    g.append(f'<circle cx="{mx_:.1f}" cy="{my_:.1f}" r="{rad + 2.5}" fill="{CLAY}" stroke="#FAF9F5" stroke-width="2"></circle>')
+    g.append(f'<line x1="{mx_:.1f}" x2="{mx_:.1f}" y1="{my_ - rad - 4:.1f}" y2="26" stroke="{CLAY}"></line>')
+    g.append(f'<text x="{mx_:.1f}" y="18" text-anchor="middle" {F} font-size="14" fill="{INK}" font-weight="600">{me["name"].split(" (")[0]}: {me["restrictions_total"]:,}</text>')
+    aria = (f'{me["name"]} has {me["restrictions_total"]:,} obligations, more than {below} of the {len(vals)} adopted EU digital acts; median {med:,.0f}. '
+            f'Each dot is one act on a scale from 0 to {vmax:,} obligations')
+    return f'<svg viewBox="0 0 {W_} {H_:.0f}" width="100%" role="img" aria-label="{aria}">' + "".join(g) + "</svg>", below, len(vals), med
+
+
+charts["rank_dma"], b_, n_, m_ = rank_strip("32022R1925")
+meta["rank_dma"] = {"below": b_, "n": n_, "median": m_}
 
 json.dump({"charts": charts, "meta": meta}, open("site/mock_charts.json", "w"), ensure_ascii=False)
 print(json.dumps(meta))

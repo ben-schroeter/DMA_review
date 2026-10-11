@@ -53,20 +53,20 @@ ul.b{margin:0;padding-left:20px;color:#3F3B3B;display:flex;flex-direction:column
   <section style="padding-block: 24px 80px">
     <div class="wrap" style="display: flex; flex-wrap: wrap; gap: 56px; align-items: flex-start">
       <nav class="toc" aria-label="On this page" style="flex: 1 1 220px; max-width: 260px">
-        <a href="#scope">1. Scope</a><a href="#restrictions">2. Counting restrictions</a><a href="#secondary">3. Secondary acts and guidance</a><a href="#proposal">4. Proposal vs adoption</a><a href="#impact">5. Reviewing the impact evidence</a><a href="#us">6. Benchmarks and the US comparison</a><a href="#ai">7. Use of AI</a><a href="#limits">8. Limitations</a>
+        <a href="#scope">1. Scope</a><a href="#obligations">2. Counting obligations</a><a href="#secondary">3. Secondary acts and guidance</a><a href="#proposal">4. Proposal vs adoption</a><a href="#impact">5. Reviewing the impact evidence</a><a href="#us">6. Benchmarks and the US comparison</a><a href="#ai">7. Use of AI</a><a href="#limits">8. Limitations</a>
       </nav>
       <div style="flex: 999 1 560px; min-width: 0">
         <div class="sec" id="scope" style="border-top: 0; padding-top: 0">
           <h2 class="h2">1. Scope</h2>
           <p class="body">The 115 instruments in the CEPS inventory of EU digital law and policy (Zenner and Marcus, July 2025), plus eight enacted instruments listed in the same table. We measured the original act as published in the Official Journal; for instruments still pending in October 2026, the Commission proposal. English versions from EUR-Lex.</p>
         </div>
-        <div class="sec" id="restrictions">
-          <h2 class="h2">2. Counting restrictions</h2>
-          <p class="body">A restriction is a legal rule that requires, forbids or limits something. We count the markers that create them in the articles and annexes (recitals are not binding):</p>
-          <ul class="b"><li><strong>Obligations:</strong> shall, must, has to</li><li><strong>Prohibitions:</strong> shall not, may not, is prohibited, "no … shall"</li><li><strong>Restricted permissions:</strong> may only, may … only if</li><li><strong>Duties of result:</strong> shall ensure</li><li><strong>Explicit requirements:</strong> is required to, is obliged to</li></ul>
+        <div class="sec" id="obligations">
+          <h2 class="h2">2. Counting obligations</h2>
+          <p class="body">An obligation is a legal rule that requires, forbids or limits something. We count the markers that create them in the articles and annexes (recitals are not binding):</p>
+          <ul class="b"><li><strong>Positive obligations:</strong> shall, must, has to</li><li><strong>Prohibitions:</strong> shall not, may not, is prohibited, "no … shall"</li><li><strong>Restricted permissions:</strong> may only, may … only if</li><li><strong>Duties of result:</strong> shall ensure</li><li><strong>Explicit requirements:</strong> is required to, is obliged to</li></ul>
           <div class="ex">Counted: "Gatekeepers <u>shall not</u> process personal data of end users…"<br>Not counted: "This Regulation <u>shall enter into force</u> on…" (it regulates no one)</div>
-          <p class="body">Excluded uses of "shall": entry into force, definitions, amendment instructions, saving clauses, rights and powers, and constitutive rules such as how a board is composed. Each restriction is assigned to who must act, using the grammatical subject: private parties, member states, EU institutions, or unclear.</p>
-          <p class="body"><strong>How accurate is it?</strong> In a fresh hand-checked sample of 200 counted items, 89% were genuine restrictions, and the addressee was correct for 90% of those. Totals are reliable enough for comparisons of this size; addressee shares are approximate.</p><p class="body"><strong>Who must act, rechecked (October 2026):</strong> each restriction gets a formal addressee (who the text tells to act) and an "ultimately bound" one (for duties on Member States whose content is company conduct). Where the sentence itself does not name the actor, the rules look at the list lead-in, the previous sentences of the article, the article heading and the act's definitions; the remaining cases (about 4,800 distinct clauses) were read by a model with a logged reason for each. Rules on content or legal effect that bind nobody are coded "no actor". No restriction is left unclear.</p>
+          <p class="body">Excluded uses of "shall": entry into force, definitions, amendment instructions, saving clauses, rights and powers, and constitutive rules such as how a board is composed. Each obligation is assigned to who must act, using the grammatical subject: private parties, member states, EU institutions, or unclear.</p>
+          <p class="body"><strong>How accurate is it?</strong> In a fresh hand-checked sample of 200 counted items, 89% were genuine obligations, and the addressee was correct for 90% of those. Totals are reliable enough for comparisons of this size; addressee shares are approximate.</p><p class="body"><strong>Who must act, rechecked (October 2026):</strong> each obligation gets a formal addressee (who the text tells to act) and an "ultimately bound" one (for duties on Member States whose content is company conduct). Where the sentence itself does not name the actor, the rules look at the list lead-in, the previous sentences of the article, the article heading and the act's definitions; the remaining cases (about 4,800 distinct clauses) were read by a model with a logged reason for each. Rules on content or legal effect that bind nobody are coded "no actor". No obligation is left unclear.</p>
         </div>
         <div class="sec" id="secondary">
           <h2 class="h2">3. Secondary acts and guidance</h2>
@@ -82,7 +82,7 @@ ul.b{margin:0;padding-left:20px;color:#3F3B3B;display:flex;flex-direction:column
         </div>
         <div class="sec" id="us">
           <h2 class="h2">6. Benchmarks and the US comparison</h2>
-          <p class="body">We counted restrictions in the Sarbanes-Oxley Act and in US counterparts of EU instruments with the same counter, adapted for US drafting. Precision on US text was 80% (68% for Sarbanes-Oxley). Ten pairs passed our fairness review. US words include text inserted into the US Code; EU words are articles and annexes.</p>
+          <p class="body">We counted obligations in the Sarbanes-Oxley Act and in US counterparts of EU instruments with the same counter, adapted for US drafting. Precision on US text was 80% (68% for Sarbanes-Oxley). Ten pairs passed our fairness review. US words include text inserted into the US Code; EU words are articles and annexes.</p>
         </div>
         <div class="sec" id="ai">
           <h2 class="h2">7. Use of AI</h2>
