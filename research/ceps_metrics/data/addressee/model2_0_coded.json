@@ -1,0 +1,2130 @@
+[
+ {
+  "rid": 0,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Extension request is submitted by the Member State authorised by the VAT derogation decision."
+ },
+ {
+  "rid": 1,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Extension request is submitted by the Member State to which the VAT implementing decision is addressed."
+ },
+ {
+  "rid": 2,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Publication of standard references in the OJ is done by the Commission."
+ },
+ {
+  "rid": 3,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "States that no frequency separation is required; a relaxation, not a duty."
+ },
+ {
+  "rid": 4,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "States that no frequency separation is required; a relaxation, not a duty."
+ },
+ {
+  "rid": 5,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "States that no frequency separation is required; a relaxation, not a duty."
+ },
+ {
+  "rid": 6,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "States that no frequency separation is required; a relaxation, not a duty."
+ },
+ {
+  "rid": 7,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Extension request is submitted by the Member State authorised by the VAT derogation decision."
+ },
+ {
+  "rid": 8,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Exemption certificate is completed by the eligible body/individual applying for the exemption."
+ },
+ {
+  "rid": 9,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Translation must be attached by the eligible body/individual, as stated."
+ },
+ {
+  "rid": 10,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Purchase order reference in box 5.B is filled in by the eligible body/individual drawing up the certificate."
+ },
+ {
+  "rid": 11,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Stamping is done by the competent authority of the host Member State named in the clause."
+ },
+ {
+  "rid": 12,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Hungary's derogation from Art. 26(1) VAT Directive is an authorisation granted to the state, not a burden."
+ },
+ {
+  "rid": 13,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Extension request is submitted by Hungary, the addressee Member State."
+ },
+ {
+  "rid": 14,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Commission guideline statement on the aims of media literacy; no actor is bound."
+ },
+ {
+  "rid": 15,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "ERGA, an EU-level regulators' group under the AVMSD, must exchange best practices (quoted duty)."
+ },
+ {
+  "rid": 16,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Hungary must notify the Commission."
+ },
+ {
+  "rid": 17,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Duplex mode is part of the band arrangement national authorities apply when designating and assigning the band."
+ },
+ {
+  "rid": 18,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Block sizes are set when national authorities assign spectrum blocks."
+ },
+ {
+  "rid": 19,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Alignment of assigned blocks is a condition on assignment by national authorities."
+ },
+ {
+  "rid": 20,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Transmission conditions bind the operators of base and terminal stations."
+ },
+ {
+  "rid": 21,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "Coordination 'may be required' at national/cross-border level; no definite duty."
+ },
+ {
+  "rid": 22,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Activating transmit power control binds network/terminal operators."
+ },
+ {
+  "rid": 23,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "TPC capability is an equipment design requirement on manufacturers of ITS equipment."
+ },
+ {
+  "rid": 24,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Spectrum access/mitigation techniques must be used by ITS equipment makers/operators under RED."
+ },
+ {
+  "rid": 25,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Equivalent performance must be ensured by ITS equipment makers/operators."
+ },
+ {
+  "rid": 26,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Channel use rule binds operators of road ITS applications."
+ },
+ {
+  "rid": 27,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Channel use rule binds operators of urban rail ITS applications."
+ },
+ {
+  "rid": 28,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Channel bandwidth limit binds operators of urban rail ITS applications."
+ },
+ {
+  "rid": 29,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Certificate is drawn up by the eligible body/individual claiming the exemption."
+ },
+ {
+  "rid": 30,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Certificate is drawn up by the eligible body/individual claiming the exemption."
+ },
+ {
+  "rid": 31,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The President of the Office (OHIM/EUIPO) must lay down charges."
+ },
+ {
+  "rid": 32,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The President of the Office must lay down charges."
+ },
+ {
+  "rid": 33,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Charges are laid down by the President of the Office (para. 1-2)."
+ },
+ {
+  "rid": 34,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Publication in the Office's Official Journal is done by the Office/President."
+ },
+ {
+  "rid": 35,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Sets the date fees fall due; a legal-effect rule, not a duty on an actor."
+ },
+ {
+  "rid": 36,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Non-refund of insignificant overpayments is a rule for the Office handling payments."
+ },
+ {
+  "rid": 37,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Review of the spectrum decision is carried out by the Commission."
+ },
+ {
+  "rid": 38,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Spectrum access/mitigation techniques must be used by ITS equipment makers/operators under RED."
+ },
+ {
+  "rid": 39,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Equivalent performance must be ensured by ITS equipment makers/operators."
+ },
+ {
+  "rid": 40,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Channel use rule binds operators of road ITS applications."
+ },
+ {
+  "rid": 41,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Channel use rule binds operators of urban rail ITS applications."
+ },
+ {
+  "rid": 42,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Channel bandwidth limit binds operators of urban rail ITS applications."
+ },
+ {
+  "rid": 43,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Scope limit on the VAT derogation measure applied by the authorised Member State."
+ },
+ {
+  "rid": 44,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Extension request is submitted by the Member State to which the decision is addressed."
+ },
+ {
+  "rid": 45,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The United Kingdom must adjust the fixed amounts annually."
+ },
+ {
+  "rid": 46,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Constrains the UK not to make the authorised scheme mandatory for taxable persons."
+ },
+ {
+  "rid": 47,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Extension request is submitted by the Member State authorised by the decision."
+ },
+ {
+  "rid": 48,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Standard publication clause; a formal provision on the act itself rather than a counted duty."
+ },
+ {
+  "rid": 49,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Publication of the entry-into-force date in the OJ falls to the Commission."
+ },
+ {
+  "rid": 50,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Compliance with the technical parameters binds the operators of the terrestrial systems in the band."
+ },
+ {
+  "rid": 51,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Transitional legal effect of repealed provisions; no actor bound."
+ },
+ {
+  "rid": 52,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Band frequency arrangement applied by national authorities when designating/assigning the 900 MHz band."
+ },
+ {
+  "rid": 53,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Duplex spacing is part of the band arrangement applied by national authorities."
+ },
+ {
+  "rid": 54,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assigned block size is set by national authorities assigning spectrum."
+ },
+ {
+  "rid": 55,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Transmission conditions bind operators of base and terminal stations."
+ },
+ {
+  "rid": 56,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Band frequency arrangement applied by national authorities for the 1800 MHz band."
+ },
+ {
+  "rid": 57,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Duplex spacing is part of the band arrangement applied by national authorities."
+ },
+ {
+  "rid": 58,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Frequency separation must be kept by operators of neighbouring systems absent coordination."
+ },
+ {
+  "rid": 59,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Separation between adjacent systems is applied by network operators."
+ },
+ {
+  "rid": 60,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Operating limit binds operators of the narrowband system."
+ },
+ {
+  "rid": 61,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Prohibition on AAS base stations binds network operators."
+ },
+ {
+  "rid": 62,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Mitigation techniques must be applied by equipment makers/operators in line with RED."
+ },
+ {
+  "rid": 63,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Level of protection is granted by national spectrum authorities."
+ },
+ {
+  "rid": 64,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Prohibition on AAS terminal stations binds operators/equipment users."
+ },
+ {
+  "rid": 65,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Coordination or mitigation must be applied by the railway mobile radio operator seeking higher power."
+ },
+ {
+  "rid": 66,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Explanatory statement on how the block-edge mask was developed."
+ },
+ {
+  "rid": 67,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Coordination or mitigation must be applied by the RMR operator seeking more carriers/power."
+ },
+ {
+  "rid": 68,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Prohibition on AAS base stations binds RMR network operators."
+ },
+ {
+  "rid": 69,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Resource block placement binds RMR network operators."
+ },
+ {
+  "rid": 70,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Table title stating the requirement is not mandatory."
+ },
+ {
+  "rid": 71,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Table title; the substantive limits are in the table itself."
+ },
+ {
+  "rid": 72,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Table title; the substantive limits are in the table itself."
+ },
+ {
+  "rid": 73,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Activating uplink power control binds operators of RMR cab-radios."
+ },
+ {
+  "rid": 74,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Equivalent receiver performance must be ensured by equipment makers/operators."
+ },
+ {
+  "rid": 75,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of reference sensitivity."
+ },
+ {
+  "rid": 76,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Prohibition on AAS base stations binds RMR network operators."
+ },
+ {
+  "rid": 77,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Table title; the substantive limits are in the table itself."
+ },
+ {
+  "rid": 78,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assigned block sizes are set by national authorities assigning the band."
+ },
+ {
+  "rid": 79,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Alignment of assigned blocks is a condition on national assignment."
+ },
+ {
+  "rid": 80,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Making contiguous spectrum available is a task of national authorities organising the band."
+ },
+ {
+  "rid": 81,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Transmission conditions bind operators of base and terminal stations."
+ },
+ {
+  "rid": 82,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "TPC in the transmitter is a device design requirement on manufacturers."
+ },
+ {
+  "rid": 83,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Fixed installation of the transmitter binds whoever installs/operates the device."
+ },
+ {
+  "rid": 84,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Peak power limit is a device emission requirement on manufacturers."
+ },
+ {
+  "rid": 85,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Automatic switch-off is a device design requirement on manufacturers."
+ },
+ {
+  "rid": 86,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Radiated power limit is a device design requirement on manufacturers."
+ },
+ {
+  "rid": 87,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Exterior emission limit is a device requirement on manufacturers."
+ },
+ {
+  "rid": 88,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Power density requirement for non-fixed installations binds device makers/operators."
+ },
+ {
+  "rid": 89,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Power density limit for non-fixed installations binds device makers/operators."
+ },
+ {
+  "rid": 90,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Power density limit for non-fixed installations binds device makers/operators."
+ },
+ {
+  "rid": 91,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Power density limit to protect RAS binds device makers/operators."
+ },
+ {
+  "rid": 92,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Romania must notify its implementing measures to the Commission."
+ },
+ {
+  "rid": 93,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Forms are used by Member States' competent authorities exchanging information under DAC."
+ },
+ {
+  "rid": 94,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Forms are used by Member States' competent authorities exchanging information under DAC."
+ },
+ {
+  "rid": 95,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Forms are used by Member States' competent authorities exchanging information under DAC."
+ },
+ {
+  "rid": 96,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Forms are used by Member States' competent authorities exchanging information under DAC."
+ },
+ {
+  "rid": 97,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The communicating competent authority must provide the cover letter, as stated."
+ },
+ {
+  "rid": 98,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Extension request is submitted by the Member State authorised by the decision."
+ },
+ {
+  "rid": 99,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Accompanying report is drawn up by the Member State requesting the extension."
+ },
+ {
+  "rid": 100,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "France must notify its implementing measures to the Commission."
+ },
+ {
+  "rid": 101,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "France must submit the extension request and report."
+ },
+ {
+  "rid": 102,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The report is drawn up by France (previous sentence)."
+ },
+ {
+  "rid": 103,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Review of the spectrum decision is carried out by the Commission."
+ },
+ {
+  "rid": 104,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Review of the limit is carried out by the Commission."
+ },
+ {
+  "rid": 105,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Spectrum access/mitigation techniques must be used by WAS/RLAN equipment makers under RED."
+ },
+ {
+  "rid": 106,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Equivalent performance must be ensured by WAS/RLAN equipment makers."
+ },
+ {
+  "rid": 107,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Equivalence determination by the Commission; a legal effect, not a duty."
+ },
+ {
+  "rid": 108,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Band frequency arrangement applied by national authorities designating the 2 GHz band."
+ },
+ {
+  "rid": 109,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Duplex spacing is part of the band arrangement applied by national authorities."
+ },
+ {
+  "rid": 110,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assigned block size is set by national authorities assigning spectrum."
+ },
+ {
+  "rid": 111,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Alignment of assigned blocks is a condition on national assignment."
+ },
+ {
+  "rid": 112,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Alignment of assigned blocks is a condition on national assignment."
+ },
+ {
+  "rid": 113,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Transmission conditions bind operators of base and terminal stations."
+ },
+ {
+  "rid": 114,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Estonia's derogation from Art. 26(1) VAT Directive is an authorisation granted to the state."
+ },
+ {
+  "rid": 115,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Extension request is submitted by Estonia, the addressee Member State."
+ },
+ {
+  "rid": 116,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "TPC mitigation is a design/operating requirement on WAS/RLAN equipment makers."
+ },
+ {
+  "rid": 117,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Reduced power limit without TPC binds WAS/RLAN equipment makers/operators."
+ },
+ {
+  "rid": 118,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "DFS behaviour is a design requirement on WAS/RLAN equipment makers."
+ },
+ {
+  "rid": 119,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "DFS behaviour is a design requirement on WAS/RLAN equipment makers."
+ },
+ {
+  "rid": 120,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "DFS implementation binds WAS/RLAN equipment makers."
+ },
+ {
+  "rid": 121,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Reduced power limit without TPC binds WAS/RLAN equipment makers/operators."
+ },
+ {
+  "rid": 122,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "DFS implementation binds WAS/RLAN equipment makers."
+ },
+ {
+  "rid": 123,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The decision on replacing the limit is taken by the Commission on the basis of its CEPT mandate."
+ },
+ {
+  "rid": 124,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Commission guidance restating the legal conditions a concentration must meet for an Art. 22 referral; no duty on an actor."
+ },
+ {
+  "rid": 125,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "VAT derogation deeming border bridges part of Polish territory; a legal effect."
+ },
+ {
+  "rid": 126,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "VAT derogation deeming border bridges part of Ukrainian territory; a legal effect."
+ },
+ {
+  "rid": 127,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Italy must notify its national measures to the Commission."
+ },
+ {
+  "rid": 128,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Italy must submit a report to the Commission."
+ },
+ {
+  "rid": 129,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Latvia's derogation from Art. 26(1) VAT Directive is an authorisation granted to the state."
+ },
+ {
+  "rid": 130,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Defines the scope of the expenditure covered by the authorisation."
+ },
+ {
+  "rid": 131,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Extension request is submitted by Latvia, the addressee Member State."
+ },
+ {
+  "rid": 132,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Accompanying report is drawn up by Latvia requesting the extension."
+ },
+ {
+  "rid": 133,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Poland 'is authorised' to introduce the invoice statement; a permission to the state."
+ },
+ {
+  "rid": 134,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Poland must notify its national measure to the Commission."
+ },
+ {
+  "rid": 135,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Poland must submit a report to the Commission."
+ },
+ {
+  "rid": 136,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The United Kingdom must adjust the fixed amounts annually."
+ },
+ {
+  "rid": 137,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Extension request is submitted by the Member State authorised by the decision."
+ },
+ {
+  "rid": 138,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Limits the legal effect (presumption of conformity) of the cited standard; no duty on an actor."
+ },
+ {
+  "rid": 139,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The design representation is filed by the applicant for EU design registration."
+ },
+ {
+  "rid": 140,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The representation is produced and filed by the applicant."
+ },
+ {
+  "rid": 141,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The representation is produced and filed by the applicant."
+ },
+ {
+  "rid": 142,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Determines the subject matter of the registration; a legal effect."
+ },
+ {
+  "rid": 143,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The representation is produced and filed by the applicant."
+ },
+ {
+  "rid": 144,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Visual disclaimers are applied by the applicant in the filed representation."
+ },
+ {
+  "rid": 145,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The priority document copy is filed by the applicant claiming priority."
+ },
+ {
+  "rid": 146,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "The exhibition certificate is issued by the authority responsible for industrial property protection at the exhibition."
+ },
+ {
+  "rid": 147,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The certificate of registration is issued by the Office (EUIPO)."
+ },
+ {
+  "rid": 148,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The certificate of registration is issued by the Office (EUIPO)."
+ },
+ {
+  "rid": 149,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The request for alteration is filed by the holder of the EU design registration."
+ },
+ {
+  "rid": 150,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The request for change of name or address is filed by the design holder."
+ },
+ {
+  "rid": 151,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The application to register a transfer is filed by the holder or transferee."
+ },
+ {
+  "rid": 152,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Lists what counts as sufficient evidence of transfer; an evidentiary rule, not a duty."
+ },
+ {
+  "rid": 153,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The declaration of surrender is filed by the design holder."
+ },
+ {
+  "rid": 154,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Deems the Bulletin date to be the date of publication; a legal effect."
+ },
+ {
+  "rid": 155,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "A single member of an EUIPO Invalidity Division must take the listed decisions."
+ },
+ {
+  "rid": 156,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Merger notifications are submitted by the notifying undertakings."
+ },
+ {
+  "rid": 157,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Correct and complete information is owed by the notifying undertakings."
+ },
+ {
+  "rid": 158,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Reasoned submissions are made by the parties seeking a pre-notification referral."
+ },
+ {
+  "rid": 159,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Rule on computing the start of time periods."
+ },
+ {
+  "rid": 160,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Rule on when a suspension of the time limit starts."
+ },
+ {
+  "rid": 161,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Defines when the Commission's time limits count as met; a legal-effect rule."
+ },
+ {
+  "rid": 162,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission's Hearing Officer conducts oral hearings."
+ },
+ {
+  "rid": 163,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The recording is made available by the Commission/Hearing Officer running the hearing."
+ },
+ {
+  "rid": 164,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission/Hearing Officer must respect business secrets when conducting the hearing."
+ },
+ {
+  "rid": 165,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Restricts use of file documents by the parties who obtained access."
+ },
+ {
+  "rid": 166,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Automatic extension of the commitments period; a legal effect."
+ },
+ {
+  "rid": 167,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commitments are submitted by the undertakings concerned."
+ },
+ {
+  "rid": 168,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The electronic copy is submitted by the undertakings offering commitments."
+ },
+ {
+  "rid": 169,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Estonia's derogation from Art. 26(1) VAT Directive is an authorisation granted to the state."
+ },
+ {
+  "rid": 170,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Defines the scope of the expenditure covered by the authorisation."
+ },
+ {
+  "rid": 171,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Extension request is submitted by Estonia, the addressee Member State."
+ },
+ {
+  "rid": 172,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Computerised format is used by Member States' competent authorities for DAC exchanges."
+ },
+ {
+  "rid": 173,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Extension request is submitted by the Member State authorised by the decision."
+ },
+ {
+  "rid": 174,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Accompanying report is drawn up by the requesting Member State."
+ },
+ {
+  "rid": 175,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Restates IPRED Art. 3 requirements on the enforcement measures Member States must provide."
+ },
+ {
+  "rid": 176,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "Commission's explanatory reasoning about requirements on Member States' measures; no separate duty."
+ },
+ {
+  "rid": 177,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "Commission's explanatory reasoning about requirements on Member States' measures; no separate duty."
+ },
+ {
+  "rid": 178,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "Commission's explanatory reasoning about requirements on Member States' measures; no separate duty."
+ },
+ {
+  "rid": 179,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Restates IPRED Art. 3(2): Member States' measures must be applied with safeguards against abuse."
+ },
+ {
+  "rid": 180,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Restates IPRED Art. 3 requirements on Member States' measures and remedies."
+ },
+ {
+  "rid": 181,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Restates IPRED Art. 3 requirements on Member States' measures and remedies."
+ },
+ {
+  "rid": 182,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Interpretive guidance on how Member States' measures must prevent abuse."
+ },
+ {
+  "rid": 183,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Interpretive guidance on how Member States' measures must prevent abuse."
+ },
+ {
+  "rid": 184,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Safeguards on ex parte injunctions apply to national judicial authorities granting them."
+ },
+ {
+  "rid": 185,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The competent national judicial authority must assess applications proportionately."
+ },
+ {
+  "rid": 186,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Limit on what national courts may require of the injunction addressee."
+ },
+ {
+  "rid": 187,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Limit on what national courts may require of the injunction addressee."
+ },
+ {
+  "rid": 188,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Precision requirement on measures imposed by national courts."
+ },
+ {
+  "rid": 189,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Reports a CJEU clarification that no particular procedure is required; no duty."
+ },
+ {
+  "rid": 190,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Duplex mode is part of the band arrangement national authorities apply when designating the band."
+ },
+ {
+  "rid": 191,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assigned block size is set by national authorities assigning spectrum."
+ },
+ {
+  "rid": 192,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Additional national measures 'may be required'; no definite duty."
+ },
+ {
+  "rid": 193,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Transmission conditions bind operators of base and terminal stations."
+ },
+ {
+  "rid": 194,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Beam pointing condition binds operators deploying AAS outdoor base stations."
+ },
+ {
+  "rid": 195,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Amending instruction replacing words in another decision's Annex."
+ },
+ {
+  "rid": 196,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Poland 'is authorised' to dispense with e-invoice acceptance; a permission to the state."
+ },
+ {
+  "rid": 197,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Poland must notify its national measures to the Commission."
+ },
+ {
+  "rid": 198,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Poland must submit the extension request and report."
+ },
+ {
+  "rid": 199,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The report is drawn up by Poland (previous sentence)."
+ },
+ {
+  "rid": 200,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "DFS implementation binds WAS/RLAN equipment makers."
+ },
+ {
+  "rid": 201,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "DFS implementation binds WAS/RLAN equipment makers."
+ },
+ {
+  "rid": 202,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Germany must notify its national measures to the Commission."
+ },
+ {
+  "rid": 203,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Italy must notify its national measures to the Commission."
+ },
+ {
+  "rid": 204,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Italy must submit the extension request and report."
+ },
+ {
+  "rid": 205,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Turnover information in the merger notification form is provided by the notifying parties."
+ },
+ {
+  "rid": 206,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Market definitions in the notification are set out by the notifying parties."
+ },
+ {
+  "rid": 207,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Extension request is submitted by the Member State authorised by the decision."
+ },
+ {
+  "rid": 208,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Accompanying report is drawn up by the requesting Member State."
+ },
+ {
+  "rid": 209,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Part of the definition of restaurant and catering services."
+ },
+ {
+  "rid": 210,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Lead-in to the list of electronically supplied services; scope definition."
+ },
+ {
+  "rid": 211,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Lead-in to the exclusions from electronically supplied services; scope definition."
+ },
+ {
+  "rid": 212,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Classifies assembly of a customer's parts as a supply of services; a legal qualification."
+ },
+ {
+  "rid": 213,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Classifies the sale of an option as a supply of services; a legal qualification."
+ },
+ {
+  "rid": 214,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "States that the option supply is distinct from underlying transactions; a legal qualification."
+ },
+ {
+  "rid": 215,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of 'fixed establishment' for Art. 44 VAT Directive."
+ },
+ {
+  "rid": 216,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of 'fixed establishment' for the listed Articles."
+ },
+ {
+  "rid": 217,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Interpretive rule on what does not establish a fixed establishment."
+ },
+ {
+  "rid": 218,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Place-of-supply rule for distance sales; a legal effect."
+ },
+ {
+  "rid": 219,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Place-of-supply rule for distance sales; a legal effect."
+ },
+ {
+  "rid": 220,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Rule on how the intra-Community section of passenger transport is determined."
+ },
+ {
+  "rid": 221,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Place-of-supply rule: the supply is taxable in the country of establishment."
+ },
+ {
+  "rid": 222,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Place-of-supply tie-break rule; determines taxing location rather than binding an actor."
+ },
+ {
+  "rid": 223,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Place-of-supply tie-break rule; determines taxing location rather than binding an actor."
+ },
+ {
+  "rid": 224,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Rule on the relevant time for place-of-supply circumstances."
+ },
+ {
+  "rid": 225,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope classification of funeral services."
+ },
+ {
+  "rid": 226,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope classification of translation services."
+ },
+ {
+  "rid": 227,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of admission services under Art. 53."
+ },
+ {
+  "rid": 228,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope exclusion from admission services."
+ },
+ {
+  "rid": 229,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of ancillary services under Art. 53."
+ },
+ {
+  "rid": 230,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope of ancillary services."
+ },
+ {
+  "rid": 231,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope of ancillary services."
+ },
+ {
+  "rid": 232,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Place-of-supply rule for assembly services."
+ },
+ {
+  "rid": 233,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Rule on how the intra-Community section of passenger transport is determined."
+ },
+ {
+  "rid": 234,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope classification of on-board restaurant services."
+ },
+ {
+  "rid": 235,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Lead-in to the list of means of transport; scope definition."
+ },
+ {
+  "rid": 236,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Evidentiary presumption based on the hire contract."
+ },
+ {
+  "rid": 237,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Rule on computing the duration of hire; a legal effect."
+ },
+ {
+  "rid": 238,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of consecutive contracts."
+ },
+ {
+  "rid": 239,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Rule on not reassessing prior hire contracts; a legal effect."
+ },
+ {
+  "rid": 240,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of the place where a means of transport is put at disposal."
+ },
+ {
+  "rid": 241,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope definition of vocational training services."
+ },
+ {
+  "rid": 242,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Interpretive rule that course duration is irrelevant."
+ },
+ {
+  "rid": 243,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Computation rule for the travellers' luggage threshold."
+ },
+ {
+  "rid": 244,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "States the evidentiary function of the exemption certificate."
+ },
+ {
+  "rid": 245,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of weights accepted by bullion markets."
+ },
+ {
+  "rid": 246,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Defines the reference date for price and open market value."
+ },
+ {
+  "rid": 247,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Fallback date to be used by Member States establishing the gold coin list under Art. 345."
+ },
+ {
+  "rid": 248,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition that each calendar quarter is a separate return period."
+ },
+ {
+  "rid": 249,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Non-rounding binds the non-established taxable person filing returns under the special scheme."
+ },
+ {
+  "rid": 250,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Exact reporting and remittance binds the taxable person under the special scheme."
+ },
+ {
+  "rid": 251,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Payments by the taxable person under the special scheme must be tied to the specific return."
+ },
+ {
+  "rid": 252,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Limits how the taxable person under the special scheme may amend amounts paid."
+ },
+ {
+  "rid": 253,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Explanatory statement in Commission UCPD guidance on the conflict between directives."
+ },
+ {
+  "rid": 254,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Restates the MCD per se prohibition of tying practices binding creditors."
+ },
+ {
+  "rid": 255,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes how terms 'may be regarded' as unfair; no duty."
+ },
+ {
+  "rid": 256,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Restates AVMSD requirements on media service providers and their commercial communications."
+ },
+ {
+  "rid": 257,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Quoted Rome II conflict-of-laws rule; a legal effect."
+ },
+ {
+  "rid": 258,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Quoted Rome II rule that the applicable law cannot be contracted out of; a legal effect."
+ },
+ {
+  "rid": 259,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Explains the test for unfairness under the UCPD; no duty."
+ },
+ {
+  "rid": 260,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Descriptive example about vulnerable consumers; no duty."
+ },
+ {
+  "rid": 261,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Statement of the general objective of food law; a programme objective."
+ },
+ {
+  "rid": 262,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Illustrative example of how traders 'could' breach the information requirement; not itself a duty."
+ },
+ {
+  "rid": 263,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Traders must state their legal name in the terms and conditions."
+ },
+ {
+  "rid": 264,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Traders' final price must include unavoidable taxes and charges (Art. 7(4)(c) UCPD)."
+ },
+ {
+  "rid": 265,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Traders must mention the right of withdrawal in invitations to purchase (Art. 7(4)(e) UCPD)."
+ }
+]
