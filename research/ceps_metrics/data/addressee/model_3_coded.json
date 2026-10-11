@@ -1,0 +1,1674 @@
+[
+ {
+  "rid": 7302,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Direct management means the Commission implements the actions (Financial Regulation Art. 62)."
+ },
+ {
+  "rid": 7304,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Direct management means the Commission implements the actions (Financial Regulation Art. 62)."
+ },
+ {
+  "rid": 7305,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Indicative budget distribution; a financial allocation, not a duty on any actor."
+ },
+ {
+  "rid": 7308,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Opens the Programme to third countries; a status/permission, not a restriction."
+ },
+ {
+  "rid": 7309,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Legal effect: third-country contributions constitute assigned revenue."
+ },
+ {
+  "rid": 7326,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission implements the Programme in direct management or entrusts bodies under indirect management."
+ },
+ {
+  "rid": 7341,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Work programmes are adopted by the Commission, which must set out the eligibility criteria."
+ },
+ {
+  "rid": 7345,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Grants are awarded and managed by the Commission (or funding bodies) under Title VIII FR."
+ },
+ {
+  "rid": 7347,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission sets award criteria in the work programmes and calls for proposals."
+ },
+ {
+  "rid": 7348,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission sets award criteria in work programmes and calls (continuation of para 1)."
+ },
+ {
+  "rid": 7350,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Blending operations under the Programme are carried out by the Commission/implementing bodies per InvestEU and FR."
+ },
+ {
+  "rid": 7351,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Funding cap applied by the Commission/granting authority when awarding cumulative funding."
+ },
+ {
+  "rid": 7352,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Conditions the applicants' actions must meet to receive a Seal of Excellence."
+ },
+ {
+  "rid": 7377,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Audits of Programme expenditure are carried out by the Commission and its auditors."
+ },
+ {
+  "rid": 7378,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission's audit strategy sample must be complemented by a risk-based selection."
+ },
+ {
+  "rid": 7379,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission auditors must audit cumulatively funded actions only once."
+ },
+ {
+  "rid": 7392,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission implements Programme actions in accordance with the Annex I technical description."
+ },
+ {
+  "rid": 7393,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme objective (implement HPC strategy) describing what the Commission-run programme supports."
+ },
+ {
+  "rid": 7394,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Lead-in listing the content of Programme actions; programme scope, not a duty."
+ },
+ {
+  "rid": 7395,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme objective on AI capacities; not a restriction on any actor."
+ },
+ {
+  "rid": 7397,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Lead-in listing the content of Programme actions; programme scope, not a duty."
+ },
+ {
+  "rid": 7398,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme objective on cybersecurity capacities; not a restriction."
+ },
+ {
+  "rid": 7399,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Lead-in listing the content of Programme actions; programme scope, not a duty."
+ },
+ {
+  "rid": 7400,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme objective on advanced digital skills; not a restriction."
+ },
+ {
+  "rid": 7401,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Lead-in listing the content of Programme actions; programme scope, not a duty."
+ },
+ {
+  "rid": 7403,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "European Digital Innovation Hubs (selected entities, Art. 16) must act as facilitators for training."
+ },
+ {
+  "rid": 7404,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Legal status: such projects constitute projects of common interest."
+ },
+ {
+  "rid": 7405,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Lead-in listing the content of Programme actions; programme scope, not a duty."
+ },
+ {
+  "rid": 7408,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Synergy objectives to be ensured by the Commission services running the Programme and Horizon Europe."
+ },
+ {
+  "rid": 7409,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Synergy objectives to be ensured by the Commission and shared-management authorities; programme coordination."
+ },
+ {
+  "rid": 7410,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Synergy objectives with CEF to be ensured by the Commission services."
+ },
+ {
+  "rid": 7411,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Synergy objectives with InvestEU to be ensured by the Commission services."
+ },
+ {
+  "rid": 7415,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Subject-matter provision establishing the InvestEU Fund and its EU guarantee."
+ },
+ {
+  "rid": 7416,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Provisioning rate of the EU guarantee; a budgetary parameter."
+ },
+ {
+  "rid": 7417,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Budgetary accounting rule on provisioning; no actor's conduct."
+ },
+ {
+  "rid": 7418,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Legal effect: cash contributions constitute external assigned revenue."
+ },
+ {
+  "rid": 7419,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Legal effect: third-country contributions increase the EU guarantee."
+ },
+ {
+  "rid": 7420,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Availability date of amounts; a budgetary status rule."
+ },
+ {
+  "rid": 7423,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission implements the EU guarantee in indirect management with the listed bodies."
+ },
+ {
+  "rid": 7424,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission implements other Union funding in direct/indirect management per FR."
+ },
+ {
+  "rid": 7426,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Blending operations proposed by implementing partners must be consistent with the other programme's rules."
+ },
+ {
+  "rid": 7427,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Support is decided by the Commission under the relevant programme's rules and implemented under FR."
+ },
+ {
+  "rid": 7428,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Support is decided by the Commission under the relevant programme's rules and implemented under FR."
+ },
+ {
+  "rid": 7429,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Reporting on blending operations is done by implementing partners (Art. 28 reporting)."
+ },
+ {
+  "rid": 7434,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission establishes the just transition scheme across InvestEU policy windows."
+ },
+ {
+  "rid": 7435,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Describes the content/scope of the just transition scheme."
+ },
+ {
+  "rid": 7443,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Project promoters requesting financing must provide information (explicit subject)."
+ },
+ {
+  "rid": 7444,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Exemption of small projects from sustainability proofing."
+ },
+ {
+  "rid": 7447,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partners (EIB Group, financial institutions) must provide tracking information."
+ },
+ {
+  "rid": 7452,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Describes what the compartments are meant to address; scope, not a duty."
+ },
+ {
+  "rid": 7484,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The EIB Group (Union body) must take measures to avoid conflicts of interest."
+ },
+ {
+  "rid": 7485,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The EIB Group's dedicated team must observe confidentiality rules."
+ },
+ {
+  "rid": 7486,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Mixed: EIB Group (Union body) first-named, with other implementing partners, must inform the Commission."
+ },
+ {
+  "rid": 7491,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The EIB Group must take precautions against conflicts of interest in the Advisory Hub."
+ },
+ {
+  "rid": 7492,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The EIB Group must take appropriate measures in case of conflict of interest."
+ },
+ {
+  "rid": 7493,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission grants and implements the EU guarantee under FR."
+ },
+ {
+  "rid": 7494,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission sets guarantee remuneration in guarantee agreements according to risk profile."
+ },
+ {
+  "rid": 7497,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission must grant 75 percent of the EU-compartment guarantee to the EIB Group."
+ },
+ {
+  "rid": 7498,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The EIB Group must provide a financial contribution."
+ },
+ {
+  "rid": 7499,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The EIB Group must provide its contribution in a facilitating manner."
+ },
+ {
+  "rid": 7500,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission grants the remaining guarantee share to other implementing partners."
+ },
+ {
+  "rid": 7502,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Best efforts on sectoral/geographic diversification fall on the Commission running the InvestEU Fund."
+ },
+ {
+  "rid": 7503,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Diversification efforts by the Commission must include incentives for smaller promotional banks."
+ },
+ {
+  "rid": 7506,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Implementing partner and final recipient must sign contracts within one year."
+ },
+ {
+  "rid": 7520,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission concludes guarantee agreements and must include this term."
+ },
+ {
+  "rid": 7521,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission concludes guarantee agreements and must include this deduction term."
+ },
+ {
+  "rid": 7522,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission concludes guarantee agreements and must include this deduction term."
+ },
+ {
+  "rid": 7523,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Budget mechanism: the Commission draws the outstanding amount from the provisioning."
+ },
+ {
+  "rid": 7524,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Condition on legal effect: guarantee granted only once the agreement enters into force."
+ },
+ {
+  "rid": 7531,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The implementing partner must retain risk exposure."
+ },
+ {
+  "rid": 7532,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Lead-in defining what the EU guarantee covers; scope of a legal instrument."
+ },
+ {
+  "rid": 7562,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission establishes the Scoreboard (by delegated act) for the Investment Committee."
+ },
+ {
+  "rid": 7639,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "The Commission's performance reporting system must collect data; implementing partners supply it."
+ },
+ {
+  "rid": 7646,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The report is drawn up by implementing partners (previous sentences)."
+ },
+ {
+  "rid": 7647,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The implementing partners' report must include operational and financial data."
+ },
+ {
+  "rid": 7648,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The EIB Group (first-named) and other implementing partners must include barrier information in their report."
+ },
+ {
+  "rid": 7649,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The implementing partners' reports must contain FR Art. 155 information."
+ },
+ {
+  "rid": 7650,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The implementing partners' reports must contain FR Art. 155 information."
+ },
+ {
+  "rid": 7662,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing and advisory partners must acknowledge and publicise Union funding."
+ },
+ {
+  "rid": 7663,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Saving clause subjecting publicity duties to confidentiality obligations."
+ },
+ {
+  "rid": 7664,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing and advisory partners must inform final recipients of InvestEU support."
+ },
+ {
+  "rid": 7675,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission uses the NGEU amount for the listed purposes."
+ },
+ {
+  "rid": 7676,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Legal effect: amount constitutes external assigned revenue."
+ },
+ {
+  "rid": 7677,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Climate mainstreaming target for the CEF budget; programme objective."
+ },
+ {
+  "rid": 7678,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Budget distribution; financial allocation."
+ },
+ {
+  "rid": 7681,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission implements the transferred Cohesion Fund amount under the CEF rules."
+ },
+ {
+  "rid": 7682,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission makes 30 percent of transferred amounts available via competitive calls."
+ },
+ {
+  "rid": 7683,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission's project selection must respect national Cohesion Fund allocations."
+ },
+ {
+  "rid": 7684,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission makes uncommitted resources available to eligible Member States."
+ },
+ {
+  "rid": 7694,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Opens the CEF to third countries; status/permission."
+ },
+ {
+  "rid": 7695,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Legal effect: contributions constitute assigned revenues."
+ },
+ {
+  "rid": 7697,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission implements the CEF in direct or indirect management."
+ },
+ {
+  "rid": 7711,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Eligibility criteria that applicants' digital PCI projects must meet."
+ },
+ {
+  "rid": 7712,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission determines funding priority in selecting projects."
+ },
+ {
+  "rid": 7713,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Prioritisation criterion applied by the Commission in project selection (lead-in)."
+ },
+ {
+  "rid": 7714,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Prioritisation criterion applied by the Commission in project selection (lead-in)."
+ },
+ {
+  "rid": 7715,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Prioritisation criterion applied by the Commission in project selection (lead-in)."
+ },
+ {
+  "rid": 7724,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Additional eligibility rules that applicants' dual-use actions must meet."
+ },
+ {
+  "rid": 7726,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Eligibility rule on applicants' actions (Member States or entities applying)."
+ },
+ {
+  "rid": 7727,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Budget restriction applied by the Commission when funding dual-use actions."
+ },
+ {
+  "rid": 7730,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "CEF grants are awarded and managed by the Commission (or executive agency) under Title VIII FR."
+ },
+ {
+  "rid": 7731,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission lays down award criteria in its work programmes and calls (Art. 20)."
+ },
+ {
+  "rid": 7732,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Proposal assessment is carried out by the Commission (with evaluators) in the award procedure."
+ },
+ {
+  "rid": 7733,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission's assessment of proposals must ensure Galileo/EGNOS/Copernicus compatibility."
+ },
+ {
+  "rid": 7734,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission's assessment of transport proposals must ensure consistency with corridor work plans."
+ },
+ {
+  "rid": 7735,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission's assessment must consider disruption risks to freight and passenger flows."
+ },
+ {
+  "rid": 7736,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission's award criteria must take into account Art. 7(4) conditions."
+ },
+ {
+  "rid": 7737,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission's award criteria in work programmes and calls must reflect Art. 8(4)."
+ },
+ {
+  "rid": 7738,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Co-financing cap applied by the Commission when awarding Union support for studies."
+ },
+ {
+  "rid": 7739,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Co-financing cap applied by the Commission for Cohesion Fund-financed studies."
+ },
+ {
+  "rid": 7740,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Co-financing cap applied by the Commission for transport works."
+ },
+ {
+  "rid": 7741,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Co-financing cap applied by the Commission for transport works."
+ },
+ {
+  "rid": 7742,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Co-financing cap applied by the Commission for Cohesion Fund amounts."
+ },
+ {
+  "rid": 7743,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Co-financing cap applied by the Commission for missing cross-border rail links."
+ },
+ {
+  "rid": 7744,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Limit on when the Commission may apply increased co-financing rates."
+ },
+ {
+  "rid": 7745,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Co-financing cap applied by the Commission for energy works."
+ },
+ {
+  "rid": 7746,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Co-financing cap applied by the Commission for digital works."
+ },
+ {
+  "rid": 7747,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Rule on the co-funding rate the Commission applies to cross-sectoral actions."
+ },
+ {
+  "rid": 7749,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission, as the body deciding reduction or termination, must examine the case and hear beneficiaries."
+ },
+ {
+  "rid": 7752,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Funding cap applied by the Commission/granting authorities on cumulative funding."
+ },
+ {
+  "rid": 7753,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission awards the Seal of Excellence only to actions meeting the conditions."
+ },
+ {
+  "rid": 7755,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission implements the CEF through work programmes it adopts (FR Art. 110)."
+ },
+ {
+  "rid": 7773,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "CEF evaluations are carried out by the Commission (Art. 23)."
+ },
+ {
+  "rid": 7774,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission must carry out the interim evaluation of the CEF within the deadline."
+ },
+ {
+  "rid": 7815,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Subject-matter provision describing the Programme's components."
+ },
+ {
+  "rid": 7818,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of 'strategic R&I plan'; not a restriction."
+ },
+ {
+  "rid": 7819,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme objective (maximise Union added value); not a restriction."
+ },
+ {
+  "rid": 7820,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes the structure of the Programme."
+ },
+ {
+  "rid": 7821,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Describes the scope/focus of the defence programme; a programme-scope rule."
+ },
+ {
+  "rid": 7822,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission implements the Programme in direct management or via funding bodies."
+ },
+ {
+  "rid": 7823,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission must use grants as the main form of support."
+ },
+ {
+  "rid": 7824,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "The Commission and funding bodies use funding forms flexibly based on objectives."
+ },
+ {
+  "rid": 7825,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Programme scope: the Programme also supports direct actions (JRC); not a restriction."
+ },
+ {
+  "rid": 7830,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "FTRI calls are designed by the Commission and must have these characteristics."
+ },
+ {
+  "rid": 7831,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission's work programme must identify FTRI calls."
+ },
+ {
+  "rid": 7832,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission must deliver Programme activities primarily through open competitive calls."
+ },
+ {
+  "rid": 7834,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission implementing the programmes may not transfer amounts between them."
+ },
+ {
+  "rid": 7835,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission must avoid unnecessary duplication between the civil and defence programmes."
+ },
+ {
+  "rid": 7836,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Implementation principle: the Commission must ensure a multidisciplinary approach and SSH integration."
+ },
+ {
+  "rid": 7837,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Implementation principle: the Commission must provide for SSH integration, incl. specific calls."
+ },
+ {
+  "rid": 7838,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Implementation principle: the Commission must balance lower and higher TRLs in collaborative parts."
+ },
+ {
+  "rid": 7839,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Implementation principle: the Commission must promote cooperation with third countries."
+ },
+ {
+  "rid": 7840,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Programme objective to assist widening countries; not a restriction."
+ },
+ {
+  "rid": 7842,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission must pay attention to geographical balance in evaluation panels and expert groups it appoints."
+ },
+ {
+  "rid": 7843,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Implementation principle: the Commission must ensure equal opportunities and gender mainstreaming."
+ },
+ {
+  "rid": 7846,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "The Commission must implement the Programme in synergy with other Union programmes."
+ },
+ {
+  "rid": 7847,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme objective (contribute to 3 percent GDP R&D investment); not a restriction."
+ },
+ {
+  "rid": 7851,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Programme objective to promote co-creation with citizens; not a restriction."
+ },
+ {
+  "rid": 7852,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Implementation principle: the Commission must ensure transparency and accountability of R&I funding."
+ },
+ {
+  "rid": 7854,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission programmes missions within the Global Challenges pillar."
+ },
+ {
+  "rid": 7855,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "The Commission designs missions and must allow for competing solutions."
+ },
+ {
+  "rid": 7856,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission defines and implements missions, involving Member States and Parliament."
+ },
+ {
+  "rid": 7857,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission must identify missions in its strategic R&I plans or work programmes."
+ },
+ {
+  "rid": 7858,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission evaluates mission proposals in accordance with Art. 29."
+ },
+ {
+  "rid": 7859,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Programming cap on mission calls applied by the Commission."
+ },
+ {
+  "rid": 7862,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Design requirement for missions, which the Commission defines (Art. 8(4) lead-in)."
+ },
+ {
+  "rid": 7877,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Design criteria for European Partnerships, which the Commission sets up with partners."
+ },
+ {
+  "rid": 7878,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission must identify co-programmed/co-funded partnerships in strategic R&I plans."
+ },
+ {
+  "rid": 7880,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Indicative budget distribution; a financial allocation."
+ },
+ {
+  "rid": 7881,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Budget increase resulting from the MFF adjustment; financial allocation."
+ },
+ {
+  "rid": 7882,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Indicative distribution of the additional amount; financial allocation."
+ },
+ {
+  "rid": 7884,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Cap on administrative expenses applied by the Commission in implementing the budget."
+ },
+ {
+  "rid": 7891,
+  "formal": "eu_institutions",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "The Programme (Commission) must ensure open-access elements, delivered by beneficiaries under Art. 39(3)."
+ },
+ {
+  "rid": 7893,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission and funding bodies must promote open-science reciprocity in agreements with third countries."
+ },
+ {
+  "rid": 7894,
+  "formal": "eu_institutions",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "FAIR data management to be ensured under the Programme by the Commission, carried out by beneficiaries."
+ },
+ {
+  "rid": 7895,
+  "formal": "eu_institutions",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Long-term data preservation to be attended to under the Programme; carried out by beneficiaries."
+ },
+ {
+  "rid": 7896,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Soft promotion of other open-science practices; a programme objective."
+ },
+ {
+  "rid": 7897,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "The Commission must implement the Programme in synergy with other Union programmes."
+ },
+ {
+  "rid": 7898,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission awards Seals of Excellence for calls specified in its work programme."
+ },
+ {
+  "rid": 7899,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Funding cap applied by the Commission/funding bodies on cumulative financing."
+ },
+ {
+  "rid": 7902,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Opens the Programme to association; status/permission."
+ },
+ {
+  "rid": 7903,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Union (Commission negotiating) must associate third countries only under agreements meeting these conditions."
+ },
+ {
+  "rid": 7904,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Legal effect: contributions constitute assigned revenues."
+ },
+ {
+  "rid": 7905,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission must base the scope of association on a benefit analysis."
+ },
+ {
+  "rid": 7906,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission negotiating association agreements must provide for reciprocal participation."
+ },
+ {
+  "rid": 7907,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission must set association contribution conditions with automatic correction."
+ },
+ {
+  "rid": 7909,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission/funding bodies must not fund research prohibited in all Member States."
+ },
+ {
+  "rid": 7911,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission/funding bodies must not fund research forbidden in the Member State concerned."
+ },
+ {
+  "rid": 7912,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Beneficiaries carrying out actions must comply with ethical principles and law."
+ },
+ {
+  "rid": 7913,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Beneficiaries carrying out actions must pay attention to proportionality and fundamental rights."
+ },
+ {
+  "rid": 7917,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission screens proposals for ethics issues (next sentence names the Commission)."
+ },
+ {
+  "rid": 7919,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission must subject embryonic stem cell actions to ethics assessment."
+ },
+ {
+  "rid": 7920,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission carries out ethics screenings and assessments with ethics experts."
+ },
+ {
+  "rid": 7928,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Beneficiaries carrying out actions must comply with security rules."
+ },
+ {
+  "rid": 7930,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Precondition that the Union has concluded a security agreement with the third country."
+ },
+ {
+  "rid": 7931,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Applicants must include a security self-assessment in their proposals."
+ },
+ {
+  "rid": 7936,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission appointing external experts must require security clearance first."
+ },
+ {
+  "rid": 7937,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission appointing external experts must require security clearance first."
+ },
+ {
+  "rid": 7938,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission/funding bodies award and manage grants under Title VIII FR."
+ },
+ {
+  "rid": 7945,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission must include call content in the work programme."
+ },
+ {
+  "rid": 7947,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission's work programme must specify Seal of Excellence calls."
+ },
+ {
+  "rid": 7952,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Procurement procedures run by beneficiaries that are contracting authorities or entities (public buyers)."
+ },
+ {
+  "rid": 7953,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Procurement procedures run by beneficiaries that are contracting authorities or entities (public buyers)."
+ },
+ {
+  "rid": 7959,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission evaluates proposals on the listed award criteria."
+ },
+ {
+  "rid": 7960,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission's work programme must lay down details on award criteria."
+ },
+ {
+  "rid": 7966,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission must design the evaluation process to avoid conflicts of interest."
+ },
+ {
+  "rid": 7967,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission must guarantee transparency of evaluation criteria and scoring."
+ },
+ {
+  "rid": 7971,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Applicants must submit evaluation review requests within 30 days."
+ },
+ {
+  "rid": 7972,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Applicants must submit evaluation review requests within 30 days."
+ },
+ {
+  "rid": 7983,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission must fix the maximum rate per action in the work programme."
+ },
+ {
+  "rid": 7984,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Flat-rate content rule on indirect eligible costs; binds no identifiable actor."
+ },
+ {
+  "rid": 7988,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Describes the risks covered by the Mutual Insurance Mechanism; scope of a mechanism."
+ },
+ {
+  "rid": 7995,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission or funding body must recover amounts owed directly."
+ },
+ {
+  "rid": 8044,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission/funding bodies award and manage prizes under Title IX FR."
+ },
+ {
+  "rid": 8045,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission drafts work programmes and contest rules and must include these obligations."
+ },
+ {
+  "rid": 8046,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission carries out procurement under Title VII FR."
+ },
+ {
+  "rid": 8047,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission implements blending operations under InvestEU and Title X FR."
+ },
+ {
+  "rid": 8048,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Cross-reference applying Arts 34 to 37 to blended finance components; legal effect."
+ },
+ {
+  "rid": 8049,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission/EIC implements EIC blended finance under Art. 48."
+ }
+]
