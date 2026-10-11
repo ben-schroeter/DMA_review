@@ -1,0 +1,1674 @@
+[
+ {
+  "rid": 8050,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Evaluation and selection of EIC/Horizon blended-finance actions is run by the Commission (EIC) under the cited Horizon Europe articles."
+ },
+ {
+  "rid": 8051,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Implementation conditions for blended finance are set by the Commission in the work programme and award decisions."
+ },
+ {
+  "rid": 8053,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Describes what the Pathfinder instrument (implemented by the Commission/EIC) funds; programme description, not a restriction."
+ },
+ {
+  "rid": 8054,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Programme description of Pathfinder support scope, implemented by the Commission/EIC."
+ },
+ {
+  "rid": 8055,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Implementation mode of Pathfinder (open calls, challenges) binds the Commission/EIC that runs the calls."
+ },
+ {
+  "rid": 8056,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Duplicate of 8055: implementation mode of Pathfinder binds the Commission/EIC that runs the calls."
+ },
+ {
+  "rid": 8057,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Programme objective of Pathfinder transition activities, implemented by the Commission/EIC."
+ },
+ {
+  "rid": 8059,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Launch and content of Pathfinder transition calls are determined by the Commission in line with the work programme."
+ },
+ {
+  "rid": 8061,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme objective of the Accelerator ('shall aim'), implemented by the Commission/EIC."
+ },
+ {
+  "rid": 8064,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Lead-in describing the forms of Accelerator support; programme description of an instrument run by the Commission/EIC."
+ },
+ {
+  "rid": 8071,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The award decision is taken by the Commission/EIC; rule on the scope of that decision."
+ },
+ {
+  "rid": 8072,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Evaluation and selection of Accelerator proposals is a procedure run by the Commission/EIC (with external experts)."
+ },
+ {
+  "rid": 8073,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Award criteria apply in the evaluation procedure run by the Commission/EIC."
+ },
+ {
+  "rid": 8076,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Independent external experts (natural persons appointed by the Commission) must propose the Accelerator support."
+ },
+ {
+  "rid": 8079,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The contract for the selected action is drawn up by the Commission/EIC as funding body."
+ },
+ {
+  "rid": 8082,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Identification and selection of independent external experts is done by the Commission (Art. 49 Horizon Europe)."
+ },
+ {
+  "rid": 8084,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Expert remuneration is paid by the Commission under Art. 237 Financial Regulation."
+ },
+ {
+  "rid": 8085,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Budgetary allocation stating that expert costs are covered by the Programme; no conduct required."
+ },
+ {
+  "rid": 8096,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content of the monitoring database maintained and published by the Commission (Art. 50)."
+ },
+ {
+  "rid": 8117,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Audit rules of the Programme are set and applied by the Commission; quality requirement on those rules."
+ },
+ {
+  "rid": 8118,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The audit strategy for Horizon Europe is set and applied by the Commission."
+ },
+ {
+  "rid": 8119,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Sample selection within the Commission's audit strategy."
+ },
+ {
+  "rid": 8120,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Single-audit rule binds the Commission and Union auditors carrying out audits of jointly funded actions."
+ },
+ {
+  "rid": 8129,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Transitional provision on which law continues to govern old work plans; legal effect, not a restriction."
+ },
+ {
+  "rid": 8149,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "European Partnerships are selected, monitored and evaluated by the Commission on the listed criteria."
+ },
+ {
+  "rid": 8151,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Scope limit on use of Programme funding, applied by the Commission as implementing body."
+ },
+ {
+  "rid": 8152,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Strategic planning of Horizon Europe is carried out by the Commission."
+ },
+ {
+  "rid": 8153,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Statement of intended synergies for missions and partnerships; programme objective."
+ },
+ {
+  "rid": 8154,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Statement that deployment of results is to be facilitated by other Union programmes; programme objective."
+ },
+ {
+  "rid": 8155,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Statement that funding benefits from harmonised rules; programme objective rather than a restriction."
+ },
+ {
+  "rid": 8156,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Synergy objectives between Horizon Europe and CAP funds, implemented by the Commission; programme objective."
+ },
+ {
+  "rid": 8157,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Synergy objectives with EMFAF, implemented by the Commission; programme objective."
+ },
+ {
+  "rid": 8158,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Synergy objectives with ERDF, implemented by the Commission; programme objective."
+ },
+ {
+  "rid": 8159,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Synergy objectives with ESF+, implemented by the Commission; programme objective."
+ },
+ {
+  "rid": 8160,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Synergy objectives with EU4Health, implemented by the Commission; programme objective."
+ },
+ {
+  "rid": 8161,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Synergy objectives with CEF, implemented by the Commission; programme objective."
+ },
+ {
+  "rid": 8162,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Synergy objectives with Digital Europe, implemented by the Commission; programme objective."
+ },
+ {
+  "rid": 8164,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Synergy objectives with LIFE, implemented by the Commission; programme objective."
+ },
+ {
+  "rid": 8168,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Synergy objectives with ISF and BMVI, implemented by the Commission; programme objective."
+ },
+ {
+  "rid": 8169,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Synergy objectives with InvestEU, implemented by the Commission; programme objective."
+ },
+ {
+  "rid": 8170,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Synergy objectives with the Innovation Fund, implemented by the Commission; programme objective."
+ },
+ {
+  "rid": 8171,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Permission for the Innovation Fund plus aim of complementary links between programmes managed by the Commission; programme objective."
+ },
+ {
+  "rid": 8172,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Synergy objectives with the Just Transition Mechanism, implemented by the Commission; programme objective."
+ },
+ {
+  "rid": 8173,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Synergy objectives with Euratom programme, implemented by the Commission; programme objective."
+ },
+ {
+  "rid": 8174,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Statement that potential synergies with the EDF shall benefit research; programme objective."
+ },
+ {
+  "rid": 8175,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "Synergies with Creative Europe fostered through the Commission's strategic planning; programme objective."
+ },
+ {
+  "rid": 8176,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Synergy objectives with the RRF, implemented by the Commission; programme objective."
+ },
+ {
+  "rid": 8177,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Programme monitoring structured by impact pathways is carried out by the Commission (Art. 50)."
+ },
+ {
+  "rid": 8178,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Design of impact pathways used in the Commission's monitoring of the Programme."
+ },
+ {
+  "rid": 8179,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Indicators are compiled by the Commission as part of programme monitoring."
+ },
+ {
+  "rid": 8194,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of 'Strategic Research and Innovation Agenda'; not a restriction."
+ },
+ {
+  "rid": 8291,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Access to EuroHPC supercomputers is governed and allocated by the EuroHPC Joint Undertaking."
+ },
+ {
+  "rid": 8293,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Purpose limit on use of EuroHPC supercomputers applied by the EuroHPC Joint Undertaking when allocating access."
+ },
+ {
+  "rid": 8358,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Ex post audits of Horizon Europe expenditure are carried out by the Commission/Joint Undertaking under Art. 53 Horizon Europe."
+ },
+ {
+  "rid": 8542,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "A DLT MTF is operated by an investment firm or market operator, which bears the MTF requirements."
+ },
+ {
+  "rid": 8704,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ESMA draws up and submits the interim reports under Art. 15 DLT Pilot Regulation."
+ },
+ {
+  "rid": 8705,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Duplicate of 8704: ESMA draws up and submits the interim reports."
+ },
+ {
+  "rid": 8706,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ESMA must publish the first interim report by 24 March 2024."
+ },
+ {
+  "rid": 8870,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Competent authorities (national) must assess completeness of the authorisation application."
+ },
+ {
+  "rid": 8935,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Marketing communications for ARTs are produced by the issuer/offeror, who must ensure compliance."
+ },
+ {
+  "rid": 8936,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Content requirement on ART marketing communications, produced by the issuer/offeror."
+ },
+ {
+  "rid": 9140,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The redemption plan is drawn up by the issuer of the asset-referenced token (Art. 47)."
+ },
+ {
+  "rid": 9196,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Marketing communications for EMTs are produced by the issuer/offeror, who must ensure compliance."
+ },
+ {
+  "rid": 9297,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Time limit on suspension of the assessment period run by the national competent authority."
+ },
+ {
+  "rid": 9360,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Crypto-asset service providers must establish complaints-handling procedures."
+ },
+ {
+  "rid": 9528,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Illustrative list of behaviour deemed market manipulation; definitional elaboration of the prohibition on persons in para 1."
+ },
+ {
+  "rid": 9576,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Professional secrecy binds persons working for national competent authorities (Art. 100(2))."
+ },
+ {
+  "rid": 9703,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "A simple request for information under Art. 122 MiCA is issued by EBA; content requirement on EBA's request."
+ },
+ {
+  "rid": 9705,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "List point inheriting EBA as issuer of the simple request for information."
+ },
+ {
+  "rid": 9748,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Cap on fines imposed by EBA on issuers of significant EMTs; limits EBA's sanctioning power."
+ },
+ {
+  "rid": 9766,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The investigation officer is appointed within EBA and must comply with Art. 121."
+ },
+ {
+  "rid": 9767,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Grants the EBA investigation officer access to documents; a power, not a restriction."
+ },
+ {
+  "rid": 9769,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The EBA investigation officer must base findings only on facts the persons could comment on."
+ },
+ {
+  "rid": 9801,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Art. 140 reports are drawn up by the Commission."
+ },
+ {
+  "rid": 9939,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Financial entities under the simplified ICT risk framework must document and review it."
+ },
+ {
+  "rid": 9941,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Financial entities must submit the review report to the competent authority on request."
+ },
+ {
+  "rid": 9994,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The digital operational resilience testing programme is established by financial entities."
+ },
+ {
+  "rid": 10090,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Oversight Forum is a body of the ESAs' Joint Committee set up by DORA."
+ },
+ {
+  "rid": 10091,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Oversight Forum (ESAs' Joint Committee body) must submit benchmarks."
+ },
+ {
+  "rid": 10153,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Officials authorised by the Lead Overseer (an ESA) must produce written authorisation."
+ },
+ {
+  "rid": 10193,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Information-sharing arrangements are set up by participating financial entities, which must define their conditions."
+ },
+ {
+  "rid": 10194,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Duplicate of 10193: arrangements set up by financial entities must define participation conditions."
+ },
+ {
+  "rid": 10223,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Professional secrecy on confidential information binds the receiving authorities, mainly national competent authorities (Art. 55(2) DORA); ESAs also covered."
+ },
+ {
+  "rid": 10246,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "A trade repository must establish business continuity policy and recovery plans."
+ },
+ {
+  "rid": 10254,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "An APA (approved publication arrangement) must comply with DORA security requirements."
+ },
+ {
+  "rid": 10256,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "An ARM (approved reporting mechanism) must comply with DORA security requirements."
+ },
+ {
+  "rid": 10260,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Exclusive re-use rights are granted by public sector bodies, which must use an administrative act or contract."
+ },
+ {
+  "rid": 10261,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Duration cap on exclusive rights granted by public sector bodies."
+ },
+ {
+  "rid": 10262,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Contract duration rule binds the public sector body concluding the exclusive-right contract."
+ },
+ {
+  "rid": 10263,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The granting public sector body must publish the grant of the exclusive right online."
+ },
+ {
+  "rid": 10264,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Pre-existing exclusive agreements of public sector bodies must be terminated; first party is the public sector body (re-users also parties)."
+ },
+ {
+  "rid": 10265,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Public sector bodies competent for re-use must publish conditions and procedure."
+ },
+ {
+  "rid": 10411,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The data altruism rulebook is adopted by the Commission (delegated act, Art. 22 DGA) and prepared by it."
+ },
+ {
+  "rid": 10418,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requests for information are issued by national competent authorities for data altruism registration."
+ },
+ {
+  "rid": 10419,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Duplicate of 10418: requests issued by national competent authorities must be proportionate and reasoned."
+ },
+ {
+  "rid": 10421,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The national competent authority for data altruism registration must take measures to ensure compliance."
+ },
+ {
+  "rid": 10427,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Information exchanged in mutual assistance between national competent authorities may be used only for the requested matter."
+ },
+ {
+  "rid": 10674,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Lists Commission actions that interrupt the limitation period; legal effect, not a restriction."
+ },
+ {
+  "rid": 10688,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Purpose limitation on information collected by the Commission under the DMA."
+ },
+ {
+  "rid": 10689,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Purpose limitation on information collected by the Commission under Art. 14 DMA."
+ },
+ {
+  "rid": 10690,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Purpose limitation on information collected by the Commission under Art. 15 DMA."
+ },
+ {
+  "rid": 10722,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission adopts the implementing acts under the advisory procedure."
+ },
+ {
+  "rid": 10740,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Postponement of application dates; legal effect, not a restriction."
+ },
+ {
+  "rid": 10763,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Content requirement for an information order issued by a national judicial or administrative authority (Art. 10 DSA)."
+ },
+ {
+  "rid": 10764,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Duplicate of 10763: order content binds the issuing national authority."
+ },
+ {
+  "rid": 10809,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The statement of reasons is drawn up by providers of hosting services (Art. 17 DSA)."
+ },
+ {
+  "rid": 10811,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Quality requirement on information provided by providers of hosting services."
+ },
+ {
+  "rid": 10846,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Trusted flaggers (entities awarded status by the DSC) must publish annual reports."
+ },
+ {
+  "rid": 10847,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Content of reports produced by trusted flaggers."
+ },
+ {
+  "rid": 10848,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Content of reports produced by trusted flaggers."
+ },
+ {
+  "rid": 10849,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Trusted flaggers must send reports to the DSC and publish them."
+ },
+ {
+  "rid": 10851,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Trusted flaggers' reports must not contain personal data."
+ },
+ {
+  "rid": 10958,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The ad repository is compiled by providers of very large online platforms/search engines."
+ },
+ {
+  "rid": 11234,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Calculation rule for the turnover threshold of the block exemption; definitional, binds no actor."
+ },
+ {
+  "rid": 11235,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Continued applicability of the block exemption; exemption, not a restriction."
+ },
+ {
+  "rid": 11294,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Objective of multi-country projects run by participating Member States; programme objective."
+ },
+ {
+  "rid": 11295,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Specific goals of multi-country projects; programme objective."
+ },
+ {
+  "rid": 11296,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Participation condition on multi-country projects, which are set up by Member States."
+ },
+ {
+  "rid": 11298,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Binds the associated third country (a state); no exact class, nearest is public/state."
+ },
+ {
+  "rid": 11308,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EDICs are set up by and composed of Member States, which must locate the statutory seat accordingly."
+ },
+ {
+  "rid": 11328,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Governance requirement on an EDIC, a consortium whose members are Member States."
+ },
+ {
+  "rid": 11333,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "EDIC Statutes are drawn up by the applicant Member States."
+ },
+ {
+  "rid": 11339,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Applicable-law provision for EDICs; legal effect, not a restriction."
+ },
+ {
+  "rid": 11341,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Statutes, drafted by the Member State members of the EDIC, must set the winding-up procedure."
+ },
+ {
+  "rid": 11342,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The EDIC (consortium of Member States) must produce annual activity and financial reports."
+ },
+ {
+  "rid": 11344,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The EDIC must make its reports publicly available."
+ },
+ {
+  "rid": 11356,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Providers of political advertising services must provide services transparently."
+ },
+ {
+  "rid": 11371,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "Interpretive criteria for identifying political advertising; definitional, guides providers and authorities."
+ },
+ {
+  "rid": 11458,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving clause stating the controller is not obliged to process additional data."
+ },
+ {
+  "rid": 11471,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The legal representative of a third-country provider must act as addressee for communications."
+ },
+ {
+  "rid": 11515,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States must lay down sanction rules (duty on the state)."
+ },
+ {
+  "rid": 11541,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The access point on the e-Justice Portal is established by the Commission."
+ },
+ {
+  "rid": 11546,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Functionality requirement on the European electronic access point, run by the Commission."
+ },
+ {
+  "rid": 11547,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Form and language requirements on communications sent via the access point by natural and legal persons or their representatives."
+ },
+ {
+  "rid": 11572,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Documents in Art. 3 electronic communication between competent authorities must bear qualified seals/signatures; binds the sending authority."
+ },
+ {
+  "rid": 11574,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Non-denial of legal effect for electronic documents, addressed to courts; legal effect provision."
+ },
+ {
+  "rid": 11622,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The claimant must commence the European Small Claims Procedure using Form A."
+ },
+ {
+  "rid": 11623,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The claim form is completed by the claimant."
+ },
+ {
+  "rid": 11633,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The court of the Member State of origin brings the decision to the creditor's notice."
+ },
+ {
+  "rid": 11637,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The applicant (debtor or creditor) must use the remedy form."
+ },
+ {
+  "rid": 11638,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The national court issues the decision after hearing both parties."
+ },
+ {
+  "rid": 11639,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Cooperation between courts in insolvency proceedings (Art. 42 EIR) must follow Art. 3 of Reg. 2023/2844."
+ },
+ {
+  "rid": 11640,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "States that legal representation is not mandatory; a relief for creditors, not a restriction."
+ },
+ {
+  "rid": 11641,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Cooperation between courts in group insolvency proceedings (Art. 57 EIR) must follow Art. 3 of Reg. 2023/2844."
+ },
+ {
+  "rid": 11643,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Diplomatic/consular officers or the serving authority must inform the addressee of the right to refuse."
+ },
+ {
+  "rid": 11794,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The peer-review methodology is established by the NIS Cooperation Group with Commission and ENISA."
+ },
+ {
+  "rid": 11993,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Candidate contributing partners must submit a letter of endorsement."
+ },
+ {
+  "rid": 11994,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The letter of endorsement is drawn up by the candidate contributing partner."
+ },
+ {
+  "rid": 12010,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Each participating state must make an indicative national commitment."
+ },
+ {
+  "rid": 12012,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Each participating state must entrust evaluation to the joint undertaking."
+ },
+ {
+  "rid": 12014,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Grants participating states a veto right; a power, not a restriction."
+ },
+ {
+  "rid": 12015,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Each participating state must conclude administrative agreements with the joint undertaking."
+ },
+ {
+  "rid": 12016,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content of the administrative agreement concluded by the participating state with the joint undertaking."
+ },
+ {
+  "rid": 12017,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Each participating state must strive to synchronise payments and rules."
+ },
+ {
+  "rid": 12018,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The participating state must commit the amounts needed for payments."
+ },
+ {
+  "rid": 12083,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The states' representatives group is a body of the joint undertaking set up by the act."
+ },
+ {
+  "rid": 12088,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The states' representatives group (JU body) must review information and give opinions; consulted by the JU."
+ },
+ {
+  "rid": 12090,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Composition rule for the states' representatives group, a JU body."
+ },
+ {
+  "rid": 12091,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The rules of procedure adopted by the states' representatives group must specify the procedure."
+ },
+ {
+  "rid": 12092,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The states' representatives group (JU body) must report to the governing board."
+ },
+ {
+  "rid": 12093,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The states' representatives group (JU body) must submit an annual report."
+ },
+ {
+  "rid": 12094,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The joint undertaking must provide information to the states' representatives group."
+ },
+ {
+  "rid": 12095,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The states' representatives group (JU body) must adopt rules of procedure."
+ },
+ {
+  "rid": 12155,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Audits of indirect actions are carried out by the Commission/joint undertaking under Art. 53 Horizon Europe."
+ },
+ {
+  "rid": 12201,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Deployment Groups are established by the joint undertaking (governing board) under Art. 22."
+ },
+ {
+  "rid": 12202,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Composition of Deployment Groups, set by the joint undertaking."
+ },
+ {
+  "rid": 12207,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Procedure for calling extraordinary meetings of the Deployment Groups, JU advisory bodies."
+ },
+ {
+  "rid": 12208,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Deployment Groups (JU advisory bodies) must elect a chair."
+ },
+ {
+  "rid": 12228,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The states' representatives group (JU body) must hold coordination meetings."
+ },
+ {
+  "rid": 12229,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Lead-in assigning additional tasks to the states' representatives group (JU body)."
+ },
+ {
+  "rid": 12240,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Status provision designating the Scientific Advisory Body; institutional, not a restriction."
+ },
+ {
+  "rid": 12241,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Composition limit on the Clean Aviation Scientific Advisory Body, a JU body."
+ },
+ {
+  "rid": 12242,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Duplicate of 12241: composition limit on the JU's Scientific Advisory Body."
+ },
+ {
+  "rid": 12246,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Clean Aviation Scientific Advisory Body (JU body) must hold coordination meetings."
+ },
+ {
+  "rid": 12247,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Clean Aviation Scientific Advisory Body (JU body) must advise the Commission and the JU."
+ },
+ {
+  "rid": 12248,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EASA's certification activities are subject to its fees and charges regulation; binds EASA charging fees."
+ },
+ {
+  "rid": 12298,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Status provision designating the System Pillar steering group as advisory body; not a restriction."
+ },
+ {
+  "rid": 12301,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Decision rule for the System Pillar steering group, a JU body."
+ },
+ {
+  "rid": 12305,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The System Pillar steering group (JU body) is responsible for advising the Executive Director and Governing Board."
+ },
+ {
+  "rid": 12306,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Deployment Group is established by the joint undertaking under Art. 22."
+ },
+ {
+  "rid": 12307,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "States the role of the Deployment Group; institutional description, not a restriction."
+ },
+ {
+  "rid": 12308,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Openness requirement on the Deployment Group, set up by the joint undertaking."
+ },
+ {
+  "rid": 12309,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Composition requirement on the Deployment Group, set by the joint undertaking."
+ },
+ {
+  "rid": 12342,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The work programme is adopted by the joint undertaking's governing board."
+ },
+ {
+  "rid": 12354,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Additional activities are carried out by private members/constituent entities contributing in kind."
+ },
+ {
+  "rid": 12355,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Project proposals are drawn up by applicants."
+ },
+ {
+  "rid": 12356,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Timing condition on costs incurred by participants for additional activities."
+ },
+ {
+  "rid": 12357,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Location condition on additional activities carried out by private members/constituent entities."
+ },
+ {
+  "rid": 12360,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Science and Innovation Panel is a JU advisory body that must advise the Governing Board."
+ },
+ {
+  "rid": 12361,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Permanent panellists of the JU's Science and Innovation Panel must invite ad hoc panellists on expertise."
+ },
+ {
+  "rid": 12362,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Permanent panellists of the JU's Science and Innovation Panel must invite consensually."
+ },
+ {
+  "rid": 12364,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Science and Innovation Panel (JU body) must advise the Governing Board."
+ },
+ {
+  "rid": 12366,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of 'unmet public health need'; not a restriction."
+ },
+ {
+  "rid": 12368,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The work programme is adopted by the joint undertaking's governing board."
+ },
+ {
+  "rid": 12374,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Each participating state must appoint representatives and designate national entities."
+ },
+ {
+  "rid": 12447,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EASA's certification activities are subject to its fees and charges regulation; binds EASA charging fees."
+ },
+ {
+  "rid": 12449,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The administrative agreement is concluded by the SESAR 3 Joint Undertaking with Eurocontrol."
+ },
+ {
+  "rid": 12450,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Eurocontrol is an intergovernmental organisation of states; no exact class, nearest is public/state."
+ },
+ {
+  "rid": 12465,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Representatives of the participating states must present a coordinated position reflecting their state's views."
+ },
+ {
+  "rid": 12513,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Currency conversion method for the maximum charges; binds no identifiable actor."
+ },
+ {
+  "rid": 12514,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Annual revision of non-euro charge limits; no actor named in the article."
+ },
+ {
+  "rid": 12518,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Mobile network operators granting wholesale roaming access must cover all network elements."
+ },
+ {
+  "rid": 12519,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Duplicate of 12518: scope of wholesale access granted by mobile network operators."
+ },
+ {
+  "rid": 12523,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Mobile network operators must grant wholesale roaming access within three months."
+ },
+ {
+  "rid": 12525,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The reference offer is published by mobile network operators (Art. 3(5))."
+ },
+ {
+  "rid": 12526,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Duplicate of 12525: reference offer published by mobile network operators."
+ },
+ {
+  "rid": 12527,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Content of the reference offer published by mobile network operators."
+ },
+ {
+  "rid": 12578,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Cap on wholesale charges levied by visited network operators."
+ },
+ {
+  "rid": 12579,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Duplicate of 12578: cap on wholesale charges levied by visited network operators."
+ }
+]

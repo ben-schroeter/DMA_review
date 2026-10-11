@@ -1,0 +1,1602 @@
+[
+ {
+  "vid": 0,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States must notify the Commission of impossible cases."
+ },
+ {
+  "vid": 1,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Each Member State must appoint representatives to the Advisory Committee."
+ },
+ {
+  "vid": 2,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "medium",
+  "reason": "Embedded duty on Member States to lay down conditions for applying exemptions."
+ },
+ {
+  "vid": 3,
+  "is_restriction": false,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "medium",
+  "reason": "Duty to exempt certain transport supplies is a VAT exemption, not a restriction on conduct."
+ },
+ {
+  "vid": 4,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States must report to the Commission."
+ },
+ {
+  "vid": 5,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "medium",
+  "reason": "Procedural requirement on how the Commission adopts measures."
+ },
+ {
+  "vid": 6,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Trader must reimburse the proportionate part of the price."
+ },
+ {
+  "vid": 7,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Transposition duty on Member States."
+ },
+ {
+  "vid": 8,
+  "is_restriction": false,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "confidence": "high",
+  "reason": "Scope rule disapplying the article to certain time limits."
+ },
+ {
+  "vid": 9,
+  "is_restriction": false,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "confidence": "high",
+  "reason": "Rule on running of limitation period; legal effect."
+ },
+ {
+  "vid": 10,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "medium",
+  "reason": "Content requirement on the mandate given by the manufacturer."
+ },
+ {
+  "vid": 11,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States must not impede making compliant toys available."
+ },
+ {
+  "vid": 12,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Notifying authorities (national) must have sufficient personnel."
+ },
+ {
+  "vid": 13,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "medium",
+  "reason": "Labelling requirement falling on the toy manufacturer."
+ },
+ {
+  "vid": 14,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "medium",
+  "reason": "Communicating competent authority must grant permission under the condition."
+ },
+ {
+  "vid": 15,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Supervisory authority must communicate lists to the Board."
+ },
+ {
+  "vid": 16,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "low",
+  "reason": "Restricted permission on accreditation of certification bodies by national accreditor/supervisory authority."
+ },
+ {
+  "vid": 17,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Members of national supervisory authority must remain free from external influence."
+ },
+ {
+  "vid": 18,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Members of national supervisory authority must remain free from external influence."
+ },
+ {
+  "vid": 19,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "medium",
+  "reason": "Procedural requirement on Commission adoption of implementing acts."
+ },
+ {
+  "vid": 20,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States must restrict transfers by competent authorities to listed conditions."
+ },
+ {
+  "vid": 21,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "medium",
+  "reason": "Content requirement for certificates issued by the qualified trust service provider."
+ },
+ {
+  "vid": 22,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "confidence": "medium",
+  "reason": "Point under lead-in 'Member States shall require payment institutions' setting minimum capital."
+ },
+ {
+  "vid": 23,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States must establish a public register."
+ },
+ {
+  "vid": 24,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Member States ensure payment service providers give information to users."
+ },
+ {
+  "vid": 25,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Payment service provider must provide information."
+ },
+ {
+  "vid": 26,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "medium",
+  "reason": "Account servicing PSPs may not make AIS access dependent on a contract."
+ },
+ {
+  "vid": 27,
+  "is_restriction": false,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "medium",
+  "reason": "Liability rule (legal effect) for payee's PSP."
+ },
+ {
+  "vid": 28,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States' penalties must be effective, proportionate and dissuasive."
+ },
+ {
+  "vid": 29,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Non-compliant payment institutions prohibited from providing services."
+ },
+ {
+  "vid": 30,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "medium",
+  "reason": "Content requirement on reference offer drawn up by the roaming operator."
+ },
+ {
+  "vid": 31,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "low",
+  "reason": "Criteria for technical solution implemented by roaming providers (amended text)."
+ },
+ {
+  "vid": 32,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Management Board of ENISA must appoint the Executive Director per procedure."
+ },
+ {
+  "vid": 33,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Commission must assess the Executive Director's performance."
+ },
+ {
+  "vid": 34,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "ENISA Management Board must adopt implementing rules."
+ },
+ {
+  "vid": 35,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "low",
+  "reason": "Evaluator (conformity assessment body) must undertake substitute activities."
+ },
+ {
+  "vid": 36,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States must criminalise attempt."
+ },
+ {
+  "vid": 37,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States must set minimum maximum penalties."
+ },
+ {
+  "vid": 38,
+  "is_restriction": false,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "confidence": "high",
+  "reason": "Qualification of status as joint controllers; legal effect."
+ },
+ {
+  "vid": 39,
+  "is_restriction": false,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "confidence": "high",
+  "reason": "Cessation of EDPS duties; legal effect."
+ },
+ {
+  "vid": 40,
+  "is_restriction": false,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Conferral of jurisdiction on the Court; legal effect."
+ },
+ {
+  "vid": 41,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Controller under Chapter IX of Reg 2018/1725 is a Union body; must distinguish data."
+ },
+ {
+  "vid": 42,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States must make explanation accessible in a broadly understood language."
+ },
+ {
+  "vid": 43,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "medium",
+  "reason": "Market surveillance authority (first-named, mixed) must ensure agreement avoids unfair competition."
+ },
+ {
+  "vid": 44,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Customs authorities must transmit information."
+ },
+ {
+  "vid": 45,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "medium",
+  "reason": "Joint Undertaking Executive Director to take part in Governing Board deliberations."
+ },
+ {
+  "vid": 46,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "medium",
+  "reason": "Content requirement for Commission's implementation report."
+ },
+ {
+  "vid": 47,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Commission must establish lending arrangements."
+ },
+ {
+  "vid": 48,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Commission must assess amended plan and make a proposal."
+ },
+ {
+  "vid": 49,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Commission must take EFC opinion into account."
+ },
+ {
+  "vid": 50,
+  "is_restriction": false,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "medium",
+  "reason": "Institutional provision that the Commission is assisted by a committee."
+ },
+ {
+  "vid": 51,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States may impose requirements on the exemption only to a limited extent."
+ },
+ {
+  "vid": 52,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "medium",
+  "reason": "Restricts cross-border mergers to eligible company types."
+ },
+ {
+  "vid": 53,
+  "is_restriction": false,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "confidence": "high",
+  "reason": "Definitional statement about committee nature."
+ },
+ {
+  "vid": 54,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Requested authority must take enforcement measures."
+ },
+ {
+  "vid": 55,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Authorities must make requests in writing via the database."
+ },
+ {
+  "vid": 56,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "medium",
+  "reason": "Member States' general authorisation must refer to criteria and procedures."
+ },
+ {
+  "vid": 57,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "medium",
+  "reason": "Content requirement for geographical survey conducted by NRA."
+ },
+ {
+  "vid": 58,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "NRAs must await BEREC opinion."
+ },
+ {
+  "vid": 59,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Commission must publish SMP guidelines."
+ },
+ {
+  "vid": 60,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "medium",
+  "reason": "Content requirement for NRA's assessment."
+ },
+ {
+  "vid": 61,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "NRAs must monitor compliance."
+ },
+ {
+  "vid": 62,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "low",
+  "reason": "Requirements for comparison tool Member States must ensure access to; operator not clearly identified."
+ },
+ {
+  "vid": 63,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Transferring provider must continue service."
+ },
+ {
+  "vid": 64,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States ensure remuneration obligation set out in national law."
+ },
+ {
+  "vid": 65,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "medium",
+  "reason": "SMP undertaking making the co-investment offer must set and explain process."
+ },
+ {
+  "vid": 66,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "low",
+  "reason": "Unused provisioning allocated by Member States must be re-used per the funding regulations."
+ },
+ {
+  "vid": 67,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "low",
+  "reason": "Form in which the EU (Commission) must grant the guarantee."
+ },
+ {
+  "vid": 68,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "medium",
+  "reason": "Composition requirement on the InvestEU Investment Committee set by EU bodies."
+ },
+ {
+  "vid": 69,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "low",
+  "reason": "Implementing partners (financial institutions) must examine projects."
+ },
+ {
+  "vid": 70,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "medium",
+  "reason": "Project selection (by Commission) must respect national allocations."
+ },
+ {
+  "vid": 71,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Commission must notify delegated acts."
+ },
+ {
+  "vid": 72,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Applicant legal entities must explain exploitation in Union interest."
+ },
+ {
+  "vid": 73,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "medium",
+  "reason": "Joint Undertaking's allocation of access time must follow peer review."
+ },
+ {
+  "vid": 74,
+  "is_restriction": false,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "confidence": "medium",
+  "reason": "Calculation rule excluding certain bonds from threshold."
+ },
+ {
+  "vid": 75,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "DLT operators must use best efforts to conclude arrangements."
+ },
+ {
+  "vid": 76,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "ESMA must consult competent authorities."
+ },
+ {
+  "vid": 77,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "DLT operator must provide information."
+ },
+ {
+  "vid": 78,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "National competent authorities must forward information to ESMA."
+ },
+ {
+  "vid": 79,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Home competent authority must notify host single points of contact."
+ },
+ {
+  "vid": 80,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Issuers of asset-referenced tokens must act in holders' best interests."
+ },
+ {
+  "vid": 81,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "CASPs must communicate information."
+ },
+ {
+  "vid": 82,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States ensure their competent authorities have powers; duty on the state."
+ },
+ {
+  "vid": 83,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States must notify Commission and ESMA."
+ },
+ {
+  "vid": 84,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Lead Overseer's decision must specify content."
+ },
+ {
+  "vid": 85,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Legal representative of data altruism organisation must cooperate."
+ },
+ {
+  "vid": 86,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Commission and Member States (mixed) must cooperate."
+ },
+ {
+  "vid": 87,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Commission must inform national authority."
+ },
+ {
+  "vid": 88,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "medium",
+  "reason": "Use limitation on information exchanged by Commission and national authorities (mixed)."
+ },
+ {
+  "vid": 89,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Undertaking must determine number of business users."
+ },
+ {
+  "vid": 90,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Commission must encourage and facilitate codes of conduct."
+ },
+ {
+  "vid": 91,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States must not initiate proceedings."
+ },
+ {
+  "vid": 92,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Commission must take objectives into account in assessment."
+ },
+ {
+  "vid": 93,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Political advertising publishers must process notifications within 48 hours."
+ },
+ {
+  "vid": 94,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States must encourage authorities to share practices."
+ },
+ {
+  "vid": 95,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "medium",
+  "reason": "Inserted text obliges executing authority to execute order and inform."
+ },
+ {
+  "vid": 96,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "ENISA must provide secretariat."
+ },
+ {
+  "vid": 97,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Member States ensure entities take corrective measures."
+ },
+ {
+  "vid": 98,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States ensure single points of contact receive information."
+ },
+ {
+  "vid": 99,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "medium",
+  "reason": "Targeted audits ordered by competent authority must be risk-based."
+ },
+ {
+  "vid": 100,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "low",
+  "reason": "Composition requirement for Joint Undertaking stakeholders group."
+ },
+ {
+  "vid": 101,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "National public authorities must appoint representatives."
+ },
+ {
+  "vid": 102,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Instructions for use drawn up by provider must contain information."
+ },
+ {
+  "vid": 103,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Notified bodies must verify conformity."
+ },
+ {
+  "vid": 104,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Notifying authority must provide information."
+ },
+ {
+  "vid": 105,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Deployers must inform natural persons."
+ },
+ {
+  "vid": 106,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Commission must submit a report."
+ },
+ {
+  "vid": 107,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Commission must adopt implementing acts."
+ },
+ {
+  "vid": 108,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Commission must inform the committee."
+ },
+ {
+  "vid": 109,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "medium",
+  "reason": "Essential design requirement on the manufacturer."
+ },
+ {
+  "vid": 110,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "medium",
+  "reason": "Equipment requirement on the manufacturer."
+ },
+ {
+  "vid": 111,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "medium",
+  "reason": "Design requirement on ropes for the manufacturer."
+ },
+ {
+  "vid": 112,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "medium",
+  "reason": "Design requirement on the manufacturer."
+ },
+ {
+  "vid": 113,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "medium",
+  "reason": "Content requirement for manufacturer's technical documentation."
+ },
+ {
+  "vid": 114,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Commission must make decisions accessible."
+ },
+ {
+  "vid": 115,
+  "is_restriction": false,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "confidence": "high",
+  "reason": "Start of limitation period; legal effect."
+ },
+ {
+  "vid": 116,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "low",
+  "reason": "Public access to information to be provided by authorities."
+ },
+ {
+  "vid": 117,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "medium",
+  "reason": "Receiving authorities must protect secret information."
+ },
+ {
+  "vid": 118,
+  "is_restriction": false,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "medium",
+  "reason": "Institutional provision on committee assistance."
+ },
+ {
+  "vid": 119,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "medium",
+  "reason": "Content requirement for Commission's report."
+ },
+ {
+  "vid": 120,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "medium",
+  "reason": "Parent undertaking must establish group-level compliance functions."
+ },
+ {
+  "vid": 121,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Parent undertaking must take additional measures."
+ },
+ {
+  "vid": 122,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Obliged entities must keep records."
+ },
+ {
+  "vid": 123,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Obliged entities must delete data."
+ },
+ {
+  "vid": 124,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Companies prohibited from issuing bearer shares."
+ },
+ {
+  "vid": 125,
+  "is_restriction": false,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "confidence": "high",
+  "reason": "Automatic suspension of share rights; legal effect."
+ },
+ {
+  "vid": 126,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States must notify limits."
+ },
+ {
+  "vid": 127,
+  "is_restriction": false,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "medium",
+  "reason": "Institutional provision on committee assistance."
+ },
+ {
+  "vid": 128,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States must designate liaison office."
+ },
+ {
+  "vid": 129,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member State must hold measure in abeyance."
+ },
+ {
+  "vid": 130,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Commission must evaluate and report."
+ },
+ {
+  "vid": 131,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Digital labour platforms must give written statement of reasons."
+ },
+ {
+  "vid": 132,
+  "is_restriction": false,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "confidence": "high",
+  "reason": "Definition."
+ },
+ {
+  "vid": 133,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "medium",
+  "reason": "Chips JU Public Authorities Board must recommend remedial action where necessary."
+ },
+ {
+  "vid": 134,
+  "is_restriction": false,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "medium",
+  "reason": "Continuation of an obligation laid down elsewhere; legal effect."
+ },
+ {
+  "vid": 135,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States must identify key market actors."
+ },
+ {
+  "vid": 136,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Data holders must make data available."
+ },
+ {
+  "vid": 137,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Users must not use data to develop competing products."
+ },
+ {
+  "vid": 138,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Public sector body (first-named, mixed) must meet request requirements."
+ },
+ {
+  "vid": 139,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Data holder must make data available."
+ },
+ {
+  "vid": 140,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "medium",
+  "reason": "National single point of contact assigned tasks."
+ },
+ {
+  "vid": 141,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States must notify measures."
+ },
+ {
+  "vid": 142,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Project promoters must participate in urgency procedures."
+ },
+ {
+  "vid": 143,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "National competent authorities must ensure sandbox plan complies."
+ },
+ {
+  "vid": 144,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "low",
+  "reason": "Composition limit on EU advisory group set by Commission."
+ },
+ {
+  "vid": 145,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Importers must ensure labels do not obscure information."
+ },
+ {
+  "vid": 146,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Importer must inform of recall."
+ },
+ {
+  "vid": 147,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Importers must investigate complaints."
+ },
+ {
+  "vid": 148,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Market surveillance authority must carry out evaluation."
+ },
+ {
+  "vid": 149,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "medium",
+  "reason": "National dataset catalogue held by national bodies must be available in an official language."
+ },
+ {
+  "vid": 150,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "low",
+  "reason": "Composition requirement for Commission's stakeholder forum."
+ },
+ {
+  "vid": 151,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States' penalties must be effective."
+ },
+ {
+  "vid": 152,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "medium",
+  "reason": "Content requirement for Commission evaluation."
+ },
+ {
+  "vid": 153,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Coordinating Authority must submit request."
+ },
+ {
+  "vid": 154,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Coordinating Authority must attach documents."
+ },
+ {
+  "vid": 155,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "EU Centre must give access."
+ },
+ {
+  "vid": 156,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "EU Centre must publish and update list."
+ },
+ {
+  "vid": 157,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Notifying authorities may notify only compliant bodies."
+ },
+ {
+  "vid": 158,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Market surveillance authorities must facilitate cooperation."
+ },
+ {
+  "vid": 159,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "medium",
+  "reason": "Content requirement for market surveillance authority's notification."
+ },
+ {
+  "vid": 160,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "EBA must develop draft RTS."
+ },
+ {
+  "vid": 161,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Competent authority must give reasons."
+ },
+ {
+  "vid": 162,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Home competent authorities must send information."
+ },
+ {
+  "vid": 163,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "PSP must fulfil information obligations after conclusion."
+ },
+ {
+  "vid": 164,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "E-money issuer's redemption fee must be proportionate."
+ },
+ {
+  "vid": 165,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "ASPSP must ensure dashboard is easy to find."
+ },
+ {
+  "vid": 166,
+  "is_restriction": false,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "medium",
+  "reason": "Allocation of liability for losses; legal effect."
+ },
+ {
+  "vid": 167,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "EBA must submit ITS."
+ },
+ {
+  "vid": 168,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member States ensure their jurisdiction covers ICT cases."
+ },
+ {
+  "vid": 169,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "CERT-EU must cooperate."
+ },
+ {
+  "vid": 170,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Security Authority of Union institution must approve measures."
+ },
+ {
+  "vid": 171,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Union institutions must adopt procedures."
+ },
+ {
+  "vid": 172,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Coordination Group secretariat must update list."
+ },
+ {
+  "vid": 173,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Union institutions must ensure access criteria."
+ },
+ {
+  "vid": 174,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Commission must determine performance classes."
+ },
+ {
+  "vid": 175,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Market surveillance authorities must indicate cause."
+ },
+ {
+  "vid": 176,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "medium",
+  "reason": "Form and conditions of grants awarded by the Commission."
+ },
+ {
+  "vid": 177,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "medium",
+  "reason": "Apparatus information to be provided by the manufacturer."
+ },
+ {
+  "vid": 178,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Commission must adopt implementing act."
+ },
+ {
+  "vid": 179,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Importers must keep declaration."
+ },
+ {
+  "vid": 180,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "medium",
+  "reason": "Registry (private organisation) must register domain names in all characters."
+ },
+ {
+  "vid": 181,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "medium",
+  "reason": "Content of profiles created by eu-LISA."
+ },
+ {
+  "vid": 182,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Member State must create or update link."
+ },
+ {
+  "vid": 183,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "medium",
+  "reason": "Inserted text obliges eu-LISA to store data."
+ },
+ {
+  "vid": 184,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Short-term rental platforms must make best efforts to assess."
+ },
+ {
+  "vid": 185,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Member States require payment institutions to hold own funds."
+ },
+ {
+  "vid": 186,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Host competent authorities must assess and provide information."
+ },
+ {
+  "vid": 187,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Registering person must provide description."
+ },
+ {
+  "vid": 188,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Lead supervisory authority must submit draft decision."
+ },
+ {
+  "vid": 189,
+  "is_restriction": true,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "confidence": "high",
+  "reason": "Lead supervisory authority must take objection into account."
+ },
+ {
+  "vid": 190,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "medium",
+  "reason": "Toys (manufacturer) must not bear conflicting warnings."
+ },
+ {
+  "vid": 191,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Manufacturers must provide information."
+ },
+ {
+  "vid": 192,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "low",
+  "reason": "Design requirement for passports, operated by economic operators/service providers."
+ },
+ {
+  "vid": 193,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Commission must justify exemptions."
+ },
+ {
+  "vid": 194,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "medium",
+  "reason": "Warning requirement on manufacturer's instructions."
+ },
+ {
+  "vid": 195,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Manufacturer's technical documentation content requirement."
+ },
+ {
+  "vid": 196,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "high",
+  "reason": "Agency must publish summary."
+ },
+ {
+  "vid": 197,
+  "is_restriction": true,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "confidence": "high",
+  "reason": "Space services providers must hold e-certificate."
+ },
+ {
+  "vid": 198,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "medium",
+  "reason": "Procedural requirement on Commission implementing acts."
+ },
+ {
+  "vid": 199,
+  "is_restriction": true,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "confidence": "medium",
+  "reason": "Procedural requirement on Commission implementing acts."
+ }
+]

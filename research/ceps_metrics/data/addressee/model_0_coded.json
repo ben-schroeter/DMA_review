@@ -1,0 +1,1674 @@
+[
+ {
+  "rid": 7,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Deeming rule on when a term is not individually negotiated; legal effect, no actor."
+ },
+ {
+  "rid": 11,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assessment standard for unfairness, applied by national courts/authorities under the transposed directive."
+ },
+ {
+  "rid": 12,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Limits the scope of the unfairness assessment carried out by national courts/authorities."
+ },
+ {
+  "rid": 32,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Part of the definition of 'satellite'; definitional condition with no actor."
+ },
+ {
+  "rid": 34,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Deeming rule locating the act of communication and the party rights are exercisable against; legal effect."
+ },
+ {
+  "rid": 41,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Directive requires Member States to protect performers' and producers' rights via the transposing law."
+ },
+ {
+  "rid": 42,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving clause preserving copyright protection."
+ },
+ {
+  "rid": 43,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving clause preserving copyright protection (duplicate)."
+ },
+ {
+  "rid": 45,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Transitional rule on temporal application to existing agreements; legal effect."
+ },
+ {
+  "rid": 46,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Transitional rule making satellite exploitation by a co-producer subject to the exclusive rightholder's prior consent; binds co-producers."
+ },
+ {
+  "rid": 67,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Directive requires Member States to grant copyright protection to original databases."
+ },
+ {
+  "rid": 68,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Prohibits Member States (legislators/courts) from applying other eligibility criteria."
+ },
+ {
+  "rid": 69,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope limitation and saving clause for rights in database contents."
+ },
+ {
+  "rid": 70,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of the author of a database; definitional."
+ },
+ {
+  "rid": 73,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Grants the author an exclusive right; a right-conferring provision, not a duty on any actor."
+ },
+ {
+  "rid": 80,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Prohibits users (lawful users/third parties) from repeated systematic extraction of insubstantial parts."
+ },
+ {
+  "rid": 89,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Temporal application of copyright protection to older databases; legal effect."
+ },
+ {
+  "rid": 90,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Temporal application of the sui generis right; legal effect."
+ },
+ {
+  "rid": 149,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Activities under the Radio Spectrum Decision are carried out by the Commission with the Radio Spectrum Committee."
+ },
+ {
+  "rid": 176,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Appraisal of concentrations is carried out by the Commission under the Merger Regulation."
+ },
+ {
+  "rid": 200,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Definition of how aggregate turnover is computed; definitional rule."
+ },
+ {
+  "rid": 223,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Validity of transactions made dependent on a Commission decision; legal effect."
+ },
+ {
+  "rid": 224,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving rule on validity of securities transactions; legal effect."
+ },
+ {
+  "rid": 240,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Time limit for Commission Phase I decisions under Article 6(1)."
+ },
+ {
+  "rid": 241,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Start of the period within which the Commission must decide; procedural step of the Commission's procedure."
+ },
+ {
+  "rid": 242,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Extension of the Commission's decision period; procedural rule for the Commission."
+ },
+ {
+  "rid": 245,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Extension of the Commission's Phase II decision period; procedural rule for the Commission."
+ },
+ {
+  "rid": 248,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Suspension of the Commission's decision periods; procedural rule for the Commission."
+ },
+ {
+  "rid": 278,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Criteria for fixing fines, which the Commission imposes under Article 14."
+ },
+ {
+  "rid": 279,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "States that fining decisions are not criminal law in nature; legal characterisation."
+ },
+ {
+  "rid": 281,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Use limitation on information acquired by the Commission and Member State authorities (mixed; Commission first)."
+ },
+ {
+  "rid": 331,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Date substitution rule for accession; legal effect."
+ },
+ {
+  "rid": 350,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content of information that the infringer or other person ordered under Art. 8(1) must provide."
+ },
+ {
+  "rid": 386,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Conflict rule giving precedence to sector-specific Community rules."
+ },
+ {
+  "rid": 392,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Prohibition of unfair commercial practices by traders."
+ },
+ {
+  "rid": 393,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of when a commercial practice is unfair."
+ },
+ {
+  "rid": 399,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assessment factors applied by national courts/authorities determining aggressive practices."
+ },
+ {
+  "rid": 434,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Statement of the principle of the common VAT system; programme-like principle, no actor."
+ },
+ {
+  "rid": 435,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "States the stage up to which the VAT system applies; scope principle."
+ },
+ {
+  "rid": 436,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Directive requires Member States to subject listed transactions to VAT, borne by taxable persons."
+ },
+ {
+  "rid": 444,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Lists transactions not subject to VAT; exclusion from scope."
+ },
+ {
+  "rid": 448,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Interpretive rule excluding employees from taxable status; definitional."
+ },
+ {
+  "rid": 449,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Deeming rule treating energy as tangible property."
+ },
+ {
+  "rid": 457,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Deeming rule treating transactions as supplies of services."
+ },
+ {
+  "rid": 468,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Place-of-supply rule; determines a legal effect, binds no actor."
+ },
+ {
+  "rid": 469,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Place-of-supply rule; legal effect."
+ },
+ {
+  "rid": 472,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Place-of-supply rule; legal effect."
+ },
+ {
+  "rid": 476,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Place-of-supply rule for electronic services; legal effect."
+ },
+ {
+  "rid": 477,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Place-of-importation rule; legal effect."
+ },
+ {
+  "rid": 478,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Place-of-importation derogation; legal effect."
+ },
+ {
+  "rid": 479,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Place-of-importation rule; legal effect."
+ },
+ {
+  "rid": 480,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of when VAT becomes chargeable."
+ },
+ {
+  "rid": 482,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of 'open market value'."
+ },
+ {
+  "rid": 483,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content rule on what the taxable amount includes; binds no identifiable actor."
+ },
+ {
+  "rid": 484,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Rule fixing the taxable amount for self-supplies; content rule, no actor."
+ },
+ {
+  "rid": 485,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Rule fixing the taxable amount for private use of business assets; content rule."
+ },
+ {
+  "rid": 488,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content rule listing elements of the taxable amount."
+ },
+ {
+  "rid": 489,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content rule listing elements excluded from the taxable amount."
+ },
+ {
+  "rid": 494,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Taxable amount rule for intra-Community acquisitions; content rule."
+ },
+ {
+  "rid": 495,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Taxable amount rule for deemed intra-Community acquisitions; content rule."
+ },
+ {
+  "rid": 498,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Taxable amount on importation equals customs value; content rule."
+ },
+ {
+  "rid": 499,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content rule on elements included in the import taxable amount."
+ },
+ {
+  "rid": 500,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content rule on elements excluded from the import taxable amount."
+ },
+ {
+  "rid": 506,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Rule fixing which rate applies in time; content rule."
+ },
+ {
+  "rid": 507,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Rule fixing which rate applies in listed situations; content rule."
+ },
+ {
+  "rid": 508,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Rule fixing the rate for intra-Community acquisitions; content rule."
+ },
+ {
+  "rid": 509,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Rule fixing the rate on importation; content rule."
+ },
+ {
+  "rid": 512,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Floor on the standard VAT rate that Member States set."
+ },
+ {
+  "rid": 515,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States fix reduced rates, subject to a 5% floor."
+ },
+ {
+  "rid": 516,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States must fix reduced rates so that deductible VAT can normally be deducted in full."
+ },
+ {
+  "rid": 530,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conditions on Member States' grandfathered exemptions and reduced rates."
+ },
+ {
+  "rid": 531,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conditions on Member States' grandfathered exemptions and reduced rates (duplicate)."
+ },
+ {
+  "rid": 532,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Ireland must submit a request to the Commission."
+ },
+ {
+  "rid": 543,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Limits the exemptions Member States may grant under Article 132."
+ },
+ {
+  "rid": 545,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Exclusions from the letting exemption that Member States must apply."
+ },
+ {
+  "rid": 550,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Limits the intra-Community supply exemption applied by Member States."
+ },
+ {
+  "rid": 560,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Proof of exportation must be furnished by the supplier claiming the exemption."
+ },
+ {
+  "rid": 569,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of 'warehouses other than customs warehouses'."
+ },
+ {
+  "rid": 570,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definitional cross-reference for places covered by Article 156."
+ },
+ {
+  "rid": 578,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "States when the right of deduction arises; legal effect."
+ },
+ {
+  "rid": 579,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Member State of purchase must refund VAT to non-established taxable persons."
+ },
+ {
+  "rid": 586,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Limits the deduction a mixed-use taxable person may make."
+ },
+ {
+  "rid": 587,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Computation rule for the deductible proportion; content rule, no identifiable actor."
+ },
+ {
+  "rid": 588,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Composition of the deductible proportion fraction; content rule."
+ },
+ {
+  "rid": 590,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Computation rule for the deductible proportion; content rule."
+ },
+ {
+  "rid": 591,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Rule setting the provisional proportion; content rule."
+ },
+ {
+  "rid": 608,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Taxable person must adjust the initial deduction."
+ },
+ {
+  "rid": 609,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Taxable person must adjust deductions after changes in relevant factors."
+ },
+ {
+  "rid": 610,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Derogation exempting certain cases from adjustment."
+ },
+ {
+  "rid": 612,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Taxable person spreads the capital goods adjustment over five years."
+ },
+ {
+  "rid": 614,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Basis on which the taxable person makes the capital goods adjustment."
+ },
+ {
+  "rid": 615,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Deeming rule for capital goods supplied during the adjustment period."
+ },
+ {
+  "rid": 616,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Taxable person makes the remaining adjustment once."
+ },
+ {
+  "rid": 617,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "VAT liability of the taxable person making the supply."
+ },
+ {
+  "rid": 619,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "VAT liability of the VAT-identified recipient."
+ },
+ {
+  "rid": 620,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "VAT liability of the recipient taxable person (reverse charge)."
+ },
+ {
+  "rid": 621,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "VAT liability of the person to whom goods are supplied."
+ },
+ {
+  "rid": 626,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "VAT liability of the person making an intra-Community acquisition."
+ },
+ {
+  "rid": 627,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "VAT on importation payable by persons designated by the Member State of importation."
+ },
+ {
+  "rid": 628,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "VAT liability of the person releasing goods from the arrangements."
+ },
+ {
+  "rid": 629,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "VAT liability of any person entering VAT on an invoice."
+ },
+ {
+  "rid": 643,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Format of VAT numbers issued by the Member States."
+ },
+ {
+  "rid": 646,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Deeming rule treating amending documents as invoices."
+ },
+ {
+  "rid": 651,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Required invoice details, binding the taxable person issuing the invoice."
+ },
+ {
+  "rid": 653,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States must accept electronic invoices meeting the conditions."
+ },
+ {
+  "rid": 657,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Limits the simplified invoicing that Member States may allow under Article 238."
+ },
+ {
+  "rid": 663,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Taxable person storing invoices must guarantee authenticity, integrity and legibility."
+ },
+ {
+  "rid": 664,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Taxable person storing invoices may not alter them; they must stay legible."
+ },
+ {
+  "rid": 665,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Taxable person storing invoices may not alter them; they must stay legible (duplicate)."
+ },
+ {
+  "rid": 677,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Cap on the deadline for VAT returns that Member States set."
+ },
+ {
+  "rid": 688,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable person draws up the recapitulative statement."
+ },
+ {
+  "rid": 697,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable person declares the value in the recapitulative statement."
+ },
+ {
+  "rid": 705,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Import formalities follow customs rules; content rule with no specific actor."
+ },
+ {
+  "rid": 708,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Export formalities follow customs rules; content rule with no specific actor."
+ },
+ {
+  "rid": 710,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Rule on calculating reference turnover; content rule."
+ },
+ {
+  "rid": 715,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Council must decide on a special scheme for small enterprises."
+ },
+ {
+  "rid": 716,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Deeming rule treating processing as agricultural production."
+ },
+ {
+  "rid": 719,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Limits flat-rate compensation percentages that Member States fix."
+ },
+ {
+  "rid": 720,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Rule on the base to which flat-rate percentages apply; content rule."
+ },
+ {
+  "rid": 726,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Place-of-taxation rule for travel agents; legal effect."
+ },
+ {
+  "rid": 727,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Taxable amount for travel agents is the margin; content rule."
+ },
+ {
+  "rid": 728,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Deeming rule treating the service as an exempt intermediary activity."
+ },
+ {
+  "rid": 729,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Travel agent may not deduct or recover VAT charged on such transactions."
+ },
+ {
+  "rid": 731,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Taxable amount under the margin scheme; content rule."
+ },
+ {
+  "rid": 737,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Option for Member States to simplify; a permission."
+ },
+ {
+  "rid": 741,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "States when the right of deduction arises; legal effect."
+ },
+ {
+  "rid": 742,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Exemption for qualifying margin-scheme supplies."
+ },
+ {
+  "rid": 743,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable dealer may not deduct listed VAT."
+ },
+ {
+  "rid": 746,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable dealer may not show margin-scheme VAT separately on invoices."
+ },
+ {
+  "rid": 748,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Taxable dealer's calculation of incorporated VAT, inherited from the lead-in."
+ },
+ {
+  "rid": 750,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Floor on VAT due on supplies of means of transport; content rule."
+ },
+ {
+  "rid": 751,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Option for Member States to set a minimum margin; a permission."
+ },
+ {
+  "rid": 753,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable dealer may not show VAT separately on invoices."
+ },
+ {
+  "rid": 754,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Taxable amount for auction sales; content rule."
+ },
+ {
+  "rid": 756,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Auction organisers must record the listed amounts in their accounts."
+ },
+ {
+  "rid": 757,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Auction organisers must substantiate the recorded amounts."
+ },
+ {
+  "rid": 758,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Auction organiser must issue an itemised invoice."
+ },
+ {
+  "rid": 759,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Auction organiser's invoice must not show VAT separately."
+ },
+ {
+  "rid": 764,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Council's power to authorise anti-evasion measures; a permission."
+ },
+ {
+  "rid": 790,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Non-established taxable person's VAT return contents."
+ },
+ {
+  "rid": 791,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Non-established taxable person must show rates and VAT due on the return."
+ },
+ {
+  "rid": 792,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Non-established taxable person's return must be in euro."
+ },
+ {
+  "rid": 802,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Non-established taxable person must keep records for ten years."
+ },
+ {
+  "rid": 825,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving clause allowing Member States to keep other taxes."
+ },
+ {
+  "rid": 830,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Deeming rule treating cases as importation."
+ },
+ {
+  "rid": 832,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Place-of-import rule for accession cases; legal effect."
+ },
+ {
+  "rid": 833,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Derogation ending importation without a chargeable event; legal effect."
+ },
+ {
+  "rid": 839,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Annex X item describing transactions covered by derogations; not a duty."
+ },
+ {
+  "rid": 840,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Presumption within the definition of surreptitious advertising."
+ },
+ {
+  "rid": 841,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Condition on applying the European works definition; legal effect."
+ },
+ {
+  "rid": 888,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Derogation making product placement admissible for media service providers; a permission."
+ },
+ {
+  "rid": 890,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Product placement programmes must protect editorial independence; binds the media service provider."
+ },
+ {
+  "rid": 893,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Media service provider must inform viewers of product placement."
+ },
+ {
+  "rid": 924,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Broadcasters must make advertising recognisable."
+ },
+ {
+  "rid": 925,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Broadcasters must keep advertising distinct from programmes."
+ },
+ {
+  "rid": 926,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Broadcasters must keep isolated spots exceptional."
+ },
+ {
+  "rid": 928,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Broadcasters may not insert advertising in religious services."
+ },
+ {
+  "rid": 929,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Broadcasters are prohibited from teleshopping for prescription medicines."
+ },
+ {
+  "rid": 937,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Broadcasters' hourly cap on advertising spots."
+ },
+ {
+  "rid": 938,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Broadcasters must identify teleshopping windows."
+ },
+ {
+  "rid": 939,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Broadcasters must meet the minimum duration of teleshopping windows."
+ },
+ {
+  "rid": 957,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "European statistics are produced by the ESS (Commission/Eurostat with national statistical authorities); mixed."
+ },
+ {
+  "rid": 958,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "ESS statistical authorities implement European statistics; mixed."
+ },
+ {
+  "rid": 959,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Principles governing ESS statistical authorities (Eurostat and NSIs); mixed."
+ },
+ {
+  "rid": 960,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Professional independence principle for ESS statistical authorities; mixed."
+ },
+ {
+  "rid": 961,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Impartiality principle for ESS statistical authorities; mixed."
+ },
+ {
+  "rid": 965,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Cost-effectiveness principle for ESS statistical authorities; mixed."
+ },
+ {
+  "rid": 966,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Cost-effectiveness principle for ESS statistical authorities (duplicate); mixed."
+ },
+ {
+  "rid": 967,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Statistical authorities requesting information should rely on existing records; mixed."
+ },
+ {
+  "rid": 968,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "ESS statistical authorities must take account of international recommendations; mixed."
+ },
+ {
+  "rid": 983,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "ESS and ESCB must cooperate; mixed EU-level duty."
+ },
+ {
+  "rid": 985,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Statement of the Code of Practice's aim; an objective."
+ },
+ {
+  "rid": 1008,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "ESS must develop synergies through collaborative networks; mixed."
+ },
+ {
+  "rid": 1009,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Financial structure for ESS networks, developed by the Commission/ESS."
+ },
+ {
+  "rid": 1010,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "ESS must make outcomes of collaborative actions available; mixed."
+ },
+ {
+  "rid": 1012,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission must carry out European-approach measures with Member State involvement."
+ },
+ {
+  "rid": 1013,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Implementing measures laid down in individual statistical actions adopted at EU level."
+ },
+ {
+  "rid": 1014,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission (Eurostat) establishes release and revision policy with the Member States."
+ },
+ {
+  "rid": 1019,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "ESS statistical authorities must disseminate in line with the principles; mixed."
+ },
+ {
+  "rid": 1036,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission adopts access measures under the regulatory procedure with scrutiny."
+ },
+ {
+  "rid": 1042,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving clause on worker mobility."
+ },
+ {
+  "rid": 1043,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Declares acquisition, use or disclosure lawful; legal effect."
+ },
+ {
+  "rid": 1048,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "National judicial authorities must apply the measures proportionately."
+ },
+ {
+  "rid": 1071,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content of corrective measures ordered by national courts and carried out by the infringer."
+ },
+ {
+  "rid": 1103,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Conflict rule giving precedence to sector-specific Union acts."
+ },
+ {
+  "rid": 1109,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Conformity requirements for digital content binding the supplying trader."
+ },
+ {
+  "rid": 1110,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Objective conformity requirements binding the supplying trader."
+ },
+ {
+  "rid": 1119,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Burden of proof on supply placed on the trader."
+ },
+ {
+  "rid": 1120,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Burden of proof on conformity placed on the trader."
+ },
+ {
+  "rid": 1121,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Burden of proof on conformity placed on the trader for continuous supply."
+ },
+ {
+  "rid": 1152,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope provision on digital elements in goods."
+ },
+ {
+  "rid": 1156,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Subjective conformity requirements for goods, binding the seller."
+ },
+ {
+  "rid": 1157,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Objective conformity requirements for goods, binding the seller."
+ },
+ {
+  "rid": 1168,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Seller must carry out repair or replacement as specified."
+ },
+ {
+  "rid": 1172,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Seller must grant a proportionate price reduction."
+ },
+ {
+  "rid": 1177,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Guarantor must give the guarantee statement on a durable medium."
+ },
+ {
+  "rid": 1184,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Permission for sellers to offer more protection; saving clause."
+ },
+ {
+  "rid": 1192,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission's review report must be accompanied by proposals where appropriate."
+ },
+ {
+  "rid": 1193,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "States that designs are protected; legal effect."
+ },
+ {
+  "rid": 1194,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Unitary character of Community design; legal status."
+ },
+ {
+  "rid": 1195,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Equal effect throughout the Community; legal status."
+ },
+ {
+  "rid": 1196,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Unitary-character rule limiting registration, transfer and invalidation to the whole Community; status rule with no actor."
+ },
+ {
+  "rid": 1197,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Unitary-character rule (duplicate); status rule with no actor."
+ },
+ {
+  "rid": 1198,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Unitary-character rule (duplicate); status rule with no actor."
+ },
+ {
+  "rid": 1199,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Office (OHIM) must carry out its tasks under the Regulation."
+ },
+ {
+  "rid": 1200,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Conditions for design protection; legal effect."
+ },
+ {
+  "rid": 1202,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Deeming rule on confidential disclosure."
+ },
+ {
+  "rid": 1203,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Grace-period rule on disclosures; legal effect."
+ },
+ {
+  "rid": 1204,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Excludes technically dictated features from protection; scope rule."
+ }
+]

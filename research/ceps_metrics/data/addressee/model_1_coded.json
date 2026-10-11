@@ -1,0 +1,1674 @@
+[
+ {
+  "rid": 1205,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Ground excluding design protection; a legal status rule binding no actor."
+ },
+ {
+  "rid": 1206,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "'Must' describes features of the product within an exclusion from protection; binds no actor."
+ },
+ {
+  "rid": 1207,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving clause restoring protection for modular designs; no actor bound."
+ },
+ {
+  "rid": 1208,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Exclusion of protection for immoral designs; legal status rule, no actor."
+ },
+ {
+  "rid": 1209,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Defines scope of protection conferred by the design right; legal effect."
+ },
+ {
+  "rid": 1210,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Interpretive duty on whoever assesses scope of protection, chiefly Community design courts (national courts)."
+ },
+ {
+  "rid": 1211,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Term of protection of unregistered design; legal effect."
+ },
+ {
+  "rid": 1212,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Deeming rule on disclosure; legal effect."
+ },
+ {
+  "rid": 1214,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Renewal of registration is effected by the Office (OHIM) on the holder's request."
+ },
+ {
+  "rid": 1218,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Entry of renewal in the register is done by the Office, which keeps the register."
+ },
+ {
+  "rid": 1219,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Vesting of the right in the designer; legal effect."
+ },
+ {
+  "rid": 1224,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Lapse of licences on change of ownership; legal effect."
+ },
+ {
+  "rid": 1226,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Confers exclusive rights on the holder; a right, not a restriction."
+ },
+ {
+  "rid": 1229,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Limitation of right holder's rights; functions as an exemption for third-party acts."
+ },
+ {
+  "rid": 1230,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Further exemptions limiting the right holder's rights; exemption rather than restriction."
+ },
+ {
+  "rid": 1231,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Exhaustion of rights; legal effect/exemption."
+ },
+ {
+  "rid": 1232,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Creates a right of prior use for third persons; a right."
+ },
+ {
+  "rid": 1233,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Entitles third person to exploit the design; a permission."
+ },
+ {
+  "rid": 1234,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Limits the third person holding the prior-use right from licensing it."
+ },
+ {
+  "rid": 1236,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Invalidity is declared by the Office (first-named) or a Community design court; mixed."
+ },
+ {
+  "rid": 1238,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Restricts the grounds on which the Office (or design courts) may declare invalidity."
+ },
+ {
+  "rid": 1242,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Lead-in to transfer provisions; no obligation itself."
+ },
+ {
+  "rid": 1244,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Successor in title (private person) may not invoke rights before registration of transfer."
+ },
+ {
+  "rid": 1249,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Jurisdiction rule confining insolvency proceedings to national courts of the debtor's COMI State."
+ },
+ {
+  "rid": 1258,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The applicant files the application at the chosen office."
+ },
+ {
+  "rid": 1263,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Content of the application drawn up by the applicant."
+ },
+ {
+  "rid": 1264,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Further content of the application, supplied by the applicant."
+ },
+ {
+  "rid": 1265,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Applicant must pay registration and publication fees."
+ },
+ {
+  "rid": 1266,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Applicant must make the application comply with implementing rules."
+ },
+ {
+  "rid": 1267,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Applicant pays additional fees for multiple applications."
+ },
+ {
+  "rid": 1269,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Applicant must present the multiple application as required."
+ },
+ {
+  "rid": 1270,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Defines the date of filing; legal effect."
+ },
+ {
+  "rid": 1273,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Classification under Locarno is applied by the Office in processing applications."
+ },
+ {
+  "rid": 1277,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Effect of the right of priority; legal effect."
+ },
+ {
+  "rid": 1278,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Effect of the right of priority; legal effect."
+ },
+ {
+  "rid": 1282,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Implementing regulation laying down examination conditions is adopted by the Commission."
+ },
+ {
+  "rid": 1291,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Office must register the application once requirements are met."
+ },
+ {
+  "rid": 1309,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Admissibility bar applied by the Office in invalidity proceedings."
+ },
+ {
+  "rid": 1316,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Opens a right of appeal; a permission, not a restriction."
+ },
+ {
+  "rid": 1319,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The appellant (party to proceedings) must file notice of appeal in time."
+ },
+ {
+  "rid": 1320,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The appellant must file the statement of grounds of appeal."
+ },
+ {
+  "rid": 1322,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Office department whose decision is contested must remit the appeal to the Board of Appeal."
+ },
+ {
+  "rid": 1340,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Office notifies those concerned."
+ },
+ {
+  "rid": 1344,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Time limit for the party seeking restitutio in integrum to file its application."
+ },
+ {
+  "rid": 1345,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Computation rule for the one-year period; binds no actor."
+ },
+ {
+  "rid": 1346,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The party applying for restitutio must state grounds and facts."
+ },
+ {
+  "rid": 1348,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The competent Office department decides on the application."
+ },
+ {
+  "rid": 1349,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope exclusion of the restitutio provisions; not a restriction."
+ },
+ {
+  "rid": 1362,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Invalidity Division or Board of Appeal (Office bodies) must take note of the settlement."
+ },
+ {
+  "rid": 1372,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Office publishes the Community Designs Bulletin."
+ },
+ {
+  "rid": 1374,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Office, which holds the files, must not open them to inspection without consent."
+ },
+ {
+  "rid": 1402,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Jurisdiction rule directing the claimant (private litigant) where to bring proceedings."
+ },
+ {
+  "rid": 1405,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Limits the grounds the claimant or counterclaimant may invoke."
+ },
+ {
+  "rid": 1439,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The applicant files the application in an official language."
+ },
+ {
+  "rid": 1446,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The applicant for a declaration of invalidity files in the language of proceedings."
+ },
+ {
+  "rid": 1449,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Office publishes prescribed information in all official languages."
+ },
+ {
+  "rid": 1450,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Office makes Register entries in all official languages."
+ },
+ {
+  "rid": 1455,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Allocation of decision-making competence among Office bodies."
+ },
+ {
+  "rid": 1456,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Office examiners are responsible for decisions on applications."
+ },
+ {
+  "rid": 1457,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Renaming of an Office division; organisational legal effect."
+ },
+ {
+  "rid": 1460,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Office Invalidity Divisions are responsible for invalidity decisions."
+ },
+ {
+  "rid": 1461,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Composition requirement for an Office Invalidity Division."
+ },
+ {
+  "rid": 1462,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Office Boards of Appeal are responsible for deciding appeals."
+ },
+ {
+  "rid": 1463,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The implementing regulation is adopted by the Commission."
+ },
+ {
+  "rid": 1464,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Fees are charged by the Office under the fees regulation."
+ },
+ {
+  "rid": 1465,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission adopts the regulations by committee procedure."
+ },
+ {
+  "rid": 1475,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Traders who indicate selling and unit prices must make them clear."
+ },
+ {
+  "rid": 1483,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Minimum-harmonisation saving clause permitting Member States more favourable rules."
+ },
+ {
+  "rid": 1495,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving clause leaving other Union law intact."
+ },
+ {
+  "rid": 1496,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving clause leaving other Union law intact."
+ },
+ {
+  "rid": 1500,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Non-exhaustion of rights; legal effect."
+ },
+ {
+  "rid": 1503,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Exception from the reproduction right; an exemption."
+ },
+ {
+  "rid": 1514,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Three-step test on limitations that Member States provide for in national law."
+ },
+ {
+  "rid": 1515,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Transitional rule on not reviving expired rights; legal effect."
+ },
+ {
+  "rid": 1520,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving clause for copyright protection."
+ },
+ {
+  "rid": 1521,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving clause for copyright protection."
+ },
+ {
+  "rid": 1530,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definitions lead-in."
+ },
+ {
+  "rid": 1531,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Part of the definition of established service provider."
+ },
+ {
+  "rid": 1595,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission's re-examination report must cover these points."
+ },
+ {
+  "rid": 1603,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of 'intended for use by'."
+ },
+ {
+  "rid": 1655,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Toy warnings are drawn up and affixed by the manufacturer (Art. 10(2))."
+ },
+ {
+  "rid": 1656,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer must use the Annex V Part B warnings for listed toy categories."
+ },
+ {
+  "rid": 1657,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer must use the prescribed warning wording."
+ },
+ {
+  "rid": 1663,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Permission for a Member State to impose a language requirement."
+ },
+ {
+  "rid": 1664,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States must not impede compliant toys."
+ },
+ {
+  "rid": 1669,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The EC declaration of conformity is drawn up by the manufacturer."
+ },
+ {
+  "rid": 1670,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer draws up and updates the EC declaration of conformity."
+ },
+ {
+  "rid": 1671,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer draws up and updates the EC declaration of conformity."
+ },
+ {
+  "rid": 1675,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer must affix CE marking to toys."
+ },
+ {
+  "rid": 1676,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "CE marking principles apply to the manufacturer who affixes it."
+ },
+ {
+  "rid": 1678,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer affixes the CE marking as specified."
+ },
+ {
+  "rid": 1680,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer must affix CE marking before placing on the market."
+ },
+ {
+  "rid": 1685,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EC-type examination procedure run by manufacturer (applicant) and notified body; mixed private."
+ },
+ {
+  "rid": 1686,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "EC-type examination is carried out by the notified body."
+ },
+ {
+  "rid": 1687,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer's application must include toy description and place of manufacture."
+ },
+ {
+  "rid": 1689,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The EC-type examination certificate is issued by the notified body."
+ },
+ {
+  "rid": 1691,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The notified body that issued the certificate must withdraw it."
+ },
+ {
+  "rid": 1694,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The technical documentation is drawn up by the manufacturer."
+ },
+ {
+  "rid": 1696,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer draws up the technical documentation in an official language."
+ },
+ {
+  "rid": 1745,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The conformity assessment body applying for notification must accompany its application."
+ },
+ {
+  "rid": 1817,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Restrictive measures are taken by national market surveillance authorities."
+ },
+ {
+  "rid": 1818,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "National authority taking the measure must notify the party concerned."
+ },
+ {
+  "rid": 1875,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Tolerance allowing fragrance traces; an exemption for manufacturers."
+ },
+ {
+  "rid": 1883,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Product design requirement binding the toy manufacturer."
+ },
+ {
+  "rid": 1901,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Content of technical documentation drawn up by the manufacturer."
+ },
+ {
+  "rid": 1931,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Conflict rule giving precedence to sectoral Union acts."
+ },
+ {
+  "rid": 1978,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Legal effect of withdrawal on the parties' obligations."
+ },
+ {
+  "rid": 1991,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Automatic termination of ancillary contracts; legal effect."
+ },
+ {
+  "rid": 2014,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Exempts the consumer from paying for unsolicited supply; an exemption."
+ },
+ {
+  "rid": 2029,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Wording of the model withdrawal instructions supplied to consumers by traders; template text."
+ },
+ {
+  "rid": 2030,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Template text of model instructions; the reimbursement duty sits in Art. 13."
+ },
+ {
+  "rid": 2033,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Template text of model instructions used by traders."
+ },
+ {
+  "rid": 2034,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Template text of model instructions used by traders."
+ },
+ {
+  "rid": 2035,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Template text of model instructions used by traders."
+ },
+ {
+  "rid": 2037,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Construction rule on the scope of taxes covered."
+ },
+ {
+  "rid": 2073,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Competent authorities of Member States communicate the information annually."
+ },
+ {
+  "rid": 2098,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States, together with the Commission, evaluate cooperation; mixed."
+ },
+ {
+  "rid": 2110,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requests between national tax authorities must use the standard form."
+ },
+ {
+  "rid": 2111,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The requesting national authority provides the information in the form."
+ },
+ {
+  "rid": 2114,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "National competent authorities communicate information via CCN."
+ },
+ {
+  "rid": 2130,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The receiving Member State's authorities must keep transmitted information secret."
+ },
+ {
+  "rid": 2134,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "National tax authorities exchanging information must apply data protection rules."
+ },
+ {
+  "rid": 2155,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Condition on lawful processing binding controllers."
+ },
+ {
+  "rid": 2156,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Lists a legal basis for processing; a permission ground, not a restriction."
+ },
+ {
+  "rid": 2164,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The controller must inform the data subject of the right to withdraw consent."
+ },
+ {
+  "rid": 2166,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Assessment criterion for freely given consent, applied first by the controller relying on consent."
+ },
+ {
+  "rid": 2210,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Limitation on the scope of the data subject's portability right; a carve-out."
+ },
+ {
+  "rid": 2213,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The controller must bring the right to object to the data subject's attention."
+ },
+ {
+  "rid": 2214,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The controller must present the right to object clearly and separately."
+ },
+ {
+  "rid": 2217,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content of restricting legislative measures adopted mainly by Member States (or the Union); mixed."
+ },
+ {
+  "rid": 2250,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The controller and processor assess the appropriate security level."
+ },
+ {
+  "rid": 2280,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The controller or processor designates the DPO on the basis of qualifications."
+ },
+ {
+  "rid": 2289,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Tasks of the DPO appointed by the private controller or processor."
+ },
+ {
+  "rid": 2290,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The DPO, acting for the controller or processor, must have regard to risk."
+ },
+ {
+  "rid": 2296,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The national supervisory authority provides an opinion on the draft code."
+ },
+ {
+  "rid": 2315,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Certification is issued by the certification body (or supervisory authority) for at most three years."
+ },
+ {
+  "rid": 2334,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Interpretive principle for applying the transfer chapter."
+ },
+ {
+  "rid": 2545,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content of national employment-data rules adopted by Member States, imposing safeguards on employers."
+ },
+ {
+  "rid": 2547,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Controllers processing for archiving/research must apply safeguards."
+ },
+ {
+  "rid": 2548,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Controllers must put the safeguarding technical and organisational measures in place."
+ },
+ {
+  "rid": 2549,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The controller must use non-identifying processing where sufficient."
+ },
+ {
+  "rid": 2555,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Relationship clause with the ePrivacy Directive."
+ },
+ {
+  "rid": 2585,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States must prohibit automated decisions by controllers, who under the LED are competent authorities."
+ },
+ {
+  "rid": 2638,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Records are kept by LED controllers/processors, i.e. competent national authorities."
+ },
+ {
+  "rid": 2768,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States lay down penalty rules."
+ },
+ {
+  "rid": 2772,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving clause for earlier Union acts."
+ },
+ {
+  "rid": 2788,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States must not restrict cross-border trust services."
+ },
+ {
+  "rid": 2797,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The notifying Member State's eID scheme must specify assurance levels."
+ },
+ {
+  "rid": 2798,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assurance level criteria apply to the eID schemes notified by Member States."
+ },
+ {
+  "rid": 2876,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Legal effect of electronic signatures, addressed to national courts."
+ },
+ {
+  "rid": 2878,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Requirements met by the signatory and signature tools providers creating an advanced signature."
+ },
+ {
+  "rid": 2885,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Qualified certificates are issued by qualified trust service providers."
+ },
+ {
+  "rid": 2886,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Bars Member States from imposing extra mandatory requirements on qualified certificates."
+ },
+ {
+  "rid": 2887,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Permission to include additional attributes."
+ },
+ {
+  "rid": 2888,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The issuing qualified trust service provider must not revert a revoked certificate."
+ },
+ {
+  "rid": 2907,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Validation is performed by the validation service provider or relying-party system operator."
+ },
+ {
+  "rid": 2908,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The operator of the validation system must give the relying party correct results."
+ },
+ {
+  "rid": 2915,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Legal effect of electronic seals, addressed to national courts."
+ },
+ {
+  "rid": 2917,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Requirements met by the seal creator and its tools."
+ },
+ {
+  "rid": 2924,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Qualified seal certificates are issued by qualified trust service providers."
+ },
+ {
+  "rid": 2925,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Bars Member States from imposing extra mandatory requirements."
+ },
+ {
+  "rid": 2926,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Permission to include additional attributes."
+ },
+ {
+  "rid": 2927,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The issuing qualified trust service provider must not revert a revoked certificate."
+ },
+ {
+  "rid": 2933,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Legal effect of electronic time stamps, addressed to national courts."
+ },
+ {
+  "rid": 2935,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Qualified time stamps are issued by qualified trust service providers."
+ },
+ {
+  "rid": 2937,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Legal effect of registered delivery data, addressed to national courts."
+ },
+ {
+  "rid": 2938,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Qualified trust service providers running registered delivery services must meet the requirements."
+ },
+ {
+  "rid": 2940,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Website authentication certificates are issued by qualified trust service providers."
+ },
+ {
+  "rid": 2942,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Legal effect of electronic documents, addressed to national courts."
+ },
+ {
+  "rid": 2952,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States' public bodies must recognise eID means under Art. 6 by the deadline."
+ },
+ {
+  "rid": 2955,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Content of qualified signature certificates issued by qualified trust service providers."
+ },
+ {
+  "rid": 2964,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Content of qualified seal certificates issued by qualified trust service providers."
+ },
+ {
+  "rid": 2966,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Content of website authentication certificates issued by qualified trust service providers."
+ },
+ {
+  "rid": 2997,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Own funds calculation performed by the payment institution."
+ },
+ {
+  "rid": 2998,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Payment institution must exclude extraordinary income from the relevant indicator."
+ },
+ {
+  "rid": 2999,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Payment institution's own funds under Method C must not fall below the floor."
+ },
+ {
+  "rid": 3001,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Defines the scaling factor k; a calculation parameter."
+ },
+ {
+  "rid": 3128,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Competent national authorities must justify and communicate their measures."
+ },
+ {
+  "rid": 3188,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Termination charges set by the payment service provider must be cost-based."
+ },
+ {
+  "rid": 3198,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The payee must inform the payer of surcharges or reductions."
+ },
+ {
+  "rid": 3200,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Payees/PSPs may only collect charges disclosed in advance."
+ },
+ {
+  "rid": 3325,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Force majeure exemption from liability."
+ },
+ {
+  "rid": 3377,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States must ensure PSPs operate complaint procedures."
+ },
+ {
+  "rid": 3464,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The reference offer is published by mobile network operators."
+ },
+ {
+  "rid": 3465,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The reference offer is published by mobile network operators."
+ },
+ {
+  "rid": 3503,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Without-prejudice clause on other Union certification rules."
+ },
+ {
+  "rid": 3724,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Statement establishing the framework and its objectives."
+ },
+ {
+  "rid": 3725,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Describes what the certification framework provides; programme description."
+ },
+ {
+  "rid": 3749,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Certification schemes are prepared by ENISA and adopted by the Commission."
+ },
+ {
+  "rid": 3750,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Scheme assurance levels are set by ENISA/Commission in the scheme."
+ },
+ {
+  "rid": 3751,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Scheme content drafted by ENISA and adopted by the Commission."
+ },
+ {
+  "rid": 3752,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assurance given by certificates/statements issued by conformity assessment bodies or manufacturers."
+ },
+ {
+  "rid": 3753,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Evaluation activities are carried out by conformity assessment bodies."
+ },
+ {
+  "rid": 3754,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Conformity assessment bodies undertake substitute evaluation activities."
+ },
+ {
+  "rid": 3755,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Substantial certificates are issued by conformity assessment bodies."
+ },
+ {
+  "rid": 3756,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Evaluation for 'substantial' is performed by conformity assessment bodies."
+ },
+ {
+  "rid": 3757,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Conformity assessment bodies undertake substitute evaluation activities."
+ },
+ {
+  "rid": 3758,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "High-level certificates issued by conformity assessment bodies (or national certification authorities)."
+ },
+ {
+  "rid": 3759,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Evaluation for 'high' performed by conformity assessment bodies (or national authorities)."
+ },
+ {
+  "rid": 3760,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Substitute evaluation activities by the evaluating conformity assessment body."
+ },
+ {
+  "rid": 3763,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Limits what schemes adopted by the Commission may permit for self-assessment."
+ },
+ {
+  "rid": 3766,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer or provider issuing the statement submits a copy."
+ },
+ {
+  "rid": 3767,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Member States must recognise EU statements of conformity."
+ },
+ {
+  "rid": 3768,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Content of certification schemes drafted by ENISA and adopted by the Commission."
+ },
+ {
+  "rid": 3771,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer or provider keeps supplementary information available and updated."
+ },
+ {
+  "rid": 3772,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer or provider keeps supplementary information available and updated."
+ },
+ {
+  "rid": 3773,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Declares certification voluntary; not a restriction."
+ },
+ {
+  "rid": 3782,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conformity assessment bodies issue certificates on scheme criteria."
+ },
+ {
+  "rid": 3828,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Establishment of the ECCG; an organisational provision."
+ }
+]

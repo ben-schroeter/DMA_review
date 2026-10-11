@@ -1,0 +1,1674 @@
+[
+ {
+  "rid": 16461,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Design applicant files the representation of the design (Art. 26 on application content)."
+ },
+ {
+  "rid": 16462,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Applicant indicates visual disclaimers in the representation it files."
+ },
+ {
+  "rid": 16463,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Applicant using disclaimers in its filed representation must use them consistently."
+ },
+ {
+  "rid": 16465,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Member States/offices may not impose a same-Locarno-class condition on multiple applications."
+ },
+ {
+  "rid": 16466,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Rule fixing the legal date of filing; a legal effect binding no actor."
+ },
+ {
+  "rid": 16467,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "National IP offices must limit their substantive examination."
+ },
+ {
+  "rid": 16473,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States must provide an administrative invalidity procedure entitling the listed persons."
+ },
+ {
+  "rid": 16474,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "National office renews the registration on the holder's request."
+ },
+ {
+  "rid": 16479,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Holder of the registered design (renewal requester) pays renewal and additional fee."
+ },
+ {
+  "rid": 16480,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "National office decides which designs are renewed when fees are insufficient."
+ },
+ {
+  "rid": 16481,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "National office records the renewal in its register."
+ },
+ {
+  "rid": 16483,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Offices \"shall be free to cooperate\": a permission for national offices."
+ },
+ {
+  "rid": 16484,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Offices \"shall be free to cooperate\": a permission for national offices."
+ },
+ {
+  "rid": 16503,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable person supplying goods/services must issue the invoice by the deadline."
+ },
+ {
+  "rid": 16504,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable person (platform) keeping Art. 242a records must make them available to Member States."
+ },
+ {
+  "rid": 16507,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable person using the special scheme submits the VAT return with this content."
+ },
+ {
+  "rid": 16508,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable person submitting the special-scheme VAT return."
+ },
+ {
+  "rid": 16511,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable person submitting the subsequent VAT return."
+ },
+ {
+  "rid": 16518,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable person under the Union scheme submits the VAT return with this content."
+ },
+ {
+  "rid": 16521,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable person under the special scheme submits the VAT return."
+ },
+ {
+  "rid": 16522,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable person under the special scheme submits the VAT return."
+ },
+ {
+  "rid": 16523,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable person with fixed establishments submits the VAT return including this data."
+ },
+ {
+  "rid": 16527,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable person submitting the subsequent VAT return."
+ },
+ {
+  "rid": 16528,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable person filing the VAT return must not include exempt supplies."
+ },
+ {
+  "rid": 16529,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable person or intermediary under the import scheme submits the VAT return."
+ },
+ {
+  "rid": 16530,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable person or intermediary under the import scheme submits the VAT return."
+ },
+ {
+  "rid": 16533,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable person or intermediary submitting the subsequent import-scheme VAT return."
+ },
+ {
+  "rid": 16534,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Issuer of invoices (taxable person) must meet the Chapter conditions for acceptance."
+ },
+ {
+  "rid": 16535,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable persons obliged to issue invoices must issue electronic invoices."
+ },
+ {
+  "rid": 16544,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Removes any recipient-acceptance requirement for compliant e-invoices; a liberalising rule limiting national law."
+ },
+ {
+  "rid": 16547,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable person submits digital reporting data to its Member State of identification."
+ },
+ {
+  "rid": 16553,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable persons receiving invoices transmit the data (agent stated)."
+ },
+ {
+  "rid": 16559,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Taxable persons reporting under Art. 263 transmit the listed data."
+ },
+ {
+  "rid": 16561,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "\"Member States may require\" taxable persons to store data: a permission for Member States."
+ },
+ {
+  "rid": 16577,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Conflict-of-laws clause on precedence of other Directives; no actor."
+ },
+ {
+  "rid": 16605,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Network operators and public sector bodies (mixed; first-named private) must grant on-site surveys (Art. 4(5))."
+ },
+ {
+  "rid": 16607,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States applying the exceptions publish justification via SIP and notify the Commission."
+ },
+ {
+  "rid": 16641,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Exemption of civil works from permit-granting; constrains national permitting authorities."
+ },
+ {
+  "rid": 16660,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Single information points (national bodies) must provide digital tools."
+ },
+ {
+  "rid": 16665,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "National dispute settlement bodies must publish decisions."
+ },
+ {
+  "rid": 16666,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Single information point (national body) must ensure access to decisions."
+ },
+ {
+  "rid": 16691,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of permit-granting process."
+ },
+ {
+  "rid": 16734,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Project promoter must submit the biennial report (agent stated)."
+ },
+ {
+  "rid": 16788,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "National authorities conducting the combined SEA/habitats assessment of plans."
+ },
+ {
+  "rid": 16790,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "National permit-granting authorities must publish decisions adopted under the permitting Section."
+ },
+ {
+  "rid": 16791,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "National permit-granting authorities must publish decisions adopted under the permitting Section."
+ },
+ {
+  "rid": 16794,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Standing subgroup of the European Critical Raw Materials Board (Art. 36) must advise promoters."
+ },
+ {
+  "rid": 16798,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission sets up the offtake bid-matching system (Art. 17(1))."
+ },
+ {
+  "rid": 16902,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Person placing products with magnets on the market must provide the linked data carrier."
+ },
+ {
+  "rid": 16903,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Person placing products on the market includes magnet info in the product passport."
+ },
+ {
+  "rid": 16907,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Natural or legal person placing products on the market must publish recycled shares."
+ },
+ {
+  "rid": 17014,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission determines strategic raw materials using the Annex I methodology."
+ },
+ {
+  "rid": 17017,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission performs the criticality calculations in Annex II."
+ },
+ {
+  "rid": 17018,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission performs the criticality assessment taking data quality into account."
+ },
+ {
+  "rid": 17030,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Owners of certification schemes seeking recognition must meet the criteria."
+ },
+ {
+  "rid": 17031,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Certification scheme owners must include the certification requirements."
+ },
+ {
+  "rid": 17032,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Calculation rules are adopted by the Commission by delegated act (Art. 30)."
+ },
+ {
+  "rid": 17033,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission's footprint calculation rules must build on Annex V."
+ },
+ {
+  "rid": 17034,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Essential element of the Commission's calculation rules; operators then apply them."
+ },
+ {
+  "rid": 17037,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content of the Commission's calculation rules (system boundary)."
+ },
+ {
+  "rid": 17038,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Content of the Commission's calculation rules (exclusion of use phase)."
+ },
+ {
+  "rid": 17039,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission's calculation rules must specify impact categories."
+ },
+ {
+  "rid": 17040,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission's choice of impact categories in the calculation rules."
+ },
+ {
+  "rid": 17041,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission's calculation rules must specify datasets."
+ },
+ {
+  "rid": 17045,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission's calculation rules must specify sampling."
+ },
+ {
+  "rid": 17055,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope rule determining which Regulation applies."
+ },
+ {
+  "rid": 17056,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of primarily used."
+ },
+ {
+  "rid": 17057,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope list of net-zero technologies."
+ },
+ {
+  "rid": 17103,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "National permit-granting authorities must publish their decisions."
+ },
+ {
+  "rid": 17104,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "National permit-granting authorities must publish their decisions."
+ },
+ {
+  "rid": 17111,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States must recognise qualifying projects as strategic projects (agent stated)."
+ },
+ {
+  "rid": 17115,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Project promoter submits the application (Art. 14(1))."
+ },
+ {
+  "rid": 17134,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "National authorities running the permit-granting process must respect the time limits."
+ },
+ {
+  "rid": 17135,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "National authorities running the permit-granting process must respect the time limit."
+ },
+ {
+  "rid": 17136,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Rule excluding an EIA step from the time-limit computation; a counting rule easing the limit."
+ },
+ {
+  "rid": 17139,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Member States adopting the Acceleration Valley decision (Art. 17(1))."
+ },
+ {
+  "rid": 17169,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Oil and gas authorisation holders must contribute to CO2 injection capacity."
+ },
+ {
+  "rid": 17190,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Contracting authorities set the minimum mandatory requirements in public procurement."
+ },
+ {
+  "rid": 17200,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States designing renewable auctions must apply the criteria."
+ },
+ {
+  "rid": 17201,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States designing renewable auctions must use objective criteria."
+ },
+ {
+  "rid": 17202,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States designing renewable auctions must reflect resilience."
+ },
+ {
+  "rid": 17203,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States designing renewable auctions must include further criteria."
+ },
+ {
+  "rid": 17221,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Member States/public authorities running other forms of public intervention."
+ },
+ {
+  "rid": 17230,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "European net-zero industry academies, Union initiatives launched with Commission support (Art. 30)."
+ },
+ {
+  "rid": 17231,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "European net-zero industry academies, Union initiatives launched with Commission support."
+ },
+ {
+  "rid": 17232,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Action plans of the European net-zero industry academies."
+ },
+ {
+  "rid": 17233,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "European net-zero industry academies, Union initiatives launched with Commission support."
+ },
+ {
+  "rid": 17246,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission's implementing acts on sandbox arrangements must support flexibility."
+ },
+ {
+  "rid": 17264,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "SET Plan Steering Group, a body established by the act."
+ },
+ {
+  "rid": 17265,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "SET Plan Steering Group, a body established by the act."
+ },
+ {
+  "rid": 17271,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "SET Plan Steering Group must meet regularly."
+ },
+ {
+  "rid": 17272,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "SET Plan Steering Group must meet on request."
+ },
+ {
+  "rid": 17344,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Repairer providing the European Repair Information Form (Art. 4(1))."
+ },
+ {
+  "rid": 17346,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Repairer must inform consumer of diagnostic costs."
+ },
+ {
+  "rid": 17347,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Repairer drawing up the European Repair Information Form."
+ },
+ {
+  "rid": 17348,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Repairer may not alter the stated conditions for 30 days."
+ },
+ {
+  "rid": 17393,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving clause allowing repairers to offer more protection."
+ },
+ {
+  "rid": 17399,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Seller must carry out repair or replacement under Directive 2019/771 Art. 14."
+ },
+ {
+  "rid": 17417,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Repairer filling in the form indicates temporary replacement availability."
+ },
+ {
+  "rid": 17419,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Specific objectives of the act; programme objective."
+ },
+ {
+  "rid": 17420,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Commission/ECCC implementing actions must respect Member State competences."
+ },
+ {
+  "rid": 17425,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Funding source of the Alert System actions; programme funding rule."
+ },
+ {
+  "rid": 17437,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Hosting consortium of national cyber hubs (public bodies) drafts the consortium agreement."
+ },
+ {
+  "rid": 17438,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Cross-Border Cyber Hubs (consortia of Member State national cyber hubs) conclude agreements."
+ },
+ {
+  "rid": 17439,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Cross-Border Cyber Hubs (Member State consortia) inform the Commission."
+ },
+ {
+  "rid": 17440,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Cross-Border Cyber Hubs (Member State consortia) ensure interoperable sharing."
+ },
+ {
+  "rid": 17460,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission/ECCC provides Emergency Mechanism actions upon Member State request."
+ },
+ {
+  "rid": 17461,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Funding source of the Emergency Mechanism; programme funding rule."
+ },
+ {
+  "rid": 17462,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Funding source of the Emergency Mechanism; programme funding rule."
+ },
+ {
+  "rid": 17463,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Emergency Mechanism actions implemented primarily through the ECCC."
+ },
+ {
+  "rid": 17465,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Scope of supported action types; programme content."
+ },
+ {
+  "rid": 17472,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Scope of supported preparedness actions; programme content."
+ },
+ {
+  "rid": 17474,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Funding modality (grants on request) of the Mechanism; programme rule."
+ },
+ {
+  "rid": 17499,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Contracting authority of the EU Cybersecurity Reserve (Commission/ENISA) must respond within 48h."
+ },
+ {
+  "rid": 17504,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Contracting authority of the Reserve prioritises concurrent requests."
+ },
+ {
+  "rid": 17505,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Contracting authority of the Reserve gives priority to Member State users."
+ },
+ {
+  "rid": 17535,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Scope of Mechanism support for mutual assistance; programme content."
+ },
+ {
+  "rid": 17536,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Funding modality (grants) for mutual assistance; programme rule."
+ },
+ {
+  "rid": 17558,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Complementarity/without-prejudice clause with the Civil Protection Mechanism."
+ },
+ {
+  "rid": 17559,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Union bodies handling support must follow IPCR procedures."
+ },
+ {
+  "rid": 17590,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme objective of DEP Specific Objective 3."
+ },
+ {
+  "rid": 17591,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Content of DEP actions; programme content."
+ },
+ {
+  "rid": 17592,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Subject-matter statement of the Regulation."
+ },
+ {
+  "rid": 17722,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturers may place EHR systems on the market only if compliant."
+ },
+ {
+  "rid": 17787,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer draws up the EU declaration of conformity."
+ },
+ {
+  "rid": 17788,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer draws up a single EU declaration of conformity."
+ },
+ {
+  "rid": 17789,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer drawing up the declaration of conformity."
+ },
+ {
+  "rid": 17804,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer affixes the CE marking."
+ },
+ {
+  "rid": 17805,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer affixes CE marking before placing on market."
+ },
+ {
+  "rid": 17806,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Manufacturer affixing the CE marking follows Reg. 765/2008 principles."
+ },
+ {
+  "rid": 17849,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer of the wellness application claiming interoperability must label it."
+ },
+ {
+  "rid": 17851,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Label issued by the manufacturer of the wellness application (Art. 47(1))."
+ },
+ {
+  "rid": 17857,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer of software-only wellness application shows digital label."
+ },
+ {
+  "rid": 17858,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer of software-only wellness application shows digital label."
+ },
+ {
+  "rid": 17885,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Health data access bodies may grant access for these purposes only to public sector bodies and EU bodies."
+ },
+ {
+  "rid": 17887,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Health data applicants/users may not seek or process data for prohibited uses."
+ },
+ {
+  "rid": 17974,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Health data access body keeps re-identification information exclusive."
+ },
+ {
+  "rid": 17989,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Health data access body must not issue the permit if application incomplete."
+ },
+ {
+  "rid": 17999,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Health data access body issuing the data permit sets its content."
+ },
+ {
+  "rid": 18000,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Health data access body issues permits for at most 10 years."
+ },
+ {
+  "rid": 18001,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Health data access body issues permits for at most 10 years."
+ },
+ {
+  "rid": 18007,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Health data applicant submits the health data request."
+ },
+ {
+  "rid": 18032,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Health data access bodies providing the secure processing environment (Art. 73(1))."
+ },
+ {
+  "rid": 18038,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recognised data altruism organisations must ensure their environments comply."
+ },
+ {
+  "rid": 18070,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Allocation of competence between national health data access bodies."
+ },
+ {
+  "rid": 18080,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Health data holders applying the data quality and utility label (Art. 78(1))."
+ },
+ {
+  "rid": 18082,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Health data access body assesses and revokes inaccurate labels."
+ },
+ {
+  "rid": 18149,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Steering groups established by the act for EU infrastructures."
+ },
+ {
+  "rid": 18150,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Steering groups established by the act decide by consensus."
+ },
+ {
+  "rid": 18151,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Steering groups established by the act vote by two-thirds."
+ },
+ {
+  "rid": 18325,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "EU Centre provides victims with the information (Art. 20)."
+ },
+ {
+  "rid": 18338,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Providers of relevant information society services must establish a point of contact."
+ },
+ {
+  "rid": 18382,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Coordinating Authorities' enforcement measures must be proportionate."
+ },
+ {
+  "rid": 18423,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "EU Centre maintains the databases of indicators."
+ },
+ {
+  "rid": 18424,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "EU Centre compiles the URL list in the databases."
+ },
+ {
+  "rid": 18640,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Provider of relevant information society services drawing up the annual report."
+ },
+ {
+  "rid": 18671,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving clause permitting Member States additional procurement requirements."
+ },
+ {
+  "rid": 18697,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Manufacturers of important/critical products follow CRA conformity assessment procedures."
+ },
+ {
+  "rid": 18826,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Open-source software stewards' cybersecurity policy content."
+ },
+ {
+  "rid": 18827,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Open-source software stewards' cybersecurity policy content."
+ },
+ {
+  "rid": 18828,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Open-source software stewards must cooperate with authorities."
+ },
+ {
+  "rid": 18855,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Manufacturer affixing the CE marking follows Reg. 765/2008 principles."
+ },
+ {
+  "rid": 18856,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer affixes the CE marking."
+ },
+ {
+  "rid": 18858,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer of software affixes the CE marking."
+ },
+ {
+  "rid": 18859,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer publishing the CE marking on its website."
+ },
+ {
+  "rid": 18860,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer affixes CE marking before placing on market."
+ },
+ {
+  "rid": 18868,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer draws up the technical documentation."
+ },
+ {
+  "rid": 18870,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer draws up and updates the technical documentation."
+ },
+ {
+  "rid": 18871,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer draws up and updates the technical documentation."
+ },
+ {
+  "rid": 18872,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer draws up a single set of technical documentation."
+ },
+ {
+  "rid": 18873,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer drafts documentation and correspondence in the required language."
+ },
+ {
+  "rid": 18942,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conformity assessment body submitting the application for notification."
+ },
+ {
+  "rid": 19091,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer draws up the EU declaration of conformity."
+ },
+ {
+  "rid": 19092,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer provides the simplified declaration of conformity."
+ },
+ {
+  "rid": 19094,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer drawing up the technical documentation."
+ },
+ {
+  "rid": 19168,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of media literacy."
+ },
+ {
+  "rid": 19286,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "National regulatory authorities assessing media market concentrations."
+ },
+ {
+  "rid": 19327,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Legal effect on the scope of a Union compulsory licence."
+ },
+ {
+  "rid": 19433,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "STEP programme objectives."
+ },
+ {
+  "rid": 19437,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Funding source of STEP; programme funding rule."
+ },
+ {
+  "rid": 19438,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Budget allocation to STEP; programme funding rule."
+ },
+ {
+  "rid": 19439,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Commission implements the allocated amount; programme funding rule."
+ },
+ {
+  "rid": 19440,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Commission implements the allocated amount; programme funding rule."
+ },
+ {
+  "rid": 19443,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "Use of the Sovereignty Seal as a quality label; programme instrument."
+ },
+ {
+  "rid": 19447,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission/managing authorities awarding funds must respect the cumulation cap."
+ },
+ {
+  "rid": 19451,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission runs the Sovereignty Portal."
+ },
+ {
+  "rid": 19467,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission's interim evaluation report accompanied by proposals."
+ },
+ {
+  "rid": 19469,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "JTF specific objective; programme objective."
+ },
+ {
+  "rid": 19470,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission and Member State (mixed) as parties to the InvestEU contribution agreement."
+ },
+ {
+  "rid": 19473,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission and Member State (mixed) as parties to the InvestEU contribution agreement."
+ },
+ {
+  "rid": 19474,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Member States re-use unused provisioning under the CPR/CAP rules."
+ },
+ {
+  "rid": 19479,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Implementing partner and final recipients/intermediaries must sign contracts by deadline."
+ },
+ {
+  "rid": 19499,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Data holders and data users must share data under scheme rules."
+ },
+ {
+  "rid": 19518,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Members (data holders) of the scheme notify it to the competent authority."
+ },
+ {
+  "rid": 19625,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Competent authorities must justify and communicate their measures."
+ },
+ {
+  "rid": 19647,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Payee must inform the payer of charges (agent stated)."
+ },
+ {
+  "rid": 19649,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Payees/PSPs may only charge payers for charges disclosed in advance."
+ },
+ {
+  "rid": 19650,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Persons providing cash withdrawal services must inform customers."
+ },
+ {
+  "rid": 19653,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Burden-of-proof rule on payment service providers; evidentiary legal effect."
+ },
+ {
+  "rid": 19683,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Payment service provider's termination charges must be cost-based."
+ },
+ {
+  "rid": 19942,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Force majeure exemption from liability."
+ },
+ {
+  "rid": 20042,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States/competent authorities must provide the listed sanctions."
+ },
+ {
+  "rid": 20044,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Rule for determining relevant turnover; definition-like."
+ },
+ {
+  "rid": 20194,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States provide shelters under the Directive."
+ },
+ {
+  "rid": 20196,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States provide shelters in sufficient numbers."
+ },
+ {
+  "rid": 20197,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States provide shelters in sufficient numbers."
+ },
+ {
+  "rid": 20198,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States ensure shelters are available to all victims."
+ },
+ {
+  "rid": 20202,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Competent national authorities placing child victims in accommodation."
+ },
+ {
+  "rid": 20203,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Competent national authorities assessing interim accommodation."
+ }
+]
