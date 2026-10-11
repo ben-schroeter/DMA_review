@@ -81,7 +81,7 @@ g.append(t(56, 1148, f"acts, obligations on companies rose ×{(cum[Y1][0] + cum[
 g.append(f'<g transform="translate({W - 330},1160)"><rect x="0" y="0" width="22" height="22" rx="3" fill="none" stroke="{INK}" stroke-width="1.6"></rect>'
          f'<path d="M5 15h12M5 11h12M5 7h7" stroke="{GOLD}" stroke-width="1.6" stroke-linecap="round"></path></g>')
 g.append(t(W - 298, 1178, "The EU Digital Rulebook", 22, INK, weight=400, font=SERIF))
-g.append(t(56, 1180, "Source: The EU Digital Rulebook (2026)", 16, INK2, weight=500))
+g.append(t(56, 1180, f'Source: The EU Digital Rulebook (2026) · <tspan fill="{GOLD}" font-weight="700" font-size="18">eutechlaws.org</tspan>', 16, INK2, weight=500))
 
 aria = (f"EU tech rules aimed directly at companies have quadrupled since 2018. Obligations naming a company in the laws themselves rose from "
         f"{base:,} at the start of 2018 to {now:,} in 2026 (x{factor:.1f}); with implementing and delegated acts, from "
