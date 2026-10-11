@@ -1,0 +1,2130 @@
+[
+ {
+  "rid": 1330,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Defines the reference period; definitional, no actor."
+ },
+ {
+  "rid": 1331,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "College members under MiCA are mainly national competent authorities."
+ },
+ {
+  "rid": 1332,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Voting rule of the EBA-chaired college; procedure run by the college."
+ },
+ {
+  "rid": 1333,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "College members (mainly national competent authorities) must provide information to EBA."
+ },
+ {
+  "rid": 1334,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "College members, mainly national competent authorities, must exchange views."
+ },
+ {
+  "rid": 1335,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Entrustment agreement concluded by college members (competent authorities)."
+ },
+ {
+  "rid": 1336,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The policy is the financial entity's policy under DORA; binds the financial entity."
+ },
+ {
+  "rid": 1337,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Financial entity's contractual-arrangements policy."
+ },
+ {
+  "rid": 1338,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Financial entity's contractual-arrangements policy."
+ },
+ {
+  "rid": 1339,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Financial entity's contractual-arrangements policy."
+ },
+ {
+  "rid": 1340,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Financial entity's contractual-arrangements policy."
+ },
+ {
+  "rid": 1341,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Financial entity's contractual-arrangements policy."
+ },
+ {
+  "rid": 1342,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Financial entity's contractual-arrangements policy."
+ },
+ {
+  "rid": 1343,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Policy must require the financial entity to use audit methods."
+ },
+ {
+  "rid": 1344,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Financial entity's contractual-arrangements policy."
+ },
+ {
+  "rid": 1345,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Financial entity's contractual-arrangements policy."
+ },
+ {
+  "rid": 1346,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Financial entity's contractual-arrangements policy."
+ },
+ {
+  "rid": 1347,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Financial entity's contractual-arrangements policy."
+ },
+ {
+  "rid": 1348,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Financial entity's contractual-arrangements policy."
+ },
+ {
+  "rid": 1349,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Financial entity's contractual-arrangements policy."
+ },
+ {
+  "rid": 1350,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Exit plan is established by the financial entity."
+ },
+ {
+  "rid": 1351,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Exit plan drawn up by the financial entity."
+ },
+ {
+  "rid": 1352,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Exit plan drawn up by the financial entity."
+ },
+ {
+  "rid": 1353,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Name of the EDIC; status provision."
+ },
+ {
+  "rid": 1354,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Statutory seat of the EDIC; status provision."
+ },
+ {
+  "rid": 1355,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Duration of the EDIC; status provision."
+ },
+ {
+  "rid": 1356,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assembly of Members of the EDIC (Member States) decides winding up."
+ },
+ {
+  "rid": 1357,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "ALT-EDIC, a consortium whose members are Member States, must notify the Commission."
+ },
+ {
+  "rid": 1358,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Statutory seat of the EDIC; status provision."
+ },
+ {
+  "rid": 1359,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Duration of the EDIC; status provision."
+ },
+ {
+  "rid": 1360,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assembly of Members of the EDIC (Member States) decides winding up."
+ },
+ {
+  "rid": 1361,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "DC-EDIC, a consortium whose members are Member States, must notify the Commission."
+ },
+ {
+  "rid": 1362,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Legal effect: the EDIC ceases to exist on publication."
+ },
+ {
+  "rid": 1363,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Guidance stating a condition for a distortive subsidy; not a duty."
+ },
+ {
+  "rid": 1364,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Quoted FSR limit on action, which is taken by the Commission."
+ },
+ {
+  "rid": 1365,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Descriptive statement on profitability; not a restriction."
+ },
+ {
+  "rid": 1366,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "AGORA must be used by Digital Services Coordinators, the Commission and the Board (mixed, first-named DSCs)."
+ },
+ {
+  "rid": 1367,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "AGORA administrators are staff of AGORA actors (DSCs, Commission, Board); mixed."
+ },
+ {
+  "rid": 1368,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "AGORA actors are the DSCs, Commission and Board; mixed, first-named DSCs."
+ },
+ {
+  "rid": 1369,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "AGORA actors are the DSCs, Commission and Board; mixed, first-named DSCs."
+ },
+ {
+  "rid": 1370,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Priority-rated orders are imposed by Commission decision under the emergency toolbox."
+ },
+ {
+  "rid": 1371,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Grants liability protection to companies; not a restriction."
+ },
+ {
+  "rid": 1372,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Cooperation arrangement rule on use of information by the requesting competent authority."
+ },
+ {
+  "rid": 1373,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Information use limited for the signatory competent authorities."
+ },
+ {
+  "rid": 1374,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Description in cooperation arrangement drawn up by competent authorities."
+ },
+ {
+  "rid": 1375,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Confidentiality duty on signatory competent authorities."
+ },
+ {
+  "rid": 1376,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Confidentiality duty on signatory competent authorities."
+ },
+ {
+  "rid": 1377,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission treats third-party comments as non-confidential."
+ },
+ {
+  "rid": 1378,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Additional file access is granted by the Commission."
+ },
+ {
+  "rid": 1379,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Computation of time periods; legal effect."
+ },
+ {
+  "rid": 1380,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Time periods do not start; legal effect of non-compliant document."
+ },
+ {
+  "rid": 1381,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Documents transmitted to the Commission are mainly by gatekeepers/undertakings under the DMA."
+ },
+ {
+  "rid": 1382,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Documents submitted by undertakings/gatekeepers to the Commission under the DMA."
+ },
+ {
+  "rid": 1383,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Format requirement for documents submitted by undertakings."
+ },
+ {
+  "rid": 1384,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Format requirement for documents submitted by undertakings."
+ },
+ {
+  "rid": 1385,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Notifying undertaking presents threshold information in Form GD."
+ },
+ {
+  "rid": 1386,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Page limit on written reply by the undertaking concerned."
+ },
+ {
+  "rid": 1387,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Audit performed by the auditing organisation (private auditor)."
+ },
+ {
+  "rid": 1388,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Audit report drawn up by the auditing organisation."
+ },
+ {
+  "rid": 1389,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Audit report drawn up by the auditing organisation."
+ },
+ {
+  "rid": 1390,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Audit implementation report drawn up by the audited VLOP/VLOSE provider."
+ },
+ {
+  "rid": 1391,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Audit report drawn up by the auditing organisation."
+ },
+ {
+  "rid": 1392,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Audit report drawn up by the auditing organisation."
+ },
+ {
+  "rid": 1393,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Audit report drawn up by the auditing organisation."
+ },
+ {
+  "rid": 1394,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Audit opinions given by the auditing organisation."
+ },
+ {
+  "rid": 1395,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Audit report drawn up by the auditing organisation."
+ },
+ {
+  "rid": 1396,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Audit risk analysis carried out by the auditing organisation."
+ },
+ {
+  "rid": 1397,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Audit risk analysis carried out by the auditing organisation."
+ },
+ {
+  "rid": 1398,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Audit risk analysis carried out by the auditing organisation."
+ },
+ {
+  "rid": 1399,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Audit risk analysis carried out by the auditing organisation."
+ },
+ {
+  "rid": 1400,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Audits performed by the auditing organisation."
+ },
+ {
+  "rid": 1401,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Audit report drawn up by the auditing organisation."
+ },
+ {
+  "rid": 1402,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Audit procedures applied by the auditing organisation."
+ },
+ {
+  "rid": 1403,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Audit conclusions reached by the auditing organisation."
+ },
+ {
+  "rid": 1404,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Sampling selected by the auditing organisation."
+ },
+ {
+  "rid": 1405,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Sampling selected by the auditing organisation."
+ },
+ {
+  "rid": 1406,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Audit report drawn up by the auditing organisation."
+ },
+ {
+  "rid": 1407,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assessment carried out by the auditing organisation in the audit."
+ },
+ {
+  "rid": 1408,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Audit performed by the auditing organisation."
+ },
+ {
+  "rid": 1409,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Means of communication used by competent authorities, ESMA and EBA (mixed, first-named NCAs)."
+ },
+ {
+  "rid": 1410,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Submitting body is a competent authority, ESMA or EBA under MiCA cooperation (mixed)."
+ },
+ {
+  "rid": 1411,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Submitting body (competent authority, ESMA or EBA) confirms oral request."
+ },
+ {
+  "rid": 1412,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Receiving body (competent authority, ESMA or EBA) acknowledges receipt."
+ },
+ {
+  "rid": 1413,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Receiving body (competent authority, ESMA or EBA) indicates update frequency."
+ },
+ {
+  "rid": 1414,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Submitting body (competent authority, ESMA or EBA) uses Annex IV form."
+ },
+ {
+  "rid": 1415,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Receiving body (competent authority, ESMA or EBA) must not disclose."
+ },
+ {
+  "rid": 1416,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Submitting body (competent authority, ESMA or EBA) withdraws request."
+ },
+ {
+  "rid": 1417,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Body receiving information (competent authority, ESMA or EBA) limited in use."
+ },
+ {
+  "rid": 1418,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Confidentiality duty on the authorities exchanging the request."
+ },
+ {
+  "rid": 1419,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Confidentiality duty on the authorities exchanging the request."
+ },
+ {
+  "rid": 1420,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Confidentiality duty on the receiving authority."
+ },
+ {
+  "rid": 1421,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Receiving body (competent authority, ESMA or EBA) observes use limits."
+ },
+ {
+  "rid": 1422,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Stress test methodologies of issuers of ARTs/EMTs."
+ },
+ {
+  "rid": 1423,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Stress testing frequency for token issuers."
+ },
+ {
+  "rid": 1424,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Stress testing frequency for token issuers."
+ },
+ {
+  "rid": 1425,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Logo design fixed by the act; binds no identifiable actor."
+ },
+ {
+  "rid": 1426,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Logo use by data intermediation service providers and data altruism organisations."
+ },
+ {
+  "rid": 1427,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Logo reproduction by data intermediation providers/data altruism organisations using it."
+ },
+ {
+  "rid": 1428,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Logo use by data intermediation service providers and data altruism organisations."
+ },
+ {
+  "rid": 1429,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Logo use by data intermediation service providers and data altruism organisations."
+ },
+ {
+  "rid": 1430,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Logo use by data intermediation service providers and data altruism organisations."
+ },
+ {
+  "rid": 1431,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Logo use by data intermediation service providers and data altruism organisations."
+ },
+ {
+  "rid": 1432,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Name of the EDIC; status provision."
+ },
+ {
+  "rid": 1433,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Statutory seat of the EDIC; status provision."
+ },
+ {
+  "rid": 1434,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Duration of the EDIC; status provision."
+ },
+ {
+  "rid": 1435,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assembly of Members of the EDIC (Member States) decides winding up."
+ },
+ {
+  "rid": 1436,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "EDIC, a consortium whose members are Member States, must notify the Commission."
+ },
+ {
+  "rid": 1437,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Name of the EDIC; status provision."
+ },
+ {
+  "rid": 1438,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Statutory seat of the EDIC; status provision."
+ },
+ {
+  "rid": 1439,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Duration of the EDIC; status provision."
+ },
+ {
+  "rid": 1440,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assembly of Members of the EDIC (Member States) decides winding up."
+ },
+ {
+  "rid": 1441,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "EDIC, a consortium whose members are Member States, must notify the Commission."
+ },
+ {
+  "rid": 1442,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Records retained by crypto-asset service providers."
+ },
+ {
+  "rid": 1443,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Order records kept by crypto-asset service providers."
+ },
+ {
+  "rid": 1444,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Order records kept by crypto-asset service providers."
+ },
+ {
+  "rid": 1445,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ICT risk management procedure of the financial entity under DORA."
+ },
+ {
+  "rid": 1446,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ICT operations policies of the financial entity."
+ },
+ {
+  "rid": 1447,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ICT operations policies of the financial entity."
+ },
+ {
+  "rid": 1448,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Capacity management procedures of financial entities."
+ },
+ {
+  "rid": 1449,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Security requirements set by the financial entity."
+ },
+ {
+  "rid": 1450,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Security requirements set by the financial entity."
+ },
+ {
+  "rid": 1451,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Security requirements set by the financial entity."
+ },
+ {
+  "rid": 1452,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Secure configuration baseline of the financial entity."
+ },
+ {
+  "rid": 1453,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Logging procedures of the financial entity."
+ },
+ {
+  "rid": 1454,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ICT project management policy of the financial entity."
+ },
+ {
+  "rid": 1455,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ICT project management policy of the financial entity."
+ },
+ {
+  "rid": 1456,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Physical security measures of the financial entity."
+ },
+ {
+  "rid": 1457,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Physical security policy of the financial entity."
+ },
+ {
+  "rid": 1458,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content of the ICT review report drawn up by the financial entity."
+ },
+ {
+  "rid": 1459,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ICT review report drawn up by the financial entity."
+ },
+ {
+  "rid": 1460,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ICT review report drawn up by the financial entity."
+ },
+ {
+  "rid": 1461,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ICT review report drawn up by the financial entity."
+ },
+ {
+  "rid": 1462,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Financial entities named as subject."
+ },
+ {
+  "rid": 1463,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Name of the EDIC; status provision."
+ },
+ {
+  "rid": 1464,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Statutory seat of the EDIC; status provision."
+ },
+ {
+  "rid": 1465,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Duration of the EDIC; status provision."
+ },
+ {
+  "rid": 1466,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assembly of Members of the EDIC (Member States) decides winding up."
+ },
+ {
+  "rid": 1467,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "EDIC, a consortium whose members are Member States, must notify the Commission."
+ },
+ {
+  "rid": 1468,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Name of the EDIC; status provision."
+ },
+ {
+  "rid": 1469,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Statutory seat of the EDIC; status provision."
+ },
+ {
+  "rid": 1470,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Duration of the EDIC; status provision."
+ },
+ {
+  "rid": 1471,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assembly of Members of the EDIC (Member States) decides winding up."
+ },
+ {
+  "rid": 1472,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "EDIC, a consortium whose members are Member States, must notify the Commission."
+ },
+ {
+  "rid": 1473,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "KPIs used by the Commission to monitor Digital Decade targets."
+ },
+ {
+  "rid": 1474,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "KPIs computed by the Commission from the listed data sources."
+ },
+ {
+  "rid": 1475,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission includes KPIs in DESI monitoring."
+ },
+ {
+  "rid": 1476,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Statement of findings drawn up by the EBA investigation officer."
+ },
+ {
+  "rid": 1477,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Written explanation of delayed disclosure provided by the issuer/offeror via electronic means."
+ },
+ {
+  "rid": 1478,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Concentration notifications submitted by notifying parties."
+ },
+ {
+  "rid": 1479,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Joint notifications submitted by notifying parties."
+ },
+ {
+  "rid": 1480,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Notification form submitted by notifying parties."
+ },
+ {
+  "rid": 1481,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Notifications submitted by notifying parties."
+ },
+ {
+  "rid": 1482,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Notifying parties submit supporting documents in original language; language rule for proceedings."
+ },
+ {
+  "rid": 1483,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Notifications of foreign financial contributions submitted by economic operators."
+ },
+ {
+  "rid": 1484,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Notifications and declarations submitted by economic operators."
+ },
+ {
+  "rid": 1485,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Notifying parties submit supporting documents in original language."
+ },
+ {
+  "rid": 1486,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Justifications submitted by notifying parties."
+ },
+ {
+  "rid": 1487,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commitments offered by notifying parties."
+ },
+ {
+  "rid": 1488,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving clause preserving the Commission's power to use information."
+ },
+ {
+  "rid": 1489,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Start of suspension of a time limit; legal effect."
+ },
+ {
+  "rid": 1490,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Information provided by notifying parties in Form FS-CO."
+ },
+ {
+  "rid": 1491,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "States pre-notification contacts are not mandatory; not a restriction."
+ },
+ {
+  "rid": 1492,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Start of the review period; legal effect."
+ },
+ {
+  "rid": 1493,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Contact details provided by notifying parties."
+ },
+ {
+  "rid": 1494,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Powers of attorney attached by notifying parties."
+ },
+ {
+  "rid": 1495,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Annexes submitted by notifying parties."
+ },
+ {
+  "rid": 1496,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Financial data provided by notifying parties."
+ },
+ {
+  "rid": 1497,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Delimits which transactions are counted; definitional."
+ },
+ {
+  "rid": 1498,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Delimits which transactions are counted; definitional."
+ },
+ {
+  "rid": 1499,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Name of the EDIC; status provision."
+ },
+ {
+  "rid": 1500,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Statutory seat of the EDIC; status provision."
+ },
+ {
+  "rid": 1501,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Duration of the EDIC; status provision."
+ },
+ {
+  "rid": 1502,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assembly of Members of the EDIC (Member States) decides termination."
+ },
+ {
+  "rid": 1503,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "EDIC, a consortium whose members are Member States, must notify the Commission."
+ },
+ {
+  "rid": 1504,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "IMPACTS-EDIC (Member State consortium) must meet conditions for tax exemption."
+ },
+ {
+  "rid": 1505,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "STOR fields completed by persons arranging transactions (CASPs)."
+ },
+ {
+  "rid": 1506,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of indicators."
+ },
+ {
+  "rid": 1507,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Template filled by white paper authors / CASPs."
+ },
+ {
+  "rid": 1508,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Table heading in the disclosure template; title."
+ },
+ {
+  "rid": 1509,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Section heading in the disclosure template; title."
+ },
+ {
+  "rid": 1510,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Application for authorisation submitted by the applicant issuer."
+ },
+ {
+  "rid": 1511,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Application for authorisation submitted by the applicant issuer."
+ },
+ {
+  "rid": 1512,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Application for authorisation submitted by the applicant issuer."
+ },
+ {
+  "rid": 1513,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Proposed acquirer named as subject."
+ },
+ {
+  "rid": 1514,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Proposed acquirer named as subject."
+ },
+ {
+  "rid": 1515,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Proposed acquirer named as subject."
+ },
+ {
+  "rid": 1516,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Information provided by the proposed acquirer."
+ },
+ {
+  "rid": 1517,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Proposed acquirer named as subject."
+ },
+ {
+  "rid": 1518,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Proposed acquirer named as subject."
+ },
+ {
+  "rid": 1519,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Additional file access is granted by the Commission."
+ },
+ {
+  "rid": 1520,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Format of observations submitted by the provider/parties to the Commission."
+ },
+ {
+  "rid": 1521,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "UCPD disclosure duty on traders, recalled by the Commission."
+ },
+ {
+  "rid": 1522,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Joint examination team members are staff of the ESAs and national competent authorities under DORA oversight (mixed)."
+ },
+ {
+  "rid": 1523,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Joint examination team members are staff of the ESAs and national competent authorities under DORA oversight (mixed)."
+ },
+ {
+  "rid": 1524,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Joint examination team members are staff of the ESAs and national competent authorities under DORA oversight (mixed)."
+ },
+ {
+  "rid": 1525,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Lead Overseer (an ESA) named as subject."
+ },
+ {
+  "rid": 1526,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Joint examination team members are staff of the ESAs and national competent authorities under DORA oversight (mixed)."
+ },
+ {
+  "rid": 1527,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Joint examination team members are staff of the ESAs and national competent authorities under DORA oversight (mixed)."
+ },
+ {
+  "rid": 1528,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Joint examination team members are staff of the ESAs and national competent authorities under DORA oversight (mixed)."
+ },
+ {
+  "rid": 1529,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Joint examination team members are staff of the ESAs and national competent authorities under DORA oversight (mixed)."
+ },
+ {
+  "rid": 1530,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "TLPT control team is staff of the financial entity."
+ },
+ {
+  "rid": 1531,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "TLPT control team is staff of the financial entity."
+ },
+ {
+  "rid": 1532,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "TLPT control team is staff of the financial entity."
+ },
+ {
+  "rid": 1533,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Financial entity named as subject."
+ },
+ {
+  "rid": 1534,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "TLPT control team is staff of the financial entity."
+ },
+ {
+  "rid": 1535,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "TLPT control team is staff of the financial entity."
+ },
+ {
+  "rid": 1536,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "TLPT control team is staff of the financial entity."
+ },
+ {
+  "rid": 1537,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "External testers named as subject."
+ },
+ {
+  "rid": 1538,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "External testers named as subject."
+ },
+ {
+  "rid": 1539,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "External testers named as subject."
+ },
+ {
+  "rid": 1540,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Red team testing phase run by testers and the financial entity's control team."
+ },
+ {
+  "rid": 1541,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Testers and threat intelligence provider named as subjects."
+ },
+ {
+  "rid": 1542,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "TLPT control team is staff of the financial entity."
+ },
+ {
+  "rid": 1543,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Counting rule for the minimum testing duration; legal effect."
+ },
+ {
+  "rid": 1544,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "TLPT attestation is issued by the national TLPT authority under DORA Art. 26(7)."
+ },
+ {
+  "rid": 1545,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Scope specification document drafted by the financial entity's control team."
+ },
+ {
+  "rid": 1546,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Scope specification document drafted by the financial entity's control team."
+ },
+ {
+  "rid": 1547,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Targeted threat intelligence report drawn up by the threat intelligence provider."
+ },
+ {
+  "rid": 1548,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Red team test plan prepared by the testers."
+ },
+ {
+  "rid": 1549,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Red team test report drawn up by the testers."
+ },
+ {
+  "rid": 1550,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Blue team test report drawn up by the financial entity."
+ },
+ {
+  "rid": 1551,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Test summary report drawn up by the financial entity."
+ },
+ {
+  "rid": 1552,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "TLPT attestation is issued by the national TLPT authority."
+ },
+ {
+  "rid": 1553,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "DSA data access portal is established and run by the Commission."
+ },
+ {
+  "rid": 1554,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data catalogue and access modalities published by data providers (VLOPs/VLOSEs)."
+ },
+ {
+  "rid": 1555,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Reasoned request issued by the Digital Services Coordinator of establishment."
+ },
+ {
+  "rid": 1556,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Overview published and updated by the Digital Services Coordinator of establishment."
+ },
+ {
+  "rid": 1557,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission estimates overall annual costs for the DSA supervisory fee."
+ },
+ {
+  "rid": 1558,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission estimates overall annual costs for the DSA supervisory fee."
+ },
+ {
+  "rid": 1559,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission estimates overall annual costs for the DSA supervisory fee."
+ },
+ {
+  "rid": 1560,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Commission annually identifies designated services charged a fee."
+ },
+ {
+  "rid": 1561,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Commission annually identifies designated services charged a fee."
+ },
+ {
+  "rid": 1562,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Coefficient used by the Commission to calculate the supervisory fee."
+ },
+ {
+  "rid": 1563,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Proposed acquirer named as subject."
+ },
+ {
+  "rid": 1564,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conflict-of-interest policies of the ART issuer."
+ },
+ {
+  "rid": 1565,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conflict-of-interest policies of the ART issuer."
+ },
+ {
+  "rid": 1566,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Product requirement met by the contractor supplying wind turbine blades in public procurement."
+ },
+ {
+  "rid": 1567,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Recyclability demonstrated by the contractor."
+ },
+ {
+  "rid": 1568,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Applied by contracting authorities in procurement procedures."
+ },
+ {
+  "rid": 1569,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Pointer to the Annex specifications; no actor."
+ },
+ {
+  "rid": 1570,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Decentralised IT system components are operated by Member State authorities."
+ },
+ {
+  "rid": 1571,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Electronic evidence transmitted by service providers in response to Production Orders."
+ },
+ {
+  "rid": 1572,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Transmission of large evidence files by service providers."
+ },
+ {
+  "rid": 1573,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Decentralised IT system components are operated by Member State authorities."
+ },
+ {
+  "rid": 1574,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Decentralised IT system components are operated by Member State authorities."
+ },
+ {
+  "rid": 1575,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Decentralised IT system components are operated by Member State authorities."
+ },
+ {
+  "rid": 1576,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Decentralised IT system components are operated by Member State authorities."
+ },
+ {
+  "rid": 1577,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Issuing State named as responsible."
+ },
+ {
+  "rid": 1578,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Public certificates supplied by issuing competent authorities."
+ },
+ {
+  "rid": 1579,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Public certificates supplied by issuing competent authorities."
+ },
+ {
+  "rid": 1580,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Public certificates supplied by issuing competent authorities."
+ },
+ {
+  "rid": 1581,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data point model developed by the European Supervisory Authority."
+ },
+ {
+  "rid": 1582,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data point model developed by the European Supervisory Authority."
+ },
+ {
+  "rid": 1583,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Validation rules set by the European Supervisory Authority."
+ },
+ {
+  "rid": 1584,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Validation rules set by the European Supervisory Authority."
+ },
+ {
+  "rid": 1585,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Template completed by the ICT third-party service provider sharing subcontracting information."
+ },
+ {
+  "rid": 1586,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Labels/transparency notices provided by political advertising publishers under Regulation 2024/900."
+ },
+ {
+  "rid": 1587,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Labels/transparency notices provided by political advertising publishers under Regulation 2024/900."
+ },
+ {
+  "rid": 1588,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Labels/transparency notices provided by political advertising publishers under Regulation 2024/900."
+ },
+ {
+  "rid": 1589,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Labels/transparency notices provided by political advertising publishers under Regulation 2024/900."
+ },
+ {
+  "rid": 1590,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Labels/transparency notices provided by political advertising publishers under Regulation 2024/900."
+ },
+ {
+  "rid": 1591,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Labels/transparency notices provided by political advertising publishers under Regulation 2024/900."
+ },
+ {
+  "rid": 1592,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Labels/transparency notices provided by political advertising publishers under Regulation 2024/900."
+ },
+ {
+  "rid": 1593,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Labels/transparency notices provided by political advertising publishers under Regulation 2024/900."
+ },
+ {
+  "rid": 1594,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Labels/transparency notices provided by political advertising publishers under Regulation 2024/900."
+ },
+ {
+  "rid": 1595,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Labels/transparency notices provided by political advertising publishers under Regulation 2024/900."
+ }
+]

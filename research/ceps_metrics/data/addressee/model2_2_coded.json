@@ -1,0 +1,2130 @@
+[
+ {
+  "rid": 532,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Guidance footnote quoting CJEU on contract continuing after deletion of unfair term; legal effect, not a binding duty."
+ },
+ {
+  "rid": 533,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Guidance footnote reporting an Advocate General interpretation addressed to national judges; not a binding restriction."
+ },
+ {
+  "rid": 534,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Guidance footnote on how national courts assess effective remedy; interpretive, not a restriction."
+ },
+ {
+  "rid": 535,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Commission guidance view that ex officio control logic applies to other procedures (national courts); non-binding notice."
+ },
+ {
+  "rid": 536,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Guidance on ex officio examination by national courts; non-binding interpretive statement."
+ },
+ {
+  "rid": 537,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Notice limiting presumption of conformity of a harmonised standard; legal effect, no actor."
+ },
+ {
+  "rid": 538,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Notice limiting presumption of conformity of a harmonised standard; legal effect, no actor."
+ },
+ {
+  "rid": 539,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Quoted standard sentence whose use removes the presumption of conformity; legal effect, not a restriction."
+ },
+ {
+  "rid": 540,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Notice qualifying how the standard test is applied; binds the manufacturer applying the standard to claim conformity."
+ },
+ {
+  "rid": 541,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Content of an application for a declaration of invalidity; binds the applicant filing it with EUIPO."
+ },
+ {
+  "rid": 542,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Content of an application for a declaration of invalidity; binds the applicant filing it with EUIPO."
+ },
+ {
+  "rid": 543,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Communications between EUIPO (the Office) and the WIPO International Bureau; binds the Office (mixed with WIPO)."
+ },
+ {
+  "rid": 544,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Deeming rule: representative communications have the same effect as the represented person; legal effect."
+ },
+ {
+  "rid": 545,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Rule on calculating time limits (relevant event is receipt); legal effect, no actor."
+ },
+ {
+  "rid": 546,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Editorial correction of a cross-reference in a harmonised standard; no actor."
+ },
+ {
+  "rid": 547,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Content of the research proposal submitted by the research entity requesting access."
+ },
+ {
+  "rid": 548,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Research proposal must be accompanied by researcher declarations; binds the requesting research entity."
+ },
+ {
+  "rid": 549,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Withdrawal of a standard reference from the OJ, effected by the Commission decision itself; legal effect."
+ },
+ {
+  "rid": 550,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Notice limiting presumption of conformity of a harmonised standard; legal effect, no actor."
+ },
+ {
+  "rid": 551,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Band arrangement and block assignment carried out by Member States designating the 1.5 GHz band under Art. 2."
+ },
+ {
+  "rid": 552,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Band arrangement and block assignment carried out by Member States designating the 1.5 GHz band under Art. 2."
+ },
+ {
+  "rid": 553,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Member States must make the band available under these technical conditions; base station operators carry them out."
+ },
+ {
+  "rid": 554,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Member States must make the band available under these technical conditions; base station operators carry them out."
+ },
+ {
+  "rid": 555,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Duplex mode arrangement Member States apply when designating the 3.4-3.6 GHz band."
+ },
+ {
+  "rid": 556,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "National administration choosing an upper power bound must not exceed the stated value."
+ },
+ {
+  "rid": 557,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Merger notifications are submitted by the notifying parties (undertakings) to the Commission."
+ },
+ {
+  "rid": 558,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Merger notifications are submitted by the notifying parties (undertakings) to the Commission."
+ },
+ {
+  "rid": 559,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Merger notifications are submitted by the notifying parties (undertakings) to the Commission."
+ },
+ {
+  "rid": 560,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Merger notifications are submitted by the notifying parties (undertakings) to the Commission."
+ },
+ {
+  "rid": 561,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Merger notifications are submitted by the notifying parties (undertakings) to the Commission."
+ },
+ {
+  "rid": 562,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Merger notifications are submitted by the notifying parties (undertakings) to the Commission."
+ },
+ {
+  "rid": 563,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Reasoned submissions under Art. 4(4)-(5) EUMR are made by the persons/undertakings concerned."
+ },
+ {
+  "rid": 564,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Information submitted by the notifying parties must be correct and complete."
+ },
+ {
+  "rid": 565,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Oral hearings conducted by the Commission Hearing Officer."
+ },
+ {
+  "rid": 566,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission/Hearing Officer makes the hearing recording available to attendees."
+ },
+ {
+  "rid": 567,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Use limitation on file documents binds the parties granted access to the file."
+ },
+ {
+  "rid": 568,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Footnote restating that Member States designate and make bands available on a shared basis (Art. 3(1))."
+ },
+ {
+  "rid": 569,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Definition of non-interference basis; MCV service operators may not cause interference, but it is a definition."
+ },
+ {
+  "rid": 570,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Technical conditions Member States impose when making bands available for MCV; operators of MCV systems apply them."
+ },
+ {
+  "rid": 571,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Technical conditions Member States impose when making bands available for MCV; operators of MCV systems apply them."
+ },
+ {
+  "rid": 572,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Technical conditions Member States impose when making bands available for MCV; operators of MCV systems apply them."
+ },
+ {
+  "rid": 573,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Technical conditions Member States impose when making bands available for MCV; operators of MCV systems apply them."
+ },
+ {
+  "rid": 574,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States designating the 700 MHz band shall follow these conditions (stated subject)."
+ },
+ {
+  "rid": 575,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Frequency arrangement Member States apply under Art. 3(1) when designating the 700 MHz band."
+ },
+ {
+  "rid": 576,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Frequency arrangement Member States apply under Art. 3(1) when designating the 700 MHz band."
+ },
+ {
+  "rid": 577,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Frequency arrangement Member States apply under Art. 3(1) when designating the 700 MHz band."
+ },
+ {
+  "rid": 578,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Frequency arrangement Member States apply under Art. 3(1) when designating the 700 MHz band."
+ },
+ {
+  "rid": 579,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Frequency arrangement Member States apply under Art. 3(1) when designating the 700 MHz band."
+ },
+ {
+  "rid": 580,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Frequency arrangement Member States apply under Art. 3(1) when designating the 700 MHz band."
+ },
+ {
+  "rid": 581,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Frequency arrangement Member States apply under Art. 3(1) when designating the 700 MHz band."
+ },
+ {
+  "rid": 582,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Frequency arrangement Member States apply under Art. 3(1) when designating the 700 MHz band."
+ },
+ {
+  "rid": 583,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Frequency arrangement Member States apply under Art. 3(1) when designating the 700 MHz band."
+ },
+ {
+  "rid": 584,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Frequency arrangement Member States apply under Art. 3(1) when designating the 700 MHz band."
+ },
+ {
+  "rid": 585,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Frequency arrangement Member States apply under Art. 3(1) when designating the 700 MHz band."
+ },
+ {
+  "rid": 586,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Frequency arrangement Member States apply under Art. 3(1) when designating the 700 MHz band."
+ },
+ {
+  "rid": 587,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Frequency arrangement Member States apply under Art. 3(1) when designating the 700 MHz band."
+ },
+ {
+  "rid": 588,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Frequency arrangement Member States apply under Art. 3(1) when designating the 700 MHz band."
+ },
+ {
+  "rid": 589,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Table cell stating \"not mandatory\"/non-mandatory; not a restriction."
+ },
+ {
+  "rid": 590,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Table cell stating \"not mandatory\"/non-mandatory; not a restriction."
+ },
+ {
+  "rid": 591,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Recital of a recommendation stating a consideration; not a restriction."
+ },
+ {
+  "rid": 592,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Recommendation on content of NRA notifications; \"are required\" refers to measures, and the act is non-binding."
+ },
+ {
+  "rid": 593,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Physical/deployment characteristics of small-area wireless access points; binds the operator deploying them."
+ },
+ {
+  "rid": 594,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Physical/deployment characteristics of small-area wireless access points; binds the operator deploying them."
+ },
+ {
+  "rid": 595,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Physical/deployment characteristics of small-area wireless access points; binds the operator deploying them."
+ },
+ {
+  "rid": 596,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Physical/deployment characteristics of small-area wireless access points; binds the operator deploying them."
+ },
+ {
+  "rid": 597,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Physical/deployment characteristics of small-area wireless access points; binds the operator deploying them."
+ },
+ {
+  "rid": 598,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Attestations issued to wallet units must comply with standards; binds the attestation issuer (provider)."
+ },
+ {
+  "rid": 599,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Small-area wireless access points must meet the standard and conditions; binds the deploying operator."
+ },
+ {
+  "rid": 600,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Small-area wireless access points must meet the standard and conditions; binds the deploying operator."
+ },
+ {
+  "rid": 601,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Physical/deployment characteristics of small-area wireless access points; binds the operator deploying them."
+ },
+ {
+  "rid": 602,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Physical/deployment characteristics of small-area wireless access points; binds the operator deploying them."
+ },
+ {
+  "rid": 603,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Physical/deployment characteristics of small-area wireless access points; binds the operator deploying them."
+ },
+ {
+  "rid": 604,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Physical/deployment characteristics of small-area wireless access points; binds the operator deploying them."
+ },
+ {
+  "rid": 605,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Wallet unit/instance functionality and logging; binds the wallet provider responsible for the wallet solution."
+ },
+ {
+  "rid": 606,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Wallet unit/instance functionality and logging; binds the wallet provider responsible for the wallet solution."
+ },
+ {
+  "rid": 607,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Wallet unit/instance functionality and logging; binds the wallet provider responsible for the wallet solution."
+ },
+ {
+  "rid": 608,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Wallet unit/instance functionality and logging; binds the wallet provider responsible for the wallet solution."
+ },
+ {
+  "rid": 609,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Wallet unit/instance functionality and logging; binds the wallet provider responsible for the wallet solution."
+ },
+ {
+  "rid": 610,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Functions of signature creation applications; binds their providers (wallet providers, trust service providers or relying parties, Art. 12(1))."
+ },
+ {
+  "rid": 611,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Functions of signature creation applications; binds their providers (wallet providers, trust service providers or relying parties, Art. 12(1))."
+ },
+ {
+  "rid": 612,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Wallet unit functionality (portability, pseudonyms); binds the wallet provider."
+ },
+ {
+  "rid": 613,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Wallet unit functionality (portability, pseudonyms); binds the wallet provider."
+ },
+ {
+  "rid": 614,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Wallet unit functionality (portability, pseudonyms); binds the wallet provider."
+ },
+ {
+  "rid": 615,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Mandatory signature/seal format that signature creation applications must support; binds their providers."
+ },
+ {
+  "rid": 616,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Validation constraints applied by the provider of the validation process (qualified validation service provider)."
+ },
+ {
+  "rid": 617,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Validation constraints applied by the provider of the validation process (qualified validation service provider)."
+ },
+ {
+  "rid": 618,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Validation constraints applied by the provider of the validation process (qualified validation service provider)."
+ },
+ {
+  "rid": 619,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Validation constraints applied by the provider of the validation process (qualified validation service provider)."
+ },
+ {
+  "rid": 620,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Signature validation applications must comply with ETSI TS 119 101; binds their provider."
+ },
+ {
+  "rid": 621,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Outcome rules of the validation process run by the validation service provider/application."
+ },
+ {
+  "rid": 622,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Outcome rules of the validation process run by the validation service provider/application."
+ },
+ {
+  "rid": 623,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Outcome rules of the validation process run by the validation service provider/application."
+ },
+ {
+  "rid": 624,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Outcome rules of the validation process run by the validation service provider/application."
+ },
+ {
+  "rid": 625,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Outcome rules of the validation process run by the validation service provider/application."
+ },
+ {
+  "rid": 626,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Form, colour and size of the EU trust mark; content rule with no actor stated."
+ },
+ {
+  "rid": 627,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Form, colour and size of the EU trust mark; content rule with no actor stated."
+ },
+ {
+  "rid": 628,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Form, colour and size of the EU trust mark; content rule with no actor stated."
+ },
+ {
+  "rid": 629,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Use of the EU trust mark; binds the qualified trust service provider using it."
+ },
+ {
+  "rid": 630,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Form, colour and size of the EU trust mark; content rule with no actor stated."
+ },
+ {
+  "rid": 631,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Form, colour and size of the EU trust mark; content rule with no actor stated."
+ },
+ {
+  "rid": 632,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Use of the EU trust mark; binds the qualified trust service provider using it."
+ },
+ {
+  "rid": 633,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "Guidance restating gateway quality requirements (Commission and national gateway services); non-binding notice."
+ },
+ {
+  "rid": 634,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "Guidance stating assistance services (national) will have to respect quality criteria; non-binding notice."
+ },
+ {
+  "rid": 635,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "Guidance that quality requirements apply to Annex III assistance services (national); non-binding notice."
+ },
+ {
+  "rid": 636,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the (qualified) preservation service provider, a trust service provider."
+ },
+ {
+  "rid": 637,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the (qualified) preservation service provider, a trust service provider."
+ },
+ {
+  "rid": 638,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the (qualified) preservation service provider, a trust service provider."
+ },
+ {
+  "rid": 639,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the (qualified) preservation service provider, a trust service provider."
+ },
+ {
+  "rid": 640,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the (qualified) preservation service provider, a trust service provider."
+ },
+ {
+  "rid": 641,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the (qualified) preservation service provider, a trust service provider."
+ },
+ {
+  "rid": 642,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the (qualified) preservation service provider, a trust service provider."
+ },
+ {
+  "rid": 643,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the (qualified) preservation service provider, a trust service provider."
+ },
+ {
+  "rid": 644,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the (qualified) preservation service provider, a trust service provider."
+ },
+ {
+  "rid": 645,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the (qualified) preservation service provider, a trust service provider."
+ },
+ {
+  "rid": 646,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the (qualified) preservation service provider, a trust service provider."
+ },
+ {
+  "rid": 647,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the (qualified) preservation service provider, a trust service provider."
+ },
+ {
+  "rid": 648,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the (qualified) preservation service provider, a trust service provider."
+ },
+ {
+  "rid": 649,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Validation constraints applied by the provider of the validation process (qualified validation service provider)."
+ },
+ {
+  "rid": 650,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Conditions for validation methods that the Member State offers to other Member States (Art. 2(1)/4(1))."
+ },
+ {
+  "rid": 651,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Conditions for validation methods that the Member State offers to other Member States (Art. 2(1)/4(1))."
+ },
+ {
+  "rid": 652,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Conditions for validation methods that the Member State offers to other Member States (Art. 2(1)/4(1))."
+ },
+ {
+  "rid": 653,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Conditions for validation methods that the Member State offers to other Member States (Art. 2(1)/4(1))."
+ },
+ {
+  "rid": 654,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Precedence rule between reference standards and the Regulation; legal effect."
+ },
+ {
+  "rid": 655,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Certification of signature creation products must use comparable security levels; binds the certifying (conformity assessment) body."
+ },
+ {
+  "rid": 656,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Retention of statistics in the common data repository operated by the Commission."
+ },
+ {
+  "rid": 657,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Tagging of gateway webpages, done by the Member State or Commission body providing the page."
+ },
+ {
+  "rid": 658,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Pre-notification is made by the Member State notifying its eID scheme."
+ },
+ {
+  "rid": 659,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Peer review group members are representatives appointed by Member States."
+ },
+ {
+  "rid": 660,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Rapporteurs are members of the peer review group appointed by Member States."
+ },
+ {
+  "rid": 661,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Duties of the peer review group composed of Member State representatives."
+ },
+ {
+  "rid": 662,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Duties of the peer review group composed of Member State representatives."
+ },
+ {
+  "rid": 663,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Duties of the peer review group composed of Member State representatives."
+ },
+ {
+  "rid": 664,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Content of the assurance mapping document drawn up by the pre-notifying Member State."
+ },
+ {
+  "rid": 665,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Content of the white paper drawn up by the pre-notifying Member State."
+ },
+ {
+  "rid": 666,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Content of the white paper drawn up by the pre-notifying Member State."
+ },
+ {
+  "rid": 667,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Content of the white paper drawn up by the pre-notifying Member State."
+ },
+ {
+  "rid": 668,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Node communication requirements in the template filled out by the Member State operating the eIDAS node."
+ },
+ {
+  "rid": 669,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Node communication requirements in the template filled out by the Member State operating the eIDAS node."
+ },
+ {
+  "rid": 670,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Node communication requirements in the template filled out by the Member State operating the eIDAS node."
+ },
+ {
+  "rid": 671,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Node communication requirements in the template filled out by the Member State operating the eIDAS node."
+ },
+ {
+  "rid": 672,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Content of trusted lists established and published by Member States."
+ },
+ {
+  "rid": 673,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Precedence rule between the specifications and ETSI TS 119 612; legal effect."
+ },
+ {
+  "rid": 674,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Field/format requirements for trusted lists drawn up by Member States (scheme operators)."
+ },
+ {
+  "rid": 675,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Field/format requirements for trusted lists drawn up by Member States (scheme operators)."
+ },
+ {
+  "rid": 676,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Field/format requirements for trusted lists drawn up by Member States (scheme operators)."
+ },
+ {
+  "rid": 677,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Field/format requirements for trusted lists drawn up by Member States (scheme operators)."
+ },
+ {
+  "rid": 678,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Field/format requirements for trusted lists drawn up by Member States (scheme operators)."
+ },
+ {
+  "rid": 679,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Field/format requirements for trusted lists drawn up by Member States (scheme operators)."
+ },
+ {
+  "rid": 680,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Field/format requirements for trusted lists drawn up by Member States (scheme operators)."
+ },
+ {
+  "rid": 681,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Field/format requirements for trusted lists drawn up by Member States (scheme operators)."
+ },
+ {
+  "rid": 682,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Field/format requirements for trusted lists drawn up by Member States (scheme operators)."
+ },
+ {
+  "rid": 683,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Field/format requirements for trusted lists drawn up by Member States (scheme operators)."
+ },
+ {
+  "rid": 684,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Functions of the central contact point appointed by a payment institution."
+ },
+ {
+  "rid": 685,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Functions of the central contact point appointed by a payment institution."
+ },
+ {
+  "rid": 686,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Functions of the central contact point appointed by a payment institution."
+ },
+ {
+  "rid": 687,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Functions of the central contact point appointed by a payment institution."
+ },
+ {
+  "rid": 688,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 689,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 690,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 691,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 692,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 693,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 694,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 695,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 696,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 697,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 698,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 699,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 700,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 701,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 702,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 703,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 704,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 705,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 706,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 707,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 708,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 709,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 710,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 711,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 712,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 713,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 714,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 715,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 716,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 717,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 718,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 719,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 720,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 721,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 722,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 723,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 724,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 725,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 726,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 727,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 728,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 729,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 730,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 731,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 732,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 733,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 734,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 735,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 736,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Describes Korean law on government access (Annex II); no EU-law addressee, not an EU restriction."
+ },
+ {
+  "rid": 737,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Expression of the caller-location reliability criterion laid down by the national regulatory authority."
+ },
+ {
+  "rid": 738,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Quotation of the US Constitution in a US DoJ letter; no EU-law addressee."
+ },
+ {
+  "rid": 739,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Quotation of the US Constitution in a US DoJ letter; no EU-law addressee."
+ },
+ {
+  "rid": 740,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Risk management duties of non-qualified trust service providers."
+ },
+ {
+  "rid": 741,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Risk management duties of non-qualified trust service providers."
+ },
+ {
+  "rid": 742,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Competent authorities entering information manually must use the specified format."
+ },
+ {
+  "rid": 743,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Publication/rejection of information in the central register operated by EBA."
+ },
+ {
+  "rid": 744,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Publication/rejection of information in the central register operated by EBA."
+ },
+ {
+  "rid": 745,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical requirements of the electronic central register developed and operated by EBA."
+ },
+ {
+  "rid": 746,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical requirements of the electronic central register developed and operated by EBA."
+ },
+ {
+  "rid": 747,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical requirements of the electronic central register developed and operated by EBA."
+ },
+ {
+  "rid": 748,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical requirements of the electronic central register developed and operated by EBA."
+ },
+ {
+  "rid": 749,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical requirements of the electronic central register developed and operated by EBA."
+ },
+ {
+  "rid": 750,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical requirements of the electronic central register developed and operated by EBA."
+ },
+ {
+  "rid": 751,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical requirements of the electronic central register developed and operated by EBA."
+ },
+ {
+  "rid": 752,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical requirements of the electronic central register developed and operated by EBA."
+ },
+ {
+  "rid": 753,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical requirements of the electronic central register developed and operated by EBA."
+ },
+ {
+  "rid": 754,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical requirements of the electronic central register developed and operated by EBA."
+ },
+ {
+  "rid": 755,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical requirements of the electronic central register developed and operated by EBA."
+ },
+ {
+  "rid": 756,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical requirements of the electronic central register developed and operated by EBA."
+ },
+ {
+  "rid": 757,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "CPC electronic database provided via IMI, established and maintained by the Commission."
+ },
+ {
+  "rid": 758,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "CPC electronic database provided via IMI, established and maintained by the Commission."
+ },
+ {
+  "rid": 759,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 760,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 761,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 762,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 763,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 764,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 765,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 766,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 767,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 768,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 769,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 770,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 771,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 772,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 773,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 774,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 775,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 776,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 777,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 778,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 779,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 780,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 781,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 782,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 783,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 784,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 785,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 786,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 787,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 788,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirements on the signature validation service provider (trust service provider) and its practices/reports."
+ },
+ {
+  "rid": 789,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Review clause; the Commission reviews the Regulation upon adoption of an EU certification scheme."
+ },
+ {
+  "rid": 790,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Functional criteria national certification schemes (set up by Member States) must include; wallet solutions must meet them."
+ },
+ {
+  "rid": 791,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Wallet information to be made public; provided by the applicant/holder of the certificate (wallet provider)."
+ },
+ {
+  "rid": 792,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Wallet information to be made public; provided by the applicant/holder of the certificate (wallet provider)."
+ },
+ {
+  "rid": 793,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assessment steps performed by evaluators of the certification body (conformity assessment body)."
+ },
+ {
+  "rid": 794,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assessment steps performed by evaluators of the certification body (conformity assessment body)."
+ },
+ {
+  "rid": 795,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assessment steps performed by evaluators of the certification body (conformity assessment body)."
+ },
+ {
+  "rid": 796,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assessment steps performed by evaluators of the certification body (conformity assessment body)."
+ },
+ {
+  "rid": 797,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content of the public certification report issued by the certification body."
+ }
+]

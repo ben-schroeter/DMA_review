@@ -1,0 +1,2130 @@
+[
+ {
+  "rid": 798,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Certification assessment report is drawn up by the (private) conformity assessment/certification body under the eID wallet certification scheme."
+ },
+ {
+  "rid": 799,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Surveillance evaluation activities are performed by the certification (conformity assessment) body."
+ },
+ {
+  "rid": 800,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Surveillance evaluation activities are performed by the certification (conformity assessment) body."
+ },
+ {
+  "rid": 801,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirement on the TSA (qualified trust service provider) personnel in trusted roles."
+ },
+ {
+  "rid": 802,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical/security requirement in the qualified time-stamp standard binds the TSA/qualified trust service provider operating the TSU."
+ },
+ {
+  "rid": 803,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical/security requirement in the qualified time-stamp standard binds the TSA/qualified trust service provider operating the TSU."
+ },
+ {
+  "rid": 804,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical/security requirement in the qualified time-stamp standard binds the TSA/qualified trust service provider operating the TSU."
+ },
+ {
+  "rid": 805,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical/security requirement in the qualified time-stamp standard binds the TSA/qualified trust service provider operating the TSU."
+ },
+ {
+  "rid": 806,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical/security requirement in the qualified time-stamp standard binds the TSA/qualified trust service provider operating the TSU."
+ },
+ {
+  "rid": 807,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical/security requirement in the qualified time-stamp standard binds the TSA/qualified trust service provider operating the TSU."
+ },
+ {
+  "rid": 808,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical/security requirement in the qualified time-stamp standard binds the TSA/qualified trust service provider operating the TSU."
+ },
+ {
+  "rid": 809,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical/security requirement in the qualified time-stamp standard binds the TSA/qualified trust service provider operating the TSU."
+ },
+ {
+  "rid": 810,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical/security requirement in the qualified time-stamp standard binds the TSA/qualified trust service provider operating the TSU."
+ },
+ {
+  "rid": 811,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical/security requirement in the qualified time-stamp standard binds the TSA/qualified trust service provider operating the TSU."
+ },
+ {
+  "rid": 812,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical/security requirement in the qualified time-stamp standard binds the TSA/qualified trust service provider operating the TSU."
+ },
+ {
+  "rid": 813,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical/security requirement in the qualified time-stamp standard binds the TSA/qualified trust service provider operating the TSU."
+ },
+ {
+  "rid": 814,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Protocol support requirement binds the time-stamping service provider (TSA) and client implementers, both private."
+ },
+ {
+  "rid": 815,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content/algorithm requirements of time-stamp tokens bind the TSA issuing them."
+ },
+ {
+  "rid": 816,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content/algorithm requirements of time-stamp tokens bind the TSA issuing them."
+ },
+ {
+  "rid": 817,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content/algorithm requirements of time-stamp tokens bind the TSA issuing them."
+ },
+ {
+  "rid": 818,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content/algorithm requirements of time-stamp tokens bind the TSA issuing them."
+ },
+ {
+  "rid": 819,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Notification under Art. 31(1) eIDAS (certified QSCDs) is made by Member States to the Commission."
+ },
+ {
+  "rid": 820,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Notification under Art. 31(1) eIDAS (certified QSCDs) is made by Member States to the Commission."
+ },
+ {
+  "rid": 821,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Amended Annex text sets standards that qualified trust service providers must comply with."
+ },
+ {
+  "rid": 822,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Amended Annex text sets standards that qualified trust service providers must comply with."
+ },
+ {
+  "rid": 823,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Amended Annex text sets standards that qualified trust service providers must comply with."
+ },
+ {
+  "rid": 824,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Amended Annex text sets standards that qualified trust service providers must comply with."
+ },
+ {
+  "rid": 825,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Physical/technical characteristics of small-area wireless access points bind the operator deploying them."
+ },
+ {
+  "rid": 826,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Physical/technical characteristics of small-area wireless access points bind the operator deploying them."
+ },
+ {
+  "rid": 827,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Annex conditions for small-area wireless access points bind the network operator deploying the equipment."
+ },
+ {
+  "rid": 828,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Annex conditions for small-area wireless access points bind the network operator deploying the equipment."
+ },
+ {
+  "rid": 829,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Annex conditions for small-area wireless access points bind the network operator deploying the equipment."
+ },
+ {
+  "rid": 830,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Annex conditions for small-area wireless access points bind the network operator deploying the equipment."
+ },
+ {
+  "rid": 831,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Annex conditions for small-area wireless access points bind the network operator deploying the equipment."
+ },
+ {
+  "rid": 832,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Annex conditions for small-area wireless access points bind the network operator deploying the equipment."
+ },
+ {
+  "rid": 833,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirement addressed to the EAASP (provider of electronic attestation of attributes, private trust service provider)."
+ },
+ {
+  "rid": 834,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirement addressed to the EAASP (provider of electronic attestation of attributes, private trust service provider)."
+ },
+ {
+  "rid": 835,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirement addressed to the EAASP (provider of electronic attestation of attributes, private trust service provider)."
+ },
+ {
+  "rid": 836,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirement addressed to the EAASP (provider of electronic attestation of attributes, private trust service provider)."
+ },
+ {
+  "rid": 837,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirement addressed to the EAASP (provider of electronic attestation of attributes, private trust service provider)."
+ },
+ {
+  "rid": 838,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirement addressed to the EAASP (provider of electronic attestation of attributes, private trust service provider)."
+ },
+ {
+  "rid": 839,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Monitoring activities under the incident-management heading are carried out by the EAASP."
+ },
+ {
+  "rid": 840,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "EAASP's termination plan is drawn up by the EAASP."
+ },
+ {
+  "rid": 841,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Verification mechanisms against authentic sources under Art. 9 are provided by Member States/public-sector authentic sources (Art. 45e eIDAS)."
+ },
+ {
+  "rid": 842,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Response content of the authentic-source verification interface, operated on behalf of Member States/public authentic sources."
+ },
+ {
+  "rid": 843,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Response content of the authentic-source verification interface, operated on behalf of Member States/public authentic sources."
+ },
+ {
+  "rid": 844,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Response content of the authentic-source verification interface, operated on behalf of Member States/public authentic sources."
+ },
+ {
+  "rid": 845,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Response content of the authentic-source verification interface, operated on behalf of Member States/public authentic sources."
+ },
+ {
+  "rid": 846,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "eID scheme notification under Art. 9 eIDAS is made by the notifying Member State."
+ },
+ {
+  "rid": 847,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "eID scheme notification under Art. 9 eIDAS is made by the notifying Member State."
+ },
+ {
+  "rid": 848,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "eID scheme notification under Art. 9 eIDAS is made by the notifying Member State."
+ },
+ {
+  "rid": 849,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "eID scheme notification under Art. 9 eIDAS is made by the notifying Member State."
+ },
+ {
+  "rid": 850,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Work-programme restatement of SDG Regulation Arts 6/13: Member States must offer national procedures online."
+ },
+ {
+  "rid": 851,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Cooperation Network is an EU-level body set up by the Decision."
+ },
+ {
+  "rid": 852,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Cooperation Network is an EU-level body set up by the Decision."
+ },
+ {
+  "rid": 853,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Members of the Cooperation Network (EU body set up by the act) must observe professional secrecy."
+ },
+ {
+  "rid": 854,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Cooperation Network is an EU-level body set up by the Decision."
+ },
+ {
+  "rid": 855,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Information on suspension/withdrawal of a wallet is provided by the Member State providing the wallet solution (Art. 5e eIDAS)."
+ },
+ {
+  "rid": 856,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Withdrawal measures of paras 1-2 are taken by the Member State providing the wallet solution."
+ },
+ {
+  "rid": 857,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Information on suspension/withdrawal of a wallet is provided by the Member State providing the wallet solution (Art. 5e eIDAS)."
+ },
+ {
+  "rid": 858,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Contract summary is drawn up by the provider of electronic communications services."
+ },
+ {
+  "rid": 859,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Contract summary is drawn up by the provider of electronic communications services."
+ },
+ {
+  "rid": 860,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Contract summary is drawn up by the provider of electronic communications services."
+ },
+ {
+  "rid": 861,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Contract summary is drawn up by the provider of electronic communications services."
+ },
+ {
+  "rid": 862,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Contract summary is drawn up by the provider of electronic communications services."
+ },
+ {
+  "rid": 863,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Contract summary is drawn up by the provider of electronic communications services."
+ },
+ {
+  "rid": 864,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Contract summary is drawn up by the provider of electronic communications services."
+ },
+ {
+  "rid": 865,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Contract summary is drawn up by the provider of electronic communications services."
+ },
+ {
+  "rid": 866,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Contract summary is drawn up by the provider of electronic communications services."
+ },
+ {
+  "rid": 867,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Contract summary is drawn up by the provider of electronic communications services."
+ },
+ {
+  "rid": 868,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Guidance restating GDPR duties of controllers processing health data."
+ },
+ {
+  "rid": 869,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Guidance restating GDPR duties of controllers processing health data."
+ },
+ {
+  "rid": 870,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Guidance restating GDPR duties of controllers processing health data."
+ },
+ {
+  "rid": 871,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "Illustrative description of data localisation requirements (imposed by Member States), not itself a requirement."
+ },
+ {
+  "rid": 872,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data localisation requirements are imposed by Member States, which must keep them proportionate."
+ },
+ {
+  "rid": 873,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "DPIA must be carried out by the controller."
+ },
+ {
+  "rid": 874,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Radio equipment pictogram is affixed by the manufacturer."
+ },
+ {
+  "rid": 875,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Radio equipment pictogram is affixed by the manufacturer."
+ },
+ {
+  "rid": 876,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Formats Member States must recognise for advanced e-signatures/seals in public services (Art. 1 of the Decision); condition of recognition."
+ },
+ {
+  "rid": 877,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Formats Member States must recognise for advanced e-signatures/seals in public services (Art. 1 of the Decision); condition of recognition."
+ },
+ {
+  "rid": 878,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Formats Member States must recognise for advanced e-signatures/seals in public services (Art. 1 of the Decision); condition of recognition."
+ },
+ {
+  "rid": 879,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Formats Member States must recognise for advanced e-signatures/seals in public services (Art. 1 of the Decision); condition of recognition."
+ },
+ {
+  "rid": 880,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Cross-reference stating where requirements are set out; no actor."
+ },
+ {
+  "rid": 881,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "eIDAS interoperability nodes are operated by Member States."
+ },
+ {
+  "rid": 882,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "eIDAS interoperability nodes are operated by Member States."
+ },
+ {
+  "rid": 883,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Describes the content of future technical specifications; no actor bound."
+ },
+ {
+  "rid": 884,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Confers competence on the Cooperation Network (EU body); legal effect rather than duty."
+ },
+ {
+  "rid": 885,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assurance level of notified eID means is determined by the notifying Member State."
+ },
+ {
+  "rid": 886,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assurance level of notified eID means is determined by the notifying Member State."
+ },
+ {
+  "rid": 887,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assurance level of notified eID means is determined by the notifying Member State."
+ },
+ {
+  "rid": 888,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Passport notifications are transmitted between home and host competent authorities (Art. 1 RTS)."
+ },
+ {
+  "rid": 889,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Passport notifications are transmitted between home and host competent authorities (Art. 1 RTS)."
+ },
+ {
+  "rid": 890,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Smartphone design requirement under RED binds the manufacturer."
+ },
+ {
+  "rid": 891,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Describes the Commission work programme required by Art. 31 SDG Regulation."
+ },
+ {
+  "rid": 892,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Restates Art. 13 SDG Regulation: Member States must make online procedures accessible to cross-border users."
+ },
+ {
+  "rid": 893,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conformity assessment report is drawn up by the (private) conformity assessment body."
+ },
+ {
+  "rid": 894,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conformity assessment report is drawn up by the (private) conformity assessment body."
+ },
+ {
+  "rid": 895,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conformity assessment report is drawn up by the (private) conformity assessment body."
+ },
+ {
+  "rid": 896,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conformity assessment report is drawn up by the (private) conformity assessment body."
+ },
+ {
+  "rid": 897,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conformity assessment report is drawn up by the (private) conformity assessment body."
+ },
+ {
+  "rid": 898,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Confidentiality during transmission is the Commission's duty (agent named)."
+ },
+ {
+  "rid": 899,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Confidentiality during transmission is the Commission's duty (agent named)."
+ },
+ {
+  "rid": 900,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "List of selected projects; legal effect, no actor."
+ },
+ {
+  "rid": 901,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Permits providers to apply a fair-use safeguard; permission rather than restriction."
+ },
+ {
+  "rid": 902,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Issuing qualified website certificates binds the qualified trust service provider."
+ },
+ {
+  "rid": 903,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Definitional criteria for when identity data count as the same in interoperability links; no identifiable actor."
+ },
+ {
+  "rid": 904,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Definitional criteria for when identity data count as the same in interoperability links; no identifiable actor."
+ },
+ {
+  "rid": 905,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Definitional criteria for when identity data count as the same in interoperability links; no identifiable actor."
+ },
+ {
+  "rid": 906,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Definitional criteria for when identity data count as the same in interoperability links; no identifiable actor."
+ },
+ {
+  "rid": 907,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Definitional criteria for when identity data count as the same in interoperability links; no identifiable actor."
+ },
+ {
+  "rid": 908,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Item in a list defining cases of similar data; definitional."
+ },
+ {
+  "rid": 909,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Policy statement, not a restriction."
+ },
+ {
+  "rid": 910,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Worked example in DNSH guidance describing measures by the project operator."
+ },
+ {
+  "rid": 911,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition."
+ },
+ {
+  "rid": 912,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "BRIS technical rules; platform/portal run by the Commission together with Member State registers (mixed)."
+ },
+ {
+  "rid": 913,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "BRIS technical rules; platform/portal run by the Commission together with Member State registers (mixed)."
+ },
+ {
+  "rid": 914,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "BRIS technical rules; platform/portal run by the Commission together with Member State registers (mixed)."
+ },
+ {
+  "rid": 915,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "BRIS technical rules; platform/portal run by the Commission together with Member State registers (mixed)."
+ },
+ {
+  "rid": 916,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Exchange between the register of the company and of the branch is done by Member State registers."
+ },
+ {
+  "rid": 917,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Naming convention (\"shall be referred to as\")."
+ },
+ {
+  "rid": 918,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Naming convention (\"shall be referred to as\")."
+ },
+ {
+  "rid": 919,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data for the platform is provided by Member State registers."
+ },
+ {
+  "rid": 920,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Naming convention (\"shall be referred to as\")."
+ },
+ {
+  "rid": 921,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EUID is assigned and used by Member State business registers."
+ },
+ {
+  "rid": 922,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EUID is assigned and used by Member State business registers."
+ },
+ {
+  "rid": 923,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Mandatory EUID element, assigned by Member State registers."
+ },
+ {
+  "rid": 924,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EUID is assigned and used by Member State business registers."
+ },
+ {
+  "rid": 925,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "BRIS platform/e-Justice portal functions are run by the Commission."
+ },
+ {
+  "rid": 926,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "BRIS platform/e-Justice portal functions are run by the Commission."
+ },
+ {
+  "rid": 927,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requester of an optional access point is a Member State (Art. 22(4) Directive 2017/1132)."
+ },
+ {
+  "rid": 928,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requester of an optional access point is a Member State (Art. 22(4) Directive 2017/1132)."
+ },
+ {
+  "rid": 929,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requester of an optional access point is a Member State (Art. 22(4) Directive 2017/1132)."
+ },
+ {
+  "rid": 930,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "Defines the scope of the disqualified-directors exchange between Member State registers."
+ },
+ {
+  "rid": 931,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Explanatory note on cardinality; definitional."
+ },
+ {
+  "rid": 932,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Naming convention (\"shall be referred to as\")."
+ },
+ {
+  "rid": 933,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirement on the server signing application service provider (SSASP/TSP)."
+ },
+ {
+  "rid": 934,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirement on the server signing application service provider (SSASP/TSP)."
+ },
+ {
+  "rid": 935,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirement on the server signing application service provider (SSASP/TSP)."
+ },
+ {
+  "rid": 936,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirement on the server signing application service provider (SSASP/TSP)."
+ },
+ {
+  "rid": 937,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirement on the server signing application service provider (SSASP/TSP)."
+ },
+ {
+  "rid": 938,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirement on the server signing application service provider (SSASP/TSP)."
+ },
+ {
+  "rid": 939,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirement on the server signing application service provider (SSASP/TSP)."
+ },
+ {
+  "rid": 940,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirement on the server signing application service provider (SSASP/TSP)."
+ },
+ {
+  "rid": 941,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirement on the server signing application service provider (SSASP/TSP)."
+ },
+ {
+  "rid": 942,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Domain name registration restrictions bind the .eu Registry and registrants."
+ },
+ {
+  "rid": 943,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Domain name registration restrictions bind the .eu Registry and registrants."
+ },
+ {
+  "rid": 944,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Domain name registration restrictions bind the .eu Registry and registrants."
+ },
+ {
+  "rid": 945,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Review of Union testing facility designation is carried out by the Commission (Art. 2 Impl. Reg. 2022/1267)."
+ },
+ {
+  "rid": 946,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "List of OOTS components; composition, not a duty."
+ },
+ {
+  "rid": 947,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Evidence broker is a common service provided by the Commission."
+ },
+ {
+  "rid": 948,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Evidence requesters are competent authorities of Member States."
+ },
+ {
+  "rid": 949,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Evidence requesters are competent authorities of Member States."
+ },
+ {
+  "rid": 950,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Evidence requesters are competent authorities of Member States."
+ },
+ {
+  "rid": 951,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Evidence requesters are competent authorities of Member States."
+ },
+ {
+  "rid": 952,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Evidence requesters are competent authorities of Member States."
+ },
+ {
+  "rid": 953,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "OOTS availability covers Member State eDelivery access points and preview spaces and Commission common services (mixed)."
+ },
+ {
+  "rid": 954,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Status/duration rule for NGEU time compartments; no actor."
+ },
+ {
+  "rid": 955,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Status/duration rule for NGEU time compartments; no actor."
+ },
+ {
+  "rid": 956,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Status/duration rule for NGEU time compartments; no actor."
+ },
+ {
+  "rid": 957,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Status/duration rule for NGEU time compartments; no actor."
+ },
+ {
+  "rid": 958,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Allocation and cost calculation rules applied by the Commission in NGEU borrowing cost allocation."
+ },
+ {
+  "rid": 959,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Allocation and cost calculation rules applied by the Commission in NGEU borrowing cost allocation."
+ },
+ {
+  "rid": 960,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Allocation and cost calculation rules applied by the Commission in NGEU borrowing cost allocation."
+ },
+ {
+  "rid": 961,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Allocation and cost calculation rules applied by the Commission in NGEU borrowing cost allocation."
+ },
+ {
+  "rid": 962,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Status/duration rule for NGEU time compartments; no actor."
+ },
+ {
+  "rid": 963,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Status/duration rule for NGEU time compartments; no actor."
+ },
+ {
+  "rid": 964,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Allocation and cost calculation rules applied by the Commission in NGEU borrowing cost allocation."
+ },
+ {
+  "rid": 965,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Allocation and cost calculation rules applied by the Commission in NGEU borrowing cost allocation."
+ },
+ {
+  "rid": 966,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Allocation and cost calculation rules applied by the Commission in NGEU borrowing cost allocation."
+ },
+ {
+  "rid": 967,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Allocation and cost calculation rules applied by the Commission in NGEU borrowing cost allocation."
+ },
+ {
+  "rid": 968,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Allocation and cost calculation rules applied by the Commission in NGEU borrowing cost allocation."
+ },
+ {
+  "rid": 969,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Allocation and cost calculation rules applied by the Commission in NGEU borrowing cost allocation."
+ },
+ {
+  "rid": 970,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Allocation and cost calculation rules applied by the Commission in NGEU borrowing cost allocation."
+ },
+ {
+  "rid": 971,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Composition of cost categories; definitional."
+ },
+ {
+  "rid": 972,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Composition of cost categories; definitional."
+ },
+ {
+  "rid": 973,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Composition of cost categories; definitional."
+ },
+ {
+  "rid": 974,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Programme monitoring and evaluation is carried out by the Commission (Arts 17-18 Reg. 2021/690)."
+ },
+ {
+  "rid": 975,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Naming/description of indicators; definitional."
+ },
+ {
+  "rid": 976,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Naming/description of indicators; definitional."
+ },
+ {
+  "rid": 977,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery and resilience scoreboard is run by the Commission."
+ },
+ {
+  "rid": 978,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Reporting on common indicators is done by Member States (Art. 27 RRF)."
+ },
+ {
+  "rid": 979,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Reporting on common indicators is done by Member States (Art. 27 RRF)."
+ },
+ {
+  "rid": 980,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Documentation underlying indicator values is a Member State reporting duty."
+ },
+ {
+  "rid": 981,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Documentation underlying indicator values is a Member State reporting duty."
+ },
+ {
+  "rid": 982,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of a term used in the indicator."
+ },
+ {
+  "rid": 983,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of a term used in the indicator."
+ },
+ {
+  "rid": 984,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of a term used in the indicator."
+ },
+ {
+  "rid": 985,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Defines the scope/measurement of an indicator; definitional."
+ },
+ {
+  "rid": 986,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Collection/reporting rule for common indicators, applied by reporting Member States."
+ },
+ {
+  "rid": 987,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of a term used in the indicator."
+ },
+ {
+  "rid": 988,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Collection/reporting rule for common indicators, applied by reporting Member States."
+ },
+ {
+  "rid": 989,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Collection/reporting rule for common indicators, applied by reporting Member States."
+ },
+ {
+  "rid": 990,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Defines the scope/measurement of an indicator; definitional."
+ },
+ {
+  "rid": 991,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Defines the scope/measurement of an indicator; definitional."
+ },
+ {
+  "rid": 992,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Defines the scope/measurement of an indicator; definitional."
+ },
+ {
+  "rid": 993,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Defines the scope/measurement of an indicator; definitional."
+ },
+ {
+  "rid": 994,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Defines the scope/measurement of an indicator; definitional."
+ },
+ {
+  "rid": 995,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Collection/reporting rule for common indicators, applied by reporting Member States."
+ },
+ {
+  "rid": 996,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Collection/reporting rule for common indicators, applied by reporting Member States."
+ },
+ {
+  "rid": 997,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Collection/reporting rule for common indicators, applied by reporting Member States."
+ },
+ {
+  "rid": 998,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of a term used in the indicator."
+ },
+ {
+  "rid": 999,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Collection/reporting rule for common indicators, applied by reporting Member States."
+ },
+ {
+  "rid": 1000,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Collection/reporting rule for common indicators, applied by reporting Member States."
+ },
+ {
+  "rid": 1001,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Defines the scope/measurement of an indicator; definitional."
+ },
+ {
+  "rid": 1002,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of a term used in the indicator."
+ },
+ {
+  "rid": 1003,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of a term used in the indicator."
+ },
+ {
+  "rid": 1004,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of a term used in the indicator."
+ },
+ {
+  "rid": 1005,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Collection/reporting rule for common indicators, applied by reporting Member States."
+ },
+ {
+  "rid": 1006,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of a term used in the indicator."
+ },
+ {
+  "rid": 1007,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Collection/reporting rule for common indicators, applied by reporting Member States."
+ },
+ {
+  "rid": 1008,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Defines the scope/measurement of an indicator; definitional."
+ },
+ {
+  "rid": 1009,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Collection/reporting rule for common indicators, applied by reporting Member States."
+ },
+ {
+  "rid": 1010,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of a term used in the indicator."
+ },
+ {
+  "rid": 1011,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of a term used in the indicator."
+ },
+ {
+  "rid": 1012,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of a term used in the indicator."
+ },
+ {
+  "rid": 1013,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Defines the scope/measurement of an indicator; definitional."
+ },
+ {
+  "rid": 1014,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Defines the scope/measurement of an indicator; definitional."
+ },
+ {
+  "rid": 1015,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Collection/reporting rule for common indicators, applied by reporting Member States."
+ },
+ {
+  "rid": 1016,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Explanatory footnote, not a restriction."
+ },
+ {
+  "rid": 1017,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Review of Union testing facility designation is carried out by the Commission (Art. 2 Impl. Reg. 2022/1267)."
+ },
+ {
+  "rid": 1018,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Interpretive guidance on the definition of an OCSSP."
+ },
+ {
+  "rid": 1019,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Guidance on information notices by rightholders (notice providers) must contain."
+ },
+ {
+  "rid": 1020,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Guidance on information notices by rightholders (notice providers) must contain."
+ },
+ {
+  "rid": 1021,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Peer review is conducted by the peer-review team of national cybersecurity certification authorities."
+ },
+ {
+  "rid": 1022,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Peer review is conducted by the peer-review team of national cybersecurity certification authorities."
+ },
+ {
+  "rid": 1023,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Peer-reviewed NCCA (national authority) submits documents."
+ },
+ {
+  "rid": 1024,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Peer-reviewed NCCA (national authority) submits documents."
+ },
+ {
+  "rid": 1025,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Peer-reviewed NCCA (national authority) submits documents."
+ },
+ {
+  "rid": 1026,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Peer-review team made up of NCCAs (national authorities) runs the procedure and drafts the report."
+ },
+ {
+  "rid": 1027,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Peer-review team made up of NCCAs (national authorities) runs the procedure and drafts the report."
+ },
+ {
+  "rid": 1028,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Peer-review team made up of NCCAs (national authorities) runs the procedure and drafts the report."
+ },
+ {
+  "rid": 1029,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Peer-review team made up of NCCAs (national authorities) runs the procedure and drafts the report."
+ },
+ {
+  "rid": 1030,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Peer-review team made up of NCCAs (national authorities) runs the procedure and drafts the report."
+ },
+ {
+  "rid": 1031,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ECCG (EU group under the Cybersecurity Act) examines the report."
+ },
+ {
+  "rid": 1032,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Peer-review team made up of NCCAs (national authorities) runs the procedure and drafts the report."
+ },
+ {
+  "rid": 1033,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Peer-review team made up of NCCAs (national authorities) runs the procedure and drafts the report."
+ },
+ {
+  "rid": 1034,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Peer-review team (NCCAs) must ensure secure handling of information."
+ },
+ {
+  "rid": 1035,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Peer-review team made up of NCCAs (national authorities) runs the procedure and drafts the report."
+ },
+ {
+  "rid": 1036,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Peer review is conducted by the peer-review team of national cybersecurity certification authorities."
+ },
+ {
+  "rid": 1037,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "UMF use in JHA information systems/interoperability components developed by eu-LISA."
+ },
+ {
+  "rid": 1038,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "States UMF is not mandatory; exemption."
+ },
+ {
+  "rid": 1039,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "UMF use in JHA information systems/interoperability components developed by eu-LISA."
+ },
+ {
+  "rid": 1040,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "UMF use in JHA information systems/interoperability components developed by eu-LISA."
+ },
+ {
+  "rid": 1041,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Review of Union testing facility designation is carried out by the Commission (Art. 2 Impl. Reg. 2022/1267)."
+ },
+ {
+  "rid": 1042,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Sustainability guidance is drawn up by the Commission (Art. 8(6) InvestEU)."
+ },
+ {
+  "rid": 1043,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Climate proofing duties fall on the project promoter."
+ },
+ {
+  "rid": 1044,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Climate proofing duties fall on the project promoter."
+ },
+ {
+  "rid": 1045,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Descriptive, exemption or possibility statement in guidance; not a restriction."
+ },
+ {
+  "rid": 1046,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Climate proofing duties fall on the project promoter."
+ },
+ {
+  "rid": 1047,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Climate proofing duties fall on the project promoter."
+ },
+ {
+  "rid": 1048,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Footnote on accounting for emissions in the project carbon footprint, done by the project promoter."
+ },
+ {
+  "rid": 1049,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Descriptive, exemption or possibility statement in guidance; not a restriction."
+ },
+ {
+  "rid": 1050,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Sustainability guidance is drawn up by the Commission (Art. 8(6) InvestEU)."
+ },
+ {
+  "rid": 1051,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Sustainability guidance is drawn up by the Commission (Art. 8(6) InvestEU)."
+ },
+ {
+  "rid": 1052,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Descriptive, exemption or possibility statement in guidance; not a restriction."
+ },
+ {
+  "rid": 1053,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Descriptive, exemption or possibility statement in guidance; not a restriction."
+ },
+ {
+  "rid": 1054,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assessment of CEF proposals against award criteria is done by the Commission/executive agency."
+ },
+ {
+  "rid": 1055,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Describes legal requirements on 2014-2020 major projects submitted by Member States."
+ },
+ {
+  "rid": 1056,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Descriptive, exemption or possibility statement in guidance; not a restriction."
+ },
+ {
+  "rid": 1057,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Descriptive, exemption or possibility statement in guidance; not a restriction."
+ },
+ {
+  "rid": 1058,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "EIA assessment judgements are made by the developer/assessment team."
+ },
+ {
+  "rid": 1059,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Restates EIA/SEA Directive duties of national authorities."
+ },
+ {
+  "rid": 1060,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Restates EIA/SEA Directive duties of national authorities."
+ },
+ {
+  "rid": 1061,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Descriptive, exemption or possibility statement in guidance; not a restriction."
+ },
+ {
+  "rid": 1062,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Environmental assessment of programmes is carried out by programme (national) authorities."
+ },
+ {
+  "rid": 1063,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Environmental assessment of programmes is carried out by programme (national) authorities."
+ }
+]

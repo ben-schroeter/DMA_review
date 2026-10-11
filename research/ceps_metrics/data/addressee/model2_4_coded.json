@@ -1,0 +1,2130 @@
+[
+ {
+  "rid": 1064,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "Commission guidance notice: illustrative 'for instance' advice to public planning authorities drawing up strategic plans, not a binding duty"
+ },
+ {
+  "rid": 1065,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Methodology for reporting social expenditure under the RRF is applied by the Commission when reporting"
+ },
+ {
+  "rid": 1066,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Provision fixes which categories and flags apply by reference to the Annex; definitional"
+ },
+ {
+  "rid": 1067,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "NCCAs (national certification authorities) must notify the Commission"
+ },
+ {
+  "rid": 1068,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "NCCA must notify via the electronic tool"
+ },
+ {
+  "rid": 1069,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Notification drawn up by the NCCA (Art. 2) must include Annex information"
+ },
+ {
+  "rid": 1070,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "NCCAs must notify changes"
+ },
+ {
+  "rid": 1071,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "NCCA must restrict, suspend or withdraw notification"
+ },
+ {
+  "rid": 1072,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Notifying NCCA must secure the records"
+ },
+ {
+  "rid": 1073,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Cooperation mechanism is set up between participating Member States; eligibility condition for project listing"
+ },
+ {
+  "rid": 1074,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Project promoter applying must provide the declaration"
+ },
+ {
+  "rid": 1075,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Application is submitted by the project promoter (Art. 4(2))"
+ },
+ {
+  "rid": 1076,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Project promoter must demonstrate net benefits"
+ },
+ {
+  "rid": 1077,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Demonstration by the applying project promoter (Art. 5(1))"
+ },
+ {
+  "rid": 1078,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Cost-benefit analysis is prepared by the project promoter"
+ },
+ {
+  "rid": 1079,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Cost-benefit analysis prepared by the project promoter must include elements"
+ },
+ {
+  "rid": 1080,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Cost-benefit analysis prepared by the project promoter must include elements (duplicate clause)"
+ },
+ {
+  "rid": 1081,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Group set up by the delegated act (Commission and Member State representatives) establishes the draft list"
+ },
+ {
+  "rid": 1082,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Group set up by the delegated act establishes the draft list and monitors projects (duplicate clause)"
+ },
+ {
+  "rid": 1083,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Review of the Union testing facility designation is carried out by the Commission under Implementing Reg. 2022/1267 Art. 2"
+ },
+ {
+  "rid": 1084,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Statistical data under Art. 25(6) Reg. 2019/1020 are submitted by Member States (customs authorities)"
+ },
+ {
+  "rid": 1085,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Data submitted by Member State customs authorities"
+ },
+ {
+  "rid": 1086,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Data submitted by Member State customs authorities"
+ },
+ {
+  "rid": 1087,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Part of the definition of 'blocking rules'; describes rules, binds no one itself"
+ },
+ {
+  "rid": 1088,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Part of the definition of 'soft rules' describing their effect"
+ },
+ {
+  "rid": 1089,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "System behaviour for soft rules, implemented by eu-LISA which operates the EU information systems"
+ },
+ {
+  "rid": 1090,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Automated quality checks run by eu-LISA's systems (eu-LISA implements, Art. 3(7))"
+ },
+ {
+  "rid": 1091,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Automated quality checks in EU information systems operated by eu-LISA"
+ },
+ {
+  "rid": 1092,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data quality control mechanisms operated by eu-LISA"
+ },
+ {
+  "rid": 1093,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data quality control mechanisms built and operated by eu-LISA"
+ },
+ {
+  "rid": 1094,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data quality control mechanisms operated by eu-LISA"
+ },
+ {
+  "rid": 1095,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data quality control mechanisms operated by eu-LISA"
+ },
+ {
+  "rid": 1096,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Lists the common data quality indicators; definitional"
+ },
+ {
+  "rid": 1097,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data cleaning mechanisms operated by eu-LISA"
+ },
+ {
+  "rid": 1098,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Automated mechanisms to be set up by eu-LISA"
+ },
+ {
+  "rid": 1099,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Data are entered by duly authorised staff of Member State authorities in the EU information systems"
+ },
+ {
+  "rid": 1100,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Automated quality control mechanisms operated by eu-LISA"
+ },
+ {
+  "rid": 1101,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data quality control mechanisms operated by eu-LISA"
+ },
+ {
+  "rid": 1102,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Reports produced by the central repository run by eu-LISA"
+ },
+ {
+  "rid": 1103,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Reports produced by eu-LISA's central repository"
+ },
+ {
+  "rid": 1104,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Subject-matter clause stating that rules for implementing partners are in the Annex"
+ },
+ {
+  "rid": 1105,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Scoring is done by the implementing partner (financing counterparty under the guarantee)"
+ },
+ {
+  "rid": 1106,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Scale used by implementing partner when scoring"
+ },
+ {
+  "rid": 1107,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Pillars assessed by implementing partner"
+ },
+ {
+  "rid": 1108,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Implementing partner calculates the pillar scores"
+ },
+ {
+  "rid": 1109,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partners must provide a rationale"
+ },
+ {
+  "rid": 1110,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "InvestEU website publication is done by the Commission (Art. 24(5) InvestEU Reg.)"
+ },
+ {
+  "rid": 1111,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Publication by the Commission on the InvestEU website"
+ },
+ {
+  "rid": 1112,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Scoreboard is submitted by the implementing partner"
+ },
+ {
+  "rid": 1113,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partner must submit public version"
+ },
+ {
+  "rid": 1114,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Public version is drawn up by the implementing partner"
+ },
+ {
+  "rid": 1115,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Exemption: no pillar 6 information needs to be provided by the implementing partner"
+ },
+ {
+  "rid": 1116,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partner must present contribution"
+ },
+ {
+  "rid": 1117,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Assessment drawn up by implementing partner"
+ },
+ {
+  "rid": 1118,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partner must present additionality arguments"
+ },
+ {
+  "rid": 1119,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partner must demonstrate compliance"
+ },
+ {
+  "rid": 1120,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partner must present market failures"
+ },
+ {
+  "rid": 1121,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partner must identify features"
+ },
+ {
+  "rid": 1122,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partner must assess"
+ },
+ {
+  "rid": 1123,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partners must score"
+ },
+ {
+  "rid": 1124,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Score calculated by the implementing partner"
+ },
+ {
+  "rid": 1125,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Score calculated by the implementing partner"
+ },
+ {
+  "rid": 1126,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Indicators applied by the implementing partner when scoring"
+ },
+ {
+  "rid": 1127,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Indicator content filled in by the implementing partner"
+ },
+ {
+  "rid": 1128,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Score based on ERR calculated by the implementing partner"
+ },
+ {
+  "rid": 1129,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Weighting rule fixing the share of an indicator in the score; binds no actor"
+ },
+ {
+  "rid": 1130,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Indicator content filled in by the implementing partner"
+ },
+ {
+  "rid": 1131,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partner must comment on gender composition"
+ },
+ {
+  "rid": 1132,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Weighting rule for indicator"
+ },
+ {
+  "rid": 1133,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Indicator content filled in by the implementing partner"
+ },
+ {
+  "rid": 1134,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Weighting and composition rule for indicator"
+ },
+ {
+  "rid": 1135,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Weighting and composition rule for indicator (duplicate clause)"
+ },
+ {
+  "rid": 1136,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Sub-indicator content filled in by the implementing partner"
+ },
+ {
+  "rid": 1137,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partner must verify"
+ },
+ {
+  "rid": 1138,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Bonus sub-indicator scored by the implementing partner"
+ },
+ {
+  "rid": 1139,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Sub-indicator scored by the implementing partner"
+ },
+ {
+  "rid": 1140,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Bonus sub-indicator scored by the implementing partner"
+ },
+ {
+  "rid": 1141,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Sub-indicator scored by the implementing partner"
+ },
+ {
+  "rid": 1142,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Bonus sub-indicator scored by the implementing partner"
+ },
+ {
+  "rid": 1143,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assessment performed by the implementing partner"
+ },
+ {
+  "rid": 1144,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Description of a scoring level (expertise not required); not a duty"
+ },
+ {
+  "rid": 1145,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Indicators calculated by the implementing partner"
+ },
+ {
+  "rid": 1146,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "Publication in the Official Journal after objection period; legal-effect/final clause"
+ },
+ {
+  "rid": 1147,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Central repository for reporting and statistics is operated by eu-LISA"
+ },
+ {
+  "rid": 1148,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Central repository content, operated by eu-LISA"
+ },
+ {
+  "rid": 1149,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Central repository content, operated by eu-LISA"
+ },
+ {
+  "rid": 1150,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Central repository operated by eu-LISA must keep reference number"
+ },
+ {
+  "rid": 1151,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "eu-LISA must design the repository so the number cannot retrieve identity files"
+ },
+ {
+  "rid": 1152,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Central repository operated by eu-LISA must enable access"
+ },
+ {
+  "rid": 1153,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Repository statistics provided by eu-LISA's central repository"
+ },
+ {
+  "rid": 1154,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Technical reports produced by eu-LISA's central repository"
+ },
+ {
+  "rid": 1155,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Catalogue made available by eu-LISA"
+ },
+ {
+  "rid": 1156,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Requests for reports come from users (Member State competent authorities) and must follow eu-LISA policy"
+ },
+ {
+  "rid": 1157,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Central repository operated by eu-LISA"
+ },
+ {
+  "rid": 1158,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical solution built by eu-LISA"
+ },
+ {
+  "rid": 1159,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Reporting tool built by eu-LISA"
+ },
+ {
+  "rid": 1160,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Reporting tool built by eu-LISA"
+ },
+ {
+  "rid": 1161,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Reports managed by eu-LISA in its technical solution"
+ },
+ {
+  "rid": 1162,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Security measures implemented by eu-LISA in the technical solution"
+ },
+ {
+  "rid": 1163,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical solution implemented at eu-LISA's sites"
+ },
+ {
+  "rid": 1164,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Central repository for reporting and statistics is operated by eu-LISA"
+ },
+ {
+  "rid": 1165,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data extraction performed by eu-LISA's central repository"
+ },
+ {
+  "rid": 1166,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "eu-LISA stores only anonymised data in its central repository"
+ },
+ {
+  "rid": 1167,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Anonymisation tool built and run by eu-LISA"
+ },
+ {
+  "rid": 1168,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Anonymisation process designed by eu-LISA"
+ },
+ {
+  "rid": 1169,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Access to the eu-LISA central repository is granted and managed under the cited system regulations, chiefly by eu-LISA"
+ },
+ {
+  "rid": 1170,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "eu-LISA must make the central repository accessible via TESTA"
+ },
+ {
+  "rid": 1171,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "eu-LISA, as operator, grants access to the reporting tool only to authorised staff"
+ },
+ {
+  "rid": 1172,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Logs stored in eu-LISA's central repository and erased"
+ },
+ {
+  "rid": 1173,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "eu-LISA identifies conflicting roles and grants access in the repository"
+ },
+ {
+  "rid": 1174,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "eu-LISA identifies conflicting roles and grants access (duplicate clause)"
+ },
+ {
+  "rid": 1175,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data quality reports and feedback tool provided by eu-LISA"
+ },
+ {
+  "rid": 1176,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Use limitation binds users of the repository, mainly Member State competent authorities (also Commission and agencies)"
+ },
+ {
+  "rid": 1177,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "eu-LISA ensures traceability of changes (Art. 8(2))"
+ },
+ {
+  "rid": 1178,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Web portal developed and managed by eu-LISA"
+ },
+ {
+  "rid": 1179,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Web portal run by eu-LISA must be available in listed languages"
+ },
+ {
+  "rid": 1180,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Web portal run by eu-LISA must contain the information"
+ },
+ {
+  "rid": 1181,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Web portal run by eu-LISA must comply with Europa Web Guide"
+ },
+ {
+  "rid": 1182,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Web portal design by eu-LISA"
+ },
+ {
+  "rid": 1183,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Web portal design by eu-LISA"
+ },
+ {
+  "rid": 1184,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Administration interface built by eu-LISA"
+ },
+ {
+  "rid": 1185,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Interface design by eu-LISA must bar data access"
+ },
+ {
+  "rid": 1186,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content management solution provided by eu-LISA"
+ },
+ {
+  "rid": 1187,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Staging tools provided by eu-LISA"
+ },
+ {
+  "rid": 1188,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Web portal designed and implemented by eu-LISA"
+ },
+ {
+  "rid": 1189,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Security principle for web portal designed by eu-LISA (list point inheriting lead-in)"
+ },
+ {
+  "rid": 1190,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Web portal designed and implemented by eu-LISA"
+ },
+ {
+  "rid": 1191,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Notice placed on portal by eu-LISA"
+ },
+ {
+  "rid": 1192,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Acceptance form built into the portal by eu-LISA"
+ },
+ {
+  "rid": 1193,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "eu-LISA as portal operator must comply with data protection rules"
+ },
+ {
+  "rid": 1194,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Privacy notice provided by eu-LISA"
+ },
+ {
+  "rid": 1195,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Privacy notice placement by eu-LISA"
+ },
+ {
+  "rid": 1196,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Logging performed by eu-LISA as portal operator"
+ },
+ {
+  "rid": 1197,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Use of logs by eu-LISA as portal operator"
+ },
+ {
+  "rid": 1198,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Logging performed by eu-LISA"
+ },
+ {
+  "rid": 1199,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Retention of logs by eu-LISA"
+ },
+ {
+  "rid": 1200,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission runs the InvestEU Portal and applies admission criteria to projects"
+ },
+ {
+  "rid": 1201,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission, which runs the InvestEU Portal, may not charge a fee"
+ },
+ {
+  "rid": 1202,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data are transmitted by Member State market surveillance and customs authorities via the interface"
+ },
+ {
+  "rid": 1203,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission must keep data confidential"
+ },
+ {
+  "rid": 1204,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission must keep data confidential (duplicate clause)"
+ },
+ {
+  "rid": 1205,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Use limitation binds the recipient national market surveillance and customs authorities"
+ },
+ {
+  "rid": 1206,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data in Art. 2(1) are transmitted by national customs authorities"
+ },
+ {
+  "rid": 1207,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Additional data entered in national customs systems by customs authorities"
+ },
+ {
+  "rid": 1208,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data element entered by customs authorities"
+ },
+ {
+  "rid": 1209,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data element entered by customs authorities"
+ },
+ {
+  "rid": 1210,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data transmitted by national market surveillance authorities"
+ },
+ {
+  "rid": 1211,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data transmitted by national authorities"
+ },
+ {
+  "rid": 1212,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Template filled in and submitted by Member States under Art. 6(9) of the Regulation"
+ },
+ {
+  "rid": 1213,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Provision refers to the Annex for the content of requirements; definitional"
+ },
+ {
+  "rid": 1214,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Constraint on CEF-funded actions, binding the applicants/beneficiaries of funding"
+ },
+ {
+  "rid": 1215,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Technical infrastructure requirement on location of berths; no actor named"
+ },
+ {
+  "rid": 1216,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Clarification that berths need not be adjacent; permissive"
+ },
+ {
+  "rid": 1217,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Technical infrastructure requirement for bridges; no actor named"
+ },
+ {
+  "rid": 1218,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Each country (Member State) determines applicability of 4.5 m height"
+ },
+ {
+  "rid": 1219,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Certification bodies may certify protection profiles only for this purpose"
+ },
+ {
+  "rid": 1220,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Prohibition binds manufacturers/providers who would otherwise self-assess"
+ },
+ {
+  "rid": 1221,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Certificate is issued by the certification body"
+ },
+ {
+  "rid": 1222,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Holder of the certificate affixes mark and label"
+ },
+ {
+  "rid": 1223,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Holder of the certificate affixes mark and label"
+ },
+ {
+  "rid": 1224,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Holder of the certificate provides mark in documentation"
+ },
+ {
+  "rid": 1225,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Holder of the certificate affixes mark and label"
+ },
+ {
+  "rid": 1226,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Holder of the certificate adds QR code"
+ },
+ {
+  "rid": 1227,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Restricts who may certify protection profiles; first-named is the NCCA (mixed with authorised certification bodies)"
+ },
+ {
+  "rid": 1228,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "NCCA notification obligations apply to ITSEF notification"
+ },
+ {
+  "rid": 1229,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Vulnerability impact analysis carried out by the certificate holder"
+ },
+ {
+  "rid": 1230,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Calculation performed by the certificate holder in its analysis"
+ },
+ {
+  "rid": 1231,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Certificate holder takes AVA_VAN level into account"
+ },
+ {
+  "rid": 1232,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Mutual recognition agreements concluded by the Union (Commission/Council)"
+ },
+ {
+  "rid": 1233,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Union may conclude agreements only with third countries meeting conditions"
+ },
+ {
+  "rid": 1234,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Union may conclude high-level agreements only under conditions"
+ },
+ {
+  "rid": 1235,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Certification body must undergo peer assessment"
+ },
+ {
+  "rid": 1236,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "European Cybersecurity Certification Group must draw up schedule"
+ },
+ {
+  "rid": 1237,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Peer assessments are performed by teams of NCCA experts"
+ },
+ {
+  "rid": 1238,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "ITSEF assessed by the peer assessment team of NCCA experts"
+ },
+ {
+  "rid": 1239,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Peer assessment team members (NCCA experts) must review documentation"
+ },
+ {
+  "rid": 1240,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Peer assessment team (NCCA experts) must determine competence"
+ },
+ {
+  "rid": 1241,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Peer assessment team must document findings"
+ },
+ {
+  "rid": 1242,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Peer assessment team must discuss report with the body"
+ },
+ {
+  "rid": 1243,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Peer assessment team must provide draft report"
+ },
+ {
+  "rid": 1244,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "European Cybersecurity Certification Group must adopt an opinion"
+ },
+ {
+  "rid": 1245,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Publication on ENISA's certification website done by ENISA"
+ },
+ {
+  "rid": 1246,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Certification report drawn up by the certification body"
+ },
+ {
+  "rid": 1247,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Certification report drawn up by the certification body"
+ },
+ {
+  "rid": 1248,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Certification report (incl. executive summary) drawn up by the certification body"
+ },
+ {
+  "rid": 1249,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Certification report drawn up by the certification body (duplicate clause)"
+ },
+ {
+  "rid": 1250,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Certification report section drawn up by the certification body"
+ },
+ {
+  "rid": 1251,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Documentation references in the certification report drawn up by the certification body"
+ },
+ {
+  "rid": 1252,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Certification report section drawn up by the certification body"
+ },
+ {
+  "rid": 1253,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Security target included in the certification body's report"
+ },
+ {
+  "rid": 1254,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Bibliography of the certification report drawn up by the certification body"
+ },
+ {
+  "rid": 1255,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Bibliography content in the certification body's report"
+ },
+ {
+  "rid": 1256,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Documentation identification in the certification body's report"
+ },
+ {
+  "rid": 1257,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Sanitised security target prepared for publication by the applicant/certification body (private actors)"
+ },
+ {
+  "rid": 1258,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Sanitised security target content set by the private actors preparing it"
+ },
+ {
+  "rid": 1259,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Sanitisation rule for the security target prepared by private actors"
+ },
+ {
+  "rid": 1260,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Sanitised security target identifier set by private actors preparing it"
+ },
+ {
+  "rid": 1261,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Sanitised security target content set by private actors preparing it"
+ },
+ {
+  "rid": 1262,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Sanitised security target content set by private actors preparing it"
+ },
+ {
+  "rid": 1263,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "EUCC certificate issued by the certification body"
+ },
+ {
+  "rid": 1264,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assurance package declaration in the certificate made by the certification body"
+ },
+ {
+  "rid": 1265,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Augmentation outlined in the certification report by the certification body"
+ },
+ {
+  "rid": 1266,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Certificate content set by the issuing certification body"
+ },
+ {
+  "rid": 1267,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Mark and label affixed by the certificate holder must respect proportions"
+ },
+ {
+  "rid": 1268,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Mark and label affixed by the certificate holder must be at least 5 mm"
+ },
+ {
+  "rid": 1269,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Mark and label affixed by the certificate holder must respect proportions"
+ },
+ {
+  "rid": 1270,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Application is submitted by the not-for-profit organisation"
+ },
+ {
+  "rid": 1271,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Guidance on scope of proofing carried out by the implementing partner"
+ },
+ {
+  "rid": 1272,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Explanatory statement on the aim of sustainability proofing; no duty"
+ },
+ {
+  "rid": 1273,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Sets thresholds below which proofing by implementing partners is not required; exemption"
+ },
+ {
+  "rid": 1274,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Exemption from screening and proofing for SME financing"
+ },
+ {
+  "rid": 1275,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Exemption from climate proofing below threshold"
+ },
+ {
+  "rid": 1276,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Implementing partner reports the analysis results to the Investment Committee"
+ },
+ {
+  "rid": 1277,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Climate risks to the project managed by the implementing partner/project promoter"
+ },
+ {
+  "rid": 1278,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Adaptation measures assessed by the implementing partner/project promoter"
+ },
+ {
+  "rid": 1279,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "Describes the purpose of the screening step; no separate duty"
+ },
+ {
+  "rid": 1280,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Projects (promoters with implementing partner) must perform carbon footprint assessment"
+ },
+ {
+  "rid": 1281,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "States when carbon footprint assessment is not required; exemption"
+ },
+ {
+  "rid": 1282,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Carbon footprint assessment required of projects (promoter/implementing partner)"
+ },
+ {
+  "rid": 1283,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Projects above thresholds assessed by implementing partner/promoter"
+ },
+ {
+  "rid": 1284,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Implementing partner's proofing documentation must substantiate risk levels"
+ },
+ {
+  "rid": 1285,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Implementing partner's documentation must present adaptation measures"
+ },
+ {
+  "rid": 1286,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Implementing partner's documentation must present mitigation outcome"
+ },
+ {
+  "rid": 1287,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partner (IP) must report"
+ },
+ {
+  "rid": 1288,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "Describes a decision point where no further proofing is required; permissive"
+ },
+ {
+  "rid": 1289,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partner must report and monitor"
+ },
+ {
+  "rid": 1290,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "General statement of aim on consistency and proportionality; no actor bound"
+ },
+ {
+  "rid": 1291,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "InvestEU-supported operations (promoters) must comply with law as prerequisite"
+ },
+ {
+  "rid": 1292,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partners must put procedures in place"
+ },
+ {
+  "rid": 1293,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Non-mature project assessed by the implementing partner"
+ },
+ {
+  "rid": 1294,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Financing-contract conditions met by the project promoter; compliance check by implementing partner"
+ },
+ {
+  "rid": 1295,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Heading fragment ('Mandatory EIA:'); not a restriction"
+ },
+ {
+  "rid": 1296,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Appropriate assessment carried out by the Member State (Habitats Directive Art. 6), per previous sentence"
+ },
+ {
+  "rid": 1297,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partner must review justification"
+ },
+ {
+  "rid": 1298,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Implementing partner will verify compliance"
+ },
+ {
+  "rid": 1299,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partner must proceed with proofing"
+ },
+ {
+  "rid": 1300,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partner is required to provide summary"
+ },
+ {
+  "rid": 1301,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Compliance examination conducted by the implementing partner"
+ },
+ {
+  "rid": 1302,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partner must ensure (list lead-in)"
+ },
+ {
+  "rid": 1303,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Social safeguards respected by project promoter"
+ },
+ {
+  "rid": 1304,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Project promoter expected to comply with land acquisition law"
+ },
+ {
+  "rid": 1305,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "In-depth assessment carried out by the implementing partner (lead-in)"
+ },
+ {
+  "rid": 1306,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Discretion of implementing partner to require studies ('might')"
+ },
+ {
+  "rid": 1307,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Social proofing carried out by the implementing partner"
+ },
+ {
+  "rid": 1308,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Project promoter required to identify remedial actions"
+ },
+ {
+  "rid": 1309,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partner required to provide summary"
+ },
+ {
+  "rid": 1310,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Illustrative example of an MCA criterion; no duty"
+ },
+ {
+  "rid": 1311,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "Historical description of the ESIF 2014-2020 CBA obligation; not a restriction of this guidance"
+ },
+ {
+  "rid": 1312,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Proofing approach for intermediated finance applied by the implementing partner"
+ },
+ {
+  "rid": 1313,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partners must submit Policy Check Request Form"
+ },
+ {
+  "rid": 1314,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partner must prepare summary"
+ },
+ {
+  "rid": 1315,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Summary presented by the implementing partner as annex"
+ },
+ {
+  "rid": 1316,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing partner includes results in the scoreboard"
+ },
+ {
+  "rid": 1317,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Implementing partner reports results to the Commission"
+ },
+ {
+  "rid": 1318,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "Footnote: verification 'ideally' required; non-binding recommendation"
+ },
+ {
+  "rid": 1319,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Implementing partner using higher carbon cost must justify it"
+ },
+ {
+  "rid": 1320,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Explanatory footnote restating Member States' transposition duty; not a restriction of this guidance"
+ },
+ {
+  "rid": 1321,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Information requests made by the implementing partner to financial intermediaries"
+ },
+ {
+  "rid": 1322,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Checklist question; not a restriction"
+ },
+ {
+  "rid": 1323,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Checklist question; not a restriction"
+ },
+ {
+  "rid": 1324,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Description of a positive-agenda scoring feature; not a duty"
+ },
+ {
+  "rid": 1325,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Mixed: Commission (first named) and national authorities as joint controllers must assume roles in the Annex"
+ },
+ {
+  "rid": 1326,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Initial notifications submitted by financial entities under DORA Art. 19"
+ },
+ {
+  "rid": 1327,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Intermediate reports submitted by financial entities under DORA Art. 19"
+ },
+ {
+  "rid": 1328,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Final reports submitted by financial entities under DORA Art. 19"
+ },
+ {
+  "rid": 1329,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content of voluntary notification submitted by financial entities (applies if they notify)"
+ }
+]
