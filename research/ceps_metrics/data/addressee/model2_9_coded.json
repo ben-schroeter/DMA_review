@@ -1,0 +1,2130 @@
+[
+ {
+  "rid": 2394,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving clause: confidentiality does not prevent dissemination with data subject consent; no duty."
+ },
+ {
+  "rid": 2395,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Toy warnings are drawn up and affixed by the manufacturer (Article 10 Warnings)."
+ },
+ {
+  "rid": 2396,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer must use the prescribed warnings for Annex V toys."
+ },
+ {
+  "rid": 2397,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "EC declaration of conformity is drawn up and updated by the manufacturer."
+ },
+ {
+  "rid": 2398,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "EC declaration of conformity is drawn up and updated by the manufacturer."
+ },
+ {
+  "rid": 2399,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "EC declaration of conformity structure binds the manufacturer who draws it up."
+ },
+ {
+  "rid": 2400,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "CE marking is affixed by the manufacturer, who must respect proportions."
+ },
+ {
+  "rid": 2401,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "CE marking dimensions bind the manufacturer affixing it."
+ },
+ {
+  "rid": 2402,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "CE marking affixing requirement binds the manufacturer."
+ },
+ {
+  "rid": 2403,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer must affix information to counter display."
+ },
+ {
+  "rid": 2404,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EC type-examination is carried out by the notified body (private conformity assessor)."
+ },
+ {
+  "rid": 2405,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Application for EC type-examination is submitted by the manufacturer."
+ },
+ {
+  "rid": 2406,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "EC type-examination certificate is issued by the notified body."
+ },
+ {
+  "rid": 2407,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Notified body issuing the certificate must review it."
+ },
+ {
+  "rid": 2408,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical documentation is drawn up by the manufacturer."
+ },
+ {
+  "rid": 2409,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Requirement on conformity assessment bodies (notified bodies) seeking notification."
+ },
+ {
+  "rid": 2410,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conformity assessment body may subcontract only with client agreement."
+ },
+ {
+  "rid": 2411,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Technical documentation drawn up by the manufacturer must contain listed items."
+ },
+ {
+  "rid": 2412,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Warnings on toys are provided by the manufacturer."
+ },
+ {
+  "rid": 2413,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer must accompany crossbeam toys with instructions."
+ },
+ {
+  "rid": 2414,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturer must give surface information with the toy."
+ },
+ {
+  "rid": 2415,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Legal effect: pre-contractual information becomes part of the contract."
+ },
+ {
+  "rid": 2416,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Trader must give Article 9 information in the order form."
+ },
+ {
+  "rid": 2417,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Trader's order form must include the withdrawal form."
+ },
+ {
+  "rid": 2418,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Legal effect: ancillary contracts terminate automatically."
+ },
+ {
+  "rid": 2419,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Legal rule on passing of risk; no actor's conduct required."
+ },
+ {
+  "rid": 2420,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Guarantor (trader) drafting the guarantee statement."
+ },
+ {
+  "rid": 2421,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Trader must make contract terms available to the consumer."
+ },
+ {
+  "rid": 2422,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Evidentiary rule allocating burden of proof to the trader; not a conduct duty."
+ },
+ {
+  "rid": 2423,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Legal effect: contract remains binding without unfair terms."
+ },
+ {
+  "rid": 2424,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Exemption of consumer from consideration; legal effect."
+ },
+ {
+  "rid": 2425,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Status rule declaring listed terms unfair (legal effect: not binding)."
+ },
+ {
+  "rid": 2426,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme objectives of interoperability."
+ },
+ {
+  "rid": 2427,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Means of achieving objectives; no conduct required."
+ },
+ {
+  "rid": 2428,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Processing under the Regulation is done mainly by Member State authorities using the components."
+ },
+ {
+  "rid": 2429,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Access restriction to the ESP, implemented by eu-LISA which operates it."
+ },
+ {
+  "rid": 2430,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "eu-LISA keeps ESP logs (previous sentence)."
+ },
+ {
+  "rid": 2431,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Use limitation on logs kept by eu-LISA."
+ },
+ {
+  "rid": 2432,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "eu-LISA must protect and erase its logs."
+ },
+ {
+  "rid": 2433,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Shared BMS is a central component built and operated by eu-LISA."
+ },
+ {
+  "rid": 2434,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Shared BMS design requirement binds eu-LISA."
+ },
+ {
+  "rid": 2435,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Quality check in shared BMS operated by eu-LISA."
+ },
+ {
+  "rid": 2436,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Storage quality standards bind eu-LISA operating the BMS."
+ },
+ {
+  "rid": 2437,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Technical design of CIR/SIS search, operated by eu-LISA."
+ },
+ {
+  "rid": 2438,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Queries are made by Member State authorities and must respect purposes."
+ },
+ {
+  "rid": 2439,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Retention in the shared BMS, a central component operated by eu-LISA."
+ },
+ {
+  "rid": 2440,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Logs of the shared BMS are kept by eu-LISA, which must erase them."
+ },
+ {
+  "rid": 2441,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "eu-LISA keeps the history logs (previous sentence) and must erase them."
+ },
+ {
+  "rid": 2442,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Classification rule for MID links; status rule with no identifiable actor."
+ },
+ {
+  "rid": 2443,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Green link follows the national authority's manual verification of identities."
+ },
+ {
+  "rid": 2444,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Classification rule for MID links; status rule with no identifiable actor."
+ },
+ {
+  "rid": 2445,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Classification rule for MID links; status rule with no identifiable actor."
+ },
+ {
+  "rid": 2446,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing acts are adopted by the Commission."
+ },
+ {
+  "rid": 2447,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "UMF must be used by eu-LISA and EU bodies developing the systems."
+ },
+ {
+  "rid": 2448,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Security incidents are managed by eu-LISA and national authorities (mixed)."
+ },
+ {
+  "rid": 2449,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Amended EES provision requires border authorities to enter data in the CIR."
+ },
+ {
+  "rid": 2450,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Amended EES provision requires border authorities to enter data in the CIR."
+ },
+ {
+  "rid": 2451,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ETIAS Central Unit (Frontex) must notify the Commission."
+ },
+ {
+  "rid": 2452,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "eu-LISA must provide training."
+ },
+ {
+  "rid": 2453,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "eu-LISA submits the development reports (previous sentence)."
+ },
+ {
+  "rid": 2454,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Legal fiction locating copyright acts in the country of origin."
+ },
+ {
+  "rid": 2455,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Transitional application rule for existing agreements."
+ },
+ {
+  "rid": 2456,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Lawfulness condition for processing by controllers, which are Union institutions and bodies."
+ },
+ {
+  "rid": 2457,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Union legislature must lay down the public-interest tasks in Union law."
+ },
+ {
+  "rid": 2458,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Assessment of consent by the controller (Union institution or body)."
+ },
+ {
+  "rid": 2459,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Exception from the right to erasure for Union institution controllers."
+ },
+ {
+  "rid": 2460,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Data subject right to object correlates to duty of the controller, a Union institution."
+ },
+ {
+  "rid": 2461,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Controller (Union institution or body) may not base automated decisions on special data."
+ },
+ {
+  "rid": 2462,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Internal rules are adopted and published by Union institutions and bodies."
+ },
+ {
+  "rid": 2463,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Controller (Union institution) imposing a restriction must inform the data subject."
+ },
+ {
+  "rid": 2464,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Records kept by controllers and processors, Union institutions and bodies."
+ },
+ {
+  "rid": 2465,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Controller and processor (Union institutions) assess security level."
+ },
+ {
+  "rid": 2466,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Data protection officer of a Union institution bound by secrecy."
+ },
+ {
+  "rid": 2467,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Union institution designates its data protection officer for a fixed term."
+ },
+ {
+  "rid": 2468,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Tasks of the data protection officer of a Union institution."
+ },
+ {
+  "rid": 2469,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Implementing rules adopted by each Union institution or body."
+ },
+ {
+  "rid": 2470,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Liability of EU officials to disciplinary action; legal consequence, not a duty."
+ },
+ {
+  "rid": 2471,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Assistant Supervisor (EDPS) must assist the EDPS."
+ },
+ {
+  "rid": 2472,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Gateway established by the Commission and competent authorities must give access (mixed)."
+ },
+ {
+  "rid": 2473,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Use of the gateway quality label limited to listed services, mostly national authority websites."
+ },
+ {
+  "rid": 2474,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission decides on integration of governance arrangements."
+ },
+ {
+  "rid": 2475,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Conflict rule giving precedence to other Union acts."
+ },
+ {
+  "rid": 2476,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "IMI must be used by national competent authorities for Article 11(4) exchanges."
+ },
+ {
+  "rid": 2477,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content of certification scheme prepared by ENISA and adopted by the Commission."
+ },
+ {
+  "rid": 2478,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Design of certification schemes by ENISA/Commission."
+ },
+ {
+  "rid": 2479,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Assurance level criteria bind ENISA/Commission drafting schemes."
+ },
+ {
+  "rid": 2480,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Scheme elements bind ENISA/Commission drafting schemes."
+ },
+ {
+  "rid": 2481,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Scheme requirements drafted by ENISA/Commission must not contradict law."
+ },
+ {
+  "rid": 2482,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Certification is voluntary; permission/status."
+ },
+ {
+  "rid": 2483,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Certificates issued by conformity assessment bodies."
+ },
+ {
+  "rid": 2484,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Derogation allowing a scheme to reserve issuance to public bodies."
+ },
+ {
+  "rid": 2485,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Conformity assessment bodies issue certificates for at most three years."
+ },
+ {
+  "rid": 2486,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Member States must recognise certificates."
+ },
+ {
+  "rid": 2487,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Establishment of the Certification Group; institutional legal effect."
+ },
+ {
+  "rid": 2488,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Market surveillance authorities must communicate their measures to the operator."
+ },
+ {
+  "rid": 2489,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Budgetary scope rule on eligible expenses; no conduct required."
+ },
+ {
+  "rid": 2490,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "National issuing authorities may issue orders only for criminal proceedings."
+ },
+ {
+  "rid": 2491,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "National issuing authority drafts the Preservation Order."
+ },
+ {
+  "rid": 2492,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "National issuing authority transmits the order via the certificate."
+ },
+ {
+  "rid": 2493,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Issuing or validating authority completes and signs the certificate."
+ },
+ {
+  "rid": 2494,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Issuing or validating authority completes and signs the certificate."
+ },
+ {
+  "rid": 2495,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "EPOC-PR is completed by the national issuing authority."
+ },
+ {
+  "rid": 2496,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Issuing authority must not include grounds in the certificate."
+ },
+ {
+  "rid": 2497,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Issuing authority must translate the certificate."
+ },
+ {
+  "rid": 2498,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Issuing authority must translate the certificate."
+ },
+ {
+  "rid": 2499,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Addressee (service provider) must execute the EPOC."
+ },
+ {
+  "rid": 2500,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Addressee (service provider) must execute the EPOC."
+ },
+ {
+  "rid": 2501,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Addressee (service provider) must preserve data."
+ },
+ {
+  "rid": 2502,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Addressee (service provider) must uphold preservation."
+ },
+ {
+  "rid": 2503,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Addressee (service provider) must produce data within deadline."
+ },
+ {
+  "rid": 2504,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Addressee (service provider) must not inform the data subject."
+ },
+ {
+  "rid": 2505,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Addressee (service provider) must preserve data."
+ },
+ {
+  "rid": 2506,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Addressee (service provider) must not inform the data subject."
+ },
+ {
+  "rid": 2507,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Form field in Annex III for the addressee to request information; not a duty."
+ },
+ {
+  "rid": 2508,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Registration is performed by the .eu Registry, a private non-profit organisation."
+ },
+ {
+  "rid": 2509,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Transitional saving of existing domain name rights."
+ },
+ {
+  "rid": 2510,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States must ensure re-usability of public sector documents."
+ },
+ {
+  "rid": 2511,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Public sector bodies (and public undertakings, mixed) must use open standards."
+ },
+ {
+  "rid": 2512,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving clause: no obligation to create or adapt documents."
+ },
+ {
+  "rid": 2513,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Coordinating authority is a national competent authority."
+ },
+ {
+  "rid": 2514,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "National competent authorities agree a common position."
+ },
+ {
+  "rid": 2515,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States ensure that their authorities amend rights only when justified."
+ },
+ {
+  "rid": 2516,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "National authorities must publish amendments with reasons."
+ },
+ {
+  "rid": 2517,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States must set appropriate duration of rights of use."
+ },
+ {
+  "rid": 2518,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "National competent authorities must allow small-cell deployment."
+ },
+ {
+  "rid": 2519,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member State measures restricting end-user rights may only be imposed under conditions."
+ },
+ {
+  "rid": 2520,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member State measures restricting end-user rights may only be imposed under conditions."
+ },
+ {
+  "rid": 2521,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member State measures must respect presumption of innocence and privacy."
+ },
+ {
+  "rid": 2522,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States must guarantee a prior fair procedure."
+ },
+ {
+  "rid": 2523,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States must guarantee judicial review."
+ },
+ {
+  "rid": 2524,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Item in list of conditions that may be attached to authorisations; permission."
+ },
+ {
+  "rid": 2525,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Item in list of conditions that may be attached to rights of use; permission."
+ },
+ {
+  "rid": 2526,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Criteria for setting termination rates under Article 73, applied by the Commission."
+ },
+ {
+  "rid": 2527,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Criteria for setting termination rates under Article 73, applied by the Commission."
+ },
+ {
+  "rid": 2528,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Criteria for setting termination rates under Article 73, applied by the Commission."
+ },
+ {
+  "rid": 2529,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Criteria for setting termination rates under Article 73, applied by the Commission."
+ },
+ {
+  "rid": 2530,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Criteria for setting termination rates under Article 73, applied by the Commission."
+ },
+ {
+  "rid": 2531,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving clause leaving existing Directives intact."
+ },
+ {
+  "rid": 2532,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving clause leaving existing Directives intact."
+ },
+ {
+  "rid": 2533,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Information society service providers' content measures must be proportionate."
+ },
+ {
+  "rid": 2534,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Transitional application rule."
+ },
+ {
+  "rid": 2535,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme operational objectives."
+ },
+ {
+  "rid": 2536,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme operational objectives."
+ },
+ {
+  "rid": 2537,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme operational objectives."
+ },
+ {
+  "rid": 2538,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme objective for digital skills."
+ },
+ {
+  "rid": 2539,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme operational objectives."
+ },
+ {
+  "rid": 2540,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme operational objectives."
+ },
+ {
+  "rid": 2541,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Indicative budget distribution; financial allocation, not a duty."
+ },
+ {
+  "rid": 2542,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme openness to third countries; scope/permission."
+ },
+ {
+  "rid": 2543,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Status of contributions as assigned revenue; legal effect."
+ },
+ {
+  "rid": 2544,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Cross-reference applying security article; no separate duty."
+ },
+ {
+  "rid": 2545,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Beneficiaries carrying out actions must comply with security rules."
+ },
+ {
+  "rid": 2546,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Condition requiring a Union security agreement with the third country."
+ },
+ {
+  "rid": 2547,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Applicants and tenderers must include a security self-assessment."
+ },
+ {
+  "rid": 2548,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission implements the Programme in direct or indirect management."
+ },
+ {
+  "rid": 2549,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission establishes the initial network of Digital Innovation Hubs."
+ },
+ {
+  "rid": 2550,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission sets eligibility criteria in work programmes."
+ },
+ {
+  "rid": 2551,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission defines award criteria in work programmes and calls."
+ },
+ {
+  "rid": 2552,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission implements blending operations per InvestEU rules."
+ },
+ {
+  "rid": 2553,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission awarding funding must cap cumulative support."
+ },
+ {
+  "rid": 2554,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission implements the Programme through work programmes."
+ },
+ {
+  "rid": 2555,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission adopts work programmes as multiannual programmes."
+ },
+ {
+  "rid": 2556,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission's first work programme must focus on Annex activities."
+ },
+ {
+  "rid": 2557,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission's work programmes must set blending amounts."
+ },
+ {
+  "rid": 2558,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission monitoring must use official EU statistics."
+ },
+ {
+  "rid": 2559,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission carries out programme evaluations."
+ },
+ {
+  "rid": 2560,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission performs the interim evaluation."
+ },
+ {
+  "rid": 2561,
+  "formal": "eu_institutions",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission's evaluation system must ensure data collection by recipients of Union funds."
+ },
+ {
+  "rid": 2562,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission implements initial activities per the technical description."
+ },
+ {
+  "rid": 2563,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme objective description."
+ },
+ {
+  "rid": 2564,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Description of programme activities."
+ },
+ {
+  "rid": 2565,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme objective description."
+ },
+ {
+  "rid": 2566,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme objective description."
+ },
+ {
+  "rid": 2567,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Description of programme activities."
+ },
+ {
+  "rid": 2568,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme objective description."
+ },
+ {
+  "rid": 2569,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Programming focus of interventions; objective."
+ },
+ {
+  "rid": 2570,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Description of programme activities."
+ },
+ {
+  "rid": 2571,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Status rule: projects constitute projects of common interest."
+ },
+ {
+  "rid": 2572,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "Description of activity scope."
+ },
+ {
+  "rid": 2573,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Programme synergy objectives."
+ },
+ {
+  "rid": 2574,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Programme synergy objectives."
+ },
+ {
+  "rid": 2575,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Scope definition of defence research activities."
+ },
+ {
+  "rid": 2576,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission implements the Programme in direct or indirect management."
+ },
+ {
+  "rid": 2577,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Commission uses funding forms flexibly; implementation rule."
+ },
+ {
+  "rid": 2578,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme support for JRC actions; scope."
+ },
+ {
+  "rid": 2579,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission's multiannual planning of programme implementation."
+ },
+ {
+  "rid": 2580,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission's planning must ensure alignment."
+ },
+ {
+  "rid": 2581,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission delivers activities through calls for proposals."
+ },
+ {
+  "rid": 2582,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Commission's programming must focus on civil applications."
+ },
+ {
+  "rid": 2583,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission implementing the Programme must promote gender equality."
+ },
+ {
+  "rid": 2584,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission ensures gender balance in evaluation panels and expert groups."
+ },
+ {
+  "rid": 2585,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission programmes missions within the pillar."
+ },
+ {
+  "rid": 2586,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission implements missions."
+ },
+ {
+  "rid": 2587,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission evaluates missions."
+ },
+ {
+  "rid": 2588,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission designs missions meeting listed criteria."
+ },
+ {
+  "rid": 2589,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Indicative budget distribution."
+ },
+ {
+  "rid": 2590,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Beneficiaries must ensure open access to publications."
+ },
+ {
+  "rid": 2591,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Beneficiaries must ensure open access to research data."
+ },
+ {
+  "rid": 2592,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Encouragement of open access; not binding."
+ },
+ {
+  "rid": 2593,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Beneficiaries must manage research data responsibly (FAIR)."
+ },
+ {
+  "rid": 2594,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Promotion of open science practices; programme aim, not a binding duty."
+ },
+ {
+  "rid": 2595,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme openness to association; scope/permission."
+ },
+ {
+  "rid": 2596,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Union (Commission) must associate third countries only under agreements meeting conditions."
+ },
+ {
+  "rid": 2597,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Status of contributions as assigned revenue; legal effect."
+ },
+ {
+  "rid": 2598,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Union negotiating association must take account of the innovation objective."
+ },
+ {
+  "rid": 2599,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Content of association agreement negotiated by the Union."
+ },
+ {
+  "rid": 2600,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Contribution conditions in association agreements negotiated by the Union."
+ },
+ {
+  "rid": 2601,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Funding bodies entrusted with budget implementation (mostly Union bodies; mixed) may depart only if provided for."
+ },
+ {
+  "rid": 2602,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission may not grant funding for activities prohibited in all Member States."
+ },
+ {
+  "rid": 2603,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission may not fund activities in a Member State where forbidden."
+ },
+ {
+  "rid": 2604,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Beneficiaries carrying out actions must comply with ethics rules."
+ },
+ {
+  "rid": 2605,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Beneficiaries carrying out actions must pay attention to listed rights."
+ },
+ {
+  "rid": 2606,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission screens proposals for ethics issues."
+ },
+ {
+  "rid": 2607,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission carries out mandatory ethics assessment."
+ },
+ {
+  "rid": 2608,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission carries out ethics checks for serious issues."
+ },
+ {
+  "rid": 2609,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission or funding body uses ethics experts for checks."
+ },
+ {
+  "rid": 2610,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Beneficiaries carrying out actions must comply with security rules."
+ },
+ {
+  "rid": 2611,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Condition requiring a Union security agreement with the third country."
+ },
+ {
+  "rid": 2612,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Condition requiring a Union security agreement with the third country."
+ },
+ {
+  "rid": 2613,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Applicants must include a security self-assessment in proposals."
+ },
+ {
+  "rid": 2614,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission or funding body carries out security scrutiny."
+ },
+ {
+  "rid": 2615,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Beneficiaries' actions must comply with Commission security rules."
+ },
+ {
+  "rid": 2616,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission appointing external experts must require security clearance."
+ },
+ {
+  "rid": 2617,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission appointing external experts must require security clearance."
+ },
+ {
+  "rid": 2618,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission includes call content in the work programme."
+ },
+ {
+  "rid": 2619,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission determines launch and content of EIC calls."
+ },
+ {
+  "rid": 2620,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Exemption from the call for proposals requirement."
+ },
+ {
+  "rid": 2621,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission's work programme must specify Seal of Excellence calls."
+ },
+ {
+  "rid": 2622,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Procurement procedures run by beneficiaries that are contracting authorities."
+ },
+ {
+  "rid": 2623,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Procurement procedures run by beneficiaries that are contracting authorities."
+ },
+ {
+  "rid": 2624,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission awarding funding must cap cumulative support."
+ },
+ {
+  "rid": 2625,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Derogation limiting financial capacity checks; relief, not a duty."
+ },
+ {
+  "rid": 2626,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission evaluates proposals against award criteria."
+ },
+ {
+  "rid": 2627,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission's work programme lays down award criteria details."
+ },
+ {
+  "rid": 2628,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission fixes maximum funding rate in work programme."
+ },
+ {
+  "rid": 2629,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission determines indirect eligible costs by the flat rate."
+ },
+ {
+  "rid": 2630,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Beneficiaries must submit a certificate on financial statements at balance payment."
+ },
+ {
+  "rid": 2631,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission or funding body must recover amounts owed."
+ },
+ {
+  "rid": 2632,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission awards and manages prizes per Financial Regulation."
+ },
+ {
+  "rid": 2633,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission awards and manages procurement per Financial Regulation."
+ },
+ {
+  "rid": 2634,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission implements blending operations per InvestEU rules."
+ },
+ {
+  "rid": 2635,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission implements EIC blended finance per Article 43."
+ },
+ {
+  "rid": 2636,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission evaluates and selects blended finance actions."
+ },
+ {
+  "rid": 2637,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission's implementation modalities must comply with the cited rules."
+ },
+ {
+  "rid": 2638,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission has proposals evaluated by independent experts."
+ },
+ {
+  "rid": 2639,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Award criteria applied by the Commission (EIC)."
+ },
+ {
+  "rid": 2640,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission's contract for the action must set milestones."
+ },
+ {
+  "rid": 2641,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission remunerates external experts on standard conditions."
+ },
+ {
+  "rid": 2642,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission audits jointly funded actions only once."
+ },
+ {
+  "rid": 2643,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Transitional continuation of earlier rules."
+ },
+ {
+  "rid": 2644,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission structures monitoring by impact pathways."
+ },
+ {
+  "rid": 2645,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Budget distribution; financial allocation."
+ },
+ {
+  "rid": 2646,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission implements transferred Cohesion Fund amounts."
+ },
+ {
+  "rid": 2647,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission makes transferred amounts available to eligible Member States."
+ },
+ {
+  "rid": 2648,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission's project selection must respect national allocations."
+ },
+ {
+  "rid": 2649,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission makes uncommitted resources available to eligible Member States."
+ },
+ {
+  "rid": 2650,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Programme openness to third countries; scope/permission."
+ },
+ {
+  "rid": 2651,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Status of contributions as assigned revenue; legal effect."
+ },
+ {
+  "rid": 2652,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission implements the Programme in direct or indirect management."
+ },
+ {
+  "rid": 2653,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Commission implements blending operations per InvestEU rules."
+ },
+ {
+  "rid": 2654,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Cross-border renewable projects require cooperation agreements between Member States."
+ },
+ {
+  "rid": 2655,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Projects identified by the Commission under the Annex procedure."
+ },
+ {
+  "rid": 2656,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission must adopt a delegated act and publish methodologies."
+ },
+ {
+  "rid": 2657,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Objective/eligibility statement for digital PCIs."
+ },
+ {
+  "rid": 2658,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission determines funding priority by listed criteria."
+ },
+ {
+  "rid": 2659,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Commission prioritises actions under listed criterion."
+ }
+]
