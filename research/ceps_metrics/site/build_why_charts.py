@@ -196,5 +196,72 @@ g.append(t(lx, ly + 14 * 26 + 24, "of the $430bn total", 13, MUTED))
 charts["mcafee_eu14"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="The 14 EU companies founded from scratch in the last 50 years and worth over $10 billion, '
                          f'with approximate market values: ' + "; ".join(f"{n} about ${v:.0f}bn" for n, v in sorted(val.items(), key=lambda kv: -kv[1])) + '">' + "".join(g) + "</svg>")
 
+# 8. Full recreation: US and EU at the same scale (positions/radii measured from McAfee's chart), plus an enlarged EU inset.
+usb = json.load(open("data/mcafee_us_bubbles_measured.json"))["us"]
+eus = json.load(open("data/mcafee_eu_small_measured.json"))["eu_small"]
+eub = json.load(open("data/mcafee_eu_bubbles_measured.json"))
+TECH, OTHER = EU, "#A6A3A0"
+W, H = 1200, 760
+ux0 = min(o["x"] - o["r"] for o in usb); uy0 = min(o["y"] - o["r"] for o in usb)
+OX, OY = 20, 34
+P = lambda x, y: (OX + (x - ux0), OY + (y - uy0))
+g = [f'<rect x="{OX}" y="4" width="13" height="13" rx="2" fill="{TECH}"></rect>' + t(OX + 20, 15.5, "Tech", 14),
+     f'<rect x="{OX + 74}" y="4" width="13" height="13" rx="2" fill="{OTHER}"></rect>' + t(OX + 94, 15.5, "Other industries", 14)]
+def bub(cx, cy, r, c, title):
+    return f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="{max(r - 0.6, 0.8):.1f}" fill="{TECH if c == "g" else OTHER}" stroke="#FAF9F5" stroke-width="1.1"><title>{title}</title></circle>'
+for o in sorted(usb, key=lambda o: o["r"]):
+    cx, cy = P(o["x"], o["y"])
+    nm = o.get("name")
+    g.append(bub(cx, cy, o["r"], o["c"], (nm + ": " if nm else "") + f"about ${o['v']:,.0f}bn"))
+for o in usb:
+    nm = o.get("name")
+    if not nm: continue
+    cx, cy = P(o["x"], o["y"]); r = o["r"]
+    if r >= 50:
+        g.append(t(cx, cy - 2, nm.replace(" (Google)", ""), 17, INK, "middle", 600))
+        g.append(t(cx, cy + 18, f"${o['v'] / 1000:.1f}trn", 14, INK2, "middle"))
+    elif r >= 24:
+        g.append(t(cx, cy + 4, nm.replace(" Holdings", "").replace(" Sciences", ""), 11.5 if len(nm) < 11 else 9.5, INK, "middle", 500))
+# EU cluster at the same scale
+ex0 = min(o["x"] for o in eus); ey0 = min(o["y"] for o in eus)
+EX, EY = 735, 330
+for o in sorted(eus, key=lambda o: o["r"]):
+    g.append(bub(EX + (o["x"] - ex0), EY + (o["y"] - ey0), o["r"], o["c"], "EU company"))
+# totals
+g.append(t(560, 690, "US", 26, INK, "start", 600))
+g.append(t(560, 714, "241 companies, $29.6 trillion", 16, INK2))
+g.append(t(EX - 6, EY + 100, "EU", 24, INK, "start", 600))
+g.append(t(EX - 6, EY + 122, "14 companies,", 14, INK2))
+g.append(t(EX - 6, EY + 140, "$0.43 trillion", 14, INK2))
+# enlarged EU inset (x3.8 relative to the main scale)
+IX, IY, s_ = 880, 300, 1.0
+ix0 = min(v[0] - v[3] for v in eub.values()); iy0 = min(v[1] - v[3] for v in eub.values())
+iw = max(v[0] + v[3] for v in eub.values()) - ix0; ih = max(v[1] + v[3] for v in eub.values()) - iy0
+g.append(f'<rect x="{IX - 18}" y="{IY - 40}" width="{iw + 36}" height="{ih + 58}" rx="10" fill="#FFFFFF" stroke="{LINE}"></rect>')
+g.append(t(IX - 4, IY - 18, "The EU's 14, enlarged ×3.8", 13, MUTED, "start", 600))
+g.append(f'<line x1="{EX + 70}" y1="{EY + 40}" x2="{IX - 18}" y2="{IY + ih / 2}" stroke="{BASE}" stroke-dasharray="3 4"></line>')
+m_tot = sum(v[3] ** 2 for v in eub.values())
+for n, (x, y, c, r) in eub.items():
+    cx, cy = IX + (x - ix0), IY + (y - iy0)
+    g.append(bub(cx, cy, r, c, f"{n}: about ${430 * r * r / m_tot:,.0f}bn"))
+    words = n.split(" ") if (len(n) > 8 and " " in n) else [n]
+    fs = 11.5 if r > 34 else 10 if r > 26 else 8.5
+    for k, w_ in enumerate(words):
+        g.append(t(cx, cy + 4 + (k - (len(words) - 1) / 2) * (fs + 1), w_, fs, INK, "middle", 600 if r > 34 else 500))
+# scale key (main scale): area of $1trn and $100bn
+import math as _m
+k1 = _m.sqrt(1000 / (29570 / sum(o["r"] ** 2 for o in usb)))
+kx, kb = 1135, 735
+for v_, lab in ((1000, "$1trn"), (100, "$100bn")):
+    r = _m.sqrt(v_ / (29570 / sum(o["r"] ** 2 for o in usb)))
+    g.append(f'<circle cx="{kx}" cy="{kb - r:.1f}" r="{r:.1f}" fill="none" stroke="{BASE}" stroke-width="1.2"></circle>')
+g.append(t(kx, kb - 2 * k1 - 6, "$1trn", 12.5, MUTED, "middle"))
+g.append(t(kx, kb - 2 * _m.sqrt(100 / (29570 / sum(o["r"] ** 2 for o in usb))) - 4, "$100bn", 10.5, MUTED, "middle"))
+g.append(t(kx - k1 - 10, kb - 20, "Circle area =", 12.5, MUTED, "end"))
+g.append(t(kx - k1 - 10, kb - 4, "market value", 12.5, MUTED, "end"))
+charts["mcafee_full"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Public companies founded from scratch in the last 50 years and worth over $10 billion, '
+                         f'one bubble per company sized by market value: 241 in the US worth $29.6 trillion, led by Apple, Nvidia, Microsoft, Amazon and Alphabet; '
+                         f'14 in the EU worth $0.43 trillion, led by Spotify.">' + "".join(g) + "</svg>")
+
 json.dump(charts, open("site/why_charts.json", "w"), ensure_ascii=False)
 print({k: len(v) for k, v in charts.items()})
