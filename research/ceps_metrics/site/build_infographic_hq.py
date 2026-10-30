@@ -19,7 +19,7 @@ hq = [("No funding", 1.9, 0.7), ("Under $1m", 2.9, 1.0), ("$1–10m", 6.5, 0.8),
 avg_eu, avg_us = 3.3, 0.8
 
 g = [f'<rect width="{W}" height="{H}" fill="{BG}"></rect>', f'<rect width="{W}" height="10" fill="{GOLD}"></rect>']
-for i, line in enumerate(("The more a European start-up raises,", "the more likely it is to leave.")):
+for i, line in enumerate(("The more funding a European start-up", "raises, the more likely it is to leave.")):
     g.append(t(56, 112 + 60 * i, line, 50, INK, weight=700))
 g.append(t(56, 228, "Share of firms under ten years old that moved their headquarters between", 24, MUTED))
 g.append(t(56, 260, "Europe and the US, 2014–2024, by total funding raised", 24, MUTED))
@@ -62,7 +62,7 @@ g.append(f'<g transform="translate({W - 330},1160)"><rect x="0" y="0" width="22"
 g.append(t(W - 298, 1178, "The EU Digital Rulebook", 22, INK, font=SERIF))
 g.append(t(56, 1180, f'Source: Reichardt &amp; Reis (2026) · <tspan fill="{GOLD}" font-weight="700" font-size="18">eutechlaws.org</tspan>', 16, INK2, weight=500))
 
-aria = ("The more a European start-up raises, the more likely it is to leave. Share of firms under ten years old that moved their headquarters, 2014-2024: "
+aria = ("The more funding a European start-up raises, the more likely it is to leave. Share of firms under ten years old that moved their headquarters, 2014-2024: "
         "Europe to US 1.9% with no funding, 2.9% under $1m, 6.5% at $1-10m, 9.9% at $10-100m, 10.7% over $100m (average 3.3%); "
         "US to Europe 0.7% to 1.0% at every funding level (average 0.8%).")
 svg = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="{aria}">' + "".join(g) + "</svg>"
