@@ -163,5 +163,38 @@ charts["mcafee_bubbles"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img"
                             f'over $10 billion: {us_n} in the US with a combined ${us_v} trillion, {eu_n} in the EU with ${eu_v} trillion. Circle areas are proportional to total market value.">'
                             + "".join(g) + "</svg>")
 
+# 7. McAfee's EU detail: the 14 companies. Positions and radii measured from his published chart
+# (data/mcafee_eu_bubbles_measured.json); values = bubble areas scaled to his stated EU total of $0.43trn.
+m = json.load(open("data/mcafee_eu_bubbles_measured.json"))
+tot_a = sum(v[3] ** 2 for v in m.values())
+val = {n: 430 * v[3] ** 2 / tot_a for n, v in m.items()}
+TECH, OTHER = EU, "#A6A3A0"
+W, H, s_ = 600, 440, 1.2
+x0 = min(v[0] - v[3] for v in m.values()); y0 = min(v[1] - v[3] for v in m.values())
+ox, oy = 14, 34
+g = [f'<rect x="{ox}" y="6" width="12" height="12" rx="2" fill="{TECH}"></rect>' + t(ox + 18, 16.5, "Tech", 13),
+     f'<rect x="{ox + 70}" y="6" width="12" height="12" rx="2" fill="{OTHER}"></rect>' + t(ox + 88, 16.5, "Other industries", 13)]
+for n, (x, y, c, r) in m.items():
+    cx, cy, rr = ox + (x - x0) * s_, oy + (y - y0) * s_, r * s_
+    g.append(f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="{rr - 0.8:.1f}" fill="{TECH if c == "g" else OTHER}" stroke="#FAF9F5" stroke-width="1.6"></circle>')
+    words = n.split(" ") if (len(n) > 8 and " " in n) else [n]
+    fs = 13 if rr > 34 else 11 if rr > 26 else 9.5
+    for k, w_ in enumerate(words):
+        g.append(t(cx, cy + 4 + (k - (len(words) - 1) / 2) * (fs + 1), w_, fs, INK if c == "g" else INK, "middle", 600 if rr > 34 else 500))
+# ranked list
+lx = 370; ly = 46
+g.append(t(lx, ly - 18, "Approx. market value, $bn", 12.5, MUTED))
+for k, (n, v) in enumerate(sorted(val.items(), key=lambda kv: -kv[1])):
+    yy = ly + k * 26
+    c = m[n][2]
+    g.append(f'<rect x="{lx}" y="{yy - 10}" width="10" height="10" rx="2" fill="{TECH if c == "g" else OTHER}"></rect>')
+    g.append(t(lx + 18, yy, n, 14, INK2))
+    g.append(t(lx + 210, yy, f"{v:.0f}", 14, INK, "end", 600))
+tech_v = sum(v for n, v in val.items() if m[n][2] == "g")
+g.append(t(lx, ly + 14 * 26 + 6, f"Tech firms: about ${tech_v:.0f}bn", 13, INK, "start", 600))
+g.append(t(lx, ly + 14 * 26 + 24, "of the $430bn total", 13, MUTED))
+charts["mcafee_eu14"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="The 14 EU companies founded from scratch in the last 50 years and worth over $10 billion, '
+                         f'with approximate market values: ' + "; ".join(f"{n} about ${v:.0f}bn" for n, v in sorted(val.items(), key=lambda kv: -kv[1])) + '">' + "".join(g) + "</svg>")
+
 json.dump(charts, open("site/why_charts.json", "w"), ensure_ascii=False)
 print({k: len(v) for k, v in charts.items()})
