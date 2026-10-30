@@ -45,16 +45,22 @@ H = 40 + len(data) * rh
 X = lambda v: Z + v * S
 g = [f'<rect x="{L}" y="6" width="12" height="12" rx="2" fill="{EU}"></rect>' + t(L + 18, 16.5, "EU-10", 12.5),
      f'<rect x="{L + 80}" y="6" width="12" height="12" rx="2" fill="{US}"></rect>' + t(L + 98, 16.5, "US", 12.5),
-     f'<line x1="{Z}" x2="{Z}" y1="30" y2="{H - 4}" stroke="{INK2}"></line>']
+     ]
+HL = {"ICT-using services", "ICT-producing goods"}   # highlighted rows; the rest are drawn pale
 for i, (lab, e, u) in enumerate(data):
     y = 34 + i * rh
-    g.append(t(L - 12, y + 25, lab, 13.5, INK if i == 0 else INK2, "end", 600 if i == 0 else None))
+    hl = lab in HL
+    if hl:
+        g.append(f'<rect x="4" y="{y - 2}" width="{W - 8}" height="{rh - 8}" rx="6" fill="#F5F5F0"></rect>')
+    g.append(t(L - 12, y + 25, lab, 13.5, INK if hl else MUTED, "end", 600 if hl else None))
+    op = 1 if hl else 0.32
     for j, (v, c) in enumerate(((e, EU), (u, US))):
         yy = y + 6 + j * 20
         x0, w = (X(v), Z - X(v)) if v < 0 else (Z, X(v) - Z)
-        g.append(f'<rect x="{x0:.1f}" y="{yy}" width="{max(w, 1.5):.1f}" height="16" fill="{c}"></rect>')
+        g.append(f'<rect x="{x0:.1f}" y="{yy}" width="{max(w, 1.5):.1f}" height="16" fill="{c}" fill-opacity="{op}"></rect>')
         lx, an = (x0 - 6, "end") if v < 0 else (x0 + max(w, 1.5) + 6, "start")
-        g.append(t(lx, yy + 12.5, f"{v:+.2f}".replace("+0", "+0").replace("-", "−"), 12.5, INK, an, 600))
+        g.append(t(lx, yy + 12.5, f"{v:+.2f}".replace("+0", "+0").replace("-", "−"), 12.5, INK if hl else MUTED, an, 600 if hl else 400))
+g.append(f'<line x1="{Z}" x2="{Z}" y1="30" y2="{H - 4}" stroke="{INK2}"></line>')
 charts["gordon_ict"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Contribution to post-1995 change in productivity growth, '
                         f'percentage points, EU-10 vs US: ' + "; ".join(f"{a} EU {e:+.2f}, US {u:+.2f}" for a, e, u in data) + '">' + "".join(g) + "</svg>")
 
