@@ -1,6 +1,6 @@
 """Inline-SVG redraws of three external charts for the 'Why it matters' page (Draghi, Gordon & Sayed, McKinsey).
 Writes site/why_charts.json. Values are as published; McKinsey points are read off the published chart. Run from research/ceps_metrics."""
-import json
+import json, math
 
 INK, INK2, MUTED, LINE, BASE = "#282424", "#3F3B3B", "#666666", "#E8E6E3", "#C9C6C3"
 EU, US = "#B8860B", "#5C5858"
@@ -227,6 +227,15 @@ for o in usb:
         g.append(t(cx, cy + 6, nm.replace(" (Google)", ""), 17, INK, "middle", 600))
     elif r >= 24:
         g.append(t(cx, cy + 4, nm.replace(" Holdings", "").replace(" Sciences", ""), 11.5 if len(nm) < 11 else 9.5, INK, "middle", 500))
+# Not yet public (dashed): sized at the midpoint of reported valuation ranges, same scale; not in the US count or total
+kk = 29570 / sum(o["r"] ** 2 for o in usb)
+for nm, v, cx, cy in (("Anthropic", 1750, 738, 128), ("OpenAI", 1325, 882, 150)):
+    r = math.sqrt(v / kk)
+    g.append(f'<circle cx="{cx}" cy="{cy}" r="{r:.1f}" fill="{TECH}" fill-opacity="0.10" stroke="{TECH}" stroke-width="2" stroke-dasharray="6 5">'
+             f'<title>{nm}: private company, not yet listed</title></circle>')
+    g.append(t(cx, cy + 2, nm, 15, INK, "middle", 600))
+    g.append(t(cx, cy + 20, "not yet public", 11.5, MUTED, "middle"))
+g.append(t(668, 40, "Not yet public, at private valuations", 13, MUTED, "start", 600))
 # EU cluster at the same scale
 ex0 = min(o["x"] for o in eus); ey0 = min(o["y"] for o in eus)
 EX, EY = 735, 330
