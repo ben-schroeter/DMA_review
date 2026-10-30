@@ -117,7 +117,7 @@
     },
     "Studies.dc.html": {
       "expand": "fill",
-      "h": 8000,
+      "h": 4000,
       "is_interactive": true,
       "title": "Studies library",
       "w": 1440,
@@ -192,6 +192,15 @@
       "w": 1440,
       "x": 9120,
       "y": 0
+    },
+    "EvidenceMap.dc.html": {
+      "expand": "fill",
+      "h": 4300,
+      "is_interactive": true,
+      "title": "Studies: evidence map",
+      "w": 1440,
+      "x": 12160,
+      "y": 8500
     }
   },
   "createdOnFiles": {
@@ -216,6 +225,7 @@
     "Instrument.dc.html",
     "DigitalPolicy.dc.html",
     "Studies.dc.html",
+    "EvidenceMap.dc.html",
     "Data.dc.html",
     "Infographics.dc.html",
     "Methodology.dc.html",
