@@ -218,8 +218,7 @@ for o in usb:
     if not nm: continue
     cx, cy = P(o["x"], o["y"]); r = o["r"]
     if r >= 50:
-        g.append(t(cx, cy - 2, nm.replace(" (Google)", ""), 17, INK, "middle", 600))
-        g.append(t(cx, cy + 18, f"${o['v'] / 1000:.1f}trn", 14, INK2, "middle"))
+        g.append(t(cx, cy + 6, nm.replace(" (Google)", ""), 17, INK, "middle", 600))
     elif r >= 24:
         g.append(t(cx, cy + 4, nm.replace(" Holdings", "").replace(" Sciences", ""), 11.5 if len(nm) < 11 else 9.5, INK, "middle", 500))
 # EU cluster at the same scale
