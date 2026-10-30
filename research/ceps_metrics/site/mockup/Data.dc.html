@@ -24,6 +24,7 @@ a{color:#282424}a:hover{color:#8F6708}
 .dl{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:center;padding-block:18px;border-top:1px solid #E8E6E3}
 .btn{text-decoration:none;font-size:14px;font-weight:500;padding:8px 14px;border:1px solid #D4D2CE;border-radius:8px;background:#FFFFFF;min-height:44px;box-sizing:border-box;display:inline-flex;align-items:center;white-space:nowrap}
 @media (max-width:640px){.wrap{padding-inline:20px}.h1{font-size:40px}}
+.tab{text-decoration:none;font-size:15px;padding:8px 14px;border-radius:999px;border:1px solid #D4D2CE;color:#3F3B3B;min-height:44px;box-sizing:border-box;display:inline-flex;align-items:center}
 </style>
 </helmet>
 <div style="width: 100%; background: #FAF9F5">
@@ -34,14 +35,18 @@ a{color:#282424}a:hover{color:#8F6708}
         <span style="font-family: 'Source Serif 4', Georgia, serif; font-size: 20px">The EU Digital Rulebook</span>
       </a>
       <nav class="nav" aria-label="Main" style="display: flex; flex-wrap: wrap; gap: 28px">
-        <a href="Rules.dc.html">Findings</a><a href="Instruments.dc.html">Instruments</a><a href="Studies.dc.html">Studies</a><a href="UsComparison.dc.html">EU vs US</a><a href="Methodology.dc.html">Methodology</a><a href="About.dc.html">About</a>
+        <a href="Rules.dc.html">Findings</a><a href="Instruments.dc.html">Instruments</a><a href="Studies.dc.html">Studies</a><a href="Data.dc.html" style="color: #282424; font-weight: 500" aria-current="page">Data</a><a href="About.dc.html">About</a>
       </nav>
     </div>
   </header>
 
   <section style="padding-block: 64px 32px">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 20px">
-      <p class="eyebrow">Data</p>
+      <nav aria-label="Data" style="display: flex; flex-wrap: wrap; gap: 10px">
+        <a class="tab" href="Data.dc.html" style="background: #282424; color: #FAF9F5; border-color: #282424" aria-current="page">Downloads</a>
+        <a class="tab" href="Methodology.dc.html">Methodology</a>
+      </nav>
+      <p class="eyebrow">Data · Downloads</p>
       <h1 class="h1">Download the data</h1>
       <p class="body">Everything on this site is built from the files below. They are free to reuse with attribution under a Creative Commons licence. [Licence to be confirmed.]</p>
     </div>
@@ -88,7 +93,7 @@ a{color:#282424}a:hover{color:#8F6708}
   </footer>
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":2200}}'>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":2280}}'>
 class Component extends DCLogic {
   renderVals() { return {}; }
 }
