@@ -57,7 +57,7 @@ HEADER
       {TABS("EvidenceMap.dc.html")}<p class="eyebrow">Studies · Evidence map</p>
       <h1 class="h1">What has been studied for each law</h1>
       <p class="body" style="font-size: 19px">The {s["instruments"]} laws in force, grouped by policy area and ordered by the size of their rulebook, against eight kinds of effect. Of {s["pairs"]} pairs of law and effect, {s["pairs_evidence"]} have any evidence from after adoption and {s["pairs_causal"]} have a causal study.</p>
-      <p class="body">Each cell gives the number of sources and is coloured by the strongest one: dark gold, a causal study; light gold, another evaluation, audit, statistic or study; hatched, only the Commission's forecast; white, nothing found. Hover over a cell to see the sources, and find them in the <a href="Studies.dc.html">library</a>.</p>
+      <p class="body">Each cell is coloured by the strongest evidence found and gives the number of sources at that level: dark gold, causal studies; light gold, other evaluations, audits, statistics or studies; hatched, the Commission's forecasts; white, nothing found. A study that looks at several effects counts in each, so a row can add up to more than the law's total. Hover over a cell to see all its sources, and find them in the <a href="Studies.dc.html">library</a>.</p>
     </div>
   </section>
 

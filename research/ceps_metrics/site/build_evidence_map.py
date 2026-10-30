@@ -28,9 +28,10 @@ d = json.load(open("data/evidence_map/cells.json"))
 K = [k for k, _ in d["categories"]]
 NAME = dict(d["categories"])
 INST = d["instruments"]
-titles = {}
+titles, grades = {}, {}
 for r in csv.DictReader(open("data/evidence_map/sources_tagged.csv")):
     titles[r["id"]] = (r["title"] or "").strip()
+    grades[r["id"]] = r["grade"]
 
 
 def legend(g, y, W):
@@ -114,10 +115,11 @@ for a in order:
             title = f"{n} · {NAME[k]}: "
             if c["n"]:
                 parts = [f"{c[gr]} {lab2}" for gr, lab2 in [("causal", "causal"), ("measured", "other after-the-fact"), ("forecast", "forecast")] if c[gr]]
-                title += ", ".join(parts) + ". " + " | ".join(titles.get(i, "")[:90] for i in c["ids"][:6]) + (f" | and {len(c['ids']) - 6} more" if len(c["ids"]) > 6 else "")
+                title += ", ".join(parts) + ". " + " | ".join(("Causal: " if grades.get(i) == "causal" else "") + titles.get(i, "")[:90]
+                                                     for i in sorted(c["ids"], key=lambda i: ["causal", "measured", "forecast"].index(grades.get(i, "forecast")))[:6]) + (f" | and {len(c['ids']) - 6} more" if len(c["ids"]) > 6 else "")
             else:
                 title += "nothing found."
-            cell(g, L + j * CW, y, CW, RH, c["best"], str(c["n"]) if c["n"] else "", title, 12)
+            cell(g, L + j * CW, y, CW, RH, c["best"], str(c[c["best"]]) if c["best"] else "", title, 12)
         y += RH
 H = y + 8
 aria = f"Evidence map for {tot} adopted laws and eight kinds of effect: strongest evidence found and number of sources in each cell."
