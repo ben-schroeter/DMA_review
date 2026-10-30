@@ -60,7 +60,7 @@ ul.b{margin:0;padding-left:20px;color:#3F3B3B;display:flex;flex-direction:column
   <section style="padding-block: 24px 80px">
     <div class="wrap" style="display: flex; flex-wrap: wrap; gap: 56px; align-items: flex-start">
       <nav class="toc" aria-label="On this page" style="flex: 1 1 220px; max-width: 260px">
-        <a href="#scope">1. Scope</a><a href="#obligations">2. Counting obligations</a><a href="#secondary">3. Secondary acts and guidance</a><a href="#proposal">4. Proposal vs adoption</a><a href="#impact">5. Reviewing the impact evidence</a><a href="#us">6. Benchmarks and the US comparison</a><a href="#ai">7. Use of AI</a><a href="#limits">8. Limitations</a>
+        <a href="#scope">1. Scope</a><a href="#obligations">2. Counting obligations</a><a href="#reporting">3. Reporting obligations</a><a href="#secondary">4. Secondary acts and guidance</a><a href="#proposal">5. Proposal vs adoption</a><a href="#impact">6. Reviewing the impact evidence</a><a href="#us">7. Benchmarks and the US comparison</a><a href="#ai">8. Use of AI</a><a href="#limits">9. Limitations</a>
       </nav>
       <div style="flex: 999 1 560px; min-width: 0">
         <div class="sec" id="scope" style="border-top: 0; padding-top: 0">
@@ -75,28 +75,37 @@ ul.b{margin:0;padding-left:20px;color:#3F3B3B;display:flex;flex-direction:column
           <p class="body">Excluded uses of "shall": entry into force, definitions, amendment instructions, saving clauses, rights and powers, and constitutive rules such as how a board is composed. Each obligation is assigned to who must act, using the grammatical subject: private parties, member states, EU institutions, or unclear.</p>
           <p class="body"><strong>How accurate is it?</strong> In a fresh hand-checked sample of 200 counted items, 89% were genuine obligations, and the addressee was correct for 90% of those. Totals are reliable enough for comparisons of this size; addressee shares are approximate.</p><p class="body"><strong>Who must act, rechecked (October 2026):</strong> each obligation gets a formal addressee (who the text tells to act) and an "ultimately bound" one (for duties on Member States whose content is company conduct). Where the sentence itself does not name the actor, the rules look at the list lead-in, the previous sentences of the article, the article heading and the act's definitions; the remaining cases (about 4,800 distinct clauses) were read by a model with a logged reason for each. Rules on content or legal effect that bind nobody are coded "no actor". No obligation is left unclear.</p>
         </div>
+        <div class="sec" id="reporting">
+          <h2 class="h2">3. Reporting obligations</h2>
+          <p class="body">A reporting obligation is one of the counted obligations whose required action is to pass information to someone else, or to create or keep it for others to inspect. Every reporting obligation is therefore also part of the main count. We sort them by the action required:</p>
+          <ul class="b"><li><strong>Reports and submissions:</strong> report, submit, transmit or provide information or documents</li><li><strong>Notifications:</strong> notify or inform someone of something</li><li><strong>Information on request:</strong> supply information when asked</li><li><strong>Disclosure:</strong> publish, make public, or inform users, consumers, data subjects or the public</li><li><strong>Registration:</strong> register, or enter information in a register, database or system</li><li><strong>Record-keeping:</strong> keep records, logs, documentation or copies for inspection</li></ul>
+          <p class="body">For each we also record who must act, who receives the information, and how often: periodically, once, when something happens (with any deadline), on request, on an ongoing basis, or not stated in the provision itself.</p>
+          <div class="ex">Counted: "The controller <u>shall notify</u> the personal data breach to the supervisory authority … not later than 72 hours after having become aware of it."<br>Not counted: "The report <u>shall include</u> …" (it sets a report's content) and "Dates <u>shall be reported</u> in UTC" (format)</div>
+          <p class="body">Also not counted: bans on disclosure (confidentiality rules), reporting inside a company to its own management body, board or general meeting, and the standard clause requiring member states to adopt and publish their transposing laws.</p>
+          <p class="body"><strong>How accurate is it?</strong> The rules were developed on a first sample of 300 obligations, then checked on new samples not used to build them. 197 of 210 obligations counted as reporting were genuine (94%), and 4 of 100 obligations not counted were in fact reporting obligations. The count therefore captures an estimated 83% of them: 5,484 is a lower bound, and the true number is likely about 6,200. These are obligations in the texts, not reports filed.</p>
+        </div>
         <div class="sec" id="secondary">
-          <h2 class="h2">3. Secondary acts and guidance</h2>
+          <h2 class="h2">4. Secondary acts and guidance</h2>
           <p class="body">Implementing and delegated acts are those EUR-Lex records as adopted under each instrument (605 implementing and 85 delegated acts, plus 52 guidance documents and 28 other Commission and Council acts: 770 items, measured like the main acts). Guidance comes from the Commission and from the EDPB, EBA and ESMA: final guidelines only, no Q&amp;As or drafts. Amendments and national transposition measures come from EUR-Lex metadata.</p>
         </div>
         <div class="sec" id="proposal">
-          <h2 class="h2">4. Proposal vs adoption</h2>
+          <h2 class="h2">5. Proposal vs adoption</h2>
           <p class="body">For 99 adopted acts we compared the original Commission proposal with the adopted text, measured the same way on the legal text only. Three acts could not be compared because their proposals are not usable in EUR-Lex.</p>
         </div>
         <div class="sec" id="impact">
-          <h2 class="h2">5. Reviewing the impact evidence</h2>
+          <h2 class="h2">6. Reviewing the impact evidence</h2>
           <ul class="b"><li><strong>Objectives:</strong> the objectives, indicators and quantified forecasts in each proposal's financial statement and impact assessment, each checked against the evidence available and given a status.</li><li><strong>Sources:</strong> Commission evaluations, audits, statistics and research on effects on firms, prices, innovation, jobs and consumers. Initial impact assessments are shown with the objectives; enforcement decisions and court rulings are not counted as evidence.</li><li><strong>Depth:</strong> a full literature search for the 29 best-studied instruments and Commission evaluations plus a light search for older acts. In October 2026 a second, broader search covered all 77 acts adopted since 2016: working papers, measurement studies, agency and audit reports, surveys and think tank pieces. It added 189 sources.</li><li><strong>Who produced it:</strong> every source is labelled academic, official, think tank (including NGOs and consumer organisations), or consultancy and industry. Think tank and industry pieces are kept and shown, but labelled, and funders or campaigning positions are flagged.</li><li><strong>Causal studies:</strong> those using a design that isolates the law's effect, such as difference-in-differences, event studies, regression discontinuity or synthetic control.</li><li><strong>Checks:</strong> every source was located and its headline checked; each records whether the full text, an abstract or only a summary was read, and flags authors or funders with a stake.</li></ul>
         </div>
         <div class="sec" id="us">
-          <h2 class="h2">6. Benchmarks and the US comparison</h2>
+          <h2 class="h2">7. Benchmarks and the US comparison</h2>
           <p class="body">We counted obligations in the Sarbanes-Oxley Act and in US counterparts of EU instruments with the same counter, adapted for US drafting. Precision on US text was 80% (68% for Sarbanes-Oxley). Ten pairs passed our fairness review. US words include text inserted into the US Code; EU words are articles and annexes.</p>
         </div>
         <div class="sec" id="ai">
-          <h2 class="h2">7. Use of AI</h2>
+          <h2 class="h2">8. Use of AI</h2>
           <p class="body">Claude, an AI model, helped write the counting code, draft the objective summaries and run the literature search; every source and headline figure was checked against the original, and the validation samples were coded by hand. [To be completed with the project team's own review process.]</p>
         </div>
         <div class="sec" id="limits">
-          <h2 class="h2">8. Limitations</h2>
+          <h2 class="h2">9. Limitations</h2>
           <ul class="b"><li>Counts are not costs: one rule can be trivial, another expensive.</li><li>Obligations on member states in directives reach companies only after transposition.</li><li>"Not measured" means not found by our searches.</li><li>EUR-Lex links for very recent acts can lag.</li></ul>
         </div>
       </div>
