@@ -91,3 +91,26 @@ svg = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="100
 os.makedirs("site/infographics", exist_ok=True)
 open("site/infographics/areas_growth.svg", "w").write(svg)
 print({a: (then[a], now[a]) for a in areas}, round(factor, 2))
+
+# Page version for the Rules page (1000 wide, no headline or footer), same data and encoding
+PW, PL, PR, PTOP, PROW = 1000, 250, 840, 64, 40
+PX = lambda v: PL + v / VMAX * (PR - PL)
+PBOT = PTOP + PROW * len(areas)
+p = [f'<circle cx="10" cy="12" r="6.5" fill="{BG}" stroke="{STONE}" stroke-width="2.5"></circle>' + t(24, 17, "Start of 2018", 14, INK2),
+     f'<circle cx="138" cy="12" r="5" fill="{SLATE}" stroke="{BG}" stroke-width="1.5"></circle>' + t(150, 17, "2026: laws only", 14, INK2),
+     f'<circle cx="282" cy="12" r="7" fill="{GOLD}"></circle>' + t(296, 17, "2026: plus implementing and delegated acts", 14, INK2),
+     t(PW - 4, PTOP - 14, "Growth", 13, MUTED, "end")]
+for v in range(0, VMAX + 1, 1000):
+    p.append(f'<line x1="{PX(v):.1f}" x2="{PX(v):.1f}" y1="{PTOP - 4}" y2="{PBOT}" stroke="{BASE if v == 0 else LINE}"></line>')
+    p.append(t(PX(v), PBOT + 20, f"{v:,}", 13, MUTED, "middle"))
+for i, a in enumerate(areas):
+    y = PTOP + PROW * i + PROW / 2
+    p.append(t(PL - 14, y + 5, a.replace(" Protection", "").replace("&", "&amp;"), 14.5, INK, "end", 500))
+    p.append(f'<line x1="{PX(then[a]):.1f}" x2="{PX(now[a]):.1f}" y1="{y:.1f}" y2="{y:.1f}" stroke="{GOLD}" stroke-opacity="0.45" stroke-width="4.5" stroke-linecap="round"></line>')
+    p.append(f'<circle cx="{PX(then[a]):.1f}" cy="{y:.1f}" r="6" fill="{BG}" stroke="{STONE}" stroke-width="2.5"><title>{a.replace("&", "&amp;")}, start of 2018: {then[a]:,}</title></circle>')
+    p.append(f'<circle cx="{PX(now[a]):.1f}" cy="{y:.1f}" r="7.5" fill="{GOLD}"><title>{a.replace("&", "&amp;")}, October 2026: {now[a]:,}</title></circle>')
+    p.append(f'<circle cx="{PX(now_laws[a]):.1f}" cy="{y:.1f}" r="5" fill="{SLATE}" stroke="{BG}" stroke-width="1.5"><title>{a.replace("&", "&amp;")}, laws only, October 2026: {now_laws[a]:,}</title></circle>')
+    p.append(t(PX(now[a]) + 13, y + 5, f"{now[a]:,}", 13, INK2))
+    p.append(t(PW - 4, y + 5, "new" if then[a] == 0 else f"×{now[a] / then[a]:.1f}", 15, GOLD_D, "end", 700))
+page_svg = (f'<svg viewBox="0 0 {PW} {PBOT + 30}" width="100%" role="img" aria-label="{aria.replace("&", "&amp;")}">' + "".join(p) + "</svg>")
+open("site/areas_growth_page.svg", "w").write(page_svg)
