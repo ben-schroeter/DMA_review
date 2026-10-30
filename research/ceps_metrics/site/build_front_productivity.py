@@ -34,9 +34,10 @@ g.append(f'<circle cx="{X(1995):.1f}" cy="{TOP}" r="5.5" fill="#004494" stroke="
 g.append(f'<text x="{X(2010):.1f}" y="98.5" text-anchor="middle" {F} font-size="22" fill="#8F6708" font-weight="600">{drop:+d}%</text>'.replace("+-", "-"))
 g.append(f'<text x="{X(low_y) + 10:.1f}" y="{Y(idx[low_y]) + 18:.1f}" {F} font-size="14" fill="#777373" font-weight="600">{idx[low_y]:.0f}</text>')
 g.append(f'<text x="{X(1903):.1f}" y="{Y(idx[1945]) + 30:.1f}" {F} font-size="14" fill="#777373">1914–45: two world wars</text>')
-g.append(f'<text x="{X(1958):.1f}" y="336.1" {F} font-size="14" fill="#004494" font-weight="600">1945–95: Europe catches up</text>')
-g.append(f'<text x="{X(1997):.1f}" y="217.0" {F} font-size="14" fill="#8F6708" font-weight="600">Since 1995:</text>'
-         f'<text x="{X(1997):.1f}" y="236.0" {F} font-size="14" fill="#8F6708" font-weight="600">falling behind</text>')
+g.append(f'<text x="{X(1958):.1f}" y="326.1" {F} font-size="14" fill="#004494" font-weight="600">1945–95:</text>'
+         f'<text x="{X(1958):.1f}" y="345.1" {F} font-size="14" fill="#004494" font-weight="600">Europe catches up</text>')
+for k, line in enumerate(("Since 1995:", "Europe misses", "the ICT revolution", "and falls behind")):
+    g.append(f'<text x="{X(1996):.1f}" y="{198 + 19 * k:.1f}" {F} font-size="14" fill="#8F6708" font-weight="600">{line}</text>')
 
 aria = (f"Output per hour in the euro area relative to the US, 1995 = 100: from {idx[low_y]:.0f} after the war to 100 in 1995, "
         f"then down to {idx[Y1]:.0f} in {Y1}")
