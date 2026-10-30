@@ -93,3 +93,45 @@ charts["areas_growth"] = (f'<svg viewBox="0 0 {W} {PBOT + 30}" width="100%" role
                           + "; ".join(f"{a.replace('&', 'and')} {then[a]} to {now[a]}" for a in areas) + '">' + "".join(g) + "</svg>")
 json.dump(charts, open("site/reporting_charts.json", "w"), ensure_ascii=False)
 print({w: sum(cnt[w].values()) for w, _ in WHO}, sum(then.values()), len(pp), {a: (then[a], now[a]) for a in areas})
+
+# 3. companies by policy area over time: small multiples, cumulative by year, shared axes
+Y0, Y1 = 2000, 2026
+cum = {}
+for a in areas:
+    byy = collections.Counter(year(r) for r in pp if area(r) == a)
+    run, series = sum(v for y, v in byy.items() if y < Y0), {}
+    for y in range(Y0, Y1 + 1):
+        run += byy[y]; series[y] = run
+    cum[a] = series
+NC, W, LM, PW, GX, PH, GY, TOP = 4, 1000, 40, 208, 34, 110, 74, 12
+YM = 600
+g = []
+for i, a in enumerate(areas):
+    x0 = LM + (i % NC) * (PW + GX); y0 = TOP + 40 + (i // NC) * (PH + GY)
+    X = lambda y, x0=x0: x0 + (y - Y0) / (Y1 - Y0) * PW
+    Yv = lambda v, y0=y0: y0 + PH - v / YM * PH
+    for v in (200, 400, 600):
+        g.append(f'<line x1="{x0}" x2="{x0 + PW}" y1="{Yv(v):.1f}" y2="{Yv(v):.1f}" stroke="{LINE}"></line>')
+        if i % NC == 0:
+            g.append(t(x0 - 6, Yv(v) + 4, v, 11.5, MUTED, "end"))
+    pts = [(X(y), Yv(cum[a][y])) for y in range(Y0, Y1 + 1)]
+    step = []                                   # cumulative counts change once a year: draw as steps
+    for k, (px, py) in enumerate(pts):
+        if k:
+            step.append(f"{px:.1f},{step_y:.1f}")
+        step.append(f"{px:.1f},{py:.1f}"); step_y = py
+    g.append(f'<polygon points="{X(Y0):.1f},{Yv(0):.1f} {" ".join(step)} {X(Y1):.1f},{Yv(0):.1f}" fill="{GOLD}" fill-opacity="0.18"></polygon>')
+    g.append(f'<polyline points="{" ".join(step)}" fill="none" stroke="{GOLD}" stroke-width="2.2" stroke-linejoin="round"></polyline>')
+    g.append(f'<line x1="{X(2018):.1f}" x2="{X(2018):.1f}" y1="{y0 - 4}" y2="{y0 + PH}" stroke="{STONE}" stroke-dasharray="3 3"></line>')
+    g.append(f'<circle cx="{X(2018):.1f}" cy="{Yv(cum[a][2017]):.1f}" r="3.5" fill="{BG}" stroke="{SLATE}" stroke-width="1.6"><title>{a.replace("&", "&amp;")}, start of 2018: {cum[a][2017]}</title></circle>')
+    g.append(f'<circle cx="{X(Y1):.1f}" cy="{Yv(cum[a][Y1]):.1f}" r="3.5" fill="{GOLD}"><title>{a.replace("&", "&amp;")}, October 2026: {cum[a][Y1]}</title></circle>')
+    g.append(f'<line x1="{x0}" x2="{x0 + PW}" y1="{y0 + PH}" y2="{y0 + PH}" stroke="{BASE}"></line>')
+    for y in (2000, 2018, 2026):
+        g.append(t(X(y), y0 + PH + 15, y, 11, MUTED, "middle"))
+    gr = "new since 2018" if then[a] == 0 else f"×{now[a] / then[a]:.1f} since 2018"
+    g.append(t(x0, y0 - 22, a.replace(" Protection", "").replace("&", "&amp;"), 14, INK, "start", 600))
+    g.append(t(x0, y0 - 6, f'{now[a]:,} <tspan fill="{GOLD_D}" font-weight="600">{gr}</tspan>', 12.5, MUTED))
+H = TOP + 40 + 3 * (PH + GY) - GY + 26
+charts["areas_time"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Companies\' reporting obligations by policy area, cumulative 2000 to 2026, twelve panels on shared axes: '
+                        + "; ".join(f"{a.replace('&', 'and')} {then[a]} at the start of 2018, {now[a]} in 2026" for a in areas) + '">' + "".join(g) + "</svg>")
+json.dump(charts, open("site/reporting_charts.json", "w"), ensure_ascii=False)
