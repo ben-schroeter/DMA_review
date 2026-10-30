@@ -23,7 +23,7 @@ dec = {y: (100 * math.log(rel["lp"][y]), 100 * math.log(rel["hours_pc"][y])) for
 share24 = dec[Y1][0] / sum(dec[Y1])
 
 g = [f'<rect width="{W}" height="{H}" fill="{BG}"></rect>', f'<rect width="{W}" height="10" fill="{GOLD}"></rect>']
-for i, line in enumerate(("Europe used to be poorer because it", "worked less. Now it is poorer because", "each hour produces less")):
+for i, line in enumerate(("Europe used to be poorer because it", "worked less. Now it is poorer because", "each hour produces less.")):
     g.append(t(56, 112 + 60 * i, line, 50, INK, weight=700))
 g.append(t(56, 288, "Euro area GDP per head relative to the US, and how much of the gap comes", 24, MUTED))
 g.append(t(56, 320, "from output per hour and from hours worked, 1980–2024", 24, MUTED))
@@ -57,7 +57,7 @@ g.append(f'<polyline points="{pts}" fill="none" stroke="{INK}" stroke-width="3.5
 g.append(f'<circle cx="{xc(Y1):.1f}" cy="{Yv(sum(dec[Y1])):.1f}" r="6" fill="{INK}"></circle>')
 # annotations
 g.append(t(xc(1995), Yv(dec[1995][0]) - 16, "1995: the gap is all hours", 20, INK, "middle", 700, halo=True))
-g.append(f'<rect x="{L + 20}" y="{Yv(-17) + 6:.1f}" width="430" height="118" rx="12" fill="#FFFFFF" stroke="{LINE}"></rect>')
+g.append(f'<rect x="{L + 20}" y="{Yv(-17) + 6:.1f}" width="482" height="118" rx="12" fill="#FFFFFF" stroke="{LINE}"></rect>')
 g.append(t(L + 44, Yv(-17) + 92, f"{share24 * 100:.0f}%", 64, GOLD, weight=700, font=SERIF))
 g.append(t(L + 196, Yv(-17) + 46, "of the gap in 2024 comes", 20, INK2))
 g.append(t(L + 196, Yv(-17) + 72, "from lower output per hour;", 20, INK2))
