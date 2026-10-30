@@ -5,7 +5,7 @@ import base64
 b64 = lambda p: base64.b64encode(open(p, "rb").read()).decode()
 s = open("template.html").read()
 for key, path in {"DMSANS400": "fonts/DMSans-400.woff", "DMSANS500": "fonts/DMSans-500.woff",
-                  "SERIF400": "fonts/SourceSerif4-400.woff", "HERO": "../assets/hero3_960.webp"}.items():
+                  "SERIF400": "fonts/SourceSerif4-400.woff", "HERO": "../assets/hero4_960.webp"}.items():
     s = s.replace("{{" + key + "}}", b64(path))
 assert "{{" not in s
 open("index.html", "w").write(s)
