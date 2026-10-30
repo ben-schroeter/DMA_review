@@ -114,3 +114,52 @@ for i, a in enumerate(areas):
     p.append(t(PW - 4, y + 5, "new" if then[a] == 0 else f"×{now[a] / then[a]:.1f}", 15, GOLD_D, "end", 700))
 page_svg = (f'<svg viewBox="0 0 {PW} {PBOT + 30}" width="100%" role="img" aria-label="{aria.replace("&", "&amp;")}">' + "".join(p) + "</svg>")
 open("site/areas_growth_page.svg", "w").write(page_svg)
+
+# Small multiples over time for the Rules page: cumulative obligations on companies by policy area, laws vs implementing/delegated acts
+TY0, TY1 = 2000, 2026
+LAWC, SECC = GOLD, "#E3CF9C"
+ser_l, ser_s = {}, {}
+for a in areas:
+    bl = collections.Counter(yr(r["adoption_date"]) for r in inst if r["policy_area_ceps"] == a for _ in range(r["addr_private_parties"] or 0))
+    bs = collections.Counter(yr(r["date"]) for r in sec if area_of.get(r["parent_row_id"]) == a for _ in range(r["addr_private_parties"] or 0))
+    rl, rs = sum(v for y, v in bl.items() if y < TY0), sum(v for y, v in bs.items() if y < TY0)
+    ser_l[a], ser_s[a] = {}, {}
+    for y in range(TY0, TY1 + 1):
+        rl += bl[y]; rs += bs[y]; ser_l[a][y], ser_s[a][y] = rl, rs
+NC, TW, LM, PW, GX, PH, GY, TT = 4, 1000, 44, 206, 34, 110, 74, 12
+TYM = 4000
+q = [f'<rect x="{LM}" y="4" width="12" height="12" rx="2" fill="{LAWC}"></rect>' + t(LM + 18, 15, "In the laws", 13),
+     f'<rect x="{LM + 120}" y="4" width="12" height="12" rx="2" fill="{SECC}"></rect>' + t(LM + 138, 15, "In implementing and delegated acts", 13),
+     f'<line x1="{LM + 390}" x2="{LM + 390}" y1="2" y2="18" stroke="{STONE}" stroke-dasharray="3 3"></line>' + t(LM + 398, 15, "start of 2018", 13, MUTED)]
+for i, a in enumerate(areas):
+    x0 = LM + (i % NC) * (PW + GX); y0 = TT + 58 + (i // NC) * (PH + GY)
+    SX = lambda y, x0=x0: x0 + (y - TY0) / (TY1 - TY0) * PW
+    SY = lambda v, y0=y0: y0 + PH - v / TYM * PH
+    for v in (1000, 2000, 3000, 4000):
+        q.append(f'<line x1="{x0}" x2="{x0 + PW}" y1="{SY(v):.1f}" y2="{SY(v):.1f}" stroke="{LINE}"></line>')
+        if i % NC == 0:
+            q.append(t(x0 - 6, SY(v) + 4, f"{v // 1000}k", 11.5, MUTED, "end"))
+    def steps(vals):
+        out, prev = [], None
+        for y in range(TY0, TY1 + 1):
+            px, py = SX(y), SY(vals[y])
+            if prev is not None:
+                out.append(f"{px:.1f},{prev:.1f}")
+            out.append(f"{px:.1f},{py:.1f}"); prev = py
+        return out
+    tot = {y: ser_l[a][y] + ser_s[a][y] for y in ser_l[a]}
+    top_pts, law_pts = steps(tot), steps(ser_l[a])
+    q.append(f'<polygon points="{SX(TY0):.1f},{SY(0):.1f} {" ".join(top_pts)} {SX(TY1):.1f},{SY(0):.1f}" fill="{SECC}"></polygon>')
+    q.append(f'<polygon points="{SX(TY0):.1f},{SY(0):.1f} {" ".join(law_pts)} {SX(TY1):.1f},{SY(0):.1f}" fill="{LAWC}"></polygon>')
+    q.append(f'<line x1="{SX(2018):.1f}" x2="{SX(2018):.1f}" y1="{y0 - 4}" y2="{y0 + PH}" stroke="{STONE}" stroke-dasharray="3 3"></line>')
+    q.append(f'<line x1="{x0}" x2="{x0 + PW}" y1="{y0 + PH}" y2="{y0 + PH}" stroke="{BASE}"></line>')
+    for y in (2000, 2018, 2026):
+        q.append(t(SX(y), y0 + PH + 15, y, 11, MUTED, "middle"))
+    gr = "new since 2018" if then[a] == 0 else f"×{now[a] / then[a]:.1f} since 2018"
+    q.append(f'<rect x="{x0}" y="{y0}" width="{PW}" height="{PH}" fill="transparent"><title>{a.replace("&", "&amp;")}: {then[a]:,} at the start of 2018, {now[a]:,} in October 2026 ({now_laws[a]:,} in the laws)</title></rect>')
+    q.append(t(x0, y0 - 22, a.replace(" Protection", "").replace("&", "&amp;"), 14, INK, "start", 600))
+    q.append(t(x0, y0 - 6, f'{now[a]:,} <tspan fill="{GOLD_D}" font-weight="600">{gr}</tspan>', 12.5, MUTED))
+TH = TT + 58 + 3 * (PH + GY) - GY + 26
+time_svg = (f'<svg viewBox="0 0 {TW} {TH}" width="100%" role="img" aria-label="Obligations on companies by policy area, cumulative 2000 to 2026, twelve panels on shared axes, '
+            f'split into the laws and their implementing and delegated acts: ' + "; ".join(f"{a.replace('&', 'and')} {then[a]:,} at the start of 2018, {now[a]:,} in 2026" for a in areas) + '">' + "".join(q) + "</svg>")
+open("site/areas_growth_time.svg", "w").write(time_svg)
