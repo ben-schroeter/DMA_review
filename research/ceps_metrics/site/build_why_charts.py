@@ -133,5 +133,35 @@ for i, (v, a, b, src) in enumerate(sv):
 charts["firm_surveys"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Regulation as an obstacle in seven business surveys: '
                           + "; ".join(f"{a} {b} {v}% ({src})" for v, a, b, src in sv).replace("&amp;", "and") + '">' + "".join(g) + "</svg>")
 
+# 6. Andrew McAfee (MIT): public from-scratch companies under 50 years old with $10bn+ market cap, US vs EU (26 Nov 2024).
+# Totals only, as printed on his chart; circle AREA proportional to total market cap.
+import math
+us_n, us_v, eu_n, eu_v = 241, 29.57, 14, 0.43
+W, H = 600, 420
+R = 168
+rad = lambda v: R * math.sqrt(v / us_v)
+cx_us, cy = 178, 200
+g = [f'<circle cx="{cx_us}" cy="{cy}" r="{R}" fill="{US}"></circle>',
+     t(cx_us, cy - 16, "US", 30, "#FAF9F5", "middle", 600),
+     t(cx_us, cy + 18, f"{us_n} companies", 18, "#FAF9F5", "middle"),
+     t(cx_us, cy + 44, f"${us_v:.2f} trillion", 18, "#FAF9F5", "middle", 600)]
+cx_eu = 400; r_eu = rad(eu_v)
+g += [f'<circle cx="{cx_eu}" cy="{cy - 30}" r="{r_eu:.1f}" fill="{EU}"></circle>',
+      t(cx_eu + r_eu + 12, cy - 40, "EU", 26, INK, "start", 600),
+      t(cx_eu + r_eu + 12, cy - 16, f"{eu_n} companies", 16, INK2),
+      t(cx_eu + r_eu + 12, cy + 6, f"${eu_v:.2f} trillion", 16, INK2, "start", 600)]
+g.append(t(cx_eu - r_eu, cy + 52, f"US total about {us_v / eu_v:.0f}× the EU’s", 16, INK, "start", 600))
+kx, kb = 545, 398   # scale key, circles sit on a common baseline
+for v in (1, 0.1):
+    r = rad(v)
+    g.append(f'<circle cx="{kx}" cy="{kb - r:.1f}" r="{r:.1f}" fill="none" stroke="{BASE}" stroke-width="1.2"></circle>')
+g.append(t(kx, kb - 2 * rad(1) - 6, "$1trn", 13, MUTED, "middle"))
+g.append(t(kx, kb - 2 * rad(0.1) - 4, "$100bn", 11, MUTED, "middle"))
+g.append(t(kx - rad(1) - 10, kb - 22, "Circle area =", 13, MUTED, "end"))
+g.append(t(kx - rad(1) - 10, kb - 5, "market value", 13, MUTED, "end"))
+charts["mcafee_bubbles"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Public companies founded from scratch in the last 50 years and worth '
+                            f'over $10 billion: {us_n} in the US with a combined ${us_v} trillion, {eu_n} in the EU with ${eu_v} trillion. Circle areas are proportional to total market value.">'
+                            + "".join(g) + "</svg>")
+
 json.dump(charts, open("site/why_charts.json", "w"), ensure_ascii=False)
 print({k: len(v) for k, v in charts.items()})
