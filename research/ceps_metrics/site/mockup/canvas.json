@@ -1,1 +1,233 @@
-{"v": 3, "createdOnFiles": {"v": 1, "at": "2026-10-10T15:30:00Z"}, "title": "EU Digital Rulebook site mockup", "launch": {"view": "focused", "file": "Main.dc.html"}, "pages": [], "boards": {"Main.dc.html": {"x": 0, "y": 0, "w": 1440, "h": 4800, "title": "Home", "expand": "fill", "is_interactive": true}, "WhyItMatters.dc.html": {"x": 1520, "y": 0, "w": 1440, "h": 5200, "title": "Why it matters", "expand": "fill", "is_interactive": true}, "Rules.dc.html": {"x": 3040, "y": 0, "w": 1440, "h": 6000, "title": "Findings: the rulebook", "expand": "fill", "is_interactive": true}, "Evidence.dc.html": {"x": 4560, "y": 0, "w": 1440, "h": 3700, "title": "Findings: the evidence", "expand": "fill", "is_interactive": true}, "UsComparison.dc.html": {"x": 6080, "y": 0, "w": 1440, "h": 3900, "title": "Findings: EU vs US", "expand": "fill", "is_interactive": true}, "Instruments.dc.html": {"x": 0, "y": 8500, "w": 1440, "h": 4000, "title": "Instruments index", "expand": "fill", "is_interactive": true}, "Instrument.dc.html": {"x": 1520, "y": 8500, "w": 1440, "h": 3600, "title": "Instrument page: Digital Markets Act", "expand": "fill", "is_interactive": true}, "Studies.dc.html": {"x": 3040, "y": 8500, "w": 1440, "h": 4000, "title": "Studies library", "expand": "fill", "is_interactive": true}, "Data.dc.html": {"x": 4560, "y": 8500, "w": 1440, "h": 2200, "title": "Data and downloads", "expand": "fill", "is_interactive": true}, "Methodology.dc.html": {"x": 6080, "y": 8500, "w": 1440, "h": 4400, "title": "Methodology", "expand": "fill", "is_interactive": true}, "About.dc.html": {"x": 7600, "y": 8500, "w": 1440, "h": 2000, "title": "About", "expand": "fill", "is_interactive": true}, "HeroOptions.dc.html": {"x": 7600, "y": 0, "w": 1440, "h": 3700, "title": "Hero illustration options", "expand": "fill", "is_interactive": true}}, "order": ["Main.dc.html", "HeroOptions.dc.html", "WhyItMatters.dc.html", "Rules.dc.html", "Evidence.dc.html", "UsComparison.dc.html", "Instruments.dc.html", "Instrument.dc.html", "Studies.dc.html", "Data.dc.html", "Methodology.dc.html", "About.dc.html"], "notes": {}, "designSystems": []}
+{
+  "v": 3,
+  "attachments": {},
+  "boards": {
+    "About.dc.html": {
+      "expand": "fill",
+      "h": 2080,
+      "is_interactive": true,
+      "title": "About: the project",
+      "w": 1440,
+      "x": 7600,
+      "y": 8500
+    },
+    "Data.dc.html": {
+      "expand": "fill",
+      "h": 2280,
+      "is_interactive": true,
+      "title": "Data: downloads",
+      "w": 1440,
+      "x": 4560,
+      "y": 8500
+    },
+    "Evidence.dc.html": {
+      "expand": "fill",
+      "h": 5000,
+      "is_interactive": true,
+      "title": "Findings: the evidence",
+      "w": 1440,
+      "x": 4560,
+      "y": 0
+    },
+    "HeroOptions.dc.html": {
+      "expand": "fill",
+      "h": 3700,
+      "is_interactive": true,
+      "title": "Hero illustration options",
+      "w": 1440,
+      "x": 7600,
+      "y": 0
+    },
+    "Infographic.dc.html": {
+      "expand": "fill",
+      "h": 1200,
+      "title": "Infographic: obligations on companies",
+      "w": 1200,
+      "x": 0,
+      "y": 13300
+    },
+    "InfographicNegotiation.dc.html": {
+      "expand": "fill",
+      "h": 1200,
+      "title": "Infographic: laws grow in negotiation",
+      "w": 1200,
+      "x": 1280,
+      "y": 13300
+    },
+    "InfographicPolicyAreas.dc.html": {
+      "expand": "fill",
+      "h": 1200,
+      "title": "Infographic: acts by policy area",
+      "w": 1200,
+      "x": 2560,
+      "y": 13300
+    },
+    "InfographicSox.dc.html": {
+      "expand": "fill",
+      "h": 1200,
+      "title": "Infographic: EU acts vs Sarbanes-Oxley",
+      "w": 1200,
+      "x": 3840,
+      "y": 13300
+    },
+    "Instrument.dc.html": {
+      "expand": "fill",
+      "h": 4200,
+      "is_interactive": true,
+      "title": "Instrument page: Digital Markets Act",
+      "w": 1440,
+      "x": 1520,
+      "y": 8500
+    },
+    "Instruments.dc.html": {
+      "expand": "fill",
+      "h": 4060,
+      "is_interactive": true,
+      "title": "Digital Acquis: legal instruments",
+      "w": 1440,
+      "x": 0,
+      "y": 8500
+    },
+    "Main.dc.html": {
+      "expand": "fill",
+      "h": 5000,
+      "is_interactive": true,
+      "title": "Home",
+      "w": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "Methodology.dc.html": {
+      "expand": "fill",
+      "h": 4480,
+      "is_interactive": true,
+      "title": "Data: methodology",
+      "w": 1440,
+      "x": 6080,
+      "y": 8500
+    },
+    "Rules.dc.html": {
+      "expand": "fill",
+      "h": 8000,
+      "is_interactive": true,
+      "title": "Findings: the rulebook",
+      "w": 1440,
+      "x": 3040,
+      "y": 0
+    },
+    "Studies.dc.html": {
+      "expand": "fill",
+      "h": 8000,
+      "is_interactive": true,
+      "title": "Studies library",
+      "w": 1440,
+      "x": 3040,
+      "y": 8500
+    },
+    "UsComparison.dc.html": {
+      "expand": "fill",
+      "h": 3900,
+      "is_interactive": true,
+      "title": "Findings: EU vs US",
+      "w": 1440,
+      "x": 6080,
+      "y": 0
+    },
+    "WhyItMatters.dc.html": {
+      "expand": "fill",
+      "h": 8000,
+      "is_interactive": true,
+      "title": "About: why it matters",
+      "w": 1440,
+      "x": 1520,
+      "y": 0
+    },
+    "DigitalPolicy.dc.html": {
+      "expand": "fill",
+      "h": 1000,
+      "is_interactive": true,
+      "title": "Digital Acquis: digital policy",
+      "w": 1440,
+      "x": 9120,
+      "y": 8500
+    },
+    "InfographicGap.dc.html": {
+      "expand": "fill",
+      "h": 1200,
+      "title": "Infographic: worked less, now produces less",
+      "w": 1200,
+      "x": 5120,
+      "y": 13300
+    },
+    "Infographics.dc.html": {
+      "expand": "fill",
+      "h": 1700,
+      "is_interactive": true,
+      "title": "Data: infographics",
+      "w": 1440,
+      "x": 10640,
+      "y": 8500
+    },
+    "InfographicHq.dc.html": {
+      "expand": "fill",
+      "h": 1200,
+      "title": "Infographic: start-ups leaving",
+      "w": 1200,
+      "x": 6400,
+      "y": 13300
+    },
+    "InfographicAreasGrowth.dc.html": {
+      "expand": "fill",
+      "h": 1200,
+      "title": "Infographic: growth in every policy area",
+      "w": 1200,
+      "x": 7680,
+      "y": 13300
+    },
+    "CompanyTypes.dc.html": {
+      "expand": "fill",
+      "h": 6200,
+      "is_interactive": true,
+      "title": "Findings: by type of company",
+      "w": 1440,
+      "x": 9120,
+      "y": 0
+    }
+  },
+  "createdOnFiles": {
+    "at": "2026-10-10T15:30:00Z",
+    "v": 1
+  },
+  "designSystems": [],
+  "launch": {
+    "file": "Main.dc.html",
+    "view": "focused"
+  },
+  "notes": {},
+  "order": [
+    "Main.dc.html",
+    "HeroOptions.dc.html",
+    "WhyItMatters.dc.html",
+    "Rules.dc.html",
+    "CompanyTypes.dc.html",
+    "Evidence.dc.html",
+    "UsComparison.dc.html",
+    "Instruments.dc.html",
+    "Instrument.dc.html",
+    "DigitalPolicy.dc.html",
+    "Studies.dc.html",
+    "Data.dc.html",
+    "Infographics.dc.html",
+    "Methodology.dc.html",
+    "About.dc.html",
+    "Infographic.dc.html",
+    "InfographicNegotiation.dc.html",
+    "InfographicPolicyAreas.dc.html",
+    "InfographicSox.dc.html",
+    "InfographicGap.dc.html",
+    "InfographicHq.dc.html",
+    "InfographicAreasGrowth.dc.html"
+  ],
+  "pages": [],
+  "title": "EU Digital Rulebook site mockup"
+}

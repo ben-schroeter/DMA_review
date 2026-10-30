@@ -1,0 +1,22 @@
+{
+ "method": "hand check of outcome-category tags by the author of the tagging rules",
+ "tuning_sample": {
+  "n": 100,
+  "seed": 7,
+  "all_tags_correct_before_fixes": 85
+ },
+ "fresh_sample": {
+  "n": 50,
+  "seed": 99,
+  "all_tags_correct_before_fixes": 44
+ },
+ "combined_before_fixes": "129/150 (86%)",
+ "commonest_errors_fixed": [
+  "'compliance costs' also tagged implementation",
+  "'savings' read as consumer savings",
+  "'SME' read as costs",
+  "'concentration' of beneficiaries read as market concentration",
+  "'output indicators' read as output",
+  "'referral traffic' read as implementation"
+ ]
+}
