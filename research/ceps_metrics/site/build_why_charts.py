@@ -321,5 +321,8 @@ charts["hq_migration"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" a
                           f'by funding raised. Europe to US: no funding 1.9%, under $1m 2.9%, $1-10m 6.5%, $10-100m 9.9%, over $100m 10.7% (average 3.3%). '
                           f'US to Europe: 0.7%, 1.0%, 0.8%, 0.8%, 0.8% (average 0.8%).">' + "".join(g) + "</svg>")
 
+# 10. GDP-per-head gap, euro area vs US, split into output per hour and hours worked (built in build_gap_options.py, option B)
+charts["gap_split"] = json.load(open("site/gap_options.json"))["B"]
+
 json.dump(charts, open("site/why_charts.json", "w"), ensure_ascii=False)
 print({k: len(v) for k, v in charts.items()})
