@@ -293,5 +293,33 @@ charts["mcafee_full"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" ar
                          f'one bubble per company sized by market value: 241 in the US worth $29.6 trillion, led by Apple, Nvidia, Microsoft, Amazon and Alphabet; '
                          f'14 in the EU worth $0.43 trillion, led by Spotify. Dashed: private companies not yet listed (Anthropic, OpenAI; in the EU Mistral AI, Helsing, Trade Republic).">' + "".join(g) + "</svg>")
 
+# 9. Reichardt & Reis (2026), Figure 1: HQ migration rates of firms under ten years old, 2014-2024, by total funding raised.
+# Values measured from the published bar chart (vector PDF rendered at 400 dpi); averages are the paper's dashed lines.
+hq = [("None", 1.9, 0.7), ("Under $1m", 2.9, 1.0), ("$1–10m", 6.5, 0.8), ("$10–100m", 9.9, 0.8), ("Over $100m", 10.7, 0.8)]
+avg_eu, avg_us = 3.3, 0.8
+W, H, L, R, TOP, BOT = 1000, 420, 56, 20, 50, 360
+ymax = 12
+Yh = lambda v: BOT - v / ymax * (BOT - TOP)
+slot = (W - L - R) / len(hq); bw = 64
+g = [f'<rect x="{L}" y="6" width="13" height="13" rx="2" fill="{EU}"></rect>' + t(L + 20, 17.5, f"Europe to US (average {avg_eu:.1f}%)", 14),
+     f'<rect x="{L + 232}" y="6" width="13" height="13" rx="2" fill="{US}"></rect>' + t(L + 252, 17.5, f"US to Europe (average {avg_us:.1f}%)", 14),
+     f'<line x1="{L + 470}" x2="{L + 500}" y1="12.5" y2="12.5" stroke="{MUTED}" stroke-width="1.3" stroke-dasharray="6 5"></line>' + t(L + 508, 17.5, "average across all firms", 13, MUTED)]
+for v in range(0, ymax + 1, 2):
+    g.append(f'<line x1="{L}" x2="{W - R}" y1="{Yh(v):.1f}" y2="{Yh(v):.1f}" stroke="{BASE if v == 0 else LINE}"></line>')
+    g.append(t(L - 10, Yh(v) + 4.5, f"{v}%", 12.5, MUTED, "end"))
+for val, c in ((avg_eu, EU), (avg_us, US)):
+    g.append(f'<line x1="{L}" x2="{W - R}" y1="{Yh(val):.1f}" y2="{Yh(val):.1f}" stroke="{c}" stroke-width="1.3" stroke-dasharray="6 5"></line>')
+for i, (lab, e, u) in enumerate(hq):
+    x = L + i * slot + slot / 2
+    for val, c, dx in ((e, EU, -bw - 3), (u, US, 3)):
+        g.append(f'<rect x="{x + dx:.1f}" y="{Yh(val):.1f}" width="{bw}" height="{BOT - Yh(val):.1f}" fill="{c}"><title>{lab}: {val:.1f}%</title></rect>')
+        g.append(t(x + dx + bw / 2, Yh(val) - 8, f"{val:.1f}%", 14 if c == EU else 12.5, INK if c == EU else INK2, "middle", 600 if c == EU else None)
+                 .replace("<text ", '<text stroke="#FAF9F5" stroke-width="5" paint-order="stroke" ', 1))
+    g.append(t(x, BOT + 26, lab, 14, INK2, "middle"))
+g.append(t(L + (W - L - R) / 2, BOT + 52, "Total external funding raised by 2024", 13, MUTED, "middle"))
+charts["hq_migration"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Share of firms under ten years old that moved their headquarters between 2014 and 2024, '
+                          f'by funding raised. Europe to US: no funding 1.9%, under $1m 2.9%, $1-10m 6.5%, $10-100m 9.9%, over $100m 10.7% (average 3.3%). '
+                          f'US to Europe: 0.7%, 1.0%, 0.8%, 0.8%, 0.8% (average 0.8%).">' + "".join(g) + "</svg>")
+
 json.dump(charts, open("site/why_charts.json", "w"), ensure_ascii=False)
 print({k: len(v) for k, v in charts.items()})
