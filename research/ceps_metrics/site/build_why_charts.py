@@ -207,7 +207,7 @@ usb = json.load(open("data/mcafee_us_bubbles_measured.json"))["us"]
 eus = json.load(open("data/mcafee_eu_small_measured.json"))["eu_small"]
 eub = json.load(open("data/mcafee_eu_bubbles_measured.json"))
 TECH, OTHER = EU, "#A6A3A0"
-W, H = 1200, 760
+W, H = 1200, 830
 ux0 = min(o["x"] - o["r"] for o in usb); uy0 = min(o["y"] - o["r"] for o in usb)
 OX, OY = 20, 34
 P = lambda x, y: (OX + (x - ux0), OY + (y - uy0))
@@ -248,12 +248,12 @@ g.append(t(EX - 6, EY + 100, "EU", 24, INK, "start", 600))
 g.append(t(EX - 6, EY + 122, "14 companies,", 14, INK2))
 g.append(t(EX - 6, EY + 140, "$0.43 trillion", 14, INK2))
 # enlarged EU inset (x3.8 relative to the main scale)
-IX, IY, s_ = 880, 300, 1.0
+IX, IY, s_ = 880, 272, 1.0
 ix0 = min(v[0] - v[3] for v in eub.values()); iy0 = min(v[1] - v[3] for v in eub.values())
 iw = max(v[0] + v[3] for v in eub.values()) - ix0; ih = max(v[1] + v[3] for v in eub.values()) - iy0
-g.append(f'<rect x="{IX - 18}" y="{IY - 40}" width="{iw + 36}" height="{ih + 58}" rx="10" fill="#FFFFFF" stroke="{LINE}"></rect>')
+g.append(f'<rect x="{IX - 18}" y="{IY - 40}" width="{iw + 36}" height="{ih + 140}" rx="10" fill="#FFFFFF" stroke="{LINE}"></rect>')
 g.append(t(IX - 4, IY - 18, "The EU's 14, enlarged ×3.8", 13, MUTED, "start", 600))
-g.append(f'<line x1="{EX + 70}" y1="{EY + 40}" x2="{IX - 18}" y2="{IY + ih / 2}" stroke="{BASE}" stroke-dasharray="3 4"></line>')
+g.append(f'<line x1="{EX + 66}" y1="{EY + 26}" x2="{IX - 18}" y2="{IY + ih / 2}" stroke="{BASE}" stroke-dasharray="3 4"></line>')
 m_tot = sum(v[3] ** 2 for v in eub.values())
 for n, (x, y, c, r) in eub.items():
     cx, cy = IX + (x - ix0), IY + (y - iy0)
@@ -262,10 +262,26 @@ for n, (x, y, c, r) in eub.items():
     fs = 11.5 if r > 34 else 10 if r > 26 else 8.5
     for k, w_ in enumerate(words):
         g.append(t(cx, cy + 4 + (k - (len(words) - 1) / 2) * (fs + 1), w_, fs, INK, "middle", 600 if r > 34 else 500))
+# EU companies not yet public (dashed), inset scale; valuations from latest funding rounds (Mistral EUR 21bn ~ $24bn)
+eu_priv = (("Mistral AI", 24), ("Helsing", 18), ("Trade Republic", 14))
+py_ = IY + ih + 62
+g.append(f'<line x1="{IX - 4}" x2="{IX + iw + 4}" y1="{IY + ih + 10}" y2="{IY + ih + 10}" stroke="{LINE}"></line>')
+g.append(t(IX - 4, IY + ih + 28, "Not yet public, at private valuations", 11.5, MUTED, "start", 600))
+for (n, v), cx in zip(eu_priv, (IX + 40, IX + 128, IX + 214)):
+    r = math.sqrt(v * m_tot / 430)
+    g.append(f'<circle cx="{cx}" cy="{py_}" r="{r:.1f}" fill="{TECH}" fill-opacity="0.10" stroke="{TECH}" stroke-width="1.6" stroke-dasharray="5 4">'
+             f'<title>{n}: private company, not yet listed</title></circle>')
+    words = n.split(" ")
+    for k, w_ in enumerate(words):
+        g.append(t(cx, py_ + 4 + (k - (len(words) - 1) / 2) * 11, w_, 10, INK, "middle", 500))
+# same companies at the main scale, beside the EU cluster
+for (n, v), dx in zip(eu_priv, (0, 19, 36)):
+    r = math.sqrt(v / kk)
+    g.append(f'<circle cx="{EX + 88 + dx}" cy="{EY + 68}" r="{r:.1f}" fill="{TECH}" fill-opacity="0.10" stroke="{TECH}" stroke-width="1.1" stroke-dasharray="2.5 2"><title>{n}: private company, not yet listed</title></circle>')
 # scale key (main scale): area of $1trn and $100bn
 import math as _m
 k1 = _m.sqrt(1000 / (29570 / sum(o["r"] ** 2 for o in usb)))
-kx, kb = 1135, 735
+kx, kb = 1100, 822
 for v_, lab in ((1000, "$1trn"), (100, "$100bn")):
     r = _m.sqrt(v_ / (29570 / sum(o["r"] ** 2 for o in usb)))
     g.append(f'<circle cx="{kx}" cy="{kb - r:.1f}" r="{r:.1f}" fill="none" stroke="{BASE}" stroke-width="1.2"></circle>')
@@ -275,7 +291,7 @@ g.append(t(kx - k1 - 10, kb - 20, "Circle area =", 12.5, MUTED, "end"))
 g.append(t(kx - k1 - 10, kb - 4, "market value", 12.5, MUTED, "end"))
 charts["mcafee_full"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Public companies founded from scratch in the last 50 years and worth over $10 billion, '
                          f'one bubble per company sized by market value: 241 in the US worth $29.6 trillion, led by Apple, Nvidia, Microsoft, Amazon and Alphabet; '
-                         f'14 in the EU worth $0.43 trillion, led by Spotify.">' + "".join(g) + "</svg>")
+                         f'14 in the EU worth $0.43 trillion, led by Spotify. Dashed: private companies not yet listed (Anthropic, OpenAI; in the EU Mistral AI, Helsing, Trade Republic).">' + "".join(g) + "</svg>")
 
 json.dump(charts, open("site/why_charts.json", "w"), ensure_ascii=False)
 print({k: len(v) for k, v in charts.items()})
