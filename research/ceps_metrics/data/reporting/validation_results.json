@@ -1,0 +1,55 @@
+{
+ "precision": 0.938,
+ "precision_n": 210,
+ "precision_correct": 197,
+ "share_of_rejected_that_are_reporting": 0.04,
+ "rejected_n_checked": 100,
+ "estimated_recall": 0.831,
+ "estimated_true_total": 6191,
+ "note": "Hand-checked samples drawn after the rules were fixed and not used to tune them. Precision pools the fresh (150) and third (60) samples of obligations classified as reporting; the miss rate comes from 100 rejected obligations in the third sample. A first sample of 300 was used to develop the rules and is not counted.",
+ "samples": {
+  "fresh": {
+   "version": "after round 4",
+   "false_positive_ids": [
+    2,
+    9,
+    31,
+    36,
+    93,
+    116,
+    133,
+    142,
+    144
+   ],
+   "n_pos": 150,
+   "missed_ids": [
+    151,
+    159,
+    172,
+    190,
+    211,
+    215,
+    229,
+    238
+   ],
+   "n_neg": 100
+  },
+  "third": {
+   "version": "after round 5",
+   "false_positive_ids": [
+    1,
+    27,
+    45,
+    58
+   ],
+   "n_pos": 60,
+   "missed_ids": [
+    79,
+    84,
+    89,
+    96
+   ],
+   "n_neg": 100
+  }
+ }
+}
