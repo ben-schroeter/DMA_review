@@ -7,18 +7,18 @@ INK, INK2, MUTED, BG = "#282424", "#3F3B3B", "#666666", "#FAF9F5"
 F = 'font-family="DM Sans, sans-serif"'
 t = lambda x, y, s, size=13, fill=INK2, anchor="start", weight=None: (f'<text x="{x:.1f}" y="{y:.1f}" text-anchor="{anchor}" {F} font-size="{size}" fill="{fill}"'
                                                                       + (f' font-weight="{weight}"' if weight else "") + f'>{s}</text>')
-KINDS = [("obligation", "Positive obligations", "#B8860B"), ("prohibition", "Prohibitions", "#5C5858"), ("duty_of_result", "Duties of result", "#E3CF9C"),
+KINDS = [("reporting", "Reporting obligations", "#8F6708"), ("obligation", "Other positive obligations", "#B8860B"), ("prohibition", "Prohibitions", "#5C5858"), ("duty_of_result", "Duties of result", "#E3CF9C"),
          ("restricted_permission", "Restricted permissions", "#A6A3A0"), ("explicit_requirement", "Explicit requirements", "#282424")]
 sel = {k: [r for r in rows if k in M.get(r["row_id"], {}) and applies(M[r["row_id"]][k], r, k)] for k in TYPES}
 sel["B"] = [r for r in rows if M.get(r["row_id"], {}).get("B") == "F"]
 order = sorted(TYPES, key=lambda k: -len(sel[k])) + ["B"]
-W, L, R, BH, GAP, TOP = 1000, 300, 840, 30, 22, 40
+W, L, R, BH, GAP, TOP = 1000, 300, 840, 30, 22, 54
 g, lx = [], 0
 for k, lab, c in KINDS:
-    g.append(f'<rect x="{lx}" y="4" width="12" height="12" rx="2" fill="{c}"></rect>' + t(lx + 18, 15, lab, 12.5)); lx += 30 + len(lab) * 7
+    g.append(f'<rect x="{lx}" y="4" width="12" height="12" rx="2" fill="{c}"></rect>' + t(lx + 18, 15, lab, 12.5)); lx += 26 + len(lab) * 6.6
 g.append(t(R + 34, TOP - 10, "Prohibitions", 13, MUTED))
 for i, k in enumerate(order):
-    xs = sel[k]; n = len(xs); c = collections.Counter(r["category"] for r in xs)
+    xs = sel[k]; n = len(xs); c = collections.Counter("reporting" if r["reporting"] and r["category"] != "prohibition" else r["category"] for r in xs)   # reporting split out of the positive kinds
     y = TOP + i * (BH + GAP) + (14 if k == "B" else 0)
     name = NAMES[k].replace("Baseline: all companies", "Baseline: every company")
     if k == "B":
@@ -29,8 +29,10 @@ for i, k in enumerate(order):
     for kk, lab, col in KINDS:
         w = c[kk] / n * (R - L)
         g.append(f'<rect x="{x:.1f}" y="{y}" width="{w:.1f}" height="{BH}" fill="{col}" stroke="{BG}" stroke-width="1"><title>{name}, {lab}: {c[kk]:,} ({c[kk] / n * 100:.1f}%)</title></rect>')
+        if kk == "reporting":
+            g.append(t(x + w / 2, y + 20, f"{c[kk] / n * 100:.0f}%", 13, "#FFFFFF", "middle", 700))
         if kk == "obligation":
-            g.append(t(x + 12, y + 20, f"{c[kk] / n * 100:.0f}% positive obligations", 13, "#FFFFFF", "start", 700))
+            g.append(t(x + 12, y + 20, f"{c[kk] / n * 100:.0f}% other positive obligations", 13, "#FFFFFF", "start", 700))
         x += w
     g.append(t(R + 34, y + 21, f"{c['prohibition'] / n * 100:.1f}%", 18, INK if k != "B" else INK2, "start", 700))
 H = TOP + len(order) * (BH + GAP) + 14 + 6
