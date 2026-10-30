@@ -72,7 +72,7 @@ a{color:#282424}a:hover{color:#8F6708}
     <div class="wrap" style="display: flex; flex-direction: column; gap: 20px">
       <p class="cap" style="margin: 0">{{count}} · newest first</p>
       <div class="igs">
-        <sc-for list="{{igs}}" as="it" hint-placeholder-count="6">
+        <sc-for list="{{igs}}" as="it" hint-placeholder-count="7">
           <button class="ig" type="button" onClick="{{it.open}}" aria-label="Enlarge: {{it.title}}"><span class="ig-frame"><img src="{{it.thumb}}" alt="{{it.title}}" loading="lazy"></span><span class="ig-t">{{it.title}}</span></button>
         </sc-for>
       </div>
@@ -101,6 +101,7 @@ a{color:#282424}a:hover{color:#8F6708}
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1700}}'>
 const IG = [
+  { title: "EU rules for tech companies have grown in every policy area.", thumb: "/_blob/b3f70dca31645517768842a56f77bee0", full: "/_blob/3226883544a36d5291513a005989e8a6", file: "eutechlaws_growth_by_policy_area.png" },
   { title: "The more funding a European start-up raises, the more likely it is to leave.", thumb: "/_blob/6ed0fcad3eb344473634dddd6183bc19", full: "/_blob/833cb7b77a90e4b9a4263f285101f429", file: "eutechlaws_startups_leaving.png" },
   { title: "Europe used to be poorer because it worked less. Now it is poorer because each hour produces less.", thumb: "/_blob/3605da905a286d2bf58e256b9c649528", full: "/_blob/6a98240052e9aedf7844fda5d9ffc7fb", file: "eutechlaws_productivity_gap.png" },
   { title: "The AI Act carries three times as many obligations as Sarbanes-Oxley", thumb: "/_blob/f27d5fcf53e50e446c4635d5af52a622", full: "/_blob/4b7a6147a62abaed40a03fbbf10e2193", file: "eutechlaws_ai_act_vs_sox.png" },
