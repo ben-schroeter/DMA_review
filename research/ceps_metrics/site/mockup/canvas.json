@@ -201,6 +201,15 @@
       "w": 1440,
       "x": 12160,
       "y": 8500
+    },
+    "FurtherReading.dc.html": {
+      "expand": "fill",
+      "h": 2000,
+      "is_interactive": true,
+      "title": "Studies: further reading",
+      "w": 1440,
+      "x": 13680,
+      "y": 8500
     }
   },
   "createdOnFiles": {
@@ -226,6 +235,7 @@
     "DigitalPolicy.dc.html",
     "Studies.dc.html",
     "EvidenceMap.dc.html",
+    "FurtherReading.dc.html",
     "Data.dc.html",
     "Infographics.dc.html",
     "Methodology.dc.html",
