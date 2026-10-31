@@ -55,7 +55,7 @@ READING = {
          "note": "The inventory of 115 EU digital instruments that this site's list of laws builds on."},
         {"title": "The Future of European Competitiveness", "by": "Mario Draghi", "where": "European Commission, 2024",
          "url": "https://commission.europa.eu/topics/eu-competitiveness/draghi-report_en", "cover": "/_blob/bc43031307dc93c84f3fdca3256c8f87",
-         "note": "The reference point for the productivity argument on the Why it matters page."},
+         "note": "The reference point for the productivity argument on the Why tech regulation matters page."},
         {"title": "Much More Than a Market", "by": "Enrico Letta", "where": "Report to the European Council, 2024",
          "url": "https://www.consilium.europa.eu/media/ny3j24sm/much-more-than-a-market-report-by-enrico-letta.pdf", "cover": "/_blob/ea1074e01fbb368df5b0d9198da9da75",
          "note": "The single-market companion to the Draghi report."},
