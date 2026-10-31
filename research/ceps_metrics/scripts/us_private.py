@@ -32,8 +32,10 @@ def subject(clause, marker):
 # Everything else that was unclear was read as government, courts, procedure, appropriations or not an obligation at all.
 PRIVATE_UNCLEAR = {"cpsia": {30, 32, 34, 35, 49, 50, 51, 52, 53, 75, 77, 79, 214, 231, 241},
                    "ccpa": {39, 44, 46, 59, 71, 74, 78}, "cpsa": {87, 88, 89, 96, 118, 147},
-                   "chips": {46, 75}, "cloud": {2}}
+                   "chips": {46, 75}, "cloud": {2}, "colorado_ai": {11, 14, 15, 20, 28}}
 pairs = [p for p in json.load(open("data/us_map/us_comparison.json")) if p.get("included")]
+# Same-job state comparator for the AI Act, measured by scripts/benchmark_colorado.py (kept out of us_comparison.json, which lists federal matches)
+pairs.append({"row_id": 64, "eu_instrument": "Artificial Intelligence Act", "us_counterpart": "Colorado AI Act (SB 24-205, 2024)", "us_ids": ["colorado_ai"]})
 wb = openpyxl.load_workbook("ceps_instruments_metrics.xlsx", read_only=True, data_only=True)
 rows = list(wb["instruments"].values); h = rows[0]
 inst = {r[h.index("row_id")]: dict(zip(h, r)) for r in rows[1:] if r[0]}

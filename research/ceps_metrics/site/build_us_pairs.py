@@ -5,7 +5,7 @@ import json, statistics
 
 DROP = {35, 43, 78}       # EU institutions data protection / Privacy Act, Open Data / OPEN Government Data Act, EU institutions cybersecurity / FISMA
 SHORT = {13: "Unfair Commercial Practices → FTC Act §5", 17: "Toy Safety → CPSIA", 20: "GDPR → CCPA (California)", 26: "Trade Secrets → Defend Trade Secrets Act",
-         42: "E-evidence → CLOUD Act", 67: "Product Safety → CPSA", 74: "Chips Act → CHIPS Act"}
+         42: "E-evidence → CLOUD Act", 67: "Product Safety → CPSA", 74: "Chips Act → CHIPS Act", 64: "AI Act → Colorado AI Act (state)"}
 P = [x for x in json.load(open("data/us_map/us_private.json")) if x["row_id"] not in DROP]
 for x in P:
     x["ra"] = x["eu_total"] / x["us_total"]; x["rc"] = x["eu_private"] / x["us_private"]
@@ -15,7 +15,7 @@ GOLD, GOLD_L, GREY = "#B8860B", "#E3CF9C", "#A6A3A0"
 F = 'font-family="DM Sans, sans-serif"'
 t = lambda x, y, s, size=13, fill=INK2, anchor="start", weight=None: (f'<text x="{x:.1f}" y="{y:.1f}" text-anchor="{anchor}" {F} font-size="{size}" fill="{fill}"'
                                                                       + (f' font-weight="{weight}"' if weight else "") + f'>{s}</text>')
-W, L, R, RH, TOP, XM = 1000, 330, 830, 58, 58, 450
+W, L, R, RH, TOP, XM = 1000, 330, 830, 58, 58, 800
 X = lambda v: L + v / XM * (R - L)
 g = []
 # legend
@@ -25,7 +25,7 @@ for lab, fill, stroke in (("EU act", GOLD, GOLD), ("US counterpart", INK, INK)):
 g.append(f'<line x1="{lx}" x2="{lx + 26}" y1="10" y2="10" stroke="{BASE}" stroke-width="2"></line>' + t(lx + 32, 15, "All obligations (light)", 13)); lx += 210
 g.append(f'<line x1="{lx}" x2="{lx + 26}" y1="10" y2="10" stroke="{INK2}" stroke-width="2.5"></line>' + t(lx + 32, 15, "Obligations on companies (bold)", 13))
 g.append(t(R + 40, TOP - 12, "All", 12, MUTED, "end") + t(W, TOP - 12, "Companies", 12, MUTED, "end"))
-for v in range(0, XM + 1, 100):
+for v in range(0, XM + 1, 200):
     g.append(f'<line x1="{X(v):.1f}" x2="{X(v):.1f}" y1="{TOP - 4}" y2="{TOP + len(P) * RH - 6}" stroke="{LINE if v else BASE}"></line>')
     g.append(t(X(v), TOP + len(P) * RH + 12, v, 12, MUTED, "middle"))
 for i, x in enumerate(P):

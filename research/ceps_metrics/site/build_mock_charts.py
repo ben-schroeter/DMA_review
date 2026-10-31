@@ -160,25 +160,39 @@ meta.update({"cmp_n": len(cmp), "cmp_above": above})
 
 # D. EU acts vs Sarbanes-Oxley: per act (bars) and density (strip)
 sox = json.load(open("data/benchmark_sox.json"))["all_text"]
+sox_priv = json.load(open("data/benchmark_sox_private.json"))["private_parties"]      # every SOX obligation read by hand
 recent = [r for r in inst if r["d"].year >= 2020]
 pick = ["Artificial Intelligence Act", "Digital Services Act", "General Data Protection Regulation", "Digital Markets Act", "Data Act"]
+mean = lambda rs, k: round(statistics.mean((r[k] or 0) for r in rs))
+AVG = "#8F8C89"
+LIGHT = {CLAY: "#E3CF9C", AVG: "#DAD8D5", INK: "#A6A3A0"}
 bars = [(n.replace("General Data Protection Regulation", "GDPR").replace("Artificial Intelligence Act", "AI Act"),
-         next(r["restrictions_total"] for r in inst if r["name"] == n), CLAY) for n in pick]
-bars += [("EU average since 2020", round(statistics.mean(r["restrictions_total"] for r in recent)), STONE),
-         ("EU average, all 105", round(statistics.mean(r["restrictions_total"] for r in inst)), STONE),
-         ("Sarbanes-Oxley Act (US)", sox["restrictions_total"], INK)]
+         next(r["restrictions_total"] for r in inst if r["name"] == n), next(r["addr_private_parties"] or 0 for r in inst if r["name"] == n), CLAY) for n in pick]
+bars += [("EU average since 2020", mean(recent, "restrictions_total"), mean(recent, "addr_private_parties"), AVG),
+         ("EU average, all 105", mean(inst, "restrictions_total"), mean(inst, "addr_private_parties"), AVG),
+         ("Sarbanes-Oxley Act (US)", sox["restrictions_total"], sox_priv, INK)]
 bars.sort(key=lambda b: -b[1])
-BW, rowh, LB = 1000, 40, 230
+BW, rowh, LB, RB, TOPB = 1000, 44, 230, 820, 34
 mxb = 800
+bx = lambda v: LB + v / mxb * (RB - LB)
 g = []
-for i, (n, v, c) in enumerate(bars):
-    y = 10 + i * rowh
-    w = v / mxb * (BW - LB - 70)
-    g.append(f'<text x="{LB - 14}" y="{y + 20}" text-anchor="end" {F} font-size="15" fill="{INK if c == INK else INK2}" {"font-weight=\"600\"" if c == INK else ""}>{n}</text>')
-    g.append(f'<rect x="{LB}" y="{y + 6}" width="{w:.1f}" height="20" rx="4" fill="{c}"></rect>')
-    g.append(f'<text x="{LB + w + 10:.1f}" y="{y + 21}" {F} font-size="15" fill="{INK}" font-weight="600">{v:,}</text>')
-charts["sox_per_act"] = (f'<svg viewBox="0 0 {BW} {10 + len(bars) * rowh + 6}" width="100%" role="img" aria-label="Obligations per act: recent EU acts '
-                         f'against the Sarbanes-Oxley Act ({sox["restrictions_total"]})">' + "".join(g) + "</svg>")
+lx = LB
+for lab, f in (("All obligations", LIGHT[CLAY]), ("Obligations on companies", CLAY)):
+    g.append(f'<rect x="{lx}" y="2" width="13" height="13" rx="2" fill="{f}"></rect><text x="{lx + 19}" y="13" {F} font-size="13" fill="{INK2}">{lab}</text>')
+    lx += 40 + len(lab) * 7
+g.append(f'<text x="{RB + 80}" y="{TOPB - 6}" text-anchor="end" {F} font-size="12" fill="{MUTED}">All</text>')
+g.append(f'<text x="{BW}" y="{TOPB - 6}" text-anchor="end" {F} font-size="12" fill="{MUTED}">Companies</text>')
+for i, (n, v, vp, c) in enumerate(bars):
+    y = TOPB + i * rowh
+    bold = "font-weight=\"600\"" if c == INK else ""
+    g.append(f'<text x="{LB - 14}" y="{y + 22}" text-anchor="end" {F} font-size="15" fill="{INK if c == INK else INK2}" {bold}>{n}</text>')
+    g.append(f'<rect x="{LB}" y="{y + 6}" width="{bx(v) - LB:.1f}" height="24" rx="4" fill="{LIGHT[c]}"><title>{n}: {v:,} obligations</title></rect>')
+    g.append(f'<rect x="{LB}" y="{y + 6}" width="{bx(vp) - LB:.1f}" height="24" rx="4" fill="{c}"><title>{n}: {vp:,} obligations on companies</title></rect>')
+    g.append(f'<text x="{RB + 80}" y="{y + 23}" text-anchor="end" {F} font-size="14" fill="{MUTED}">{v:,}</text>')
+    g.append(f'<text x="{BW}" y="{y + 23}" text-anchor="end" {F} font-size="15" fill="{INK}" font-weight="700">{vp:,}</text>')
+charts["sox_per_act"] = (f'<svg viewBox="0 0 {BW} {TOPB + len(bars) * rowh + 4}" width="100%" role="img" aria-label="Obligations per act, all and on companies: '
+                         + "; ".join(f"{n} {v:,} ({vp:,} on companies)" for n, v, vp, _ in bars) + '">' + "".join(g) + "</svg>")
+meta["sox_bars"] = {n: [v, vp] for n, v, vp, _ in bars}
 dens = sorted(1000 * r["restrictions_total"] / max(1, (r["words_articles"] or 0) + (r["words_annexes"] or 0)) for r in inst)
 med = statistics.median(dens)
 DW, DH = 1000, 150

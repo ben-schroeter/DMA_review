@@ -108,5 +108,16 @@
   "eu_private_max": 1,
   "us_private": 1,
   "us_unclear_read": 20
+ },
+ {
+  "row_id": 64,
+  "eu": "Artificial Intelligence Act",
+  "us": "Colorado AI Act (SB 24-205, 2024)",
+  "eu_total": 764,
+  "us_total": 30,
+  "eu_private": 346,
+  "eu_private_max": 346,
+  "us_private": 29,
+  "us_unclear_read": 5
  }
 ]
