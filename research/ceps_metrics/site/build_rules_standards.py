@@ -1,8 +1,7 @@
 """Rules vs standards (Kaplow 1992) chart for the Quantification page.
 Top: 100% bars by kind of obligation, for all obligations and for obligations on companies, in the 105 main acts and in their
 implementing and delegated acts. Bottom: for each act with at least 60 obligations in its implementing and delegated acts and at
-least 50 in the main act, the share of rules in the main act (gold) and in its secondary acts (blue); light line = all
-obligations, bold line = obligations on companies (shown where both sides have at least 20).
+least 50 in the main act, the share of rules in the main act (gold) and in its secondary acts (blue); all obligations.
 Reads data/rules_standards (codes, instances, summary). Writes site/rules_standards.svg. Run from research/ceps_metrics."""
 import json, glob, collections, openpyxl
 C = {}
@@ -42,7 +41,7 @@ SHORT = {"Markets in Crypto-Assets (MiCA)": "MiCA", "Digital Operational Resilie
          "Artificial Intelligence Act": "AI Act", "NIS 2 Directive": "NIS2", "European Health Data Space": "Health Data Space",
          "Administrative cooperation in taxation (DAC)": "Tax cooperation (DAC)"}
 nm = lambda n: "EU information systems" if n.startswith("Interoperability of EU") else SHORT.get(n, n.split(" (")[0])
-W, L, R = 1000, 270, 840
+W, L, R = 1000, 270, 930
 g = []
 # top: 100% bars, all and companies
 SEG = [("R", "Rule", GOLD_D), ("S", "Standard", "#7FA3CC"), ("M", "Mixed", "#B9CCE2"), ("L", "Specified later", "#DCE6F1"), ("D", "Left to member states", STONE)]
@@ -70,36 +69,23 @@ g.append(t(0, y0, "Share of obligations that are rules, in the main act and in i
 X = lambda v: L + (v - 0.4) / 0.6 * (R - L)
 acts = [o for o in s["instruments"] if (o["secondary"] or {}).get("n", 0) >= 60 and o["main"]["n"] >= 50]
 acts.sort(key=lambda o: o["main"]["R"])
-top = y0 + 46; RH = 40
+top = y0 + 46; RH = 27
 for v in (.4, .5, .6, .7, .8, .9, 1.0):
-    g.append(f'<line x1="{X(v):.1f}" x2="{X(v):.1f}" y1="{top - 12}" y2="{top + len(acts) * RH - 6}" stroke="{LINE}"></line>')
+    g.append(f'<line x1="{X(v):.1f}" x2="{X(v):.1f}" y1="{top - 12}" y2="{top + len(acts) * RH}" stroke="{LINE}"></line>')
     g.append(t(X(v), top - 18, f"{v:.0%}", 12, MUTED, "middle"))
-g.append(t(R + 90, top - 18, "All", 12, MUTED, "end") + t(W, top - 18, "Companies", 12, MUTED, "end"))
-g.append(f'<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="{BLUE}"></path></marker>'
-         f'<marker id="al" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="{BLUE_L}"></path></marker></defs>')
+g.append(f'<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="{BLUE}"></path></marker></defs>')
 ncomp = 0
 for i, o in enumerate(acts):
-    yb = top + i * RH; d = name2cel[o["name"]]
-    g.append(t(L - 14, yb + 18, nm(o["name"]), 13.5, INK, "end"))
-    if i < len(acts) - 1:
-        g.append(f'<line x1="0" x2="{W}" y1="{yb + RH - 6}" y2="{yb + RH - 6}" stroke="{LINE}" opacity="0.6"></line>')
-    lines = [("all", yb + 8, BLUE_L, GOLD_L, "#9DB4D3", "al", 4.5, 1.6)]
-    cm, cs = share(per[(d, "main", "companies")]), share(per[(d, "secondary", "companies")])
-    if cm["n"] >= 20 and cs["n"] >= 20:
-        lines.append(("companies", yb + 25, BLUE, GOLD, BLUE, "ah", 6, 2.2)); ncomp += 1
-    for grp, yy, lc, cmain, csec, mk, rad, sw in lines:
-        a, b = (o["main"]["R"], o["secondary"]["R"]) if grp == "all" else (cm["R"], cs["R"])
-        if abs(b - a) > 0.012:
-            g.append(f'<line x1="{X(a):.1f}" x2="{X(b) + (-6 if b > a else 6):.1f}" y1="{yy}" y2="{yy}" stroke="{lc}" stroke-width="{sw}" marker-end="url(#{mk})"></line>')
-        g.append(f'<circle cx="{X(a):.1f}" cy="{yy}" r="{rad}" fill="{cmain}"><title>{o["name"]}, {grp}: main act {a:.0%}</title></circle>')
-        g.append(f'<circle cx="{X(b):.1f}" cy="{yy}" r="{rad - 0.5}" fill="{csec}"><title>{o["name"]}, {grp}: implementing and delegated acts {b:.0%}</title></circle>')
-        txt = f"{a:.0%} → {b:.0%}"
-        g.append(t(R + 90 if grp == "all" else W, yy + 4, txt, 12 if grp == "all" else 12.5, MUTED if grp == "all" else INK, "end", None if grp == "all" else 600))
-ly = top + len(acts) * RH + 16
+    y = top + i * RH + 10
+    a, b = o["main"]["R"], o["secondary"]["R"]
+    g.append(t(L - 14, y + 5, nm(o["name"]), 13.5, INK, "end"))
+    if abs(b - a) > 0.012:
+        g.append(f'<line x1="{X(a):.1f}" x2="{X(b) + (-7 if b > a else 7):.1f}" y1="{y}" y2="{y}" stroke="{BLUE}" stroke-width="1.8" marker-end="url(#ah)" opacity="0.8"></line>')
+    g.append(f'<circle cx="{X(a):.1f}" cy="{y}" r="6" fill="{GOLD}"><title>{o["name"]}: main act {a:.0%} ({o["main"]["n"]} obligations)</title></circle>')
+    g.append(f'<circle cx="{X(b):.1f}" cy="{y}" r="5" fill="{BLUE}"><title>{o["name"]}: implementing and delegated acts {b:.0%} ({o["secondary"]["n"]} obligations)</title></circle>')
+ly = top + len(acts) * RH + 22
 g.append(f'<circle cx="{L + 6}" cy="{ly - 4}" r="6" fill="{GOLD}"></circle>' + t(L + 18, ly, "Main act", 13))
-g.append(f'<circle cx="{L + 96}" cy="{ly - 4}" r="5.5" fill="{BLUE}"></circle>' + t(L + 108, ly, "Implementing and delegated acts", 13))
-g.append(f'<line x1="{L + 330}" x2="{L + 356}" y1="{ly - 4}" y2="{ly - 4}" stroke="{BLUE_L}" stroke-width="1.6"></line>' + t(L + 362, ly, "All obligations (light)", 13))
-g.append(f'<line x1="{L + 520}" x2="{L + 546}" y1="{ly - 4}" y2="{ly - 4}" stroke="{BLUE}" stroke-width="2.2"></line>' + t(L + 552, ly, "On companies (bold)", 13))
+g.append(f'<circle cx="{L + 106}" cy="{ly - 4}" r="5" fill="{BLUE}"></circle>' + t(L + 118, ly, "Its implementing and delegated acts", 13))
 H = ly + 10
 open("site/rules_standards.svg", "w").write(f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Rules and standards in EU digital law, all obligations and obligations on companies">' + "".join(g) + "</svg>")
 up = sum(o["secondary"]["R"] > o["main"]["R"] for o in acts)
