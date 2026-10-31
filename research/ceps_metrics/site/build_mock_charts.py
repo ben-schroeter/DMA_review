@@ -193,23 +193,37 @@ for i, (n, v, vp, c) in enumerate(bars):
 charts["sox_per_act"] = (f'<svg viewBox="0 0 {BW} {TOPB + len(bars) * rowh + 4}" width="100%" role="img" aria-label="Obligations per act, all and on companies: '
                          + "; ".join(f"{n} {v:,} ({vp:,} on companies)" for n, v, vp, _ in bars) + '">' + "".join(g) + "</svg>")
 meta["sox_bars"] = {n: [v, vp] for n, v, vp, _ in bars}
-dens = sorted(1000 * r["restrictions_total"] / max(1, (r["words_articles"] or 0) + (r["words_annexes"] or 0)) for r in inst)
-med = statistics.median(dens)
-DW, DH = 1000, 150
-dx = lambda v: 30 + v / 40 * (DW - 60)
-g = [f'<line x1="30" x2="{DW - 30}" y1="{DH - 40}" y2="{DH - 40}" stroke="{BASE}"></line>']
+# density: all obligations and obligations on companies, per 1,000 words (articles and annexes), one row each
+wd = lambda r: max(1, (r["words_articles"] or 0) + (r["words_annexes"] or 0))
+dens = sorted(1000 * r["restrictions_total"] / wd(r) for r in inst)
+densp = sorted(1000 * (r["addr_private_parties"] or 0) / wd(r) for r in inst)
+med, medp = statistics.median(dens), statistics.median(densp)
+sox_dp = round(1000 * sox_priv / sox["words"], 1)
+DW, ROWH, LBL, TOPD = 1000, 120, 150, 40
+dx = lambda v: LBL + 20 + v / 40 * (DW - LBL - 50)
+DH = TOPD + 2 * ROWH + 34
+g = []
 for t in (0, 10, 20, 30, 40):
-    g.append(f'<text x="{dx(t):.1f}" y="{DH - 14}" text-anchor="middle" {F} font-size="13" fill="{MUTED}">{t}</text>')
+    g.append(f'<line x1="{dx(t):.1f}" x2="{dx(t):.1f}" y1="{TOPD - 8}" y2="{TOPD + 2 * ROWH - 4}" stroke="{LINE if t else BASE}"></line>')
+    g.append(f'<text x="{dx(t):.1f}" y="{TOPD + 2 * ROWH + 18}" text-anchor="middle" {F} font-size="13" fill="{MUTED}">{t}</text>')
 import random
 random.seed(4)
-for v in dens:
-    g.append(f'<circle cx="{dx(min(v, 40)):.1f}" cy="{DH - 72 + random.uniform(-16, 16):.1f}" r="4.5" fill="{CLAY}" fill-opacity="0.45"></circle>')
-g.append(f'<line x1="{dx(med):.1f}" x2="{dx(med):.1f}" y1="{DH - 100}" y2="{DH - 44}" stroke="{CLAY}" stroke-width="2.5"></line>')
-g.append(f'<text x="{dx(med):.1f}" y="{DH - 108}" text-anchor="middle" {F} font-size="14" fill="{INK}" font-weight="600">EU median {med:.1f}</text>')
-g.append(f'<line x1="{dx(sox["per_1000_words"]):.1f}" x2="{dx(sox["per_1000_words"]):.1f}" y1="{DH - 100}" y2="{DH - 44}" stroke="{INK}" stroke-width="2.5"></line>')
-g.append(f'<text x="{dx(sox["per_1000_words"]):.1f}" y="{DH - 108}" text-anchor="end" {F} font-size="14" fill="{INK}" font-weight="600">SOX {sox["per_1000_words"]:g}</text>')
-charts["sox_density"] = (f'<svg viewBox="0 0 {DW} {DH}" width="100%" role="img" aria-label="Obligations per 1,000 words: median EU act {med:.1f}, '
-                         f'Sarbanes-Oxley {sox["per_1000_words"]:g}">' + "".join(g) + "</svg>")
+for k, (lab, vals, m, sv, col) in enumerate((("All obligations", dens, med, sox["per_1000_words"], "#E3CF9C"),
+                                             ("On companies", densp, medp, sox_dp, CLAY))):
+    cy = TOPD + k * ROWH + ROWH / 2 + 10
+    if k:
+        g.append(f'<line x1="0" x2="{DW}" y1="{TOPD + ROWH - 4}" y2="{TOPD + ROWH - 4}" stroke="{LINE}"></line>')
+    g.append(f'<text x="0" y="{cy + 5:.1f}" {F} font-size="15" fill="{INK2}">{lab}</text>')
+    for v in vals:
+        g.append(f'<circle cx="{dx(min(v, 40)):.1f}" cy="{cy + random.uniform(-14, 14):.1f}" r="4.5" fill="{col}" fill-opacity="0.6"></circle>')
+    g.append(f'<line x1="{dx(m):.1f}" x2="{dx(m):.1f}" y1="{cy - 28}" y2="{cy + 22}" stroke="{CLAY if k else "#8F6708"}" stroke-width="2.5"></line>')
+    g.append(f'<line x1="{dx(sv):.1f}" x2="{dx(sv):.1f}" y1="{cy - 28}" y2="{cy + 22}" stroke="{INK}" stroke-width="2.5"></line>')
+    left = sv < m
+    g.append(f'<text x="{dx(m) + (6 if left else -6):.1f}" y="{cy - 34}" text-anchor="{"start" if left else "end"}" {F} font-size="14" fill="{INK}" font-weight="600">EU median {m:.1f}</text>')
+    g.append(f'<text x="{dx(sv) + (-6 if left else 6):.1f}" y="{cy - 34}" text-anchor="{"end" if left else "start"}" {F} font-size="14" fill="{INK}" font-weight="600">SOX {sv:.1f}</text>')
+charts["sox_density"] = (f'<svg viewBox="0 0 {DW} {DH}" width="100%" role="img" aria-label="Obligations per 1,000 words: all obligations, median EU act {med:.1f}, '
+                         f'Sarbanes-Oxley {sox["per_1000_words"]:g}; obligations on companies, median EU act {medp:.1f}, Sarbanes-Oxley {sox_dp:g}">' + "".join(g) + "</svg>")
+meta.update({"eu_median_density_private": round(medp, 1), "sox_density_private": sox_dp})
 meta.update({"eu_median_density": round(med, 1), "sox": sox["restrictions_total"], "sox_density": sox["per_1000_words"]})
 
 # E. productivity, EA-4 relative to US (1995 = 100)
