@@ -29,11 +29,11 @@ a{color:#282424}a:hover{color:#8F6708}
 .nav a:hover{color:#282424}
 .hero{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:40px;align-items:center}
 .hero-h1{font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:clamp(40px,3.2vw + 18px,64px);line-height:1.05;letter-spacing:-.02em;margin:0;max-width:16ch;text-wrap:balance}
-.hero-art{margin-right:calc(-1 * max(32px, (100vw - 1056px) / 2));max-width:780px}
-.hero-art img{display:block;width:80%;height:auto;margin-left:auto}
+.hero-art{max-width:780px}
+.hero-art img{display:block;width:80%;height:auto}
 @media (max-width:860px){.hero{grid-template-columns:minmax(0,1fr);gap:32px}.hero-art{margin-right:-32px;margin-left:-32px;max-width:none}}
 @media (max-width:640px){.hero-art{margin-right:-20px;margin-left:-20px}}
-@media (max-width:860px){.hero-art img{margin-right:auto}}
+@media (max-width:860px){.hero-art img{margin-left:auto;margin-right:auto}}
 @media (max-width:640px){.h2{font-size:30px}.num{font-size:34px}.wrap{padding-inline:20px}}
 @media (max-width:640px){.nav{width:100%;justify-content:space-between;gap:10px !important}.nav a{font-size:14px}}
 </style>
