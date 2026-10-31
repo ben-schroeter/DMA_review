@@ -1,94 +1,104 @@
 row_id,name,area,year,n_main,rule,standard,mixed,specified_later,member_states,standard_like,label,n_secondary,secondary_rule,secondary_standard_like
-91,Gigabit Infrastructure Act,Connectivity,2024,1,0.0,1.0,0.0,0.0,0.0,1.0,standards-based,0,,
-58,Data Governance Act,Data & Privacy,2022,7,0.286,0.714,0.0,0.0,0.0,0.714,standards-based,0,,
 12,IPR Enforcement Directive,IPR,2004,54,0.352,0.593,0.019,0.0,0.037,0.611,standards-based,0,,
-10,Radio Spectrum Decision,Connectivity,2002,25,0.44,0.48,0.08,0.0,0.0,0.56,standards-based,450,0.636,0.356
-71,Political Advertising Regulation,E-commerce & Consumer Protection,2024,2,0.5,0.5,0.0,0.0,0.0,0.5,standards-based,0,,
+10,Radio Spectrum Decision,Connectivity,2002,25,0.44,0.48,0.08,0.0,0.0,0.56,standards-based,712,0.684,0.303
 4,Database Directive,IPR,1996,23,0.478,0.435,0.0,0.0,0.087,0.435,mixed,0,,
+77,Violence Against Women Directive,Law Enforcement,2024,204,0.559,0.387,0.039,0.0,0.015,0.426,mixed,0,,
 16,European Statistics Regulation,Data & Privacy,2009,75,0.573,0.4,0.013,0.0,0.013,0.413,mixed,78,0.833,0.167
 8,E-commerce Directive,E-commerce & Consumer Protection,2000,68,0.559,0.382,0.015,0.0,0.044,0.397,mixed,0,,
 45,Digital Europe Programme,Research & Innovation,2021,86,0.605,0.36,0.023,0.012,0.0,0.395,mixed,0,,
 2,Unfair Contract Terms Directive,E-commerce & Consumer Protection,1993,23,0.565,0.391,0.0,0.0,0.043,0.391,mixed,0,,
+84,European Media Freedom Act,Media,2024,146,0.603,0.342,0.041,0.0,0.014,0.384,mixed,0,,
+65,Machinery Regulation,Trust & Safety,2023,905,0.611,0.375,0.004,0.001,0.009,0.38,mixed,1,1.0,0.0
+61,NIS 2 Directive,Cybersecurity,2022,272,0.618,0.309,0.062,0.0,0.011,0.371,mixed,219,0.511,0.489
 31,Consumer Protection Cooperation Regulation,E-commerce & Consumer Protection,2017,148,0.635,0.331,0.034,0.0,0.0,0.365,mixed,4,1.0,0.0
-75,Union Secure Connectivity Programme,Connectivity,2023,11,0.636,0.364,0.0,0.0,0.0,0.364,mixed,0,,
-24,Open Internet Access Regulation,Connectivity,2015,69,0.609,0.261,0.087,0.0,0.043,0.348,mixed,0,,
-32,European Electronic Communications Code,Connectivity,2018,820,0.63,0.265,0.078,0.004,0.023,0.346,mixed,87,0.816,0.172
+75,Union Secure Connectivity Programme,Connectivity,2023,140,0.65,0.307,0.036,0.007,0.0,0.35,rule-based,16,0.938,0.062
+24,Open Internet Access Regulation,Connectivity,2015,69,0.609,0.261,0.087,0.0,0.043,0.348,mixed,8,0.75,0.25
+57,Digital Operational Resilience Act (DORA),Finance,2022,409,0.643,0.301,0.042,0.005,0.01,0.347,mixed,718,0.794,0.206
+32,European Electronic Communications Code,Connectivity,2018,820,0.63,0.265,0.078,0.004,0.023,0.346,mixed,121,0.81,0.182
 48,Horizon Europe,Research & Innovation,2021,296,0.655,0.318,0.027,0.0,0.0,0.345,rule-based,0,,
 15,Audiovisual Media Services Directive,Media,2010,111,0.613,0.315,0.027,0.0,0.045,0.342,mixed,0,,
 13,Unfair Commercial Practices Directive,E-commerce & Consumer Protection,2005,45,0.467,0.333,0.0,0.0,0.2,0.333,mixed,0,,
-63,Roaming Regulation,Connectivity,2022,3,0.667,0.333,0.0,0.0,0.0,0.333,rule-based,0,,
-68,Anti-Money Laundering Regulation,Finance,2024,3,0.667,0.333,0.0,0.0,0.0,0.333,rule-based,0,,
-76,Data Act,Data & Privacy,2023,3,0.667,0.333,0.0,0.0,0.0,0.333,rule-based,0,,
-81,European Health Data Space,Data & Privacy,2025,6,0.667,0.333,0.0,0.0,0.0,0.333,rule-based,0,,
-83,Cyber Resilience Act,Cybersecurity,2024,24,0.625,0.333,0.0,0.0,0.042,0.333,mixed,0,,
-92,Critical Raw Materials Act,Industrial Policy,2024,3,0.667,0.333,0.0,0.0,0.0,0.333,rule-based,0,,
-43,Open Data Directive (PSI),Data & Privacy,2019,95,0.632,0.263,0.063,0.0,0.042,0.326,mixed,0,,
+43,Open Data Directive (PSI),Data & Privacy,2019,95,0.632,0.263,0.063,0.0,0.042,0.326,mixed,46,0.957,0.043
+91,Gigabit Infrastructure Act,Connectivity,2024,106,0.594,0.245,0.075,0.0,0.085,0.321,mixed,0,,
+76,Data Act,Data & Privacy,2023,253,0.668,0.241,0.075,0.004,0.012,0.32,rule-based,0,,
 44,Platform-to-Business (P2B) Regulation,Competition & Single Market,2019,76,0.658,0.276,0.039,0.0,0.026,0.316,rule-based,0,,
+78,Cybersecurity Regulation (EU institutions),Cybersecurity,2023,158,0.684,0.247,0.07,0.0,0.0,0.316,rule-based,0,,
+80,Ecodesign for Sustainable Products Regulation,Trust & Safety,2024,450,0.667,0.222,0.044,0.049,0.018,0.316,rule-based,129,0.884,0.116
+93,Net-Zero Industry Act,Industrial Policy,2024,267,0.685,0.262,0.037,0.011,0.004,0.311,rule-based,86,0.674,0.302
 52,Recovery and Resilience Facility,Industrial Policy,2021,177,0.695,0.266,0.04,0.0,0.0,0.305,rule-based,83,0.988,0.012
 39,FDI Screening Regulation,Competition & Single Market,2019,66,0.682,0.182,0.121,0.0,0.015,0.303,rule-based,1,1.0,0.0
 33,Copyright in the Digital Single Market Directive,Media,2019,93,0.677,0.258,0.043,0.0,0.022,0.301,rule-based,0,,
+70,Digital Decade Policy Programme Decision,Industrial Policy,2022,97,0.701,0.268,0.031,0.0,0.0,0.299,rule-based,30,0.833,0.167
+64,Artificial Intelligence Act,Trust & Safety,2024,728,0.694,0.271,0.026,0.001,0.008,0.298,rule-based,155,0.819,0.181
+85,Single Market Emergency Instrument (IMERA),Competition & Single Market,2024,192,0.703,0.266,0.031,0.0,0.0,0.297,rule-based,0,,
 35,Data protection by EU institutions Regulation,Data & Privacy,2018,307,0.704,0.261,0.033,0.003,0.0,0.296,rule-based,50,0.84,0.16
 26,Trade Secrets Directive,IPR,2016,58,0.621,0.259,0.034,0.0,0.086,0.293,mixed,0,,
-17,Toys Safety Directive,Trust & Safety,2009,321,0.698,0.24,0.05,0.0,0.012,0.29,rule-based,84,0.798,0.0
-89,Design Directive,IPR,2024,7,0.571,0.286,0.0,0.0,0.143,0.286,mixed,0,,
+17,Toys Safety Directive,Trust & Safety,2009,321,0.698,0.24,0.05,0.0,0.012,0.29,rule-based,85,0.8,0.0
+74,European Chips Act,Industrial Policy,2023,196,0.714,0.265,0.015,0.0,0.005,0.281,rule-based,0,,
+103,Toys Safety Regulation,Trust & Safety,2025,462,0.723,0.245,0.024,0.002,0.006,0.271,rule-based,0,,
+95,Cyber Solidarity Act,Cybersecurity,2024,145,0.731,0.221,0.041,0.007,0.0,0.269,rule-based,0,,
+58,Data Governance Act,Data & Privacy,2022,209,0.718,0.244,0.024,0.0,0.014,0.268,rule-based,7,1.0,0.0
+109,Electromagnetic Compatibility Directive,Connectivity,2014,236,0.712,0.225,0.042,0.0,0.021,0.267,rule-based,0,,
+60,Digital Services Act,E-commerce & Consumer Protection,2022,442,0.729,0.215,0.048,0.0,0.009,0.262,rule-based,520,0.9,0.1
 7,Information Society (InfoSoc) Directive,Media,2001,27,0.63,0.259,0.0,0.0,0.111,0.259,mixed,0,,
-20,General Data Protection Regulation,Data & Privacy,2016,381,0.722,0.215,0.039,0.0,0.024,0.255,rule-based,533,0.707,0.293
-109,Electromagnetic Compatibility Directive,Connectivity,2014,213,0.723,0.211,0.042,0.0,0.023,0.254,rule-based,0,,
-41,Market Surveillance Regulation,Competition & Single Market,2019,182,0.742,0.214,0.033,0.0,0.011,0.247,rule-based,35,0.943,0.057
+68,Anti-Money Laundering Regulation,Finance,2024,437,0.728,0.227,0.03,0.0,0.016,0.256,rule-based,0,,
+20,General Data Protection Regulation,Data & Privacy,2016,381,0.722,0.215,0.039,0.0,0.024,0.255,rule-based,717,0.728,0.272
+83,Cyber Resilience Act,Cybersecurity,2024,485,0.738,0.221,0.033,0.0,0.008,0.254,rule-based,4,0.75,0.25
+67,General Product Safety Regulation,Trust & Safety,2023,242,0.74,0.202,0.041,0.008,0.008,0.252,rule-based,126,0.802,0.198
+41,Market Surveillance Regulation,Competition & Single Market,2019,182,0.742,0.214,0.033,0.0,0.011,0.247,rule-based,115,0.826,0.174
+73,Platform Work Directive,Competition & Single Market,2024,97,0.711,0.216,0.031,0.0,0.041,0.247,rule-based,0,,
+55,DLT Pilot Regime Regulation,Research & Innovation,2022,173,0.757,0.156,0.087,0.0,0.0,0.243,rule-based,0,,
 46,InvestEU Programme,Industrial Policy,2021,232,0.763,0.207,0.017,0.013,0.0,0.237,rule-based,268,0.735,0.265
-47,Connecting Europe Facility,Industrial Policy,2021,131,0.763,0.229,0.008,0.0,0.0,0.237,rule-based,10,0.5,0.4
+47,Connecting Europe Facility,Industrial Policy,2021,131,0.763,0.229,0.008,0.0,0.0,0.237,rule-based,46,0.804,0.174
 21,Law Enforcement Directive,Law Enforcement,2016,216,0.736,0.208,0.028,0.0,0.028,0.236,rule-based,5,0.8,0.2
 9,ePrivacy Directive,Data & Privacy,2002,47,0.723,0.191,0.043,0.0,0.043,0.234,rule-based,31,0.806,0.194
+63,Roaming Regulation,Connectivity,2022,160,0.756,0.206,0.025,0.0,0.013,0.231,rule-based,0,,
 50,European Cybersecurity Competence Centre,Cybersecurity,2021,209,0.77,0.211,0.019,0.0,0.0,0.23,rule-based,0,,
+56,Markets in Crypto-Assets (MiCA),Finance,2023,1095,0.768,0.196,0.031,0.002,0.003,0.229,rule-based,1299,0.854,0.146
 51,Terrorist Content Online Regulation,Law Enforcement,2021,115,0.739,0.209,0.017,0.0,0.035,0.226,rule-based,0,,
-61,NIS 2 Directive,Cybersecurity,2022,9,0.667,0.222,0.0,0.0,0.111,0.222,rule-based,0,,
-103,Toys Safety Regulation,Trust & Safety,2025,45,0.756,0.222,0.0,0.0,0.022,0.222,rule-based,0,,
-37,Cybersecurity Act,Cybersecurity,2019,328,0.79,0.177,0.021,0.006,0.006,0.204,rule-based,0,,
-110,Radio Equipment Directive,Trust & Safety,2014,288,0.781,0.177,0.024,0.0,0.017,0.201,rule-based,6,1.0,0.0
-53,Temporary CSAM Derogation Regulation,Law Enforcement,2021,10,0.8,0.2,0.0,0.0,0.0,0.2,rule-based,0,,
-59,Digital Markets Act,Competition & Single Market,2022,5,0.8,0.2,0.0,0.0,0.0,0.2,rule-based,0,,
-60,Digital Services Act,E-commerce & Consumer Protection,2022,5,0.8,0.2,0.0,0.0,0.0,0.2,rule-based,1,1.0,0.0
-64,Artificial Intelligence Act,Trust & Safety,2024,10,0.8,0.2,0.0,0.0,0.0,0.2,rule-based,0,,
-11,EC Merger Regulation,Competition & Single Market,2004,146,0.801,0.178,0.021,0.0,0.0,0.199,rule-based,326,0.954,0.046
+92,Critical Raw Materials Act,Industrial Policy,2024,344,0.77,0.186,0.029,0.009,0.006,0.224,rule-based,1,1.0,0.0
+71,Political Advertising Regulation,E-commerce & Consumer Protection,2024,176,0.767,0.188,0.028,0.0,0.017,0.216,rule-based,70,0.857,0.143
+59,Digital Markets Act,Competition & Single Market,2022,265,0.789,0.192,0.015,0.004,0.0,0.211,rule-based,69,0.913,0.087
+110,Radio Equipment Directive,Trust & Safety,2014,328,0.777,0.186,0.021,0.0,0.015,0.207,rule-based,6,1.0,0.0
+37,Cybersecurity Act,Cybersecurity,2019,328,0.79,0.177,0.021,0.006,0.006,0.204,rule-based,338,0.905,0.095
+53,Temporary CSAM Derogation Regulation,Law Enforcement,2021,10,0.8,0.2,0.0,0.0,0.0,0.2,rule-based,1,1.0,0.0
+11,EC Merger Regulation,Competition & Single Market,2004,146,0.801,0.178,0.021,0.0,0.0,0.199,rule-based,489,0.945,0.055
+81,European Health Data Space,Data & Privacy,2025,584,0.777,0.17,0.022,0.007,0.024,0.199,rule-based,129,0.837,0.147
 38,Free Flow of Non-Personal Data Regulation,Data & Privacy,2018,31,0.774,0.161,0.032,0.0,0.032,0.194,rule-based,0,,
-108,European Standardisation Regulation,Trust & Safety,2012,72,0.806,0.139,0.056,0.0,0.0,0.194,rule-based,35,0.657,0.343
+108,European Standardisation Regulation,Trust & Safety,2012,72,0.806,0.139,0.056,0.0,0.0,0.194,rule-based,36,0.667,0.333
+88,Interoperable Europe Act,Data & Privacy,2024,114,0.807,0.167,0.026,0.0,0.0,0.193,rule-based,55,0.855,0.145
 62,Joint Undertakings under Horizon Europe,Industrial Policy,2021,425,0.809,0.158,0.033,0.0,0.0,0.191,rule-based,0,,
-80,Ecodesign for Sustainable Products Regulation,Trust & Safety,2024,21,0.81,0.19,0.0,0.0,0.0,0.19,rule-based,0,,
-113,.eu Top-Level Domain Regulation,Connectivity,2019,49,0.816,0.143,0.041,0.0,0.0,0.184,rule-based,98,0.643,0.357
+113,.eu Top-Level Domain Regulation,Connectivity,2019,49,0.816,0.143,0.041,0.0,0.0,0.184,rule-based,101,0.653,0.347
 28,Sale of Goods Directive,E-commerce & Consumer Protection,2019,39,0.692,0.154,0.026,0.0,0.128,0.179,rule-based,0,,
+86,Product Liability Directive,Trust & Safety,2024,45,0.8,0.178,0.0,0.0,0.022,0.178,rule-based,0,,
+97,Strategic Technologies for Europe Platform (STEP),Industrial Policy,2024,41,0.829,0.146,0.024,0.0,0.0,0.171,rule-based,0,,
 1,Frequency Bands Directive (GSM),Connectivity,1987,6,0.833,0.167,0.0,0.0,0.0,0.167,rule-based,0,,
 30,Geo-blocking Regulation,E-commerce & Consumer Protection,2018,18,0.722,0.167,0.0,0.0,0.111,0.167,rule-based,0,,
-49,Single Market Programme,Competition & Single Market,2021,69,0.841,0.13,0.0,0.029,0.0,0.159,rule-based,0,,
+96,Compulsory licensing of patents Regulation,IPR,2025,104,0.837,0.115,0.048,0.0,0.0,0.163,rule-based,0,,
+49,Single Market Programme,Competition & Single Market,2021,69,0.841,0.13,0.0,0.029,0.0,0.159,rule-based,6,1.0,0.0
 23,Payment Services Directive 2 (PSD2),Finance,2015,441,0.837,0.134,0.018,0.0,0.011,0.152,rule-based,459,0.906,0.094
-36,Single Digital Gateway Regulation,Trust & Safety,2018,120,0.85,0.117,0.033,0.0,0.0,0.15,rule-based,57,0.982,0.018
+36,Single Digital Gateway Regulation,Trust & Safety,2018,120,0.85,0.117,0.033,0.0,0.0,0.15,rule-based,169,0.888,0.112
 6,Price Indication Directive,E-commerce & Consumer Protection,1998,21,0.714,0.143,0.0,0.0,0.143,0.143,rule-based,0,,
-67,General Product Safety Regulation,Trust & Safety,2023,7,0.857,0.143,0.0,0.0,0.0,0.143,rule-based,0,,
-114,Interoperability of EU information systems (borders and visa) Regulation,Law Enforcement,2019,425,0.847,0.101,0.026,0.012,0.014,0.139,rule-based,135,0.926,0.074
+94,Right to Repair Directive,E-commerce & Consumer Protection,2024,71,0.803,0.085,0.056,0.0,0.056,0.141,rule-based,5,0.8,0.0
+114,Interoperability of EU information systems (borders and visa) Regulation,Law Enforcement,2019,425,0.847,0.101,0.026,0.012,0.014,0.139,rule-based,158,0.924,0.076
+72,Digitalisation of judicial cooperation Regulation,Law Enforcement,2023,130,0.846,0.108,0.008,0.015,0.023,0.131,rule-based,190,0.589,0.411
 111,E-invoicing Directive,E-commerce & Consumer Protection,2014,31,0.871,0.129,0.0,0.0,0.0,0.129,rule-based,0,,
 54,EuroHPC Joint Undertaking Regulation,Industrial Policy,2021,299,0.873,0.1,0.027,0.0,0.0,0.127,rule-based,0,,
-19,Administrative cooperation in taxation (DAC),Finance,2011,104,0.875,0.077,0.01,0.029,0.01,0.115,rule-based,27,1.0,0.0
-5,Community Design Regulation,IPR,2001,220,0.868,0.05,0.018,0.045,0.018,0.114,rule-based,383,0.914,0.086
+115,Short-Term Rental Data Regulation,Data & Privacy,2024,60,0.85,0.067,0.05,0.0,0.033,0.117,rule-based,0,,
+19,Administrative cooperation in taxation (DAC),Finance,2011,104,0.875,0.077,0.01,0.029,0.01,0.115,rule-based,75,0.92,0.08
+5,Community Design Regulation,IPR,2001,220,0.868,0.05,0.018,0.045,0.018,0.114,rule-based,500,0.934,0.066
 112,Portability Regulation,Media,2017,27,0.889,0.037,0.074,0.0,0.0,0.111,rule-based,0,,
 34,Satellite and Cable II Directive,Media,2019,19,0.684,0.105,0.0,0.0,0.211,0.105,rule-based,0,,
 27,Digital Content Directive,E-commerce & Consumer Protection,2019,48,0.812,0.083,0.021,0.0,0.083,0.104,rule-based,0,,
-94,Right to Repair Directive,E-commerce & Consumer Protection,2024,10,0.7,0.1,0.0,0.0,0.2,0.1,rule-based,4,0.75,0.0
+42,E-evidence Regulation,Law Enforcement,2023,191,0.885,0.099,0.0,0.0,0.016,0.099,rule-based,55,0.727,0.273
 40,Non-cash payment fraud Directive,Law Enforcement,2019,52,0.827,0.096,0.0,0.0,0.077,0.096,rule-based,0,,
-65,Machinery Regulation,Trust & Safety,2023,21,0.905,0.095,0.0,0.0,0.0,0.095,rule-based,0,,
-22,eIDAS Regulation,Trust & Safety,2014,170,0.888,0.082,0.006,0.0,0.024,0.088,rule-based,168,0.94,0.054
-14,Common VAT system Directive,Finance,2006,361,0.789,0.075,0.006,0.006,0.125,0.086,rule-based,187,0.941,0.032
+102,GDPR Procedural Regulation,Data & Privacy,2025,133,0.91,0.083,0.008,0.0,0.0,0.09,rule-based,0,,
+22,eIDAS Regulation,Trust & Safety,2014,170,0.888,0.082,0.006,0.0,0.024,0.088,rule-based,1278,0.895,0.092
+14,Common VAT system Directive,Finance,2006,361,0.789,0.075,0.006,0.006,0.125,0.086,rule-based,256,0.957,0.023
 29,Company Law Directive,Competition & Single Market,2017,409,0.819,0.059,0.024,0.0,0.098,0.083,rule-based,233,0.863,0.137
+66,Foreign Subsidies Regulation,Competition & Single Market,2022,156,0.923,0.077,0.0,0.0,0.0,0.077,rule-based,172,0.977,0.023
 3,Satellite and Cable Directive,Media,1993,28,0.893,0.071,0.0,0.0,0.036,0.071,rule-based,0,,
-18,Consumer Rights Directive,E-commerce & Consumer Protection,2011,92,0.859,0.033,0.011,0.0,0.098,0.043,rule-based,0,,
-42,E-evidence Regulation,Law Enforcement,2023,2,1.0,0.0,0.0,0.0,0.0,0.0,rule-based,0,,
-56,Markets in Crypto-Assets (MiCA),Finance,2023,2,1.0,0.0,0.0,0.0,0.0,0.0,rule-based,1,1.0,0.0
-57,Digital Operational Resilience Act (DORA),Finance,2022,4,1.0,0.0,0.0,0.0,0.0,0.0,rule-based,0,,
-66,Foreign Subsidies Regulation,Competition & Single Market,2022,4,1.0,0.0,0.0,0.0,0.0,0.0,rule-based,1,1.0,0.0
-73,Platform Work Directive,Competition & Single Market,2024,4,0.75,0.0,0.0,0.0,0.25,0.0,rule-based,0,,
-74,European Chips Act,Industrial Policy,2023,5,1.0,0.0,0.0,0.0,0.0,0.0,rule-based,0,,
-77,Violence Against Women Directive,Law Enforcement,2024,5,0.8,0.0,0.0,0.0,0.2,0.0,rule-based,0,,
-85,Single Market Emergency Instrument (IMERA),Competition & Single Market,2024,1,1.0,0.0,0.0,0.0,0.0,0.0,rule-based,0,,
-86,Product Liability Directive,Trust & Safety,2024,5,0.8,0.0,0.0,0.0,0.2,0.0,rule-based,0,,
-90,VAT in the Digital Age (ViDA),Finance,2025,7,0.857,0.0,0.0,0.0,0.143,0.0,rule-based,0,,
-93,Net-Zero Industry Act,Industrial Policy,2024,4,1.0,0.0,0.0,0.0,0.0,0.0,rule-based,0,,
-95,Cyber Solidarity Act,Cybersecurity,2024,3,1.0,0.0,0.0,0.0,0.0,0.0,rule-based,0,,
-115,Short-Term Rental Data Regulation,Data & Privacy,2024,2,1.0,0.0,0.0,0.0,0.0,0.0,rule-based,0,,
+89,Design Directive,IPR,2024,43,0.884,0.07,0.0,0.0,0.047,0.07,rule-based,0,,
+18,Consumer Rights Directive,E-commerce & Consumer Protection,2011,92,0.859,0.033,0.011,0.0,0.098,0.043,rule-based,13,1.0,0.0
+69,Vertical Block Exemption Regulation,Competition & Single Market,2022,1,1.0,0.0,0.0,0.0,0.0,0.0,rule-based,0,,
+90,VAT in the Digital Age (ViDA),Finance,2025,84,0.952,0.0,0.0,0.0,0.048,0.0,rule-based,0,,

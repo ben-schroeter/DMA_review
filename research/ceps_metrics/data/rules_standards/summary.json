@@ -1,249 +1,215 @@
 {
  "total_by_code": {
   "main": {
-   "R": 7015,
-   "S": 1802,
-   "N": 684,
-   "D": 249,
-   "M": 290,
-   "L": 32
+   "R": 14829,
+   "S": 4312,
+   "N": 1137,
+   "D": 357,
+   "M": 635,
+   "L": 79
   },
   "secondary": {
-   "R": 3177,
-   "D": 30,
-   "N": 309,
-   "L": 141,
-   "M": 52,
-   "S": 440
+   "R": 8812,
+   "D": 54,
+   "S": 1339,
+   "L": 166,
+   "M": 173,
+   "N": 833
   }
  },
- "missing": 18505,
+ "missing": 0,
  "main_all": {
-  "n": 9388,
-  "R": 0.747,
-  "S": 0.192,
+  "n": 20212,
+  "R": 0.734,
+  "S": 0.213,
   "M": 0.031,
-  "L": 0.003,
-  "D": 0.027,
-  "standard_like": 0.226
+  "L": 0.004,
+  "D": 0.018,
+  "standard_like": 0.249
  },
  "secondary_all": {
-  "n": 3840,
-  "R": 0.827,
-  "S": 0.115,
-  "M": 0.014,
-  "L": 0.037,
-  "D": 0.008,
-  "standard_like": 0.165
+  "n": 10544,
+  "R": 0.836,
+  "S": 0.127,
+  "M": 0.016,
+  "L": 0.016,
+  "D": 0.005,
+  "standard_like": 0.159
  },
  "by_area": {
   "Connectivity": {
-   "n": 1197,
-   "R": 0.65,
-   "S": 0.256,
-   "M": 0.069,
-   "L": 0.003,
-   "D": 0.023,
-   "standard_like": 0.327
+   "n": 1611,
+   "R": 0.657,
+   "S": 0.255,
+   "M": 0.063,
+   "L": 0.002,
+   "D": 0.024,
+   "standard_like": 0.32
   },
   "E-commerce & Consumer Protection": {
-   "n": 550,
-   "R": 0.687,
-   "S": 0.227,
-   "M": 0.016,
+   "n": 1222,
+   "R": 0.72,
+   "S": 0.209,
+   "M": 0.032,
    "L": 0.0,
-   "D": 0.069,
-   "standard_like": 0.244
+   "D": 0.038,
+   "standard_like": 0.241
   },
   "Media": {
-   "n": 305,
-   "R": 0.689,
-   "S": 0.233,
-   "M": 0.03,
+   "n": 451,
+   "R": 0.661,
+   "S": 0.268,
+   "M": 0.033,
    "L": 0.0,
-   "D": 0.049,
-   "standard_like": 0.262
+   "D": 0.038,
+   "standard_like": 0.302
   },
   "IPR": {
-   "n": 362,
-   "R": 0.721,
-   "S": 0.193,
-   "M": 0.019,
-   "L": 0.028,
-   "D": 0.039,
-   "standard_like": 0.24
+   "n": 502,
+   "R": 0.761,
+   "S": 0.165,
+   "M": 0.024,
+   "L": 0.02,
+   "D": 0.03,
+   "standard_like": 0.209
   },
   "Data & Privacy": {
-   "n": 954,
-   "R": 0.694,
-   "S": 0.251,
-   "M": 0.037,
-   "L": 0.001,
-   "D": 0.018,
-   "standard_like": 0.288
+   "n": 2289,
+   "R": 0.738,
+   "S": 0.208,
+   "M": 0.035,
+   "L": 0.003,
+   "D": 0.017,
+   "standard_like": 0.245
   },
   "Competition & Single Market": {
-   "n": 962,
+   "n": 1659,
    "R": 0.782,
-   "S": 0.137,
-   "M": 0.031,
+   "S": 0.16,
+   "M": 0.026,
    "L": 0.002,
-   "D": 0.048,
-   "standard_like": 0.17
+   "D": 0.03,
+   "standard_like": 0.188
   },
   "Finance": {
-   "n": 922,
-   "R": 0.823,
-   "S": 0.103,
-   "M": 0.012,
-   "L": 0.005,
-   "D": 0.056,
-   "standard_like": 0.12
-  },
-  "Trust & Safety": {
-   "n": 1080,
-   "R": 0.785,
-   "S": 0.171,
-   "M": 0.03,
-   "L": 0.0,
-   "D": 0.014,
-   "standard_like": 0.201
-  },
-  "Law Enforcement": {
-   "n": 825,
-   "R": 0.801,
-   "S": 0.144,
-   "M": 0.023,
-   "L": 0.006,
-   "D": 0.025,
-   "standard_like": 0.173
-  },
-  "Cybersecurity": {
-   "n": 573,
-   "R": 0.775,
-   "S": 0.195,
-   "M": 0.019,
-   "L": 0.003,
-   "D": 0.007,
-   "standard_like": 0.218
-  },
-  "Industrial Policy": {
-   "n": 1276,
-   "R": 0.796,
-   "S": 0.175,
-   "M": 0.027,
-   "L": 0.002,
-   "D": 0.0,
-   "standard_like": 0.204
-  },
-  "Research & Innovation": {
-   "n": 382,
-   "R": 0.644,
-   "S": 0.327,
+   "n": 2931,
+   "R": 0.767,
+   "S": 0.181,
    "M": 0.026,
    "L": 0.003,
+   "D": 0.024,
+   "standard_like": 0.21
+  },
+  "Trust & Safety": {
+   "n": 3843,
+   "R": 0.702,
+   "S": 0.256,
+   "M": 0.025,
+   "L": 0.007,
+   "D": 0.011,
+   "standard_like": 0.288
+  },
+  "Law Enforcement": {
+   "n": 1343,
+   "R": 0.78,
+   "S": 0.172,
+   "M": 0.021,
+   "L": 0.005,
+   "D": 0.022,
+   "standard_like": 0.198
+  },
+  "Cybersecurity": {
+   "n": 1597,
+   "R": 0.726,
+   "S": 0.228,
+   "M": 0.038,
+   "L": 0.002,
+   "D": 0.006,
+   "standard_like": 0.268
+  },
+  "Industrial Policy": {
+   "n": 2209,
+   "R": 0.767,
+   "S": 0.199,
+   "M": 0.028,
+   "L": 0.004,
+   "D": 0.002,
+   "standard_like": 0.231
+  },
+  "Research & Innovation": {
+   "n": 555,
+   "R": 0.679,
+   "S": 0.274,
+   "M": 0.045,
+   "L": 0.002,
    "D": 0.0,
-   "standard_like": 0.356
+   "standard_like": 0.321
   }
  },
  "by_period": {
   "before 2020": {
-   "n": 7088,
+   "n": 7151,
    "R": 0.742,
-   "S": 0.187,
+   "S": 0.188,
    "M": 0.034,
    "L": 0.004,
    "D": 0.033,
-   "standard_like": 0.224
+   "standard_like": 0.225
   },
   "2020 or later": {
-   "n": 2300,
-   "R": 0.762,
-   "S": 0.207,
-   "M": 0.022,
-   "L": 0.003,
-   "D": 0.006,
-   "standard_like": 0.232
+   "n": 13061,
+   "R": 0.729,
+   "S": 0.227,
+   "M": 0.03,
+   "L": 0.004,
+   "D": 0.009,
+   "standard_like": 0.262
   }
  },
  "by_addressee": {
   "member_states": {
-   "n": 3274,
-   "R": 0.675,
-   "S": 0.214,
-   "M": 0.04,
+   "n": 6187,
+   "R": 0.69,
+   "S": 0.22,
+   "M": 0.035,
    "L": 0.002,
-   "D": 0.07,
-   "standard_like": 0.255
+   "D": 0.052,
+   "standard_like": 0.257
   },
   "eu_institutions": {
-   "n": 3614,
-   "R": 0.8,
-   "S": 0.176,
-   "M": 0.021,
-   "L": 0.002,
+   "n": 6998,
+   "R": 0.786,
+   "S": 0.188,
+   "M": 0.023,
+   "L": 0.003,
    "D": 0.001,
-   "standard_like": 0.199
+   "standard_like": 0.213
   },
   "private_parties": {
-   "n": 2451,
-   "R": 0.763,
-   "S": 0.19,
-   "M": 0.035,
-   "L": 0.007,
-   "D": 0.007,
-   "standard_like": 0.231
+   "n": 6951,
+   "R": 0.718,
+   "S": 0.234,
+   "M": 0.038,
+   "L": 0.006,
+   "D": 0.004,
+   "standard_like": 0.278
   },
   "no_actor": {
-   "n": 49,
-   "R": 0.878,
-   "S": 0.061,
+   "n": 76,
+   "R": 0.895,
+   "S": 0.066,
    "M": 0.0,
-   "L": 0.02,
-   "D": 0.041,
-   "standard_like": 0.082
+   "L": 0.013,
+   "D": 0.026,
+   "standard_like": 0.079
   }
  },
  "labels": {
-  "standards-based": 5,
-  "mixed": 16,
-  "rule-based": 72
+  "standards-based": 2,
+  "mixed": 19,
+  "rule-based": 82
  },
  "instruments": [
-  {
-   "row_id": 91,
-   "name": "Gigabit Infrastructure Act",
-   "area": "Connectivity",
-   "year": 2024,
-   "main": {
-    "n": 1,
-    "R": 0.0,
-    "S": 1.0,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.0,
-    "standard_like": 1.0
-   },
-   "label": "standards-based",
-   "secondary": null
-  },
-  {
-   "row_id": 58,
-   "name": "Data Governance Act",
-   "area": "Data & Privacy",
-   "year": 2022,
-   "main": {
-    "n": 7,
-    "R": 0.286,
-    "S": 0.714,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.0,
-    "standard_like": 0.714
-   },
-   "label": "standards-based",
-   "secondary": null
-  },
   {
    "row_id": 12,
    "name": "IPR Enforcement Directive",
@@ -277,31 +243,14 @@
    },
    "label": "standards-based",
    "secondary": {
-    "n": 450,
-    "R": 0.636,
-    "S": 0.111,
-    "M": 0.011,
-    "L": 0.233,
-    "D": 0.009,
-    "standard_like": 0.356
+    "n": 712,
+    "R": 0.684,
+    "S": 0.115,
+    "M": 0.013,
+    "L": 0.176,
+    "D": 0.013,
+    "standard_like": 0.303
    }
-  },
-  {
-   "row_id": 71,
-   "name": "Political Advertising Regulation",
-   "area": "E-commerce & Consumer Protection",
-   "year": 2024,
-   "main": {
-    "n": 2,
-    "R": 0.5,
-    "S": 0.5,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.0,
-    "standard_like": 0.5
-   },
-   "label": "standards-based",
-   "secondary": null
   },
   {
    "row_id": 4,
@@ -316,6 +265,23 @@
     "L": 0.0,
     "D": 0.087,
     "standard_like": 0.435
+   },
+   "label": "mixed",
+   "secondary": null
+  },
+  {
+   "row_id": 77,
+   "name": "Violence Against Women Directive",
+   "area": "Law Enforcement",
+   "year": 2024,
+   "main": {
+    "n": 204,
+    "R": 0.559,
+    "S": 0.387,
+    "M": 0.039,
+    "L": 0.0,
+    "D": 0.015,
+    "standard_like": 0.426
    },
    "label": "mixed",
    "secondary": null
@@ -397,6 +363,73 @@
    "secondary": null
   },
   {
+   "row_id": 84,
+   "name": "European Media Freedom Act",
+   "area": "Media",
+   "year": 2024,
+   "main": {
+    "n": 146,
+    "R": 0.603,
+    "S": 0.342,
+    "M": 0.041,
+    "L": 0.0,
+    "D": 0.014,
+    "standard_like": 0.384
+   },
+   "label": "mixed",
+   "secondary": null
+  },
+  {
+   "row_id": 65,
+   "name": "Machinery Regulation",
+   "area": "Trust & Safety",
+   "year": 2023,
+   "main": {
+    "n": 905,
+    "R": 0.611,
+    "S": 0.375,
+    "M": 0.004,
+    "L": 0.001,
+    "D": 0.009,
+    "standard_like": 0.38
+   },
+   "label": "mixed",
+   "secondary": {
+    "n": 1,
+    "R": 1.0,
+    "S": 0.0,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.0
+   }
+  },
+  {
+   "row_id": 61,
+   "name": "NIS 2 Directive",
+   "area": "Cybersecurity",
+   "year": 2022,
+   "main": {
+    "n": 272,
+    "R": 0.618,
+    "S": 0.309,
+    "M": 0.062,
+    "L": 0.0,
+    "D": 0.011,
+    "standard_like": 0.371
+   },
+   "label": "mixed",
+   "secondary": {
+    "n": 219,
+    "R": 0.511,
+    "S": 0.461,
+    "M": 0.027,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.489
+   }
+  },
+  {
    "row_id": 31,
    "name": "Consumer Protection Cooperation Regulation",
    "area": "E-commerce & Consumer Protection",
@@ -427,16 +460,24 @@
    "area": "Connectivity",
    "year": 2023,
    "main": {
-    "n": 11,
-    "R": 0.636,
-    "S": 0.364,
+    "n": 140,
+    "R": 0.65,
+    "S": 0.307,
+    "M": 0.036,
+    "L": 0.007,
+    "D": 0.0,
+    "standard_like": 0.35
+   },
+   "label": "rule-based",
+   "secondary": {
+    "n": 16,
+    "R": 0.938,
+    "S": 0.062,
     "M": 0.0,
     "L": 0.0,
     "D": 0.0,
-    "standard_like": 0.364
-   },
-   "label": "mixed",
-   "secondary": null
+    "standard_like": 0.062
+   }
   },
   {
    "row_id": 24,
@@ -453,7 +494,40 @@
     "standard_like": 0.348
    },
    "label": "mixed",
-   "secondary": null
+   "secondary": {
+    "n": 8,
+    "R": 0.75,
+    "S": 0.25,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.25
+   }
+  },
+  {
+   "row_id": 57,
+   "name": "Digital Operational Resilience Act (DORA)",
+   "area": "Finance",
+   "year": 2022,
+   "main": {
+    "n": 409,
+    "R": 0.643,
+    "S": 0.301,
+    "M": 0.042,
+    "L": 0.005,
+    "D": 0.01,
+    "standard_like": 0.347
+   },
+   "label": "mixed",
+   "secondary": {
+    "n": 718,
+    "R": 0.794,
+    "S": 0.184,
+    "M": 0.022,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.206
+   }
   },
   {
    "row_id": 32,
@@ -471,13 +545,13 @@
    },
    "label": "mixed",
    "secondary": {
-    "n": 87,
-    "R": 0.816,
-    "S": 0.172,
-    "M": 0.0,
+    "n": 121,
+    "R": 0.81,
+    "S": 0.174,
+    "M": 0.008,
     "L": 0.0,
-    "D": 0.011,
-    "standard_like": 0.172
+    "D": 0.008,
+    "standard_like": 0.182
    }
   },
   {
@@ -532,108 +606,6 @@
    "secondary": null
   },
   {
-   "row_id": 63,
-   "name": "Roaming Regulation",
-   "area": "Connectivity",
-   "year": 2022,
-   "main": {
-    "n": 3,
-    "R": 0.667,
-    "S": 0.333,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.0,
-    "standard_like": 0.333
-   },
-   "label": "rule-based",
-   "secondary": null
-  },
-  {
-   "row_id": 68,
-   "name": "Anti-Money Laundering Regulation",
-   "area": "Finance",
-   "year": 2024,
-   "main": {
-    "n": 3,
-    "R": 0.667,
-    "S": 0.333,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.0,
-    "standard_like": 0.333
-   },
-   "label": "rule-based",
-   "secondary": null
-  },
-  {
-   "row_id": 76,
-   "name": "Data Act",
-   "area": "Data & Privacy",
-   "year": 2023,
-   "main": {
-    "n": 3,
-    "R": 0.667,
-    "S": 0.333,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.0,
-    "standard_like": 0.333
-   },
-   "label": "rule-based",
-   "secondary": null
-  },
-  {
-   "row_id": 81,
-   "name": "European Health Data Space",
-   "area": "Data & Privacy",
-   "year": 2025,
-   "main": {
-    "n": 6,
-    "R": 0.667,
-    "S": 0.333,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.0,
-    "standard_like": 0.333
-   },
-   "label": "rule-based",
-   "secondary": null
-  },
-  {
-   "row_id": 83,
-   "name": "Cyber Resilience Act",
-   "area": "Cybersecurity",
-   "year": 2024,
-   "main": {
-    "n": 24,
-    "R": 0.625,
-    "S": 0.333,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.042,
-    "standard_like": 0.333
-   },
-   "label": "mixed",
-   "secondary": null
-  },
-  {
-   "row_id": 92,
-   "name": "Critical Raw Materials Act",
-   "area": "Industrial Policy",
-   "year": 2024,
-   "main": {
-    "n": 3,
-    "R": 0.667,
-    "S": 0.333,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.0,
-    "standard_like": 0.333
-   },
-   "label": "rule-based",
-   "secondary": null
-  },
-  {
    "row_id": 43,
    "name": "Open Data Directive (PSI)",
    "area": "Data & Privacy",
@@ -648,6 +620,48 @@
     "standard_like": 0.326
    },
    "label": "mixed",
+   "secondary": {
+    "n": 46,
+    "R": 0.957,
+    "S": 0.022,
+    "M": 0.022,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.043
+   }
+  },
+  {
+   "row_id": 91,
+   "name": "Gigabit Infrastructure Act",
+   "area": "Connectivity",
+   "year": 2024,
+   "main": {
+    "n": 106,
+    "R": 0.594,
+    "S": 0.245,
+    "M": 0.075,
+    "L": 0.0,
+    "D": 0.085,
+    "standard_like": 0.321
+   },
+   "label": "mixed",
+   "secondary": null
+  },
+  {
+   "row_id": 76,
+   "name": "Data Act",
+   "area": "Data & Privacy",
+   "year": 2023,
+   "main": {
+    "n": 253,
+    "R": 0.668,
+    "S": 0.241,
+    "M": 0.075,
+    "L": 0.004,
+    "D": 0.012,
+    "standard_like": 0.32
+   },
+   "label": "rule-based",
    "secondary": null
   },
   {
@@ -666,6 +680,73 @@
    },
    "label": "rule-based",
    "secondary": null
+  },
+  {
+   "row_id": 78,
+   "name": "Cybersecurity Regulation (EU institutions)",
+   "area": "Cybersecurity",
+   "year": 2023,
+   "main": {
+    "n": 158,
+    "R": 0.684,
+    "S": 0.247,
+    "M": 0.07,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.316
+   },
+   "label": "rule-based",
+   "secondary": null
+  },
+  {
+   "row_id": 80,
+   "name": "Ecodesign for Sustainable Products Regulation",
+   "area": "Trust & Safety",
+   "year": 2024,
+   "main": {
+    "n": 450,
+    "R": 0.667,
+    "S": 0.222,
+    "M": 0.044,
+    "L": 0.049,
+    "D": 0.018,
+    "standard_like": 0.316
+   },
+   "label": "rule-based",
+   "secondary": {
+    "n": 129,
+    "R": 0.884,
+    "S": 0.085,
+    "M": 0.008,
+    "L": 0.023,
+    "D": 0.0,
+    "standard_like": 0.116
+   }
+  },
+  {
+   "row_id": 93,
+   "name": "Net-Zero Industry Act",
+   "area": "Industrial Policy",
+   "year": 2024,
+   "main": {
+    "n": 267,
+    "R": 0.685,
+    "S": 0.262,
+    "M": 0.037,
+    "L": 0.011,
+    "D": 0.004,
+    "standard_like": 0.311
+   },
+   "label": "rule-based",
+   "secondary": {
+    "n": 86,
+    "R": 0.674,
+    "S": 0.267,
+    "M": 0.035,
+    "L": 0.0,
+    "D": 0.023,
+    "standard_like": 0.302
+   }
   },
   {
    "row_id": 52,
@@ -735,6 +816,73 @@
    "secondary": null
   },
   {
+   "row_id": 70,
+   "name": "Digital Decade Policy Programme Decision",
+   "area": "Industrial Policy",
+   "year": 2022,
+   "main": {
+    "n": 97,
+    "R": 0.701,
+    "S": 0.268,
+    "M": 0.031,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.299
+   },
+   "label": "rule-based",
+   "secondary": {
+    "n": 30,
+    "R": 0.833,
+    "S": 0.167,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.167
+   }
+  },
+  {
+   "row_id": 64,
+   "name": "Artificial Intelligence Act",
+   "area": "Trust & Safety",
+   "year": 2024,
+   "main": {
+    "n": 728,
+    "R": 0.694,
+    "S": 0.271,
+    "M": 0.026,
+    "L": 0.001,
+    "D": 0.008,
+    "standard_like": 0.298
+   },
+   "label": "rule-based",
+   "secondary": {
+    "n": 155,
+    "R": 0.819,
+    "S": 0.148,
+    "M": 0.032,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.181
+   }
+  },
+  {
+   "row_id": 85,
+   "name": "Single Market Emergency Instrument (IMERA)",
+   "area": "Competition & Single Market",
+   "year": 2024,
+   "main": {
+    "n": 192,
+    "R": 0.703,
+    "S": 0.266,
+    "M": 0.031,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.297
+   },
+   "label": "rule-based",
+   "secondary": null
+  },
+  {
    "row_id": 35,
    "name": "Data protection by EU institutions Regulation",
    "area": "Data & Privacy",
@@ -792,31 +940,132 @@
    },
    "label": "rule-based",
    "secondary": {
-    "n": 84,
-    "R": 0.798,
+    "n": 85,
+    "R": 0.8,
     "S": 0.0,
     "M": 0.0,
     "L": 0.0,
-    "D": 0.202,
+    "D": 0.2,
     "standard_like": 0.0
    }
   },
   {
-   "row_id": 89,
-   "name": "Design Directive",
-   "area": "IPR",
+   "row_id": 74,
+   "name": "European Chips Act",
+   "area": "Industrial Policy",
+   "year": 2023,
+   "main": {
+    "n": 196,
+    "R": 0.714,
+    "S": 0.265,
+    "M": 0.015,
+    "L": 0.0,
+    "D": 0.005,
+    "standard_like": 0.281
+   },
+   "label": "rule-based",
+   "secondary": null
+  },
+  {
+   "row_id": 103,
+   "name": "Toys Safety Regulation",
+   "area": "Trust & Safety",
+   "year": 2025,
+   "main": {
+    "n": 462,
+    "R": 0.723,
+    "S": 0.245,
+    "M": 0.024,
+    "L": 0.002,
+    "D": 0.006,
+    "standard_like": 0.271
+   },
+   "label": "rule-based",
+   "secondary": null
+  },
+  {
+   "row_id": 95,
+   "name": "Cyber Solidarity Act",
+   "area": "Cybersecurity",
    "year": 2024,
    "main": {
+    "n": 145,
+    "R": 0.731,
+    "S": 0.221,
+    "M": 0.041,
+    "L": 0.007,
+    "D": 0.0,
+    "standard_like": 0.269
+   },
+   "label": "rule-based",
+   "secondary": null
+  },
+  {
+   "row_id": 58,
+   "name": "Data Governance Act",
+   "area": "Data & Privacy",
+   "year": 2022,
+   "main": {
+    "n": 209,
+    "R": 0.718,
+    "S": 0.244,
+    "M": 0.024,
+    "L": 0.0,
+    "D": 0.014,
+    "standard_like": 0.268
+   },
+   "label": "rule-based",
+   "secondary": {
     "n": 7,
-    "R": 0.571,
-    "S": 0.286,
+    "R": 1.0,
+    "S": 0.0,
     "M": 0.0,
     "L": 0.0,
-    "D": 0.143,
-    "standard_like": 0.286
+    "D": 0.0,
+    "standard_like": 0.0
+   }
+  },
+  {
+   "row_id": 109,
+   "name": "Electromagnetic Compatibility Directive",
+   "area": "Connectivity",
+   "year": 2014,
+   "main": {
+    "n": 236,
+    "R": 0.712,
+    "S": 0.225,
+    "M": 0.042,
+    "L": 0.0,
+    "D": 0.021,
+    "standard_like": 0.267
    },
-   "label": "mixed",
+   "label": "rule-based",
    "secondary": null
+  },
+  {
+   "row_id": 60,
+   "name": "Digital Services Act",
+   "area": "E-commerce & Consumer Protection",
+   "year": 2022,
+   "main": {
+    "n": 442,
+    "R": 0.729,
+    "S": 0.215,
+    "M": 0.048,
+    "L": 0.0,
+    "D": 0.009,
+    "standard_like": 0.262
+   },
+   "label": "rule-based",
+   "secondary": {
+    "n": 520,
+    "R": 0.9,
+    "S": 0.085,
+    "M": 0.015,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.1
+   }
   },
   {
    "row_id": 7,
@@ -836,6 +1085,23 @@
    "secondary": null
   },
   {
+   "row_id": 68,
+   "name": "Anti-Money Laundering Regulation",
+   "area": "Finance",
+   "year": 2024,
+   "main": {
+    "n": 437,
+    "R": 0.728,
+    "S": 0.227,
+    "M": 0.03,
+    "L": 0.0,
+    "D": 0.016,
+    "standard_like": 0.256
+   },
+   "label": "rule-based",
+   "secondary": null
+  },
+  {
    "row_id": 20,
    "name": "General Data Protection Regulation",
    "area": "Data & Privacy",
@@ -851,31 +1117,64 @@
    },
    "label": "rule-based",
    "secondary": {
-    "n": 533,
-    "R": 0.707,
-    "S": 0.261,
-    "M": 0.021,
-    "L": 0.011,
+    "n": 717,
+    "R": 0.728,
+    "S": 0.24,
+    "M": 0.024,
+    "L": 0.008,
     "D": 0.0,
-    "standard_like": 0.293
+    "standard_like": 0.272
    }
   },
   {
-   "row_id": 109,
-   "name": "Electromagnetic Compatibility Directive",
-   "area": "Connectivity",
-   "year": 2014,
+   "row_id": 83,
+   "name": "Cyber Resilience Act",
+   "area": "Cybersecurity",
+   "year": 2024,
    "main": {
-    "n": 213,
-    "R": 0.723,
-    "S": 0.211,
-    "M": 0.042,
+    "n": 485,
+    "R": 0.738,
+    "S": 0.221,
+    "M": 0.033,
     "L": 0.0,
-    "D": 0.023,
+    "D": 0.008,
     "standard_like": 0.254
    },
    "label": "rule-based",
-   "secondary": null
+   "secondary": {
+    "n": 4,
+    "R": 0.75,
+    "S": 0.25,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.25
+   }
+  },
+  {
+   "row_id": 67,
+   "name": "General Product Safety Regulation",
+   "area": "Trust & Safety",
+   "year": 2023,
+   "main": {
+    "n": 242,
+    "R": 0.74,
+    "S": 0.202,
+    "M": 0.041,
+    "L": 0.008,
+    "D": 0.008,
+    "standard_like": 0.252
+   },
+   "label": "rule-based",
+   "secondary": {
+    "n": 126,
+    "R": 0.802,
+    "S": 0.19,
+    "M": 0.008,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.198
+   }
   },
   {
    "row_id": 41,
@@ -893,14 +1192,48 @@
    },
    "label": "rule-based",
    "secondary": {
-    "n": 35,
-    "R": 0.943,
-    "S": 0.0,
-    "M": 0.057,
+    "n": 115,
+    "R": 0.826,
+    "S": 0.122,
+    "M": 0.052,
     "L": 0.0,
     "D": 0.0,
-    "standard_like": 0.057
+    "standard_like": 0.174
    }
+  },
+  {
+   "row_id": 73,
+   "name": "Platform Work Directive",
+   "area": "Competition & Single Market",
+   "year": 2024,
+   "main": {
+    "n": 97,
+    "R": 0.711,
+    "S": 0.216,
+    "M": 0.031,
+    "L": 0.0,
+    "D": 0.041,
+    "standard_like": 0.247
+   },
+   "label": "rule-based",
+   "secondary": null
+  },
+  {
+   "row_id": 55,
+   "name": "DLT Pilot Regime Regulation",
+   "area": "Research & Innovation",
+   "year": 2022,
+   "main": {
+    "n": 173,
+    "R": 0.757,
+    "S": 0.156,
+    "M": 0.087,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.243
+   },
+   "label": "rule-based",
+   "secondary": null
   },
   {
    "row_id": 46,
@@ -943,13 +1276,13 @@
    },
    "label": "rule-based",
    "secondary": {
-    "n": 10,
-    "R": 0.5,
-    "S": 0.4,
+    "n": 46,
+    "R": 0.804,
+    "S": 0.174,
     "M": 0.0,
     "L": 0.0,
-    "D": 0.1,
-    "standard_like": 0.4
+    "D": 0.022,
+    "standard_like": 0.174
    }
   },
   {
@@ -1003,6 +1336,23 @@
    }
   },
   {
+   "row_id": 63,
+   "name": "Roaming Regulation",
+   "area": "Connectivity",
+   "year": 2022,
+   "main": {
+    "n": 160,
+    "R": 0.756,
+    "S": 0.206,
+    "M": 0.025,
+    "L": 0.0,
+    "D": 0.013,
+    "standard_like": 0.231
+   },
+   "label": "rule-based",
+   "secondary": null
+  },
+  {
    "row_id": 50,
    "name": "European Cybersecurity Competence Centre",
    "area": "Cybersecurity",
@@ -1018,6 +1368,31 @@
    },
    "label": "rule-based",
    "secondary": null
+  },
+  {
+   "row_id": 56,
+   "name": "Markets in Crypto-Assets (MiCA)",
+   "area": "Finance",
+   "year": 2023,
+   "main": {
+    "n": 1095,
+    "R": 0.768,
+    "S": 0.196,
+    "M": 0.031,
+    "L": 0.002,
+    "D": 0.003,
+    "standard_like": 0.229
+   },
+   "label": "rule-based",
+   "secondary": {
+    "n": 1299,
+    "R": 0.854,
+    "S": 0.122,
+    "M": 0.025,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.146
+   }
   },
   {
    "row_id": 51,
@@ -1037,38 +1412,104 @@
    "secondary": null
   },
   {
-   "row_id": 61,
-   "name": "NIS 2 Directive",
-   "area": "Cybersecurity",
-   "year": 2022,
+   "row_id": 92,
+   "name": "Critical Raw Materials Act",
+   "area": "Industrial Policy",
+   "year": 2024,
    "main": {
-    "n": 9,
-    "R": 0.667,
-    "S": 0.222,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.111,
-    "standard_like": 0.222
+    "n": 344,
+    "R": 0.77,
+    "S": 0.186,
+    "M": 0.029,
+    "L": 0.009,
+    "D": 0.006,
+    "standard_like": 0.224
    },
    "label": "rule-based",
-   "secondary": null
+   "secondary": {
+    "n": 1,
+    "R": 1.0,
+    "S": 0.0,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.0
+   }
   },
   {
-   "row_id": 103,
-   "name": "Toys Safety Regulation",
-   "area": "Trust & Safety",
-   "year": 2025,
+   "row_id": 71,
+   "name": "Political Advertising Regulation",
+   "area": "E-commerce & Consumer Protection",
+   "year": 2024,
    "main": {
-    "n": 45,
-    "R": 0.756,
-    "S": 0.222,
-    "M": 0.0,
+    "n": 176,
+    "R": 0.767,
+    "S": 0.188,
+    "M": 0.028,
     "L": 0.0,
-    "D": 0.022,
-    "standard_like": 0.222
+    "D": 0.017,
+    "standard_like": 0.216
    },
    "label": "rule-based",
-   "secondary": null
+   "secondary": {
+    "n": 70,
+    "R": 0.857,
+    "S": 0.143,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.143
+   }
+  },
+  {
+   "row_id": 59,
+   "name": "Digital Markets Act",
+   "area": "Competition & Single Market",
+   "year": 2022,
+   "main": {
+    "n": 265,
+    "R": 0.789,
+    "S": 0.192,
+    "M": 0.015,
+    "L": 0.004,
+    "D": 0.0,
+    "standard_like": 0.211
+   },
+   "label": "rule-based",
+   "secondary": {
+    "n": 69,
+    "R": 0.913,
+    "S": 0.072,
+    "M": 0.014,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.087
+   }
+  },
+  {
+   "row_id": 110,
+   "name": "Radio Equipment Directive",
+   "area": "Trust & Safety",
+   "year": 2014,
+   "main": {
+    "n": 328,
+    "R": 0.777,
+    "S": 0.186,
+    "M": 0.021,
+    "L": 0.0,
+    "D": 0.015,
+    "standard_like": 0.207
+   },
+   "label": "rule-based",
+   "secondary": {
+    "n": 6,
+    "R": 1.0,
+    "S": 0.0,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.0
+   }
   },
   {
    "row_id": 37,
@@ -1085,31 +1526,14 @@
     "standard_like": 0.204
    },
    "label": "rule-based",
-   "secondary": null
-  },
-  {
-   "row_id": 110,
-   "name": "Radio Equipment Directive",
-   "area": "Trust & Safety",
-   "year": 2014,
-   "main": {
-    "n": 288,
-    "R": 0.781,
-    "S": 0.177,
-    "M": 0.024,
-    "L": 0.0,
-    "D": 0.017,
-    "standard_like": 0.201
-   },
-   "label": "rule-based",
    "secondary": {
-    "n": 6,
-    "R": 1.0,
-    "S": 0.0,
-    "M": 0.0,
+    "n": 338,
+    "R": 0.905,
+    "S": 0.074,
+    "M": 0.021,
     "L": 0.0,
     "D": 0.0,
-    "standard_like": 0.0
+    "standard_like": 0.095
    }
   },
   {
@@ -1119,40 +1543,6 @@
    "year": 2021,
    "main": {
     "n": 10,
-    "R": 0.8,
-    "S": 0.2,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.0,
-    "standard_like": 0.2
-   },
-   "label": "rule-based",
-   "secondary": null
-  },
-  {
-   "row_id": 59,
-   "name": "Digital Markets Act",
-   "area": "Competition & Single Market",
-   "year": 2022,
-   "main": {
-    "n": 5,
-    "R": 0.8,
-    "S": 0.2,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.0,
-    "standard_like": 0.2
-   },
-   "label": "rule-based",
-   "secondary": null
-  },
-  {
-   "row_id": 60,
-   "name": "Digital Services Act",
-   "area": "E-commerce & Consumer Protection",
-   "year": 2022,
-   "main": {
-    "n": 5,
     "R": 0.8,
     "S": 0.2,
     "M": 0.0,
@@ -1172,23 +1562,6 @@
    }
   },
   {
-   "row_id": 64,
-   "name": "Artificial Intelligence Act",
-   "area": "Trust & Safety",
-   "year": 2024,
-   "main": {
-    "n": 10,
-    "R": 0.8,
-    "S": 0.2,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.0,
-    "standard_like": 0.2
-   },
-   "label": "rule-based",
-   "secondary": null
-  },
-  {
    "row_id": 11,
    "name": "EC Merger Regulation",
    "area": "Competition & Single Market",
@@ -1204,13 +1577,38 @@
    },
    "label": "rule-based",
    "secondary": {
-    "n": 326,
-    "R": 0.954,
-    "S": 0.021,
-    "M": 0.025,
+    "n": 489,
+    "R": 0.945,
+    "S": 0.035,
+    "M": 0.02,
     "L": 0.0,
     "D": 0.0,
-    "standard_like": 0.046
+    "standard_like": 0.055
+   }
+  },
+  {
+   "row_id": 81,
+   "name": "European Health Data Space",
+   "area": "Data & Privacy",
+   "year": 2025,
+   "main": {
+    "n": 584,
+    "R": 0.777,
+    "S": 0.17,
+    "M": 0.022,
+    "L": 0.007,
+    "D": 0.024,
+    "standard_like": 0.199
+   },
+   "label": "rule-based",
+   "secondary": {
+    "n": 129,
+    "R": 0.837,
+    "S": 0.147,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.016,
+    "standard_like": 0.147
    }
   },
   {
@@ -1246,13 +1644,38 @@
    },
    "label": "rule-based",
    "secondary": {
-    "n": 35,
-    "R": 0.657,
-    "S": 0.343,
+    "n": 36,
+    "R": 0.667,
+    "S": 0.333,
     "M": 0.0,
     "L": 0.0,
     "D": 0.0,
-    "standard_like": 0.343
+    "standard_like": 0.333
+   }
+  },
+  {
+   "row_id": 88,
+   "name": "Interoperable Europe Act",
+   "area": "Data & Privacy",
+   "year": 2024,
+   "main": {
+    "n": 114,
+    "R": 0.807,
+    "S": 0.167,
+    "M": 0.026,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.193
+   },
+   "label": "rule-based",
+   "secondary": {
+    "n": 55,
+    "R": 0.855,
+    "S": 0.145,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.145
    }
   },
   {
@@ -1273,23 +1696,6 @@
    "secondary": null
   },
   {
-   "row_id": 80,
-   "name": "Ecodesign for Sustainable Products Regulation",
-   "area": "Trust & Safety",
-   "year": 2024,
-   "main": {
-    "n": 21,
-    "R": 0.81,
-    "S": 0.19,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.0,
-    "standard_like": 0.19
-   },
-   "label": "rule-based",
-   "secondary": null
-  },
-  {
    "row_id": 113,
    "name": ".eu Top-Level Domain Regulation",
    "area": "Connectivity",
@@ -1305,13 +1711,13 @@
    },
    "label": "rule-based",
    "secondary": {
-    "n": 98,
-    "R": 0.643,
-    "S": 0.316,
-    "M": 0.041,
+    "n": 101,
+    "R": 0.653,
+    "S": 0.307,
+    "M": 0.04,
     "L": 0.0,
     "D": 0.0,
-    "standard_like": 0.357
+    "standard_like": 0.347
    }
   },
   {
@@ -1327,6 +1733,40 @@
     "L": 0.0,
     "D": 0.128,
     "standard_like": 0.179
+   },
+   "label": "rule-based",
+   "secondary": null
+  },
+  {
+   "row_id": 86,
+   "name": "Product Liability Directive",
+   "area": "Trust & Safety",
+   "year": 2024,
+   "main": {
+    "n": 45,
+    "R": 0.8,
+    "S": 0.178,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.022,
+    "standard_like": 0.178
+   },
+   "label": "rule-based",
+   "secondary": null
+  },
+  {
+   "row_id": 97,
+   "name": "Strategic Technologies for Europe Platform (STEP)",
+   "area": "Industrial Policy",
+   "year": 2024,
+   "main": {
+    "n": 41,
+    "R": 0.829,
+    "S": 0.146,
+    "M": 0.024,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.171
    },
    "label": "rule-based",
    "secondary": null
@@ -1366,6 +1806,23 @@
    "secondary": null
   },
   {
+   "row_id": 96,
+   "name": "Compulsory licensing of patents Regulation",
+   "area": "IPR",
+   "year": 2025,
+   "main": {
+    "n": 104,
+    "R": 0.837,
+    "S": 0.115,
+    "M": 0.048,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.163
+   },
+   "label": "rule-based",
+   "secondary": null
+  },
+  {
    "row_id": 49,
    "name": "Single Market Programme",
    "area": "Competition & Single Market",
@@ -1380,7 +1837,15 @@
     "standard_like": 0.159
    },
    "label": "rule-based",
-   "secondary": null
+   "secondary": {
+    "n": 6,
+    "R": 1.0,
+    "S": 0.0,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.0
+   }
   },
   {
    "row_id": 23,
@@ -1423,13 +1888,13 @@
    },
    "label": "rule-based",
    "secondary": {
-    "n": 57,
-    "R": 0.982,
-    "S": 0.0,
-    "M": 0.018,
-    "L": 0.0,
+    "n": 169,
+    "R": 0.888,
+    "S": 0.101,
+    "M": 0.006,
+    "L": 0.006,
     "D": 0.0,
-    "standard_like": 0.018
+    "standard_like": 0.112
    }
   },
   {
@@ -1450,21 +1915,29 @@
    "secondary": null
   },
   {
-   "row_id": 67,
-   "name": "General Product Safety Regulation",
-   "area": "Trust & Safety",
-   "year": 2023,
+   "row_id": 94,
+   "name": "Right to Repair Directive",
+   "area": "E-commerce & Consumer Protection",
+   "year": 2024,
    "main": {
-    "n": 7,
-    "R": 0.857,
-    "S": 0.143,
-    "M": 0.0,
+    "n": 71,
+    "R": 0.803,
+    "S": 0.085,
+    "M": 0.056,
     "L": 0.0,
-    "D": 0.0,
-    "standard_like": 0.143
+    "D": 0.056,
+    "standard_like": 0.141
    },
    "label": "rule-based",
-   "secondary": null
+   "secondary": {
+    "n": 5,
+    "R": 0.8,
+    "S": 0.0,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.2,
+    "standard_like": 0.0
+   }
   },
   {
    "row_id": 114,
@@ -1482,13 +1955,38 @@
    },
    "label": "rule-based",
    "secondary": {
-    "n": 135,
-    "R": 0.926,
-    "S": 0.059,
-    "M": 0.015,
+    "n": 158,
+    "R": 0.924,
+    "S": 0.063,
+    "M": 0.013,
     "L": 0.0,
     "D": 0.0,
-    "standard_like": 0.074
+    "standard_like": 0.076
+   }
+  },
+  {
+   "row_id": 72,
+   "name": "Digitalisation of judicial cooperation Regulation",
+   "area": "Law Enforcement",
+   "year": 2023,
+   "main": {
+    "n": 130,
+    "R": 0.846,
+    "S": 0.108,
+    "M": 0.008,
+    "L": 0.015,
+    "D": 0.023,
+    "standard_like": 0.131
+   },
+   "label": "rule-based",
+   "secondary": {
+    "n": 190,
+    "R": 0.589,
+    "S": 0.384,
+    "M": 0.026,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.411
    }
   },
   {
@@ -1526,6 +2024,23 @@
    "secondary": null
   },
   {
+   "row_id": 115,
+   "name": "Short-Term Rental Data Regulation",
+   "area": "Data & Privacy",
+   "year": 2024,
+   "main": {
+    "n": 60,
+    "R": 0.85,
+    "S": 0.067,
+    "M": 0.05,
+    "L": 0.0,
+    "D": 0.033,
+    "standard_like": 0.117
+   },
+   "label": "rule-based",
+   "secondary": null
+  },
+  {
    "row_id": 19,
    "name": "Administrative cooperation in taxation (DAC)",
    "area": "Finance",
@@ -1541,13 +2056,13 @@
    },
    "label": "rule-based",
    "secondary": {
-    "n": 27,
-    "R": 1.0,
-    "S": 0.0,
+    "n": 75,
+    "R": 0.92,
+    "S": 0.08,
     "M": 0.0,
     "L": 0.0,
     "D": 0.0,
-    "standard_like": 0.0
+    "standard_like": 0.08
    }
   },
   {
@@ -1566,13 +2081,13 @@
    },
    "label": "rule-based",
    "secondary": {
-    "n": 383,
-    "R": 0.914,
-    "S": 0.01,
-    "M": 0.008,
-    "L": 0.068,
+    "n": 500,
+    "R": 0.934,
+    "S": 0.008,
+    "M": 0.006,
+    "L": 0.052,
     "D": 0.0,
-    "standard_like": 0.086
+    "standard_like": 0.066
    }
   },
   {
@@ -1627,28 +2142,28 @@
    "secondary": null
   },
   {
-   "row_id": 94,
-   "name": "Right to Repair Directive",
-   "area": "E-commerce & Consumer Protection",
-   "year": 2024,
+   "row_id": 42,
+   "name": "E-evidence Regulation",
+   "area": "Law Enforcement",
+   "year": 2023,
    "main": {
-    "n": 10,
-    "R": 0.7,
-    "S": 0.1,
+    "n": 191,
+    "R": 0.885,
+    "S": 0.099,
     "M": 0.0,
     "L": 0.0,
-    "D": 0.2,
-    "standard_like": 0.1
+    "D": 0.016,
+    "standard_like": 0.099
    },
    "label": "rule-based",
    "secondary": {
-    "n": 4,
-    "R": 0.75,
-    "S": 0.0,
-    "M": 0.0,
+    "n": 55,
+    "R": 0.727,
+    "S": 0.218,
+    "M": 0.055,
     "L": 0.0,
-    "D": 0.25,
-    "standard_like": 0.0
+    "D": 0.0,
+    "standard_like": 0.273
    }
   },
   {
@@ -1669,18 +2184,18 @@
    "secondary": null
   },
   {
-   "row_id": 65,
-   "name": "Machinery Regulation",
-   "area": "Trust & Safety",
-   "year": 2023,
+   "row_id": 102,
+   "name": "GDPR Procedural Regulation",
+   "area": "Data & Privacy",
+   "year": 2025,
    "main": {
-    "n": 21,
-    "R": 0.905,
-    "S": 0.095,
-    "M": 0.0,
+    "n": 133,
+    "R": 0.91,
+    "S": 0.083,
+    "M": 0.008,
     "L": 0.0,
     "D": 0.0,
-    "standard_like": 0.095
+    "standard_like": 0.09
    },
    "label": "rule-based",
    "secondary": null
@@ -1701,13 +2216,13 @@
    },
    "label": "rule-based",
    "secondary": {
-    "n": 168,
-    "R": 0.94,
-    "S": 0.042,
-    "M": 0.012,
-    "L": 0.0,
-    "D": 0.006,
-    "standard_like": 0.054
+    "n": 1278,
+    "R": 0.895,
+    "S": 0.078,
+    "M": 0.013,
+    "L": 0.001,
+    "D": 0.013,
+    "standard_like": 0.092
    }
   },
   {
@@ -1726,13 +2241,13 @@
    },
    "label": "rule-based",
    "secondary": {
-    "n": 187,
-    "R": 0.941,
-    "S": 0.032,
+    "n": 256,
+    "R": 0.957,
+    "S": 0.023,
     "M": 0.0,
     "L": 0.0,
-    "D": 0.027,
-    "standard_like": 0.032
+    "D": 0.02,
+    "standard_like": 0.023
    }
   },
   {
@@ -1761,6 +2276,31 @@
    }
   },
   {
+   "row_id": 66,
+   "name": "Foreign Subsidies Regulation",
+   "area": "Competition & Single Market",
+   "year": 2022,
+   "main": {
+    "n": 156,
+    "R": 0.923,
+    "S": 0.077,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.077
+   },
+   "label": "rule-based",
+   "secondary": {
+    "n": 172,
+    "R": 0.977,
+    "S": 0.023,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.023
+   }
+  },
+  {
    "row_id": 3,
    "name": "Satellite and Cable Directive",
    "area": "Media",
@@ -1773,6 +2313,23 @@
     "L": 0.0,
     "D": 0.036,
     "standard_like": 0.071
+   },
+   "label": "rule-based",
+   "secondary": null
+  },
+  {
+   "row_id": 89,
+   "name": "Design Directive",
+   "area": "IPR",
+   "year": 2024,
+   "main": {
+    "n": 43,
+    "R": 0.884,
+    "S": 0.07,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.047,
+    "standard_like": 0.07
    },
    "label": "rule-based",
    "secondary": null
@@ -1792,42 +2349,8 @@
     "standard_like": 0.043
    },
    "label": "rule-based",
-   "secondary": null
-  },
-  {
-   "row_id": 42,
-   "name": "E-evidence Regulation",
-   "area": "Law Enforcement",
-   "year": 2023,
-   "main": {
-    "n": 2,
-    "R": 1.0,
-    "S": 0.0,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.0,
-    "standard_like": 0.0
-   },
-   "label": "rule-based",
-   "secondary": null
-  },
-  {
-   "row_id": 56,
-   "name": "Markets in Crypto-Assets (MiCA)",
-   "area": "Finance",
-   "year": 2023,
-   "main": {
-    "n": 2,
-    "R": 1.0,
-    "S": 0.0,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.0,
-    "standard_like": 0.0
-   },
-   "label": "rule-based",
    "secondary": {
-    "n": 1,
+    "n": 13,
     "R": 1.0,
     "S": 0.0,
     "M": 0.0,
@@ -1837,103 +2360,10 @@
    }
   },
   {
-   "row_id": 57,
-   "name": "Digital Operational Resilience Act (DORA)",
-   "area": "Finance",
-   "year": 2022,
-   "main": {
-    "n": 4,
-    "R": 1.0,
-    "S": 0.0,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.0,
-    "standard_like": 0.0
-   },
-   "label": "rule-based",
-   "secondary": null
-  },
-  {
-   "row_id": 66,
-   "name": "Foreign Subsidies Regulation",
+   "row_id": 69,
+   "name": "Vertical Block Exemption Regulation",
    "area": "Competition & Single Market",
    "year": 2022,
-   "main": {
-    "n": 4,
-    "R": 1.0,
-    "S": 0.0,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.0,
-    "standard_like": 0.0
-   },
-   "label": "rule-based",
-   "secondary": {
-    "n": 1,
-    "R": 1.0,
-    "S": 0.0,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.0,
-    "standard_like": 0.0
-   }
-  },
-  {
-   "row_id": 73,
-   "name": "Platform Work Directive",
-   "area": "Competition & Single Market",
-   "year": 2024,
-   "main": {
-    "n": 4,
-    "R": 0.75,
-    "S": 0.0,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.25,
-    "standard_like": 0.0
-   },
-   "label": "rule-based",
-   "secondary": null
-  },
-  {
-   "row_id": 74,
-   "name": "European Chips Act",
-   "area": "Industrial Policy",
-   "year": 2023,
-   "main": {
-    "n": 5,
-    "R": 1.0,
-    "S": 0.0,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.0,
-    "standard_like": 0.0
-   },
-   "label": "rule-based",
-   "secondary": null
-  },
-  {
-   "row_id": 77,
-   "name": "Violence Against Women Directive",
-   "area": "Law Enforcement",
-   "year": 2024,
-   "main": {
-    "n": 5,
-    "R": 0.8,
-    "S": 0.0,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.2,
-    "standard_like": 0.0
-   },
-   "label": "rule-based",
-   "secondary": null
-  },
-  {
-   "row_id": 85,
-   "name": "Single Market Emergency Instrument (IMERA)",
-   "area": "Competition & Single Market",
-   "year": 2024,
    "main": {
     "n": 1,
     "R": 1.0,
@@ -1941,23 +2371,6 @@
     "M": 0.0,
     "L": 0.0,
     "D": 0.0,
-    "standard_like": 0.0
-   },
-   "label": "rule-based",
-   "secondary": null
-  },
-  {
-   "row_id": 86,
-   "name": "Product Liability Directive",
-   "area": "Trust & Safety",
-   "year": 2024,
-   "main": {
-    "n": 5,
-    "R": 0.8,
-    "S": 0.0,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.2,
     "standard_like": 0.0
    },
    "label": "rule-based",
@@ -1969,63 +2382,12 @@
    "area": "Finance",
    "year": 2025,
    "main": {
-    "n": 7,
-    "R": 0.857,
+    "n": 84,
+    "R": 0.952,
     "S": 0.0,
     "M": 0.0,
     "L": 0.0,
-    "D": 0.143,
-    "standard_like": 0.0
-   },
-   "label": "rule-based",
-   "secondary": null
-  },
-  {
-   "row_id": 93,
-   "name": "Net-Zero Industry Act",
-   "area": "Industrial Policy",
-   "year": 2024,
-   "main": {
-    "n": 4,
-    "R": 1.0,
-    "S": 0.0,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.0,
-    "standard_like": 0.0
-   },
-   "label": "rule-based",
-   "secondary": null
-  },
-  {
-   "row_id": 95,
-   "name": "Cyber Solidarity Act",
-   "area": "Cybersecurity",
-   "year": 2024,
-   "main": {
-    "n": 3,
-    "R": 1.0,
-    "S": 0.0,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.0,
-    "standard_like": 0.0
-   },
-   "label": "rule-based",
-   "secondary": null
-  },
-  {
-   "row_id": 115,
-   "name": "Short-Term Rental Data Regulation",
-   "area": "Data & Privacy",
-   "year": 2024,
-   "main": {
-    "n": 2,
-    "R": 1.0,
-    "S": 0.0,
-    "M": 0.0,
-    "L": 0.0,
-    "D": 0.0,
+    "D": 0.048,
     "standard_like": 0.0
    },
    "label": "rule-based",
@@ -2033,20 +2395,25 @@
   }
  ],
  "validation": {
-  "n_coded": 86,
-  "n_compared": 82,
-  "exact": 0.927,
-  "rule_vs_standard_like": 0.951,
+  "n_coded": 200,
+  "n_compared": 185,
+  "exact": 0.903,
+  "rule_vs_standard_like": 0.919,
   "confusion": {
-   "R->R": 66,
-   "N->N": 2,
-   "S->R": 2,
-   "M->R": 1,
-   "S->S": 9,
-   "M->S": 1,
+   "R->R": 129,
+   "S->S": 37,
+   "N->N": 7,
+   "S->R": 7,
+   "M->R": 3,
+   "S->D": 1,
+   "M->S": 2,
+   "R->L": 1,
    "L->R": 1,
-   "S->N": 2,
+   "S->N": 3,
+   "R->S": 2,
+   "R->N": 4,
    "M->M": 1,
+   "N->R": 1,
    "S->M": 1
   }
  }
