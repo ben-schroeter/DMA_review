@@ -56,6 +56,9 @@ READING = {
         {"title": "Competition Policy for the Digital Era", "by": "Jacques Crémer, Yves-Alexandre de Montjoye and Heike Schweitzer", "where": "European Commission, 2019",
          "url": "https://op.europa.eu/en/publication-detail/-/publication/21dc175c-7b76-11e9-9f05-01aa75ed71a1/language-en", "cover": "/_blob/c3d04ff32479e81ed26b88d62116afb2",
          "note": "The expert report behind much of the Digital Markets Act's thinking."},
+        {"title": "Protecting Competition in a Changing World: Evidence on the Evolution of Competition in the EU during the Past 25 Years", "by": "European Commission, DG Competition",
+         "where": "European Commission, 2024", "url": "https://competition-policy.ec.europa.eu/publications/ex-post-economic-evaluations_en", "cover": "/_blob/383754f12d838598a26edb6a4fed4084",
+         "note": "How competition in the EU has changed since the late 1990s and what drove it, with new research by the OECD, academics and DG Competition on its link to growth."},
         {"title": "EU Innovation Policy: How to Escape the Middle Technology Trap", "by": "Clemens Fuest, Daniel Gros, Philipp-Leo Mengel, Giorgio Presidente and Jean Tirole",
          "where": "European Policy Analysis Group (EconPol, Bocconi, TSE), 2024", "url": "https://www.ifo.de/en/econpol/publications/2024/working-paper/eu-innovation-policy-how-escape-middle-technology-trap", "cover": "/_blob/b2896db0c60c259cfdc7048910b765dc",
          "note": "Why EU firms are stuck in mid-tech industries, and what innovation policy could do about it."},
@@ -164,7 +167,7 @@ a{{color:#282424}}a:hover{{color:#8F6708}}
 
 {footer}</div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{{"$preview":{{"width":1440,"height":3300}}}}'>
+<script type="text/x-dc" data-dc-script data-props='{{"$preview":{{"width":1440,"height":3600}}}}'>
 class Component extends DCLogic {{ renderVals() {{ return {{}}; }} }}
 </script>
 </body>
