@@ -39,7 +39,7 @@ for x in inst:
     if x["src"] == "main":
         r = I[x["doc"]]; main[x["doc"]][c] += 1
         area[r["policy_area_ceps"]][c] += 1
-        per["2020 or later" if r["adoption_date"].year >= 2020 else "before 2020"][c] += 1
+        per["2020 or later" if int(str(r["adoption_date"])[:4]) >= 2020 else "before 2020"][c] += 1
         adr[addr_m[x["rid"]]][c] += 1
     else:
         p = parent.get(x["doc"])
@@ -51,7 +51,7 @@ for d, r in I.items():
     if not main[d]:
         continue
     sm = shares(main[d]); ss = shares(sec[d]) if sec[d] else None
-    out.append({"row_id": r["row_id"], "name": r["name"], "area": r["policy_area_ceps"], "year": r["adoption_date"].year,
+    out.append({"row_id": r["row_id"], "name": r["name"], "area": r["policy_area_ceps"], "year": int(str(r["adoption_date"])[:4]),
                 "main": sm, "label": LAB(sm), "secondary": ss})
 out.sort(key=lambda o: -(o["main"]["standard_like"] or 0))
 summary = {"total_by_code": {k: dict(v) for k, v in tot.items()}, "missing": missing,
