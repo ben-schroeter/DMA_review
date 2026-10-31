@@ -28,28 +28,40 @@ READING = {
     ],
     "Blogs and newsletters": [
         {"title": "Silicon Continent", "by": "Pieter Garicano", "where": "Substack",
-         "url": "https://www.siliconcontinent.com/",
+         "url": "https://www.siliconcontinent.com/", "cover": "/_blob/d19786e4191c6d1b032e6ff54a62cc0e",
          "note": "Essays on Europe, economics, innovation and growth, with a sharp eye on what regulation costs."},
         {"title": "Benedict's Newsletter", "by": "Benedict Evans", "where": "Weekly newsletter",
          "url": "https://www.ben-evans.com/newsletter",
          "note": "What mattered in tech this week: strategy, with a running commentary on regulation."},
         {"title": "Stratechery", "by": "Ben Thompson", "where": "Newsletter",
-         "url": "https://stratechery.com/",
+         "url": "https://stratechery.com/", "cover": "/_blob/380cc95385959a251848924e417b3539",
          "note": "On the business, strategy and impact of technology, including how platforms respond to regulation."},
         {"title": "Works in Progress", "by": "Works in Progress", "where": "Magazine",
-         "url": "https://worksinprogress.co/",
+         "url": "https://worksinprogress.co/", "cover": "/_blob/806f7e8089d9af85e9cf5ba2c79e8f08",
          "note": "New and underrated ideas to improve the world, from housing to science funding to regulation."},
         {"title": "MDM", "by": "Eric Seufert", "where": "Newsletter",
-         "url": "https://mdm.co/",
+         "url": "https://mdm.co/", "cover": "/_blob/f9a85a4c11ffbe8d17acbd7212b2ee1f",
          "note": "Independent analysis of the digital economy, especially advertising, and what privacy and platform rules do to it."},
     ],
     "Studies and papers": [
         {"title": "The Constitution of Innovation", "by": "Luis Garicano, Bengt Holmström and Nicolas Petit", "where": "Academic paper",
-         "url": "https://constitutionofinnovation.eu/",
+         "url": "https://constitutionofinnovation.eu/", "cover": "/_blob/3e006eac1ba7fdad17c7d8bbb358a278",
          "note": "Why Europe struggles to innovate, and a proposal for a new constitutional framework for its economy."},
-        {"title": "A dataset of EU legal and policy instruments for the digital world", "by": "Kai Zenner and J. Scott Marcus", "where": "CEPS, 2025",
+        {"title": "A dataset of EU legal and policy instruments for the digital world", "by": "Kai Zenner and J. Scott Marcus", "where": "CEPS, 2025", "short": "EU digital instruments",
          "url": "https://www.ceps.eu/ceps-publications/a-dataset-of-eu-legal-and-policy-instruments-for-the-digital-world/",
          "note": "The inventory of 115 EU digital instruments that this site's list of laws builds on."},
+        {"title": "The Future of European Competitiveness", "by": "Mario Draghi", "where": "European Commission, 2024",
+         "url": "https://commission.europa.eu/topics/eu-competitiveness/draghi-report_en", "cover": "/_blob/8df0da5f31f353995a258af2dfc25d16",
+         "note": "The reference point for the productivity argument on the Why it matters page."},
+        {"title": "Much More Than a Market", "by": "Enrico Letta", "where": "Report to the European Council, 2024",
+         "url": "https://www.consilium.europa.eu/media/ny3j24sm/much-more-than-a-market-report-by-enrico-letta.pdf",
+         "note": "The single-market companion to the Draghi report."},
+        {"title": "Competition Policy for the Digital Era", "by": "Jacques Crémer, Yves-Alexandre de Montjoye and Heike Schweitzer", "where": "European Commission, 2019",
+         "url": "https://op.europa.eu/en/publication-detail/-/publication/21dc175c-7b76-11e9-9f05-01aa75ed71a1/language-en", "cover": "/_blob/c3d04ff32479e81ed26b88d62116afb2",
+         "note": "The expert report behind much of the Digital Markets Act's thinking."},
+        {"title": "EU Innovation Policy: How to Escape the Middle Technology Trap", "by": "Clemens Fuest, Daniel Gros, Philipp-Leo Mengel, Giorgio Presidente and Jean Tirole",
+         "where": "EconPol Policy Report, 2024", "url": "https://www.econpol.eu/publications/policy_report/eu-innovation-policy-how-escape-middle-technology-trap",
+         "note": "Why EU firms are stuck in mid-tech industries, and what innovation policy could do about it."},
     ],
 }
 esc = lambda s: html.escape(s, quote=True)
@@ -65,7 +77,7 @@ def tabs(cur):
 def cover(e):
     if e.get("cover"):
         return f'<img class="rd-cover" src="{e["cover"]}" alt="" loading="lazy">'
-    words = e["title"].split(":")[0]
+    words = e.get("short") or e["title"].split(":")[0]
     return f'<span class="rd-cover rd-ph" aria-hidden="true"><span>{esc(words)}</span><span class="rd-ph-by">{esc(e["by"].split(",")[0].split(" and ")[0])}</span></span>'
 
 
@@ -86,7 +98,7 @@ sections = "\n".join(
     f'''  <section style="padding-block: 8px 48px">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 18px">
       <h2 class="h2">{esc(name)}</h2>
-      <div class="rds{' rds-books' if name == 'Books' else ''}">{"".join(card(e, name == "Books") for e in items)}</div>
+      <div class="rds rds-books{' rds-sq' if name.startswith('Blogs') else ''}">{"".join(card(e, True) for e in items)}</div>
     </div>
   </section>''' for name, items in READING.items())
 
@@ -131,9 +143,11 @@ a{{color:#282424}}a:hover{{color:#8F6708}}
 .rd-book{{flex-direction:row;gap:20px;align-items:flex-start}}
 .rd-body{{display:flex;flex-direction:column;gap:8px;min-width:0;align-self:stretch}}
 .rd-cover{{flex:none;width:84px;height:126px;object-fit:cover;border-radius:3px;box-shadow:0 2px 8px rgba(40,36,36,.18);background:#E8E6E3}}
-.rd-ph{{display:flex;flex-direction:column;justify-content:space-between;box-sizing:border-box;padding:10px 8px;background:#282424;color:#FAF9F5;font-family:'Source Serif 4',Georgia,serif;font-size:12.5px;line-height:1.2;border-top:4px solid #B8860B}}
+.rd-ph{{display:flex;flex-direction:column;justify-content:space-between;box-sizing:border-box;padding:10px 8px;background:#282424;color:#FAF9F5;font-family:'Source Serif 4',Georgia,serif;font-size:12.5px;line-height:1.2;border-top:4px solid #B8860B;overflow:hidden}}
+.rds-sq .rd-cover{{height:84px}}
+.rds-sq .rd-ph{{font-size:12px}}
 .rd-ph-by{{font-family:'DM Sans',sans-serif;font-size:10px;color:#E3CF9C;letter-spacing:.02em}}
-@media (max-width:520px){{.rds-books{{grid-template-columns:1fr}}.rd-cover{{width:64px;height:96px}}}}
+@media (max-width:520px){{.rds-books{{grid-template-columns:1fr}}.rd-cover{{width:64px;height:96px}}.rds-sq .rd-cover{{height:64px}}}}
 @media (max-width:640px){{.wrap{{padding-inline:20px}}.h1{{font-size:40px}}}}
 @media (max-width:640px){{.nav{{width:100%;justify-content:space-between;gap:10px !important}}.nav a{{font-size:14px}}}}
 </style>
@@ -153,7 +167,7 @@ a{{color:#282424}}a:hover{{color:#8F6708}}
 
 {footer}</div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{{"$preview":{{"width":1440,"height":2900}}}}'>
+<script type="text/x-dc" data-dc-script data-props='{{"$preview":{{"width":1440,"height":3600}}}}'>
 class Component extends DCLogic {{ renderVals() {{ return {{}}; }} }}
 </script>
 </body>
