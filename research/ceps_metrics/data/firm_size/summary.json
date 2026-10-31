@@ -16,10 +16,10 @@
   "designated": "Designated very large firms"
  },
  "baseline": [
-  1987,
-  1987,
-  1987,
-  1987,
+  1617,
+  1617,
+  1617,
+  1617,
   1987,
   1987
  ],
@@ -92,6 +92,10 @@
   }
  },
  "by_rule": {
+  "EC Merger Regulation Art. 1: concentrations above EUR 5 billion worldwide and EUR 250 million EU turnover (or the lower alternative thresholds)": {
+   "obligations": 233,
+   "band": "large"
+  },
   "P2B Arts. 11(5) and 12(7): small enterprises exempt from complaint handling and mediation": {
    "obligations": 18,
    "band": "medium"
@@ -127,6 +131,10 @@
   "AI Act Art. 55: general-purpose AI models with systemic risk": {
    "obligations": 3,
    "band": "designated"
+  },
+  "Foreign Subsidies Regulation Arts. 20-29: notification of deals involving EUR 500 million EU turnover; procurement above EUR 250 million": {
+   "obligations": 137,
+   "band": "large"
   },
   "Data Act Art. 7(1): Chapter II does not apply to micro and small manufacturers": {
    "obligations": 51,
@@ -170,10 +178,10 @@
   "AML Regulation Art. 5: Member States may exempt small football clubs"
  ],
  "all_company_obligations": [
-  11530,
-  11583,
-  11986,
-  11986,
+  11160,
+  11213,
+  11616,
+  11616,
   11988,
   12286
  ]

@@ -11,7 +11,7 @@ t = lambda x, y, s, size=13, fill=INK2, anchor="start", weight=None: (f'<text x=
                                                                       + (f' font-weight="{weight}"' if weight else "") + f'>{s}</text>')
 base = d["baseline"]
 SHORT = {"FI": "Finance, payments and crypto", "PR": "Makers of connected products", "CL": "Cloud, data and AI", "TC": "Telecoms",
-         "PL": "Online platforms", "B": "Any other company"}
+         "PL": "Online platforms", "B": "Any other company in the digital economy"}
 series = {}
 for k in ("FI", "PR", "CL", "TC"):
     series[k] = [a + b for a, b in zip(d["types"][k]["specific"], base)][:5]

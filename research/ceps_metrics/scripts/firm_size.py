@@ -50,6 +50,8 @@ RULES = [
     (76, lambda r: r["kind"] == "main" and art(r) == 20 and "free of charge" in text(r), MEDIUM, "Data Act Art. 20(1): only data holders other than micro and small enterprises must provide data free of charge"),
     (80, lambda r: r["kind"] == "main" and art(r) in (24, 25), MEDIUM, "Ecodesign Arts. 24-25: unsold-products disclosure and destruction ban do not apply to micro and small enterprises (medium from 2030)"),
     (81, lambda r: r["kind"] == "main" and art(r) is not None and 50 <= art(r) <= 81 and "health data holder" in text(r), SMALL, "EHDS Art. 50: health data holder duties do not apply to microenterprises"),
+    (11, lambda r: True, LARGE, "EC Merger Regulation Art. 1: concentrations above EUR 5 billion worldwide and EUR 250 million EU turnover (or the lower alternative thresholds)"),
+    (66, lambda r: True, LARGE, "Foreign Subsidies Regulation Arts. 20-29: notification of deals involving EUR 500 million EU turnover; procurement above EUR 250 million"),
     (92, lambda r: "large compan" in text(r), LARGE, "CRMA Art. 24: risk preparedness duties for large companies (over 500 staff and EUR 150 million)"),
 ]
 TYPE_OVERRIDE = {("TC", 61): MICRO}   # NIS2 Art. 2(2)(a): public electronic communications providers regardless of size
