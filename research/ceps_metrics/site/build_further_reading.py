@@ -5,13 +5,13 @@ import html, re
 READING = {
     "Books": [
         {"title": "Digital Policy in the EU: Towards a Human-Centred Digital Transformation", "by": "Werner Stengg", "where": "Edward Elgar, 2024",
-         "url": "https://www.e-elgar.com/shop/gbp/digital-policy-in-the-eu-9781035338634.html",
+         "url": "https://www.e-elgar.com/shop/gbp/digital-policy-in-the-eu-9781035338634.html", "cover": "/_blob/74438afe7d7b4c65daf8d02a7e39f8bc",
          "note": "A guide to the EU's digital policy agenda and the thinking behind it."},
         {"title": "The Making of a Global Digital Rulebook: Digital Sovereignty and International Action in the EU", "by": "Edited by Thibaut Kleiner and Andrea G. Rodríguez",
          "where": "Palgrave Macmillan, 2026 · open access", "cover": "/_blob/c4d444b05b932e29af50ed0358d90e4f", "url": "https://link.springer.com/book/10.1007/978-981-95-9226-5",
          "note": "How the EU's digital rules are shaped by, and exported through, its international action."},
         {"title": "Big Tech and the Digital Economy: The Moligopoly Scenario", "by": "Nicolas Petit", "where": "Oxford University Press, 2020",
-         "url": "https://global.oup.com/academic/product/big-tech-and-the-digital-economy-9780198837701",
+         "url": "https://global.oup.com/academic/product/big-tech-and-the-digital-economy-9780198837701", "cover": "/_blob/5b60159e45305c298e942c2ab6d8c309",
          "note": "Argues that the big tech firms are monopolists in their core markets but compete with each other, and draws the lessons for antitrust and regulation."},
         {"title": "Technology and the Rise of Great Powers: How Diffusion Shapes Economic Competition", "by": "Jeffrey Ding", "where": "Princeton University Press, 2024", "cover": "/_blob/090a2999ce3de181a48dccb6aeeb9075",
          "url": "https://press.princeton.edu/books/hardcover/9780691260334/technology-and-the-rise-of-great-powers",
@@ -19,11 +19,8 @@ READING = {
         {"title": "Digital Empires: The Global Battle to Regulate Technology", "by": "Anu Bradford", "where": "Oxford University Press, 2023",
          "url": "https://global.oup.com/academic/product/digital-empires-9780197649268", "cover": "/_blob/ef320f6e9fafae364ace9556d5f18575",
          "note": "Compares the American market-driven, Chinese state-driven and European rights-driven models of regulating technology, and makes the case for Europe's."},
-        {"title": "The Tech Coup: How to Save Democracy from Silicon Valley", "by": "Marietje Schaake", "where": "Princeton University Press, 2024",
-         "url": "https://press.princeton.edu/books/hardcover/9780691241180/the-tech-coup",
-         "note": "A former MEP argues that tech companies have taken on powers that belong to governments, and sets out how democracies can take them back."},
         {"title": "The Power of Creative Destruction: Economic Upheaval and the Wealth of Nations", "by": "Philippe Aghion, Céline Antonin and Simon Bunel",
-         "where": "Harvard University Press, 2021", "url": "https://www.hup.harvard.edu/books/9780674971165",
+         "where": "Harvard University Press, 2021", "url": "https://www.hup.harvard.edu/books/9780674292093", "cover": "/_blob/a47b02f3360f19175bb1233486b00c36",
          "note": "Innovation-led growth, why it needs competition, and what role the state should play in it."},
     ],
     "Blogs and newsletters": [
@@ -54,13 +51,13 @@ READING = {
          "url": "https://commission.europa.eu/topics/eu-competitiveness/draghi-report_en", "cover": "/_blob/8df0da5f31f353995a258af2dfc25d16",
          "note": "The reference point for the productivity argument on the Why it matters page."},
         {"title": "Much More Than a Market", "by": "Enrico Letta", "where": "Report to the European Council, 2024",
-         "url": "https://www.consilium.europa.eu/media/ny3j24sm/much-more-than-a-market-report-by-enrico-letta.pdf",
+         "url": "https://www.consilium.europa.eu/media/ny3j24sm/much-more-than-a-market-report-by-enrico-letta.pdf", "cover": "/_blob/ea1074e01fbb368df5b0d9198da9da75",
          "note": "The single-market companion to the Draghi report."},
         {"title": "Competition Policy for the Digital Era", "by": "Jacques Crémer, Yves-Alexandre de Montjoye and Heike Schweitzer", "where": "European Commission, 2019",
          "url": "https://op.europa.eu/en/publication-detail/-/publication/21dc175c-7b76-11e9-9f05-01aa75ed71a1/language-en", "cover": "/_blob/c3d04ff32479e81ed26b88d62116afb2",
          "note": "The expert report behind much of the Digital Markets Act's thinking."},
         {"title": "EU Innovation Policy: How to Escape the Middle Technology Trap", "by": "Clemens Fuest, Daniel Gros, Philipp-Leo Mengel, Giorgio Presidente and Jean Tirole",
-         "where": "EconPol Policy Report, 2024", "url": "https://www.econpol.eu/publications/policy_report/eu-innovation-policy-how-escape-middle-technology-trap",
+         "where": "European Policy Analysis Group (EconPol, Bocconi, TSE), 2024", "url": "https://www.ifo.de/en/econpol/publications/2024/working-paper/eu-innovation-policy-how-escape-middle-technology-trap", "cover": "/_blob/b2896db0c60c259cfdc7048910b765dc",
          "note": "Why EU firms are stuck in mid-tech industries, and what innovation policy could do about it."},
     ],
 }
@@ -167,7 +164,7 @@ a{{color:#282424}}a:hover{{color:#8F6708}}
 
 {footer}</div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{{"$preview":{{"width":1440,"height":3600}}}}'>
+<script type="text/x-dc" data-dc-script data-props='{{"$preview":{{"width":1440,"height":3300}}}}'>
 class Component extends DCLogic {{ renderVals() {{ return {{}}; }} }}
 </script>
 </body>
