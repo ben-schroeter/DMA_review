@@ -27,6 +27,12 @@ READING = {
         {"title": "Silicon Continent", "by": "Pieter Garicano", "where": "Substack",
          "url": "https://www.siliconcontinent.com/", "cover": "/_blob/d19786e4191c6d1b032e6ff54a62cc0e",
          "note": "Essays on Europe, economics, innovation and growth, with a sharp eye on what regulation costs."},
+        {"title": "The Competition System", "by": "Thibault Schrepel", "where": "Substack",
+         "url": "https://thecompetitionsystem.substack.com/", "cover": "/_blob/6308a3bfc035ce5e697172e248fdb3e5",
+         "note": "An empirical, referenced account of the cases and rules that shape competition in Europe, from Articles 101 and 102 to the DMA, AI Act, GDPR and Data Act."},
+        {"title": "The Binary Agora", "by": "Alba Ribera Martínez", "where": "Conversation series",
+         "url": "https://www.albariberamartinez.com/the-binary-agora",
+         "note": "Conversations with experts on the Digital Markets Act, AI and competition in digital markets, from enforcement to regulatory capture."},
         {"title": "Benedict's Newsletter", "by": "Benedict Evans", "where": "Weekly newsletter",
          "url": "https://www.ben-evans.com/newsletter",
          "note": "What mattered in tech this week: strategy, with a running commentary on regulation."},
@@ -167,7 +173,7 @@ a{{color:#282424}}a:hover{{color:#8F6708}}
 
 {footer}</div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{{"$preview":{{"width":1440,"height":3600}}}}'>
+<script type="text/x-dc" data-dc-script data-props='{{"$preview":{{"width":1440,"height":3900}}}}'>
 class Component extends DCLogic {{ renderVals() {{ return {{}}; }} }}
 </script>
 </body>
