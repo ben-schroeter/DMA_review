@@ -290,6 +290,24 @@ labt = [f'<text x="{W - R + 12}" y="{ey + 6:.1f}" {F} font-size="20" fill="{INK}
         f'<text x="{W - R + 12}" y="{Yf(cum["Regulation"] / 2) + 5:.1f}" {F} font-size="14" fill="{CLAY}" font-weight="600">Regulations {cum["Regulation"]}</text>',
         f'<text x="{W - R + 12}" y="{Yf(cum["Regulation"] + cum["Directive"] / 2) - 2:.1f}" {F} font-size="14" fill="{INK2}">Directives {cum["Directive"]}</text>',
         f'<text x="{W - R + 12}" y="{Yf(cum["Regulation"] + cum["Directive"] / 2) + 15:.1f}" {F} font-size="12.5" fill="{MUTED}">+ {cum["Decision"]} decisions</text>']
+# implementing and delegated acts on a right-hand scale (x10), EU blue
+BLUE, WC = "#004494", 1050
+sp = [(Y0, 0)]
+for r in sorted(sec, key=lambda r: r["d"]):
+    sp.append((fy(r["d"]), sp[-1][1] + 1))
+rsec = resample(sp)
+Y2 = lambda v: Yf(v / 10)
+top.append(f'<path d="{smooth_d([(X(x), Y2(v)) for x, v in rsec])}" fill="none" stroke="{BLUE}" stroke-width="2.2"></path>')
+sx, sy = X(rsec[-1][0]), Y2(rsec[-1][1])
+top.append(f'<circle cx="{sx:.1f}" cy="{sy:.1f}" r="5" fill="{BLUE}" stroke="#FAF9F5" stroke-width="2"></circle>')
+g += [f'<text x="{W - R + 6}" y="{Yf(t) + 4.5:.1f}" {F} font-size="12.5" fill="{BLUE}">{t * 10:,}</text>' for t in (20, 40, 60, 80, 100)]
+g.append(f'<text x="{L - 10}" y="11" text-anchor="end" {F} font-size="12.5" fill="{MUTED}">Laws</text>')
+g.append(f'<text x="{WC - 2}" y="11" text-anchor="end" {F} font-size="12.5" fill="{BLUE}">Implementing &amp; delegated acts</text>')
+RX = W - R + 52
+labt = [x.replace(f'x="{W - R + 12}"', f'x="{RX}"') for x in labt]
+labt += [f'<text x="{RX}" y="{sy + 6:.1f}" {F} font-size="20" fill="{BLUE}" font-weight="600">{len(sec)}</text>',
+         f'<text x="{RX}" y="{sy + 24:.1f}" {F} font-size="13" fill="{BLUE}">implementing and</text>',
+         f'<text x="{RX}" y="{sy + 40:.1f}" {F} font-size="13" fill="{BLUE}">delegated acts</text>']
 peryear = {}
 for r in inst:
     peryear.setdefault(r["d"].year, [0] * len(GROUPS))[gof[r["policy_area_ceps"]]] += 1
@@ -321,9 +339,9 @@ for i, (name, _, col) in enumerate(GROUPS):
     b.append(f'<rect x="{lx}" y="{yy - 10}" width="12" height="12" rx="2" fill="{col}"></rect><text x="{lx + 18}" y="{yy}" {F} font-size="13.5" fill="{INK2}">{name}</text>')
 ly += 24 * ((len(GROUPS) - 1) // 4)
 since = [sum(v) for yr, v in peryear.items() if yr >= 2020]
-charts["acts_combined"] = (f'<svg viewBox="0 0 {W} {ly + 16}" width="100%" role="img" aria-label="Top: cumulative adopted acts by legal type '
+charts["acts_combined"] = (f'<svg viewBox="0 0 {WC} {ly + 16}" width="100%" role="img" aria-label="Top: cumulative adopted acts by legal type '
                            f'({cum["Regulation"]} regulations, {cum["Directive"]} directives, {cum["Decision"]} decisions). Bottom: new acts each year by policy area; '
-                           f'{sum(since)} adopted since 2020">' + "".join(g + top + labt + b) + "</svg>")
+                           f'{sum(since)} adopted since 2020; {len(sec)} implementing and delegated acts on a right-hand scale">' + "".join(g + top + labt + b) + "</svg>")
 meta["groups_since_2020"] = {name: sum(v[gi] for yr, v in peryear.items() if yr >= 2020) for gi, (name, _, _) in enumerate(GROUPS)}
 
 # H. small multiples: cumulative obligations by CEPS policy area, main acts vs their implementing and delegated acts

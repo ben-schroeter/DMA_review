@@ -24,9 +24,9 @@
       "expand": "fill",
       "h": 5000,
       "is_interactive": true,
-      "title": "Findings: the evidence",
+      "title": "Findings: evaluation",
       "w": 1440,
-      "x": 4560,
+      "x": 6080,
       "y": 0
     },
     "HeroOptions.dc.html": {
@@ -108,9 +108,9 @@
     },
     "Rules.dc.html": {
       "expand": "fill",
-      "h": 8000,
+      "h": 7700,
       "is_interactive": true,
-      "title": "Findings: the rulebook",
+      "title": "Findings: quantification",
       "w": 1440,
       "x": 3040,
       "y": 0
@@ -130,7 +130,7 @@
       "is_interactive": true,
       "title": "Findings: EU vs US",
       "w": 1440,
-      "x": 6080,
+      "x": 4560,
       "y": 0
     },
     "WhyItMatters.dc.html": {
@@ -219,8 +219,8 @@
     "WhyItMatters.dc.html",
     "Rules.dc.html",
     "CompanyTypes.dc.html",
-    "Evidence.dc.html",
     "UsComparison.dc.html",
+    "Evidence.dc.html",
     "Instruments.dc.html",
     "Instrument.dc.html",
     "DigitalPolicy.dc.html",
