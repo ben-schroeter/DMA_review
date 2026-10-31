@@ -1,0 +1,151 @@
+{
+ "us_total": {
+  "n": 790,
+  "R": 0.848,
+  "standard_like": 0.152,
+  "N": 96,
+  "codes": {
+   "R": 670,
+   "N": 96,
+   "S": 90,
+   "M": 20,
+   "L": 10
+  }
+ },
+ "pairs": [
+  {
+   "pair": "Unfair Commercial Practices \u2192 FTC Act \u00a75",
+   "row_id": 13,
+   "eu": {
+    "n": 45,
+    "R": 0.467,
+    "standard_like": 0.333
+   },
+   "us": {
+    "n": 23,
+    "R": 0.826,
+    "standard_like": 0.174
+   },
+   "us_not_obligation": 17
+  },
+  {
+   "pair": "Trade Secrets \u2192 Defend Trade Secrets Act",
+   "row_id": 26,
+   "eu": {
+    "n": 58,
+    "R": 0.621,
+    "standard_like": 0.293
+   },
+   "us": {
+    "n": 33,
+    "R": 0.788,
+    "standard_like": 0.212
+   },
+   "us_not_obligation": 0
+  },
+  {
+   "pair": "AI Act \u2192 Colorado AI Act",
+   "row_id": 64,
+   "eu": {
+    "n": 728,
+    "R": 0.694,
+    "standard_like": 0.298
+   },
+   "us": {
+    "n": 30,
+    "R": 0.6,
+    "standard_like": 0.4
+   },
+   "us_not_obligation": 0
+  },
+  {
+   "pair": "Toy Safety \u2192 CPSIA",
+   "row_id": 17,
+   "eu": {
+    "n": 321,
+    "R": 0.698,
+    "standard_like": 0.29
+   },
+   "us": {
+    "n": 210,
+    "R": 0.919,
+    "standard_like": 0.081
+   },
+   "us_not_obligation": 34
+  },
+  {
+   "pair": "Chips Act \u2192 CHIPS Act",
+   "row_id": 74,
+   "eu": {
+    "n": 196,
+    "R": 0.714,
+    "standard_like": 0.281
+   },
+   "us": {
+    "n": 93,
+    "R": 0.849,
+    "standard_like": 0.151
+   },
+   "us_not_obligation": 2
+  },
+  {
+   "pair": "GDPR \u2192 CCPA (California)",
+   "row_id": 20,
+   "eu": {
+    "n": 381,
+    "R": 0.722,
+    "standard_like": 0.255
+   },
+   "us": {
+    "n": 164,
+    "R": 0.841,
+    "standard_like": 0.159
+   },
+   "us_not_obligation": 28
+  },
+  {
+   "pair": "Product Safety \u2192 Consumer Product Safety Act",
+   "row_id": 67,
+   "eu": {
+    "n": 242,
+    "R": 0.74,
+    "standard_like": 0.252
+   },
+   "us": {
+    "n": 176,
+    "R": 0.818,
+    "standard_like": 0.182
+   },
+   "us_not_obligation": 15
+  },
+  {
+   "pair": "E-evidence \u2192 CLOUD Act",
+   "row_id": 42,
+   "eu": {
+    "n": 191,
+    "R": 0.885,
+    "standard_like": 0.099
+   },
+   "us": {
+    "n": 61,
+    "R": 0.869,
+    "standard_like": 0.131
+   },
+   "us_not_obligation": 0
+  }
+ ],
+ "validation": {
+  "n": 40,
+  "compared": 29,
+  "exact_all": 0.8,
+  "rule_vs_standard_like": 0.931,
+  "confusion": {
+   "R->R": 23,
+   "S->S": 4,
+   "N->N": 5,
+   "N->R": 5,
+   "M->R": 2,
+   "R->N": 1
+  }
+ }
+}
