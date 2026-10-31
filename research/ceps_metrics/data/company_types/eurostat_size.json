@@ -1,6 +1,16 @@
 {
  "total_employment_eu27_2023": 217709090.0,
  "nace": {
+  "B-S_X_O_S94": {
+   "ENT_NR": [
+    33065584,
+    2023
+   ],
+   "EMP_NR": [
+    162195544,
+    2023
+   ]
+  },
   "C26": {
    "ENT_NR": [
     36400,
@@ -91,9 +101,13 @@
     2023
    ]
   },
-  "K": {
+  "K64-K66": {
+   "ENT_NR": [
+    883339,
+    2023
+   ],
    "EMP_NR": [
-    4918930.0,
+    4998212,
     2023
    ]
   }
@@ -107,16 +121,18 @@
    "employment": 800000,
    "enterprises": 37788,
    "share_of_eu_jobs": 0.0036746283767940054,
+   "avg_firm_size": 21.170742034508308,
    "obligations": 1278
   },
   "FI": {
    "name": "Finance, payments and crypto",
    "nace": [
-    "K"
+    "K64-K66"
    ],
-   "employment": 4918930.0,
-   "enterprises": null,
-   "share_of_eu_jobs": 0.02259404970182917,
+   "employment": 4998212,
+   "enterprises": 883339,
+   "share_of_eu_jobs": 0.0229582145605404,
+   "avg_firm_size": 5.658316908910396,
    "obligations": 3413
   },
   "PL": {
@@ -128,6 +144,7 @@
    "employment": 962000,
    "enterprises": 419017,
    "share_of_eu_jobs": 0.004418740623094791,
+   "avg_firm_size": 2.295849571735753,
    "obligations": 1089
   },
   "CL": {
@@ -139,6 +156,7 @@
    "employment": 4910000,
    "enterprises": 1055139,
    "share_of_eu_jobs": 0.022553031662573206,
+   "avg_firm_size": 4.6534153320083895,
    "obligations": 1358
   },
   "PR": {
@@ -152,8 +170,10 @@
    "employment": 8218659,
    "enterprises": 173399,
    "share_of_eu_jobs": 0.037750646975741806,
+   "avg_firm_size": 47.39738406795887,
    "obligations": 3718
   }
  },
- "baseline_obligations": 1987
+ "baseline_obligations": 1987,
+ "business_economy_avg_firm_size": 4.9052677853807145
 }
