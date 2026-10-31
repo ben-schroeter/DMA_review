@@ -262,7 +262,7 @@ GROUPS = [("Data, privacy & cybersecurity", ["Data & Privacy", "Cybersecurity"],
           ("Law enforcement", ["Law Enforcement"], "#C4C1BE")]
 gof = {a: gi for gi, (_, areas, _) in enumerate(GROUPS) for a in areas}
 TOPH = H
-BOT0, BOTH = TOPH + 64, 200            # bottom panel origin and height
+BOT0, BOTH = TOPH + 92, 200            # bottom panel origin and height
 g = []          # top section: three panels with their own scales (below)
 # Commission terms: dashed rules with names in two staggered rows
 TERMS = [("Santer", dt.date(1995, 1, 23)), ("Prodi", dt.date(1999, 9, 16)), ("Barroso", dt.date(2004, 11, 22)), ("Barroso II", dt.date(2010, 2, 10)),
@@ -279,39 +279,40 @@ for r in ev:
 sp = [(Y0, 0)]
 for r in sorted(sec, key=lambda r: r["d"]):
     sp.append((fy(r["d"]), sp[-1][1] + 1))
-# one chart, stacked areas on one scale: regulations, directives, implementing and delegated acts
-Yf, ga = axes(1000, [0, 200, 400, 600, 800, 1000])
-g += [x for x in ga if 'y="' + str(H - 10) + '"' not in x]
-STACK = [("Regulations", resample(own["Regulation"]), CLAY, 0.32),
-         ("Directives", resample(own["Directive"]), SLATE, 0.22),
-         ("Implementing and delegated acts", resample(sp), BLUE, 0.22)]
-top, labt, prev = [], [], None
-for name, rr, col, op in STACK:
-    cur = rr if prev is None else [(x, v + pv) for (x, v), (_, pv) in zip(rr, prev)]
-    top.append(f'<path d="{band_d(cur, prev, X, Yf)}" fill="{col}" fill-opacity="{op}"></path>')
-    top.append(f'<path d="{smooth_d([(X(x), Yf(v)) for x, v in cur])}" fill="none" stroke="{col}" stroke-width="{2.2 if col == BLUE else 1.6}"></path>')
-    lo = prev[-1][1] if prev else 0
-    n = rr[-1][1]
-    labt.append((Yf(lo + n / 2), name, n, col))
-    prev = cur
-# labels in the right column, nudged apart
-lab_y = sorted([y for y, *_ in labt], reverse=True)
-fixed = []
-for y in lab_y:
-    if fixed and fixed[-1] - y < 22:
-        y = fixed[-1] - 22
-    fixed.append(y)
-pos = dict(zip(lab_y, fixed))
-out = []
-for y, name, n, col in labt:
-    yy = pos[y]; c = INK if col == SLATE else col
-    if col == BLUE:
-        out += [f'<text x="{W - R + 12}" y="{yy - 10:.1f}" {F} font-size="20" fill="{c}" font-weight="600">{n:,}</text>',
-                f'<text x="{W - R + 12}" y="{yy + 8:.1f}" {F} font-size="13" fill="{c}">implementing and</text>',
-                f'<text x="{W - R + 12}" y="{yy + 24:.1f}" {F} font-size="13" fill="{c}">delegated acts</text>']
-    else:
-        out.append(f'<text x="{W - R + 12}" y="{yy + 5:.1f}" {F} font-size="14" fill="{c}" font-weight="600">{name} {n}</text>')
-labt = out
+# two panels on the shared time axis: laws (regulations and directives, stacked) above, implementing and delegated acts below
+PH, PG, P0 = 136, 34, 66
+top, labt = [], []
+
+
+def panel(i, ymx, ticks, layers, title, tcol):
+    y0 = P0 + i * (PH + PG); ybase = y0 + PH
+    Yp = lambda v: y0 + PH - v / ymx * PH
+    for t in ticks:
+        g.append(f'<line x1="{L}" x2="{W - R}" y1="{Yp(t):.1f}" y2="{Yp(t):.1f}" stroke="{LINE}"></line>')
+        g.append(f'<text x="{L - 10}" y="{Yp(t) + 5:.1f}" text-anchor="end" {F} font-size="13" fill="{MUTED}">{t:,}</text>')
+    g.append(f'<line x1="{L}" x2="{W - R}" y1="{ybase}" y2="{ybase}" stroke="{BASE}"></line>')
+    top.append(f'<text x="{L + 8}" y="{y0 + 4}" {F} font-size="14" fill="{tcol}" font-weight="600">{title}</text>')
+    prev, mids = None, []
+    for name, rr, col, op in layers:
+        cur = rr if prev is None else [(x, v + pv) for (x, v), (_, pv) in zip(rr, prev)]
+        top.append(f'<path d="{band_d(cur, prev, X, Yp)}" fill="{col}" fill-opacity="{op}"></path>')
+        top.append(f'<path d="{smooth_d([(X(x), Yp(v)) for x, v in cur])}" fill="none" stroke="{col}" stroke-width="2"></path>')
+        lo = prev[-1][1] if prev else 0
+        mids.append((Yp(lo + rr[-1][1] / 2), name, rr[-1][1], col))
+        prev = cur
+    return mids
+
+
+pm1 = panel(0, 120, (40, 80, 120), [("Regulations", resample(own["Regulation"]), CLAY, 0.32),
+                                    ("Directives", resample(own["Directive"]), SLATE, 0.20)], "Laws", INK)
+pm2 = panel(1, 800, (400, 800), [("Implementing and delegated acts", resample(sp), BLUE, 0.24)], "Implementing and delegated acts", BLUE)
+for y, name, n, col in pm1:
+    labt.append(f'<text x="{W - R + 12}" y="{y + 5:.1f}" {F} font-size="14" fill="{INK if col == SLATE else col}" font-weight="600">{name} {n}</text>')
+y, name, n, col = pm2[0]
+y = min(y, P0 + 2 * PH + PG - 40)
+labt += [f'<text x="{W - R + 12}" y="{y - 6:.1f}" {F} font-size="20" fill="{BLUE}" font-weight="600">{n:,}</text>',
+         f'<text x="{W - R + 12}" y="{y + 12:.1f}" {F} font-size="12.5" fill="{MUTED}">605 implementing,</text>',
+         f'<text x="{W - R + 12}" y="{y + 28:.1f}" {F} font-size="12.5" fill="{MUTED}">85 delegated</text>']
 peryear = {}
 for r in inst:
     peryear.setdefault(r["d"].year, [0] * len(GROUPS))[gof[r["policy_area_ceps"]]] += 1
