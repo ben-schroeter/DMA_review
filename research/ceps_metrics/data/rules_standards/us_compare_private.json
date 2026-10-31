@@ -1,0 +1,126 @@
+{
+ "pairs": [
+  {
+   "pair": "Unfair Commercial Practices \u2192 FTC Act \u00a75",
+   "row_id": 13,
+   "eu": {
+    "n": 8,
+    "R": 0.25,
+    "standard_like": 0.75
+   },
+   "us": {
+    "n": 3,
+    "R": 1.0,
+    "standard_like": 0.0
+   }
+  },
+  {
+   "pair": "Trade Secrets \u2192 Defend Trade Secrets Act",
+   "row_id": 26,
+   "eu": {
+    "n": 4,
+    "R": 0.5,
+    "standard_like": 0.5
+   },
+   "us": {
+    "n": 8,
+    "R": 0.75,
+    "standard_like": 0.25
+   }
+  },
+  {
+   "pair": "Toy Safety \u2192 CPSIA",
+   "row_id": 17,
+   "eu": {
+    "n": 209,
+    "R": 0.641,
+    "standard_like": 0.359
+   },
+   "us": {
+    "n": 36,
+    "R": 1.0,
+    "standard_like": 0.0
+   }
+  },
+  {
+   "pair": "Product Safety \u2192 Consumer Product Safety Act",
+   "row_id": 67,
+   "eu": {
+    "n": 119,
+    "R": 0.672,
+    "standard_like": 0.319
+   },
+   "us": {
+    "n": 46,
+    "R": 0.848,
+    "standard_like": 0.152
+   }
+  },
+  {
+   "pair": "AI Act \u2192 Colorado AI Act",
+   "row_id": 64,
+   "eu": {
+    "n": 341,
+    "R": 0.695,
+    "standard_like": 0.305
+   },
+   "us": {
+    "n": 29,
+    "R": 0.586,
+    "standard_like": 0.414
+   }
+  },
+  {
+   "pair": "GDPR \u2192 CCPA (California)",
+   "row_id": 20,
+   "eu": {
+    "n": 154,
+    "R": 0.701,
+    "standard_like": 0.299
+   },
+   "us": {
+    "n": 95,
+    "R": 0.821,
+    "standard_like": 0.179
+   }
+  },
+  {
+   "pair": "Chips Act \u2192 CHIPS Act",
+   "row_id": 74,
+   "eu": {
+    "n": 24,
+    "R": 0.833,
+    "standard_like": 0.167
+   },
+   "us": {
+    "n": 20,
+    "R": 0.7,
+    "standard_like": 0.3
+   }
+  },
+  {
+   "pair": "E-evidence \u2192 CLOUD Act",
+   "row_id": 42,
+   "eu": {
+    "n": 31,
+    "R": 0.903,
+    "standard_like": 0.097
+   },
+   "us": {
+    "n": 8,
+    "R": 1.0,
+    "standard_like": 0.0
+   }
+  }
+ ],
+ "eu_pooled": {
+  "n": 890,
+  "R": 0.687,
+  "standard_like": 0.312
+ },
+ "us_pooled": {
+  "n": 245,
+  "R": 0.82,
+  "standard_like": 0.18
+ }
+}
