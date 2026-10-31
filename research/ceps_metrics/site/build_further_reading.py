@@ -7,6 +7,18 @@ READING = {
         {"title": "Silicon Continent", "by": "Pieter Garicano", "where": "Substack",
          "url": "https://www.siliconcontinent.com/",
          "note": "Essays on Europe, economics, innovation and growth, with a sharp eye on what regulation costs."},
+        {"title": "Benedict's Newsletter", "by": "Benedict Evans", "where": "Weekly newsletter",
+         "url": "https://www.ben-evans.com/newsletter",
+         "note": "What mattered in tech this week: strategy, with a running commentary on regulation."},
+        {"title": "Stratechery", "by": "Ben Thompson", "where": "Newsletter",
+         "url": "https://stratechery.com/",
+         "note": "On the business, strategy and impact of technology, including how platforms respond to regulation."},
+        {"title": "Works in Progress", "by": "Works in Progress", "where": "Magazine",
+         "url": "https://worksinprogress.co/",
+         "note": "New and underrated ideas to improve the world, from housing to science funding to regulation."},
+        {"title": "MDM", "by": "Eric Seufert", "where": "Newsletter",
+         "url": "https://mdm.co/",
+         "note": "Independent analysis of the digital economy, especially advertising, and what privacy and platform rules do to it."},
     ],
     "Studies and papers": [
         {"title": "The Constitution of Innovation", "by": "Luis Garicano, Bengt Holmström and Nicolas Petit", "where": "Academic paper",
@@ -20,15 +32,27 @@ READING = {
         {"title": "Digital Policy in the EU: Towards a Human-Centred Digital Transformation", "by": "Werner Stengg", "where": "Edward Elgar, 2024",
          "url": "https://www.e-elgar.com/shop/gbp/digital-policy-in-the-eu-9781035338634.html",
          "note": "A guide to the EU's digital policy agenda and the thinking behind it."},
-        {"title": "The Making of a Global Digital Rulebook: Digital Sovereignty and International Action in the EU", "by": "Thibaut Kleiner and Andrea G. Rodríguez",
-         "where": "Springer, 2026", "url": "https://link.springer.com/book/10.1007/978-981-95-9226-5",
+        {"title": "The Making of a Global Digital Rulebook: Digital Sovereignty and International Action in the EU", "by": "Edited by Thibaut Kleiner and Andrea G. Rodríguez",
+         "where": "Palgrave Macmillan, 2026 · open access", "cover": "/_blob/c4d444b05b932e29af50ed0358d90e4f", "url": "https://link.springer.com/book/10.1007/978-981-95-9226-5",
          "note": "How the EU's digital rules are shaped by, and exported through, its international action."},
         {"title": "Big Tech and the Digital Economy: The Moligopoly Scenario", "by": "Nicolas Petit", "where": "Oxford University Press, 2020",
          "url": "https://global.oup.com/academic/product/big-tech-and-the-digital-economy-9780198837701",
          "note": "Argues that the big tech firms are monopolists in their core markets but compete with each other, and draws the lessons for antitrust and regulation."},
-        {"title": "Technology and the Rise of Great Powers: How Diffusion Shapes Economic Competition", "by": "Jeffrey Ding", "where": "Princeton University Press, 2024",
+        {"title": "Technology and the Rise of Great Powers: How Diffusion Shapes Economic Competition", "by": "Jeffrey Ding", "where": "Princeton University Press, 2024", "cover": "/_blob/090a2999ce3de181a48dccb6aeeb9075",
          "url": "https://press.princeton.edu/books/hardcover/9780691260334/technology-and-the-rise-of-great-powers",
          "note": "Shows that how widely an economy adopts general-purpose technologies matters more for its rise than who invents them first."},
+        {"title": "Digital Empires: The Global Battle to Regulate Technology", "by": "Anu Bradford", "where": "Oxford University Press, 2023",
+         "url": "https://global.oup.com/academic/product/digital-empires-9780197649268", "cover": "/_blob/ef320f6e9fafae364ace9556d5f18575",
+         "note": "Compares the American market-driven, Chinese state-driven and European rights-driven models of regulating technology, and makes the case for Europe's."},
+        {"title": "The Brussels Effect: How the European Union Rules the World", "by": "Anu Bradford", "where": "Oxford University Press, 2020",
+         "url": "https://global.oup.com/academic/product/the-brussels-effect-9780190088583", "cover": "/_blob/d4658071402c404fd8002d76ca36824b",
+         "note": "How EU rules become global standards as companies adopt them worldwide, the strongest account of the EU's regulatory power."},
+        {"title": "The Power of Creative Destruction: Economic Upheaval and the Wealth of Nations", "by": "Philippe Aghion, Céline Antonin and Simon Bunel",
+         "where": "Harvard University Press, 2021", "url": "https://www.hup.harvard.edu/books/9780674971165",
+         "note": "Innovation-led growth, why it needs competition, and what role the state should play in it."},
+        {"title": "The Age of Extraction: How Tech Platforms Conquered the Economy and Threaten Our Future Prosperity", "by": "Tim Wu", "where": "Knopf, 2025",
+         "url": "https://openlibrary.org/isbn/9780593321249", "cover": "/_blob/29130ebabe749b16005e196935010798",
+         "note": "Argues that dominant platforms extract value from the businesses and users that depend on them, and makes the case for curbing their power."},
     ],
 }
 esc = lambda s: html.escape(s, quote=True)
@@ -41,7 +65,18 @@ def tabs(cur):
                         + f'>{n}</a>' for f, n in TABS) + "\n      </nav>")
 
 
-def card(e):
+def cover(e):
+    if e.get("cover"):
+        return f'<img class="rd-cover" src="{e["cover"]}" alt="" loading="lazy">'
+    words = e["title"].split(":")[0]
+    return f'<span class="rd-cover rd-ph" aria-hidden="true"><span>{esc(words)}</span><span class="rd-ph-by">{esc(e["by"].split(",")[0].split(" and ")[0])}</span></span>'
+
+
+def card(e, book=False):
+    if book:
+        return (f'<a class="rd rd-book" href="{esc(e["url"])}" target="_blank" rel="noopener">{cover(e)}<span class="rd-body">'
+                f'<span class="rd-where">{esc(e["where"])}</span><span class="rd-title">{esc(e["title"])}</span>'
+                f'<span class="rd-by">{esc(e["by"])}</span><span class="rd-note">{esc(e["note"])}</span><span class="rd-go">Open ↗</span></span></a>')
     return (f'<a class="rd" href="{esc(e["url"])}" target="_blank" rel="noopener">'
             f'<span class="rd-where">{esc(e["where"])}</span>'
             f'<span class="rd-title">{esc(e["title"])}</span>'
@@ -54,7 +89,7 @@ sections = "\n".join(
     f'''  <section style="padding-block: 8px 48px">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 18px">
       <h2 class="h2">{esc(name)}</h2>
-      <div class="rds">{"".join(card(e) for e in items)}</div>
+      <div class="rds{' rds-books' if name == 'Books' else ''}">{"".join(card(e, name == "Books") for e in items)}</div>
     </div>
   </section>''' for name, items in READING.items())
 
@@ -95,6 +130,13 @@ a{{color:#282424}}a:hover{{color:#8F6708}}
 .rd-by{{font-size:14.5px;font-weight:500;color:#3F3B3B}}
 .rd-note{{font-size:15px;line-height:1.5;color:#3F3B3B}}
 .rd-go{{margin-top:auto;padding-top:6px;font-size:14px;font-weight:500;color:#8F6708}}
+.rds-books{{grid-template-columns:repeat(auto-fill,minmax(420px,1fr))}}
+.rd-book{{flex-direction:row;gap:20px;align-items:flex-start}}
+.rd-body{{display:flex;flex-direction:column;gap:8px;min-width:0;align-self:stretch}}
+.rd-cover{{flex:none;width:84px;height:126px;object-fit:cover;border-radius:3px;box-shadow:0 2px 8px rgba(40,36,36,.18);background:#E8E6E3}}
+.rd-ph{{display:flex;flex-direction:column;justify-content:space-between;box-sizing:border-box;padding:10px 8px;background:#282424;color:#FAF9F5;font-family:'Source Serif 4',Georgia,serif;font-size:12.5px;line-height:1.2;border-top:4px solid #B8860B}}
+.rd-ph-by{{font-family:'DM Sans',sans-serif;font-size:10px;color:#E3CF9C;letter-spacing:.02em}}
+@media (max-width:520px){{.rds-books{{grid-template-columns:1fr}}.rd-cover{{width:64px;height:96px}}}}
 @media (max-width:640px){{.wrap{{padding-inline:20px}}.h1{{font-size:40px}}}}
 @media (max-width:640px){{.nav{{width:100%;justify-content:space-between;gap:10px !important}}.nav a{{font-size:14px}}}}
 </style>
@@ -114,7 +156,7 @@ a{{color:#282424}}a:hover{{color:#8F6708}}
 
 {footer}</div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{{"$preview":{{"width":1440,"height":2000}}}}'>
+<script type="text/x-dc" data-dc-script data-props='{{"$preview":{{"width":1440,"height":2900}}}}'>
 class Component extends DCLogic {{ renderVals() {{ return {{}}; }} }}
 </script>
 </body>
