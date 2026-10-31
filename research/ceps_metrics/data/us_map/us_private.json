@@ -1,0 +1,112 @@
+[
+ {
+  "row_id": 13,
+  "eu": "Unfair Commercial Practices Directive",
+  "us": "FTC Act section 5 (15 U.S.C. 45, current)",
+  "eu_total": 40,
+  "us_total": 40,
+  "eu_private": 7,
+  "eu_private_max": 7,
+  "us_private": 6,
+  "us_unclear_read": 10
+ },
+ {
+  "row_id": 17,
+  "eu": "Toys Safety Directive",
+  "us": "Consumer Product Safety Improvement Act (2008)",
+  "eu_total": 328,
+  "us_total": 244,
+  "eu_private": 213,
+  "eu_private_max": 213,
+  "us_private": 41,
+  "us_unclear_read": 93
+ },
+ {
+  "row_id": 20,
+  "eu": "General Data Protection Regulation",
+  "us": "California Consumer Privacy Act, as amended by the CPRA (current)",
+  "eu_total": 415,
+  "us_total": 192,
+  "eu_private": 160,
+  "eu_private_max": 160,
+  "us_private": 104,
+  "us_unclear_read": 51
+ },
+ {
+  "row_id": 26,
+  "eu": "Trade Secrets Directive",
+  "us": "Defend Trade Secrets Act (2016)",
+  "eu_total": 60,
+  "us_total": 33,
+  "eu_private": 4,
+  "eu_private_max": 4,
+  "us_private": 8,
+  "us_unclear_read": 17
+ },
+ {
+  "row_id": 35,
+  "eu": "Data protection by EU institutions Regulation",
+  "us": "Privacy Act (1974)",
+  "eu_total": 331,
+  "us_total": 73,
+  "eu_private": 51,
+  "eu_private_max": 51,
+  "us_private": 0,
+  "us_unclear_read": 15
+ },
+ {
+  "row_id": 42,
+  "eu": "E-evidence Regulation",
+  "us": "CLOUD Act (2018, division V of Pub. L. 115-141)",
+  "eu_total": 206,
+  "us_total": 61,
+  "eu_private": 33,
+  "eu_private_max": 33,
+  "us_private": 8,
+  "us_unclear_read": 39
+ },
+ {
+  "row_id": 43,
+  "eu": "Open Data Directive (PSI)",
+  "us": "OPEN Government Data Act (2019, title II of Pub. L. 115-435)",
+  "eu_total": 96,
+  "us_total": 34,
+  "eu_private": 15,
+  "eu_private_max": 15,
+  "us_private": 1,
+  "us_unclear_read": 2
+ },
+ {
+  "row_id": 67,
+  "eu": "General Product Safety Regulation",
+  "us": "Consumer Product Safety Act (1972)",
+  "eu_total": 243,
+  "us_total": 191,
+  "eu_private": 121,
+  "eu_private_max": 121,
+  "us_private": 49,
+  "us_unclear_read": 57
+ },
+ {
+  "row_id": 74,
+  "eu": "European Chips Act",
+  "us": "CHIPS Act of 2022 (division A of Pub. L. 117-167)",
+  "eu_total": 235,
+  "us_total": 95,
+  "eu_private": 26,
+  "eu_private_max": 26,
+  "us_private": 20,
+  "us_unclear_read": 59
+ },
+ {
+  "row_id": 78,
+  "eu": "Cybersecurity Regulation (EU institutions)",
+  "us": "Federal Information Security Modernization Act (2014)",
+  "eu_total": 166,
+  "us_total": 52,
+  "eu_private": 1,
+  "eu_private_max": 1,
+  "us_private": 1,
+  "us_unclear_read": 20
+ }
+]
