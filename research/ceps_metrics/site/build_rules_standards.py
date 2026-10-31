@@ -1,6 +1,6 @@
 """Rules vs standards (Kaplow 1992) chart, draft for review.
 Top: obligations in the 105 main acts and in their implementing/delegated acts, split by kind (100% bars).
-Bottom: for each act with at least 100 obligations in its implementing/delegated acts, the standard-like share
+Bottom: for each act with at least 60 obligations (and a main act with at least 50) in its implementing/delegated acts, the standard-like share
 (standard + mixed + specified later) in the main act (gold) and in its secondary acts (blue), with an arrow.
 Reads data/rules_standards/summary.json. Writes site/rules_standards.svg. Run from research/ceps_metrics."""
 import json
@@ -14,8 +14,8 @@ SHORT = {"Markets in Crypto-Assets (MiCA)": "MiCA", "Digital Operational Resilie
          "Payment Services Directive 2 (PSD2)": "PSD2", "Common VAT system Directive": "VAT Directive", "Digitalisation of judicial cooperation Regulation": "Judicial digitalisation",
          "Interoperability of EU information systems (borders and visa)": "EU information systems", "Ecodesign for Sustainable Products Regulation": "Ecodesign Regulation",
          "European Electronic Communications Code": "Electronic Communications Code", ".eu Top-Level Domain Regulation": ".eu domain", "Artificial Intelligence Act": "AI Act",
-         "Digital Services Act": "Digital Services Act", "NIS 2 Directive": "NIS2", "European Health Data Space": "Health Data Space"}
-nm = lambda n: SHORT.get(n, n.split(" (")[0])
+         "Digital Services Act": "Digital Services Act", "NIS 2 Directive": "NIS2", "European Health Data Space": "Health Data Space", "Administrative cooperation in taxation (DAC)": "Tax cooperation (DAC)", "Recovery and Resilience Facility": "Recovery and Resilience Facility", "Digital Markets Act": "Digital Markets Act"}
+nm = lambda n: SHORT.get(n, n.split(" (")[0]) if not n.startswith("Interoperability of EU") else "EU information systems"
 W, L, R = 1000, 260, 930
 X = lambda v: L + v * (R - L)
 g = []
@@ -37,7 +37,7 @@ for i, (key, lab) in enumerate((("main_all", "105 main acts"), ("secondary_all",
 # bottom: arrows per act
 y0 = 160
 g.append(t(0, y0, "Share of obligations that are standards (standard, mixed or specified later), in the main act and in its implementing and delegated acts", 14, INK, "start", 600))
-acts = sorted([o for o in s["instruments"] if (o["secondary"] or {}).get("n", 0) >= 100], key=lambda o: -o["main"]["standard_like"])
+acts = sorted([o for o in s["instruments"] if (o["secondary"] or {}).get("n", 0) >= 60 and o["main"]["n"] >= 50], key=lambda o: -o["main"]["standard_like"])
 top = y0 + 46; RH = 27
 for v in (0, .1, .2, .3, .4, .5):
     g.append(f'<line x1="{X(v):.1f}" x2="{X(v):.1f}" y1="{top - 12}" y2="{top + len(acts) * RH}" stroke="{LINE if v else BASE}"></line>')
@@ -46,7 +46,8 @@ g.append(f'<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWid
 for i, o in enumerate(acts):
     y = top + i * RH + 10
     a, b = o["main"]["standard_like"], o["secondary"]["standard_like"]
-    g.append(t(L - 14, y + 5, nm(o["name"]), 13.5, INK, "end"))
+    dma = o["name"] == "Digital Markets Act"
+    g.append(t(L - 14, y + 5, nm(o["name"]), 13.5, INK, "end", 700 if dma else None))
     if abs(b - a) > 0.012:
         g.append(f'<line x1="{X(a):.1f}" x2="{X(b) + (-7 if b > a else 7):.1f}" y1="{y}" y2="{y}" stroke="{BLUE}" stroke-width="1.8" marker-end="url(#ah)" opacity="0.8"></line>')
     g.append(f'<circle cx="{X(a):.1f}" cy="{y}" r="6" fill="{GOLD}"><title>{o["name"]}: main act {a:.0%} ({o["main"]["n"]} obligations)</title></circle>')
