@@ -1,0 +1,165 @@
+[
+ {
+  "id": "telecom96",
+  "label": "Telecommunications Act of 1996",
+  "source": "PLAW-104publ104",
+  "pages": 107,
+  "all_text": {
+   "words": 47077,
+   "restrictions_total": 481,
+   "by_addressee": {
+    "unclear": 165,
+    "eu_institutions": 193,
+    "member_states": 9,
+    "private_parties": 114
+   },
+   "per_1000_words": 10.2
+  },
+  "excluding_inserted_text": {
+   "words": 9168,
+   "restrictions_total": 55,
+   "by_addressee": {
+    "unclear": 22,
+    "eu_institutions": 28,
+    "private_parties": 5
+   },
+   "per_1000_words": 6.0
+  }
+ },
+ {
+  "id": "glba",
+  "label": "Gramm-Leach-Bliley Act (1999)",
+  "source": "PLAW-106publ102",
+  "pages": 146,
+  "all_text": {
+   "words": 62344,
+   "restrictions_total": 417,
+   "by_addressee": {
+    "eu_institutions": 157,
+    "unclear": 145,
+    "private_parties": 88,
+    "member_states": 27
+   },
+   "per_1000_words": 6.7
+  },
+  "excluding_inserted_text": {
+   "words": 29774,
+   "restrictions_total": 196,
+   "by_addressee": {
+    "eu_institutions": 58,
+    "private_parties": 37,
+    "member_states": 25,
+    "unclear": 76
+   },
+   "per_1000_words": 6.6
+  }
+ },
+ {
+  "id": "glba_v",
+  "label": "Gramm-Leach-Bliley Act, title V privacy (1999)",
+  "source": "PLAW-106publ102",
+  "pages": 46,
+  "all_text": {
+   "words": 19332,
+   "restrictions_total": 162,
+   "by_addressee": {
+    "unclear": 63,
+    "private_parties": 27,
+    "eu_institutions": 70,
+    "member_states": 2
+   },
+   "per_1000_words": 8.4
+  },
+  "excluding_inserted_text": {
+   "words": 9054,
+   "restrictions_total": 64,
+   "by_addressee": {
+    "unclear": 27,
+    "private_parties": 9,
+    "eu_institutions": 27,
+    "member_states": 1
+   },
+   "per_1000_words": 7.1
+  }
+ },
+ {
+  "id": "hipaa_as",
+  "label": "HIPAA administrative simplification (1996, title II subtitle F)",
+  "source": "PLAW-104publ191",
+  "pages": 1,
+  "all_text": {
+   "words": 5308,
+   "restrictions_total": 65,
+   "by_addressee": {
+    "unclear": 42,
+    "eu_institutions": 13,
+    "private_parties": 9,
+    "member_states": 1
+   },
+   "per_1000_words": 12.2
+  },
+  "excluding_inserted_text": {
+   "words": 598,
+   "restrictions_total": 6,
+   "by_addressee": {
+    "eu_institutions": 4,
+    "unclear": 2
+   },
+   "per_1000_words": 10.0
+  }
+ },
+ {
+  "id": "takeitdown",
+  "label": "TAKE IT DOWN Act (2025)",
+  "source": "PLAW-119publ12",
+  "pages": 9,
+  "all_text": {
+   "words": 2846,
+   "restrictions_total": 17,
+   "by_addressee": {
+    "unclear": 11,
+    "private_parties": 4,
+    "eu_institutions": 2
+   },
+   "per_1000_words": 6.0
+  },
+  "excluding_inserted_text": {
+   "words": 1217,
+   "restrictions_total": 8,
+   "by_addressee": {
+    "private_parties": 3,
+    "unclear": 3,
+    "eu_institutions": 2
+   },
+   "per_1000_words": 6.6
+  }
+ },
+ {
+  "id": "dodd_frank",
+  "label": "Dodd-Frank Act (2010)",
+  "source": "PLAW-111publ203",
+  "pages": 850,
+  "all_text": {
+   "words": 368120,
+   "restrictions_total": 3215,
+   "by_addressee": {
+    "unclear": 1184,
+    "private_parties": 615,
+    "eu_institutions": 1350,
+    "member_states": 66
+   },
+   "per_1000_words": 8.7
+  },
+  "excluding_inserted_text": {
+   "words": 205569,
+   "restrictions_total": 1662,
+   "by_addressee": {
+    "unclear": 616,
+    "private_parties": 260,
+    "eu_institutions": 747,
+    "member_states": 39
+   },
+   "per_1000_words": 8.1
+  }
+ }
+]

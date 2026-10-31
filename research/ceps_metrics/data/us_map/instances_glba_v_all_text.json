@@ -1,0 +1,974 @@
+[
+ {
+  "clause": "in section 505(a) shall establish appropriate standards for the financial institutions subject to their jurisdiction relating to administrative, technical, and physical safeguards-- (1) to insure the security and confidentiality of customer records and information;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(a) Notice Requirements.--Except as otherwise provided in this subtitle, a financial institution may not, directly or through any affiliate, disclose to a nonaffiliated third party any nonpublic personal information, unless such financial institution provides or has provided to the consumer a notice that complies with section 503.",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(b) Opt Out.-- (1) In general.--A financial institution may not disclose nonpublic personal information to a nonaffiliated third party unless-- (A) such financial institution clearly and conspicuously discloses to the consumer, in writing or in electronic form or other form permitted by the regulations prescribed under section 504, that such information may be disclosed to such third party;",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(2) Exception.--This subsection shall not prevent a financial institution from providing nonpublic personal information to a nonaffiliated third party to perform services for or functions on behalf of the financial institution, including marketing of the financial institution's own products or services, or financial products or services offered pursuant to joint agreements between two or more financial institutions that comply with the requirements imposed by the regulations prescribed under sec",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(c) Limits on Reuse of Information.--Except as otherwise provided in this subtitle, a nonaffiliated third party that receives from a financial institution nonpublic personal information under this section shall not, directly or through an affiliate of such receiving third party, disclose such information to any other person that is a nonaffiliated third party of both the financial institution and such receiving third party, unless such disclosure would be lawful if made directly to such other pe",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "shall not disclose, other than to a consumer reporting agency, an account number or similar form of access number or access code for a credit card account, deposit account, or transaction account of a consumer to any nonaffiliated third party for use in telemarketing, direct mail marketing, or other marketing through electronic mail to the consumer.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(e) General Exceptions.--Subsections (a) and (b) shall not prohibit the disclosure of nonpublic personal information-- (1) as necessary to effect, administer, or enforce a transaction requested or authorized by the consumer, or in connection with-- (A) servicing or processing a financial product or service requested or authorized by the consumer;",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(a) Disclosure Required.--At the time of establishing a customer relationship with a consumer and not less than annually during the continuation of such relationship, a financial institution shall provide a clear and conspicuous disclosure to such consumer, in writing or in electronic form or other form permitted by the regulations prescribed under section 504, of such financial institution's policies and practices with respect to-- (1) disclosing nonpublic personal information to affiliates and",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "Such disclosures shall be made in accordance with the regulations prescribed under section 504.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(b) Information To Be Included.--The disclosure required by subsection (a) shall include-- (1) the policies and practices of the institution with respect to disclosing nonpublic personal information to nonaffiliated third parties, other than agents of the institution, consistent with section 502 of this subtitle, and including-- (A) the categories of persons to whom the information is or may be disclosed, other than the persons to whom the information may be provided pursuant to section 502(e);",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(a) Regulatory Authority.-- (1) Rulemaking.--The Federal banking agencies, the National Credit Union Administration, the Secretary of the Treasury, the Securities and Exchange Commission, and the Federal Trade Commission shall each prescribe, after consultation as appropriate with representatives of State insurance authorities designated by the National Association of Insurance Commissioners, such regulations as may be necessary to carry out the purposes of this subtitle with respect to the fina",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) Coordination, consistency, and comparability.--Each of the agencies and authorities required under paragraph (1) to prescribe regulations shall consult and coordinate with",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(3) Procedures and deadline.--Such regulations shall be prescribed in accordance with applicable requirements of title 5, United States Code, and shall be issued in final form not later than 6 months after the date of the enactment of this Act.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(3) Procedures and deadline.--Such regulations shall be prescribed in accordance with applicable requirements of title 5, United States Code, and shall be issued in final form not later than 6 months after the date of the enactment of this Act.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "member_states"
+ },
+ {
+  "clause": "(a) In General.--This subtitle and the regulations prescribed thereunder shall be enforced by the Federal functional regulators, the State insurance authorities, and the Federal Trade Commission with respect to financial institutions and other persons subject to their jurisdiction under applicable law, as follows:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(b) Enforcement of Section 501.-- (1) In general.--Except as provided in paragraph (2), the agencies and authorities described in subsection (a) shall implement the standards prescribed under section 501(b) in the same manner, to the extent practicable, as standards prescribed pursuant to section 39(a) of the Federal Deposit Insurance Act are implemented pursuant to such section.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(2) Exception.--The agencies and authorities described in paragraphs (3), (4), (5), (6), and (7) of subsection (a) shall implement the standards prescribed under section 501(b) by rule with respect to the financial institutions and other persons subject to their respective jurisdictions under subsection (a).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(d) Definitions.--The terms used in subsection (a)(1) that are not defined in this subtitle or otherwise defined in section 3(s) of the Federal Deposit Insurance Act shall have the same meaning as given in section 1(b) of the International Banking Act of 1978.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(e) Regulatory Authority.-- ``(1) The Federal banking agencies referred to in paragraphs (1) and (2) of subsection (b) shall jointly prescribe such regulations as necessary to carry out the purposes of this Act with respect to any persons identified under paragraphs (1) and (2) of subsection (b), and the Board of Governors of the Federal Reserve System shall have authority to prescribe regulations consistent with such joint regulations with respect to bank",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "``(e) Regulatory Authority.-- ``(1) The Federal banking agencies referred to in paragraphs (1) and (2) of subsection (b) shall jointly prescribe such regulations as necessary to carry out the purposes of this Act with respect to any persons identified under paragraphs (1) and (2) of subsection (b), and the Board of Governors of the Federal Reserve System shall have authority to prescribe regulations consistent with such joint regulations with respect to bank",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "holding companies and affiliates (other than depository institutions and consumer reporting agencies) of such holding companies. ``(2) The Board of the National Credit Union Administration shall prescribe such regulations as necessary to carry out the purposes of this Act with respect to any persons identified under paragraph (3) of subsection (b).''.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(c) Relation to Other Provisions.--Except for the amendments made by subsections (a) and (b), nothing in this title shall be construed to modify, limit, or supersede the operation of the Fair Credit Reporting Act, and no inference shall be drawn on the basis of the provisions of this title regarding whether information is transaction or experience information under section 603 of such Act.",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(a) In General.--The Secretary of the Treasury, in conjunction with the Federal functional regulators and the Federal Trade Commission, shall conduct a study of information sharing practices among financial institutions and their affiliates.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Such study shall include-- (1) the purposes for the sharing of confidential customer information with affiliates or with nonaffiliated third parties;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) Consultation.--The Secretary shall consult with representatives of State insurance authorities designated by the National Association of Insurance Commissioners, and also with financial services industry, consumer organizations and privacy groups, and other representatives of the general public, in formulating and conducting the study required by subsection (a).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(c) Report.--On or before January 1, 2002, the Secretary shall submit a report to the Congress containing the findings and conclusions of the study required under subsection (a), together with such recommendations for legislative or administrative action as may be appropriate.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(C) Notwithstanding subparagraph (B), such term-- (i) shall include any list, description, or other grouping of consumers (and publicly available information pertaining to them) that is derived using any nonpublic personal information other than publicly available information;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "but (ii) shall not include any list, description, or other grouping of consumers (and publicly available information pertaining to them) that is derived without using any nonpublic personal information.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(7) Necessary to effect, administer, or enforce.--The term ``as necessary to effect, administer, or enforce the transaction'' means-- (A) the disclosure is required, or is a usual, appropriate, or acceptable method, to carry out the transaction or the product or service business of which the transaction is a part, and record or service or maintain the consumer's account in the ordinary course of providing the financial service or financial product, or to administer or service benefits or claims ",
+  "marker": "is required",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(B) the disclosure is required, or is one of the lawful or appropriate methods, to enforce the rights of the financial institution or of other persons engaged in carrying out the financial transaction, or providing the product or service;",
+  "marker": "is required",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(C) the disclosure is required, or is a usual, appropriate, or acceptable method, for insurance underwriting at the",
+  "marker": "is required",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "or (D) the disclosure is required, or is a usual, appropriate or acceptable method, in connection with-- (i) the authorization, settlement, billing, processing, clearing, transferring, reconciling, or collection of amounts charged, debited, or otherwise paid using a debit, credit or other payment card, check, or account number, or by other payment means;",
+  "marker": "is required",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(11) Customer relationship.--The term ``time of establishing a customer relationship'' shall be defined by the regulations prescribed under section 504, and shall, in the case of a financial institution engaged in extending credit directly to consumers to finance purchases of goods or services, mean the time of establishing the credit relationship with the consumer.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(11) Customer relationship.--The term ``time of establishing a customer relationship'' shall be defined by the regulations prescribed under section 504, and shall, in the case of a financial institution engaged in extending credit directly to consumers to finance purchases of goods or services, mean the time of establishing the credit relationship with the consumer.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "This subtitle shall take effect 6 months after the date on which rules are required to be prescribed under section 504(a)(3), except-- (1) to the extent that a later date is specified in the rules prescribed under section 504;",
+  "marker": "are required",
+  "category": "explicit_requirement",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(a) Prohibition on Obtaining Customer Information by False Pretenses.--It shall be a violation of this subtitle for any person to obtain or attempt to obtain, or cause to be disclosed or attempt to cause to be disclosed to any person, customer information of a financial institution relating to another person-- (1) by making a false, fictitious, or fraudulent statement or representation to an officer, employee, or agent of a financial institution;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(b) Prohibition on Solicitation of a Person To Obtain Customer Information From Financial Institution Under False Pretenses.--It shall be a violation of this subtitle to request a person to obtain customer information of a financial institution, knowing that the person will obtain, or attempt to obtain, the information from the institution in any manner described in subsection (a).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(c) Nonapplicability to Law Enforcement Agencies.--No provision of this section shall be construed so as to prevent any action by a law enforcement agency, or any officer, employee, or agent of such agency, to obtain customer information of a financial institution in connection with the performance of the official duties of the agency.",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(d) Nonapplicability to Financial Institutions in Certain Cases.--No provision of this section shall be construed so as to prevent any financial institution, or any officer, employee, or agent of a financial institution, from obtaining customer information of such financial institution in the course of-- (1) testing the security procedures or systems of such institution for maintaining the confidentiality of customer information;",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(e) Nonapplicability to Insurance Institutions for Investigation of Insurance Fraud.--No provision of this section shall be construed so as to prevent any insurance institution, or any officer, employee, or agency of an insurance institution, from obtaining information as part of an insurance investigation into criminal activity, fraud, material misrepresentation, or material nondisclosure that is authorized for such institution under State law, regulation, interpretation, or order.",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(f) Nonapplicability to Certain Types of Customer Information of Financial Institutions.--No provision of this section shall be construed so as to prevent any person from obtaining customer information of a financial institution that otherwise is available as a public record filed pursuant to the securities laws (as defined in section 3(a)(47) of the Securities Exchange Act of 1934).",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "(g) Nonapplicability to Collection of Child Support Judgments.--No provision of this section shall be construed to prevent any Statelicensed private investigator, or any officer, employee, or agent of such private investigator, from obtaining customer information of a financial institution, to the extent reasonably necessary to collect child support from a person adjudged to have been delinquent in his or her obligations by a Federal or State court, and to the extent that such action by a State-",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(a) Enforcement by Federal Trade Commission.--Except as provided in subsection (b), compliance with this subtitle shall be enforced by the Federal Trade Commission in the same manner and with the same power and authority as the Commission has under the Fair Debt Collection Practices Act to enforce compliance with such Act.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) Enforcement by Other Agencies in Certain Cases.-- (1) In general.--Compliance with this subtitle shall be enforced under-- (A) section 8 of the Federal Deposit Insurance Act, in the case of-- (i) national banks, and Federal branches and Federal agencies of foreign banks, by the Office of the Comptroller of the Currency;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "In furtherance of the objectives of this subtitle, each Federal banking agency (as defined in section 3(z) of the Federal Deposit Insurance Act), the National Credit Union Administration, and the Securities and Exchange Commission or self-regulatory organizations, as appropriate, shall review regulations and guidelines applicable to financial institutions under their respective jurisdictions and shall prescribe such revisions to such regulations and guidelines as may be necessary to ensure that ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "In furtherance of the objectives of this subtitle, each Federal banking agency (as defined in section 3(z) of the Federal Deposit Insurance Act), the National Credit Union Administration, and the Securities and Exchange Commission or self-regulatory organizations, as appropriate, shall review regulations and guidelines applicable to financial institutions under their respective jurisdictions and shall prescribe such revisions to such regulations and guidelines as may be necessary to ensure that ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Administration, the Securities and Exchange Commission, appropriate Federal law enforcement agencies, and appropriate State insurance regulators, shall submit to the Congress a report on the following:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) Annual Report by Administering Agencies.--The Federal Trade Commission and the Attorney General shall submit to Congress an annual report on number and disposition of all enforcement actions taken pursuant to this subtitle.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and ``(ii) that has, as of the date of the transaction at issue, less than $500,000,000 in average total assets, based on an average of total assets over the 3 years preceding that date. ``(B) Adjustments.--The $500,000,000 limit referred to in subparagraph (A)(ii) shall be adjusted annually by the Finance Board, based on the annual percentage increase, if any, in the Consumer Price Index for all urban consumers, as published by the Department of Labor.''.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(f) Federal Home Loan Bank Membership.--After the end of the 6month period beginning on the date of the enactment of the Federal Home Loan Bank System Modernization Act of 1999, a Federal savings association may become a member of the Federal Home Loan Bank System, and shall qualify for such membership in the manner provided by the Federal Home Loan Bank Act.''.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(2) Purposes of advances.--A long-term advance may only be made for the purposes of-- ``(A) providing funds to any member for residential housing finance;",
+  "marker": "may only",
+  "category": "restricted_permission",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "increase in the collateral standards for any or all of those classes of collateral. ``(6) Definitions.--For purposes of this subsection, the terms `small business', `agriculture', `small farm', and `small agri-business' shall have the meanings given those terms by regulation of the Finance Board.''.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "``(ii) Additional restrictions effective after 3 years.--Beginning 3 years after the date on which a savings association should have become a qualified thrift lender, or the date on which the savings association ceases to be a qualified thrift lender, as applicable, the savings association shall not retain any investment (including an investment in any subsidiary) or engage, directly or indirectly, in any activity, unless that investment or activity-- ``(I) would be permissible for the savings a",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``, and each of whom shall be either a bona fide resident of the district in which such bank is located or an officer or director of a member of such bank located in that district'';",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "The board of directors of each Federal home loan bank and the Finance Board shall adjust the terms of members first elected or appointed after the date of the enactment of the Federal Home Loan Bank System Modernization Act of 1999 to ensure that the terms of the members of the board of directors are staggered with approximately \\1/3\\ of the terms expiring each year.'';",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(g) Chairperson and Vice Chairperson.-- ``(1) Election.--The Chairperson and Vice Chairperson of the board of directors of each Federal home loan bank shall be elected by a majority of all the directors of such bank from among the directors of the bank. ``(2) Terms.--The term of office of the Chairperson and the Vice Chairperson of the board of directors of a Federal home loan bank shall be 2 years. ``(3) Acting chairperson.--In the event of a vacancy in the position of Chairperson of the boar",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "``(g) Chairperson and Vice Chairperson.-- ``(1) Election.--The Chairperson and Vice Chairperson of the board of directors of each Federal home loan bank shall be elected by a majority of all the directors of such bank from among the directors of the bank. ``(2) Terms.--The term of office of the Chairperson and the Vice Chairperson of the board of directors of a Federal home loan bank shall be 2 years. ``(3) Acting chairperson.--In the event of a vacancy in the position of Chairperson of the boar",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "``(g) Chairperson and Vice Chairperson.-- ``(1) Election.--The Chairperson and Vice Chairperson of the board of directors of each Federal home loan bank shall be elected by a majority of all the directors of such bank from among the directors of the bank. ``(2) Terms.--The term of office of the Chairperson and the Vice Chairperson of the board of directors of a Federal home loan bank shall be 2 years. ``(3) Acting chairperson.--In the event of a vacancy in the position of Chairperson of the boar",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(2) Limitation.-- ``(A) In general.--The annual salary of each of the following members of the board of directors of a Federal home loan bank may not exceed the amount specified:",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``In the case of the-- The annual compensation may not exceed-- Chairperson $25,000 Vice Chairperson $20,000 All other members $15,000.",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(B) Adjustment.--Beginning January 1, 2001, each dollar amount referred to in the table in subparagraph (A) shall be adjusted annually by the Finance Board, based on the annual percentage increase, if any, in the Consumer Price Index for all urban consumers, as published by the Department of Labor. ``(C) Expenses.--Subparagraph (A) shall not be construed as prohibiting the reimbursement of expenses",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Such authority includes the same authority to issue an order requiring a party to take affirmative action to correct conditions resulting from violations or practices or to limit activities of a Bank or any executive officer or director of a Bank as appropriate Federal banking agencies have to take with respect to insured depository institutions under paragraphs (6) and (7) of section 8(b) of the Federal Deposit Insurance Act, and to have all other powers, rights, and duties to enforce this Act ",
+  "marker": "have to",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Such authority includes the same authority to issue an order requiring a party to take affirmative action to correct conditions resulting from violations or practices or to limit activities of a Bank or any executive officer or director of a Bank as appropriate Federal banking agencies have to take with respect to insured depository institutions under paragraphs (6) and (7) of section 8(b) of the Federal Deposit Insurance Act, and to have all other powers, rights, and duties to enforce this Act ",
+  "marker": "has to",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(C) Payments by federal home loan banks.-- ``(i) In general.--To the extent that the amounts available pursuant to subparagraphs (A) and (B) are insufficient to cover the amount of interest payments, each Federal home loan bank shall pay to the Funding",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Corporation in each calendar year, 20.0 percent of the net earnings of that Bank (after deducting expenses relating to section 10(j) and operating expenses). ``(ii) Annual determination.--The Board annually shall determine the extent to which the value of the aggregate amounts paid by the Federal home loan banks exceeds or falls short of the value of an annuity of $300,000,000 per year that commences on the issuance date and ends on the final scheduled maturity date of the obligations, and shall",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Corporation in each calendar year, 20.0 percent of the net earnings of that Bank (after deducting expenses relating to section 10(j) and operating expenses). ``(ii) Annual determination.--The Board annually shall determine the extent to which the value of the aggregate amounts paid by the Federal home loan banks exceeds or falls short of the value of an annuity of $300,000,000 per year that commences on the issuance date and ends on the final scheduled maturity date of the obligations, and shall",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "Corporation in each calendar year, 20.0 percent of the net earnings of that Bank (after deducting expenses relating to section 10(j) and operating expenses). ``(ii) Annual determination.--The Board annually shall determine the extent to which the value of the aggregate amounts paid by the Federal home loan banks exceeds or falls short of the value of an annuity of $300,000,000 per year that commences on the issuance date and ends on the final scheduled maturity date of the obligations, and shall",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "In the final year in which the Federal home loan banks are required to make any payment to the Treasury under this subparagraph, if the dollar amount represented by 20.0 percent of the net earnings of the Federal home loan banks exceeds the remaining obligation of the Banks to the Treasury, the Finance Board shall reduce the percentage pro rata to a level sufficient to pay the remaining obligation.''.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Payments made by a Federal home loan bank before that effective date shall be counted toward the total obligation of that Bank under section 21B(f)(2)(C) of the Federal Home Loan Bank Act, as amended by this section.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(a) Regulations.-- ``(1) Capital standards.--Not later than 1 year after the date of the enactment of the Federal Home Loan Bank System Modernization Act of 1999, the Finance Board shall issue regulations prescribing uniform capital standards applicable to each Federal home loan bank, which shall require each such bank to meet-- ``(A) the leverage requirement specified in paragraph (2);",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(a) Regulations.-- ``(1) Capital standards.--Not later than 1 year after the date of the enactment of the Federal Home Loan Bank System Modernization Act of 1999, the Finance Board shall issue regulations prescribing uniform capital standards applicable to each Federal home loan bank, which shall require each such bank to meet-- ``(A) the leverage requirement specified in paragraph (2);",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(2) Leverage requirement.-- ``(A) In general.--The leverage requirement shall require each Federal home loan bank to maintain a minimum amount of total capital based on the total assets of the bank and shall be 5 percent. ``(B) Treatment of stock and retained earnings.--In determining compliance with the minimum leverage ratio established under subparagraph (A), the paid-in value of the outstanding Class B stock and the amount of retained earnings shall be multiplied by 1.5, and such higher am",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(2) Leverage requirement.-- ``(A) In general.--The leverage requirement shall require each Federal home loan bank to maintain a minimum amount of total capital based on the total assets of the bank and shall be 5 percent. ``(B) Treatment of stock and retained earnings.--In determining compliance with the minimum leverage ratio established under subparagraph (A), the paid-in value of the outstanding Class B stock and the amount of retained earnings shall be multiplied by 1.5, and such higher am",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(2) Leverage requirement.-- ``(A) In general.--The leverage requirement shall require each Federal home loan bank to maintain a minimum amount of total capital based on the total assets of the bank and shall be 5 percent. ``(B) Treatment of stock and retained earnings.--In determining compliance with the minimum leverage ratio established under subparagraph (A), the paid-in value of the outstanding Class B stock and the amount of retained earnings shall be multiplied by 1.5, and such higher am",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "``(2) Leverage requirement.-- ``(A) In general.--The leverage requirement shall require each Federal home loan bank to maintain a minimum amount of total capital based on the total assets of the bank and shall be 5 percent. ``(B) Treatment of stock and retained earnings.--In determining compliance with the minimum leverage ratio established under subparagraph (A), the paid-in value of the outstanding Class B stock and the amount of retained earnings shall be multiplied by 1.5, and such higher am",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(2) Leverage requirement.-- ``(A) In general.--The leverage requirement shall require each Federal home loan bank to maintain a minimum amount of total capital based on the total assets of the bank and shall be 5 percent. ``(B) Treatment of stock and retained earnings.--In determining compliance with the minimum leverage ratio established under subparagraph (A), the paid-in value of the outstanding Class B stock and the amount of retained earnings shall be multiplied by 1.5, and such higher am",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "and ``(ii) the market risk, including interest rate risk, to which the Federal home loan bank is subject, based on a stress test established by the Finance Board that rigorously tests for changes in market variables, including changes in interest rates, rate volatility, and changes in the shape of the yield curve. ``(B) Consideration of other risk-based standards.-- In establishing the risk-based standard under subparagraph (A)(ii), the Finance Board shall take due consideration of any risk-base",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and ``(ii) the market risk, including interest rate risk, to which the Federal home loan bank is subject, based on a stress test established by the Finance Board that rigorously tests for changes in market variables, including changes in interest rates, rate volatility, and changes in the shape of the yield curve. ``(B) Consideration of other risk-based standards.-- In establishing the risk-based standard under subparagraph (A)(ii), the Finance Board shall take due consideration of any risk-base",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and ``(ii) the market risk, including interest rate risk, to which the Federal home loan bank is subject, based on a stress test established by the Finance Board that rigorously tests for changes in market variables, including changes in interest rates, rate volatility, and changes in the shape of the yield curve. ``(B) Consideration of other risk-based standards.-- In establishing the risk-based standard under subparagraph (A)(ii), the Finance Board shall take due consideration of any risk-base",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and ``(ii) Class B stock, which shall be redeemable in cash and at par 5 years following submission by a member of a written notice of its intent to redeem such shares;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "bank, and that a bank may not issue any stock other than as provided in this section;",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "and ``(D) provide the manner of disposition of outstanding stock held by, and the liquidation of any claims of the Federal home loan bank against, an institution that ceases to be a member of the bank, through merger or otherwise, or that provides notice of intention to withdraw from membership in the bank. ``(5) Definitions of capital.--For purposes of determining compliance with the capital standards established under this subsection-- ``(A) permanent capital of a Federal home loan bank shall ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and ``(B) total capital of a Federal home loan bank shall include-- ``(i) permanent capital;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(iii) consistent with generally accepted accounting principles, and subject to the regulation of the Finance Board, a general allowance for losses, which may not include any reserves or allowances made or held against specific assets;",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "and ``(iv) any other amounts from sources available to absorb losses incurred by the bank that the Finance Board determines by regulation to be appropriate to include in determining total capital. ``(6) Transition period.--Notwithstanding any other provision of this Act, the requirements relating to purchase and retention of capital stock of a Federal home loan bank by any member thereof in effect on the day before the date of the enactment of the Federal Home Loan Bank System Modernization Act ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(b) Capital Structure Plan.-- ``(1) Approval of plans.--Not later than 270 days after the date of publication by the Finance Board of final regulations in accordance with subsection (a), the board of directors of each Federal home loan bank shall submit for Finance Board approval a plan establishing and implementing a capital structure for such bank that-- ``(A) the board of directors determines is best suited for the condition and operation of the bank and the interests of the members of the ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(2) Approval of modifications.--The board of directors of a Federal home loan bank shall submit to the Finance Board for approval any modifications that the bank proposes to make to an approved capital structure plan.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(c) Contents of Plan.--The capital structure plan of each Federal home loan bank shall contain provisions addressing each of the following:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(1) Minimum investment.-- ``(A) In general.--Each capital structure plan of a Federal home loan bank shall require each member of the bank to maintain a minimum investment in the stock of the bank, the amount of which shall be determined in a manner to be prescribed by the board of directors of each bank and to be included as part of the plan. ``(B) Investment alternatives.-- ``(i) In general.--In establishing the minimum investment required for each member under subparagraph (A), a Federal ho",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(1) Minimum investment.-- ``(A) In general.--Each capital structure plan of a Federal home loan bank shall require each member of the bank to maintain a minimum investment in the stock of the bank, the amount of which shall be determined in a manner to be prescribed by the board of directors of each bank and to be included as part of the plan. ``(B) Investment alternatives.-- ``(i) In general.--In establishing the minimum investment required for each member under subparagraph (A), a Federal ho",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "or ``(II) a stock purchase based on a percentage of the outstanding advances from the bank to the member. ``(C) Minimum amount.--Each capital structure plan of a Federal home loan bank shall require that the minimum stock investment established for members shall be set at a level that is sufficient for the bank to meet the minimum capital requirements established by the Finance Board under subsection (a). ``(D) Adjustments to minimum required investment.-- The capital structure plan of each Fede",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "or ``(II) a stock purchase based on a percentage of the outstanding advances from the bank to the member. ``(C) Minimum amount.--Each capital structure plan of a Federal home loan bank shall require that the minimum stock investment established for members shall be set at a level that is sufficient for the bank to meet the minimum capital requirements established by the Finance Board under subsection (a). ``(D) Adjustments to minimum required investment.-- The capital structure plan of each Fede",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "or ``(II) a stock purchase based on a percentage of the outstanding advances from the bank to the member. ``(C) Minimum amount.--Each capital structure plan of a Federal home loan bank shall require that the minimum stock investment established for members shall be set at a level that is sufficient for the bank to meet the minimum capital requirements established by the Finance Board under subsection (a). ``(D) Adjustments to minimum required investment.-- The capital structure plan of each Fede",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "or ``(II) a stock purchase based on a percentage of the outstanding advances from the bank to the member. ``(C) Minimum amount.--Each capital structure plan of a Federal home loan bank shall require that the minimum stock investment established for members shall be set at a level that is sufficient for the bank to meet the minimum capital requirements established by the Finance Board under subsection (a). ``(D) Adjustments to minimum required investment.-- The capital structure plan of each Fede",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "or ``(II) a stock purchase based on a percentage of the outstanding advances from the bank to the member. ``(C) Minimum amount.--Each capital structure plan of a Federal home loan bank shall require that the minimum stock investment established for members shall be set at a level that is sufficient for the bank to meet the minimum capital requirements established by the Finance Board under subsection (a). ``(D) Adjustments to minimum required investment.-- The capital structure plan of each Fede",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "``(B) Interim purchase requirements.--The capital structure plan of a Federal home loan bank may allow any member referred to in subparagraph (A) that would be required by the terms of the capital structure plan to increase its investment in the stock of the bank to do so in periodic installments during the transition period. ``(3) Disposition of shares.--The capital structure plan of a Federal home loan bank shall provide for the manner of disposition of any stock held by a member of that bank ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(B) Interim purchase requirements.--The capital structure plan of a Federal home loan bank may allow any member referred to in subparagraph (A) that would be required by the terms of the capital structure plan to increase its investment in the stock of the bank to do so in periodic installments during the transition period. ``(3) Disposition of shares.--The capital structure plan of a Federal home loan bank shall provide for the manner of disposition of any stock held by a member of that bank ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(B) Interim purchase requirements.--The capital structure plan of a Federal home loan bank may allow any member referred to in subparagraph (A) that would be required by the terms of the capital structure plan to increase its investment in the stock of the bank to do so in periodic installments during the transition period. ``(3) Disposition of shares.--The capital structure plan of a Federal home loan bank shall provide for the manner of disposition of any stock held by a member of that bank ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(B) Interim purchase requirements.--The capital structure plan of a Federal home loan bank may allow any member referred to in subparagraph (A) that would be required by the terms of the capital structure plan to increase its investment in the stock of the bank to do so in periodic installments during the transition period. ``(3) Disposition of shares.--The capital structure plan of a Federal home loan bank shall provide for the manner of disposition of any stock held by a member of that bank ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "and ``(B) establish standards, criteria, and requirements for the issuance, purchase, transfer, retirement, and redemption of stock issued by that bank. ``(6) Bank review of plan.--Before filing a capital structure plan with the Finance Board, each Federal home loan bank shall conduct a review of the plan by-- ``(A) an independent certified public accountant, to ensure, to the extent possible, that implementation of the plan would not result in any write-down of the redeemable bank stock investm",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The applicable stock redemption notice periods shall commence upon receipt of the notice by the bank.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "or ``(ii) the member has been determined to be insolvent, or otherwise subject to the appointment of a conservator, receiver, or other legal custodian, by a Federal or State authority with regulatory and supervisory responsibility for the member. ``(B) Stock disposition.--An institution, the membership of which is terminated in accordance with subparagraph (A)-- ``(i) shall surrender redeemable stock to the Federal home loan bank, and shall receive in cash the par value of the stock, upon the ex",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "or ``(ii) the member has been determined to be insolvent, or otherwise subject to the appointment of a conservator, receiver, or other legal custodian, by a Federal or State authority with regulatory and supervisory responsibility for the member. ``(B) Stock disposition.--An institution, the membership of which is terminated in accordance with subparagraph (A)-- ``(i) shall surrender redeemable stock to the Federal home loan bank, and shall receive in cash the par value of the stock, upon the ex",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(ii) shall receive any dividends declared on its redeemable stock, during the applicable notice period under subsection (a)(4)(A);",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "and ``(iii) shall not be entitled to any other rights or privileges accorded to members after the date of the termination. ``(C) Commencement of notice period.--With respect to an institution, the membership of which is terminated in accordance with subparagraph (A), the applicable notice period under subsection (a)(4) for each class of redeemable stock shall commence on the earlier of-- ``(i) the date of such termination;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "or ``(ii) the date on which the member has provided notice of its intent to redeem such stock. ``(3) Liquidation of indebtedness.--Upon the termination of the membership of an institution for any reason, the outstanding indebtedness of the member to the bank shall be liquidated in an orderly manner, as determined by the bank",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "and, upon the extinguishment of all such indebtedness, the bank shall return to the member all collateral pledged to secure the indebtedness.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "``(e) Redemption of Excess Stock.-- ``(1) In general.--A Federal home loan bank, in its sole discretion, may redeem or repurchase, as appropriate, any shares of Class A or Class B stock issued by the bank and held by a member that are in excess of the minimum stock investment required of that member. ``(2) Excess stock.--Shares of stock held by a member shall not be deemed to be `excess stock' for purposes of this subsection by virtue of a member's submission of a notice of intent to withdraw fr",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(f) Impairment of Capital.--If the Finance Board or the board of directors of a Federal home loan bank determines that the bank has incurred or is likely to incur losses that result in or are expected to result in charges against the capital of the bank, the bank shall not redeem or repurchase any stock of the bank without the prior approval of the Finance Board while such charges are continuing or are expected to continue.",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "In no case may a bank redeem or repurchase any applicable capital stock if, following the redemption, the bank would fail to satisfy any minimum capital requirement. ``(g) Rejoining After Divestiture of All Shares.-- ``(1) In general.--Except as provided in paragraph (2), and notwithstanding any other provision of this Act, an institution that divests all shares of stock in a Federal home loan bank may not, after such divestiture, acquire shares of any Federal home loan bank before the end of th",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(h) Treatment of Retained Earnings.-- ``(1) In general.--The holders of the Class B stock of a Federal home loan bank shall own the retained earnings, surplus, undivided profits, and equity reserves, if any, of the bank. ``(2) Exception.--Except as specifically provided in this section or through the declaration of a dividend or a capital distribution by a Federal home loan bank, or in the event of liquidation of the bank, a member shall have no right to withdraw or otherwise receive distribut",
+  "marker": "may not",
+  "category": "prohibition",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(h) Treatment of Retained Earnings.-- ``(1) In general.--The holders of the Class B stock of a Federal home loan bank shall own the retained earnings, surplus, undivided profits, and equity reserves, if any, of the bank. ``(2) Exception.--Except as specifically provided in this section or through the declaration of a dividend or a capital distribution by a Federal home loan bank, or in the event of liquidation of the bank, a member shall have no right to withdraw or otherwise receive distribut",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(h) Treatment of Retained Earnings.-- ``(1) In general.--The holders of the Class B stock of a Federal home loan bank shall own the retained earnings, surplus, undivided profits, and equity reserves, if any, of the bank. ``(2) Exception.--Except as specifically provided in this section or through the declaration of a dividend or a capital distribution by a Federal home loan bank, or in the event of liquidation of the bank, a member shall have no right to withdraw or otherwise receive distribut",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(3) Fee disclosures at automated teller machines.-- ``(A) In general.--The regulations prescribed under paragraph (1) shall require any automated teller machine operator who imposes a fee on any consumer for providing host transfer services to such consumer to provide notice in accordance with subparagraph (B) to the consumer (at the time the service is provided) of-- ``(i) the fact that a fee is imposed by such operator for providing the service;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "and ``(ii) the amount of any such fee. ``(B) Notice requirements.-- ``(i) On the machine.--The notice required under clause (i) of subparagraph (A) with respect to any fee described in such subparagraph shall be posted in a prominent and conspicuous location on or at the automated teller machine at which the electronic fund transfer is initiated by the consumer. ``(ii) On the screen.--The notice required under clauses (i) and (ii) of subparagraph (A) with respect to any fee described in such sub",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "and ``(ii) the amount of any such fee. ``(B) Notice requirements.-- ``(i) On the machine.--The notice required under clause (i) of subparagraph (A) with respect to any fee described in such subparagraph shall be posted in a prominent and conspicuous location on or at the automated teller machine at which the electronic fund transfer is initiated by the consumer. ``(ii) On the screen.--The notice required under clauses (i) and (ii) of subparagraph (A) with respect to any fee described in such sub",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(a) In General.--The Comptroller General of the United States shall conduct a study of the feasibility of requiring, in connection with any electronic fund transfer initiated by a consumer through the use of an automated teller machine-- (1) a notice to be provided to the consumer before the consumer is irrevocably committed to completing the transaction, which clearly states the amount of any fee that will be imposed upon the consummation of the transaction by-- (A) any automated teller machine",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) Factors To Be Considered.--In conducting the study required under subsection (a) with regard to the notice requirement described in such subsection, the Comptroller General shall consider the following factors:",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(c) Report to the Congress.--Before the end of the 6-month period beginning on the date of the enactment of this Act, the Comptroller General shall submit a report to the Congress containing-- (1) the findings and conclusions of the Comptroller General in connection with the study required under subsection (a);",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(d) Exception for Damaged Notices.--If the notice required to be posted pursuant to section 904(d)(3)(B)(i) by an automated teller machine operator has been posted by such operator in compliance with such section and the notice is subsequently removed, damaged, or altered by any person other than the operator of the automated teller machine, the operator shall have no liability under this section for failure to comply with section 904(d)(3)(B)(i).''.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "``(a) Public Disclosure of Agreements.--Any agreement (as defined in subsection (e)) entered into after the date of the enactment of the Gramm-Leach-Bliley Act by an insured depository institution or affiliate with a nongovernmental entity or person made pursuant to or in connection with the Community Reinvestment Act of 1977 involving funds or other resources of such insured depository institution or affiliate-- ``(1) shall be in its entirety fully disclosed, and the full text thereof made avai",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "and ``(2) shall obligate each party to comply with this section.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(b) Annual Report of Activity by Insured Depository Institution.-- Each insured depository institution or affiliate that is a party to an agreement described in subsection (a) shall report to the appropriate Federal banking agency with supervisory responsibility over the insured depository institution, not less frequently than once each year, such information as the Federal banking agency may by rule require relating to the following actions taken by the party pursuant to the agreement during ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "``(c) Annual Report of Activity by Nongovernmental Entities.-- ``(1) In general.--Each nongovernmental entity or person that is not an affiliate of an insured depository institution and that is a party to an agreement described in subsection (a) shall report to the appropriate Federal banking agency with supervisory responsibility over the insured depository institution that is a party to such agreement, not less frequently than once each year, an accounting of the use of funds received pursuant",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "``(c) Annual Report of Activity by Nongovernmental Entities.-- ``(1) In general.--Each nongovernmental entity or person that is not an affiliate of an insured depository institution and that is a party to an agreement described in subsection (a) shall report to the appropriate Federal banking agency with supervisory responsibility over the insured depository institution that is a party to such agreement, not less frequently than once each year, an accounting of the use of funds received pursuant",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(c) Annual Report of Activity by Nongovernmental Entities.-- ``(1) In general.--Each nongovernmental entity or person that is not an affiliate of an insured depository institution and that is a party to an agreement described in subsection (a) shall report to the appropriate Federal banking agency with supervisory responsibility over the insured depository institution that is a party to such agreement, not less frequently than once each year, an accounting of the use of funds received pursuant",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(A) Material failure to comply.--If the party to an agreement described in subsection (a) that is not an insured depository institution or affiliate willfully fails to comply with this section in a material way, as determined by the appropriate Federal banking agency, the agreement shall be unenforceable after the offending party has been given notice and a reasonable period of time to perform or comply. ``(B) Diversion of funds or resources.--If funds or resources received under an agreement ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(i) Disgorgement by the offending individual of funds received under the agreement. ``(ii) Prohibition of the offending individual from being a party to any agreement described in subsection (a) for a period of not to exceed 10 years. ``(2) Designation of successor nongovernmental party.--If an agreement described in subsection (a) is found to be unenforceable under this subsection, the appropriate Federal banking agency may assist the insured depository institution in identifying a successor ",
+  "marker": "shall not",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(g) Rule of Construction.--No provision of this section shall be construed as authorizing any appropriate Federal banking agency to enforce the provisions of any agreement described in subsection (a). ``(h) Regulations.-- ``(1) In general.--Each appropriate Federal banking agency shall prescribe regulations, in accordance with paragraph (4), requiring procedures reasonably designed to ensure and monitor compliance with the requirements of this section. ``(2) Protection of parties.--In carrying",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(g) Rule of Construction.--No provision of this section shall be construed as authorizing any appropriate Federal banking agency to enforce the provisions of any agreement described in subsection (a). ``(h) Regulations.-- ``(1) In general.--Each appropriate Federal banking agency shall prescribe regulations, in accordance with paragraph (4), requiring procedures reasonably designed to ensure and monitor compliance with the requirements of this section. ``(2) Protection of parties.--In carrying",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(g) Rule of Construction.--No provision of this section shall be construed as authorizing any appropriate Federal banking agency to enforce the provisions of any agreement described in subsection (a). ``(h) Regulations.-- ``(1) In general.--Each appropriate Federal banking agency shall prescribe regulations, in accordance with paragraph (4), requiring procedures reasonably designed to ensure and monitor compliance with the requirements of this section. ``(2) Protection of parties.--In carrying",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(4) Coordination, consistency, and comparability.--In carrying out paragraph (1), each appropriate Federal banking agency shall consult and coordinate with the other such agencies for the purposes of assuring, to the extent possible, that the regulations prescribed by each such agency are consistent and comparable with the regulations prescribed by the other such agencies.''.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(b) No Exception From CRA Examinations in Connection With Applications for Deposit Facilities.--A regulated financial institution described in subsection (a) shall remain subject to examination under this title in connection with an application for a deposit facility. ``(c) Discretion.--A regulated financial institution described in subsection (a) may be subject to more frequent or less frequent examinations for reasonable cause under such circumstances as may be determined by the appropriate ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "The Board of Governors of the Federal Reserve System shall conduct a comprehensive study, in consultation with the Chairman and Ranking Member of the Committee on Banking and Financial Services of the House of Representatives and the Chairman and Ranking Member of the Committee on Banking, Housing, and Urban Affairs of the Senate, of the Community Reinvestment Act of 1977, which shall focus on-- (1) the default rates;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "The Board of Governors of the Federal Reserve System shall conduct a comprehensive study, in consultation with the Chairman and Ranking Member of the Committee on Banking and Financial Services of the House of Representatives and the Chairman and Ranking Member of the Committee on Banking, Housing, and Urban Affairs of the Senate, of the Community Reinvestment Act of 1977, which shall focus on-- (1) the default rates;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "Such report and supporting data shall also be made available by the Board of Governors of the Federal Reserve System to the public.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) Study.--The Secretary of the Treasury, in consultation with the Federal banking agencies (as defined in section 3(z) of the Federal Deposit Insurance Act), shall conduct a study of the extent to which adequate services are being provided as intended by the Community Reinvestment Act of 1977, including services in low- and moderate-income neighborhoods and for persons of modest means, as a result of the enactment of this Act.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) Reports.-- (1) In general.--The Secretary of the Treasury shall-- (A) before March 15, 2000, submit a baseline report to the Congress on the study conducted pursuant to subsection (a);",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(2) Recommendations.--The final report submitted under paragraph (1)(B) shall include such recommendations as the Secretary determines to be appropriate for administrative and legislative action with respect to institutions covered under the Community Reinvestment Act of 1977.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "(a) Study.--The Comptroller General of the United States shall conduct a study of-- (1) possible revisions to the rules governing S corporations, including-- (A) increasing the permissible number of shareholders in such corporations;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) Report to the Congress.--Not later than 6 months after the date of the enactment of this Act, the Comptroller General of the United States shall submit a report to the Congress on the results of the study conducted under subsection (a).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) In General.--Each Federal banking agency shall use plain language in all proposed and final rulemakings published by the agency in the Federal Register after January 1, 2000.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) Report.--Not later than March 1, 2001, each Federal banking agency shall submit to the Congress a report that describes how the agency has complied with subsection (a).",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``The Administrator shall establish a microenterprise technical assistance and capacity building grant program to provide assistance from the Administration in the form of grants to qualified organizations in accordance with this subtitle.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``A qualified organization shall use grants made under this subtitle-- ``(1) to provide training and technical assistance to disadvantaged entrepreneurs;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``For purposes of eligibility for assistance under this subtitle, a qualified organization shall be-- ``(1) a nonprofit microenterprise development organization or program (or a group or collaborative thereof) that has a demonstrated record of delivering microenterprise services to disadvantaged entrepreneurs;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(a) Allocation of Assistance.-- ``(1) In general.--The Administrator shall allocate assistance from the Administration under this subtitle to ensure that-- ``(A) activities described in section 174(1) are funded using not less than 75 percent of amounts made available for such assistance;",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(b) Targeted Assistance.--The Administrator shall ensure that not less than 50 percent of the grants made under this subtitle are used to benefit very low-income persons, including those residing on Indian reservations. ``(c) Subgrants Authorized.--",
+  "marker": "shall ensure",
+  "category": "duty_of_result",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(d) Diversity.--In making grants under this subtitle, the Administrator shall ensure that grant recipients include both large and small microenterprise organizations, serving urban, rural, and Indian tribal communities serving diverse populations. ``(e) Prohibition on Preferential Consideration of Certain SBA Program Participants.--In making grants under this subtitle, the Administrator shall ensure that any application made by a qualified organization that is a participant in the program esta",
+  "marker": "shall ensure",
+  "category": "duty_of_result",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``(d) Diversity.--In making grants under this subtitle, the Administrator shall ensure that grant recipients include both large and small microenterprise organizations, serving urban, rural, and Indian tribal communities serving diverse populations. ``(e) Prohibition on Preferential Consideration of Certain SBA Program Participants.--In making grants under this subtitle, the Administrator shall ensure that any application made by a qualified organization that is a participant in the program esta",
+  "marker": "shall ensure",
+  "category": "duty_of_result",
+  "addressee": "private_parties"
+ },
+ {
+  "clause": "``(a) In General.--Financial assistance under this subtitle shall be matched with funds from sources other than the Federal Government on the basis of not less than 50 percent of each dollar provided by the Administration. ``(b) Sources of Matching Funds.--Fees, grants, gifts, funds from loan sources, and in-kind resources of a grant recipient from public or private sources may be used to comply with the matching requirement in subsection (a). ``(c) Exception.-- ``(1) In general.--In the case of",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``An application for assistance under this subtitle shall be submitted in such form and in accordance with such procedures as the Administrator shall establish.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``An application for assistance under this subtitle shall be submitted in such form and in accordance with such procedures as the Administrator shall establish.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``The Administrator shall, by regulation, establish such requirements as may be necessary to carry out this subtitle.''.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "unclear"
+ },
+ {
+  "clause": "``The Board shall order an annual independent audit of the financial statements of each Federal reserve bank and the Board.''.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) Study Required.--The Comptroller General of the United States shall conduct a study analyzing the conflict of interest faced by the Board of Governors of the Federal Reserve System between its role as a primary regulator of the banking industry and its role as a vendor of services to the banking and financial services industry.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) Specific Conflict Required To Be Addressed.--In the course of the study required under subsection (a), the Comptroller General shall address the conflict of interest faced by the Board of Governors of the Federal Reserve System between the role of the Board as a regulator of the payment system, generally, and its participation in the payment system as a competitor with private entities who are providing payment services.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(c) Report to the Congress.--Before the end of the 1-year period beginning on the date of the enactment of this Act, the Comptroller General shall submit a report to the Congress containing the findings and conclusions of the Comptroller General in connection with the study required under this section, together with such recommendations for such legislative or administrative actions as the Comptroller General may determine to be appropriate, including recommendations for resolving any such confl",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(a) Study Required.--The Federal banking agencies shall conduct a study of banking regulations regarding the delivery of financial services, including those regulations that may assume that there will be person-to-person contact during the course of a financial services transaction, and report their recommendations on adapting those existing requirements to online banking and lending.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "(b) Report Required.--Before the end of the 2-year period beginning on the date of the enactment of this Act, the Federal banking agencies shall submit a report to the Congress on the findings and conclusions of the agencies with respect to the study required under subsection (a), together with such recommendations for legislative or regulatory action as the agencies may determine to be appropriate.",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "eu_institutions"
+ },
+ {
+  "clause": "``(f) Applicable Rate and Other Charge Limitations.-- ``(1) In general.--In the case of any State that has a constitutional provision that sets a maximum lawful annual percentage rate of interest on any contract at not more than 5 percent above the discount rate for 90-day commercial paper in effect at the Federal reserve bank for the Federal reserve district in which such State is located, except as provided in paragraph (2), upon the establishment in such State of a branch of any out-of-State ",
+  "marker": "shall",
+  "category": "obligation",
+  "addressee": "member_states"
+ },
+ {
+  "clause": "or ``(B) the maximum rate or amount of interest, discount points, finance charges, or other similar charges that may be charged, taken, received, or reserved in a similar transaction by a State insured depository institution chartered under the laws of such State or a national bank or Federal savings association whose main office is located in such State without reference to this section. ``(2) Rule of construction.--No provision of this subsection shall be construed as superseding or affecting-",
+  "marker": "shall",
+  "category": "prohibition",
+  "addressee": "unclear"
+ }
+]
