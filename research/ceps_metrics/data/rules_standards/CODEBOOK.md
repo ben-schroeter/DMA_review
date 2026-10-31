@@ -27,3 +27,15 @@ complies before acting, without a later decision by an authority or court about 
 5. Duties to **evaluate / report on / examine** a named subject are R when the subject and timing are fixed; "regularly assess", "monitor" without fixed content or timing are S.
 6. A **chapeau with a list** ("shall include the following:") is R if the list items are fixed.
 7. If both a fixed element and a substantive open-ended element matter, use M; do not overuse M.
+
+## Addendum for US statutes (matched counterparts)
+
+Apply the same test and codes. Field `law` names the statute (ftc5 = FTC Act s.5, cpsia/cpsa = consumer product safety acts,
+ccpa = California Consumer Privacy Act as amended, dtsa = Defend Trade Secrets Act, cloud = CLOUD Act, chips = CHIPS Act of 2022,
+colorado_ai = Colorado AI Act). US-specific points:
+- **L** also covers content left to an agency rule named in the provision ("as the Commission shall prescribe by regulation",
+  "in accordance with regulations issued by the Secretary", "the Attorney General shall adopt rules … specifying").
+- **D** means content left to the US States.
+- "It shall be unlawful for any person to …" with a named act is R; "unfair or deceptive acts or practices", "reasonable security
+  procedures and practices appropriate to the nature of the information", "reasonable care" are S.
+- Duties of courts, agencies and officials are coded on the same test as EU authorities.
