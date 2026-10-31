@@ -1,0 +1,159 @@
+{
+ "total_employment_eu27_2023": 217709090.0,
+ "nace": {
+  "C26": {
+   "ENT_NR": [
+    36400,
+    2023
+   ],
+   "EMP_NR": [
+    1100000,
+    2023
+   ]
+  },
+  "C27": {
+   "ENT_NR": [
+    40000,
+    2023
+   ],
+   "EMP_NR": [
+    1580000,
+    2023
+   ]
+  },
+  "C28": {
+   "ENT_NR": [
+    77999,
+    2023
+   ],
+   "EMP_NR": [
+    3088659,
+    2023
+   ]
+  },
+  "C29": {
+   "ENT_NR": [
+    19000,
+    2023
+   ],
+   "EMP_NR": [
+    2450000,
+    2023
+   ]
+  },
+  "G4791": {
+   "ENT_NR": [
+    390017,
+    2023
+   ],
+   "EMP_NR": [
+    822000,
+    2023
+   ]
+  },
+  "J61": {
+   "EMP_NR": [
+    800000,
+    2023
+   ],
+   "ENT_NR": [
+    37788,
+    2022
+   ]
+  },
+  "J62": {
+   "ENT_NR": [
+    964677,
+    2023
+   ],
+   "EMP_NR": [
+    4500000,
+    2023
+   ]
+  },
+  "J6311": {
+   "ENT_NR": [
+    90462,
+    2023
+   ],
+   "EMP_NR": [
+    410000,
+    2023
+   ]
+  },
+  "J6312": {
+   "ENT_NR": [
+    29000,
+    2023
+   ],
+   "EMP_NR": [
+    140000,
+    2023
+   ]
+  },
+  "K": {
+   "EMP_NR": [
+    4918930.0,
+    2023
+   ]
+  }
+ },
+ "types": {
+  "TC": {
+   "name": "Telecoms",
+   "nace": [
+    "J61"
+   ],
+   "employment": 800000,
+   "enterprises": 37788,
+   "share_of_eu_jobs": 0.0036746283767940054,
+   "obligations": 1278
+  },
+  "FI": {
+   "name": "Finance, payments and crypto",
+   "nace": [
+    "K"
+   ],
+   "employment": 4918930.0,
+   "enterprises": null,
+   "share_of_eu_jobs": 0.02259404970182917,
+   "obligations": 3413
+  },
+  "PL": {
+   "name": "Online platforms and digital services",
+   "nace": [
+    "J6312",
+    "G4791"
+   ],
+   "employment": 962000,
+   "enterprises": 419017,
+   "share_of_eu_jobs": 0.004418740623094791,
+   "obligations": 1089
+  },
+  "CL": {
+   "name": "Cloud, data and AI",
+   "nace": [
+    "J62",
+    "J6311"
+   ],
+   "employment": 4910000,
+   "enterprises": 1055139,
+   "share_of_eu_jobs": 0.022553031662573206,
+   "obligations": 1358
+  },
+  "PR": {
+   "name": "Makers of connected products",
+   "nace": [
+    "C26",
+    "C27",
+    "C28",
+    "C29"
+   ],
+   "employment": 8218659,
+   "enterprises": 173399,
+   "share_of_eu_jobs": 0.037750646975741806,
+   "obligations": 3718
+  }
+ },
+ "baseline_obligations": 1987
+}
