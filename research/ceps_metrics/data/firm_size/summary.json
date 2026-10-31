@@ -1,0 +1,180 @@
+{
+ "bands": [
+  "micro",
+  "small",
+  "medium",
+  "small_midcap",
+  "large",
+  "designated"
+ ],
+ "labels": {
+  "micro": "Micro (under 10 staff)",
+  "small": "Small (10-49)",
+  "medium": "Medium (50-249)",
+  "small_midcap": "Small mid-cap (250-749)",
+  "large": "Large (750+)",
+  "designated": "Designated very large firms"
+ },
+ "baseline": [
+  1987,
+  1987,
+  1987,
+  1987,
+  1987,
+  1987
+ ],
+ "types": {
+  "GK": {
+   "name": "Gatekeepers and very large platforms",
+   "specific": [
+    813,
+    813,
+    1154,
+    1154,
+    1154,
+    1452
+   ]
+  },
+  "PL": {
+   "name": "Online platforms and digital services",
+   "specific": [
+    748,
+    748,
+    1089,
+    1089,
+    1089,
+    1089
+   ]
+  },
+  "CL": {
+   "name": "Cloud, data and AI",
+   "specific": [
+    1089,
+    1091,
+    1355,
+    1355,
+    1355,
+    1358
+   ]
+  },
+  "TC": {
+   "name": "Telecoms",
+   "specific": [
+    1275,
+    1275,
+    1278,
+    1278,
+    1278,
+    1278
+   ]
+  },
+  "FI": {
+   "name": "Finance, payments and crypto",
+   "specific": [
+    3391,
+    3413,
+    3413,
+    3413,
+    3413,
+    3413
+   ]
+  },
+  "PR": {
+   "name": "Makers of connected products",
+   "specific": [
+    3360,
+    3391,
+    3713,
+    3713,
+    3715,
+    3718
+   ]
+  }
+ },
+ "by_rule": {
+  "P2B Arts. 11(5) and 12(7): small enterprises exempt from complaint handling and mediation": {
+   "obligations": 18,
+   "band": "medium"
+  },
+  "DORA: obligations addressed to financial entities 'other than microenterprises'": {
+   "obligations": 22,
+   "band": "small"
+  },
+  "DMA: obligations bind designated gatekeepers only (Art. 3)": {
+   "obligations": 143,
+   "band": "designated"
+  },
+  "DSA Art. 15(2): micro and small intermediaries exempt from transparency reports": {
+   "obligations": 3,
+   "band": "medium"
+  },
+  "DSA Art. 19: Section 3 (Arts. 20-28, except Art. 24(3)) does not apply to micro and small platforms": {
+   "obligations": 41,
+   "band": "medium"
+  },
+  "DSA Art. 29: Section 4 (marketplaces, Arts. 30-32) does not apply to micro and small platforms": {
+   "obligations": 18,
+   "band": "medium"
+  },
+  "DSA Arts. 33-43: very large online platforms and search engines": {
+   "obligations": 63,
+   "band": "designated"
+  },
+  "NIS2 Art. 2(1): applies to medium-sized and larger entities (telecoms providers regardless of size, see TYPE_OVERRIDE)": {
+   "obligations": 261,
+   "band": "medium"
+  },
+  "AI Act Art. 55: general-purpose AI models with systemic risk": {
+   "obligations": 3,
+   "band": "designated"
+  },
+  "Data Act Art. 7(1): Chapter II does not apply to micro and small manufacturers": {
+   "obligations": 51,
+   "band": "medium"
+  },
+  "Data Act Art. 20(1): only data holders other than micro and small enterprises must provide data free of charge": {
+   "obligations": 1,
+   "band": "medium"
+  },
+  "CRMA Art. 24: risk preparedness duties for large companies (over 500 staff and EUR 150 million)": {
+   "obligations": 2,
+   "band": "large"
+  },
+  "EHDS Art. 50: health data holder duties do not apply to microenterprises": {
+   "obligations": 31,
+   "band": "small"
+  },
+  "Ecodesign Arts. 24-25: unsold-products disclosure and destruction ban do not apply to micro and small enterprises (medium from 2030)": {
+   "obligations": 10,
+   "band": "medium"
+  },
+  "DSA implementing and delegated acts for very large platforms (audits, VLOP reporting)": {
+   "obligations": 89,
+   "band": "designated"
+  }
+ },
+ "lighter": [
+  "GDPR Art. 30(5): record-keeping exemption under 250 staff, but not where processing is risky, not occasional or involves special data (in practice rarely usable)",
+  "AI Act Art. 63: microenterprises may use a simplified quality management system; Art. 99(6) lower fines for SMEs",
+  "Cyber Resilience Act Art. 33(5): simplified technical documentation for micro and small; Art. 64(10): no fines on micro and small for missing the 24-hour early warning",
+  "Copyright DSM Art. 17(6): lighter liability conditions for content-sharing services under three years old and under EUR 10 million turnover",
+  "Platform Work Directive Art. 17: SMEs may update information yearly",
+  "Short-Term Rental Data Regulation Art. 9: small platforms with few listings report quarterly",
+  "DORA Arts. 6(5), 12(4), 25(3), 30: lighter versions for microenterprises",
+  "Chips Act, IMERA, compulsory licensing: lower fines for SMEs"
+ ],
+ "optional": [
+  "EECC Art. 17: Member States may exempt undertakings under EUR 50 million from accounting separation",
+  "EECC Art. 98: Title III end-user rules do not apply to micro providers of number-independent communications (not modelled: type-specific)",
+  "VAT Directive Arts. 282-292: optional small-enterprise scheme for very small turnover",
+  "AML Regulation Art. 5: Member States may exempt small football clubs"
+ ],
+ "all_company_obligations": [
+  11530,
+  11583,
+  11986,
+  11986,
+  11988,
+  12286
+ ]
+}
