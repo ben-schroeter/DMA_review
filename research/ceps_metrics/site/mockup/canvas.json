@@ -100,7 +100,7 @@
     },
     "Main.dc.html": {
       "expand": "fill",
-      "h": 5400,
+      "h": 5480,
       "is_interactive": true,
       "title": "Home",
       "w": 1440,
@@ -277,7 +277,7 @@
     },
     "Act-child-sexual-abuse-directive-recast.dc.html": {
       "expand": "fill",
-      "h": 3368,
+      "h": 3724,
       "is_interactive": true,
       "title": "Instrument: Child Sexual Abuse Directive (recast)",
       "w": 1440,
@@ -287,7 +287,7 @@
     },
     "Act-child-sexual-abuse-regulation-csar.dc.html": {
       "expand": "fill",
-      "h": 3535,
+      "h": 3898,
       "is_interactive": true,
       "title": "Instrument: Child Sexual Abuse Regulation (CSAR)",
       "w": 1440,
@@ -497,7 +497,7 @@
     },
     "Act-digital-euro-regulation.dc.html": {
       "expand": "fill",
-      "h": 3715,
+      "h": 4050,
       "is_interactive": true,
       "title": "Instrument: Digital Euro Regulation",
       "w": 1440,
@@ -637,7 +637,7 @@
     },
     "Act-eu-digital-travel-application-regulation.dc.html": {
       "expand": "fill",
-      "h": 3742,
+      "h": 4078,
       "is_interactive": true,
       "title": "Instrument: EU Digital Travel Application Regulation",
       "w": 1440,
@@ -647,7 +647,7 @@
     },
     "Act-eu-space-act.dc.html": {
       "expand": "fill",
-      "h": 3624,
+      "h": 3897,
       "is_interactive": true,
       "title": "Instrument: EU Space Act",
       "w": 1440,
@@ -757,7 +757,7 @@
     },
     "Act-financial-data-access-regulation-fida.dc.html": {
       "expand": "fill",
-      "h": 3490,
+      "h": 3826,
       "is_interactive": true,
       "title": "Instrument: Financial Data Access Regulation (FiDA)",
       "w": 1440,
@@ -867,7 +867,7 @@
     },
     "Act-information-security-regulation.dc.html": {
       "expand": "fill",
-      "h": 3645,
+      "h": 3981,
       "is_interactive": true,
       "title": "Instrument: Information Security Regulation",
       "w": 1440,
@@ -937,7 +937,7 @@
     },
     "Act-late-payment-regulation.dc.html": {
       "expand": "fill",
-      "h": 3614,
+      "h": 3977,
       "is_interactive": true,
       "title": "Instrument: Late Payment Regulation",
       "w": 1440,
@@ -1047,7 +1047,7 @@
     },
     "Act-payment-services-directive-3-psd3.dc.html": {
       "expand": "fill",
-      "h": 3731,
+      "h": 4066,
       "is_interactive": true,
       "title": "Instrument: Payment Services Directive 3 (PSD3)",
       "w": 1440,
@@ -1057,7 +1057,7 @@
     },
     "Act-payment-services-regulation-psr.dc.html": {
       "expand": "fill",
-      "h": 3699,
+      "h": 4035,
       "is_interactive": true,
       "title": "Instrument: Payment Services Regulation (PSR)",
       "w": 1440,
@@ -1374,6 +1374,216 @@
       "x": 4560,
       "y": 58520,
       "page": "instruments"
+    },
+    "Forthcoming.dc.html": {
+      "expand": "fill",
+      "h": 6137,
+      "is_interactive": true,
+      "title": "Digital Acquis: forthcoming",
+      "w": 1440,
+      "x": 15200,
+      "y": 8500,
+      "page": "site"
+    },
+    "Fc-antitrust-procedure.dc.html": {
+      "expand": "fill",
+      "h": 1687,
+      "is_interactive": true,
+      "title": "Forthcoming: Reform of the antitrust procedural rules (Regulation 1/2003)",
+      "w": 1440,
+      "x": 0,
+      "y": 0,
+      "page": "forthcoming"
+    },
+    "Fc-avmsd-revision.dc.html": {
+      "expand": "fill",
+      "h": 1609,
+      "is_interactive": true,
+      "title": "Forthcoming: Revision of the Audiovisual Media Services Directive",
+      "w": 1440,
+      "x": 1520,
+      "y": 0,
+      "page": "forthcoming"
+    },
+    "Fc-business-wallet.dc.html": {
+      "expand": "fill",
+      "h": 1692,
+      "is_interactive": true,
+      "title": "Forthcoming: European Business Wallet",
+      "w": 1440,
+      "x": 3040,
+      "y": 0,
+      "page": "forthcoming"
+    },
+    "Fc-chips-act-2.dc.html": {
+      "expand": "fill",
+      "h": 1605,
+      "is_interactive": true,
+      "title": "Forthcoming: Chips Act 2",
+      "w": 1440,
+      "x": 4560,
+      "y": 0,
+      "page": "forthcoming"
+    },
+    "Fc-cloud-ai-development-act.dc.html": {
+      "expand": "fill",
+      "h": 1632,
+      "is_interactive": true,
+      "title": "Forthcoming: Cloud and AI Development Act",
+      "w": 1440,
+      "x": 6080,
+      "y": 0,
+      "page": "forthcoming"
+    },
+    "Fc-cpc-review.dc.html": {
+      "expand": "fill",
+      "h": 1600,
+      "is_interactive": true,
+      "title": "Forthcoming: Review of the Consumer Protection Cooperation Regulation",
+      "w": 1440,
+      "x": 7600,
+      "y": 0,
+      "page": "forthcoming"
+    },
+    "Fc-cybersecurity-act-2.dc.html": {
+      "expand": "fill",
+      "h": 1703,
+      "is_interactive": true,
+      "title": "Forthcoming: Cybersecurity Act 2",
+      "w": 1440,
+      "x": 9120,
+      "y": 0,
+      "page": "forthcoming"
+    },
+    "Fc-data-retention.dc.html": {
+      "expand": "fill",
+      "h": 1576,
+      "is_interactive": true,
+      "title": "Forthcoming: EU framework for data retention",
+      "w": 1440,
+      "x": 10640,
+      "y": 0,
+      "page": "forthcoming"
+    },
+    "Fc-digital-fairness-act.dc.html": {
+      "expand": "fill",
+      "h": 1754,
+      "is_interactive": true,
+      "title": "Forthcoming: Digital Fairness Act",
+      "w": 1440,
+      "x": 12160,
+      "y": 0,
+      "page": "forthcoming"
+    },
+    "Fc-digital-networks-act.dc.html": {
+      "expand": "fill",
+      "h": 1892,
+      "is_interactive": true,
+      "title": "Forthcoming: Digital Networks Act",
+      "w": 1440,
+      "x": 13680,
+      "y": 0,
+      "page": "forthcoming"
+    },
+    "Fc-digital-omnibus.dc.html": {
+      "expand": "fill",
+      "h": 1836,
+      "is_interactive": true,
+      "title": "Forthcoming: Digital Omnibus (data, privacy, cybersecurity)",
+      "w": 1440,
+      "x": 0,
+      "y": 2200,
+      "page": "forthcoming"
+    },
+    "Fc-eu-inc.dc.html": {
+      "expand": "fill",
+      "h": 1676,
+      "is_interactive": true,
+      "title": "Forthcoming: EU Inc (28th regime)",
+      "w": 1440,
+      "x": 1520,
+      "y": 2200,
+      "page": "forthcoming"
+    },
+    "Fc-euccs.dc.html": {
+      "expand": "fill",
+      "h": 1578,
+      "is_interactive": true,
+      "title": "Forthcoming: European Critical Communication System (EUCCS)",
+      "w": 1440,
+      "x": 3040,
+      "y": 2200,
+      "page": "forthcoming"
+    },
+    "Fc-european-innovation-act.dc.html": {
+      "expand": "fill",
+      "h": 1584,
+      "is_interactive": true,
+      "title": "Forthcoming: European Innovation Act",
+      "w": 1440,
+      "x": 4560,
+      "y": 2200,
+      "page": "forthcoming"
+    },
+    "Fc-european-product-act.dc.html": {
+      "expand": "fill",
+      "h": 1664,
+      "is_interactive": true,
+      "title": "Forthcoming: European Product Act",
+      "w": 1440,
+      "x": 6080,
+      "y": 2200,
+      "page": "forthcoming"
+    },
+    "Fc-multimodal-digital-mobility.dc.html": {
+      "expand": "fill",
+      "h": 1638,
+      "is_interactive": true,
+      "title": "Forthcoming: Multimodal Digital Mobility Services Regulation",
+      "w": 1440,
+      "x": 7600,
+      "y": 2200,
+      "page": "forthcoming"
+    },
+    "Fc-omnibus-iv.dc.html": {
+      "expand": "fill",
+      "h": 1737,
+      "is_interactive": true,
+      "title": "Forthcoming: Omnibus IV (small mid-caps and digital product compliance)",
+      "w": 1440,
+      "x": 9120,
+      "y": 2200,
+      "page": "forthcoming"
+    },
+    "Fc-quantum-act.dc.html": {
+      "expand": "fill",
+      "h": 1576,
+      "is_interactive": true,
+      "title": "Forthcoming: Quantum Act",
+      "w": 1440,
+      "x": 10640,
+      "y": 2200,
+      "page": "forthcoming"
+    },
+    "Fc-single-digital-booking.dc.html": {
+      "expand": "fill",
+      "h": 1605,
+      "is_interactive": true,
+      "title": "Forthcoming: Single Digital Booking and Ticketing",
+      "w": 1440,
+      "x": 12160,
+      "y": 2200,
+      "page": "forthcoming"
+    },
+    "Fc-smbpa.dc.html": {
+      "expand": "fill",
+      "h": 1576,
+      "is_interactive": true,
+      "title": "Forthcoming: Single Market Barriers Prevention Act",
+      "w": 1440,
+      "x": 13680,
+      "y": 2200,
+      "page": "forthcoming"
     }
   },
   "createdOnFiles": {
@@ -1524,7 +1734,28 @@
     "Act-union-secure-connectivity-programme.dc.html",
     "Act-vat-in-the-digital-age-vida.dc.html",
     "Act-vertical-block-exemption-regulation.dc.html",
-    "Act-violence-against-women-directive.dc.html"
+    "Act-violence-against-women-directive.dc.html",
+    "Forthcoming.dc.html",
+    "Fc-antitrust-procedure.dc.html",
+    "Fc-avmsd-revision.dc.html",
+    "Fc-business-wallet.dc.html",
+    "Fc-chips-act-2.dc.html",
+    "Fc-cloud-ai-development-act.dc.html",
+    "Fc-cpc-review.dc.html",
+    "Fc-cybersecurity-act-2.dc.html",
+    "Fc-data-retention.dc.html",
+    "Fc-digital-fairness-act.dc.html",
+    "Fc-digital-networks-act.dc.html",
+    "Fc-digital-omnibus.dc.html",
+    "Fc-eu-inc.dc.html",
+    "Fc-euccs.dc.html",
+    "Fc-european-innovation-act.dc.html",
+    "Fc-european-product-act.dc.html",
+    "Fc-multimodal-digital-mobility.dc.html",
+    "Fc-omnibus-iv.dc.html",
+    "Fc-quantum-act.dc.html",
+    "Fc-single-digital-booking.dc.html",
+    "Fc-smbpa.dc.html"
   ],
   "pages": [
     {
@@ -1534,6 +1765,10 @@
     {
       "id": "instruments",
       "name": "Instrument pages"
+    },
+    {
+      "id": "forthcoming",
+      "name": "Forthcoming pages"
     }
   ],
   "title": "EU Digital Rulebook site mockup"

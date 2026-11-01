@@ -4,13 +4,18 @@ the rules (who must act, by kind, reporting, rules or standards, who it applies 
 key results (with scorecard), evidence since adoption (scrollable, filter for causal studies), second layer and guidance,
 amendments, related instruments. Writes site/mockup/Act-<slug>.dc.html (and Instrument.dc.html = Digital Markets Act),
 plus site/instrument_pages.json (row_id -> file). Run from research/ceps_metrics."""
+import os
 import json, re, html, glob, hashlib, collections, statistics, datetime, openpyxl
 esc = lambda s: html.escape(str(s if s is not None else ""), quote=True)
 wb = openpyxl.load_workbook("ceps_instruments_metrics.xlsx", read_only=True, data_only=True)
 def sheet(n):
     rows = list(wb[n].values); h = rows[0]
     return [dict(zip(h, r)) for r in rows[1:] if r[0] is not None]
-I = sheet("instruments"); SEC = sheet("secondary_acts"); AM = sheet("amendments"); GA = sheet("guidance_agencies"); GW = sheet("guidance_web")
+I = sheet("instruments");
+for _r in I:
+    _st = json.load(open("site/forthcoming_status.json")).get(str(_r["row_id"])) if os.path.exists("site/forthcoming_status.json") else None
+    if _st: _r["status_oct2026"] = _st
+SEC = sheet("secondary_acts"); AM = sheet("amendments"); GA = sheet("guidance_agencies"); GW = sheet("guidance_web")
 PI = sheet("proposal_indicators"); LIT = sheet("impact_literature")
 ERA = {o["row_id"]: o for o in json.load(open("data/policy_eras/instruments.json"))}
 RS = {o["name"]: o for o in json.load(open("data/rules_standards/summary.json"))["instruments"]}
@@ -286,7 +291,7 @@ def page(r):
   <section style="border-top: 1px solid #E8E6E3; border-bottom: 1px solid #E8E6E3; background: #F5F5F0">
     <div class="wrap" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 28px; padding-block: 30px">{kpis}</div>
   </section>
-  <section style="padding-block: 40px 0">
+{STAND.get(str(rid), "")}  <section style="padding-block: 40px 0">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 12px">
       <h2 class="h2">How it compares</h2>
       <p class="body">{cmp_text}</p>
@@ -316,6 +321,7 @@ def page(r):
 '''
     return body
 
+STAND = json.load(open("site/forthcoming.json")) if os.path.exists("site/forthcoming.json") else {}
 TPL = open("site/instrument_template.dc.html").read()
 H0, H1 = TPL.split("<!--BODY-->")
 out = {}

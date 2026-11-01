@@ -1,0 +1,229 @@
+{
+ "digital-omnibus": {
+  "tracker": "https://digital-acquis.eu/initiative/digital-omnibus-on-data",
+  "sources": [
+   [
+    "Official source",
+    "https://eur-lex.europa.eu/resource.html?uri=cellar:ebf17714-c56e-11f0-8da2-01aa75ed71a1.0001.02/DOC_1&format=PDF"
+   ]
+  ],
+  "summary": "The Commission will table a simplification package to cut compliance costs in the digital acquis while preserving protections. It will rationalise data rules (i.e. DGA, Free Flow of Non-Personal Data, Open Data), modernise cookie/tracking provisions to curb consent fatigue, and streamline overlapping cybersecurity incident reporting, with targeted adjustments to ensure predictable application of the AI Act. It will also clarify obligations under the European Digital Identity framework and align with the forthcoming Business Wallet, applying ‘one-in, one-out’. A Digital Fitness Check will assess cumulative effects and cross-border fragmentation."
+ },
+ "business-wallet": {
+  "tracker": "https://digital-acquis.eu/initiative/european-business-wallet",
+  "sources": [
+   [
+    "Official source",
+    "https://eur-lex.europa.eu/resource.html?uri=cellar:bfd78780-c5de-11f0-8da2-01aa75ed71a1.0001.02/DOC_1&format=PDF"
+   ]
+  ],
+  "summary": "It will provide a legally recognised digital identity for economic operators, enabling companies to share verified data and credentials across borders and receive notifications in a secure channel. Built on BRIS and the European Unique Identifier, and aligned with the EU Digital Identity Wallet rollout and the Once-Only Technical System, it replaces document-heavy compliance with interoperable, data-based exchanges. The Wallet is a cornerstone of the Single Market simplification agenda and the EU Startup & Scaleup Strategy, lowering costs for SMEs, easing licensing and reporting, and making cross-border operations seamless, turning digital-by-default rules into practice across the EU business lifecycle."
+ },
+ "cybersecurity-act-2": {
+  "tracker": "https://digital-acquis.eu/initiative/cybersecurity-act-2-and-simplification-package",
+  "sources": [
+   [
+    "Official source",
+    "https://www.europarl.europa.eu/RegData/docs_autres_institutions/commission_europeenne/com/2026/0011/COM_COM(2026)0011_EN.pdf"
+   ],
+   [
+    "Cybersecurity Simplification Package",
+    "https://eur-lex.europa.eu/resource.html?uri=cellar:9b9c0d74-f6e3-11f0-b9bc-01aa75ed71a1.0001.02/DOC_1&format=PDF"
+   ]
+  ],
+  "summary": "Cybersecurity Act 2 would repeal the current Cybersecurity Act and reform ENISA, the European cybersecurity certification framework and ICT supply-chain security rules. The proposal aims to strengthen EU cyber capabilities and resilience, improve coordinated governance, speed certification schemes and reduce fragmented compliance requirements. It would provide a harmonised framework for non-technical ICT supply-chain risks, including measures addressing high-risk suppliers, while a related directive would simplify scope, definitions, ransomware reporting and supervision of cross-border service providers."
+ },
+ "eu-inc": {
+  "tracker": "https://digital-acquis.eu/initiative/eu-inc-28th-regime",
+  "sources": [
+   [
+    "Official source",
+    "https://commission.europa.eu/document/download/3e9822aa-8cef-40a1-904e-a53fc68e7265_en?filename=Proposal%20for%20an%20EU%20Inc%20corporate%20legal%20framework.pdf"
+   ],
+   [
+    "Towards a 28th regime for EU companies",
+    "https://commission.europa.eu/document/download/2d1b62a4-7807-4808-aed1-36f1f58ac1e7_en?filename=Communication%20Towards%20a%2028th%20regime%20for%20EU%20companies.pdf"
+   ]
+  ],
+  "summary": "It will create an optional, EU-wide corporate framework—digital by default—to let innovative firms set up, operate, and raise capital seamlessly across borders. The proposal may rely on TFEU Article 352 or a harmonised national form via Articles 50/114, with a progressive, modular design. It targets 48-hour incorporation and “once-only” data sharing via BRIS, EUID, and an EU Company Certificate, leveraging the European Business Wallet. Investment-friendly options under consideration include simpler capital increases, flexible share classes, and standard private-equity terms. Complementing the European Innovation Act, it cuts failure costs, fragmentation, and compliance burdens."
+ },
+ "cloud-ai-development-act": {
+  "tracker": "https://digital-acquis.eu/initiative/cloud-and-ai-development-act-cada",
+  "sources": [
+   [
+    "Official source",
+    "https://eur-lex.europa.eu/resource.html?uri=cellar:6e73e2db-5f40-11f1-aa6d-01aa75ed71a1.0001.02/DOC_1&format=PDF"
+   ]
+  ],
+  "summary": "This law will close Europe’s compute gap by tripling data-centre capacity within 5–7 years and meeting economy-wide needs by 2035, underpinning AI development and sovereign cloud services. It will harmonise cloud policy, set minimum criteria (including for a narrow set of highly critical use cases run on highly secure EU-based cloud), and streamline permitting, site designation and access to energy/water, ensuring geographically balanced rollout. The Act will spur R&I in resource-efficient data centres, enable targeted support consistent with State-aid rules, and complement AI Factories/Gigafactories and the Chips Act ecosystem."
+ },
+ "chips-act-2": {
+  "tracker": "https://digital-acquis.eu/initiative/chips-act-2-0",
+  "sources": [
+   [
+    "Official source",
+    "https://eur-lex.europa.eu/resource.html?uri=cellar:2c650725-5f40-11f1-aa6d-01aa75ed71a1.0001.02/DOC_1&format=PDF"
+   ]
+  ],
+  "summary": "The review will sharpen Europe’s semiconductor strategy for the AI era, addressing gaps in leading-edge capacity and ecosystem resilience. It will prioritise energy-efficient, secure AI chips; streamline State-aid pathways; improve monitoring of supply-chain vulnerabilities and technology-leakage risks; and better coordinate EU-national programmes. Leveraging the Chips Joint Undertaking and EuroHPC, it will back new fabs and advanced packaging lines and tie support to strategic projects. The review aligns with the AI Continent agenda (i.e. powering AI Factories and forthcoming Gigafactories and setting requirements for European AI semiconductors) within a renewed, more coherent EU funding framework."
+ },
+ "eurohpc-amendment": {
+  "tracker": "https://digital-acquis.eu/initiative/eurohpc-amendment-for-ai-gigafactories-and-quantum",
+  "sources": [
+   [
+    "Official source",
+    "https://www.europarl.europa.eu/RegData/docs_autres_institutions/commission_europeenne/com/2025/0414/COM_COM(2025)0414_EN.pdf"
+   ]
+  ],
+  "summary": "Proposed changes to the EuroHPC Joint Undertaking would provide a legal basis for AI Gigafactories and broaden its quantum remit. The facilities would support the development, training and deployment of large AI models for researchers, public-sector users, start-ups and industry, subject to access conditions. The quantum provisions cover research, innovation, infrastructure, skills, industrial capability, competence centres and links with classical high-performance computing."
+ },
+ "european-innovation-act": {
+  "tracker": "https://digital-acquis.eu/initiative/european-innovation-act",
+  "sources": [
+   [
+    "Official source",
+    "https://research-and-innovation.ec.europa.eu/strategy/support-policy-making/shaping-eu-research-and-innovation-policy/european-innovation-act_en"
+   ]
+  ],
+  "summary": "It will create horizontal, Single-Market-wide conditions to accelerate deployment and diffusion of innovation. The law will (i) simplify and make rules more innovation-friendly (incl. regulatory sandboxes), (ii) unlock IP-backed finance and improve access to EU/national funding, (iii) open research & technology infrastructures to companies, (iv) make public/private procurement more supportive of novel solutions, (v) improve commercialisation of publicly funded R&I (i.e. IP, standardisation, certification), (vi) enable talent attraction/retention (e.g. employee ownership schemes), and (vii) establish EU–Member State coordination of innovation policy, helping to close the EU’s innovation gap."
+ },
+ "euccs": {
+  "tracker": "https://digital-acquis.eu/initiative/european-critical-communication-system-euccs",
+  "sources": [
+   [
+    "Official source",
+    "https://home-affairs.ec.europa.eu/news/enhancing-europes-capacity-react-preparing-european-critical-communication-system-2026-01-30_en"
+   ]
+  ],
+  "summary": "The Commission will propose legislation to interconnect Member States’ next-generation critical communications used by police, civil protection, emergency medical, border and security authorities. EUCCS will set harmonised requirements for operational mobility, strong resilience and strategic autonomy, enabling secure cross-border voice/data, priority services and roaming, including satellite back-up via IRIS². It will modernise national systems, ensure interoperability and encrypted communications, and support crisis coordination from terrorism to large-scale disasters. Governance will link with the Preparedness Union’s all-hazards approach and ERCC, with EU-funded pilots building capabilities using European providers."
+ },
+ "multimodal-digital-mobility": {
+  "tracker": "https://digital-acquis.eu/initiative/multimodal-digital-mobility-services",
+  "sources": [
+   [
+    "Official source",
+    "https://transport.ec.europa.eu/document/download/17596ca2-fad5-467e-b71a-c490baf0bcd1_en?filename=COM_2026_231_Proposal_on_multimodal_booking.pdf"
+   ]
+  ],
+  "summary": "The proposed Regulation on multimodal booking aims to make it easier for travellers to search for, compare, combine and book travel options across transport modes. It would set common requirements for multimodal digital mobility services, including neutral display and ranking, marketing-information data, emissions information and certain data sharing. The proposal excludes SMEs from its scope, repeals the computerised-reservation-systems code of conduct, and provides for national enforcement, complaints, penalties, monitoring and reporting."
+ },
+ "single-digital-booking": {
+  "tracker": "https://digital-acquis.eu/initiative/single-digital-booking-and-ticketing",
+  "sources": [
+   [
+    "Official source",
+    "https://transport.ec.europa.eu/document/download/a3284ec0-f1ad-4ee4-a558-5d4c17948046_en?filename=COM_2026_232_Proposal_on_rail_ticketing.pdf"
+   ]
+  ],
+  "summary": "The Commission will propose an EU framework enabling passengers to buy a single ticket for cross-border rail journeys across multiple operators, with passengers’ rights applying across the whole trip. It will mandate interoperable data and open, non-discriminatory APIs for schedules, fares and reservation systems; ensure through-ticketing, real-time disruption information and seamless refunds/re-routing; and set governance for liability, revenue settlement and dispute resolution. The initiative complements paperless mobility actions and aims to make rail a convenient, default choice for long-distance travel while boosting tourism and Single Market integration."
+ },
+ "quantum-act": {
+  "tracker": "https://digital-acquis.eu/initiative/quantum-act",
+  "sources": [],
+  "summary": "The Act will make the Quantum Europe Strategy operational, fixing fragmentation by aligning EU and national programmes around a shared RTI agenda and targets. It sets EU-level governance and extends the Chips Joint Undertaking’s remit to quantum technologies, coordinating investments across EU programmes. It anchors a three-stage pipeline—Discover; Lab-to-fab via pilot lines, design tools and standards; Apply & use in lead sectors, while scaling pan-European infrastructures in quantum computing, secure communication (EuroQCI) and sensing. The Act backs skills and industrialisation, strengthens supply chains. It also drives standardisation and interoperability and fosters talent attraction."
+ },
+ "cpc-review": {
+  "tracker": "https://digital-acquis.eu/initiative/consumer-protection-cooperation-regulation-cpcr-reform",
+  "sources": [
+   [
+    "Official source",
+    "https://commission.europa.eu/law/law-topic/consumer-protection-law/consumer-protection-cooperation-regulation_en"
+   ]
+  ],
+  "summary": "The Consumer Protection Cooperation Regulation provides a framework for national authorities to work together on cross-border breaches of consumer rules. The authorities can seek information from domain registrars and banks, use mystery shopping, and order the immediate removal of websites hosting scams. The Commission coordinates cooperation and can coordinate EU-wide action, while authorities may accept business commitments to correct practices and provide remedies and compensation."
+ },
+ "antitrust-procedure": {
+  "tracker": "https://digital-acquis.eu/initiative/eu-antitrust-procedural-rules-reform",
+  "sources": [
+   [
+    "Official source",
+    "https://competition-policy.ec.europa.eu/public-consultations/eu-antitrust-revision-procedural-rules-revision_en"
+   ]
+  ],
+  "summary": "The Commission will revise Regulation (EU) 1/2003 and its implementing act to make antitrust enforcement faster, digital-ready, coherent. Options include stand-alone data-preservation orders; inspection powers covering all business records regardless of storage; the ability to summon individuals; streamlined interim measures and time-bound commitment proceedings; and a modernised access-to-file regime via confidentiality-bound external advisors. The review may harmonise complainant and third-party participation and strengthen coordination where Member States use stricter unilateral-conduct laws, safeguarding single-market consistency. The initiative seeks effective application of Articles 101/102 while reducing administrative burden, incorporating case law, and clarifying rules."
+ },
+ "avmsd-revision": {
+  "tracker": "https://digital-acquis.eu/initiative/avmsd-revision",
+  "sources": [],
+  "summary": "The Commission will run the AVMSD ex-post evaluation under Article 33 by 19 December 2026, followed, where appropriate, by proposals to review the Directive. Council conclusions (May 2025) suggested key reform priorities: clarify scope (incl. influencers/professional creators), ensure coherent interplay with DSA/EMFA, strengthen protection of minors and rules for VSPs, safeguard prominence/access to general-interest content and major events, and improve cross-border enforcement through the new European Board for Media Services. The exercise should keep the Single Market as the anchor (country-of-origin), avoid overlapping obligations, and de-risk regulatory fragmentation via clear definitions and digital-by-default, once-only procedures."
+ },
+ "data-retention": {
+  "tracker": "https://digital-acquis.eu/initiative/harmonised-eu-framework-for-data-retention",
+  "sources": [
+   [
+    "Official source",
+    "https://home-affairs.ec.europa.eu/policies/internal-security/lawful-access-data/data-retention_en"
+   ]
+  ],
+  "summary": "The Commission is preparing an impact assessment on data retention by service providers for criminal proceedings. The work responds to divergent national rules and the absence of an EU-wide framework, which authorities identify as an obstacle to investigations and cross-border cooperation. Consultations will examine the obstacles, possible non-regulatory and regulatory responses, and impacts on citizens' security, electronic-communications services and the protection of fundamental rights."
+ },
+ "european-product-act": {
+  "tracker": "https://digital-acquis.eu/initiative/european-product-act-epa",
+  "sources": [
+   [
+    "Official source",
+    "https://publications.europa.eu/resource/cellar/7f0c63c8-ae8f-11f0-89c6-01aa75ed71a1.0001.02/DOC_2"
+   ]
+  ],
+  "summary": "The European Product Act would update three parts of EU product law: the new legislative framework of product rules, market surveillance and compliance, and standardisation. The Commission work programme 2026 schedules the legislative measures for Q3 2026. It cites Article 114 TFEU for the framework and standardisation updates, and Articles 33 and 114 TFEU for market surveillance and compliance."
+ },
+ "omnibus-iv": {
+  "tracker": "https://digital-acquis.eu/initiative/omnibus-iv-mid-caps",
+  "sources": [
+   [
+    "Official source",
+    "https://single-market-economy.ec.europa.eu/publications/omnibus-iv_en"
+   ]
+  ],
+  "summary": "The Commission will fast-track simplification by empowering common technical specifications when harmonised standards lag, and by digitalising compliance so firms can demonstrate conformity faster and paper-free. The package also extends existing SME mitigating measures to small mid-caps and removes redundant paper requirements in product laws, easing conformity assessment and cutting reporting overlaps. Together with the Single Market Strategy, it targets quicker time-to-market, legal certainty and lower costs while maintaining high safety and consumer protection. Delivery will be tied to measurable burden-reduction targets and periodic scorecards so businesses see real, near-term gains in every Member State."
+ },
+ "smbpa": {
+  "tracker": "https://digital-acquis.eu/initiative/single-market-barriers-prevention-act",
+  "sources": [],
+  "summary": "The EU will move from reacting to fragmentation to preventing it at source. Building on the Single Market Strategy, the Act would systematise ex-ante screening of draft national measures, reinforce notification/transparency obligations, and require Member States to self-assess EU-law compliance before adoption, curbing “gold-plating.” It would hard-wire a competitiveness/SME check for significant amendments, introduce rapid-reaction deadlines to fix non-compliant rules, and align agencies and regulators to ensure uniform application. Annual progress reporting and more decisive infringement where needed will anchor accountability, complemented by a shift to digital-by-default administration and a “1-in, 27-out” simplification ethos to keep new barriers from emerging."
+ },
+ "digital-networks-act": {
+  "tracker": "https://digital-acquis.eu/initiative/digital-networks-act-dna",
+  "sources": [
+   [
+    "Official source",
+    "https://eur-lex.europa.eu/resource.html?uri=cellar:85e1265a-f6af-11f0-b9bc-01aa75ed71a1.0001.02/DOC_1&format=PDF"
+   ]
+  ],
+  "summary": "This law will build a true Single Market for connectivity by harmonising authorisations and spectrum policy, enabling cross-border services and a coordinated path to 6G. It modernises the telecom rulebook to spur investment in fibre, 5G and cloud/edge networks, integrates satellite services, and tackles market fragmentation that keeps Europe split into various national markets. It will streamline permits, clarify open-internet rules for innovative services, support copper switch-off and cloud-based network transformation, and target up to a 50% reduction in reporting burdens. A stronger EU governance model will replace patchwork oversight, boosting resilience, security and scale for operators and users."
+ },
+ "digital-fairness-act": {
+  "tracker": "https://digital-acquis.eu/initiative/digital-fairness-act-dfa",
+  "sources": [
+   [
+    "Official source",
+    "https://commission.europa.eu/law/law-topic/consumer-protection-law/review-eu-consumer-law_en"
+   ]
+  ],
+  "summary": "Based on a fitness check of EU consumer law in 2024, the Commission plans to propose a Digital Fairness Act that curbs manipulative design (“dark patterns”), addictive features and subscription traps; clarifies rules for influencer and AI-driven marketing; strengthens protections for minors; and streamlines information duties so consumers face less overload and can cancel easily. Options include amending the Unfair Commercial Practices and Consumer Rights directives or proposing a new regulation, ensuring coherence with the DSA, DMA and the AI Act. It will drive harmonised, high-impact enforcement with clear duties for platforms and advertisers, easy redress for consumers, and deterrent penalties."
+ },
+ "space-act": {
+  "tracker": "https://digital-acquis.eu/initiative/eu-space-act",
+  "sources": [
+   [
+    "Official source",
+    "https://eur-lex.europa.eu/resource.html?uri=cellar:c7906dd7-5283-11f0-a9d0-01aa75ed71a1.0001.02/DOC_1&format=PDF"
+   ]
+  ],
+  "summary": "The law will establish a single, harmonised regulatory framework for the safety, resilience, and environmental sustainability of space activities across the Union. It aims to overcome the fragmentation caused by 13 divergent national space laws across Europe, ensuring a predictable internal market for space services and space-based data. The Act introduces uniform authorisation and registration rules, tailored cybersecurity and debris-mitigation obligations, and a common environmental footprint methodology. By providing legal certainty and reducing regulatory complexity, it will strengthen the competitiveness of EU space operators, foster innovation in the New Space sector, and position Europe as a global standard-setter in space governance."
+ },
+ "digital-travel": {
+  "tracker": "https://digital-acquis.eu/initiative/eu-digital-travel-application",
+  "sources": [
+   [
+    "Official source",
+    "https://eur-lex.europa.eu/resource.html?uri=cellar:215804fa-8640-11ef-a67d-01aa75ed71a1.0001.02/DOC_1&format=PDF"
+   ],
+   [
+    "Official source",
+    "https://publications.europa.eu/resource/cellar/215804fa-8640-11ef-a67d-01aa75ed71a1.0001.02/DOC_1"
+   ]
+  ],
+  "summary": "The EU Digital Travel application would let travellers create a digital travel credential and submit travel data for checks before reaching an external border. The proposal aims to reduce bottlenecks while helping border authorities verify documents, identity and security risks in advance. It provides for single or repeated use, secure validation against the travel document's chip and possible storage in the European Digital Identity Wallet."
+ }
+}

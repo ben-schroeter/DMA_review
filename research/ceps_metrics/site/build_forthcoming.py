@@ -1,5 +1,5 @@
 """Builds Digital Acquis > Forthcoming (list of proposed and announced initiatives not yet adopted) and one page per
-initiative. Prototype: writes to site/proto/. Run from research/ceps_metrics/site."""
+initiative. Writes to site/mockup/ and site/forthcoming.json (status blocks for pending acts in the CEPS list). Run from research/ceps_metrics/site."""
 import html, json, os, re
 
 esc = lambda s: html.escape(s, quote=True)
@@ -51,10 +51,6 @@ F = [
       what="Further support for advanced chip production and design, and supply-chain monitoring.",
       track=["Jun 2026", None, None, None, None], target="Q2 2027",
       latest="Proposed in June 2026; amends the European Chips Act."),
- dict(id="eurohpc-amendment", name="EuroHPC amendment: AI Gigafactories and quantum", stage="proposed", area="Industrial Policy", proc="Jan 2026",
-      what="Gives the EuroHPC Joint Undertaking a legal basis to build AI Gigafactories and widens its quantum remit.",
-      track=["Jan 2026", None, None, None, None], target="—",
-      latest="Proposed January 2026; amends the EuroHPC Joint Undertaking Regulation."),
  dict(id="european-innovation-act", name="European Innovation Act", stage="proposed", area="Industrial Policy", proc="Sep 2026",
       what="Regulatory sandboxes, access to research infrastructure, innovation-friendly procurement and IP-backed finance.",
       track=["Sep 2026", None, None, None, None], target="—",
@@ -93,17 +89,20 @@ F = [
       latest="Parliament committee vote moved to November 2026; no Council general approach yet."),
  dict(id="infosec", name="Information Security Regulation", stage="proposed", area="Cybersecurity", row=79, proc="2022/0084(COD)",
       what="Common information security rules for EU institutions, bodies and agencies.",
-      track=["Mar 2022", "2023", "2023", None, None], target="—", check=True,
-      latest="Status to be confirmed."),
+      track=["Mar 2022", None, None, None, None], target="—",
+      latest="Stalled: Parliament's committee has not yet voted, more than four years after the proposal."),
  dict(id="late-payment", name="Late Payment Regulation", stage="proposed", area="Competition & Single Market", row=104, proc="2023/0323(COD)",
       what="A 30-day payment cap for commercial transactions, with enforcement authorities.",
-      track=["Sep 2023", "Apr 2024", None, None, None], target="—", check=True,
-      latest="Blocked in Council; status to be confirmed."),
- dict(id="csa-directive", name="Child Sexual Abuse Directive (recast)", stage="proposed", area="Data & Privacy", row=105, proc="2024/0035(COD)",
-      what="Updates criminal-law definitions and penalties, including for AI-generated material.",
-      track=["Feb 2024", "2024", "2025", None, None], target="—", check=True,
-      latest="Status to be confirmed."),
- # --- announced
+      track=["Sep 2023", "Apr 2024", None, None, None], target="—",
+      latest="Blocked in Council since Parliament's April 2024 position; 2026 reports say the Commission intends to withdraw it."),
+ dict(id="csa-directive", name="Child Sexual Abuse Directive (recast)", stage="agreed", area="Data & Privacy", row=105, proc="2024/0035(COD)",
+      what="Updates criminal-law definitions and penalties, including for AI-generated abuse material and livestreamed abuse.",
+      track=["Feb 2024", "", "", "", "Jun 2026"], target="—",
+      latest="Provisional agreement on 22 June 2026; awaiting formal adoption."),
+ dict(id="omnibus-iv", name="Omnibus IV (small mid-caps and digital product compliance)", stage="agreed", area="Competition & Single Market", proc="COM(2025) 501",
+      what="Extends SME relief to small mid-caps, narrows the GDPR record-keeping duty and moves product compliance documents to digital.",
+      track=["May 2025", "", "", "", "Jun 2026"], target="End 2026",
+      latest="Provisional agreement reported on 9 June 2026; Parliament plenary vote indicatively 23 November 2026."),
  dict(id="digital-fairness-act", name="Digital Fairness Act", stage="announced", area="E-commerce & Consumer Protection", proc="CWP 2026",
       what="Consumer rules on dark patterns, addictive design, unfair personalisation and subscription traps.",
       expected="Q4 2026", target="—",
@@ -120,6 +119,14 @@ F = [
       what="Faster, digital-ready enforcement of Articles 101 and 102: data-preservation orders, inspection of all business records, quicker interim measures.",
       expected="Q2 2027 (planned Q3 2026)", target="—",
       latest="Evaluation and consultation done; proposal pushed to 2027."),
+ dict(id="european-product-act", name="European Product Act", stage="announced", area="Competition & Single Market", proc="CWP 2026",
+      what="Overhauls the framework for EU product laws, market surveillance and standardisation.",
+      expected="Q3 2026, delayed", target="Q4 2027",
+      latest="Scheduled for Q3 2026; not yet proposed."),
+ dict(id="smbpa", name="Single Market Barriers Prevention Act", stage="announced", area="Competition & Single Market", proc="Single Market Strategy",
+      what="Screens draft national rules to stop new single-market barriers before they are adopted.",
+      expected="Q3 2027", target="—",
+      latest="Announced in the Single Market Strategy."),
  dict(id="avmsd-revision", name="Revision of the Audiovisual Media Services Directive", stage="announced", area="E-commerce & Consumer Protection", row=None, proc="Evaluation",
       what="Scope for influencers, protection of minors on video-sharing platforms, prominence of general-interest content.",
       expected="After the evaluation due 19 Dec 2026", target="—",
@@ -217,10 +224,10 @@ body = f'''
     </div>
   </section>
 {secs}
-  <section style="padding-block: 0 72px"><div class="wrap"><p class="cap">Recently adopted, so no longer listed: Digital Omnibus on AI (Regulation (EU) 2026/1744, in force 27 July 2026). It postdates the CEPS list and is not among the 115 legal instruments.</p></div></section>
+  <section style="padding-block: 0 72px"><div class="wrap"><p class="cap">Recently adopted, so no longer listed: Digital Omnibus on AI (Regulation (EU) 2026/1744, in force 27 July 2026) and the EuroHPC amendment for AI Gigafactories and quantum (Council, 16 January 2026). Both postdate the CEPS list.</p></div></section>
 '''
-os.makedirs("proto", exist_ok=True)
-open("proto/Forthcoming.dc.html", "w").write(shell("Forthcoming", body, 4200))
+OUT = "mockup"
+open(f"{OUT}/Forthcoming.dc.html", "w").write(shell("Forthcoming", body, 6000))
 
 
 # ---------- initiative pages (two prototypes)
@@ -274,7 +281,7 @@ def fpage(f, sub, intro, does, changes, docs, docs_title, docs_note, extra=""):
     </div>
   </section>
 '''
-    open(f"proto/Fc-{f['id']}.dc.html", "w").write(shell(f["name"], body, 2600))
+    open(f"{OUT}/Fc-{f['id']}.dc.html", "w").write(shell(f["name"], body, 2600))
 
 
 dna = next(f for f in F if f["id"] == "digital-networks-act")
@@ -318,4 +325,67 @@ fpage(dfa, [("Announced in", "Work programme 2026"), ("Consultation", "Jul – O
                          ("Dec 2025", "Factual summary report of the consultation", "Commission", "")]),
        ("Planning", [("Oct 2025", "Commission work programme 2026", "COM(2025) 870", EUR("52025DC0870"))])],
       "Preparatory studies and consultations", "Until the proposal is published there is no impact assessment; these are the studies and consultations it will build on.")
-print("ok", len(F))
+
+# ---------- all other initiative pages, from forthcoming_details.py
+from forthcoming_details import D
+SRC = json.load(open("forthcoming_sources.json"))
+CWP26 = ("Oct 2025", "Commission work programme 2026", "COM(2025) 870", EUR("52025DC0870"))
+ROADMAP = ("Apr 2026", "One Europe, One Market roadmap", "Parliament, Council and Commission", "https://commission.europa.eu/topics/competitiveness/one-europe-one-market-roadmap_en")
+OEIL_OK = lambda pr: bool(re.match(r"\d{4}/\d{4}\(COD\)", pr or ""))
+for f in F:
+    if f.get("row") or f["id"] in ("digital-networks-act", "digital-fairness-act"):
+        continue
+    d = D[f["id"]]
+    src = SRC.get(f["id"], {})
+    links = src.get("sources", [])
+    f["latest_long"] = d["latest"]
+    chg = [(n, how, ACT(r)) for n, how, r in d["changes"]] or [("No law in the current Digital Acquis", "a new instrument", "Instruments.dc.html")]
+    tracker = [("", "Digital Acquis tracker entry", "digital-acquis.eu (Kai Zenner, Digital Policy Alert, TUM Think Tank)", src["tracker"])] if src.get("tracker") else []
+    if f["stage"] == "announced":
+        prep = [("", t if t != "Official source" else "Commission page on the initiative", "Commission", u) for t, u in links]
+        docs = [("Preparatory work and consultations", prep or [("", "No preparatory documents published yet", "", "")]), ("Planning", [CWP26, ROADMAP] + tracker)]
+        sub = [("Announced in", "Work programme 2026" if f["proc"] == "CWP 2026" else f["proc"]), ("Proposal expected", f["expected"]), ("Target for agreement", f["target"] if f["target"] != "—" else "not set")]
+        fpage(f, sub, d["intro"], d["does"], chg, docs, "Preparatory studies and consultations",
+              "Until the proposal is published there is no impact assessment; these are the documents it will build on.")
+    else:
+        url = EUR(d["eurlex"]) if d.get("eurlex") else (links[0][1] if links else "")
+        com = [(d["date"], "Commission proposal", d["ref"], url)] + [("", t, "Commission", u) for t, u in links[1:]]
+        pc = []
+        if OEIL_OK(f["proc"]):
+            pc.append(("", f"Procedure file {f['proc']}", "Legislative Observatory", OEIL(f["proc"])))
+        if f["id"] == "digital-omnibus":
+            pc.append(("Oct 2026", "Council negotiating mandate", "agreed 21 October 2026", ""))
+            pc.append(("", "Parliament report", "in committee", ""))
+        elif f["stage"] == "agreed":
+            pc.append(("Jun 2026", "Provisional agreement", "awaiting formal adoption", ""))
+        else:
+            pc.append(("", "Parliament report and Council position", "not yet adopted", ""))
+        docs = [("Commission", com), ("Parliament and Council", pc), ("Planning", [ROADMAP] + tracker)]
+        fpage(f, None, d["intro"], d["does"], chg, docs, "Key documents",
+              "The Commission proposal, then the reports and positions of Parliament and Council as they appear.")
+
+# ---------- status blocks for pending acts that already have an instrument page
+def eurproc(pr):
+    m = re.match(r"(\d{4})/(\d{4})\(COD\)", pr or "")
+    return f"https://eur-lex.europa.eu/procedure/EN/{m.group(1)}_{int(m.group(2))}" if m else ""
+STAND = {}
+for f in F:
+    if not f.get("row"):
+        continue
+    lab, col = STAGE[f["stage"]]
+    docs = [(f"Procedure file {f['proc']}", "Legislative Observatory: Parliament reports and votes", OEIL(f["proc"]))] if OEIL_OK(f["proc"]) else []
+    if eurproc(f["proc"]):
+        docs.append(("EUR-Lex procedure", "Commission proposal and Council documents", eurproc(f["proc"])))
+    dl = "".join(f'<li style="display: block"><a href="{u}">{esc(t)}</a> <span class="cap">· {esc(n)}</span></li>' for t, n, u in docs)
+    STAND[f["row"]] = f'''  <section style="padding-block: 40px 8px">
+    <div class="wrap" style="display: flex; flex-direction: column; gap: 16px">
+      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px"><h2 class="h2">Where it stands</h2><span class="chip" style="border-color: {col}; color: {col}; font-weight: 600">{lab}</span><a class="cap" href="Forthcoming.dc.html">All forthcoming initiatives →</a></div>
+      {track(f["track"], big=True)}
+      <div style="padding: 16px 20px; border-left: 3px solid #B8860B; background: #FFFFFF; border-radius: 0 12px 12px 0"><p class="eyebrow" style="font-size: 12px">Latest · {AS_OF}</p><p class="body" style="margin-top: 6px">{esc(f["latest"])}</p></div>
+      <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px">{dl}</ul>
+    </div>
+  </section>
+'''
+json.dump(STAND, open("forthcoming.json", "w"), indent=1)
+json.dump({str(f["row"]): f["stage"] if f["stage"] == "agreed" else "proposed" for f in F if f.get("row")}, open("forthcoming_status.json", "w"), indent=1)
+print("ok", len(F), "Fc pages:", sum(1 for f in F if not f.get("row")), "status blocks:", len(STAND))
