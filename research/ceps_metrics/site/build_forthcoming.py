@@ -224,7 +224,7 @@ body = f'''
     </div>
   </section>
 {secs}
-  <section style="padding-block: 0 72px"><div class="wrap"><p class="cap">Recently adopted, so no longer listed: Digital Omnibus on AI (Regulation (EU) 2026/1744, in force 27 July 2026) and the EuroHPC amendment for AI Gigafactories and quantum (Council, 16 January 2026). Both postdate the CEPS list.</p></div></section>
+  <section style="padding-block: 0 72px"><div class="wrap"><p class="cap">Recently adopted, so no longer listed: Digital Omnibus on AI (Regulation (EU) 2026/1744, in force 27 July 2026) and the EuroHPC amendment for AI Gigafactories and quantum (Council, 16 January 2026). Both amend laws already in our list and are counted there as amendments.</p></div></section>
 '''
 OUT = "mockup"
 open(f"{OUT}/Forthcoming.dc.html", "w").write(shell("Forthcoming", body, 6000))
@@ -340,7 +340,7 @@ for f in F:
     links = src.get("sources", [])
     f["latest_long"] = d["latest"]
     chg = [(n, how, ACT(r)) for n, how, r in d["changes"]] or [("No law in the current Digital Acquis", "a new instrument", "Instruments.dc.html")]
-    tracker = [("", "Digital Acquis tracker entry", "digital-acquis.eu (Kai Zenner, Digital Policy Alert, TUM Think Tank)", src["tracker"])] if src.get("tracker") else []
+    tracker = [("", "Digital Acquis tracker entry", "digital-acquis.eu", src["tracker"])] if src.get("tracker") else []
     if f["stage"] == "announced":
         prep = [("", t if t != "Official source" else "Commission page on the initiative", "Commission", u) for t, u in links]
         docs = [("Preparatory work and consultations", prep or [("", "No preparatory documents published yet", "", "")]), ("Planning", [CWP26, ROADMAP] + tracker)]

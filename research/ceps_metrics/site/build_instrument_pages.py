@@ -26,6 +26,10 @@ CT = {}; exec(compile(ct_src.split("wb = openpyxl")[0], "ct", "exec"), CT)
 fs_src = open("scripts/firm_size.py").read()
 FSR = re.findall(r"\((\d+), lambda r: .*?, (?:MICRO|SMALL|MEDIUM|SMC|LARGE|DESIG), \"([^\"]+)\"\)", fs_src)
 SIZE = {
+ 20: "Organisations with fewer than 250 employees need not keep records of processing activities, unless the processing is risky, not occasional or involves sensitive or criminal-record data (Article 30(5)).",
+ 32: "Microenterprises offering only number-independent communications services (such as messaging apps) are exempt from most end-user rights rules in Title III, except Articles 99 and 100 (Article 98).",
+ 71: "Micro, small and medium-sized publishers are exempt from periodic reporting on political advertising revenue (Article 14(2)) and get longer deadlines and best-efforts duties when answering authorities and handling notifications (Articles 15 and 16).",
+ 115: "Micro and small platforms with a monthly average of fewer than 4,250 listings in the previous quarter may report activity data quarterly, and manually, instead of monthly by machine-to-machine transmission (Article 9(2)).",
  11: "Applies only to mergers above set turnover thresholds (EUR 5 billion worldwide and EUR 250 million in the EU, or lower alternative thresholds), so in practice to large firms.",
  44: "Small enterprises are exempt from the duties to run an internal complaint-handling system and to name mediators.",
  57: "Several obligations apply only to financial entities other than microenterprises.",
@@ -183,7 +187,7 @@ def page(r):
     types = [TYPE_NAMES[k] for k in (["B"] + CT["TYPES"]) if k in CT["M"].get(rid, {})]
     applies = ("Applies to: " + "; ".join(types) + ".") if types else ("No company type assigned: its obligations fall mainly on public bodies, or on companies only as grant conditions." if ap else "Its obligations fall on public bodies, not companies.")
     size = SIZE.get(rid)
-    applies_html = f'<p class="body" style="font-size: 15px">{esc(applies)}</p>'
+    applies_html = ''
     applies_html += (f'<p class="body" style="font-size: 15px"><strong style="font-weight: 600">Size thresholds and exemptions:</strong> {esc(size)}</p>') if size else '<p class="body" style="font-size: 15px"><strong style="font-weight: 600">Size thresholds and exemptions:</strong> none found in the binding text; the rules apply to firms of every size.</p>'
     applies_html += '<p class="cap" style="margin: 0"><a href="CompanyTypes.dc.html">See how the Digital Acquis applies by type of company</a></p>'
     # objectives and key results
