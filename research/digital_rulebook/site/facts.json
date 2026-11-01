@@ -187,6 +187,70 @@
   "value": 7,
   "text": "7"
  },
+ "ev_costs_n": {
+  "value": 45,
+  "text": "45"
+ },
+ "ev_costs_causal": {
+  "value": 2,
+  "text": "2"
+ },
+ "ev_consumers_n": {
+  "value": 29,
+  "text": "29"
+ },
+ "ev_consumers_causal": {
+  "value": 9,
+  "text": "9"
+ },
+ "ev_competition_n": {
+  "value": 26,
+  "text": "26"
+ },
+ "ev_competition_causal": {
+  "value": 8,
+  "text": "8"
+ },
+ "ev_innovation_n": {
+  "value": 41,
+  "text": "41"
+ },
+ "ev_innovation_causal": {
+  "value": 9,
+  "text": "9"
+ },
+ "ev_growth_n": {
+  "value": 30,
+  "text": "30"
+ },
+ "ev_growth_causal": {
+  "value": 15,
+  "text": "15"
+ },
+ "ev_market_n": {
+  "value": 34,
+  "text": "34"
+ },
+ "ev_market_causal": {
+  "value": 5,
+  "text": "5"
+ },
+ "ev_rights_n": {
+  "value": 28,
+  "text": "28"
+ },
+ "ev_rights_causal": {
+  "value": 3,
+  "text": "3"
+ },
+ "ev_implementation_n": {
+  "value": 79,
+  "text": "79"
+ },
+ "ev_implementation_causal": {
+  "value": 3,
+  "text": "3"
+ },
  "db_instruments": {
   "value": 136,
   "text": "136"

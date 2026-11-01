@@ -54,6 +54,10 @@ put("rs_total_k", RS["main_all"]["n"] + RS["secondary_all"]["n"], k100(RS["main_
 P = json.load(open("site/forthcoming_list.json"))
 c = collections.Counter(x["stage"] for x in P)
 put("forthcoming_total", len(P)); put("forthcoming_agreed", c["agreed"]); put("forthcoming_negotiation", c["proposed"]); put("forthcoming_announced", c["announced"])
+# evidence map: laws with after-the-fact evidence / with a causal study, per kind of effect (Evidence page table)
+_V = list(json.load(open("data/evidence_map/cells.json"))["instruments"].values())
+for _k in ["costs", "consumers", "competition", "innovation", "growth", "market", "rights", "implementation"]:
+    put(f"ev_{_k}_n", sum(1 for v in _V if v["cells"][_k]["causal"] + v["cells"][_k]["measured"] > 0)); put(f"ev_{_k}_causal", sum(1 for v in _V if v["cells"][_k]["causal"] > 0))
 # database sizes (Data page)
 put("db_instruments", len(I)); put("db_secondary_all", len(SEC))
 _k = collections.Counter(x["kind"] for x in SEC); put("db_secondary_guidance", _k["guidance"]); put("db_secondary_other", _k["other Commission/Council act"])
