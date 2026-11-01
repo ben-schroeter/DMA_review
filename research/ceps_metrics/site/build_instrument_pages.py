@@ -20,9 +20,19 @@ ct_src = open("scripts/company_types.py").read()
 CT = {}; exec(compile(ct_src.split("wb = openpyxl")[0], "ct", "exec"), CT)
 fs_src = open("scripts/firm_size.py").read()
 FSR = re.findall(r"\((\d+), lambda r: .*?, (?:MICRO|SMALL|MEDIUM|SMC|LARGE|DESIG), \"([^\"]+)\"\)", fs_src)
-SIZE = collections.defaultdict(list)
-for rid, txt in FSR:
-    SIZE[int(rid)].append(txt)
+SIZE = {
+ 11: "Applies only to mergers above set turnover thresholds (EUR 5 billion worldwide and EUR 250 million in the EU, or lower alternative thresholds), so in practice to large firms.",
+ 44: "Small enterprises are exempt from the duties to run an internal complaint-handling system and to name mediators.",
+ 57: "Several obligations apply only to financial entities other than microenterprises.",
+ 59: "Only designated gatekeepers are bound: firms with at least EUR 7.5 billion annual EU turnover or EUR 75 billion market value, running a platform service with at least 45 million monthly users in the EU.",
+ 60: "Micro and small platforms are exempt from the extra duties for online platforms and marketplaces and from transparency reports. The strictest rules apply only to very large platforms and search engines, with more than 45 million users in the EU.",
+ 61: "Applies to medium-sized and larger entities in the listed sectors; some, such as telecoms providers, are covered whatever their size.",
+ 64: "The strictest rules for general-purpose AI apply only to models with systemic risk, designated by the Commission or trained with very large amounts of computing power. Other duties apply whatever the firm's size, with lighter documentation and lower fines for SMEs.",
+ 66: "Applies only to deals involving a target with at least EUR 500 million EU turnover, and to public tenders worth at least EUR 250 million.",
+ 76: "Micro and small manufacturers are exempt from the data-sharing duties for connected products, and some duties to provide data free of charge apply only to larger data holders.",
+ 80: "Micro and small enterprises are exempt from the duty to disclose unsold consumer products and from the ban on destroying them; medium-sized firms get a transition period.",
+ 81: "The duties of health data holders for secondary use do not apply to microenterprises.",
+ 92: "Risk-preparedness duties apply only to large companies (over 500 staff and EUR 150 million turnover) that use strategic raw materials."}
 TYPE_NAMES = CT["NAMES"]
 CAUSAL = ("causal", "difference-in-difference", "event study", "event-study", "synthetic control", "regression discontinuity", "natural experiment", "instrumental variable", "randomi")
 is_causal = lambda m: bool(m) and (bool(re.search(r"\bDiD\b|\bDID\b", m)) or any(k in m.lower() for k in CAUSAL)) and "non-causal" not in m.lower() and "not causal" not in m.lower()
@@ -119,7 +129,7 @@ def page(r):
     else:
         who += f' by the <strong>{COMNAME[pt]}</strong>{pcs}; {"agreed, awaiting adoption" if r["status_oct2026"] == "agreed" else "still pending"} in October 2026'
     cite = era["cites"].get(era["era"]) if era else None
-    who += f' · Part of the <a href="DigitalPolicy.dc.html#era-{ea}" style="color: #8F6708; font-weight: 500">{esc(en)} agenda</a>' + (f'; the proposal cites “{esc(cite)}”' if cite else "")
+    who += f' · Part of the <a href="DigitalPolicy.dc.html#era-{ea}" style="color: #8F6708; font-weight: 500">{esc(en)} agenda</a>'
     LBL = {"strong": "strong", "moderate": "moderate", "thin": "thin", "ex-ante only": "too early to tell", "not adopted": "not yet adopted", "none": "none"}
     lvl = LBL.get(r["impact_evidence_level"] or ("not adopted" if pend else "none"), r["impact_evidence_level"])
     chips = [f'<a class="chip" href="{esc(r["source_url"] or "")}" style="text-decoration: none">{esc(r["identifier"] or r["celex_measured"])} ↗</a>',
@@ -168,8 +178,9 @@ def page(r):
     types = [TYPE_NAMES[k] for k in (["B"] + CT["TYPES"]) if k in CT["M"].get(rid, {})]
     applies = ("Applies to: " + "; ".join(types) + ".") if types else ("No company type assigned: its obligations fall mainly on public bodies, or on companies only as grant conditions." if ap else "Its obligations fall on public bodies, not companies.")
     size = SIZE.get(rid)
-    applies_html = f'<p class="body" style="font-size: 15px">{esc(applies)} <a href="CompanyTypes.dc.html">By type of company</a></p>'
-    applies_html += (f'<p class="cap" style="margin: 0">Size: ' + " ".join(esc(s) + "." for s in size) + "</p>") if size else '<p class="cap" style="margin: 0">Size: no exemption for small firms found in the binding text.</p>'
+    applies_html = f'<p class="body" style="font-size: 15px">{esc(applies)}</p>'
+    applies_html += (f'<p class="body" style="font-size: 15px"><strong style="font-weight: 600">Size thresholds and exemptions:</strong> {esc(size)}</p>') if size else '<p class="body" style="font-size: 15px"><strong style="font-weight: 600">Size thresholds and exemptions:</strong> none found in the binding text; the rules apply to firms of every size.</p>'
+    applies_html += '<p class="cap" style="margin: 0"><a href="CompanyTypes.dc.html">See how the Digital Acquis applies by type of company</a></p>'
     # objectives and key results
     pis = [p for p in PI if p["parent_row_id"] == rid]
     krs = [p for p in pis if p["indicator / promised impact"]]
@@ -193,7 +204,7 @@ def page(r):
       <p class="body">Objectives are the aims the Commission set for the law. Key results are how it said it would measure them: indicators in the proposal and forecasts in the impact assessment, checked against the evidence available in October 2026.</p>
       {"<div style='display: flex; flex-direction: column; gap: 10px; padding: 20px 24px; border-radius: 12px; background: #F5F5F0'><span class='eyebrow' style='font-size: 12px'>Objectives</span><ul style='margin: 0; padding-left: 20px; color: #3F3B3B'>" + "".join(f"<li>{esc(o)}</li>" for o in objs) + "</ul></div>" if objs else ""}
       {f'<p class="body" style="font-size: 15px"><strong style="font-weight: 600">Scorecard:</strong> {score} <a href="Evidence.dc.html">All laws</a></p>' if score else ""}
-      {f'<div class="scroll" style="max-height: 460px"><table class="tbl"><thead><tr><th scope="col">Key result</th><th scope="col">Objective</th><th scope="col">Evidence found</th><th scope="col">Status</th></tr></thead><tbody>{kr_rows}</tbody></table></div>' if krs else '<p class="cap">No measurable key results were set in the proposal.</p>'}
+      {f'<div class="scroll" style="max-height: 460px"><table class="tbl"><thead><tr><th scope="col">Key result</th><th scope="col">Objective</th><th scope="col">Evidence found</th><th scope="col">Status</th></tr></thead><tbody>{kr_rows}</tbody></table></div>' + (f'<p class="hint">Scroll the table to see all {len(krs)} key results ↓</p>' if len(krs) > 5 else "") if krs else '<p class="cap">No measurable key results were set in the proposal.</p>'}
     </div>
   </section>
 '''
@@ -216,8 +227,8 @@ def page(r):
         </div>
         <label for="causal-only" style="display: inline-flex; align-items: center; gap: 10px; font-size: 15px; min-height: 44px; cursor: pointer"><input id="causal-only" type="checkbox" checked="{{{{causalOnly}}}}" onChange="{{{{toggle}}}}" style="width: 18px; height: 18px; accent-color: #B8860B">Causal studies only</label>
       </div>
-      {f'<div class="scroll" style="max-height: 560px; background: #FAF9F5"><table class="tbl"><thead><tr><th scope="col">Source</th><th scope="col">Method</th><th scope="col">Finding</th></tr></thead><tbody>{ev_c}<sc-if value="{{{{showAll}}}}" hint-placeholder-val="{{{{ true }}}}">{ev_o}</sc-if></tbody></table></div>' if ev else '<p class="cap">No evaluations or studies found yet.</p>'}
-      <span class="cap">{len(ev)} sources, {len(causal)} causal. The list scrolls on its own. Each source links to the paper or official page.</span>
+      {f'<div class="scroll" style="max-height: 560px; background: #FAF9F5"><table class="tbl"><thead><tr><th scope="col">Source</th><th scope="col">Method</th><th scope="col">Finding</th></tr></thead><tbody>{ev_c}<sc-if value="{{{{showAll}}}}" hint-placeholder-val="{{{{ true }}}}">{ev_o}</sc-if></tbody></table></div>' + (f'<p class="hint">Scroll the list to see all {len(ev)} sources ↓</p>' if len(ev) > 4 else "") if ev else '<p class="cap">No evaluations or studies found yet.</p>'}
+      <span class="cap">{len(ev)} sources, {len(causal)} causal. Each source links to the paper or official page.</span>
     </div>
   </section>
 '''
@@ -225,7 +236,8 @@ def page(r):
     def lst(items, empty):
         if not items:
             return f'<p class="cap" style="margin: 0">{empty}</p>'
-        return '<div class="scroll" style="max-height: 300px"><ul class="lst">' + "".join(items) + "</ul></div>"
+        hint = f'<p class="hint">Scroll the box to see all {len(items)} ↓</p>' if len(items) > 5 else ""
+        return '<div class="scroll" style="max-height: 300px"><ul class="lst">' + "".join(items) + "</ul></div>" + hint
     sec_items = [f'<li><span class="cap">{DATE(s["date"])}</span><span><a href="{esc(s["source_url"] or "")}">{esc((s["title"] or s["celex"])[:180])}</a> <span class="cap">· {esc(s["kind"])}{", " + format(s["restrictions_total"], ",") + " obligations" if s["restrictions_total"] else ""}</span></span></li>'
                  for s in sorted(secs, key=lambda s: str(s["date"] or ""), reverse=True)]
     gd_items = [f'<li><span class="cap">{DATE(g["date"]) if g["date"] and re.match(r"\d{4}-\d\d-\d\d", str(g["date"])) else esc(g["date"] or "")}</span><span><a href="{esc(g["pdf_url"] or "")}">{esc((g["title"] or "")[:180])}</a> <span class="cap">· {esc(g["agency"] or "")}</span></span></li>' for g in GA if g["parent_row_id"] == rid]
@@ -234,7 +246,7 @@ def page(r):
     second = f'''  <section style="padding-block: 40px">
     <div class="wrap" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; align-items: start">
       <div style="display: flex; flex-direction: column; gap: 12px">
-        <h2 class="h3">Second layer: {len(secs)} implementing, delegated and other acts</h2>
+        <h2 class="h3">Implementation: {len(secs)} implementing, delegated and other acts</h2>
         {lst(sec_items, "No implementing or delegated acts found.")}
       </div>
       <div style="display: flex; flex-direction: column; gap: 12px">
@@ -268,7 +280,7 @@ def page(r):
         <div style="display: flex; flex-direction: column; gap: 8px"><p class="eyebrow">What we know so far</p><p class="body" style="font-size: 17px">{esc(r["impact_summary"] or ("Not yet adopted; no evidence on effects." if pend else "No summary yet."))}</p></div>
       </div>
       <figure style="margin: 8px 0 0; display: flex; flex-direction: column; gap: 4px"><figcaption class="eyebrow">Timeline</figcaption>{timeline(r)}
-        <span class="cap">{f'{months(r["proposal_date"], r["adoption_date"])} months from proposal to adoption.' if r["adoption_date"] and not pend else f'In negotiation for {months(r["proposal_date"], "2026-10-31")} months.'} Dates when its main rules start to apply are set in the text and often come later.</span></figure>
+        <span class="cap">{f'{months(r["proposal_date"], r["adoption_date"])} months from proposal to adoption.' if r["adoption_date"] and not pend else f'In negotiation for {months(r["proposal_date"], "2026-10-31")} months.'} Dates when rules start to apply may be set in the text and can come later.</span></figure>
     </div>
   </section>
   <section style="border-top: 1px solid #E8E6E3; border-bottom: 1px solid #E8E6E3; background: #F5F5F0">

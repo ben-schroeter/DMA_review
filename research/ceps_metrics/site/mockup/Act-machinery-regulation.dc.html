@@ -27,7 +27,12 @@ a{color:#282424}a:hover{color:#8F6708}
 .tbl td{padding:8px 12px;border-bottom:1px solid #E8E6E3;vertical-align:top;line-height:1.45}
 .small{display:block;font-size:13px;color:#666666;margin-top:4px}
 .h3{font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:24px;line-height:1.25;margin:0}
-.scroll{overflow:auto;border:1px solid #E8E6E3;border-radius:12px;background:#FFFFFF}
+.scroll{overflow-y:auto;overflow-x:auto;border:1px solid #E8E6E3;border-radius:12px;background:#FFFFFF;scrollbar-width:auto;scrollbar-color:#B8860B #EFEDE9;scrollbar-gutter:stable}
+.scroll::-webkit-scrollbar{width:12px;height:12px}
+.scroll::-webkit-scrollbar-track{background:#EFEDE9;border-radius:0 12px 12px 0}
+.scroll::-webkit-scrollbar-thumb{background:#B8860B;border-radius:8px;border:3px solid #EFEDE9}
+.scroll::-webkit-scrollbar-thumb:hover{background:#8F6708}
+.hint{margin:6px 0 0;font-size:13px;color:#8F6708;font-weight:500}
 .scroll thead th{position:sticky;top:0;background:#FFFFFF;z-index:1}
 .lst{list-style:none;margin:0;padding:4px 16px;font-size:14px;line-height:1.4}
 .lst li{display:grid;grid-template-columns:92px minmax(0,1fr);gap:12px;padding:8px 0;border-bottom:1px solid #EFEDE9}
@@ -60,13 +65,13 @@ a{color:#282424}a:hover{color:#8F6708}
       <nav aria-label="Breadcrumb" class="cap"><a href="Instruments.dc.html" style="color: #666666">Legal instruments</a> / <span>Trust &amp; Safety</span></nav>
       <h1 style="font-family: 'Source Serif 4', Georgia, serif; font-weight: 400; font-size: 52px; line-height: 1.05; letter-spacing: -0.02em; margin: 0">Machinery Regulation</h1>
       <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center"><a class="chip" href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1230" style="text-decoration: none">Regulation (EU) 2023/1230 ↗</a><span class="chip">Adopted 14 Jun 2023</span><span class="chip" style="border-color: #B8860B; color: #8F6708">Evidence: too early to tell</span></div>
-      <p class="cap" style="margin: 0">Proposed 21 Apr 2021 and adopted 14 Jun 2023 under the <strong>first von der Leyen Commission</strong> (Margrethe Vestager, Thierry Breton) · Part of the <a href="DigitalPolicy.dc.html#era-digital-decade" style="color: #8F6708; font-weight: 500">Digital Decade agenda</a>; the proposal cites “White Paper on Artificial Intelligence”</p>
+      <p class="cap" style="margin: 0">Proposed 21 Apr 2021 and adopted 14 Jun 2023 under the <strong>first von der Leyen Commission</strong> (Margrethe Vestager, Thierry Breton) · Part of the <a href="DigitalPolicy.dc.html#era-digital-decade" style="color: #8F6708; font-weight: 500">Digital Decade agenda</a></p>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; padding-top: 4px">
         <div style="display: flex; flex-direction: column; gap: 8px"><p class="eyebrow">What it does</p><p class="body" style="font-size: 17px; color: #282424">Sets health and safety requirements for the design and construction of machinery, related products such as safety components and lifting accessories, and partly completed machinery. Its aim is to protect consumers and professional users, and where relevant animals, property and the environment, while allowing compliant products to move freely in the EU. Manufacturers must meet these requirements before placing products on the market.</p></div>
         <div style="display: flex; flex-direction: column; gap: 8px"><p class="eyebrow">What we know so far</p><p class="body" style="font-size: 17px">The Machinery Regulation updates EU safety rules for machines, covering new risks from digital technologies and allowing digital instead of printed manuals. The Commission forecast printing savings of up to EUR 16.6 billion a year, but that rests on a broad assumption and the lower end is around EUR 4 billion. The rules only apply from January 2027, so no effects on safety or costs can be measured yet.</p></div>
       </div>
       <figure style="margin: 8px 0 0; display: flex; flex-direction: column; gap: 4px"><figcaption class="eyebrow">Timeline</figcaption><svg viewBox="0 0 1000 86" width="100%" role="img" aria-label="Timeline from proposal to entry into force"><line x1="30" x2="970.0" y1="40" y2="40" stroke="#B8860B" stroke-width="3"></line><circle cx="30.0" cy="40" r="7" fill="#B8860B" stroke="#FAF9F5" stroke-width="2"></circle><text x="30.0" y="18" text-anchor="start" font-family="DM Sans, sans-serif" font-size="13" fill="#282424"><tspan font-weight="600">Proposal</tspan> 21 Apr 2021</text><circle cx="929.4" cy="40" r="7" fill="#B8860B" stroke="#FAF9F5" stroke-width="2"></circle><circle cx="946.6" cy="40" r="7" fill="#B8860B" stroke="#FAF9F5" stroke-width="2"></circle><circle cx="970.0" cy="40" r="7" fill="#B8860B" stroke="#FAF9F5" stroke-width="2"></circle><text x="970.0" y="72" text-anchor="end" font-family="DM Sans, sans-serif" font-size="13" fill="#282424"><tspan font-weight="600">Adopted</tspan> 14 Jun 2023 · <tspan font-weight="600">Published</tspan> 29 Jun 2023 · <tspan font-weight="600">In force</tspan> 19 Jul 2023</text></svg>
-        <span class="cap">26 months from proposal to adoption. Dates when its main rules start to apply are set in the text and often come later.</span></figure>
+        <span class="cap">26 months from proposal to adoption. Dates when rules start to apply may be set in the text and can come later.</span></figure>
     </div>
   </section>
   <section style="border-top: 1px solid #E8E6E3; border-bottom: 1px solid #E8E6E3; background: #F5F5F0">
@@ -87,7 +92,7 @@ a{color:#282424}a:hover{color:#8F6708}
         <div style="display: flex; flex-wrap: wrap; gap: 8px 18px" class="cap"><span style="display: inline-flex; align-items: center; gap: 8px"><span style="width: 10px; height: 10px; border-radius: 2px; background: #B8860B"></span>Companies 782</span><span style="display: inline-flex; align-items: center; gap: 8px"><span style="width: 10px; height: 10px; border-radius: 2px; background: #A6A3A0"></span>Commission and EU bodies 73</span><span style="display: inline-flex; align-items: center; gap: 8px"><span style="width: 10px; height: 10px; border-radius: 2px; background: #666262"></span>Member states 60</span><span style="display: inline-flex; align-items: center; gap: 8px"><span style="width: 10px; height: 10px; border-radius: 2px; background: #E8E6E3"></span>No specific actor 3</span></div>
         <span class="cap">Who the text tells to act, for each of the 918 obligations. <a href="Methodology.dc.html#obligations">How we code this</a></span>
         <h3 class="h3" style="padding-top: 8px">Who it applies to</h3>
-        <p class="body" style="font-size: 15px">Applies to: Makers of connected products. <a href="CompanyTypes.dc.html">By type of company</a></p><p class="cap" style="margin: 0">Size: no exemption for small firms found in the binding text.</p>
+        <p class="body" style="font-size: 15px">Applies to: Makers of connected products.</p><p class="body" style="font-size: 15px"><strong style="font-weight: 600">Size thresholds and exemptions:</strong> none found in the binding text; the rules apply to firms of every size.</p><p class="cap" style="margin: 0"><a href="CompanyTypes.dc.html">See how the Digital Acquis applies by type of company</a></p>
       </div>
       <div style="display: flex; flex-direction: column; gap: 18px"><table class="ctbl"><thead><tr><th>By kind</th><th class="n">918</th></tr></thead><tbody><tr><td>Positive obligations</td><td class="n">803</td></tr><tr><td>Prohibitions</td><td class="n">62</td></tr><tr><td>Duties of result</td><td class="n">37</td></tr><tr><td>Other</td><td class="n">16</td></tr></tbody></table><table class="ctbl"><thead><tr><th>Reporting obligations</th><th class="n">111</th></tr></thead><tbody><tr><td>Notifications</td><td class="n">39</td></tr><tr><td>Reports to authorities</td><td class="n">37</td></tr><tr><td>Record keeping</td><td class="n">15</td></tr><tr><td>On request</td><td class="n">13</td></tr><tr><td>Public disclosures</td><td class="n">7</td></tr><tr><td class="cap" colspan="2" style="padding-top: 6px">Owed by companies 76 · Commission and EU bodies 14 · member states 21. <a href="CompanyTypes.dc.html">Reporting across all laws</a></td></tr></tbody></table><table class="ctbl"><thead><tr><th>Rules or standards</th><th class="n">rules</th></tr></thead><tbody><tr><td>Main act (905 obligations)</td><td class="n">61%</td></tr><tr><td class="cap" colspan="2" style="padding-top: 6px">Rules fix the required conduct in advance; standards (“appropriate”, “proportionate”) leave it to be judged later. <a href="UsComparison.dc.html">How we code this</a></td></tr></tbody></table></div>
     </div>
@@ -112,13 +117,13 @@ a{color:#282424}a:hover{color:#8F6708}
         <label for="causal-only" style="display: inline-flex; align-items: center; gap: 10px; font-size: 15px; min-height: 44px; cursor: pointer"><input id="causal-only" type="checkbox" checked="{{causalOnly}}" onChange="{{toggle}}" style="width: 18px; height: 18px; accent-color: #B8860B">Causal studies only</label>
       </div>
       <div class="scroll" style="max-height: 560px; background: #FAF9F5"><table class="tbl"><thead><tr><th scope="col">Source</th><th scope="col">Method</th><th scope="col">Finding</th></tr></thead><tbody><sc-if value="{{showAll}}" hint-placeholder-val="{{ true }}"><tr><td style="min-width: 260px"><a href="https://www.tcworld.info/news/the-european-machinery-regulation-1327">tcworld magazine (based on DIN Mitteilungen, May 2024) (2024), The European Machinery Regulation: New requirements for digital instructions for use, tcworld, June 2024</a><span class="small">trade press · 2024</span></td><td>commentary on IA assumptions</td><td>A trade article shows the headline savings rest on a broad assumption about printing costs and that the real figure could be a quarter of the top estimate.</td></tr></sc-if></tbody></table></div>
-      <span class="cap">1 sources, 0 causal. The list scrolls on its own. Each source links to the paper or official page.</span>
+      <span class="cap">1 sources, 0 causal. Each source links to the paper or official page.</span>
     </div>
   </section>
   <section style="padding-block: 40px">
     <div class="wrap" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; align-items: start">
       <div style="display: flex; flex-direction: column; gap: 12px">
-        <h2 class="h3">Second layer: 2 implementing, delegated and other acts</h2>
+        <h2 class="h3">Implementation: 2 implementing, delegated and other acts</h2>
         <div class="scroll" style="max-height: 300px"><ul class="lst"><li><span class="cap">14 Oct 2024</span><span><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52024XC06142">Commission Notice – Guidance to the Member States for the collection of the data and the information referred to in Article 6 (5), points (a) to (d), of Regulation (EU) 2023/1230 o</a> <span class="cap">· guidance, 2 obligations</span></span></li><li><span class="cap">12 Jul 2024</span><span><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1922">Commission Implementing Regulation (EU) 2024/1922 of 12 July 2024 setting out the template for the collection by the Member States of the data and the information referred to in Ar</a> <span class="cap">· implementing, 1 obligations</span></span></li></ul></div>
       </div>
       <div style="display: flex; flex-direction: column; gap: 12px">
@@ -150,7 +155,7 @@ a{color:#282424}a:hover{color:#8F6708}
   </footer>
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":4047}}'>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":4046}}'>
 class Component extends DCLogic {
   constructor(props) { super(props); this.state = { causalOnly: false }; }
   renderVals() {
