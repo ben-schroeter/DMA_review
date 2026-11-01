@@ -4,7 +4,7 @@ sys.path.insert(0, "scripts")
 import openpyxl
 wb = openpyxl.load_workbook("ceps_instruments_metrics.xlsx", read_only=True, data_only=True)
 rows = list(wb["instruments"].values); h = rows[0]
-inst = {r[h.index("celex_measured")].split(";")[0]: dict(zip(h, r)) for r in rows[1:] if r[0]}
+inst = {r[h.index("celex_measured")].split(";")[0]: dict(zip(h, r)) for r in rows[1:] if r[0] and r[h.index("status_oct2026")] == "adopted"}  # pending proposals enter once adopted
 src = open("scripts/build_workbook.py").read()
 CAUSAL = eval(re.search(r"^CAUSAL = (\(.*?\)|\[.*?\])$", src, re.M | re.S).group(1))
 def is_causal(m):

@@ -1,7 +1,7 @@
 """Front-page evidence chart in two parts on one colour logic (white = nothing found):
-  top    what happened to the 440 objectives, indicators and forecasts in the Commission's proposals
+  top    what happened to the 398 objectives, indicators and forecasts in the Commission's proposals
   bottom for each kind of effect, the 105 laws in force by the strongest evidence found after adoption (evidence map)
-Objective counts are the published figures (data/objectives); law counts come from data/evidence_map/cells.json.
+Objective counts are the key results in the workbook's proposal_indicators sheet for adopted laws; law counts come from data/evidence_map/cells.json.
 Writes site/evidence_front.svg. Run from research/ceps_metrics."""
 import json
 
@@ -12,8 +12,8 @@ t = lambda x, y, s, size=13, fill=INK2, anchor="start", weight=None: (f'<text x=
                                                                       + (f' font-weight="{weight}"' if weight else "") + f'>{s}</text>')
 DEFS = ('<defs><pattern id="hf" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#FFFFFF"></rect>'
         '<line x1="0" y1="0" x2="0" y2="6" stroke="#A6A3A0" stroke-width="2"></line></pattern></defs>')
-OBJ = [("Measured", 64, "#8F6708", "#FFFFFF"), ("Partly measured", 64, "#B8860B", "#FFFFFF"), ("Mixed evidence", 27, "#E3CF9C", INK),
-       ("Activity only", 67, "url(#hf)", INK), ("Never measured", 218, "#FFFFFF", INK)]
+OBJ = [("Measured", 61, "#8F6708", "#FFFFFF"), ("Partly measured", 60, "#B8860B", "#FFFFFF"), ("Mixed evidence", 25, "#E3CF9C", INK),
+       ("Activity only", 66, "url(#hf)", INK), ("Never measured", 186, "#FFFFFF", INK)]
 GR = [("causal", "Causal study", "#8F6708", "#FFFFFF"), ("measured", "Other evaluation or study", "#E3CF9C", INK),
       ("forecast", "Forecast only", "url(#hf)", INK), ("none", "Nothing found", "#FFFFFF", INK)]
 NAMES = {"costs": "Compliance costs", "consumers": "Prices and consumers", "competition": "Competition", "innovation": "Innovation and investment",
@@ -32,9 +32,9 @@ def legend(items, y):
 
 # top: objectives
 tot = sum(n for _, n, _, _ in OBJ)
-g.append(t(0, 16, "What happened to the 440 objectives in the Commission's proposals", 15, INK, "start", 600))
+g.append(t(0, 16, "What happened to the 398 objectives in the Commission's proposals", 15, INK, "start", 600))
 y0, BH = 34, 34
-g.append(t(L - 12, y0 + 22, "440 objectives", 14, INK, "end"))
+g.append(t(L - 12, y0 + 22, "398 objectives", 14, INK, "end"))
 x = L
 for lab, n, f, tc in OBJ:
     w = n / tot * (R - L)
@@ -42,7 +42,7 @@ for lab, n, f, tc in OBJ:
     if w > 34:
         g.append(t(x + w / 2, y0 + 22, n, 13, tc, "middle", 700))
     x += w
-g.append(t(R, y0 - 8, f"{218 / tot:.0%} never measured", 13, INK, "end", 600))
+g.append(t(R, y0 - 8, f"{186 / tot:.0%} never measured", 13, INK, "end", 600))
 legend([(lab, f) for lab, _, f, _ in OBJ], y0 + BH + 20)
 
 # bottom: effect by effect
@@ -65,7 +65,7 @@ for i, k in enumerate(rows):
         x += w
     g.append(t(R + 8, y + 18, cnt["none"], 14, INK, "start", 600))
 H = top + len(rows) * (RH + RG) + 4
-aria = ("Top: of 440 objectives in the Commission's proposals, 64 measured, 64 partly measured, 27 mixed evidence, 67 activity only, 218 never measured. "
+aria = ("Top: of 398 objectives in the Commission's proposals for the 105 adopted laws, 61 measured, 60 partly measured, 25 mixed evidence, 66 activity only, 186 never measured. "
         "Bottom: for each kind of effect, how many of 105 laws have a causal study, other evidence, a forecast only or nothing: "
         + "; ".join(f'{NAMES[k]} {sum(1 for v in V if not v["cells"][k]["best"])} with nothing' for k in rows))
 open("site/evidence_front.svg", "w").write(f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="{aria}">' + "".join(g) + "</svg>")

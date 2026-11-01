@@ -195,20 +195,20 @@ def row(f):
             f'<div class="cap" style="padding-top: 4px; color: #3F3B3B">{esc(f["latest"])}</div></div>')
 
 
-groups = [("proposed", "In negotiation", "Proposed by the Commission and being negotiated by Parliament and Council."),
-          ("agreed", "Agreed, awaiting formal adoption", "Parliament and Council have reached a provisional agreement."),
-          ("announced", "Announced", "In the Commission work programme or the One Europe, One Market roadmap, but not yet proposed.")]
-cnt = {k: sum(f["stage"] == k for f in F) for k, _, _ in groups}
-stat = "".join(f'<div style="display: flex; flex-direction: column; gap: 4px; padding: 18px 20px; border: 1px solid #E8E6E3; border-radius: 12px; background: #FFFFFF; min-width: 180px">'
-               f'<span class="num">{cnt[k]}</span><span class="cap">{t.lower() if k != "agreed" else "agreed, awaiting adoption"}</span></div>' for k, t, _ in groups)
+groups = [("agreed", "Agreed, awaiting formal adoption", "Parliament and Council have reached a provisional agreement; the text still needs formal adoption by both.", "agreed", "#F2EEE3", "#2E7D5B"),
+          ("proposed", "In negotiation", "Proposed by the Commission and being negotiated by Parliament and Council.", "negotiation", "#FFFFFF", "#B8860B"),
+          ("announced", "Announced", "In the Commission work programme or the One Europe, One Market roadmap, but not yet proposed.", "announced", "#F3F1EC", "#6B6B6B")]
+cnt = {k: sum(f["stage"] == k for f in F) for k, *_ in groups}
+stat = "".join(f'<a href="#{anc}" style="display: flex; flex-direction: column; gap: 4px; padding: 18px 20px; border: 1px solid #E8E6E3; border-top: 4px solid {col}; border-radius: 12px; background: #FFFFFF; min-width: 200px; text-decoration: none; color: #282424">'
+               f'<span class="num">{cnt[k]}</span><span class="cap">{t.lower()}</span><span class="cap" style="color: #8F6708; font-weight: 500">See the list ↓</span></a>' for k, t, _, anc, _, col in groups)
 secs = ""
-for k, t, d in groups:
+for k, t, d, anc, bg, col in groups:
     xs = [f for f in F if f["stage"] == k]
     hdr = ('<div class="frow" style="border-top: 0; padding-bottom: 6px"><span class="eyebrow" style="font-size: 12px">Initiative</span>'
            f'<span class="eyebrow" style="font-size: 12px">{"Stage" if k != "announced" else "Timing"}</span><span class="eyebrow" style="font-size: 12px">{"Proposed" if k != "announced" else ""}</span>'
            '<span class="eyebrow" style="font-size: 12px">Target for agreement</span><span class="eyebrow" style="font-size: 12px">Latest</span></div>')
-    secs += (f'<section style="padding-block: 0 48px"><div class="wrap" style="display: flex; flex-direction: column; gap: 8px">'
-             f'<h2 class="h2">{t} <span class="cap" style="font-size: 18px">· {len(xs)}</span></h2><p class="cap">{d}</p>'
+    secs += (f'<section id="{anc}" style="background: {bg}; border-top: 1px solid #E8E6E3; padding-block: 44px 48px; scroll-margin-top: 16px"><div class="wrap" style="display: flex; flex-direction: column; gap: 8px">'
+             f'<div style="display: flex; align-items: center; gap: 12px"><span style="width: 6px; height: 30px; border-radius: 3px; background: {col}"></span><h2 class="h2">{t} <span class="cap" style="font-size: 18px">· {len(xs)}</span></h2></div><p class="cap">{d}</p>'
              f'<div style="margin-top: 8px">{hdr}{"".join(row(f) for f in xs)}</div></div></section>')
 legend = ('<div style="display: flex; flex-wrap: wrap; gap: 8px 22px; align-items: center" class="cap"><span>Stage dots:</span>'
           + "".join(f'<span>{i + 1}. {s}</span>' for i, s in enumerate(STEPS)) + "</div>")
@@ -224,7 +224,6 @@ body = f'''
     </div>
   </section>
 {secs}
-  <section style="padding-block: 0 72px"><div class="wrap"><p class="cap">Recently adopted, so no longer listed: Digital Omnibus on AI (Regulation (EU) 2026/1744, in force 27 July 2026) and the EuroHPC amendment for AI Gigafactories and quantum (Council, 16 January 2026). Both amend laws already in our list and are counted there as amendments.</p></div></section>
 '''
 OUT = "mockup"
 open(f"{OUT}/Forthcoming.dc.html", "w").write(shell("Forthcoming", body, 6000))

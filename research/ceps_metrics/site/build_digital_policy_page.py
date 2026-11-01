@@ -1,7 +1,14 @@
 """Builds site/mockup/DigitalPolicy.dc.html: intro, timeline (site/policy_timeline.svg), one block per era with overview,
 numbers, flagship instruments and linked key documents, and a method note. Numbers from data/policy_eras/instruments.json."""
 import json, re, html
-D = json.load(open("data/policy_eras/instruments.json"))
+D_ALL = json.load(open("data/policy_eras/instruments.json"))
+D = [o for o in D_ALL if o["status"] == "adopted"]   # counts cover adopted laws; pending proposals enter once adopted
+PEND = {}
+for o in D_ALL:
+    if o["status"] != "adopted": PEND[o["era"]] = PEND.get(o["era"], 0) + 1
+_fc = open("site/build_forthcoming.py").read(); _ns = {}
+exec(_fc.split("\nSTAGE =")[0].replace('json.load(open("instrument_pages.json"))', 'json.load(open("site/instrument_pages.json"))'), _ns)
+FC = _ns["F"]
 PAGES = {int(k): v for k, v in json.load(open("site/instrument_pages.json")).items()}
 OBJ = json.load(open("data/policy_eras/objectives.json"))
 CHIP = {"met": ("#8F6708", "#FFFFFF"), "met late": ("#B8860B", "#FFFFFF"), "on track": ("#B8860B", "#FFFFFF"), "near miss": ("#E3CF9C", "#282424"),
@@ -47,8 +54,8 @@ ERAS = [
            ("Dec 2022", "Digital Decade Policy Programme 2030", "Decision (EU) 2022/2481", EUR("32022D2481"), "Makes the 2030 targets binding and sets up yearly monitoring.")]},
  {"id": "competitiveness", "anc": "competitiveness", "name": "Competitiveness · One Europe, One Market", "years": "2025–2027",
   "who": "Second von der Leyen Commission · Henna Virkkunen (Executive Vice-President, Tech Sovereignty, Security and Democracy)",
-  "text": "The Draghi report (2024) tied Europe’s lagging productivity to weak digital industries, fragmented markets and high energy costs. The Competitiveness Compass made simplification a priority, with a target to cut businesses’ recurring administrative costs by €37.5 billion by 2029. The Digital Omnibus (November 2025) proposed to streamline the rules on data, privacy, cybersecurity and AI, and the Digital Networks Act (January 2026) to modernise connectivity rules. In April 2026 Parliament, Council and Commission signed the One Europe, One Market roadmap: 42 initiatives in five blocks, among them digital and AI, to be agreed by the end of 2027. Of this era’s proposals, the EU Space Act is in the list of instruments; the Digital Omnibus, the Digital Networks Act and the other new proposals are tracked on the Forthcoming page until adopted.",
-  "cite": "the Competitiveness Compass", "flag": ["EU Space Act"],
+  "text": "The Draghi report (2024) tied Europe’s lagging productivity to weak digital industries, fragmented markets and high energy costs. The Competitiveness Compass made simplification a priority, with a target to cut businesses’ recurring administrative costs by €37.5 billion by 2029. In April 2026 Parliament, Council and Commission signed the One Europe, One Market roadmap: 42 initiatives in five blocks, among them digital and AI, to be agreed by the end of 2027. So far the era has produced proposals rather than laws: the Digital Omnibus (November 2025) to streamline the data, privacy and cybersecurity rules, the Digital Networks Act and Cybersecurity Act 2 (January 2026), EU Inc (March 2026), the Cloud and AI Development Act and Chips Act 2 (June 2026), and the European Innovation Act (September 2026). The AI part of the Digital Omnibus was adopted in July 2026 as an amendment to the AI Act. The Digital Fairness Act, the Quantum Act and the European Product Act are announced. None of this era’s proposals is law yet, so none is in the counts.",
+  "cite": "the Competitiveness Compass", "flag": [],
   "docs": [("Sep 2024", "The future of European competitiveness (Draghi report)", "Report to the Commission", "https://commission.europa.eu/topics/competitiveness/draghi-report_en", "Diagnosis of Europe’s productivity gap and an investment need of about €800 billion a year."),
            ("Jan 2025", "A Competitiveness Compass for the EU", "COM(2025) 30", EUR("52025DC0030"), "Innovation, decarbonisation and security, with simplification as a cross-cutting priority."),
            ("Nov 2025", "Digital Omnibus and Digital Omnibus on AI", "COM(2025) 837 and COM(2025) 836", EUR("52025PC0837"), "Proposals to simplify the data, privacy, cybersecurity and AI rules."),
@@ -61,8 +68,9 @@ for i, e in enumerate(ERAS):
     n, obl = len(xs), sum(o["obligations"] or 0 for o in xs)
     pend = sum(o["status"] != "adopted" for o in xs)
     withtext = sum(o["proposal_text"] for o in xs); cites = sum(o["cites_own_era"] for o in xs)
-    stats = f'<strong style="font-weight: 600">{n} instrument{"s" if n != 1 else ""} proposed</strong> · {obl:,} obligations' + (f" · {pend} still pending" if pend else "")
-    if e["cite"]:
+    pend = PEND.get(e["id"], 0)
+    stats = f'<strong style="font-weight: 600">{n} law{"s" if n != 1 else ""} adopted</strong> · {obl:,} obligations' + (f' · <a href="Forthcoming.dc.html">{pend} more proposal{"s" if pend != 1 else ""} still pending</a>' if pend else "")
+    if e["cite"] and withtext:
         stats += f" · {cites} of {withtext} proposals cite {e['cite']}"
     by = {o["name"]: o for o in xs}
     fl = []
@@ -70,6 +78,16 @@ for i, e in enumerate(ERAS):
         o = by[f]
         when = f'{o["proposal_date"][:4]}→{o["adoption_date"][:4]}' if o["adoption_date"] else f'proposed {o["proposal_date"][:4]}'
         fl.append(f'<a href="{PAGES[o["row_id"]]}">{esc(f)}</a> <span class="cap">({when})</span>')
+    flags = f'<p class="body" style="font-size: 15px">Flagships: {" · ".join(fl)} · <a href="Instruments.dc.html">See all {n} →</a></p>' if fl else ""
+    if e["id"] == "competitiveness":
+        mine = [f for f in FC if f["stage"] == "announced" or int(f["track"][0][-4:]) >= 2025]
+        page = lambda f: PAGES[f["row"]] if f.get("row") else f"Fc-{f['id']}.dc.html"
+        grp = [("agreed", "Agreed, awaiting adoption"), ("proposed", "In negotiation"), ("announced", "Announced")]
+        stats = ("<strong style=\"font-weight: 600\">No law proposed in this era has been adopted yet</strong> · "
+                 + " · ".join(f'{sum(f["stage"] == k for f in mine)} {lab.lower()}' for k, lab in grp))
+        flags = ('<p class="body" style="font-size: 14px; line-height: 1.5">' + "<br>".join(f'<strong style="font-weight: 600">{lab}:</strong> '
+                        + ", ".join(f'<a href="{page(f)}">{esc(f["name"].split(" (")[0])}</a>' for f in mine if f["stage"] == k) for k, lab in grp)
+                 + ' · <a href="Forthcoming.dc.html">Where each stands →</a></p>')
     docs = "".join(f'<li style="display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 12px; padding-block: 10px; border-top: 1px solid #E8E6E3">'
                    f'<span class="cap" style="padding-top: 2px">{d}</span><span><a href="{u}">{esc(t)}</a> <span class="cap">· {esc(ref)}</span><br><span class="cap">{esc(s)}</span></span></li>'
                    for d, t, ref, u, s in e["docs"])
@@ -87,7 +105,7 @@ for i, e in enumerate(ERAS):
         <p class="cap" style="margin: 0">{esc(e["who"])}</p>
         <p class="body" style="font-size: 16px; line-height: 1.6">{esc(e["text"])}</p>
         <p class="body" style="font-size: 15px">{stats}</p>
-        <p class="body" style="font-size: 15px">Flagships: {" · ".join(fl)} · <a href="Instruments.dc.html">See all {n} →</a></p>
+        {flags}
       </div>
       <div>
         <p class="eyebrow" style="margin-bottom: 4px">Key documents</p>
@@ -117,20 +135,20 @@ intro = f'''  <section style="padding-block: 64px 32px">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 20px">
 {tabs}      <p class="eyebrow">Digital Acquis · Digital policy</p>
       <h1 class="h1" style="max-width: 20ch">From telecoms market to digital sovereignty</h1>
-      <p class="body" style="font-size: 19px">In 2000 the internet was a niche infrastructure project; by 2010 it was a driver of growth; today it is treated as a question of sovereignty and industrial scale. This page follows that path through six eras of EU policy and places each of the 115 instruments in the era in which the Commission proposed it.</p>
+      <p class="body" style="font-size: 19px">In 2000 the internet was a niche infrastructure project; by 2010 it was a driver of growth; today it is treated as a question of sovereignty and industrial scale. This page follows that path through six eras of EU policy and places each of the 105 adopted laws in the era in which the Commission proposed it.</p>
     </div>
   </section>
   <section style="padding-block: 8px 40px">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 12px">
       <div style="overflow-x: auto"><div style="min-width: 1000px">{svg}</div></div>
-      <span class="cap">Each line is one instrument, from the Commission proposal to adoption; the dot is sized by the number of obligations in the adopted text. Open circles are proposals still pending. Shading marks the eras, by date of proposal; click an era for its summary. Commission terms and portfolios are simplified to the lead commissioner(s) for digital policy.</span>
+      <span class="cap">Each line is one instrument, from the Commission proposal to adoption; the dot is sized by the number of obligations in the adopted text. Shading marks the eras, by date of proposal; click an era for its summary. Commission terms and portfolios are simplified to the lead commissioner(s) for digital policy.</span>
       <figure style="margin: 24px 0 0; display: flex; flex-direction: column; gap: 10px"><figcaption style="font-weight: 500">How the targets turned out, by era</figcaption>{overview}</figure>
     </div>
   </section>
 '''
 note = '''  <section style="padding-block: 48px 72px">
     <div class="wrap">
-      <p class="cap" style="margin: 0; max-width: 95ch"><strong style="color: #282424; font-weight: 600">How we assigned the instruments.</strong> Each instrument belongs to the era in which the Commission proposed it, whatever the date of adoption; Commission regulations without a legislative proposal (the block exemptions) are placed by date of adoption. To check the link to each era’s strategy we searched the explanatory memorandum, citations and recitals of every Commission proposal available on EUR-Lex for the strategy’s name (for example “Digital Single Market Strategy” or “Shaping Europe’s digital future”). Older proposals rarely name the strategy behind them, so low counts for the early eras say more about drafting habits than about policy. Obligations are counted in the adopted text, or in the proposal for instruments still pending.</p>
+      <p class="cap" style="margin: 0; max-width: 95ch"><strong style="color: #282424; font-weight: 600">How we assigned the instruments.</strong> Each instrument belongs to the era in which the Commission proposed it, whatever the date of adoption; Commission regulations without a legislative proposal (the block exemptions) are placed by date of adoption. To check the link to each era’s strategy we searched the explanatory memorandum, citations and recitals of every Commission proposal available on EUR-Lex for the strategy’s name (for example “Digital Single Market Strategy” or “Shaping Europe’s digital future”). Older proposals rarely name the strategy behind them, so low counts for the early eras say more about drafting habits than about policy. Obligations are counted in the adopted text; proposals still pending are on the Forthcoming page and enter the counts once adopted.</p>
     </div>
   </section>
 '''
