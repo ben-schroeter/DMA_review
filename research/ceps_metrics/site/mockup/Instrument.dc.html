@@ -22,10 +22,14 @@ a{color:#282424}a:hover{color:#8F6708}
 .chip{display:inline-flex;align-items:center;gap:6px;font-size:13px;padding:3px 10px;border-radius:999px;border:1px solid #D4D2CE;color:#3F3B3B;white-space:nowrap}
 .nav a{text-decoration:none;font-size:15px;color:#3F3B3B}
 .nav a:hover{color:#282424}
-.tbl{width:100%;border-collapse:collapse;font-size:15px}
+.tbl{width:100%;border-collapse:collapse;font-size:14px}
 .tbl th{text-align:left;font-weight:500;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:#666666;padding:10px 12px;border-bottom:1px solid #D4D2CE}
-.tbl td{padding:16px 12px;border-bottom:1px solid #E8E6E3;vertical-align:top;line-height:1.45}
+.tbl td{padding:8px 12px;border-bottom:1px solid #E8E6E3;vertical-align:top;line-height:1.45}
 .small{display:block;font-size:13px;color:#666666;margin-top:4px}
+.ctbl{width:100%;border-collapse:collapse;font-size:15px}
+.ctbl th{text-align:left;font-weight:600;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:#3F3B3B;padding:6px 0;border-bottom:1px solid #D4D2CE}
+.ctbl td{padding:5px 0;border-bottom:1px solid #EFEDE9;line-height:1.35}
+.ctbl .n{text-align:right;font-weight:600;white-space:nowrap}
 @media (max-width:640px){.wrap{padding-inline:20px}}
 @media (max-width:640px){.nav{width:100%;justify-content:space-between;gap:10px !important}.nav a{font-size:14px}}
 </style>
@@ -45,7 +49,7 @@ a{color:#282424}a:hover{color:#8F6708}
   </header>
 
   <!-- Title -->
-  <section style="padding-block: 56px 40px">
+  <section style="padding-block: 40px 28px">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 20px">
       <nav aria-label="Breadcrumb" class="cap"><a href="Instruments.dc.html" style="color: #666666">Legal instruments</a> / <span>Competition &amp; Single Market</span></nav>
       <h1 style="font-family: 'Source Serif 4', Georgia, serif; font-weight: 400; font-size: 56px; line-height: 1.05; letter-spacing: -0.02em; margin: 0">Digital Markets Act</h1>
@@ -65,6 +69,7 @@ a{color:#282424}a:hover{color:#8F6708}
           <p class="body" style="font-size: 18px; color: #3F3B3B">The DMA has changed how the largest platforms behave: choice screens, steering, alternative app stores and less self-preferencing on Amazon. But none of the six indicators set in the proposal is reported systematically, and the Commission's €13bn consumer-benefit estimate has not been checked. Causal studies find large effects from browser choice screens, a one-third drop in Amazon's self-preferencing, no gain for rival map services, and, in one small study, lower start-up entry.</p>
         </div>
       </div>
+      <p class="cap" style="margin: 0">Proposed 15 December 2020 and adopted 14 September 2022 under the <strong style="font-weight: 600; color: #3F3B3B">first von der Leyen Commission</strong> (Margrethe Vestager, Thierry Breton) · Part of the <a href="DigitalPolicy.dc.html#era-digital-decade" style="color: #8F6708; font-weight: 500">Digital Decade agenda</a>; the proposal cites “Shaping Europe’s digital future”</p>
       <span class="cap">Last reviewed 10 October 2026</span>
     </div>
   </section>
@@ -81,7 +86,7 @@ a{color:#282424}a:hover{color:#8F6708}
   </section>
 
   <!-- Compare -->
-  <section style="padding-block: 72px 0">
+  <section style="padding-block: 48px 0">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 20px">
       <div style="display: flex; flex-direction: column; gap: 12px">
         <h2 class="h2">How it compares</h2>
@@ -96,7 +101,7 @@ a{color:#282424}a:hover{color:#8F6708}
   </section>
 
   <!-- Rules -->
-  <section style="padding-block: 72px">
+  <section style="padding-block: 40px">
     <div class="wrap" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 56px">
       <div style="display: flex; flex-direction: column; gap: 18px">
         <h2 class="h2">The rules</h2>
@@ -112,13 +117,20 @@ a{color:#282424}a:hover{color:#8F6708}
         </div>
         <span class="cap">Who the text tells to act, for each of the 279 obligations. <a href="Methodology.dc.html#obligations">How we code this</a></span>
       </div>
-      </div>
-      <div style="display: flex; flex-direction: column; gap: 0">
-        <div style="display: flex; justify-content: space-between; padding-block: 14px; border-top: 1px solid #E8E6E3"><span>Positive obligations</span><span style="font-weight: 600">231</span></div>
-        <div style="display: flex; justify-content: space-between; padding-block: 14px; border-top: 1px solid #E8E6E3"><span>Prohibitions</span><span style="font-weight: 600">34</span></div>
-        <div style="display: flex; justify-content: space-between; padding-block: 14px; border-top: 1px solid #E8E6E3"><span>Duties of result</span><span style="font-weight: 600">7</span></div>
-        <div style="display: flex; justify-content: space-between; padding-block: 14px; border-top: 1px solid #E8E6E3"><span>Other</span><span style="font-weight: 600">7</span></div>
-        <div style="display: flex; justify-content: space-between; padding-block: 14px; border-top: 1px solid #E8E6E3; border-bottom: 1px solid #E8E6E3"><span>Implementing Regulation (EU) 2023/814: procedures</span><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0814" style="font-size: 15px">EUR-Lex ↗</a></div>
+      <div style="display: flex; flex-direction: column; gap: 20px">
+        <table class="ctbl">
+          <thead><tr><th>By kind</th><th class="n">279</th></tr></thead>
+          <tbody><tr><td>Positive obligations</td><td class="n">231</td></tr><tr><td>Prohibitions</td><td class="n">34</td></tr><tr><td>Duties of result</td><td class="n">7</td></tr><tr><td>Other</td><td class="n">7</td></tr></tbody>
+        </table>
+        <table class="ctbl">
+          <thead><tr><th>Reporting obligations</th><th class="n">61</th></tr></thead>
+          <tbody><tr><td>Reports to authorities</td><td class="n">29</td></tr><tr><td>Public disclosures</td><td class="n">20</td></tr><tr><td>Notifications</td><td class="n">11</td></tr><tr><td>On request</td><td class="n">1</td></tr><tr><td class="cap" colspan="2" style="padding-top: 6px">Owed by gatekeepers 24 · Commission and EU bodies 26 · member states 11. The implementing regulation adds 18 more. <a href="CompanyTypes.dc.html">Reporting across all laws</a></td></tr></tbody>
+        </table>
+        <table class="ctbl">
+          <thead><tr><th>Rules or standards</th><th class="n">rules</th></tr></thead>
+          <tbody><tr><td>Main act (265 obligations)</td><td class="n">79%</td></tr><tr><td>Implementing regulation (69 obligations)</td><td class="n">91%</td></tr><tr><td class="cap" colspan="2" style="padding-top: 6px">Rules fix the required conduct in advance; standards (“proportionate”, “fair, reasonable and non-discriminatory”) leave it to be judged later. <a href="UsComparison.dc.html">How we code this</a></td></tr></tbody>
+        </table>
+        <p class="cap" style="margin: 0">Second layer: <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0814">Implementing Regulation (EU) 2023/814</a> on procedures (72 obligations).</p>
       </div>
     </div>
   </section>
@@ -126,36 +138,36 @@ a{color:#282424}a:hover{color:#8F6708}
   <hr style="border: 0; border-top: 1px solid #E8E6E3; margin: 0">
 
   <!-- Objectives -->
-  <section style="padding-block: 72px">
+  <section style="padding-block: 40px">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 28px">
       <div style="display: flex; flex-direction: column; gap: 12px">
-        <h2 class="h2">What the proposal set out to achieve</h2>
-        <p class="body">The Commission's impact assessment and the proposal's indicators, checked against the evidence available in October 2026.</p>
+        <h2 class="h2">Objectives and key results</h2>
+        <p class="body">Objectives are the aims the law states. Key results are how the Commission said it would measure them: the indicators in the proposal and the forecasts in its impact assessment, checked against the evidence available in October 2026.</p>
       </div>
       <div style="display: flex; flex-direction: column; gap: 14px; padding: 24px; border-radius: 12px; background: #F5F5F0">
-        <span class="eyebrow" style="font-size: 12px">Stated aims · Article 1</span>
+        <span class="eyebrow" style="font-size: 12px">Objectives · stated aims, Article 1</span>
         <div style="display: flex; flex-wrap: wrap; gap: 10px">
           <span class="chip" style="font-size: 15px; padding: 6px 14px; border-color: #B8860B; color: #8F6708">Contestability</span>
           <span class="chip" style="font-size: 15px; padding: 6px 14px; border-color: #B8860B; color: #8F6708">Fairness</span>
           <span class="chip" style="font-size: 15px; padding: 6px 14px">A working internal market</span>
         </div>
         <p class="body" style="font-size: 16px; font-family: 'Source Serif 4', Georgia, serif">“The purpose of this Regulation is to contribute to the proper functioning of the internal market by laying down harmonised rules ensuring for all businesses, contestable and fair markets in the digital sector across the Union where gatekeepers are present, to the benefit of business users and end users.”</p>
-        <span class="src">Regulation (EU) 2022/1925, Article 1(1). The indicators below are how the Commission proposed to track these aims.</span>
+        <span class="src">Regulation (EU) 2022/1925, Article 1(1). The key results below are how the Commission proposed to track these aims.</span>
       </div>
       <div style="display: flex; flex-direction: column; gap: 8px; padding: 24px; border: 1px solid #E8E6E3; border-radius: 12px; background: #FFFFFF">
-        <span class="eyebrow" style="font-size: 12px">Initial impact assessment · 2020</span>
+        <span class="eyebrow" style="font-size: 12px">Key results · impact assessment forecast, 2020</span>
         <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020SC0364" style="font-family: 'Source Serif 4', Georgia, serif; font-size: 22px; text-decoration: none">Impact Assessment Report accompanying the DMA proposal ↗</a>
         <span class="body" style="font-size: 16px">Forecast: consumer surplus up €13bn a year; compliance costs for gatekeepers not quantified; smaller firms expected to benefit.</span>
       </div>
       <div style="overflow-x: auto">
         <table class="tbl">
-          <thead><tr><th scope="col">Objective or indicator</th><th scope="col">Evidence found</th><th scope="col">Status</th></tr></thead>
+          <thead><tr><th scope="col">Key result</th><th scope="col">Objective</th><th scope="col">Evidence found</th><th scope="col">Status</th></tr></thead>
           <tbody>
-            <tr><td>Consumer surplus +€13bn a year<span class="small">Impact assessment forecast</span></td><td>Not assessed by the Commission's 2026 review or any study found.</td><td><span class="chip" style="border-color: #C2553B; color: #A3412A">Not measured</span></td></tr>
-            <tr><td>Share of users multi-homing across platforms<span class="small">Indicator in the proposal</span></td><td>Partial independent evidence: browser choice screens increased switching away from defaults.</td><td><span class="chip" style="border-color: #C2553B; color: #A3412A">Not measured</span></td></tr>
-            <tr><td>Compliance interventions per gatekeeper<span class="small">Indicator in the proposal</span></td><td>Commission reports activity, but not as a series per gatekeeper.</td><td><span class="chip">Activity only</span></td></tr>
-            <tr><td>Divergent national interventions<span class="small">Indicator in the proposal</span></td><td>No count published.</td><td><span class="chip" style="border-color: #C2553B; color: #A3412A">Not measured</span></td></tr>
-            <tr><td>Clarification requests per year<span class="small">Indicator in the proposal</span></td><td>No count published.</td><td><span class="chip" style="border-color: #C2553B; color: #A3412A">Not measured</span></td></tr>
+            <tr><td>Consumer surplus +€13bn a year<span class="small">Forecast · impact assessment</span></td><td style="white-space: nowrap">Fairness</td><td>Not assessed by the Commission's 2026 review or any study found.</td><td><span class="chip" style="border-color: #C2553B; color: #A3412A">Not measured</span></td></tr>
+            <tr><td>Share of users multi-homing across platforms<span class="small">Indicator · proposal</span></td><td style="white-space: nowrap">Contestability</td><td>Partial independent evidence: browser choice screens increased switching away from defaults.</td><td><span class="chip" style="border-color: #C2553B; color: #A3412A">Not measured</span></td></tr>
+            <tr><td>Compliance interventions per gatekeeper<span class="small">Indicator · proposal</span></td><td style="white-space: nowrap">Contestability, fairness</td><td>Commission reports activity, but not as a series per gatekeeper.</td><td><span class="chip">Activity only</span></td></tr>
+            <tr><td>Divergent national interventions<span class="small">Indicator · proposal</span></td><td style="white-space: nowrap">A working internal market</td><td>No count published.</td><td><span class="chip" style="border-color: #C2553B; color: #A3412A">Not measured</span></td></tr>
+            <tr><td>Clarification requests per year<span class="small">Indicator · proposal</span></td><td style="white-space: nowrap">A working internal market</td><td>No count published.</td><td><span class="chip" style="border-color: #C2553B; color: #A3412A">Not measured</span></td></tr>
           </tbody>
         </table>
       </div>
@@ -163,7 +175,7 @@ a{color:#282424}a:hover{color:#8F6708}
   </section>
 
   <!-- Evidence -->
-  <section style="padding-block: 72px; background: #F5F5F0; border-top: 1px solid #E8E6E3; border-bottom: 1px solid #E8E6E3">
+  <section style="padding-block: 40px; background: #F5F5F0; border-top: 1px solid #E8E6E3; border-bottom: 1px solid #E8E6E3">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 28px">
       <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 16px">
         <div style="display: flex; flex-direction: column; gap: 12px">
@@ -211,24 +223,8 @@ a{color:#282424}a:hover{color:#8F6708}
     </div>
   </section>
 
-  <!-- US counterpart -->
-  <section style="padding-block: 72px 0">
-    <div class="wrap" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; align-items: start">
-      <div style="display: flex; flex-direction: column; gap: 12px">
-        <h2 class="h2">US counterpart</h2>
-        <p class="body">The closest US measure is the American Innovation and Choice Online Act, which would have barred dominant platforms from self-preferencing. It was never enacted; in the US, platform conduct is left to general antitrust law and the courts.</p>
-        <a href="UsComparison.dc.html" style="align-self: flex-start; font-size: 15px; font-weight: 500; text-decoration: none; border-bottom: 1px solid #B8860B; padding-bottom: 2px">How we matched EU and US laws</a>
-      </div>
-      <div style="display: flex; flex-direction: column; padding: 24px; border: 1px solid #E8E6E3; border-radius: 12px; background: #FFFFFF; gap: 8px">
-        <span class="eyebrow" style="font-size: 12px">Match quality</span>
-        <span style="font-family: 'Source Serif 4', Georgia, serif; font-size: 24px">Proposed only, never enacted</span>
-        <span class="cap">Not part of the measured comparison, which uses ten pairs of enacted laws.</span>
-      </div>
-    </div>
-  </section>
-
   <!-- Related -->
-  <section style="padding-block: 72px">
+  <section style="padding-block: 40px">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 24px">
       <h2 class="h2">Related instruments</h2>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px">
@@ -247,9 +243,9 @@ a{color:#282424}a:hover{color:#8F6708}
   </footer>
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":4200}}'>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":8000}}'>
 class Component extends DCLogic {
-  constructor(props) { super(props); this.state = { causalOnly: true }; }
+  constructor(props) { super(props); this.state = { causalOnly: false }; }
   renderVals() {
     const causalOnly = this.state.causalOnly;
     return {
