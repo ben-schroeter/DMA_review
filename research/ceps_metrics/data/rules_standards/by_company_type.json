@@ -1,0 +1,366 @@
+{
+ "baseline": {
+  "all": {
+   "n": 1861,
+   "uncoded": 0,
+   "rules": 0.817,
+   "standards": 0.174
+  },
+  "main": {
+   "n": 903,
+   "uncoded": 0,
+   "rules": 0.806,
+   "standards": 0.178
+  },
+  "secondary": {
+   "n": 958,
+   "uncoded": 0,
+   "rules": 0.828,
+   "standards": 0.169
+  },
+  "most_standards": [
+   [
+    "General Data Protection Regulation",
+    187
+   ],
+   [
+    "EC Merger Regulation",
+    17
+   ],
+   [
+    "Company Law Directive",
+    16
+   ],
+   [
+    "Common VAT system Directive",
+    11
+   ]
+  ],
+  "by_period": {
+   "before 2015": {
+    "n": 486,
+    "rules": 0.827
+   },
+   "2015-2019": {
+    "n": 495,
+    "rules": 0.788
+   },
+   "2020 or later": {
+    "n": 880,
+    "rules": 0.828
+   }
+  }
+ },
+ "GK": {
+  "all": {
+   "n": 1419,
+   "uncoded": 0,
+   "rules": 0.771,
+   "standards": 0.228
+  },
+  "main": {
+   "n": 742,
+   "uncoded": 0,
+   "rules": 0.756,
+   "standards": 0.243
+  },
+  "secondary": {
+   "n": 677,
+   "uncoded": 0,
+   "rules": 0.787,
+   "standards": 0.213
+  },
+  "most_standards": [
+   [
+    "NIS 2 Directive",
+    121
+   ],
+   [
+    "Digital Services Act",
+    71
+   ],
+   [
+    "Digital Markets Act",
+    28
+   ],
+   [
+    "Political Advertising Regulation",
+    27
+   ]
+  ],
+  "by_period": {
+   "before 2015": {
+    "n": 0,
+    "rules": null
+   },
+   "2015-2019": {
+    "n": 80,
+    "rules": 0.775
+   },
+   "2020 or later": {
+    "n": 1339,
+    "rules": 0.771
+   }
+  }
+ },
+ "PL": {
+  "all": {
+   "n": 1064,
+   "uncoded": 0,
+   "rules": 0.76,
+   "standards": 0.239
+  },
+  "main": {
+   "n": 559,
+   "uncoded": 0,
+   "rules": 0.755,
+   "standards": 0.243
+  },
+  "secondary": {
+   "n": 505,
+   "uncoded": 0,
+   "rules": 0.766,
+   "standards": 0.234
+  },
+  "most_standards": [
+   [
+    "NIS 2 Directive",
+    121
+   ],
+   [
+    "Political Advertising Regulation",
+    27
+   ],
+   [
+    "Digital Services Act",
+    25
+   ],
+   [
+    "Artificial Intelligence Act",
+    17
+   ]
+  ],
+  "by_period": {
+   "before 2015": {
+    "n": 0,
+    "rules": null
+   },
+   "2015-2019": {
+    "n": 80,
+    "rules": 0.775
+   },
+   "2020 or later": {
+    "n": 984,
+    "rules": 0.759
+   }
+  }
+ },
+ "CL": {
+  "all": {
+   "n": 1323,
+   "uncoded": 0,
+   "rules": 0.708,
+   "standards": 0.292
+  },
+  "main": {
+   "n": 744,
+   "uncoded": 0,
+   "rules": 0.698,
+   "standards": 0.302
+  },
+  "secondary": {
+   "n": 579,
+   "uncoded": 0,
+   "rules": 0.722,
+   "standards": 0.278
+  },
+  "most_standards": [
+   [
+    "NIS 2 Directive",
+    121
+   ],
+   [
+    "Artificial Intelligence Act",
+    109
+   ],
+   [
+    "Digital Operational Resilience Act (DORA)",
+    50
+   ],
+   [
+    "Cybersecurity Act",
+    41
+   ]
+  ],
+  "by_period": {
+   "before 2015": {
+    "n": 0,
+    "rules": null
+   },
+   "2015-2019": {
+    "n": 54,
+    "rules": 0.593
+   },
+   "2020 or later": {
+    "n": 1269,
+    "rules": 0.713
+   }
+  }
+ },
+ "TC": {
+  "all": {
+   "n": 1252,
+   "uncoded": 0,
+   "rules": 0.772,
+   "standards": 0.227
+  },
+  "main": {
+   "n": 432,
+   "uncoded": 0,
+   "rules": 0.722,
+   "standards": 0.275
+  },
+  "secondary": {
+   "n": 820,
+   "uncoded": 0,
+   "rules": 0.798,
+   "standards": 0.201
+  },
+  "most_standards": [
+   [
+    "NIS 2 Directive",
+    121
+   ],
+   [
+    "European Electronic Communications Code",
+    68
+   ],
+   [
+    "Radio Spectrum Decision",
+    42
+   ],
+   [
+    "Open Internet Access Regulation",
+    18
+   ]
+  ],
+  "by_period": {
+   "before 2015": {
+    "n": 28,
+    "rules": 0.929
+   },
+   "2015-2019": {
+    "n": 301,
+    "rules": 0.734
+   },
+   "2020 or later": {
+    "n": 923,
+    "rules": 0.779
+   }
+  }
+ },
+ "FI": {
+  "all": {
+   "n": 3224,
+   "uncoded": 0,
+   "rules": 0.783,
+   "standards": 0.217
+  },
+  "main": {
+   "n": 1411,
+   "uncoded": 0,
+   "rules": 0.714,
+   "standards": 0.286
+  },
+  "secondary": {
+   "n": 1813,
+   "uncoded": 0,
+   "rules": 0.837,
+   "standards": 0.163
+  },
+  "most_standards": [
+   [
+    "Markets in Crypto-Assets (MiCA)",
+    313
+   ],
+   [
+    "Digital Operational Resilience Act (DORA)",
+    224
+   ],
+   [
+    "Anti-Money Laundering Regulation",
+    77
+   ],
+   [
+    "Payment Services Directive 2 (PSD2)",
+    61
+   ]
+  ],
+  "by_period": {
+   "before 2015": {
+    "n": 0,
+    "rules": null
+   },
+   "2015-2019": {
+    "n": 455,
+    "rules": 0.866
+   },
+   "2020 or later": {
+    "n": 2769,
+    "rules": 0.77
+   }
+  }
+ },
+ "PR": {
+  "all": {
+   "n": 3647,
+   "uncoded": 0,
+   "rules": 0.685,
+   "standards": 0.312
+  },
+  "main": {
+   "n": 3038,
+   "uncoded": 0,
+   "rules": 0.676,
+   "standards": 0.322
+  },
+  "secondary": {
+   "n": 609,
+   "uncoded": 0,
+   "rules": 0.734,
+   "standards": 0.266
+  },
+  "most_standards": [
+   [
+    "Machinery Regulation",
+    320
+   ],
+   [
+    "NIS 2 Directive",
+    121
+   ],
+   [
+    "Toys Safety Regulation",
+    101
+   ],
+   [
+    "Toys Safety Directive",
+    75
+   ]
+  ],
+  "by_period": {
+   "before 2015": {
+    "n": 591,
+    "rules": 0.716
+   },
+   "2015-2019": {
+    "n": 79,
+    "rules": 0.62
+   },
+   "2020 or later": {
+    "n": 2977,
+    "rules": 0.681
+   }
+  }
+ }
+}
