@@ -2,6 +2,10 @@
 numbers, flagship instruments and linked key documents, and a method note. Numbers from data/policy_eras/instruments.json."""
 import json, re, html
 D = json.load(open("data/policy_eras/instruments.json"))
+OBJ = json.load(open("data/policy_eras/objectives.json"))
+CHIP = {"met": ("#8F6708", "#FFFFFF"), "met late": ("#B8860B", "#FFFFFF"), "on track": ("#B8860B", "#FFFFFF"), "near miss": ("#E3CF9C", "#282424"),
+        "not met": ("#5C5858", "#FFFFFF"), "off track": ("#5C5858", "#FFFFFF"), "too early": ("#FFFFFF", "#3F3B3B"), "not measurable": ("#FFFFFF", "#3F3B3B")}
+chip = lambda st: f'<span class="chip" style="background: {CHIP[st][0]}; color: {CHIP[st][1]}">{st}</span>'
 svg = open("site/policy_timeline.svg").read()
 EUR = lambda c: f"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:{c}"
 ERAS = [
@@ -68,14 +72,19 @@ for i, e in enumerate(ERAS):
     docs = "".join(f'<li style="display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 12px; padding-block: 10px; border-top: 1px solid #E8E6E3">'
                    f'<span class="cap" style="padding-top: 2px">{d}</span><span><a href="{u}">{esc(t)}</a> <span class="cap">· {esc(ref)}</span><br><span class="cap">{esc(s)}</span></span></li>'
                    for d, t, ref, u, s in e["docs"])
+    rows = [o for o in OBJ["items"] if o["era"] == e["id"]]
+    trs = "".join(f'<tr><td>{esc(o["objective"])}</td><td>{esc(o["target"])}' + (f' <span class="cap">· {esc(o["deadline"])}</span>' if o["deadline"] else "") + '</td>'
+                  f'<td>{esc(o["result"])}' + (f' <a class="cap" href="{OBJ["sources"][o["src"]][1]}">{esc(OBJ["sources"][o["src"]][0])}</a>' if o["src"] else "") + f'</td><td>{chip(o["status"])}</td></tr>' for o in rows)
+    score = (f'<div style="grid-column: 1 / -1; overflow-x: auto"><p class="eyebrow" style="margin: 0 0 6px">Objectives and targets</p>'
+             f'<table class="okr"><thead><tr><th style="width: 18%">Objective</th><th style="width: 32%">Target</th><th>Result</th><th style="width: 110px">Status</th></tr></thead><tbody>{trs}</tbody></table></div>')
     bg = "background: #F5F5F0; border-top: 1px solid #E8E6E3; border-bottom: 1px solid #E8E6E3; " if i % 2 == 0 else ""
-    blocks.append(f'''  <section id="era-{e["anc"]}" style="{bg}padding-block: 56px">
+    blocks.append(f'''  <section id="era-{e["anc"]}" style="{bg}padding-block: 36px">
     <div class="wrap era">
-      <div style="display: flex; flex-direction: column; gap: 14px">
+      <div style="display: flex; flex-direction: column; gap: 10px">
         <p class="eyebrow">{e["years"]}</p>
         <h2 class="h2">{esc(e["name"])}</h2>
         <p class="cap" style="margin: 0">{esc(e["who"])}</p>
-        <p class="body">{esc(e["text"])}</p>
+        <p class="body" style="font-size: 16px; line-height: 1.6">{esc(e["text"])}</p>
         <p class="body" style="font-size: 15px">{stats}</p>
         <p class="body" style="font-size: 15px">Flagships: {" · ".join(fl)} · <a href="Instruments.dc.html">See all {n} →</a></p>
       </div>
@@ -83,12 +92,26 @@ for i, e in enumerate(ERAS):
         <p class="eyebrow" style="margin-bottom: 4px">Key documents</p>
         <ul style="list-style: none; margin: 0; padding: 0; font-size: 15px; line-height: 1.45">{docs}</ul>
       </div>
+      {score}
     </div>
   </section>
 ''')
-src = open("site/mockup/DigitalPolicy.dc.html").read()
+src = open("site/digital_policy_template.dc.html").read()
 a = src.index('  <section style="padding-block: 64px 120px">'); b = src.index("  <footer") if "  <footer" in src else src.index("</div>\n</x-dc>")
 tabs = re.search(r'      <nav aria-label="Digital Acquis".*?</nav>\n', src, re.S).group(0)
+ORD = ["met", "met late", "on track", "near miss", "not met", "off track", "too early", "not measurable"]
+ov = []
+for k, e in enumerate(ERAS):
+    rows = [o for o in OBJ["items"] if o["era"] == e["id"]]
+    y = 30 + k * 30; x = 230
+    ov.append(f'<text x="220" y="{y + 15}" text-anchor="end" font-family="DM Sans, sans-serif" font-size="13" fill="#282424">{esc(e["name"].split(" · ")[0])}</text>')
+    for st in ORD:
+        for o in [o for o in rows if o["status"] == st]:
+            ov.append(f'<rect x="{x}" y="{y}" width="36" height="20" rx="3" fill="{CHIP[st][0]}" stroke="#C9C6C3"><title>{esc(o["target"])}: {st}</title></rect>'); x += 39
+lx = 230
+for st in ORD:
+    ov.append(f'<rect x="{lx}" y="4" width="12" height="12" rx="2" fill="{CHIP[st][0]}" stroke="#C9C6C3"></rect><text x="{lx + 17}" y="14" font-family="DM Sans, sans-serif" font-size="12" fill="#3F3B3B">{st}</text>'); lx += 30 + len(st) * 6.6
+overview = f'<svg viewBox="0 0 1000 {30 + len(ERAS) * 30}" width="100%" role="img" aria-label="Targets by era and result">' + "".join(ov) + '</svg>'
 intro = f'''  <section style="padding-block: 64px 32px">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 20px">
 {tabs}      <p class="eyebrow">Digital Acquis · Digital policy</p>
@@ -96,10 +119,11 @@ intro = f'''  <section style="padding-block: 64px 32px">
       <p class="body" style="font-size: 19px">In 2000 the internet was a niche infrastructure project; by 2010 it was a driver of growth; today it is treated as a question of sovereignty and industrial scale. This page follows that path through six eras of EU policy and places each of the 115 instruments in the era in which the Commission proposed it.</p>
     </div>
   </section>
-  <section style="padding-block: 8px 48px">
+  <section style="padding-block: 8px 40px">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 12px">
       <div style="overflow-x: auto"><div style="min-width: 1000px">{svg}</div></div>
       <span class="cap">Each line is one instrument, from the Commission proposal to adoption; the dot is sized by the number of obligations in the adopted text. Open circles are proposals still pending. Shading marks the eras, by date of proposal; click an era for its summary. Commission terms and portfolios are simplified to the lead commissioner(s) for digital policy.</span>
+      <figure style="margin: 24px 0 0; display: flex; flex-direction: column; gap: 10px"><figcaption style="font-weight: 500">How the targets turned out, by era</figcaption>{overview}</figure>
     </div>
   </section>
 '''
@@ -110,6 +134,6 @@ note = '''  <section style="padding-block: 48px 72px">
   </section>
 '''
 out = src[:a] + intro + "".join(blocks) + note + src[b:]
-out = out.replace(".ph{color:#8F6708}", ".ph{color:#8F6708}\n.era{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:48px;align-items:start}\n@media (max-width:860px){.era{grid-template-columns:minmax(0,1fr);gap:24px}}")
+out = out.replace(".ph{color:#8F6708}", ".ph{color:#8F6708}\n.era{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:20px 48px;align-items:start}\n@media (max-width:860px){.era{grid-template-columns:minmax(0,1fr);gap:24px}}\n.okr{width:100%;min-width:640px;border-collapse:collapse;font-size:14px;line-height:1.4}\n.okr th{text-align:left;font-weight:500;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:#666666;padding:6px 10px;border-bottom:1px solid #D4D2CE}\n.okr td{padding:5px 10px;border-bottom:1px solid #E8E6E3;vertical-align:top}\n.chip{display:inline-block;padding:2px 9px;border-radius:999px;font-size:12px;font-weight:600;border:1px solid #C9C6C3;white-space:nowrap}")
 open("site/mockup/DigitalPolicy.dc.html", "w").write(out)
 print(len(out))
