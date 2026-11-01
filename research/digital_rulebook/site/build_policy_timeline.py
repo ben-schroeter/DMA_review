@@ -34,6 +34,8 @@ for i, (a, b, lab, anc) in enumerate(ERAS):
     words = lab.split(" ") if X(b) - X(a) < len(lab) * 7 else [lab]
     lines = [" ".join(words[:len(words) // 2 + len(words) % 2]), " ".join(words[len(words) // 2 + len(words) % 2:])] if len(words) > 1 else words
     g.append(f'<a href="#era-{anc}">' + "".join(t((X(a) + X(b)) / 2, TOP + 12 + k * 13, ln, 12, INK, "middle", 600) for k, ln in enumerate(lines)) + '</a>')
+# label column: a quiet panel behind the row labels, so the chart has a clear left edge
+g.append(f'<rect x="0" y="{TOP}" width="{L - 8}" height="{H - TOP - 30}" rx="6" fill="#EFEDE9"></rect><line x1="{L - 4}" x2="{L - 4}" y1="{TOP}" y2="{H - 30}" stroke="#D4D2CE"></line>')
 # years axis
 for y in (1990, 2000, 2005, 2010, 2015, 2020, 2025):
     g.append(f'<line x1="{X(y):.1f}" x2="{X(y):.1f}" y1="{TOP + 22}" y2="{H - 40}" stroke="{LINE}" stroke-dasharray="2 3"></line>')

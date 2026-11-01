@@ -54,5 +54,55 @@ put("rs_total_k", RS["main_all"]["n"] + RS["secondary_all"]["n"], k100(RS["main_
 P = json.load(open("site/forthcoming_list.json"))
 c = collections.Counter(x["stage"] for x in P)
 put("forthcoming_total", len(P)); put("forthcoming_agreed", c["agreed"]); put("forthcoming_negotiation", c["proposed"]); put("forthcoming_announced", c["announced"])
+
+# company types and firm size
+CT = json.load(open("data/company_types/summary.json"))
+for k in ("PR", "FI", "GK", "CL", "TC", "PL"):
+    put(f"ct_{k}", CT["types"][k]["obligations"]); put(f"ct_{k}_2018", CT["types"][k]["start_2018"])
+put("ct_baseline", CT["baseline"]["obligations"])
+PIE = json.load(open("data/company_types/pie.json"))
+put("ct_reporting_share", round(100 * PIE["counts"]["reporting"] / PIE["total"]), f"{100 * PIE['counts']['reporting'] / PIE['total']:.0f}%")
+REL = json.load(open("data/firm_size/relief.json")); FS = json.load(open("data/firm_size/summary.json"))
+put("firm_company_obligations", REL["total"]); put("firm_relief_removed", REL["removed"] + REL["threshold"])
+aco = FS["all_company_obligations"]; put("firm_micro_pct", round(100 * aco[0] / aco[4]), f"{100 * aco[0] / aco[4]:.0f}%")
+# kinds of rule over time and growth in negotiation
+pro = lambda xs: sum(x["r_prohibition"] or 0 for x in xs) / max(1, sum(x["restrictions_total"] or 0 for x in xs))
+put("prohib_since_2018", round(100 * pro([x for x in A if yr(x) >= 2018]), 1), f"{100 * pro([x for x in A if yr(x) >= 2018]):.1f}%")
+put("prohib_before_2018", round(100 * pro([x for x in A if yr(x) < 2018]), 1), f"{100 * pro([x for x in A if yr(x) < 2018]):.1f}%")
+gw = [(x["words_legal_text"] - x["proposal_words_legal_text"]) / x["proposal_words_legal_text"] for x in both if x["proposal_words_legal_text"]]
+go = [(x["restrictions_total"] - x["proposal_restrictions_total"]) / x["proposal_restrictions_total"] for x in both]
+put("growth_words_median", round(100 * statistics.median(gw)), f"{100 * statistics.median(gw):.0f}%"); put("growth_obligations_median", round(100 * statistics.median(go)), f"{100 * statistics.median(go):.0f}%")
+# validation of the classifiers
+V = json.load(open("data/validation_results.json"))["addressee_v2_fresh_200"]
+put("precision", round(100 * V["precision"]), f"{100 * V['precision']:.0f}%"); put("addressee_accuracy", round(100 * V["addressee_accuracy_v2_rules_plus_model"]), f"{100 * V['addressee_accuracy_v2_rules_plus_model']:.0f}%")
+
+# reporting obligations and other validation figures
+REP = json.load(open("data/reporting/summary.json")); RV = REP["validation"] if isinstance(REP["validation"], dict) else json.load(open("data/reporting/validation_results.json"))
+put("rep_total", REP["reporting_obligations"]); put("rep_private", REP["by_addressee"]["private_parties"]); put("rep_states", REP["by_addressee"]["member_states"]); put("rep_eu", REP["by_addressee"]["eu_institutions"])
+put("rep_precision", round(100 * RV["precision"]), f"{100 * RV['precision']:.0f}%"); put("rep_recall", round(100 * RV["estimated_recall"]), f"{100 * RV['estimated_recall']:.0f}%")
+put("rep_estimate_k", RV["estimated_true_total"], k100(RV["estimated_true_total"]))
+EM = json.load(open("data/evidence_map/validation.json")); a_, b_ = map(int, EM["combined_before_fixes"].split(" ")[0].split("/"))
+put("evmap_check", round(100 * a_ / b_), f"{100 * a_ / b_:.0f}%")
+put("us_precision", round(100 * json.load(open("data/us_map/validation_us.json"))["precision"]), f"{100 * json.load(open('data/us_map/validation_us.json'))['precision']:.0f}%")
+put("sox_precision", round(100 * json.load(open("data/benchmark_sox.json"))["validation"]["precision"]), f"{100 * json.load(open('data/benchmark_sox.json'))['validation']['precision']:.0f}%")
+put("model_clauses_k", sum(1 for _ in open("data/addressee/model_decisions.jsonl")), f"{(sum(1 for _ in open('data/addressee/model_decisions.jsonl')) // 100) * 100:,}")
+AR = json.load(open("data/company_types/areas_now.json"))
+put("area_finance_k", AR["Finance"], k100(AR["Finance"])); put("area_trust_k", AR["Trust & Safety"], k100(AR["Trust & Safety"]))
+byname = {x["name"]: x for x in A}
+for key, nm in (("ai", "Artificial Intelligence Act"), ("mica", "Markets in Crypto-Assets (MiCA)"), ("ehds", "European Health Data Space")):
+    put(f"ex_{key}_proposal", byname[nm]["proposal_restrictions_total"]); put(f"ex_{key}_adopted", byname[nm]["restrictions_total"])
+
+put("rs_no_duty_main", RS["total_by_code"]["main"]["N"]); put("rs_no_duty_secondary", RS["total_by_code"]["secondary"]["N"])
+put("rs_agreement", round(100 * RS["validation"]["rule_vs_standard_like"]), f"{100 * RS['validation']['rule_vs_standard_like']:.0f}%"); put("rs_validation_n", RS["validation"]["n_coded"])
+RSF = json.load(open("data/rules_standards/site_figures.json")); pct = lambda v: f"{100 * v:.0f}%"
+for k in ("all_main_R", "all_main_standard_like", "comp_main_R", "all_sec_R", "comp_sec_R"):
+    put("rs_" + k, round(100 * RSF[k]), pct(RSF[k]))
+put("rs_acts_second_layer", RSF["acts_with_second_layer"]); put("rs_acts_more_rules", RSF["acts_more_rules"])
+for key, nm in (("ecodesign", "Ecodesign for Sustainable Products Regulation"), ("csa", "Cybersecurity Act"), ("dora", "Digital Operational Resilience Act (DORA)"), ("nis2", "NIS 2 Directive")):
+    c = RSF["companies_by_law"][nm]; put(f"rs_{key}_main", round(100 * c["main"]), pct(c["main"])); put(f"rs_{key}_sec", round(100 * c["secondary"]), pct(c["secondary"]))
+
+# external statistics quoted on the site (Why it matters, front page): edited in data/external_figures.json, with page context
+for k, v in json.load(open("data/external_figures.json")).items():
+    F[k] = {"value": v["text"], "text": v["text"], "external": True}
 json.dump(F, open("site/facts.json", "w"), indent=1, ensure_ascii=False)
 print(len(F), {k: v["text"] for k, v in F.items()})

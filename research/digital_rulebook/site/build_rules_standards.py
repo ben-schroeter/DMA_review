@@ -91,3 +91,16 @@ open("site/rules_standards.svg", "w").write(f'<svg viewBox="0 0 {W} {H}" width="
 up = sum(o["secondary"]["R"] > o["main"]["R"] for o in acts)
 print(len(acts), "acts;", up, "more rule-based in the second layer;", ncomp, "with a company line")
 for k in tot: print(k, {kk: round(v, 3) if kk != "n" else v for kk, v in share(tot[k]).items()})
+
+# figures quoted in the page text (picked up by site/facts.py)
+cel2name = {v: k for k, v in name2cel.items()}
+comp = {}
+for (d, src, grp), c in per.items():
+    if grp == "companies":
+        sh = share(c)
+        if sh["n"]: comp.setdefault(cel2name.get(d, d), {})[src] = round(sh["R"], 4)
+sm = summary_main = s["main_all"]
+json.dump({"all_main_R": share(tot[("all", "main")])["R"], "all_main_standard_like": s["main_all"]["standard_like"],
+           "comp_main_R": share(tot[("companies", "main")])["R"], "all_sec_R": share(tot[("all", "secondary")])["R"],
+           "comp_sec_R": share(tot[("companies", "secondary")])["R"], "acts_with_second_layer": len(acts), "acts_more_rules": up,
+           "companies_by_law": comp}, open("data/rules_standards/site_figures.json", "w"), indent=1)

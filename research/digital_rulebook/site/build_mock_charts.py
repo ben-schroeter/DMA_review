@@ -154,7 +154,7 @@ for r in big:
     g.append(f'<text x="{sx(r["proposal_restrictions_total"]) + 9:.1f}" y="{sy(r["restrictions_total"]) + 4:.1f}" {F} font-size="13" fill="{INK2}">{nm}</text>')
 g.append(f'<text x="{(P + S) / 2:.0f}" y="{S - 8}" text-anchor="middle" {F} font-size="13" fill="{MUTED}">Obligations in the Commission proposal</text>')
 g.append(f'<text x="14" y="{(S - P) / 2:.0f}" text-anchor="middle" {F} font-size="13" fill="{MUTED}" transform="rotate(-90 14 {(S - P) / 2:.0f})">Obligations in the adopted act</text>')
-charts["proposal_vs_adopted"] = (f'<svg viewBox="0 0 {S} {S}" width="100%" style="max-width: 560px" role="img" aria-label="{above} of {len(cmp)} acts have more '
+charts["proposal_vs_adopted"] = (f'<svg viewBox="0 0 {S} {S}" width="100%" style="max-width: 600px" role="img" aria-label="{above} of {len(cmp)} acts have more '
                                  f'obligations after adoption than in the proposal">' + "".join(g) + "</svg>")
 meta.update({"cmp_n": len(cmp), "cmp_above": above})
 
@@ -418,7 +418,7 @@ meta["policy_area_totals"] = pa_tot
 
 # I. obligations per act and per 1,000 words over time, with 5-year averages and the Sarbanes-Oxley line
 TC = {"Regulation": CLAY, "Directive": SLATE, "Decision": STONE}
-VW, VH, PL, PR_, PT, PB, PGAP = 1000, 400, 52, 16, 40, 36, 60
+VW, VH, PL, PR_, PT, PB, PGAP = 1000, 460, 52, 16, 40, 36, 60
 pw = (VW - 2 * PL - PR_ - PGAP) / 2
 dens = lambda r: 1000 * r["restrictions_total"] / max(1, (r["words_articles"] or 0) + (r["words_annexes"] or 0))
 g = []

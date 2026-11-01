@@ -1,0 +1,355 @@
+{
+ "all_main_R": 0.7336730655056403,
+ "all_main_standard_like": 0.249,
+ "comp_main_R": 0.7180261832829808,
+ "all_sec_R": 0.8357359635811836,
+ "comp_sec_R": 0.8342349304482226,
+ "acts_with_second_layer": 30,
+ "acts_more_rules": 26,
+ "companies_by_law": {
+  "Unfair Contract Terms Directive": {
+   "main": 0.375
+  },
+  "Satellite and Cable Directive": {
+   "main": 0.8571
+  },
+  "Database Directive": {
+   "main": 0.125
+  },
+  "ePrivacy Directive": {
+   "main": 0.85,
+   "secondary": 0.75
+  },
+  "EC Merger Regulation": {
+   "main": 0.8571,
+   "secondary": 0.9464
+  },
+  "IPR Enforcement Directive": {
+   "main": 0.2222
+  },
+  "Unfair Commercial Practices Directive": {
+   "main": 0.25
+  },
+  "Common VAT system Directive": {
+   "main": 0.8878,
+   "secondary": 0.9014
+  },
+  "Audiovisual Media Services Directive": {
+   "main": 0.7308
+  },
+  "European Statistics Regulation": {
+   "main": 0.25,
+   "secondary": 0.6667
+  },
+  "Trade Secrets Directive": {
+   "main": 0.5
+  },
+  "Digital Content Directive": {
+   "main": 0.8485
+  },
+  "Sale of Goods Directive": {
+   "main": 0.6842
+  },
+  "Community Design Regulation": {
+   "main": 0.8276,
+   "secondary": 0.986
+  },
+  "Price Indication Directive": {
+   "main": 0.6667
+  },
+  "E-commerce Directive": {
+   "main": 0.6667
+  },
+  "Toys Safety Directive": {
+   "main": 0.6411
+  },
+  "Consumer Rights Directive": {
+   "main": 0.9492,
+   "secondary": 1.0
+  },
+  "Administrative cooperation in taxation (DAC)": {
+   "main": 1.0,
+   "secondary": 1.0
+  },
+  "General Data Protection Regulation": {
+   "main": 0.7013,
+   "secondary": 0.7021
+  },
+  "Law Enforcement Directive": {
+   "main": 0.9032
+  },
+  "eIDAS Regulation": {
+   "main": 0.8,
+   "secondary": 0.8942
+  },
+  "Payment Services Directive 2 (PSD2)": {
+   "main": 0.9158,
+   "secondary": 0.8557
+  },
+  "Open Internet Access Regulation": {
+   "main": 0.5143,
+   "secondary": 0.8
+  },
+  "Cybersecurity Act": {
+   "main": 0.6154,
+   "secondary": 0.8849
+  },
+  "FDI Screening Regulation": {
+   "main": 0.5556
+  },
+  "Non-cash payment fraud Directive": {
+   "main": 1.0
+  },
+  "Copyright in the Digital Single Market Directive": {
+   "main": 0.6875
+  },
+  "Satellite and Cable II Directive": {
+   "main": 1.0
+  },
+  "Data protection by EU institutions Regulation": {
+   "main": 0.7059,
+   "secondary": 0.8367
+  },
+  "Single Digital Gateway Regulation": {
+   "main": 1.0,
+   "secondary": 0.9722
+  },
+  "Market Surveillance Regulation": {
+   "main": 0.6316,
+   "secondary": 0.7736
+  },
+  "E-evidence Regulation": {
+   "main": 0.9032,
+   "secondary": 0.5
+  },
+  "Open Data Directive (PSI)": {
+   "main": 0.5714,
+   "secondary": 1.0
+  },
+  "Platform-to-Business (P2B) Regulation": {
+   "main": 0.75
+  },
+  "Single Market Programme": {
+   "main": 0.5,
+   "secondary": 1.0
+  },
+  "European Cybersecurity Competence Centre": {
+   "main": 0.6667
+  },
+  "Terrorist Content Online Regulation": {
+   "main": 0.6939
+  },
+  "Recovery and Resilience Facility": {
+   "main": 0.8889,
+   "secondary": 1.0
+  },
+  "Company Law Directive": {
+   "main": 0.929,
+   "secondary": 0.9574
+  },
+  "Geo-blocking Regulation": {
+   "main": 0.875
+  },
+  "Consumer Protection Cooperation Regulation": {
+   "main": 0.7
+  },
+  "European Electronic Communications Code": {
+   "main": 0.7519,
+   "secondary": 0.8605
+  },
+  "Digital Europe Programme": {
+   "main": 0.5556
+  },
+  "InvestEU Programme": {
+   "main": 0.6765,
+   "secondary": 0.6983
+  },
+  "Connecting Europe Facility": {
+   "main": 0.7619,
+   "secondary": 0.3333
+  },
+  "Horizon Europe": {
+   "main": 0.7191
+  },
+  "Temporary CSAM Derogation Regulation": {
+   "main": 0.5,
+   "secondary": 1.0
+  },
+  "EuroHPC Joint Undertaking Regulation": {
+   "main": 0.8478
+  },
+  "DLT Pilot Regime Regulation": {
+   "main": 0.7215
+  },
+  "Markets in Crypto-Assets (MiCA)": {
+   "main": 0.7012,
+   "secondary": 0.8508
+  },
+  "Digital Operational Resilience Act (DORA)": {
+   "main": 0.5546,
+   "secondary": 0.8143
+  },
+  "Data Governance Act": {
+   "main": 0.7931
+  },
+  "Digital Markets Act": {
+   "main": 0.7672,
+   "secondary": 0.9444
+  },
+  "Digital Services Act": {
+   "main": 0.7303,
+   "secondary": 0.9553
+  },
+  "Vertical Block Exemption Regulation": {
+   "main": 1.0
+  },
+  "Digital Decade Policy Programme Decision": {
+   "main": 0.0,
+   "secondary": 1.0
+  },
+  "Political Advertising Regulation": {
+   "main": 0.8191,
+   "secondary": 0.8723
+  },
+  "Digitalisation of judicial cooperation Regulation": {
+   "main": 0.75,
+   "secondary": 0.5126
+  },
+  "NIS 2 Directive": {
+   "main": 0.75,
+   "secondary": 0.5161
+  },
+  "Joint Undertakings under Horizon Europe": {
+   "main": 0.8571
+  },
+  "Roaming Regulation": {
+   "main": 0.8182
+  },
+  "Artificial Intelligence Act": {
+   "main": 0.695,
+   "secondary": 0.6667
+  },
+  "Machinery Regulation": {
+   "main": 0.5827
+  },
+  "Foreign Subsidies Regulation": {
+   "main": 0.8667,
+   "secondary": 1.0
+  },
+  "General Product Safety Regulation": {
+   "main": 0.6723,
+   "secondary": 0.7544
+  },
+  "Anti-Money Laundering Regulation": {
+   "main": 0.7127
+  },
+  "Single Market Emergency Instrument (IMERA)": {
+   "main": 0.7692
+  },
+  "Product Liability Directive": {
+   "main": 0.6667
+  },
+  "Platform Work Directive": {
+   "main": 0.7805
+  },
+  "European Chips Act": {
+   "main": 0.8333
+  },
+  "Union Secure Connectivity Programme": {
+   "main": 0.625,
+   "secondary": 1.0
+  },
+  "Data Act": {
+   "main": 0.6642
+  },
+  "Interoperable Europe Act": {
+   "main": 1.0,
+   "secondary": 0.9
+  },
+  "Design Directive": {
+   "main": 0.875
+  },
+  "VAT in the Digital Age (ViDA)": {
+   "main": 0.9744
+  },
+  "Gigabit Infrastructure Act": {
+   "main": 0.5789
+  },
+  "Critical Raw Materials Act": {
+   "main": 0.7907
+  },
+  "Net-Zero Industry Act": {
+   "main": 0.7273,
+   "secondary": 1.0
+  },
+  "Right to Repair Directive": {
+   "main": 0.72
+  },
+  "Cyber Solidarity Act": {
+   "main": 0.5806
+  },
+  "European Health Data Space": {
+   "main": 0.8028,
+   "secondary": 0.92
+  },
+  "Cyber Resilience Act": {
+   "main": 0.75
+  },
+  "European Media Freedom Act": {
+   "main": 0.6
+  },
+  "Compulsory licensing of patents Regulation": {
+   "main": 0.619
+  },
+  "Strategic Technologies for Europe Platform (STEP)": {
+   "main": 0.75
+  },
+  "Violence Against Women Directive": {
+   "main": 0.4167
+  },
+  "Cybersecurity Regulation (EU institutions)": {
+   "main": 0.0
+  },
+  "Ecodesign for Sustainable Products Regulation": {
+   "main": 0.6534,
+   "secondary": 0.9365
+  },
+  "European Standardisation Regulation": {
+   "main": 0.7,
+   "secondary": 0.75
+  },
+  "Electromagnetic Compatibility Directive": {
+   "main": 0.7215
+  },
+  "Radio Equipment Directive": {
+   "main": 0.7752,
+   "secondary": 1.0
+  },
+  "E-invoicing Directive": {
+   "main": 0.5
+  },
+  "Portability Regulation": {
+   "main": 0.8571
+  },
+  ".eu Top-Level Domain Regulation": {
+   "main": 0.75,
+   "secondary": 0.6053
+  },
+  "Interoperability of EU information systems (borders and visa) Regulation": {
+   "main": 0.8246,
+   "secondary": 0.9643
+  },
+  "Short-Term Rental Data Regulation": {
+   "main": 0.9375
+  },
+  "GDPR Procedural Regulation": {
+   "main": 1.0
+  },
+  "Toys Safety Regulation": {
+   "main": 0.6834
+  },
+  "Radio Spectrum Decision": {
+   "secondary": 0.9013
+  }
+ }
+}

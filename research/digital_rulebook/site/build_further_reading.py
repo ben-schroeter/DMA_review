@@ -16,18 +16,18 @@ READING = {
         {"title": "Big Tech and the Digital Economy: The Moligopoly Scenario", "by": "Nicolas Petit", "where": "Oxford University Press, 2020",
          "url": "https://global.oup.com/academic/product/big-tech-and-the-digital-economy-9780198837701", "cover": "/_blob/5b60159e45305c298e942c2ab6d8c309",
          "note": "Argues that the big tech firms are monopolists in their core markets but compete with each other, and draws the lessons for antitrust and regulation."},
-        {"title": "Technology and the Rise of Great Powers: How Diffusion Shapes Economic Competition", "by": "Jeffrey Ding", "where": "Princeton University Press, 2024", "cover": "/_blob/090a2999ce3de181a48dccb6aeeb9075",
-         "url": "https://press.princeton.edu/books/hardcover/9780691260334/technology-and-the-rise-of-great-powers",
-         "note": "Shows that how widely an economy adopts general-purpose technologies matters more for its rise than who invents them first."},
         {"title": "Digital Empires: The Global Battle to Regulate Technology", "by": "Anu Bradford", "where": "Oxford University Press, 2023",
          "url": "https://global.oup.com/academic/product/digital-empires-9780197649268", "cover": "/_blob/ef320f6e9fafae364ace9556d5f18575",
          "note": "Compares the American market-driven, Chinese state-driven and European rights-driven models of regulating technology, and makes the case for Europe's."},
-        {"title": "The Power of Creative Destruction: Economic Upheaval and the Wealth of Nations", "by": "Philippe Aghion, Céline Antonin and Simon Bunel",
-         "where": "Harvard University Press, 2021", "url": "https://www.hup.harvard.edu/books/9780674292093", "cover": "/_blob/a47b02f3360f19175bb1233486b00c36",
-         "note": "Innovation-led growth, why it needs competition, and what role the state should play in it."},
         {"title": "Europe as the Would-Be World Power: The EU at Fifty", "by": "Giandomenico Majone", "where": "Cambridge University Press, 2009",
          "url": "https://www.cambridge.org/core/books/europe-as-the-wouldbe-world-power/A3EE8050D81B6D3C746E1E75C12F463C", "cover": "/_blob/ad8b98c85c519ff14a43c7d4f72b43b3",
          "note": "A sceptical look at the EU's ambitions to be a world power, and at the gap between its political aims and what integration has delivered."},
+        {"title": "The Power of Creative Destruction: Economic Upheaval and the Wealth of Nations", "by": "Philippe Aghion, Céline Antonin and Simon Bunel",
+         "where": "Harvard University Press, 2021", "url": "https://www.hup.harvard.edu/books/9780674292093", "cover": "/_blob/a47b02f3360f19175bb1233486b00c36",
+         "note": "Innovation-led growth, why it needs competition, and what role the state should play in it."},
+        {"title": "Technology and the Rise of Great Powers: How Diffusion Shapes Economic Competition", "by": "Jeffrey Ding", "where": "Princeton University Press, 2024", "cover": "/_blob/090a2999ce3de181a48dccb6aeeb9075",
+         "url": "https://press.princeton.edu/books/hardcover/9780691260334/technology-and-the-rise-of-great-powers",
+         "note": "Shows that how widely an economy adopts general-purpose technologies matters more for its rise than who invents them first."},
     ],
     "Blogs and newsletters": [
         {"title": "Silicon Continent", "by": "Pieter Garicano", "where": "Substack",
@@ -45,9 +45,6 @@ READING = {
         {"title": "Stratechery", "by": "Ben Thompson", "where": "Newsletter",
          "url": "https://stratechery.com/", "cover": "/_blob/380cc95385959a251848924e417b3539",
          "note": "On the business, strategy and impact of technology, including how platforms respond to regulation."},
-        {"title": "Works in Progress", "by": "Works in Progress", "where": "Magazine",
-         "url": "https://worksinprogress.co/", "cover": "/_blob/806f7e8089d9af85e9cf5ba2c79e8f08",
-         "note": "New and underrated ideas to improve the world, from housing to science funding to regulation."},
         {"title": "Verfassungsblog", "by": "Verfassungsblog", "where": "On matters constitutional",
          "url": "https://verfassungsblog.de/", "cover": "/_blob/cdc0acca4c70b7708e2a72b30c69ce7a",
          "note": "Debate on constitutional law and politics in Europe, including the rule of law, fundamental rights and EU digital regulation."},
@@ -136,7 +133,7 @@ a{{color:#282424}}a:hover{{color:#8F6708}}
 .wrap{{max-width:1120px;margin:0 auto;padding-inline:32px}}
 .eyebrow{{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#666666;margin:0}}
 .h1{{font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:56px;line-height:1.05;letter-spacing:-.02em;margin:0}}
-.h2{{font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:28px;line-height:1.2;margin:0}}
+.h2{{font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:28px;line-height:1.2;margin:0}}h2.h2{{position:relative;padding-left:18px}}h2.h2::before{{content:"";position:absolute;left:0;top:.18em;bottom:.18em;width:6px;border-radius:3px;background:#B8860B}}
 .body{{color:#3F3B3B;margin:0;max-width:68ch}}
 .cap{{font-size:14px;color:#666666;line-height:1.45}}
 .nav a{{text-decoration:none;font-size:15px;color:#3F3B3B}}

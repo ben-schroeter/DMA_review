@@ -186,5 +186,549 @@
  "forthcoming_announced": {
   "value": 7,
   "text": "7"
+ },
+ "ct_PR": {
+  "value": 3718,
+  "text": "3,718"
+ },
+ "ct_PR_2018": {
+  "value": 600,
+  "text": "600"
+ },
+ "ct_FI": {
+  "value": 3413,
+  "text": "3,413"
+ },
+ "ct_FI_2018": {
+  "value": 394,
+  "text": "394"
+ },
+ "ct_GK": {
+  "value": 1452,
+  "text": "1,452"
+ },
+ "ct_GK_2018": {
+  "value": 21,
+  "text": "21"
+ },
+ "ct_CL": {
+  "value": 1358,
+  "text": "1,358"
+ },
+ "ct_CL_2018": {
+  "value": 0,
+  "text": "0"
+ },
+ "ct_TC": {
+  "value": 1278,
+  "text": "1,278"
+ },
+ "ct_TC_2018": {
+  "value": 90,
+  "text": "90"
+ },
+ "ct_PL": {
+  "value": 1089,
+  "text": "1,089"
+ },
+ "ct_PL_2018": {
+  "value": 21,
+  "text": "21"
+ },
+ "ct_baseline": {
+  "value": 1987,
+  "text": "1,987"
+ },
+ "ct_reporting_share": {
+  "value": 15,
+  "text": "15%"
+ },
+ "firm_company_obligations": {
+  "value": 11988,
+  "text": "11,988"
+ },
+ "firm_relief_removed": {
+  "value": 828,
+  "text": "828"
+ },
+ "firm_micro_pct": {
+  "value": 93,
+  "text": "93%"
+ },
+ "prohib_since_2018": {
+  "value": 5.8,
+  "text": "5.8%"
+ },
+ "prohib_before_2018": {
+  "value": 9.5,
+  "text": "9.5%"
+ },
+ "growth_words_median": {
+  "value": 45,
+  "text": "45%"
+ },
+ "growth_obligations_median": {
+  "value": 27,
+  "text": "27%"
+ },
+ "precision": {
+  "value": 89,
+  "text": "89%"
+ },
+ "addressee_accuracy": {
+  "value": 90,
+  "text": "90%"
+ },
+ "rep_total": {
+  "value": 5484,
+  "text": "5,484"
+ },
+ "rep_private": {
+  "value": 2075,
+  "text": "2,075"
+ },
+ "rep_states": {
+  "value": 1826,
+  "text": "1,826"
+ },
+ "rep_eu": {
+  "value": 1582,
+  "text": "1,582"
+ },
+ "rep_precision": {
+  "value": 94,
+  "text": "94%"
+ },
+ "rep_recall": {
+  "value": 83,
+  "text": "83%"
+ },
+ "rep_estimate_k": {
+  "value": 6191,
+  "text": "6,200"
+ },
+ "evmap_check": {
+  "value": 86,
+  "text": "86%"
+ },
+ "us_precision": {
+  "value": 80,
+  "text": "80%"
+ },
+ "sox_precision": {
+  "value": 68,
+  "text": "68%"
+ },
+ "model_clauses_k": {
+  "value": 4849,
+  "text": "4,800"
+ },
+ "area_finance_k": {
+  "value": 3499,
+  "text": "3,500"
+ },
+ "area_trust_k": {
+  "value": 3387,
+  "text": "3,400"
+ },
+ "ex_ai_proposal": {
+  "value": 392,
+  "text": "392"
+ },
+ "ex_ai_adopted": {
+  "value": 764,
+  "text": "764"
+ },
+ "ex_mica_proposal": {
+  "value": 766,
+  "text": "766"
+ },
+ "ex_mica_adopted": {
+  "value": 1114,
+  "text": "1,114"
+ },
+ "ex_ehds_proposal": {
+  "value": 395,
+  "text": "395"
+ },
+ "ex_ehds_adopted": {
+  "value": 603,
+  "text": "603"
+ },
+ "rs_no_duty_main": {
+  "value": 1137,
+  "text": "1,137"
+ },
+ "rs_no_duty_secondary": {
+  "value": 833,
+  "text": "833"
+ },
+ "rs_agreement": {
+  "value": 92,
+  "text": "92%"
+ },
+ "rs_validation_n": {
+  "value": 200,
+  "text": "200"
+ },
+ "rs_all_main_R": {
+  "value": 73,
+  "text": "73%"
+ },
+ "rs_all_main_standard_like": {
+  "value": 25,
+  "text": "25%"
+ },
+ "rs_comp_main_R": {
+  "value": 72,
+  "text": "72%"
+ },
+ "rs_all_sec_R": {
+  "value": 84,
+  "text": "84%"
+ },
+ "rs_comp_sec_R": {
+  "value": 83,
+  "text": "83%"
+ },
+ "rs_acts_second_layer": {
+  "value": 30,
+  "text": "30"
+ },
+ "rs_acts_more_rules": {
+  "value": 26,
+  "text": "26"
+ },
+ "rs_ecodesign_main": {
+  "value": 65,
+  "text": "65%"
+ },
+ "rs_ecodesign_sec": {
+  "value": 94,
+  "text": "94%"
+ },
+ "rs_csa_main": {
+  "value": 62,
+  "text": "62%"
+ },
+ "rs_csa_sec": {
+  "value": 88,
+  "text": "88%"
+ },
+ "rs_dora_main": {
+  "value": 55,
+  "text": "55%"
+ },
+ "rs_dora_sec": {
+  "value": 81,
+  "text": "81%"
+ },
+ "rs_nis2_main": {
+  "value": 75,
+  "text": "75%"
+ },
+ "rs_nis2_sec": {
+  "value": 52,
+  "text": "52%"
+ },
+ "ext_main_01": {
+  "value": "70%",
+  "text": "70%",
+  "external": true
+ },
+ "ext_main_02": {
+  "value": "15%",
+  "text": "15%",
+  "external": true
+ },
+ "ext_main_03": {
+  "value": "30%",
+  "text": "30%",
+  "external": true
+ },
+ "ext_main_04": {
+  "value": "22%",
+  "text": "22%",
+  "external": true
+ },
+ "ext_main_05": {
+  "value": "18%",
+  "text": "18%",
+  "external": true
+ },
+ "ext_main_06": {
+  "value": "30%",
+  "text": "30%",
+  "external": true
+ },
+ "ext_main_07": {
+  "value": "38%",
+  "text": "38%",
+  "external": true
+ },
+ "ext_main_08": {
+  "value": "60%",
+  "text": "60%",
+  "external": true
+ },
+ "ext_main_09": {
+  "value": "65%",
+  "text": "65%",
+  "external": true
+ },
+ "ext_whyitmatters_01": {
+  "value": "104%",
+  "text": "104%",
+  "external": true
+ },
+ "ext_whyitmatters_02": {
+  "value": "92%",
+  "text": "92%",
+  "external": true
+ },
+ "ext_whyitmatters_03": {
+  "value": "82%",
+  "text": "82%",
+  "external": true
+ },
+ "ext_whyitmatters_04": {
+  "value": "79%",
+  "text": "79%",
+  "external": true
+ },
+ "ext_whyitmatters_05": {
+  "value": "85%",
+  "text": "85%",
+  "external": true
+ },
+ "ext_whyitmatters_06": {
+  "value": "72%",
+  "text": "72%",
+  "external": true
+ },
+ "ext_whyitmatters_07": {
+  "value": "81%",
+  "text": "81%",
+  "external": true
+ },
+ "ext_whyitmatters_08": {
+  "value": "85%",
+  "text": "85%",
+  "external": true
+ },
+ "ext_whyitmatters_09": {
+  "value": "2%",
+  "text": "2%",
+  "external": true
+ },
+ "ext_whyitmatters_10": {
+  "value": "10%",
+  "text": "10%",
+  "external": true
+ },
+ "ext_whyitmatters_11": {
+  "value": "1%",
+  "text": "1%",
+  "external": true
+ },
+ "ext_whyitmatters_12": {
+  "value": "173,712",
+  "text": "173,712",
+  "external": true
+ },
+ "ext_whyitmatters_13": {
+  "value": "15%",
+  "text": "15%",
+  "external": true
+ },
+ "ext_whyitmatters_14": {
+  "value": "30%",
+  "text": "30%",
+  "external": true
+ },
+ "ext_whyitmatters_15": {
+  "value": "6.7%",
+  "text": "6.7%",
+  "external": true
+ },
+ "ext_whyitmatters_16": {
+  "value": "0.9%",
+  "text": "0.9%",
+  "external": true
+ },
+ "ext_whyitmatters_17": {
+  "value": "8%",
+  "text": "8%",
+  "external": true
+ },
+ "ext_whyitmatters_18": {
+  "value": "45%",
+  "text": "45%",
+  "external": true
+ },
+ "ext_whyitmatters_19": {
+  "value": "1.3%",
+  "text": "1.3%",
+  "external": true
+ },
+ "ext_whyitmatters_20": {
+  "value": "2.4%",
+  "text": "2.4%",
+  "external": true
+ },
+ "ext_whyitmatters_21": {
+  "value": "43%",
+  "text": "43%",
+  "external": true
+ },
+ "ext_whyitmatters_22": {
+  "value": "32%",
+  "text": "32%",
+  "external": true
+ },
+ "ext_whyitmatters_23": {
+  "value": "40%",
+  "text": "40%",
+  "external": true
+ },
+ "ext_whyitmatters_24": {
+  "value": "49%",
+  "text": "49%",
+  "external": true
+ },
+ "ext_whyitmatters_25": {
+  "value": "69%",
+  "text": "69%",
+  "external": true
+ },
+ "ext_whyitmatters_26": {
+  "value": "64%",
+  "text": "64%",
+  "external": true
+ },
+ "ext_whyitmatters_27": {
+  "value": "325,000",
+  "text": "325,000",
+  "external": true
+ },
+ "ext_whyitmatters_28": {
+  "value": "40%",
+  "text": "40%",
+  "external": true
+ },
+ "ext_whyitmatters_29": {
+  "value": "53.6%",
+  "text": "53.6%",
+  "external": true
+ },
+ "ext_whyitmatters_30": {
+  "value": "52.5%",
+  "text": "52.5%",
+  "external": true
+ },
+ "ext_whyitmatters_31": {
+  "value": "52.7%",
+  "text": "52.7%",
+  "external": true
+ },
+ "ext_whyitmatters_32": {
+  "value": "77%",
+  "text": "77%",
+  "external": true
+ },
+ "ext_whyitmatters_33": {
+  "value": "26%",
+  "text": "26%",
+  "external": true
+ },
+ "ext_whyitmatters_34": {
+  "value": "15%",
+  "text": "15%",
+  "external": true
+ },
+ "ext_whyitmatters_35": {
+  "value": "22%",
+  "text": "22%",
+  "external": true
+ },
+ "ext_whyitmatters_36": {
+  "value": "28%",
+  "text": "28%",
+  "external": true
+ },
+ "ext_whyitmatters_37": {
+  "value": "30,000",
+  "text": "30,000",
+  "external": true
+ },
+ "ext_whyitmatters_38": {
+  "value": "17%",
+  "text": "17%",
+  "external": true
+ },
+ "ext_whyitmatters_39": {
+  "value": "60%",
+  "text": "60%",
+  "external": true
+ },
+ "ext_whyitmatters_40": {
+  "value": "13,000",
+  "text": "13,000",
+  "external": true
+ },
+ "ext_whyitmatters_41": {
+  "value": "2,000",
+  "text": "2,000",
+  "external": true
+ },
+ "ext_whyitmatters_42": {
+  "value": "3,500",
+  "text": "3,500",
+  "external": true
+ },
+ "ext_whyitmatters_43": {
+  "value": "7%",
+  "text": "7%",
+  "external": true
+ },
+ "ext_whyitmatters_44": {
+  "value": "7%",
+  "text": "7%",
+  "external": true
+ },
+ "ext_whyitmatters_45": {
+  "value": "5.7%",
+  "text": "5.7%",
+  "external": true
+ },
+ "ext_whyitmatters_46": {
+  "value": "2.3%",
+  "text": "2.3%",
+  "external": true
+ },
+ "ext_whyitmatters_47": {
+  "value": "3.4%",
+  "text": "3.4%",
+  "external": true
+ },
+ "ext_whyitmatters_48": {
+  "value": "5.7%",
+  "text": "5.7%",
+  "external": true
+ },
+ "ext_whyitmatters_49": {
+  "value": "44%",
+  "text": "44%",
+  "external": true
+ },
+ "ext_whyitmatters_50": {
+  "value": "110%",
+  "text": "110%",
+  "external": true
+ },
+ "ext_whyitmatters_51": {
+  "value": "7%",
+  "text": "7%",
+  "external": true
  }
 }

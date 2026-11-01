@@ -40,3 +40,6 @@ g.append(t(LX, 30 + len(KINDS) * 26 + 4, f"{n:,} obligations on companies", 12, 
 aria = "Obligations on companies by kind of rule: " + "; ".join(f"{lab} {c[k] / n:.0%}" for k, lab, _ in KINDS)
 open("site/company_types_pie.svg", "w").write(f'<svg viewBox="0 0 {W} {H}" width="100%" style="max-width: {W}px" role="img" aria-label="{aria}">' + "".join(g) + "</svg>")
 print(n, {k: (c[k], round(c[k] / n * 100, 1)) for k, _, _ in KINDS})
+
+import json as _j
+_j.dump({"total": n, "counts": dict(c)}, open("data/company_types/pie.json", "w"))

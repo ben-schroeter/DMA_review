@@ -278,7 +278,7 @@ def row(f):
             f'<div class="cap" style="padding-top: 4px; color: #3F3B3B">{esc(f["latest"])}</div></div>')
 
 
-groups = [("agreed", "Agreed, awaiting formal adoption", "Parliament and Council have reached a provisional agreement; the text still needs formal adoption by both.", "agreed", "#F2EEE3", "#2E7D5B"),
+groups = [("agreed", "Agreed, awaiting formal adoption", "Parliament and Council have reached a provisional agreement; the text still needs formal adoption by both.", "agreed", "#F3F1EC", "#2E7D5B"),
           ("proposed", "In negotiation", "Proposed by the Commission and being negotiated by Parliament and Council.", "negotiation", "#FFFFFF", "#B8860B"),
           ("announced", "Announced", "In the Commission work programme or the One Europe, One Market roadmap, but not yet proposed.", "announced", "#F3F1EC", "#6B6B6B")]
 cnt = {k: sum(f["stage"] == k for f in F) for k, *_ in groups}

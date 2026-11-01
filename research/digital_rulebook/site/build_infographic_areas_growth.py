@@ -91,6 +91,7 @@ svg = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="100
 os.makedirs("site/infographics", exist_ok=True)
 open("site/infographics/areas_growth.svg", "w").write(svg)
 print({a: (then[a], now[a]) for a in areas}, round(factor, 2))
+import json as _j; _j.dump({a: now[a] for a in areas}, open("data/company_types/areas_now.json", "w"))
 
 # Page version for the Rules page (1000 wide, no headline or footer), same data and encoding
 PW, PL, PR, PTOP, PROW = 1000, 250, 840, 64, 40

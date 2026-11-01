@@ -75,7 +75,27 @@ MARK_FACTS = [
  ("impact_assessments", r"\b(95)(?= initial impact)"), ("sources_total", r"\b(571)(?= sources)"), ("objectives", r"\b(398)(?= objectives)"),
  ("obj_never_pct", r"\b(47%)(?= of those objectives)"), ("rs_main_n", r"\b(20,212)\b"), ("rs_secondary_n", r"\b(10,544)\b"), ("rs_total_k", r"\b(30,800)\b"),
  ("forthcoming_total", r"(?<=See all )(\d+)(?= forthcoming)"),
- ("src_official", r"(?<=: )(241)(?= official)"), ("src_academic", r"\b(127)(?= academic)"), ("src_thinktank", r"\b(48)(?= think tank or NGO)"), ("src_industry", r"\b(51)(?= consultancy)"),
+ ("src_official", r"(?<=: )(241)(?= official)"),
+ ("ct_PR", r"\b(3,718)\b"), ("ct_FI", r"\b(3,413)\b"), ("ct_GK", r"\b(1,452)\b"), ("ct_CL", r"\b(1,358)\b"), ("ct_baseline", r"\b(1,987)\b"),
+ ("ct_GK_2018", r"(?<=from )(21)(?= specific)"), ("ct_reporting_share", r"(?<=on companies, )(15%)"), ("firm_micro_pct", r"\b(93%)(?= of the rules)"),
+ ("firm_company_obligations", r"\b(11,988)\b"), ("firm_relief_removed", r"(?<=only )(828)\b"), ("prohib_since_2018", r"\b(5\.8%)"), ("prohib_before_2018", r"(?<=about )(9\.5%)"),
+ ("growth_words_median", r"(?<=grew by )(45%)"), ("growth_obligations_median", r"(?<= and )(27%)(?= in obligations)"), ("precision", r"\b(89%)(?= precision)"),
+ ("rs_no_duty_main", r"(?<=impose no duty \()(1,137)"), ("rs_no_duty_secondary", r"(?<=\(1,137 and )(833)(?=\))"), ("rs_agreement", r"(?<=the coding agreed )(92%)"),
+ ("rs_all_main_R", r"(?<=obligation, )(73%)(?= of those)"), ("rs_all_main_standard_like", r"(?<=are rules and )(25%)(?= are standards)"), ("rs_comp_main_R", r"(?<=much the same: )(72%)(?= rules)"),
+ ("rs_all_sec_R", r"(?<=that follow, )(84%)(?= are rules)"), ("rs_comp_sec_R", r"(?<=rules, and )(83%)(?= of those on companies)"),
+ ("rs_acts_more_rules", r"(?<=in )(26)(?= of the 30 laws)"), ("rs_acts_second_layer", r"(?<= of the )(30)(?= laws with a sizeable)"),
+ ("rs_ecodesign_main", r"(?<=Ecodesign Regulation \()(65%)"), ("rs_ecodesign_sec", r"(?<=Ecodesign Regulation \(65% to )(94%)"),
+ ("rs_csa_main", r"(?<=Cybersecurity Act \()(62%)"), ("rs_csa_sec", r"(?<=Cybersecurity Act \(62% to )(88%)"), ("rs_dora_main", r"(?<=DORA \()(55%)"), ("rs_dora_sec", r"(?<=DORA \(55% to )(81%)"),
+ ("rs_nis2_main", r"(?<=falls from )(75%)"), ("rs_nis2_sec", r"(?<=from 75% to )(52%)"),
+ ("precision", r"\b(89%)(?= were genuine| of counted| on EU acts| of counted items)"), ("precision", r"(?<=Approximate: )(89%)"),
+ ("addressee_accuracy", r"(?<=correct for )(90%)"), ("addressee_accuracy", r"(?<=right )(90%)"),
+ ("rep_total", r"\b(5,484)\b"), ("rep_private", r"(?<=Companies carry )(2,075)"), ("rep_states", r"(?<=member states )(1,826)"), ("rep_eu", r"(?<=EU institutions )(1,582)"),
+ ("rep_precision", r"\b(94%)(?= of counted items were genuine reporting)"), ("rep_precision", r"(?<=were genuine \()(94%)"), ("rep_recall", r"(?<=estimated )(83%)"),
+ ("rep_estimate_k", r"\b(6,200)\b"), ("evmap_check", r"(?<=found )(86%)"), ("us_precision", r"(?<=Precision on US text was )(80%)"), ("us_precision", r"(?<= and )(80%)(?= in US laws)"),
+ ("sox_precision", r"\b(68%)(?= for Sarbanes-Oxley| on Sarbanes-Oxley)"), ("model_clauses_k", r"(?<=about )(4,800)(?= distinct)"),
+ ("area_finance_k", r"(?<=hold about )(3,500)"), ("area_trust_k", r"(?<= and )(3,400)(?=\.)"),
+ ("ex_ai_proposal", r"(?<=AI Act \()(392)"), ("ex_ai_adopted", r"(?<=AI Act \(392 to )(764)"), ("ex_mica_proposal", r"(?<=MiCA \()(766)"), ("ex_mica_adopted", r"(?<=MiCA \(766 to )(1,114)"),
+ ("ex_ehds_proposal", r"(?<=Health Data Space \()(395)"), ("ex_ehds_adopted", r"(?<=Health Data Space \(395 to )(603)"), ("obj_never_pct", r"^(47%)$"), ("src_academic", r"\b(127)(?= academic)"), ("src_thinktank", r"\b(48)(?= think tank or NGO)"), ("src_industry", r"\b(51)(?= consultancy)"),
 ]
 def text_segments(s):
     """Yields (start, end) of text between tags, outside svg/script/style and outside DC {{…}} and comments."""
@@ -90,9 +110,11 @@ def text_segments(s):
 
 def mark_facts(s):
     segs = list(text_segments(s)); out, pos, n = [], 0, 0
+    blocks = [(m.start(), m.end()) for m in re.finditer(r"<!--@chart \S+?-->.*?<!--@end-->", s, re.S)]
     for a, b in segs:
+        if any(x <= a < y for x, y in blocks): continue
         t = s[a:b]
-        if "data-fact" in s[max(0, a - 40):a]: continue
+        if re.search(r'<span data-fact="[^"]+">$', s[max(0, a - 80):a]): continue
         for key, rx in MARK_FACTS:
             t2 = re.sub(rx, lambda m: f'<span data-fact="{key}">{m.group(1)}</span>', t)
             if t2 != t: n += t2.count("data-fact") - t.count("data-fact"); t = t2
@@ -122,9 +144,9 @@ def check(s, page=""):
     found = collections.Counter()
     blocks = [(m.start(), m.end()) for m in re.finditer(r"<!--@chart \S+?-->.*?<!--@end-->", s, re.S)]
     for a, b in text_segments(s):
-        if "data-fact" in s[max(0, a - 40):a] or any(x <= a < y for x, y in blocks): continue
+        if re.search(r'<span data-fact="[^"]+">$', s[max(0, a - 80):a]) or any(x <= a < y for x, y in blocks): continue
         t = s[a:b]
-        for m in re.finditer(r"\b\d{1,3}(?:,\d{3})+\b|\b\d+(?:\.\d+)?%", t):
+        for m in re.finditer(r"(?<!per )\b\d{1,3}(?:,\d{3})+\b|\b\d+(?:\.\d+)?%", t):
             found[m.group(0)] += 1; CTX.append((page, m.group(0), re.sub(r"\s+", " ", t[max(0, m.start() - 70):m.end() + 50]).strip()))
     return found
 
@@ -133,7 +155,11 @@ if __name__ == "__main__":
     src = all_sources() if mode == "--mark" else None
     tot = collections.Counter()
     for p in PAGES:
-        if SKIP(p): continue
+        if SKIP(p):
+            if mode == "--fill" and "precision" in FACTS:   # generated pages: only the shared footer figure
+                s = open(p).read(); t = re.sub(r"approximate \(\d+% precision\)", f"approximate ({FACTS['precision']['text']} precision)", s)
+                if t != s: open(p, "w").write(t); tot["pages_changed"] += 1
+            continue
         s = open(p).read(); s0 = s
         if mode == "--mark":
             s, nc = mark_charts(s, src); s, nf = mark_facts(s); tot["charts"] += nc; tot["facts"] += nf
