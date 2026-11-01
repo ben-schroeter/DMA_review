@@ -16,3 +16,18 @@ The findings will be published as a website at the end of the project. Everythin
 - `data/impact/<CELEX>.json` — per instrument: plain-language summary, evidence rating, promised indicators and their status, and every source with a stable `id`, link, open PDF link, Internet Archive copy, plain-language summary, access type and date checked (schema in `data/impact/SCHEMA.md`).
 - `data/*.json|csv` and the workbook — metrics per instrument, secondary acts, amendments, guidance and benchmarks.
 - `charts/` — figures, regenerated from the workbook by `scripts/charts.py`.
+
+## One source of truth: how to rebuild
+
+`python3 scripts/build_all.py` rebuilds everything from `data/`:
+
+1. `site/build_forthcoming.py`: pending initiatives (editorial list, Legislative Observatory data in `site/forthcoming_oeil.json`, Council steps in `site/forthcoming_procs.py`) and the Forthcoming pages.
+2. `scripts/build_workbook.py` then `scripts/db_pending.py`: the database `digital_rulebook.xlsx` (measured laws, then pending initiatives with stable ids from `data/initiative_ids.json`, and the `reviews` sheet from `data/reviews.json`).
+3. Derived data and charts (`site/build_*.py`), all read from the database or `data/`.
+4. `site/facts.py`: every headline figure, written to `site/facts.json`.
+5. Page builders (law pages, Digital policy, Further reading), then `site/assemble.py --fill`, which puts the current charts (`<!--@chart …-->` blocks), figures (`<span data-fact="…">`) and data lists into the hand-designed pages.
+6. Footer date, page heights (browser measurement; `--no-heights` skips it) and a report of figures in page text that are not yet tied to the database (`site/assemble.py --check`).
+
+Rule: never type a number into a page. Add it to `site/facts.py` and mark it with `data-fact`, or generate the chart in a `site/build_*.py` script and embed it with an `@chart` marker.
+
+Stage 0 (run only when inputs change): text download and measurement, the obligation, addressee and rules/standards classifiers, impact records and the analyses in `scripts/`.

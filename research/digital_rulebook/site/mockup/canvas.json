@@ -4,7 +4,7 @@
   "boards": {
     "About.dc.html": {
       "expand": "fill",
-      "h": 2080,
+      "h": 1541,
       "is_interactive": true,
       "title": "About: the project",
       "w": 1440,
@@ -14,7 +14,7 @@
     },
     "Data.dc.html": {
       "expand": "fill",
-      "h": 2280,
+      "h": 1497,
       "is_interactive": true,
       "title": "Data: downloads",
       "w": 1440,
@@ -100,7 +100,7 @@
     },
     "Main.dc.html": {
       "expand": "fill",
-      "h": 5480,
+      "h": 5467,
       "is_interactive": true,
       "title": "Home",
       "w": 1440,
@@ -120,7 +120,7 @@
     },
     "Rules.dc.html": {
       "expand": "fill",
-      "h": 7717,
+      "h": 7609,
       "is_interactive": true,
       "title": "Findings: quantification",
       "w": 1440,
@@ -227,7 +227,7 @@
     },
     "FurtherReading.dc.html": {
       "expand": "fill",
-      "h": 4120,
+      "h": 4125,
       "is_interactive": true,
       "title": "Studies: further reading",
       "w": 1440,

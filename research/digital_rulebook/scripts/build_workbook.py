@@ -286,6 +286,8 @@ wbm.append(["benchmark", "variant", "pages", "words", "restrictions_total", "obl
             "validation_precision", "precision_adjusted_restrictions", "note"])
 for f in sorted(x for x in _os.listdir(D) if x.startswith("benchmark_") and x.endswith(".json") and "_instances" not in x):
     bm = json.load(open(D + f))
+    if not all(k in bm for k in ("all_text", "excluding_inserted_text")):
+        continue   # other benchmark files (matched US laws, private-company variants) feed the us_comparison sheet
     for var in ("all_text", "excluding_inserted_text"):
         v = bm[var]; a = v["by_addressee"]; c = v["by_category"]; prec = bm.get("validation", {}).get("precision")
         rr = wbm.max_row + 1
@@ -390,16 +392,6 @@ for k, v in val.items():
 style(wv, [28, 12, 12, 12, 14, 10, 14, 14, 12])
 wv.freeze_panes = None
 
-# forthcoming: the initiatives not yet adopted (proposals and announcements),
-# exported by site/build_forthcoming.py; they enter the instrument counts once adopted
-import os as _os
-if _os.path.exists("../site/forthcoming_list.json"):
-    _fl = json.load(open("../site/forthcoming_list.json"))
-    wf = wb.create_sheet("forthcoming", 1)
-    _cols = ["id", "name", "stage", "law_id", "policy_area", "procedure", "proposal", "parliament_position", "council_position", "trilogues", "agreement",
-             "expected_proposal", "target_for_agreement", "latest", "page"]
-    wf.append(_cols)
-    for _x in _fl:
-        wf.append([_x[c] if _x[c] is not None else "" for c in _cols])
-wb.save("../digital_rulebook.xlsx")
+import os as _osw
+wb.save(_osw.environ.get("WB_OUT", "../digital_rulebook.xlsx"))
 print("saved", ws.max_row, n2, n3)

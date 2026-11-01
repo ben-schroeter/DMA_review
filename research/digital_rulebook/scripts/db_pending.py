@@ -1,5 +1,5 @@
-"""One database: brings the workbook's instruments sheet to the current schema and keeps it in step with the pending
-initiatives. Renames legacy columns, drops columns that only described the initial inventory, appends every initiative not
+"""Second step of the workbook build (after scripts/build_workbook.py): adds every initiative not yet adopted to the
+instruments sheet, so the workbook is the one database. Renames legacy columns, drops columns that only described the initial inventory, appends every initiative not
 yet adopted (from site/forthcoming_list.json, written by site/build_forthcoming.py) with stable ids kept in
 data/initiative_ids.json, and keeps a 'reviews' sheet of guidance and rules under revision (data/reviews.json).
 Idempotent: run after site/build_forthcoming.py. Run from research/digital_rulebook."""
