@@ -173,7 +173,7 @@ def shell(title, body, h):
     return head + body + FOOT.replace("HEIGHT", str(h))
 
 
-TABS = [("Instruments.dc.html", "Legal instruments"), ("DigitalPolicy.dc.html", "Digital policy"), ("Forthcoming.dc.html", "Forthcoming")]
+TABS = [("Instruments.dc.html", "Legal instruments"), ("Forthcoming.dc.html", "Forthcoming"), ("DigitalPolicy.dc.html", "Digital policy")]
 
 
 def tabs(cur):

@@ -117,7 +117,7 @@ sections = "\n".join(
 studies = open("site/mockup/Studies.dc.html").read()
 header = re.search(r"  <header.*?</header>\n", studies, re.S).group(0)
 footer = re.search(r"  <footer.*?</footer>\n", studies, re.S).group(0)
-footer = footer.replace("Mockup: collection switches are illustrative; the causal set is shown.", "Data as of October 2026.").replace('<a href="Data.dc.html" style="font-size: 15px">Download all sources →</a>', '<a href="Studies.dc.html" style="font-size: 15px">Browse the evidence library →</a>')
+footer = footer.replace("Mockup: collection switches are illustrative; the causal set is shown.", "Last update: 1 November 2026.").replace('<a href="Data.dc.html" style="font-size: 15px">Download all sources →</a>', '<a href="Studies.dc.html" style="font-size: 15px">Browse the evidence library →</a>')
 page = f"""<!doctype html>
 <html lang="en">
 <head>
