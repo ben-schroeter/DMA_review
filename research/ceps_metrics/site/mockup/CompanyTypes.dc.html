@@ -26,7 +26,7 @@ a{color:#282424}a:hover{color:#8F6708}
 .row{display:grid;grid-template-columns:200px minmax(0,1fr) 56px;gap:12px;align-items:center;font-size:15px}
 @media (max-width:640px){.wrap{padding-inline:20px}.h1{font-size:40px}.h2{font-size:28px}.row{grid-template-columns:130px minmax(0,1fr) 50px}}
 @media (max-width:640px){.nav{width:100%;justify-content:space-between;gap:10px !important}.nav a{font-size:14px}}
-</style>
+h2.h2{position:relative;padding-left:18px}h2.h2::before{content:"";position:absolute;left:0;top:.18em;bottom:.18em;width:6px;border-radius:3px;background:var(--bar,#B8860B)}</style>
 </helmet>
 <div style="width: 100%; background: #FAF9F5">
   <header style="border-bottom: 1px solid #E8E6E3">
@@ -144,7 +144,6 @@ a{color:#282424}a:hover{color:#8F6708}
     </div>
   </section>
 
-  <hr style="border: 0; border-top: 1px solid #E8E6E3; margin: 0">
 
 <section style="padding-block: 64px">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 28px">
@@ -158,9 +157,8 @@ a{color:#282424}a:hover{color:#8F6708}
     </div>
   </section>
 
-  <hr style="border: 0; border-top: 1px solid #E8E6E3; margin: 0">
 
-  <section style="padding-block: 64px 80px">
+  <section style="padding-block: 64px 80px; background: #FFFFFF; border-top: 1px solid #E8E6E3">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 28px">
       <h2 class="h2">How often and how fast companies must report</h2>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; align-items: center">
@@ -179,9 +177,8 @@ a{color:#282424}a:hover{color:#8F6708}
     </div>
   </section>
 
-  <hr style="border: 0; border-top: 1px solid #E8E6E3; margin: 0">
 
-  <section style="padding-block: 56px 40px">
+  <section style="padding-block: 56px 40px; background: #F3F1EC; border-top: 1px solid #E8E6E3">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 22px">
       <h2 class="h2">Small firms get little relief: a micro firm faces 93% of the rules a large one does</h2>
       <p class="body">Few EU digital laws scale their obligations to the size of the firm. Of 11,988 obligations on companies, only 828 do not apply to a firm with fewer than 10 staff. Most of that relief comes from three laws: NIS2 cybersecurity duties start at medium size, the Digital Services Act spares micro and small platforms its platform and marketplace duties, and the Data Act spares micro and small makers its data-sharing chapter. Finance and telecoms get almost none, and nothing changes between 250 and 750 staff. The one big step is at the top: gatekeepers and very large platforms take on about 300 more obligations under the Digital Markets Act and the Digital Services Act.</p>
@@ -216,7 +213,7 @@ a{color:#282424}a:hover{color:#8F6708}
     </div>
   </section>
 
-  <section style="padding-block: 0 56px">
+  <section style="padding-block: 0 56px; background: #FFFFFF; border-top: 1px solid #E8E6E3">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 28px">
       <div style="padding: 24px; border-radius: 12px; background: #F5F5F0; display: flex; flex-direction: column; gap: 10px">
         <h3 style="font-family: 'Source Serif 4', Georgia, serif; font-weight: 400; font-size: 22px; margin: 0">How we assigned the rules</h3>
@@ -234,7 +231,7 @@ a{color:#282424}a:hover{color:#8F6708}
   </footer>
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":7300}}'>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":7091}}'>
 class Component extends DCLogic {
   renderVals() { return {}; }
 }

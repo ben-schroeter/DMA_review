@@ -6,9 +6,7 @@ D = [o for o in D_ALL if o["status"] == "adopted"]   # counts cover adopted laws
 PEND = {}
 for o in D_ALL:
     if o["status"] != "adopted": PEND[o["era"]] = PEND.get(o["era"], 0) + 1
-_fc = open("site/build_forthcoming.py").read(); _ns = {}
-exec(_fc.split("\nSTAGE =")[0].replace('json.load(open("instrument_pages.json"))', 'json.load(open("site/instrument_pages.json"))'), _ns)
-FC = _ns["F"]
+FC = json.load(open("site/forthcoming_list.json"))   # exported by site/build_forthcoming.py
 PAGES = {int(k): v for k, v in json.load(open("site/instrument_pages.json")).items()}
 OBJ = json.load(open("data/policy_eras/objectives.json"))
 CHIP = {"met": ("#8F6708", "#FFFFFF"), "met late": ("#B8860B", "#FFFFFF"), "on track": ("#B8860B", "#FFFFFF"), "near miss": ("#E3CF9C", "#282424"),
@@ -80,8 +78,8 @@ for i, e in enumerate(ERAS):
         fl.append(f'<a href="{PAGES[o["row_id"]]}">{esc(f)}</a> <span class="cap">({when})</span>')
     flags = f'<p class="body" style="font-size: 15px">Flagships: {" · ".join(fl)} · <a href="Instruments.dc.html">See all {n} →</a></p>' if fl else ""
     if e["id"] == "competitiveness":
-        mine = [f for f in FC if f["stage"] == "announced" or int(f["track"][0][-4:]) >= 2025]
-        page = lambda f: PAGES[f["row"]] if f.get("row") else f"Fc-{f['id']}.dc.html"
+        mine = [f for f in FC if f["stage"] == "announced" or int(f["proposal"][-4:]) >= 2025]
+        page = lambda f: f["page"]
         grp = [("agreed", "Agreed, awaiting adoption"), ("proposed", "In negotiation"), ("announced", "Announced")]
         stats = ("<strong style=\"font-weight: 600\">No law proposed in this era has been adopted yet</strong> · "
                  + " · ".join(f'{sum(f["stage"] == k for f in mine)} {lab.lower()}' for k, lab in grp))
@@ -96,7 +94,7 @@ for i, e in enumerate(ERAS):
                   f'<td>{esc(o["result"])}' + (f' <a class="cap" href="{OBJ["sources"][o["src"]][1]}">{esc(OBJ["sources"][o["src"]][0])}</a>' if o["src"] else "") + f'</td><td>{chip(o["status"])}</td></tr>' for o in rows)
     score = (f'<div style="grid-column: 1 / -1; overflow-x: auto"><p class="eyebrow" style="margin: 0 0 6px">Objectives and targets</p>'
              f'<table class="okr"><thead><tr><th style="width: 18%">Objective</th><th style="width: 32%">Target</th><th>Result</th><th style="width: 110px">Status</th></tr></thead><tbody>{trs}</tbody></table></div>')
-    bg = "background: #F5F5F0; border-top: 1px solid #E8E6E3; border-bottom: 1px solid #E8E6E3; " if i % 2 == 0 else ""
+    bg = "background: #F3F1EC; border-top: 1px solid #E8E6E3; border-bottom: 1px solid #E8E6E3; " if i % 2 == 0 else ""
     blocks.append(f'''  <section id="era-{e["anc"]}" style="{bg}padding-block: 36px">
     <div class="wrap era">
       <div style="display: flex; flex-direction: column; gap: 10px">

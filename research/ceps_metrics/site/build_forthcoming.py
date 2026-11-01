@@ -17,11 +17,11 @@ F = [
  dict(id="psr", name="Payment Services Regulation (PSR)", stage="agreed", area="Finance", row=99, proc="2023/0210(COD)",
       what="Directly applicable rules for payment services: fraud prevention, IBAN checks, open banking access.",
       track=["Jun 2023", "Apr 2024", "Jun 2025", "2025", "Apr 2026"], target="—",
-      latest="Provisional agreement reached; awaiting formal adoption by Parliament and Council."),
+      latest="Agreed with Council in November 2025; Parliament's committee approved the text in May 2026; plenary vote indicatively 14 December 2026."),
  dict(id="psd3", name="Payment Services Directive 3 (PSD3)", stage="agreed", area="Finance", row=100, proc="2023/0209(COD)",
       what="Licensing and supervision of payment and e-money institutions.",
       track=["Jun 2023", "Apr 2024", "Jun 2025", "2025", "Apr 2026"], target="—",
-      latest="Agreed together with the PSR; awaiting formal adoption."),
+      latest="Agreed together with the PSR; plenary vote indicatively 14 December 2026."),
  # --- proposed, in negotiation
  dict(id="digital-omnibus", name="Digital Omnibus (data, privacy, cybersecurity)", stage="proposed", area="Data & Privacy", proc="COM(2025) 837",
       what="Amends the GDPR, ePrivacy rules, the Data Act and incident reporting to cut compliance costs.",
@@ -30,7 +30,7 @@ F = [
  dict(id="business-wallet", name="European Business Wallet", stage="proposed", area="Competition & Single Market", proc="Nov 2025",
       what="A digital wallet for companies to identify themselves, sign and exchange documents with authorities across the EU.",
       track=["Nov 2025", None, None, None, None], target="End 2026",
-      latest="Council working party is negotiating a compromise text (June 2026)."),
+      latest="Parliament adopted its negotiating mandate on 7 October 2026; Council working party still negotiating."),
  dict(id="digital-networks-act", name="Digital Networks Act", stage="proposed", area="Connectivity", proc="2026/0013(COD)",
       what="Replaces the telecoms code with a single regulation: EU-wide spectrum coordination, copper switch-off, lighter authorisation.",
       track=["Jan 2026", None, None, None, None], target="Q4 2027",
@@ -74,7 +74,7 @@ F = [
  dict(id="fida", name="Financial Data Access Regulation (FiDA)", stage="proposed", area="Finance", row=98, proc="2023/0205(COD)",
       what="Open finance: customers can share their financial data beyond payment accounts.",
       track=["Jun 2023", "Apr 2024", "Dec 2024", "2025", None], target="—",
-      latest="Trilogues stalled since October 2025; kept on the 2026 work programme as pending."),
+      latest="Parliament has had its mandate since December 2024; trilogues stalled since October 2025; kept on the 2026 work programme as pending."),
  dict(id="csar", name="Child Sexual Abuse Regulation (CSAR)", stage="proposed", area="Data & Privacy", row=82, proc="2022/0155(COD)",
       what="Risk assessment and detection obligations for online services to fight child sexual abuse material.",
       track=["May 2022", "Nov 2023", "Nov 2025", "2026", None], target="—",
@@ -82,7 +82,7 @@ F = [
  dict(id="digital-travel", name="EU Digital Travel Application Regulation", stage="proposed", area="Data & Privacy", row=106, proc="2024/0670(COD)",
       what="An EU app to submit travel documents before crossing the external border.",
       track=["Oct 2024", "2025", "Nov 2025", "2026", None], target="—",
-      latest="Trilogues continuing (second round May 2026); age limit for digital travel credentials open."),
+      latest="Parliament (December 2025) and Council (November 2025) have mandates; trilogues continuing, with the age limit for digital travel credentials open."),
  dict(id="space-act", name="EU Space Act", stage="proposed", area="Industrial Policy", row=107, proc="COM(2025) 335",
       what="Common rules on safety, resilience and sustainability for space operators in the EU.",
       track=["Jun 2025", None, None, None, None], target="—",
@@ -98,11 +98,11 @@ F = [
  dict(id="csa-directive", name="Child Sexual Abuse Directive (recast)", stage="agreed", area="Data & Privacy", row=105, proc="2024/0035(COD)",
       what="Updates criminal-law definitions and penalties, including for AI-generated abuse material and livestreamed abuse.",
       track=["Feb 2024", "", "", "", "Jun 2026"], target="—",
-      latest="Provisional agreement on 22 June 2026; awaiting formal adoption."),
+      latest="Provisional agreement on 22 June 2026; plenary vote indicatively 14 December 2026."),
  dict(id="omnibus-iv", name="Omnibus IV (small mid-caps and digital product compliance)", stage="agreed", area="Competition & Single Market", proc="COM(2025) 501",
       what="Extends SME relief to small mid-caps, narrows the GDPR record-keeping duty and moves product compliance documents to digital.",
       track=["May 2025", "", "", "", "Jun 2026"], target="End 2026",
-      latest="Provisional agreement reported on 9 June 2026; Parliament plenary vote indicatively 23 November 2026."),
+      latest="Provisional agreement in June 2026, approved by Parliament's committees in July; plenary vote indicatively 23 November 2026."),
  dict(id="digital-fairness-act", name="Digital Fairness Act", stage="announced", area="E-commerce & Consumer Protection", proc="CWP 2026",
       what="Consumer rules on dark patterns, addictive design, unfair personalisation and subscription traps.",
       expected="Q4 2026", target="—",
@@ -119,10 +119,10 @@ F = [
       what="Faster, digital-ready enforcement of Articles 101 and 102: data-preservation orders, inspection of all business records, quicker interim measures.",
       expected="Q2 2027 (planned Q3 2026)", target="—",
       latest="Evaluation and consultation done; proposal pushed to 2027."),
- dict(id="european-product-act", name="European Product Act", stage="announced", area="Competition & Single Market", proc="CWP 2026",
-      what="Overhauls the framework for EU product laws, market surveillance and standardisation.",
-      expected="Q3 2026, delayed", target="Q4 2027",
-      latest="Scheduled for Q3 2026; not yet proposed."),
+ dict(id="european-product-act", name="European Product Act: Standardisation Regulation", stage="proposed", area="Competition & Single Market", proc="2026/0307(COD)",
+      what="First part of the European Product Act: a faster European standardisation system, with common specifications where standards are late.",
+      track=["Oct 2026", None, None, None, None], target="Q4 2027",
+      latest="Standardisation Regulation proposed on 6 October 2026; the parts on the product framework and market surveillance are still to come."),
  dict(id="smbpa", name="Single Market Barriers Prevention Act", stage="announced", area="Competition & Single Market", proc="Single Market Strategy",
       what="Screens draft national rules to stop new single-market barriers before they are adopted.",
       expected="Q3 2027", target="—",
@@ -136,6 +136,85 @@ F = [
       expected="Q4 2026", target="—",
       latest="Commission preparing an impact assessment; consultation held."),
 ]
+# ---------- Parliament and Council data (OEIL procedure files + hand-entered Council steps)
+from forthcoming_procs import PROC, COUNCIL, PREP, OMNIBUS
+OE = json.load(open("forthcoming_oeil.json"))
+MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+mon = lambda d: f"{MON[int(d[3:5]) - 1]} {d[6:]}"
+celex = lambda ref, kind: (lambda m: f"5{m.group(1)}{kind}{m.group(2)}" if m else "")(re.match(r"(?:COM|SWD)\((\d{4})\)(\d{4})", ref))
+def oe_ev(ref, *keys):
+    return [e for e in OE.get(ref, {}).get("events", []) if any(k in e[1] for k in keys)]
+def auto_track(f):
+    refs = PROC.get(f["id"])
+    if not refs:
+        return f.get("track")
+    r = refs[0]; t = list(f.get("track") or [None] * 5)
+    pr = oe_ev(r, "Legislative proposal published")
+    if pr: t[0] = mon(pr[0][0])
+    ep = oe_ev(r, "Decision by Parliament, 1st reading", "confirmed by plenary")
+    t[1] = mon(ep[0][0]) if ep else None
+    cm = [c for c in COUNCIL.get(f["id"], []) if c[4] == "mandate"]
+    t[2] = (cm[0][0][-8:] if len(cm[0][0]) > 8 else cm[0][0]) if cm else None
+    ag = [c for c in COUNCIL.get(f["id"], []) if c[4] == "agreement"] or [("" if not e else mon(e[0]),) for e in oe_ev(r, "Approval in committee of the text agreed")[:1]]
+    t[4] = (ag[0][0][-8:] if len(ag[0][0]) > 8 else ag[0][0]) if ag else None
+    t[3] = "" if (t[1] is not None and t[2] is not None) or t[4] is not None else None
+    return t
+for f in F:
+    if f["stage"] != "announced":
+        f["track"] = auto_track(f)
+def parl_docs(fid):
+    out = []
+    for r in PROC.get(fid, []):
+        d = OE.get(r, {})
+        who = (f'{d["committee"]}, rapporteur {d["rapporteur"]}' if d.get("rapporteur") else (d["committee"] or "committee responsible not yet listed")) if d else ""
+        out.append(("", f"{d.get('title') or r}: {who}", r, OEIL(r)))
+        for e in d.get("events", []):
+            ref = e[2]
+            if re.match(r"A\d+-\d{4}/\d{4}", ref):
+                m = re.match(r"A(\d+)-(\d{4})/(\d{4})", ref)
+                out.append((mon(e[0]), "Committee report for plenary", ref, f"https://www.europarl.europa.eu/doceo/document/A-{m.group(1)}-{m.group(3)}-{m.group(2)}_EN.html"))
+            elif re.match(r"T\d+-\d{4}/\d{4}", ref):
+                m = re.match(r"T(\d+)-(\d{4})/(\d{4})", ref)
+                out.append((mon(e[0]), "Parliament position, first reading", ref, f"https://www.europarl.europa.eu/doceo/document/TA-{m.group(1)}-{m.group(3)}-{m.group(2)}_EN.html"))
+            elif "confirmed by plenary" in e[1]:
+                out.append((mon(e[0]), "Plenary confirms the mandate to negotiate with Council", "", ""))
+            elif "Approval in committee of the text agreed" in e[1]:
+                out.append((mon(e[0]), "Committee approves the text agreed with Council", ref, ""))
+            elif "Indicative plenary" in e[1]:
+                out.append((mon(e[0]), "Indicative plenary vote", "", ""))
+    return out
+def council_docs(fid):
+    c = COUNCIL.get(fid)
+    return [(d, t, r, u) for d, t, r, u, _ in c] if c else [("", "Council position", "not yet adopted", "")]
+def com_docs(fid):
+    out = []
+    for r in PROC.get(fid, []):
+        d = OE.get(r, {})
+        for c in d.get("com", [])[:1]:
+            pr = oe_ev(r, "Legislative proposal published")
+            out.append((mon(pr[0][0]) if pr else "", f"Commission proposal: {d.get('title', '')}", re.sub(r"\)0*", ") ", c), EUR(celex(c, "PC"))))
+        sw = d.get("swd", [])
+        if sw:
+            out.append(("", "Staff working documents: impact assessment or supporting analysis", ", ".join(re.sub(r"\)0*", ") ", x) for x in sw), EUR(celex(sw[0], "SC"))))
+    return out
+def omnibus_html(fid):
+    o = OMNIBUS.get(fid)
+    if not o:
+        return ""
+    rows = "".join(f'<tr><td><a href="{ACT(r)}">{esc(n)}</a></td><td class="n">{a}</td><td class="n">{b}</td><td class="n">{c}</td></tr>' for r, n, a, b, c in o["changes"])
+    tot = [sum(x[i] for x in o["changes"]) for i in (2, 3, 4)]
+    rep = "".join(f'<li><a href="{ACT(r)}">{esc(n)}</a> <span class="cap">· {esc(how)}</span></li>' for r, n, how in o["repeals"])
+    return f'''  <section style="padding-block: 8px 40px">
+    <div class="wrap" style="display: flex; flex-direction: column; gap: 14px">
+      <h2 class="h2">What the omnibus would change, law by law</h2>
+      <p class="body">Provisions the proposal replaces, deletes or inserts in each law on our list: {tot[0]} replaced, {tot[1]} deleted, {tot[2]} inserted.{" It also repeals " + str(len(o["repeals"])) + " laws." if o["repeals"] else ""} Counted from the amending instructions of {esc(o["source"])}.</p>
+      <table class="tbl" style="max-width: 760px"><thead><tr><th>Law</th><th style="text-align: right">Replaced</th><th style="text-align: right">Deleted</th><th style="text-align: right">Inserted</th></tr></thead><tbody>{rows}</tbody></table>
+      {f'<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px">{rep}</ul>' if rep else ""}
+      <p class="cap">{esc(o["other"])} A provision is an article, paragraph or point. How many obligations are removed, eased or added will be counted once the text is adopted.</p>
+    </div>
+  </section>
+'''
+
 STAGE = {"agreed": ("Agreed, awaiting adoption", "#2E7D5B"), "proposed": ("In negotiation", "#B8860B"), "announced": ("Announced", "#6B6B6B")}
 
 
@@ -208,7 +287,7 @@ for k, t, d, anc, bg, col in groups:
            f'<span class="eyebrow" style="font-size: 12px">{"Stage" if k != "announced" else "Timing"}</span><span class="eyebrow" style="font-size: 12px">{"Proposed" if k != "announced" else ""}</span>'
            '<span class="eyebrow" style="font-size: 12px">Target for agreement</span><span class="eyebrow" style="font-size: 12px">Latest</span></div>')
     secs += (f'<section id="{anc}" style="background: {bg}; border-top: 1px solid #E8E6E3; padding-block: 44px 48px; scroll-margin-top: 16px"><div class="wrap" style="display: flex; flex-direction: column; gap: 8px">'
-             f'<div style="display: flex; align-items: center; gap: 12px"><span style="width: 6px; height: 30px; border-radius: 3px; background: {col}"></span><h2 class="h2">{t} <span class="cap" style="font-size: 18px">· {len(xs)}</span></h2></div><p class="cap">{d}</p>'
+             f'<h2 class="h2" style="--bar: {col}">{t} <span class="cap" style="font-size: 18px">· {len(xs)}</span></h2><p class="cap">{d}</p>'
              f'<div style="margin-top: 8px">{hdr}{"".join(row(f) for f in xs)}</div></div></section>')
 legend = ('<div style="display: flex; flex-wrap: wrap; gap: 8px 22px; align-items: center" class="cap"><span>Stage dots:</span>'
           + "".join(f'<span>{i + 1}. {s}</span>' for i, s in enumerate(STEPS)) + "</div>")
@@ -296,13 +375,8 @@ fpage(dna, None,
        ("Open Internet Access Regulation", "amended", "Act-open-internet-access-regulation.dc.html"),
        ("Radio Spectrum Decision", "amended", "Act-radio-spectrum-decision.dc.html"),
        ("ePrivacy Directive", "amended", "Act-eprivacy-directive.dc.html")],
-      [("Commission", [("Feb 2024", "White Paper: How to master Europe's digital infrastructure needs?", "COM(2024) 81", EUR("52024DC0081")),
-                       ("Jan 2026", "Proposal for a Digital Networks Act", "COM(2026) 16", EUR("52026PC0016")),
-                       ("Jan 2026", "Impact assessment and Regulatory Scrutiny Board opinion", "SWD", "https://www.parlament.gv.at/gegenstand/XXVIII/EU/54732")]),
-       ("European Parliament", [("2026", "Procedure file 2026/0013(COD): ITRE, rapporteur Michał Kobosko", "Legislative Observatory", OEIL("2026/0013(COD)")),
-                                ("", "Draft report", "not yet published", "")]),
-       ("Council", [("May 2026", "Progress report", "ST 8523/26", "https://data.consilium.europa.eu/doc/document/ST-8523-2026-INIT/en/pdf"),
-                    ("Jun 2026", "Note to the Telecoms Council of 8–9 June", "ST 9685/26", "https://data.consilium.europa.eu/doc/document/ST-9685-2026-INIT/en/pdf")]),
+      [("Commission", [("Feb 2024", "White Paper: How to master Europe's digital infrastructure needs?", "COM(2024) 81", EUR("52024DC0081"))] + com_docs("digital-networks-act")),
+       ("European Parliament", parl_docs("digital-networks-act")), ("Council", council_docs("digital-networks-act")),
        ("Other opinions", [("Mar 2026", "European Data Protection Supervisor opinion", "EDPS", ""), ("Jun 2026", "European Economic and Social Committee opinion", "TEN/879", "")])],
       "Key documents", "Commission proposal and impact assessment, then the reports and positions of Parliament and Council as they appear.")
 
@@ -339,29 +413,18 @@ for f in F:
     links = src.get("sources", [])
     f["latest_long"] = d["latest"]
     chg = [(n, how, ACT(r)) for n, how, r in d["changes"]] or [("No law in the current Digital Acquis", "a new instrument", "Instruments.dc.html")]
-    tracker = [("", "Digital Acquis tracker entry", "digital-acquis.eu", src["tracker"])] if src.get("tracker") else []
     if f["stage"] == "announced":
-        prep = [("", t if t != "Official source" else "Commission page on the initiative", "Commission", u) for t, u in links]
-        docs = [("Preparatory work and consultations", prep or [("", "No preparatory documents published yet", "", "")]), ("Planning", [CWP26, ROADMAP] + tracker)]
+        prep = [("", t if t != "Official source" else "Commission page on the initiative", "Commission", u) for t, u in links] + PREP.get(f["id"], [])
+        docs = [("Preparatory work and consultations", prep or [("", "No preparatory documents published yet", "", "")]), ("Planning", [CWP26, ROADMAP])]
         sub = [("Announced in", "Work programme 2026" if f["proc"] == "CWP 2026" else f["proc"]), ("Proposal expected", f["expected"]), ("Target for agreement", f["target"] if f["target"] != "—" else "not set")]
         fpage(f, sub, d["intro"], d["does"], chg, docs, "Preparatory studies and consultations",
               "Until the proposal is published there is no impact assessment; these are the documents it will build on.")
     else:
-        url = EUR(d["eurlex"]) if d.get("eurlex") else (links[0][1] if links else "")
-        com = [(d["date"], "Commission proposal", d["ref"], url)] + [("", t, "Commission", u) for t, u in links[1:]]
-        pc = []
-        if OEIL_OK(f["proc"]):
-            pc.append(("", f"Procedure file {f['proc']}", "Legislative Observatory", OEIL(f["proc"])))
-        if f["id"] == "digital-omnibus":
-            pc.append(("Oct 2026", "Council negotiating mandate", "agreed 21 October 2026", ""))
-            pc.append(("", "Parliament report", "in committee", ""))
-        elif f["stage"] == "agreed":
-            pc.append(("Jun 2026", "Provisional agreement", "awaiting formal adoption", ""))
-        else:
-            pc.append(("", "Parliament report and Council position", "not yet adopted", ""))
-        docs = [("Commission", com), ("Parliament and Council", pc), ("Planning", [ROADMAP] + tracker)]
+        com = com_docs(f["id"]) or [(d.get("date", ""), "Commission proposal", d.get("ref", ""), EUR(d["eurlex"]) if d.get("eurlex") else (links[0][1] if links else ""))]
+        com += [("", t, "Commission", u) for t, u in links[1:]]
+        docs = [("Commission", com), ("European Parliament", parl_docs(f["id"]) or [("", "Not yet referred to a committee", "", "")]), ("Council", council_docs(f["id"])), ("Planning", [ROADMAP])]
         fpage(f, None, d["intro"], d["does"], chg, docs, "Key documents",
-              "The Commission proposal, then the reports and positions of Parliament and Council as they appear.")
+              "The Commission proposal and impact assessment, then the reports and positions of Parliament and Council as they appear. Parliament steps from the Legislative Observatory.", extra=omnibus_html(f["id"]))
 
 # ---------- status blocks for pending acts that already have an instrument page
 def eurproc(pr):
@@ -372,19 +435,23 @@ for f in F:
     if not f.get("row"):
         continue
     lab, col = STAGE[f["stage"]]
-    docs = [(f"Procedure file {f['proc']}", "Legislative Observatory: Parliament reports and votes", OEIL(f["proc"]))] if OEIL_OK(f["proc"]) else []
-    if eurproc(f["proc"]):
-        docs.append(("EUR-Lex procedure", "Commission proposal and Council documents", eurproc(f["proc"])))
-    dl = "".join(f'<li style="display: block"><a href="{u}">{esc(t)}</a> <span class="cap">· {esc(n)}</span></li>' for t, n, u in docs)
+    dl = ""
+    grp = [("Commission", com_docs(f["id"])), ("European Parliament", parl_docs(f["id"])), ("Council", council_docs(f["id"]))]
+    dl = '<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px">' + doc_list(grp) + "</div>"
     STAND[f["row"]] = f'''  <section style="padding-block: 40px 8px">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 16px">
       <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px"><h2 class="h2">Where it stands</h2><span class="chip" style="border-color: {col}; color: {col}; font-weight: 600">{lab}</span><a class="cap" href="Forthcoming.dc.html">All forthcoming initiatives →</a></div>
       {track(f["track"], big=True)}
       <div style="padding: 16px 20px; border-left: 3px solid #B8860B; background: #FFFFFF; border-radius: 0 12px 12px 0"><p class="eyebrow" style="font-size: 12px">Latest · {AS_OF}</p><p class="body" style="margin-top: 6px">{esc(f["latest"])}</p></div>
-      <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px">{dl}</ul>
+      {dl}
     </div>
   </section>
 '''
 json.dump(STAND, open("forthcoming.json", "w"), indent=1)
+STEP_KEYS = ["proposal", "parliament_position", "council_position", "trilogues", "agreement"]
+json.dump([dict(id=f["id"], name=f["name"], stage=f["stage"], ceps_row=f.get("row"), policy_area=f["area"], procedure=", ".join(PROC.get(f["id"], [])) or f["proc"],
+                **({k: (v if v is not None else "") for k, v in zip(STEP_KEYS, f["track"])} if f.get("track") else {k: "" for k in STEP_KEYS}),
+                expected_proposal=f.get("expected", ""), target_for_agreement=f["target"], latest=f["latest"], page=page_of(f)) for f in F],
+          open("forthcoming_list.json", "w"), indent=1, ensure_ascii=False)
 json.dump({str(f["row"]): f["stage"] if f["stage"] == "agreed" else "proposed" for f in F if f.get("row")}, open("forthcoming_status.json", "w"), indent=1)
 print("ok", len(F), "Fc pages:", sum(1 for f in F if not f.get("row")), "status blocks:", len(STAND))

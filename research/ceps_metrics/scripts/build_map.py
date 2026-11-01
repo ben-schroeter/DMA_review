@@ -15,7 +15,7 @@ PENDING = {  # procedure -> (CELEX measured, status Oct 2026, note)
     "2023/0202(COD)": ("32025R2518", "adopted", "Adopted after CEPS snapshot: Regulation (EU) 2025/2518 (26 Nov 2025)"),
     "2023/0290(COD)": ("32025R2509", "adopted", "Adopted after CEPS snapshot: Regulation (EU) 2025/2509 (26 Nov 2025)"),
     "2023/0323(COD)": ("52023PC0533", "proposed", ""),
-    "2024/0035(COD)": ("52024PC0060", "proposed", ""),
+    "2024/0035(COD)": ("52024PC0060", "agreed", ""),
     "2024/0670(COD)": ("52024PC0670", "proposed", ""),
     "COM(2025) 335": ("52025PC0335", "proposed", ""),
 }

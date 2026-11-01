@@ -30,7 +30,7 @@ a{color:#282424}a:hover{color:#8F6708}
 .db{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr) 56px;gap:20px;align-items:center;min-height:44px;border-bottom:1px solid #F0EFEA}
 @media (max-width:640px){.wrap{padding-inline:20px}.h1{font-size:40px}.h2{font-size:28px}.db{grid-template-columns:minmax(0,1fr) 90px 44px;gap:10px}}
 @media (max-width:640px){.nav{width:100%;justify-content:space-between;gap:10px !important}.nav a{font-size:14px}}
-</style>
+h2.h2{position:relative;padding-left:18px}h2.h2::before{content:"";position:absolute;left:0;top:.18em;bottom:.18em;width:6px;border-radius:3px;background:var(--bar,#B8860B)}</style>
 </helmet>
 <div style="width: 100%; background: #FAF9F5">
   <header style="border-bottom: 1px solid #E8E6E3">
@@ -65,7 +65,7 @@ a{color:#282424}a:hover{color:#8F6708}
       <p class="cap" style="margin: 0; max-width: 95ch"><strong style="color: #282424; font-weight: 600">How we coded.</strong> Every obligation counted on this site was read against one test, from Kaplow, "Rules Versus Standards: An Economic Analysis" (Duke Law Journal, 1992): can the addressee know from the text, before acting, what complies, without a later decision by an authority or court? Rule: a fixed action, ban, number, deadline, list or format. Standard: an open term such as appropriate, reasonable, proportionate, fair or effective. Mixed: a fixed duty with a substantive open element. Specified later: the provision itself says a delegated or implementing act, technical standard or guidelines will set its content. Left to member states: content chosen in transposition. The base is 20,212 obligations in the main acts and 10,544 in their implementing and delegated acts, after leaving out statements that impose no duty (1,137 and 833). On a hand-coded check of 200 obligations the coding agreed 92% of the time; it leans slightly towards "rule", so the shares of standards are about 5 points too low. Obligations on companies: those whose addressee is a company, its officers or its staff, coded as elsewhere on this site. The lower chart shows laws with at least 60 obligations in their implementing and delegated acts and at least 50 in the main act.</p>
     </div>
   </section>
-  <section style="padding-block: 80px; background: #F5F5F0; border-top: 1px solid #E8E6E3; border-bottom: 1px solid #E8E6E3">
+  <section style="padding-block: 80px; background: #FFFFFF; border-top: 1px solid #E8E6E3">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 24px">
       <h2 class="h2">Against Sarbanes-Oxley, recent EU acts carry more obligations, and many more on companies</h2>
       <p class="body">Counted the same way, recent EU digital acts carry more obligations than Sarbanes-Oxley. The gap widens when only obligations on companies are counted: Sarbanes-Oxley puts 59 on companies, against 346 in the AI Act, 185 in the Digital Services Act and 89 in the average EU digital act adopted since 2020. Much of what Sarbanes-Oxley asks of companies is spelled out in SEC rules, which are not counted here.</p>
@@ -85,7 +85,7 @@ a{color:#282424}a:hover{color:#8F6708}
   </footer>
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":5000}}'>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":4760}}'>
 class Component extends DCLogic {
   renderVals() { return {}; }
 }

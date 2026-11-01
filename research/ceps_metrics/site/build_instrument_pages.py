@@ -211,7 +211,7 @@ def page(r):
     <div class="wrap" style="display: flex; flex-direction: column; gap: 20px">
       <h2 class="h2">Objectives and key results</h2>
       <p class="body">Objectives are the aims the Commission set for the law. Key results are how it said it would measure them: indicators in the proposal and forecasts in the impact assessment, checked against the evidence available in October 2026.</p>
-      {"<div style='display: flex; flex-direction: column; gap: 10px; padding: 20px 24px; border-radius: 12px; background: #F5F5F0'><span class='eyebrow' style='font-size: 12px'>Objectives</span><ul style='margin: 0; padding-left: 20px; color: #3F3B3B'>" + "".join(f"<li>{esc(o)}</li>" for o in objs) + "</ul></div>" if objs else ""}
+      {"<div style='display: flex; flex-direction: column; gap: 10px; padding: 20px 24px; border-radius: 12px; background: #F3F1EC'><span class='eyebrow' style='font-size: 12px'>Objectives</span><ul style='margin: 0; padding-left: 20px; color: #3F3B3B'>" + "".join(f"<li>{esc(o)}</li>" for o in objs) + "</ul></div>" if objs else ""}
       {f'<p class="body" style="font-size: 15px"><strong style="font-weight: 600">Scorecard:</strong> {score} <a href="Evidence.dc.html">All laws</a></p>' if score else ""}
       {f'<div class="scroll" style="max-height: 460px"><table class="tbl"><thead><tr><th scope="col">Key result</th><th scope="col">Objective</th><th scope="col">Evidence found</th><th scope="col">Status</th></tr></thead><tbody>{kr_rows}</tbody></table></div>' + (f'<p class="hint">Scroll the table to see all {len(krs)} key results ↓</p>' if len(krs) > 5 else "") if krs else '<p class="cap">No measurable key results were set in the proposal.</p>'}
     </div>
@@ -227,7 +227,7 @@ def page(r):
                 f'<td>{esc(l["method"] or "")}</td><td>{esc(l["plain-language summary"] or l["headline finding"] or "")}</td></tr>')
     ev_c = "".join(evrow(l) for l in ev_sorted if is_causal(l["method"] or ""))
     ev_o = "".join(evrow(l) for l in ev_sorted if not is_causal(l["method"] or ""))
-    evidence = f'''  <section style="padding-block: 40px; background: #F5F5F0; border-top: 1px solid #E8E6E3; border-bottom: 1px solid #E8E6E3">
+    evidence = f'''  <section style="padding-block: 40px; background: #F3F1EC; border-top: 1px solid #E8E6E3; border-bottom: 1px solid #E8E6E3">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 20px">
       <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 16px">
         <div style="display: flex; flex-direction: column; gap: 10px">
@@ -292,7 +292,7 @@ def page(r):
         <span class="cap">{f'{months(r["proposal_date"], r["adoption_date"])} months from proposal to adoption.' if r["adoption_date"] and not pend else f'In negotiation for {months(r["proposal_date"], "2026-10-31")} months.'} Dates when rules start to apply may be set in the text and can come later.</span></figure>
     </div>
   </section>
-  <section style="border-top: 1px solid #E8E6E3; border-bottom: 1px solid #E8E6E3; background: #F5F5F0">
+  <section style="border-top: 1px solid #E8E6E3; border-bottom: 1px solid #E8E6E3; background: #F3F1EC">
     <div class="wrap" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 28px; padding-block: 30px">{kpis}</div>
   </section>
 {STAND.get(str(rid), "")}  <section style="padding-block: 40px 0">

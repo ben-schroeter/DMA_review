@@ -389,5 +389,17 @@ for k, v in val.items():
         wv.append([k, str(v)])
 style(wv, [28, 12, 12, 12, 14, 10, 14, 14, 12])
 wv.freeze_panes = None
+
+# forthcoming: the initiatives not yet adopted (pending proposals in the CEPS list and newer proposals and announcements),
+# exported by site/build_forthcoming.py; they enter the instrument counts once adopted
+import os as _os
+if _os.path.exists("../site/forthcoming_list.json"):
+    _fl = json.load(open("../site/forthcoming_list.json"))
+    wf = wb.create_sheet("forthcoming", 1)
+    _cols = ["id", "name", "stage", "ceps_row", "policy_area", "procedure", "proposal", "parliament_position", "council_position", "trilogues", "agreement",
+             "expected_proposal", "target_for_agreement", "latest", "page"]
+    wf.append(_cols)
+    for _x in _fl:
+        wf.append([_x[c] if _x[c] is not None else "" for c in _cols])
 wb.save("../ceps_instruments_metrics.xlsx")
 print("saved", ws.max_row, n2, n3)

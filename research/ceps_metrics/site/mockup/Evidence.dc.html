@@ -28,7 +28,7 @@ a{color:#282424}a:hover{color:#8F6708}
 .dl{display:grid;grid-template-columns:180px minmax(0,1fr);gap:16px;padding-block:14px;border-top:1px solid #E8E6E3}
 @media (max-width:640px){.wrap{padding-inline:20px}.h1{font-size:40px}.h2{font-size:28px}.dl{grid-template-columns:1fr;gap:4px}}
 @media (max-width:640px){.nav{width:100%;justify-content:space-between;gap:10px !important}.nav a{font-size:14px}}
-</style>
+h2.h2{position:relative;padding-left:18px}h2.h2::before{content:"";position:absolute;left:0;top:.18em;bottom:.18em;width:6px;border-radius:3px;background:var(--bar,#B8860B)}</style>
 </helmet>
 <div style="width: 100%; background: #FAF9F5">
   <header style="border-bottom: 1px solid #E8E6E3">
@@ -57,7 +57,7 @@ a{color:#282424}a:hover{color:#8F6708}
     </div>
   </section>
 
-  <section style="border-top: 1px solid #E8E6E3; border-bottom: 1px solid #E8E6E3; background: #F5F5F0">
+  <section style="border-top: 1px solid #E8E6E3; border-bottom: 1px solid #E8E6E3; background: #F3F1EC">
     <div class="wrap" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 28px; padding-block: 36px">
       <div style="display: flex; flex-direction: column; gap: 8px"><span class="num">476</span><span class="cap">evaluations, studies and think tank pieces since adoption</span></div>
       <div style="display: flex; flex-direction: column; gap: 8px"><span class="num">68</span><span class="cap">with a causal design</span></div>
@@ -67,7 +67,7 @@ a{color:#282424}a:hover{color:#8F6708}
     </div>
   </section>
 
-  <section style="padding-block: 80px">
+  <section style="padding-block: 80px; background: #FFFFFF; border-top: 1px solid #E8E6E3">
     <div class="wrap" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 64px">
       <div style="display: flex; flex-direction: column; gap: 14px">
         <h2 class="h2" style="font-size: 28px">What happened to 398 objectives</h2>
@@ -113,7 +113,7 @@ a{color:#282424}a:hover{color:#8F6708}
   </section>
 
 <!-- EVIDENCE-MAP -->
-  <section style="padding-block: 80px; background: #F5F5F0; border-top: 1px solid #E8E6E3; border-bottom: 1px solid #E8E6E3">
+  <section style="padding-block: 80px; background: #F3F1EC; border-top: 1px solid #E8E6E3">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 20px">
       <h2 class="h2">Most effects of most laws have never been measured</h2>
       <p class="body">We sorted every study and forecast by the kind of effect it looks at. Of 840 pairs of law and effect, 312 have any evidence from after adoption and 54 have a causal study. For the five economic effects (costs, prices, competition, innovation and growth), 171 of 525 pairs have been looked at after adoption, 43 with a causal design. What gets checked most is whether a law was implemented, not what it did.</p>
@@ -137,7 +137,7 @@ a{color:#282424}a:hover{color:#8F6708}
   </section>
 <!-- /EVIDENCE-MAP -->
 
-  <section style="padding-block: 80px">
+  <section style="padding-block: 80px; background: #FFFFFF; border-top: 1px solid #E8E6E3">
     <div class="wrap" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 56px; align-items: start">
       <div style="display: flex; flex-direction: column; gap: 18px">
         <h2 class="h2">The causal studies cluster around a few laws</h2>
@@ -160,7 +160,7 @@ a{color:#282424}a:hover{color:#8F6708}
     </div>
   </section>
 
-  <section style="padding-block: 80px; background: #F5F5F0; border-top: 1px solid #E8E6E3">
+  <section style="padding-block: 80px; background: #F3F1EC; border-top: 1px solid #E8E6E3">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 24px">
       <h2 class="h2">Case studies</h2>
       <p class="body">Three laws show what the evidence can and cannot tell us.</p>
@@ -193,7 +193,7 @@ a{color:#282424}a:hover{color:#8F6708}
   </footer>
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":5080}}'>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":5043}}'>
 class Component extends DCLogic {
   renderVals() { return {}; }
 }
