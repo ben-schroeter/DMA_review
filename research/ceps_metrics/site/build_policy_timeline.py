@@ -5,6 +5,8 @@ pending); cumulative obligations at the bottom. Era shading by proposal date. Wr
 import openpyxl, math, collections
 wb = openpyxl.load_workbook("ceps_instruments_metrics.xlsx", read_only=True, data_only=True); r = list(wb["instruments"].values); h = r[0]
 I = [dict(zip(h, x)) for x in r[1:] if x[0]]
+import json
+PAGES = {int(k): v for k, v in json.load(open("site/instrument_pages.json")).items()}
 fy = lambda d: (lambda s: int(s[:4]) + (int(s[5:7]) - 1) / 12 + (int(s[8:10]) - 1) / 365)(str(d)) if d else None
 INK, INK2, MUTED, LINE, BASE, BG = "#282424", "#3F3B3B", "#666666", "#E8E6E3", "#C9C6C3", "#FAF9F5"
 GOLD, GOLD_D, GOLD_L, BLUE, SLATE = "#B8860B", "#8F6708", "#E3CF9C", "#004494", "#5C5858"
@@ -87,10 +89,10 @@ for i, a in enumerate(AREAS):
                  + ('' if d else ' stroke-dasharray="3 2"') + '></line>')
         g.append(f'<circle cx="{X(p):.1f}" cy="{yy + off:.1f}" r="1.8" fill="{GOLD_D}"></circle>')
         if d:
-            g.append(f'<a href="Instrument.dc.html"><circle cx="{X(d):.1f}" cy="{yy + off:.1f}" r="{rad(x["restrictions_total"]):.1f}" fill="{GOLD}" fill-opacity="0.85" stroke="{BG}" stroke-width="1">'
+            g.append(f'<a href="{PAGES[x['row_id']]}"><circle cx="{X(d):.1f}" cy="{yy + off:.1f}" r="{rad(x["restrictions_total"]):.1f}" fill="{GOLD}" fill-opacity="0.85" stroke="{BG}" stroke-width="1">'
                      f'<title>{x["name"]}: proposed {str(x["proposal_date"])[:7]}, adopted {str(x["adoption_date"])[:7]}, {x["restrictions_total"]} obligations</title></circle></a>')
         else:
-            g.append(f'<a href="Instrument.dc.html"><circle cx="{X(end):.1f}" cy="{yy + off:.1f}" r="4" fill="{BG}" stroke="{GOLD}" stroke-width="1.5"><title>{x["name"]}: proposed {str(x["proposal_date"])[:7]}, pending</title></circle></a>')
+            g.append(f'<a href="{PAGES[x['row_id']]}"><circle cx="{X(end):.1f}" cy="{yy + off:.1f}" r="4" fill="{BG}" stroke="{GOLD}" stroke-width="1.5"><title>{x["name"]}: proposed {str(x["proposal_date"])[:7]}, pending</title></circle></a>')
 # cumulative obligations (adopted acts, original texts)
 pts = sorted((fy(x["adoption_date"]), x["restrictions_total"] or 0) for x in I if x["adoption_date"] and x["status_oct2026"] == "adopted")
 tot = sum(n for _, n in pts); cum = 0; path = [f"{X(Y0):.1f},{cum_top + cum_h:.1f}"]

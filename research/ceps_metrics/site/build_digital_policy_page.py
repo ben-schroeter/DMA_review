@@ -2,6 +2,7 @@
 numbers, flagship instruments and linked key documents, and a method note. Numbers from data/policy_eras/instruments.json."""
 import json, re, html
 D = json.load(open("data/policy_eras/instruments.json"))
+PAGES = {int(k): v for k, v in json.load(open("site/instrument_pages.json")).items()}
 OBJ = json.load(open("data/policy_eras/objectives.json"))
 CHIP = {"met": ("#8F6708", "#FFFFFF"), "met late": ("#B8860B", "#FFFFFF"), "on track": ("#B8860B", "#FFFFFF"), "near miss": ("#E3CF9C", "#282424"),
         "not met": ("#5C5858", "#FFFFFF"), "off track": ("#5C5858", "#FFFFFF"), "too early": ("#FFFFFF", "#3F3B3B"), "not measurable": ("#FFFFFF", "#3F3B3B")}
@@ -68,7 +69,7 @@ for i, e in enumerate(ERAS):
     for f in e["flag"]:
         o = by[f]
         when = f'{o["proposal_date"][:4]}→{o["adoption_date"][:4]}' if o["adoption_date"] else f'proposed {o["proposal_date"][:4]}'
-        fl.append(f'<a href="Instrument.dc.html">{esc(f)}</a> <span class="cap">({when})</span>')
+        fl.append(f'<a href="{PAGES[o["row_id"]]}">{esc(f)}</a> <span class="cap">({when})</span>')
     docs = "".join(f'<li style="display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 12px; padding-block: 10px; border-top: 1px solid #E8E6E3">'
                    f'<span class="cap" style="padding-top: 2px">{d}</span><span><a href="{u}">{esc(t)}</a> <span class="cap">· {esc(ref)}</span><br><span class="cap">{esc(s)}</span></span></li>'
                    for d, t, ref, u, s in e["docs"])
