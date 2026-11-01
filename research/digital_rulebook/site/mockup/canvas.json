@@ -4,7 +4,7 @@
   "boards": {
     "About.dc.html": {
       "expand": "fill",
-      "h": 1541,
+      "h": 1724,
       "is_interactive": true,
       "title": "About: the project",
       "w": 1440,
@@ -14,7 +14,7 @@
     },
     "Data.dc.html": {
       "expand": "fill",
-      "h": 1497,
+      "h": 1619,
       "is_interactive": true,
       "title": "Data: downloads",
       "w": 1440,
@@ -100,7 +100,7 @@
     },
     "Main.dc.html": {
       "expand": "fill",
-      "h": 5467,
+      "h": 5639,
       "is_interactive": true,
       "title": "Home",
       "w": 1440,
@@ -120,7 +120,7 @@
     },
     "Rules.dc.html": {
       "expand": "fill",
-      "h": 8000,
+      "h": 7945,
       "is_interactive": true,
       "title": "Findings: quantification",
       "w": 1440,
@@ -140,7 +140,7 @@
     },
     "UsComparison.dc.html": {
       "expand": "fill",
-      "h": 4760,
+      "h": 4819,
       "is_interactive": true,
       "title": "Findings: EU vs US",
       "w": 1440,
@@ -160,7 +160,7 @@
     },
     "DigitalPolicy.dc.html": {
       "expand": "fill",
-      "h": 7899,
+      "h": 7958,
       "is_interactive": true,
       "title": "Digital Acquis: digital policy",
       "w": 1440,
@@ -207,7 +207,7 @@
     },
     "CompanyTypes.dc.html": {
       "expand": "fill",
-      "h": 6865,
+      "h": 6919,
       "is_interactive": true,
       "title": "Findings: by type of company",
       "w": 1440,

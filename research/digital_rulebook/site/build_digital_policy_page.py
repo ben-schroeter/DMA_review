@@ -132,7 +132,7 @@ overview = f'<svg viewBox="0 0 1000 {30 + len(ERAS) * 30}" width="100%" role="im
 intro = f'''  <section style="padding-block: 64px 32px">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 20px">
 {tabs}      <p class="eyebrow">Digital Acquis · Digital policy</p>
-      <h1 class="h1" style="max-width: 20ch">From telecoms market to digital sovereignty</h1>
+      <h1 class="h1" style="max-width: 20ch">From market liberalization to digital sovereignty</h1>
       <p class="body" style="font-size: 19px">In 2000 the internet was a niche infrastructure project; by 2010 it was a driver of growth; today it is treated as a question of sovereignty and industrial scale. This page follows that path through six eras of EU policy and places each of the 105 adopted laws in the era in which the Commission proposed it.</p>
     </div>
   </section>

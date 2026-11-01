@@ -54,6 +54,13 @@ put("rs_total_k", RS["main_all"]["n"] + RS["secondary_all"]["n"], k100(RS["main_
 P = json.load(open("site/forthcoming_list.json"))
 c = collections.Counter(x["stage"] for x in P)
 put("forthcoming_total", len(P)); put("forthcoming_agreed", c["agreed"]); put("forthcoming_negotiation", c["proposed"]); put("forthcoming_announced", c["announced"])
+# database sizes (Data page)
+put("db_instruments", len(I)); put("db_secondary_all", len(SEC))
+_k = collections.Counter(x["kind"] for x in SEC); put("db_secondary_guidance", _k["guidance"]); put("db_secondary_other", _k["other Commission/Council act"])
+put("db_amendments", sum(x["kind"] == "amendment" for x in AM)); put("db_corrigenda", sum(x["kind"] == "corrigendum" for x in AM))
+put("db_us_mapped", len(sheet("us_counterparts"))); put("db_us_pairs", sum(1 for x in sheet("us_comparison") if x["row_id"]))
+put("db_us_mapped_pending", sum(1 for x in sheet("us_counterparts") if x["row_id"] not in Aid))
+put("db_agency_guidance", len(sheet("guidance_agencies")))
 
 # company types and firm size
 CT = json.load(open("data/company_types/summary.json"))

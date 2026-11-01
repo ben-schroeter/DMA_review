@@ -187,6 +187,46 @@
   "value": 7,
   "text": "7"
  },
+ "db_instruments": {
+  "value": 136,
+  "text": "136"
+ },
+ "db_secondary_all": {
+  "value": 770,
+  "text": "770"
+ },
+ "db_secondary_guidance": {
+  "value": 52,
+  "text": "52"
+ },
+ "db_secondary_other": {
+  "value": 28,
+  "text": "28"
+ },
+ "db_amendments": {
+  "value": 172,
+  "text": "172"
+ },
+ "db_corrigenda": {
+  "value": 371,
+  "text": "371"
+ },
+ "db_us_mapped": {
+  "value": 115,
+  "text": "115"
+ },
+ "db_us_pairs": {
+  "value": 17,
+  "text": "17"
+ },
+ "db_us_mapped_pending": {
+  "value": 10,
+  "text": "10"
+ },
+ "db_agency_guidance": {
+  "value": 80,
+  "text": "80"
+ },
  "ct_PR": {
   "value": 3718,
   "text": "3,718"
