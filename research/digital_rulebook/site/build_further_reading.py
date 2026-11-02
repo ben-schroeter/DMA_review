@@ -29,7 +29,7 @@ READING = {
          "url": "https://press.princeton.edu/books/hardcover/9780691260334/technology-and-the-rise-of-great-powers",
          "note": "Shows that how widely an economy adopts general-purpose technologies matters more for its rise than who invents them first."},
     ],
-    "Blogs and newsletters": [
+    "Blogs, newsletters and trackers": [
         {"title": "Silicon Continent", "by": "Pieter Garicano", "where": "Substack",
          "url": "https://www.siliconcontinent.com/", "cover": "/_blob/d19786e4191c6d1b032e6ff54a62cc0e",
          "note": "Essays on Europe, economics, innovation and growth, with a sharp eye on what regulation costs."},
@@ -39,15 +39,15 @@ READING = {
         {"title": "The Binary Agora", "by": "Alba Ribera Martínez", "where": "Conversation series",
          "url": "https://www.albariberamartinez.com/the-binary-agora",
          "note": "Conversations with experts on the Digital Markets Act, AI and competition in digital markets, from enforcement to regulatory capture."},
-        {"title": "Benedict's Newsletter", "by": "Benedict Evans", "where": "Weekly newsletter",
-         "url": "https://www.ben-evans.com/newsletter",
-         "note": "What mattered in tech this week: strategy, with a running commentary on regulation."},
-        {"title": "Stratechery", "by": "Ben Thompson", "where": "Newsletter",
-         "url": "https://stratechery.com/", "cover": "/_blob/380cc95385959a251848924e417b3539",
-         "note": "On the business, strategy and impact of technology, including how platforms respond to regulation."},
         {"title": "Verfassungsblog", "by": "Verfassungsblog", "where": "On matters constitutional",
          "url": "https://verfassungsblog.de/", "cover": "/_blob/cdc0acca4c70b7708e2a72b30c69ce7a",
          "note": "Debate on constitutional law and politics in Europe, including the rule of law, fundamental rights and EU digital regulation."},
+        {"title": "Draghi Watch", "by": "Draghi Watch", "where": "Tracker",
+         "url": "https://draghiwatch.eu/",
+         "note": "Follows how far the EU has acted on the recommendations of the Draghi report."},
+        {"title": "DMA/DSA tracker", "by": "Think Tank EUROPA", "where": "Brief, August 2026",
+         "url": "https://thinkeuropa.dk/en/brief/2026-08-dma/dsa-tracker",
+         "note": "Tracks enforcement of the Digital Markets Act and the Digital Services Act."},
     ],
     "Studies and papers": [
         {"title": "The Constitution of Innovation", "by": "Luis Garicano, Bengt Holmström and Nicolas Petit", "where": "Academic paper",
@@ -71,6 +71,12 @@ READING = {
         {"title": "EU Innovation Policy: How to Escape the Middle Technology Trap", "by": "Clemens Fuest, Daniel Gros, Philipp-Leo Mengel, Giorgio Presidente and Jean Tirole",
          "where": "European Policy Analysis Group (EconPol, Bocconi, TSE), 2024", "url": "https://www.ifo.de/en/econpol/publications/2024/working-paper/eu-innovation-policy-how-escape-middle-technology-trap", "cover": "/_blob/b2896db0c60c259cfdc7048910b765dc",
          "note": "Why EU firms are stuck in mid-tech industries, and what innovation policy could do about it."},
+        {"title": "Making the EU's Digital Regulatory Reset Count: Four Recommendations", "by": "Hannes Berggren", "where": "Centre for European Reform, 2025",
+         "url": "https://www.cer.eu/insights/making-eus-digital-regulatory-reset-count-four-recommendations",
+         "note": "Argues that the digital rulebook has become cumbersome and sometimes hampers trade, and sets out how the simplification package could fix it."},
+        {"title": "Efficiency and Distribution in the European Union's Digital Deregulation Push", "by": "Mario Mariniello", "where": "Bruegel Policy Brief 31/2025",
+         "url": "https://www.bruegel.org/sites/default/files/2025-11/PB%2031%202025_0.pdf",
+         "note": "A counterpoint: argues the deregulation push rests on thin evidence and hides distributional trade-offs, and offers a framework that separates the two."},
     ],
 }
 esc = lambda s: html.escape(s, quote=True)
