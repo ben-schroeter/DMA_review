@@ -109,16 +109,16 @@ F = [
       latest="Provisional agreement in June 2026, approved by Parliament's committees in July; plenary vote indicatively 23 November 2026."),
  dict(id="digital-fairness-act", name="Digital Fairness Act", stage="announced", area="E-commerce & Consumer Protection", proc="CWP 2026",
       what="Consumer rules on dark patterns, addictive design, unfair personalisation and subscription traps.",
-      expected="Q4 2026", target="—",
-      latest="Consultation closed October 2025 (over 4,000 replies); proposal expected Q4 2026."),
+      expected="11 Nov 2026 (indicative)", target="—",
+      latest="On the Commission's indicative agenda for 11 November 2026, in a consumer package with the consumer enforcement initiative."),
  dict(id="quantum-act", name="Quantum Act", stage="announced", area="Industrial Policy", proc="CWP 2026",
       what="Support for quantum research, pilot lines and industrial take-up.",
-      expected="Q4 2026 (planned Q2)", target="Q3 2027",
-      latest="Consultation held in 2025; proposal not yet adopted."),
+      expected="18 Nov 2026 (indicative; planned Q2)", target="Q3 2027",
+      latest="On the Commission's indicative agenda for 18 November 2026."),
  dict(id="cpc-review", name="Review of the Consumer Protection Cooperation Regulation", stage="announced", area="E-commerce & Consumer Protection", row=None, proc="Roadmap",
       what="Stronger EU-level enforcement of consumer law in cross-border cases.",
-      expected="By Q4 2026", target="Q4 2027",
-      latest="Listed in the One Europe, One Market roadmap."),
+      expected="11 Nov 2026 (indicative)", target="Q4 2027",
+      latest="On the Commission's indicative agenda for 11 November 2026 as the consumer enforcement initiative, with the Digital Fairness Act."),
  dict(id="antitrust-procedure", name="Reform of the antitrust procedural rules (Regulation 1/2003)", stage="announced", area="Competition & Single Market", row=None, proc="Review",
       what="Faster, digital-ready enforcement of Articles 101 and 102: data-preservation orders, inspection of all business records, quicker interim measures.",
       expected="Q2 2027 (planned Q3 2026)", target="—",
@@ -387,8 +387,8 @@ fpage(dna, None,
 dfa = next(f for f in F if f["id"] == "digital-fairness-act")
 dfa["chips"] = ["Likely a regulation or amending directive"]
 dfa["latest_long"] = ("The Commission's public consultation and call for evidence ran from 17 July to 24 October 2025 and drew over 4,000 replies; a factual summary was published in December 2025. "
-                      "The proposal is in the 2026 work programme for the fourth quarter of 2026. No impact assessment has been published yet.")
-fpage(dfa, [("Announced in", "Work programme 2026"), ("Consultation", "Jul – Oct 2025"), ("Proposal expected", "Q4 2026")],
+                      "The proposal is in the 2026 work programme for the fourth quarter of 2026, and the Commission's indicative agenda of 20 October 2026 schedules it for 11 November 2026, in a consumer package with a consumer enforcement initiative. No impact assessment has been published yet.")
+fpage(dfa, [("Announced in", "Work programme 2026"), ("Consultation", "Jul – Oct 2025"), ("Proposal expected", "11 Nov 2026 (indicative)")],
       "Planned consumer rules for online practices the current law handles poorly: dark patterns, addictive design, unfair personalisation, influencer marketing and subscription traps.",
       ["Ban or restrict dark patterns and addictive design features.", "Rules on personalised pricing and advertising based on vulnerabilities.",
        "Easier cancellation of subscriptions and limits on auto-renewal traps.", "Clearer duties for influencer marketing.", "Possibly a shift of the burden of proof in digital cases."],
@@ -400,7 +400,8 @@ fpage(dfa, [("Announced in", "Work programme 2026"), ("Consultation", "Jul – O
                              ("Oct 2026", "Towards a digital fairness act", "EPRS briefing", "https://eprs.europarl.europa.eu/contents/publications/EPRS/2026/10/EPRS_BRI(2026)791529.html")]),
        ("Consultation", [("Jul 2025", "Public consultation and call for evidence", "closed 24 Oct 2025", "https://digital-strategy.ec.europa.eu/en/consultations/commission-launches-open-consultation-forthcoming-digital-fairness-act"),
                          ("Dec 2025", "Factual summary report of the consultation", "Commission", "")]),
-       ("Planning", [("Oct 2025", "Commission work programme 2026", "COM(2025) 870", EUR("52025DC0870"))])],
+       ("Planning", [("Oct 2025", "Commission work programme 2026", "COM(2025) 870", EUR("52025DC0870")),
+                     ("Oct 2026", "Indicative Commission agenda, 27 October to 24 November 2026", "SEC(2026) 2581", "https://ec.europa.eu/transparency/documents-register/detail?ref=SEC(2026)2581&lang=en")])],
       "Preparatory studies and consultations", "Until the proposal is published there is no impact assessment; these are the studies and consultations it will build on.")
 
 # ---------- all other initiative pages, from forthcoming_details.py
@@ -408,6 +409,9 @@ from forthcoming_details import D
 SRC = json.load(open("forthcoming_sources.json"))
 CWP26 = ("Oct 2025", "Commission work programme 2026", "COM(2025) 870", EUR("52025DC0870"))
 ROADMAP = ("Apr 2026", "One Europe, One Market roadmap", "Parliament, Council and Commission", "https://commission.europa.eu/topics/competitiveness/one-europe-one-market-roadmap_en")
+# indicative list of items for Commission meetings (Secretariat-General); ids listed are scheduled in it
+AGENDA = ("Oct 2026", "Indicative Commission agenda, 27 October to 24 November 2026", "SEC(2026) 2581", "https://ec.europa.eu/transparency/documents-register/detail?ref=SEC(2026)2581&lang=en")
+ON_AGENDA = {"digital-fairness-act", "cpc-review", "quantum-act"}
 OEIL_OK = lambda pr: bool(re.match(r"\d{4}/\d{4}\(COD\)", pr or ""))
 for f in F:
     if f.get("row") or f["id"] in ("digital-networks-act", "digital-fairness-act"):
@@ -419,7 +423,7 @@ for f in F:
     chg = [(n, how, ACT(r)) for n, how, r in d["changes"]] or [("No law in the current Digital Acquis", "a new instrument", "Instruments.dc.html")]
     if f["stage"] == "announced":
         prep = [("", t if t != "Official source" else "Commission page on the initiative", "Commission", u) for t, u in links] + PREP.get(f["id"], [])
-        docs = [("Preparatory work and consultations", prep or [("", "No preparatory documents published yet", "", "")]), ("Planning", [CWP26, ROADMAP])]
+        docs = [("Preparatory work and consultations", prep or [("", "No preparatory documents published yet", "", "")]), ("Planning", [CWP26, ROADMAP] + ([AGENDA] if f["id"] in ON_AGENDA else []))]
         sub = [("Announced in", "Work programme 2026" if f["proc"] == "CWP 2026" else f["proc"]), ("Proposal expected", f["expected"]), ("Target for agreement", f["target"] if f["target"] != "—" else "not set")]
         fpage(f, sub, d["intro"], d["does"], chg, docs, "Preparatory studies and consultations",
               "Until the proposal is published there is no impact assessment; these are the documents it will build on.")
