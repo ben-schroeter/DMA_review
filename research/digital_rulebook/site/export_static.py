@@ -6,6 +6,7 @@ site_export/ (and site_export.zip next to it):
   assets/      images, copied from site/assets_blob (downloaded from the canvas; named <id>.<ext>)
   dc-lite.js   small renderer for the interactive pages (filters, toggles, infographic viewer)
   sitemap.xml, robots.txt   for search engines (base URL set with --base)
+  favicon.ico/.svg, apple-touch-icon.png, icon-192/512.png, site.webmanifest   site icon (sources in site/static/icons)
 Static pages become plain HTML; pages with holes ({{...}}) or logic keep their template and run dc-lite.js.
 Run from research/digital_rulebook:  python3 site/export_static.py [--assets DIR] [--out DIR]"""
 import argparse, datetime, json, os, re, shutil, zipfile
@@ -51,6 +52,8 @@ def sc_to_template(s):
 if os.path.exists(OUT):
     shutil.rmtree(OUT)
 os.makedirs(os.path.join(OUT, "assets"))
+ICONS = ('<link rel="icon" href="favicon.ico" sizes="any">\n<link rel="icon" href="favicon.svg" type="image/svg+xml">\n'
+         '<link rel="apple-touch-icon" href="apple-touch-icon.png">\n<link rel="manifest" href="site.webmanifest">\n<meta name="theme-color" content="#FAF9F5">')
 used = set()
 dynamic_pages = []
 for f in sorted(seen):
@@ -67,7 +70,7 @@ for f in sorted(seen):
     body, helmet, code = (fix_blobs(fix_links(x)) for x in (body, helmet, code))
     used |= set(re.findall(r"assets/([0-9a-f]{32}\.\w+)", body + code + helmet))
     head = (f'<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
-            f'<meta name="viewport" content="width=device-width, initial-scale=1">\n<title>{title}</title>\n{helmet}\n</head>\n<body>\n')
+            f'<meta name="viewport" content="width=device-width, initial-scale=1">\n<title>{title}</title>\n{ICONS}\n{helmet}\n</head>\n<body>\n')
     if dynamic:
         assert "</script" not in code.lower(), f
         dynamic_pages.append(out_name(f))
@@ -81,6 +84,11 @@ for f in sorted(seen):
 for a in used:
     shutil.copy(os.path.join(args.assets, a), os.path.join(OUT, "assets", a))
 shutil.copy("site/static/dc-lite.js", os.path.join(OUT, "dc-lite.js"))
+for ic in os.listdir("site/static/icons"):
+    shutil.copy(os.path.join("site/static/icons", ic), os.path.join(OUT, ic))
+open(os.path.join(OUT, "site.webmanifest"), "w").write(json.dumps({"name": "The EU Digital Rulebook", "short_name": "EU Rulebook",
+    "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}],
+    "theme_color": "#FAF9F5", "background_color": "#FAF9F5", "display": "browser", "start_url": "/"}, indent=1))
 open(os.path.join(OUT, "README.txt"), "w").write(
     "eutechlaws.org: static export of The EU Digital Rulebook\n\n"
     "Upload the contents of this folder to the web root of the server (for example public_html/), keeping the\n"
