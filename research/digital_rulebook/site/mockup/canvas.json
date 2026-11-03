@@ -1377,7 +1377,7 @@
     },
     "Forthcoming.dc.html": {
       "expand": "fill",
-      "h": 7022,
+      "h": 7572,
       "is_interactive": true,
       "title": "Digital Acquis: forthcoming",
       "w": 1440,
@@ -1614,6 +1614,36 @@
       "x": 3040,
       "y": 4400,
       "page": "forthcoming"
+    },
+    "Fc-digital-services-tax.dc.html": {
+      "expand": "fill",
+      "h": 1611,
+      "is_interactive": true,
+      "title": "Forthcoming: Digital services tax",
+      "w": 1440,
+      "x": 4560,
+      "y": 4400,
+      "page": "forthcoming"
+    },
+    "Fc-significant-digital-presence.dc.html": {
+      "expand": "fill",
+      "h": 1523,
+      "is_interactive": true,
+      "title": "Forthcoming: Corporate taxation of a significant digital presence",
+      "w": 1440,
+      "x": 6080,
+      "y": 4400,
+      "page": "forthcoming"
+    },
+    "Fc-vat-imported-distance-sales.dc.html": {
+      "expand": "fill",
+      "h": 1666,
+      "is_interactive": true,
+      "title": "Forthcoming: VAT on platforms facilitating distance sales of imported goods (rem",
+      "w": 1440,
+      "x": 7600,
+      "y": 4400,
+      "page": "forthcoming"
     }
   },
   "createdOnFiles": {
@@ -1788,7 +1818,10 @@
     "Fc-smbpa.dc.html",
     "Fc-eu-kids-act.dc.html",
     "Fc-digital-transformation-package.dc.html",
-    "Fc-political-ads-review.dc.html"
+    "Fc-political-ads-review.dc.html",
+    "Fc-digital-services-tax.dc.html",
+    "Fc-significant-digital-presence.dc.html",
+    "Fc-vat-imported-distance-sales.dc.html"
   ],
   "pages": [
     {

@@ -95,6 +95,18 @@ F = [
       what="Common information security rules for EU institutions, bodies and agencies.",
       track=["Mar 2022", None, None, None, None], target="—",
       latest="Stalled: Parliament's committee has not yet voted, more than four years after the proposal."),
+ dict(id="digital-services-tax", name="Digital services tax", stage="withdrawn", area="Finance", row=None, proc="2018/0073(CNS)",
+      what="An interim 3% tax on revenues from online advertising, digital intermediation and the sale of user data, for large digital companies.",
+      track=["Mar 2018", "Dec 2018", None, None, None], target="—",
+      latest="The Commission's 2027 work programme (Annex III) lists it for withdrawal within six months: pending in Council for more than eight years, last discussed in 2019; tax rules need unanimity."),
+ dict(id="significant-digital-presence", name="Corporate taxation of a significant digital presence", stage="withdrawn", area="Finance", row=None, proc="2018/0072(CNS)",
+      what="The long-term reform: a taxable digital presence for companies with large online revenues or user numbers in a member state, without a physical presence.",
+      track=["Mar 2018", "Dec 2018", None, None, None], target="—",
+      latest="The Commission's 2027 work programme (Annex III) lists it for withdrawal within six months: pending in Council for more than eight years, last discussed in 2019; tax rules need unanimity."),
+ dict(id="vat-imported-distance-sales", name="VAT on platforms facilitating distance sales of imported goods (remaining part)", stage="withdrawn", area="Finance", row=None, proc="2023/0158(CNS)",
+      what="VAT rules for online platforms that facilitate distance sales of imported goods, and special arrangements for declaring and paying import VAT.",
+      track=["May 2023", "Nov 2023", None, None, None], target="—",
+      latest="The Commission's 2027 work programme (Annex III) lists it for withdrawal within six months unless the current Council talks succeed: part of the proposal has been adopted, with no agreement on the rest."),
  dict(id="late-payment", name="Late Payment Regulation", stage="withdrawn", area="Competition & Single Market", row=104, proc="2023/0323(COD)",
       what="A 30-day payment cap for commercial transactions, with enforcement authorities.",
       track=["Sep 2023", "Apr 2024", None, None, None], target="—",
@@ -331,6 +343,13 @@ def doc_list(groups):
     return out
 
 
+# Commission and DigitalPolicy era for initiatives proposed before the current mandate
+ERA_DEFAULT = ("Von der Leyen II Commission", "competitiveness", "Competitiveness · One Europe, One Market")
+ERA_OF = {"digital-services-tax": ("Juncker Commission", "digital-single-market", "Digital Single Market"),
+          "significant-digital-presence": ("Juncker Commission", "digital-single-market", "Digital Single Market"),
+          "vat-imported-distance-sales": ("Von der Leyen I Commission", "digital-decade", "Digital Decade")}
+
+
 def fpage(f, sub, intro, does, changes, docs, docs_title, docs_note, extra=""):
     lab, col = STAGE[f["stage"]]
     if f["stage"] == "announced":
@@ -347,7 +366,7 @@ def fpage(f, sub, intro, does, changes, docs, docs_title, docs_note, extra=""):
       <h1 class="h1" style="font-size: 46px">{esc(f["name"])}</h1>
       <div style="display: flex; flex-wrap: wrap; gap: 8px"><span class="chip" style="border-color: {col}; color: {col}; font-weight: 600">{lab}</span><span class="chip">{esc(f["area"])}</span><span class="chip">{esc(f["proc"])}</span>{"".join(f'<span class="chip">{esc(c)}</span>' for c in f.get("chips", []))}</div>
       <p class="body" style="font-size: 19px">{intro}</p>
-      <p class="cap">Von der Leyen II Commission · part of the <a href="DigitalPolicy.dc.html#era-competitiveness">Competitiveness · One Europe, One Market</a> agenda</p>
+      <p class="cap">{ERA_OF.get(f["id"], ERA_DEFAULT)[0]} · part of the <a href="DigitalPolicy.dc.html#era-{ERA_OF.get(f["id"], ERA_DEFAULT)[1]}">{ERA_OF.get(f["id"], ERA_DEFAULT)[2]}</a> agenda</p>
     </div>
   </section>
   <section style="padding-block: 24px 40px">
@@ -359,8 +378,8 @@ def fpage(f, sub, intro, does, changes, docs, docs_title, docs_note, extra=""):
   </section>
   <section style="padding-block: 24px 40px">
     <div class="wrap" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px">
-      <div style="display: flex; flex-direction: column; gap: 12px"><h2 class="h3">What it would do</h2><ul class="body" style="padding-left: 20px; margin: 0; display: flex; flex-direction: column; gap: 6px">{"".join(f"<li>{d}</li>" for d in does)}</ul></div>
-      <div style="display: flex; flex-direction: column; gap: 12px"><h2 class="h3">What it would change in the Digital Acquis</h2><ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px">{chg}</ul></div>
+      <div style="display: flex; flex-direction: column; gap: 12px"><h2 class="h3">{"What it would have done" if f["stage"] == "withdrawn" else "What it would do"}</h2><ul class="body" style="padding-left: 20px; margin: 0; display: flex; flex-direction: column; gap: 6px">{"".join(f"<li>{d}</li>" for d in does)}</ul></div>
+      <div style="display: flex; flex-direction: column; gap: 12px"><h2 class="h3">{"What it would have changed in the Digital Acquis" if f["stage"] == "withdrawn" else "What it would change in the Digital Acquis"}</h2><ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px">{chg}</ul></div>
     </div>
   </section>
   {extra}
@@ -442,9 +461,14 @@ for f in F:
     else:
         com = com_docs(f["id"]) or [(d.get("date", ""), "Commission proposal", d.get("ref", ""), EUR(d["eurlex"]) if d.get("eurlex") else (links[0][1] if links else ""))]
         com += [("", t, "Commission", u) for t, u in links[1:]]
-        docs = [("Commission", com), ("European Parliament", parl_docs(f["id"]) or [("", "Not yet referred to a committee", "", "")]), ("Council", council_docs(f["id"])), ("Planning", [ROADMAP])]
+        wd = f["stage"] == "withdrawn"
+        docs = ([("Commission", com), ("European Parliament", d["ep"]), ("Withdrawal", [CWP27])] if wd else
+                [("Commission", com), ("European Parliament", parl_docs(f["id"]) or [("", "Not yet referred to a committee", "", "")]), ("Council", council_docs(f["id"])), ("Planning", [ROADMAP])])
+        if wd and not d["changes"]:
+            chg = [("No law in the current Digital Acquis", "would have been a new instrument", "Instruments.dc.html")]
         fpage(f, None, d["intro"], d["does"], chg, docs, "Key documents",
-              "The Commission proposal and impact assessment, then the reports and positions of Parliament and Council as they appear. Parliament steps from the Legislative Observatory.", extra=omnibus_html(f["id"]))
+              ("The Commission proposal, Parliament's opinion under the consultation procedure, and the work programme that lists the proposal for withdrawal." if wd else
+               "The Commission proposal and impact assessment, then the reports and positions of Parliament and Council as they appear. Parliament steps from the Legislative Observatory."), extra=omnibus_html(f["id"]))
 
 # ---------- status blocks for pending acts that already have an instrument page
 def eurproc(pr):
