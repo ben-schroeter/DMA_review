@@ -33,7 +33,7 @@ L = json.load(open("site/studies_data.json"))["L"]
 tags = collections.Counter(t for x in L for t in str(x[-1]).split())
 put("studies_evidence", tags["ev"]); put("studies_causal", tags["causal"]); put("impact_assessments", tags["ia"]); put("studies_review", tags["review"])
 put("sources_total", tags["ev"] + tags["ia"])
-put("studies_econ", tags["econ"]); put("studies_withdrawn", tags["wd"])
+put("studies_econ", tags["econ"]); put("studies_withdrawn", tags["wd"]); put("studies_forthcoming", tags["fc"])
 krs = [p for p in PI if p["indicator / promised impact"] and p["parent_row_id"] in Aid]
 sg = collections.Counter(p["status_group"] for p in krs)
 put("objectives", len(krs))
@@ -55,6 +55,8 @@ put("rs_total_k", RS["main_all"]["n"] + RS["secondary_all"]["n"], k100(RS["main_
 P_ALL = json.load(open("site/forthcoming_list.json"))
 P = [x for x in P_ALL if x["stage"] != "withdrawn"]
 put("forthcoming_withdrawn", sum(x["stage"] == "withdrawn" for x in P_ALL))
+_ia = collections.Counter(x.get("impact_assessment") for x in P if x.get("impact_assessment"))
+put("fc_ia_total", sum(_ia.values())); put("fc_ia_full", _ia["full"]); put("fc_ia_without", _ia["analysis"] + _ia["swd"])
 c = collections.Counter(x["stage"] for x in P)
 put("forthcoming_total", len(P)); put("forthcoming_agreed", c["agreed"]); put("forthcoming_negotiation", c["proposed"]); put("forthcoming_announced", c["announced"])
 # evidence map: laws with after-the-fact evidence / with a causal study, per kind of effect (Evidence page table)

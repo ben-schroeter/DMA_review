@@ -186,6 +186,44 @@ def auto_track(f):
 for f in F:
     if f["stage"] != "announced":
         f["track"] = auto_track(f)
+
+# ---------- impact assessment status, from the Commission register (data/forthcoming_swd.json, refreshed from
+# https://ec.europa.eu/transparency/documents-register/api/search/<SWD ref>): full impact assessment, lighter
+# analysis of impacts, or a staff working document only
+SWD = json.load(open("../data/forthcoming_swd.json"))
+SHARED_IA = {"single-digital-booking": "SWD(2026)300"}   # covered by the multimodal booking impact assessment (title names the rail ticketing proposal)
+swd_ref = lambda r: re.sub(r"SWD\((\d{4})\)0*(\d+)", r"SWD(\1)\2", r)
+swd_url = lambda r: (lambda m: EUR(f"5{m.group(1)}SC{int(m.group(2)):04d}") if m else "")(re.match(r"SWD\((\d{4})\)(\d+)", r))
+swd_lab = lambda r: re.sub(r"SWD\((\d{4})\)(\d+)", r"SWD(\1) \2", r)
+IA_LABEL = {"full": "Impact assessment", "analysis": "Lighter analysis of impacts, no full impact assessment",
+            "swd": "No impact assessment: staff working document only", "none": "No impact assessment or staff working document found"}
+def ia_status(f):
+    refs = sorted({swd_ref(x) for r in PROC.get(f["id"], []) for x in (OE.get(r, {}).get("swd") or [])} | ({SHARED_IA[f["id"]]} if f["id"] in SHARED_IA else set()),
+                  key=lambda r: (int(r[4:8]), int(r[9:-1])))
+    docs = [(r, SWD.get(r, {})) for r in refs]
+    if any(d.get("type") == "IMPACT_ASSESS" for _, d in docs):
+        st = "full"; main = [r for r, d in docs if d.get("type") == "IMPACT_ASSESS"]
+    elif any(re.search(r"IMPACT ANALYSIS|Analysis of impacts", d.get("title", ""), re.I) for _, d in docs):
+        st = "analysis"; main = [r for r, d in docs if re.search(r"IMPACT ANALYSIS|Analysis of impacts", d.get("title", ""), re.I)]
+    elif any(d.get("type") == "SWD" and "Subsidiarity" not in d.get("title", "") for _, d in docs):
+        st = "swd"; main = [r for r, d in docs if d.get("type") == "SWD" and "Subsidiarity" not in d.get("title", "")]
+    else:
+        st, main = "none", []
+    summ = [r for r, d in docs if d.get("type") == "IMPACT_ASSESS_SUM"]
+    return dict(status=st, main=main, summary=summ, shared=f["id"] in SHARED_IA)
+for f in F:
+    if f["stage"] in ("proposed", "agreed"):
+        f["ia"] = ia_status(f)
+def ia_html(f):
+    x = f.get("ia")
+    if not x: return ""
+    col = "#2E7D5B" if x["status"] == "full" else "#9B3B3B"
+    refs = ", ".join(f'<a href="{swd_url(r)}">{swd_lab(r)}</a>' for r in x["main"])
+    extra = (f' <span class="cap">(executive summary {", ".join(swd_lab(r) for r in x["summary"])})</span>' if x["summary"] else "") + (' <span class="cap">· shared with the multimodal booking proposal</span>' if x["shared"] else "")
+    return (f'<p class="body" style="font-size: 15px; margin: 0"><span class="st" style="border-color: {col}; color: {col}">{IA_LABEL[x["status"]]}</span> '
+            + (refs + extra if refs else "") + "</p>")
+IA_N = {k: sum(1 for f in F if f.get("ia", {}).get("status") == k) for k in IA_LABEL}
+IA_TOTAL = sum(IA_N.values())
 def parl_docs(fid):
     out = []
     for r in PROC.get(fid, []):
@@ -323,6 +361,7 @@ body = f'''
       <p class="eyebrow">Digital Acquis · Forthcoming</p>
       <h1 class="h1">{sum(f["stage"] != "withdrawn" for f in F)} digital initiatives not yet adopted</h1>
       <p class="body">Proposals still being negotiated and initiatives the Commission has announced but not yet proposed, with where each stands and the documents behind it. Targets for agreement are from the One Europe, One Market roadmap (April 2026). Status as of {AS_OF}.</p>
+      <p class="body">Of the {IA_TOTAL} proposals agreed or in negotiation, {IA_N["full"]} came with a full impact assessment, {IA_N["analysis"]} with a lighter analysis of impacts and {IA_N["swd"]} with only a staff working document. Without a full impact assessment: {"; ".join(f["name"] for f in F if f.get("ia", {}).get("status") in ("analysis", "swd"))}.</p>
       <div style="display: flex; flex-wrap: wrap; gap: 14px">{stat}</div>
       {legend}
     </div>
@@ -357,7 +396,7 @@ def fpage(f, sub, intro, does, changes, docs, docs_title, docs_note, extra=""):
                  + "".join(f'<div style="display: flex; flex-direction: column; gap: 4px; padding: 16px 18px; border: 1px solid #E8E6E3; border-radius: 12px; background: #FFFFFF; min-width: 200px"><span class="cap">{a}</span><span style="font-family: \'Source Serif 4\', Georgia, serif; font-size: 22px">{b}</span></div>'
                           for a, b in sub) + "</div>")
     else:
-        where = track(f["track"], big=True)
+        where = track(f["track"], big=True) + ia_html(f)
     chg = "".join(f'<li style="display: block"><a href="{u}">{esc(t)}</a> <span class="cap">· {esc(how)}</span></li>' for t, how, u in changes)
     body = f'''
   <section style="padding-block: 48px 24px">
@@ -486,6 +525,7 @@ for f in F:
     <div class="wrap" style="display: flex; flex-direction: column; gap: 16px">
       <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px"><h2 class="h2">Where it stands</h2><span class="chip" style="border-color: {col}; color: {col}; font-weight: 600">{lab}</span><a class="cap" href="Forthcoming.dc.html">All forthcoming initiatives →</a></div>
       {track(f["track"], big=True)}
+      {ia_html(f)}
       <div style="padding: 16px 20px; border-left: 3px solid #B8860B; background: #FFFFFF; border-radius: 0 12px 12px 0"><p class="eyebrow" style="font-size: 12px">Latest · {AS_OF}</p><p class="body" style="margin-top: 6px">{esc(f["latest"])}</p></div>
       {dl}
     </div>
@@ -495,7 +535,9 @@ json.dump(STAND, open("forthcoming.json", "w"), indent=1)
 STEP_KEYS = ["proposal", "parliament_position", "council_position", "trilogues", "agreement"]
 json.dump([dict(id=f["id"], name=f["name"], stage=f["stage"], law_id=f.get("row"), policy_area=f["area"], procedure=", ".join(PROC.get(f["id"], [])) or f["proc"],
                 **({k: (v if v is not None else "") for k, v in zip(STEP_KEYS, f["track"])} if f.get("track") else {k: "" for k in STEP_KEYS}),
-                expected_proposal=f.get("expected", ""), target_for_agreement=f["target"], latest=f["latest"], page=page_of(f)) for f in F],
+                expected_proposal=f.get("expected", ""), target_for_agreement=f["target"], latest=f["latest"], page=page_of(f),
+                impact_assessment=f.get("ia", {}).get("status", ""), impact_assessment_docs=[swd_lab(r) for r in f.get("ia", {}).get("main", [])],
+                impact_assessment_urls=[swd_url(r) for r in f.get("ia", {}).get("main", [])]) for f in F],
           open("forthcoming_list.json", "w"), indent=1, ensure_ascii=False)
 json.dump({str(f["row"]): f["stage"] if f["stage"] in ("agreed", "withdrawn") else "proposed" for f in F if f.get("row")}, open("forthcoming_status.json", "w"), indent=1)
 print("ok", len(F), "Fc pages:", sum(1 for f in F if not f.get("row")), "status blocks:", len(STAND))

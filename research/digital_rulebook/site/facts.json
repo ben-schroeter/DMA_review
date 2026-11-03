@@ -99,6 +99,10 @@
   "value": 17,
   "text": "17"
  },
+ "studies_forthcoming": {
+  "value": 49,
+  "text": "49"
+ },
  "objectives": {
   "value": 398,
   "text": "398"
@@ -180,6 +184,18 @@
   "text": "30,800"
  },
  "forthcoming_withdrawn": {
+  "value": 5,
+  "text": "5"
+ },
+ "fc_ia_total": {
+  "value": 22,
+  "text": "22"
+ },
+ "fc_ia_full": {
+  "value": 17,
+  "text": "17"
+ },
+ "fc_ia_without": {
   "value": 5,
   "text": "5"
  },

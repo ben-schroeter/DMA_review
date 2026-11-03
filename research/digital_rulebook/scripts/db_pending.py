@@ -16,7 +16,7 @@ for c in ws[1]:
 for name in ("ceps_table_status", "status_ceps_jul2025"):
     hdr = [c.value for c in ws[1]]
     if name in hdr: ws.delete_cols(hdr.index(name) + 1)
-TRACK = ["stage_procedure", "parliament_position", "council_position", "trilogues", "agreement", "expected_proposal", "target_for_agreement", "latest_status", "page"]
+TRACK = ["stage_procedure", "parliament_position", "council_position", "trilogues", "agreement", "expected_proposal", "target_for_agreement", "latest_status", "page", "impact_assessment"]
 hdr = [c.value for c in ws[1]]
 for t in TRACK:
     if t not in hdr:
@@ -44,7 +44,8 @@ for p in pend:
     ws.cell(r, col["status"], p["stage"])
     for k, v in (("stage_procedure", p["procedure"]), ("parliament_position", p["parliament_position"]), ("council_position", p["council_position"]),
                  ("trilogues", p["trilogues"]), ("agreement", p["agreement"]), ("expected_proposal", p["expected_proposal"]),
-                 ("target_for_agreement", p["target_for_agreement"]), ("latest_status", p["latest"]), ("page", p["page"])):
+                 ("target_for_agreement", p["target_for_agreement"]), ("latest_status", p["latest"]), ("page", p["page"]),
+                 ("impact_assessment", (p.get("impact_assessment", "") + (": " + ", ".join(p.get("impact_assessment_docs", [])) if p.get("impact_assessment_docs") else "")) or None)):
         ws.cell(r, col[k], v if v not in (None, "—") else None)
 json.dump(ids, open("data/initiative_ids.json", "w"), indent=1)
 if "forthcoming" in wb.sheetnames: del wb["forthcoming"]

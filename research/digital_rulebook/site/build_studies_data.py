@@ -59,10 +59,27 @@ for f in json.load(open("site/forthcoming_list.json")):
     for l in sorted(json.load(open(f"data/impact/{c}.json"))["literature"], key=lambda l: -(l.get("year") or 0)):
         L.append([{"vat-imported-distance-sales": "VAT on imported distance sales", "significant-digital-presence": "Significant digital presence"}.get(f["id"], f["name"]) + " (withdrawn)", short(l.get("authors")), l.get("year"), l.get("title") or l.get("citation"), l.get("method"), l.get("direction") or "",
                   l.get("headline") or l.get("summary_plain") or "", l.get("url") or l.get("pdf_url") or "", l.get("interested_party", "") or "", l.get("source_class", "") or "other", "wd"])
+# Forthcoming initiatives: impact assessments (or the staff documents that replace them) and studies, collection "fc", kept out of the counts above
+FC_REC = {"psr": "52023PC0367", "psd3": "52023PC0366", "digital-euro": "52023PC0369", "csar": "52022PC0209", "csa-directive": "52024PC0060",
+          "digital-travel": "52024PC0670", "space-act": "52025PC0335", "infosec": "52022PC0119", "digital-omnibus": "52025PC0837",
+          "digital-networks-act": "52026PC0016", "cybersecurity-act-2": "52026PC0011", "cloud-ai-development-act": "52026PC0502",
+          "eu-kids-act": "52026PC0681", "digital-fairness-act": "fc-digital-fairness-act"}
+IA_KIND = {"full": "Commission impact assessment", "analysis": "Commission analysis of impacts (no full impact assessment)", "swd": "Commission staff working document (no impact assessment)"}
+for f in json.load(open("site/forthcoming_list.json")):
+    if f["stage"] == "withdrawn": continue
+    c = FC_REC.get(f["id"]); lab = f["name"] + " (forthcoming)"
+    if c and os.path.exists(f"data/impact/{c}.json"):
+        for l in sorted(json.load(open(f"data/impact/{c}.json"))["literature"], key=lambda l: -(l.get("year") or 0)):
+            L.append([lab, short(l.get("authors")), l.get("year"), l.get("title") or l.get("citation"), l.get("method"), l.get("direction") or "",
+                      l.get("headline") or l.get("summary_plain") or "", l.get("url") or l.get("pdf_url") or "", l.get("interested_party", "") or "", l.get("source_class", "") or "other", "fc"])
+    elif f.get("impact_assessment") in IA_KIND:
+        for ref, url in zip(f["impact_assessment_docs"], f["impact_assessment_urls"]):
+            L.append([lab, "European Commission", int(ref[4:8]), f'{IA_KIND[f["impact_assessment"]]}: {ref}', "ex-ante assessment", "",
+                      IA_KIND[f["impact_assessment"]] + " accompanying the proposal.", url, "", "official", "fc"])
 for e in json.load(open("data/literature/regulation_economics.json")):
     L.append(["Economics of regulation", short(e.get("authors")), e.get("year"), e.get("title"), e.get("method") or e.get("type"), "",
               e.get("finding") or e.get("summary_plain") or "", e.get("url") or e.get("pdf_url") or "", e.get("interested_party", "") or "", "academic" if "empirical" in (e.get("type") or "") or e.get("type") == "theory" else "other", "econ"])
 out["L"] = L
-out["collections"] = {k: sum(1 for x in L if k in x[10].split()) for k in ("ev", "causal", "review", "ia", "econ", "wd")}
+out["collections"] = {k: sum(1 for x in L if k in x[10].split()) for k in ("ev", "causal", "review", "ia", "econ", "fc", "wd")}
 json.dump(out, open("site/studies_data.json", "w"), ensure_ascii=False)
 print(out["collections"])

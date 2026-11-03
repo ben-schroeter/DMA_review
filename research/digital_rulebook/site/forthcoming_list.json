@@ -14,7 +14,14 @@
   "expected_proposal": "",
   "target_for_agreement": "—",
   "latest": "Agreed with Council in November 2025; Parliament's committee approved the text in May 2026; plenary vote indicatively 14 December 2026.",
-  "page": "Act-payment-services-regulation-psr.dc.html"
+  "page": "Act-payment-services-regulation-psr.dc.html",
+  "impact_assessment": "full",
+  "impact_assessment_docs": [
+   "SWD(2023) 231"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023SC0231"
+  ]
  },
  {
   "id": "psd3",
@@ -31,7 +38,14 @@
   "expected_proposal": "",
   "target_for_agreement": "—",
   "latest": "Agreed together with the PSR; plenary vote indicatively 14 December 2026.",
-  "page": "Act-payment-services-directive-3-psd3.dc.html"
+  "page": "Act-payment-services-directive-3-psd3.dc.html",
+  "impact_assessment": "full",
+  "impact_assessment_docs": [
+   "SWD(2023) 231"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023SC0231"
+  ]
  },
  {
   "id": "digital-omnibus",
@@ -48,7 +62,14 @@
   "expected_proposal": "",
   "target_for_agreement": "End 2026",
   "latest": "Council agreed its mandate in October 2026; Parliament committees are still voting on amendments. The AI part was adopted separately (Regulation (EU) 2026/1744, in force July 2026).",
-  "page": "Fc-digital-omnibus.dc.html"
+  "page": "Fc-digital-omnibus.dc.html",
+  "impact_assessment": "swd",
+  "impact_assessment_docs": [
+   "SWD(2025) 836"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025SC0836"
+  ]
  },
  {
   "id": "business-wallet",
@@ -65,7 +86,14 @@
   "expected_proposal": "",
   "target_for_agreement": "End 2026",
   "latest": "Parliament adopted its negotiating mandate on 7 October 2026; Council working party still negotiating.",
-  "page": "Fc-business-wallet.dc.html"
+  "page": "Fc-business-wallet.dc.html",
+  "impact_assessment": "swd",
+  "impact_assessment_docs": [
+   "SWD(2025) 837"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025SC0837"
+  ]
  },
  {
   "id": "digital-networks-act",
@@ -82,7 +110,14 @@
   "expected_proposal": "",
   "target_for_agreement": "Q4 2027",
   "latest": "Parliament: ITRE lead, rapporteur Michał Kobosko. Council: progress report to the June 2026 Telecoms Council.",
-  "page": "Fc-digital-networks-act.dc.html"
+  "page": "Fc-digital-networks-act.dc.html",
+  "impact_assessment": "full",
+  "impact_assessment_docs": [
+   "SWD(2026) 13"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026SC0013"
+  ]
  },
  {
   "id": "eu-kids-act",
@@ -99,7 +134,14 @@
   "expected_proposal": "",
   "target_for_agreement": "—",
   "latest": "Proposed 17 September 2026; referred to Parliament's Industry committee (ITRE) on 22 October 2026.",
-  "page": "Fc-eu-kids-act.dc.html"
+  "page": "Fc-eu-kids-act.dc.html",
+  "impact_assessment": "analysis",
+  "impact_assessment_docs": [
+   "SWD(2026) 681"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026SC0681"
+  ]
  },
  {
   "id": "cybersecurity-act-2",
@@ -116,7 +158,14 @@
   "expected_proposal": "",
   "target_for_agreement": "End 2026",
   "latest": "In committee in Parliament and in Council working party.",
-  "page": "Fc-cybersecurity-act-2.dc.html"
+  "page": "Fc-cybersecurity-act-2.dc.html",
+  "impact_assessment": "full",
+  "impact_assessment_docs": [
+   "SWD(2026) 11"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026SC0011"
+  ]
  },
  {
   "id": "eu-inc",
@@ -133,7 +182,14 @@
   "expected_proposal": "",
   "target_for_agreement": "End 2026",
   "latest": "Fast-tracked under the One Europe, One Market roadmap.",
-  "page": "Fc-eu-inc.dc.html"
+  "page": "Fc-eu-inc.dc.html",
+  "impact_assessment": "full",
+  "impact_assessment_docs": [
+   "SWD(2026) 321"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026SC0321"
+  ]
  },
  {
   "id": "cloud-ai-development-act",
@@ -150,7 +206,14 @@
   "expected_proposal": "",
   "target_for_agreement": "Q4 2027",
   "latest": "Proposed in the tech sovereignty package with Chips Act 2.",
-  "page": "Fc-cloud-ai-development-act.dc.html"
+  "page": "Fc-cloud-ai-development-act.dc.html",
+  "impact_assessment": "full",
+  "impact_assessment_docs": [
+   "SWD(2026) 502"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026SC0502"
+  ]
  },
  {
   "id": "chips-act-2",
@@ -167,7 +230,14 @@
   "expected_proposal": "",
   "target_for_agreement": "Q2 2027",
   "latest": "Proposed in June 2026; amends the European Chips Act.",
-  "page": "Fc-chips-act-2.dc.html"
+  "page": "Fc-chips-act-2.dc.html",
+  "impact_assessment": "full",
+  "impact_assessment_docs": [
+   "SWD(2026) 504"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026SC0504"
+  ]
  },
  {
   "id": "european-innovation-act",
@@ -184,7 +254,14 @@
   "expected_proposal": "",
   "target_for_agreement": "—",
   "latest": "Proposed September 2026 (planned for Q1 2026).",
-  "page": "Fc-european-innovation-act.dc.html"
+  "page": "Fc-european-innovation-act.dc.html",
+  "impact_assessment": "full",
+  "impact_assessment_docs": [
+   "SWD(2026) 567"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026SC0567"
+  ]
  },
  {
   "id": "euccs",
@@ -201,7 +278,14 @@
   "expected_proposal": "",
   "target_for_agreement": "—",
   "latest": "Proposed 30 September 2026.",
-  "page": "Fc-euccs.dc.html"
+  "page": "Fc-euccs.dc.html",
+  "impact_assessment": "full",
+  "impact_assessment_docs": [
+   "SWD(2026) 1010"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026SC1010"
+  ]
  },
  {
   "id": "multimodal-digital-mobility",
@@ -218,7 +302,14 @@
   "expected_proposal": "",
   "target_for_agreement": "—",
   "latest": "Proposed 13 May 2026; would repeal the code of conduct for computerised reservation systems.",
-  "page": "Fc-multimodal-digital-mobility.dc.html"
+  "page": "Fc-multimodal-digital-mobility.dc.html",
+  "impact_assessment": "full",
+  "impact_assessment_docs": [
+   "SWD(2026) 300"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026SC0300"
+  ]
  },
  {
   "id": "single-digital-booking",
@@ -235,7 +326,14 @@
   "expected_proposal": "",
   "target_for_agreement": "—",
   "latest": "Proposed 13 May 2026 with the multimodal booking regulation.",
-  "page": "Fc-single-digital-booking.dc.html"
+  "page": "Fc-single-digital-booking.dc.html",
+  "impact_assessment": "full",
+  "impact_assessment_docs": [
+   "SWD(2026) 300"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026SC0300"
+  ]
  },
  {
   "id": "digital-euro",
@@ -252,7 +350,14 @@
   "expected_proposal": "",
   "target_for_agreement": "End 2026",
   "latest": "Trilogues opened in July 2026; political agreement targeted before the end of 2026.",
-  "page": "Act-digital-euro-regulation.dc.html"
+  "page": "Act-digital-euro-regulation.dc.html",
+  "impact_assessment": "full",
+  "impact_assessment_docs": [
+   "SWD(2023) 233"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023SC0233"
+  ]
  },
  {
   "id": "fida",
@@ -269,7 +374,10 @@
   "expected_proposal": "",
   "target_for_agreement": "—",
   "latest": "The Commission's 2027 work programme (Annex III) lists it for withdrawal within six months: no trilogues since June 2025, and unlikely to find support in Council.",
-  "page": "Act-financial-data-access-regulation-fida.dc.html"
+  "page": "Act-financial-data-access-regulation-fida.dc.html",
+  "impact_assessment": "",
+  "impact_assessment_docs": [],
+  "impact_assessment_urls": []
  },
  {
   "id": "csar",
@@ -286,7 +394,14 @@
   "expected_proposal": "",
   "target_for_agreement": "—",
   "latest": "Trilogues ended June 2026 without agreement on detection; to resume under the Irish presidency. The interim derogation was extended to April 2028.",
-  "page": "Act-child-sexual-abuse-regulation-csar.dc.html"
+  "page": "Act-child-sexual-abuse-regulation-csar.dc.html",
+  "impact_assessment": "full",
+  "impact_assessment_docs": [
+   "SWD(2022) 209"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022SC0209"
+  ]
  },
  {
   "id": "digital-travel",
@@ -303,7 +418,14 @@
   "expected_proposal": "",
   "target_for_agreement": "—",
   "latest": "Parliament (December 2025) and Council (November 2025) have mandates; trilogues continuing, with the age limit for digital travel credentials open.",
-  "page": "Act-eu-digital-travel-application-regulation.dc.html"
+  "page": "Act-eu-digital-travel-application-regulation.dc.html",
+  "impact_assessment": "full",
+  "impact_assessment_docs": [
+   "SWD(2024) 671"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52024SC0671"
+  ]
  },
  {
   "id": "space-act",
@@ -320,7 +442,14 @@
   "expected_proposal": "",
   "target_for_agreement": "—",
   "latest": "Parliament committee vote moved to November 2026; no Council general approach yet.",
-  "page": "Act-eu-space-act.dc.html"
+  "page": "Act-eu-space-act.dc.html",
+  "impact_assessment": "full",
+  "impact_assessment_docs": [
+   "SWD(2025) 335"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025SC0335"
+  ]
  },
  {
   "id": "infosec",
@@ -337,7 +466,14 @@
   "expected_proposal": "",
   "target_for_agreement": "—",
   "latest": "Stalled: Parliament's committee has not yet voted, more than four years after the proposal.",
-  "page": "Act-information-security-regulation.dc.html"
+  "page": "Act-information-security-regulation.dc.html",
+  "impact_assessment": "analysis",
+  "impact_assessment_docs": [
+   "SWD(2022) 66"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022SC0066"
+  ]
  },
  {
   "id": "digital-services-tax",
@@ -354,7 +490,10 @@
   "expected_proposal": "",
   "target_for_agreement": "—",
   "latest": "The Commission's 2027 work programme (Annex III) lists it for withdrawal within six months: pending in Council for more than eight years, last discussed in 2019; tax rules need unanimity.",
-  "page": "Fc-digital-services-tax.dc.html"
+  "page": "Fc-digital-services-tax.dc.html",
+  "impact_assessment": "",
+  "impact_assessment_docs": [],
+  "impact_assessment_urls": []
  },
  {
   "id": "significant-digital-presence",
@@ -371,7 +510,10 @@
   "expected_proposal": "",
   "target_for_agreement": "—",
   "latest": "The Commission's 2027 work programme (Annex III) lists it for withdrawal within six months: pending in Council for more than eight years, last discussed in 2019; tax rules need unanimity.",
-  "page": "Fc-significant-digital-presence.dc.html"
+  "page": "Fc-significant-digital-presence.dc.html",
+  "impact_assessment": "",
+  "impact_assessment_docs": [],
+  "impact_assessment_urls": []
  },
  {
   "id": "vat-imported-distance-sales",
@@ -388,7 +530,10 @@
   "expected_proposal": "",
   "target_for_agreement": "—",
   "latest": "The Commission's 2027 work programme (Annex III) lists it for withdrawal within six months unless the current Council talks succeed: part of the proposal has been adopted, with no agreement on the rest.",
-  "page": "Fc-vat-imported-distance-sales.dc.html"
+  "page": "Fc-vat-imported-distance-sales.dc.html",
+  "impact_assessment": "",
+  "impact_assessment_docs": [],
+  "impact_assessment_urls": []
  },
  {
   "id": "late-payment",
@@ -405,7 +550,10 @@
   "expected_proposal": "",
   "target_for_agreement": "—",
   "latest": "The Commission's 2027 work programme (Annex III) lists it for withdrawal within six months: blocked in Council since Parliament's April 2024 position, with a sizeable number of member states opposed.",
-  "page": "Act-late-payment-regulation.dc.html"
+  "page": "Act-late-payment-regulation.dc.html",
+  "impact_assessment": "",
+  "impact_assessment_docs": [],
+  "impact_assessment_urls": []
  },
  {
   "id": "csa-directive",
@@ -422,7 +570,14 @@
   "expected_proposal": "",
   "target_for_agreement": "—",
   "latest": "Provisional agreement on 22 June 2026; plenary vote indicatively 14 December 2026.",
-  "page": "Act-child-sexual-abuse-directive-recast.dc.html"
+  "page": "Act-child-sexual-abuse-directive-recast.dc.html",
+  "impact_assessment": "full",
+  "impact_assessment_docs": [
+   "SWD(2024) 33"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52024SC0033"
+  ]
  },
  {
   "id": "omnibus-iv",
@@ -439,7 +594,16 @@
   "expected_proposal": "",
   "target_for_agreement": "End 2026",
   "latest": "Provisional agreement in June 2026, approved by Parliament's committees in July; plenary vote indicatively 23 November 2026.",
-  "page": "Fc-omnibus-iv.dc.html"
+  "page": "Fc-omnibus-iv.dc.html",
+  "impact_assessment": "swd",
+  "impact_assessment_docs": [
+   "SWD(2025) 130",
+   "SWD(2025) 501"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025SC0130",
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025SC0501"
+  ]
  },
  {
   "id": "digital-fairness-act",
@@ -456,7 +620,10 @@
   "expected_proposal": "11 Nov 2026 (indicative)",
   "target_for_agreement": "—",
   "latest": "On the Commission's indicative agenda for 11 November 2026, in a consumer package with the consumer enforcement initiative.",
-  "page": "Fc-digital-fairness-act.dc.html"
+  "page": "Fc-digital-fairness-act.dc.html",
+  "impact_assessment": "",
+  "impact_assessment_docs": [],
+  "impact_assessment_urls": []
  },
  {
   "id": "quantum-act",
@@ -473,7 +640,10 @@
   "expected_proposal": "18 Nov 2026 (indicative; planned Q2)",
   "target_for_agreement": "Q3 2027",
   "latest": "On the Commission's indicative agenda for 18 November 2026.",
-  "page": "Fc-quantum-act.dc.html"
+  "page": "Fc-quantum-act.dc.html",
+  "impact_assessment": "",
+  "impact_assessment_docs": [],
+  "impact_assessment_urls": []
  },
  {
   "id": "cpc-review",
@@ -490,7 +660,10 @@
   "expected_proposal": "11 Nov 2026 (indicative)",
   "target_for_agreement": "Q4 2027",
   "latest": "On the Commission's indicative agenda for 11 November 2026 as the consumer enforcement initiative, with the Digital Fairness Act.",
-  "page": "Fc-cpc-review.dc.html"
+  "page": "Fc-cpc-review.dc.html",
+  "impact_assessment": "",
+  "impact_assessment_docs": [],
+  "impact_assessment_urls": []
  },
  {
   "id": "antitrust-procedure",
@@ -507,7 +680,10 @@
   "expected_proposal": "Q2 2027 (planned Q3 2026)",
   "target_for_agreement": "—",
   "latest": "Evaluation and consultation done; proposal pushed to 2027.",
-  "page": "Fc-antitrust-procedure.dc.html"
+  "page": "Fc-antitrust-procedure.dc.html",
+  "impact_assessment": "",
+  "impact_assessment_docs": [],
+  "impact_assessment_urls": []
  },
  {
   "id": "european-product-act",
@@ -524,7 +700,14 @@
   "expected_proposal": "",
   "target_for_agreement": "Q4 2027",
   "latest": "Standardisation Regulation proposed on 6 October 2026; the parts on the product framework and market surveillance are still to come.",
-  "page": "Fc-european-product-act.dc.html"
+  "page": "Fc-european-product-act.dc.html",
+  "impact_assessment": "full",
+  "impact_assessment_docs": [
+   "SWD(2026) 786"
+  ],
+  "impact_assessment_urls": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026SC0786"
+  ]
  },
  {
   "id": "smbpa",
@@ -541,7 +724,10 @@
   "expected_proposal": "Q3 2027",
   "target_for_agreement": "—",
   "latest": "In the 2027 work programme for Q3 2027 (legislative or non-legislative), following the Single Market Strategy.",
-  "page": "Fc-smbpa.dc.html"
+  "page": "Fc-smbpa.dc.html",
+  "impact_assessment": "",
+  "impact_assessment_docs": [],
+  "impact_assessment_urls": []
  },
  {
   "id": "avmsd-revision",
@@ -558,7 +744,10 @@
   "expected_proposal": "After the evaluation due 19 Dec 2026",
   "target_for_agreement": "—",
   "latest": "Ex-post evaluation under Article 33 under way; a proposal may follow.",
-  "page": "Fc-avmsd-revision.dc.html"
+  "page": "Fc-avmsd-revision.dc.html",
+  "impact_assessment": "",
+  "impact_assessment_docs": [],
+  "impact_assessment_urls": []
  },
  {
   "id": "data-retention",
@@ -575,7 +764,10 @@
   "expected_proposal": "2027 (after further assessment)",
   "target_for_agreement": "—",
   "latest": "The 2027 work programme says the Commission will further assess the impact of data retention rules, with a view to following up next year.",
-  "page": "Fc-data-retention.dc.html"
+  "page": "Fc-data-retention.dc.html",
+  "impact_assessment": "",
+  "impact_assessment_docs": [],
+  "impact_assessment_urls": []
  },
  {
   "id": "digital-transformation-package",
@@ -592,7 +784,10 @@
   "expected_proposal": "Q2 2027",
   "target_for_agreement": "—",
   "latest": "In the 2027 work programme as legislation with an impact assessment; scope not yet published. Copyright consultation open until 10 November 2026.",
-  "page": "Fc-digital-transformation-package.dc.html"
+  "page": "Fc-digital-transformation-package.dc.html",
+  "impact_assessment": "",
+  "impact_assessment_docs": [],
+  "impact_assessment_urls": []
  },
  {
   "id": "political-ads-review",
@@ -609,6 +804,9 @@
   "expected_proposal": "Not set",
   "target_for_agreement": "—",
   "latest": "In the 2027 work programme as legislation with an impact assessment; no date given.",
-  "page": "Fc-political-ads-review.dc.html"
+  "page": "Fc-political-ads-review.dc.html",
+  "impact_assessment": "",
+  "impact_assessment_docs": [],
+  "impact_assessment_urls": []
  }
 ]
