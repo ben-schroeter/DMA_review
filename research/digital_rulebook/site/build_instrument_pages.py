@@ -304,6 +304,7 @@ def page(r):
         <div style="display: flex; flex-direction: column; gap: 8px"><p class="eyebrow">What it does</p><p class="body" style="font-size: 17px; color: #282424">{esc(r["objectives"] or "")}</p></div>
         <div style="display: flex; flex-direction: column; gap: 8px"><p class="eyebrow">What we know so far</p><p class="body" style="font-size: 17px">{esc(r["impact_summary"] or ("Not yet adopted; no evidence on effects." if pend else "No summary yet."))}</p></div>
       </div>
+      {"" if pend else ia_line(r)}
       <figure style="margin: 8px 0 0; display: flex; flex-direction: column; gap: 4px"><figcaption class="eyebrow">Timeline</figcaption>{timeline(r)}
         <span class="cap">{f'{months(r["proposal_date"], r["adoption_date"])} months from proposal to adoption.' if r["adoption_date"] and not pend else f'In negotiation for {months(r["proposal_date"], "2026-10-31")} months.'} Dates when rules start to apply may be set in the text and can come later.</span></figure>
     </div>
@@ -342,6 +343,23 @@ def page(r):
     return body
 
 REVIEWS = json.load(open("data/reviews.json")) if os.path.exists("data/reviews.json") else []
+# impact assessment and Regulatory Scrutiny Board verdict (scripts/ia_lookup.py -> data/ia/ia_laws.json)
+IA = json.load(open("data/ia/ia_laws.json")) if os.path.exists("data/ia/ia_laws.json") else {}
+IA_LAB = {"full": ("Impact assessment", "#2E7D5B"), "pre": ("No impact assessment: proposed before the Commission introduced them in 2003", "#6B6B6B"),
+          "codification": ("No impact assessment: codification or recast", "#6B6B6B"), "none": ("No impact assessment", "#9B3B3B"),
+          "swd": ("No impact assessment: staff working document only", "#9B3B3B"), "unknown": ("Impact assessment not found", "#6B6B6B")}
+def ia_line(r):
+    x = IA.get(str(r["celex_measured"]).split(";")[0])
+    if not x: return ""
+    lab, col = IA_LAB[x["status"]]
+    docs = ", ".join(f'<a href="{esc(d["url"])}">{esc(d["ref"])}</a>' for d in x["docs"])
+    note = "" if x["status"] in ("full", "pre") else f' <span class="cap">· {esc(x["note"][0].lower() + x["note"][1:]) if x["note"] else ""}</span>'
+    b = x.get("board"); brd = ""
+    if b:
+        seq = b["first"] if b["first"] == b["final"] else f'{b["first"]} first, then {b["final"]}'
+        src = ", ".join(f'<a href="{esc(o["url"])}">{esc(o["ref"])}</a>' for o in b["opinions"]) if b["opinions"] else esc(b["source"])
+        brd = f'<br><span class="cap">Regulatory Scrutiny Board: <strong style="font-weight: 600; color: #282424">{esc(seq)}</strong> · {src}</span>'
+    return (f'<p class="body" style="font-size: 15px; margin: 0"><span class="st" style="border-color: {col}; color: {col}">{esc(lab)}</span> {docs}{note}{brd}</p>')
 PENDING = json.load(open("data/pending_amendments.json")) if os.path.exists("data/pending_amendments.json") else []
 STAND = json.load(open("site/forthcoming.json")) if os.path.exists("site/forthcoming.json") else {}
 TPL = open("site/instrument_template.dc.html").read()

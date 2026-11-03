@@ -48,6 +48,18 @@ for p in pend:
                  ("impact_assessment", (p.get("impact_assessment", "") + (": " + ", ".join(p.get("impact_assessment_docs", [])) if p.get("impact_assessment_docs") else "")) or None)):
         ws.cell(r, col[k], v if v not in (None, "—") else None)
 json.dump(ids, open("data/initiative_ids.json", "w"), indent=1)
+# impact assessment and Regulatory Scrutiny Board verdict for the adopted laws (data/ia/ia_laws.json, scripts/ia_lookup.py)
+if os.path.exists("data/ia/ia_laws.json"):
+    IA = json.load(open("data/ia/ia_laws.json"))
+    for c in ("ia_status", "rsb_first_opinion", "rsb_final_opinion"):
+        if c not in col:
+            ws.cell(1, len(col) + 1, c).font = Font(bold=True); col[c] = len(col) + 1
+    for r in range(2, ws.max_row + 1):
+        if ws.cell(r, col["status"]).value != "adopted": continue
+        x = IA.get(str(ws.cell(r, col["celex_measured"]).value or "").split(";")[0])
+        if not x: continue
+        ws.cell(r, col["ia_status"], x["status"] + (": " + ", ".join(d["ref"] for d in x["docs"]) if x["docs"] else ""))
+        ws.cell(r, col["rsb_first_opinion"], (x["board"] or {}).get("first")); ws.cell(r, col["rsb_final_opinion"], (x["board"] or {}).get("final"))
 if "forthcoming" in wb.sheetnames: del wb["forthcoming"]
 rev = json.load(open("data/reviews.json")) if os.path.exists("data/reviews.json") else []
 if "reviews" in wb.sheetnames: del wb["reviews"]
