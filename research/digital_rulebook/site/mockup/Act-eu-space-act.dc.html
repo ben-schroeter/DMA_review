@@ -75,7 +75,7 @@ h2.h2{position:relative;padding-left:18px}h2.h2::before{content:"";position:abso
     </div>
   </section>
   <section style="border-top: 1px solid #E8E6E3; border-bottom: 1px solid #E8E6E3; background: #F3F1EC">
-    <div class="wrap" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 28px; padding-block: 30px"><div style="display: flex; flex-direction: column; gap: 8px"><span class="num">798</span><span class="cap">obligations in the proposal</span></div><div style="display: flex; flex-direction: column; gap: 8px"><span class="num">58,336</span><span class="cap">words, 186 pages</span></div><div style="display: flex; flex-direction: column; gap: 8px"><span class="num">0</span><span class="cap">implementing and delegated acts (0 obligations)</span></div><div style="display: flex; flex-direction: column; gap: 8px"><span class="num">0</span><span class="cap">causal studies among 1 sources</span></div></div>
+    <div class="wrap" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 28px; padding-block: 30px"><div style="display: flex; flex-direction: column; gap: 8px"><span class="num">798</span><span class="cap">obligations in the proposal</span></div><div style="display: flex; flex-direction: column; gap: 8px"><span class="num">58,336</span><span class="cap">words, 186 pages</span></div><div style="display: flex; flex-direction: column; gap: 8px"><span class="num">0</span><span class="cap">implementing and delegated acts (0 obligations)</span></div><div style="display: flex; flex-direction: column; gap: 8px"><span class="num">0</span><span class="cap">causal studies among 2 sources</span></div></div>
   </section>
   <section style="padding-block: 40px 8px">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 16px">
@@ -125,8 +125,8 @@ h2.h2{position:relative;padding-left:18px}h2.h2::before{content:"";position:abso
         </div>
         <label for="causal-only" style="display: inline-flex; align-items: center; gap: 10px; font-size: 15px; min-height: 44px; cursor: pointer"><input id="causal-only" type="checkbox" checked="{{causalOnly}}" onChange="{{toggle}}" style="width: 18px; height: 18px; accent-color: #B8860B">Causal studies only</label>
       </div>
-      <div class="scroll" style="max-height: 560px; background: #FAF9F5"><table class="tbl"><thead><tr><th scope="col">Source</th><th scope="col">Method</th><th scope="col">Finding</th></tr></thead><tbody><sc-if value="{{showAll}}" hint-placeholder-val="{{ true }}"><tr><td style="min-width: 260px"><a href="https://space.commerce.gov/wp-content/uploads/2025/11/090166e52487d15d.pdf">US Departments of State and Commerce (2025), U.S. Government feedback on the draft EU Space Act, Comments released 4 November 2025</a><span class="small">government position · 2025</span></td><td>qualitative (drawing on input from 70+ companies and trade associations)</td><td>The US government said the EU Space Act would raise costs and unfairly burden American satellite operators, but gave no cost figures.</td></tr></sc-if></tbody></table></div>
-      <span class="cap">1 sources, 0 causal. Each source links to the paper or official page.</span>
+      <div class="scroll" style="max-height: 560px; background: #FAF9F5"><table class="tbl"><thead><tr><th scope="col">Source</th><th scope="col">Method</th><th scope="col">Finding</th></tr></thead><tbody><sc-if value="{{showAll}}" hint-placeholder-val="{{ true }}"><tr><td style="min-width: 260px"><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025SC0335">European Commission (2025), Impact Assessment accompanying the proposal for a Regulation on the safety, resilience and sustainability of space activities in the Union (EU Space Act), SWD(2025) 335 (executive summary SWD(2025) 336)</a><span class="small">Commission impact assessment · 2025</span></td><td>ex-ante</td><td>The Commission expected a single EU licensing regime to cut red tape and make space safer and greener, while raising satellite manufacturing costs by 3-10%.</td></tr><tr><td style="min-width: 260px"><a href="https://space.commerce.gov/wp-content/uploads/2025/11/090166e52487d15d.pdf">US Departments of State and Commerce (2025), U.S. Government feedback on the draft EU Space Act, Comments released 4 November 2025</a><span class="small">government position · 2025</span></td><td>qualitative (drawing on input from 70+ companies and trade associations)</td><td>The US government said the EU Space Act would raise costs and unfairly burden American satellite operators, but gave no cost figures.</td></tr></sc-if></tbody></table></div>
+      <span class="cap">2 sources, 0 causal. Each source links to the paper or official page.</span>
     </div>
   </section>
   <section style="padding-block: 40px">
@@ -166,7 +166,7 @@ h2.h2{position:relative;padding-left:18px}h2.h2::before{content:"";position:abso
   </footer>
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":4137}}'>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":4235}}'>
 class Component extends DCLogic {
   constructor(props) { super(props); this.state = { causalOnly: false }; }
   renderVals() {

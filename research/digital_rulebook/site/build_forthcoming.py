@@ -161,7 +161,7 @@ F = [
       latest="In the 2027 work programme as legislation with an impact assessment; no date given."),
 ]
 # ---------- Parliament and Council data (OEIL procedure files + hand-entered Council steps)
-from forthcoming_procs import PROC, COUNCIL, PREP, OMNIBUS
+from forthcoming_procs import PROC, COUNCIL, PREP, OMNIBUS, REC
 OE = json.load(open("forthcoming_oeil.json"))
 MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 mon = lambda d: f"{MON[int(d[3:5]) - 1]} {d[6:]}"
@@ -389,6 +389,31 @@ ERA_OF = {"digital-services-tax": ("Juncker Commission", "digital-single-market"
           "vat-imported-distance-sales": ("Von der Leyen I Commission", "digital-decade", "Digital Decade")}
 
 
+CLS = {"official": "official", "academic": "academic", "think tank": "think tank", "consultancy or industry": "consultancy or industry", "other": "other"}
+def studies_html(f):
+    c = REC.get(f["id"])
+    if not c or not os.path.exists(f"../data/impact/{c}.json"):
+        return ""
+    lit = sorted(json.load(open(f"../data/impact/{c}.json"))["literature"], key=lambda l: (l.get("category") != "ex-ante assessment", -(l.get("year") or 0)))
+    if not lit:
+        return ""
+    rows = "".join(
+        f'<tr><td style="min-width: 260px"><a href="{esc(l.get("url") or l.get("pdf_url") or "")}">{esc(l.get("title") or l.get("citation"))}</a>'
+        f'<span class="small">{esc(l.get("authors") or "")}{" (" + str(l["year"]) + ")" if l.get("year") else ""} · {esc(l.get("venue") or "")}</span>'
+        f'<span class="small">{esc(CLS.get(l.get("source_class"), "other"))}{" · " + esc(l["interested_party"]) if l.get("interested_party") else ""} · {esc(l.get("verified") or "")}</span></td>'
+        f'<td>{esc(l.get("method") or "")}</td><td>{esc(l.get("headline") or l.get("summary_plain") or "")}</td></tr>' for l in lit)
+    return f'''
+  <section style="padding-block: 8px 48px">
+    <div class="wrap" style="display: flex; flex-direction: column; gap: 12px">
+      <h2 class="h2">Studies and assessments</h2>
+      <p class="cap">The Commission's own assessment first, then opinions and studies by others, labelled by who produced them. Also in the <a href="Studies.dc.html">Studies library</a>.</p>
+      <div class="scroll" style="max-height: 560px"><table class="tbl"><thead><tr><th scope="col">Source</th><th scope="col">Method</th><th scope="col">Finding</th></tr></thead><tbody>{rows}</tbody></table></div>
+      <span class="cap">{len(lit)} sources.</span>
+    </div>
+  </section>
+'''
+
+
 def fpage(f, sub, intro, does, changes, docs, docs_title, docs_note, extra=""):
     lab, col = STAGE[f["stage"]]
     if f["stage"] == "announced":
@@ -429,7 +454,7 @@ def fpage(f, sub, intro, does, changes, docs, docs_title, docs_note, extra=""):
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 28px">{doc_list(docs)}</div>
     </div>
   </section>
-'''
+{studies_html(f)}'''
     open(f"{OUT}/Fc-{f['id']}.dc.html", "w").write(shell(f["name"], body, 2600))
 
 

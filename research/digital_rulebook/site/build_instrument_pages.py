@@ -149,7 +149,8 @@ def page(r):
     n = r["restrictions_total"] or 0
     secs = [s for s in SEC if s["parent_row_id"] == rid]
     impl = [s for s in secs if s["kind"] in ("implementing", "delegated")]
-    ev = [l for l in LIT if l["parent_row_id"] == rid and (l["category"] or "evidence") == "evidence"]
+    # adopted laws: evidence since adoption; pending and withdrawn proposals: every source, including impact assessments and background research
+    ev = [l for l in LIT if l["parent_row_id"] == rid and ((l["category"] or "evidence") == "evidence" or pend)]
     causal = [l for l in ev if is_causal(l["method"] or "")]
     kpi = [(f"{n:,}", "obligations in the " + ("proposal" if pend else "adopted text"))]
     if not pend and r["proposal_restrictions_total"]:
