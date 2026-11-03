@@ -32,6 +32,9 @@ COUNCIL = {
 }
 # extra preparatory documents for announced initiatives: (date, title, ref, url)
 PREP = {
+ "digital-transformation-package": [("Nov 2025", "Digital fitness check: call for evidence on how EU digital rules work together (closed 11 Mar 2026)", "Have your say", ""),
+                                    ("Sep 2026", "Consultation on the effect of technology on copyright (extended to 10 Nov 2026)", "Commission", "https://digital-strategy.ec.europa.eu/en/news/commission-seeks-feedback-challenges-and-way-forward-area-effect-technology-copyright")],
+ "political-ads-review": [("Mar 2024", "Regulation (EU) 2024/900 on political advertising", "OJ L, 2024/900", "https://eur-lex.europa.eu/eli/reg/2024/900/oj")],
  "quantum-act": [("Jul 2025", "Quantum Europe Strategy", "COM(2025) 363", "https://digital-strategy.ec.europa.eu/en/library/quantum-europe-strategy"),
                  ("Oct 2025", "Call for evidence for the impact assessment (closed 15 Dec 2025)", "Have your say", "https://digital-strategy.ec.europa.eu/en/news/commission-invites-contributions-shape-future-eu-quantum-act")],
  "avmsd-revision": [("Nov 2025", "Call for evidence for the evaluation (closed 21 Dec 2025)", "Have your say", ""),

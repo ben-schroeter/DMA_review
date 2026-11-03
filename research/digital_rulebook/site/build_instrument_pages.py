@@ -137,13 +137,13 @@ def page(r):
         who += (f' and adopted {DATE(r["adoption_date"])} under the <strong>{COMNAME[pt]}</strong>{pcs}' if at == pt
                 else f' under the <strong>{COMNAME[pt]}</strong>{pcs} and adopted {DATE(r["adoption_date"])} under the <strong>{COMNAME[at]}</strong>{acs}')
     else:
-        who += f' by the <strong>{COMNAME[pt]}</strong>{pcs}; {"agreed, awaiting adoption" if r["status"] == "agreed" else "still pending"} in October 2026'
+        who += f' by the <strong>{COMNAME[pt]}</strong>{pcs}; {"agreed, awaiting adoption" if r["status"] == "agreed" else ("listed for withdrawal in the Commission's 2027 work programme" if r["status"] == "withdrawn" else "still pending")}{"" if r["status"] == "withdrawn" else " in October 2026"}'
     cite = era["cites"].get(era["era"]) if era else None
     who += f' · Part of the <a href="DigitalPolicy.dc.html#era-{ea}" style="color: #8F6708; font-weight: 500">{esc(en)} agenda</a>'
     LBL = {"strong": "strong", "moderate": "moderate", "thin": "thin", "ex-ante only": "too early to tell", "not adopted": "not yet adopted", "none": "none"}
     lvl = LBL.get(r["impact_evidence_level"] or ("not adopted" if pend else "none"), r["impact_evidence_level"])
     chips = [f'<a class="chip" href="{esc(r["source_url"] or "")}" style="text-decoration: none">{esc(r["identifier"] or r["celex_measured"])} ↗</a>',
-             f'<span class="chip">{"Adopted " + DATE(r["adoption_date"]) if not pend else ("Agreed" if r["status"] == "agreed" else "Proposal")}</span>',
+             f'<span class="chip">{"Adopted " + DATE(r["adoption_date"]) if not pend else ("Agreed" if r["status"] == "agreed" else ("Withdrawn" if r["status"] == "withdrawn" else "Proposal"))}</span>',
              f'<span class="chip" style="border-color: #B8860B; color: #8F6708">Evidence: {esc(lvl)}</span>']
     # at a glance
     n = r["restrictions_total"] or 0
@@ -277,11 +277,17 @@ def page(r):
 '''
     ams_ = [a for a in AM if a["parent_row_id"] == rid and a["kind"] == "amendment"]
     am_items = [f'<li><span class="cap">{DATE(a["date"])}</span><span><a href="{esc(a["source_url"] or "")}">{esc((a["title"] or a["celex"])[:200])}</a></span></li>' for a in sorted(ams_, key=lambda a: str(a["date"] or ""), reverse=True)]
+    pa = [x for x in PENDING if x["law_id"] == rid]
+    pa_html = ("".join(f'<div style="padding: 12px 16px; border-left: 3px solid #B8860B; background: #FFFFFF; border-radius: 0 10px 10px 0; font-size: 14px; line-height: 1.45">'
+                       f'<strong style="font-weight: 600">Amendment pending: <a href="{esc(x["url"])}">{esc(x["proposal"])}</a></strong> <span class="cap">· {esc(x["ref"])}, proposed {DATE(x["proposed"])}</span><br>'
+                       f'{esc(x["what"])} <a href="{esc(x["oeil"])}">Procedure {esc(x["procedure"])}</a></div>' for x in sorted(pa, key=lambda x: x["proposed"], reverse=True)))
+    pa_note = (" Pending amending proposals are those on the Commission's priority list in its 2027 work programme." if pa else " Pending amending proposals, such as the Digital Omnibus, are not yet tracked for this law.")
     amend = f'''  <section style="padding-block: 8px 40px">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 12px">
-      <h2 class="h3">Amendments: {len(ams_)}</h2>
+      <h2 class="h3">Amendments: {len(ams_)}{f" adopted, {len(pa)} pending" if pa else ""}</h2>
+      {pa_html}
       {lst(am_items, "Not amended since adoption." if not pend else "Not yet adopted.")}
-      <p class="cap" style="margin: 0">Adopted amending acts, latest first{(", plus " + str(r["n_corrigenda"]) + " corrigenda") if r["n_corrigenda"] else ""}. Pending amending proposals, such as the Digital Omnibus, are not yet tracked.</p>
+      <p class="cap" style="margin: 0">Adopted amending acts, latest first{(", plus " + str(r["n_corrigenda"]) + " corrigenda") if r["n_corrigenda"] else ""}.{pa_note}</p>
     </div>
   </section>
 '''
@@ -335,6 +341,7 @@ def page(r):
     return body
 
 REVIEWS = json.load(open("data/reviews.json")) if os.path.exists("data/reviews.json") else []
+PENDING = json.load(open("data/pending_amendments.json")) if os.path.exists("data/pending_amendments.json") else []
 STAND = json.load(open("site/forthcoming.json")) if os.path.exists("site/forthcoming.json") else {}
 TPL = open("site/instrument_template.dc.html").read()
 H0, H1 = TPL.split("<!--BODY-->")

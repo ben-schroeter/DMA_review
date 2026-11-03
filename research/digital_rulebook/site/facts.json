@@ -171,6 +171,10 @@
   "value": 30756,
   "text": "30,800"
  },
+ "forthcoming_withdrawn": {
+  "value": 2,
+  "text": "2"
+ },
  "forthcoming_total": {
   "value": 31,
   "text": "31"
@@ -180,12 +184,12 @@
   "text": "4"
  },
  "forthcoming_negotiation": {
-  "value": 20,
-  "text": "20"
+  "value": 18,
+  "text": "18"
  },
  "forthcoming_announced": {
-  "value": 7,
-  "text": "7"
+  "value": 9,
+  "text": "9"
  },
  "ev_costs_n": {
   "value": 45,
@@ -252,8 +256,8 @@
   "text": "3"
  },
  "db_instruments": {
-  "value": 136,
-  "text": "136"
+  "value": 138,
+  "text": "138"
  },
  "db_secondary_all": {
   "value": 770,

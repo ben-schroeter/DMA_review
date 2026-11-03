@@ -7,7 +7,7 @@ EUR = lambda c: f"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:{c}"
 OEIL = lambda p: f"https://oeil.secure.europarl.europa.eu/oeil/en/procedure-file?reference={p}"
 PAGES = json.load(open("instrument_pages.json"))  # row_id -> Act page
 ACT = lambda rid: PAGES[str(rid)]
-AS_OF = "October 2026"
+AS_OF = "November 2026"
 
 STEPS = ["Proposal", "Parliament position", "Council position", "Trilogues", "Agreement"]
 # track: list of dates (or "" if done without a date, None if not reached), one per step
@@ -75,10 +75,10 @@ F = [
       what="Legal framework for a digital euro issued by the ECB, with legal tender status and holding limits.",
       track=["Jun 2023", "Jul 2026", "Dec 2025", "Jul 2026", None], target="End 2026",
       latest="Trilogues opened in July 2026; political agreement targeted before the end of 2026."),
- dict(id="fida", name="Financial Data Access Regulation (FiDA)", stage="proposed", area="Finance", row=98, proc="2023/0205(COD)",
+ dict(id="fida", name="Financial Data Access Regulation (FiDA)", stage="withdrawn", area="Finance", row=98, proc="2023/0205(COD)",
       what="Open finance: customers can share their financial data beyond payment accounts.",
       track=["Jun 2023", "Apr 2024", "Dec 2024", "2025", None], target="—",
-      latest="Parliament has had its mandate since December 2024; trilogues stalled since October 2025; kept on the 2026 work programme as pending."),
+      latest="The Commission's 2027 work programme (Annex III) lists it for withdrawal within six months: no trilogues since June 2025, and unlikely to find support in Council."),
  dict(id="csar", name="Child Sexual Abuse Regulation (CSAR)", stage="proposed", area="Data & Privacy", row=82, proc="2022/0155(COD)",
       what="Risk assessment and detection obligations for online services to fight child sexual abuse material.",
       track=["May 2022", "Nov 2023", "Nov 2025", "2026", None], target="—",
@@ -95,10 +95,10 @@ F = [
       what="Common information security rules for EU institutions, bodies and agencies.",
       track=["Mar 2022", None, None, None, None], target="—",
       latest="Stalled: Parliament's committee has not yet voted, more than four years after the proposal."),
- dict(id="late-payment", name="Late Payment Regulation", stage="proposed", area="Competition & Single Market", row=104, proc="2023/0323(COD)",
+ dict(id="late-payment", name="Late Payment Regulation", stage="withdrawn", area="Competition & Single Market", row=104, proc="2023/0323(COD)",
       what="A 30-day payment cap for commercial transactions, with enforcement authorities.",
       track=["Sep 2023", "Apr 2024", None, None, None], target="—",
-      latest="Blocked in Council since Parliament's April 2024 position; 2026 reports say the Commission intends to withdraw it."),
+      latest="The Commission's 2027 work programme (Annex III) lists it for withdrawal within six months: blocked in Council since Parliament's April 2024 position, with a sizeable number of member states opposed."),
  dict(id="csa-directive", name="Child Sexual Abuse Directive (recast)", stage="agreed", area="Data & Privacy", row=105, proc="2024/0035(COD)",
       what="Updates criminal-law definitions and penalties, including for AI-generated abuse material and livestreamed abuse.",
       track=["Feb 2024", "", "", "", "Jun 2026"], target="—",
@@ -127,18 +127,26 @@ F = [
       what="First part of the European Product Act: a faster European standardisation system, with common specifications where standards are late.",
       track=["Oct 2026", None, None, None, None], target="Q4 2027",
       latest="Standardisation Regulation proposed on 6 October 2026; the parts on the product framework and market surveillance are still to come."),
- dict(id="smbpa", name="Single Market Barriers Prevention Act", stage="announced", area="Competition & Single Market", proc="Single Market Strategy",
+ dict(id="smbpa", name="Single Market Barriers Prevention Act", stage="announced", area="Competition & Single Market", proc="CWP 2027",
       what="Screens draft national rules to stop new single-market barriers before they are adopted.",
       expected="Q3 2027", target="—",
-      latest="Announced in the Single Market Strategy."),
+      latest="In the 2027 work programme for Q3 2027 (legislative or non-legislative), following the Single Market Strategy."),
  dict(id="avmsd-revision", name="Revision of the Audiovisual Media Services Directive", stage="announced", area="E-commerce & Consumer Protection", row=None, proc="Evaluation",
       what="Scope for influencers, protection of minors on video-sharing platforms, prominence of general-interest content.",
       expected="After the evaluation due 19 Dec 2026", target="—",
       latest="Ex-post evaluation under Article 33 under way; a proposal may follow."),
  dict(id="data-retention", name="EU framework for data retention", stage="announced", area="Data & Privacy", row=None, proc="Impact assessment",
       what="Common rules on which data communication providers must keep for criminal investigations.",
-      expected="Q4 2026", target="—",
-      latest="Commission preparing an impact assessment; consultation held."),
+      expected="2027 (after further assessment)", target="—",
+      latest="The 2027 work programme says the Commission will further assess the impact of data retention rules, with a view to following up next year."),
+ dict(id="digital-transformation-package", name="Digital transformation package, simplification and copyright", stage="announced", area="Industrial Policy", row=None, proc="CWP 2027",
+      what="Review of the Digital Decade targets, further simplification of digital rules, and copyright, including AI's use of protected works.",
+      expected="Q2 2027", target="—",
+      latest="In the 2027 work programme as legislation with an impact assessment; scope not yet published. Copyright consultation open until 10 November 2026."),
+ dict(id="political-ads-review", name="Review of the Political Advertising Regulation", stage="announced", area="E-commerce & Consumer Protection", row=None, proc="CWP 2027",
+      what="A legislative review, with an impact assessment, of the 2024 rules on the transparency and targeting of political advertising.",
+      expected="Not set", target="—",
+      latest="In the 2027 work programme as legislation with an impact assessment; no date given."),
 ]
 # ---------- Parliament and Council data (OEIL procedure files + hand-entered Council steps)
 from forthcoming_procs import PROC, COUNCIL, PREP, OMNIBUS
@@ -219,7 +227,7 @@ def omnibus_html(fid):
   </section>
 '''
 
-STAGE = {"agreed": ("Agreed, awaiting adoption", "#2E7D5B"), "proposed": ("In negotiation", "#B8860B"), "announced": ("Announced", "#6B6B6B")}
+STAGE = {"agreed": ("Agreed, awaiting adoption", "#2E7D5B"), "proposed": ("In negotiation", "#B8860B"), "announced": ("Announced", "#6B6B6B"), "withdrawn": ("Withdrawn", "#9B3B3B")}
 
 
 def track(t, big=False):
@@ -280,7 +288,8 @@ def row(f):
 
 groups = [("agreed", "Agreed, awaiting formal adoption", "Parliament and Council have reached a provisional agreement; the text still needs formal adoption by both.", "agreed", "#F3F1EC", "#2E7D5B"),
           ("proposed", "In negotiation", "Proposed by the Commission and being negotiated by Parliament and Council.", "negotiation", "#FFFFFF", "#B8860B"),
-          ("announced", "Announced", "In the Commission work programme or the One Europe, One Market roadmap, but not yet proposed.", "announced", "#F3F1EC", "#6B6B6B")]
+          ("announced", "Announced", "In the Commission work programme or the One Europe, One Market roadmap, but not yet proposed.", "announced", "#F3F1EC", "#6B6B6B"),
+          ("withdrawn", "Withdrawn", "Proposals the Commission has withdrawn or listed for withdrawal. Not counted among the initiatives above.", "withdrawn", "#FFFFFF", "#9B3B3B")]
 cnt = {k: sum(f["stage"] == k for f in F) for k, *_ in groups}
 stat = "".join(f'<a href="#{anc}" style="display: flex; flex-direction: column; gap: 4px; padding: 18px 20px; border: 1px solid #E8E6E3; border-top: 4px solid {col}; border-radius: 12px; background: #FFFFFF; min-width: 200px; text-decoration: none; color: #282424">'
                f'<span class="num">{cnt[k]}</span><span class="cap">{t.lower()}</span><span class="cap" style="color: #8F6708; font-weight: 500">See the list ↓</span></a>' for k, t, _, anc, _, col in groups)
@@ -300,7 +309,7 @@ body = f'''
     <div class="wrap" style="display: flex; flex-direction: column; gap: 20px">
       {tabs("Forthcoming.dc.html")}
       <p class="eyebrow">Digital Acquis · Forthcoming</p>
-      <h1 class="h1">{len(F)} digital initiatives not yet adopted</h1>
+      <h1 class="h1">{sum(f["stage"] != "withdrawn" for f in F)} digital initiatives not yet adopted</h1>
       <p class="body">Proposals still being negotiated and initiatives the Commission has announced but not yet proposed, with where each stands and the documents behind it. Targets for agreement are from the One Europe, One Market roadmap (April 2026). Status as of {AS_OF}.</p>
       <div style="display: flex; flex-wrap: wrap; gap: 14px">{stat}</div>
       {legend}
@@ -412,6 +421,9 @@ ROADMAP = ("Apr 2026", "One Europe, One Market roadmap", "Parliament, Council an
 # indicative list of items for Commission meetings (Secretariat-General); ids listed are scheduled in it
 AGENDA = ("Oct 2026", "Indicative Commission agenda, 27 October to 24 November 2026", "SEC(2026) 2581", "https://ec.europa.eu/transparency/documents-register/detail?ref=SEC(2026)2581&lang=en")
 ON_AGENDA = {"digital-fairness-act", "cpc-review", "quantum-act"}
+# Commission work programme 2027: adoption due 4 November 2026. Check the reference and link against the adopted text.
+CWP27 = ("Nov 2026", "Commission work programme 2027", "COM(2026) 710", EUR("52026DC0710"))
+PLAN = {"smbpa": [CWP27, ROADMAP], "data-retention": [CWP27]}
 OEIL_OK = lambda pr: bool(re.match(r"\d{4}/\d{4}\(COD\)", pr or ""))
 for f in F:
     if f.get("row") or f["id"] in ("digital-networks-act", "digital-fairness-act"):
@@ -423,8 +435,8 @@ for f in F:
     chg = [(n, how, ACT(r)) for n, how, r in d["changes"]] or [("No law in the current Digital Acquis", "a new instrument", "Instruments.dc.html")]
     if f["stage"] == "announced":
         prep = [("", t if t != "Official source" else "Commission page on the initiative", "Commission", u) for t, u in links] + PREP.get(f["id"], [])
-        docs = [("Preparatory work and consultations", prep or [("", "No preparatory documents published yet", "", "")]), ("Planning", [CWP26, ROADMAP] + ([AGENDA] if f["id"] in ON_AGENDA else []))]
-        sub = [("Announced in", "Work programme 2026" if f["proc"] == "CWP 2026" else f["proc"]), ("Proposal expected", f["expected"]), ("Target for agreement", f["target"] if f["target"] != "—" else "not set")]
+        docs = [("Preparatory work and consultations", prep or [("", "No preparatory documents published yet", "", "")]), ("Planning", PLAN.get(f["id"]) or ([CWP27] if f["proc"] == "CWP 2027" else [CWP26, ROADMAP] + ([AGENDA] if f["id"] in ON_AGENDA else [])))]
+        sub = [("Announced in", {"CWP 2026": "Work programme 2026", "CWP 2027": "Work programme 2027"}.get(f["proc"], f["proc"])), ("Proposal expected", f["expected"]), ("Target for agreement", f["target"] if f["target"] != "—" else "not set")]
         fpage(f, sub, d["intro"], d["does"], chg, docs, "Preparatory studies and consultations",
               "Until the proposal is published there is no impact assessment; these are the documents it will build on.")
     else:
@@ -461,5 +473,5 @@ json.dump([dict(id=f["id"], name=f["name"], stage=f["stage"], law_id=f.get("row"
                 **({k: (v if v is not None else "") for k, v in zip(STEP_KEYS, f["track"])} if f.get("track") else {k: "" for k in STEP_KEYS}),
                 expected_proposal=f.get("expected", ""), target_for_agreement=f["target"], latest=f["latest"], page=page_of(f)) for f in F],
           open("forthcoming_list.json", "w"), indent=1, ensure_ascii=False)
-json.dump({str(f["row"]): f["stage"] if f["stage"] == "agreed" else "proposed" for f in F if f.get("row")}, open("forthcoming_status.json", "w"), indent=1)
+json.dump({str(f["row"]): f["stage"] if f["stage"] in ("agreed", "withdrawn") else "proposed" for f in F if f.get("row")}, open("forthcoming_status.json", "w"), indent=1)
 print("ok", len(F), "Fc pages:", sum(1 for f in F if not f.get("row")), "status blocks:", len(STAND))

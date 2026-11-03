@@ -78,7 +78,7 @@ for i, e in enumerate(ERAS):
         fl.append(f'<a href="{PAGES[o["row_id"]]}">{esc(f)}</a> <span class="cap">({when})</span>')
     flags = f'<p class="body" style="font-size: 15px">Flagships: {" · ".join(fl)} · <a href="Instruments.dc.html">See all {n} →</a></p>' if fl else ""
     if e["id"] == "competitiveness":
-        mine = [f for f in FC if f["stage"] == "announced" or int(f["proposal"][-4:]) >= 2025]
+        mine = [f for f in FC if f["stage"] != "withdrawn" and (f["stage"] == "announced" or int(f["proposal"][-4:]) >= 2025)]
         page = lambda f: f["page"]
         grp = [("agreed", "Agreed, awaiting adoption"), ("proposed", "In negotiation"), ("announced", "Announced")]
         stats = ("<strong style=\"font-weight: 600\">No law proposed in this era has been adopted yet</strong> · "

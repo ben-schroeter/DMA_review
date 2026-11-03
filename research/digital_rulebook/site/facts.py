@@ -51,7 +51,9 @@ RS = json.load(open("data/rules_standards/summary.json"))
 put("rs_main_n", RS["main_all"]["n"]); put("rs_secondary_n", RS["secondary_all"]["n"])
 put("rs_total_k", RS["main_all"]["n"] + RS["secondary_all"]["n"], k100(RS["main_all"]["n"] + RS["secondary_all"]["n"]))
 # pending initiatives
-P = json.load(open("site/forthcoming_list.json"))
+P_ALL = json.load(open("site/forthcoming_list.json"))
+P = [x for x in P_ALL if x["stage"] != "withdrawn"]
+put("forthcoming_withdrawn", sum(x["stage"] == "withdrawn" for x in P_ALL))
 c = collections.Counter(x["stage"] for x in P)
 put("forthcoming_total", len(P)); put("forthcoming_agreed", c["agreed"]); put("forthcoming_negotiation", c["proposed"]); put("forthcoming_announced", c["announced"])
 # evidence map: laws with after-the-fact evidence / with a causal study, per kind of effect (Evidence page table)

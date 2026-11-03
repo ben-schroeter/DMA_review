@@ -14,7 +14,7 @@
     },
     "Data.dc.html": {
       "expand": "fill",
-      "h": 1514,
+      "h": 1534,
       "is_interactive": true,
       "title": "Data: downloads",
       "w": 1440,
@@ -160,7 +160,7 @@
     },
     "DigitalPolicy.dc.html": {
       "expand": "fill",
-      "h": 7899,
+      "h": 7920,
       "is_interactive": true,
       "title": "Digital Acquis: digital policy",
       "w": 1440,
@@ -257,7 +257,7 @@
     },
     "Act-artificial-intelligence-act.dc.html": {
       "expand": "fill",
-      "h": 4670,
+      "h": 4746,
       "is_interactive": true,
       "title": "Instrument: Artificial Intelligence Act",
       "w": 1440,
@@ -387,7 +387,7 @@
     },
     "Act-cyber-resilience-act.dc.html": {
       "expand": "fill",
-      "h": 4677,
+      "h": 4754,
       "is_interactive": true,
       "title": "Instrument: Cyber Resilience Act",
       "w": 1440,
@@ -597,7 +597,7 @@
     },
     "Act-ecodesign-for-sustainable-products-regulation.dc.html": {
       "expand": "fill",
-      "h": 4289,
+      "h": 4366,
       "is_interactive": true,
       "title": "Instrument: Ecodesign for Sustainable Products Regulation",
       "w": 1440,
@@ -757,7 +757,7 @@
     },
     "Act-financial-data-access-regulation-fida.dc.html": {
       "expand": "fill",
-      "h": 4024,
+      "h": 4044,
       "is_interactive": true,
       "title": "Instrument: Financial Data Access Regulation (FiDA)",
       "w": 1440,
@@ -937,7 +937,7 @@
     },
     "Act-late-payment-regulation.dc.html": {
       "expand": "fill",
-      "h": 4085,
+      "h": 4106,
       "is_interactive": true,
       "title": "Instrument: Late Payment Regulation",
       "w": 1440,
@@ -977,7 +977,7 @@
     },
     "Act-markets-in-crypto-assets-mica.dc.html": {
       "expand": "fill",
-      "h": 4760,
+      "h": 4836,
       "is_interactive": true,
       "title": "Instrument: Markets in Crypto-Assets (MiCA)",
       "w": 1440,
@@ -1217,7 +1217,7 @@
     },
     "Act-single-digital-gateway-regulation.dc.html": {
       "expand": "fill",
-      "h": 4939,
+      "h": 5245,
       "is_interactive": true,
       "title": "Instrument: Single Digital Gateway Regulation",
       "w": 1440,
@@ -1377,7 +1377,7 @@
     },
     "Forthcoming.dc.html": {
       "expand": "fill",
-      "h": 6387,
+      "h": 7022,
       "is_interactive": true,
       "title": "Digital Acquis: forthcoming",
       "w": 1440,
@@ -1457,7 +1457,7 @@
     },
     "Fc-data-retention.dc.html": {
       "expand": "fill",
-      "h": 1518,
+      "h": 1487,
       "is_interactive": true,
       "title": "Forthcoming: EU framework for data retention",
       "w": 1440,
@@ -1577,7 +1577,7 @@
     },
     "Fc-smbpa.dc.html": {
       "expand": "fill",
-      "h": 1518,
+      "h": 1545,
       "is_interactive": true,
       "title": "Forthcoming: Single Market Barriers Prevention Act",
       "w": 1440,
@@ -1592,6 +1592,26 @@
       "title": "Forthcoming: EU KIDS Act",
       "w": 1440,
       "x": 0,
+      "y": 4400,
+      "page": "forthcoming"
+    },
+    "Fc-digital-transformation-package.dc.html": {
+      "expand": "fill",
+      "h": 1699,
+      "is_interactive": true,
+      "title": "Forthcoming: Digital transformation package, simplification and copyright",
+      "w": 1440,
+      "x": 1520,
+      "y": 4400,
+      "page": "forthcoming"
+    },
+    "Fc-political-ads-review.dc.html": {
+      "expand": "fill",
+      "h": 1427,
+      "is_interactive": true,
+      "title": "Forthcoming: Review of the Political Advertising Regulation",
+      "w": 1440,
+      "x": 3040,
       "y": 4400,
       "page": "forthcoming"
     }
@@ -1766,7 +1786,9 @@
     "Fc-quantum-act.dc.html",
     "Fc-single-digital-booking.dc.html",
     "Fc-smbpa.dc.html",
-    "Fc-eu-kids-act.dc.html"
+    "Fc-eu-kids-act.dc.html",
+    "Fc-digital-transformation-package.dc.html",
+    "Fc-political-ads-review.dc.html"
   ],
   "pages": [
     {

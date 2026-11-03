@@ -257,7 +257,7 @@
  {
   "id": "fida",
   "name": "Financial Data Access Regulation (FiDA)",
-  "stage": "proposed",
+  "stage": "withdrawn",
   "law_id": 98,
   "policy_area": "Finance",
   "procedure": "2023/0205(COD)",
@@ -268,7 +268,7 @@
   "agreement": "",
   "expected_proposal": "",
   "target_for_agreement": "—",
-  "latest": "Parliament has had its mandate since December 2024; trilogues stalled since October 2025; kept on the 2026 work programme as pending.",
+  "latest": "The Commission's 2027 work programme (Annex III) lists it for withdrawal within six months: no trilogues since June 2025, and unlikely to find support in Council.",
   "page": "Act-financial-data-access-regulation-fida.dc.html"
  },
  {
@@ -342,7 +342,7 @@
  {
   "id": "late-payment",
   "name": "Late Payment Regulation",
-  "stage": "proposed",
+  "stage": "withdrawn",
   "law_id": 104,
   "policy_area": "Competition & Single Market",
   "procedure": "2023/0323(COD)",
@@ -353,7 +353,7 @@
   "agreement": "",
   "expected_proposal": "",
   "target_for_agreement": "—",
-  "latest": "Blocked in Council since Parliament's April 2024 position; 2026 reports say the Commission intends to withdraw it.",
+  "latest": "The Commission's 2027 work programme (Annex III) lists it for withdrawal within six months: blocked in Council since Parliament's April 2024 position, with a sizeable number of member states opposed.",
   "page": "Act-late-payment-regulation.dc.html"
  },
  {
@@ -481,7 +481,7 @@
   "stage": "announced",
   "law_id": null,
   "policy_area": "Competition & Single Market",
-  "procedure": "Single Market Strategy",
+  "procedure": "CWP 2027",
   "proposal": "",
   "parliament_position": "",
   "council_position": "",
@@ -489,7 +489,7 @@
   "agreement": "",
   "expected_proposal": "Q3 2027",
   "target_for_agreement": "—",
-  "latest": "Announced in the Single Market Strategy.",
+  "latest": "In the 2027 work programme for Q3 2027 (legislative or non-legislative), following the Single Market Strategy.",
   "page": "Fc-smbpa.dc.html"
  },
  {
@@ -521,9 +521,43 @@
   "council_position": "",
   "trilogues": "",
   "agreement": "",
-  "expected_proposal": "Q4 2026",
+  "expected_proposal": "2027 (after further assessment)",
   "target_for_agreement": "—",
-  "latest": "Commission preparing an impact assessment; consultation held.",
+  "latest": "The 2027 work programme says the Commission will further assess the impact of data retention rules, with a view to following up next year.",
   "page": "Fc-data-retention.dc.html"
+ },
+ {
+  "id": "digital-transformation-package",
+  "name": "Digital transformation package, simplification and copyright",
+  "stage": "announced",
+  "law_id": null,
+  "policy_area": "Industrial Policy",
+  "procedure": "CWP 2027",
+  "proposal": "",
+  "parliament_position": "",
+  "council_position": "",
+  "trilogues": "",
+  "agreement": "",
+  "expected_proposal": "Q2 2027",
+  "target_for_agreement": "—",
+  "latest": "In the 2027 work programme as legislation with an impact assessment; scope not yet published. Copyright consultation open until 10 November 2026.",
+  "page": "Fc-digital-transformation-package.dc.html"
+ },
+ {
+  "id": "political-ads-review",
+  "name": "Review of the Political Advertising Regulation",
+  "stage": "announced",
+  "law_id": null,
+  "policy_area": "E-commerce & Consumer Protection",
+  "procedure": "CWP 2027",
+  "proposal": "",
+  "parliament_position": "",
+  "council_position": "",
+  "trilogues": "",
+  "agreement": "",
+  "expected_proposal": "Not set",
+  "target_for_agreement": "—",
+  "latest": "In the 2027 work programme as legislation with an impact assessment; no date given.",
+  "page": "Fc-political-ads-review.dc.html"
  }
 ]
