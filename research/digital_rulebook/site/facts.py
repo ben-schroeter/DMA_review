@@ -33,6 +33,7 @@ L = json.load(open("site/studies_data.json"))["L"]
 tags = collections.Counter(t for x in L for t in str(x[-1]).split())
 put("studies_evidence", tags["ev"]); put("studies_causal", tags["causal"]); put("impact_assessments", tags["ia"]); put("studies_review", tags["review"])
 put("sources_total", tags["ev"] + tags["ia"])
+put("studies_econ", tags["econ"]); put("studies_withdrawn", tags["wd"])
 krs = [p for p in PI if p["indicator / promised impact"] and p["parent_row_id"] in Aid]
 sg = collections.Counter(p["status_group"] for p in krs)
 put("objectives", len(krs))

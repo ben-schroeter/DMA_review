@@ -50,10 +50,19 @@ for c, r in sorted(inst.items(), key=lambda x: x[1]["row_id"]):
             continue
         L.append([r["name"], short(l.get("authors")), l.get("year"), l.get("title") or l.get("citation"), l.get("method"), l.get("direction") or "",
                   l.get("headline") or l.get("summary_plain") or "", l.get("url") or l.get("pdf_url") or "", l.get("interested_party", "") or "", l.get("source_class", "") or "other", " ".join(tags)])
+# Withdrawn proposals: their impact assessments and studies, in a collection of their own ("wd"), kept out of the counts above
+WD = {"fida": "52023PC0360", "late-payment": "52023PC0533", "digital-services-tax": "52018PC0148", "significant-digital-presence": "52018PC0147",
+      "vat-imported-distance-sales": "52023PC0262"}
+for f in json.load(open("site/forthcoming_list.json")):
+    c = WD.get(f["id"])
+    if f["stage"] != "withdrawn" or not c or not os.path.exists(f"data/impact/{c}.json"): continue
+    for l in sorted(json.load(open(f"data/impact/{c}.json"))["literature"], key=lambda l: -(l.get("year") or 0)):
+        L.append([{"vat-imported-distance-sales": "VAT on imported distance sales", "significant-digital-presence": "Significant digital presence"}.get(f["id"], f["name"]) + " (withdrawn)", short(l.get("authors")), l.get("year"), l.get("title") or l.get("citation"), l.get("method"), l.get("direction") or "",
+                  l.get("headline") or l.get("summary_plain") or "", l.get("url") or l.get("pdf_url") or "", l.get("interested_party", "") or "", l.get("source_class", "") or "other", "wd"])
 for e in json.load(open("data/literature/regulation_economics.json")):
     L.append(["Economics of regulation", short(e.get("authors")), e.get("year"), e.get("title"), e.get("method") or e.get("type"), "",
               e.get("finding") or e.get("summary_plain") or "", e.get("url") or e.get("pdf_url") or "", e.get("interested_party", "") or "", "academic" if "empirical" in (e.get("type") or "") or e.get("type") == "theory" else "other", "econ"])
 out["L"] = L
-out["collections"] = {k: sum(1 for x in L if k in x[10].split()) for k in ("ev", "causal", "review", "ia", "econ")}
+out["collections"] = {k: sum(1 for x in L if k in x[10].split()) for k in ("ev", "causal", "review", "ia", "econ", "wd")}
 json.dump(out, open("site/studies_data.json", "w"), ensure_ascii=False)
 print(out["collections"])
