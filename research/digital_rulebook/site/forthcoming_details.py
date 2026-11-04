@@ -179,10 +179,10 @@ D = {
     expected="Q2 2027"),
  "political-ads-review": dict(
     intro="A review of the 2024 Regulation on the transparency and targeting of political advertising, whose rules apply since October 2025.",
-    does=["Review of the transparency and targeting rules for political advertising.",
-          "Legislative changes, subject to an impact assessment."],
+    does=["Review of how the transparency and targeting rules work and their effect on democratic engagement.",
+          "Legislative or non-legislative follow-up."],
     changes=[("Political Advertising Regulation", "to be reviewed", 71)],
-    latest="Listed in the 2027 work programme as legislation with an impact assessment, with no date given. Google and Meta stopped running political ads in the EU in response to the Regulation.",
+    latest="Listed in the 2027 work programme as a legislative or non-legislative initiative, with no date given; the Commission is consulting stakeholders on the Regulation. Google and Meta stopped running political ads in the EU in response to the Regulation.",
     expected="Not set"),
  "digital-services-tax": dict(
     intro="Proposed in March 2018 as an interim measure until a global solution on taxing the digital economy: a 3% tax on revenues from selling online advertising, from digital platforms that let users interact and trade, and from selling user data, for companies above global and EU revenue thresholds.",
@@ -190,7 +190,7 @@ D = {
           "Only for companies with worldwide revenues above EUR 750 million and EU digital revenues above EUR 50 million.",
           "Collected through a one-stop shop in one member state."],
     changes=[],
-    latest="Parliament gave its opinion in December 2018, but member states could not agree unanimously; the file has not been discussed in Council since 2019. The Commission's 2027 work programme lists it for withdrawal within six months.",
+    latest="Parliament gave its opinion in December 2018, but member states could not agree unanimously; the file has not been discussed in Council since 2019. Unlike the companion proposal on a significant digital presence, the Commission's 2027 work programme does not list it for withdrawal.",
     date="Mar 2018", ref="COM(2018) 148", eurlex="52018PC0148",
     ep=[("Dec 2018", "Parliament opinion (consultation)", "T8-0523/2018", "https://www.europarl.europa.eu/doceo/document/TA-8-2018-0523_EN.html")]),
  "significant-digital-presence": dict(
@@ -205,8 +205,8 @@ D = {
     intro="The part of a 2023 VAT proposal still pending after the rest was adopted: rules for online platforms that facilitate distance sales of goods imported from outside the EU, and special arrangements for declaring and paying import VAT.",
     does=["VAT rules for taxable persons, such as online platforms, that facilitate distance sales of imported goods.",
           "Changes to the special scheme for distance sales of imported goods and to the arrangements for import VAT."],
-    changes=[("Common VAT system Directive", "would have been amended", 14)],
-    latest="Parliament gave its opinion in November 2023 and again in July 2025 after being reconsulted. Part of the proposal has been adopted; the Commission's 2027 work programme lists the remaining part for withdrawal within six months unless the current Council discussions succeed.",
+    changes=[("Common VAT system Directive", "would be amended", 14)],
+    latest="Parliament gave its opinion in November 2023 and again in July 2025 after being reconsulted. Part of the proposal has been adopted; Council discussions on the remaining part continue, and the Commission's 2027 work programme does not list it for withdrawal.",
     date="May 2023", ref="COM(2023) 262", eurlex="52023PC0262",
     ep=[("Nov 2023", "Parliament opinion (consultation)", "T9-0423/2023", "https://www.europarl.europa.eu/doceo/document/TA-9-2023-0423_EN.html"),
         ("Jul 2025", "Parliament opinion on reconsultation", "T10-0144/2025", "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0144_EN.html")]),

@@ -95,18 +95,18 @@ F = [
       what="Common information security rules for EU institutions, bodies and agencies.",
       track=["Mar 2022", None, None, None, None], target="—",
       latest="Stalled: Parliament's committee has not yet voted, more than four years after the proposal."),
- dict(id="digital-services-tax", name="Digital services tax", stage="withdrawn", area="Finance", row=None, proc="2018/0073(CNS)",
+ dict(id="digital-services-tax", name="Digital services tax", stage="proposed", area="Finance", row=None, proc="2018/0073(CNS)",
       what="An interim 3% tax on revenues from online advertising, digital intermediation and the sale of user data, for large digital companies.",
       track=["Mar 2018", "Dec 2018", None, None, None], target="—",
-      latest="The Commission's 2027 work programme (Annex III) lists it for withdrawal within six months: pending in Council for more than eight years, last discussed in 2019; tax rules need unanimity."),
+      latest="Stalled: pending in Council since 2018, not discussed there since 2019; tax rules need unanimity. Unlike the companion proposal on a significant digital presence, the 2027 work programme does not list it for withdrawal."),
  dict(id="significant-digital-presence", name="Corporate taxation of a significant digital presence", stage="withdrawn", area="Finance", row=None, proc="2018/0072(CNS)",
       what="The long-term reform: a taxable digital presence for companies with large online revenues or user numbers in a member state, without a physical presence.",
       track=["Mar 2018", "Dec 2018", None, None, None], target="—",
       latest="The Commission's 2027 work programme (Annex III) lists it for withdrawal within six months: pending in Council for more than eight years, last discussed in 2019; tax rules need unanimity."),
- dict(id="vat-imported-distance-sales", name="VAT on platforms facilitating distance sales of imported goods (remaining part)", stage="withdrawn", area="Finance", row=None, proc="2023/0158(CNS)",
+ dict(id="vat-imported-distance-sales", name="VAT on platforms facilitating distance sales of imported goods (remaining part)", stage="proposed", area="Finance", row=None, proc="2023/0158(CNS)",
       what="VAT rules for online platforms that facilitate distance sales of imported goods, and special arrangements for declaring and paying import VAT.",
       track=["May 2023", "Nov 2023", None, None, None], target="—",
-      latest="The Commission's 2027 work programme (Annex III) lists it for withdrawal within six months unless the current Council talks succeed: part of the proposal has been adopted, with no agreement on the rest."),
+      latest="Part of the proposal has been adopted; Council talks on the rest continue. The 2027 work programme does not list it for withdrawal."),
  dict(id="late-payment", name="Late Payment Regulation", stage="withdrawn", area="Competition & Single Market", row=104, proc="2023/0323(COD)",
       what="A 30-day payment cap for commercial transactions, with enforcement authorities.",
       track=["Sep 2023", "Apr 2024", None, None, None], target="—",
@@ -156,9 +156,9 @@ F = [
       expected="Q2 2027", target="—",
       latest="In the 2027 work programme as legislation with an impact assessment; scope not yet published. Copyright consultation open until 10 November 2026."),
  dict(id="political-ads-review", name="Review of the Political Advertising Regulation", stage="announced", area="E-commerce & Consumer Protection", row=None, proc="CWP 2027",
-      what="A legislative review, with an impact assessment, of the 2024 rules on the transparency and targeting of political advertising.",
+      what="A review, legislative or not, of the 2024 rules on the transparency and targeting of political advertising.",
       expected="Not set", target="—",
-      latest="In the 2027 work programme as legislation with an impact assessment; no date given."),
+      latest="In the 2027 work programme as a legislative or non-legislative initiative, with no date given; the Commission is consulting stakeholders on the Regulation."),
 ]
 # ---------- Parliament and Council data (OEIL procedure files + hand-entered Council steps)
 from forthcoming_procs import PROC, COUNCIL, PREP, OMNIBUS, REC
@@ -527,6 +527,7 @@ for f in F:
         com += [("", t, "Commission", u) for t, u in links[1:]]
         wd = f["stage"] == "withdrawn"
         docs = ([("Commission", com), ("European Parliament", d["ep"]), ("Withdrawal", [CWP27])] if wd else
+                [("Commission", com), ("European Parliament", d["ep"]), ("Council", [("", "No agreement; tax rules need unanimity", "", "")])] if d.get("ep") else   # stalled consultation-procedure files
                 [("Commission", com), ("European Parliament", parl_docs(f["id"]) or [("", "Not yet referred to a committee", "", "")]), ("Council", council_docs(f["id"])), ("Planning", [ROADMAP])])
         if wd and not d["changes"]:
             chg = [("No law in the current Digital Acquis", "would have been a new instrument", "Instruments.dc.html")]
