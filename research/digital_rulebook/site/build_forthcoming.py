@@ -478,7 +478,7 @@ fpage(dna, None,
 
 dfa = next(f for f in F if f["id"] == "digital-fairness-act")
 dfa["chips"] = ["Likely a regulation or amending directive"]
-dfa["latest_long"] = ("The Commission's public consultation and call for evidence ran from 17 July to 24 October 2025 and drew over 4,000 replies; a factual summary was published in December 2025. "
+dfa["latest_long"] = ("The Commission's public consultation and call for evidence ran from 17 July to 24 October 2025 and drew 3,341 consultation replies and 4,325 responses to the call for evidence; the factual summary report followed in December 2025. "
                       "The proposal is in the 2026 work programme for the fourth quarter of 2026, and the Commission's indicative agenda of 20 October 2026 schedules it for 11 November 2026, in a consumer package with a consumer enforcement initiative. No impact assessment has been published yet.")
 fpage(dfa, [("Announced in", "Work programme 2026"), ("Consultation", "Jul – Oct 2025"), ("Proposal expected", "11 Nov 2026 (indicative)")],
       "Planned consumer rules for online practices the current law handles poorly: dark patterns, addictive design, unfair personalisation, influencer marketing and subscription traps.",
@@ -491,7 +491,7 @@ fpage(dfa, [("Announced in", "Work programme 2026"), ("Consultation", "Jul – O
       [("Preparatory work", [("Oct 2024", "Fitness check of EU consumer law on digital fairness", "SWD(2024) 230", "https://commission.europa.eu/law/law-topic/consumer-protection-law/review-eu-consumer-law_en"),
                              ("Oct 2026", "Towards a digital fairness act", "EPRS briefing", "https://eprs.europarl.europa.eu/contents/publications/EPRS/2026/10/EPRS_BRI(2026)791529.html")]),
        ("Consultation", [("Jul 2025", "Public consultation and call for evidence", "closed 24 Oct 2025", "https://digital-strategy.ec.europa.eu/en/consultations/commission-launches-open-consultation-forthcoming-digital-fairness-act"),
-                         ("Dec 2025", "Factual summary report of the consultation", "Commission", "")]),
+                         ("Dec 2025", "Factual summary report of the consultation", "Ares(2025)11521347", "https://ec.europa.eu/info/law/better-regulation/api/download/090166e526fb7c7d")]),
        ("Planning", [("Oct 2025", "Commission work programme 2026", "COM(2025) 870", EUR("52025DC0870")),
                      ("Oct 2026", "Indicative Commission agenda, 27 October to 24 November 2026", "SEC(2026) 2581", "https://ec.europa.eu/transparency/documents-register/detail?ref=SEC(2026)2581&lang=en")])],
       "Preparatory studies and consultations", "Until the proposal is published there is no impact assessment; these are the studies and consultations it will build on.")
