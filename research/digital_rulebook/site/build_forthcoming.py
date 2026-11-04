@@ -504,8 +504,8 @@ ROADMAP = ("Apr 2026", "One Europe, One Market roadmap", "Parliament, Council an
 # indicative list of items for Commission meetings (Secretariat-General); ids listed are scheduled in it
 AGENDA = ("Oct 2026", "Indicative Commission agenda, 27 October to 24 November 2026", "SEC(2026) 2581", "https://ec.europa.eu/transparency/documents-register/detail?ref=SEC(2026)2581&lang=en")
 ON_AGENDA = {"digital-fairness-act", "cpc-review", "quantum-act"}
-# Commission work programme 2027: adoption due 4 November 2026. Check the reference and link against the adopted text.
-CWP27 = ("Nov 2026", "Commission work programme 2027", "COM(2026) 710", EUR("52026DC0710"))
+# Commission work programme 2027, adopted 4 November 2026 (register entry; EUR-Lex had no CELEX yet on adoption day)
+CWP27 = ("Nov 2026", "Commission work programme 2027", "COM(2026) 710", "https://ec.europa.eu/transparency/documents-register/detail?ref=COM(2026)710&lang=en")
 PLAN = {"smbpa": [CWP27, ROADMAP], "data-retention": [CWP27]}
 OEIL_OK = lambda pr: bool(re.match(r"\d{4}/\d{4}\(COD\)", pr or ""))
 for f in F:
@@ -566,3 +566,25 @@ json.dump([dict(id=f["id"], name=f["name"], stage=f["stage"], law_id=f.get("row"
           open("forthcoming_list.json", "w"), indent=1, ensure_ascii=False)
 json.dump({str(f["row"]): f["stage"] if f["stage"] in ("agreed", "withdrawn") else "proposed" for f in F if f.get("row")}, open("forthcoming_status.json", "w"), indent=1)
 print("ok", len(F), "Fc pages:", sum(1 for f in F if not f.get("row")), "status blocks:", len(STAND))
+
+# front page, "The latest proposals": the next announced initiatives, by expected date (filled between markers in Main)
+MON = {m: i for i, m in enumerate(["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], 1)}
+def due(f):
+    e = (f.get("expected") or "").split(" (")[0].strip()
+    if m := re.fullmatch(r"(\d{1,2}) (\w{3}) (\d{4})", e): return (int(m[3]), MON[m[2]], int(m[1])), e
+    if m := re.fullmatch(r"Q([1-4]) (\d{4})", e): return (int(m[2]), 3 * int(m[1]), 31), e
+    return None, e
+LATEST_N = 6
+nxt = sorted(((due(f)[0], due(f)[1], f) for f in F if f["stage"] == "announced" and due(f)[0]), key=lambda x: x[0])[:LATEST_N]
+cards = "".join(f'<a href="{page_of(f)}" style="display: flex; flex-direction: column; gap: 6px; padding: 18px 20px; border: 1px solid #E8E6E3; border-radius: 12px; background: #FFFFFF; text-decoration: none">'
+                f'<span class="eyebrow" style="font-size: 12px">Expected {lab} · announced</span>'
+                f'<span style="font-family: \'Source Serif 4\', Georgia, serif; font-size: 20px; line-height: 1.25">{html.escape(f["name"].split(" (")[0])}</span>'
+                f'<span class="cap">{html.escape(f["what"], quote=False)}</span></a>' for _, lab, f in nxt)
+latest = ('<!-- LATEST-PROPOSALS -->\n        <p class="body" style="font-size: 16px">The next initiatives the Commission has announced, in order of expected date. '
+          'Click on the links to find out more about each one.</p>\n'
+          f'        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px">{cards}</div>\n<!-- /LATEST-PROPOSALS -->')
+mp = f"{OUT}/Main.dc.html"; ms = open(mp).read()
+ms2 = re.sub(r"<!-- LATEST-PROPOSALS -->.*?<!-- /LATEST-PROPOSALS -->", lambda m: latest, ms, flags=re.S)
+assert ms2 != ms or latest in ms, "LATEST-PROPOSALS markers missing in Main"
+open(mp, "w").write(ms2)
+print("latest proposals on Main:", [f["id"] for _, _, f in nxt])

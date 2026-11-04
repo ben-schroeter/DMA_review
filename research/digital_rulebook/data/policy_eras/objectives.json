@@ -6,7 +6,8 @@
   "sdd2026": ["State of the Digital Decade 2026", "https://digital-strategy.ec.europa.eu/en/policies/2026-state-digital-decade-package"],
   "scoreboard2015": ["Digital Agenda Scoreboard 2015", "https://digital-strategy.ec.europa.eu/en/news/digital-agenda-scoreboard-2015-most-targets-reached-time-has-come-lift-digital-borders"],
   "simplification": ["Commission, Simplification", "https://commission.europa.eu/law/law-making-process/better-regulation/simplification-implementation-and-enforcement/simplification_en"],
-  "oeom": ["One Europe, One Market roadmap", "https://commission.europa.eu/topics/competitiveness/one-europe-one-market-roadmap_en"]},
+  "oeom": ["One Europe, One Market roadmap", "https://commission.europa.eu/topics/competitiveness/one-europe-one-market-roadmap_en"],
+  "cwp27": ["Commission work programme 2027", "https://ec.europa.eu/transparency/documents-register/detail?ref=COM(2026)710&lang=en"]},
  "items": [
   {"era": "market_opening", "objective": "Open telecoms to competition", "target": "Full liberalisation of voice telephony and networks", "deadline": "1998", "result": "Done in most member states on 1 January 1998; transition periods for a few", "status": "met", "src": null},
   {"era": "market_opening", "objective": "An information society led by private investment", "target": "No quantified target (Bangemann report)", "deadline": "", "result": "", "status": "not measurable", "src": null},
@@ -44,6 +45,6 @@
   {"era": "digital_decade", "objective": "Public services", "target": "Key public services fully online", "deadline": "2030", "result": "Score 82.3/100 for citizens, 86.2/100 for businesses (2024)", "status": "on track", "src": "sdd2025"},
   {"era": "digital_decade", "objective": "", "target": "Online access to electronic health records for all", "deadline": "2030", "result": "Score 82.7/100 (2024)", "status": "on track", "src": "sdd2025"},
   {"era": "digital_decade", "objective": "", "target": "80% of citizens using a digital ID", "deadline": "2030", "result": "95% have access to a notified eID (2025); use not reported", "status": "not measurable", "src": "sdd2025"},
-  {"era": "competitiveness", "objective": "Simplification", "target": "Cut recurring administrative costs by €37.5 billion (25%; 35% for SMEs)", "deadline": "2029", "result": "About €18 billion a year in proposals by mid-2026, most not yet adopted", "status": "too early", "src": "simplification"},
+  {"era": "competitiveness", "objective": "Simplification", "target": "Cut recurring administrative costs by €37.5 billion (25%; 35% for SMEs)", "deadline": "2029", "result": "12 omnibus packages proposed, up to €22.3 billion a year; most not yet adopted", "status": "too early", "src": "cwp27"},
   {"era": "competitiveness", "objective": "One Europe, One Market", "target": "Agree the roadmap's 42 initiatives", "deadline": "end-2027", "result": "Quarterly progress reports; first on 18 June 2026", "status": "too early", "src": "oeom"}
  ]}
