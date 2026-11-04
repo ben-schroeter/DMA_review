@@ -412,11 +412,11 @@
   "type": "empirical-descriptive",
   "geography_period": "United States, 2002-2014",
   "method": "Establishment-level occupation data combined with occupation task content to estimate wage bill spent on compliance; IV to separate requirements from enforcement",
-  "finding": "Compliance labour costs average 1.34% of a firm's wage bill, rising over time; the share follows an inverted U by size, peaking around 500 employees.",
+  "finding": "Compliance labour costs average 1.34% of a firm's wage bill on the conservative measure (3.33% with a broad definition including tax compliance), growing about 1% a year in 2002-14; the share follows an inverted U by size, peaking around 500 employees.",
   "summary_plain": "US firms spend on average about 1.3% of their payroll on staff whose work is complying with rules. Mid-sized firms bear the highest share, not the smallest or largest.",
   "relevance": "Gives a measured order of magnitude for compliance costs and suggests burdens fall hardest on mid-sized 'scale-ups', where EU digital firms often struggle.",
   "caveats": "Counts only labour compliance costs, not capital, external advisers or forgone activity; working paper.",
-  "verified": "abstract read",
+  "verified": "full text read",
   "interested_party": "",
   "themes": [
    "firms: size, entry, compliance costs and jobs"
