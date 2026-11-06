@@ -127,14 +127,14 @@ D = {
     latest="The Commission has evaluated the rules and consulted; the proposal, first planned for Q3 2026, is now expected in Q2 2027.",
     expected="Q2 2027"),
  "avmsd-revision": dict(
-    intro="A possible revision of the Audiovisual Media Services Directive after its evaluation, covering influencers, video-sharing platforms and the prominence of public-interest content.",
+    intro="A planned update of the Audiovisual Media Services Directive, prepared together with its evaluation, covering influencers, video-sharing platforms and the prominence of public-interest content.",
     does=["Clarify whether influencers and professional creators fall under the Directive.",
           "Stronger protection of minors on video-sharing platforms.",
           "Prominence of general-interest content and access to major events.",
           "Better fit with the DSA and the European Media Freedom Act."],
     changes=[("Audiovisual Media Services Directive", "may be revised", 15)],
-    latest="The evaluation required by Article 33 is due by 19 December 2026; a proposal may follow.",
-    expected="After Dec 2026"),
+    latest="The Commission is running the evaluation required by Article 33 together with an impact assessment for an update of the rules: the call for evidence closed on 21 December 2025 (160 replies) and the public consultation on 1 May 2026 (299 replies). Its Have your say page plans adoption for the first quarter of 2027.",
+    expected="Q1 2027 (planned)"),
  "data-retention": dict(
     intro="Possible EU rules on which data communication providers must keep, and for how long, so that authorities can use them in criminal investigations.",
     does=["Common retention rules in place of diverging national laws.",

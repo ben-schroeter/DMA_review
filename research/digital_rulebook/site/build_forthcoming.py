@@ -143,10 +143,10 @@ F = [
       what="Screens draft national rules to stop new single-market barriers before they are adopted.",
       expected="Q3 2027", target="—",
       latest="In the 2027 work programme for Q3 2027 (legislative or non-legislative), following the Single Market Strategy."),
- dict(id="avmsd-revision", name="Revision of the Audiovisual Media Services Directive", stage="announced", area="E-commerce & Consumer Protection", row=None, proc="Evaluation",
+ dict(id="avmsd-revision", name="Revision of the Audiovisual Media Services Directive", stage="announced", area="E-commerce & Consumer Protection", row=None, proc="Evaluation and impact assessment",
       what="Scope for influencers, protection of minors on video-sharing platforms, prominence of general-interest content.",
-      expected="After the evaluation due 19 Dec 2026", target="—",
-      latest="Ex-post evaluation under Article 33 under way; a proposal may follow."),
+      expected="Q1 2027 (planned)", target="—",
+      latest="Combined evaluation and impact assessment: call for evidence closed in December 2025 and public consultation in May 2026; adoption planned for the first quarter of 2027."),
  dict(id="data-retention", name="EU framework for data retention", stage="announced", area="Data & Privacy", row=None, proc="Impact assessment",
       what="Common rules on which data communication providers must keep for criminal investigations.",
       expected="2027 (after further assessment)", target="—",
@@ -241,7 +241,7 @@ def parl_docs(fid):
             elif "confirmed by plenary" in e[1]:
                 out.append((mon(e[0]), "Plenary confirms the mandate to negotiate with Council", "", ""))
             elif "Approval in committee of the text agreed" in e[1]:
-                out.append((mon(e[0]), "Committee approves the text agreed with Council", ref, ""))
+                out.append((mon(e[0]), "Committee approves the text agreed with Council", ref, OEIL(r)))
             elif "Indicative plenary" in e[1]:
                 out.append((mon(e[0]), "Indicative plenary vote", "", ""))
     return out
@@ -473,7 +473,7 @@ fpage(dna, None,
        ("ePrivacy Directive", "amended", "Act-eprivacy-directive.dc.html")],
       [("Commission", [("Feb 2024", "White Paper: How to master Europe's digital infrastructure needs?", "COM(2024) 81", EUR("52024DC0081"))] + com_docs("digital-networks-act")),
        ("European Parliament", parl_docs("digital-networks-act")), ("Council", council_docs("digital-networks-act")),
-       ("Other opinions", [("Mar 2026", "European Data Protection Supervisor opinion", "EDPS", ""), ("Jun 2026", "European Economic and Social Committee opinion", "TEN/879", "")])],
+       ("Other opinions", [("Mar 2026", "European Data Protection Supervisor opinion", "EDPS Opinion 8/2026", "https://www.edps.europa.eu/data-protection/our-work/publications/opinions/2026-03-18-edps-opinion-82026-regulation-digital-networks-digital-networks-act"), ("Jun 2026", "European Economic and Social Committee opinion", "TEN/879", "https://www.eesc.europa.eu/en/our-work/opinions-information-reports/opinions/proposal-regulation-digital-networks-act-dna")])],
       "Key documents", "Commission proposal and impact assessment, then the reports and positions of Parliament and Council as they appear.")
 
 dfa = next(f for f in F if f["id"] == "digital-fairness-act")

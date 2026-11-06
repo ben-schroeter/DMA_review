@@ -16,17 +16,17 @@ PROC = {
 COUNCIL = {
  "digital-euro": [("19 Dec 2025", "Council negotiating position on the digital euro and the legal tender of cash", "Press release",
                    "https://www.consilium.europa.eu/en/press/press-releases/2025/12/19/single-currency-council-agrees-position-on-the-digital-euro-and-on-strengthening-the-role-of-cash/", "mandate")],
- "digital-omnibus": [("21 Oct 2026", "Council negotiating mandate agreed in Coreper (reported)", "ST 14756/26", "", "mandate")],
+ "digital-omnibus": [("21 Oct 2026", "Council negotiating mandate agreed in Coreper", "ST 14756/26", "https://data.consilium.europa.eu/doc/document/ST-14756-2026-INIT/en/pdf", "mandate")],
  "digital-networks-act": [("21 May 2026", "Presidency progress report", "ST 8523/26", "https://data.consilium.europa.eu/doc/document/ST-8523-2026-INIT/en/pdf", "note"),
                           ("9 Jun 2026", "Policy debate at the Telecoms Council", "ST 9685/26", "https://data.consilium.europa.eu/doc/document/ST-9685-2026-INIT/en/pdf", "note")],
- "psr": [("18 Jun 2025", "Council negotiating mandate", "", "", "mandate"),
+ "psr": [("18 Jun 2025", "Council negotiating mandate (item note to Coreper)", "ST 10175/25", "https://data.consilium.europa.eu/doc/document/ST-10175-2025-INIT/en/pdf", "mandate"),
          ("Nov 2025", "Provisional agreement with Parliament", "EP press release", "https://www.europarl.europa.eu/news/en/press-room/20251121IPR31540/payment-services-deal-more-protection-from-online-fraud-and-hidden-fees", "agreement")],
- "psd3": [("18 Jun 2025", "Council negotiating mandate", "", "", "mandate"),
+ "psd3": [("18 Jun 2025", "Council negotiating mandate (item note to Coreper)", "ST 10175/25", "https://data.consilium.europa.eu/doc/document/ST-10175-2025-INIT/en/pdf", "mandate"),
           ("Nov 2025", "Provisional agreement with Parliament", "EP press release", "https://www.europarl.europa.eu/news/en/press-room/20251121IPR31540/payment-services-deal-more-protection-from-online-fraud-and-hidden-fees", "agreement")],
- "digital-travel": [("19 Nov 2025", "Council negotiating mandate", "", "", "mandate")],
- "csar": [("26 Nov 2025", "Council position, without mandatory detection orders", "", "", "mandate")],
- "csa-directive": [("", "Council general approach", "", "", "mandate"), ("22 Jun 2026", "Provisional agreement with Parliament", "", "", "agreement")],
- "omnibus-iv": [("", "Council mandates", "", "", "mandate"), ("Jun 2026", "Provisional agreement with Parliament", "", "", "agreement")],
+ "digital-travel": [("19 Nov 2025", "Council negotiating mandate", "ST 15634/25", "https://data.consilium.europa.eu/doc/document/ST-15634-2025-INIT/en/pdf", "mandate")],
+ "csar": [("26 Nov 2025", "Council position, without mandatory detection orders", "Press release", "https://www.consilium.europa.eu/en/press/press-releases/2025/11/26/child-sexual-abuse-council-reaches-position-on-law-protecting-children-from-online-abuse/", "mandate")],
+ "csa-directive": [("13 Dec 2024", "Council general approach", "ST 16674/24", "https://data.consilium.europa.eu/doc/document/ST-16674-2024-INIT/en/pdf", "mandate"), ("22 Jun 2026", "Provisional agreement with Parliament", "Press release", "https://www.consilium.europa.eu/en/press/press-releases/2026/06/22/combatting-child-sexual-abuse-eu-agrees-stronger-criminal-law-rules-and-enhanced-support-to-victims/", "agreement")],
+ "omnibus-iv": [("22 Sep 2025", "Council mandates", "ST 13019/25", "https://data.consilium.europa.eu/doc/document/ST-13019-2025-INIT/en/pdf", "mandate"), ("9 Jun 2026", "Provisional agreement with Parliament", "Press release", "https://www.consilium.europa.eu/en/press/press-releases/2026/06/09/simplification-council-and-parliament-strike-deal-to-help-growing-businesses-thrive-and-accelerate-digitalisation/", "agreement")],
  "fida": [("", "Council position agreed; trilogues stalled since October 2025", "", "", "mandate")],
  "late-payment": [("", "No Council position: the file is blocked in Council", "", "", "note")],
 }
@@ -39,13 +39,13 @@ REC = {"psr": "52023PC0367", "psd3": "52023PC0366", "digital-euro": "52023PC0369
        "fida": "52023PC0360", "late-payment": "52023PC0533", "digital-services-tax": "52018PC0148", "significant-digital-presence": "52018PC0147",
        "vat-imported-distance-sales": "52023PC0262"}
 PREP = {
- "digital-transformation-package": [("Nov 2025", "Digital fitness check: call for evidence on how EU digital rules work together (closed 11 Mar 2026)", "Have your say", ""),
+ "digital-transformation-package": [("Nov 2025", "Digital fitness check: call for evidence and public consultation on how EU digital rules work together (closed 11 Mar 2026)", "Have your say", "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/15554-Digital-Fitness-Check_en"),
                                     ("Sep 2026", "Consultation on the effect of technology on copyright (extended to 10 Nov 2026)", "Commission", "https://digital-strategy.ec.europa.eu/en/news/commission-seeks-feedback-challenges-and-way-forward-area-effect-technology-copyright")],
  "political-ads-review": [("Mar 2024", "Regulation (EU) 2024/900 on political advertising", "OJ L, 2024/900", "https://eur-lex.europa.eu/eli/reg/2024/900/oj")],
  "quantum-act": [("Jul 2025", "Quantum Europe Strategy", "COM(2025) 363", "https://digital-strategy.ec.europa.eu/en/library/quantum-europe-strategy"),
                  ("Oct 2025", "Call for evidence for the impact assessment (closed 15 Dec 2025)", "Have your say", "https://digital-strategy.ec.europa.eu/en/news/commission-invites-contributions-shape-future-eu-quantum-act")],
- "avmsd-revision": [("Nov 2025", "Call for evidence for the evaluation (closed 21 Dec 2025)", "Have your say", ""),
-                    ("Feb 2026", "Public consultation on the evaluation and review options", "Have your say", "")],
+ "avmsd-revision": [("Nov 2025", "Call for evidence for the evaluation and impact assessment (closed 21 Dec 2025)", "Have your say", "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/15752-Update-of-EU-rules-on-audiovisual-media-services_en"),
+                    ("Feb 2026", "Public consultation on the evaluation and review options (closed 1 May 2026)", "Have your say", "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/15752-Update-of-EU-rules-on-audiovisual-media-services_en")],
  "smbpa": [("May 2025", "Single Market Strategy: our European home market in an uncertain world", "COM(2025) 500", "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0500")],
 }
 # Omnibus proposals: provisions changed in laws on our list, counted from the amending instructions of the Commission proposals
