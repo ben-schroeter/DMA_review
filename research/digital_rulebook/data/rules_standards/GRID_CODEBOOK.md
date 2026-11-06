@@ -29,8 +29,11 @@ high-hazard industries that adopted it. Two questions classify every obligation:
 1. **First test N.** Ask: is a person or body required to do, refrain from, or bring about something? If not, N. Time limits
    that bind an authority's own procedure ("the total duration of any extension shall not exceed 20 working days") are N unless
    they require a named body to act by a date ("ESMA shall submit the draft RTS by 30 June 2024" is MM).
-2. **Judge the core duty**, as before. A loose qualifier on a specific act stays micro: "notify without undue delay",
-   "publish in an easily accessible manner", "a brief summary" are MM.
+2. **Judge the core duty**, as before. A loose qualifier on *how or when* a specific act is done stays micro: "notify without
+   undue delay", "publish in an easily accessible manner", "a brief summary" are MM. But when an open term decides *what* must
+   be done or *whether* the act is allowed, the duty is macro: "include the information necessary to demonstrate compliance",
+   "preserve the content only if and for as long as necessary", "extend the period only where, having regard to the rights and
+   interests of all parties …" are XE.
 3. **"Shall ensure that …"**: MM if what follows is a specified act by someone ("ensure that agents inform users of this fact");
    ME if it is a specified state or result ("ensure that the payee receives the full amount"); XE if the state is open-ended
    ("ensure an appropriate level of security", "ensure that the processing is fair").
@@ -40,7 +43,8 @@ high-hazard industries that adopted it. Two questions classify every obligation:
 5. **Product requirements**: a named feature, marking or document is MM ("bears a serial number"); a measurable performance
    or the absence of a named hazard is ME; an essential requirement framed as safety, fitness or absence of risk in general
    terms is XE.
-6. **Plans, systems and assessments** are XM even when the list of their elements is fixed. If a list item is coded as its own
+6. **Plans, systems and assessments** are XM even when the list of their elements is fixed. A duty to assess or evaluate
+   that must "consider" or "take into account" listed factors is XM. If a list item is coded as its own
    obligation, code that item on its own wording.
 7. **Information duties** (inform, notify, report, publish, register, keep records, submit, label) are MM when what, to whom
    or when is fixed; XE only if the content is entirely open ("provide all appropriate information").
@@ -51,7 +55,9 @@ high-hazard industries that adopted it. Two questions classify every obligation:
    service" is ME or MM by rule 3).
 10. **Mixed cases**: pick the element that decides compliance. If a specific floor and an open-ended duty matter equally,
     choose the macro code.
-11. **Cross-references**: "in accordance with Article X" takes the code that Article X's duty would get if clear from the
+11. **Comitology and procedure references** ("That implementing act shall be adopted in accordance with the examination
+    procedure referred to in Article X") are N.
+12. **Cross-references**: "in accordance with Article X" takes the code that Article X's duty would get if clear from the
     clause; otherwise MM.
 
 ## Relation to the earlier codes
