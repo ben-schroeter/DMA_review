@@ -2,7 +2,8 @@
 
 Reads the pages in site/mockup (the .dc.html sources), keeps only those reachable from the front page, and writes
 site_export/ (and site_export.zip next to it):
-  index.html (front page) and <Page>.html for every other page; links rewritten from X.dc.html to X.html
+  index.html (front page) and a lower-case <subpage-name>.html for every other page (its tab label, or the law's name
+  for law and initiative pages); links rewritten from X.dc.html to these names
   assets/      images, copied from site/assets_blob (downloaded from the canvas; named <id>.<ext>)
   dc-lite.js   small renderer for the interactive pages (filters, toggles, infographic viewer)
   sitemap.xml, robots.txt   for search engines (base URL set with --base)
@@ -29,7 +30,29 @@ while todo:
     seen.add(f)
     todo += re.findall(r"""["'(]([A-Za-z0-9_-]+\.dc\.html)""", open(os.path.join(SRC, f)).read())
 
-out_name = lambda f: "index.html" if f == "Main.dc.html" else f.replace(".dc.html", ".html")
+# published file names: lower case, named after the subpage (its tab label) or, for law and initiative pages, the law's name
+SECTION = {"Rules.dc.html": "quantification", "CompanyTypes.dc.html": "by-type-of-company", "UsComparison.dc.html": "rules-vs-standards",
+           "Evidence.dc.html": "empirical-evidence", "Instruments.dc.html": "legal-instruments", "Forthcoming.dc.html": "forthcoming",
+           "DigitalPolicy.dc.html": "digital-policy", "Studies.dc.html": "library", "EvidenceMap.dc.html": "evidence-map",
+           "FurtherReading.dc.html": "further-reading", "Data.dc.html": "downloads", "Infographics.dc.html": "infographics",
+           "Methodology.dc.html": "methodology", "About.dc.html": "the-project", "WhyItMatters.dc.html": "why-tech-regulation-matters"}
+slug = lambda t: re.sub(r"[^a-z0-9]+", "-", t.lower().replace("&", " and ").replace("\u2019", "").replace("'", "")).strip("-")
+kebab = lambda f: re.sub(r"(?<!^)(?=[A-Z])", "-", f.replace(".dc.html", "")).lower() + ".html"
+LAWPAGE = lambda f: f.startswith(("Act-", "Fc-")) or f == "Instrument.dc.html"
+NAMES = {}
+for f in sorted(seen):
+    if f == "Main.dc.html":
+        NAMES[f] = "index.html"
+    elif f in SECTION:
+        NAMES[f] = SECTION[f] + ".html"
+    elif LAWPAGE(f):
+        NAMES[f] = slug(re.search(r"<title>(.*?)</title>", open(os.path.join(SRC, f)).read(), re.S).group(1).split(":")[0]) + ".html"
+    else:
+        NAMES[f] = kebab(f)
+dup = sorted(n for n in set(NAMES.values()) if list(NAMES.values()).count(n) > 1)
+assert not dup, dup
+LAWNAMES = {NAMES[f] for f in NAMES if LAWPAGE(f)}
+out_name = lambda f: NAMES.get(f) or kebab(f)
 LINK = re.compile(r"\b([A-Za-z0-9_-]+)\.dc\.html")
 fix_links = lambda s: LINK.sub(lambda m: out_name(m.group(1) + ".dc.html"), s)
 
@@ -104,11 +127,11 @@ def lastmod(txt):
     return datetime.date(int(m.group(3)), MONTHS[m.group(2)], int(m.group(1))).isoformat() if m and m.group(2) in MONTHS else datetime.date.today().isoformat()
 def priority(n):
     if n == "index.html": return "1.0"
-    if n.startswith(("Act-", "Fc-")) or n == "Instrument.html": return "0.6"
+    if n in LAWNAMES: return "0.6"
     return "0.8"
 base = args.base.rstrip("/") + "/"
 urls = []
-for n in sorted(os.listdir(OUT), key=lambda n: (n != "index.html", n.startswith(("Act-", "Fc-")), n)):
+for n in sorted(os.listdir(OUT), key=lambda n: (n != "index.html", n in LAWNAMES, n)):
     if not n.endswith(".html"): continue
     loc = base if n == "index.html" else base + n
     urls.append(f"  <url><loc>{loc}</loc><lastmod>{lastmod(open(os.path.join(OUT, n)).read())}</lastmod><priority>{priority(n)}</priority></url>")
