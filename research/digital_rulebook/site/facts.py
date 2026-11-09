@@ -123,6 +123,19 @@ put("rs_acts_second_layer", RSF["acts_with_second_layer"]); put("rs_acts_more_ru
 for key, nm in (("ecodesign", "Ecodesign for Sustainable Products Regulation"), ("csa", "Cybersecurity Act"), ("dora", "Digital Operational Resilience Act (DORA)"), ("nis2", "NIS 2 Directive")):
     c = RSF["companies_by_law"][nm]; put(f"rs_{key}_main", round(100 * c["main"]), pct(c["main"])); put(f"rs_{key}_sec", round(100 * c["secondary"]), pct(c["secondary"]))
 
+# regulatory design grid (Coglianese): data/rules_standards/grid/summary.json, written by scripts/grid_aggregate.py
+GR = json.load(open("data/rules_standards/grid/summary.json")); _gc = GR["groups"]["companies_main|all"]
+for c in ("MM", "ME", "XM", "XE"):
+    put("grid_comp_" + c, round(100 * _gc[c]), pct(_gc[c]))
+put("grid_comp_open", round(100 * _gc["means_left_open"]), pct(_gc["means_left_open"])); put("grid_comp_n", _gc["n"])
+_gs = GR["groups"]["companies_secondary|all"]; put("grid_comp_sec_open", round(100 * _gs["means_left_open"]), pct(_gs["means_left_open"]))
+put("grid_no_duty_main", round(100 * GR["not_a_duty"]["main"]), pct(GR["not_a_duty"]["main"]))
+put("grid_val_n", GR["validation"]["n"]); put("grid_val_agree", GR["validation"]["agree"]); put("grid_val_kappa", GR["validation"]["kappa"], f'{GR["validation"]["kappa"]:.2f}')
+for t, v in GR["company_types"].items():
+    put(f"grid_ct_{t}_open", round(100 * v["all"]["means_left_open"]), pct(v["all"]["means_left_open"]))
+    put(f"grid_ct_{t}_main_open", round(100 * v["main"]["means_left_open"]), pct(v["main"]["means_left_open"]))
+    put(f"grid_ct_{t}_sec_open", round(100 * v["secondary"]["means_left_open"]), pct(v["secondary"]["means_left_open"]))
+
 # external statistics quoted on the site (Why it matters, front page): edited in data/external_figures.json, with page context
 for k, v in json.load(open("data/external_figures.json")).items():
     F[k] = {"value": v["text"], "text": v["text"], "external": True}

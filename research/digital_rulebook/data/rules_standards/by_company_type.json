@@ -1,74 +1,74 @@
 {
  "baseline": {
   "all": {
-   "n": 1861,
+   "n": 1558,
    "uncoded": 0,
-   "rules": 0.817,
-   "standards": 0.174
+   "rules": 0.812,
+   "standards": 0.184
   },
   "main": {
-   "n": 903,
+   "n": 714,
    "uncoded": 0,
-   "rules": 0.806,
-   "standards": 0.178
+   "rules": 0.793,
+   "standards": 0.197
   },
   "secondary": {
-   "n": 958,
+   "n": 844,
    "uncoded": 0,
    "rules": 0.828,
-   "standards": 0.169
+   "standards": 0.172
   },
   "most_standards": [
    [
     "General Data Protection Regulation",
-    187
-   ],
-   [
-    "EC Merger Regulation",
-    17
+    178
    ],
    [
     "Company Law Directive",
     16
    ],
    [
-    "Common VAT system Directive",
-    11
+    "EC Merger Regulation",
+    13
+   ],
+   [
+    "IPR Enforcement Directive",
+    10
    ]
   ],
   "by_period": {
    "before 2015": {
-    "n": 486,
-    "rules": 0.827
+    "n": 343,
+    "rules": 0.825
    },
    "2015-2019": {
-    "n": 495,
-    "rules": 0.788
+    "n": 413,
+    "rules": 0.78
    },
    "2020 or later": {
-    "n": 880,
-    "rules": 0.828
+    "n": 802,
+    "rules": 0.823
    }
   }
  },
  "GK": {
   "all": {
-   "n": 1419,
+   "n": 1372,
    "uncoded": 0,
-   "rules": 0.771,
-   "standards": 0.228
+   "rules": 0.77,
+   "standards": 0.229
   },
   "main": {
-   "n": 742,
+   "n": 709,
    "uncoded": 0,
    "rules": 0.756,
    "standards": 0.243
   },
   "secondary": {
-   "n": 677,
+   "n": 663,
    "uncoded": 0,
-   "rules": 0.787,
-   "standards": 0.213
+   "rules": 0.786,
+   "standards": 0.214
   },
   "most_standards": [
    [
@@ -77,15 +77,15 @@
    ],
    [
     "Digital Services Act",
-    71
-   ],
-   [
-    "Digital Markets Act",
-    28
+    68
    ],
    [
     "Political Advertising Regulation",
     27
+   ],
+   [
+    "Artificial Intelligence Act",
+    23
    ]
   ],
   "by_period": {
@@ -94,33 +94,33 @@
     "rules": null
    },
    "2015-2019": {
-    "n": 80,
-    "rules": 0.775
+    "n": 77,
+    "rules": 0.766
    },
    "2020 or later": {
-    "n": 1339,
+    "n": 1295,
     "rules": 0.771
    }
   }
  },
  "PL": {
   "all": {
-   "n": 1064,
-   "uncoded": 0,
-   "rules": 0.76,
-   "standards": 0.239
-  },
-  "main": {
-   "n": 559,
+   "n": 1035,
    "uncoded": 0,
    "rules": 0.755,
-   "standards": 0.243
+   "standards": 0.244
+  },
+  "main": {
+   "n": 538,
+   "uncoded": 0,
+   "rules": 0.747,
+   "standards": 0.251
   },
   "secondary": {
-   "n": 505,
+   "n": 497,
    "uncoded": 0,
-   "rules": 0.766,
-   "standards": 0.234
+   "rules": 0.763,
+   "standards": 0.237
   },
   "most_standards": [
    [
@@ -133,7 +133,7 @@
    ],
    [
     "Digital Services Act",
-    25
+    24
    ],
    [
     "Artificial Intelligence Act",
@@ -146,33 +146,33 @@
     "rules": null
    },
    "2015-2019": {
-    "n": 80,
-    "rules": 0.775
+    "n": 77,
+    "rules": 0.766
    },
    "2020 or later": {
-    "n": 984,
-    "rules": 0.759
+    "n": 958,
+    "rules": 0.754
    }
   }
  },
  "CL": {
   "all": {
-   "n": 1323,
+   "n": 1269,
    "uncoded": 0,
-   "rules": 0.708,
-   "standards": 0.292
+   "rules": 0.699,
+   "standards": 0.301
   },
   "main": {
-   "n": 744,
+   "n": 700,
    "uncoded": 0,
-   "rules": 0.698,
-   "standards": 0.302
+   "rules": 0.683,
+   "standards": 0.317
   },
   "secondary": {
-   "n": 579,
+   "n": 569,
    "uncoded": 0,
-   "rules": 0.722,
-   "standards": 0.278
+   "rules": 0.719,
+   "standards": 0.281
   },
   "most_standards": [
    [
@@ -181,7 +181,7 @@
    ],
    [
     "Artificial Intelligence Act",
-    109
+    106
    ],
    [
     "Digital Operational Resilience Act (DORA)",
@@ -198,33 +198,33 @@
     "rules": null
    },
    "2015-2019": {
-    "n": 54,
-    "rules": 0.593
+    "n": 49,
+    "rules": 0.551
    },
    "2020 or later": {
-    "n": 1269,
-    "rules": 0.713
+    "n": 1220,
+    "rules": 0.705
    }
   }
  },
  "TC": {
   "all": {
-   "n": 1252,
+   "n": 1220,
    "uncoded": 0,
-   "rules": 0.772,
-   "standards": 0.227
+   "rules": 0.767,
+   "standards": 0.231
   },
   "main": {
-   "n": 432,
+   "n": 416,
    "uncoded": 0,
-   "rules": 0.722,
-   "standards": 0.275
+   "rules": 0.716,
+   "standards": 0.281
   },
   "secondary": {
-   "n": 820,
+   "n": 804,
    "uncoded": 0,
-   "rules": 0.798,
-   "standards": 0.201
+   "rules": 0.794,
+   "standards": 0.205
   },
   "most_standards": [
    [
@@ -240,7 +240,7 @@
     42
    ],
    [
-    "Open Internet Access Regulation",
+    "Roaming Regulation",
     18
    ]
   ],
@@ -250,38 +250,38 @@
     "rules": 0.929
    },
    "2015-2019": {
-    "n": 301,
-    "rules": 0.734
+    "n": 290,
+    "rules": 0.728
    },
    "2020 or later": {
-    "n": 923,
-    "rules": 0.779
+    "n": 902,
+    "rules": 0.775
    }
   }
  },
  "FI": {
   "all": {
-   "n": 3224,
+   "n": 3062,
    "uncoded": 0,
-   "rules": 0.783,
-   "standards": 0.217
+   "rules": 0.773,
+   "standards": 0.226
   },
   "main": {
-   "n": 1411,
+   "n": 1310,
    "uncoded": 0,
-   "rules": 0.714,
-   "standards": 0.286
+   "rules": 0.694,
+   "standards": 0.305
   },
   "secondary": {
-   "n": 1813,
+   "n": 1752,
    "uncoded": 0,
-   "rules": 0.837,
-   "standards": 0.163
+   "rules": 0.833,
+   "standards": 0.167
   },
   "most_standards": [
    [
     "Markets in Crypto-Assets (MiCA)",
-    313
+    310
    ],
    [
     "Digital Operational Resilience Act (DORA)",
@@ -293,7 +293,7 @@
    ],
    [
     "Payment Services Directive 2 (PSD2)",
-    61
+    59
    ]
   ],
   "by_period": {
@@ -302,38 +302,38 @@
     "rules": null
    },
    "2015-2019": {
-    "n": 455,
-    "rules": 0.866
+    "n": 407,
+    "rules": 0.855
    },
    "2020 or later": {
-    "n": 2769,
-    "rules": 0.77
+    "n": 2655,
+    "rules": 0.761
    }
   }
  },
  "PR": {
   "all": {
-   "n": 3647,
+   "n": 3507,
    "uncoded": 0,
-   "rules": 0.685,
-   "standards": 0.312
+   "rules": 0.677,
+   "standards": 0.321
   },
   "main": {
-   "n": 3038,
+   "n": 2925,
    "uncoded": 0,
-   "rules": 0.676,
-   "standards": 0.322
+   "rules": 0.668,
+   "standards": 0.33
   },
   "secondary": {
-   "n": 609,
+   "n": 582,
    "uncoded": 0,
-   "rules": 0.734,
-   "standards": 0.266
+   "rules": 0.725,
+   "standards": 0.275
   },
   "most_standards": [
    [
     "Machinery Regulation",
-    320
+    319
    ],
    [
     "NIS 2 Directive",
@@ -341,7 +341,7 @@
    ],
    [
     "Toys Safety Regulation",
-    101
+    100
    ],
    [
     "Toys Safety Directive",
@@ -350,16 +350,16 @@
   ],
   "by_period": {
    "before 2015": {
-    "n": 591,
-    "rules": 0.716
+    "n": 575,
+    "rules": 0.708
    },
    "2015-2019": {
-    "n": 79,
-    "rules": 0.62
+    "n": 73,
+    "rules": 0.589
    },
    "2020 or later": {
-    "n": 2977,
-    "rules": 0.681
+    "n": 2859,
+    "rules": 0.673
    }
   }
  }

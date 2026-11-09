@@ -84,6 +84,14 @@ try:
     out["company_types"] = ct
 except Exception as e:  # keep the main summary even if the company-type join fails
     out["company_types_error"] = repr(e)
+# validation: pilot reader codes against the independent reference coding of the first 100 pilot items
+P = json.load(open("data/rules_standards/grid/pilot_coded.json"))
+REF = runpy.run_path("data/rules_standards/grid/pilot_reference_codes.py")["CODES"]
+pairs = [(REF[i], P[i]["c"]) for i in range(len(REF))]
+po = sum(a == b for a, b in pairs) / len(pairs)
+ca, cb = collections.Counter(a for a, _ in pairs), collections.Counter(b for _, b in pairs)
+pe = sum(ca[l] * cb[l] for l in set(ca) | set(cb)) / len(pairs) ** 2
+out["validation"] = {"n": len(pairs), "agree": sum(a == b for a, b in pairs), "agreement": round(po, 3), "kappa": round((po - pe) / (1 - pe), 2)}
 json.dump(out, open("data/rules_standards/grid/summary.json", "w"), indent=1)
 for k, v in out["groups"].items():
     if v.get("n"):

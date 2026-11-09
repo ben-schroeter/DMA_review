@@ -659,5 +659,11 @@
    },
    "uncoded": 0
   }
+ },
+ "validation": {
+  "n": 100,
+  "agree": 89,
+  "agreement": 0.89,
+  "kappa": 0.82
  }
 }

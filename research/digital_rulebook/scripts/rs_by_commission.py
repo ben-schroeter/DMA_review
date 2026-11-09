@@ -1,10 +1,8 @@
 """Rules vs standards by Commission term: main acts by the Commission that proposed them, implementing/delegated acts by
 the Commission in office at adoption. Shares exclude obligations coded N. Writes data/rules_standards/by_commission.json."""
 import json, glob, collections, openpyxl
-C = {}
-for f in glob.glob("data/rules_standards/batches/b??_coded.json"):
-    for o in json.load(open(f)):
-        C[o["k"]] = o["c"]
+import sys as _sys; _sys.path.insert(0, "scripts"); from rs_codes import load as _load_codes
+C = _load_codes()   # rules/standards codes, harmonised with the grid's "not a duty"
 inst = [json.loads(l) for l in open("data/rules_standards/instances.jsonl")]
 am = [json.loads(l)["formal"] for l in open("data/addressee/v2_final_main.jsonl")]
 asec = [json.loads(l)["formal"] for l in open("data/addressee/v2_secondary.jsonl")]

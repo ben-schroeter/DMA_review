@@ -4,13 +4,8 @@ Writes data/rules_standards/us_compare_private.json. Run from research/digital_r
 import json, collections, re, statistics
 src = open("scripts/us_private.py").read()
 PRIVATE_UNCLEAR = eval(re.search(r"PRIVATE_UNCLEAR = (\{.*?\}\})", src, re.S).group(1))
-C = {}
-for f in ("us0", "us1"):
-    for o in json.load(open(f"data/rules_standards/batches/{f}_coded.json")):
-        C[o["k"]] = o["c"]
-for f in __import__("glob").glob("data/rules_standards/batches/b??_coded.json"):
-    for o in json.load(open(f)):
-        C[o["k"]] = o["c"]
+import sys as _sys; _sys.path.insert(0, "scripts"); from rs_codes import load as _load_codes
+C = _load_codes()   # rules/standards codes for EU and US items, harmonised with the grid's "not a duty"
 us = [json.loads(l) for l in open("data/rules_standards/us_instances.jsonl")]
 ROWS = {x["row_id"]: x["law"] for x in us}
 eu = [json.loads(l) for l in open("data/rules_standards/instances.jsonl")]

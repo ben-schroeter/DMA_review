@@ -1,15 +1,15 @@
 {
  "us_total": {
-  "n": 790,
-  "R": 0.848,
-  "standard_like": 0.152,
-  "N": 96,
+  "n": 562,
+  "R": 0.835,
+  "standard_like": 0.165,
+  "N": 324,
   "codes": {
-   "R": 670,
-   "N": 96,
-   "S": 90,
-   "M": 20,
-   "L": 10
+   "R": 469,
+   "N": 324,
+   "S": 71,
+   "M": 19,
+   "L": 3
   }
  },
  "pairs": [
@@ -17,135 +17,135 @@
    "pair": "Unfair Commercial Practices \u2192 FTC Act \u00a75",
    "row_id": 13,
    "eu": {
-    "n": 45,
-    "R": 0.467,
-    "standard_like": 0.333
+    "n": 38,
+    "R": 0.474,
+    "standard_like": 0.289
    },
    "us": {
-    "n": 23,
-    "R": 0.826,
-    "standard_like": 0.174
+    "n": 19,
+    "R": 0.895,
+    "standard_like": 0.105
    },
-   "us_not_obligation": 17
+   "us_not_obligation": 21
   },
   {
    "pair": "Trade Secrets \u2192 Defend Trade Secrets Act",
    "row_id": 26,
    "eu": {
-    "n": 58,
-    "R": 0.621,
-    "standard_like": 0.293
-   },
-   "us": {
-    "n": 33,
-    "R": 0.788,
-    "standard_like": 0.212
-   },
-   "us_not_obligation": 0
-  },
-  {
-   "pair": "AI Act \u2192 Colorado AI Act",
-   "row_id": 64,
-   "eu": {
-    "n": 728,
-    "R": 0.694,
-    "standard_like": 0.298
-   },
-   "us": {
-    "n": 30,
+    "n": 45,
     "R": 0.6,
-    "standard_like": 0.4
-   },
-   "us_not_obligation": 0
-  },
-  {
-   "pair": "Toy Safety \u2192 CPSIA",
-   "row_id": 17,
-   "eu": {
-    "n": 321,
-    "R": 0.698,
-    "standard_like": 0.29
+    "standard_like": 0.311
    },
    "us": {
-    "n": 210,
-    "R": 0.919,
-    "standard_like": 0.081
+    "n": 25,
+    "R": 0.8,
+    "standard_like": 0.2
    },
-   "us_not_obligation": 34
+   "us_not_obligation": 8
   },
   {
    "pair": "Chips Act \u2192 CHIPS Act",
    "row_id": 74,
    "eu": {
-    "n": 196,
-    "R": 0.714,
-    "standard_like": 0.281
+    "n": 167,
+    "R": 0.677,
+    "standard_like": 0.317
    },
    "us": {
-    "n": 93,
-    "R": 0.849,
-    "standard_like": 0.151
+    "n": 41,
+    "R": 0.78,
+    "standard_like": 0.22
+   },
+   "us_not_obligation": 54
+  },
+  {
+   "pair": "AI Act \u2192 Colorado AI Act",
+   "row_id": 64,
+   "eu": {
+    "n": 677,
+    "R": 0.678,
+    "standard_like": 0.313
+   },
+   "us": {
+    "n": 28,
+    "R": 0.607,
+    "standard_like": 0.393
    },
    "us_not_obligation": 2
+  },
+  {
+   "pair": "Toy Safety \u2192 CPSIA",
+   "row_id": 17,
+   "eu": {
+    "n": 308,
+    "R": 0.688,
+    "standard_like": 0.302
+   },
+   "us": {
+    "n": 184,
+    "R": 0.918,
+    "standard_like": 0.082
+   },
+   "us_not_obligation": 60
   },
   {
    "pair": "GDPR \u2192 CCPA (California)",
    "row_id": 20,
    "eu": {
-    "n": 381,
-    "R": 0.722,
-    "standard_like": 0.255
+    "n": 329,
+    "R": 0.693,
+    "standard_like": 0.283
    },
    "us": {
-    "n": 164,
-    "R": 0.841,
-    "standard_like": 0.159
+    "n": 119,
+    "R": 0.815,
+    "standard_like": 0.185
    },
-   "us_not_obligation": 28
+   "us_not_obligation": 73
   },
   {
    "pair": "Product Safety \u2192 Consumer Product Safety Act",
    "row_id": 67,
    "eu": {
-    "n": 242,
-    "R": 0.74,
-    "standard_like": 0.252
+    "n": 217,
+    "R": 0.728,
+    "standard_like": 0.263
    },
    "us": {
-    "n": 176,
-    "R": 0.818,
-    "standard_like": 0.182
+    "n": 111,
+    "R": 0.802,
+    "standard_like": 0.198
    },
-   "us_not_obligation": 15
+   "us_not_obligation": 80
   },
   {
    "pair": "E-evidence \u2192 CLOUD Act",
    "row_id": 42,
    "eu": {
-    "n": 191,
-    "R": 0.885,
-    "standard_like": 0.099
+    "n": 177,
+    "R": 0.876,
+    "standard_like": 0.107
    },
    "us": {
-    "n": 61,
-    "R": 0.869,
-    "standard_like": 0.131
+    "n": 35,
+    "R": 0.8,
+    "standard_like": 0.2
    },
-   "us_not_obligation": 0
+   "us_not_obligation": 26
   }
  ],
  "validation": {
   "n": 40,
-  "compared": 29,
-  "exact_all": 0.8,
-  "rule_vs_standard_like": 0.931,
+  "compared": 27,
+  "exact_all": 0.875,
+  "rule_vs_standard_like": 0.926,
   "confusion": {
-   "R->R": 23,
-   "S->S": 4,
-   "N->N": 5,
-   "N->R": 5,
+   "R->R": 22,
+   "S->S": 3,
+   "N->N": 10,
+   "R->N": 2,
    "M->R": 2,
-   "R->N": 1
+   "S->N": 1
   }
  }
 }

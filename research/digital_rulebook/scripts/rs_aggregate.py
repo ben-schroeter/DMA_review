@@ -3,10 +3,8 @@ instruments, policy areas, periods and addressees; check them against the hand-c
 Writes data/rules_standards/summary.json and data/rules_standards/per_instrument.csv. Run from research/digital_rulebook."""
 import json, glob, collections, csv, statistics, sys, openpyxl
 sys.path.insert(0, "data/rules_standards")
-codes = {}
-for f in sorted(glob.glob("data/rules_standards/batches/b??_coded.json")):
-    for o in json.load(open(f)):
-        codes[o["k"]] = o["c"]
+import sys as _sys; _sys.path.insert(0, "scripts"); from rs_codes import load as _load_codes
+codes = _load_codes()   # rules/standards codes, harmonised with the grid's "not a duty"
 inst = [json.loads(l) for l in open("data/rules_standards/instances.jsonl")]
 wb = openpyxl.load_workbook("digital_rulebook.xlsx", read_only=True, data_only=True)
 rows = list(wb["instruments"].values); h = rows[0]

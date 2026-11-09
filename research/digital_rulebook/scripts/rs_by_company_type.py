@@ -3,10 +3,8 @@ codes in data/rules_standards. Writes data/rules_standards/by_company_type.json.
 import json, glob, hashlib, collections
 src = open("scripts/company_types.py").read().split("out = {")[0]
 exec(compile(src, "company_types_head", "exec"))
-C = {}
-for f in glob.glob("data/rules_standards/batches/b??_coded.json"):
-    for o in json.load(open(f)):
-        C[o["k"]] = o["c"]
+import sys as _sys; _sys.path.insert(0, "scripts"); from rs_codes import load as _load_codes
+C = _load_codes()   # rules/standards codes, harmonised with the grid's "not a duty"
 key = lambda r: hashlib.sha1(((r.get("chapeau") or "")[-200:] + "|" + r["clause"]).encode()).hexdigest()[:12]
 def tally(sel):
     out = {}

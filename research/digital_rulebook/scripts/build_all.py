@@ -13,7 +13,7 @@ STEPS = [
  ("evidence library data", ["python3", "site/build_studies_data.py"], "."),
 ] + [(f"chart: {c}", ["python3", f"site/{c}.py"], ".") for c in (
  "build_mock_charts", "build_reporting_charts", "build_why_charts", "build_evidence_front", "build_evidence_front_options", "build_evidence_map",
- "build_rules_standards", "build_rules_kinds", "build_ia_table", "build_us_pairs", "build_company_types", "build_company_types_kinds", "build_company_types_pie",
+ "build_rules_standards", "build_grid_charts", "build_rules_kinds", "build_ia_table", "build_us_pairs", "build_company_types", "build_company_types_kinds", "build_company_types_pie",
  "build_company_types_time", "build_company_types_speed", "build_company_types_cards", "build_company_types_cards_html", "build_firm_size", "build_firm_relief", "build_front_productivity",
  "build_infographic", "build_infographic_areas_growth", "build_infographic_gap", "build_infographic_hq", "build_infographics_more", "build_policy_timeline",
  "build_gap_options", "hero_options")] + [

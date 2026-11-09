@@ -2,10 +2,8 @@
 Writes data/rules_standards/us_compare.json. Run from research/digital_rulebook."""
 import json, collections, sys
 sys.path.insert(0, "data/rules_standards")
-C = {}
-for f in ("us0", "us1"):
-    for o in json.load(open(f"data/rules_standards/batches/{f}_coded.json")):
-        C[o["k"]] = o["c"]
+import sys as _sys; _sys.path.insert(0, "scripts"); from rs_codes import load as _load_codes
+C = _load_codes()   # rules/standards codes, harmonised with the grid's "not a duty"
 inst = [json.loads(l) for l in open("data/rules_standards/us_instances.jsonl")]
 s = json.load(open("data/rules_standards/summary.json"))
 EU = {o["row_id"]: o for o in s["instruments"]}

@@ -4,10 +4,8 @@ implementing and delegated acts. Bottom: for each act with at least 60 obligatio
 least 50 in the main act, the share of rules in the main act (gold) and in its secondary acts (blue); all obligations.
 Reads data/rules_standards (codes, instances, summary). Writes site/rules_standards.svg. Run from research/digital_rulebook."""
 import json, glob, collections, openpyxl
-C = {}
-for f in glob.glob("data/rules_standards/batches/b??_coded.json"):
-    for o in json.load(open(f)):
-        C[o["k"]] = o["c"]
+import sys as _sys; _sys.path.insert(0, "scripts"); from rs_codes import load as _load_codes
+C = _load_codes()   # rules/standards codes, harmonised with the grid's "not a duty"
 inst = [json.loads(l) for l in open("data/rules_standards/instances.jsonl")]
 am = [json.loads(l)["formal"] for l in open("data/addressee/v2_final_main.jsonl")]
 asec = [json.loads(l)["formal"] for l in open("data/addressee/v2_secondary.jsonl")]

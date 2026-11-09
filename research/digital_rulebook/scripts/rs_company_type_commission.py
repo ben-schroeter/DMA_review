@@ -3,10 +3,8 @@ implementing/delegated acts by the Commission in office at adoption. Writes data
 import json, glob, hashlib, collections
 src = open("scripts/company_types.py").read().split("out = {")[0]
 exec(compile(src, "company_types_head", "exec"))
-C = {}
-for f in glob.glob("data/rules_standards/batches/b??_coded.json"):
-    for o in json.load(open(f)):
-        C[o["k"]] = o["c"]
+import sys as _sys; _sys.path.insert(0, "scripts"); from rs_codes import load as _load_codes
+C = _load_codes()   # rules/standards codes, harmonised with the grid's "not a duty"
 key = lambda r: hashlib.sha1(((r.get("chapeau") or "")[-200:] + "|" + r["clause"]).encode()).hexdigest()[:12]
 TERMS = [("Delors", 1985.0), ("Santer", 1995.04), ("Prodi", 1999.7), ("Barroso I", 2004.9), ("Barroso II", 2010.1),
          ("Juncker", 2014.84), ("von der Leyen I", 2019.92), ("von der Leyen II", 2024.92)]
