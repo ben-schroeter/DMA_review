@@ -32,7 +32,7 @@ while todo:
 
 # published file names: lower case, named after the subpage (its tab label) or, for law and initiative pages, the law's name
 SECTION = {"Rules.dc.html": "quantification", "CompanyTypes.dc.html": "by-type-of-company", "UsComparison.dc.html": "rules-vs-standards",
-           "Evidence.dc.html": "empirical-evidence", "Instruments.dc.html": "legal-instruments", "Forthcoming.dc.html": "forthcoming",
+           "Evidence.dc.html": "do-the-rules-work", "Instruments.dc.html": "legal-instruments", "Forthcoming.dc.html": "forthcoming",
            "DigitalPolicy.dc.html": "digital-policy", "Studies.dc.html": "studies", "EvidenceMap.dc.html": "evidence-map",
            "FurtherReading.dc.html": "further-reading", "Data.dc.html": "downloads", "Infographics.dc.html": "infographics",
            "Methodology.dc.html": "methodology", "About.dc.html": "about", "WhyItMatters.dc.html": "why-tech-regulation-matters"}
