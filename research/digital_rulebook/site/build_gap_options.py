@@ -59,7 +59,7 @@ Yv = lambda v: TOP + (vmax - v) / (vmax - vmin) * (BOT - TOP)
 g = [f'<rect x="{L}" y="6" width="13" height="13" rx="2" fill="{GOLD}"></rect>' + t(L + 20, 17.5, "Output per hour", 14),
      f'<rect x="{L + 150}" y="6" width="13" height="13" rx="2" fill="{STONE}"></rect>' + t(L + 170, 17.5, "Hours worked per head", 14),
      f'<line x1="{L + 350}" x2="{L + 378}" y1="12.5" y2="12.5" stroke="{INK}" stroke-width="2.6"></line>' + t(L + 386, 17.5, "Total gap in GDP per head", 14),
-     t(W - R, 17.5, "Below zero: euro area behind the US", 13, MUTED, "end")]
+     t(W - R, 17.5, "Below zero: Euro area behind the US", 13, MUTED, "end")]
 for v in range(vmin, vmax + 1, 10):
     g.append(f'<line x1="{L}" x2="{W - R}" y1="{Yv(v):.1f}" y2="{Yv(v):.1f}" stroke="{BASE if v == 0 else LINE}" stroke-width="{1.4 if v == 0 else 1}"></line>')
     g.append(t(L - 8, Yv(v) + 4.5, f"{v:+d}%".replace("-", "−") if v else "0", 12, MUTED, "end"))

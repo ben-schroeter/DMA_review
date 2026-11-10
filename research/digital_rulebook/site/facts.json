@@ -63,6 +63,14 @@
   "value": 16730,
   "text": "16,730"
  },
+ "laws_since_2020": {
+  "value": 55,
+  "text": "55"
+ },
+ "obligations_since_2020_pct": {
+  "value": 65,
+  "text": "65%"
+ },
  "compared_with_proposal": {
   "value": 99,
   "text": "99"
@@ -787,11 +795,6 @@
   "text": "60%",
   "external": true
  },
- "ext_main_09": {
-  "value": "65%",
-  "text": "65%",
-  "external": true
- },
  "ext_whyitmatters_01": {
   "value": "104%",
   "text": "104%",
@@ -1045,6 +1048,16 @@
  "ext_whyitmatters_51": {
   "value": "7%",
   "text": "7%",
+  "external": true
+ },
+ "ext_whyitmatters_52": {
+  "value": "20",
+  "text": "20",
+  "external": true
+ },
+ "ext_whyitmatters_53": {
+  "value": "33%",
+  "text": "33%",
   "external": true
  }
 }

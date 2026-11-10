@@ -55,13 +55,6 @@
   "source_links": [],
   "checked": "2026-11-01"
  },
- "ext_main_09": {
-  "text": "65%",
-  "page": "Main.dc.html",
-  "context": "The digital economy took off from the mid-1990s, enabled by key pieces of regulation like the e-Commerce Directive (2000). However, 55 of the 105 adopted legislative acts were passed only since 2020, and they account for 65% of the 21,374 obligations in adopted texts. Together the 105 laws run to ab",
-  "source_links": [],
-  "checked": "2026-11-01"
- },
  "ext_whyitmatters_01": {
   "text": "104%",
   "page": "WhyItMatters.dc.html",
@@ -418,5 +411,23 @@
   "context": "Anticompetitive rules in upstream services slow productivity growth downstream (Bourlès et al.). Intra-EU barriers equal a 44% tariff on goods and 110% on services (IMF), while the single market adds 3–7% to GDP (Mayer et al.).",
   "source_links": [],
   "checked": "2026-11-01"
+ },
+ "ext_whyitmatters_52": {
+  "text": "20",
+  "page": "WhyItMatters.dc.html",
+  "context": "Economic research attributes between 20-33% of the US-EU productivity gap to the differences in the size of the ICT sector (depending on methodology).",
+  "source_links": [
+   "https://www.productivity.ac.uk/wp-content/uploads/2026/07/PIP096-Rewiring-Europe-July-2026.pdf"
+  ],
+  "checked": "2026-11-10"
+ },
+ "ext_whyitmatters_53": {
+  "text": "33%",
+  "page": "WhyItMatters.dc.html",
+  "context": "Economic research attributes between 20-33% of the US-EU productivity gap to the differences in the size of the ICT sector (depending on methodology).",
+  "source_links": [
+   "https://www.productivity.ac.uk/wp-content/uploads/2026/07/PIP096-Rewiring-Europe-July-2026.pdf"
+  ],
+  "checked": "2026-11-10"
  }
 }

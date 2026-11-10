@@ -581,7 +581,7 @@ cards = "".join(f'<a href="{page_of(f)}" style="display: flex; flex-direction: c
                 f'<span class="eyebrow" style="font-size: 12px">Expected {lab} · announced</span>'
                 f'<span style="font-family: \'Source Serif 4\', Georgia, serif; font-size: 20px; line-height: 1.25">{html.escape(f["name"].split(" (")[0])}</span>'
                 f'<span class="cap">{html.escape(f["what"], quote=False)}</span></a>' for _, lab, f in nxt)
-latest = ('<!-- LATEST-PROPOSALS -->\n        <p class="body" style="font-size: 16px">The next initiatives the Commission has announced, in order of expected date. '
+latest = ('<!-- LATEST-PROPOSALS -->\n        <p class="body" style="font-size: 16px">This section features proposed and announced initiatives, in order of expected date. '
           'Click on the links to find out more about each one.</p>\n'
           f'        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px">{cards}</div>\n<!-- /LATEST-PROPOSALS -->')
 mp = f"{OUT}/Main.dc.html"; ms = open(mp).read()

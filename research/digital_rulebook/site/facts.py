@@ -26,6 +26,9 @@ pm = s(A, "addr_private_parties"); ps = s(impl, "addr_private_parties")
 put("private_main", pm); put("private_secondary", ps); put("private_total", pm + ps); put("private_total_k", pm + ps, k100(pm + ps))
 yr = lambda x: int(str(x["adoption_date"])[:4])
 put("obligations_since_2018", sum(x["restrictions_total"] or 0 for x in A if yr(x) >= 2018))
+_a20 = [x for x in A if yr(x) >= 2020]
+put("laws_since_2020", len(_a20))
+_o20 = sum(x["restrictions_total"] or 0 for x in _a20) / main; put("obligations_since_2020_pct", round(100 * _o20), f"{100 * _o20:.0f}%")
 both = [x for x in A if x["proposal_restrictions_total"] and x["restrictions_total"] is not None]
 put("compared_with_proposal", len(both)); put("grew_in_negotiation", sum(x["restrictions_total"] > x["proposal_restrictions_total"] for x in both))
 # evidence
