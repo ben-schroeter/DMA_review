@@ -314,56 +314,62 @@ charts["hq_migration"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" a
 charts["gap_split"] = json.load(open("site/gap_options.json"))["B"]
 
 
-# OECD (Andrews, Turban and Tyros 2026, Figure 4 A-B): share of employment devoted to regulatory tasks, EU vs US
+# OECD (Andrews, Turban and Tyros 2026, Figure 4 A; Economic Outlook 2025/2, Figure 2.4 B): share of employment devoted to regulatory tasks
 _O = json.load(open("data/external/oecd_regulation_index.json"))
-_A = _O["panel_A_2023"]; _T = [r for r in _O["trend_by_region"]]; _IQR = {r["year"]: (r["q1"], r["q3"]) for r in _O["panel_B_eu"]}
+_A = _O["panel_A_2023"]; _P = _O["panel_A_eu_points_2023"]["values"]; _B = _O["panel_B_eu"]
 W, H = 1000, 440
 g = []
-# panel A: box plots, 2023
+# panel A: EU countries as dots over a box plot; US states as a box plot, 2023
 ax0, ax1, top, bot, lo, hi = 70, 400, 56, 380, 2.5, 6.0
 Y = lambda v: bot - (v - lo) / (hi - lo) * (bot - top)
 g.append(t(0, 18, "A. Share of employment spent on regulatory tasks, 2023", 14, INK, weight=600))
-g.append(t(0, 38, "Countries (EU) and states (US); %", 12.5, MUTED))
+g.append(t(0, 38, "Each dot is one EU country; %", 12.5, MUTED))
 for v in (2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0):
     g.append(f'<line x1="{ax0}" x2="{ax1}" y1="{Y(v):.1f}" y2="{Y(v):.1f}" stroke="{LINE}"></line>' + t(ax0 - 8, Y(v) + 4, f"{v:.1f}", 12, MUTED, "end"))
 for i, (key, lab, c) in enumerate((("EU countries", "EU countries", EU), ("US states and territories", "US states", US))):
-    a = _A[key]; cx = ax0 + 95 + i * 150; bw = 64
-    g.append(f'<line x1="{cx}" x2="{cx}" y1="{Y(a["max"]):.1f}" y2="{Y(a["min"]):.1f}" stroke="{INK2}" stroke-width="1.5"></line>')
-    for v in (a["min"], a["max"]):
+    a = _A[key]; cx = ax0 + 95 + i * 160; bw = 70
+    top_w = a["max"]
+    g.append(f'<line x1="{cx}" x2="{cx}" y1="{Y(top_w):.1f}" y2="{Y(a["min"]):.1f}" stroke="{INK2}" stroke-width="1.5"></line>')
+    for v in (a["min"], top_w):
         g.append(f'<line x1="{cx - 12}" x2="{cx + 12}" y1="{Y(v):.1f}" y2="{Y(v):.1f}" stroke="{INK2}" stroke-width="1.5"></line>')
-    g.append(f'<rect x="{cx - bw / 2}" y="{Y(a["q3"]):.1f}" width="{bw}" height="{Y(a["q1"]) - Y(a["q3"]):.1f}" fill="{c}" fill-opacity="0.85"><title>{lab}: quartiles {a["q1"]:.1f}–{a["q3"]:.1f}%, median {a["median"]:.1f}%</title></rect>')
-    g.append(f'<line x1="{cx - bw / 2}" x2="{cx + bw / 2}" y1="{Y(a["median"]):.1f}" y2="{Y(a["median"]):.1f}" stroke="#FFFFFF" stroke-width="3"></line>')
+    fill = "#FFFFFF" if i == 0 else c
+    g.append(f'<rect x="{cx - bw / 2}" y="{Y(a["q3"]):.1f}" width="{bw}" height="{Y(a["q1"]) - Y(a["q3"]):.1f}" fill="{fill}" fill-opacity="{0.6 if i == 0 else 0.85}" stroke="{c if i == 0 else "none"}" stroke-width="1.5"><title>{lab}: middle half {a["q1"]:.1f}–{a["q3"]:.1f}%, median {a["median"]:.1f}%</title></rect>')
+    g.append(f'<line x1="{cx - bw / 2}" x2="{cx + bw / 2}" y1="{Y(a["median"]):.1f}" y2="{Y(a["median"]):.1f}" stroke="{INK if i == 0 else "#FFFFFF"}" stroke-width="3"></line>')
     g.append(t(cx + bw / 2 + 8, Y(a["median"]) + 4, f'{a["median"]:.1f}%', 13, INK, weight=600))
-    if a.get("outliers"):
+    if i == 0:
+        for k, v in enumerate(_P):   # deterministic jitter, as in the paper
+            dx = ((k * 37) % 11 - 5) * 4.2
+            g.append(f'<circle cx="{cx + dx:.1f}" cy="{Y(v):.1f}" r="5" fill="{EU}" fill-opacity="0.75" stroke="#FFFFFF" stroke-width="0.8"><title>One EU country: {v:.1f}%</title></circle>')
+    elif a.get("outliers"):
         g.append(f'<circle cx="{cx}" cy="{Y(a["outliers"]):.1f}" r="5" fill="none" stroke="{c}" stroke-width="2"><title>{lab}: outlier {a["outliers"]:.1f}%</title></circle>')
     g.append(t(cx, bot + 24, lab, 13.5, INK, "middle", 600))
-g.append(t(ax0, bot + 50, "Box: middle half; line: median; whiskers: range; circle: outlier", 12, MUTED))
-# panel B: trend, 2011-2024
-bx0, bx1, lo, hi = 520, 990, 2.8, 4.2
-yrs = [r["year"] for r in _T]; y0, y1 = min(yrs), max(yrs)
+g.append(t(ax0, bot + 50, "Box: middle half; line: median; whiskers: range", 12, MUTED))
+# panel B: EU countries over time, mean, median and middle half
+bx0, bx1, lo, hi = 520, 965, 3.4, 4.2
+yrs = [r["year"] for r in _B]; y0, y1 = min(yrs), max(yrs)
 X = lambda yr: bx0 + (yr - y0) / (y1 - y0) * (bx1 - bx0)
 Y = lambda v: bot - (v - lo) / (hi - lo) * (bot - top)
-g.append(t(bx0 - 40, 18, "B. Trend, 2011–2024", 14, INK, weight=600))
-g.append(t(bx0 - 40, 38, "Average across EU countries and US states; %", 12.5, MUTED))
-for v in (2.8, 3.0, 3.2, 3.4, 3.6, 3.8, 4.0, 4.2):
+g.append(t(bx0 - 40, 18, f"B. EU countries, {y0}–{y1}", 14, INK, weight=600))
+g.append(t(bx0 - 40, 38, "Share of employment spent on regulatory tasks; %", 12.5, MUTED))
+for v in (3.4, 3.6, 3.8, 4.0, 4.2):
     g.append(f'<line x1="{bx0}" x2="{bx1}" y1="{Y(v):.1f}" y2="{Y(v):.1f}" stroke="{LINE}"></line>' + t(bx0 - 8, Y(v) + 4, f"{v:.1f}", 12, MUTED, "end"))
 for yr in range(y0, y1 + 1, 2):
     g.append(t(X(yr), bot + 20, str(yr), 12, MUTED, "middle"))
-band = sorted(_IQR)
-pts = [(X(yr), Y(_IQR[yr][1])) for yr in band] + [(X(yr), Y(_IQR[yr][0])) for yr in reversed(band)]
+pts = [(X(r["year"]), Y(r["q3"])) for r in _B] + [(X(r["year"]), Y(r["q1"])) for r in reversed(_B)]
 g.append('<polygon points="' + " ".join(f"{x:.1f},{y:.1f}" for x, y in pts) + f'" fill="{EU}" fill-opacity="0.15"><title>Middle half of EU countries</title></polygon>')
-for key, lab, c in (("europe", "EU", EU), ("us", "US", US)):
-    ps = [(r["year"], r[key]) for r in _T if r[key]]
-    g.append(f'<polyline points="' + " ".join(f"{X(a):.1f},{Y(b):.1f}" for a, b in ps) + f'" fill="none" stroke="{c}" stroke-width="3"></polyline>')
-    for a, b in (ps[0], ps[-1]):
-        g.append(f'<circle cx="{X(a):.1f}" cy="{Y(b):.1f}" r="4" fill="{c}"><title>{lab} {a}: {b:.1f}%</title></circle>')
-    a, b = ps[-1]; g.append(t(X(a) - 4, Y(b) - 12, f"{lab} {b:.1f}%", 13, INK, "end", 600))
-    a, b = ps[0]; g.append(t(X(a) + 4, Y(b) - 12, f"{b:.1f}%", 12.5, INK2))
-g.append(f'<rect x="{bx0}" y="{bot + 38}" width="14" height="10" fill="{EU}" fill-opacity="0.15"></rect>' + t(bx0 + 20, bot + 47, "Middle half of EU countries", 12, MUTED))
-eu = [r for r in _T if r["europe"]]; us = [r for r in _T if r["us"]]
+g.append('<polyline points="' + " ".join(f'{X(r["year"]):.1f},{Y(r["median"]):.1f}' for r in _B) + f'" fill="none" stroke="{INK2}" stroke-width="2" stroke-dasharray="3 4"></polyline>')
+g.append('<polyline points="' + " ".join(f'{X(r["year"]):.1f},{Y(r["mean"]):.1f}' for r in _B) + f'" fill="none" stroke="{EU}" stroke-width="3"></polyline>')
+for r in (_B[0], _B[-1]):
+    g.append(f'<circle cx="{X(r["year"]):.1f}" cy="{Y(r["mean"]):.1f}" r="4" fill="{EU}"><title>Mean {r["year"]}: {r["mean"]:.1f}%</title></circle>')
+g.append(t(X(_B[0]["year"]) + 4, Y(_B[0]["mean"]) - 12, f'{_B[0]["mean"]:.1f}%', 12.5, INK2))
+g.append(t(X(_B[-1]["year"]) - 4, Y(_B[-1]["mean"]) - 14, f'{_B[-1]["mean"]:.1f}%', 13, INK, "end", 600))
+ly = bot + 42
+g.append(f'<line x1="{bx0}" x2="{bx0 + 22}" y1="{ly}" y2="{ly}" stroke="{EU}" stroke-width="3"></line>' + t(bx0 + 28, ly + 4, "Mean", 12, INK2))
+g.append(f'<line x1="{bx0 + 80}" x2="{bx0 + 102}" y1="{ly}" y2="{ly}" stroke="{INK2}" stroke-width="2" stroke-dasharray="3 4"></line>' + t(bx0 + 108, ly + 4, "Median", 12, INK2))
+g.append(f'<rect x="{bx0 + 170}" y="{ly - 5}" width="16" height="10" fill="{EU}" fill-opacity="0.15"></rect>' + t(bx0 + 192, ly + 4, "Middle half of countries", 12, INK2))
 charts["oecd_regulation"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Share of employment spent on regulatory tasks. 2023: median '
-    f'{_A["EU countries"]["median"]:.1f}% across EU countries against {_A["US states and territories"]["median"]:.1f}% across US states. Trend: EU average from '
-    f'{eu[0]["europe"]:.1f}% in {eu[0]["year"]} to {eu[-1]["europe"]:.1f}% in {eu[-1]["year"]}; US average from {us[0]["us"]:.1f}% in {us[0]["year"]} to {us[-1]["us"]:.1f}% in {us[-1]["year"]}">' + "".join(g) + "</svg>")
+    f'{_A["EU countries"]["median"]:.1f}% across {len(_P)} EU countries, ranging from {min(_P):.1f}% to {max(_P):.1f}%, against {_A["US states and territories"]["median"]:.1f}% across US states. '
+    f'EU countries, {y0}–{y1}: mean from {_B[0]["mean"]:.1f}% to {_B[-1]["mean"]:.1f}%">' + "".join(g) + "</svg>")
 
 json.dump(charts, open("site/why_charts.json", "w"), ensure_ascii=False)
 print({k: len(v) for k, v in charts.items()})

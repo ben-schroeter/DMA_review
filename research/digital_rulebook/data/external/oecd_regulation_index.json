@@ -208,5 +208,37 @@
    "australia": 3.71659347488568
   }
  ],
- "wp_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/01/regulatory-compliance-costs-and-productivity_713f0b58/1c1da52e-en.pdf"
+ "wp_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/01/regulatory-compliance-costs-and-productivity_713f0b58/1c1da52e-en.pdf",
+ "panel_A_eu_points_2023": {
+  "values": [
+   3.18516323240274,
+   3.313,
+   3.387,
+   3.417,
+   3.435,
+   3.522,
+   3.543,
+   3.596,
+   3.609,
+   3.726,
+   3.73,
+   3.766,
+   3.881,
+   3.88857606005594,
+   3.889,
+   3.9,
+   3.907,
+   3.919,
+   3.995,
+   4.013,
+   4.104,
+   4.116,
+   4.27,
+   4.3,
+   4.3,
+   4.75820784583729,
+   5.71
+  ],
+  "how": "Read off the published chart (Andrews, Turban and Tyros 2026, Figure 4, Panel A; dots are not labelled by country), calibrated on the axis gridlines; minimum, maximum, outlier and median set to the OECD StatLink values. 27 countries: EU except Bulgaria, Malta and Slovenia, plus Iceland, Norway and Switzerland. Accuracy about +/-0.01."
+ }
 }
