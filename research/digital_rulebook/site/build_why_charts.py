@@ -114,7 +114,7 @@ for lab, v, prev, src in rows:
     g.append(t(X(v) + 42, y + 28, src, 11, MUTED))
     y += rh
 H = y + 4
-charts["firm_barriers"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Regulation as a brake on business and on AI, six surveys: '
+charts["firm_barriers"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Regulation as a brake on business and on AI, seven surveys: '
                            + "; ".join(f"{lab} {v:.0f}% ({src})" for lab, v, p_, src in rows).replace("&amp;", "and") + '">' + "".join(g) + "</svg>")
 
 # 6. Andrew McAfee (MIT): public from-scratch companies under 50 years old with $10bn+ market cap, US vs EU (26 Nov 2024).
