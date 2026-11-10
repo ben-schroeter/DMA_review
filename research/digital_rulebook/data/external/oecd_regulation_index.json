@@ -1,0 +1,212 @@
+{
+ "source": "Andrews, Turban and Tyros (2026), Regulatory compliance costs and productivity: new task-based evidence, OECD Economics Department Working Papers No. 1856, Figure 4 Panels A and B; data from OECD Economic Outlook 2025/2, chapter 2, Figures 2.3 and 2.4 (StatLinks https://stat.link/83lfuk and https://stat.link/k029eg, 2 December 2025)",
+ "measure": "Employment-weighted sum of occupations' regulation task intensity scores: share of employment devoted to regulatory tasks, %",
+ "note_panel_A": "Box: first to third quartile; dot: median; whiskers to min/max unless beyond 1.5 x IQR, then outliers. US excludes DC. EU countries exclude Bulgaria, Malta and Slovenia and include Iceland, Norway, Switzerland and the UK (to 2019).",
+ "note_panel_B": "Shaded area: interquartile range across EU countries (columns labelled Min/Max in the StatLink file hold the quartiles).",
+ "panel_A_2023": {
+  "Australia states and territories": {
+   "q1": 3.66920994260451,
+   "q3": 3.92053155850826,
+   "median": 3.86589344038148,
+   "min": 3.6428176605393,
+   "max": 4.0151256050559,
+   "outliers": null
+  },
+  "EU countries": {
+   "q1": 3.570645340847305,
+   "q3": 4.0601008405278005,
+   "median": 3.88857606005594,
+   "min": 3.18516323240274,
+   "max": 4.75820784583729,
+   "outliers": 5.71
+  },
+  "US states and territories": {
+   "q1": 2.98218471481396,
+   "q3": 3.22174955336812,
+   "median": 3.08962790848748,
+   "min": 2.76598640261157,
+   "max": 3.56287164564477,
+   "outliers": 3.64
+  }
+ },
+ "panel_B_eu": [
+  {
+   "year": 2011,
+   "mean": 3.68677944235907,
+   "median": 3.67418864213609,
+   "q1": 3.47095464282527,
+   "q3": 3.80428813401663
+  },
+  {
+   "year": 2012,
+   "mean": 3.70927686603971,
+   "median": 3.64162686840989,
+   "q1": 3.51139251692117,
+   "q3": 3.85986432281915
+  },
+  {
+   "year": 2013,
+   "mean": 3.73844649648891,
+   "median": 3.65332118553455,
+   "q1": 3.56144341892437,
+   "q3": 3.84668526810885
+  },
+  {
+   "year": 2014,
+   "mean": 3.74628046882262,
+   "median": 3.6639916367008,
+   "q1": 3.48351904150526,
+   "q3": 3.89837013613612
+  },
+  {
+   "year": 2015,
+   "mean": 3.72897462915043,
+   "median": 3.68791045534992,
+   "q1": 3.40250579841929,
+   "q3": 3.96158434833997
+  },
+  {
+   "year": 2016,
+   "mean": 3.74443559638324,
+   "median": 3.74632376435786,
+   "q1": 3.4176660690995,
+   "q3": 4.00691598557403
+  },
+  {
+   "year": 2017,
+   "mean": 3.75586021006791,
+   "median": 3.77881037461223,
+   "q1": 3.40846291095079,
+   "q3": 3.97194063340382
+  },
+  {
+   "year": 2018,
+   "mean": 3.78144178892232,
+   "median": 3.75431797335236,
+   "q1": 3.42557472872664,
+   "q3": 4.04341816718008
+  },
+  {
+   "year": 2019,
+   "mean": 3.81426580648094,
+   "median": 3.83917781647343,
+   "q1": 3.4921790592831,
+   "q3": 4.07079128312775
+  },
+  {
+   "year": 2020,
+   "mean": 3.87954931012078,
+   "median": 3.92770402066321,
+   "q1": 3.4746056829077,
+   "q3": 4.15219324270512
+  },
+  {
+   "year": 2021,
+   "mean": 3.88133333218209,
+   "median": 3.83923428113623,
+   "q1": 3.52558042207913,
+   "q3": 4.10104611180631
+  },
+  {
+   "year": 2022,
+   "mean": 3.8411616150501,
+   "median": 3.81747305588055,
+   "q1": 3.50137730664015,
+   "q3": 4.04961762853872
+  },
+  {
+   "year": 2023,
+   "mean": 3.89650757862878,
+   "median": 3.88857606005594,
+   "q1": 3.5706453408473,
+   "q3": 4.0601008405278
+  }
+ ],
+ "trend_by_region": [
+  {
+   "year": 2011,
+   "us": null,
+   "europe": 3.68677944235907,
+   "australia": null
+  },
+  {
+   "year": 2012,
+   "us": 2.89843830243463,
+   "europe": 3.70927686603971,
+   "australia": 3.58906983173541
+  },
+  {
+   "year": 2013,
+   "us": 2.90071171947502,
+   "europe": 3.73844649648891,
+   "australia": 3.56437031540191
+  },
+  {
+   "year": 2014,
+   "us": 2.90456675833073,
+   "europe": 3.74628046882262,
+   "australia": 3.54740114513456
+  },
+  {
+   "year": 2015,
+   "us": 2.91270265771008,
+   "europe": 3.72897462915043,
+   "australia": 3.57311512485563
+  },
+  {
+   "year": 2016,
+   "us": 2.92874394891096,
+   "europe": 3.74443559638324,
+   "australia": 3.58358492870211
+  },
+  {
+   "year": 2017,
+   "us": 2.94189090393125,
+   "europe": 3.75586021006791,
+   "australia": 3.62099265288045
+  },
+  {
+   "year": 2018,
+   "us": 2.97260588648325,
+   "europe": 3.78144178892232,
+   "australia": 3.61067717185049
+  },
+  {
+   "year": 2019,
+   "us": 2.94275354334995,
+   "europe": 3.81426580648094,
+   "australia": 3.64749236553795
+  },
+  {
+   "year": 2020,
+   "us": 3.03558904270722,
+   "europe": 3.87954931012078,
+   "australia": 3.74033408848556
+  },
+  {
+   "year": 2021,
+   "us": 3.13218905821307,
+   "europe": 3.88133333218209,
+   "australia": 3.76264362332561
+  },
+  {
+   "year": 2022,
+   "us": 3.15026913258275,
+   "europe": 3.8411616150501,
+   "australia": 3.78790474293106
+  },
+  {
+   "year": 2023,
+   "us": 3.16364549671254,
+   "europe": 3.89650757862878,
+   "australia": 3.7434479323444
+  },
+  {
+   "year": 2024,
+   "us": 3.18857173517531,
+   "europe": null,
+   "australia": 3.71659347488568
+  }
+ ],
+ "wp_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/01/regulatory-compliance-costs-and-productivity_713f0b58/1c1da52e-en.pdf"
+}
