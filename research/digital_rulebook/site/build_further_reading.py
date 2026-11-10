@@ -70,7 +70,7 @@ READING = {
          "note": "Measures Europe's lag behind the US and China in transversal technologies and what it costs in growth."},
         {"title": "OECD Economic Outlook, Volume 2025 Issue 2: Resilient Growth but with Increasing Fragilities", "by": "OECD", "where": "OECD, December 2025 · Chapter 2: Time for a Regulatory Reset?",
          "url": "https://www.oecd.org/en/publications/2025/12/oecd-economic-outlook-volume-2025-issue-2_413f7d0a/full-report/time-for-a-regulatory-reset_90ca6147.html", "cover": "/_blob/6b00746d071a28a5a2fe67f7b166d68a",
-         "note": "Chapter 2 finds that firms devote a material and rising share of their staff to regulatory compliance, more in Europe than in the US, and that rising compliance costs have weighed on productivity and young firms. It sets out a five-part reset: better regulatory governance, more dynamism-friendly product and labour market rules, fewer barriers to building, rules that let firms use digital technologies and AI, and energy rules fit for abundance."},
+         "note": "Finds that firms devote a material and rising share of their staff to regulatory compliance, more in Europe than in the US, and that rising compliance costs have weighed on productivity and young firms."},
         {"title": "EU Innovation Policy: How to Escape the Middle Technology Trap", "by": "Clemens Fuest, Daniel Gros, Philipp-Leo Mengel, Giorgio Presidente and Jean Tirole",
          "where": "European Policy Analysis Group (EconPol, Bocconi, TSE), 2024", "url": "https://www.ifo.de/en/econpol/publications/2024/working-paper/eu-innovation-policy-how-escape-middle-technology-trap", "cover": "/_blob/b2896db0c60c259cfdc7048910b765dc",
          "note": "Why EU firms are stuck in mid-tech industries, and what innovation policy could do about it."},
@@ -79,7 +79,7 @@ READING = {
          "note": "Argues that the digital rulebook has become cumbersome and sometimes hampers trade, and sets out how the simplification package could fix it."},
         {"title": "Efficiency and Distribution in the European Union's Digital Deregulation Push", "by": "Mario Mariniello", "where": "Bruegel Policy Brief 31/2025, November 2025",
          "url": "https://www.bruegel.org/sites/default/files/2025-11/PB%2031%202025_0.pdf", "cover": "/_blob/ad44c6ffeefaa3861fc24ba370dac716",
-         "note": "A counterpoint: argues the Commission's deregulation push lacks evidence-based analysis and overlooks who gains and who loses, and offers a framework that separates efficiency from distributive effects."},
+         "note": "Argues the Commission's deregulation push lacks evidence-based analysis and overlooks who gains and who loses, and offers a framework that separates efficiency from distributive effects."},
     ],
 }
 esc = lambda s: html.escape(s, quote=True)
