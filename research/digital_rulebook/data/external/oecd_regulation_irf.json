@@ -1,0 +1,154 @@
+{
+ "source": "Andrews, Turban and Tyros (2026), Regulatory compliance costs and productivity: new task-based evidence, OECD Economics Department Working Papers No. 1856, Figure 7",
+ "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/01/regulatory-compliance-costs-and-productivity_713f0b58/1c1da52e-en.pdf",
+ "what": "Local projections across US states: response to an average-sized yearly increase in regulatory compliance costs (median annual absolute change in the log of the regulation index), years 0-5 after the shock.",
+ "how": "Read off the published chart by colour (estimate line, 68% and 90% confidence bands), calibrated on the axis ticks; year-5 estimates match the text (-0.18% and -0.16 points).",
+ "productivity_pct": [
+  {
+   "year": 0,
+   "est": -0.0552,
+   "ci68": [
+    -0.1014,
+    -0.009
+   ],
+   "ci90": [
+    -0.1331,
+    0.0227
+   ]
+  },
+  {
+   "year": 1,
+   "est": -0.0848,
+   "ci68": [
+    -0.1908,
+    0.0213
+   ],
+   "ci90": [
+    -0.2601,
+    0.0891
+   ]
+  },
+  {
+   "year": 2,
+   "est": -0.0061,
+   "ci68": [
+    -0.1533,
+    0.1425
+   ],
+   "ci90": [
+    -0.2486,
+    0.2392
+   ]
+  },
+  {
+   "year": 3,
+   "est": -0.1187,
+   "ci68": [
+    -0.2615,
+    0.0227
+   ],
+   "ci90": [
+    -0.3539,
+    0.1151
+   ]
+  },
+  {
+   "year": 4,
+   "est": -0.175,
+   "ci68": [
+    -0.3452,
+    -0.0047
+   ],
+   "ci90": [
+    -0.4563,
+    0.1064
+   ]
+  },
+  {
+   "year": 5,
+   "est": -0.1764,
+   "ci68": [
+    -0.3452,
+    -0.0076
+   ],
+   "ci90": [
+    -0.4549,
+    0.1021
+   ]
+  }
+ ],
+ "young_firms_pp": [
+  {
+   "year": 0,
+   "est": -0.0269,
+   "ci68": [
+    -0.0358,
+    -0.018
+   ],
+   "ci90": [
+    -0.0418,
+    -0.012
+   ]
+  },
+  {
+   "year": 1,
+   "est": -0.013,
+   "ci68": [
+    -0.0309,
+    0.0038
+   ],
+   "ci90": [
+    -0.0418,
+    0.0157
+   ]
+  },
+  {
+   "year": 2,
+   "est": 0.0108,
+   "ci68": [
+    -0.0378,
+    0.0584
+   ],
+   "ci90": [
+    -0.0695,
+    0.0901
+   ]
+  },
+  {
+   "year": 3,
+   "est": -0.0209,
+   "ci68": [
+    -0.0705,
+    0.0296
+   ],
+   "ci90": [
+    -0.1032,
+    0.0623
+   ]
+  },
+  {
+   "year": 4,
+   "est": -0.1221,
+   "ci68": [
+    -0.2043,
+    -0.0408
+   ],
+   "ci90": [
+    -0.2579,
+    0.0118
+   ]
+  },
+  {
+   "year": 5,
+   "est": -0.1622,
+   "ci68": [
+    -0.2678,
+    -0.0566
+   ],
+   "ci90": [
+    -0.3372,
+    0.0128
+   ]
+  }
+ ]
+}

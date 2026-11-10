@@ -368,5 +368,42 @@ charts["oecd_regulation"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img
     f'{_A["EU countries"]["median"]:.1f}% across {len(_P)} EU countries, ranging from {min(_P):.1f}% to {max(_P):.1f}%, against {_A["US states and territories"]["median"]:.1f}% across {len(_PU)} US states and territories, ranging from {min(_PU):.1f}% to {max(_PU):.1f}%. '
     f'EU countries, {y0}–{y1}: mean from {_B[0]["mean"]:.1f}% to {_B[-1]["mean"]:.1f}%">' + "".join(g) + "</svg>")
 
+
+# OECD (Andrews, Turban and Tyros 2026, Figure 7): impulse responses to an average-sized yearly increase in regulatory costs, US states
+_R = json.load(open("data/external/oecd_regulation_irf.json"))
+W, H = 1000, 425
+g = []
+top, bot = 60, 330
+for pi, (key, head, sub, lo, hi, step, unit) in enumerate((
+        ("productivity_pct", "A. Output per worker", "% relative to no increase", -0.5, 0.3, 0.1, "%"),
+        ("young_firms_pp", "B. Share of workers in young firms", "Percentage points relative to no increase", -0.35, 0.1, 0.05, ""))):
+    x0 = 60 + pi * 510; x1 = x0 + 420
+    rows = _R[key]
+    X = lambda yr: x0 + yr / 5 * (x1 - x0)
+    Y = lambda v: bot - (v - lo) / (hi - lo) * (bot - top)
+    g.append(t(x0 - 50, 18, head, 14, INK, weight=600)); g.append(t(x0 - 50, 38, sub, 12.5, MUTED))
+    k = 0
+    while lo + k * step <= hi + 1e-9:
+        v = round(lo + k * step, 2); k += 1
+        g.append(f'<line x1="{x0}" x2="{x1}" y1="{Y(v):.1f}" y2="{Y(v):.1f}" stroke="{BASE if abs(v) < 1e-9 else LINE}" stroke-width="{1.5 if abs(v) < 1e-9 else 1}"></line>')
+        g.append(t(x0 - 8, Y(v) + 4, (f"{v:.1f}{unit}" if pi == 0 else f"{v:.2f}").replace("-", "−"), 12, MUTED, "end"))
+    for lohi, op, lab in (("ci90", 0.16, "90%"), ("ci68", 0.30, "68%")):
+        pts = [(X(r["year"]), Y(r[lohi][1])) for r in rows] + [(X(r["year"]), Y(r[lohi][0])) for r in reversed(rows)]
+        g.append('<polygon points="' + " ".join(f"{x:.1f},{y:.1f}" for x, y in pts) + f'" fill="{EU}" fill-opacity="{op}"><title>{lab} confidence interval</title></polygon>')
+    g.append('<polyline points="' + " ".join(f'{X(r["year"]):.1f},{Y(r["est"]):.1f}' for r in rows) + f'" fill="none" stroke="{EU}" stroke-width="3"></polyline>')
+    for r in rows:
+        g.append(f'<circle cx="{X(r["year"]):.1f}" cy="{Y(r["est"]):.1f}" r="3.5" fill="{EU}"><title>Year {r["year"]}: {r["est"]:.2f}{unit or " points"}</title></circle>')
+        g.append(t(X(r["year"]), bot + 20, str(r["year"]), 12, MUTED, "middle"))
+    e = rows[-1]["est"]
+    g.append(t(X(5) - 6, Y(e) + 20, (f"{e:.2f}{unit}" if pi == 0 else f"{e:.2f} points").replace("-", "−"), 13, INK, "end", 600))
+    g.append(t((x0 + x1) / 2, bot + 42, "Years after the increase", 12.5, INK2, "middle"))
+ly = H - 14
+g.append(f'<line x1="10" x2="32" y1="{ly - 4}" y2="{ly - 4}" stroke="{EU}" stroke-width="3"></line>' + t(38, ly, "Estimate", 12, INK2))
+g.append(f'<rect x="110" y="{ly - 10}" width="16" height="11" fill="{EU}" fill-opacity="0.46"></rect>' + t(132, ly, "68% confidence", 12, INK2))
+g.append(f'<rect x="240" y="{ly - 10}" width="16" height="11" fill="{EU}" fill-opacity="0.16"></rect>' + t(262, ly, "90% confidence", 12, INK2))
+pr, yf = _R["productivity_pct"][-1]["est"], _R["young_firms_pp"][-1]["est"]
+charts["oecd_regulation_irf"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Effect of an average-sized yearly increase in regulatory compliance costs across US states: '
+    f'after five years output per worker is about {abs(pr):.2f}% lower and the share of workers in young firms about {abs(yf):.2f} percentage points lower than without the increase">' + "".join(g) + "</svg>")
+
 json.dump(charts, open("site/why_charts.json", "w"), ensure_ascii=False)
 print({k: len(v) for k, v in charts.items()})
