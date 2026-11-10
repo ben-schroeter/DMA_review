@@ -94,6 +94,8 @@ charts["mckinsey_digital"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="im
 # 4. What firms say: regulation as a brake on business and on AI, six surveys, one compact chart (0-100%)
 rows = [("German firms: data-protection rules are the biggest brake on digitalisation", 77, "Bitkom 2026",
          "https://www.bitkom.org/sites/main/files/2026-03/bitkom-praesentation-digitaliserung-der-wirtschaft-2026.pdf"),
+        ("Businesses: difficulty understanding their AI Act obligations", 69.5, "IAPP EU Digital Laws Report 2025",
+         "https://iapp.org/resources/article/eu-digital-laws-report"),
         ("EU firms: regulation limits their investment", 69, "EIB Investment Survey 2025",
          "https://www.eib.org/attachments/lucalli/20250216-141025-econ-eibis-2025-eu-en.pdf"),
         ("EU SMEs: administrative burden is a persistent challenge", 64, "Flash Eurobarometer, July 2025",
@@ -102,7 +104,6 @@ rows = [("German firms: data-protection rules are the biggest brake on digitalis
          "https://ec.europa.eu/eurostat/databrowser/view/isoc_eb_ai/default/table?lang=en"),
         ("EU firms weighing AI: data-protection concerns held them back", 52.72, "Eurostat 2025",
          "https://ec.europa.eu/eurostat/databrowser/view/isoc_eb_ai/default/table?lang=en"),
-        ("Spanish companies: compliance is the main obstacle to innovation", 46, "Deloitte, Spain", None),
         ("EU SMEs: more than 10% of staff work on compliance", 28, "Single Market &amp; Competitiveness Report 2025",
          "https://single-market-economy.ec.europa.eu/publications/2025-annual-single-market-and-competitiveness-report_en")]
 W, BW, rh = 560, 300, 40
@@ -113,15 +114,15 @@ for lab, v, src, url in rows:
     g.append(t(0, y + 11, lab, 12.5, INK2))
     g.append(f'<rect x="0" y="{y + 17}" width="{BW}" height="12" fill="{LINE}" fill-opacity="0.6"></rect>')
     g.append(f'<rect x="0" y="{y + 17}" width="{X(v):.1f}" height="12" fill="{EU}"><title>{lab}: {v:.0f}%</title></rect>')
-    g.append(t(X(v) + 7, y + 28, f"{v:.0f}%", 12.5, INK, weight=600))
+    g.append(t(X(v) + 7, y + 28, "~70%" if v == 69.5 else f"{v:.0f}%", 12.5, INK, weight=600))
     if url:
-        g.append(f'<a href="{url}" target="_blank" rel="noopener">' + t(X(v) + 42, y + 28, src, 11, "#8F6708").replace("<text ", '<text text-decoration="underline" ', 1) + "</a>")
+        g.append(f'<a href="{url}" target="_blank" rel="noopener">' + t(X(v) + (52 if v == 69.5 else 42), y + 28, src, 11, "#8F6708").replace("<text ", '<text text-decoration="underline" ', 1) + "</a>")
     else:
         g.append(t(X(v) + 42, y + 28, src, 11, MUTED))
     y += rh
 H = y + 4
 charts["firm_barriers"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Regulation as a brake on business and on AI, seven surveys: '
-                           + "; ".join(f"{lab} {v:.0f}% ({src})" for lab, v, src, u_ in rows).replace("&amp;", "and") + '">' + "".join(g) + "</svg>")
+                           + "; ".join(f"{lab} {'nearly 7 in 10' if v == 69.5 else f'{v:.0f}%'} ({src})" for lab, v, src, u_ in rows).replace("&amp;", "and") + '">' + "".join(g) + "</svg>")
 
 # 6. Andrew McAfee (MIT): public from-scratch companies under 50 years old with $10bn+ market cap, US vs EU (26 Nov 2024).
 # Totals only, as printed on his chart; circle AREA proportional to total market cap.
