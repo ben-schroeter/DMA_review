@@ -11,7 +11,15 @@ PROC = {
  "digital-euro": ["2023/0212(COD)"], "fida": ["2023/0205(COD)"], "csar": ["2022/0155(COD)"], "digital-travel": ["2024/0670(COD)"],
  "space-act": ["2025/0335(COD)"], "infosec": ["2022/0084(COD)"], "late-payment": ["2023/0323(COD)"], "psr": ["2023/0210(COD)"],
  "psd3": ["2023/0209(COD)"], "csa-directive": ["2024/0035(COD)"],
+ "digital-fairness-act": ["2026/0356(COD)", "2026/0357(COD)"], "cpc-review": ["2026/0358(COD)"],
 }
+# documents adopted on 11 November 2026 and not yet on EUR-Lex: link the Commission document pages or the register instead
+DOC_URL = {"COM(2026)1100": "https://commission.europa.eu/document/0575d59f-554f-4a9e-b54b-e6b717175809_en",
+           "COM(2026)1110": "https://commission.europa.eu/document/f3b0c009-d27e-45e2-b253-e291f7d9254f_en",
+           "COM(2026)1120": "https://commission.europa.eu/document/9c63e001-7dae-4d07-90ff-3efb4961490b_en"}
+for _r in ("SWD(2026)1100", "SWD(2026)1101", "SWD(2026)1102", "SWD(2026)1120", "SWD(2026)1121", "SWD(2026)1122"):
+    DOC_URL[_r] = f"https://ec.europa.eu/transparency/documents-register/detail?ref={_r}&lang=en"
+
 # Council: (date, what, reference, url, kind) with kind "mandate" (Council position), "agreement", or "note"
 COUNCIL = {
  "digital-euro": [("19 Dec 2025", "Council negotiating position on the digital euro and the legal tender of cash", "Press release",

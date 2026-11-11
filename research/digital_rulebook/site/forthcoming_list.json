@@ -608,22 +608,26 @@
  {
   "id": "digital-fairness-act",
   "name": "Digital Fairness Act",
-  "stage": "announced",
+  "stage": "proposed",
   "law_id": null,
   "policy_area": "E-commerce & Consumer Protection",
-  "procedure": "CWP 2026",
-  "proposal": "",
+  "procedure": "2026/0356(COD), 2026/0357(COD)",
+  "proposal": "Nov 2026",
   "parliament_position": "",
   "council_position": "",
   "trilogues": "",
   "agreement": "",
-  "expected_proposal": "11 Nov 2026 (indicative)",
+  "expected_proposal": "",
   "target_for_agreement": "—",
-  "latest": "On the Commission's indicative agenda for 11 November 2026, in a consumer package with the consumer enforcement initiative.",
+  "latest": "Proposed on 11 November 2026, with a directive simplifying the Consumer Rights Directive and the revision of the Consumer Protection Cooperation Regulation; awaits referral to a Parliament committee.",
   "page": "Fc-digital-fairness-act.dc.html",
-  "impact_assessment": "",
-  "impact_assessment_docs": [],
-  "impact_assessment_urls": []
+  "impact_assessment": "full",
+  "impact_assessment_docs": [
+   "SWD(2026) 1101"
+  ],
+  "impact_assessment_urls": [
+   "https://ec.europa.eu/transparency/documents-register/detail?ref=SWD(2026)1101&lang=en"
+  ]
  },
  {
   "id": "quantum-act",
@@ -647,23 +651,27 @@
  },
  {
   "id": "cpc-review",
-  "name": "Review of the Consumer Protection Cooperation Regulation",
-  "stage": "announced",
+  "name": "Revision of the Consumer Protection Cooperation Regulation",
+  "stage": "proposed",
   "law_id": null,
   "policy_area": "E-commerce & Consumer Protection",
-  "procedure": "Roadmap",
-  "proposal": "",
+  "procedure": "2026/0358(COD)",
+  "proposal": "Nov 2026",
   "parliament_position": "",
   "council_position": "",
   "trilogues": "",
   "agreement": "",
-  "expected_proposal": "11 Nov 2026 (indicative)",
+  "expected_proposal": "",
   "target_for_agreement": "Q4 2027",
-  "latest": "On the Commission's indicative agenda for 11 November 2026 as the consumer enforcement initiative, with the Digital Fairness Act.",
+  "latest": "Proposed on 11 November 2026 in the consumer package with the Digital Fairness Act; awaits referral to a Parliament committee. The roadmap targets agreement by Q4 2027.",
   "page": "Fc-cpc-review.dc.html",
-  "impact_assessment": "",
-  "impact_assessment_docs": [],
-  "impact_assessment_urls": []
+  "impact_assessment": "full",
+  "impact_assessment_docs": [
+   "SWD(2026) 1121"
+  ],
+  "impact_assessment_urls": [
+   "https://ec.europa.eu/transparency/documents-register/detail?ref=SWD(2026)1121&lang=en"
+  ]
  },
  {
   "id": "antitrust-procedure",

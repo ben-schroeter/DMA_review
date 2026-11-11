@@ -1,7 +1,32 @@
 {
- "name": "Digital Fairness Act (announced)",
- "impact_assessment": "not yet: proposal expected 11 November 2026",
+ "name": "Digital Fairness Act (proposed)",
+ "impact_assessment": "full: SWD(2026) 1101 (Regulatory Scrutiny Board: positive with reservations, 3 July 2026)",
  "literature": [
+  {
+   "id": "ec-2026-dfa-impact-assessment",
+   "citation": "European Commission (2026), Impact assessment report accompanying the Digital Fairness Act and the simplification of consumer protection rules, SWD(2026) 1101",
+   "authors": "European Commission",
+   "year": 2026,
+   "title": "Impact assessment report: Digital Fairness Act and simplification of consumer protection rules",
+   "venue": "SWD(2026) 1101",
+   "url": "https://ec.europa.eu/transparency/documents-register/detail?ref=SWD(2026)1101&lang=en",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante assessment",
+   "outcomes": "",
+   "direction": "",
+   "headline": "The Commission's impact assessment for the Digital Fairness Act and the Consumer Rights Directive simplification; the Commission expects the consumer package to save EU consumers up to EUR 13.7 billion a year. The Regulatory Scrutiny Board gave a positive opinion with reservations on 3 July 2026.",
+   "summary_plain": "",
+   "period_geography": "EU",
+   "quality": "",
+   "verified": "proposal explanatory memorandum and press release read; report itself not yet read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-11",
+   "archive_url": "",
+   "category": "evidence",
+   "source_class": "official"
+  },
   {
    "id": "ec-2024-fitness-check-digital-fairness",
    "citation": "European Commission (2024), Fitness check of EU consumer law on digital fairness, SWD(2024) 230",
@@ -179,10 +204,10 @@
   }
  ],
  "celex": "fc-digital-fairness-act",
- "proposal": "",
- "last_reviewed": "2026-11-03",
+ "proposal": "COM(2026) 1100",
+ "last_reviewed": "2026-11-11",
  "indicators": [],
- "evidence_rating": "ex-ante only: not adopted",
+ "evidence_rating": "ex-ante only: proposed, not adopted",
  "evidence_level": "ex-ante only",
  "summary": ""
 }

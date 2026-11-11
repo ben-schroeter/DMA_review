@@ -2031,5 +2031,79 @@
   "swd_links": {
    "SWD(2026)0681": ""
   }
+ },
+ "2026/0356(COD)": {
+  "ref": "2026/0356(COD)",
+  "title": "Digital Fairness Act",
+  "stage": "Preparatory phase in Parliament",
+  "committee": "",
+  "rapporteur": "",
+  "events": [
+   [
+    "11/11/2026",
+    "Legislative proposal published",
+    "COM(2026)1100",
+    "https://commission.europa.eu/document/download/0575d59f-554f-4a9e-b54b-e6b717175809_en?filename=Proposal%20for%20a%20Digital%20Fairness%20Act.pdf"
+   ]
+  ],
+  "swd": [
+   "SWD(2026)1100",
+   "SWD(2026)1101",
+   "SWD(2026)1102"
+  ],
+  "com": [
+   "COM(2026)1100"
+  ],
+  "gateway": [],
+  "council": [],
+  "swd_links": {}
+ },
+ "2026/0357(COD)": {
+  "ref": "2026/0357(COD)",
+  "title": "Simplification of consumer protection rules (Consumer Rights Directive and ePrivacy Directive)",
+  "stage": "Preparatory phase in Parliament",
+  "committee": "",
+  "rapporteur": "",
+  "events": [
+   [
+    "11/11/2026",
+    "Legislative proposal published",
+    "COM(2026)1110",
+    "https://commission.europa.eu/document/download/f3b0c009-d27e-45e2-b253-e291f7d9254f_en?filename=Proposal%20for%20a%20Simplification%20Directive.pdf"
+   ]
+  ],
+  "swd": [],
+  "com": [
+   "COM(2026)1110"
+  ],
+  "gateway": [],
+  "council": [],
+  "swd_links": {}
+ },
+ "2026/0358(COD)": {
+  "ref": "2026/0358(COD)",
+  "title": "Consumer Protection Cooperation Regulation (revision)",
+  "stage": "Preparatory phase in Parliament",
+  "committee": "",
+  "rapporteur": "",
+  "events": [
+   [
+    "11/11/2026",
+    "Legislative proposal published",
+    "COM(2026)1120",
+    "https://commission.europa.eu/document/download/9c63e001-7dae-4d07-90ff-3efb4961490b_en?filename=Proposal%20for%20the%20revision%20of%20the%20CPC%20Regulation.pdf"
+   ]
+  ],
+  "swd": [
+   "SWD(2026)1120",
+   "SWD(2026)1121",
+   "SWD(2026)1122"
+  ],
+  "com": [
+   "COM(2026)1120"
+  ],
+  "gateway": [],
+  "council": [],
+  "swd_links": {}
  }
 }

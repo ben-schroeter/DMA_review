@@ -119,18 +119,18 @@ F = [
       what="Extends SME relief to small mid-caps, narrows the GDPR record-keeping duty and moves product compliance documents to digital.",
       track=["May 2025", "", "", "", "Jun 2026"], target="End 2026",
       latest="Provisional agreement in June 2026, approved by Parliament's committees in July; plenary vote indicatively 23 November 2026."),
- dict(id="digital-fairness-act", name="Digital Fairness Act", stage="announced", area="E-commerce & Consumer Protection", proc="CWP 2026",
-      what="Consumer rules on dark patterns, addictive design, unfair personalisation and subscription traps.",
-      expected="11 Nov 2026 (indicative)", target="—",
-      latest="On the Commission's indicative agenda for 11 November 2026, in a consumer package with the consumer enforcement initiative."),
+ dict(id="digital-fairness-act", name="Digital Fairness Act", stage="proposed", area="E-commerce & Consumer Protection", proc="2026/0356(COD)",
+      what="Turns the Unfair Commercial Practices Directive into a regulation and adds rules on dark patterns, addictive design, personalised ads and prices, influencer marketing and subscriptions.",
+      track=["Nov 2026", None, None, None, None], target="—",
+      latest="Proposed on 11 November 2026, with a directive simplifying the Consumer Rights Directive and the revision of the Consumer Protection Cooperation Regulation; awaits referral to a Parliament committee."),
  dict(id="quantum-act", name="Quantum Act", stage="announced", area="Industrial Policy", proc="CWP 2026",
       what="Support for quantum research, pilot lines and industrial take-up.",
       expected="18 Nov 2026 (indicative; planned Q2)", target="Q3 2027",
       latest="On the Commission's indicative agenda for 18 November 2026."),
- dict(id="cpc-review", name="Review of the Consumer Protection Cooperation Regulation", stage="announced", area="E-commerce & Consumer Protection", row=None, proc="Roadmap",
-      what="Stronger EU-level enforcement of consumer law in cross-border cases.",
-      expected="11 Nov 2026 (indicative)", target="Q4 2027",
-      latest="On the Commission's indicative agenda for 11 November 2026 as the consumer enforcement initiative, with the Digital Fairness Act."),
+ dict(id="cpc-review", name="Revision of the Consumer Protection Cooperation Regulation", stage="proposed", area="E-commerce & Consumer Protection", row=None, proc="2026/0358(COD)",
+      what="Direct Commission enforcement of consumer law in large cross-border cases, with fines of up to 6% of worldwide turnover, and faster coordination of national authorities.",
+      track=["Nov 2026", None, None, None, None], target="Q4 2027",
+      latest="Proposed on 11 November 2026 in the consumer package with the Digital Fairness Act; awaits referral to a Parliament committee. The roadmap targets agreement by Q4 2027."),
  dict(id="antitrust-procedure", name="Reform of the antitrust procedural rules (Regulation 1/2003)", stage="announced", area="Competition & Single Market", row=None, proc="Review",
       what="Faster, digital-ready enforcement of Articles 101 and 102: data-preservation orders, inspection of all business records, quicker interim measures.",
       expected="Q2 2027 (planned Q3 2026)", target="—",
@@ -161,7 +161,7 @@ F = [
       latest="In the 2027 work programme as a legislative or non-legislative initiative, with no date given; the Commission is consulting stakeholders on the Regulation."),
 ]
 # ---------- Parliament and Council data (OEIL procedure files + hand-entered Council steps)
-from forthcoming_procs import PROC, COUNCIL, PREP, OMNIBUS, REC
+from forthcoming_procs import PROC, COUNCIL, PREP, OMNIBUS, REC, DOC_URL
 OE = json.load(open("forthcoming_oeil.json"))
 MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 mon = lambda d: f"{MON[int(d[3:5]) - 1]} {d[6:]}"
@@ -193,7 +193,7 @@ for f in F:
 SWD = json.load(open("../data/forthcoming_swd.json"))
 SHARED_IA = {"single-digital-booking": "SWD(2026)300"}   # covered by the multimodal booking impact assessment (title names the rail ticketing proposal)
 swd_ref = lambda r: re.sub(r"SWD\((\d{4})\)0*(\d+)", r"SWD(\1)\2", r)
-swd_url = lambda r: (lambda m: EUR(f"5{m.group(1)}SC{int(m.group(2)):04d}") if m else "")(re.match(r"SWD\((\d{4})\)(\d+)", r))
+swd_url = lambda r: DOC_URL.get(r) or (lambda m: EUR(f"5{m.group(1)}SC{int(m.group(2)):04d}") if m else "")(re.match(r"SWD\((\d{4})\)(\d+)", r))
 swd_lab = lambda r: re.sub(r"SWD\((\d{4})\)(\d+)", r"SWD(\1) \2", r)
 IA_LABEL = {"full": "Impact assessment", "analysis": "Lighter analysis of impacts, no full impact assessment",
             "swd": "No impact assessment: staff working document only", "none": "No impact assessment or staff working document found"}
@@ -254,10 +254,10 @@ def com_docs(fid):
         d = OE.get(r, {})
         for c in d.get("com", [])[:1]:
             pr = oe_ev(r, "Legislative proposal published")
-            out.append((mon(pr[0][0]) if pr else "", f"Commission proposal: {d.get('title', '')}", re.sub(r"\)0*", ") ", c), EUR(celex(c, "PC"))))
+            out.append((mon(pr[0][0]) if pr else "", f"Commission proposal: {d.get('title', '')}", re.sub(r"\)0*", ") ", c), DOC_URL.get(c) or EUR(celex(c, "PC"))))
         sw = d.get("swd", [])
         if sw:
-            out.append(("", "Staff working documents: impact assessment or supporting analysis", ", ".join(re.sub(r"\)0*", ") ", x) for x in sw), EUR(celex(sw[0], "SC"))))
+            out.append(("", "Staff working documents: impact assessment or supporting analysis", ", ".join(re.sub(r"\)0*", ") ", x) for x in sw), DOC_URL.get(sw[0]) or EUR(celex(sw[0], "SC"))))
     return out
 def omnibus_html(fid):
     o = OMNIBUS.get(fid)
@@ -477,24 +477,30 @@ fpage(dna, None,
       "Key documents", "Commission proposal and impact assessment, then the reports and positions of Parliament and Council as they appear.")
 
 dfa = next(f for f in F if f["id"] == "digital-fairness-act")
-dfa["chips"] = ["Likely a regulation or amending directive"]
-dfa["latest_long"] = ("The Commission's public consultation and call for evidence ran from 17 July to 24 October 2025 and drew 3,341 consultation replies and 4,325 responses to the call for evidence; the factual summary report followed in December 2025. "
-                      "The proposal is in the 2026 work programme for the fourth quarter of 2026, and the Commission's indicative agenda of 20 October 2026 schedules it for 11 November 2026, in a consumer package with a consumer enforcement initiative. No impact assessment has been published yet.")
-fpage(dfa, [("Announced in", "Work programme 2026"), ("Consultation", "Jul – Oct 2025"), ("Proposal expected", "11 Nov 2026 (indicative)")],
-      "Planned consumer rules for online practices the current law handles poorly: dark patterns, addictive design, unfair personalisation, influencer marketing and subscription traps.",
-      ["Ban or restrict dark patterns and addictive design features.", "Rules on personalised pricing and advertising based on vulnerabilities.",
-       "Easier cancellation of subscriptions and limits on auto-renewal traps.", "Clearer duties for influencer marketing.", "Possibly a shift of the burden of proof in digital cases."],
-      [("Unfair Commercial Practices Directive", "likely amended", "Act-unfair-commercial-practices-directive.dc.html"),
-       ("Consumer Rights Directive", "likely amended", "Act-consumer-rights-directive.dc.html"),
-       ("Unfair Contract Terms Directive", "likely amended", "Act-unfair-contract-terms-directive.dc.html"),
+dfa["chips"] = ["Regulation replacing the Unfair Commercial Practices Directive", "With a directive simplifying the Consumer Rights Directive"]
+dfa["latest_long"] = ("The Commission proposed the Digital Fairness Act on 11 November 2026, in a consumer package with a directive simplifying the Consumer Rights Directive and the revision of the Consumer Protection Cooperation Regulation. "
+                      "The proposals are backed by an impact assessment, on which the Regulatory Scrutiny Board gave a positive opinion with reservations on 3 July 2026. "
+                      "They now go to the European Parliament and the Council; no Parliament committee has been named yet.")
+CONSUMER_PKG = [("Nov 2026", "Press release: Commission strengthens consumer protection laws, making them fit for the digital age", "IP/26/2407", "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2407"),
+                ("Nov 2026", "Questions and answers on the consumer package", "QANDA/26/2408", "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2408")]
+fpage(dfa, [("Proposed", "11 Nov 2026"), ("Procedure", "2026/0356(COD)"), ("Would apply", "12 months after entry into force")],
+      "A regulation on fair business-to-consumer practices that replaces the Unfair Commercial Practices Directive, so one directly applicable act replaces 27 national transpositions, and adds rules for practices the current law handles poorly online.",
+      ["Bans manipulative design (dark patterns), such as false claims that a product is almost sold out.", "Clear pricing for virtual in-app currencies and for dynamic pricing of cultural and sports events, including the highest possible price in virtual queues.",
+       "Fairness by design: consumers can switch off addictive features; gambling-like features such as pay-to-win are banned for minors.", "Influencers must disclose commercial content; personalised ads and prices that target minors or use sensitive data are restricted.",
+       "Easier cancellation of digital contracts and subscriptions, an end to unwanted automatic renewals and free-trial traps, a right to reach a human in customer service, and rules for purchases made by AI agents."],
+      [("Unfair Commercial Practices Directive", "repealed and replaced by the regulation", "Act-unfair-commercial-practices-directive.dc.html"),
+       ("Consumer Rights Directive", "amended by the companion simplification directive", "Act-consumer-rights-directive.dc.html"),
+       ("ePrivacy Directive", "amended: business-to-consumer communications covered by consumer law instead", "Act-eprivacy-directive.dc.html"),
+       ("Consumer Protection Cooperation Regulation", "replaced by the companion enforcement proposal", "Fc-cpc-review.dc.html"),
        ("Digital Services Act", "overlaps on dark patterns", "Act-digital-services-act.dc.html")],
-      [("Preparatory work", [("Oct 2024", "Fitness check of EU consumer law on digital fairness", "SWD(2024) 230", "https://commission.europa.eu/law/law-topic/consumer-protection-law/review-eu-consumer-law_en"),
+      [("Commission", com_docs("digital-fairness-act") + CONSUMER_PKG),
+       ("European Parliament", parl_docs("digital-fairness-act")), ("Council", council_docs("digital-fairness-act")),
+       ("Preparatory work", [("Oct 2024", "Fitness check of EU consumer law on digital fairness", "SWD(2024) 230", "https://commission.europa.eu/law/law-topic/consumer-protection-law/review-eu-consumer-law_en"),
                              ("Oct 2026", "Towards a digital fairness act", "EPRS briefing", "https://eprs.europarl.europa.eu/contents/publications/EPRS/2026/10/EPRS_BRI(2026)791529.html")]),
        ("Consultation", [("Jul 2025", "Public consultation and call for evidence", "closed 24 Oct 2025", "https://digital-strategy.ec.europa.eu/en/consultations/commission-launches-open-consultation-forthcoming-digital-fairness-act"),
                          ("Dec 2025", "Factual summary report of the consultation", "Ares(2025)11521347", "https://ec.europa.eu/info/law/better-regulation/api/download/090166e526fb7c7d")]),
-       ("Planning", [("Oct 2025", "Commission work programme 2026", "COM(2025) 870", EUR("52025DC0870")),
-                     ("Oct 2026", "Indicative Commission agenda, 27 October to 24 November 2026", "SEC(2026) 2581", "https://ec.europa.eu/transparency/documents-register/detail?ref=SEC(2026)2581&lang=en")])],
-      "Preparatory studies and consultations", "Until the proposal is published there is no impact assessment; these are the studies and consultations it will build on.")
+       ("Planning", [("Oct 2025", "Commission work programme 2026", "COM(2025) 870", EUR("52025DC0870"))])],
+      "Key documents", "The Commission proposals and impact assessment, then the reports and positions of Parliament and Council as they appear.")
 
 # ---------- all other initiative pages, from forthcoming_details.py
 from forthcoming_details import D
@@ -503,7 +509,7 @@ CWP26 = ("Oct 2025", "Commission work programme 2026", "COM(2025) 870", EUR("520
 ROADMAP = ("Apr 2026", "One Europe, One Market roadmap", "Parliament, Council and Commission", "https://commission.europa.eu/topics/competitiveness/one-europe-one-market-roadmap_en")
 # indicative list of items for Commission meetings (Secretariat-General); ids listed are scheduled in it
 AGENDA = ("Oct 2026", "Indicative Commission agenda, 27 October to 24 November 2026", "SEC(2026) 2581", "https://ec.europa.eu/transparency/documents-register/detail?ref=SEC(2026)2581&lang=en")
-ON_AGENDA = {"digital-fairness-act", "cpc-review", "quantum-act"}
+ON_AGENDA = {"quantum-act"}
 # Commission work programme 2027, adopted 4 November 2026 (register entry; EUR-Lex had no CELEX yet on adoption day)
 CWP27 = ("Nov 2026", "Commission work programme 2027", "COM(2026) 710", "https://ec.europa.eu/transparency/documents-register/detail?ref=COM(2026)710&lang=en")
 PLAN = {"smbpa": [CWP27, ROADMAP], "data-retention": [CWP27]}
@@ -525,6 +531,7 @@ for f in F:
     else:
         com = com_docs(f["id"]) or [(d.get("date", ""), "Commission proposal", d.get("ref", ""), EUR(d["eurlex"]) if d.get("eurlex") else (links[0][1] if links else ""))]
         com += [("", t, "Commission", u) for t, u in links[1:]]
+        com += CONSUMER_PKG if f["id"] == "cpc-review" else []
         wd = f["stage"] == "withdrawn"
         docs = ([("Commission", com), ("European Parliament", d["ep"]), ("Withdrawal", [CWP27])] if wd else
                 [("Commission", com), ("European Parliament", d["ep"]), ("Council", [("", "No agreement; tax rules need unanimity", "", "")])] if d.get("ep") else   # stalled consultation-procedure files
