@@ -92,7 +92,7 @@ charts["mckinsey_digital"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="im
                               f'Information is highest (index 6, 5.1% a year); construction lowest (index 1, -0.2%)">' + "".join(g) + "</svg>")
 
 # 4. What firms say: regulation as a brake on business and on AI, six surveys, one compact chart (0-100%)
-rows = [("German firms: data-protection rules are the biggest brake on digitalisation", 77, "Bitkom 2026",
+SURVEYS = rows = [("German firms: data-protection rules are the biggest brake on digitalisation", 77, "Bitkom 2026",
          "https://www.bitkom.org/sites/main/files/2026-03/bitkom-praesentation-digitaliserung-der-wirtschaft-2026.pdf"),
         ("Businesses: difficulty understanding their AI Act obligations", 69.5, "IAPP EU Digital Laws Report 2025",
          "https://iapp.org/resources/article/eu-digital-laws-report"),
