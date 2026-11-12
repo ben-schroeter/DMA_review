@@ -16,6 +16,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--assets", default="site/assets_blob")
 ap.add_argument("--out", default="site_export")
 ap.add_argument("--base", default="https://eutechlaws.org/")
+ap.add_argument("--no-legacy-names", action="store_true", help="skip the copies under the old <Page>.html names")
 args = ap.parse_args()
 
 SRC = "site/mockup"
@@ -57,7 +58,7 @@ LINK = re.compile(r"\b([A-Za-z0-9_-]+)\.dc\.html")
 fix_links = lambda s: LINK.sub(lambda m: out_name(m.group(1) + ".dc.html"), s)
 
 assets = {os.path.splitext(a)[0]: a for a in os.listdir(args.assets)} if os.path.isdir(args.assets) else {}
-missing = set()
+missing, LEGACY = set(), set()
 def fix_blobs(s):
     def rep(m):
         a = assets.get(m.group(1))
@@ -103,6 +104,13 @@ for f in sorted(seen):
     else:
         page = head + body.strip() + "\n</body>\n</html>\n"
     open(os.path.join(OUT, out_name(f)), "w").write(page)
+    # the same page under its old upper-case name (e.g. Rules.html, Act-...html), so old links keep working;
+    # it points search engines to the lower-case page and is left out of the sitemap
+    old = f.replace(".dc.html", ".html")
+    if not args.no_legacy_names and f != "Main.dc.html" and old != out_name(f):
+        canon = f'<link rel="canonical" href="{args.base}{out_name(f)}">\n'
+        open(os.path.join(OUT, old), "w").write(page.replace("</head>", canon + "</head>", 1))
+        LEGACY.add(old)
 
 for a in used:
     shutil.copy(os.path.join(args.assets, a), os.path.join(OUT, "assets", a))
@@ -132,7 +140,7 @@ def priority(n):
 base = args.base.rstrip("/") + "/"
 urls = []
 for n in sorted(os.listdir(OUT), key=lambda n: (n != "index.html", n in LAWNAMES, n)):
-    if not n.endswith(".html"): continue
+    if not n.endswith(".html") or n in LEGACY: continue
     loc = base if n == "index.html" else base + n
     urls.append(f"  <url><loc>{loc}</loc><lastmod>{lastmod(open(os.path.join(OUT, n)).read())}</lastmod><priority>{priority(n)}</priority></url>")
 open(os.path.join(OUT, "sitemap.xml"), "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
