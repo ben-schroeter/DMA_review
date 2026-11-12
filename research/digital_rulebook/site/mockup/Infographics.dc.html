@@ -72,13 +72,10 @@ a{color:#282424}a:hover{color:#8F6708}
     <div class="wrap" style="display: flex; flex-direction: column; gap: 20px">
       <p class="cap" style="margin: 0">{{count}} · newest first</p>
       <div class="igs">
-        <sc-for list="{{igs}}" as="it" hint-placeholder-count="7">
+        <sc-for list="{{igs}}" as="it" hint-placeholder-count="15">
           <button class="ig" type="button" onClick="{{it.open}}" aria-label="Enlarge: {{it.title}}"><span class="ig-frame"><img src="{{it.thumb}}" alt="{{it.title}}" loading="lazy"></span><span class="ig-t">{{it.title}}</span></button>
         </sc-for>
       </div>
-      <sc-if value="{{hasMore}}" hint-placeholder-val="{{ false }}">
-        <button class="x more" type="button" onClick="{{toggleAll}}">{{moreLabel}}</button>
-      </sc-if>
     </div>
     <div class="ov" style="{{ovStyle}}" onClick="{{close}}" role="dialog" aria-modal="true" aria-label="{{cur.title}}">
       <div class="ov-in" onClick="{{stop}}">
@@ -117,20 +114,16 @@ const IG = [
   { title: "EU digital laws come out of negotiation with more rules than went in", thumb: "/_blob/6e30f70ae16607c4454fcd96fab2d21a", full: "/_blob/5320222567e1dc30a02ecdbd8e8793a6", file: "eutechlaws_negotiation.png" },
   { title: "EU tech rules aimed directly at companies have quadrupled since 2018", thumb: "/_blob/5f6430ea54c9baf55771452c6dac7c87", full: "/_blob/dbe3b47bedd5dd338406fc61bb5ecb1d", file: "eutechlaws_obligations_on_companies.png" }
 ];
-// Newest first: add new infographics at the top of IG. The grid shows the first SHOW, then a "Show all" button.
-const SHOW = 8;
+// Newest first: add new infographics at the top of IG. The grid always shows all of them.
 class Component extends DCLogic {
-  constructor(props) { super(props); this.state = { cur: -1, all: false }; }
+  constructor(props) { super(props); this.state = { cur: -1 }; }
   renderVals() {
-    const { cur: i, all } = this.state;
+    const { cur: i } = this.state;
     const n = IG.length;
     const step = (d) => (e) => { e.stopPropagation(); this.setState({ cur: (i + d + n) % n }); };
     return {
-      igs: (all ? IG : IG.slice(0, SHOW)).map((d) => ({ ...d, open: () => this.setState({ cur: IG.indexOf(d) }) })),
+      igs: IG.map((d, k) => ({ ...d, open: () => this.setState({ cur: k }) })),
       count: n + (n === 1 ? " infographic" : " infographics"),
-      hasMore: n > SHOW,
-      moreLabel: all ? "Show fewer" : "Show all " + n + " infographics",
-      toggleAll: () => this.setState({ all: !all }),
       cur: IG[i] || { title: "", thumb: "", full: "", file: "" },
       ovStyle: i >= 0 ? "display:flex" : "display:none",
       prev: step(-1),
