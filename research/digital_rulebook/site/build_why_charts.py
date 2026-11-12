@@ -214,21 +214,21 @@ for o in usb:
         g.append(t(cx, cy + 4, nm.replace(" Holdings", "").replace(" Sciences", ""), 11.5 if len(nm) < 11 else 9.5, INK, "middle", 500))
 # Not yet public (dashed): sized at the midpoint of reported valuation ranges, same scale; not in the US count or total
 kk = 29570 / sum(o["r"] ** 2 for o in usb)
-for nm, v, cx, cy in (("Anthropic", 1750, 738, 128), ("OpenAI", 1325, 882, 150)):
+for nm, v, cx, cy in (("Anthropic", 1750, 626, 128), ("OpenAI", 1325, 762, 150)):
     r = math.sqrt(v / kk)
     g.append(f'<circle cx="{cx}" cy="{cy}" r="{r:.1f}" fill="{TECH}" fill-opacity="0.10" stroke="{TECH}" stroke-width="2" stroke-dasharray="6 5">'
              f'<title>{nm}: private company, not yet listed</title></circle>')
     g.append(t(cx, cy + 2, nm, 15, INK, "middle", 600))
     g.append(t(cx, cy + 20, "not yet public", 11.5, MUTED, "middle"))
-g.append(t(668, 40, "Not yet public, at private valuations", 13, MUTED, "start", 600))
+g.append(t(560, 40, "Not yet public, at private valuations", 13, MUTED, "start", 600))
 # EU cluster at the same scale
 ex0 = min(o["x"] for o in eus); ey0 = min(o["y"] for o in eus)
 EX, EY = 735, 330
 for o in sorted(eus, key=lambda o: o["r"]):
     g.append(bub(EX + (o["x"] - ex0), EY + (o["y"] - ey0), o["r"], o["c"], "EU company"))
 # totals
-g.append(t(442, 600, "US", 26, INK, "start", 600))
-g.append(t(442, 624, "241 companies, $29.6 trillion", 16, INK2))
+g.append(t(426, 652, "US", 26, INK, "start", 600))
+g.append(t(426, 676, "241 companies, $29.6 trillion", 16, INK2))
 g.append(t(EX - 4, EY + 92, "EU", 24, INK, "start", 600))
 g.append(t(EX - 4, EY + 112, "14 companies,", 14, INK2))
 g.append(t(EX - 4, EY + 129, "$0.43 trillion", 14, INK2))
