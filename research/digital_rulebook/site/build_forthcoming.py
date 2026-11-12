@@ -584,12 +584,24 @@ def due(f):
     if m := re.fullmatch(r"Q([1-4]) (\d{4})", e): return (int(m[2]), 3 * int(m[1]), 31), e
     return None, e
 LATEST_N = 6
-nxt = sorted(((due(f)[0], due(f)[1], f) for f in F if f["stage"] == "announced" and due(f)[0]), key=lambda x: x[0])[:LATEST_N]
+nxt = sorted(((due(f)[0], f"Expected {due(f)[1]} · announced", f) for f in F if f["stage"] == "announced" and due(f)[0]), key=lambda x: x[0])[:LATEST_N]
+# proposals tabled in the last RECENT_MONTHS months (proposal month = track[0])
+import datetime
+RECENT_MONTHS = 3
+_t = datetime.date.today(); _now = _t.year * 12 + _t.month
+def proposed_on(f):
+    m = re.fullmatch(r"(\w{3}) (\d{4})", (f.get("track") or [""])[0] or "")
+    return (int(m[2]), MON[m[1]]) if m and m[1] in MON else None
+rec = sorted(((proposed_on(f), f"Proposed {(f.get('track') or [''])[0]}", f) for f in F
+              if f["stage"] == "proposed" and proposed_on(f) and _now - (proposed_on(f)[0] * 12 + proposed_on(f)[1]) < RECENT_MONTHS),
+             key=lambda x: x[0])
+# one timeline in order of (expected) date: a proposal sorts on day 0 of its month, ahead of anything expected that month
+nxt = [(d + (0,), lab, f) for d, lab, f in rec] + nxt
 cards = "".join(f'<a href="{page_of(f)}" style="display: flex; flex-direction: column; gap: 6px; padding: 18px 20px; border: 1px solid #E8E6E3; border-radius: 12px; background: #FFFFFF; text-decoration: none">'
-                f'<span class="eyebrow" style="font-size: 12px">Expected {lab} · announced</span>'
+                f'<span class="eyebrow" style="font-size: 12px">{lab}</span>'
                 f'<span style="font-family: \'Source Serif 4\', Georgia, serif; font-size: 20px; line-height: 1.25">{html.escape(f["name"].split(" (")[0])}</span>'
                 f'<span class="cap">{html.escape(f["what"], quote=False)}</span></a>' for _, lab, f in nxt)
-latest = ('<!-- LATEST-PROPOSALS -->\n        <p class="body" style="font-size: 16px">This section features proposed and announced initiatives, in order of expected date. '
+latest = ('<!-- LATEST-PROPOSALS -->\n        <p class="body" style="font-size: 16px">This section features proposed and announced initiatives, in order of (expected) date. '
           'Click on the links to find out more about each one.</p>\n'
           f'        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px">{cards}</div>\n<!-- /LATEST-PROPOSALS -->')
 mp = f"{OUT}/Main.dc.html"; ms = open(mp).read()

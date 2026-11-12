@@ -142,7 +142,7 @@ def fill_data_blocks(p, s):
 CTX = []
 def check(s, page=""):
     found = collections.Counter()
-    blocks = [(m.start(), m.end()) for m in re.finditer(r"<!--@chart \S+?-->.*?<!--@end-->", s, re.S)]
+    blocks = [(m.start(), m.end()) for m in re.finditer(r"<!--@chart \S+?-->.*?<!--@end-->|<!-- LATEST-PROPOSALS -->.*?<!-- /LATEST-PROPOSALS -->", s, re.S)]  # charts, and the proposal cards built from the same data as the skipped Fc- pages
     for a, b in text_segments(s):
         if re.search(r'<span data-fact="[^"]+">$', s[max(0, a - 80):a]) or any(x <= a < y for x, y in blocks): continue
         t = s[a:b]
