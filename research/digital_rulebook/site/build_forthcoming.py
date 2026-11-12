@@ -594,14 +594,14 @@ def proposed_on(f):
     return (int(m[2]), MON[m[1]]) if m and m[1] in MON else None
 rec = sorted(((proposed_on(f), f"Proposed {(f.get('track') or [''])[0]}", f) for f in F
               if f["stage"] == "proposed" and proposed_on(f) and _now - (proposed_on(f)[0] * 12 + proposed_on(f)[1]) < RECENT_MONTHS),
-             key=lambda x: x[0])
-# one timeline in order of (expected) date: a proposal sorts on day 0 of its month, ahead of anything expected that month
-nxt = [(d + (0,), lab, f) for d, lab, f in rec] + nxt
+             key=lambda x: (x[0], F.index(x[2])), reverse=True)
+# latest proposals first (within a month, the one listed last in F first), then the announced ones by expected date; LATEST_N cards in all
+nxt = (rec + nxt)[:LATEST_N]
 cards = "".join(f'<a href="{page_of(f)}" style="display: flex; flex-direction: column; gap: 6px; padding: 18px 20px; border: 1px solid #E8E6E3; border-radius: 12px; background: #FFFFFF; text-decoration: none">'
                 f'<span class="eyebrow" style="font-size: 12px">{lab}</span>'
                 f'<span style="font-family: \'Source Serif 4\', Georgia, serif; font-size: 20px; line-height: 1.25">{html.escape(f["name"].split(" (")[0])}</span>'
                 f'<span class="cap">{html.escape(f["what"], quote=False)}</span></a>' for _, lab, f in nxt)
-latest = ('<!-- LATEST-PROPOSALS -->\n        <p class="body" style="font-size: 16px">This section features proposed and announced initiatives, in order of (expected) date. '
+latest = ('<!-- LATEST-PROPOSALS -->\n        <p class="body" style="font-size: 16px">This section features proposed and announced initiatives. '
           'Click on the links to find out more about each one.</p>\n'
           f'        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px">{cards}</div>\n<!-- /LATEST-PROPOSALS -->')
 mp = f"{OUT}/Main.dc.html"; ms = open(mp).read()
