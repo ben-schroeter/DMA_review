@@ -229,7 +229,7 @@ def parl_docs(fid):
     for r in PROC.get(fid, []):
         d = OE.get(r, {})
         who = (f'{d["committee"]}, rapporteur {d["rapporteur"]}' if d.get("rapporteur") else (d["committee"] or "committee responsible not yet listed")) if d else ""
-        out.append(("", f"{d.get('title') or r}: {who}", r, OEIL(r)))
+        out.append(("", f"{d.get('title') or r}: {who}" + ("" if d.get("oeil_live", True) else " (procedure file not yet online)"), r, OEIL(r) if d.get("oeil_live", True) else ""))
         for e in d.get("events", []):
             ref = e[2]
             if re.match(r"A\d+-\d{4}/\d{4}", ref):
@@ -493,11 +493,12 @@ fpage(dfa, [("Proposed", "11 Nov 2026"), ("Procedure", "2026/0356(COD)"), ("Woul
        ("ePrivacy Directive", "amended: business-to-consumer communications covered by consumer law instead", "Act-eprivacy-directive.dc.html"),
        ("Consumer Protection Cooperation Regulation", "replaced by the companion enforcement proposal", "Fc-cpc-review.dc.html"),
        ("Digital Services Act", "overlaps on dark patterns", "Act-digital-services-act.dc.html")],
-      [("Commission", com_docs("digital-fairness-act") + CONSUMER_PKG),
+      [("Commission", com_docs("digital-fairness-act") + CONSUMER_PKG + [("", "Initiative page: all stages, documents and feedback", "Have your say", "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14622-Digital-Fairness-Act_en")]),
        ("European Parliament", parl_docs("digital-fairness-act")), ("Council", council_docs("digital-fairness-act")),
-       ("Preparatory work", [("Oct 2024", "Fitness check of EU consumer law on digital fairness", "SWD(2024) 230", "https://commission.europa.eu/law/law-topic/consumer-protection-law/review-eu-consumer-law_en"),
+       ("Preparatory work", [("Oct 2024", "Fitness check of EU consumer law on digital fairness", "SWD(2024) 230", "https://commission.europa.eu/document/707d7404-78e5-4aef-acfa-82b4cf639f55_en"),
+                             ("Oct 2024", "Study supporting the fitness check", "Commission study", "https://commission.europa.eu/publications/study-support-fitness-check-eu-consumer-law-digital-fairness-and-report-application-modernisation_en"),
                              ("Oct 2026", "Towards a digital fairness act", "EPRS briefing", "https://eprs.europarl.europa.eu/contents/publications/EPRS/2026/10/EPRS_BRI(2026)791529.html")]),
-       ("Consultation", [("Jul 2025", "Public consultation and call for evidence", "closed 24 Oct 2025", "https://digital-strategy.ec.europa.eu/en/consultations/commission-launches-open-consultation-forthcoming-digital-fairness-act"),
+       ("Consultation", [("Jul 2025", "Public consultation and call for evidence", "closed 24 Oct 2025", "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14622-Digital-Fairness-Act_en"),
                          ("Dec 2025", "Factual summary report of the consultation", "Ares(2025)11521347", "https://ec.europa.eu/info/law/better-regulation/api/download/090166e526fb7c7d")]),
        ("Planning", [("Oct 2025", "Commission work programme 2026", "COM(2025) 870", EUR("52025DC0870"))])],
       "Key documents", "The Commission proposals and impact assessment, then the reports and positions of Parliament and Council as they appear.")
@@ -531,7 +532,7 @@ for f in F:
     else:
         com = com_docs(f["id"]) or [(d.get("date", ""), "Commission proposal", d.get("ref", ""), EUR(d["eurlex"]) if d.get("eurlex") else (links[0][1] if links else ""))]
         com += [("", t, "Commission", u) for t, u in links[1:]]
-        com += CONSUMER_PKG if f["id"] == "cpc-review" else []
+        com += (CONSUMER_PKG + [("", "Initiative page: consultation (2022), documents and feedback", "Have your say", "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/13535-Reinforced-consumer-protection-cooperation_en")]) if f["id"] == "cpc-review" else []
         wd = f["stage"] == "withdrawn"
         docs = ([("Commission", com), ("European Parliament", d["ep"]), ("Withdrawal", [CWP27])] if wd else
                 [("Commission", com), ("European Parliament", d["ep"]), ("Council", [("", "No agreement; tax rules need unanimity", "", "")])] if d.get("ep") else   # stalled consultation-procedure files

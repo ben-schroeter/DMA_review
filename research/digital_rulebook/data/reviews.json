@@ -1,7 +1,68 @@
 [
- {"law_id": 11, "law": "EC Merger Regulation", "item": "Horizontal Merger Guidelines (2004) and Non-Horizontal Merger Guidelines (2008)", "kind": "guidance",
+ {
+  "law_id": 11,
+  "law": "EC Merger Regulation",
+  "item": "Horizontal Merger Guidelines (2004) and Non-Horizontal Merger Guidelines (2008)",
+  "kind": "guidance",
   "status": "under review",
   "last_step": "Draft Merger Guidelines published 30 April 2026; public consultation closed 26 June 2026; economic study on dynamic effects of mergers published 24 August 2026",
   "next_step": "Commission to finalise the new Merger Guidelines in Q4 2026 (One Europe, One Market roadmap: end 2026)",
-  "source_url": "https://competition-policy.ec.europa.eu/mergers/review-merger-guidelines_en", "checked": "2026-11-01"}
+  "source_url": "https://competition-policy.ec.europa.eu/mergers/review-merger-guidelines_en",
+  "checked": "2026-11-01"
+ },
+ {
+  "law_id": 13,
+  "law": "Unfair Commercial Practices Directive",
+  "item": "Digital Fairness Act, 2026/0356(COD), which would repeal this Directive and replace it with a regulation",
+  "kind": "proposal",
+  "status": "proposal pending",
+  "last_step": "Commission proposal COM(2026) 1100 of 11 November 2026",
+  "next_step": "Parliament and Council to examine the proposal; no Parliament committee named yet",
+  "source_url": "Fc-digital-fairness-act.dc.html",
+  "checked": "2026-11-12"
+ },
+ {
+  "law_id": 18,
+  "law": "Consumer Rights Directive",
+  "item": "targeted amendments in the consumer package, 2026/0357(COD)",
+  "kind": "proposal",
+  "status": "proposal pending",
+  "last_step": "Commission proposal COM(2026) 1110 of 11 November 2026 simplifies pre-contractual information for repeat in-app purchases and cancellation of digital media subscriptions",
+  "next_step": "Parliament and Council to examine the proposal; no Parliament committee named yet",
+  "source_url": "Fc-digital-fairness-act.dc.html",
+  "checked": "2026-11-12"
+ },
+ {
+  "law_id": 9,
+  "law": "ePrivacy Directive",
+  "item": "amendment in the consumer package, 2026/0357(COD)",
+  "kind": "proposal",
+  "status": "proposal pending",
+  "last_step": "Commission proposal COM(2026) 1110 of 11 November 2026 would take business-to-consumer commercial communications out of the Directive's rules on unsolicited communications",
+  "next_step": "Parliament and Council to examine the proposal; no Parliament committee named yet",
+  "source_url": "Fc-digital-fairness-act.dc.html",
+  "checked": "2026-11-12"
+ },
+ {
+  "law_id": 31,
+  "law": "Consumer Protection Cooperation Regulation",
+  "item": "revision of the CPC Regulation, 2026/0358(COD), which would repeal and replace this Regulation",
+  "kind": "proposal",
+  "status": "proposal pending",
+  "last_step": "Commission proposal COM(2026) 1120 of 11 November 2026 gives the Commission direct enforcement powers in large cross-border cases",
+  "next_step": "Parliament and Council to examine the proposal; no Parliament committee named yet",
+  "source_url": "Fc-cpc-review.dc.html",
+  "checked": "2026-11-12"
+ },
+ {
+  "law_id": 30,
+  "law": "Geo-blocking Regulation",
+  "item": "amendment by the CPC revision, 2026/0358(COD)",
+  "kind": "proposal",
+  "status": "proposal pending",
+  "last_step": "Commission proposal COM(2026) 1120 of 11 November 2026 amends Article 7 to fit the new consumer enforcement rules",
+  "next_step": "Parliament and Council to examine the proposal; no Parliament committee named yet",
+  "source_url": "Fc-cpc-review.dc.html",
+  "checked": "2026-11-12"
+ }
 ]
