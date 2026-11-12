@@ -278,6 +278,68 @@ charts["mcafee_full"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" ar
                          f'one bubble per company sized by market value: 241 in the US worth $29.6 trillion, led by Apple, Nvidia, Microsoft, Amazon and Alphabet; '
                          f'14 in the EU worth $0.43 trillion, led by Spotify. Dashed: private companies not yet listed (Anthropic, OpenAI; in the EU Mistral AI, Helsing, Trade Republic).">' + "".join(g) + "</svg>")
 
+
+# 8b. Column-width version of the full recreation (for a two-column layout): US cluster left, private firms, EU cluster and
+# the enlarged EU panel stacked on the right. Same measured positions, scaled.
+W, H, S_ = 600, 548, 0.62
+kk = 29570 / sum(o["r"] ** 2 for o in usb)
+P = lambda x, y: ((x - ux0) * S_, 34 + (y - uy0) * S_)
+g = [f'<rect x="0" y="4" width="12" height="12" rx="2" fill="{TECH}"></rect>' + t(17, 14.5, "Tech", 12.5),
+     f'<rect x="62" y="4" width="12" height="12" rx="2" fill="{OTHER}"></rect>' + t(79, 14.5, "Other industries", 12.5)]
+for o in sorted(usb, key=lambda o: o["r"]):
+    cx, cy = P(o["x"], o["y"]); nm = o.get("name")
+    g.append(bub(cx, cy, o["r"] * S_, o["c"], (nm + ": " if nm else "") + f"about ${o['v']:,.0f}bn"))
+for o in usb:
+    nm = o.get("name")
+    if not nm or o["r"] < 32: continue
+    cx, cy = P(o["x"], o["y"])
+    big = o["r"] >= 50
+    g.append(t(cx, cy + (4.5 if big else 3), nm.replace(" (Google)", "").replace(" Holdings", ""), 12.5 if big else 8.5, INK, "middle", 600 if big else 500))
+g.append(t(0, 486, "US", 18, INK, "start", 600))
+g.append(t(0, 504, "241 companies, $29.6 trillion", 12.5, INK2))
+# scale key under the US cluster
+for v_, lab in ((1000, "$1trn"), (100, "$100bn")):
+    r = math.sqrt(v_ / kk) * S_
+    g.append(f'<circle cx="300" cy="{540 - r:.1f}" r="{r:.1f}" fill="none" stroke="{BASE}" stroke-width="1.1"></circle>')
+g.append(t(300, 540 - 2 * math.sqrt(1000 / kk) * S_ - 4, "$1trn", 10.5, MUTED, "middle"))
+g.append(t(258, 524, "Circle area =", 10.5, MUTED, "end")); g.append(t(258, 537, "market value", 10.5, MUTED, "end"))
+# right column
+RX = 405
+g.append(t(RX, 36, "Not yet public, at private valuations", 10.5, MUTED, "start", 600))
+for nm, v, cx, cy in (("Anthropic", 1750, RX + 46, 98), ("OpenAI", 1325, RX + 146, 104)):
+    r = math.sqrt(v / kk) * S_
+    g.append(f'<circle cx="{cx}" cy="{cy}" r="{r:.1f}" fill="{TECH}" fill-opacity="0.10" stroke="{TECH}" stroke-width="1.6" stroke-dasharray="5 4"><title>{nm}: private company, not yet listed</title></circle>')
+    g.append(t(cx, cy + 3, nm, 11, INK, "middle", 600))
+EX, EY = RX + 6, 168
+for o in sorted(eus, key=lambda o: o["r"]):
+    g.append(bub(EX + (o["x"] - ex0) * S_, EY + (o["y"] - ey0) * S_, o["r"] * S_, o["c"], "EU company"))
+g.append(t(RX + 62, 182, "EU", 16, INK, "start", 600))
+g.append(t(RX + 62, 197, "14 companies, $0.43 trillion", 10.5, INK2))
+# enlarged EU panel
+SI = 0.66
+BY = 236; IX2, IY2 = RX + 12, BY + 26
+g.append(f'<rect x="{RX}" y="{BY}" width="195" height="{ih * SI + 104:.0f}" rx="8" fill="#FFFFFF" stroke="{LINE}"></rect>')
+g.append(t(RX + 10, BY + 16, f"The EU's 14, enlarged ×{3.8 * SI / S_:.0f}", 10.5, MUTED, "start", 600))
+g.append(f'<line x1="{EX + 30}" y1="{EY + 50}" x2="{RX + 40}" y2="{BY}" stroke="{BASE}" stroke-dasharray="3 4"></line>')
+for n, (x, y, c, r) in eub.items():
+    cx, cy = IX2 + (x - ix0) * SI, IY2 + (y - iy0) * SI; rr = r * SI
+    g.append(bub(cx, cy, rr, c, f"{n}: about ${430 * r * r / m_tot:,.0f}bn"))
+    if rr < 15: continue
+    words = n.split(" ") if (len(n) > 8 and " " in n) else [n]
+    fs = 9.5 if rr > 22 else 7.5
+    for k, w_ in enumerate(words):
+        g.append(t(cx, cy + 3 + (k - (len(words) - 1) / 2) * (fs + 1), w_, fs, INK, "middle", 600 if rr > 22 else 500))
+py2 = IY2 + ih * SI + 50
+g.append(t(RX + 10, IY2 + ih * SI + 20, "Not yet public", 9.5, MUTED, "start", 600))
+for (n, v), cx in zip(eu_priv, (RX + 34, RX + 98, RX + 160)):
+    r = math.sqrt(v * m_tot / 430) * SI
+    g.append(f'<circle cx="{cx}" cy="{py2}" r="{r:.1f}" fill="{TECH}" fill-opacity="0.10" stroke="{TECH}" stroke-width="1.4" stroke-dasharray="4 3"><title>{n}: private company, not yet listed</title></circle>')
+    for k, w_ in enumerate(n.split(" ")):
+        g.append(t(cx, py2 + 3 + (k - (len(n.split(" ")) - 1) / 2) * 9, w_, 8, INK, "middle", 500))
+charts["mcafee_col"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Public companies founded from scratch in the last 50 years and worth over $10 billion, '
+                        f'one bubble per company sized by market value: 241 in the US worth $29.6 trillion, led by Apple, Nvidia, Microsoft, Amazon and Alphabet; 14 in the EU worth $0.43 trillion, led by Spotify. '
+                        f'Dashed: private companies not yet listed (Anthropic, OpenAI; in the EU Mistral AI, Helsing, Trade Republic).">' + "".join(g) + "</svg>")
+
 # 9. Reichardt & Reis (2026), Figure 1: HQ migration rates of firms under ten years old, 2014-2024, by total funding raised.
 # Values measured from the published bar chart (vector PDF rendered at 400 dpi); averages are the paper's dashed lines.
 hq = [("None", 1.9, 0.7), ("Under $1m", 2.9, 1.0), ("$1–10m", 6.5, 0.8), ("$10–100m", 9.9, 0.8), ("Over $100m", 10.7, 0.8)]
