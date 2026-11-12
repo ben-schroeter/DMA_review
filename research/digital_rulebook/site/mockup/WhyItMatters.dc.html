@@ -28,7 +28,7 @@ a{color:#282424}a:hover{color:#8F6708}
 @media (max-width:640px){.wrap{padding-inline:20px}.h1{font-size:40px}.h2{font-size:28px}}
 .tab{text-decoration:none;font-size:15px;padding:8px 14px;border-radius:999px;border:1px solid #D4D2CE;color:#3F3B3B;min-height:44px;box-sizing:border-box;display:inline-flex;align-items:center}
 @media (max-width:640px){.nav{width:100%;justify-content:space-between;gap:10px !important}.nav a{font-size:14px}}
-h2.h2{position:relative;padding-left:18px}h2.h2::before{content:"";position:absolute;left:0;top:.18em;bottom:.18em;width:6px;border-radius:3px;background:var(--bar,#B8860B)}h3.h2{position:relative;padding-left:18px}h3.h2::before{content:"";position:absolute;left:0;top:.18em;bottom:.18em;width:6px;border-radius:3px;background:var(--bar,#B8860B)}.body{max-width:940px}</style>
+h2.h2{position:relative;padding-left:18px}h2.h2::before{content:"";position:absolute;left:0;top:.18em;bottom:.18em;width:6px;border-radius:3px;background:var(--bar,#B8860B)}h3.h2{position:relative;padding-left:18px}h3.h2::before{content:"";position:absolute;left:0;top:.18em;bottom:.18em;width:6px;border-radius:3px;background:var(--bar,#B8860B)}.body{max-width:940px}.gold-btn{display:inline-flex;align-items:center;gap:8px;min-height:48px;box-sizing:border-box;padding:12px 22px;border-radius:999px;background:#8F6708;color:#FFFFFF;font-size:16px;font-weight:600;text-decoration:none;box-shadow:0 1px 0 rgba(40,36,36,.08);transition:background .15s ease,transform .15s ease}.gold-btn:hover{background:#7A5806;color:#FFFFFF;transform:translateY(-1px)}.gold-btn:focus-visible{outline:2px solid #B8860B;outline-offset:3px}</style>
 </helmet>
 <div style="width: 100%; background: #FAF9F5">
   <header style="border-bottom: 1px solid #E8E6E3">
@@ -149,8 +149,13 @@ h2.h2{position:relative;padding-left:18px}h2.h2::before{content:"";position:abso
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 56px; align-items: start; padding-top: 8px">
         <div style="display: flex; flex-direction: column; gap: 16px">
           <h3 class="h2" style="font-size: 26px">What firms say</h3>
-          <p class="body">Surveys support the view that regulatory complexity hinders EU tech creation and adoption. For instance, among EU firms that considered using AI in 2025, a lack of expertise was the most common barrier, but the next two were legal: unclear legal consequences and fear of breaching data-protection rules. Both have risen since 2024.&nbsp;</p>
-          <p class="body">The burden is not specific to technology: rules everywhere compete for the same staff and budgets that innovation and adoption need. <span data-fact="ext_whyitmatters_25">69%</span> of EU firms say regulation limits their investment, and&nbsp;<span data-fact="ext_whyitmatters_26">64%</span> of SMEs call administrative burden a persistent challenge.</p>
+          <p class="body">Surveys support the view that regulatory complexity hinders tech creation and adoption in the EU. Among EU firms that considered using AI but did not, unclear legal consequences and data-protection concerns are among the most cited reasons, and both have become more common since 2024. The burden is not specific to technology: rules compete for the same staff and budgets that innovation and adoption need, as the surveys in the chart show.</p>
+          <p class="body">Good regulation matters. Explore the data on EU legislation and what the evidence tells us about its impact.</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 10px; padding-top: 8px">
+            <a class="gold-btn" style="padding: 10px 16px; font-size: 15px; min-height: 44px" href="Rules.dc.html">In Numbers →</a>
+            <a class="gold-btn" style="padding: 10px 16px; font-size: 15px; min-height: 44px" href="Instruments.dc.html">Digital Acquis →</a>
+            <a class="gold-btn" style="padding: 10px 16px; font-size: 15px; min-height: 44px" href="Evidence.dc.html">Do the rules work? →</a>
+          </div>
         </div>
         <figure style="margin: 0; display: flex; flex-direction: column; gap: 12px; min-width: 0">
           <figcaption style="font-weight: 500">Regulation as a brake on business and on AI: findings from seven surveys</figcaption>
@@ -168,7 +173,7 @@ h2.h2{position:relative;padding-left:18px}h2.h2::before{content:"";position:abso
   </footer>
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":7886}}'>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":7899}}'>
 class Component extends DCLogic {
   renderVals() { return {}; }
 }
