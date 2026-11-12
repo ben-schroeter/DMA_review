@@ -227,11 +227,11 @@ EX, EY = 735, 330
 for o in sorted(eus, key=lambda o: o["r"]):
     g.append(bub(EX + (o["x"] - ex0), EY + (o["y"] - ey0), o["r"], o["c"], "EU company"))
 # totals
-g.append(t(560, 690, "US", 26, INK, "start", 600))
-g.append(t(560, 714, "241 companies, $29.6 trillion", 16, INK2))
-g.append(t(EX - 6, EY + 100, "EU", 24, INK, "start", 600))
-g.append(t(EX - 6, EY + 122, "14 companies,", 14, INK2))
-g.append(t(EX - 6, EY + 140, "$0.43 trillion", 14, INK2))
+g.append(t(442, 600, "US", 26, INK, "start", 600))
+g.append(t(442, 624, "241 companies, $29.6 trillion", 16, INK2))
+g.append(t(EX - 4, EY + 92, "EU", 24, INK, "start", 600))
+g.append(t(EX - 4, EY + 112, "14 companies,", 14, INK2))
+g.append(t(EX - 4, EY + 129, "$0.43 trillion", 14, INK2))
 # enlarged EU inset (x3.8 relative to the main scale)
 IX, IY, s_ = 880, 272, 1.0
 ix0 = min(v[0] - v[3] for v in eub.values()); iy0 = min(v[1] - v[3] for v in eub.values())
