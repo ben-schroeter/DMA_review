@@ -16,7 +16,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--assets", default="site/assets_blob")
 ap.add_argument("--out", default="site_export")
 ap.add_argument("--base", default="https://eutechlaws.org/")
-ap.add_argument("--no-legacy-names", action="store_true", help="skip the copies under the old <Page>.html names")
+ap.add_argument("--no-legacy-names", action="store_true", help="skip the .htaccess redirects from the old <Page>.html names")
 args = ap.parse_args()
 
 SRC = "site/mockup"
@@ -58,7 +58,7 @@ LINK = re.compile(r"\b([A-Za-z0-9_-]+)\.dc\.html")
 fix_links = lambda s: LINK.sub(lambda m: out_name(m.group(1) + ".dc.html"), s)
 
 assets = {os.path.splitext(a)[0]: a for a in os.listdir(args.assets)} if os.path.isdir(args.assets) else {}
-missing, LEGACY = set(), set()
+missing, LEGACY = set(), {}
 def fix_blobs(s):
     def rep(m):
         a = assets.get(m.group(1))
@@ -104,13 +104,10 @@ for f in sorted(seen):
     else:
         page = head + body.strip() + "\n</body>\n</html>\n"
     open(os.path.join(OUT, out_name(f)), "w").write(page)
-    # the same page under its old upper-case name (e.g. Rules.html, Act-...html), so old links keep working;
-    # it points search engines to the lower-case page and is left out of the sitemap
+    # old upper-case name (e.g. Rules.html, Act-...html): a 301 redirect to the lower-case page in .htaccess (Apache)
     old = f.replace(".dc.html", ".html")
     if not args.no_legacy_names and f != "Main.dc.html" and old != out_name(f):
-        canon = f'<link rel="canonical" href="{args.base}{out_name(f)}">\n'
-        open(os.path.join(OUT, old), "w").write(page.replace("</head>", canon + "</head>", 1))
-        LEGACY.add(old)
+        LEGACY[old] = out_name(f)
 
 for a in used:
     shutil.copy(os.path.join(args.assets, a), os.path.join(OUT, "assets", a))
@@ -120,10 +117,16 @@ for ic in os.listdir("site/static/icons"):
 open(os.path.join(OUT, "site.webmanifest"), "w").write(json.dumps({"name": "The EU Digital Rulebook", "short_name": "EU Rulebook",
     "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}],
     "theme_color": "#FAF9F5", "background_color": "#FAF9F5", "display": "browser", "start_url": "/"}, indent=1))
+if LEGACY:   # case-sensitive match, so /about.html itself is never redirected
+    open(os.path.join(OUT, ".htaccess"), "w").write(
+        "# Old page names (before the lower-case rename) redirect permanently to the current pages.\n"
+        + "".join("RedirectMatch 301 ^/" + o.replace(".", "\\.") + f"$ /{n}\n" for o, n in sorted(LEGACY.items())))
 open(os.path.join(OUT, "README.txt"), "w").write(
     "eutechlaws.org: static export of The EU Digital Rulebook\n\n"
     "Upload the contents of this folder to the web root of the server (for example public_html/), keeping the\n"
     "folder structure. index.html is the front page. No PHP, database or build step is needed; any web server works.\n"
+    ".htaccess (a hidden file: make sure it is uploaded too) redirects the old upper-case page names, such as Rules.html,\n"
+    "to the current lower-case pages; it needs Apache with mod_alias (standard on shared hosting).\n"
     "Interactive pages (Digital Acquis list, Studies library, law pages, Infographics) use dc-lite.js.\n"
     "Fonts load from Google Fonts. Regenerate with: python3 site/export_static.py (from research/digital_rulebook).\n")
 
@@ -140,7 +143,7 @@ def priority(n):
 base = args.base.rstrip("/") + "/"
 urls = []
 for n in sorted(os.listdir(OUT), key=lambda n: (n != "index.html", n in LAWNAMES, n)):
-    if not n.endswith(".html") or n in LEGACY: continue
+    if not n.endswith(".html"): continue
     loc = base if n == "index.html" else base + n
     urls.append(f"  <url><loc>{loc}</loc><lastmod>{lastmod(open(os.path.join(OUT, n)).read())}</lastmod><priority>{priority(n)}</priority></url>")
 open(os.path.join(OUT, "sitemap.xml"), "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
