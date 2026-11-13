@@ -1201,5 +1201,28 @@
   "themes": [
    "market power and regulatory rents"
   ]
+ },
+ {
+  "id": "eui-cds-2025-platform-regulation-productivity",
+  "authors": "J. Scott Marcus; Maria Alessandra Rossi; Leonardo Mazzoni; Pier Luigi Parcu",
+  "year": 2025,
+  "title": "The impact of EU online platform regulation on EU productivity: A preliminary assessment",
+  "venue": "Centre for a Digital Society, European University Institute",
+  "url": "https://cadmus.eui.eu/server/api/core/bitstreams/a8f073f1-56ab-5f0e-9b7b-48d3c5a44536/content",
+  "pdf_url": "https://cadmus.eui.eu/server/api/core/bitstreams/a8f073f1-56ab-5f0e-9b7b-48d3c5a44536/content",
+  "type": "review",
+  "geography_period": "EU, laws enacted about 2014-2024",
+  "method": "Review of empirical studies on the GDPR and the net neutrality rules, and qualitative assessment of the likely effects of the DMA, DSA, Data Act and AI Act",
+  "finding": "The empirical studies strongly suggest the GDPR had important unintended consequences for SMEs, innovation and market concentration; the evidence on net neutrality rules points to lower network investment; for the DMA, DSA, Data Act and AI Act it is too early for data, so the assessment is qualitative.",
+  "summary_plain": "",
+  "relevance": "Burden of EU digital laws on productivity; review of evidence by law",
+  "caveats": "Preliminary; forward-looking parts are qualitative",
+  "verified": "executive summary read",
+  "interested_party": "",
+  "themes": [
+   "digital regulation",
+   "productivity",
+   "compliance costs"
+  ]
  }
 ]
