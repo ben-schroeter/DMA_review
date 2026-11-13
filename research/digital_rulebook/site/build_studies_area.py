@@ -1,6 +1,6 @@
-"""Studies page: cumulative number of sources in the evidence library by type of study, stacked area by publication year.
-Forthcoming and withdrawn-proposal sources are left out. Types follow the Studies page collections and do not overlap:
-causal studies, official reviews, other evidence since adoption (the rest of "All evidence"), impact assessments, economics of regulation.
+"""Studies page: cumulative number of sources in the studies library (ex-post assessments and economics of regulation) by type of study,
+stacked area by publication year. Types follow the Studies page collections and do not overlap: causal studies, official reviews,
+other evidence since adoption (the rest of "All evidence"), economics of regulation.
 Reads site/studies_data.json (built by site/build_studies_data.py); writes site/studies_area.svg. Run from research/digital_rulebook."""
 import collections, json
 
@@ -11,9 +11,8 @@ t = lambda x, y, s, size=13, fill=INK2, anchor="start", weight=None: (f'<text x=
                                                                       + (f' font-weight="{weight}"' if weight else "") + f'>{s}</text>')
 # bottom to top
 SERIES = [("ev causal", "Causal studies", "#8F6708", "#FFFFFF"), ("ev review", "Official reviews", "#B8860B", "#FFFFFF"),
-          ("ev", "Other evidence", "#E3CF9C", INK), ("ia", "Impact assessments", "#A6A3A0", INK),
-          ("econ", "Economics of regulation", "#5C5858", "#FFFFFF")]
-assert {x[10] for x in L} <= {s[0] for s in SERIES} | {"fc", "wd"}, {x[10] for x in L}
+          ("ev", "Other evidence", "#E3CF9C", INK), ("econ", "Economics of regulation", "#5C5858", "#FFFFFF")]
+assert {x[10] for x in L} <= {s[0] for s in SERIES}, {x[10] for x in L}
 Y0, Y1 = 2000, max(x[2] for x in L if x[2] and x[10] in {s[0] for s in SERIES})
 cnt = {k: collections.Counter(x[2] for x in L if x[10] == k and x[2]) for k, *_ in SERIES}
 cum = {}

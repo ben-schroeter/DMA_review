@@ -34,15 +34,15 @@ put("compared_with_proposal", len(both)); put("grew_in_negotiation", sum(x["rest
 # evidence
 L = json.load(open("site/studies_data.json"))["L"]
 tags = collections.Counter(t for x in L for t in str(x[-1]).split())
-put("studies_evidence", tags["ev"]); put("studies_causal", tags["causal"]); put("impact_assessments", tags["ia"]); put("studies_review", tags["review"])
-put("sources_total", tags["ev"] + tags["ia"])
+put("studies_evidence", tags["ev"]); put("studies_causal", tags["causal"]); put("studies_review", tags["review"])
+put("sources_total", tags["ev"])   # ex-post assessments only (impact assessments are counted on the law pages, not here)
 _IA = json.load(open("data/ia/summary.json"))
 put("ia_full", _IA["status"].get("full", 0)); put("ia_pre", _IA["status"].get("pre", 0)); put("ia_codification", _IA["status"].get("codification", 0))
 put("ia_without", _IA["status"].get("none", 0) + _IA["status"].get("swd", 0)); put("ia_unknown", _IA["status"].get("unknown", 0))
 for _k, _lab in (("0314", "2003–2014"), ("1519", "2015–2019"), ("20", "2020 onwards")):
     _n, _f = _IA[_lab]; put(f"ia_without_{_k}", _n - _f); put(f"ia_laws_{_k}", _n)
 put("rsb_known", _IA["board_known"]); put("rsb_neg_first", _IA["board_neg_first"]); put("rsb_neg_twice", _IA["board_neg_twice"])
-put("studies_econ", tags["econ"]); put("studies_withdrawn", tags["wd"]); put("studies_forthcoming", tags["fc"])
+put("studies_econ", tags["econ"]); put("library_total", tags["ev"] + tags["econ"])
 krs = [p for p in PI if p["indicator / promised impact"] and p["parent_row_id"] in Aid]
 sg = collections.Counter(p["status_group"] for p in krs)
 put("objectives", len(krs))

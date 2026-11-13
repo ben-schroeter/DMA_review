@@ -149,8 +149,9 @@ def page(r):
     n = r["restrictions_total"] or 0
     secs = [s for s in SEC if s["parent_row_id"] == rid]
     impl = [s for s in secs if s["kind"] in ("implementing", "delegated")]
-    # adopted laws: evidence since adoption; pending and withdrawn proposals: every source, including impact assessments and background research
-    ev = [l for l in LIT if l["parent_row_id"] == rid and ((l["category"] or "evidence") == "evidence" or pend)]
+    # adopted laws: evidence since adoption; pending and withdrawn proposals: studies and assessments of the proposal and background research.
+    # Impact assessments (and Parliament's appraisals of them) are never listed as studies: see ia_line / ia_pend in the header
+    ev = [l for l in LIT if l["parent_row_id"] == rid and ((l["category"] or "evidence") == "evidence" or pend) and not (pend and IA_TYPE.search(l["source_type"] or ""))]
     causal = [l for l in ev if is_causal(l["method"] or "")]
     kpi = [(f"{n:,}", "obligations in the " + ("proposal" if pend else "adopted text"))]
     if not pend and r["proposal_restrictions_total"]:
@@ -304,7 +305,7 @@ def page(r):
         <div style="display: flex; flex-direction: column; gap: 8px"><p class="eyebrow">What it does</p><p class="body" style="font-size: 17px; color: #282424">{esc(r["objectives"] or "")}</p></div>
         <div style="display: flex; flex-direction: column; gap: 8px"><p class="eyebrow">What we know so far</p><p class="body" style="font-size: 17px">{esc(r["impact_summary"] or ("Not yet adopted; no evidence on effects." if pend else "No summary yet."))}</p></div>
       </div>
-      {"" if pend else ia_line(r)}
+      {ia_pend(rid) if pend else ia_line(r)}
       <figure style="margin: 8px 0 0; display: flex; flex-direction: column; gap: 4px"><figcaption class="eyebrow">Timeline</figcaption>{timeline(r)}
         <span class="cap">{f'{months(r["proposal_date"], r["adoption_date"])} months from proposal to adoption.' if r["adoption_date"] and not pend else f'In negotiation for {months(r["proposal_date"], "2026-10-31")} months.'} Dates when rules start to apply may be set in the text and can come later.</span></figure>
     </div>
@@ -348,6 +349,19 @@ IA = json.load(open("data/ia/ia_laws.json")) if os.path.exists("data/ia/ia_laws.
 IA_LAB = {"full": ("Impact assessment", "#2E7D5B"), "pre": ("No impact assessment: proposed before the Commission introduced them in 2003", "#6B6B6B"),
           "codification": ("No impact assessment: codification or recast", "#6B6B6B"), "none": ("No impact assessment", "#9B3B3B"),
           "swd": ("No impact assessment: staff working document only", "#9B3B3B"), "unknown": ("Impact assessment not found", "#6B6B6B")}
+IA_TYPE = re.compile(r"impact assessment|analysis of impacts", re.I)
+def ia_pend(rid):
+    """Pending and withdrawn proposals: the impact assessment and Parliament's work on it, from the proposal's record."""
+    ia = [l for l in LIT if l["parent_row_id"] == rid and IA_TYPE.search(l["source_type"] or "")]
+    if not ia:
+        return ""
+    lab = lambda l: f'<a href="{esc(l["url"] or l["pdf_url"] or "")}">{esc(l["citation"] or "")}</a> <span class="cap">· {esc(l["source_type"] or "")}</span>'
+    com = [l for l in ia if (l["source_type"] or "").startswith("Commission")]
+    oth = [l for l in ia if l not in com]
+    head = "Impact assessment" if any("Commission impact assessment" == l["source_type"] for l in com) else "No full impact assessment"
+    col = "#2E7D5B" if head == "Impact assessment" else "#9B3B3B"
+    return (f'<p class="body" style="font-size: 15px; margin: 0"><span class="st" style="border-color: {col}; color: {col}">{head}</span> '
+            + "<br>".join(lab(l) for l in com + oth) + "</p>")
 def ia_line(r):
     x = IA.get(str(r["celex_measured"]).split(";")[0])
     if not x: return ""

@@ -44,38 +44,15 @@ for c, r in sorted(inst.items(), key=lambda x: x[1]["row_id"]):
         cat = l.get("category")
         if cat == "evidence":
             tags = ["ev"] + (["causal"] if is_causal(l.get("method", "")) else []) + (["review"] if l.get("source_class") == "official" and REV.search(l.get("source_type") or "") else [])
-        elif cat == "ex-ante assessment":
-            tags = ["ia"]
-        else:
+        else:   # the library holds ex-post assessments only; impact assessments are on the law pages
             continue
         L.append([r["name"], short(l.get("authors")), l.get("year"), l.get("title") or l.get("citation"), l.get("method"), l.get("direction") or "",
                   l.get("headline") or l.get("summary_plain") or "", l.get("url") or l.get("pdf_url") or "", l.get("interested_party", "") or "", l.get("source_class", "") or "other", " ".join(tags)])
-# Withdrawn proposals: their impact assessments and studies, in a collection of their own ("wd"), kept out of the counts above
-sys.path.insert(0, "site"); from forthcoming_procs import REC as WD
-for f in json.load(open("site/forthcoming_list.json")):
-    c = WD.get(f["id"])
-    if f["stage"] != "withdrawn" or not c or not os.path.exists(f"data/impact/{c}.json"): continue
-    for l in sorted(json.load(open(f"data/impact/{c}.json"))["literature"], key=lambda l: -(l.get("year") or 0)):
-        L.append([{"vat-imported-distance-sales": "VAT on imported distance sales", "significant-digital-presence": "Significant digital presence"}.get(f["id"], f["name"]) + " (withdrawn)", short(l.get("authors")), l.get("year"), l.get("title") or l.get("citation"), l.get("method"), l.get("direction") or "",
-                  l.get("headline") or l.get("summary_plain") or "", l.get("url") or l.get("pdf_url") or "", l.get("interested_party", "") or "", l.get("source_class", "") or "other", "wd"])
-# Forthcoming initiatives: impact assessments (or the staff documents that replace them) and studies, collection "fc", kept out of the counts above
-FC_REC = WD
-IA_KIND = {"full": "Commission impact assessment", "analysis": "Commission analysis of impacts (no full impact assessment)", "swd": "Commission staff working document (no impact assessment)"}
-for f in json.load(open("site/forthcoming_list.json")):
-    if f["stage"] == "withdrawn": continue
-    c = FC_REC.get(f["id"]); lab = f["name"] + " (forthcoming)"
-    if c and os.path.exists(f"data/impact/{c}.json"):
-        for l in sorted(json.load(open(f"data/impact/{c}.json"))["literature"], key=lambda l: -(l.get("year") or 0)):
-            L.append([lab, short(l.get("authors")), l.get("year"), l.get("title") or l.get("citation"), l.get("method"), l.get("direction") or "",
-                      l.get("headline") or l.get("summary_plain") or "", l.get("url") or l.get("pdf_url") or "", l.get("interested_party", "") or "", l.get("source_class", "") or "other", "fc"])
-    elif f.get("impact_assessment") in IA_KIND:
-        for ref, url in zip(f["impact_assessment_docs"], f["impact_assessment_urls"]):
-            L.append([lab, "European Commission", int(ref[4:8]), f'{IA_KIND[f["impact_assessment"]]}: {ref}', "ex-ante assessment", "",
-                      IA_KIND[f["impact_assessment"]] + " accompanying the proposal.", url, "", "official", "fc"])
+# Forthcoming initiatives and withdrawn proposals are not in the library: their studies are on their own pages
 for e in json.load(open("data/literature/regulation_economics.json")):
     L.append(["Economics of regulation", short(e.get("authors")), e.get("year"), e.get("title"), e.get("method") or e.get("type"), "",
               e.get("finding") or e.get("summary_plain") or "", e.get("url") or e.get("pdf_url") or "", e.get("interested_party", "") or "", "academic" if "empirical" in (e.get("type") or "") or e.get("type") == "theory" else "other", "econ"])
 out["L"] = L
-out["collections"] = {k: sum(1 for x in L if k in x[10].split()) for k in ("ev", "causal", "review", "ia", "econ", "fc", "wd")}
+out["collections"] = {k: sum(1 for x in L if k in x[10].split()) for k in ("ev", "causal", "review", "econ")}
 json.dump(out, open("site/studies_data.json", "w"), ensure_ascii=False)
 print(out["collections"])

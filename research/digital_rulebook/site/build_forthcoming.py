@@ -216,12 +216,18 @@ for f in F:
         f["ia"] = ia_status(f)
 def ia_html(f):
     x = f.get("ia")
+    com = [l for l in lit_of(f) if l.get("source_type") == "Commission impact assessment"]
+    if (not x or x["status"] == "none") and com:   # e.g. withdrawn proposals: the register lookup finds nothing, the record has the impact assessment
+        links = ", ".join(f'<a href="{esc(l.get("url") or l.get("pdf_url") or "")}">{esc(l.get("venue") or l.get("title"))}</a>' for l in com)
+        return (f'<p class="body" style="font-size: 15px; margin: 0"><span class="st" style="border-color: #2E7D5B; color: #2E7D5B">Impact assessment</span> {links}</p>')
     if not x: return ""
     col = "#2E7D5B" if x["status"] == "full" else "#9B3B3B"
     refs = ", ".join(f'<a href="{swd_url(r)}">{swd_lab(r)}</a>' for r in x["main"])
     extra = (f' <span class="cap">(executive summary {", ".join(swd_lab(r) for r in x["summary"])})</span>' if x["summary"] else "") + (' <span class="cap">· shared with the multimodal booking proposal</span>' if x["shared"] else "")
+    ep = [l for l in lit_of(f) if re.search(r"Parliament.*impact assessment", l.get("source_type") or "")]
+    ep_html = "".join(f'<br><span class="cap">European Parliament: <a href="{esc(l.get("url") or l.get("pdf_url") or "")}">{esc(l.get("title") or l.get("citation"))}</a> ({esc(l.get("source_type")[11:])}, {l.get("year")})</span>' for l in ep)
     return (f'<p class="body" style="font-size: 15px; margin: 0"><span class="st" style="border-color: {col}; color: {col}">{IA_LABEL[x["status"]]}</span> '
-            + (refs + extra if refs else "") + "</p>")
+            + (refs + extra if refs else "") + ep_html + "</p>")
 IA_N = {k: sum(1 for f in F if f.get("ia", {}).get("status") == k) for k in IA_LABEL}
 IA_TOTAL = sum(IA_N.values())
 def parl_docs(fid):
@@ -390,11 +396,13 @@ ERA_OF = {"digital-services-tax": ("Juncker Commission", "digital-single-market"
 
 
 CLS = {"official": "official", "academic": "academic", "think tank": "think tank", "consultancy or industry": "consultancy or industry", "other": "other"}
-def studies_html(f):
+# impact assessments and their stand-ins are listed with the impact assessment status (Key documents and ia_html), never as studies
+IA_TYPE = re.compile(r"impact assessment|analysis of impacts", re.I)
+def lit_of(f):
     c = REC.get(f["id"])
-    if not c or not os.path.exists(f"../data/impact/{c}.json"):
-        return ""
-    lit = sorted(json.load(open(f"../data/impact/{c}.json"))["literature"], key=lambda l: (l.get("category") != "ex-ante assessment", -(l.get("year") or 0)))
+    return json.load(open(f"../data/impact/{c}.json"))["literature"] if c and os.path.exists(f"../data/impact/{c}.json") else []
+def studies_html(f):
+    lit = sorted([l for l in lit_of(f) if not IA_TYPE.search(l.get("source_type") or "")], key=lambda l: -(l.get("year") or 0))
     if not lit:
         return ""
     rows = "".join(
@@ -406,9 +414,9 @@ def studies_html(f):
   <section style="padding-block: 8px 48px">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 12px">
       <h2 class="h2">Studies and assessments</h2>
-      <p class="cap">The Commission's own assessment first, then opinions and studies by others, labelled by who produced them. Also in the <a href="Studies.dc.html">Studies library</a>.</p>
+      <p class="cap">Preparatory studies and assessments of the proposal, newest first, labelled by who produced them. The impact assessment is listed under Key documents.</p>
       <div class="scroll" style="max-height: 560px"><table class="tbl"><thead><tr><th scope="col">Source</th><th scope="col">Method</th><th scope="col">Finding</th></tr></thead><tbody>{rows}</tbody></table></div>
-      <span class="cap">{len(lit)} sources.</span>
+      <span class="cap">{len(lit)} source{"s" if len(lit) != 1 else ""}.</span>
     </div>
   </section>
 '''
@@ -495,9 +503,6 @@ fpage(dfa, [("Proposed", "11 Nov 2026"), ("Procedure", "2026/0356(COD)"), ("Woul
        ("Digital Services Act", "overlaps on dark patterns", "Act-digital-services-act.dc.html")],
       [("Commission", com_docs("digital-fairness-act") + CONSUMER_PKG + [("", "Initiative page: all stages, documents and feedback", "Have your say", "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14622-Digital-Fairness-Act_en")]),
        ("European Parliament", parl_docs("digital-fairness-act")), ("Council", council_docs("digital-fairness-act")),
-       ("Preparatory work", [("Oct 2024", "Fitness check of EU consumer law on digital fairness", "SWD(2024) 230", "https://commission.europa.eu/document/707d7404-78e5-4aef-acfa-82b4cf639f55_en"),
-                             ("Oct 2024", "Study supporting the fitness check", "Commission study", "https://commission.europa.eu/publications/study-support-fitness-check-eu-consumer-law-digital-fairness-and-report-application-modernisation_en"),
-                             ("Oct 2026", "Towards a digital fairness act", "EPRS briefing", "https://eprs.europarl.europa.eu/contents/publications/EPRS/2026/10/EPRS_BRI(2026)791529.html")]),
        ("Consultation", [("Jul 2025", "Public consultation and call for evidence", "closed 24 Oct 2025", "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14622-Digital-Fairness-Act_en"),
                          ("Dec 2025", "Factual summary report of the consultation", "Ares(2025)11521347", "https://ec.europa.eu/info/law/better-regulation/api/download/090166e526fb7c7d")]),
        ("Planning", [("Oct 2025", "Commission work programme 2026", "COM(2025) 870", EUR("52025DC0870"))])],
@@ -527,7 +532,7 @@ for f in F:
         prep = [("", t if t != "Official source" else "Commission page on the initiative", "Commission", u) for t, u in links] + PREP.get(f["id"], [])
         docs = [("Preparatory work and consultations", prep or [("", "No preparatory documents published yet", "", "")]), ("Planning", PLAN.get(f["id"]) or ([CWP27] if f["proc"] == "CWP 2027" else [CWP26, ROADMAP] + ([AGENDA] if f["id"] in ON_AGENDA else [])))]
         sub = [("Announced in", {"CWP 2026": "Work programme 2026", "CWP 2027": "Work programme 2027"}.get(f["proc"], f["proc"])), ("Proposal expected", f["expected"]), ("Target for agreement", f["target"] if f["target"] != "—" else "not set")]
-        fpage(f, sub, d["intro"], d["does"], chg, docs, "Preparatory studies and consultations",
+        fpage(f, sub, d["intro"], d["does"], chg, docs, "Preparatory work and consultations",
               "Until the proposal is published there is no impact assessment; these are the documents it will build on.")
     else:
         com = com_docs(f["id"]) or [(d.get("date", ""), "Commission proposal", d.get("ref", ""), EUR(d["eurlex"]) if d.get("eurlex") else (links[0][1] if links else ""))]

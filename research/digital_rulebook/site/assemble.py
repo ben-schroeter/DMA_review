@@ -72,7 +72,7 @@ MARK_FACTS = [
  ("national_measures", r"\b(48,158)\b"), ("private_main", r"\b(7,106)\b"), ("private_secondary", r"\b(6,167)\b"), ("private_total", r"\b(13,273)\b"),
  ("private_total_k", r"\b(13,300)\b"), ("obligations_since_2018", r"\b(16,730)\b"), ("grew_in_negotiation", r"\b(84)(?= of 99)"), ("compared_with_proposal", r"(?<=84 of )(99)\b"),
  ("studies_evidence", r"\b(476)(?= (?:studies|evaluations|sources))"), ("studies_causal", r"\b(68)(?= (?:of them causal|with a causal|studies with a causal))"),
- ("impact_assessments", r"\b(95)(?= initial impact)"), ("sources_total", r"\b(571)(?= sources)"), ("objectives", r"\b(398)(?= objectives)"),
+ ("sources_total", r"\b(571)(?= sources)"), ("objectives", r"\b(398)(?= objectives)"),
  ("obj_never_pct", r"\b(47%)(?= of those objectives)"), ("rs_main_n", r"\b(20,212)\b"), ("rs_secondary_n", r"\b(10,544)\b"), ("rs_total_k", r"\b(30,800)\b"),
  ("forthcoming_total", r"(?<=See all )(\d+)(?= forthcoming)"),
  ("src_official", r"(?<=: )(241)(?= official)"),
