@@ -27,7 +27,7 @@ a{color:#282424}a:hover{color:#8F6708}
 .seg{text-decoration:none;font-size:15px;padding:8px 14px;border-radius:999px;border:1px solid #D4D2CE;color:#3F3B3B;min-height:44px;box-sizing:border-box;display:inline-flex;align-items:center;background:#FFFFFF;cursor:pointer;font-family:inherit}
 @media (max-width:640px){.wrap{padding-inline:20px}.h1{font-size:40px}}
 @media (max-width:640px){.nav{width:100%;justify-content:space-between;gap:10px !important}.nav a{font-size:14px}}
-.libscroll{max-height:1500px;overflow-y:auto;border:1px solid #E8E6E3;border-radius:12px;background:#F5F5F0;scrollbar-color:#B8860B #EFEDE9;scrollbar-gutter:stable}
+.libscroll{max-height:1500px;overflow-y:auto;border:1px solid #E8E6E3;border-radius:12px;background:#FAF9F5;scrollbar-color:#B8860B #EFEDE9;scrollbar-gutter:stable}
 .libscroll::-webkit-scrollbar{width:12px}.libscroll::-webkit-scrollbar-track{background:#EFEDE9}.libscroll::-webkit-scrollbar-thumb{background:#B8860B;border-radius:8px;border:3px solid #EFEDE9}
 </style>
 </helmet>
@@ -44,7 +44,7 @@ a{color:#282424}a:hover{color:#8F6708}
     </div>
   </header>
 
-  <section style="padding-block: 64px 32px">
+  <section style="padding-block: 64px 64px">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 20px">
       <nav aria-label="Studies" style="display: flex; flex-wrap: wrap; gap: 10px">
         <a class="tab" href="Studies.dc.html" style="background: #282424; color: #FAF9F5; border-color: #282424" aria-current="page">Library</a>
@@ -61,7 +61,12 @@ a{color:#282424}a:hover{color:#8F6708}
           <p class="cap" style="margin: 0">Studies by year of publication and type, cumulative; the latest year is to date.</p>
         </figure>
       </div>
-      <div style="margin-top: 28px; padding-top: 40px; border-top: 1px solid #E8E6E3; display: flex; flex-direction: column; gap: 8px">
+    </div>
+  </section>
+
+  <section style="background: #F3F1EC; border-top: 1px solid #E8E6E3; padding-block: 56px 28px">
+    <div class="wrap" style="display: flex; flex-direction: column; gap: 20px">
+      <div style="display: flex; flex-direction: column; gap: 8px">
         <h2 style="font-family: 'Source Serif 4', Georgia, serif; font-weight: 400; font-size: 32px; line-height: 1.2; margin: 0; padding-left: 14px; border-left: 4px solid #B8860B">Browse the studies</h2>
         <p class="body" style="font-size: 16px">Filter by type of study, or search for research on a specific legal instrument.</p>
       </div>
@@ -75,7 +80,7 @@ a{color:#282424}a:hover{color:#8F6708}
     </div>
   </section>
 
-  <section style="padding-block: 0 80px">
+  <section style="background: #F3F1EC; padding-block: 0 80px">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 20px">
       <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: end">
         <label for="sq" style="display: flex; flex-direction: column; gap: 6px; flex: 2 1 260px" class="cap">Search<input id="sq" class="ctl" type="search" placeholder="Author, title or finding" value="{{q}}" onInput="{{onQ}}"></label>
