@@ -370,6 +370,31 @@
    "archive_url": "",
    "added": "2026-10 broadened search",
    "category": "evidence"
+  },
+  {
+   "id": "liu-2026-ai-act-shareholder",
+   "citation": "Liu, De Cesari & Dutordoir (2026), Regulating intelligence: Shareholder value effects of the EU Artificial Intelligence Act, SSRN working paper",
+   "authors": "Liu, De Cesari & Dutordoir",
+   "year": 2026,
+   "title": "Regulating intelligence: Shareholder value effects of the EU Artificial Intelligence Act",
+   "venue": "SSRN working paper",
+   "url": "https://doi.org/10.2139/ssrn.6966819",
+   "pdf_url": "",
+   "source_type": "academic working paper",
+   "method": "event study of stock returns of a global sample of AI-intensive firms around key AI Act legislative events",
+   "outcomes": "",
+   "direction": "negative",
+   "headline": "Negative stock price reactions around key AI Act milestones, smaller for financially healthy and first-mover firms; no evidence of legitimacy benefits, and firms with larger legitimacy deficits reacted worse.",
+   "summary_plain": "",
+   "period_geography": "",
+   "quality": "",
+   "verified": "abstract read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-13",
+   "archive_url": "",
+   "category": "evidence",
+   "source_class": "academic"
   }
  ],
  "evidence_level": "thin"

@@ -1014,5 +1014,51 @@
    "productivity",
    "compliance costs"
   ]
+ },
+ {
+  "id": "dube-2025-privacy-regulation-marketing",
+  "authors": "Jean-Pierre Dubé; John G. Lynch; Dirk Bergemann; Mert Demirer; Avi Goldfarb et al.",
+  "year": 2025,
+  "title": "The Intended and Unintended Consequences of Privacy Regulation for Consumer Marketing",
+  "venue": "Marketing Science (Frontiers)",
+  "url": "https://doi.org/10.1287/mksc.2024.0901",
+  "pdf_url": "",
+  "type": "review",
+  "geography_period": "EU and US, mainly post-2018",
+  "method": "Review of the quantitative marketing and economics literature on the GDPR and similar privacy laws",
+  "finding": "Surveys the evidence on the benefits and unintended costs of digital consumer privacy regulation for firms, consumers and markets.",
+  "summary_plain": "",
+  "relevance": "Evidence review on privacy regulation",
+  "caveats": "Review, not a new estimate",
+  "verified": "abstract read",
+  "interested_party": "",
+  "themes": [
+   "privacy",
+   "GDPR",
+   "marketing"
+  ]
+ },
+ {
+  "id": "ccia-2025-eu-digital-regulation-cost",
+  "authors": "CCIA Research Center",
+  "year": 2025,
+  "title": "The cost of EU digital regulation to US companies",
+  "venue": "CCIA Research Center (press release 28 July 2025)",
+  "url": "https://ccianet.org/news/2025/07/new-study-finds-eu-digital-regulations-cost-u-s-companies-up-to-97-6-billion-annually/",
+  "pdf_url": "",
+  "type": "empirical-descriptive",
+  "geography_period": "EU, 2023-2024",
+  "method": "Trade-association estimate combining compliance costs, potential fines, revenue losses from product restrictions and digital services taxes",
+  "finding": "EU digital rules cost US companies up to USD 97.6 billion a year (floor USD 38.9 billion), including USD 2.2 billion in direct compliance costs (about USD 1 billion from the DMA and USD 750 million from the DSA).",
+  "summary_plain": "",
+  "relevance": "Cost of EU digital rules",
+  "caveats": "Trade-association estimate; potential fines make up most of the total",
+  "verified": "press release read",
+  "interested_party": "CCIA (tech industry association)",
+  "themes": [
+   "compliance costs",
+   "DMA",
+   "DSA"
+  ]
  }
 ]

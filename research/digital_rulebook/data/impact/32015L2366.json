@@ -228,6 +228,31 @@
    "archive_url": "",
    "category": "evidence",
    "source_class": "consultancy or industry"
+  },
+  {
+   "id": "polasik-2020-psd2-paytech",
+   "citation": "Michał Polasik, Agnieszka Huterska, Rehan Iftikhar, Štěpán Mikula (2020), The impact of Payment Services Directive 2 on the PayTech sector development in Europe, Journal of Economic Behavior & Organization 178",
+   "authors": "Michał Polasik, Agnieszka Huterska, Rehan Iftikhar, Štěpán Mikula",
+   "year": 2020,
+   "title": "The impact of Payment Services Directive 2 on the PayTech sector development in Europe",
+   "venue": "Journal of Economic Behavior & Organization 178",
+   "url": "https://doi.org/10.1016/j.jebo.2020.07.010",
+   "pdf_url": "",
+   "source_type": "peer-reviewed article",
+   "method": "difference-in-differences and Poisson regression on new PayTech firms and PSD2-licensed entities across EU countries",
+   "outcomes": "",
+   "direction": "positive",
+   "headline": "PSD2's adoption in 2015 caused a rapid but temporary surge of PayTech start-ups; entry fell in 2018 after transposition but stayed above pre-PSD2 levels.",
+   "summary_plain": "",
+   "period_geography": "",
+   "quality": "",
+   "verified": "abstract read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-13",
+   "archive_url": "",
+   "category": "evidence",
+   "source_class": "academic"
   }
  ],
  "evidence_level": "moderate"
