@@ -52,7 +52,7 @@ a{{color:#282424}}a:hover{{color:#8F6708}}
 </helmet>
 <div style="width: 100%; background: #FAF9F5">
 HEADER
-  <section style="padding-block: 64px 32px">
+  <section style="padding-block: 64px 56px">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 20px">
       {TABS("EvidenceMap.dc.html")}<p class="eyebrow">Studies · Evidence map</p>
       <h1 class="h1">What has been studied for each law</h1>
@@ -61,8 +61,12 @@ HEADER
     </div>
   </section>
 
-  <section style="padding-block: 8px 80px">
+  <section style="background: #F3F1EC; border-top: 1px solid #E8E6E3; padding-block: 56px 80px">
     <div class="wrap" style="display: flex; flex-direction: column; gap: 20px">
+      <div style="display: flex; flex-direction: column; gap: 8px">
+        <h2 style="font-family: 'Source Serif 4', Georgia, serif; font-weight: 400; font-size: 32px; line-height: 1.2; margin: 0; padding-left: 14px; border-left: 4px solid #B8860B">The map</h2>
+        <p class="body" style="font-size: 16px">Laws by policy area in rows, kinds of effect in columns.</p>
+      </div>
       <div style="overflow-x: auto"><div style="min-width: 760px">{full}</div></div>
       <p class="cap" style="margin: 0; max-width: 90ch">{CAVEAT}</p>
     </div>
