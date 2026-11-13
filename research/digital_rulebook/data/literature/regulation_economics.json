@@ -42,48 +42,6 @@
   ]
  },
  {
-  "id": "stigler-1971-economic-regulation",
-  "authors": "George J. Stigler",
-  "year": 1971,
-  "title": "The Theory of Economic Regulation",
-  "venue": "The Bell Journal of Economics and Management Science 2(1): 3-21",
-  "url": "https://doi.org/10.2307/3003160",
-  "pdf_url": "",
-  "type": "theory",
-  "geography_period": "US (illustrative evidence on trucking weight limits and occupational licensing)",
-  "method": "Political-economy theory of the supply and demand for regulation, with illustrative cross-state evidence",
-  "finding": "As a rule, regulation is acquired by the industry and is designed and operated primarily for its benefit; concentrated producer interests outbid dispersed consumers for entry control, subsidies and price-fixing.",
-  "summary_plain": "This classic paper argues that industries often seek regulation and shape it to protect themselves from competition. It is the origin of the idea of 'regulatory capture'.",
-  "relevance": "It is the basic theory behind the worry that complex EU digital rules can be shaped by, and end up favouring, the large incumbents they are meant to discipline.",
-  "caveats": "A theory with mostly illustrative evidence. Later work (Peltzman, Becker) shows that regulators also weigh consumer interests.",
-  "verified": "abstract read",
-  "interested_party": "",
-  "themes": [
-   "market power and regulatory rents"
-  ]
- },
- {
-  "id": "krueger-1974-rent-seeking",
-  "authors": "Anne O. Krueger",
-  "year": 1974,
-  "title": "The Political Economy of the Rent-Seeking Society",
-  "venue": "American Economic Review 64(3): 291-303",
-  "url": "https://ideas.repec.org/a/aea/aecrev/v64y1974i3p291-303.html",
-  "pdf_url": "",
-  "type": "theory",
-  "geography_period": "India (1964) and Turkey (1968)",
-  "method": "Theoretical model of competitive rent-seeking for import licences, with back-of-envelope estimates of rent values",
-  "finding": "Rents created by government restrictions were estimated at about 7.3% of national income in India (1964), and import-licence rents alone at about 15% of GNP in Turkey (1968); competition for these rents wastes resources beyond the usual deadweight loss.",
-  "summary_plain": "When governments hand out valuable permissions, firms spend real resources competing for them instead of producing. Krueger coined the term 'rent-seeking' and showed these rents can be large.",
-  "relevance": "Licensing, designation and compliance regimes create valuable regulatory positions, and the effort spent lobbying for them is a cost of regulation in its own right.",
-  "caveats": "Context is trade licensing in developing economies; the rent estimates are rough, and Krueger did not estimate how much of the rents were dissipated.",
-  "verified": "page summary via search",
-  "interested_party": "",
-  "themes": [
-   "market power and regulatory rents"
-  ]
- },
- {
   "id": "deloecker-2020-market-power",
   "authors": "Jan De Loecker; Jan Eeckhout; Gabriel Unger",
   "year": 2020,
@@ -142,27 +100,6 @@
   "relevance": "It supports the view that regulation weighs most on small firms, which matters for the cumulative compliance load of EU digital law on start-ups and SMEs.",
   "caveats": "Working paper; US-only; regulation measured by RegData word counts. Goldschlag and Tabarrok find no link between regulation and declining dynamism.",
   "verified": "abstract read",
-  "interested_party": "",
-  "themes": [
-   "market power and regulatory rents"
-  ]
- },
- {
-  "id": "philippon-2019-great-reversal",
-  "authors": "Thomas Philippon",
-  "year": 2019,
-  "title": "The Great Reversal: How America Gave Up on Free Markets",
-  "venue": "Belknap Press of Harvard University Press (book)",
-  "url": "https://www.hup.harvard.edu/books/9780674237544",
-  "pdf_url": "",
-  "type": "review",
-  "geography_period": "US vs EU, 1990s-2010s",
-  "method": "Book-length synthesis of the author's and others' research on concentration, profits, prices, lobbying and regulation",
-  "finding": "US industries have become more concentrated and less competitive than European ones since the late 1990s, with higher prices (for example in mobile telecoms and airlines), lower investment and productivity; the author attributes this to lobbying and campaign finance that raised entry barriers and weakened antitrust.",
-  "summary_plain": "Philippon argues that the US, once the model of free markets, now has less competition than Europe, and that lobbying by big firms is a main reason.",
-  "relevance": "It is often cited for the claim that EU competition institutions have done better than US ones, and it frames lobbying-driven regulation as a risk.",
-  "caveats": "Written for a general audience, so it argues a case; some claims (for example on prices and welfare) are disputed by other economists.",
-  "verified": "page summary via search",
   "interested_party": "",
   "themes": [
    "market power and regulatory rents"
@@ -549,27 +486,6 @@
   ]
  },
  {
-  "id": "aghion-2005-inverted-u",
-  "authors": "Philippe Aghion, Nick Bloom, Richard Blundell, Rachel Griffith, Peter Howitt",
-  "year": 2005,
-  "title": "Competition and Innovation: An Inverted-U Relationship",
-  "venue": "Quarterly Journal of Economics 120(2): 701-728",
-  "url": "https://doi.org/10.1093/qje/120.2.701",
-  "pdf_url": "https://www.nber.org/papers/w9269",
-  "type": "theory",
-  "geography_period": "UK firms (patents at the US patent office)",
-  "method": "Schumpeterian growth model plus panel estimates of patenting on product-market competition (Lerner index) (identification draws on policy-driven changes in competition)",
-  "finding": "Model and data both show an inverted-U: innovation rises with competition at low levels and falls at high levels; the inverted-U is steeper in 'neck-and-neck' industries where firms are technologically close.",
-  "summary_plain": "More competition boosts innovation up to a point, after which it can dampen it. Whether a rule that increases competition helps innovation depends on how competitive the market already is.",
-  "relevance": "The DMA's premise is that gatekeeper markets sit on the low-competition side of the curve, where opening them up should raise innovation.",
-  "caveats": "Core evidence from UK manufacturing patents; later replications find the shape sensitive to specification.",
-  "verified": "abstract read",
-  "interested_party": "",
-  "themes": [
-   "innovation"
-  ]
- },
- {
   "id": "blind-2012-regulation-innovation",
   "authors": "Knut Blind",
   "year": 2012,
@@ -584,27 +500,6 @@
   "summary_plain": "Regulation is not one thing: some kinds of rules go with more innovation and others with less. Clear legal frameworks and product rules can help innovation, while heavy-handed economic controls tend to hurt it.",
   "relevance": "Supports judging EU digital instruments by type and design rather than by the overall number of rules.",
   "caveats": "Small country panel, correlational; survey-based regulation indices.",
-  "verified": "abstract read",
-  "interested_party": "",
-  "themes": [
-   "innovation"
-  ]
- },
- {
-  "id": "ambec-2013-porter-hypothesis",
-  "authors": "Stefan Ambec, Mark A. Cohen, Stewart Elgie, Paul Lanoie",
-  "year": 2013,
-  "title": "The Porter Hypothesis at 20: Can Environmental Regulation Enhance Innovation and Competitiveness?",
-  "venue": "Review of Environmental Economics and Policy 7(1): 2-22",
-  "url": "https://doi.org/10.1093/reep/res016",
-  "pdf_url": "https://media.rff.org/documents/RFF-DP-11-01.pdf",
-  "type": "review",
-  "geography_period": "Global literature, 1995-2012",
-  "method": "Review of theory and empirical tests of the Porter hypothesis (Porter and van der Linde 1995, JEP 9(4)) and its 'weak', 'narrow' and 'strong' versions",
-  "finding": "Evidence that well-designed (especially flexible, market-based) regulation spurs innovation (weak version) is fairly strong; evidence that it raises overall firm competitiveness (strong version) remains mixed.",
-  "summary_plain": "The idea that smart regulation can push firms to innovate and even become more competitive has some support. Rules often trigger new inventions, but whether firms end up better off overall is less clear.",
-  "relevance": "The main theoretical argument for regulation-induced innovation, often invoked for EU digital rules (e.g. privacy-enhancing technologies).",
-  "caveats": "Evidence base is environmental, not digital; transfer to data and platform rules is by analogy.",
   "verified": "abstract read",
   "interested_party": "",
   "themes": [
@@ -627,27 +522,6 @@
   "relevance": "New EU digital rules (DMA, AI Act) create similar uncertainty for first movers; guidance and specification decisions can lower it.",
   "caveats": "Medical devices, US; magnitudes not directly transferable to digital markets.",
   "verified": "abstract read",
-  "interested_party": "",
-  "themes": [
-   "innovation"
-  ]
- },
- {
-  "id": "bradford-2024-false-choice",
-  "authors": "Anu Bradford",
-  "year": 2024,
-  "title": "The False Choice Between Digital Regulation and Innovation",
-  "venue": "Northwestern University Law Review 119(2): 377",
-  "url": "https://scholarlycommons.law.northwestern.edu/nulr/vol119/iss2/3",
-  "pdf_url": "https://papers.ssrn.com/abstract=4753107",
-  "type": "policy report",
-  "geography_period": "EU vs US, 2000s-2020s",
-  "method": "Legal and institutional analysis (law review article), no new econometrics",
-  "finding": "Argues the US-EU tech gap is not explained by strict EU digital regulation but by deeper factors: fragmented digital single market, shallow capital markets, punitive bankruptcy law, risk-averse culture, and weaker ability to attract global talent.",
-  "summary_plain": "Europe's lag in tech is mostly not caused by its digital rules. Missing venture capital, a fragmented market and harsh failure laws matter more.",
-  "relevance": "The leading counter-argument to claims that EU digital rules explain Europe's innovation gap.",
-  "caveats": "Argumentative synthesis, not causal estimation; author is a prominent scholar of EU regulatory influence.",
-  "verified": "page summary via search",
   "interested_party": "",
   "themes": [
    "innovation"
@@ -822,27 +696,6 @@
   ]
  },
  {
-  "id": "kamepalli-2020-kill-zone",
-  "authors": "Sai Krishna Kamepalli, Raghuram Rajan, Luigi Zingales",
-  "year": 2020,
-  "title": "Kill Zone",
-  "venue": "NBER Working Paper 27146",
-  "url": "https://www.nber.org/papers/w27146",
-  "pdf_url": "",
-  "type": "theory",
-  "geography_period": "Digital platforms (model)",
-  "method": "Theoretical model of platform competition, app developer adoption and VC financing under expected acquisition",
-  "finding": "The prospect of quick acquisition by an incumbent platform reduces app developers' incentive to adopt an entrant, lowering the entrant's stand-alone value and acquisition price, and so reducing VC incentives to fund entry: a 'kill zone' around incumbents.",
-  "summary_plain": "When start-ups expect to be bought by a tech giant, fewer users and partners back them and investors fund fewer of them. Unchecked platform power can choke off innovation.",
-  "relevance": "Theoretical case that ex-ante platform regulation such as the DMA could raise start-up investment rather than reduce it.",
-  "caveats": "Theory; empirical support for kill zones is limited and contested.",
-  "verified": "abstract read",
-  "interested_party": "",
-  "themes": [
-   "innovation"
-  ]
- },
- {
   "id": "nicoletti-2003-regulation-productivity",
   "authors": "Giuseppe Nicoletti; Stefano Scarpetta",
   "year": 2003,
@@ -927,27 +780,6 @@
   ]
  },
  {
-  "id": "blanchard-2003-deregulation-macro",
-  "authors": "Olivier Blanchard; Francesco Giavazzi",
-  "year": 2003,
-  "title": "Macroeconomic Effects of Regulation and Deregulation in Goods and Labor Markets",
-  "venue": "Quarterly Journal of Economics 118(3): 879-907 (NBER WP 8120)",
-  "url": "https://doi.org/10.1162/00335530360698450",
-  "pdf_url": "",
-  "type": "theory",
-  "geography_period": "Model applied to continental Europe, 1980s-1990s",
-  "method": "General-equilibrium model with monopolistic competition in goods markets and wage bargaining in labour markets; regulation sets entry costs, competition and worker bargaining power",
-  "finding": "Deregulation reduces and redistributes rents; even if beneficial in the long run, it can bring incumbent decline, temporarily higher unemployment and lower real wages. Product market deregulation can make labour market deregulation politically easier.",
-  "summary_plain": "Cutting red tape can raise output and jobs over time, but the gains take time and create winners and losers along the way.",
-  "relevance": "Frames why regulatory reform in the EU is politically hard and why short-run and long-run effects of digital rules can differ.",
-  "caveats": "Theoretical; no direct estimate of magnitudes.",
-  "verified": "abstract read",
-  "interested_party": "",
-  "themes": [
-   "productivity, GDP and the EU-US gap"
-  ]
- },
- {
   "id": "vanark-2008-productivity-gap",
   "authors": "Bart van Ark; Mary O'Mahony; Marcel P. Timmer",
   "year": 2008,
@@ -1004,48 +836,6 @@
   "summary_plain": "The most productive firms keep pulling ahead while the rest stall, and the gap is widest where markets are less open to competition.",
   "relevance": "Digital regulation can help (by opening markets to challengers) or hurt (by raising fixed compliance costs for laggards) technology diffusion.",
   "caveats": "Working paper; reform-divergence link is correlational; frontier measures sensitive to Orbis coverage.",
-  "verified": "full text read",
-  "interested_party": "",
-  "themes": [
-   "productivity, GDP and the EU-US gap"
-  ]
- },
- {
-  "id": "draghi-2024-competitiveness",
-  "authors": "Mario Draghi (for the European Commission)",
-  "year": 2024,
-  "title": "The future of European competitiveness (Part A: A competitiveness strategy for Europe)",
-  "venue": "European Commission report",
-  "url": "https://commission.europa.eu/topics/eu-competitiveness/draghi-report_en",
-  "pdf_url": "https://commission.europa.eu/document/download/97e481fd-2dc3-412d-be4c-f152a8232961_en",
-  "type": "policy report",
-  "geography_period": "EU vs US and China, 2000-2024",
-  "method": "Policy diagnosis drawing on macro comparisons, sector studies and stakeholder input",
-  "finding": "Real disposable income per capita has grown almost twice as much in the US as in the EU since 2000; around 70% of the per capita GDP gap with the US at PPP (which rose from 31% in 2002 to 34%) is explained by lower productivity. The EU has around 100 tech-focused laws and over 270 regulators active in digital networks, and many EU laws take a precautionary ex ante approach that the report says hampers innovation.",
-  "summary_plain": "The EU's former central bank chief found Europe falling behind the US mainly on productivity and argued that layers of tech regulation and a fragmented single market hold innovators back.",
-  "relevance": "The most influential recent EU diagnosis directly naming the volume of digital regulation as a drag on innovation.",
-  "caveats": "Policy report, not peer-reviewed; the 100-laws count is an inventory, not an impact estimate.",
-  "verified": "full text read",
-  "interested_party": "Commissioned by the European Commission",
-  "themes": [
-   "productivity, GDP and the EU-US gap"
-  ]
- },
- {
-  "id": "schnabel-2024-technology-gap",
-  "authors": "Isabel Schnabel (ECB Executive Board)",
-  "year": 2024,
-  "title": "From laggard to leader? Closing the euro area's technology gap",
-  "venue": "ECB speech, European University Institute, Florence, 16 February 2024",
-  "url": "https://www.ecb.europa.eu/press/key/date/2024/html/ecb.sp240216~df6f8d9c31.en.html",
-  "pdf_url": "",
-  "type": "policy report",
-  "geography_period": "Euro area vs US, 1945-2023",
-  "method": "Speech synthesising ECB staff and academic research",
-  "finding": "Big-four euro area labour productivity rose from 25% of the US level in 1945 to 100% in 1995, then fell back to about 0.8 by 2008; US services productivity grew 3.2% a year in 1995-2005 versus 0.9% in Europe. She cites evidence that strict product market regulation, rigid labour markets and red tape inhibited digital adoption, and that intra-EU services trade is only about 15% of GDP versus over 50% for goods because of remaining regulatory barriers.",
-  "summary_plain": "A senior ECB official argued that Europe's productivity gap with the US is largely about slow adoption of digital technology, held back by red tape, fragmented markets and weak scale-up finance.",
-  "relevance": "Central-bank view that fragmentation and entry barriers, rather than regulation as such, are the main issue, favouring harmonised single-market rules.",
-  "caveats": "Speech; numbers drawn from cited studies, not original estimates. In a February 2026 speech ('Made in Europe') she called the 'over-regulation' narrative misleading while stressing internal barriers and national gold-plating.",
   "verified": "full text read",
   "interested_party": "",
   "themes": [
