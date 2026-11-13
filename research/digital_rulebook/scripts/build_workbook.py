@@ -33,6 +33,10 @@ for it in ag:
     def _same(a, b):
         A, B = _words(a.get("title")), _words(b.get("title"))
         if a.get("agency") == b.get("agency"):
+            # different document numbers (e.g. Recommendations 1/2022 vs 1/2026) are different documents
+            na, nb = (set(_re.findall(r"\b\d{1,2}/\d{4}\b", x.get("title") or "")) for x in (a, b))
+            if na and nb and not (na & nb):
+                return False
             return _norm(a.get("title")) == _norm(b.get("title"))
         return min(len(A), len(B)) >= 2 and len(A & B) / min(len(A), len(B)) >= 0.8
     dup = next((d for d in dedup if d["parent"] == it["parent"] and _same(d, it)), None)

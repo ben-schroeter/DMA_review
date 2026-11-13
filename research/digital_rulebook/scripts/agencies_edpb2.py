@@ -12,12 +12,18 @@ for u, (typ, _) in L.items():
     title = H.unescape(re.search(r"<title>(.*?)\|", h, re.S).group(1)).strip() if "<title>" in h else u
     txt = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", re.sub(r"<script.*?</script>", "", h, flags=re.S)))
     pdfs = list(dict.fromkeys(x for x in re.findall(r'href="([^"]+\.pdf)"', h) if x.startswith("/")))
-    main = [p for p in pdfs if re.search(r"_en\.pdf$|-en\.pdf$|_en_|en\.pdf$", p) and not re.search(r"summary|report|annex|statement", p, re.I)]
+    main = [p for p in pdfs if re.search(r"_en\.pdf$|-en\.pdf$|_en_|en\.pdf$", p) and not re.search(r"summary|report|annex|statement|glance|consultation/", p, re.I)]
     v = max([int(x) for x in re.findall(r"_v(\d)", " ".join(pdfs))] or [1])
     consult = "public consultation" in txt.lower()
     has_report = any(re.search(r"report", p, re.I) for p in pdfs)
-    # Reviewed by hand: everything listed is a final/adopted (or EDPB-endorsed WP29) version except open v1 drafts
-    final = not ("guidelines-042026" in u)
+    # Reviewed by hand (last 13 Nov 2026): everything listed is a final/adopted (or EDPB-endorsed WP29) version except
+    # these public-consultation drafts (v1 only) and old v1 pages of guidelines whose final version is listed separately
+    DRAFTS = ("guidelines-042026", "guidelines-022026-on-anonymisation", "guidelines-032026-on-web-scraping",
+              "guidelines-12026-on-processing-of-personal-data-for-scientific", "guidelines-012025-on-pseudonymisation",
+              "recommendations-22025-on-the-legal-basis-for-requiring", "joint-guidelines-on-the-interplay-between-the-digital-markets",
+              "guidelines-012021-on-examples-regarding-data-breach-notification_en", "guidelines-12020-on-processing-personal-data-in-the-context-of-connected",
+              "article-29-working-party-guidelines-on-transparency-under-regulation")
+    final = not any(d in u for d in DRAFTS)
     date = (re.search(r'datetime="(\d{4}-\d{2}-\d{2})', h) or [None, None])[1]
     s = (u + " " + title).lower()
     if "eprivacy" in s: parent = "32002L0058"
