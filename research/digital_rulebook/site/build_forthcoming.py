@@ -199,7 +199,7 @@ IA_LABEL = {"full": "Impact assessment", "analysis": "Lighter analysis of impact
             "swd": "No impact assessment: staff working document only", "none": "No impact assessment or staff working document found"}
 def ia_status(f):
     refs = sorted({swd_ref(x) for r in PROC.get(f["id"], []) for x in (OE.get(r, {}).get("swd") or [])} | ({SHARED_IA[f["id"]]} if f["id"] in SHARED_IA else set()),
-                  key=lambda r: (int(r[4:8]), int(r[9:-1])))
+                  key=lambda r: (int(r[4:8]), int(r[9:])))
     docs = [(r, SWD.get(r, {})) for r in refs]
     if any(d.get("type") == "IMPACT_ASSESS" for _, d in docs):
         st = "full"; main = [r for r, d in docs if d.get("type") == "IMPACT_ASSESS"]

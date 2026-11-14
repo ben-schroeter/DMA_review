@@ -1,0 +1,54 @@
+{
+ "celex": "32012D0243",
+ "name": "Radio Spectrum Policy Programme",
+ "proposal": "52010PC0471",
+ "impact_assessment": "SEC(2010) 1034 (summary SEC(2010) 1035)",
+ "evidence_rating": "thin: one Commission implementation report and an audit of 5G roll-out; no study of the programme's own effect",
+ "summary": "The programme set a target of at least 1200 MHz of spectrum for wireless broadband and a deadline for the 800 MHz band. The Commission's 2014 report found it had helped make harmonised spectrum available, but that its general principles were too vague and that delays in assigning the 800 MHz band showed the need for better-coordinated timing. No independent study of its effect was found.",
+ "last_reviewed": "2026-11-14",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "No monitoring indicators set in the proposal; assessed through the Commission's reports listed below",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "target in the act",
+   "objective": "Spectrum for wireless broadband",
+   "indicator": "MHz identified for wireless broadband",
+   "target_or_baseline": "at least 1200 MHz by 2015",
+   "evidence": "2014 report: the target promoted spectrum sharing and the spectrum inventory; delays in assigning the 800 MHz band (deadline 1 January 2013) in several Member States.",
+   "status": "partially measured",
+   "sources": "COM(2014) 228"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2014-rspp-report",
+   "citation": "European Commission (2014), Report on the implementation of the Radio Spectrum Policy Programme, COM(2014) 228",
+   "authors": "European Commission",
+   "year": 2014,
+   "title": "Report on the implementation of the Radio Spectrum Policy Programme",
+   "venue": "COM(2014) 228",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52014DC0228",
+   "pdf_url": "",
+   "source_type": "Commission implementation report",
+   "method": "implementation report (Member State information)",
+   "outcomes": "spectrum availability; internal market",
+   "direction": "mixed",
+   "headline": "The programme helped make harmonised spectrum available and fostered spectrum sharing, but its general principles were too imprecise and delays in assigning the 800 MHz band fragmented the market",
+   "summary_plain": "The Commission found the programme useful for freeing spectrum but too general to stop national differences and delays in assigning frequencies.",
+   "period_geography": "EU, 2012-2014",
+   "quality": "Commission self-assessment",
+   "verified": "full text read (conclusions)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20260113041719/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52014DC0228"
+  }
+ ]
+}

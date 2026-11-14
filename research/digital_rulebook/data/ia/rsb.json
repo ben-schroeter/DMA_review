@@ -942,5 +942,132 @@
   ],
   "first": "positive with reservations",
   "final": "positive with reservations"
+ },
+ "32009L0110": {
+  "procedure": null,
+  "opinions": [],
+  "first": null,
+  "final": null
+ },
+ "32011L0093": {
+  "procedure": null,
+  "opinions": [],
+  "first": null,
+  "final": null
+ },
+ "32012D0243": {
+  "procedure": null,
+  "opinions": [],
+  "first": null,
+  "final": null
+ },
+ "32012R0260": {
+  "procedure": null,
+  "opinions": [],
+  "first": null,
+  "final": null
+ },
+ "32013L0011": {
+  "procedure": null,
+  "opinions": [],
+  "first": null,
+  "final": null
+ },
+ "32013L0040": {
+  "procedure": null,
+  "opinions": [],
+  "first": null,
+  "final": null
+ },
+ "32014L0026": {
+  "procedure": null,
+  "opinions": [],
+  "first": null,
+  "final": null
+ },
+ "32017D0899": {
+  "procedure": null,
+  "opinions": [],
+  "first": "positive",
+  "final": "positive",
+  "from_ia_annex": {
+   "ref": "SWD(2016)20",
+   "mentions": [
+    "positive"
+   ]
+  }
+ },
+ "32019L0882": {
+  "procedure": null,
+  "opinions": [],
+  "first": null,
+  "final": null
+ },
+ "32020L1828": {
+  "procedure": null,
+  "opinions": [],
+  "first": null,
+  "final": null
+ },
+ "32023L2225": {
+  "procedure": "2021/0171(COD)",
+  "opinions": [
+   {
+    "ref": "SEC(2021)281",
+    "date": "2021-06-30",
+    "verdict": "negative",
+    "board": "Regulatory Scrutiny Board",
+    "url": "https://ec.europa.eu/transparency/documents-register/api/files/SEC(2021)281_0/090166e5df304e16?rendition=false",
+    "verdicts": [
+     "negative",
+     "positive with reservations"
+    ],
+    "title": "Impact assessment / Review of the Consumer Credit Directive"
+   }
+  ],
+  "first": "negative",
+  "final": "positive with reservations"
+ },
+ "32023R1113": {
+  "procedure": "2021/0241(COD)",
+  "opinions": [],
+  "first": "positive",
+  "final": "positive",
+  "from_ia_annex": {
+   "ref": "SWD(2021)190",
+   "mentions": [
+    "positive"
+   ]
+  }
+ },
+ "32023R2859": {
+  "procedure": "2021/0378(COD)",
+  "opinions": [
+   {
+    "ref": "SEC(2021)572",
+    "date": "2021-11-25",
+    "verdict": "positive",
+    "board": "Regulatory Scrutiny Board",
+    "url": "https://ec.europa.eu/transparency/documents-register/api/files/SEC(2021)572_0/090166e5e4fec04d?rendition=false",
+    "verdicts": [
+     "positive"
+    ],
+    "title": "Impact assessment / European Single Access Point"
+   }
+  ],
+  "first": "positive",
+  "final": "positive"
+ },
+ "32026R0877": {
+  "procedure": null,
+  "opinions": [],
+  "first": "positive",
+  "final": "positive",
+  "from_ia_annex": {
+   "ref": "SWD(2026)114",
+   "mentions": [
+    "positive"
+   ]
+  }
  }
 }

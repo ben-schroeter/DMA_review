@@ -1,0 +1,77 @@
+{
+ "celex": "32017D0899",
+ "name": "700 MHz Decision",
+ "proposal": "52016PC0043",
+ "impact_assessment": "SWD(2016) 20 (executive summary SWD(2016) 19)",
+ "evidence_rating": "thin: no Commission evaluation yet; an EU audit of 5G roll-out found delays in the Member States",
+ "summary": "The Decision required Member States to allow wireless broadband in the 700 MHz band by mid-2020 (with up to two years' delay allowed). The impact assessment expected it to support EU-wide connectivity and economies of scale in equipment; it gave no quantified forecast. No Commission evaluation has been published; the European Court of Auditors found considerable delays in 5G roll-out across Member States in 2022.",
+ "last_reviewed": "2026-11-14",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "No monitoring indicators set in the proposal; assessed through the Commission's reports listed below",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "deadline in the act",
+   "objective": "Make the 700 MHz band available for wireless broadband",
+   "indicator": "Member States allowing use of the band",
+   "target_or_baseline": "by 30 June 2020 (delay up to 2 years for listed reasons)",
+   "evidence": "No Commission compliance report found; the ECA audit (2022) reports delays in 5G deployment generally, not band by band.",
+   "status": "not measured",
+   "sources": "ECA Special Report 03/2022"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2016-700mhz-ia",
+   "citation": "European Commission (2016), Impact Assessment on the use of the 470-790 MHz frequency band in the Union (executive summary), SWD(2016) 19 (full IA SWD(2016) 20)",
+   "authors": "European Commission",
+   "year": 2016,
+   "title": "Impact Assessment on the use of the 470-790 MHz frequency band in the Union (executive summary)",
+   "venue": "SWD(2016) 19 (full IA SWD(2016) 20)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52016SC0019",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "connectivity; spectrum use; broadcasting",
+   "direction": "positive (forecast)",
+   "headline": "Coordinated release of the 700 MHz band expected to support EU-wide connectivity, avoid interference with broadcasting and gain economies of scale in equipment; preferred option keeps the sub-700 MHz band for broadcasting",
+   "summary_plain": "The Commission expected a coordinated release of the band to speed up mobile broadband while protecting free-to-air television; it gave no figures.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast; qualitative",
+   "verified": "full text read (executive summary)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20200924143026/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52016SC0019"
+  },
+  {
+   "id": "eca-2022-5g",
+   "citation": "European Court of Auditors (2022), 5G roll-out in the EU: delays in deployment of networks with security issues remaining unresolved, Special Report 03/2022",
+   "authors": "European Court of Auditors",
+   "year": 2022,
+   "title": "5G roll-out in the EU: delays in deployment of networks with security issues remaining unresolved",
+   "venue": "Special Report 03/2022",
+   "url": "https://op.europa.eu/webpub/eca/special-reports/security-5g-networks-03-2022/en",
+   "pdf_url": "",
+   "source_type": "EU audit",
+   "method": "performance audit",
+   "outcomes": "5G deployment; spectrum assignment",
+   "direction": "negative",
+   "headline": "Member States experienced considerable delays in deploying 5G networks; most unlikely to meet the 2025 coverage goal",
+   "summary_plain": "EU auditors found that 5G networks, for which the 700 MHz band is a key frequency, were being rolled out with considerable delays.",
+   "period_geography": "EU, 2016-2021",
+   "quality": "audit; not specific to the Decision",
+   "verified": "page summary via search",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20261030073157/https://op.europa.eu/webpub/eca/special-reports/security-5g-networks-03-2022/en/"
+  }
+ ]
+}

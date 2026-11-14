@@ -1,0 +1,54 @@
+{
+ "celex": "32019L0882",
+ "name": "European Accessibility Act",
+ "proposal": "52015PC0615",
+ "impact_assessment": "SWD(2015) 264 (executive summary SWD(2015) 265)",
+ "evidence_rating": "ex-ante only: applies since June 2025; impact assessment forecasts",
+ "summary": "The accessibility requirements apply to new products and services since 28 June 2025, so no evaluation exists yet (the Commission reports by 2030). The impact assessment estimated that common requirements would cut the cost of meeting divergent national accessibility rules by up to about half, from a baseline of around EUR 20 billion a year in 2020.",
+ "last_reviewed": "2026-11-14",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "Applies since 28 June 2025; first Commission report due in 2030",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Lower costs of divergent national accessibility rules",
+   "indicator": "Annual cost to business of accessibility requirements",
+   "target_or_baseline": "baseline about EUR 20 billion (2020); savings up to 45-50% (forecast)",
+   "evidence": "Forecast only.",
+   "status": "not measured",
+   "sources": "SWD(2015) 264"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2015-eaa-ia",
+   "citation": "European Commission (2015), Impact Assessment accompanying the proposal for a European Accessibility Act, SWD(2015) 264",
+   "authors": "European Commission",
+   "year": 2015,
+   "title": "Impact Assessment accompanying the proposal for a European Accessibility Act",
+   "venue": "SWD(2015) 264",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52015SC0264",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "compliance costs; accessibility; cross-border trade",
+   "direction": "positive (forecast)",
+   "headline": "Baseline annual cost of around EUR 20 billion in 2020; the options considered would save 20-50% of it; firms surveyed put extra accessibility costs below 5% of production costs",
+   "summary_plain": "The Commission expected one set of EU accessibility rules to cost firms much less than many national ones, and to widen the market for accessible products.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast",
+   "verified": "full text searched",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20261001043653/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52015SC0264"
+  }
+ ]
+}

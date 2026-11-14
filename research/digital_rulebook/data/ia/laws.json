@@ -334,19 +334,8 @@
   "proposals": [],
   "proposal_date": null,
   "procedures": [],
-  "record_text": "No IA for the 2014 Regulation reviewed; evaluation SWD(2024) 268; successor IA SWD(2026) 114",
-  "docs": {
-   "SWD(2024)268": {
-    "type": "EVL",
-    "title": "COMMISSION STAFF WORKING DOCUMENT EVALUATION Evaluation of Commission Regulation (EU) N° 316/2014 of 21 March 2014 on the application of Article 101(3) of the Treaty on the Functioning of the European Union to categories of technology transfer agreements",
-    "date": "2024-11-22"
-   },
-   "SWD(2026)114": {
-    "type": "IMPACT_ASSESS",
-    "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the documents Commission Regulation (EU) .../... on the application of Article 101(3) of the Treaty on the Functioning of the European Union to categories of technology transfer agreements and Communication from the Commission G",
-    "date": "2026-04-16"
-   }
-  }
+  "record_text": "",
+  "docs": {}
  },
  "32014R0910": {
   "proposals": [
@@ -2064,6 +2053,223 @@
     "type": "IMPACT_ASSESS_SUM",
     "title": "COMMISSION STAFF WORKING DOCUMENT  EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT REPORT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council on compulsory licensing for crisis management and amending Regulation (EC) 816/2006",
     "date": "2023-04-27"
+   }
+  }
+ },
+ "31998L0084": {
+  "proposals": [
+   "51997PC0356"
+  ],
+  "proposal_date": "1997-07-09",
+  "procedures": [],
+  "record_text": "",
+  "docs": {}
+ },
+ "32009L0024": {
+  "proposals": [
+   "52008PC0023"
+  ],
+  "proposal_date": "2008-01-28",
+  "procedures": [],
+  "record_text": "",
+  "docs": {}
+ },
+ "32009L0110": {
+  "proposals": [
+   "52008PC0627"
+  ],
+  "proposal_date": "2008-10-09",
+  "procedures": [],
+  "record_text": "",
+  "docs": {}
+ },
+ "32011L0093": {
+  "proposals": [
+   "52010PC0094"
+  ],
+  "proposal_date": "2010-03-29",
+  "procedures": [],
+  "record_text": "",
+  "docs": {}
+ },
+ "32012D0243": {
+  "proposals": [
+   "52010PC0471"
+  ],
+  "proposal_date": "2010-09-20",
+  "procedures": [],
+  "record_text": "",
+  "docs": {}
+ },
+ "32012R0260": {
+  "proposals": [
+   "52010PC0775"
+  ],
+  "proposal_date": "2010-12-16",
+  "procedures": [],
+  "record_text": "",
+  "docs": {}
+ },
+ "32013L0011": {
+  "proposals": [
+   "52011PC0793"
+  ],
+  "proposal_date": "2011-11-29",
+  "procedures": [],
+  "record_text": "",
+  "docs": {}
+ },
+ "32013L0040": {
+  "proposals": [
+   "52010PC0517"
+  ],
+  "proposal_date": "2010-09-30",
+  "procedures": [],
+  "record_text": "",
+  "docs": {}
+ },
+ "32014L0026": {
+  "proposals": [
+   "52012PC0372"
+  ],
+  "proposal_date": "2012-07-11",
+  "procedures": [],
+  "record_text": "",
+  "docs": {}
+ },
+ "32015L1535": {
+  "proposals": [
+   "52013PC0932"
+  ],
+  "proposal_date": "2013-12-20",
+  "procedures": [],
+  "record_text": "",
+  "docs": {}
+ },
+ "32017D0899": {
+  "proposals": [
+   "52016PC0043"
+  ],
+  "proposal_date": "2016-02-02",
+  "procedures": [],
+  "record_text": "",
+  "docs": {}
+ },
+ "32019L0882": {
+  "proposals": [
+   "52015PC0615"
+  ],
+  "proposal_date": "2015-12-02",
+  "procedures": [],
+  "record_text": "",
+  "docs": {}
+ },
+ "32020L1828": {
+  "proposals": [
+   "52018PC0184"
+  ],
+  "proposal_date": "2018-04-11",
+  "procedures": [],
+  "record_text": "",
+  "docs": {}
+ },
+ "32023L2225": {
+  "proposals": [
+   "52021PC0347"
+  ],
+  "proposal_date": "2021-06-30",
+  "procedures": [
+   "2021_171"
+  ],
+  "record_text": "",
+  "docs": {
+   "SWD(2021)170": {
+    "type": "IMPACT_ASSESS",
+    "title": "COMMISSION STAFF WORKING DOCUMENT  IMPACT ASSESSMENT REPORT Accompanying the Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on consumer credits",
+    "date": "2021-06-30"
+   },
+   "SWD(2021)171": {
+    "type": "IMPACT_ASSESS_SUM",
+    "title": "COMMISSION STAFF WORKING DOCUMENT  EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT REPORT Accompanying the Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on consumer credits",
+    "date": "2021-06-30"
+   }
+  }
+ },
+ "32023L2864": {
+  "proposals": [
+   "52021PC0724"
+  ],
+  "proposal_date": "2021-11-25",
+  "procedures": [
+   "2021_379"
+  ],
+  "record_text": "",
+  "docs": {}
+ },
+ "32023R1113": {
+  "proposals": [
+   "52021PC0422"
+  ],
+  "proposal_date": "2021-07-20",
+  "procedures": [
+   "2021_241"
+  ],
+  "record_text": "",
+  "docs": {}
+ },
+ "32023R2859": {
+  "proposals": [
+   "52021PC0723"
+  ],
+  "proposal_date": "2021-11-25",
+  "procedures": [
+   "2021_378"
+  ],
+  "record_text": "",
+  "docs": {
+   "SWD(2021)344": {
+    "type": "IMPACT_ASSESS",
+    "title": "COMMISSION STAFF WORKING DOCUMENT  IMPACT ASSESSMENT REPORT Accompanying the documents Proposal for a Regulation of the European Parliament and of the Council establishing a European single access point providing centralised access to publicly available information of relevance to financial services",
+    "date": "2021-11-25"
+   },
+   "SWD(2021)345": {
+    "type": "IMPACT_ASSESS_SUM",
+    "title": "COMMISSION STAFF WORKING DOCUMENT  EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT Accompanying the documents Proposal for a Regulation of the European Parliament and of the Council establishing a European single access point providing centralised access to publicly available information of relevance to ",
+    "date": "2021-11-25"
+   }
+  }
+ },
+ "32023R2869": {
+  "proposals": [
+   "52021PC0725"
+  ],
+  "proposal_date": "2021-11-25",
+  "procedures": [
+   "2021_380"
+  ],
+  "record_text": "",
+  "docs": {}
+ },
+ "32026R0877": {
+  "proposals": [],
+  "proposal_date": null,
+  "procedures": [],
+  "record_text": "IA SWD(2026) 114 (executive summary SWD(2026) 116); evaluation of the predecessor Regulation 316/2014 in SWD(2024) 268",
+  "docs": {
+   "SWD(2024)268": {
+    "type": "EVL",
+    "title": "COMMISSION STAFF WORKING DOCUMENT EVALUATION Evaluation of Commission Regulation (EU) N° 316/2014 of 21 March 2014 on the application of Article 101(3) of the Treaty on the Functioning of the European Union to categories of technology transfer agreements",
+    "date": "2024-11-22"
+   },
+   "SWD(2026)114": {
+    "type": "IMPACT_ASSESS",
+    "title": "COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT REPORT Accompanying the documents Commission Regulation (EU) .../... on the application of Article 101(3) of the Treaty on the Functioning of the European Union to categories of technology transfer agreements and Communication from the Commission G",
+    "date": "2026-04-16"
+   },
+   "SWD(2026)116": {
+    "type": "IMPACT_ASSESS_SUM",
+    "title": "COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT REPORT Accompanying the documents Commission Regulation (EU) …/… on the application of Article 101(3) of the Treaty on the Functioning of the European Union to categories of technology transfer agreements and Communication ",
+    "date": "2026-04-16"
    }
   }
  }

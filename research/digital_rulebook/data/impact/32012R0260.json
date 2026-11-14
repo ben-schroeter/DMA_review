@@ -1,0 +1,77 @@
+{
+ "celex": "32012R0260",
+ "name": "SEPA Regulation",
+ "proposal": "52010PC0775",
+ "impact_assessment": "SEC(2010) 1584 (summary SEC(2010) 1583)",
+ "evidence_rating": "thin: Commission application report based on Member State questionnaires; earlier benefit figures are forecasts",
+ "summary": "The Regulation forced the switch to common euro credit transfers and direct debits by 2014 (2016 outside the euro area). The Commission's 2017 report found it correctly applied across the EU and saw no need for new legislation, while monitoring 'IBAN discrimination'. No ex-post study quantifying the savings was found; the large benefit figures in circulation are forecasts.",
+ "last_reviewed": "2026-11-14",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "No monitoring indicators set in the proposal; assessed through the Commission's reports listed below",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "deadline in the act",
+   "objective": "Migration to SEPA credit transfers and direct debits",
+   "indicator": "Share of transactions in SEPA formats",
+   "target_or_baseline": "1 February 2014 (euro area); 31 October 2016 (other Member States)",
+   "evidence": "2017 report: migration achieved; correctly applied; IBAN discrimination still monitored.",
+   "status": "measured",
+   "sources": "COM(2017) 683"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2017-sepa-report",
+   "citation": "European Commission (2017), Report on the application of Regulation (EU) No 260/2012 establishing technical and business requirements for credit transfers and direct debits in euro, COM(2017) 683",
+   "authors": "European Commission",
+   "year": 2017,
+   "title": "Report on the application of Regulation (EU) No 260/2012 establishing technical and business requirements for credit transfers and direct debits in euro",
+   "venue": "COM(2017) 683",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52017DC0683",
+   "pdf_url": "",
+   "source_type": "Commission implementation report",
+   "method": "application report (Member State questionnaire)",
+   "outcomes": "payment migration; compliance",
+   "direction": "positive",
+   "headline": "Correctly applied and implemented across the EU; no need for follow-up legislation; IBAN discrimination to be monitored",
+   "summary_plain": "The Commission found the switch to common euro payment formats complete and the rules working.",
+   "period_geography": "EU, 2012-2016",
+   "quality": "Commission self-assessment",
+   "verified": "full text read (conclusions)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20261106041736/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52017DC0683"
+  },
+  {
+   "id": "ec-2010-sepa-ia",
+   "citation": "European Commission (2010), Impact Assessment accompanying the proposal for a Regulation establishing technical requirements for credit transfers and direct debits in euros, SEC(2010) 1584",
+   "authors": "European Commission",
+   "year": 2010,
+   "title": "Impact Assessment accompanying the proposal for a Regulation establishing technical requirements for credit transfers and direct debits in euros",
+   "venue": "SEC(2010) 1584",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52010SC1584",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "payment costs; competition",
+   "direction": "positive (forecast)",
+   "headline": "Benefits of SEPA for the wider economy estimated at over EUR 300 billion over six years",
+   "summary_plain": "The Commission forecast very large savings from common euro payment formats; these were never measured afterwards.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast",
+   "verified": "summary via search",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20251002150007/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52010SC1584"
+  }
+ ]
+}

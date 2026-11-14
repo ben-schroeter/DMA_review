@@ -1,0 +1,54 @@
+{
+ "celex": "32015L1535",
+ "name": "TRIS Directive",
+ "proposal": "52013PC0932",
+ "impact_assessment": "codification of Directive 98/34/EC; no impact assessment of its own",
+ "evidence_rating": "thin: Commission operation reports count notifications and reactions; no independent study of the effect on trade barriers",
+ "summary": "Member States must notify draft technical rules and online-service rules before adopting them. In 2016-2020 the Commission received 3,553 notifications and issued 212 detailed opinions and 816 comments; it considers the procedure effective at preventing barriers, but this rests on activity counts, not on a measure of barriers avoided.",
+ "last_reviewed": "2026-11-14",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "No monitoring indicators set in the proposal; assessed through the Commission's reports listed below",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "activity (operation report)",
+   "objective": "Prevent new technical barriers",
+   "indicator": "Notifications, detailed opinions and comments",
+   "target_or_baseline": "",
+   "evidence": "2016-2020: 3,553 notifications; 212 detailed opinions and 816 comments by the Commission; access to notifications rose from about 1.2 million (2015) to 7.4 million (2020).",
+   "status": "reported as activity",
+   "sources": "COM(2022) 481; SWD(2022) 297"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2022-tris-report",
+   "citation": "European Commission (2022), Report on the operation of the Single Market Transparency Directive from 2016 to 2020, COM(2022) 481 (with SWD(2022) 297)",
+   "authors": "European Commission",
+   "year": 2022,
+   "title": "Report on the operation of the Single Market Transparency Directive from 2016 to 2020",
+   "venue": "COM(2022) 481 (with SWD(2022) 297)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022DC0481",
+   "pdf_url": "",
+   "source_type": "Commission implementation report",
+   "method": "operation report (notification statistics)",
+   "outcomes": "technical barriers; administrative cooperation",
+   "direction": "positive",
+   "headline": "3,553 notifications in 2016-2020; 212 detailed opinions and 816 comments; procedure judged effective in preventing technical barriers and useful during COVID-19",
+   "summary_plain": "The Commission reports that the notification procedure keeps working and helps stop new national barriers, based on counts of notifications and its own reactions.",
+   "period_geography": "EU, 2016-2020",
+   "quality": "Commission self-assessment; activity data",
+   "verified": "full text read (conclusions and statistics)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20241113102946/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52022DC0481"
+  }
+ ]
+}

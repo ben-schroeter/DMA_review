@@ -128,3 +128,19 @@ Tier 3 — pending proposals and acts adopted 2024–2026 (impact assessment and
 - [x] 52024PC0670 EU Digital Travel Application Regulation
 - [x] 52025PC0335 EU Space Act
 - [x] 32026R0877 Technology Transfer Block Exemption
+- [x] 32012D0243 Radio Spectrum Policy Programme
+- [x] 32017D0899 700 MHz Decision
+- [x] 32015L1535 TRIS Directive
+- [x] 32019L0882 European Accessibility Act
+- [x] 32009L0024 Software Directive
+- [x] 32014L0026 Collective Rights Management Directive
+- [x] 31998L0084 Conditional Access Directive
+- [x] 32013L0011 ADR Directive
+- [x] 32020L1828 Representative Actions Directive
+- [x] 32009L0110 E-money Directive
+- [x] 32012R0260 SEPA Regulation
+- [x] 32023R1113 Transfer of Funds Regulation
+- [x] 32023L2225 Consumer Credit Directive II
+- [x] 32023R2859 European Single Access Point (ESAP)
+- [x] 32013L0040 Cybercrime Directive
+- [x] 32011L0093 Child Sexual Abuse Directive

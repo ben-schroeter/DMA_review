@@ -1,6 +1,6 @@
 """Helper to write data/impact/<CELEX>.json records in the agreed schema (adds accessed date and archive_url)."""
 import json, os, urllib.request, urllib.parse
-TODAY = "2026-10-10"
+TODAY = "2026-11-14"
 OUT = os.path.join(os.path.dirname(__file__), "..", "data", "impact")
 
 

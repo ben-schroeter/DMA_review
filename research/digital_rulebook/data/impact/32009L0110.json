@@ -1,0 +1,54 @@
+{
+ "celex": "32009L0110",
+ "name": "E-money Directive",
+ "proposal": "52008PC0627",
+ "impact_assessment": "SEC(2008) 2572",
+ "evidence_rating": "thin: one Commission report (2018) drawing on two external studies",
+ "summary": "The Commission's 2018 report judged the Directive largely successful in lowering barriers to entry: interest in e-money licences and cross-border passporting grew after 2011, though e-money remained a niche market. It suggested guidance on product classification and limited networks rather than legislative change.",
+ "last_reviewed": "2026-11-14",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "No monitoring indicators set in the proposal; assessed through the Commission's reports listed below",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "evaluation question",
+   "objective": "Lower barriers to market entry",
+   "indicator": "E-money licences and passporting",
+   "target_or_baseline": "",
+   "evidence": "Interest in e-money licences and cross-border passporting increased since 2011; number of institutions unevenly distributed across Member States.",
+   "status": "partially measured",
+   "sources": "COM(2018) 41"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2018-emd2-report",
+   "citation": "European Commission (2018), Report on the implementation and impact of Directive 2009/110/EC, in particular on the application of prudential requirements for electronic money institutions, COM(2018) 41",
+   "authors": "European Commission",
+   "year": 2018,
+   "title": "Report on the implementation and impact of Directive 2009/110/EC, in particular on the application of prudential requirements for electronic money institutions",
+   "venue": "COM(2018) 41",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52018DC0041",
+   "pdf_url": "",
+   "source_type": "Commission implementation report",
+   "method": "implementation report (two external studies)",
+   "outcomes": "market entry; competition; cross-border activity",
+   "direction": "positive",
+   "headline": "Overall assessment positive: the Directive largely removed barriers to entry; licences and passporting increased; e-money remains a niche market",
+   "summary_plain": "The Commission found the rules made it easier for new firms to issue e-money, although the market stayed small.",
+   "period_geography": "EU, 2009-2014",
+   "quality": "Commission self-assessment",
+   "verified": "full text read (conclusions)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20230322074626/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52018DC0041"
+  }
+ ]
+}

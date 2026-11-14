@@ -1,0 +1,54 @@
+{
+ "celex": "32023R2859",
+ "name": "European Single Access Point (ESAP)",
+ "proposal": "52021PC0723",
+ "impact_assessment": "SWD(2021) 344 (executive summary SWD(2021) 345)",
+ "evidence_rating": "ex-ante only: ESAP starts operating in July 2027",
+ "summary": "ESMA must open the single access point by 10 July 2027, so there is no evidence on use yet. The impact assessment put ESMA's set-up and running costs at up to EUR 16 million over 2022-2027 and companies' recurring filing costs at around EUR 121 million a year EU-wide; benefits for investors were described but not quantified.",
+ "last_reviewed": "2026-11-14",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "ESAP to be established by 10 July 2027",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Central access to company disclosures",
+   "indicator": "Costs of ESAP and of filing",
+   "target_or_baseline": "ESMA up to EUR 16 million (2022-2027); filers about EUR 121 million a year (forecast)",
+   "evidence": "Forecast only.",
+   "status": "not measured",
+   "sources": "SWD(2021) 344/345"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2021-esap-ia",
+   "citation": "European Commission (2021), Impact Assessment accompanying the proposals establishing a European single access point (executive summary), SWD(2021) 345 (full IA SWD(2021) 344)",
+   "authors": "European Commission",
+   "year": 2021,
+   "title": "Impact Assessment accompanying the proposals establishing a European single access point (executive summary)",
+   "venue": "SWD(2021) 345 (full IA SWD(2021) 344)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021SC0345",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "costs; investor access to information",
+   "direction": "positive (forecast)",
+   "headline": "ESMA's costs up to EUR 16 million in 2022-2027; one-off interconnection about EUR 50,800 per collection body; recurring filing costs up to EUR 800 per entity, about EUR 121 million a year EU-wide",
+   "summary_plain": "The Commission expected a central portal for company disclosures to help investors, at modest cost per company.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast",
+   "verified": "full text read (executive summary)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20251021150843/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021SC0345"
+  }
+ ]
+}

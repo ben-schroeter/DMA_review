@@ -1,0 +1,54 @@
+{
+ "celex": "32013L0040",
+ "name": "Cybercrime Directive",
+ "proposal": "52010PC0517",
+ "impact_assessment": "SEC(2010) 1122 (summary SEC(2010) 1123)",
+ "evidence_rating": "thin: one Commission transposition report (2017)",
+ "summary": "The Commission's 2017 report found that the Directive had led to comparable criminal offences for cyberattacks across Member States, but that definitions, penalties and statistics were not fully implemented; it saw no need to amend the Directive. The Directive's own statistics requirement is the weakest point, so its effect on cybercrime cannot be measured.",
+ "last_reviewed": "2026-11-14",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "No monitoring indicators set in the proposal; assessed through the Commission's reports listed below",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "obligation in the act",
+   "objective": "Monitoring and statistics",
+   "indicator": "Member State statistics on offences (Art. 14)",
+   "target_or_baseline": "",
+   "evidence": "2017 report: statistics and reporting channels among the provisions least implemented.",
+   "status": "not measured",
+   "sources": "COM(2017) 474"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2017-cybercrime-report",
+   "citation": "European Commission (2017), Report assessing the extent to which the Member States have taken the necessary measures to comply with Directive 2013/40/EU on attacks against information systems, COM(2017) 474",
+   "authors": "European Commission",
+   "year": 2017,
+   "title": "Report assessing the extent to which the Member States have taken the necessary measures to comply with Directive 2013/40/EU on attacks against information systems",
+   "venue": "COM(2017) 474",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52017DC0474",
+   "pdf_url": "",
+   "source_type": "Commission implementation report",
+   "method": "transposition report",
+   "outcomes": "criminalisation; cross-border cooperation",
+   "direction": "mixed",
+   "headline": "Substantive progress in criminalising cyberattacks on a comparable level; gaps on definitions, penalties, reporting channels and statistics; no need to amend",
+   "summary_plain": "The Commission found that countries had made cyberattacks crimes on similar terms, but had not fully applied the rules on penalties and statistics.",
+   "period_geography": "EU, 2013-2017",
+   "quality": "Commission self-assessment; legal analysis",
+   "verified": "full text read (conclusions)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20261010085207/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52017DC0474"
+  }
+ ]
+}

@@ -206,7 +206,7 @@ if step in ("all", "7"):
     S = json.load(open(f"{OUT}/ia_status.json")); R = json.load(open(f"{OUT}/rsb.json")); M = json.load(open(f"{OUT}/rsb_manual.json"))
     L = json.load(open(f"{OUT}/laws.json"))
     lab = lambda r: re.sub(r"(SWD|SEC)\((\d{4})\)(\d+)", r"\1(\2) \3", r)
-    url = lambda r: f"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:5{r[4:8]}SC{int(r[9:-1]):04d}"
+    url = lambda r: f"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:5{r[4:8]}SC{int(r[9:]):04d}"
     out = {}
     for law, s in S.items():
         rv = R.get(law, {}); man = M.get(law)

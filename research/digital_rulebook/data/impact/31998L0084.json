@@ -1,0 +1,45 @@
+{
+ "celex": "31998L0084",
+ "name": "Conditional Access Directive",
+ "proposal": "51997PC0356",
+ "impact_assessment": "none (proposed before impact assessments were introduced)",
+ "evidence_rating": "thin: two Commission implementation reports (2003, 2008)",
+ "summary": "The Directive bans commercial dealing in devices that give unauthorised access to pay-TV and online subscription services. The Commission's second report (2008) found that piracy adapted to new technology and that the hoped-for growth of cross-border pay services had largely not happened. No later evaluation or empirical study was found.",
+ "last_reviewed": "2026-11-14",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "No monitoring indicators set in the proposal; assessed through the Commission's reports listed below",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2008-ca-report",
+   "citation": "European Commission (2008), Second report on the implementation of Directive 98/84/EC on the legal protection of services based on, or consisting of, conditional access, COM(2008) 593 (with SEC(2008) 2506)",
+   "authors": "European Commission",
+   "year": 2008,
+   "title": "Second report on the implementation of Directive 98/84/EC on the legal protection of services based on, or consisting of, conditional access",
+   "venue": "COM(2008) 593 (with SEC(2008) 2506)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52008DC0593",
+   "pdf_url": "",
+   "source_type": "Commission implementation report",
+   "method": "implementation report (public consultation, 54 contributions)",
+   "outcomes": "piracy; cross-border pay-TV services",
+   "direction": "mixed",
+   "headline": "Piracy adapts well to technological progress; little cross-border growth of conditional-access services, though some pay-TV services are offered across borders",
+   "summary_plain": "Ten years on, the Commission found the ban on pirate decoders in place but piracy still adapting, and little cross-border pay-TV market.",
+   "period_geography": "EU, 1998-2008",
+   "quality": "Commission self-assessment",
+   "verified": "full text read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": ""
+  }
+ ]
+}

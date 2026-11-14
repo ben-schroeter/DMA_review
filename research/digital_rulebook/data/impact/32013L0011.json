@@ -1,0 +1,77 @@
+{
+ "celex": "32013L0011",
+ "name": "ADR Directive",
+ "proposal": "52011PC0793",
+ "impact_assessment": "SEC(2011) 1408 (joint with the ODR Regulation; executive summary SEC(2011) 1409)",
+ "evidence_rating": "thin: Commission application report (2019) and evaluation (2023) based on administrative data, surveys and consultation",
+ "summary": "By 2019 consumers had access to certified dispute-resolution bodies in virtually all retail sectors, but the Commission found the system under-used: low awareness among consumers and low participation by traders. Its 2023 evaluation, annexed to the impact assessment for the amending proposal, confirmed this and led to targeted amendments.",
+ "last_reviewed": "2026-11-14",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "No monitoring indicators set in the proposal; assessed through the Commission's reports listed below",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "evaluation question",
+   "objective": "Consumers can use ADR for disputes with traders",
+   "indicator": "ADR coverage, awareness and trader participation",
+   "target_or_baseline": "",
+   "evidence": "2019: full sector coverage reached; framework 'underused'; ODR platform led to direct settlement in up to 42% of cases. 2023: low trader participation remains the main obstacle.",
+   "status": "partially measured",
+   "sources": "COM(2019) 425; SWD(2023) 335"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2019-adr-report",
+   "citation": "European Commission (2019), Report on the application of Directive 2013/11/EU on alternative dispute resolution for consumer disputes and Regulation (EU) No 524/2013 on online dispute resolution, COM(2019) 425",
+   "authors": "European Commission",
+   "year": 2019,
+   "title": "Report on the application of Directive 2013/11/EU on alternative dispute resolution for consumer disputes and Regulation (EU) No 524/2013 on online dispute resolution",
+   "venue": "COM(2019) 425",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52019DC0425",
+   "pdf_url": "",
+   "source_type": "Commission implementation report",
+   "method": "application report (administrative data, surveys)",
+   "outcomes": "access to redress; ADR use",
+   "direction": "mixed",
+   "headline": "High-quality ADR available in virtually all retail sectors; the framework is underused because of low awareness, complex national landscapes and low trader uptake",
+   "summary_plain": "Out-of-court dispute bodies now exist for almost every kind of purchase, but few consumers and traders use them.",
+   "period_geography": "EU, 2015-2019",
+   "quality": "Commission self-assessment",
+   "verified": "full text read (conclusions)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20240924105133/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52019DC0425"
+  },
+  {
+   "id": "ec-2023-adr-ia",
+   "citation": "European Commission (2023), Impact Assessment accompanying the proposal amending Directive 2013/11/EU on alternative dispute resolution (evaluation of the ADR Directive annexed), SWD(2023) 335",
+   "authors": "European Commission",
+   "year": 2023,
+   "title": "Impact Assessment accompanying the proposal amending Directive 2013/11/EU on alternative dispute resolution (evaluation of the ADR Directive annexed)",
+   "venue": "SWD(2023) 335",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023SC0335",
+   "pdf_url": "",
+   "source_type": "Commission evaluation",
+   "method": "ex-post evaluation (annexed to impact assessment)",
+   "outcomes": "ADR participation; consumer redress",
+   "direction": "mixed",
+   "headline": "Evaluation confirms low participation by traders as the main obstacle; disparities between Member States in ADR use persist",
+   "summary_plain": "The Commission's evaluation confirmed that the rules work where traders take part, but that many traders do not.",
+   "period_geography": "EU, 2015-2023",
+   "quality": "Commission self-assessment",
+   "verified": "full text searched",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20250521005817/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52023SC0335"
+  }
+ ]
+}

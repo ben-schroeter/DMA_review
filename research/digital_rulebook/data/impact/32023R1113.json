@@ -1,0 +1,45 @@
+{
+ "celex": "32023R1113",
+ "name": "Transfer of Funds Regulation",
+ "proposal": "52021PC0422",
+ "impact_assessment": "SWD(2021) 190 (joint impact assessment for the 2021 AML package; executive summary SWD(2021) 191)",
+ "evidence_rating": "ex-ante only: applies since December 2024; no evaluation yet",
+ "summary": "The Regulation extends the 'travel rule' (information on sender and recipient) to crypto-asset transfers from 30 December 2024; EBA guidelines apply from the same date. No evaluation or study of its effect on money laundering exists yet; the impact assessment covered the whole anti-money-laundering package and did not quantify the effect of this Regulation.",
+ "last_reviewed": "2026-11-14",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "Applies since 30 December 2024",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2021-aml-ia",
+   "citation": "European Commission (2021), Impact Assessment accompanying the anti-money laundering package (executive summary), SWD(2021) 191 (full IA SWD(2021) 190)",
+   "authors": "European Commission",
+   "year": 2021,
+   "title": "Impact Assessment accompanying the anti-money laundering package (executive summary)",
+   "venue": "SWD(2021) 191 (full IA SWD(2021) 190)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021SC0191",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "money laundering; supervision; compliance costs",
+   "direction": "positive (forecast)",
+   "headline": "Package-level assessment: harmonised rules, an EU supervisor and a EUR 10,000 cash limit; 99% of 202 consultation replies saw a need for further action; no separate quantification for transfers of funds",
+   "summary_plain": "The Commission's assessment of the anti-money-laundering package expected stronger, more uniform rules, but did not estimate the effect of the transfer-information rules on their own.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast; package-level",
+   "verified": "full text read (executive summary)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20251113220118/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52021SC0191"
+  }
+ ]
+}

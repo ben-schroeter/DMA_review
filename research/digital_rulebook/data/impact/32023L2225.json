@@ -1,0 +1,77 @@
+{
+ "celex": "32023L2225",
+ "name": "Consumer Credit Directive II",
+ "proposal": "52021PC0347",
+ "impact_assessment": "SWD(2021) 170 (executive summary SWD(2021) 171)",
+ "evidence_rating": "ex-ante only: applies from November 2026; evaluation of the 2008 Directive",
+ "summary": "The new Directive applies from 20 November 2026. The evaluation of the 2008 Directive it replaces found that consumer protection and a single credit market had been only partially achieved, and that digital lending raised new risks. The impact assessment forecast a reduction in consumer detriment of around EUR 2 billion in 2021-2030.",
+ "last_reviewed": "2026-11-14",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "Applies from 20 November 2026",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "expected impact (impact assessment)",
+   "objective": "Reduce consumer detriment",
+   "indicator": "Consumer detriment from credit problems",
+   "target_or_baseline": "about EUR 2 billion less in 2021-2030 (forecast)",
+   "evidence": "Forecast only.",
+   "status": "not measured",
+   "sources": "SWD(2021) 170/171"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2020-ccd-evaluation",
+   "citation": "European Commission (2020), Evaluation of Directive 2008/48/EC on credit agreements for consumers, SWD(2020) 254 (with report COM(2020) 963)",
+   "authors": "European Commission",
+   "year": 2020,
+   "title": "Evaluation of Directive 2008/48/EC on credit agreements for consumers",
+   "venue": "SWD(2020) 254 (with report COM(2020) 963)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020DC0963",
+   "pdf_url": "",
+   "source_type": "Commission evaluation",
+   "method": "ex-post evaluation (stakeholder consultation, external study)",
+   "outcomes": "consumer protection; cross-border credit",
+   "direction": "mixed",
+   "headline": "Objectives only partially achieved; withdrawal and early repayment rights and standard information reduced detriment; digitalisation and new products created risks the Directive did not cover",
+   "summary_plain": "The Commission found the 2008 rules had raised consumer protection but had not created a single credit market and were outdated for online lending.",
+   "period_geography": "EU, 2010-2019",
+   "quality": "Commission self-assessment",
+   "verified": "full text read (conclusions)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20251122141953/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020DC0963"
+  },
+  {
+   "id": "ec-2021-ccd-ia",
+   "citation": "European Commission (2021), Impact Assessment accompanying the proposal for a Directive on consumer credits (executive summary), SWD(2021) 171 (full IA SWD(2021) 170)",
+   "authors": "European Commission",
+   "year": 2021,
+   "title": "Impact Assessment accompanying the proposal for a Directive on consumer credits (executive summary)",
+   "venue": "SWD(2021) 171 (full IA SWD(2021) 170)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021SC0171",
+   "pdf_url": "",
+   "source_type": "Commission impact assessment",
+   "method": "ex-ante",
+   "outcomes": "consumer detriment; compliance costs",
+   "direction": "positive (forecast)",
+   "headline": "Up to 46 million people affected by problems with the old rules; preferred option to cut consumer detriment by about EUR 2 billion in 2021-2030",
+   "summary_plain": "The Commission expected the new rules to save consumers about EUR 2 billion over ten years.",
+   "period_geography": "EU, forecast",
+   "quality": "forecast",
+   "verified": "full text read (executive summary)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20260115020124/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021SC0171"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "celex": "32009L0024",
+ "name": "Software Directive",
+ "proposal": "52008PC0023",
+ "impact_assessment": "codification of Directive 91/250/EEC; no impact assessment of its own",
+ "evidence_rating": "thin: one Commission implementation report (2000); no later evaluation",
+ "summary": "The Directive codified the 1991 rules protecting computer programs by copyright. The Commission's only report (2000) found implementation satisfactory, the effects beneficial and no reason to reopen the rules, including the decompilation exception. No later evaluation or empirical study of its effects was found.",
+ "last_reviewed": "2026-11-14",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "No monitoring indicators set in the proposal; assessed through the Commission's reports listed below",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2000-software-report",
+   "citation": "European Commission (2000), Report on the implementation and effects of Directive 91/250/EEC on the legal protection of computer programs, COM(2000) 199",
+   "authors": "European Commission",
+   "year": 2000,
+   "title": "Report on the implementation and effects of Directive 91/250/EEC on the legal protection of computer programs",
+   "venue": "COM(2000) 199",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52000DC0199",
+   "pdf_url": "",
+   "source_type": "Commission implementation report",
+   "method": "implementation report (Member State laws, stakeholder views)",
+   "outcomes": "copyright protection; interoperability; piracy",
+   "direction": "positive",
+   "headline": "Implementation overall satisfactory; effects beneficial; the balance struck on decompilation still valid; no new initiative needed",
+   "summary_plain": "The Commission found that the rules protecting software by copyright worked and saw no reason to change them.",
+   "period_geography": "EU-15, 1991-1999",
+   "quality": "Commission self-assessment",
+   "verified": "full text read (conclusions)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20260103083348/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52000DC0199"
+  }
+ ]
+}
