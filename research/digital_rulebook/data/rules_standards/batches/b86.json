@@ -1,0 +1,1052 @@
+[
+{
+"k": "5e47b799b03d",
+"doc": "32019D1396",
+"art": "Art. 13",
+"chapeau": "",
+"clause": "They shall dedicate the necessary effort to complete the assigned tasks to the best of their ability and within the timelines as described in the common rules of procedure referred to in Article 9."
+},
+{
+"k": "6855f0fd0f01",
+"doc": "32019D1396",
+"art": "Art. 14",
+"chapeau": "",
+"clause": "The activities of the expert panels shall be carried out in a transparent manner."
+},
+{
+"k": "f3c620755b6f",
+"doc": "32019D1396",
+"art": "Art. 14",
+"chapeau": "",
+"clause": "The Secretariat shall in particular make available to the public on a dedicated Commission website, without undue delay:"
+},
+{
+"k": "33c70fee8d2f",
+"doc": "32019D1396",
+"art": "Art. 15",
+"chapeau": "",
+"clause": "Advisors shall not divulge any information of confidential nature acquired as part of their work in the expert panels or as a result of other activities governed by this Decision."
+},
+{
+"k": "8f5b8bffa95f",
+"doc": "32019D1396",
+"art": "Art. 15",
+"chapeau": "",
+"clause": "Advisors shall comply with the rules on security regarding the protection of Union classified information and sensitive non-classified information, laid down in Decisions (EU, Euratom) 2015/443 and (EU, Euratom) 2015/444."
+},
+{
+"k": "86b898426b9e",
+"doc": "32019D1396",
+"art": "Annex",
+"chapeau": "",
+"clause": "The remuneration shall be conditional on the completion of the relevant tasks as per the common rules of procedure."
+},
+{
+"k": "89c390d79396",
+"doc": "32021R1958",
+"art": "Art. 1",
+"chapeau": "",
+"clause": "The type-approval of a vehicle with regard to the intelligent speed assistance systems shall be subject to the vehicle complying with the test procedures and technical requirements set out in Annex I."
+},
+{
+"k": "7fae7288b741",
+"doc": "32021R1958",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "The type-approval of an intelligent speed assistance system as a separate technical unit shall be subject to the system complying with the test procedures and technical requirements set out in Annex I."
+},
+{
+"k": "901282210e6b",
+"doc": "32021R1958",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "The list of road speed limit signs used in each Member State, based upon which the type-approval authorities and technical services shall assess the performance of the intelligent speed assistance systems in accordance with this Regulation, is set out in Annex II."
+},
+{
+"k": "c8af15552f04",
+"doc": "32021R1958",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "Vehicle manufacturers shall provide the approval authorities granting type-approvals pursuant to this Regulation with the following information:"
+},
+{
+"k": "9b088d4fee22",
+"doc": "32021R1958",
+"art": "Art. 4",
+"chapeau": "1. Vehicle manufacturers shall provide the approval authorities granting type-approvals pursuant to this Regulation with the following information:",
+"clause": "The information referred to in subparagraph (a), shall be provided separately for the cascaded acoustic warning function, the cascaded vibrating warning function, the haptic feedback function and the speed control function."
+},
+{
+"k": "cf6f62a6764c",
+"doc": "32021R1958",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "The approval authorities shall aggregate the information received in accordance with paragraph 1 and provide it to the Commission on 7 July 2024 and at least every 6 months thereafter for a period of two years."
+},
+{
+"k": "ae45ea2054bc",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "For the purposes of this Annex, the following definitions shall apply:",
+"clause": "‘speed limit determination system’ means the specific hardware required to obtain the speed limit through the observation of road signs and signals, based on infrastructure signals or electronic map data, or both;"
+},
+{
+"k": "37137e96da64",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "",
+"clause": "An intelligent speed assistance (ISA) system shall comprise a speed limit information function (SLIF) and either a speed limit warning function (SLWF) or a speed control function (SCF)."
+},
+{
+"k": "488b53e3e62b",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The ISA system of a vehicle shall comply with:"
+},
+{
+"k": "cc1d1698cc65",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "either of the following requirements:",
+"clause": "Where the motor vehicle is fitted with an ISA system type-approved as a separate technical unit (STU), the vehicle and its system shall comply with:"
+},
+{
+"k": "fb07066273db",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "either of the following requirements:",
+"clause": "Type-approval of an ISA system as STU shall be subject to the STU complying with the SLIF requirements laid down in point 3.4.2."
+},
+{
+"k": "19cbb9f8799f",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "either of the following requirements:",
+"clause": "Subject to point 2.3., the ISA system shall be designed to avoid or minimise the error rate under real driving conditions."
+},
+{
+"k": "97e0cf376053",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "either of the following requirements:",
+"clause": "ISA systems shall comply with the requirements when the vehicle is operated on a public road or street located within the territory of the European Union, as defined at the time of type-approval."
+},
+{
+"k": "f226dd0f8615",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "either of the following requirements:",
+"clause": "The ISA system shall comply with the requirements in the normal operation mode without the use of biometric information, including facial recognition, of any vehicle occupants."
+},
+{
+"k": "7e39bddbf38c",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "either of the following requirements:",
+"clause": "Without prejudice to the provisions in Article 4 of this Regulation, the ISA system shall not continuously record nor retain or transmit any data related to specific incidents of exceeding the speed limit other than what is necessary for performance of the required ISA functionality or to comply with other Union acts regarding vehicle type-approval (e.g. event data recorder)."
+},
+{
+"k": "019ccb478835",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "either of the following requirements:",
+"clause": "Where the ISA system is enabled with positioning capabilities, it shall be compatible at least with the positioning services provided by the Galileo and EGNOS systems."
+},
+{
+"k": "e27f43fdbe72",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "",
+"clause": "A constant optical signal shall be provided when there is a failure in the ISA system that prevents the performance requirements of this Regulation of being met."
+},
+{
+"k": "58b41a6a911e",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "",
+"clause": "There shall not be an appreciable time interval between each ISA self-check, and subsequently there shall not be a delay in displaying the warning signal, in the case of an electrically detectable failure."
+},
+{
+"k": "afc17f336e08",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "",
+"clause": "Upon detection of any non-electrical failure condition (e.g. sensor obscuration excluding temporary obscuration such as sun glare) a failure warning signal referred to in point 3.1.1 shall be activated."
+},
+{
+"k": "2a93088e5235",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The status of a failure that must activate the warning signal referred to in point 3.1.1, but which is not detected under static conditions, shall be retained upon detection of such a failure and continue to be displayed after each activation of the vehicle master control switch, as long as the failure or defect persists."
+},
+{
+"k": "0782e4deef47",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "",
+"clause": "It shall be possible for the driver to manually deactivate the ISA system, either fully (i.e. the SLIF and SLWF, or SLIF and SCF), or partially (i.e. the SLWF or SCF)."
+},
+{
+"k": "12ab44cd39dd",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The manufacturer may provide the possibility for the driver to manually and partially deactivate the SLWF to do either of the following:",
+"clause": "The ISA system shall be automatically reinstated in normal operation mode upon each activation of the vehicle master control switch."
+},
+{
+"k": "e678cfc75c02",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The manufacturer may provide the possibility for the driver to manually and partially deactivate the SLWF to do either of the following:",
+"clause": "A constant optical signal shall inform the driver that the ISA system has been fully deactivated."
+},
+{
+"k": "41a7f96a54e7",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The manufacturer may provide the possibility for the driver to manually and partially deactivate the SLWF to do either of the following:",
+"clause": "An optical signal lasting at least 10 seconds or until manually cancelled shall inform the driver that the ISA system has been partially deactivated."
+},
+{
+"k": "3cb2f2729022",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The manufacturer may provide the possibility for the driver to manually and partially deactivate the SLWF to do either of the following:",
+"clause": "Following manual deactivation of the ISA system, it shall be possible for the driver to re-activate the system with no more than the number of actions required to deactivate it."
+},
+{
+"k": "08d27e1e9552",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The manufacturer may provide the possibility for the driver to manually and partially deactivate the SLWF to do either of the following:",
+"clause": "For the purpose of periodic roadworthiness tests, it shall be possible to verify the following features of the ISA system:"
+},
+{
+"k": "44240389f011",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "For the purpose of periodic roadworthiness tests, it shall be possible to verify the following features of the ISA system:",
+"clause": "Where the failure warning signal is displayed in a common space (the area on which two or more information functions/symbols may be displayed, but not simultaneously), it must be checked first that the common space is functional prior to the failure warning signal status check;"
+},
+{
+"k": "590b89c7cb9d",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "For the purpose of periodic roadworthiness tests, it shall be possible to verify the following features of the ISA system:",
+"clause": "Manufacturers shall ensure to make available the technical information for the use of the electronic vehicle interface in accordance with Article 6 of Regulation (EU) 2019/621 ( 3 ) ."
+},
+{
+"k": "fae9a96a56a1",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "For the purpose of periodic roadworthiness tests, it shall be possible to verify the following features of the ISA system:",
+"clause": "At the time of type-approval, the means to protect against simple unauthorised modification of the operation of the ISA system and failure warning signal chosen by the manufacturer shall be confidentially outlined and this information shall be provided to the technical service."
+},
+{
+"k": "98de75ee0017",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "For the purpose of periodic roadworthiness tests, it shall be possible to verify the following features of the ISA system:",
+"clause": "If electronic data (e.g. map data) with relevance to its performance is used by the ISA system, it shall be possible to easily verify the version of the data."
+},
+{
+"k": "8b91d4e13d8f",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "For the purpose of periodic roadworthiness tests, it shall be possible to verify the following features of the ISA system:",
+"clause": "The SLIF display shall be located in the direct field of view of the driver and be clearly identifiable and legible both day and night."
+},
+{
+"k": "07c4a0d34a88",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "For the purpose of periodic roadworthiness tests, it shall be possible to verify the following features of the ISA system:",
+"clause": "Additional displays of similar information at other locations in the vehicle (e.g. on navigation screen, as projected information, etc.) are permitted and they shall not be subject to the requirements in this point."
+},
+{
+"k": "025c9b1a7b93",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "For the purpose of periodic roadworthiness tests, it shall be possible to verify the following features of the ISA system:",
+"clause": "In the absence of conditions leading to the deactivation of the system in accordance with points 3.2.1. and 3.2.2., the SLIF display shall display the perceived speed limit to the driver at least when the speedometer speed is more than the perceived speed limit, for speeds from 5 km/h or less."
+},
+{
+"k": "afbe31c6c8ab",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "For the purpose of periodic roadworthiness tests, it shall be possible to verify the following features of the ISA system:",
+"clause": "The perceived speed limit shall be displayed in any of the following ways:"
+},
+{
+"k": "c9d831003dbd",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The perceived speed limit shall be displayed in any of the following ways:",
+"clause": "When no perceived speed limit is available to the ISA system, due to one or more circumstances referred to in points 5.3.1., 5.3.2 and 5.3.3., a dedicated optical signal, making clear this particular situation, shall be provided to the driver with or without an assumed speed limit indication on the SLIF."
+},
+{
+"k": "b37a2787c2fb",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The perceived speed limit shall be displayed in any of the following ways:",
+"clause": "The failure warning signal specified in point 3.1.1. shall not be used for the purpose."
+},
+{
+"k": "fcd5b6d6171e",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The perceived speed limit shall be displayed in any of the following ways:",
+"clause": "In case of an assumed speed limit indication on the SLIF, a question mark “?” shall be displayed prominently adjacent to the numerical value."
+},
+{
+"k": "08ed76899f0f",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The perceived speed limit shall be displayed in any of the following ways:",
+"clause": "When the SLIF display displays the perceived speed limit, even when the speedometer speed is lower than the perceived speed limit (e.g. always on or on demand with activated ISA), the system shall also provide a subtle and not-annoying audible notification each time when the perceived speed limit changes."
+},
+{
+"k": "471748d3af8a",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The perceived speed limit shall be displayed in any of the following ways:",
+"clause": "No audible notifications as referred to in point 3.4.1.4. are required in such case."
+},
+{
+"k": "4cfd4484b367",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The perceived speed limit shall be displayed in any of the following ways:",
+"clause": "If knowledge of the country of operation is a prerequisite for correct speed limit determination, the ISA system shall comply with either of the following conditions:"
+},
+{
+"k": "a1f982d18e23",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "If knowledge of the country of operation is a prerequisite for correct speed limit determination, the ISA system shall comply with either of the following conditions:",
+"clause": "The ISA system shall retain the manually set or user confirmed country of operation, even after re-activation of the vehicle master control switch."
+},
+{
+"k": "b59e4005620f",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "If knowledge of the country of operation is a prerequisite for correct speed limit determination, the ISA system shall comply with either of the following conditions:",
+"clause": "The manual setting procedure for the country of operation shall be intuitive and through a non-complex interface."
+},
+{
+"k": "aa09aa5c305f",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "If knowledge of the country of operation is a prerequisite for correct speed limit determination, the ISA system shall comply with either of the following conditions:",
+"clause": "In particular, it shall be easy to toggle between current and previous country of operation choices."
+},
+{
+"k": "8b3c5e8f09c1",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "If knowledge of the country of operation is a prerequisite for correct speed limit determination, the ISA system shall comply with either of the following conditions:",
+"clause": "In case of the need for manual setting or user confirmation, the motor vehicle’s user instructions (e.g. owner’s manual, vehicle handbook) shall clearly specify that this procedure is required for correct operation of the ISA system."
+},
+{
+"k": "6ff5399c8773",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "If knowledge of the country of operation is a prerequisite for correct speed limit determination, the ISA system shall comply with either of the following conditions:",
+"clause": "The user instructions of the motor vehicle shall clearly specify the limitations of the ISA system and provide information on how to obtain alternative country or regional parameters from the manufacturer if the place of operation of the motor vehicle changes."
+},
+{
+"k": "e6361c200441",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "If knowledge of the country of operation is a prerequisite for correct speed limit determination, the ISA system shall comply with either of the following conditions:",
+"clause": "In the absence of conditions leading to the deactivation of the system in accordance with points 3.2.1. and 3.2.2., the SLIF shall be able, through direct visual observation of road signs or other effective methods, to recognise all explicit numerical speed limit signs where the associated applicable speed limit for the category of vehicle to be approved matches the numerical value shown on the sign, and determine the applicable speed limit at the latest 2,0 seconds after the manufacturer’s declared reference point on the motor vehicle (also to be specified for STUs) passes the road sign."
+},
+{
+"k": "0c3335b51258",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "If knowledge of the country of operation is a prerequisite for correct speed limit determination, the ISA system shall comply with either of the following conditions:",
+"clause": "This requirement shall be met at least when the following conditions are satisfied:"
+},
+{
+"k": "3e5cb47c811b",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": " associated applicable speed limit for the category of vehicle to be approved matches the numerical value shown on the sign, and determine the applicable speed limit at the latest 2,0 seconds after the manufacturer’s declared reference point on the motor vehicle (also to be specified for STUs) passes the road sign. This requirement shall be met at least when the following conditions are satisfied:",
+"clause": "Compliance with the first paragraph shall be demonstrated in accordance with the relevant test procedures and documentation specified in point 4.1."
+},
+{
+"k": "34eca8069e0c",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Operational and environmental conditions at time of the assessment:",
+"clause": "In the absence of conditions leading to the deactivation of the system in accordance with points 3.2.1. and 3.2.2., the SLIF shall be able, through observation of road signs and signals using all relevant ISA system inputs (e.g. camera, electronic map data), to determine the road speed limits associated with all applicable road signs included in the catalogue of road signs in Annex II, for the category of vehicle to be approved, at the latest 2,0 seconds after the reference point referred to in point 3.4.2.2.1. passes the road sign."
+},
+{
+"k": "6d6f8bd00c5d",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Operational and environmental conditions at time of the assessment:",
+"clause": "This requirement shall be met at least when the following conditions are satisfied:"
+},
+{
+"k": "4738c17b9dd1",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": " (e.g. camera, electronic map data), to determine the road speed limits associated with all applicable road signs included in the catalogue of road signs in Annex II, for the category of vehicle to be approved, at the latest 2,0 seconds after the reference point referred to in point 3.4.2.2.1. passes the road sign. This requirement shall be met at least when the following conditions are satisfied:",
+"clause": "Compliance with the first paragraph shall be demonstrated in accordance with the relevant tests procedures referred to in point 4.2."
+},
+{
+"k": "96e2bd04f8ac",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": " (e.g. camera, electronic map data), to determine the road speed limits associated with all applicable road signs included in the catalogue of road signs in Annex II, for the category of vehicle to be approved, at the latest 2,0 seconds after the reference point referred to in point 3.4.2.2.1. passes the road sign. This requirement shall be met at least when the following conditions are satisfied:",
+"clause": "The SLIF is not required to take into account special variable conditions influencing the national speed limit (i.e. conditions which require information going beyond the current country of operation and the current road type, e.g. trailer status, prevailing environmental conditions, time of day, time of year, driver age or experience, standing passengers, dangerous goods, oversized load) In the case that special variable conditions may be present and the system is not capable of taking them into account, the speed limit determination shall default to the assumed most common condition in typic"
+},
+{
+"k": "c60d7387a04b",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": " (e.g. camera, electronic map data), to determine the road speed limits associated with all applicable road signs included in the catalogue of road signs in Annex II, for the category of vehicle to be approved, at the latest 2,0 seconds after the reference point referred to in point 3.4.2.2.1. passes the road sign. This requirement shall be met at least when the following conditions are satisfied:",
+"clause": "It shall be clearly explained in the motor vehicle’s user instructions that any ISA system indications and warnings are without prejudice to the actual speed limit applicable in a particular situation, the observation of which and compliance with remain ultimate responsibility of the driver."
+},
+{
+"k": "edd7c08b0876",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": " (e.g. camera, electronic map data), to determine the road speed limits associated with all applicable road signs included in the catalogue of road signs in Annex II, for the category of vehicle to be approved, at the latest 2,0 seconds after the reference point referred to in point 3.4.2.2.1. passes the road sign. This requirement shall be met at least when the following conditions are satisfied:",
+"clause": "In the absence of conditions leading to the deactivation of the system according to points 3.2.1. and 3.2.2., the SLIF shall be able, through observation of road signs and signals, using all relevant system inputs, for example, camera input and electronic map data, where provided in-vehicle for this purpose, to reliably determine the applicability of the national speed limit and speed limits associated with all applicable road signs included in the catalogue of road signs in Annex II, for the category of vehicle to be approved."
+},
+{
+"k": "462b079c98be",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": " (e.g. camera, electronic map data), to determine the road speed limits associated with all applicable road signs included in the catalogue of road signs in Annex II, for the category of vehicle to be approved, at the latest 2,0 seconds after the reference point referred to in point 3.4.2.2.1. passes the road sign. This requirement shall be met at least when the following conditions are satisfied:",
+"clause": "This requirement shall be met at least when the following conditions are satisfied:"
+},
+{
+"k": "df5b8d44b5d3",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "r example, camera input and electronic map data, where provided in-vehicle for this purpose, to reliably determine the applicability of the national speed limit and speed limits associated with all applicable road signs included in the catalogue of road signs in Annex II, for the category of vehicle to be approved. This requirement shall be met at least when the following conditions are satisfied:",
+"clause": "the correct speed limit shall be determined for at least 90 % of the total distance and for at least 80 % of the distance driven on each of the three road types (urban roads and streets, non-urban roads, and motorways/expressways/dual carriageways) at least for applicable speed limits referred to in point 3.4.2.5.1. and where no special variable conditions referred to in point 3.4.2.3.2 apply."
+},
+{
+"k": "35eaffd320bb",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "r example, camera input and electronic map data, where provided in-vehicle for this purpose, to reliably determine the applicability of the national speed limit and speed limits associated with all applicable road signs included in the catalogue of road signs in Annex II, for the category of vehicle to be approved. This requirement shall be met at least when the following conditions are satisfied:",
+"clause": "Compliance shall be demonstrated in accordance with a real-world driving test as specified in point 4.3."
+},
+{
+"k": "58dc7cc05527",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "r example, camera input and electronic map data, where provided in-vehicle for this purpose, to reliably determine the applicability of the national speed limit and speed limits associated with all applicable road signs included in the catalogue of road signs in Annex II, for the category of vehicle to be approved. This requirement shall be met at least when the following conditions are satisfied:",
+"clause": "Before conducting the real-world driving test, the technical service, the type-approval authority and the vehicle or STU manufacturer shall agree on a route outline."
+},
+{
+"k": "8b1e614d63ef",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "r example, camera input and electronic map data, where provided in-vehicle for this purpose, to reliably determine the applicability of the national speed limit and speed limits associated with all applicable road signs included in the catalogue of road signs in Annex II, for the category of vehicle to be approved. This requirement shall be met at least when the following conditions are satisfied:",
+"clause": "The route outline shall comply with the following conditions:"
+},
+{
+"k": "ff14aa4df291",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Before conducting the real-world driving test, the technical service, the type-approval authority and the vehicle or STU manufacturer shall agree on a route outline. The route outline shall comply with the following conditions:",
+"clause": "To demonstrate system performance at Union level, the vehicle or STU manufacturer shall provide technical documentation that contains the following information:"
+},
+{
+"k": "bcc4670d2b80",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "To demonstrate system performance at Union level, the vehicle or STU manufacturer shall provide technical documentation that contains the following information:",
+"clause": "The manufacturer shall carry out the following due diligence activities:"
+},
+{
+"k": "9f105e4aa547",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The manufacturer shall carry out the following due diligence activities:",
+"clause": "The technical service shall assess the technical documentation provided to assess whether reasonable and adequate steps have been taken to ensure that the requirements in point 3.4.2.5.1. are met for correct operation of the ISA system in all Member States."
+},
+{
+"k": "dfdad7f724cd",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The manufacturer shall carry out the following due diligence activities:",
+"clause": "The vehicle manufacturer shall ensure that the reliability of speed limit determination as required in point 3.4.2.5.2. is maintained for at least 14 years after the date of manufacture of the vehicle."
+},
+{
+"k": "3f6d46651d24",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The manufacturer shall carry out the following due diligence activities:",
+"clause": "If electronic data is used to achieve the required performance, it shall be easy to verify the version level information."
+},
+{
+"k": "3927293b6394",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The manufacturer shall carry out the following due diligence activities:",
+"clause": "The vehicle manufacturer shall provide frequent data updates to vehicle owners including, where necessary, changes required to respond to an update of the catalogue of road signs in Annex II."
+},
+{
+"k": "c97d0bf0ac95",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The manufacturer shall carry out the following due diligence activities:",
+"clause": "These data updates shall be made available to vehicle owners, at least on annual basis in case of map-based data, free of charge (except for the possible cost associated to e.g. common storage media, use of personal computer, operating system, private or mobile internet charges, travel costs to authorised dealer, repairer, distributor or independent repairer) until 7 years after the date of manufacture of the vehicle."
+},
+{
+"k": "78dd479c0d61",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The manufacturer shall carry out the following due diligence activities:",
+"clause": "The user instructions of the motor vehicle shall clearly specify that periodical updates are required to maintain performance and explain the available procedures to obtain and, if applicable, to perform these updates."
+},
+{
+"k": "a6c963defe02",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The manufacturer shall carry out the following due diligence activities:",
+"clause": "In the absence of conditions leading to the deactivation of the ISA system in accordance with points 3.2.1. and 3.2.2., if the perceived speed limit is known and the speedometer speed exceeds it, the SLWF shall warn the driver as specified in point 3.5.2., for speeds from 20 km/h or less."
+},
+{
+"k": "5eee447ccad0",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The manufacturer shall carry out the following due diligence activities:",
+"clause": "The warning indication shall be provided by any of the following:"
+},
+{
+"k": "c090e2d0a0ac",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The warning indication shall be provided by any of the following:",
+"clause": "In this case the system shall attempt to reduce the driving speed to or below the perceived speed limit automatically, e.g. by disengaging or reducing engine power, or a visual warning and a cascaded acoustic warning shall be provided."
+},
+{
+"k": "edf65ca23db3",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The warning indication shall be provided by any of the following:",
+"clause": "The visual warning shall be noticeable and easily recognisable by the driver and be provided by flashing of the SLIF display or flashing of an additional optical signal adjacent to the SLIF display."
+},
+{
+"k": "861b55543847",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The warning indication shall be provided by any of the following:",
+"clause": "It shall be provided within 1.5 seconds from when the speedometer speed exceeds the perceived speed limit and last until at least 5.0 seconds after the timeout of the cascaded acoustic or cascaded haptic warning or until the speedometer speed is less than or equal to the perceived speed limit when this occurs earlier."
+},
+{
+"k": "e7ddf62ed6d3",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The warning indication shall be provided by any of the following:",
+"clause": "The cascaded acoustic warning shall be noticeable by the driver, unique and easily recognisable and be provided by a continuous or intermittent sound signal or by vocal information."
+},
+{
+"k": "e37310822d67",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The warning indication shall be provided by any of the following:",
+"clause": "Where vocal information is employed, the vehicle manufacturer shall ensure that it is easily configurable by the driver to use any of the EU official languages."
+},
+{
+"k": "996589b58822",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The warning indication shall be provided by any of the following:",
+"clause": "The cascaded haptic warning shall be noticeable by the driver and be provided directly or indirectly through the accelerator control when the driver maintains an application force as well as a driving speed that exceeds the perceived speed limit."
+},
+{
+"k": "e87b324de59c",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The warning indication shall be provided by any of the following:",
+"clause": "This shall be achieved by any of the following:"
+},
+{
+"k": "1cdd97283665",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The cascaded haptic warning shall be noticeable by the driver and be provided directly or indirectly through the accelerator control when the driver maintains an application force as well as a driving speed that exceeds the perceived speed limit. This shall be achieved by any of the following:",
+"clause": "The cascaded acoustic warning and cascaded haptic warning shall be provided, when any of the following conditions are met, for constant vehicle speeds:"
+},
+{
+"k": "b5fc583d85aa",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The cascaded acoustic warning and cascaded haptic warning shall be provided, when any of the following conditions are met, for constant vehicle speeds:",
+"clause": "When the vehicle is accelerating, the manufacturer shall select the appropriate time for the conditions referred to in point 3.5.2.1.4., points (b), (c) or (d), or 3.0 seconds as well as any duration between these two values."
+},
+{
+"k": "db2c2ecb2196",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The cascaded acoustic warning and cascaded haptic warning shall be provided, when any of the following conditions are met, for constant vehicle speeds:",
+"clause": "When the vehicle is decelerating and none of the conditions laid down in point 3.5.3. are met, the manufacturer shall select the appropriate time for the conditions referred to in point 3.5.2.1.4., points (a), (b) or (c), or 6.0 seconds as well as any duration between those two values."
+},
+{
+"k": "ca741be82537",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The cascaded acoustic warning and cascaded haptic warning shall be provided, when any of the following conditions are met, for constant vehicle speeds:",
+"clause": "The cascaded acoustic warning shall be provided until the speedometer speed is less than or equal to the perceived speed limit or for at least 3.0 seconds after initial activation of the cascaded acoustic warning."
+},
+{
+"k": "810e93d07658",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The cascaded acoustic warning and cascaded haptic warning shall be provided, when any of the following conditions are met, for constant vehicle speeds:",
+"clause": "However, in no case shall the acoustic warning last more than 5.0 seconds, also in case of successive speed limit changes, in order to minimise driver annoyance."
+},
+{
+"k": "a1831a0d6b65",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The cascaded acoustic warning and cascaded haptic warning shall be provided, when any of the following conditions are met, for constant vehicle speeds:",
+"clause": "The cascaded haptic warning shall be provided until the speedometer speed is less than or equal to the perceived speed limit or for at least 10 seconds after initial activation of the cascaded haptic warning."
+},
+{
+"k": "0334edbf6015",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The cascaded acoustic warning and cascaded haptic warning shall be provided, when any of the following conditions are met, for constant vehicle speeds:",
+"clause": "However, in no case shall the haptic warning last more than 12 seconds, also in case of successive speed limit changes, in order to minimise driver annoyance."
+},
+{
+"k": "563357e169ba",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The cascaded acoustic warning and cascaded haptic warning shall be provided, when any of the following conditions are met, for constant vehicle speeds:",
+"clause": "The cascaded acoustic or cascaded haptic warning shall be terminated immediately upon its acknowledgement by deliberate driver action (e.g. button press) if the manufacturer chooses to implement such functionality."
+},
+{
+"k": "60a0014c6063",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The cascaded acoustic warning and cascaded haptic warning shall be provided, when any of the following conditions are met, for constant vehicle speeds:",
+"clause": "When the vehicle is decelerating due to one or more of the following events, the cascaded acoustic or cascaded haptic warning shall either not be provided or shall be terminated immediately:"
+},
+{
+"k": "0f8a51b94994",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "When the vehicle is decelerating due to one or more of the following events, the cascaded acoustic or cascaded haptic warning shall either not be provided or shall be terminated immediately:",
+"clause": "The haptic warning shall be noticeable by the driver and be provided directly or indirectly through the accelerator control when the driver maintains an application force as well as a driving speed that exceeds the perceived speed limit."
+},
+{
+"k": "a48143287dfe",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "When the vehicle is decelerating due to one or more of the following events, the cascaded acoustic or cascaded haptic warning shall either not be provided or shall be terminated immediately:",
+"clause": "This shall be achieved by increasing the restoring force of the accelerator control."
+},
+{
+"k": "b7e104893e8b",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "When the vehicle is decelerating due to one or more of the following events, the cascaded acoustic or cascaded haptic warning shall either not be provided or shall be terminated immediately:",
+"clause": "The haptic warning alone shall be provided within 1.5 seconds from when the speedometer speed exceeds the perceived speed limit and until the speedometer speed is less than or equal to the perceived speed limit or for at least 15 seconds after its initial activation."
+},
+{
+"k": "1cbdbf09f205",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "When the vehicle is decelerating due to one or more of the following events, the cascaded acoustic or cascaded haptic warning shall either not be provided or shall be terminated immediately:",
+"clause": "However, in no case shall the haptic warning last more than 20 seconds, also in case of successive speed limit changes, in order to minimise driver annoyance."
+},
+{
+"k": "02120166c48e",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "When the vehicle is decelerating due to one or more of the following events, the cascaded acoustic or cascaded haptic warning shall either not be provided or shall be terminated immediately:",
+"clause": "The haptic warning alone shall be terminated immediately upon its acknowledgement by driver deliberate action (e.g. button press) if the manufacturer chooses to implement such functionality."
+},
+{
+"k": "01c09a1c7ade",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "When the vehicle is decelerating due to one or more of the following events, the cascaded acoustic or cascaded haptic warning shall either not be provided or shall be terminated immediately:",
+"clause": "After a warning has been terminated, the SLWF shall be prepared to provide a new warning in accordance with point 3.5.1. after one or more of the following conditions applied:"
+},
+{
+"k": "79e94dae747e",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "After a warning has been terminated, the SLWF shall be prepared to provide a new warning in accordance with point 3.5.1. after one or more of the following conditions applied:",
+"clause": "The manufacturer shall demonstrate that all applicable warnings are presented to the driver appropriately."
+},
+{
+"k": "172c371d056a",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "After a warning has been terminated, the SLWF shall be prepared to provide a new warning in accordance with point 3.5.1. after one or more of the following conditions applied:",
+"clause": "The SLWF shall operate normally within that range in case of the presence of an explicit speed limit sign that is appropriate for the vehicle category in question."
+},
+{
+"k": "000bc8c86f92",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "After a warning has been terminated, the SLWF shall be prepared to provide a new warning in accordance with point 3.5.1. after one or more of the following conditions applied:",
+"clause": "The SLWF shall also operate normally within that range when the expected system feedback in the catalogue of road signs in Annex II is to revert back to the previously applicable implicit speed limit and when this is lower than the previous one (e.g. end of motorway)."
+},
+{
+"k": "ac3641e723bf",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "After a warning has been terminated, the SLWF shall be prepared to provide a new warning in accordance with point 3.5.1. after one or more of the following conditions applied:",
+"clause": "The SLWF shall operate normally at speeds of 10 km/h below the applicable speed limitation setting, and slower vehicle driving speeds."
+},
+{
+"k": "8c20b3e1d0f9",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "After a warning has been terminated, the SLWF shall be prepared to provide a new warning in accordance with point 3.5.1. after one or more of the following conditions applied:",
+"clause": "The SLWF warning function shall be demonstrated in accordance with the relevant test procedure specified in point 4.4."
+},
+{
+"k": "f6e214bac5cb",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "After a warning has been terminated, the SLWF shall be prepared to provide a new warning in accordance with point 3.5.1. after one or more of the following conditions applied:",
+"clause": "In the absence of conditions leading to the manual or automatic deactivation of the ISA system as referred to in points 3.2.1. and 3.2.2., the SCF shall attempt to limit the speedometer speed to the perceived speed limit, for speeds from 20 km/h or less."
+},
+{
+"k": "6ec0f8e1aa77",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "After a warning has been terminated, the SLWF shall be prepared to provide a new warning in accordance with point 3.5.1. after one or more of the following conditions applied:",
+"clause": "The SCF shall attempt to limit the speedometer speed to a stabilised speed by reducing the vehicle’s propulsion power and driveline torque."
+},
+{
+"k": "7dadc2538a10",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "After a warning has been terminated, the SLWF shall be prepared to provide a new warning in accordance with point 3.5.1. after one or more of the following conditions applied:",
+"clause": "The SCF shall not actuate the vehicle’s service braking system except for vehicles of categories M 1 and N 1 , where the vehicle’s service braking system may be actuated."
+},
+{
+"k": "57c739f8c3f9",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "After a warning has been terminated, the SLWF shall be prepared to provide a new warning in accordance with point 3.5.1. after one or more of the following conditions applied:",
+"clause": "An endurance brake (e.g. retarder) may be incorporated only if it operates after the SCF has restricted the propulsion power to a minimum."
+},
+{
+"k": "e0bafb88ceca",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "After a warning has been terminated, the SLWF shall be prepared to provide a new warning in accordance with point 3.5.1. after one or more of the following conditions applied:",
+"clause": "The deceleration rate of the vehicle shall be ≤ 3,0 m.s -2 ."
+},
+{
+"k": "f047e6e4aff5",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "After a warning has been terminated, the SLWF shall be prepared to provide a new warning in accordance with point 3.5.1. after one or more of the following conditions applied:",
+"clause": "The SCF intervention shall start at the latest 1,5 seconds from when the speedometer speed exceeds the perceived speed limit."
+},
+{
+"k": "20977c956713",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "After a warning has been terminated, the SLWF shall be prepared to provide a new warning in accordance with point 3.5.1. after one or more of the following conditions applied:",
+"clause": "When stable speed control has been achieved, the speedometer speed shall not vary by more than 4 % or 2 km/h, whichever is greater, in relation to the stabilised speed, and the rate of change of speedometer speed shall be ≤ 0,2 m.s -2 when measured on a period of at least 0.1 seconds."
+},
+{
+"k": "75e0ee0337cf",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "After a warning has been terminated, the SLWF shall be prepared to provide a new warning in accordance with point 3.5.1. after one or more of the following conditions applied:",
+"clause": "The stabilised speed shall fall within the following range:"
+},
+{
+"k": "0998ea8d8e75",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "After a warning has been terminated, the SLWF shall be prepared to provide a new warning in accordance with point 3.5.1. after one or more of the following conditions applied:",
+"clause": "The manufacturer shall endeavour to stay as close to the perceived speed limit as possible, in order to minimise driver annoyance."
+},
+{
+"k": "e0b7daae71d7",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "After a warning has been terminated, the SLWF shall be prepared to provide a new warning in accordance with point 3.5.1. after one or more of the following conditions applied:",
+"clause": "It shall be possible for the driver to override the SCF intervention by performing a positive action, for example by pressing the accelerator control harder or deeper."
+},
+{
+"k": "10a8d1ac89ef",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "After a warning has been terminated, the SLWF shall be prepared to provide a new warning in accordance with point 3.5.1. after one or more of the following conditions applied:",
+"clause": "However, it shall not be permitted that this can be achieved only through accelerator control kick-down (i.e. full depression of accelerator control)."
+},
+{
+"k": "7410fa83603c",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "After a warning has been terminated, the SLWF shall be prepared to provide a new warning in accordance with point 3.5.1. after one or more of the following conditions applied:",
+"clause": "When the driver has overridden the SCF, it shall be temporarily suspended and shall be re-initiated after any of the following events:"
+},
+{
+"k": "91b8f444a454",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "CF intervention by performing a positive action, for example by pressing the accelerator control harder or deeper. However, it shall not be permitted that this can be achieved only through accelerator control kick-down (i.e. full depression of accelerator control). When the driver has overridden the SCF, it shall be temporarily suspended and shall be re-initiated after any of the following events:",
+"clause": "In case of re-initiation of the SCF following events referred to in first paragraph, points (b) and (c), the vehicle shall not slow down abruptly, but it shall be at a rate similar to the deceleration rate of the vehicle just before the re-initiation."
+},
+{
+"k": "5c7219489fb9",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "CF intervention by performing a positive action, for example by pressing the accelerator control harder or deeper. However, it shall not be permitted that this can be achieved only through accelerator control kick-down (i.e. full depression of accelerator control). When the driver has overridden the SCF, it shall be temporarily suspended and shall be re-initiated after any of the following events:",
+"clause": "The SCF shall permit a normal use of the accelerator control for gear selection."
+},
+{
+"k": "73e72c8359a0",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "CF intervention by performing a positive action, for example by pressing the accelerator control harder or deeper. However, it shall not be permitted that this can be achieved only through accelerator control kick-down (i.e. full depression of accelerator control). When the driver has overridden the SCF, it shall be temporarily suspended and shall be re-initiated after any of the following events:",
+"clause": "The SCF shall operate normally within that range in case of the presence of an explicit speed limit sign that is appropriate for the vehicle category in question."
+},
+{
+"k": "72ed3aebbbc5",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "CF intervention by performing a positive action, for example by pressing the accelerator control harder or deeper. However, it shall not be permitted that this can be achieved only through accelerator control kick-down (i.e. full depression of accelerator control). When the driver has overridden the SCF, it shall be temporarily suspended and shall be re-initiated after any of the following events:",
+"clause": "The SCF shall also operate normally within that range when the expected system feedback in the catalogue of road signs in Annex II is to revert back to the previously applicable implicit speed limit and when this is lower than the previous one (e.g. end of motorway)."
+},
+{
+"k": "9ede4108d622",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "CF intervention by performing a positive action, for example by pressing the accelerator control harder or deeper. However, it shall not be permitted that this can be achieved only through accelerator control kick-down (i.e. full depression of accelerator control). When the driver has overridden the SCF, it shall be temporarily suspended and shall be re-initiated after any of the following events:",
+"clause": "The SCF shall operate normally at speeds of 10 km/h below the applicable speed limitation setting, and slower vehicle driving speeds."
+},
+{
+"k": "fb03724d5e1a",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "CF intervention by performing a positive action, for example by pressing the accelerator control harder or deeper. However, it shall not be permitted that this can be achieved only through accelerator control kick-down (i.e. full depression of accelerator control). When the driver has overridden the SCF, it shall be temporarily suspended and shall be re-initiated after any of the following events:",
+"clause": "The SCF intervention shall be demonstrated in accordance with the relevant tests specified in point 4.5."
+},
+{
+"k": "754bb9e673a2",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "CF intervention by performing a positive action, for example by pressing the accelerator control harder or deeper. However, it shall not be permitted that this can be achieved only through accelerator control kick-down (i.e. full depression of accelerator control). When the driver has overridden the SCF, it shall be temporarily suspended and shall be re-initiated after any of the following events:",
+"clause": "Where the SCF is combined with an acoustic warning function, all the requirements for cascaded acoustic warning provided in this Regulation shall be met."
+},
+{
+"k": "7f6067f93cc3",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test mass:",
+"clause": "The vehicle mass shall be the mass in running order."
+},
+{
+"k": "042a50e23aab",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Tyres:",
+"clause": "The tyres shall be bedded in and the tyre pressures shall be adjusted in accordance with the vehicle manufacturer’s specifications."
+},
+{
+"k": "048c129c3b39",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Road signs:",
+"clause": "The road signs used for the tests shall be explicit speed limit signs where the associated applicable speed limit for the category of vehicle to be approved matches the numerical value shown on the sign."
+},
+{
+"k": "0b7986723662",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Road signs:",
+"clause": "These signs shall meet all conditions specified in point 3.4.2.2.2."
+},
+{
+"k": "efdb70dbb46f",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Road signs:",
+"clause": "The signs shall be positioned in a way to avoid multiple signs being in the system’s field of view simultaneously."
+},
+{
+"k": "ac2ff8d83cd6",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Road signs:",
+"clause": "A minimum of three different explicit speed limit signs, including non-electronic road signs and those displayed on a variable message sign, as used in the Member State(s) where testing takes place, shall be selected by the technical service for testing."
+},
+{
+"k": "b5870a5a7db9",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Road signs:",
+"clause": "The signs used for the tests shall be recorded in the test report."
+},
+{
+"k": "7e177be2b5a5",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Road signs:",
+"clause": "To test the perceived speed limit determination through direct or indirect visible observation, the position of the explicit speed limit signs used for testing shall not be included in the electronic map data of the vehicle at the start of the test."
+},
+{
+"k": "a1f8600a3363",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Road signs:",
+"clause": "The manufacturer shall demonstrate, through the use of documentation, compliance with all other explicit speed limit signs as included in the catalogue of road signs in Annex II, for the category of vehicle to be approved, where the associated applicable speed limit for the category of vehicle to be approved matches the numerical value shown on the sign."
+},
+{
+"k": "279edbdbd6b4",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Road signs:",
+"clause": "Any such documentation shall be appended to the test report dossier."
+},
+{
+"k": "064c378bc171",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Testing conditions:",
+"clause": "The tests shall be carried out as follows:"
+},
+{
+"k": "42eac9e3b104",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "With agreement between the manufacturer and the technical service, the tests can be performed in either of the following locations:",
+"clause": "The relevant necessary conditions shall be specified in detail by the manufacturer and agreed by the technical service and type-approval authority prior to the tests taking place."
+},
+{
+"k": "a206c10a6a2e",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "With agreement between the manufacturer and the technical service, the tests can be performed in either of the following locations:",
+"clause": "This agreement shall be based on a positive assessment of the reasonability, practicability and authenticity of real-world application."
+},
+{
+"k": "618bd38d6cda",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "With agreement between the manufacturer and the technical service, the tests can be performed in either of the following locations:",
+"clause": "In both cases the different explicit speed limit signs shall be selected and placed by the technical service."
+},
+{
+"k": "995c41feebbe",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "With agreement between the manufacturer and the technical service, the tests can be performed in either of the following locations:",
+"clause": "All signs used for the tests on public roads shall differ from the ones that are normally present, or be temporarily modified ones, in order to assess the observational capacity, or equivalent, of the system."
+},
+{
+"k": "53980f121552",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "With agreement between the manufacturer and the technical service, the tests can be performed in either of the following locations:",
+"clause": "This test obligation is not waived in case of dispute with local authorities and the test shall then be carried out elsewhere."
+},
+{
+"k": "a1fb289b25d5",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test procedure:",
+"clause": "The subject vehicle shall be driven in a smooth manner so that its attitude is stable past the road sign selected for testing in the following conditions:"
+},
+{
+"k": "504fc6ac08a0",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The subject vehicle shall be driven in a smooth manner so that its attitude is stable past the road sign selected for testing in the following conditions:",
+"clause": "For vehicle speeds slower than 20 km/h this shall be at the latest 10 m rearward of the vehicle’s reference point."
+},
+{
+"k": "d748665b455f",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The subject vehicle shall be driven in a smooth manner so that its attitude is stable past the road sign selected for testing in the following conditions:",
+"clause": "This test shall not be combined with the real-world driving reliability test in point 4.3."
+},
+{
+"k": "8b7f6f9f5fd9",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Road signs:",
+"clause": "The road signs used for the tests shall be implicit speed limit signs."
+},
+{
+"k": "6f1350f04792",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Road signs:",
+"clause": "These signs shall meet the conditions specified in point 3.4.2.2.2."
+},
+{
+"k": "f491b75cfd0b",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Road signs:",
+"clause": "The signs shall be positioned in a way to avoid multiple signs being in the system’s field of vision simultaneously."
+},
+{
+"k": "1bdfa1cfd3db",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Road signs:",
+"clause": "A minimum of three different implicit speed limit signs, including non-electronic road signs and those displayed on a variable message sign, as used in the Member State(s) where testing takes place, shall be selected by the technical service for testing."
+},
+{
+"k": "93e186b79f33",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Road signs:",
+"clause": "The manufacturer shall demonstrate, through the use of documentation, compliance with all other applicable implicit speed limit signs as included in the catalogue of road signs in Annex II, for the category of vehicle to be approved."
+},
+{
+"k": "efa02afdd644",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Road signs:",
+"clause": "Any such documentation shall be attached to the test report dossier."
+},
+{
+"k": "c47e0b81a6e3",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "With agreement between the manufacturer and the technical service, the tests can be performed in either of the following locations:",
+"clause": "Existing signs only shall be used where compliance is demonstrated by means of the real-world driving reliability test in accordance with points 4.2.4.2. and 4.3."
+},
+{
+"k": "1cb0686e56dc",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "a speedometer speed:",
+"clause": "For vehicle speeds below 20 km/h this shall be at the latest 10 m rearward of the vehicle’s reference point."
+},
+{
+"k": "fde29d0c1643",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "a speedometer speed:",
+"clause": "The test drive shall comply with the conditions set out in points 4.3.1.1. to 4.3.1.5."
+},
+{
+"k": "3e753f072aaa",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "a speedometer speed:",
+"clause": "The test drive shall be appropriate to measure the system’s performance at correctly determining the applicable speed limit using the performance criteria specified in point 3.4.2.5.2."
+}
+]

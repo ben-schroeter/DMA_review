@@ -1,0 +1,68 @@
+{
+ "celex": "32015L0849",
+ "name": "Fourth Anti-Money Laundering Directive",
+ "proposal": "52013PC0045",
+ "impact_assessment": "SWD(2013) 21 (executive summary SWD(2013) 22)",
+ "evidence_rating": "thin: Commission assessments and an EU audit of implementation; no study measuring effects on money laundering",
+ "summary": "The Commission's 2019 assessment found major divergences in how Member States apply the anti-money laundering rules, a structural weakness that led to the 2024 package replacing this Directive with a directly applicable Regulation from July 2027. The European Court of Auditors (2021) found EU action in the banking sector fragmented and implementation insufficient.",
+ "last_reviewed": "2026-11-14",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "No monitoring indicators set in the proposal; assessed through the Commission's reports listed below",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2019-aml-implementation",
+   "citation": "European Commission (2019), Towards better implementation of the EU's anti-money laundering and countering the financing of terrorism framework, COM(2019) 360",
+   "authors": "European Commission",
+   "year": 2019,
+   "title": "Towards better implementation of the EU's anti-money laundering and countering the financing of terrorism framework",
+   "venue": "COM(2019) 360",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52019DC0360",
+   "pdf_url": "",
+   "source_type": "Commission implementation report",
+   "method": "assessment (recent cases, supranational risk assessment, FIU cooperation)",
+   "outcomes": "implementation; supervision",
+   "direction": "negative",
+   "headline": "Major divergences in the application of the framework; a structural problem for preventing misuse of the financial system; options include turning the Directive into a Regulation and an EU supervisor",
+   "summary_plain": "The Commission concluded that countries applied the anti-money laundering rules so differently that the system had structural gaps.",
+   "period_geography": "EU, 2015-2019",
+   "quality": "Commission self-assessment",
+   "verified": "full text read (conclusions)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20261011102627/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52019DC0360"
+  },
+  {
+   "id": "eca-2021-aml",
+   "citation": "European Court of Auditors (2021), EU efforts to fight money laundering in the banking sector are fragmented and implementation is insufficient, Special Report 13/2021",
+   "authors": "European Court of Auditors",
+   "year": 2021,
+   "title": "EU efforts to fight money laundering in the banking sector are fragmented and implementation is insufficient",
+   "venue": "Special Report 13/2021",
+   "url": "https://op.europa.eu/webpub/eca/special-reports/fight-money-laundering-13-2021/en/index.html",
+   "pdf_url": "",
+   "source_type": "EU audit",
+   "method": "performance audit",
+   "outcomes": "transposition; supervision",
+   "direction": "negative",
+   "headline": "Incomplete transposition of the AML directives; fragmented and poorly coordinated institutional response; EU oversight insufficient for a level playing field",
+   "summary_plain": "EU auditors found the rules were not fully put into national law and that supervision was fragmented.",
+   "period_geography": "EU, 2015-2020",
+   "quality": "audit",
+   "verified": "page summary via search",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20241115195416/https://op.europa.eu/webpub/eca/special-reports/fight-money-laundering-13-2021/en/index.html"
+  }
+ ]
+}

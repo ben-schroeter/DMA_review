@@ -1,0 +1,1052 @@
+[
+{
+"k": "9d5792091de4",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "For non-simulated road environment testing:",
+"clause": "testing shall start after sunset and before sunrise."
+},
+{
+"k": "64eddb92a11e",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The participant’s level of drowsiness shall be measured using the KSS."
+},
+{
+"k": "c18500c50382",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "Participants shall be trained on the KSS before they apply it as part of the DDAW system validation testing."
+},
+{
+"k": "a5060f42c3f6",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The training process shall be the same for all participants."
+},
+{
+"k": "b8c125f640af",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The training process shall be clearly documented in the evidence dossier supplied to the technical service in accordance with Part 3."
+},
+{
+"k": "11b4bd992dbc",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The standardised wording in the Appendix to Part 1 shall be used and all levels of the KSS shall be labelled."
+},
+{
+"k": "5c9feef62111",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "Measurements shall be obtained during the testing at intervals of approximately 5 minutes, where each measurement obtained shall be assumed to cover the previous 5 minutes."
+},
+{
+"k": "ce0acb45e976",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The time at which the warning from the DDAW is provided (muted or not) shall be recorded to clearly establish if it is a true positive event."
+},
+{
+"k": "e9faf4c87960",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "Any warning from the DDAW system shall be treated as a true positive event if the participant previous or next rating is at a KSS level of 7 or above."
+},
+{
+"k": "5de5efe8bbb3",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "If a participant rating is below the drowsiness threshold referred to in point 3.3.1. of Part 1 and the subsequent rating is above or equal to the drowsiness threshold (e.g. a sequence of rating can be 6-8 or 7-8), either:",
+"clause": "the DDAW system provides a warning and it shall be treated as a true positive and end the specific test as in point 5.1.4.;"
+},
+{
+"k": "813e2c961023",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "If a participant rating is below the drowsiness threshold referred to in point 3.3.1. of Part 1 and the subsequent rating is above or equal to the drowsiness threshold (e.g. a sequence of rating can be 6-8 or 7-8), either:",
+"clause": "the DDAW system does not provide a warning and it shall be treated as a false negative, unless the testing continues for at least an extra testing time interval, and the participant provide either of the following self-assessment:"
+},
+{
+"k": "5a60c9d2ebcb",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "the DDAW system does not provide a warning and it shall be treated as a false negative, unless the testing continues for at least an extra testing time interval, and the participant provide either of the following self-assessment:",
+"clause": "During the extra testing interval, if the participants provide a self-assessment above or equal to the drowsiness threshold again, the reading shall be treated as a false negative (e.g. sequence of rating can be 7-8-8, 7-9-9 or 7-9-8);"
+},
+{
+"k": "33b1ac096b01",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "the DDAW system does not provide a warning and it shall be treated as a false negative, unless the testing continues for at least an extra testing time interval, and the participant provide either of the following self-assessment:",
+"clause": "During the extra testing interval, if the participants provide a self-assessment at the KSS level 7, the data point shall be treated as true negative and marked as an outlier (e.g. sequence can be 6-8-7, 7-8-7 or 7-9-7)."
+},
+{
+"k": "4cc839fe7007",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "the DDAW system does not provide a warning and it shall be treated as a false negative, unless the testing continues for at least an extra testing time interval, and the participant provide either of the following self-assessment:",
+"clause": "All outliers shall be documented in the documentation package;"
+},
+{
+"k": "8d30cb053fb3",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "the DDAW system does not provide a warning and it shall be treated as a false negative, unless the testing continues for at least an extra testing time interval, and the participant provide either of the following self-assessment:",
+"clause": "Without prejudice to other situations which can be excluded, during the extra testing interval, if the participants provide a self-assessment below the KSS level of 7, the data points from this specific test shall be excluded from the overall testing data results as the drowsiness ratings of the participant are likely unreliable (e.g. sequence of rating can be 7-8-6 or 6-8-6)."
+},
+{
+"k": "e057ad2b65df",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "Manufacturers may use an alternative measurement(s) to validate a DDAW system under the following conditions:",
+"clause": "The time interval of this method shall not exceed 5 minutes."
+},
+{
+"k": "3c9019eda08e",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "Manufacturers may use an alternative measurement(s) to validate a DDAW system under the following conditions:",
+"clause": "Where alternative measurements to KSS are used to determine the participant’s level of drowsiness, the manufacturer shall provide evidence that the chosen measurement is a valid and accurate means to assess driver drowsiness, and that the drowsiness threshold used in the validation testing is equivalent to a KSS level referred to in point 3.3.1. of Part 1"
+},
+{
+"k": "455fbef1bc23",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "Manufacturers may use an alternative measurement(s) to validate a DDAW system under the following conditions:",
+"clause": "For the sleep video analysis, expected evidence concerns the quality of the video used, the visibility of the setup for the participant, the correspondence between the rating scale and KSS, the training of the raters (in addition a minimal performance level of ‘concordance rate’ superior or equal to 0.70 is required), information of independence of the raters to the DDAW development and description on how the final rating is calculated based on the input from the sleep experts."
+},
+{
+"k": "62ee13c920d1",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "Manufacturers may use an alternative measurement(s) to validate a DDAW system under the following conditions:",
+"clause": "If during 5 minutes or more the ratings are above the drowsiness threshold then it is followed by a rating below the drowsiness threshold, the data point shall be treated as an outlier."
+},
+{
+"k": "80cf64f9ab77",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "Manufacturers may use an alternative measurement(s) to validate a DDAW system under the following conditions:",
+"clause": "All outliers shall be documented in the documentation package;"
+},
+{
+"k": "d4df311887fc",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "Manufacturers may use an alternative measurement(s) to validate a DDAW system under the following conditions:",
+"clause": "Manufacturers may use complementary measurement(s) to KSS or the alternative measurement(s) to validate a DDAW system, which shall be duly documented in the documentation package under Part 3."
+},
+{
+"k": "caad04d685e8",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "Manufacturers may use an alternative measurement(s) to validate a DDAW system under the following conditions:",
+"clause": "Where sleep expert video analysis are used as a complementary measurement, at a minimum two raters and an inter-rater reliability test shall be conducted, and the results shall be included in the documentation package."
+},
+{
+"k": "4a77d8ea754d",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "Manufacturers may use an alternative measurement(s) to validate a DDAW system under the following conditions:",
+"clause": "The facial cues and body movements/behaviours for each level of drowsiness on the KSS shall be demonstrated (usually it is a confidential document)."
+},
+{
+"k": "72f1538c6edb",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "If alternative measurements to KSS are used to validate a DDAW system, the manufacture shall state the threshold being used and provide evidence detailing the equivalency between the threshold and a KSS level of 8."
+},
+{
+"k": "246566ff4c10",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "If a complementary measurement is used in addition to KSS or to an alternative measurement to validate a DDAW system, the manufacturer shall state the threshold being used and provide evidence detailing the equivalency between the threshold and a KSS level of 8."
+},
+{
+"k": "b7d1d26d4a7b",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "Test data shall only be discarded by the manufacturer before any statistical analysis is conducted in any of the following cases:"
+},
+{
+"k": "29a794ca6f2e",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "Test data shall only be discarded by the manufacturer before any statistical analysis is conducted in any of the following cases:",
+"clause": "The manufacturer shall document any errors that occur during testing shall be documented as part of the evidence in the documentation package, separate from the test results, along with the erroneous data and, if applicable, the reason for excluding a participants’ data from the statistical analysis."
+},
+{
+"k": "f8f5df7bda79",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "A DDAW system shall be deemed effective by the technical services if the following requirement (a) or (b) is satisfied as modified, if necessary, by requirements (c) for tests using interval time above 15 minutes and (d) for tests performed in a simulated environment:",
+"clause": "the lower bound from the 90 % confidence interval of the sensitivity results shall be above 20 %."
+},
+{
+"k": "43b31abd0b3e",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "where:",
+"clause": "If the DDAW system requires a learning phase, the acceptance criteria listed in point 8.1. shall exclude results obtained during the learning phase or for 30 minutes after the condition for activation of the DDAW are fulfilled, whichever is shorter."
+},
+{
+"k": "a9ebe3547d6d",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The manufacturer shall provide to the approval authority and technical service a documentation package containing evidence of the effectiveness of the system."
+},
+{
+"k": "60fb5d227036",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The documentation package shall cover both, the system functionality and the system validation."
+},
+{
+"k": "a18e6cd6a4fb",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The documentation package detailing how the system functions shall include:"
+},
+{
+"k": "681a64c11b50",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The documentation package detailing how the system functions shall include:",
+"clause": "a document providing at least one test protocol to be tested by the Technical Service, for which the DDAW system shall deliver a warning when performed."
+},
+{
+"k": "1ca97b702099",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The documentation package detailing how the system functions shall include:",
+"clause": "The list of system inputs shall only be provided to the approval authority or the technical service for the purpose of verifying the DDAW system for the type-approval."
+},
+{
+"k": "14adae2ae443",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The documentation package detailing how the system functions shall include:",
+"clause": "Evidence on the effectiveness of the system document shall include:"
+},
+{
+"k": "b9415722c5e4",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "Evidence on the effectiveness of the system document shall include:",
+"clause": "The evidence shall indicate the known or logical limitations due to weather conditions, the technical challenge and the strategy for the system behaviour in these given weather conditions (for example strong rain, snow, high temperature etc.)."
+},
+{
+"k": "b7b2633d48c0",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "Evidence on the effectiveness of the system document shall include:",
+"clause": "If a statistical analysis method that differs from that set out in point 8.1. is used, evidence on the statistical analysis technique and level of significance used shall be provided;"
+},
+{
+"k": "3fb597daf89b",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "Evidence on the effectiveness of the system document shall include:",
+"clause": "The information on demographics of the test participants referred to in sub-point (a) shall include:"
+},
+{
+"k": "625c8eef2124",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The information on demographics of the test participants referred to in sub-point (a) shall include:",
+"clause": "The information on full test methodology referred to in sub-point (d) shall include:"
+},
+{
+"k": "58c8cc5676a3",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The information on full test methodology referred to in sub-point (d) shall include:",
+"clause": "If the validation was performed on another vehicle, the documentation shall contain information linking the validation process to the type-approval requirements for the vehicle."
+},
+{
+"k": "26602b0b0b37",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The information on full test methodology referred to in sub-point (d) shall include:",
+"clause": "Provide documents demonstrating the technical similarities or the adaptation required to enable the DDAW system to the vehicle presented for type-approval."
+},
+{
+"k": "bbf7cbae4dce",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The information on full test methodology referred to in sub-point (d) shall include:",
+"clause": "The requirements on the participants shall also be similar (demography, involvement of professional driver)."
+},
+{
+"k": "6669d5d2a508",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The information on full test methodology referred to in sub-point (d) shall include:",
+"clause": "If the validation was performed as part of a research to establish compliance with the technical requirements for the DDAW system, the documentation shall contain information linking the validation testing to the respective approval requirements for the motor vehicle concerned."
+},
+{
+"k": "b4b5bfaea525",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The technical service shall check that the manufacturer has proved on the basis of the tests performed in accordance with this Annex that the DDAW meets the technical criteria laid down in Part 1 and the validation criteria laid down in Part 2."
+},
+{
+"k": "51e2b9d327cd",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The technical service shall check that the manufacturer has proved on the basis of the tests performed in accordance with this Annex that the DDAW meets the technical criteria laid down in Part 1 and the validation criteria laid down in Part 2. The following actions are expected:",
+"clause": "The assessment of the test report shall verify whether the underlying evidence on the tests performed correspond with the reported test results to a level of overall effect such that the performance declaration is confirmed as being adequate."
+},
+{
+"k": "48ef232cc763",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The technical service shall check that the manufacturer has proved on the basis of the tests performed in accordance with this Annex that the DDAW meets the technical criteria laid down in Part 1 and the validation criteria laid down in Part 2. The following actions are expected:",
+"clause": "Such means may include a review of the full raw data sets from a selection of test drives chosen by the technical service (including any data that was excluded from the analysis) and re-running parts of the validation testing based on collected data (may only be possible for limited validation methods, such as sleep video analysis)."
+},
+{
+"k": "1473f179efdd",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The technical service shall check that the manufacturer has proved on the basis of the tests performed in accordance with this Annex that the DDAW meets the technical criteria laid down in Part 1 and the validation criteria laid down in Part 2. The following actions are expected:",
+"clause": "The technical service shall, taking into account the information on the system functionality provided under point 1.1, assess the capability of the test protocol, proposed by the manufacturer, to detect a drowsy driving event."
+},
+{
+"k": "817d37d92505",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The technical service shall check that the manufacturer has proved on the basis of the tests performed in accordance with this Annex that the DDAW meets the technical criteria laid down in Part 1 and the validation criteria laid down in Part 2. The following actions are expected:",
+"clause": "The technical service shall also perform the test based on the proposed protocol."
+},
+{
+"k": "ad2efff82168",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The technical service shall check that the manufacturer has proved on the basis of the tests performed in accordance with this Annex that the DDAW meets the technical criteria laid down in Part 1 and the validation criteria laid down in Part 2. The following actions are expected:",
+"clause": "The test shall be accounted as passed as soon as the DDAW system provides a warning for a drowsy driver."
+},
+{
+"k": "bce02306eba1",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The technical service shall check that the manufacturer has proved on the basis of the tests performed in accordance with this Annex that the DDAW meets the technical criteria laid down in Part 1 and the validation criteria laid down in Part 2. The following actions are expected:",
+"clause": "The root cause of any failed test run shall be analysed by the technical service and the analysis shall be annexed to the test report."
+},
+{
+"k": "b25bc788a02e",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The technical service shall check that the manufacturer has proved on the basis of the tests performed in accordance with this Annex that the DDAW meets the technical criteria laid down in Part 1 and the validation criteria laid down in Part 2. The following actions are expected:",
+"clause": "A reference to the code of the respective test protocol, which has been run by the technical service, shall be included in the ‘Remarks’ section of the Type-Approval Certificate in order to allow competent authorities, when performing for instance market surveillance activities, to request the test protocol from the technical service that carried out the test."
+},
+{
+"k": "035e45a475b9",
+"doc": "32021R0535",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "In one or more of the cases referred to in Article 1(2) of this Regulation, applications for approval of a type of vehicle, system, component or separate technical unit, in accordance with the requirements set out in the UN regulations listed in Annex II to Regulation (EU) 2019/2144, shall be submitted to the type-approval authority by manufacturers or their representatives, using the model information document laid down in Part 1 of Annex I."
+},
+{
+"k": "66dd1211e7ff",
+"doc": "32021R0535",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "Components and separate technical units which have a valid EU type-approval mark shall be accepted even in cases where they are applied instead of components and separate technical units that are required to bear an UN type-approval mark in accordance with Regulation (EU) 2019/2144 and the delegated acts and implementing acts adopted pursuant to it, setting out provisions in areas covered by UN regulations."
+},
+{
+"k": "236ccb0aa8c0",
+"doc": "32021R0535",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "Where the type of vehicle, system, component or separate technical unit, presented for type-approval, complies with the relevant technical requirements in the UN regulations, the EU type-approval certificate, issued by the type-approval authority in accordance with Article 28(1) of Regulation (EU) 2018/858, shall follow the model set out in Part 2 of Annex I together with the completed communication form corresponding to the relevant model in the applied UN regulation with the entry of its UN type-approval number left blank."
+},
+{
+"k": "03e156bd9861",
+"doc": "32021R0535",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "Each component or separate technical unit conforming to a type in respect of which a type-approval has been granted pursuant to Regulation (EU) 2019/2144 shall bear an EU separate technical unit type-approval mark in accordance with paragraph 4 of Annex V to Regulation (EU) 2020/683."
+},
+{
+"k": "4e872495bf83",
+"doc": "32021R0535",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "A separate application for EU type-approval of a vehicle type as regards each of the following items shall be submitted to the type-approval authority by manufacturers or their representatives, using the respective model information document in accordance with Article 24(1)(a) of Regulation (EU) 2018/858:"
+},
+{
+"k": "c0fb27f49485",
+"doc": "32021R0535",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "The application for the EU type-approval of a type of vehicle as regard the gear shift indicator referred to in point (h) of paragraph 1 shall be submitted together with a declaration of the manufacturer that the vehicle complies with the relevant technical specifications set out in this Regulation and a certificate drawn up in accordance with the model set out in the Appendix to Part 1 of Annex IX."
+},
+{
+"k": "78b5b3b89513",
+"doc": "32021R0535",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "The manufacturer shall, when requested by the approval authority or the technical service, make available, for test purposes, a vehicle representative of the type to be approved."
+},
+{
+"k": "c290ebe42b10",
+"doc": "32021R0535",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Where the technical specifications set out in Part 2 of Annexes II to XIII and in Annex XIV, Part 2, Sections D and E with regard to the respective requirements listed in Annex II to Regulation (EU) 2019/2144 are met, the type-approval authority shall grant an EU type-approval and issue a type-approval certificate number in accordance with the method set out in Annex IV of Commission Implementing Regulation (EU) 2020/683."
+},
+{
+"k": "8e0f8c11b98b",
+"doc": "32021R0535",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "The EU type-approval certificate, referred to in Article 28(1) of Regulation (EU) 2018/858, shall be drawn up in accordance with:"
+},
+{
+"k": "083e51f2511f",
+"doc": "32021R0535",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "In accordance with the second subparagraph of Article 6(5) of Regulation (EU) 2018/858, an EU type-approval may be granted for vehicles exceeding the maximum authorised dimensions set out in point 1.1. of Sections B, C and D of Part 2 of Annex XIII to this Regulation, in which case the remark ‘maximum authorised dimensions derogation’ shall be included in point 52 of the type-approval certificate and the certificate of conformity."
+},
+{
+"k": "3b8393beee4b",
+"doc": "32021R0535",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "An EU type-approval may be granted for vehicles intended for the transport of indivisible loads, the dimensions of which exceed the maximum authorised dimensions set out in point 1.1. of Sections B, C and D of Part 2 of Annex XIII to this Regulation, in which case the type-approval certificate and the certificate of conformity shall clearly indicate that the vehicle is intended for the transport of indivisible loads only."
+},
+{
+"k": "8280f738b2db",
+"doc": "32021R0535",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "Applications for EU separate technical unit type-approval with regard to each of the following systems and equipment shall be drawn up in accordance with the respective model information document as referred to in Article 24(1)(a) of Regulation (EU) 2018/858:"
+},
+{
+"k": "8df9d0e2d4d1",
+"doc": "32021R0535",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "In accordance with Article 29 of Regulation (EU) 2018/858, where the technical specifications set out in Part 2 of Annex IV to this Regulation with regard to the requirements for the windscreen washer systems, Part 2 of Annex VIII with regard to the spray suppression systems, Part 2 of Annex XII with regard to the frontal protection systems and Annex XIII, Part 2, Section I with regard to the aerodynamic devices and equipment are met, the type-approval authority shall grant an EU separate technical unit type-approval for those types of systems and equipment, and issue a type-approval certifica"
+},
+{
+"k": "710e808b7610",
+"doc": "32021R0535",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "The EU type-approval certificates, issued in accordance with Article 28(1) of Regulation (EU) 2018/858, for the systems and equipment referred to in Article 5 shall be drawn up in accordance with:"
+},
+{
+"k": "d573f6c9981d",
+"doc": "32021R0535",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "Applications for EU component type-approval with regard to the following hydrogen components shall be drawn up in accordance with the respective model information document as referred to in Article 24(1)(a) of Regulation (EU) 2018/858 and contain the information listed in Annex XIV, Part 1, Section B:"
+},
+{
+"k": "f7ded71e0dd7",
+"doc": "32021R0535",
+"art": "Art. 10",
+"chapeau": "",
+"clause": "In accordance with Article 29 of Regulation (EU) 2018/858, where the technical specifications set out in Annex XIV, Part 2, Sections B, C and F, for components referred to in point (a) of Article 9, and Section F, for components referred to in point (b) of that Article, with regard to the respective requirements listed in Annex II to Regulation (EU) 2019/2144 are met, the type-approval authority shall grant an EU component type-approval for the type of hydrogen component and issue a type-approval certificate number in accordance with the method set out in Annex IV to Commission Implementing Re"
+},
+{
+"k": "6635a0f291cf",
+"doc": "32021R0535",
+"art": "Art. 10",
+"chapeau": "",
+"clause": "The EU type-approval certificate for the components referred to in Article 9 shall be drawn up in accordance with Annex XIV, Part 3, Section B."
+},
+{
+"k": "89ef712ac380",
+"doc": "32021R0535",
+"art": "Art. 12",
+"chapeau": "",
+"clause": "With effect from 6 July 2022, type-approval authorities shall refuse to grant EU type-approval in respect of new types of vehicles, with regard to the check digit of the vehicle identification number, which do not comply with the technical specifications set out in Annex II, Part 2, Section C with regard to the respective requirements listed in Annex II to Regulation (EU) 2019/2144."
+},
+{
+"k": "3e41565c52ff",
+"doc": "32021R0535",
+"art": "Art. 12",
+"chapeau": "",
+"clause": "With effect from 7 July 2026, national authorities shall refuse, on grounds relating to the check digit of the vehicle identification number, the registration, placing on the market and entry into service of vehicles, which do not comply with the technical specifications set out in Annex II, Part 2, Section C with regard to the respective requirements listed in Annex II to Regulation (EU) 2019/2144."
+},
+{
+"k": "259dfdd36d89",
+"doc": "32021R0535",
+"art": "Art. 12",
+"chapeau": "",
+"clause": "With effect from 6 July 2022, type-approval authorities shall refuse to grant EU type-approval in respect of new types of vehicles, with regard to the space for mounting and fixing of the front registration plates, which do not comply with the technical specifications set out in Part 2 of Annex III with regard to the respective requirements listed in Annex II to Regulation (EU) 2019/2144."
+},
+{
+"k": "5a486a7b2ad3",
+"doc": "32021R0535",
+"art": "Art. 12",
+"chapeau": "",
+"clause": "With effect from 7 July 2026, national authorities shall refuse, on grounds relating to the space for mounting and fixing of the front registration plates, the registration, placing on the market and entry into service of vehicles, which do not comply with the technical specifications set out in Part 2 of Annex III with regard to the respective requirements listed in Annex II to Regulation (EU) 2019/2144."
+},
+{
+"k": "05be092a799f",
+"doc": "32021R0535",
+"art": "Art. 12",
+"chapeau": "",
+"clause": "In accordance with Article 15(1) of Regulation (EU) 2019/2144, national authorities shall permit the sale and entry into service of vehicles, systems, components and separate technical units type-approved before 6 July 2022, and continue to grant extension of approvals to those vehicles, systems, components and separate technical units under the terms of Regulation (EC) No 78/2009, Regulation (EC) No 79/2009 or Regulation (EC) No 661/2009 and their implementing measures, as regards the subject matter covered in Annexes II to XIV to this Regulation."
+},
+{
+"k": "4684d0b01ece",
+"doc": "32021R0535",
+"art": "Art. 13",
+"chapeau": "",
+"clause": "For the purpose of evaluating the need for further developments, manufacturers and type-approval authorities shall make available to the Commission upon request the information set out in Parts 1, 2 and 3 of Annex IX."
+},
+{
+"k": "c69fbda11617",
+"doc": "32021R0535",
+"art": "Art. 13",
+"chapeau": "",
+"clause": "The information shall be treated in a confidential manner by the Commission and its representatives."
+},
+{
+"k": "a863014c9ad7",
+"doc": "32021R0535",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The following information, where applicable, shall be supplied in triplicate and include a list of contents."
+},
+{
+"k": "f910acc649e1",
+"doc": "32021R0535",
+"art": "Annex I",
+"chapeau": "Photographs, pictures and/or drawings of a representative vehicle / component / separate technical unit ( 1 ):",
+"clause": "All subsequent items and information relevant for the vehicle, component or separate technical unit shall be provided in agreement with the technical service and type-approval authority responsible for granting the EU type-approval for which the application was submitted."
+},
+{
+"k": "a5ee45732240",
+"doc": "32021R0535",
+"art": "Annex I",
+"chapeau": "Photographs, pictures and/or drawings of a representative vehicle / component / separate technical unit ( 1 ):",
+"clause": "It may be based on a model for an information document if provided by UN Regulation No …, otherwise it shall insofar practicable be based on the item numbering of Annex I to Commission Implementing Regulation (EU) 2020/683 (i.e. the complete list of information for the purpose of EU type-approval of vehicles, components and separate technical units) and any additional information or particulars required for approval under UN Regulation No … shall be included."
+},
+{
+"k": "251293de2455",
+"doc": "32021R0535",
+"art": "Annex I",
+"chapeau": "Explanatory notes:",
+"clause": "For each item for which drawings, pictures or photographs shall be attached, give numbers of the corresponding attached documents."
+},
+{
+"k": "29aaf19d8688",
+"doc": "32021R0535",
+"art": "Annex I",
+"chapeau": "Explanatory notes:",
+"clause": "If the means of identification of type contains characters not relevant to describe the vehicle, component or separate technical unit types covered by this information document, such characters shall be represented in the documentation by the symbol ‘?’ (e.g."
+},
+{
+"k": "bfbe1fcabe08",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "Explanatory notes:",
+"clause": "This information document is based on the template laid down in Annex I to Commission Implementing Regulation (EU) 2020/683 and shall be completed with the relevant information under the point numbers listed above as defined in that template."
+},
+{
+"k": "67c0e6bdd235",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "General provisions:",
+"clause": "Each vehicle shall be fitted with the manufacturer's statutory plate described in this section"
+},
+{
+"k": "bec82babe3a0",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "General provisions:",
+"clause": "The manufacturer's statutory plate shall be affixed by the vehicle manufacturer or the vehicle manufacturer’s representative."
+},
+{
+"k": "4d0f6758f1c8",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The manufacturer's statutory plate shall consist of either of the following:",
+"clause": "Metallic plates shall be fastened with rivets or equivalent."
+},
+{
+"k": "45918337baaf",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The manufacturer's statutory plate shall consist of either of the following:",
+"clause": "Labels shall be tamper evident, fraud resistant and self-destructive in case there is an attempt to remove the label."
+},
+{
+"k": "5321b448b794",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The manufacturer's statutory plate shall consist of either of the following:",
+"clause": "The following information shall be printed indelibly on the manufacturer's statutory plate in the order listed:"
+},
+{
+"k": "8c210601c17e",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The following information shall be printed indelibly on the manufacturer's statutory plate in the order listed:",
+"clause": "The height of the characters referred to in point 1.2.1.(d) shall not be less than 4 mm."
+},
+{
+"k": "dc2787308849",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The following information shall be printed indelibly on the manufacturer's statutory plate in the order listed:",
+"clause": "The height of the characters of the information referred to in point 1.2.1., other than the vehicle identification number, shall not be less than 2 mm."
+},
+{
+"k": "71947adb09f2",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The following information shall be printed indelibly on the manufacturer's statutory plate in the order listed:",
+"clause": "In the case of a trailer, the technically permissible maximum static vertical mass on the coupling point shall be mentioned."
+},
+{
+"k": "471710292b9a",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The following information shall be printed indelibly on the manufacturer's statutory plate in the order listed:",
+"clause": "This axle shall be numbered '0'."
+},
+{
+"k": "12bd5d747d7d",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The following information shall be printed indelibly on the manufacturer's statutory plate in the order listed:",
+"clause": "The first axle shall be numbered '1', the second '2' and so on, separated by a hyphen."
+},
+{
+"k": "b3afa8d91936",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The following information shall be printed indelibly on the manufacturer's statutory plate in the order listed:",
+"clause": "The mass of the combination referred to in point 1.2.1.(f) shall be omitted."
+},
+{
+"k": "45157717717d",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The following information shall be printed indelibly on the manufacturer's statutory plate in the order listed:",
+"clause": "With regard to vehicles of category N 3 , O 3 or O 4 , the technically permissible maximum mass on an axle group shall be mentioned."
+},
+{
+"k": "e59037582733",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The following information shall be printed indelibly on the manufacturer's statutory plate in the order listed:",
+"clause": "The entry corresponding to \"Axle group\" shall be identified by the letter 'T', followed by a hyphen."
+},
+{
+"k": "56a0c71b86e7",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The following information shall be printed indelibly on the manufacturer's statutory plate in the order listed:",
+"clause": "The part of the manufacturer's statutory plate where the masses are mentioned shall be subdivided in two columns:"
+},
+{
+"k": "9dc9016f8c93",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The following information shall be printed indelibly on the manufacturer's statutory plate in the order listed:",
+"clause": "the intended registration/in-service maximum permissible masses shall be mentioned in the left column and the technically permissible maximum laden masses in the right column."
+},
+{
+"k": "9435b15f85e2",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The following information shall be printed indelibly on the manufacturer's statutory plate in the order listed:",
+"clause": "The two-letter code of the country where the vehicle is intended to be registered shall be indicated as header of the left column."
+},
+{
+"k": "748c0b54b18f",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The following information shall be printed indelibly on the manufacturer's statutory plate in the order listed:",
+"clause": "The code shall be in accordance with Standard ISO 3166-1:2006."
+},
+{
+"k": "759efdb1371f",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The requirements of point 1.3.2.1. shall not apply where:",
+"clause": "The manufacturer may provide additional information below or alongside the prescribed inscriptions, outside a clearly marked rectangle which shall enclose only the information referred to in points 1.2. and 1.3."
+},
+{
+"k": "b450d205c0d5",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The requirements of point 1.3.2.1. shall not apply where:",
+"clause": "The manufacturer's statutory plate shall be firmly attached in a conspicuous and readily accessible position."
+},
+{
+"k": "228e9cf5ffce",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The requirements of point 1.3.2.1. shall not apply where:",
+"clause": "The location shall be chosen so that the part on which it is affixed is not subject to replacement in use."
+},
+{
+"k": "2d857e0034bc",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The VIN shall consist of the following three sections and a check digit:",
+"clause": "The code shall comprise three alphanumeric characters, capital roman letters or Arabic numerals, which shall be assigned by the competent authority in the country where the principal place of business of the manufacturer is situated."
+},
+{
+"k": "e3bfee402a31",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The VIN shall consist of the following three sections and a check digit:",
+"clause": "The competent authority shall act in accordance with the international organisation referred to in Standard ISO 3780:2009 on \"Road vehicles – World manufacturer identifier (WMI) code\"."
+},
+{
+"k": "1b5ae9aac4ff",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The VIN shall consist of the following three sections and a check digit:",
+"clause": "Where the manufacturer's global production is less than 500 vehicles per year, the third character shall always be '9'."
+},
+{
+"k": "30d03e6c57c5",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The VIN shall consist of the following three sections and a check digit:",
+"clause": "In order to identify such manufacturers, the competent authority referred to in point 2.2. shall assign the third, the fourth and the fifth character of the VIS."
+},
+{
+"k": "ebe8cdc63238",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The VIN shall consist of the following three sections and a check digit:",
+"clause": "The VDS shall consist of five alphanumeric characters, capital roman letters or Arabic numerals, which shall serve to indicate the general characteristics of the vehicle."
+},
+{
+"k": "a704c13ae7f3",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The VIN shall consist of the following three sections and a check digit:",
+"clause": "Where the manufacturer does not use one or more of the five characters, the unused spaces shall be filled in with alphanumeric characters at the manufacturer's discretion so that the total number of characters is five."
+},
+{
+"k": "528624298c26",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The VIN shall consist of the following three sections and a check digit:",
+"clause": "The ninth position of the VIN shall be a check digit that is mathematically correct in accordance with the formula specified in Section C."
+},
+{
+"k": "f8e7040a30f1",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The VIN shall consist of the following three sections and a check digit:",
+"clause": "The VIS shall provide, in conjunction with the WMI and the VDS, clear identification of a particular vehicle."
+},
+{
+"k": "462de3800610",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The VIN shall consist of the following three sections and a check digit:",
+"clause": "Any unused space shall be filled in with the digit '0' so that the total number of characters is eight."
+},
+{
+"k": "7402cc1970e8",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The VIN shall consist of the following three sections and a check digit:",
+"clause": "The height of the characters of the VIN marked on the chassis shall be no less than 7 mm."
+},
+{
+"k": "360615cc68f6",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The VIN shall consist of the following three sections and a check digit:",
+"clause": "There shall be no space between the characters."
+},
+{
+"k": "d0a1aa2b4978",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The VIN shall consist of the following three sections and a check digit:",
+"clause": "The use of the letters 'I', 'O' or 'Q' shall not be permitted."
+},
+{
+"k": "f577c94e0c36",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The VIN shall consist of the following three sections and a check digit:",
+"clause": "The beginning and the end of the VIN shall be limited by one symbol at the choice of the manufacturer."
+},
+{
+"k": "9739d167faea",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The VIN shall consist of the following three sections and a check digit:",
+"clause": "The VIN shall be marked on a single line."
+},
+{
+"k": "6b496612f2f0",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The VIN shall consist of the following three sections and a check digit:",
+"clause": "In such case, the sections referred to in point 2.1. may not be interrupted."
+},
+{
+"k": "afe0a018eb0e",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The VIN shall consist of the following three sections and a check digit:",
+"clause": "The VIN shall be marked by stamping or mechanical hammering on the chassis, frame or other similar structure."
+},
+{
+"k": "180b4ca8187b",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The VIN shall consist of the following three sections and a check digit:",
+"clause": "The VIN shall be marked in a clearly visible and easily accessible location, in a way that the marking cannot be obliterated or deteriorate."
+},
+{
+"k": "2c81b033836d",
+"doc": "32021R0535",
+"art": "Annex Ii",
+"chapeau": "The VIN shall consist of the following three sections and a check digit:",
+"clause": "The VIN shall be located on the right-hand side of the vehicle."
+},
+{
+"k": "9e65eeff57d0",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "For the purposes of this Annex, the following definitions shall apply:",
+"clause": "Vehicles shall be equipped with a space for mounting and fixing of rear registration plates."
+},
+{
+"k": "b1df62d1bbe6",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "For the purposes of this Annex, the following definitions shall apply:",
+"clause": "Motor vehicles of categories M and N shall in addition be equipped with a space for mounting and fixing of front registration plates."
+},
+{
+"k": "e1228c3cb553",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "For the purposes of this Annex, the following definitions shall apply:",
+"clause": "Vehicles of category O 2 , O 3 and O 4 shall be equipped with two separate spaces for mounting and fixing of rear registration plates (i.e. allowing for the optional identification of a towing vehicle where required by a national authority)."
+},
+{
+"k": "4340894b9c01",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "For the purposes of this Annex, the following definitions shall apply:",
+"clause": "The designated space for mounting shall comprise a rectangular area with the following minimum dimensions:"
+},
+{
+"k": "535039b2e297",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "The designated space for mounting shall comprise a rectangular area with the following minimum dimensions:",
+"clause": "The space for mounting a front or rear registration plate shall comprise a flat or virtually flat rectangular surface."
+},
+{
+"k": "d415fb166735",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "The designated space for mounting shall comprise a rectangular area with the following minimum dimensions:",
+"clause": "however those holes or gaps shall be no more than 75 mm in height without taking into account their width."
+},
+{
+"k": "c62dc6410139",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "The designated space for mounting shall comprise a rectangular area with the following minimum dimensions:",
+"clause": "Patches of very soft materials, such as foam or felt to stop the registration plate vibrating, shall not be taken into account."
+},
+{
+"k": "94d53da571d9",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "The designated space for mounting shall comprise a rectangular area with the following minimum dimensions:",
+"clause": "The space for mounting a front or rear registration plate shall be such that, with a test plate, as defined in point 3.4., being fixed in accordance with the manufacturer’s instructions, the following requirements are met:"
+},
+{
+"k": "b214d1a8c975",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "Location of the space for mounting a front or rear registration plate:",
+"clause": "The space for mounting a registration plate at the front of the vehicle shall be such that the plate can be positioned entirely within the two parallel longitudinal vertical planes passing through the outer extremities of the vehicle, not taking into account any devices for indirect vision."
+},
+{
+"k": "1baa3af476ff",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "Location of the space for mounting a front or rear registration plate:",
+"clause": "The designated space itself shall not form the widest point of the vehicle."
+},
+{
+"k": "5ec04f81515f",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "Location of the space for mounting a front or rear registration plate:",
+"clause": "The space for mounting a registration plate at the rear of the vehicle shall be such that the plate can be positioned entirely within the two parallel longitudinal vertical planes passing through the outer extremities of the vehicle, not taking into account any devices for indirect vision."
+},
+{
+"k": "6659756670da",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "Location of the space for mounting a front or rear registration plate:",
+"clause": "Front and rear registration plates shall be perpendicular (± 5°) to the longitudinal median plane of the vehicle, measured in the centre of the plate."
+},
+{
+"k": "6f8ab119e862",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "Height of the front and rear plate from the ground surface:",
+"clause": "The lower edge of the front plate shall not be less than 100 mm from the ground surface."
+},
+{
+"k": "b1604280e2ee",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "Height of the front and rear plate from the ground surface:",
+"clause": "The lower edge of the rear plate shall not be less than 200 mm from the ground surface."
+},
+{
+"k": "c15f8263087c",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "Height of the front and rear plate from the ground surface:",
+"clause": "The height of the upper edge of the front and rear plate from the ground surface shall not exceed 1 500 mm."
+},
+{
+"k": "7cce95d8877d",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "Geometrical visibility:",
+"clause": "Front and rear plates shall be visible in the whole space within the following four planes:"
+},
+{
+"k": "b5959dc40ba5",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "Front and rear plates shall be visible in the whole space within the following four planes:",
+"clause": "The front plate shall be visible towards the front of the vehicle and the rear plate shall be visible towards the rear of the vehicle."
+},
+{
+"k": "511c3fa65ab3",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "Front and rear plates shall be visible in the whole space within the following four planes:",
+"clause": "No structural element, even when fully transparent, shall be located within the space described above."
+},
+{
+"k": "16100872af6d",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "Front and rear plates shall be visible in the whole space within the following four planes:",
+"clause": "The gap between the edges of a mounted and fixed registration plate and the actual surface of the plate space shall not exceed 5.0 mm along the complete outline of the plate."
+},
+{
+"k": "cb60c123d512",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "Front and rear plates shall be visible in the whole space within the following four planes:",
+"clause": "The actual position and shape of the mounted and fixed test plate as determined above, in particular its resulting radius of curvature, shall be taken into account for the purpose of rear registration plate lighting device requirements."
+},
+{
+"k": "6b60bfe0fc7a",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "Front and rear plates shall be visible in the whole space within the following four planes:",
+"clause": "The presence of a registration plate shall not form the basis or part of the basis for attaching, mounting or clipping any other vehicle part, component or device onto it (e.g. lighting device supports may not be fixed onto a registration plate)."
+},
+{
+"k": "de946b8894fe",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "Front and rear plates shall be visible in the whole space within the following four planes:",
+"clause": "No vehicle part, adaptor plate, component or device shall become loosened or detached as a result of removal of a registration plate."
+},
+{
+"k": "7ec82d3c1893",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "Front and rear plates shall be visible in the whole space within the following four planes:",
+"clause": "When a registration plate is fixed, its visibility shall not be reduced under normal conditions of use due, in particular, to vibrations and dynamic forces such as driving wind forces."
+},
+{
+"k": "dfc16e17dd0e",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "d by the vehicle manufacturer that a motor vehicle is suitable for towing loads (point 2.11.5. of the information document referred to in Article 24(1) of Regulation (EU) 2018/858) and any part of a suitable mechanical coupling device, whether fitted or not to the type of motor vehicle, could (partly) obscure the space for mounting and fixing the rear registration plate, the following shall apply:",
+"clause": "the motor-vehicle’s user instructions (e.g. owner’s manual, vehicle handbook) shall clearly specify that installation of a mechanical coupling device that cannot be easily removed or repositioned is not permitted,"
+},
+{
+"k": "43a731bdd91e",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "d by the vehicle manufacturer that a motor vehicle is suitable for towing loads (point 2.11.5. of the information document referred to in Article 24(1) of Regulation (EU) 2018/858) and any part of a suitable mechanical coupling device, whether fitted or not to the type of motor vehicle, could (partly) obscure the space for mounting and fixing the rear registration plate, the following shall apply:",
+"clause": "the instructions shall also clearly specify that, when fitted, a mechanical coupling device must always be removed or repositioned when it is not in use;"
+},
+{
+"k": "fab25efe1123",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "d by the vehicle manufacturer that a motor vehicle is suitable for towing loads (point 2.11.5. of the information document referred to in Article 24(1) of Regulation (EU) 2018/858) and any part of a suitable mechanical coupling device, whether fitted or not to the type of motor vehicle, could (partly) obscure the space for mounting and fixing the rear registration plate, the following shall apply:",
+"clause": "in the case of vehicle system type-approval in accordance with UN Regulation No 55 ( 1 ) , it shall be ensured that the removal, repositioning and/or alternate location provisions are also fully complied with as regards lighting installation and space for mounting and fixing the rear registration plate."
+},
+{
+"k": "85da6b650d41",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "d by the vehicle manufacturer that a motor vehicle is suitable for towing loads (point 2.11.5. of the information document referred to in Article 24(1) of Regulation (EU) 2018/858) and any part of a suitable mechanical coupling device, whether fitted or not to the type of motor vehicle, could (partly) obscure the space for mounting and fixing the rear registration plate, the following shall apply:",
+"clause": "The vehicle shall be placed on a smooth horizontal surface."
+},
+{
+"k": "9a60b219333c",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "d by the vehicle manufacturer that a motor vehicle is suitable for towing loads (point 2.11.5. of the information document referred to in Article 24(1) of Regulation (EU) 2018/858) and any part of a suitable mechanical coupling device, whether fitted or not to the type of motor vehicle, could (partly) obscure the space for mounting and fixing the rear registration plate, the following shall apply:",
+"clause": "The steered wheels shall be pointed in the straight-ahead position and the vehicle’s mass shall be adjusted to that of the mass in running order, but without the driver, before the measurements are made."
+},
+{
+"k": "e32a3f44f154",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "d by the vehicle manufacturer that a motor vehicle is suitable for towing loads (point 2.11.5. of the information document referred to in Article 24(1) of Regulation (EU) 2018/858) and any part of a suitable mechanical coupling device, whether fitted or not to the type of motor vehicle, could (partly) obscure the space for mounting and fixing the rear registration plate, the following shall apply:",
+"clause": "Where the vehicle is equipped with hydro-pneumatic, hydraulic or pneumatic suspension or another device which can be adjusted in relation to load, it shall be tested with the suspension or device in the normal running condition, as specified by the manufacturer."
+},
+{
+"k": "d6e5a40eff6f",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "d by the vehicle manufacturer that a motor vehicle is suitable for towing loads (point 2.11.5. of the information document referred to in Article 24(1) of Regulation (EU) 2018/858) and any part of a suitable mechanical coupling device, whether fitted or not to the type of motor vehicle, could (partly) obscure the space for mounting and fixing the rear registration plate, the following shall apply:",
+"clause": "Where the primary and visible side of the registration test plate is facing downwards, the inclination measurement shall be expressed as a negative (minus) angle."
+},
+{
+"k": "15e7bc8b9917",
+"doc": "32021R0535",
+"art": "Annex Iii",
+"chapeau": "d by the vehicle manufacturer that a motor vehicle is suitable for towing loads (point 2.11.5. of the information document referred to in Article 24(1) of Regulation (EU) 2018/858) and any part of a suitable mechanical coupling device, whether fitted or not to the type of motor vehicle, could (partly) obscure the space for mounting and fixing the rear registration plate, the following shall apply:",
+"clause": "Projections shall be measured perpendicularly and directly towards the nominal surface to be covered by the registration plate."
+}
+]

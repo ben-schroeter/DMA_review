@@ -1,0 +1,1052 @@
+[
+{
+"k": "d5997037ebaf",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall provide the type-approval authority with an explanation of the design provisions built into the ADS so as to ensure functional and operational safety. Possible design provisions in the ADS are for example:",
+"clause": "The manufacturer shall also provide the type-approval authority with an explanation of the operational safety measures to be put in place for the safe operation of the ADS such as an on-board operator or a remote intervention operator, supporting off-board infrastructure, transport and physical infrastructure requirements, maintenance measures, etc."
+},
+{
+"k": "b04c271f6852",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall provide the type-approval authority with an explanation of the design provisions built into the ADS so as to ensure functional and operational safety. Possible design provisions in the ADS are for example:",
+"clause": "The documentation shall be supported, by an analysis that shows, how the ADS will behave to mitigate or avoid hazards that can have a bearing on the safety of vehicle occupants and other road users."
+},
+{
+"k": "9e212a7d5017",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall provide the type-approval authority with an explanation of the design provisions built into the ADS so as to ensure functional and operational safety. Possible design provisions in the ADS are for example:",
+"clause": "The chosen analytical approach(es) shall be established and maintained by the manufacturer and shall be made open for inspection by the type-approval authority at the time of the type-approval and afterwards."
+},
+{
+"k": "fd429aa069a6",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall provide the type-approval authority with an explanation of the design provisions built into the ADS so as to ensure functional and operational safety. Possible design provisions in the ADS are for example:",
+"clause": "The type-approval authority shall assess the application of the analytical approach(es):"
+},
+{
+"k": "f17f6593a557",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The type-approval authority shall assess the application of the analytical approach(es):",
+"clause": "This approach shall be based on a Hazard analysis/Risk assessment appropriate to system safety."
+},
+{
+"k": "21aa1dcd7cd2",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The type-approval authority shall assess the application of the analytical approach(es):",
+"clause": "This shall include testing appropriate for validation, for example, hardware in the Loop (HIL) testing, vehicle on-road operational testing, testing with real end users, or any other testing appropriate for validation/verification."
+},
+{
+"k": "a06b02dc5238",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The type-approval authority shall assess the application of the analytical approach(es):",
+"clause": "The analytical approach under 3.5.5.2. shall confirm that at least each of the following items is covered:"
+},
+{
+"k": "f3768badae34",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The analytical approach under 3.5.5.2. shall confirm that at least each of the following items is covered:",
+"clause": "The assessment shall also check that validation plans are robust enough to demonstrate safety (e.g. reasonable coverage of chosen scenarios testing by the validation tool chosen) and have been properly completed."
+},
+{
+"k": "b99c3de19146",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The analytical approach under 3.5.5.2. shall confirm that at least each of the following items is covered:",
+"clause": "It shall demonstrate that the operation of fully automated vehicle is free from unreasonable risks for the vehicle occupants and other road users in the operational design domain, i.e. through:"
+},
+{
+"k": "97a22e28dd3c",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "It shall demonstrate that the operation of fully automated vehicle is free from unreasonable risks for the vehicle occupants and other road users in the operational design domain, i.e. through:",
+"clause": "The type-approval authority shall perform or shall require to perform tests as specified in point 4. of this Annex to verify the safety concept."
+},
+{
+"k": "65c58745bea0",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "It shall demonstrate that the operation of fully automated vehicle is free from unreasonable risks for the vehicle occupants and other road users in the operational design domain, i.e. through:",
+"clause": "This documentation shall itemize the parameters being monitored and shall set out, for each failure condition of the type defined in point 3.5.4. of this annex, the warning signal to be given to the operator/remote operator/vehicle occupants/other road users and/or to service/technical inspection personnel."
+},
+{
+"k": "147a6a32aa8a",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "It shall demonstrate that the operation of fully automated vehicle is free from unreasonable risks for the vehicle occupants and other road users in the operational design domain, i.e. through:",
+"clause": "This documentation shall also describe the measures in place to ensure the ADS is free from unreasonable risks to vehicle occupants, and other road users when the performance of the ADS is affected by environmental conditions e.g. climatic, temperature, dust ingress, water ingress, ice packing, inclement weather."
+},
+{
+"k": "7afe074da906",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "Taking into account the results of the analysis of the manufacturer’s documentation package, the type-approval authority shall request the tests to be performed or witnessed by the Technical Service to check specific points arising from the assessment."
+},
+{
+"k": "6eff0edc51df",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The functional operation of the ADS, as laid out in the documents required in point 3., shall be tested as follows:"
+},
+{
+"k": "f9a104b7910b",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The functional operation of the ADS, as laid out in the documents required in point 3., shall be tested as follows:",
+"clause": "The type-approval authority shall verify the ADS under non-failure conditions by testing on a track a number of selected functions, as deemed necessary by the type-approval authority, from those described by the manufacturer, and by checking the overall behaviour of the ADS in real driving conditions including compliance with traffic rules."
+},
+{
+"k": "eae616e431db",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The functional operation of the ADS, as laid out in the documents required in point 3., shall be tested as follows:",
+"clause": "These tests shall include scenarios whereby the ADS is overridden by the remote intervention operator (if applicable)."
+},
+{
+"k": "1d2f9789880c",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The functional operation of the ADS, as laid out in the documents required in point 3., shall be tested as follows:",
+"clause": "The test results shall correspond with the description, including the control strategies, provided by the manufacturer in point 3.2. and shall comply with the performance requirements of this regulation."
+},
+{
+"k": "f7fbf9c502cd",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The functional operation of the ADS, as laid out in the documents required in point 3., shall be tested as follows:",
+"clause": "The reaction of the ADS shall be checked under the influence of a fault in any individual unit by applying corresponding output signals to electrical units or mechanical elements in order to simulate the effects of internal failure within the unit."
+},
+{
+"k": "c58339b45fe9",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The functional operation of the ADS, as laid out in the documents required in point 3., shall be tested as follows:",
+"clause": "The type-approval authority shall verify that these tests include aspects that may have an impact on vehicle controllability and user information (HMI aspects e.g. interaction with the operator/remote operator)."
+},
+{
+"k": "906018178e98",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The functional operation of the ADS, as laid out in the documents required in point 3., shall be tested as follows:",
+"clause": "The type-approval authorities shall also check a number of scenarios that are critical for the Object and Event Detection and Response (OEDR) and Characterisation of the decision-making and HMI functions of the ADS (e.g. object difficult to detect, when the ADS reaches the ODD boundaries, traffic disturbance scenarios, connectivity issue, problem with off-board systems, remote capabilities issues e.g. the absence of the remote intervention operator) as defined in this regulation."
+},
+{
+"k": "54dd6bcce700",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The functional operation of the ADS, as laid out in the documents required in point 3., shall be tested as follows:",
+"clause": "The verification results shall correspond with the documented summary of the hazard analysis, to a level of overall effect such that the safety concept and execution are confirmed as being adequate and in compliance with the requirements of this regulation."
+},
+{
+"k": "199e03d6598b",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The functional operation of the ADS, as laid out in the documents required in point 3., shall be tested as follows:",
+"clause": "Manufacturers shall demonstrate the scope of the simulation tool, its validity for the scenario concerned as well as the validation performed for the simulation tool chain (correlation of the outcome with physical tests)."
+},
+{
+"k": "9c7f5d27ae4f",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The functional operation of the ADS, as laid out in the documents required in point 3., shall be tested as follows:",
+"clause": "Simulation shall not be a substitute for physical tests in Part 3 of this Annex."
+},
+{
+"k": "636af4df65fb",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The functional operation of the ADS, as laid out in the documents required in point 3., shall be tested as follows:",
+"clause": "The manufacturer shall have a valid certificate of compliance for the safety management system (SMS) relevant to the vehicle type being approved."
+},
+{
+"k": "461b656683ac",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "In respect of the ADS, the manufacturer shall demonstrate to the type-approval authority in terms of a safety management system (SMS) that effective processes, methodologies, training and tools are in place, up to date and being followed within the organization to manage the safety and continued compliance throughout the ADS lifecycle."
+},
+{
+"k": "35ff6088d1a6",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The design and development process shall be established and documented including safety management system, requirements management, requirements’ implementation, testing, failure tracking, remedy and release."
+},
+{
+"k": "03ec86f7497c",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The manufacturer shall ensure effective communication channels between manufacturer departments responsible for functional/operational safety, cybersecurity and any other relevant disciplines related to the achievement of vehicle safety."
+},
+{
+"k": "c4e15dc1156d",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The manufacturer shall have processes aimed at collecting vehicle data, and data from other sources to monitor and analyse safety-relevant incidents/accidents caused by the engaged automated driving system."
+},
+{
+"k": "2523b04d0a91",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The manufacturer shall report to type-approval authorities, market surveillance authorities and the Commission the relevant occurrences in accordance with Part 5 of this Annex."
+},
+{
+"k": "fd3481494af8",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The manufacturer must enable the transport service operator to provide the type-approval authorities, market surveillance authorities or other authorities designated by the Member States with the vehicle data in accordance with paragraph 5.4 above, as well as with the ADS data and the specific data elements for event data recorder collected in accordance with Section 9 of Annex II."
+},
+{
+"k": "8622a9645959",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The manufacturer shall have processes to manage potential safety-relevant gaps post-registration and to update the vehicles if necessary."
+},
+{
+"k": "0988cc911f14",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The manufacturer shall demonstrate that periodic independent internal process audits (e.g. every 2 years) are carried out to ensure that the processes established in accordance with points 5.1 to 5.5. are implemented consistently."
+},
+{
+"k": "1fca33a49474",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "Manufacturers shall put in place suitable arrangements (e.g. contractual arrangements, clear interfaces, quality management system) with suppliers to ensure that the supplier safety management system comply with the requirements of points 5.1."
+},
+{
+"k": "ac48ac6114c4",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "An application for a Certificate of Compliance for Safety Management System shall be submitted by the manufacturer or by their duly accredited representative to the type-approval authority."
+},
+{
+"k": "eca15befc277",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "It shall be accompanied by the undermentioned documents in triplicate, and by the following particular:"
+},
+{
+"k": "bce423c7323e",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "It shall be accompanied by the undermentioned documents in triplicate, and by the following particular:",
+"clause": "When this audit of the SMS has been satisfactorily completed and in receipt of a signed declaration from the manufacturer according to the model as defined in Appendix 3, a certificate named Certificate of Compliance for SMS as described in Appendix 4 (hereinafter the Certificate of Compliance for SMS) shall be granted to the manufacturer."
+},
+{
+"k": "5f39e2082526",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "It shall be accompanied by the undermentioned documents in triplicate, and by the following particular:",
+"clause": "The type-approval authority shall withdraw the Certificate of Compliance for SMS if major non-conformities in the compliance with the requirements laid down in this Regulation are discovered and not immediately addressed."
+},
+{
+"k": "959708de4b79",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "It shall be accompanied by the undermentioned documents in triplicate, and by the following particular:",
+"clause": "The manufacturer shall inform the type-approval authority or its technical service of any change that will affect the relevance of the certificate of compliance for SMS."
+},
+{
+"k": "97f53ff611d8",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "It shall be accompanied by the undermentioned documents in triplicate, and by the following particular:",
+"clause": "After consultation with the manufacturer, the type-approval authority or its Technical Service shall decide whether new checks are necessary."
+},
+{
+"k": "eed0a9378a0a",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "It shall be accompanied by the undermentioned documents in triplicate, and by the following particular:",
+"clause": "The type-approval authority shall, subject to a positive audit, issue a new Certificate of Compliance for SMS or extend its validity for a further period of three years."
+},
+{
+"k": "a24426b198b8",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "It shall be accompanied by the undermentioned documents in triplicate, and by the following particular:",
+"clause": "The type-approval authority shall verify that the SMS continue to comply with the requirements of this Regulation."
+},
+{
+"k": "70e2f1ee115a",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "It shall be accompanied by the undermentioned documents in triplicate, and by the following particular:",
+"clause": "The type-approval authority shall issue a new certificate in cases where changes have been brought to the attention of the type-approval authority or its Technical Service and the changes have been positively re-assessed."
+},
+{
+"k": "3364e401e201",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The reporting of the safety assessment of the ADS safety concept as well as the audit of the safety management system of the manufacturer shall be performed in such a manner that allows traceability, e.g. versions of documents inspected are coded and listed in the records of the Technical Service."
+},
+{
+"k": "0ed7750bb4e0",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The granting type-approval authority shall issue the safety assessment results to be annexed to the type-approval certificate based on the documentation provided by the manufacturer, the report of the assessment of the ADS safety concept by the technical service and on the outcomes of the verification and test campaigns performed in accordance with Part 3 of this Annex."
+},
+{
+"k": "79b5071bba15",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The assessment of the ADS safety concept and the audit of the safety management system under this part shall only be conducted by assessors/auditors with the technical and administrative knowledge necessary for such purposes."
+},
+{
+"k": "e8442bbbedef",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "They shall in particular be competent as auditor/assessor for ISO 26262-2018 (Functional Safety – Road Vehicles), and ISO/PAS 21448 (Safety of the Intended Functionality of road vehicles);"
+},
+{
+"k": "f4fa2ac3cf64",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "and shall be able to make the necessary link with cybersecurity aspects in accordance with UN Regulation No 155 and ISO/SAE 21434)."
+},
+{
+"k": "fd8e228a22eb",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "This competence shall be demonstrated by appropriate qualifications or other equivalent training records."
+},
+{
+"k": "d2e94523cafe",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "Date of latest update:",
+"clause": "Safety management system certificate (shall be appended to this test report)"
+},
+{
+"k": "0fbfa95312e0",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "Pass- and fail-criteria to assess ADS safety shall be based on the requirements set out in Annex II and the scenario described in Part 1 of this annex."
+},
+{
+"k": "7f73b5a2524e",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "For conditions not tested but that may occur within the defined ODD of the system, the manufacturer shall demonstrate as part of the assessment described in Part 2 to the satisfaction of the type-approval authority, that the vehicle is safely controlled."
+},
+{
+"k": "a97764496fb9",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "These tests shall confirm the minimum performance requirements described in Annex II and the functionality of the ADS and the safety concept of the manufacturer as described in Part 2 of this Annex."
+},
+{
+"k": "fc12e4fe75a1",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "Test results shall be documented and reported in accordance with point 6 of Part 2 of this annex."
+},
+{
+"k": "66293c2a445e",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "These tests shall also confirm, that the ADS complies with the traffic rules, adapts its operations to environmental conditions, avoids disruption to the flow of traffic (e.g. blocking the lane because of too many MRMs), does not show unpredictable behaviour and shows reasonable cooperative and anticipatory behaviour in relevant situations (i.e. merging in dense traffic or in vicinity of vulnerable road users)."
+},
+{
+"k": "2ed1e7e29135",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The test site shall comprise characteristics (example:"
+},
+{
+"k": "7845331853ef",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "As necessary to apply the specific conditions of the ODD of the ADS, physical tests will be performed within the actual ODD (on-road) or at any test facility that replicates the ODD conditions and shall be determined by the manufacturer and the type approval authority."
+},
+{
+"k": "d44524921771",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The ADS shall be tested on-road in accordance with the applicable law of the Member States and provided that tests can be carried out safely and without any risk to other road users."
+},
+{
+"k": "800ec15c95a8",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "Tests shall be carried out under different environmental conditions, within the limits of the defined ODD for the ADS."
+},
+{
+"k": "57307565b3e2",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "For environmental conditions not tested that may occur within the defined ODD, the manufacturer shall demonstrate as part of the assessment to the satisfaction of the type-approval authority that the vehicle is safely controlled."
+},
+{
+"k": "c97d27d0b78a",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "If ADS modifications are required in order to allow testing, e.g. road type assessment criteria or road type information (map data), it shall be ensured that these modifications do not affect the test results."
+},
+{
+"k": "acd09f4d0ab4",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "These modifications shall in principle be documented and annexed to the test report."
+},
+{
+"k": "d6806141f969",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The description and the evidence of influence (if any) of these modifications shall be documented and annexed to the test report."
+},
+{
+"k": "8605e3d07b09",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The subject vehicle shall be tested with any permissible vehicle load."
+},
+{
+"k": "0f3af3155113",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "No load alteration shall be made once the test procedure has begun."
+},
+{
+"k": "9a2b2561dadc",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The manufacturer shall demonstrate, through the use of documentation, that the ADS works at all load conditions."
+},
+{
+"k": "87d4bc29b79a",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The subject vehicle shall be tested at the tyre pressure recommended by the manufacturer."
+},
+{
+"k": "1cc9023a3c96",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "It shall be verified, that the condition of the system is according to the intended testing purpose (e.g. in a fault-free condition or with the specific faults to be tested)."
+},
+{
+"k": "9307670b6328",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The replacement test tools shall comply with the characteristics relevant for sensory performance assessment, real vehicles and other traffic participants."
+},
+{
+"k": "2550cc608ff6",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "Tests shall not be carried out in a way that would endanger the personnel involved, and significant damage of the vehicle being tested must be avoided where other means of validation are available."
+},
+{
+"k": "94726f2e005f",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The manufacturer shall declare the system boundaries to the type-approval authority."
+},
+{
+"k": "0906862cf7f7",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The type-approval authority shall define different combinations of test parameters (e.g. present speed of the vehicle, type and offset of target, curvature of lane, etc.) in order to test the ADS."
+},
+{
+"k": "ccc5377c01b5",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The selected test cases shall provide sufficient test coverage for all scenarios, test parameters and environmental influences."
+},
+{
+"k": "d864dcb77c48",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "Adequate robustness of the perceptions systems for the ADS against input/sensor data malfunction and adverse environmental conditions shall be demonstrated."
+},
+{
+"k": "b1103e2c377c",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "Test parameters selected by the type-approval authority shall be recorded in a test report in a manner that allows traceability and repeatability of the test setup."
+},
+{
+"k": "c6ade335ac09",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The scenarios included in the following points have to be considered a minimum set of tests."
+},
+{
+"k": "313b7dcae791",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "If a scenario described in point 8 of this annex does not belong to the ODD of the vehicle, it shall not be taken into consideration."
+},
+{
+"k": "f4d3a6af9dcb",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "Depending on the ODD, test scenarios shall be selected as part of the type-approval test."
+},
+{
+"k": "54ec33495de6",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The test scenarios shall be selected in accordance with Part 1 of this annex."
+},
+{
+"k": "f899c5bc494f",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "However, it may not be based solely on computer simulations and at the time of type-approval, the type-approval authority shall conduct or shall witness at least the following tests to assess the behaviour of the ADS."
+},
+{
+"k": "95e0870674a1",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The test shall demonstrate that the fully automated vehicle does not leave its lane and maintains a stable motion inside its lane across the speed range and different curvatures within its system boundaries."
+},
+{
+"k": "acfcb52cddcb",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The test shall be based on the ODD of the ADS and shall be executed at least:"
+},
+{
+"k": "75ecfc2edf46",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The test shall be based on the ODD of the ADS and shall be executed at least:",
+"clause": "The tests shall demonstrate that the fully automated vehicle does not cause an unreasonable risk to safety of the vehicle occupants and other road users during a lane change procedure, and that the ADS is able to assess the criticality of the situation before starting the lane change manoeuvre (LCM) throughout the entire operational speed range."
+},
+{
+"k": "fe43a3ec8c27",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The test shall be based on the ODD of the ADS and shall be executed at least:",
+"clause": "These tests are only required if the fully automated vehicle is capable of performing lane changes either during a Minimal risk manoeuvre or during regular operation."
+},
+{
+"k": "8bd57393f2a6",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The test shall be based on the ODD of the ADS and shall be executed at least:",
+"clause": "The following tests shall be executed:"
+},
+{
+"k": "9097f65fa8b7",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The following tests shall be executed:",
+"clause": "The tests shall be executed at least:"
+},
+{
+"k": "519cef5129e4",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The tests shall be executed at least:",
+"clause": "These tests shall ensure, that the fully automated vehicle detects and adapts to a variation of different road geometries which can occur within the intended ODD across its whole speed range."
+},
+{
+"k": "fed18fd7dc4c",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The tests shall be executed at least:",
+"clause": "The test shall be executed with at least the list of scenarios below based on the ODD of the ADS:"
+},
+{
+"k": "885fb52054ed",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The test shall be executed with at least the list of scenarios below based on the ODD of the ADS:",
+"clause": "Each test shall be executed at least:"
+},
+{
+"k": "4cb51dc8f43b",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "Each test shall be executed at least:",
+"clause": "These tests shall ensure that the fully automated vehicle complies with national traffic rules and that it adapts to a various permanent and temporary changes of the road infrastructure (e.g. road construction sites) in the entire speed range."
+},
+{
+"k": "11946348fd43",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "Each test shall be executed at least:",
+"clause": "The tests shall be executed with at least with the list of scenarios below that are relevant for the ODD of the ADS:"
+},
+{
+"k": "7e5d0e28e361",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The tests shall be executed with at least with the list of scenarios below that are relevant for the ODD of the ADS:",
+"clause": "different speed limit signs, so that the ADS has to change its speed according to the indicated values;"
+},
+{
+"k": "8fd1680e3fe8",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The tests shall be executed with at least with the list of scenarios below that are relevant for the ODD of the ADS:",
+"clause": "Each test shall be executed at least:"
+},
+{
+"k": "e273431df29b",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "Each test shall be executed at least:",
+"clause": "The test shall demonstrate that the fully automated vehicle avoids a collision with a stationary vehicle, road user or fully or partially blocked lane up to the maximum specified speed of the ADS."
+},
+{
+"k": "c01efeb9a9eb",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "Each test shall be executed at least:",
+"clause": "This test shall be executed at least with the following scenarios, where relevant in the ODD:"
+},
+{
+"k": "8caa13aeade5",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This test shall be executed at least with the following scenarios, where relevant in the ODD:",
+"clause": "The test shall demonstrate that the fully automated vehicle is not initiating an Emergency Braking with a deceleration demand greater than 5 m/s 2 due to a passable object in the lane relevant for the ODD (e.g., a manhole lid or a small branch) up to the maximum specified speed of the ADS."
+},
+{
+"k": "71b172d01fac",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This test shall be executed at least with the following scenarios, where relevant in the ODD:",
+"clause": "This test shall be executed at least with the following scenarios, where relevant in the ODD:"
+},
+{
+"k": "0ef717b5f671",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This test shall be executed at least with the following scenarios, where relevant in the ODD:",
+"clause": "The test shall demonstrate that the fully automated vehicle is able to maintain and restore a stable motion and a safety distance to a vehicle in front and is able to avoid a collision with a lead vehicle which decelerates up to its maximum deceleration."
+},
+{
+"k": "81eebbd75b97",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This test shall be executed at least with the following scenarios, where relevant in the ODD:",
+"clause": "The test shall demonstrate that the fully automated vehicle is capable of avoiding a collision with a vehicle or other road user cutting into the lane of the fully automated vehicle up to a certain criticality of the cut-in manoeuvre."
+},
+{
+"k": "8a22334ceffd",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This test shall be executed at least with the following scenarios, where relevant in the ODD:",
+"clause": "The criticality of the cut-in manoeuvre shall be determined according to the provisions introduced Part 1 of this annex and depending on the distance between the rear-most point of the cutting-in vehicle and front-most point of the fully automated vehicle."
+},
+{
+"k": "381f65e6e439",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This test shall be executed at least with the following scenarios, where relevant in the ODD:",
+"clause": "The test shall be executed at least with the following scenarios, where relevant for the ODD:"
+},
+{
+"k": "5969db1607aa",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The test shall be executed at least with the following scenarios, where relevant for the ODD:",
+"clause": "The test shall demonstrate that the fully automated vehicle is capable of avoiding a collision with a stationary vehicle, road user or blocked lane that becomes visible after a preceding vehicle avoided a collision by an evasive manoeuvre."
+},
+{
+"k": "b373b4b9f388",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The test shall be executed at least with the following scenarios, where relevant for the ODD:",
+"clause": "The test shall be based on the requirements set out in Annex II and scenario parameters in Part 1 of this annex."
+},
+{
+"k": "aeeac13e657b",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The test shall be executed at least with the following scenarios, where relevant for the ODD:",
+"clause": "For conditions not tested that may occur within the defined operating range of the vehicle, the manufacturer shall demonstrate as part of the assessment described in Annex III, Part 2 to the satisfaction of the relevant authorities that the vehicle is safely controlled."
+},
+{
+"k": "3d6e207342c4",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The test shall be executed at least with the following scenarios, where relevant for the ODD:",
+"clause": "The test shall be executed at least with the following scenarios, where relevant for the ODD:"
+},
+{
+"k": "47337e8a339b",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The test shall be executed at least with the following scenarios, where relevant for the ODD:",
+"clause": "The test shall demonstrate that the ADS is able to park in different parking spaces and parking layouts under different conditions;"
+},
+{
+"k": "b57ae0e3d913",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The test shall be executed at least with the following scenarios, where relevant for the ODD:",
+"clause": "The test shall demonstrate that the ADS is able to handle the low driving speed and the general lack of visibility that may occur in a parking."
+},
+{
+"k": "019440fbb60e",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The test shall be executed at least with the following scenarios, where relevant for the ODD:",
+"clause": "The test shall demonstrate that the ADS is able to safely enter the motorway."
+},
+{
+"k": "948d4ca20bb8",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The test shall be executed at least with the following scenarios, where relevant for the ODD:",
+"clause": "The test shall demonstrate that the ADS is able to safely exit the motorway."
+},
+{
+"k": "1ba327397abf",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The test shall be executed at least with the following scenarios, where relevant for the ODD:",
+"clause": "The test shall demonstrate that the ADS is able to select the proper passing gate, and adapt its speed to that permitted within the toll area."
+},
+{
+"k": "ea657e097adc",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The test shall be executed at least with the following scenarios, where relevant for the ODD:",
+"clause": "The test shall demonstrate that the ADS takes over the DDT in a safe manner and only when the vehicle is standstill."
+},
+{
+"k": "4e4b2c31e34c",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The credibility can be achieved by investigating and assessing five properties of Modelling and Simulation (M&S):",
+"clause": "At the same time, the credibility assessment framework shall be general enough to be used for different M&S types and applications."
+},
+{
+"k": "9b8c7dc71822",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The credibility can be achieved by investigating and assessing five properties of Modelling and Simulation (M&S):",
+"clause": "Concerning the latter point, the type-approval authority shall investigate the produced documentation supporting credibility at the assessment phase, whereas the actual validation tests occur once the manufacturer has developed the integrated simulation systems."
+},
+{
+"k": "56a96e87cc95",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The credibility can be achieved by investigating and assessing five properties of Modelling and Simulation (M&S):",
+"clause": "Ultimately, the outcome of the current credibility assessment shall define the envelope in which the virtual tool can be used to support the ADS assessment."
+},
+{
+"k": "befde53b79e0",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "Any modelling abstraction carries with it the assumption that shall not significantly affect the intended uses of the simulation tool."
+},
+{
+"k": "ae5783432947",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "A model parameter has a value that cannot be observed directly in the real world but that must be inferred from data collected in the real world (in the model calibration phase)."
+},
+{
+"k": "704d8a9fdcec",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "Each of these factors indicates the level of quality achieved by M&S, and the comparison between the obtained levels and the required levels shall determine whether the M&S is credible and fit to use for virtual testing."
+},
+{
+"k": "2a3d72e511ae",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The M&S lifecycle is a dynamic process with frequent releases that shall be monitored and documented."
+},
+{
+"k": "88e3ba553657",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "Management activities shall be established to support the M&S in a work product management fashion."
+},
+{
+"k": "109db9795a20",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "Relevant information on the following aspects shall be provided."
+},
+{
+"k": "7b9a9ab0a918",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The M&S management process shall:"
+},
+{
+"k": "9432aabb068c",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The M&S management process shall:",
+"clause": "Any M&S toolchain’s version used to release data for certification purposes shall be stored."
+},
+{
+"k": "f6f4658ab197",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The M&S management process shall:",
+"clause": "The virtual models constituting the testing toolchain shall be documented in terms of the corresponding validation methods and acceptance thresholds to support the overall credibility of the toolchain."
+},
+{
+"k": "6096996c1922",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The M&S management process shall:",
+"clause": "The developer shall enforce a method to trace generated data to the corresponding M&S version."
+},
+{
+"k": "57e47f376671",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The M&S management process shall:",
+"clause": "Data completeness, accuracy, and consistency shall be ensured throughout the releases and lifetime of an M&S toolchain to support the verification and validation procedures."
+},
+{
+"k": "10ca1e1cfd99",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "Therefore, it is important to establish the basis for the manufacturer’s confidence on the E&E of:",
+"clause": "The following processes shall be established, maintained and documented:"
+},
+{
+"k": "f246b0cab95e",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The credibility is established by setting up processes and procedures to identify and maintain skills, knowledge, and experience to perform M&S activities. The following processes shall be established, maintained and documented:",
+"clause": "The manufacturer shall then:"
+},
+{
+"k": "bdfa275259e7",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall then:",
+"clause": "The type-approval authority may not substitute its judgment on the E&E of the organisation or its members with that of the manufacturer."
+},
+{
+"k": "f1b4d9281fba",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall then:",
+"clause": "The manufacturer shall document the data used to validate the model and note important quality characteristics;"
+},
+{
+"k": "25c4d278d4d3",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall then:",
+"clause": "The manufacturer shall provide documentation showing that the data used to validate the models covers the intended functionalities that the toolchain aims at virtualising;"
+},
+{
+"k": "0d328cf242bd",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall then:",
+"clause": "The manufacturer shall document the calibration procedures used to fit the virtual models’ parameters on the collected input data."
+},
+{
+"k": "b423f0377308",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall then:",
+"clause": "The manufacturer shall provide information on any data and scenarios used for virtual testing toolchain validation."
+},
+{
+"k": "6482bd8904bf",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall then:",
+"clause": "The manufacturer shall document the exported data and note important quality characteristics."
+},
+{
+"k": "2e90f5a66211",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall then:",
+"clause": "The manufacturer shall trace a M&S output to the corresponding simulation setup"
+},
+{
+"k": "df815117ad84",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall then:",
+"clause": "The M&S output data shall be sufficiently wide to ensure the correct execution of the validation computation."
+},
+{
+"k": "ffef595825bd",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall then:",
+"clause": "The data shall sufficiently reflect the ODD relevant to the virtual assessment of the ADS."
+},
+{
+"k": "b9fe5fcfaf62",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall then:",
+"clause": "The output data shall allow for a consistency/sanity check of the virtual models via possibly exploiting redundant information"
+},
+{
+"k": "422061e52037",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall then:",
+"clause": "Stochastic models shall be characterised in terms of their variance"
+},
+{
+"k": "c96dedf3fa10",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall then:",
+"clause": "Stochastic models shall be ensured the possibility of deterministic re-execution"
+},
+{
+"k": "41c11d80dc95",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall then:",
+"clause": "The manufacturer shall provide a description of the complete toolchain along with how the simulation data will be used to support the ADS validation strategy"
+},
+{
+"k": "cb0b0216ce5d",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall then:",
+"clause": "The manufacturer shall provide a clear description of the test objective"
+},
+{
+"k": "9034b81549bd",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall then:",
+"clause": "The manufacturer shall motivate the modelling assumptions that guided the design of the M&S toolchain"
+},
+{
+"k": "276736cb27ef",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall then:",
+"clause": "The manufacturer shall provide evidence on:"
+},
+{
+"k": "f6b93771bff5",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall provide evidence on:",
+"clause": "The manufacturer shall provide justification that the tolerance for sim-real correlation is acceptable for the test objective"
+},
+{
+"k": "b64123c1fc0a",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall provide evidence on:",
+"clause": "Finally, this section shall include information on the sources of uncertainty in the model."
+},
+{
+"k": "cc69fcede31e",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall provide evidence on:",
+"clause": "The credibility of the virtual tool shall be enforced by a clearly-defined scope of utilization the developed models."
+},
+{
+"k": "6fb2d8a62acf",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall provide evidence on:",
+"clause": "The matured M&S shall allow a virtualisation of the physical phenomena to a degree of accuracy which matches the fidelity level required for certification."
+},
+{
+"k": "1a11961a747e",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall provide evidence on:",
+"clause": "The scenario selection used for validation shall be sufficient so that the toolchain will perform in the same manner in scenarios outside of the validation scope."
+},
+{
+"k": "c4936a2ff2c3",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall provide evidence on:",
+"clause": "The Manufacturer shall provide a list of validation scenarios together with the limitations of the corresponding parameters."
+},
+{
+"k": "ced665bea9c2",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall provide evidence on:",
+"clause": "The ODD analysis is a crucial input to derive requirements, scope and effects that the M&S must consider in order to support ADS validation."
+},
+{
+"k": "70db591835c5",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall provide evidence on:",
+"clause": "The simulation models and the simulation tools used in the overall tool-chain shall be investigated in terms of their responsibility in case of a safety error in the final product."
+}
+]

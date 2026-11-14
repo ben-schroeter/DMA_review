@@ -1,0 +1,1162 @@
+[
+ {
+  "rid": 0,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Art 101 cartel prohibition binds undertakings and associations entering the agreements."
+ },
+ {
+  "rid": 1,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Legal-exception rule that agreements meeting Art 101(3) are not prohibited; an exemption, not a restriction."
+ },
+ {
+  "rid": 2,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Legal-exception rule that agreements meeting Art 101(3) are not prohibited; an exemption, not a restriction."
+ },
+ {
+  "rid": 3,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Prohibition of abuse binds the dominant undertaking."
+ },
+ {
+  "rid": 4,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "Burden-of-proof allocation on the party or authority alleging infringement; an evidential rule rather than a conduct duty."
+ },
+ {
+  "rid": 5,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Use limitation binds the receiving authorities in the network, the Commission and national competition authorities (mixed)."
+ },
+ {
+  "rid": 6,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The inspection decision is adopted by the Commission, which must specify its content."
+ },
+ {
+  "rid": 7,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission fixes fines under Art 23 and must weigh gravity and duration."
+ },
+ {
+  "rid": 8,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The insolvent association of undertakings must call for contributions from its members."
+ },
+ {
+  "rid": 9,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Information collected under Arts 17-22 is collected by the Commission (and assisting NCAs), which must limit its use."
+ },
+ {
+  "rid": 10,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Transitional rule on lapse or continued effect of old filings; a legal effect binding no actor."
+ },
+ {
+  "rid": 11,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Transitional rule on lapse or continued effect of old filings; a legal effect binding no actor."
+ },
+ {
+  "rid": 12,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Conflict-of-laws rule giving precedence to other Union acts; not a restriction."
+ },
+ {
+  "rid": 13,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Services Directive conditions on authorisation schemes bind the Member States that set them up."
+ },
+ {
+  "rid": 14,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Services Directive conditions on authorisation schemes bind the Member States that set them up."
+ },
+ {
+  "rid": 15,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Services Directive conditions on authorisation schemes bind the Member States that set them up."
+ },
+ {
+  "rid": 16,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving clause on the allocation of national competences; not a restriction."
+ },
+ {
+  "rid": 17,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States must screen and adapt their own requirements."
+ },
+ {
+  "rid": 18,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Common specifications for Annex XVI products are adopted by the Commission by implementing acts."
+ },
+ {
+  "rid": 19,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Defines the term 'devices'; definitional, not a restriction."
+ },
+ {
+  "rid": 20,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Qualification of borderline products is decided by national competent authorities (with Commission), who must weigh principal mode of action."
+ },
+ {
+  "rid": 21,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope/demarcation rule stating which act governs a product; a legal effect, not a restriction."
+ },
+ {
+  "rid": 22,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope/demarcation rule stating which act governs a product; a legal effect, not a restriction."
+ },
+ {
+  "rid": 23,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope/demarcation rule stating which act governs a product; a legal effect, not a restriction."
+ },
+ {
+  "rid": 24,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope/demarcation rule stating which act governs a product; a legal effect, not a restriction."
+ },
+ {
+  "rid": 25,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope/demarcation rule stating which act governs a product; a legal effect, not a restriction."
+ },
+ {
+  "rid": 26,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Demonstrating conformity with GSPRs is the manufacturer's duty (clinical/performance evaluation)."
+ },
+ {
+  "rid": 27,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Interpretive rule on what counts as harmonised standards; not a restriction."
+ },
+ {
+  "rid": 28,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Restricts reprocessing of single-use devices by health institutions or reprocessors, conditioned on national law."
+ },
+ {
+  "rid": 29,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Labelling of the reprocessed device binds the reprocessor named in paragraph 2."
+ },
+ {
+  "rid": 30,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The EU declaration of conformity is drawn up by the manufacturer, who determines its content."
+ },
+ {
+  "rid": 31,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The EU declaration of conformity is drawn up by the manufacturer, who determines its content."
+ },
+ {
+  "rid": 32,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "CE marking is affixed by the manufacturer."
+ },
+ {
+  "rid": 33,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "CE marking is affixed by the manufacturer."
+ },
+ {
+  "rid": 34,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "CE marking is affixed by the manufacturer."
+ },
+ {
+  "rid": 35,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "CE marking is affixed by the manufacturer."
+ },
+ {
+  "rid": 36,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Promotional material is produced by the manufacturer, which must show the notified body number."
+ },
+ {
+  "rid": 37,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Form and meaning of the CE marking bind the manufacturer who affixes it."
+ },
+ {
+  "rid": 38,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The person making the replacement item available must keep supporting evidence."
+ },
+ {
+  "rid": 39,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "An item that changes performance is treated as a device, so its supplier bears manufacturer duties."
+ },
+ {
+  "rid": 40,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Describes what the UDI system consists of; content rule binding no identifiable actor."
+ },
+ {
+  "rid": 41,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturers report serious incidents and FSCAs under the vigilance article and must use the UDI."
+ },
+ {
+  "rid": 42,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Classification is applied by the manufacturer under Annex VIII."
+ },
+ {
+  "rid": 43,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Clinical investigations are designed and conducted by the sponsor."
+ },
+ {
+  "rid": 44,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The sponsor must choose a qualified investigator; a requirement on private actors in the investigation."
+ },
+ {
+  "rid": 45,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The impartial witness, a natural person, must sign and date the consent document."
+ },
+ {
+  "rid": 46,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Informed-consent steps are carried out by the investigator (for the sponsor) per the interview in para 2(c)."
+ },
+ {
+  "rid": 47,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Informed-consent steps are carried out by the investigator (for the sponsor) per the interview in para 2(c)."
+ },
+ {
+  "rid": 48,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Informed-consent steps are carried out by the investigator (for the sponsor) per the interview in para 2(c)."
+ },
+ {
+  "rid": 49,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Informed-consent steps are carried out by the investigator (for the sponsor) per the interview in para 2(c)."
+ },
+ {
+  "rid": 50,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Informed-consent steps are carried out by the investigator (for the sponsor) per the interview in para 2(c)."
+ },
+ {
+  "rid": 51,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Informed-consent steps are carried out by the investigator (for the sponsor) per the interview in para 2(c)."
+ },
+ {
+  "rid": 52,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Informed-consent steps are carried out by the investigator (for the sponsor) per the interview in para 2(c)."
+ },
+ {
+  "rid": 53,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Informed-consent steps are carried out by the investigator (for the sponsor) per the interview in para 2(c)."
+ },
+ {
+  "rid": 54,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Without-prejudice clause preserving national law on minors' assent; not a restriction."
+ },
+ {
+  "rid": 55,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conditions for conducting investigations/studies on vulnerable subjects bind the sponsor and investigator."
+ },
+ {
+  "rid": 56,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Involving the subject or minor in the consent procedure is the investigator's duty."
+ },
+ {
+  "rid": 57,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conditions for conducting investigations/studies on vulnerable subjects bind the sponsor and investigator."
+ },
+ {
+  "rid": 58,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Involving the subject or minor in the consent procedure is the investigator's duty."
+ },
+ {
+  "rid": 59,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conditions for conducting investigations/studies on vulnerable subjects bind the sponsor and investigator."
+ },
+ {
+  "rid": 60,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Post-emergency consent must be sought by the investigator, as point (a)/(b) states."
+ },
+ {
+  "rid": 61,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Post-emergency consent must be sought by the investigator, as point (a)/(b) states."
+ },
+ {
+  "rid": 62,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Post-emergency consent must be sought by the investigator, as point (a)/(b) states."
+ },
+ {
+  "rid": 63,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Post-emergency consent must be sought by the investigator, as point (a)/(b) states."
+ },
+ {
+  "rid": 64,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Post-emergency consent must be sought by the investigator, as point (a)/(b) states."
+ },
+ {
+  "rid": 65,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Post-emergency consent must be sought by the investigator, as point (a)/(b) states."
+ },
+ {
+  "rid": 66,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Post-emergency consent must be sought by the investigator, as point (a)/(b) states."
+ },
+ {
+  "rid": 67,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The investigator must inform a non-consenting subject of the right to object."
+ },
+ {
+  "rid": 68,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Other clinical investigations must comply with Art 62 conditions; binds the sponsor."
+ },
+ {
+  "rid": 69,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The PMS system and plan are maintained by the manufacturer as part of its technical documentation."
+ },
+ {
+  "rid": 70,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The PMS system and plan are maintained by the manufacturer as part of its technical documentation."
+ },
+ {
+  "rid": 71,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The PMS report prepared by manufacturers of lower-class devices must be updated and made available."
+ },
+ {
+  "rid": 72,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The reporting period applies to the manufacturer's vigilance reports."
+ },
+ {
+  "rid": 73,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The field safety notice is drafted by the manufacturer, as the article states."
+ },
+ {
+  "rid": 74,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The field safety notice is drafted by the manufacturer, as the article states."
+ },
+ {
+  "rid": 75,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer must enter the field safety notice in the electronic system."
+ },
+ {
+  "rid": 76,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The vigilance electronic system is set up and managed by the Commission, which must make it available and transmit reports."
+ },
+ {
+  "rid": 77,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The vigilance electronic system is set up and managed by the Commission, which must make it available and transmit reports."
+ },
+ {
+  "rid": 78,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The vigilance electronic system is set up and managed by the Commission, which must make it available and transmit reports."
+ },
+ {
+  "rid": 79,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Allows a Member State to take provisional preventive measures; a permission, not a restriction."
+ },
+ {
+  "rid": 80,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Task list of the MDCG, an expert group set up by the Regulation."
+ },
+ {
+  "rid": 81,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission must publish experts' declarations of interests on its website."
+ },
+ {
+  "rid": 82,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Form and meaning of the CE marking bind the manufacturer who affixes it."
+ },
+ {
+  "rid": 83,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Defines the term 'devices'; definitional, not a restriction."
+ },
+ {
+  "rid": 84,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope/demarcation rule stating which act governs a product; a legal effect, not a restriction."
+ },
+ {
+  "rid": 85,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Demonstrating conformity with GSPRs is the manufacturer's duty (clinical/performance evaluation)."
+ },
+ {
+  "rid": 86,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Interpretive rule on what counts as harmonised standards; not a restriction."
+ },
+ {
+  "rid": 87,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The EU declaration of conformity is drawn up by the manufacturer, who determines its content."
+ },
+ {
+  "rid": 88,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The EU declaration of conformity is drawn up by the manufacturer, who determines its content."
+ },
+ {
+  "rid": 89,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "CE marking is affixed by the manufacturer."
+ },
+ {
+  "rid": 90,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "CE marking is affixed by the manufacturer."
+ },
+ {
+  "rid": 91,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "CE marking is affixed by the manufacturer."
+ },
+ {
+  "rid": 92,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "CE marking is affixed by the manufacturer."
+ },
+ {
+  "rid": 93,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Promotional material is produced by the manufacturer, which must show the notified body number."
+ },
+ {
+  "rid": 94,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Form and meaning of the CE marking bind the manufacturer who affixes it."
+ },
+ {
+  "rid": 95,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The person making the replacement item available must keep supporting evidence."
+ },
+ {
+  "rid": 96,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "An item that changes performance is treated as a device, so its supplier bears manufacturer duties."
+ },
+ {
+  "rid": 97,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Describes what the UDI system consists of; content rule binding no identifiable actor."
+ },
+ {
+  "rid": 98,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Manufacturers report serious incidents and FSCAs under the vigilance article and must use the UDI."
+ },
+ {
+  "rid": 99,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The EU declaration of conformity is drawn up by the manufacturer and must show the Basic UDI-DI."
+ },
+ {
+  "rid": 100,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Classification is applied by the manufacturer under Annex VIII."
+ },
+ {
+  "rid": 101,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "States what constitutes clinical evidence; definitional, not a restriction."
+ },
+ {
+  "rid": 102,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Performance evaluation, clinical evidence and its report are produced and updated by the manufacturer."
+ },
+ {
+  "rid": 103,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Performance evaluation, clinical evidence and its report are produced and updated by the manufacturer."
+ },
+ {
+  "rid": 104,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Performance evaluation, clinical evidence and its report are produced and updated by the manufacturer."
+ },
+ {
+  "rid": 105,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Performance evaluation, clinical evidence and its report are produced and updated by the manufacturer."
+ },
+ {
+  "rid": 106,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Performance evaluation, clinical evidence and its report are produced and updated by the manufacturer."
+ },
+ {
+  "rid": 107,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Performance evaluation, clinical evidence and its report are produced and updated by the manufacturer."
+ },
+ {
+  "rid": 108,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Performance evaluation, clinical evidence and its report are produced and updated by the manufacturer."
+ },
+ {
+  "rid": 109,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Performance studies are conducted by the sponsor, which must respect data protection law."
+ },
+ {
+  "rid": 110,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The impartial witness, a natural person, must sign and date the consent document."
+ },
+ {
+  "rid": 111,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Informed-consent steps are carried out by the investigator (for the sponsor) per the interview in para 2(c)."
+ },
+ {
+  "rid": 112,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Informed-consent steps are carried out by the investigator (for the sponsor) per the interview in para 2(c)."
+ },
+ {
+  "rid": 113,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Informed-consent steps are carried out by the investigator (for the sponsor) per the interview in para 2(c)."
+ },
+ {
+  "rid": 114,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Informed-consent steps are carried out by the investigator (for the sponsor) per the interview in para 2(c)."
+ },
+ {
+  "rid": 115,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Informed-consent steps are carried out by the investigator (for the sponsor) per the interview in para 2(c)."
+ },
+ {
+  "rid": 116,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Informed-consent steps are carried out by the investigator (for the sponsor) per the interview in para 2(c)."
+ },
+ {
+  "rid": 117,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Informed-consent steps are carried out by the investigator (for the sponsor) per the interview in para 2(c)."
+ },
+ {
+  "rid": 118,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Informed-consent steps are carried out by the investigator (for the sponsor) per the interview in para 2(c)."
+ },
+ {
+  "rid": 119,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Without-prejudice clause preserving national law on minors' assent; not a restriction."
+ },
+ {
+  "rid": 120,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conditions for conducting investigations/studies on vulnerable subjects bind the sponsor and investigator."
+ },
+ {
+  "rid": 121,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Involving the subject or minor in the consent procedure is the investigator's duty."
+ },
+ {
+  "rid": 122,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conditions for conducting investigations/studies on vulnerable subjects bind the sponsor and investigator."
+ },
+ {
+  "rid": 123,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Involving the subject or minor in the consent procedure is the investigator's duty."
+ },
+ {
+  "rid": 124,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Conditions for conducting investigations/studies on vulnerable subjects bind the sponsor and investigator."
+ },
+ {
+  "rid": 125,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Post-emergency consent must be sought by the investigator, as point (a)/(b) states."
+ },
+ {
+  "rid": 126,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Post-emergency consent must be sought by the investigator, as point (a)/(b) states."
+ },
+ {
+  "rid": 127,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Post-emergency consent must be sought by the investigator, as point (a)/(b) states."
+ },
+ {
+  "rid": 128,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Post-emergency consent must be sought by the investigator, as point (a)/(b) states."
+ },
+ {
+  "rid": 129,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Post-emergency consent must be sought by the investigator, as point (a)/(b) states."
+ },
+ {
+  "rid": 130,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Post-emergency consent must be sought by the investigator, as point (a)/(b) states."
+ },
+ {
+  "rid": 131,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Post-emergency consent must be sought by the investigator, as point (a)/(b) states."
+ },
+ {
+  "rid": 132,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The investigator must inform a non-consenting subject of the right to object."
+ },
+ {
+  "rid": 133,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The PMS system and plan are maintained by the manufacturer as part of its technical documentation."
+ },
+ {
+  "rid": 134,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The PMS system and plan are maintained by the manufacturer as part of its technical documentation."
+ },
+ {
+  "rid": 135,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The PMS report prepared by manufacturers of lower-class devices must be updated and made available."
+ },
+ {
+  "rid": 136,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The reporting period applies to the manufacturer's vigilance reports."
+ },
+ {
+  "rid": 137,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The field safety notice is drafted by the manufacturer, as the article states."
+ },
+ {
+  "rid": 138,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The field safety notice is drafted by the manufacturer, as the article states."
+ },
+ {
+  "rid": 139,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer must enter the field safety notice in the electronic system."
+ },
+ {
+  "rid": 140,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The vigilance electronic system is set up and managed by the Commission, which must make it available and transmit reports."
+ },
+ {
+  "rid": 141,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The vigilance electronic system is set up and managed by the Commission, which must make it available and transmit reports."
+ },
+ {
+  "rid": 142,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The vigilance electronic system is set up and managed by the Commission, which must make it available and transmit reports."
+ },
+ {
+  "rid": 143,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Allows a Member State to take provisional preventive measures; a permission, not a restriction."
+ },
+ {
+  "rid": 144,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Task list of the MDCG, an expert group set up by the Regulation."
+ }
+]

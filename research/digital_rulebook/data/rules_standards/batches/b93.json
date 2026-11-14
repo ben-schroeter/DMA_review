@@ -1,0 +1,1052 @@
+[
+{
+"k": "493eeadce1fe",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Width:",
+"clause": "The height of the symbol’s characters shall not be less than 4 mm."
+},
+{
+"k": "2c77aab9e4e4",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Notations:",
+"clause": "Suitable calculations shall be carried out in order to make sure that the requirements set out in points 2.2. and 2.3. are fulfilled for each technical configuration within the type."
+},
+{
+"k": "16d0ec97b247",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Notations:",
+"clause": "In the case of vehicles fitted with loadable axles, the calculations required under points 2.2. and 2.3. shall be carried out with the suspension of loadable axles in the normal running configuration."
+},
+{
+"k": "9d29995d7ec8",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Notations:",
+"clause": "In the case of vehicles fitted with lift axles, the calculations required under points 2.2 and 2.3. shall be carried out with the axles lowered."
+},
+{
+"k": "7ac4efe71fad",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "In the case of alternatively fuelled or zero-emission motor vehicles:",
+"clause": "The additional weight required for alternative fuel or zero-emission technology in accordance with point 2.3. of Annex I to Directive 96/53/EC shall be defined on the basis of the documentation provided by the manufacturer."
+},
+{
+"k": "a45a4d05861e",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "In the case of alternatively fuelled or zero-emission motor vehicles:",
+"clause": "For each group of axles designated ‘j’, the sum of the technically permissible maximum mass on its axles shall not be less than the technically permissible maximum mass on the group of axles."
+},
+{
+"k": "22ed02821ab0",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "In the case of alternatively fuelled or zero-emission motor vehicles:",
+"clause": "In addition, each of the masses m i shall not be less than the part of μ j applying on the axle ‘i’ as determined by the mass distribution for that group of axles."
+},
+{
+"k": "6f144cc005d2",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "In the case of alternatively fuelled or zero-emission motor vehicles:",
+"clause": "The mass of the vehicle in running order, plus the mass of the optional equipment plus the mass of the passengers, plus the mass of the coupling if not included in the mass in running order plus the technically permissible maximum mass at the coupling point shall not exceed the technically permissible maximum laden mass of the vehicle."
+},
+{
+"k": "fd56b59be9f8",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "In the case of alternatively fuelled or zero-emission motor vehicles:",
+"clause": "Where the vehicle is laden to its technically permissible maximum laden mass, the mass distributed on an axle ‘i’ shall not exceed the mass m i on that axle, and the mass on the group of axles ‘j’ shall not exceed the mass μ j ."
+},
+{
+"k": "fd7b6df36e20",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "In the case of alternatively fuelled or zero-emission motor vehicles:",
+"clause": "The requirements of point 2.3.2 shall be complied with in the following load configurations:"
+},
+{
+"k": "79d7d608a04b",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Uniform distribution of the pay-mass:",
+"clause": "The vehicle shall be at its mass in running order plus the mass of the optional equipment plus the mass of the passengers located at the seating reference points, plus the mass of the coupling (if not included in the mass in running order), plus the maximum permissible mass at the coupling point, plus the pay-mass being distributed uniformly on the cargo area."
+},
+{
+"k": "4dfaa49f8884",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Non-uniform distribution of pay-mass:",
+"clause": "The vehicle shall be at its mass in running order plus the mass of the optional equipment plus the mass of the passengers located at the seating reference points, plus the mass of the coupling (if not included in the mass in running order), plus the maximum permissible mass at the coupling point, plus the pay-mass located in accordance with the manufacturers specifications."
+},
+{
+"k": "bf420a9eaa67",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Non-uniform distribution of pay-mass:",
+"clause": "For such purposes the manufacturer shall state the extreme permissible possible positions of the centre of gravity of the pay-mass and/or body and/or equipment or interior fittings (for instance:"
+},
+{
+"k": "cf857e40c421",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Combination of uniform and non-uniform distribution:",
+"clause": "The requirements of points 2.3.3.1. and 2.3.3.2. shall be fulfilled simultaneously."
+},
+{
+"k": "d259f313a6bb",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Mass transferred by the fifth wheel coupling (tractor unit for semi-trailer):",
+"clause": "The vehicle shall be at its mass in running order plus the mass of the optional equipment plus the mass of the passengers located at the seating reference points, plus the mass of the coupling if not included in the mass in running order, plus the maximum permissible mass at the fifth wheel coupling point located in accordance with the manufacturers’ specifications (minimum and maximum fifth-wheel lead)."
+},
+{
+"k": "a77cd73482ff",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Mass transferred by the fifth wheel coupling (tractor unit for semi-trailer):",
+"clause": "The requirements of points 2.3.3.1. shall always be fulfilled where the vehicle is fitted with a flat cargo area."
+},
+{
+"k": "d090694f2084",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Mass transferred by the fifth wheel coupling (tractor unit for semi-trailer):",
+"clause": "Where the vehicle is laden to its technically permissible maximum laden mass, plus the mass of the coupling if not included in the mass in running order, plus the maximum permissible mass at the coupling point in such a way that the maximum permissible maximum mass on the rear group of axle (μ) or the maximum permissible maximum on the rear axle (m) is reached, the mass on the front steering axle(s) shall not be less than 20 % of the technically permissible maximum laden mass of the vehicle."
+},
+{
+"k": "86c8261eed9e",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Mass transferred by the fifth wheel coupling (tractor unit for semi-trailer):",
+"clause": "As regards special purposes vehicles of category N 2 and N 3 , the technical service shall check compliance with the requirements of Section 2 in agreement with the manufacturer, taking into account the specific design of the vehicle (for example, mobile cranes)."
+},
+{
+"k": "d0ab1a03965e",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Mass transferred by the fifth wheel coupling (tractor unit for semi-trailer):",
+"clause": "The technically permissible maximum laden mass of the combination shall not exceed the sum of the technically permissible maximum laden mass plus the technically permissible maximum towable mass."
+},
+{
+"k": "2d942cde74b5",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Mass transferred by the fifth wheel coupling (tractor unit for semi-trailer):",
+"clause": "Vehicles designed to tow a trailer and laden to their technically permissible maximum laden mass of the combination shall be capable of starting five times within five minutes at an up-hill gradient of at least 12 %."
+},
+{
+"k": "b95d82026166",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Mass transferred by the fifth wheel coupling (tractor unit for semi-trailer):",
+"clause": "As regard gradeability, off road vehicles shall be tested against the technical requirements of Section K."
+},
+{
+"k": "e2a7065e0f68",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Mass transferred by the fifth wheel coupling (tractor unit for semi-trailer):",
+"clause": "Vehicles shall provide an engine power output of at least 5 kW per tonne of the technically permissible maximum laden mass of the combination."
+},
+{
+"k": "abb2f56d75c5",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Mass transferred by the fifth wheel coupling (tractor unit for semi-trailer):",
+"clause": "In the case of a road tractor, or a tractor unit for semi-trailer intended for the transport of indivisible loads, the engine power shall be at least 2 kW per tonne of the technically permissible maximum laden mass of the combination."
+},
+{
+"k": "4231cf98613d",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Mass transferred by the fifth wheel coupling (tractor unit for semi-trailer):",
+"clause": "The engine power shall be measured in accordance with UNECE Regulation No 85."
+},
+{
+"k": "3224e9328ae1",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Mass transferred by the fifth wheel coupling (tractor unit for semi-trailer):",
+"clause": "The vehicle shall be capable of manoeuvring on either side of a complete trajectory of 360 o as shown in Figure 1 of Section H without any of the vehicle’s outermost points protruding beyond the outer circle or intruding inside the inner circle as the case may be."
+},
+{
+"k": "d6cb5811562f",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Mass transferred by the fifth wheel coupling (tractor unit for semi-trailer):",
+"clause": "The test shall be conducted with the vehicle in both the unladen conditions (i.e. at its mass in running order) and loaded to its technically maximum permissible laden mass."
+},
+{
+"k": "20fc84baa4bb",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Mass transferred by the fifth wheel coupling (tractor unit for semi-trailer):",
+"clause": "If the vehicle is equipped with aerodynamic devices or equipment referred to in points 1.3.1.1., 1.3.1.2. and 1.3.1.3., the devices and equipment shall be in the deployed and in-use position or in the fixed in-use position where applicable for devices and equipment covered by point 1.3.1.3."
+},
+{
+"k": "250442a3e2a1",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Mass transferred by the fifth wheel coupling (tractor unit for semi-trailer):",
+"clause": "For the purposes of point 6.1., the parts permitted to protrude beyond the vehicle width referred to in Section F shall not be taken into account."
+},
+{
+"k": "e2e855e66a5d",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Mass transferred by the fifth wheel coupling (tractor unit for semi-trailer):",
+"clause": "The requirements of point 6.1. shall be verified as follows:"
+},
+{
+"k": "150c10228a51",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The requirements of point 6.1. shall be verified as follows:",
+"clause": "The vehicle shall manoeuvre inside an area defined by two concentric circles, the outer circle having a radius of 12,50 m and the inner circle having a radius of 5,30 m"
+},
+{
+"k": "5cbb9fa001a1",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The requirements of point 6.1. shall be verified as follows:",
+"clause": "The vehicle shall be tested in accordance with the steady-state test method described in point 7.1.1."
+},
+{
+"k": "14d396cfc6e7",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The requirements of point 6.1. shall be verified as follows:",
+"clause": "If the vehicle is equipped with aerodynamic devices or equipment referred to in points 1.3.1.1., 1.3.1.2. and 1.3.1.3., the devices and equipment shall be in the deployed and in-use position."
+},
+{
+"k": "49ab279f9971",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The requirements of point 6.1. shall be verified as follows:",
+"clause": "The vehicle shall be stationary and shall have its front steered wheels so directed that if the vehicle moves, its outermost point would describe a circle of 12,50 m radius."
+},
+{
+"k": "fb9512650b25",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The requirements of point 6.1. shall be verified as follows:",
+"clause": "A vertical plane tangential to the side of the vehicle and facing outwards from the circle shall be established by marking a line on the ground."
+},
+{
+"k": "33256ca3e51a",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The requirements of point 6.1. shall be verified as follows:",
+"clause": "The vehicle shall move forward such as the front outermost point follows the contour of the outer circle of 12,50 m radius."
+},
+{
+"k": "f888236325f7",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The requirements of point 6.1. shall be verified as follows:",
+"clause": "The maximum rear swing-out shall not exceed:"
+},
+{
+"k": "1e719cee69cf",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The requirements of point 6.1. shall be verified as follows:",
+"clause": "The dimensions shall not exceed the following values:"
+},
+{
+"k": "9d37b8615288",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The dimensions shall not exceed the following values:",
+"clause": "The measurement of the length, height and front fitting radius shall be conducted where the loading surface or the reference surface referred to in point 1.2.1. second subparagraph of Annex 7 to UN Regulation No 55 is horizontal."
+},
+{
+"k": "ad6fcb8d4934",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The dimensions shall not exceed the following values:",
+"clause": "Adjustable drawbars shall be horizontal and aligned with the centre-line of the vehicle."
+},
+{
+"k": "a4fab5fd2544",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The dimensions shall not exceed the following values:",
+"clause": "They shall be set at their horizontal most elongated position."
+},
+{
+"k": "66ab7c919fb9",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The dimensions shall not exceed the following values:",
+"clause": "The devices and equipment referred to in Section F shall not be taken into account for the determination of the length, width and height."
+},
+{
+"k": "178583d98c87",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The dimensions shall not exceed the following values:",
+"clause": "Aerodynamic devices and equipment not exceeding 500 mm in length in the in-use position shall not increase the usable length of the loading area."
+},
+{
+"k": "729ccfb81b15",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The dimensions shall not exceed the following values:",
+"clause": "Such devices and equipment shall furthermore be constructed so as to be retractable or foldable when the vehicle is at stand-still in such a way that the maximum authorised width of the vehicle is not exceeded by more than 25 mm on each side of the vehicle and the maximum authorised length of the vehicle is not exceeded by more than 200 mm as permitted only from a height above the ground of at least 1 050 mm so that they do not impair the capability of the vehicle to be used for intermodal transport."
+},
+{
+"k": "acdc3ca797dc",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The dimensions shall not exceed the following values:",
+"clause": "In addition, the requirements set out in points 1.4.1.1.1. to 1.4.1.1.3. shall be met."
+},
+{
+"k": "3eed4da2c84e",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The dimensions shall not exceed the following values:",
+"clause": "The devices and equipment shall be type-approved in accordance with this Regulation."
+},
+{
+"k": "f4ffddd55600",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The dimensions shall not exceed the following values:",
+"clause": "It is not required for devices and equipment to be retractable or foldable if the maximum dimensional requirements are fully complied with under all conditions."
+},
+{
+"k": "5780636cdccf",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The dimensions shall not exceed the following values:",
+"clause": "Aerodynamic devices and equipment exceeding 500 mm in length in the in-use position shall not increase the usable length of the loading area."
+},
+{
+"k": "57f5ca0e5d69",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The dimensions shall not exceed the following values:",
+"clause": "They shall be constructed in such a way to make it possible to lock them in both the retracted or folded and the in-use positions."
+},
+{
+"k": "c500a6fafaa7",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The dimensions shall not exceed the following values:",
+"clause": "In addition, the requirements set out in points 1.4.1.2.1. to 1.4.1.2.4. shall be met."
+},
+{
+"k": "130fdd89750c",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The dimensions shall not exceed the following values:",
+"clause": "It shall be possible for the operator to vary the position of the aerodynamic devices and equipment, and retract or fold it, by applying a manual force not exceeding 40 daN."
+},
+{
+"k": "9f1f4bcd0add",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The dimensions shall not exceed the following values:",
+"clause": "Each main vertical element or combination of elements and main horizontal element or combination of elements forming the devices and equipment shall, when installed on the vehicle and in the in-use position, withstand vertical and horizontal traction and push forces, applied sequentially in up, down, left and right direction, of 200 daN ± 10 % applied statically to the geometric centre of the relevant perpendicular projected surface, at a maximum pressure of 2,0 MPa."
+},
+{
+"k": "52a16dfe84c7",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The dimensions shall not exceed the following values:",
+"clause": "The devices and equipment may deform, but the system for adjustment and locking shall not release as a result of the applied forces."
+},
+{
+"k": "31bfa8d5af6c",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The dimensions shall not exceed the following values:",
+"clause": "Each main vertical element or combination of elements and main horizontal element or combination of elements forming the devices and equipment shall also, when in the retracted or folded position, withstand a horizontal traction force applied in longitudinal rearward direction, of 200 daN ± 10 % applied statically to the geometric centre of the relevant perpendicular projected surface, at a maximum pressure of 2,0 MPa."
+},
+{
+"k": "2dad2e5bc71d",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The dimensions shall not exceed the following values:",
+"clause": "It shall be verified by the technical service, to the satisfaction of the type-approval authority that aerodynamic devices and equipment positioned in both, the in-use and the retracted or folded positions, do not completely block the ventilation of the loading area."
+},
+{
+"k": "e2aec70e7206",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The dimensions shall not exceed the following values:",
+"clause": "All other applicable requirements relating to the vehicle systems shall be fully complied with when the devices and equipment are placed in both their in-use and retracted or folded positions."
+},
+{
+"k": "699e7559d05b",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The dimensions shall not exceed the following values:",
+"clause": "However, in order to eliminate the risk of injuries and penetration of other vehicles in the event of a collision, any ends of such ribs, tubing and metal wire shall not be directed rearward at the rear of the vehicle, with the aerodynamic devices and equipment both in the retracted or folded and the in-use positions."
+},
+{
+"k": "a8fab7f05d86",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Notations:",
+"clause": "In the case of vehicles fitted with lift axles, the calculations required under points 2.2. and 2.3. shall be carried out with the axles lowered."
+},
+{
+"k": "6ca319c9e317",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Notations:",
+"clause": "The sum of the technically permissible maximum mass at the front coupling point plus the technically permissible maximum mass on the solo axles and/or group(s) of axles plus the technically permissible maximum mass at the rear coupling point shall be not less than the technically permissible maximum laden mass of the vehicle."
+},
+{
+"k": "aa1a3e3845de",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Notations:",
+"clause": "For each group of axles designated ‘j’, the sum of the masses m i on its axles shall not be less than the mass μ j ."
+},
+{
+"k": "ddbbea450ce3",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Notations:",
+"clause": "In addition, each of the masses m i shall not be less than the part of μ j applying on the axle ‘i’ as determined by the mass distribution for that group of axles."
+},
+{
+"k": "b3cdd3468e57",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Notations:",
+"clause": "The mass of the vehicle in running order, plus the mass of the optional equipment plus the technically permissible maximum mass at the coupling point(s) shall not exceed the technically permissible maximum laden mass of the vehicle."
+},
+{
+"k": "5c88ec3c9f19",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Notations:",
+"clause": "Where the vehicle is laden to its technically permissible maximum laden mass, the mass distributed on a solo axle ‘i’ shall neither exceed the mass m i on that axle, nor the mass μ j on the group of axles, nor the technically permissible maximum mass at the coupling point m 0 ."
+},
+{
+"k": "1d633f9338ff",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Notations:",
+"clause": "The requirements of point 2.3.2. shall be complied with in the following load configurations:"
+},
+{
+"k": "2ac04deef798",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The requirements of point 2.3.2. shall be complied with in the following load configurations:",
+"clause": "The vehicle shall be at its mass in running order plus the mass of the optional equipment plus the pay-mass being distributed uniformly on the cargo area;"
+},
+{
+"k": "c8b61683b9be",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The requirements of point 2.3.2. shall be complied with in the following load configurations:",
+"clause": "The vehicle shall be at its mass in running order plus the mass of the optional equipment plus the pay-mass located in accordance with the manufacturer’s specifications."
+},
+{
+"k": "b1a572c1368b",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The requirements of point 2.3.2. shall be complied with in the following load configurations:",
+"clause": "For such purposes the manufacturer shall state the extreme permissible possible positions of the centre of gravity of the pay-mass and/or body and/or equipment or interior fittings (for instance:"
+},
+{
+"k": "337b3a5418f2",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Combination of uniform and non-uniform distribution:",
+"clause": "The minimum pay-mass (PM) shall meet the following requirement:"
+},
+{
+"k": "c0eba058e783",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The minimum pay-mass (PM) shall meet the following requirement:",
+"clause": "Trailers and semi-trailers shall be so designed that, when coupled to a towing vehicle, the combination is capable of manoeuvring on either side of a complete trajectory of 360 o made up of two concentric circles, the outer circle having a radius of 12,50 m and the inner circle having a radius of 5,30 m without any of the vehicle’s outermost points of the towing vehicle protruding beyond the outer circle or any of the outermost points of the trailer or semi-trailer intruding inside the inner circle."
+},
+{
+"k": "cc4a3f0fd50a",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The minimum pay-mass (PM) shall meet the following requirement:",
+"clause": "If the trailer or semi-trailer is equipped with aerodynamic devices or equipment referred to in points 1.4.1.1. or 1.4.1.2., the devices and equipment shall be in the in-use and deployed position."
+},
+{
+"k": "b2514921ab06",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "where:",
+"clause": "Where one or more of the non-steering axles has an axle lift device the reference wheelbase with the axle lowered or the axle lifted — whichever is the longest — shall be taken into account."
+},
+{
+"k": "1572439e3ce1",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "where:",
+"clause": "List of devices and equipment that are not required to be taken into account for the determination of the outermost dimensions"
+},
+{
+"k": "69622fc487c7",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "where:",
+"clause": "Subject to the additional restrictions provided in the following tables, the devices and equipment listed in Tables I, II and III are not required to be taken into account for the determination and calculation of the outermost dimensions where the following requirements are fulfilled:"
+},
+{
+"k": "29fe06642c51",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Subject to the additional restrictions provided in the following tables, the devices and equipment listed in Tables I, II and III are not required to be taken into account for the determination and calculation of the outermost dimensions where the following requirements are fulfilled:",
+"clause": "where devices are fitted at the front, with the exception of aerodynamic devices and equipment of cabs, the total protrusion of those devices shall not exceed 250 mm;"
+},
+{
+"k": "466f67d97b85",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Subject to the additional restrictions provided in the following tables, the devices and equipment listed in Tables I, II and III are not required to be taken into account for the determination and calculation of the outermost dimensions where the following requirements are fulfilled:",
+"clause": "the total protrusion of devices and equipment added to the length of the vehicle, with the exception of aerodynamic devices and equipment, shall not exceed 750 mm;"
+},
+{
+"k": "a8e87cade2be",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Subject to the additional restrictions provided in the following tables, the devices and equipment listed in Tables I, II and III are not required to be taken into account for the determination and calculation of the outermost dimensions where the following requirements are fulfilled:",
+"clause": "the total protrusion of devices and equipment added to the width of the vehicle shall not exceed 100 mm."
+},
+{
+"k": "f9261d4d8a62",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Subject to the additional restrictions provided in the following tables, the devices and equipment listed in Tables I, II and III are not required to be taken into account for the determination and calculation of the outermost dimensions where the following requirements are fulfilled:",
+"clause": "the edges must be rounded to a radius of not less than 2,5 mm)."
+},
+{
+"k": "222c4d5982f9",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Subject to the additional restrictions provided in the following tables, the devices and equipment listed in Tables I, II and III are not required to be taken into account for the determination and calculation of the outermost dimensions where the following requirements are fulfilled:",
+"clause": "The vehicle width, including that of conditioned body with insulated walls, shall not exceed 2 600 mm, including the measured projections, with the devices and equipment fixed in both the retracted or folded and the in-use positions."
+},
+{
+"k": "19b17821640a",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Subject to the additional restrictions provided in the following tables, the devices and equipment listed in Tables I, II and III are not required to be taken into account for the determination and calculation of the outermost dimensions where the following requirements are fulfilled:",
+"clause": "The edges shall be rounded to a radius of not less than 2,5 mm."
+},
+{
+"k": "9dc689292fe2",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Subject to the additional restrictions provided in the following tables, the devices and equipment listed in Tables I, II and III are not required to be taken into account for the determination and calculation of the outermost dimensions where the following requirements are fulfilled:",
+"clause": "The vehicle width shall not exceed 2 650 mm."
+},
+{
+"k": "85d532b35c3d",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Subject to the additional restrictions provided in the following tables, the devices and equipment listed in Tables I, II and III are not required to be taken into account for the determination and calculation of the outermost dimensions where the following requirements are fulfilled:",
+"clause": "Measurement of the overall length, width and height shall be carried out in accordance with point 1.2. of Sections B to E."
+},
+{
+"k": "73d3bb5ec0eb",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Subject to the additional restrictions provided in the following tables, the devices and equipment listed in Tables I, II and III are not required to be taken into account for the determination and calculation of the outermost dimensions where the following requirements are fulfilled:",
+"clause": "The mass in running order shall be checked from the actual mass by weighing the vehicle and deducting the mass of the optional equipment fitted."
+},
+{
+"k": "ced15120524d",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "Subject to the additional restrictions provided in the following tables, the devices and equipment listed in Tables I, II and III are not required to be taken into account for the determination and calculation of the outermost dimensions where the following requirements are fulfilled:",
+"clause": "For such purposes the weighing instrument shall comply with the requirements of Directive 2014/31/EU of the European Parliament and of the Council ( 8 ) ."
+},
+{
+"k": "ecf5210ad982",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "The mass in running order determined in accordance with the requirements of point 2.1. may deviate from the nominal value stated in point 2.6.(b) of Annex I to Regulation (EU) 2020/683 or in the relevant entry of the certificate of conformity by not more than:",
+"clause": "At the request of the manufacturer the test shall be conducted on one of the following:"
+},
+{
+"k": "2dc39a1689cd",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "that part shall be representative of the vehicle type(s) in question;"
+},
+{
+"k": "7039ae34958e",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "Where the test is conducted as referred to in points 1.1.2. and 1.1.3., the parts used to connect the aerodynamic devices and equipment to a part of the vehicle body or to a rigid wall shall be equivalent to those which are used to secure the aerodynamic devices and equipment when it is installed on the vehicle."
+},
+{
+"k": "9b53c35cf2a1",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "Every device shall be accompanied by installation and operating instructions giving sufficient information for any competent person to install it correctly."
+},
+{
+"k": "0f4898f6c6c8",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The mathematical model shall be validated only if it is comparable with the physical test conditions."
+},
+{
+"k": "6351535c467c",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "To that effect, a physical test shall be conducted for the purposes of comparing the results obtained when using the mathematical model with the results of a physical test."
+},
+{
+"k": "566f9da16d35",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "Comparability of the test results shall be proven."
+},
+{
+"k": "ad018a64794b",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "A validation report shall be drafted by the manufacturer."
+},
+{
+"k": "7a108b6903cd",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "Any change made to the mathematical model or to the software likely to invalidate the validation report shall require a new validation in accordance with the previous paragraph."
+},
+{
+"k": "2900475656cd",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The vehicle shall be at rest on a level, flat, rigid and smooth surface."
+},
+{
+"k": "c91ba4655d60",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "Any front wheels shall be in the straight ahead position."
+},
+{
+"k": "45ed56c87ea2",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The tyres shall be inflated to the pressure recommended by the vehicle manufacturer."
+},
+{
+"k": "843a97722366",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The vehicle shall be unladen."
+},
+{
+"k": "a7ef9113d3a0",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "This method shall be specified by the vehicle manufacturer."
+},
+{
+"k": "1e37b31af3ca",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "Vehicles equipped with hydropneumatic, hydraulic or pneumatic suspension or a device for automatic levelling according to load shall be tested with the suspension or device in the normal running condition specified by the manufacturer."
+},
+{
+"k": "7ee24618ef72",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The tests shall be carried out to assess that the aerodynamic devices and equipment offer a specified level of deformation to forces applied parallel to the longitudinal axis of the vehicle as referred to in point 1.6.1."
+},
+{
+"k": "d8e7fe3613a2",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The fulfilment of the requirement referred to in point 1.6.2. shall be verified by means of suitable test mandrels for the purpose of the crash test."
+},
+{
+"k": "969d34f1d55d",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The device used to distribute the test force over the stated flat surface shall be connected to the force actuator through a swivel joint."
+},
+{
+"k": "f9515b300b0d",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "A force shall be applied parallel to the longitudinal axis of the vehicle via a surface or adaptor not more than 250 mm in height and 200 mm wide with a radius of curvature of 5 ± 1 mm at the vertical edges."
+},
+{
+"k": "5a5493fc768d",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The surface shall not be rigidly fixed to the aerodynamic devices and equipment and shall be articulated in all directions."
+},
+{
+"k": "fd72f664a7cd",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "When the test is carried out on a vehicle as referred to in point 1.1.1., the height of the lower edge of the surface or adaptor shall be specified by the manufacturer in an area between the lowest edge of the aerodynamic devices and equipment and a point of the upper edge of the surface or adaptor that is no more than 2,0 m above the ground in vehicle-mounted condition (see figure 1)."
+},
+{
+"k": "e9a99e68e2f0",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "Where the test is carried out on a part of the body of the vehicle type as referred to in point 1.1.2. or on a rigid wall as referred to in point 1.1.3., the height of the centre of the surface or adaptor shall be specified by the manufacturer in an area between the lowest edge of the aerodynamic devices and equipment and the point that represents the height of no more than 2,0 m above the ground in vehicle-mounted condition on a laden vehicle with the technically permissible maximum laden mass (see figure 2)."
+},
+{
+"k": "0410def97650",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The exact location of the centre of the surface or adaptor in the area of application of forces shall be specified by the manufacturer."
+},
+{
+"k": "a8580705585c",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "Where the aerodynamic devices and equipment have different degrees of stiffness in the area of application of the forces (e.g. due to reinforcements, different materials or thicknesses, etc.), the location of the centre of the surface or adaptor shall be located in the area with the highest resistance against external forces in longitudinal direction of the vehicle."
+},
+{
+"k": "73ae227b08b0",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "A horizontal force of maximum 4 000 N ± 400 N shall be applied consecutively to two points situated symmetrically about the centre line of the vehicle or the centre line of the device on the rearmost outer edge of the aerodynamic devices and equipment in completely unfolded or in-use position (see figure 3)."
+},
+{
+"k": "9d78dde13c52",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The aerodynamic devices and equipment shall be so fitted that, during the application of the test forces as specified in point 1.5.1.2., the devices and equipment deform, retract or fold resulting in projection length of ≤ 200 mm measured in horizontal longitudinal direction at the points of application of the forces."
+},
+{
+"k": "8e57a2bf479d",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The resulting projection length shall be recorded."
+},
+{
+"k": "51270f5c55f5",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The aerodynamic devices and equipment shall not endanger the occupants of other vehicles in a rear-end collision and shall not affect the operation of the rear underrun protection device."
+},
+{
+"k": "a75822401719",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "shall be taken forward of the vertical transverse plane located at the foremost axle of the motor vehicle."
+},
+{
+"k": "e59743dd63d8",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The items listed in Section F shall not be taken into account for the purposes of this measurement."
+},
+{
+"k": "b95dfe4b7419",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The zone shall be bounded by vertical longitudinal planes that are parallel to the longitudinal median plane of the motor vehicle and that are distance W c"
+},
+{
+"k": "42401b1860ab",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "shall be established from the most forward point of the motor vehicle’s cab location taken at a height ≤ 2 000 mm from the ground measured in unladen condition."
+},
+{
+"k": "9c92ed5117cf",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "shall be set at 200 mm for the purpose of this assessment (see Figure 1)."
+},
+{
+"k": "a41426968ca4",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The rear side of the assessment zone shall be bounded by a vertical transverse plane, perpendicular to the longitudinal median plane of the motor vehicle, that is located rearward of the above mentioned most forward point by distance L t"
+},
+{
+"k": "32facda08fdd",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "In the assessment zone, the lower front fascia boundary line shall be set at ground level and the upper front fascia boundary line shall be set at 2 000 mm above the ground as measured in unladen condition."
+},
+{
+"k": "94a1e70b20ba",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "However, the items listed in Section F shall not be taken into account."
+},
+{
+"k": "97daeca43508",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The intersecting line shall then be taken as the base envelope line to assess the vehicle cab’s rake in the given assessment zone."
+},
+{
+"k": "4439dbb9a75b",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "A plane rotating around the base envelope line referred to in the second paragraph of point 1.3.2.2., inclined rearward from the vertical by 3 o , shall be taken (see Figure 3)."
+},
+{
+"k": "8a34fb244bcd",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "No point of the actual surface of the front fascia, as located in the assessment zone of the rake, shall lie forward of the rearward inclined plane referred to in point 1.3.2.3. when the most forward point of the motor vehicle’s cab location touches the vertical transverse plane."
+},
+{
+"k": "aff4400005a5",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "In the assessment zone of the motor vehicle’s cab location, the front fascia shall be tapered in such a way that the relevant nominal surfaces generally converge towards a common area that lies forward of the cab and in the longitudinal median plane of the motor vehicle."
+},
+{
+"k": "f436fe9feeca",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "No point of the actual surface of the front fascia, as located in the left and right outboard zone, shall lie outward of the respective vertical plane referred to in point 1.3.3.2. with the most forward point of the motor vehicle’s cab location touching the vertical transverse plane referred to in point 1.3.2.4."
+},
+{
+"k": "126d51a8ea43",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The technical service shall verify if the complete or completed vehicle, or tractor unit for semi-trailer is to be considered as an off-road vehicle in accordance with the requirements laid down in Annex I to Regulation (EU) 2018/858."
+},
+{
+"k": "6c7bbb28a187",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "For incomplete vehicles, this verification shall be carried out only at the request of the manufacturer."
+},
+{
+"k": "c60204a5a2e6",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The vehicle shall be set in the conditions recommended by the manufacturer and fitted with the equipment referred to in Annex I to Regulation (EU) 2020/683."
+},
+{
+"k": "476ffde82c03",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The adjustment of the brakes, clutch (or equivalent), engine and gear box shall be set in accordance with the manufacturer’s recommendations for the purposes of use off the normal roads."
+},
+{
+"k": "00e907e73d1e",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The tyres shall be those recommended for off-roads use."
+},
+{
+"k": "6c83947cfcd7",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "They shall have a tread depth of not less than 90 % of the tread depth of a new tyre."
+},
+{
+"k": "3e85cd57582e",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The tyre pressure shall be adjusted to the value recommended by the tyre manufacturer."
+},
+{
+"k": "085304ed0e22",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The vehicle shall be loaded at its technically permissible maximum laden mass with a load distribution proportional to the distribution of the maximum mass on the axles as stated by the manufacturer."
+},
+{
+"k": "73f0de188c5d",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "For example a vehicle of 7,5 tonnes with a maximum mass on the front axle of 4 tonnes and a maximum mass on the rear axle of 6 tonnes shall be tested with a mass of 3 tonnes (40 %) on the front axle and 4,5 tonnes (60 %) on the rear axle."
+},
+{
+"k": "8a7db5c60210",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The surface of the test track shall be dry, made of asphalt or concrete"
+},
+{
+"k": "ac9878abce05",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The gradient shall show a continuous percentage of 25 % with a tolerance of + 3 % (θ = 14 degrees)."
+},
+{
+"k": "8796aafb8e21",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The test shall be conducted with maximum masses reduced in relation to the test conditions."
+},
+{
+"k": "a00d2efbcea8",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "These conditions shall be reported."
+},
+{
+"k": "1cd2ddd16d84",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The surface of the track shall show a good coefficient of adhesion."
+},
+{
+"k": "df980e5ebc39",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The Skid Resistance Index (‘SRI’) of the surface shall be measured in accordance with Standard CEN/TS 13036-2:"
+},
+{
+"k": "f7f7c8ee43c8",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The mean value of the SRI shall be reported."
+},
+{
+"k": "9835aca35a54",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The vehicle shall be first placed on a horizontal surface."
+},
+{
+"k": "2f51b43bac2c",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The mode of traction shall be set as for off-roads use."
+},
+{
+"k": "12157f76d9d7",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "The gear(s) engaged shall allow a steady speed."
+},
+{
+"k": "f6b1cf7fc285",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "At the request of the manufacturer the test shall be conducted on one of the following:",
+"clause": "In order to be recognised as equivalent to air suspension, a suspension shall comply with the following requirements:"
+},
+{
+"k": "a86b991b2c72",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "In order to be recognised as equivalent to air suspension, a suspension shall comply with the following requirements:",
+"clause": "During free transient low-frequency vertical oscillation of the sprung mass above a driving axle or group of axles, the measured frequency and damping with the suspension carrying its maximum load shall fall within the limits defined in points 2.3. to 2.6."
+},
+{
+"k": "d9b01a882cd3",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "In order to be recognised as equivalent to air suspension, a suspension shall comply with the following requirements:",
+"clause": "Each axle shall be fitted with hydraulic dampers."
+},
+{
+"k": "2b8bbc52814a",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "In order to be recognised as equivalent to air suspension, a suspension shall comply with the following requirements:",
+"clause": "On groups of axles, the dampers shall be positioned to minimise the oscillation of the groups of axles."
+},
+{
+"k": "96085cd673f6",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "In order to be recognised as equivalent to air suspension, a suspension shall comply with the following requirements:",
+"clause": "The mean damping ratio Dm shall be more than 20 % of critical damping for the suspension in its normal condition with hydraulic dampers in place and operating."
+},
+{
+"k": "55f8a1a827fb",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "In order to be recognised as equivalent to air suspension, a suspension shall comply with the following requirements:",
+"clause": "The damping ratio Dr of the suspension with all hydraulic dampers removed or incapacitated shall be not more than 50 % of Dm."
+},
+{
+"k": "6e280e73ac12",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "In order to be recognised as equivalent to air suspension, a suspension shall comply with the following requirements:",
+"clause": "The frequency of the sprung mass above the driving axle or group of axles in a free transient vertical oscillation shall not be higher than 2,0 Hz."
+},
+{
+"k": "bb83192de590",
+"doc": "32021R0535",
+"art": "Annex Xiii",
+"chapeau": "In order to be recognised as equivalent to air suspension, a suspension shall comply with the following requirements:",
+"clause": "The test procedures for measuring the frequency and damping shall be laid down in point 3."
+}
+]

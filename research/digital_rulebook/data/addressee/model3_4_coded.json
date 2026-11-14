@@ -1,0 +1,1162 @@
+[
+ {
+  "rid": 580,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Hearing Officer is a Commission official conducting the hearing."
+ },
+ {
+  "rid": 581,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission (Hearing Officer) makes the hearing recording available."
+ },
+ {
+  "rid": 582,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission conducting the hearing must respect business secrets."
+ },
+ {
+  "rid": 583,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "low",
+  "reason": "Scope limit of the right of access to the Commission file, not a duty in itself."
+ },
+ {
+  "rid": 584,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Parties obtaining access to the file may only use documents for the proceedings."
+ },
+ {
+  "rid": 585,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission sets the time-limits in its proceedings."
+ },
+ {
+  "rid": 586,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Transitional legal-effect provision binds no actor."
+ },
+ {
+  "rid": 587,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The manufacturer seeking type-approval of the separate technical unit must meet the requirements."
+ },
+ {
+  "rid": 588,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Vehicle and EDR technical requirements bind the vehicle manufacturer."
+ },
+ {
+  "rid": 589,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "EDR data protection is a design requirement on the vehicle manufacturer."
+ },
+ {
+  "rid": 590,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Data retrieval design requirement binds the vehicle manufacturer."
+ },
+ {
+  "rid": 591,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Data retrieval design requirement binds the vehicle manufacturer."
+ },
+ {
+  "rid": 592,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Vehicles must be designed by the manufacturer to produce these data elements."
+ },
+ {
+  "rid": 593,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Availability of data at crash test is a design requirement on the vehicle manufacturer."
+ },
+ {
+  "rid": 594,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Interface restriction is a design requirement on the vehicle manufacturer."
+ },
+ {
+  "rid": 595,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Data format requirement binds the vehicle manufacturer."
+ },
+ {
+  "rid": 596,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Data anonymity requirement binds the vehicle manufacturer."
+ },
+ {
+  "rid": 597,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EU reference laboratories are designated (mostly national public) laboratories bound by this act."
+ },
+ {
+  "rid": 598,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Duty on the EU reference laboratories (designated public laboratories)."
+ },
+ {
+  "rid": 599,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Duty on the EU reference laboratories (designated public laboratories)."
+ },
+ {
+  "rid": 600,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Duty on the EU reference laboratories (designated public laboratories)."
+ },
+ {
+  "rid": 601,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EU reference laboratories must keep documentation."
+ },
+ {
+  "rid": 602,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EU reference laboratories must make documentation available to the Commission."
+ },
+ {
+  "rid": 603,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EU reference laboratories must keep documentation."
+ },
+ {
+  "rid": 604,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EU reference laboratories must make documentation available to the Commission."
+ },
+ {
+  "rid": 605,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EU reference laboratories must have a confidentiality policy."
+ },
+ {
+  "rid": 606,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EU reference laboratories must ensure staff confidentiality."
+ },
+ {
+  "rid": 607,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Independence prohibition on the EU reference laboratory."
+ },
+ {
+  "rid": 608,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Prohibition on the EU reference laboratory acting as notified body."
+ },
+ {
+  "rid": 609,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Prohibition on the EU reference laboratory performing conformity tasks."
+ },
+ {
+  "rid": 610,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Prohibition on the EU reference laboratory collaborating commercially."
+ },
+ {
+  "rid": 611,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The EU reference laboratory may only contract qualifying external labs."
+ },
+ {
+  "rid": 612,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EU reference laboratories must make contracts available to the Commission."
+ },
+ {
+  "rid": 613,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EU reference laboratory bears responsibility for results."
+ },
+ {
+  "rid": 614,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Accreditation scope requirement falls on the EU reference laboratory seeking accreditation."
+ },
+ {
+  "rid": 615,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EU reference laboratories must review and publish recommendations."
+ },
+ {
+  "rid": 616,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The network of EU reference laboratories must coordinate the review."
+ },
+ {
+  "rid": 617,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EU reference laboratories must update recommendations."
+ },
+ {
+  "rid": 618,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EU reference laboratories must state reasons for divergence."
+ },
+ {
+  "rid": 619,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EU reference laboratories must form a sub-network."
+ },
+ {
+  "rid": 620,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Sub-networks of EU reference laboratories must produce common procedures."
+ },
+ {
+  "rid": 621,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Sub-networks of EU reference laboratories must determine proficiency tests."
+ },
+ {
+  "rid": 622,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Sub-networks of EU reference laboratories must develop a methodology."
+ },
+ {
+  "rid": 623,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Members of a sub-network (EU reference laboratories) must perform proficiency tests."
+ },
+ {
+  "rid": 624,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Members of a sub-network (EU reference laboratories) must perform proficiency tests."
+ },
+ {
+  "rid": 625,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The sub-network must inform the EU reference laboratories' network."
+ },
+ {
+  "rid": 626,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EU reference laboratories must comply with and publish rules of procedure."
+ },
+ {
+  "rid": 627,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "EU reference laboratories must review the rules of procedure."
+ },
+ {
+  "rid": 628,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The manufacturer seeking type-approval of the separate technical unit must meet the requirements."
+ },
+ {
+  "rid": 629,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Vehicle and EDR technical requirements bind the vehicle manufacturer."
+ },
+ {
+  "rid": 630,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "EDR data protection is a design requirement on the vehicle manufacturer."
+ },
+ {
+  "rid": 631,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Data retrieval design requirement binds the vehicle manufacturer."
+ },
+ {
+  "rid": 632,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Data retrieval design requirement binds the vehicle manufacturer."
+ },
+ {
+  "rid": 633,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Vehicles must be designed by the manufacturer to produce these data elements."
+ },
+ {
+  "rid": 634,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Data format requirement binds the vehicle manufacturer."
+ },
+ {
+  "rid": 635,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Data anonymity requirement binds the vehicle manufacturer."
+ },
+ {
+  "rid": 636,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Technical note on measurement method for a control-list parameter, not a duty."
+ },
+ {
+  "rid": 637,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Technical note defining a control-list parameter, not a duty."
+ },
+ {
+  "rid": 638,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Technical note on how the control threshold is assessed, not a duty."
+ },
+ {
+  "rid": 639,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Technical note on how the control threshold is assessed, not a duty."
+ },
+ {
+  "rid": 640,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of minimum detection limit, not a duty."
+ },
+ {
+  "rid": 641,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of minimum detection limit, not a duty."
+ },
+ {
+  "rid": 642,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Descriptive note on scope of a control entry."
+ },
+ {
+  "rid": 643,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Calculation rule for APP control parameter, not a duty."
+ },
+ {
+  "rid": 644,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Calculation rule for APP control parameter, not a duty."
+ },
+ {
+  "rid": 645,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Conditions for the Cryptography Note exclusion, not a duty."
+ },
+ {
+  "rid": 646,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of wall-plug efficiency."
+ },
+ {
+  "rid": 647,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of response time."
+ },
+ {
+  "rid": 648,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Technical note on measurement method for a control-list parameter, not a duty."
+ },
+ {
+  "rid": 649,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Technical note defining a control-list parameter, not a duty."
+ },
+ {
+  "rid": 650,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Measurement method for classifying machine tools, not a duty."
+ },
+ {
+  "rid": 651,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Measurement method for classifying machine tools, not a duty."
+ },
+ {
+  "rid": 652,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Technical note on how the control threshold is assessed, not a duty."
+ },
+ {
+  "rid": 653,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Technical note on how the control threshold is assessed, not a duty."
+ },
+ {
+  "rid": 654,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of minimum detection limit, not a duty."
+ },
+ {
+  "rid": 655,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of minimum detection limit, not a duty."
+ },
+ {
+  "rid": 656,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Descriptive note on scope of a control entry."
+ },
+ {
+  "rid": 657,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Descriptive note on scope of a control entry."
+ },
+ {
+  "rid": 658,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Calculation rule for APP control parameter, not a duty."
+ },
+ {
+  "rid": 659,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Calculation rule for APP control parameter, not a duty."
+ },
+ {
+  "rid": 660,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Conditions for the Cryptography Note exclusion, not a duty."
+ },
+ {
+  "rid": 661,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of response time."
+ },
+ {
+  "rid": 662,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission appoints advisors to the expert panels."
+ },
+ {
+  "rid": 663,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission appoints advisors for a fixed term."
+ },
+ {
+  "rid": 664,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission remunerates advisors."
+ },
+ {
+  "rid": 665,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission sets remuneration according to the Annex."
+ },
+ {
+  "rid": 666,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission appoints or assigns advisors in their personal capacity."
+ },
+ {
+  "rid": 667,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Advisors (natural persons) must not have conflicting interests."
+ },
+ {
+  "rid": 668,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Advisors applying to the call submit declarations of interest."
+ },
+ {
+  "rid": 669,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Advisors must update their declarations of interest."
+ },
+ {
+  "rid": 670,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Advisors (natural persons) must commit to the public interest."
+ },
+ {
+  "rid": 671,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Advisors must respond to the Chair and Secretariat."
+ },
+ {
+  "rid": 672,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Advisors must not divulge confidential information."
+ },
+ {
+  "rid": 673,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Advisors must comply with EU security rules."
+ },
+ {
+  "rid": 674,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The Commission pays remuneration only on completion of tasks."
+ },
+ {
+  "rid": 675,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The manufacturer seeking ISA type-approval must meet the test and technical requirements."
+ },
+ {
+  "rid": 676,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Test-condition requirement on signs used in ISA testing names no actor."
+ },
+ {
+  "rid": 677,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ISA system capability is a design requirement on the manufacturer."
+ },
+ {
+  "rid": 678,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 679,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 680,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 681,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 682,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 683,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 684,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 685,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 686,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 687,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 688,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 689,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 690,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 691,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 692,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 693,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 694,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 695,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 696,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 697,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 698,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 699,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The ISA system designed by the manufacturer must use this perceived speed limit."
+ },
+ {
+  "rid": 700,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Limits the tasks of the EU reference laboratories (designated public laboratories)."
+ },
+ {
+  "rid": 701,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The central contact point is appointed by the payment or e-money institution to ensure its establishments comply."
+ },
+ {
+  "rid": 702,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Lead-in to duties of the central contact point appointed by the institution."
+ },
+ {
+  "rid": 703,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The type-approval authority must enter the remark on the certificate, the manufacturer on the certificate of conformity."
+ },
+ {
+  "rid": 704,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The type-approval authority and the manufacturer must indicate the indivisible-loads restriction on the certificates."
+ },
+ {
+  "rid": 705,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer applying for type-approval supplies the information document."
+ },
+ {
+  "rid": 706,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer applying for type-approval supplies the drawings."
+ },
+ {
+  "rid": 707,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer applying for type-approval supplies the photographs."
+ },
+ {
+  "rid": 708,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer drawing up the information document must follow this numbering."
+ },
+ {
+  "rid": 709,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The applicant completing the information document must number attachments."
+ },
+ {
+  "rid": 710,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer applying for type-approval supplies the information document."
+ },
+ {
+  "rid": 711,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer applying for type-approval supplies the drawings."
+ },
+ {
+  "rid": 712,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer applying for type-approval supplies the photographs."
+ },
+ {
+  "rid": 713,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer completes the information document."
+ },
+ {
+  "rid": 714,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer assigns the VIN."
+ },
+ {
+  "rid": 715,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer marks the VIN on the chassis."
+ },
+ {
+  "rid": 716,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer marks the VIN."
+ },
+ {
+  "rid": 717,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer composes the VIN."
+ },
+ {
+  "rid": 718,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer marks the VIN with delimiting symbols of its choice."
+ },
+ {
+  "rid": 719,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer marks the VIN."
+ },
+ {
+  "rid": 720,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer marks the VIN in a visible location."
+ },
+ {
+  "rid": 721,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer applying for type-approval supplies the information document."
+ },
+ {
+  "rid": 722,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer applying for type-approval supplies the drawings."
+ },
+ {
+  "rid": 723,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer applying for type-approval supplies the photographs."
+ },
+ {
+  "rid": 724,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer completes the information document."
+ }
+]

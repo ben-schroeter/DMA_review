@@ -1,0 +1,1052 @@
+[
+{
+"k": "02a0108acdcf",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall provide evidence on:",
+"clause": "In order to derive how critical the simulated data are, the criticality assessment shall consider the following parameters:"
+},
+{
+"k": "b8270b8d27cc",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "From the perspective of the criticality assessment, the three possible cases for assessment are:",
+"clause": "Those models or tools that may or may not be candidates for following the full credibility assessment at the discretion of the assessor;"
+},
+{
+"k": "72d866fd7a0c",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "From the perspective of the criticality assessment, the three possible cases for assessment are:",
+"clause": "Those models or tools that are not required to follow the credibility assessment."
+},
+{
+"k": "fc69b7b8ad06",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "From the perspective of the criticality assessment, the three possible cases for assessment are:",
+"clause": "The manufacturer shall document the execution of proper code verification techniques, e.g. static/dynamic code verification, convergence analysis and comparison with exact solutions if applicable"
+},
+{
+"k": "b235189e0e93",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "From the perspective of the criticality assessment, the three possible cases for assessment are:",
+"clause": "The manufacturer shall provide documentation showing that the exploration in the domain of the input parameters was sufficiently wide to identify parameters’ combination for which the M&S shows unstable or unrealistic behaviour."
+},
+{
+"k": "681aeb2f96ff",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "From the perspective of the criticality assessment, the three possible cases for assessment are:",
+"clause": "The manufacturer shall adopt sanity/consistency checking procedures whenever data allows."
+},
+{
+"k": "5caf826bdd72",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "From the perspective of the criticality assessment, the three possible cases for assessment are:",
+"clause": "The manufacturer shall document numerical error estimates (e.g. discretization error, rounding error, iterative procedures convergence);"
+},
+{
+"k": "00ebbf5356f4",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "From the perspective of the criticality assessment, the three possible cases for assessment are:",
+"clause": "The numerical errors shall be kept sufficiently bounded to not affect validation."
+},
+{
+"k": "ce14c636d0fc",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "From the perspective of the criticality assessment, the three possible cases for assessment are:",
+"clause": "The manufacturer shall provide supporting documentation demonstrating that the most critical parameters influencing the simulation output have been identified by means of sensitivity analysis techniques such as by applying a perturbation of the model’s parameters;"
+},
+{
+"k": "b5e3de0a5d5d",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "From the perspective of the criticality assessment, the three possible cases for assessment are:",
+"clause": "The manufacturer shall demonstrate that robust calibration procedures have been adopted when identifying and calibrating the most critical parameters in order to increase the credibility of the developed toolchain."
+},
+{
+"k": "525eb444b757",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "Metrics for validation may include:",
+"clause": "The validation shall show that these KPIs are met."
+},
+{
+"k": "7b56eebe9e62",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "Metrics for validation may include:",
+"clause": "The manufacturer shall define the logical scenarios used for virtual testing toolchain validation."
+},
+{
+"k": "1332f41c0f91",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "Metrics for validation may include:",
+"clause": "They shall be able to cover to the maximum possible extent the ODD of virtual testing for ADS validation"
+},
+{
+"k": "90189c6159e3",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The exact methodology depends on the structure and purpose of the toolchain. The validation may consist of one or more of the following:",
+"clause": "The validation shall show that the KPIs identified in 3.4.5.3.1. of the present part are met."
+},
+{
+"k": "3d7fba323a12",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The exact methodology depends on the structure and purpose of the toolchain. The validation may consist of one or more of the following:",
+"clause": "The documentation shall not only provide evidence of the simulation model validation but shall also be used to obtain sufficient information on the processes and products that provide overall credibility of the toolchain used."
+},
+{
+"k": "6d6fedfd0435",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The exact methodology depends on the structure and purpose of the toolchain. The validation may consist of one or more of the following:",
+"clause": "The type-approval authority shall assess the documentation provided by the manufacturer and may carry out physical tests of the complete integrated tool"
+},
+{
+"k": "596c613bc715",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The exact methodology depends on the structure and purpose of the toolchain. The validation may consist of one or more of the following:",
+"clause": "The assessment shall be consist of two phases."
+},
+{
+"k": "fecc2bfcc64c",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The exact methodology depends on the structure and purpose of the toolchain. The validation may consist of one or more of the following:",
+"clause": "The manufacturer shall demonstrate to have appropriately estimated the critical model’s inputs by means of robust techniques such as multiple repetitions for the assessment of the quantity;"
+},
+{
+"k": "7d61311ec09f",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The exact methodology depends on the structure and purpose of the toolchain. The validation may consist of one or more of the following:",
+"clause": "The manufacturer shall demonstrate that the critical model’s parameters that cannot be estimated identically are characterised by means of a distribution and/or confidence intervals;"
+},
+{
+"k": "bba60042b74b",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The exact methodology depends on the structure and purpose of the toolchain. The validation may consist of one or more of the following:",
+"clause": "The manufacturer shall provide evidence that the modelling assumptions are given a quantitative characterisation of the generated uncertainty (e.g. comparing the output of different modelling approaches whenever possible)."
+},
+{
+"k": "28745687fc24",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "Characterisation of aleatory vs. epistemic uncertainty:",
+"clause": "The manufacturer shall aim to distinguish between the aleatory component of the uncertainty (which can only be estimated but not reduced) and the epistemic uncertainty deriving from the lack of knowledge in the virtualisation of the process (that can instead be reduced)."
+},
+{
+"k": "3b193ab86a11",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The manufacturer shall produce a document (a ‘simulation handbook’) structured in line with the present outline to provide evidence for the topics presented."
+},
+{
+"k": "45a49ea15f1a",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The documentation shall be delivered together with the corresponding release of the M&S and related produced data."
+},
+{
+"k": "3cf492915a6e",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The manufacturer shall provide clear references that allow the documentation to be traced back to the corresponding M&S/data;"
+},
+{
+"k": "f97826d3ace5",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The documentation shall be maintained throughout the whole lifecycle of the M&S utilization."
+},
+{
+"k": "ac6b442ab67e",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The manufacturer shall notify without delay any safety critical occurrences to the type-approval authorities, market surveillance authorities and the Commission."
+},
+{
+"k": "7f7f9b98c93f",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The manufacturer shall report within one month any short-term occurrences, as described in Appendix 1, which needs to be remedied by the manufacturer to the type-approval authorities, market surveillance authorities and the Commission."
+},
+{
+"k": "7aa09ce9adf7",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The manufacturer shall report every year to the type-approval authority that granted the approval on the occurrences listed in Appendix 1."
+},
+{
+"k": "7e80dbde4175",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The report shall provide evidence of the ADS performance on safety relevant occurrences in the field."
+},
+{
+"k": "aeba10949880",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "In particular, it shall demonstrate that:"
+},
+{
+"k": "52994daa513b",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall report every year to the type-approval authority that granted the approval on the occurrences listed in Appendix 1. The report shall provide evidence of the ADS performance on safety relevant occurrences in the field. In particular, it shall demonstrate that:",
+"clause": "The granting type-approval authority shall share this information with type-approval authorities, market surveillance authorities and the Commission."
+},
+{
+"k": "d18861ad25ce",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall report every year to the type-approval authority that granted the approval on the occurrences listed in Appendix 1. The report shall provide evidence of the ADS performance on safety relevant occurrences in the field. In particular, it shall demonstrate that:",
+"clause": "These data shall be exchanged by means of an agreed data exchange file."
+},
+{
+"k": "e1d1445a76d1",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall report every year to the type-approval authority that granted the approval on the occurrences listed in Appendix 1. The report shall provide evidence of the ADS performance on safety relevant occurrences in the field. In particular, it shall demonstrate that:",
+"clause": "Type-approval authorities, market surveillance authorities, and the Commission shall take all necessary steps to secure such data."
+},
+{
+"k": "358cd06cb86d",
+"doc": "32026R0977",
+"art": "Art. 1",
+"chapeau": "",
+"clause": "For the purpose of issuing quotations to manufacturers as referred to in Section 4.2, point (d), of Annex VII to Regulation (EU) 2017/745 or in Section 4.2, point (d) of Annex VII to Regulation (EU) 2017/746, as the case may be, the notified body shall have documented procedures that ensure that it only issues quotations where it has received from the manufacturer the following information:"
+},
+{
+"k": "dc17abf6d0b8",
+"doc": "32026R0977",
+"art": "Art. 1",
+"chapeau": "1. For the purpose of issuing quotations to manufacturers as referred to in Section 4.2, point (d), of Annex VII to Regulation (EU) 2017/745 or in Section 4.2, point (d) of Annex VII to Regulation (EU) 2017/746, as the case may be, the notified body shall have documented procedures that ensure that it only issues quotations where it has received from the manufacturer the following information:",
+"clause": "For the purpose of issuing quotations for conformity assessment activities related to changes and modifications as referred to in points (h) or re-certification referred to in point (i), the notified body shall refrain from seeking the information referred to in points (b) to (g), provided that the manufacturer confirms there have been no changes to the information submitted."
+},
+{
+"k": "2c35a0c2775e",
+"doc": "32026R0977",
+"art": "Art. 1",
+"chapeau": "",
+"clause": "The notified body shall ensure that, in the documented procedures referred to in paragraph 1, the exchanges of technical information and regulatory guidance, namely the structured dialogue with manufacturers, cover aspects relevant to issue quotations, including the information listed in paragraph 1."
+},
+{
+"k": "087ceda7ccfe",
+"doc": "32026R0977",
+"art": "Art. 1",
+"chapeau": "",
+"clause": "The notified body shall issue a quotation which includes at least the following:"
+},
+{
+"k": "e40742c1326b",
+"doc": "32026R0977",
+"art": "Art. 1",
+"chapeau": "3. The notified body shall issue a quotation which includes at least the following:",
+"clause": "such estimations may refer to hourly fees only when the duration of the specific activity cannot be predetermined;"
+},
+{
+"k": "3f5d079f33c2",
+"doc": "32026R0977",
+"art": "Art. 1",
+"chapeau": "",
+"clause": "The notified body shall inform the manufacturer in advance about any increase above 10 % of the estimated costs, giving reason of such an increase."
+},
+{
+"k": "766be3fa0c6b",
+"doc": "32026R0977",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "For the purposes of Section 4.5.1, second paragraph, third indent, of Annex VII to Regulation (EU) 2017/745 and Section 4.5.1, second paragraph, third indent, of Annex VII to Regulation (EU) 2017/746, the notified body shall have documented procedures to ensure that the shortest possible timeline is agreed with the manufacturer, taking into consideration the following:"
+},
+{
+"k": "63543b8ab59d",
+"doc": "32026R0977",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "The notified body shall ensure that conformity assessment activities are completed according to the following maximum timelines:"
+},
+{
+"k": "8b4070501ff5",
+"doc": "32026R0977",
+"art": "Art. 2",
+"chapeau": "2. The notified body shall ensure that conformity assessment activities are completed according to the following maximum timelines:",
+"clause": "The conformity assessment activities referred to in points (b) and (c) of the first subparagraph of this paragraph shall be conducted in parallel when carried out in accordance with Annex IX to Regulation (EU) 2017/745 or Annex IX to Regulation (EU) 2017/746, as applicable, provided that the required input from the assessment of the relevant technical documentation is taken into account when developing the audit programme."
+},
+{
+"k": "47196074a068",
+"doc": "32026R0977",
+"art": "Art. 2",
+"chapeau": "2. The notified body shall ensure that conformity assessment activities are completed according to the following maximum timelines:",
+"clause": "Unless otherwise agreed between the notified body and the manufacturer, the activities referred to in points (b) and (c) of the first subparagraph of this paragraph shall start the day after the signature of the contract referred to in point (a) of the first subparagraph of this paragraph."
+},
+{
+"k": "01f1afe4cc5c",
+"doc": "32026R0977",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "The notified body shall complete the assessment of a planned substantial change to the quality management system or to the device range covered by an EU quality management system certificate or an EU quality assurance certificate, and the assessment of a change to the approved device covered by an EU technical documentation assessment certificate or an EU type-examination certificate, in the following maximum timelines:"
+},
+{
+"k": "58e2c056efa1",
+"doc": "32026R0977",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "The notified body shall continue the conformity assessment activities until a decision on issuing or refusing a certificate is made."
+},
+{
+"k": "0a520bf0748a",
+"doc": "32026R0977",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "Expiry of the maximum timelines referred to in paragraphs 2 and 3 or the use of the maximum number of interruptions referred to in Article 3 shall not be sufficient reason for the notified body to refuse issuing a certificate or refuse approving a change."
+},
+{
+"k": "d95ccfc000bd",
+"doc": "32026R0977",
+"art": "Art. 3",
+"chapeau": "1. Where there is a need for a manufacturer to address non-compliances, or duly justified questions and requests from the notified body that are necessary for its assessment, the notified body may interrupt the timeline of the conformity assessment activities for a maximum of:",
+"clause": "Where the notified body and the manufacturer agree on a rolling review of the technical documentation, they shall also agree on a plan for submitting parts of the technical documentation and possible additional interruptions to those referred to in points (b) and (c) of the first subparagraph."
+},
+{
+"k": "1b47d0528ea6",
+"doc": "32026R0977",
+"art": "Art. 3",
+"chapeau": "1. Where there is a need for a manufacturer to address non-compliances, or duly justified questions and requests from the notified body that are necessary for its assessment, the notified body may interrupt the timeline of the conformity assessment activities for a maximum of:",
+"clause": "The notified body shall agree with the manufacturer on the duration of the interruption and inform the manufacturer in writing."
+},
+{
+"k": "7d7f94d74611",
+"doc": "32026R0977",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "In addition to the interruptions referred to in paragraph 1, the notified body shall interrupt the timeline of the conformity assessment activity where an opinion of the EMA, a regulatory authority, an expert panel or an EU reference laboratory is needed."
+},
+{
+"k": "cc0b224a412e",
+"doc": "32026R0977",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "Such interruption shall not be counted and cumulated with those referred to in paragraph 1."
+},
+{
+"k": "101702c23d35",
+"doc": "32026R0977",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "The notified body shall inform the manufacturer in writing about the reason for the interruption referred to in the first subparagraph and its expected duration."
+},
+{
+"k": "1dd2ba74e5fb",
+"doc": "32026R0977",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "The duration of any of the interruptions referred to in paragraph 1 shall be extended only if duly justified and the notified body and the manufacturer agree on the extension in writing."
+},
+{
+"k": "1e50e060163e",
+"doc": "32026R0977",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "The notified body shall establish, document and implement, as part of its quality management system as referred to in Section 2.1 of Annex VII to Regulation (EU) 2017/745 and in Section 2.1 of Annex VII to Regulation (EU) 2017/746, a system to monitor the duration of conformity assessment activities and their costs."
+},
+{
+"k": "4d593c2e2711",
+"doc": "32026R0977",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "The monitoring system referred to in paragraph 1 shall provide the following information:"
+},
+{
+"k": "01cb50962cc3",
+"doc": "32026R0977",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "The monitoring system referred to in paragraph 1 shall provide the information referred to in paragraph 2, points (a) and (b), for the following activities:"
+},
+{
+"k": "c8f22cb51e4a",
+"doc": "32026R0977",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "By 30 April of every year, the notified body shall draw up an annual report on timelines and costs of conformity assessment activities that presents the information referred to in paragraphs 2 and 3."
+},
+{
+"k": "17b379c3fd0d",
+"doc": "32026R0977",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "It shall consider, in the report, the conformity assessment activities it completed during the previous year."
+},
+{
+"k": "0620a2e40d71",
+"doc": "32026R0977",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "The notified body shall publish the report on its website and inform the authority responsible for the notified body and the Commission."
+},
+{
+"k": "050c9a278b8c",
+"doc": "32026R0977",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "The notified body shall ensure that the documented procedures for the renewal of product certificates referred to in Section 4.11, second paragraph, of Annex VII to Regulation (EU) 2017/745 or Section 4.11, second paragraph, of Annex VII to Regulation (EU) 2017/746, as applicable, require the manufacturer to lodge an application for the re-certification reviews and to provide the following information from the initial certification or the last re-certification:"
+},
+{
+"k": "60c8a8baa55d",
+"doc": "32026R0977",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "The notified body shall ensure that the documented procedures referred to in paragraph 1 require the manufacturer to provide also a list of changes to the approved device which are not yet notified and are necessary to:"
+},
+{
+"k": "967646e732da",
+"doc": "32026R0977",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "Where the changes referred to in paragraph 2 are necessary on the basis of new scientific findings, the manufacturer shall indicate, in the list referred to in that paragraph, if that basis is:"
+},
+{
+"k": "3ef3bbf7dab7",
+"doc": "32026R0977",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "The notified body shall assess the documentation referred to in paragraphs 1 and 2, received from the manufacturer, within 90 days at the maximum from the date of its receipt."
+},
+{
+"k": "ae451ea67514",
+"doc": "32026R0977",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "As part of that assessment, the notified body shall:"
+},
+{
+"k": "eb97966ecc56",
+"doc": "32026R0977",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "If the notified body finds that the documentation received for the re-certification reviews is not sufficient to complete the assessment, it shall ask the manufacturer to provide clarification."
+},
+{
+"k": "2b30bea7753a",
+"doc": "32026R0977",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "The notified body shall ensure that the documented procedures for the renewal of the quality management system certificates referred to in Section 4.11, first paragraph, of Annex VII to Regulation (EU) 2017/745 or Section 4.11, first paragraph, of Annex VII to Regulation (EU) 2017/746, as applicable, shall require the manufacturers to lodge an application for the re-certification and, within 90 days at the maximum from the date of receipt of such application, the notified body to:"
+},
+{
+"k": "859a4f661395",
+"doc": "32026R0977",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "If the notified body finds that information from the manufacturer, additional to that referred to in paragraph 1, points (b) to (f), is necessary to complete the assessment for the re-certification reviews, it shall ask the manufacturer to provide such information."
+},
+{
+"k": "a4ff6e19629b",
+"doc": "32026R0977",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "For the purpose of taking the decision on re-certification referred to in Section 4.11, fourth paragraph, of Annex VII to Regulation (EU) 2017/745 and in Section 4.11, fourth paragraph, of Annex VII to Regulation (EU) 2017/746, the notified body shall limit, within its documented procedures, re-certification activities to assessing the documentation referred to in Article 5(1) and (2) and Article 6(1), as applicable."
+},
+{
+"k": "76016c48072b",
+"doc": "32026R0977",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "The notified body shall ensure that, within its documented procedures, the decision is made and the certificates are re-issued within a maximum period of 20 days, starting on the day after the final review referred to in Article 5(4), point (f), or Article 6(1), point (g), of this Regulation, as applicable, is completed and ending on the day the certificates are issued and entered in Eudamed, in accordance with Section 4.8 of Annex VII to Regulation (EU) 2017/745 or Section 4.8 of Annex VII to Regulation (EU) 2017/746, as applicable."
+},
+{
+"k": "8826881cba61",
+"doc": "32026R0977",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "Where the decision on the renewal of the certificate is made earlier than three months before the expiry date of the certificate, by way of derogation from paragraph 2 the maximum period of 20 days shall start three months before the expiry date of such certificate."
+},
+{
+"k": "ff810d52dd81",
+"doc": "32014D0148",
+"art": "Annex",
+"chapeau": "",
+"clause": "Advanced electronic signatures mentioned in Article 1 paragraph 1 of the Decision must comply with one of the following ETSI technical specifications:"
+},
+{
+"k": "21ce7383881d",
+"doc": "32014D0148",
+"art": "Annex",
+"chapeau": "Advanced electronic signatures mentioned in Article 1 paragraph 1 of the Decision must comply with one of the following ETSI technical specifications:",
+"clause": "Associated signature container mentioned in Article 1 paragraph 1 of the Decision must comply with the following ETSI technical specifications:"
+},
+{
+"k": "488e98e9f6de",
+"doc": "32019L0171",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "Member States shall adopt and publish, by 29 February 2020 at the latest, the laws, regulations and administrative provisions necessary to comply with this Directive."
+},
+{
+"k": "573a2cc7603b",
+"doc": "32021L1980",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "Member States shall adopt and publish, by 30 April 2022 at the latest, the laws, regulations and administrative provisions necessary to comply with this Directive."
+},
+{
+"k": "ef5f495e125d",
+"doc": "32021L1980",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "They shall communicate the text of those provisions to the Commission forthwith."
+},
+{
+"k": "99a0ac029ec2",
+"doc": "32021L1980",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "Member States shall communicate to the Commission the text of the main provisions of national law that they adopt in the field covered by this Directive."
+},
+{
+"k": "066e9eaff097",
+"doc": "32017L1975",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "Member States shall adopt and publish, by [12 months after the date of entry into force of this directive] at the latest, the laws, regulations and administrative provisions necessary to comply with this Directive."
+},
+{
+"k": "6c4e1c2e3fac",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "The guidance follows a structure of three sections and contains a number of appendices. The three sections are intended to stand-alone from each other. When reading through all the sections at once, there is some overlap in the explanations provided. This is intentional. Sections 1 to 3 are drafted for the following target audiences:",
+"clause": "a re-export also occurs if, during a transit through the customs territory of the Union according to point (11) of Article 2 of the EU dual-use Regulation, an exit summary declaration has to be lodged because the final destination of the items has been changed;"
+},
+{
+"k": "f95b86b4d8ba",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "Any natural or legal person or any partnership that:",
+"clause": "This is not just a matter of being obliged to comply with export controls, but also in its own self-interest."
+},
+{
+"k": "370b97c08790",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "Example:",
+"clause": "The definition of software indicates that in order to be listed, the software must exist at some point in a tangible medium or expression."
+},
+{
+"k": "61e635ec0010",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "Example:",
+"clause": "This means that in order to be classified as listed dual-use technology, the technical data or technical assistance must contain specific information necessary for the development, production or use of the goods specified in categories 0 through 9."
+},
+{
+"k": "58a9787f5049",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "Example:",
+"clause": "The exporter is obliged to adequately assess the technology to determine if it meets the threshold for dual-use control."
+},
+{
+"k": "2860bdd3d08a",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "Example:",
+"clause": "Only these parts are licence required if the researcher or research organisation is in need of guidance, they can contact their national competent authority."
+},
+{
+"k": "c9193fb6b4cb",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "The General Software Note includes three de-controls for listed software in category 1 to 9:",
+"clause": "This has to be decided on a case-by-case basis via the internal export screening procedures and, where appropriate, in consultation with the competent authority."
+},
+{
+"k": "ebbf1e783555",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "The General Software Note includes three de-controls for listed software in category 1 to 9:",
+"clause": "The reference to ‘without restrictions’ has to be understood as not limiting the access to only a restricted group of persons."
+},
+{
+"k": "48ffb8560af7",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "The following three are authorization requirements on a case-by case basis:",
+"clause": "An authorisation is required for provision of technical assistance related to dual-use items."
+},
+{
+"k": "24a7a4e79103",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "The following three are authorization requirements on a case-by case basis:",
+"clause": "The transit, or brokering of listed dual-use items and provision of technical assistance for listed dual-use items may be prohibited or may require an authorisation, respectively, if the item is or may be intended, in its entirety or in part, for uses referred to in Article 4(1) of the EU dual-use Regulation."
+},
+{
+"k": "e201443e4311",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "The following three are authorization requirements on a case-by case basis:",
+"clause": "It is the competent authority that decides whether an authorisation is required or a transit is prohibited."
+},
+{
+"k": "c37b5c6d7078",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "Examples:",
+"clause": "In some cases information sharing with the competent export control authority may be mandatory under EU and national laws and regulations."
+},
+{
+"k": "145b1d80db71",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "Examples:",
+"clause": "The technical assistance must be specific enough to meet the technology thresholds in Annex I to the dual-use Regulation."
+},
+{
+"k": "23e47773aadd",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "Examples:",
+"clause": "If a publication contains controlled technology, does the author, the university or the scientific publisher have to apply for a licence?"
+},
+{
+"k": "b6836e6ae77f",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "Examples:",
+"clause": "Employees accessing controlled technology or software abroad on a professional visit generally have to apply for a licence before traveling."
+},
+{
+"k": "f78af688de6c",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "Examples:",
+"clause": "The exporter, and thus the one who must apply for a licence, is the one that is the contractual partner of the consignee in the third country and has the power for determining the sending or transmission of the items from the customs territory of the EU (for Annex I items)."
+},
+{
+"k": "a0c262bad975",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "Examples:",
+"clause": "In other words, the consortium partner itself or the consortium leader itself may have to request a licence before sending off the dual-use items."
+},
+{
+"k": "e54574268690",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "Examples:",
+"clause": "These parameters must be assessed against legal obligations set out in the EU and national export control laws."
+},
+{
+"k": "f7938a894242",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "It presents an adaptation of the ICP core elements to make them more suitable for use in a research context. This adaptation is based on feedback received from the research community and it is articulated along the following subsections:",
+"clause": "Develop a commitment statement stating that staff members (scientific and administrative) shall comply with all EU and national dual-use export control laws and regulations by applying the mitigating measures foreseen in the organisation’s policies and procedures."
+},
+{
+"k": "9f5c27f6765e",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "It presents an adaptation of the ICP core elements to make them more suitable for use in a research context. This adaptation is based on feedback received from the research community and it is articulated along the following subsections:",
+"clause": "In some Member States, this function must be a member of the top-level management."
+},
+{
+"k": "5f56dfa874dd",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "It presents an adaptation of the ICP core elements to make them more suitable for use in a research context. This adaptation is based on feedback received from the research community and it is articulated along the following subsections:",
+"clause": "Also, it should have direct access and a reporting obligation to the top management."
+},
+{
+"k": "6bb080e63e4c",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "It presents an adaptation of the ICP core elements to make them more suitable for use in a research context. This adaptation is based on feedback received from the research community and it is articulated along the following subsections:",
+"clause": "While all concerned staff must adhere to the organisation’s compliance procedures when performing their work, typically the responsibility to identify sensitive projects and apply the required checks lies with the project leader."
+},
+{
+"k": "60aa18daae67",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "It presents an adaptation of the ICP core elements to make them more suitable for use in a research context. This adaptation is based on feedback received from the research community and it is articulated along the following subsections:",
+"clause": "Depending on the organisation’s needs this person may only have to handle tasks relating to dual-use export control on a part-time basis."
+},
+{
+"k": "4482257d5d21",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "It presents an adaptation of the ICP core elements to make them more suitable for use in a research context. This adaptation is based on feedback received from the research community and it is articulated along the following subsections:",
+"clause": "The implementation of this element must be shared by administrative and scientific staff as their compliance roles have a mutually reinforcing impact on the operation of an ICP."
+},
+{
+"k": "7023e911a8a5",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "s their compliance roles have a mutually reinforcing impact on the operation of an ICP. The aim is to set up screening procedures that specify the steps involved for complying with the export control law and the organisation’s internal control policies. Depending on the scope and the sensitivity of the research undertaken, the export control screening process can be relevant to several activities:",
+"clause": "Therefore, the export screening process shall address both possibilities and introduce screening procedures and checks for identifying whether a specific research activity entails the ‘"
+},
+{
+"k": "f3efb572526b",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "s their compliance roles have a mutually reinforcing impact on the operation of an ICP. The aim is to set up screening procedures that specify the steps involved for complying with the export control law and the organisation’s internal control policies. Depending on the scope and the sensitivity of the research undertaken, the export control screening process can be relevant to several activities:",
+"clause": "Individual researchers must be able to identify and report export control issues while conducting their research."
+},
+{
+"k": "6323bd763c0a",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "s their compliance roles have a mutually reinforcing impact on the operation of an ICP. The aim is to set up screening procedures that specify the steps involved for complying with the export control law and the organisation’s internal control policies. Depending on the scope and the sensitivity of the research undertaken, the export control screening process can be relevant to several activities:",
+"clause": "In all instances discussed above, the export screening procedures to be set up shall consider the following aspects:"
+},
+{
+"k": "2dfe5a19be7d",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "If the result of the items classification and the risk assessment of the activity leads to the conclusion that the activity is controlled further aspects need to be addressed as below:",
+"clause": "In a limited number of cases, it might be determined that the organisation or the individual researcher must refrain from a certain activity or that a project or engagement with a collaborating organisation cannot take place."
+},
+{
+"k": "85817791c211",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "If the result of the items classification and the risk assessment of the activity leads to the conclusion that the activity is controlled further aspects need to be addressed as below:",
+"clause": "These procedures shall enable individual researchers, students, project leaders and administrative staff to contribute to the assessment of the export control risks relating to the organisation’s activities."
+},
+{
+"k": "6c6998736aa9",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "If the result of the items classification and the risk assessment of the activity leads to the conclusion that the activity is controlled further aspects need to be addressed as below:",
+"clause": "If the researcher or research organisation is aware or suspects that an activity or project entails such a risk, it must abstain from engaging further to this research and immediately inform the competent authorities who will conclude whether a license application is necessary."
+},
+{
+"k": "6b446c46e057",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "If the result of the items classification and the risk assessment of the activity leads to the conclusion that the activity is controlled further aspects need to be addressed as below:",
+"clause": "As part of a sound compliance culture, scientific and administrative staff must feel confident and reassured when they raise questions or report concerns about compliance in good faith."
+},
+{
+"k": "0c1b965ceab5",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "If the result of the items classification and the risk assessment of the activity leads to the conclusion that the activity is controlled further aspects need to be addressed as below:",
+"clause": "A research organisation’s document retention policy must comply with relevant obligations set in the national law or practice (e.g. obligation to keep and track documents relating to an export authorisation for at least a certain amount of time) and it could provide for additional requirements when conducting research featuring controlled items, technologies and software."
+},
+{
+"k": "6dea90ff08fe",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "If the result of the items classification and the risk assessment of the activity leads to the conclusion that the activity is controlled further aspects need to be addressed as below:",
+"clause": "In some cases, based on national provisions, a technical assistance licence is required or the supply of technical assistance is prohibited."
+},
+{
+"k": "c058ac5f6e7d",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "If the result of the items classification and the risk assessment of the activity leads to the conclusion that the activity is controlled further aspects need to be addressed as below:",
+"clause": "A licence may be required in case a sanctioned entity or a natural/legal person of a sanctioned country seeks cooperation inside the EU."
+},
+{
+"k": "b32bdda9669a",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "If the result of the items classification and the risk assessment of the activity leads to the conclusion that the activity is controlled further aspects need to be addressed as below:",
+"clause": "In some cases such cooperation is prohibited according to EU sanctions."
+},
+{
+"k": "a6a1789e3151",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "If the result of the items classification and the risk assessment of the activity leads to the conclusion that the activity is controlled further aspects need to be addressed as below:",
+"clause": "A licence may be required in case a sanctioned entity or natural/legal person of a sanctioned country seeks cooperation inside the EU."
+},
+{
+"k": "007069dfbaf4",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "If the result of the items classification and the risk assessment of the activity leads to the conclusion that the activity is controlled further aspects need to be addressed as below:",
+"clause": "In some national cases, a technical assistance licence is required"
+},
+{
+"k": "bb7a03844c17",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "If the result of the items classification and the risk assessment of the activity leads to the conclusion that the activity is controlled further aspects need to be addressed as below:",
+"clause": "A licence may be required in case a sanctioned entity or natural/legal person of a sanctioned destination seeks cooperation inside the customs territory of the Union."
+},
+{
+"k": "26efb39c88fd",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "If the result of the items classification and the risk assessment of the activity leads to the conclusion that the activity is controlled further aspects need to be addressed as below:",
+"clause": "In some cases such cooperation is prohibited according to EU sanctions"
+},
+{
+"k": "f42f5a97ee3c",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "If the result of the items classification and the risk assessment of the activity leads to the conclusion that the activity is controlled further aspects need to be addressed as below:",
+"clause": "an unconvincing explanation is given as to why the collaboration is required, given the partner’s/end-user’s normal business, or the technical sophistication of the items;"
+},
+{
+"k": "5a1bdc976d14",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "EU list of national measures is available in the following webpage:",
+"clause": "( 44 ) Article 12(4) of the EU dual-use Regulation states that granting an authorisation may be subject to an obligation to provide an end-use statement."
+},
+{
+"k": "68ca7ff4fade",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "EU list of national measures is available in the following webpage:",
+"clause": "and (2) whether the end-use statement shall contain the letterhead of the end-user/consignee in the country of final destination."
+},
+{
+"k": "cdf7a5328fc5",
+"doc": "32021H1700",
+"art": "Annex",
+"chapeau": "EU list of national measures is available in the following webpage:",
+"clause": "Even without a national obligation to submit a correctly filled-out and signed end-use statement, an end-use statement is a useful means to check the reliability of the end-user/consignee and the information can be used to determine if an authorisation is required for non-listed dual-use items, where there are stated end-use concerns in the sense of the catch-all provisions in Article 4 of the EU dual-use Regulation."
+},
+{
+"k": "ff4fc423ad9e",
+"doc": "52020XC0519(01)",
+"art": "",
+"chapeau": "",
+"clause": "Pursuant to Article 59(2) of Regulation (EU) 2017745, Member States shall inform the Commission and other Member States of any national derogation granted for a medical device."
+},
+{
+"k": "0b6d67c1b31c",
+"doc": "52020XC0519(01)",
+"art": "",
+"chapeau": "",
+"clause": "The Commission may adopt Union-wide derogations only in response to national derogations notified to the Commission by a Member State."
+},
+{
+"k": "1f669d19c86e",
+"doc": "52020XC0519(01)",
+"art": "",
+"chapeau": "",
+"clause": "The information referred to in points 1 to 5 of sub-section B is required to allow the Commission to assess whether the adoption of a Union-wide derogation would be duly justified."
+},
+{
+"k": "c509abe5bf52",
+"doc": "52020XC0519(01)",
+"art": "",
+"chapeau": "",
+"clause": "Pursuant to Article 59(3), first subparagraph, of Regulation (EU) 2017/745, the Commission shall adopt Union-wide derogations by means of implementing acts."
+},
+{
+"k": "f6471e2ba2e5",
+"doc": "52020XC0519(01)",
+"art": "",
+"chapeau": "",
+"clause": "Those implementing acts shall be adopted in accordance with the examination procedure established under Regulation (EU) No 182/2011 of the European Parliament and of the Council ( 8 ) ."
+},
+{
+"k": "ad429767bc1b",
+"doc": "52020XC0519(01)",
+"art": "",
+"chapeau": "",
+"clause": "On duly justified imperative grounds of urgency relating to the health and safety of humans, Article 59(3), second subparagraph, of Regulation (EU) 2017/745 stipulates that the Commission shall adopt immediately applicable implementing acts without its prior submission to the relevant Comitology committee as provided for in Article 8 in conjunction with Article 5 of Regulation (EU) No 182/2011."
+},
+{
+"k": "c58bacfa9c20",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": "\"Effective gramme\" (0 1) of \"special fissile material\" means:",
+"clause": "\"Explosives\" (1) means solid, liquid or gaseous substances or mixtures of substances which, in their application as primary, booster, or main charges in warheads, demolition and other applications, are required to detonate."
+},
+{
+"k": "1623b7f65656",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": ":",
+"clause": "Measurement of initial relative permeability must be performed on fully annealed materials."
+},
+{
+"k": "d4608d30567f",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": ":",
+"clause": "In the case of thermoset materials, degree of cure of a dry test specimen shall be a minimum of 90 % as defined by ASTM E 2160-04 or equivalent national standard."
+},
+{
+"k": "5da5f276c4f2",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": "’ may be used for each machine tool model as an alternative to individual machine tests and is determined as follows:",
+"clause": "If any axis of a machine model not specified in 2B001.a. to 2B001.c. has a 'stated \"unidirectional positioning repeatability\" equal to or less than the specified \"unidirectional positioning repeatability\" of each machine tool model plus 0,7 μm, the builder should be required to reaffirm the accuracy level once every eighteen months."
+},
+{
+"k": "f9ade7af268c",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": "’ may be used for each machine tool model as an alternative to individual machine tests and is determined as follows:",
+"clause": "For the purpose of 2B001.a. to 2B001.c., the measurement of axes shall be made according to test procedures in 5.3.2. of ISO 230-2:2014."
+},
+{
+"k": "fe9f9e5e6a1d",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": "’ may be used for each machine tool model as an alternative to individual machine tests and is determined as follows:",
+"clause": "Tests for axes longer than 2 meters shall be made over 2 m segments."
+},
+{
+"k": "89ced9bb1cdf",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": ":",
+"clause": "A machine tool having at least two of the three turning, milling or grinding capabilities (e.g., a turning machine with milling capability), must be evaluated against each applicable entry 2B001.a., b. or c."
+},
+{
+"k": "bd5756cc0e73",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": ":",
+"clause": "A machine tool having an additive manufacturing capability in addition to a turning, milling or grinding capability must be evaluated against each applicable entry 2B001.a., .b. or .c."
+},
+{
+"k": "41b70c3837c4",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": ":",
+"clause": "probe, stylus length, motion parameters, environment) and with \"all compensations available\" shall be compared to the 1,7+L/1 000 μm threshold."
+},
+{
+"k": "23a8784d15a7",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": "or national equivalents may be used for each machine tool model if provided to, and accepted by, national authorities instead of individual machine tests. Determination of stated positioning accuracy:",
+"clause": "If any axis of a machine tool not specified in 2B201.a., 2B201.b. or 2B201.c. has a stated positioning accuracy of 6 μm or better (less) for grinding machines, and 8 μm or better (less) for milling and turning machines, both according to ISO 230-2:1988 ( 6 ) , then the builder should be required to reaffirm the accuracy level once every eighteen months."
+},
+{
+"k": "df54a18e7a6c",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": ":",
+"clause": "A machine tool having at least two of the three turning, milling or grinding capabilities (e.g., a turning machine with milling capability), must be evaluated against each applicable entry 2B201.a., .b. or .c."
+},
+{
+"k": "f20d2d60c4a4",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": ":",
+"clause": "probe, stylus, length, motion parameters, environments) and with all compensations available shall be compared to the (1,7 + L/800) μm threshold."
+},
+{
+"k": "f87a191d6de4",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": ":",
+"clause": "‘Transmit/receive modules’, or ‘transmit modules’, or ‘transmit/receive MMICs’ or ‘transmit MMICs’ may or may not have N integrated radiating antenna elements where N is the number of transmit or transmit/receive channels."
+},
+{
+"k": "4858936fd7e5",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": ":",
+"clause": "Computers, related equipment and \"software\" performing telecommunications or \"local area network\" functions must also be evaluated against the performance characteristics of Category 5, Part 1 (Telecommunications)."
+},
+{
+"k": "9e666cecce3f",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": ":",
+"clause": "All floating point operations must be expressed in operations per processor cycle;"
+},
+{
+"k": "e79ea4e25324",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": ":",
+"clause": "\"APP\" values must be calculated for processor combinations containing processors specially designed to enhance performance by aggregation, operating simultaneously and sharing memory;"
+},
+{
+"k": "0a7de926eb47",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": ":",
+"clause": "To meet paragraph a. of Note 3, all of the following must apply:"
+},
+{
+"k": "25975ae6aff9",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": ":",
+"clause": "When necessary as determined by the appropriate authority in the exporter's country, details of items must be accessible and provided to the authority upon request, in order to establish any of the following:"
+},
+{
+"k": "e2881c6bc273",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": ":",
+"clause": "Manufacturers are not required to measure the surface roughness listed in 6A004.e.2. unless the optical element was designed or manufactured with the intent to meet, or exceed, the control parameter."
+},
+{
+"k": "97f3dd25bc21",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": ":",
+"clause": "In 6A005 ‘Wall-plug efficiency’ is defined as the ratio of \"laser\" output power (or \"average output power\") to total electrical input power required to operate the \"laser\", including the power supply/conditioning and thermal conditioning/heat exchanger."
+},
+{
+"k": "72fc251d2da7",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": ":",
+"clause": "For the purpose of this note, total mass includes all components required to operate the \"laser\", e.g., \"laser\", power supply, heat exchanger, but excludes external optics for beam conditioning or delivery."
+},
+{
+"k": "5fac794947a6",
+"doc": "32023R0996",
+"art": "Annex",
+"chapeau": ":",
+"clause": "For the purposes of 9A010.d., ‘response time’ is the time required to achieve 90 % of total rated thrust from start-up."
+},
+{
+"k": "4427a85a02b2",
+"doc": "32022R0945",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "The fees levied by the EU reference laboratories shall be non-discriminatory, fair, reasonable and proportionate to the services rendered."
+},
+{
+"k": "504af85a6635",
+"doc": "32022R0945",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "The EU reference laboratories shall set the fees based on incurred costs."
+},
+{
+"k": "9a0a68f0b488",
+"doc": "32022R0945",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "The amount of the fee covering the costs referred to in Article 1(1), point (f), shall be determined by calculating a percentage of the combined costs referred to in Article 1(1), points (a) to (e), and shall not constitute more than 7 % of the those costs."
+}
+]

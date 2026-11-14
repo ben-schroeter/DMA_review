@@ -39,7 +39,7 @@ row_id,name,identifier,celex_measured,status,note
 39,FDI Screening Regulation,Regulation (EU) 2019/452,32019R0452,adopted,
 40,Non-cash payment fraud Directive,Directive (EU) 2019/713,32019L0713,adopted,
 41,Market Surveillance Regulation,Regulation (EU) 2019/1020,32019R1020,adopted,
-42,E-evidence Regulation,Regulation (EU) 2023/1543,32023R1543,adopted,
+42,E-evidence Regulation,Regulation (EU) 2023/1543,32023R1543;32023L1544,adopted,Includes Directive (EU) 2023/1544 on legal representatives (added November 2026)
 43,Open Data Directive (PSI),Directive (EU) 2019/1024,32019L1024,adopted,
 44,Platform-to-Business (P2B) Regulation,Regulation (EU) 2019/1150,32019R1150,adopted,
 51,Terrorist Content Online Regulation,Regulation (EU) 2021/784,32021R0784,adopted,
@@ -107,3 +107,13 @@ row_id,name,identifier,celex_measured,status,note
 129,European Single Access Point (ESAP),Regulation (EU) 2023/2859,32023R2859;32023L2864;32023R2869,adopted,Added November 2026 (scope decision; notes/scope_2026-11.md)
 130,Cybercrime Directive,Directive 2013/40/EU,32013L0040,adopted,Added November 2026 (scope decision; notes/scope_2026-11.md)
 131,Child Sexual Abuse Directive,Directive 2011/93/EU,32011L0093,adopted,Added November 2026 (scope decision; notes/scope_2026-11.md)
+132,Antitrust Procedure Regulation,Regulation (EC) No 1/2003,32003R0001,adopted,"Added November 2026, second round (notes/scope_2026-11.md); its revision is tracked on the Forthcoming list"
+133,Services Directive,Directive 2006/123/EC,32006L0123,adopted,"Added November 2026, second round (notes/scope_2026-11.md)"
+134,Medical Devices Regulation,Regulation (EU) 2017/745,32017R0745,adopted,"Added November 2026, second round (notes/scope_2026-11.md)"
+135,In Vitro Diagnostic Medical Devices Regulation,Regulation (EU) 2017/746,32017R0746,adopted,"Added November 2026, second round (notes/scope_2026-11.md)"
+136,Vehicle General Safety Regulation,Regulation (EU) 2019/2144,32019R2144,adopted,"Added November 2026, second round (notes/scope_2026-11.md)"
+137,Dual-Use Regulation,Regulation (EU) 2021/821,32021R0821,adopted,"Added November 2026, second round (notes/scope_2026-11.md)"
+138,Low Voltage Directive,Directive 2014/35/EU,32014L0035,adopted,"Added November 2026, second round (notes/scope_2026-11.md)"
+139,RoHS Directive,Directive 2011/65/EU,32011L0065,adopted,"Added November 2026, second round (notes/scope_2026-11.md)"
+140,WEEE Directive,Directive 2012/19/EU,32012L0019,adopted,"Added November 2026, second round (notes/scope_2026-11.md)"
+141,Fourth Anti-Money Laundering Directive,Directive (EU) 2015/849,32015L0849,adopted,"Added November 2026, second round (notes/scope_2026-11.md); in force until 10 July 2027, when the Anti-Money Laundering Regulation (row 68) replaces it; measured as originally adopted (amended by Directive (EU) 2018/843)"

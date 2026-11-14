@@ -321,9 +321,9 @@
  },
  {
   "row_id": 42,
-  "celex": "32023R1543",
+  "celex": "32023R1543;32023L1544",
   "name": "E-evidence Regulation",
-  "objectives": "Sets rules allowing a judicial authority in one Member State, in criminal proceedings, to order a service provider offering services in the EU and established or represented in another Member State to produce or preserve electronic evidence, regardless of where the data are stored. It creates European Production and Preservation Orders, with deadlines, notification of the enforcing state and fundamental rights safeguards.",
+  "objectives": "Sets rules allowing a judicial authority in one Member State, in criminal proceedings, to order a service provider offering services in the EU and established or represented in another Member State to produce or preserve electronic evidence, regardless of where the data are stored. It creates European Production and Preservation Orders, with deadlines, notification of the enforcing state and fundamental rights safeguards. The companion Directive (EU) 2023/1544 requires service providers offering services in the EU to designate an establishment or appoint a legal representative in the EU to receive and comply with such orders.",
   "source": "Arts 1-2, 4-11 and recitals 1-12 of the act",
   "verified": "act text read"
  },
@@ -860,6 +860,86 @@
   "celex": "32011L0093",
   "name": "Child Sexual Abuse Directive",
   "objectives": "Sets minimum rules on criminal offences and sanctions for the sexual abuse and sexual exploitation of children, child sexual abuse material and solicitation of children online. It strengthens prevention and protection of victims, and requires Member States to ensure prompt removal of web pages containing or disseminating child sexual abuse material hosted in their territory and to seek removal elsewhere, with the option to block access.",
+  "source": "Arts. 1-3 and recitals of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 132,
+  "celex": "32003R0001",
+  "name": "Antitrust Procedure Regulation",
+  "objectives": "Sets the procedure for applying the EU antitrust rules (Articles 101 and 102 TFEU). It abolished the system of notifying agreements to the Commission: firms must assess for themselves whether agreements meet the exemption conditions, while the Commission, national competition authorities and national courts apply the rules in parallel within a network. It gives the Commission investigative powers (requests for information, inspections, interviews) and the power to impose fines of up to 10% of worldwide turnover and commitments.",
+  "source": "Arts. 1-3 and recitals of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 133,
+  "celex": "32006L0123",
+  "name": "Services Directive",
+  "objectives": "Aims to make it easier for service providers to establish themselves and provide services across the EU while maintaining high-quality services. Member States must simplify procedures, set up points of single contact where providers can complete formalities online, review and remove discriminatory or unjustified authorisation schemes and requirements, and cooperate on supervision. Providers must give recipients specified information, and recipients may not be discriminated against on grounds of nationality or residence.",
+  "source": "Arts. 1-3 and recitals of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 134,
+  "celex": "32017R0745",
+  "name": "Medical Devices Regulation",
+  "objectives": "Sets rules for placing medical devices (including software) on the EU market and for clinical investigations, to ensure a high level of safety and health while supporting innovation. It tightens the designation and supervision of notified bodies, requires clinical evaluation, post-market surveillance and vigilance reporting, introduces a unique device identification system and the EUDAMED database, and makes manufacturers, authorised representatives, importers and distributors responsible for compliance.",
+  "source": "Arts. 1-3 and recitals of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 135,
+  "celex": "32017R0746",
+  "name": "In Vitro Diagnostic Medical Devices Regulation",
+  "objectives": "Sets rules for placing in vitro diagnostic medical devices (such as laboratory tests and self-tests) on the EU market and for performance studies. It introduces a risk-based classification under which most devices now need a notified body assessment, requires evidence of scientific validity and clinical performance, and adds post-market surveillance, vigilance reporting and unique device identification through EUDAMED.",
+  "source": "Arts. 1-3 and recitals of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 136,
+  "celex": "32019R2144",
+  "name": "Vehicle General Safety Regulation",
+  "objectives": "Sets type-approval requirements for the general safety of cars, vans, trucks, buses and trailers, their systems and tyres, to protect occupants and vulnerable road users. New vehicles must carry advanced safety systems such as intelligent speed assistance, driver drowsiness and attention warning, advanced emergency braking, emergency lane keeping and event data recorders, and the Regulation sets the framework for approving automated and fully automated vehicles; through its annex, UN rules on vehicle cybersecurity and software updates become mandatory.",
+  "source": "Arts. 1-3 and recitals of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 137,
+  "celex": "32021R0821",
+  "name": "Dual-Use Regulation",
+  "objectives": "Establishes the EU regime for controlling exports, brokering, technical assistance, transit and transfer of dual-use items: goods, software and technology that can have both civilian and military uses, including cyber-surveillance items. Exports of listed items need an authorisation; a catch-all clause covers unlisted items; exporters must keep records and, for some authorisations, operate an internal compliance programme; the control list is updated by delegated acts.",
+  "source": "Arts. 1-3 and recitals of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 138,
+  "celex": "32014L0035",
+  "name": "Low Voltage Directive",
+  "objectives": "Aims to ensure that electrical equipment working at 50-1,000 V AC or 75-1,500 V DC meets safety objectives protecting people, domestic animals and property, while guaranteeing the functioning of the internal market. Manufacturers must carry out conformity assessment, draw up technical documentation and an EU declaration of conformity and affix the CE marking; importers and distributors have verification duties; market surveillance follows the New Legislative Framework.",
+  "source": "Arts. 1-3 and recitals of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 139,
+  "celex": "32011L0065",
+  "name": "RoHS Directive",
+  "objectives": "Restricts the use of hazardous substances (such as lead, mercury, cadmium, hexavalent chromium and certain flame retardants and phthalates) in electrical and electronic equipment, to protect human health and the environment and support recovery of waste equipment. Manufacturers must ensure compliance, draw up technical documentation and a declaration of conformity and affix the CE marking; exemptions for specific uses are granted and reviewed through delegated acts.",
+  "source": "Arts. 1-3 and recitals of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 140,
+  "celex": "32012L0019",
+  "name": "WEEE Directive",
+  "objectives": "Aims to prevent or reduce the adverse impacts of waste electrical and electronic equipment and improve resource efficiency. Member States must ensure separate collection and meet collection targets (65% of equipment placed on the market, or 85% of waste generated, from 2019); producers must finance collection and treatment under extended producer responsibility, register in each Member State, report and inform users; treatment and recovery targets apply.",
+  "source": "Arts. 1-3 and recitals of the act",
+  "verified": "act text read"
+ },
+ {
+  "row_id": 141,
+  "celex": "32015L0849",
+  "name": "Fourth Anti-Money Laundering Directive",
+  "objectives": "Aims to prevent the use of the EU financial system for money laundering and terrorist financing. Obliged entities (banks, financial institutions, auditors, lawyers, estate agents, gambling providers, traders in goods above set cash thresholds and, after the 2018 amendment, crypto-exchange and wallet providers) must apply risk-based customer due diligence, identify beneficial owners, report suspicious transactions to financial intelligence units and keep records; Member States must set up central beneficial ownership registers. Applies until 10 July 2027, when the Anti-Money Laundering Regulation replaces it.",
   "source": "Arts. 1-3 and recitals of the act",
   "verified": "act text read"
  }

@@ -465,14 +465,9 @@
   "board": null
  },
  "32019R0817": {
-  "status": "full",
-  "docs": [
-   {
-    "ref": "SWD(2017) 473",
-    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52017SC0473"
-   }
-  ],
-  "note": "SWD(2017) 473 (executive summary SWD(2017) 474)",
+  "status": "none",
+  "docs": [],
+  "note": "",
   "proposal_year": 2017,
   "board": null
  },
@@ -521,7 +516,7 @@
  "32021R0241": {
   "status": "none",
   "docs": [],
-  "note": "none (proposal not accompanied by an impact assessment)",
+  "note": "",
   "proposal_year": 2020,
   "board": null
  },
@@ -551,7 +546,7 @@
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52018SC0320"
    }
   ],
-  "note": "SWD(2018) 320",
+  "note": "",
   "proposal_year": 2018,
   "board": {
    "first": "positive",
@@ -569,7 +564,7 @@
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52018SC0305"
    }
   ],
-  "note": "SWD(2018) 305 (executive summary SWD(2018) 306)",
+  "note": "",
   "proposal_year": 2018,
   "board": {
    "first": "negative",
@@ -587,7 +582,7 @@
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52018SC0307"
    }
   ],
-  "note": "SWD(2018) 307 (executive summary SWD(2018) 308)",
+  "note": "",
   "proposal_year": 2018,
   "board": null
  },
@@ -629,7 +624,7 @@
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52018SC0312"
    }
   ],
-  "note": "SWD(2018) 312 (executive summary SWD(2018) 313)",
+  "note": "",
   "proposal_year": 2018,
   "board": {
    "first": "positive with reservations",
@@ -661,7 +656,7 @@
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021SC0037"
    }
   ],
-  "note": "SWD(2021) 37 (executive summary SWD(2021) 38)",
+  "note": "",
   "proposal_year": 2021,
   "board": {
    "first": "negative",
@@ -917,7 +912,7 @@
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022SC0030"
    }
   ],
-  "note": "SWD(2022) 30 (executive summary SWD(2022) 31)",
+  "note": "",
   "proposal_year": 2022,
   "board": {
    "first": "negative",
@@ -1061,7 +1056,7 @@
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022SC0068"
    }
   ],
-  "note": "None (proposal states an impact assessment was not necessary)",
+  "note": "",
   "proposal_year": 2022,
   "board": null
  },
@@ -1073,7 +1068,7 @@
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021SC0392"
    }
   ],
-  "note": "SWD(2021) 392 (executive summary SWD(2021) 393)",
+  "note": "",
   "proposal_year": 2021,
   "board": {
    "first": "positive",
@@ -1239,7 +1234,7 @@
  "32024R0795": {
   "status": "none",
   "docs": [],
-  "note": "none (proposal relied on existing programmes' impact assessments)",
+  "note": "",
   "proposal_year": 2023,
   "board": null
  },
@@ -1276,7 +1271,7 @@
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022SC0721"
    }
   ],
-  "note": "SWD(2022) 721 (executive summary SWD(2022) 722)",
+  "note": "",
   "proposal_year": 2022,
   "board": {
    "first": "positive with reservations",
@@ -1353,7 +1348,7 @@
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023SC0161"
    }
   ],
-  "note": "SWD(2023) 161 (executive summary SWD(2023) 162)",
+  "note": "",
   "proposal_year": 2023,
   "board": {
    "first": "negative",
@@ -1448,14 +1443,9 @@
   }
  },
  "32024R1735": {
-  "status": "swd",
-  "docs": [
-   {
-    "ref": "SWD(2023) 68",
-    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023SC0068"
-   }
-  ],
-  "note": "none (staff working document SWD(2023) 68 instead)",
+  "status": "none",
+  "docs": [],
+  "note": "",
   "proposal_year": 2023,
   "board": null
  },
@@ -1494,7 +1484,7 @@
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022SC0289"
    }
   ],
-  "note": "SWD(2022) 289 (executive summary SWD(2022) 290)",
+  "note": "",
   "proposal_year": 2022,
   "board": {
    "first": "negative",
@@ -1565,7 +1555,7 @@
  "32025R0038": {
   "status": "none",
   "docs": [],
-  "note": "None (no impact assessment; relies on 2018 Digital Europe Programme IA)",
+  "note": "",
   "proposal_year": 2023,
   "board": null
  },
@@ -1636,7 +1626,7 @@
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023SC0121"
    }
   ],
-  "note": "SWD(2023) 121 (executive summary SWD(2023) 122)",
+  "note": "",
   "proposal_year": 2023,
   "board": {
    "first": "positive with reservations",
@@ -1802,7 +1792,7 @@
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021SC0170"
    }
   ],
-  "note": "",
+  "note": "SWD(2021) 170 (executive summary SWD(2021) 171)",
   "proposal_year": 2021,
   "board": {
    "first": "negative",
@@ -1847,7 +1837,7 @@
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021SC0344"
    }
   ],
-  "note": "",
+  "note": "SWD(2021) 344 (executive summary SWD(2021) 345)",
   "proposal_year": 2021,
   "board": {
    "first": "positive",
@@ -1881,6 +1871,128 @@
   ],
   "note": "impact assessment SWD(2026) 114 (executive summary SWD(2026) 116); evaluation of the predecessor Regulation 316/2014 in SWD(2024) 268",
   "proposal_year": null,
+  "board": null
+ },
+ "32003R0001": {
+  "status": "pre",
+  "docs": [],
+  "note": "proposed in 2000 (COM(2000) 582), before the Commission introduced impact assessments (2003)",
+  "proposal_year": 2000,
+  "board": null
+ },
+ "32006L0123": {
+  "status": "full",
+  "docs": [
+   {
+    "ref": "SEC(2004) 21",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52004SC0021"
+   }
+  ],
+  "note": "extended impact assessment SEC(2004) 21 (13 January 2004), one of the first under the 2003 system",
+  "proposal_year": 2004,
+  "board": null
+ },
+ "32011L0065": {
+  "status": "full",
+  "docs": [
+   {
+    "ref": "SEC(2008) 2930",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52008SC2930"
+   }
+  ],
+  "note": "impact assessment SEC(2008) 2930 (summary SEC(2008) 2931)",
+  "proposal_year": 2008,
+  "board": null
+ },
+ "32012L0019": {
+  "status": "full",
+  "docs": [
+   {
+    "ref": "SEC(2008) 2933",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52008SC2933"
+   }
+  ],
+  "note": "impact assessment SEC(2008) 2933 (summary SEC(2008) 2934)",
+  "proposal_year": 2008,
+  "board": null
+ },
+ "32014L0035": {
+  "status": "full",
+  "docs": [
+   {
+    "ref": "SEC(2011) 1376",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52011SC1376"
+   }
+  ],
+  "note": "joint impact assessment SEC(2011) 1376 for the alignment of nine product directives with the New Legislative Framework",
+  "proposal_year": 2011,
+  "board": null
+ },
+ "32015L0849": {
+  "status": "full",
+  "docs": [
+   {
+    "ref": "SWD(2013) 21",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52013SC0021"
+   }
+  ],
+  "note": "impact assessment SWD(2013) 21 (executive summary SWD(2013) 22)",
+  "proposal_year": 2013,
+  "board": null
+ },
+ "32017R0745": {
+  "status": "full",
+  "docs": [
+   {
+    "ref": "SWD(2012) 273",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52012SC0273"
+   }
+  ],
+  "note": "joint impact assessment SWD(2012) 273 for the medical devices and in vitro diagnostics regulations (executive summary SWD(2012) 274)",
+  "proposal_year": 2012,
+  "board": null
+ },
+ "32017R0746": {
+  "status": "full",
+  "docs": [
+   {
+    "ref": "SWD(2012) 273",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52012SC0273"
+   }
+  ],
+  "note": "joint impact assessment SWD(2012) 273 for the medical devices and in vitro diagnostics regulations (executive summary SWD(2012) 274)",
+  "proposal_year": 2012,
+  "board": null
+ },
+ "32019R2144": {
+  "status": "full",
+  "docs": [
+   {
+    "ref": "SWD(2018) 190",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52018SC0190"
+   }
+  ],
+  "note": "impact assessment SWD(2018) 190 (executive summary SWD(2018) 191)",
+  "proposal_year": 2018,
+  "board": null
+ },
+ "32021R0821": {
+  "status": "full",
+  "docs": [
+   {
+    "ref": "SWD(2016) 315",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52016SC0315"
+   }
+  ],
+  "note": "impact assessment SWD(2016) 315, report on the EU export control policy review (executive summary SWD(2016) 314)",
+  "proposal_year": 2016,
+  "board": null
+ },
+ "32023L1544": {
+  "status": "none",
+  "docs": [],
+  "note": "",
+  "proposal_year": 2018,
   "board": null
  }
 }

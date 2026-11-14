@@ -1,0 +1,77 @@
+{
+ "celex": "32003R0001",
+ "name": "Antitrust Procedure Regulation",
+ "proposal": "52000PC0582",
+ "impact_assessment": "none (proposed in 2000, before impact assessments)",
+ "evidence_rating": "thin: Commission evaluations based on enforcement records, consultation and a support study; no independent study of the Regulation's effect on enforcement outcomes",
+ "summary": "Regulation 1/2003 ended the notification of agreements to the Commission and shared enforcement with national authorities and courts. The Commission's 2024 evaluation judged the framework broadly effective, citing 225 Commission enforcement decisions and more than EUR 42 billion in fines over 20 years, but found procedures slow and less suited to digital markets; a revision is under way.",
+ "last_reviewed": "2026-11-14",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "No monitoring indicators set in the proposal; assessed through the Commission's reports listed below",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "activity (evaluation)",
+   "objective": "Effective and uniform enforcement of Articles 101 and 102",
+   "indicator": "Commission enforcement decisions and fines",
+   "target_or_baseline": "",
+   "evidence": "2004-2024: 225 Commission enforcement decisions; fines above EUR 42 billion (about EUR 37 billion upheld by the EU Courts).",
+   "status": "reported as activity",
+   "sources": "SWD(2024) 217"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2024-reg1-evaluation",
+   "citation": "European Commission (2024), Evaluation of Regulations 1/2003 and 773/2004 (antitrust enforcement framework), SWD(2024) 217",
+   "authors": "European Commission",
+   "year": 2024,
+   "title": "Evaluation of Regulations 1/2003 and 773/2004 (antitrust enforcement framework)",
+   "venue": "SWD(2024) 217",
+   "url": "https://competition-policy.ec.europa.eu/antitrust-and-cartels/legislation/regulation-12003_en",
+   "pdf_url": "",
+   "source_type": "Commission evaluation",
+   "method": "ex-post evaluation (public consultation, workshop, external support study)",
+   "outcomes": "enforcement effectiveness; procedures",
+   "direction": "positive with gaps",
+   "headline": "Framework broadly met its goal of effective, efficient and uniform application of EU competition rules; 225 enforcement decisions and over EUR 42 billion in fines in 20 years; procedures seen as slow, notably for digital markets",
+   "summary_plain": "The Commission found the decentralised antitrust system it created in 2004 works, but that cases take long, which led to a planned revision.",
+   "period_geography": "EU, 2004-2024",
+   "quality": "Commission self-assessment",
+   "verified": "page summary via search",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20260908090748/https://competition-policy.ec.europa.eu/antitrust-and-cartels/legislation/regulation-12003_en"
+  },
+  {
+   "id": "ec-2009-reg1-report",
+   "citation": "European Commission (2009), Report on the functioning of Regulation 1/2003, COM(2009) 206",
+   "authors": "European Commission",
+   "year": 2009,
+   "title": "Report on the functioning of Regulation 1/2003",
+   "venue": "COM(2009) 206",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52009DC0206",
+   "pdf_url": "",
+   "source_type": "Commission implementation report",
+   "method": "implementation report",
+   "outcomes": "enforcement; cooperation in the competition network",
+   "direction": "positive",
+   "headline": "Five years on, the Regulation had transformed enforcement: more cases by national authorities, cooperation through the European Competition Network, and an end to notifications",
+   "summary_plain": "The Commission's first review found the 2004 reform had made antitrust enforcement across the EU more active and better coordinated.",
+   "period_geography": "EU, 2004-2008",
+   "quality": "Commission self-assessment",
+   "verified": "summary via search",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20250903070627/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52009DC0206"
+  }
+ ]
+}

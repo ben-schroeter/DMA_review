@@ -1,0 +1,77 @@
+{
+ "celex": "32021R0821",
+ "name": "Dual-Use Regulation",
+ "proposal": "52016PC0616",
+ "impact_assessment": "SWD(2016) 315 (executive summary SWD(2016) 314)",
+ "evidence_rating": "thin: annual Commission implementation reports with licensing and trade statistics; no evaluation of effects",
+ "summary": "The recast export-control regime applies since September 2021. The Commission's annual implementation reports put dual-use exports at about 2.7% of EU exports (EUR 128 billion in 2020) and describe licensing activity, but licensing decisions are not public and no evaluation of the Regulation's effects exists.",
+ "last_reviewed": "2026-11-14",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "No monitoring indicators set in the proposal; assessed through the Commission's reports listed below",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "activity (implementation report)",
+   "objective": "Effective and consistent export controls",
+   "indicator": "Licences, denials, controlled trade",
+   "target_or_baseline": "",
+   "evidence": "Dual-use exports about 2.7% of EU exports (EUR 128 billion, 2020); latest report covers 2024.",
+   "status": "reported as activity",
+   "sources": "COM(2022) 434; COM(2026) 296"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2026-dualuse-report",
+   "citation": "European Commission (2026), Report on the implementation of Regulation (EU) 2021/821 (export control data for 2024), COM(2026) 296 (with SWD(2026) 162)",
+   "authors": "European Commission",
+   "year": 2026,
+   "title": "Report on the implementation of Regulation (EU) 2021/821 (export control data for 2024)",
+   "venue": "COM(2026) 296 (with SWD(2026) 162)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026DC0296",
+   "pdf_url": "",
+   "source_type": "Commission implementation report",
+   "method": "implementation report (Member State licensing data)",
+   "outcomes": "export controls; transparency",
+   "direction": "reported as activity",
+   "headline": "Aggregated EU and Member State export control data for 2024; aims to increase transparency of licensing",
+   "summary_plain": "The Commission publishes yearly figures on dual-use export licensing, but they describe activity, not effects.",
+   "period_geography": "EU, 2024",
+   "quality": "activity data",
+   "verified": "summary via search",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": ""
+  },
+  {
+   "id": "ec-2022-dualuse-report",
+   "citation": "European Commission (2022), Report on the implementation of Regulation (EU) 2021/821 (2021), COM(2022) 434",
+   "authors": "European Commission",
+   "year": 2022,
+   "title": "Report on the implementation of Regulation (EU) 2021/821 (2021)",
+   "venue": "COM(2022) 434",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022DC0434",
+   "pdf_url": "",
+   "source_type": "Commission implementation report",
+   "method": "implementation report",
+   "outcomes": "export controls",
+   "direction": "reported as activity",
+   "headline": "Dual-use exports about 2.7% of EU exports, EUR 128 billion in 2020",
+   "summary_plain": "Dual-use items make up a small but significant share of EU exports.",
+   "period_geography": "EU, 2020-2021",
+   "quality": "activity data",
+   "verified": "summary via search",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20240612231703/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52022DC0434"
+  }
+ ]
+}

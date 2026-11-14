@@ -1,0 +1,1052 @@
+[
+{
+"k": "eacfdd9ad07e",
+"doc": "32021R0646",
+"art": "Annex I",
+"chapeau": "The test requirements are fulfilled if:",
+"clause": "The vehicle manufacturer shall provide information describing the radius of the curve to be driven and the location when the closed loop path and/or speed control shall be ended so as to ensure a free drifting in order not to interfere an automatic suppression according to point 3.3.1."
+},
+{
+"k": "2c4c2977ff26",
+"doc": "32021R0646",
+"art": "Annex I",
+"chapeau": "The test requirements are fulfilled if:",
+"clause": "In addition, the vehicle manufacturer shall demonstrate to the satisfaction of the Technical Service that the requirements for the whole speed range and lateral departure velocity range are fulfilled."
+},
+{
+"k": "e6e85a6deeb2",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "This Annex does not specify the performance criteria for the ‘The System’ covered by this Regulation but covers the methodology applied to the design process and the information which must be disclosed to the Technical Service, for type approval purposes."
+},
+{
+"k": "abe7828676d8",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "This information shall show that ‘The System’ respects, under non-fault and fault conditions, all the appropriate performance requirements specified in Part 2 of Annex I and that it is designed to operate in such a way that it does not induce safety critical risks."
+},
+{
+"k": "5887f07d5c86",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The manufacturer shall provide a documentation package which gives access to the basic design of ‘The System’ and the means by which it is linked to other vehicle systems or by which it directly controls output variables."
+},
+{
+"k": "9ac9cf8cd548",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The function(s) of ‘The System’, including the control strategies, and the safety concept, as laid down by the manufacturer, shall be explained."
+},
+{
+"k": "7779cf308bef",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "Documentation shall be brief, yet provide evidence that the design and development has had the benefit of expertise from all the system fields which are involved."
+},
+{
+"k": "7a056aa34d50",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "For periodic roadworthiness tests, the documentation shall describe how the current operational status of ‘The System’ can be checked."
+},
+{
+"k": "bc69f9109cba",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The Technical Service shall assess the documentation package to show that ‘The System’:"
+},
+{
+"k": "62919e854477",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "The Technical Service shall assess the documentation package to show that ‘The System’:",
+"clause": "Documentation shall be made available in two parts:"
+},
+{
+"k": "5ac9da97d683",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "(with the exception of that of point 2.4.4.) which shall be supplied to the Technical Service at the time of submission of the type approval application."
+},
+{
+"k": "bd9550df4fac",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "This documentation package shall be used by the Technical Service as the basic reference for the verification process set out in point 3."
+},
+{
+"k": "e8e952274038",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "The Technical Service shall ensure that this documentation package remains available for a period determined in agreement with the Approval Authority."
+},
+{
+"k": "d7a53d45d8e9",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "This period shall be at least 10 years counted from the time when production of the vehicle is definitely discontinued."
+},
+{
+"k": "5d868ef4326a",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "Additional material and analysis data of point 2.4.4. which shall be retained by the manufacturer, but made open for inspection at the time of type approval."
+},
+{
+"k": "a8617aeb433e",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "The manufacturer shall ensure that this material and analysis data remains available for a period of 10 years counted from the time when production of the vehicle is definitely discontinued."
+},
+{
+"k": "e56da7b50a92",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "A description shall be provided which gives a simple explanation of all the functions including control strategies of ‘The System’ and the methods employed to achieve the objectives, including a statement of the mechanism(s) by which control is exercised."
+},
+{
+"k": "8f8ae9c708ae",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "Any described function that can be over-ridden shall be identified and a further description of the changed rationale of the function’s operation provided."
+},
+{
+"k": "62171bc93199",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "A list of all input and sensed variables shall be provided and the working range of these defined, along with a description of how each variable affects system behaviour."
+},
+{
+"k": "2283cfbaa308",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "A list of all output variables which are controlled by ‘The System’ shall be provided and an indication given, in each case, of whether the control is direct or via another vehicle system."
+},
+{
+"k": "c81e2f41e2b1",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "The range over which ‘The System’ is likely to exercise control on each output variable shall be defined."
+},
+{
+"k": "a843683d377e",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "Limits defining the boundaries of functional operation (i.e. the external physical limits within which the system is able to maintain control) shall be stated where appropriate to system performance."
+},
+{
+"k": "5d852f8e5ecf",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "A list shall be provided, collating all the units of ‘The System’ and mentioning the other vehicle systems which are needed to achieve the control function in question."
+},
+{
+"k": "bbd262e9b9e6",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "An outline schematic showing these units in combination, shall be provided with both the equipment distribution and the interconnections made clear."
+},
+{
+"k": "29fad39bac6d",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "The function of each unit of ‘The System’ shall be outlined and the signals linking it with other units or with other vehicle systems shall be shown."
+},
+{
+"k": "a603cbf3f660",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "Interconnections within ‘The System’ shall be shown by a circuit diagram for the electric transmission links, by a piping diagram for pneumatic or hydraulic transmission equipment and by a simplified diagrammatic layout for mechanical linkages."
+},
+{
+"k": "f2afc7132056",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "The transmission links both to and from other systems shall also be shown."
+},
+{
+"k": "b4116b3ec8e9",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "There shall be a clear correspondence between transmission links and the signals carried between units."
+},
+{
+"k": "69e6aecaa63f",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "Priorities of signals on multiplexed data paths shall be stated wherever priority may be an issue affecting performance or safety."
+},
+{
+"k": "6ec0d1cbe791",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "Each unit shall be clearly and unambiguously identifiable (e.g. by marking for hardware and marking or software output for software content) to provide corresponding hardware and documentation association."
+},
+{
+"k": "eb09d46b1806",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "Where functions are combined within a single unit or indeed within a single computer, but shown in multiple blocks in the block diagram for clarity and ease of explanation, only a single hardware identification marking shall be used."
+},
+{
+"k": "1a1ceb271e3d",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "The manufacturer shall, by the use of this identification, affirm that the equipment supplied conforms to the corresponding document."
+},
+{
+"k": "eaf53e637839",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "The identification defines the hardware and software version and, where the latter changes such as to alter the function of the Unit as far as this Regulation is concerned, this identification shall also be changed."
+},
+{
+"k": "28f2205eb58d",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "The manufacturer shall provide a statement which affirms that the strategy chosen to achieve ‘The System’ objectives will not, under non-fault conditions, prejudice the safe operation of the vehicle."
+},
+{
+"k": "6a759f5fa6f8",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "In respect of software employed in ‘The System’, the outline architecture shall be explained and the design methods and tools used shall be identified."
+},
+{
+"k": "6937fdfc58a9",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "The manufacturer shall show evidence of the means by which they determined the realisation of the system logic, during the design and development process."
+},
+{
+"k": "2999971141ad",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "Documentation shall be made available in two parts:",
+"clause": "The manufacturer shall provide the Technical Service with an explanation of the design provisions built into ‘The System’ so as to generate safe operation under fault conditions."
+},
+{
+"k": "d75b5c5da5fb",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "The manufacturer shall provide the Technical Service with an explanation of the design provisions built into ‘The System’ so as to generate safe operation under fault conditions. Possible design provisions for failure in ‘The System’ are for example:",
+"clause": "In case of a failure, the driver shall be warned for example by warning signal or message display."
+},
+{
+"k": "e0955738f8e7",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "The manufacturer shall provide the Technical Service with an explanation of the design provisions built into ‘The System’ so as to generate safe operation under fault conditions. Possible design provisions for failure in ‘The System’ are for example:",
+"clause": "When the system is not deactivated by the driver, e.g. by turning the ignition (run) switch to ‘off’, or by switching off that particular function if a special switch is provided for that purpose, the warning shall be present as long as the fault condition persists."
+},
+{
+"k": "267bc6438814",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "The manufacturer shall provide the Technical Service with an explanation of the design provisions built into ‘The System’ so as to generate safe operation under fault conditions. Possible design provisions for failure in ‘The System’ are for example:",
+"clause": "If the chosen provision selects a partial performance mode of operation under certain fault conditions, then these conditions shall be stated and the resulting limits of effectiveness defined."
+},
+{
+"k": "f973a76d4619",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "The manufacturer shall provide the Technical Service with an explanation of the design provisions built into ‘The System’ so as to generate safe operation under fault conditions. Possible design provisions for failure in ‘The System’ are for example:",
+"clause": "If the chosen provision selects a second (back-up) means to realise the vehicle control system objective, the principles of the change-over mechanism, the logic and level of redundancy and any built in back-up checking features shall be explained and the resulting limits of back-up effectiveness defined."
+},
+{
+"k": "40b2d9647eb6",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "The manufacturer shall provide the Technical Service with an explanation of the design provisions built into ‘The System’ so as to generate safe operation under fault conditions. Possible design provisions for failure in ‘The System’ are for example:",
+"clause": "If the chosen provision selects the removal of the higher level electronic control function, all the corresponding output control signals associated with this function shall be inhibited, and in such a manner as to limit the transition disturbance."
+},
+{
+"k": "173604af4147",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "The manufacturer shall provide the Technical Service with an explanation of the design provisions built into ‘The System’ so as to generate safe operation under fault conditions. Possible design provisions for failure in ‘The System’ are for example:",
+"clause": "The documentation shall be supported, by an analysis which shows, in overall terms, how the system will behave on the occurrence of any of those hazards or faults which will have a bearing on vehicle control performance or safety."
+},
+{
+"k": "b3f32f430b5e",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "The manufacturer shall provide the Technical Service with an explanation of the design provisions built into ‘The System’ so as to generate safe operation under fault conditions. Possible design provisions for failure in ‘The System’ are for example:",
+"clause": "The chosen analytical approach(es) shall be established and maintained by the Manufacturer and shall be made open for inspection by the Technical Service at the time of the type approval."
+},
+{
+"k": "3f4d9608c4ff",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "The manufacturer shall provide the Technical Service with an explanation of the design provisions built into ‘The System’ so as to generate safe operation under fault conditions. Possible design provisions for failure in ‘The System’ are for example:",
+"clause": "The Technical Service shall perform an assessment of the application of the analytical approach(es)."
+},
+{
+"k": "e4e28c8ca5b1",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "The manufacturer shall provide the Technical Service with an explanation of the design provisions built into ‘The System’ so as to generate safe operation under fault conditions. Possible design provisions for failure in ‘The System’ are for example:",
+"clause": "The assessment shall include:"
+},
+{
+"k": "7770b5237a4b",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "for the functions referred to in point 2.2.:",
+"clause": "This approach shall be based on a hazard/risk analysis appropriate to system safety."
+},
+{
+"k": "89f53f3fb74b",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "for the functions referred to in point 2.2.:",
+"clause": "This shall include validation testing appropriate for validation, for example, Hardware in the Loop (HIL) testing, vehicle on-road operational testing, or any other testing appropriate for validation."
+},
+{
+"k": "0fd8d9af6608",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "for the functions referred to in point 2.2.:",
+"clause": "This documentation shall itemize the parameters being monitored and shall set out, for each fault condition of the type defined in point 2.4.4., the warning signal to be given to the driver and/or to service/technical inspection personnel."
+},
+{
+"k": "6c819a553f03",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "for the functions referred to in point 2.2.:",
+"clause": "This documentation shall describe the measures in place to ensure the ‘The System’ does not prejudice the safe operation of the vehicle when the performance of ‘The System’ is affected by environmental conditions e.g. climatic, temperature, dust ingress, water ingress, ice packing."
+},
+{
+"k": "3d6cfce34d87",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "for the functions referred to in point 2.2.:",
+"clause": "The functional operation of ‘The System’, as laid out in the documents required in point 2., shall be tested as follows:"
+},
+{
+"k": "4b2cfbb87d29",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "The functional operation of ‘The System’, as laid out in the documents required in point 2., shall be tested as follows:",
+"clause": "The Technical Service shall verify ‘The System’ under non-fault conditions by testing a number of selected functions from those described by the manufacturer in point 2.2."
+},
+{
+"k": "1eff5f12ba3c",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "The functional operation of ‘The System’, as laid out in the documents required in point 2., shall be tested as follows:",
+"clause": "For complex electronic systems, these tests shall include scenarios whereby a declared function is overridden."
+},
+{
+"k": "2f0f3347de32",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "The functional operation of ‘The System’, as laid out in the documents required in point 2., shall be tested as follows:",
+"clause": "The verification results shall correspond with the description, including the control strategies, provided by the manufacturer in point 2.2."
+},
+{
+"k": "3b158fc70165",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "The functional operation of ‘The System’, as laid out in the documents required in point 2., shall be tested as follows:",
+"clause": "The reaction of ‘The System’ shall be checked under the influence of a failure in any individual unit by applying corresponding output signals to electrical units or mechanical elements in order to simulate the effects of internal faults within the unit."
+},
+{
+"k": "5447e415cf4e",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "The functional operation of ‘The System’, as laid out in the documents required in point 2., shall be tested as follows:",
+"clause": "The Technical Service shall conduct this check for at least one individual unit, but shall not check the reaction of ‘The System’ to multiple simultaneous failures of individual units."
+},
+{
+"k": "4528d015fe67",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "The functional operation of ‘The System’, as laid out in the documents required in point 2., shall be tested as follows:",
+"clause": "The Technical Service shall verify that these tests include aspects that may have an impact on vehicle controllability and user information (HMI aspects)."
+},
+{
+"k": "1e0c8c81af51",
+"doc": "32021R0646",
+"art": "Annex Ii",
+"chapeau": "The functional operation of ‘The System’, as laid out in the documents required in point 2., shall be tested as follows:",
+"clause": "Reporting of the assessment by the Technical Service shall be performed in such a manner that allows traceability, e.g. versions of documents inspected are coded and listed in the records of the Technical Service."
+},
+{
+"k": "fc148d40c839",
+"doc": "32021R2078",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "Eudamed shall be accessible for authorised users via a restricted website (‘the restricted website’) and for non-identified users via a public website (‘the public website’)."
+},
+{
+"k": "6b9f4767c7dd",
+"doc": "32021R2078",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "Eudamed shall be accessible through machine-to-machine data exchange services to competent authorities as referred to in Article 101 of Regulation (EU) 2017/745 and Article 96 of Regulation EU 2017/746 (‘competent authorities’) and notified bodies registered in Eudamed in accordance with Article 3 of this Regulation."
+},
+{
+"k": "d9a4eaf08b68",
+"doc": "32021R2078",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "The Commission shall provide each Member State and notified body with data exchange access points enabling them to use such data exchange services upon their request."
+},
+{
+"k": "dde3708e02ef",
+"doc": "32021R2078",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "Eudamed shall be accessible through machine-to-machine data exchange services to actors other than the competent authorities and notified bodies, provided that the LAA of the actor concerned submits a request for such access as referred to in Article 3(8), first subparagraph."
+},
+{
+"k": "7daef2366ec7",
+"doc": "32021R2078",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "The Commission shall approve that request under the condition set out in Article 3(8), second subparagraph."
+},
+{
+"k": "a4cdfbe86f68",
+"doc": "32021R2078",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "In order to be granted access to Eudamed via the restricted website, a natural person shall create an account on the Commission authentication service website."
+},
+{
+"k": "eecbf3b9d26c",
+"doc": "32021R2078",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "The Commission shall register the competent authorities and the authorities responsible for the notified bodies and shall grant access to the restricted website to a first natural person to act on their behalf."
+},
+{
+"k": "2e553098f1c1",
+"doc": "32021R2078",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "For that purpose, the Member States shall provide to the Commission information on their competent authorities, the authorities responsible for notified bodies and the natural persons to become the first authorised users of those authorities."
+},
+{
+"k": "756346c82862",
+"doc": "32021R2078",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "The Commission shall register the notified bodies in Eudamed on the basis of the information in the database of notified bodies developed and managed by the Commission (NANDO)."
+},
+{
+"k": "35aa49e8ba79",
+"doc": "32021R2078",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "In order to be granted access to Eudamed via the restricted website, the first natural person acting on behalf of an actor that is a notified body shall submit an access request via the restricted website."
+},
+{
+"k": "1499b3775849",
+"doc": "32021R2078",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "The authority responsible for the notified body shall approve the request."
+},
+{
+"k": "7c2e04b6f0be",
+"doc": "32021R2078",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "In order for other entities than the ones mentioned in paragraphs 2 and 3 to be registered in Eudamed, a natural person acting on behalf of the prospective actor shall submit an actor registration request, via the restricted website."
+},
+{
+"k": "fbf90598b856",
+"doc": "32021R2078",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "The actor registration request shall include the signed declaration on information security responsibilities referred to in Article 10(1)."
+},
+{
+"k": "c8626e5557a6",
+"doc": "32021R2078",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "A national competent authority shall approve the actor registration request, except when the request concerns a sponsor of a clinical investigation or a performance study."
+},
+{
+"k": "767535debce6",
+"doc": "32021R2078",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "Upon approval of the actor registration request or, in case of a sponsor, when the actor registration request has been submitted, the natural person who submitted that request as referred to in the first subparagraph shall be automatically granted access to the restricted website and become the first authorised user, provided that the conditions in paragraph 6 are fulfilled."
+},
+{
+"k": "0d5fac5243cd",
+"doc": "32021R2078",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "For the purposes of this paragraph, the national competent authority shall be the authority of the place of establishment of the prospective actor."
+},
+{
+"k": "82437c943960",
+"doc": "32021R2078",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "As regards manufacturers established outside of the Union, the national competent authority shall be the authority responsible for the authorised representative mentioned in the actor registration request."
+},
+{
+"k": "1f3637c5a9ca",
+"doc": "32021R2078",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "As regards system or procedure pack producers established outside of the Union, the national competent authority shall be the authority of the Member State, where the first system or procedure pack of that producer is to be placed on the market."
+},
+{
+"k": "23a885abd30b",
+"doc": "32021R2078",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "In order for a natural person to be granted access to the restricted website to act on behalf of an actor, he or she shall submit an access request via the restricted website."
+},
+{
+"k": "28b541f5d011",
+"doc": "32021R2078",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "A LAA or LUA of that actor shall approve the access request."
+},
+{
+"k": "fc6b04a2d274",
+"doc": "32021R2078",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "In order to become authorised users, natural persons shall accept the user rights and obligations as set out in the document referred to in Article 10(1), point (a), and consult the privacy statement referred to in point (c) of that Article."
+},
+{
+"k": "badc12e6a7c2",
+"doc": "32021R2078",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "The first authorised user of an actor shall automatically be the first LAA of that actor."
+},
+{
+"k": "f6f81305f009",
+"doc": "32021R2078",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "Authorised users shall use the open access codes of the European Medical Device Nomenclature (EMDN) when providing information on medical devices in Eudamed."
+},
+{
+"k": "3a79926fe3a7",
+"doc": "32021R2078",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "The Commission shall make the EMDN available in Eudamed free of charge."
+},
+{
+"k": "d7f56a8b4076",
+"doc": "32021R2078",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "The Commission shall set up an application support team to provide timely assistance to users of Eudamed, reachable via a dedicated functional mailbox."
+},
+{
+"k": "61d242c4042d",
+"doc": "32021R2078",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "The Commission shall make available to the users of Eudamed the relevant technical documentation on Eudamed, Frequently Asked Questions regarding Eudamed and the documentation in support of machine-to-machine data exchange services."
+},
+{
+"k": "079a0ca489e4",
+"doc": "32021R2078",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "The Commission shall be the owner of Eudamed and shall have full administration rights."
+},
+{
+"k": "12a80d4c9536",
+"doc": "32021R2078",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Personal data shall be processed in Eudamed for the purpose of complying with the obligations set out in Regulations (EU) 2017/745 and (EU) No 2017/746."
+},
+{
+"k": "7191728071a8",
+"doc": "32021R2078",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "The following categories of personal data shall be processed:"
+},
+{
+"k": "166d987943a7",
+"doc": "32021R2078",
+"art": "Art. 6",
+"chapeau": "3. The following categories of personal data shall be processed:",
+"clause": "identification and contact details, and data on professional qualifications of other natural or legal persons, which shall be reported in Eudamed for the purpose of complying with the obligations set out in Regulations (EU) 2017/745 and (EU) No 2017/746."
+},
+{
+"k": "b09204a39799",
+"doc": "32021R2078",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "The date and time of submission shall be determined based on Central European Time (CET) or Central European Summer Time (CEST), as applicable."
+},
+{
+"k": "f3db6e11f737",
+"doc": "32021R2078",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "Eudamed shall be accessible at all times, except during necessary and previously announced downtime periods due to maintenance activities, including new releases."
+},
+{
+"k": "3af244bc68d6",
+"doc": "32021R2078",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "The Commission shall display in advance a notice to that regard on the restricted website or the public website, as applicable."
+},
+{
+"k": "602f85a79815",
+"doc": "32021R2078",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "The Commission shall take all necessary measures to prevent any malfunction and to identify it, without undue delay, when it occurs."
+},
+{
+"k": "c9d0282339e6",
+"doc": "32021R2078",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "Where an actor or an authorised user suspects a malfunction, it shall immediately inform the Commission thereof."
+},
+{
+"k": "8ade0e31ee35",
+"doc": "32021R2078",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "Where the Commission identifies a malfunction, it shall take the following measures:"
+},
+{
+"k": "96d1e371141d",
+"doc": "32021R2078",
+"art": "Art. 8",
+"chapeau": "3. Where the Commission identifies a malfunction, it shall take the following measures:",
+"clause": "display, without delay, a notice to that regard (‘malfunction notice’) on the restricted website or the public website, as applicable, unless the nature of the malfunction prevents the Commission from doing so, in which case it shall, to the extent possible, display the notice on the Commission’s dedicated website for medical devices;"
+},
+{
+"k": "edc2de707988",
+"doc": "32021R2078",
+"art": "Art. 8",
+"chapeau": "3. Where the Commission identifies a malfunction, it shall take the following measures:",
+"clause": "Where the Commission suspends the periods for submission of data to Eudamed as provided for in the first subparagraph, point (b), the malfunction notice shall specify the time of the display of that notice and the likely duration of the suspension."
+},
+{
+"k": "bf16708ea974",
+"doc": "32021R2078",
+"art": "Art. 8",
+"chapeau": "here a malfunction hinders compliance with any of the obligations referred to in Article 80, Article 87(1), Article 89(5), (7), (8) and (9), Article 95(2), (4) and (6), or Article 98(2) of Regulation (EU) 2017/745, or in Article 76, Article 82(1), Article 84(5), (7), (8) and (9), Article 90(2), (4) and (6) or Article 93(2) of Regulation (EU) 2017/746, either of the following procedure shall apply:",
+"clause": "where the malfunction lasts more than 12 hours following the display of the malfunction notice, the actor shall without delay provide general information about the relevant data and an indication that the submission of data is pending due to the malfunction to the Commission, to the national competent authorities concerned and to the notified body that issued the certificate of conformity referred to in Article 56 of Regulation (EU) 2017/745 or Article 51 of Regulation (EU) 2017/746, as applicable;"
+},
+{
+"k": "a6abf06de019",
+"doc": "32021R2078",
+"art": "Art. 8",
+"chapeau": "here a malfunction hinders compliance with any of the obligations referred to in Article 80, Article 87(1), Article 89(5), (7), (8) and (9), Article 95(2), (4) and (6), or Article 98(2) of Regulation (EU) 2017/745, or in Article 76, Article 82(1), Article 84(5), (7), (8) and (9), Article 90(2), (4) and (6) or Article 93(2) of Regulation (EU) 2017/746, either of the following procedure shall apply:",
+"clause": "where the malfunction lasts more than 24 hours following the display of the malfunction notice, or where the malfunction lasts less than 24 hours and it is requested by the national competent authorities concerned after receiving the information referred to in point (a) of this paragraph, the actor shall without delay provide the relevant data to those authorities, in the manner prescribed by them."
+},
+{
+"k": "9999e2fb67cc",
+"doc": "32021R2078",
+"art": "Art. 8",
+"chapeau": "5. In addition to the suspension of periods referred to in paragraph 3, first subparagraph, point (b) of this Article, in the event of a malfunction that hinders compliance with one of the obligations set out in Regulation (EU) 2017/745 or Regulation (EU) 2017/746 other than the obligations referred to in paragraph 4 of this Article, the following procedure shall apply:",
+"clause": "where the malfunction lasts more than 36 hours following the display of the malfunction notice, the actor shall without delay provide general information about those data and an indication that the submission of data is pending due to the malfunction to the Commission, to the national competent authorities concerned and to the notified body that issued the certificate of conformity referred to in Article 56 of Regulation (EU) 2017/745 or Article 51 of Regulation (EU) 2017/746, as applicable;"
+},
+{
+"k": "4511b4d0bad1",
+"doc": "32021R2078",
+"art": "Art. 8",
+"chapeau": "5. In addition to the suspension of periods referred to in paragraph 3, first subparagraph, point (b) of this Article, in the event of a malfunction that hinders compliance with one of the obligations set out in Regulation (EU) 2017/745 or Regulation (EU) 2017/746 other than the obligations referred to in paragraph 4 of this Article, the following procedure shall apply:",
+"clause": "where the malfunction lasts more than five days following the display of the malfunction notice, the actor shall inform the national competent authorities concerned thereof and shall, if they so request, provide them with the relevant data, in the manner prescribed by them."
+},
+{
+"k": "acbfd554e6fe",
+"doc": "32021R2078",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "When the Commission has established that the malfunction has ceased, it shall communicate that information to the competent authorities."
+},
+{
+"k": "b0f67dfa275f",
+"doc": "32021R2078",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "In addition, the Commission shall display a notice to that regard on the restricted website and/or the public website, as applicable."
+},
+{
+"k": "743669ad45d4",
+"doc": "32021R2078",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "Both the communication and the notice shall indicate the duration of the malfunction and of the suspension of periods referred to in paragraph 3, point (b)."
+},
+{
+"k": "c3f3101b0f47",
+"doc": "32021R2078",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "When the Commission has displayed the notice referred to in paragraph (6), actors shall without delay enter the data that they were hindered to submit during the malfunction in Eudamed."
+},
+{
+"k": "1ab77b768513",
+"doc": "32021R2078",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "The Commission shall make available to the actors websites for the purposes of testing and training with regard to using Eudamed (‘websites for testing and training’)."
+},
+{
+"k": "ae9e76e56e87",
+"doc": "32021R2078",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "Data entered in the websites for testing and training shall be considered fictitious and shall not be made available to the public."
+},
+{
+"k": "4dfcb265dc9a",
+"doc": "32021R2078",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "Before using for the first time machine-to-machine data exchange services, an actor shall make at least one successful attempt of submission of data through machine-to-machine using a website for testing and training."
+},
+{
+"k": "dfa2283ee20e",
+"doc": "32021R2078",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "Any changes that the Commission intends to introduce to the Eudamed machine-to-machine data exchange services shall first be introduced by it in the websites for testing and training and shall be available on those websites for a period to be defined in advance by the Commission in collaboration with the Medical Device Coordination Group established under Article 103 of Regulation (EU) 2017/745."
+},
+{
+"k": "5c3d668f42f3",
+"doc": "32021R2078",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "The Commission shall inform the concerned actors via Eudamed in advance of the envisaged changes and of the period of their availability on the websites for testing and training."
+},
+{
+"k": "fb312bffde9f",
+"doc": "32021R2078",
+"art": "Art. 10",
+"chapeau": "",
+"clause": "The Commission shall make the following documents available on the restricted website:"
+},
+{
+"k": "8bc5648d4559",
+"doc": "32021R2078",
+"art": "Art. 10",
+"chapeau": "",
+"clause": "Actors shall comply with the terms and conditions set out in the documents referred to in paragraph 1, point (b), and, where applicable, point (d) of that paragraph."
+},
+{
+"k": "6705950b4432",
+"doc": "32021R2078",
+"art": "Art. 10",
+"chapeau": "",
+"clause": "Any actor or authorised user who becomes aware of or suspects an IT security incident, IT security threat or IT security risk, shall immediately inform the Commission and the concerned Member States thereof."
+},
+{
+"k": "e83c5f435398",
+"doc": "32021R2078",
+"art": "Art. 11",
+"chapeau": "",
+"clause": "Where a competent authority, an LAA or an LUA suspects a fraudulent request for access to Eudamed, they shall refuse the request and immediately inform the Commission of such refusal via the application support team referred to in Article 5(1), specifying that it concerns a suspected fraudulent access request."
+},
+{
+"k": "eaaae4b26e41",
+"doc": "32021R2078",
+"art": "Art. 11",
+"chapeau": "",
+"clause": "Where the Commission has a reasonable suspicion of fraudulent activity by an authorised user affecting the IT security of Eudamed, it shall temporarily suspend that authorised user’s access to Eudamed."
+},
+{
+"k": "eea53eedf0ca",
+"doc": "32021R2078",
+"art": "Art. 11",
+"chapeau": "",
+"clause": "In that case, the Commission shall without delay inform all Member States and the concerned actors of the suspension and its justification."
+},
+{
+"k": "c6d1b7c8ca2c",
+"doc": "32021R2078",
+"art": "Art. 11",
+"chapeau": "",
+"clause": "Any actor or authorised user who suspects a fraudulent activity by an authorised user shall without delay inform the Commission and the Member States of the suspected fraudulent activity via the application support team referred to in Article 5(1)."
+},
+{
+"k": "782201e32382",
+"doc": "32021R2078",
+"art": "Art. 11",
+"chapeau": "",
+"clause": "Where the Commission establishes a fraudulent activity in Eudamed, it shall immediately terminate the relevant authorised users’ access to Eudamed and take the necessary measures, including, where appropriate, preventing any future access to Eudamed from the related accounts created on the Commission authentication service website."
+},
+{
+"k": "aa75c260132e",
+"doc": "32021R2078",
+"art": "Art. 11",
+"chapeau": "",
+"clause": "The Commission shall without delay inform the relevant national competent authorities and the concerned actors of any measures taken pursuant to this paragraph."
+},
+{
+"k": "0a64f93af4e2",
+"doc": "32021R2226",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "(1) Manufacturers of devices referred to in Article 3, paragraphs 1 and 3, that provide instructions for use in electronic form to users instead of in paper form shall undertake a documented risk assessment which shall cover at least the following elements:"
+},
+{
+"k": "46adffaeaf95",
+"doc": "32021R2226",
+"art": "Art. 4",
+"chapeau": "(1) Manufacturers of devices referred to in Article 3, paragraphs 1 and 3, that provide instructions for use in electronic form to users instead of in paper form shall undertake a documented risk assessment which shall cover at least the following elements:",
+"clause": "evaluation of the period within which the instructions for use shall be provided in paper form at the user’s request;"
+},
+{
+"k": "a454076e793f",
+"doc": "32021R2226",
+"art": "Art. 4",
+"chapeau": "(1) Manufacturers of devices referred to in Article 3, paragraphs 1 and 3, that provide instructions for use in electronic form to users instead of in paper form shall undertake a documented risk assessment which shall cover at least the following elements:",
+"clause": "(2) The risk assessment for the provision of the instructions for use in electronic form shall be updated in view of the experience gained in the post-marketing phase."
+},
+{
+"k": "281a70dc6502",
+"doc": "32021R2226",
+"art": "Art. 5",
+"chapeau": "Manufacturers of devices referred to in Article 3, paragraphs 1 and 3, may provide instructions for use to users in electronic form instead of in paper form under the following conditions:",
+"clause": "the risk assessment referred to in Article 4 shall demonstrate that providing instructions for use in electronic form maintains or improves the level of safety obtained by providing the instructions for use in paper form;"
+},
+{
+"k": "a9f74331eedd",
+"doc": "32021R2226",
+"art": "Art. 5",
+"chapeau": "Manufacturers of devices referred to in Article 3, paragraphs 1 and 3, may provide instructions for use to users in electronic form instead of in paper form under the following conditions:",
+"clause": "they shall provide instructions for use in electronic form in all Member States where the product is made available or put into service unless duly justified in the risk assessment referred to in Article 4;"
+},
+{
+"k": "c8a0fe246dcb",
+"doc": "32021R2226",
+"art": "Art. 5",
+"chapeau": "Manufacturers of devices referred to in Article 3, paragraphs 1 and 3, may provide instructions for use to users in electronic form instead of in paper form under the following conditions:",
+"clause": "they shall have a system in place to provide the instructions for use in paper form at no additional cost for the user, within the time period set out in the risk assessment referred to in Article 4 and at the latest within 7 calendar days of receiving a request from the user or at the time of delivery of the device if so requested at the time of order;"
+},
+{
+"k": "8a99e9b4882c",
+"doc": "32021R2226",
+"art": "Art. 5",
+"chapeau": "Manufacturers of devices referred to in Article 3, paragraphs 1 and 3, may provide instructions for use to users in electronic form instead of in paper form under the following conditions:",
+"clause": "they shall provide, on the device or a leaflet, information on foreseeable medical emergency situations and, for devices fitted with a built-in system visually displaying the instructions for use, information on how to start the device;"
+},
+{
+"k": "e1c2b9d6bb56",
+"doc": "32021R2226",
+"art": "Art. 5",
+"chapeau": "Manufacturers of devices referred to in Article 3, paragraphs 1 and 3, may provide instructions for use to users in electronic form instead of in paper form under the following conditions:",
+"clause": "they shall ensure the proper design and functioning of the instructions for use in electronic form and provide verification and validation evidence to this effect;"
+},
+{
+"k": "a7f4c361653e",
+"doc": "32021R2226",
+"art": "Art. 5",
+"chapeau": "Manufacturers of devices referred to in Article 3, paragraphs 1 and 3, may provide instructions for use to users in electronic form instead of in paper form under the following conditions:",
+"clause": "for medical devices fitted with a built-in system visually displaying the instructions for use, they shall ensure that displaying the instructions for use does not impede the safe use of the device, in particular, life-monitoring or life-supporting functions;"
+},
+{
+"k": "1c812bdb4db0",
+"doc": "32021R2226",
+"art": "Art. 5",
+"chapeau": "Manufacturers of devices referred to in Article 3, paragraphs 1 and 3, may provide instructions for use to users in electronic form instead of in paper form under the following conditions:",
+"clause": "they shall provide, in their catalogue or other appropriate device information support, information on software and hardware requirements needed to display the instructions for use;"
+},
+{
+"k": "8e62cbbb59be",
+"doc": "32021R2226",
+"art": "Art. 5",
+"chapeau": "Manufacturers of devices referred to in Article 3, paragraphs 1 and 3, may provide instructions for use to users in electronic form instead of in paper form under the following conditions:",
+"clause": "they shall have a system in place to clearly indicate when the instructions for use have been revised and to inform each user of the device thereof if the revision was necessary for safety reasons;"
+},
+{
+"k": "c992e355e38c",
+"doc": "32021R2226",
+"art": "Art. 5",
+"chapeau": "Manufacturers of devices referred to in Article 3, paragraphs 1 and 3, may provide instructions for use to users in electronic form instead of in paper form under the following conditions:",
+"clause": "for devices with a defined expiry date, except implantable devices, they shall keep the instructions for use available for users in electronic form for 10 years after the last device has been placed on the market and at least 2 years after the end of the expiry date of the last produced device;"
+},
+{
+"k": "ca6e1ad0bdc3",
+"doc": "32021R2226",
+"art": "Art. 5",
+"chapeau": "Manufacturers of devices referred to in Article 3, paragraphs 1 and 3, may provide instructions for use to users in electronic form instead of in paper form under the following conditions:",
+"clause": "for devices without a defined expiry date and implantable devices, they shall keep the instructions for use available for the users in electronic form for 15 years after the last device has been placed on the market;"
+},
+{
+"k": "d784321fd2de",
+"doc": "32021R2226",
+"art": "Art. 5",
+"chapeau": "Manufacturers of devices referred to in Article 3, paragraphs 1 and 3, may provide instructions for use to users in electronic form instead of in paper form under the following conditions:",
+"clause": "the instructions for use shall be available on their website in an official language of the Union determined by the Member State in which the device is made available to the user or patient;"
+},
+{
+"k": "420fa87b0059",
+"doc": "32021R2226",
+"art": "Art. 5",
+"chapeau": "Manufacturers of devices referred to in Article 3, paragraphs 1 and 3, may provide instructions for use to users in electronic form instead of in paper form under the following conditions:",
+"clause": "effective systems and procedures shall be in place to ensure that device users having downloaded instructions for use from the website can be informed in case of updates or corrective actions with regards to those instructions for use;"
+},
+{
+"k": "681cfd0ee068",
+"doc": "32021R2226",
+"art": "Art. 5",
+"chapeau": "Manufacturers of devices referred to in Article 3, paragraphs 1 and 3, may provide instructions for use to users in electronic form instead of in paper form under the following conditions:",
+"clause": "all issued historical electronic versions of the instructions for use shall be available on the website."
+},
+{
+"k": "415e42a70781",
+"doc": "32021R2226",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "(1) Manufacturers shall clearly indicate on the label that the instructions for use of the device are supplied in electronic form instead of in paper form."
+},
+{
+"k": "fffa690f2195",
+"doc": "32021R2226",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "That information shall be provided on the packaging for each unit or, where appropriate, on the sales packaging."
+},
+{
+"k": "efcd44430554",
+"doc": "32021R2226",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "In the case of fixed installed medical devices, that information shall also be provided on the device itself."
+},
+{
+"k": "ecef992886ac",
+"doc": "32021R2226",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "In the case of software, the information shall be provided at the location from where access to the software is granted."
+},
+{
+"k": "3a6e68dabce3",
+"doc": "32021R2226",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "(2) Manufacturers shall provide information on how to access the instructions for use in electronic form."
+},
+{
+"k": "125ccb438aab",
+"doc": "32021R2226",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "That information shall be provided as set out in the second subparagraph of paragraph 1 or, if not practicable, in a paper document supplied with each device."
+},
+{
+"k": "311f5b268f16",
+"doc": "32021R2226",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "(3) The information on how to access the instructions for use in electronic form shall also contain the following:"
+},
+{
+"k": "10dec9ef7067",
+"doc": "32021R2226",
+"art": "Art. 6",
+"chapeau": "(3) The information on how to access the instructions for use in electronic form shall also contain the following:",
+"clause": "where and how instructions for use in paper form can be requested and within which time they shall be obtained at no additional cost in conformity with Article 5, point (3)."
+},
+{
+"k": "a46ab81f9a67",
+"doc": "32021R2226",
+"art": "Art. 6",
+"chapeau": "(3) The information on how to access the instructions for use in electronic form shall also contain the following:",
+"clause": "(4) Where, for devices and accessories referred to in Article 3(1), point (a), a part of the instructions for use is intended to be provided to the patient, that part shall not be provided in electronic form."
+},
+{
+"k": "5330b1184283",
+"doc": "32021R2226",
+"art": "Art. 6",
+"chapeau": "(3) The information on how to access the instructions for use in electronic form shall also contain the following:",
+"clause": "(5) The instructions for use in electronic form shall be available entirely as text, which may contain symbols and graphics, with at least the same information as the instructions for use in paper form."
+},
+{
+"k": "45cfe5602cee",
+"doc": "32021R2226",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "(1) Where manufacturers provide the instructions for use in electronic form on an electronic storage medium together with the device, or where the device itself is fitted with a built-in system visually displaying the instructions for use, the instructions for use in electronic form shall also be made accessible to the users through a website."
+},
+{
+"k": "5f0b5f52ac8e",
+"doc": "32021R2226",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "(2) Any website containing instructions for use of a device which are provided in electronic form instead of in paper form shall comply with the following requirements:"
+},
+{
+"k": "ab70e579bd95",
+"doc": "32021R2226",
+"art": "Art. 7",
+"chapeau": "(2) Any website containing instructions for use of a device which are provided in electronic form instead of in paper form shall comply with the following requirements:",
+"clause": "the instructions for use shall be provided in a commonly used format that can be read with freely available software;"
+},
+{
+"k": "bbaf81198535",
+"doc": "32021R2226",
+"art": "Art. 7",
+"chapeau": "(2) Any website containing instructions for use of a device which are provided in electronic form instead of in paper form shall comply with the following requirements:",
+"clause": "it shall be protected against unauthorised access and tampering of content in accordance with Article 4(1), point (e);"
+},
+{
+"k": "9d0cd2924220",
+"doc": "32021R2226",
+"art": "Art. 7",
+"chapeau": "(2) Any website containing instructions for use of a device which are provided in electronic form instead of in paper form shall comply with the following requirements:",
+"clause": "it shall be provided in such a way that the server downtime and display errors are reduced as far as possible;"
+},
+{
+"k": "4b8f447dc0af",
+"doc": "32021R2226",
+"art": "Art. 7",
+"chapeau": "(2) Any website containing instructions for use of a device which are provided in electronic form instead of in paper form shall comply with the following requirements:",
+"clause": "it shall fulfil the requirements of Regulation (EU) 2016/679;"
+}
+]

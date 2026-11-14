@@ -1,0 +1,45 @@
+{
+ "celex": "32011L0065",
+ "name": "RoHS Directive",
+ "proposal": "52008PC0809",
+ "impact_assessment": "SEC(2008) 2930 (summary SEC(2008) 2931)",
+ "evidence_rating": "thin: one Commission evaluation with two supporting studies",
+ "summary": "The Commission's 2023 evaluation found that the Directive has reduced hazardous substances in electrical and electronic equipment and works well overall, including as a global benchmark, but that the processes for exemptions and new restrictions lack transparency and efficiency; it proposed moving the technical assessment to the European Chemicals Agency.",
+ "last_reviewed": "2026-11-14",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "No monitoring indicators set in the proposal; assessed through the Commission's reports listed below",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2023-rohs-evaluation",
+   "citation": "European Commission (2023), Evaluation of Directive 2011/65/EU on the restriction of the use of certain hazardous substances in electrical and electronic equipment, SWD(2023) 760 (with report COM(2023) 760)",
+   "authors": "European Commission",
+   "year": 2023,
+   "title": "Evaluation of Directive 2011/65/EU on the restriction of the use of certain hazardous substances in electrical and electronic equipment",
+   "venue": "SWD(2023) 760 (with report COM(2023) 760)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023SC0760",
+   "pdf_url": "",
+   "source_type": "Commission evaluation",
+   "method": "ex-post evaluation (two external studies, consultation)",
+   "outcomes": "hazardous substances; internal market",
+   "direction": "positive with gaps",
+   "headline": "Helped reduce hazardous substances in EEE and harmonise the market; a global benchmark; exemption and restriction procedures lack transparency, efficiency and scientific robustness",
+   "summary_plain": "The Commission found the ban on hazardous substances in electronics effective, but its exemption procedures slow and opaque.",
+   "period_geography": "EU, 2011-2021",
+   "quality": "Commission self-assessment",
+   "verified": "full text read (conclusions of the report)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20240423063231/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023SC0760"
+  }
+ ]
+}

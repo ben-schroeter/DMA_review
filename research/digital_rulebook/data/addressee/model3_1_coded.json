@@ -1,0 +1,1162 @@
+[
+ {
+  "rid": 145,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Date-of-application provision for the Article 74 procedure; a legal effect, binds no actor."
+ },
+ {
+  "rid": 146,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer draws up the EU declaration of conformity under the IVDR."
+ },
+ {
+  "rid": 147,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer affixes the CE marking and must respect its proportions."
+ },
+ {
+  "rid": 148,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Vehicle design requirement binds the vehicle manufacturer seeking type-approval."
+ },
+ {
+  "rid": 149,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Vehicle design requirement binds the vehicle manufacturer seeking type-approval."
+ },
+ {
+  "rid": 150,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Saving clause preserving existing type-approvals; not a restriction."
+ },
+ {
+  "rid": 151,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Approval authorities must accept later amendment series; operates as an alternative-compliance permission."
+ },
+ {
+  "rid": 152,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Describes UN transitional provisions allowing Contracting Parties to refuse older approvals; a permission, not a duty."
+ },
+ {
+  "rid": 153,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Vehicle safety requirement binds the manufacturer seeking type-approval."
+ },
+ {
+  "rid": 154,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Test-related requirement under the type-approval tests, carried by the manufacturer (with technical service)."
+ },
+ {
+  "rid": 155,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Tyre performance testing requirement in the GSR annex, borne by tyre/vehicle manufacturers."
+ },
+ {
+  "rid": 156,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Compliance-if-fitted requirement binds the vehicle manufacturer."
+ },
+ {
+  "rid": 157,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Applicability of UN Reg 134 hydrogen-system requirements binds the vehicle manufacturer."
+ },
+ {
+  "rid": 158,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Applicability of UN Reg 134 hydrogen-system requirements binds the vehicle manufacturer."
+ },
+ {
+  "rid": 159,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Tyre rolling-resistance requirement binds tyre manufacturers/sellers."
+ },
+ {
+  "rid": 160,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The exporter must obtain export authorisation under the Dual-Use Regulation."
+ },
+ {
+  "rid": 161,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Cross-reference allowing authorities to impose authorisation requirements; a permission."
+ },
+ {
+  "rid": 162,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The exporter must obtain authorisation for cyber-surveillance items once informed."
+ },
+ {
+  "rid": 163,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The exporter must notify the competent authority."
+ },
+ {
+  "rid": 164,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Information exchanges under Art. 5 are between Member States' authorities and the Commission."
+ },
+ {
+  "rid": 165,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The broker must obtain authorisation."
+ },
+ {
+  "rid": 166,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The broker must notify the competent authority."
+ },
+ {
+  "rid": 167,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The provider of technical assistance must obtain authorisation."
+ },
+ {
+  "rid": 168,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The person transferring items within the Union must obtain authorisation."
+ },
+ {
+  "rid": 169,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Scope rule excluding Part 2 Annex IV items from general authorisations; no specific actor named."
+ },
+ {
+  "rid": 170,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The competent authority of the Member State of dispatch must issue the transfer authorisation."
+ },
+ {
+  "rid": 171,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Option for a Member State to require additional information; a permission."
+ },
+ {
+  "rid": 172,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Annex IV is updated by the Union legislator on a Commission proposal."
+ },
+ {
+  "rid": 173,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Licensing data are exchanged by Member States' competent authorities with the Commission."
+ },
+ {
+  "rid": 174,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission must connect the secure system to national licensing systems."
+ },
+ {
+  "rid": 175,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission prepares the annual report under Art. 26."
+ },
+ {
+  "rid": 176,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission prepares the annual report under Art. 26."
+ },
+ {
+  "rid": 177,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission prepares the annual report under Art. 26."
+ },
+ {
+  "rid": 178,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Exporters must keep registers."
+ },
+ {
+  "rid": 179,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Exporters' registers must contain the listed documents."
+ },
+ {
+  "rid": 180,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The operator making intra-Union transfers must keep and produce records."
+ },
+ {
+  "rid": 181,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The operator making intra-Union transfers must keep and produce records."
+ },
+ {
+  "rid": 182,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Technical note on measurement method defining controlled items; definitional."
+ },
+ {
+  "rid": 183,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Technical note on test specimen conditions defining controlled items; definitional."
+ },
+ {
+  "rid": 184,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Technical note on how to compare against a control threshold; definitional."
+ },
+ {
+  "rid": 185,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Technical note on how to compare against a control threshold; definitional."
+ },
+ {
+  "rid": 186,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Descriptive technical note on scope of list entry; not a restriction."
+ },
+ {
+  "rid": 187,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Calculation method note for APP; definitional."
+ },
+ {
+  "rid": 188,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Calculation method note for APP; definitional."
+ },
+ {
+  "rid": 189,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Conditions for falling under the Cryptography Note exclusion; definitional."
+ },
+ {
+  "rid": 190,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of wall-plug efficiency."
+ },
+ {
+  "rid": 191,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of response time."
+ },
+ {
+  "rid": 192,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The exporter using the general authorisation must notify first use."
+ },
+ {
+  "rid": 193,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Exporters may not use the general authorisation in the listed cases."
+ },
+ {
+  "rid": 194,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The national authority publishing a national general export authorisation must use the model text."
+ },
+ {
+  "rid": 195,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The national authority publishing a national general export authorisation must use the model text."
+ },
+ {
+  "rid": 196,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The national authority publishing a national general export authorisation must use the model text."
+ },
+ {
+  "rid": 197,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer draws up the EU declaration of conformity."
+ },
+ {
+  "rid": 198,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer draws up and updates the EU declaration of conformity."
+ },
+ {
+  "rid": 199,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer draws up and updates the EU declaration of conformity."
+ },
+ {
+  "rid": 200,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer draws up and updates the EU declaration of conformity."
+ },
+ {
+  "rid": 201,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer must draw up a single declaration covering all applicable Union acts."
+ },
+ {
+  "rid": 202,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer affixes the CE marking."
+ },
+ {
+  "rid": 203,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer affixes the CE marking before placing on the market."
+ },
+ {
+  "rid": 204,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Safety objectives for equipment design are implemented by the manufacturer."
+ },
+ {
+  "rid": 205,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Scope provision; not a restriction."
+ },
+ {
+  "rid": 206,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer draws up the RoHS EU declaration of conformity."
+ },
+ {
+  "rid": 207,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer draws up and updates the EU declaration of conformity."
+ },
+ {
+  "rid": 208,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer draws up and updates the EU declaration of conformity."
+ },
+ {
+  "rid": 209,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer draws up and updates the EU declaration of conformity."
+ },
+ {
+  "rid": 210,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer affixes the CE marking."
+ },
+ {
+  "rid": 211,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer affixes the CE marking before placing on the market."
+ },
+ {
+  "rid": 212,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Entry in the RoHS exemption annex setting a permitted mercury level for manufacturers; an exemption."
+ },
+ {
+  "rid": 213,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Classification of EEE into Annex III categories serves Member State registration and reporting under WEEE."
+ },
+ {
+  "rid": 214,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States draw up the implementation report; this sets its first period."
+ },
+ {
+  "rid": 215,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Member States must ensure shipments by holders/shippers meet Annex VI."
+ },
+ {
+  "rid": 216,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery targets under Art. 11: Member States ensure producers meet them."
+ },
+ {
+  "rid": 217,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery targets under Art. 11: Member States ensure producers meet them."
+ },
+ {
+  "rid": 218,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery targets under Art. 11: Member States ensure producers meet them."
+ },
+ {
+  "rid": 219,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery targets under Art. 11: Member States ensure producers meet them."
+ },
+ {
+  "rid": 220,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery targets under Art. 11: Member States ensure producers meet them."
+ },
+ {
+  "rid": 221,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery targets under Art. 11: Member States ensure producers meet them."
+ },
+ {
+  "rid": 222,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery targets under Art. 11: Member States ensure producers meet them."
+ },
+ {
+  "rid": 223,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery targets under Art. 11: Member States ensure producers meet them."
+ },
+ {
+  "rid": 224,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery targets under Art. 11: Member States ensure producers meet them."
+ },
+ {
+  "rid": 225,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery targets under Art. 11: Member States ensure producers meet them."
+ },
+ {
+  "rid": 226,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery targets under Art. 11: Member States ensure producers meet them."
+ },
+ {
+  "rid": 227,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery targets under Art. 11: Member States ensure producers meet them."
+ },
+ {
+  "rid": 228,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery targets under Art. 11: Member States ensure producers meet them."
+ },
+ {
+  "rid": 229,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery targets under Art. 11: Member States ensure producers meet them."
+ },
+ {
+  "rid": 230,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery targets under Art. 11: Member States ensure producers meet them."
+ },
+ {
+  "rid": 231,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery targets under Art. 11: Member States ensure producers meet them."
+ },
+ {
+  "rid": 232,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery targets under Art. 11: Member States ensure producers meet them."
+ },
+ {
+  "rid": 233,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery targets under Art. 11: Member States ensure producers meet them."
+ },
+ {
+  "rid": 234,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery targets under Art. 11: Member States ensure producers meet them."
+ },
+ {
+  "rid": 235,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery targets under Art. 11: Member States ensure producers meet them."
+ },
+ {
+  "rid": 236,
+  "formal": "member_states",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Recovery targets under Art. 11: Member States ensure producers meet them."
+ },
+ {
+  "rid": 237,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Selective treatment under Art. 8(2) and Annex VII is carried out by WEEE treatment operators."
+ },
+ {
+  "rid": 238,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Selective treatment under Art. 8(2) and Annex VII is carried out by WEEE treatment operators."
+ },
+ {
+  "rid": 239,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Selective treatment under Art. 8(2) and Annex VII is carried out by WEEE treatment operators."
+ },
+ {
+  "rid": 240,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Selective treatment under Art. 8(2) and Annex VII is carried out by WEEE treatment operators."
+ },
+ {
+  "rid": 241,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Treatment operators must apply the selective treatment without hindering re-use and recycling."
+ },
+ {
+  "rid": 242,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Producers must mark EEE with the crossed-out wheeled bin symbol (Art. 14(4))."
+ },
+ {
+  "rid": 243,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Producers submit the Annex X reporting information to the national register."
+ },
+ {
+  "rid": 244,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Obliged entities apply customer due diligence measures."
+ },
+ {
+  "rid": 245,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Member State's central beneficial ownership register must ensure authority access."
+ },
+ {
+  "rid": 246,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The receiving FIU (national body) must use information only for its tasks."
+ },
+ {
+  "rid": 247,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The receiving FIU (national body) must comply with use restrictions."
+ },
+ {
+  "rid": 248,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Provision giving the Annex legal effect as the technical specifications; binds no actor."
+ },
+ {
+  "rid": 249,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "BORIS is operated via the Commission's European Central Platform and e-Justice Portal."
+ },
+ {
+  "rid": 250,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Technical design of BORIS implemented by the Commission with national registers."
+ },
+ {
+  "rid": 251,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Security measures for BORIS communication are implemented by the Commission (platform) and registers."
+ },
+ {
+  "rid": 252,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "National beneficial ownership registers supply the BO record data."
+ },
+ {
+  "rid": 253,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "National registers must model BO record data on the interface specification."
+ },
+ {
+  "rid": 254,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "System operation messages are provided by the platform run by the Commission."
+ },
+ {
+  "rid": 255,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Each national register must expose a unified service interface."
+ },
+ {
+  "rid": 256,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The platform's method of operation is set by the Commission."
+ },
+ {
+  "rid": 257,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission-run e-Justice Portal must provide reference data."
+ },
+ {
+  "rid": 258,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "Standards in the platform's method of operation used by the Commission."
+ },
+ {
+  "rid": 259,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The Commission-run portal must provide harmonised search criteria."
+ },
+ {
+  "rid": 260,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Payment functionality of BORIS provided through the Commission-run portal/platform."
+ },
+ {
+  "rid": 261,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "BORIS availability is ensured by the Commission operating the platform and portal."
+ },
+ {
+  "rid": 262,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Calculation rule for weights Member States report under Art. 11 and 16 WEEE."
+ },
+ {
+  "rid": 263,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Calculation rule for weights Member States report under Art. 11 and 16 WEEE."
+ },
+ {
+  "rid": 264,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Calculation rule for weights Member States report under Art. 11 and 16 WEEE."
+ },
+ {
+  "rid": 265,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Exclusion rule for weights Member States report as recycled or recovered."
+ },
+ {
+  "rid": 266,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "Exclusion rule for weights Member States report as recycled or recovered."
+ },
+ {
+  "rid": 267,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Calculation rule for weights Member States report as recovered."
+ },
+ {
+  "rid": 268,
+  "formal": "member_states",
+  "ultimately_bound": "member_states",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The reporting Member State must exclude exported treated materials."
+ },
+ {
+  "rid": 269,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": true,
+  "confidence": "medium",
+  "reason": "Guidance that the expert panel typically need not give an opinion; not a duty."
+ },
+ {
+  "rid": 270,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "medium",
+  "reason": "The MDR expert panel must give a scientific opinion where major impact is anticipated."
+ },
+ {
+  "rid": 271,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The expert panel must assess clinical or health impact."
+ },
+ {
+  "rid": 272,
+  "formal": "eu_institutions",
+  "ultimately_bound": "eu_institutions",
+  "not_a_restriction": false,
+  "confidence": "low",
+  "reason": "The expert panel decides case by case on the need for an opinion; guidance."
+ },
+ {
+  "rid": 273,
+  "formal": "no_actor",
+  "ultimately_bound": "no_actor",
+  "not_a_restriction": true,
+  "confidence": "high",
+  "reason": "Definition of dynamic driving task."
+ },
+ {
+  "rid": 274,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "Vehicle design constraint binds the manufacturer of dual mode vehicles."
+ },
+ {
+  "rid": 275,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer applying for type-approval supplies the information document."
+ },
+ {
+  "rid": 276,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer applying for type-approval supplies the drawings."
+ },
+ {
+  "rid": 277,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer applying for type-approval supplies the photographs."
+ },
+ {
+  "rid": 278,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "The manufacturer completes the information document."
+ },
+ {
+  "rid": 279,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ADS performance requirement binds the vehicle manufacturer seeking type-approval."
+ },
+ {
+  "rid": 280,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ADS performance requirement binds the vehicle manufacturer seeking type-approval."
+ },
+ {
+  "rid": 281,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ADS performance requirement binds the vehicle manufacturer seeking type-approval."
+ },
+ {
+  "rid": 282,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ADS performance requirement binds the vehicle manufacturer seeking type-approval."
+ },
+ {
+  "rid": 283,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ADS performance requirement binds the vehicle manufacturer seeking type-approval."
+ },
+ {
+  "rid": 284,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ADS performance requirement binds the vehicle manufacturer seeking type-approval."
+ },
+ {
+  "rid": 285,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ADS performance requirement binds the vehicle manufacturer seeking type-approval."
+ },
+ {
+  "rid": 286,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ADS performance requirement binds the vehicle manufacturer seeking type-approval."
+ },
+ {
+  "rid": 287,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ADS performance requirement binds the vehicle manufacturer seeking type-approval."
+ },
+ {
+  "rid": 288,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ADS performance requirement binds the vehicle manufacturer seeking type-approval."
+ },
+ {
+  "rid": 289,
+  "formal": "private_parties",
+  "ultimately_bound": "private_parties",
+  "not_a_restriction": false,
+  "confidence": "high",
+  "reason": "ADS performance requirement binds the vehicle manufacturer seeking type-approval."
+ }
+]

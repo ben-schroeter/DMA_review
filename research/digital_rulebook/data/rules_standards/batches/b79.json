@@ -1,0 +1,1052 @@
+[
+{
+"k": "88971fbaa827",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "During the MRM, the fully automated vehicle with the ADS shall be slowed down, with an aim of achieving a deceleration demand not greater than 4,0 m/s 2 , to a full standstill in the safest possible place taking into account surrounding traffic and road infrastructure."
+},
+{
+"k": "bdd2ef211263",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The ADS shall signal its intention to place the fully automated vehicle in an MRC to occupants of the fully automated vehicle as well as to other road users in accordance with traffic rules (e.g., by activating the hazard warning lights)"
+},
+{
+"k": "6146adc60620",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The fully automated vehicle shall only leave the MRC after confirmation by self-checks of the ADS or/and by the on-board operator (if applicable) or remote intervention operator (if applicable) that the cause(s) of the MRM is no longer present."
+},
+{
+"k": "9ebb9f92bc1a",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "Adequate information shall be given to the occupants of the fully automated vehicle wherever needed for safe operation and with regard to safety hazards,"
+},
+{
+"k": "ec807c241009",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "If a remote intervention operator is part of the ADS safety concept, the fully automated vehicle shall provide means for vehicle occupants to call a remote intervention operator through an audiovisual interface in the fully automated vehicle."
+},
+{
+"k": "281e70a50290",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "Unambiguous signs shall be used for the audiovisual interface (e.g."
+},
+{
+"k": "84f7d4bdad80",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The ADS shall provide vehicle occupants with means to request a minimal risk manoeuvre to stop the fully automated vehicle."
+},
+{
+"k": "797421732606",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "The ADS shall provide vehicle occupants with means to request a minimal risk manoeuvre to stop the fully automated vehicle. In case of emergency:",
+"clause": "for vehicles equipped with automatically operated doors, the unlocking of the doors shall be conducted automatically when it safe to do so,"
+},
+{
+"k": "68e8db3d3309",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "The ADS shall provide vehicle occupants with means to request a minimal risk manoeuvre to stop the fully automated vehicle. In case of emergency:",
+"clause": "a mean shall be given to passengers to exit a vehicle at standstill (opening the doors or via an emergency exit)."
+},
+{
+"k": "8d2f39fc6d20",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "The ADS shall provide vehicle occupants with means to request a minimal risk manoeuvre to stop the fully automated vehicle. In case of emergency:",
+"clause": "If a remote intervention operator is part of the ADS safety concept, the fully automated vehicle shall provide vision systems (e.g. cameras in accordance with chapter 6 of ISO16505:2019) of the occupant space inside the vehicle and of the surrounding of the vehicle to allow the remote intervention operator to assess the situation inside and outside of the vehicle."
+},
+{
+"k": "e077e5410d8b",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "The ADS shall provide vehicle occupants with means to request a minimal risk manoeuvre to stop the fully automated vehicle. In case of emergency:",
+"clause": "If a remote intervention operator is part of the ADS safety concept, it shall be possible for the remote intervention operator to open the power operated service door remotely."
+},
+{
+"k": "3ec9e9cc4e6d",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "The ADS shall provide vehicle occupants with means to request a minimal risk manoeuvre to stop the fully automated vehicle. In case of emergency:",
+"clause": "The ADS shall activate the relevant vehicle systems when necessary and applicable (e.g. opening doors, activate wipers in case of rain, heating system, etc.)"
+},
+{
+"k": "3e88dcb79bf8",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The manufacturer shall demonstrate that an acceptable degree of consideration has been given to the functional and operational safety for the ADS during its design and development processes."
+},
+{
+"k": "0e3fadb8782e",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The measures put in place by the manufacturer shall ensure that the fully automated vehicle is free of unreasonable safety risks to vehicle occupants and other road users during the vehicle lifetime when compared with comparable transport services and situations within the operational domain."
+},
+{
+"k": "24a17385511a",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The manufacturer shall define the acceptance criteria from which the validation targets of the ADS are derived to evaluate the residual risk for the ODD taking into account, where available, existing accident data ( 1 ) , data on performances from competently and carefully driven manual vehicles and technology state-of-the-art."
+},
+{
+"k": "b4e6477d5466",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The manufacturer shall have processes to manage the safety and continued compliance of the ADS over lifetime (wear and tear of components especially for sensors, new traffic scenarios, etc.)."
+},
+{
+"k": "26b93c03fa35",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The ADS shall be protected from unauthorised access in accordance with UN Regulation No 155 ( 2 ) ."
+},
+{
+"k": "d0291f60f3a7",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The ADS shall support software updates."
+},
+{
+"k": "8aa0bdc5b296",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The effectiveness of the software update procedures and processes concerning the ADS shall be demonstrated by compliance with UN Regulation No 156 ( 3 ) ."
+},
+{
+"k": "6e229c3a1bad",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "As specified in the Software Update and Software Update Management System Regulation, for the purpose of ensuring the software of the System can be identified, an R2022/1426SWIN shall be used."
+},
+{
+"k": "bc6ff5e89903",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The R2022/1426SWIN may be held on the vehicle or, if R2022/1426SWIN is not held on the vehicle, the manufacturer shall declare the software version(s) of the vehicle or single ECUs with the connection to the relevant type-approvals to the type-approval authority."
+},
+{
+"k": "f053c77622fa",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The manufacturer shall provide the following information in the information document:"
+},
+{
+"k": "2ec01b26e1b8",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "The manufacturer shall provide the following information in the information document:",
+"clause": "The information provided shall be declared by the manufacturer and may not be verified by a type-approval authority."
+},
+{
+"k": "14e8e0acfb5c",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "The manufacturer shall provide the following information in the information document:",
+"clause": "In agreement with the type-approval authority, duplication of tests shall be avoided where possible."
+},
+{
+"k": "ee80dd87ac52",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The ADS shall record the following occurrences whenever the ADS is activated:"
+},
+{
+"k": "6f07ce6e299a",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "The ADS shall record the following occurrences whenever the ADS is activated:",
+"clause": "Occurrences flags for points 9.1.13., 9.1.14., 9.1.16. and 9.1.17. are only required to be stored if they happen within 30 seconds before the occurrences in points 9.1.5., 9.1.7., 9.1.15. or 9.1.8.:"
+},
+{
+"k": "bd3ec710ce36",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "Occurrences flags for points 9.1.13., 9.1.14., 9.1.16. and 9.1.17. are only required to be stored if they happen within 30 seconds before the occurrences in points 9.1.5., 9.1.7., 9.1.15. or 9.1.8.:",
+"clause": "For each occurrence listed in point 9.1., the following data elements shall be recorded in a clearly identifiable way:"
+},
+{
+"k": "9cf6257d5eff",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "Timestamp:",
+"clause": "For each recorded occurrence, the RXSWIN, or the software versions, indicating the software that was present when the event occurred, shall be clearly identifiable."
+},
+{
+"k": "c10f872a12a3",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "Timestamp:",
+"clause": "If more than one element is recorded with the same timestamp, the information from the individual elements shall indicate the chronological order."
+},
+{
+"k": "324846944193",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "Timestamp:",
+"clause": "The ADS data elements shall be available subject to requirements specified in the Union or national law ( 4 ) ."
+},
+{
+"k": "48aeef3cccb1",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "Timestamp:",
+"clause": "Once the storage capacity reaches its limit, existing data shall only be overwritten following a first in first out procedure with the principle of respecting the relevant data availability requirements."
+},
+{
+"k": "e7be684caa91",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "Timestamp:",
+"clause": "Documented evidence on the storage capacity shall be provided by the manufacturer."
+},
+{
+"k": "a5fd203f6169",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "Timestamp:",
+"clause": "For vehicles of category M 1 and N 1 , the data elements shall be retrievable even after an impact of a severity level set by UN Regulations Nos 94 ( 5 ) , 95 ( 6 ) or 137 ( 7 ) ."
+},
+{
+"k": "8235cab179e9",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "Timestamp:",
+"clause": "For vehicles of categories M 2 , M 3 , N 2 and N 3 , the data elements listed in point 9.2. shall be retrievable even after an impact."
+},
+{
+"k": "fa0442fa1148",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "Either:",
+"clause": "A mechanical shock shall be applied to on-board data storage device(s), if any, at a severity level as specified in the component test of Annex 9C to the 03 series of amendment to UN Regulation No 100 ( 8 ) , and"
+},
+{
+"k": "a6ea0f0a2490",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "Either:",
+"clause": "On-board data storage device(s) shall be mounted in the vehicle cab/passenger compartment or in a position of sufficient structural integrity to protect against physical damage that would prevent the retrieval of data."
+},
+{
+"k": "5edde25db01c",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "Either:",
+"clause": "This shall be demonstrated to the technical service together with appropriate documentation (e.g. calculations or simulations);"
+},
+{
+"k": "1d1aa5a80237",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "Either:",
+"clause": "If the main on-board vehicle power supply is not available, it shall still be possible to retrieve all data recorded."
+},
+{
+"k": "f25cd53f6bc7",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "Either:",
+"clause": "Data stored shall be easily readable in a standardised way via the use of an electronic communication interface, at least through the standard interface (OBD port)."
+},
+{
+"k": "3a7d2dcf9b0d",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "Either:",
+"clause": "For vehicles fitted with an Event Data Recorders in accordance with Article 6 of Regulation (EU) 2019/2144, it shall be possible to retrieve through the standard interface (OBD port) the ADS data elements as referred to in points 9.3.1. and 9.3.2. recorded for at least the last 30 seconds before the last setting of the occurrence flag ‘Event Data Recorder (EDR) trigger input’, alongside the data elements specified in UN Regulation 160 ( 9 ) , Annex 4 (EDR data)."
+},
+{
+"k": "d78931b9bb94",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "Either:",
+"clause": "In the absence of any occurrence referred to in point 9.1. within the last 30 seconds before the last setting of the occurrence flag ‘Event Data Recorder (EDR) trigger input’, it shall be possible to retrieve, alongside the EDR data, the data element corresponding to the last occurrences within the same power cycle referred to in points 9.1.1. and 9.1.2., as a minimum."
+},
+{
+"k": "6ff35f7cc295",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "Either:",
+"clause": "The data elements retrieved in accordance with point 9.7.1. or 9.7.2. shall not include the date and the timestamp or any other information allowing for identification of the vehicle, its user or owner."
+},
+{
+"k": "ed7766724fd6",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "Either:",
+"clause": "The manufacturer shall provide instructions on how to access the data."
+},
+{
+"k": "131f7a9a0cba",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "Either:",
+"clause": "An adequate protection against manipulation (e.g. data erasure) of stored data shall be ensured for example by way of an anti-tampering design"
+},
+{
+"k": "99d1a7ca3361",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "If the ADS allows manual driving for the purpose of maintenance or to take over after a minimal risk manoeuvre is provided in the fully automated vehicle, the vehicle shall be limited to 6 km/h and shall be provided with means to enable the person driving the vehicle to perform the driving task safely in accordance with the safety concept of the manufacturer."
+},
+{
+"k": "96792de279d9",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "Except in case of failure, the ADS shall continue detecting an obstacle (e.g. vehicles, pedestrian) in the manoeuvring area and shall support the driver in bringing the vehicle immediately to a stop to avoid a collision."
+},
+{
+"k": "6517c50bbbab",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The maximum distance over which control is possible by a remote control shall not exceed 10 metres."
+},
+{
+"k": "47f50deddf69",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The manufacturer shall draw up an operating manual."
+},
+{
+"k": "179965df29ad",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "When the fully automated vehicle includes the possibility of manual driving for the purpose of maintenance or to take over after a minimal risk manoeuvre, it shall also be covered by the operating manual."
+},
+{
+"k": "8413b0b0615f",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The operating manual shall include the functional description of the ADS."
+},
+{
+"k": "f5139ddfad79",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The operating manual shall include the technical measures (e.g. checks and maintenance works of vehicle and off-board infrastructure, transport and physical infrastructure requirements such as localization marker and perception sensors), operational restrictions (e.g. speed limit, dedicated lane, physical separation with oncoming traffic), environmental conditions (e.g. no snow) and operational measures (e.g. on-board operator or remote intervention operator needed) necessary to ensure safety during the fully automated vehicle operation."
+},
+{
+"k": "91db1da22ba3",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The operating manual shall describe the instructions for vehicle occupants, transport service operator, on board operator (where applicable) and remote intervention operator (where applicable) and public authorities in case of failures and ADS request."
+},
+{
+"k": "89ee6b508a0c",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The operating manual shall set out rules to ensure proper performance of maintenance, overall tests and further examinations."
+},
+{
+"k": "c737ada4f542",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The Operating Manual shall be submitted to the type-approval authority together with the application for a type-approval and shall be annexed to the type-approval certificate."
+},
+{
+"k": "3719d275e2e6",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The Operating Manual shall be made available to the owner and, where applicable, to the transport service operator, on-board operator (where applicable), remote intervention operator (where applicable) and any relevant national authorities."
+},
+{
+"k": "a6398eff1c90",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "For the purpose of periodic roadworthiness tests, it shall be possible to verify the following features of the ADS:"
+},
+{
+"k": "553f912fe2a1",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "For the purpose of periodic roadworthiness tests, it shall be possible to verify the following features of the ADS:",
+"clause": "Where the failure warning signal is displayed in a common space (the area on which two or more information functions/symbols may be displayed, but not simultaneously), it must be checked first that the common space must be observed to be functional prior to the failure warning signal status check;"
+},
+{
+"k": "596e96ceaebd",
+"doc": "32022R1426",
+"art": "Annex Ii",
+"chapeau": "For the purpose of periodic roadworthiness tests, it shall be possible to verify the following features of the ADS:",
+"clause": "Manufacturers shall ensure to make available the technical information for the use of the electronic vehicle interface in accordance with Article 6 of Commission Implementing Regulation (EU) 2019/621 ( 11 ) ."
+},
+{
+"k": "2d6869f8bee0",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The overall compliance assessment of the ADS is based on:",
+"clause": "Scenarios and parameters listed in point 1 shall be used, when these scenarios are relevant for the ODD of the ADS."
+},
+{
+"k": "57e60046904c",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The overall compliance assessment of the ADS is based on:",
+"clause": "If the manufacturer deviates from the parameters proposed in point 1, the safety performance metrics and inherent assumptions used by the manufacturer shall be documented in the documentation package."
+},
+{
+"k": "4401558e78c8",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The overall compliance assessment of the ADS is based on:",
+"clause": "The safety performance metrics and inherent assumptions chosen shall demonstrate that the fully automated vehicle is free of unreasonable safety risks."
+},
+{
+"k": "2880d00bca63",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The overall compliance assessment of the ADS is based on:",
+"clause": "The validity of such safety performance metrics and inherent assumptions shall be supported by in-service monitoring data."
+},
+{
+"k": "6a465e1c6ffb",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The overall compliance assessment of the ADS is based on:",
+"clause": "The scenarios and parameters, with regard to lane change, shall be applied as specified in UN Regulation No 157 ( 1 ) ."
+},
+{
+"k": "f11e1d2c985c",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The overall compliance assessment of the ADS is based on:",
+"clause": "In the absence of more specific traffic rules, the following requirements shall be taken into account with regard to interaction with other road users involved in the movement when turning and crossing (see Figure 1) in dry and proper road pavement conditions."
+},
+{
+"k": "bc405b86fba1",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The overall compliance assessment of the ADS is based on:",
+"clause": "In the case of merging with privileged traffic during turning with and without crossing the opposite traffic direction, privileged traffic in the target lane should not have to decelerate."
+},
+{
+"k": "0205f0285d83",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The overall compliance assessment of the ADS is based on:",
+"clause": "However, it must be ensured that the TTC of the approaching privileged traffic in the target road (case (a) in Figure 1) never falls below the threshold TTC"
+},
+{
+"k": "afeee36cac3d",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "With:",
+"clause": "In the case of a turning manoeuvre crossing the opposite traffic direction, when considering oncoming traffic, privileged traffic in the target lane should not have to decelerate."
+},
+{
+"k": "baeb7f24f50d",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "With:",
+"clause": "However, if justified by the traffic density, it must be ensured – in addition to the distance from the approaching privileged traffic in the target road – that the TTC of the privileged crossing traffic to the fictitious collision point (point of intersection of the trajectories, case (b) in Figure 1) never falls below the threshold TTC"
+},
+{
+"k": "506bc8fb6ec2",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "With:",
+"clause": "The TTC of privileged traffic to the imaginary collision point (point of intersection of the trajectories) shall never fall below the threshold TTC"
+},
+{
+"k": "deeec7c7b72b",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "With:",
+"clause": "The ADS shall avoid a collision with a leading vehicle which decelerates up to its full braking performance provided that there was no cut-in by another vehicle."
+},
+{
+"k": "ac101f102e6f",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "With:",
+"clause": "Collisions with cutting in vehicles, pedestrians and cyclists travelling in the same direction, as well as with pedestrians who can start to cross the street, shall be avoided at least within the conditions determined by the following equation."
+},
+{
+"k": "e950c4b8bb54",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "β being the maximum deceleration of the fully automated vehicle and assumed to be equal to:",
+"clause": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:"
+},
+{
+"k": "b6bc5f592be3",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "These requirements shall be met independently of environmental conditions."
+},
+{
+"k": "6f927725c1dc",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "The control strategy of the ADS may change between collision avoidance and mitigation only if the manufacturer can demonstrate that this increases the safety of the vehicle occupants and the other road users (e.g. by prioritising braking over an alternative manoeuvre)."
+},
+{
+"k": "6eec86284eb4",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "The ADS shall avoid a collision with a crossing pedestrian or a cyclist in front of the vehicle."
+},
+{
+"k": "e23bb670d199",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "The ADS shall avoid a collision, up to a speed of 60 km/h, with an unobstructed pedestrian crossing with a lateral speed component of not more than 5 km/h or an unobstructed cyclist crossing with a lateral speed component of not more than 15 km/h in front of the vehicle."
+},
+{
+"k": "76d31f9d8d14",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "This shall be ensured independently from the specific manoeuvre the ADS is undertaking."
+},
+{
+"k": "43db4f428d16",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "In the case the pedestrian or the cyclist proceed with higher speed than the aforementioned values and the ADS can no longer avoid collision, the control strategy of the ADS may change between collision avoidance and mitigation only if the manufacturer can demonstrate that this increases the safety of the vehicle occupants and the other road users (e.g. by prioritizing braking over an alternative manoeuvre)."
+},
+{
+"k": "692a453db9c8",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "The ADS shall mitigate a collision with an obstructed pedestrian or cyclist crossing in front of the vehicle by reducing its speed at impact by at least 20 km/h."
+},
+{
+"k": "de251fa19594",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "The relevant scenarios, with regard to pedestrian crossing, shall be applied as specified in UN Regulation No 157."
+},
+{
+"k": "15da429f3d66",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "In the case the pedestrian crosses with parameter values outside the boundaries specified in UN Regulation 157 and the ADS can no longer avoid collision, the control strategy of the ADS may change between collision avoidance and mitigation only if the manufacturer can demonstrate that this increases the safety of the vehicle occupants and the other road users (e.g. by prioritizing braking over an alternative manoeuvre)."
+},
+{
+"k": "33ffa1ac5c9a",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "The fully automated vehicle shall be able to safely enter the motorway by adapting the speed to the traffic flow, and activate the relevant direction indicator according to the traffic rules."
+},
+{
+"k": "d5e52d6e53d3",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "The direction indicator shall be deactivated once the vehicle has performed the lane change manoeuvre (LCM)."
+},
+{
+"k": "5e4c6628d746",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "The parameters used in the lane change scenario shall be applied."
+},
+{
+"k": "45af64602f3c",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "The fully automated vehicle shall be able to anticipate the targeted motorway exit by driving on the adjacent lane to the exit lane and shall not unnecessarily decelerate before the LCM into the exit lane starts."
+},
+{
+"k": "189e20d6ed05",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "The direction indicator shall be deactivated once the LCM has been completed in compliance with the traffic rules in the country of operation."
+},
+{
+"k": "f9a8cf0c48f9",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "Depending on the ODD, the fully automated vehicle shall be able to select the proper passing gate, and adapt its speed to that permitted limits within the toll area while considering the traffic flow."
+},
+{
+"k": "1dfa73651e36",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "Depending on the ODD, the relevant scenario defined in points 1.2. to 1.4. above shall be applied."
+},
+{
+"k": "1114d4d9a4eb",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "Depending on the ODD, the relevant scenarios defined in points 1.3. to 1.5 above shall be applied."
+},
+{
+"k": "445c75a5e9db",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "Special attention shall be given to avoiding of collision with pedestrians and in particular with children and prams."
+},
+{
+"k": "bf82079c3996",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "Scenarios that are not listed in point 1 shall be generated to cover reasonably foreseeable critical situations, including failures and traffic hazards within the operational design domain."
+},
+{
+"k": "78f78850d8a9",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "When ADS capabilities depend on remote capabilities, scenarios shall include failures and traffic hazards stemming from the corresponding remote capabilities."
+},
+{
+"k": "9303ef5f73b4",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "The method to generate scenarios that are not listed in Section 1, shall follow the principles set in Appendix 1 to Part 1 of this Annex."
+},
+{
+"k": "c53a27f22c62",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The compliance with this equation is required only for road users cutting in, and only if the inserting road users were visible at least 0,72 seconds before cut-in:",
+"clause": "The method used by the manufacturer to generate scenarios that are not listed in point 1 shall be documented in the documentation package to be provided for the ADS assessment."
+},
+{
+"k": "2b445baf1206",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "Scenarios shall be derived from the ODD of the fully automated vehicle."
+},
+{
+"k": "a851b93535e3",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "For each of the behaviour failures and consequential effects identified, the manufacturer shall put in place relevant strategies when developing the ADS (i.e., fail-safe)."
+},
+{
+"k": "08e084582423",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "When applying the failure scenarios, the objective is to assess the ability of the ADS to comply with requirements for safety-critical situations, including for example ‘The ADS shall manage safety-critical driving situations’ and ‘The ADS shall safely manage failure modes’ and their respective sub-requirements."
+},
+{
+"k": "e689e063b944",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The manufacturer shall provide evidence supporting the assumptions made such as data collection campaigns performed during the development phase, real-world accidentology and realistic driving behaviour evaluations."
+},
+{
+"k": "31ea89aba755",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The type-approval authority granting the type-approval or the technical service acting on its behalf shall verify through targeted spot checks and tests, in particular as specified in point 4 of this annex, that the safety argumentation provided by the documentation complies with the requirements of Annex II and that the design and processes described in documentation are actually implemented by the manufacturer."
+},
+{
+"k": "08f58004e7ff",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The possibility of a fall-back to partial operation or even to a back-up system for vital ADS functions shall be a part of the safety concept."
+},
+{
+"k": "f441d55a4f70",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The manufacturer shall provide a documentation package which gives access to the basic design of the ADS and the means by which it is linked to other vehicle systems or by which it directly controls output variables as well as off-board hardware/software and remote capabilities."
+},
+{
+"k": "e95145c43b21",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The function(s) of the ADS, including the control strategies, and the safety concept, as laid down by the manufacturer, shall be explained."
+},
+{
+"k": "bcd349c22af1",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "Documentation shall be brief, yet provide evidence that the design and development has had the benefit of expertise from all the ADS fields which are involved."
+},
+{
+"k": "cb7e623a2865",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "For periodic road worthiness tests, the documentation shall describe how the current operational status of the ADS and the functionality and software integrity can be checked."
+},
+{
+"k": "dfec75999089",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The type-approval authority shall assess the documentation package which shall show that the ADS:"
+},
+{
+"k": "be4292552af7",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The type-approval authority shall assess the documentation package which shall show that the ADS:",
+"clause": "Documentation shall be made available in three parts:"
+},
+{
+"k": "7c738bf62d7a",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "Documentation shall be made available in three parts:",
+"clause": "the information document submitted to the type-approval authority at the time of the type-approval application shall contain brief information on the items listed in Annex I."
+},
+{
+"k": "e8d282b1a43e",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "Documentation shall be made available in three parts:",
+"clause": "(with the exception of that of point 3.5.5.) which shall be supplied to the type-approval authority for the purpose of conducting the ADS type-approval."
+},
+{
+"k": "95566be227f5",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "Documentation shall be made available in three parts:",
+"clause": "This documentation package shall be used by the type-approval authority as the basic reference for the verification process set out in point 4. of this annex."
+},
+{
+"k": "0918196cebc1",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "Documentation shall be made available in three parts:",
+"clause": "The type-approval authority shall ensure that this documentation package remains available for a period of at least 10 years counted from the time when production of the vehicle type is definitely discontinued."
+},
+{
+"k": "033341bd66d8",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "Documentation shall be made available in three parts:",
+"clause": "Additional confidential material and analysis data (intellectual property) of point 3.5.5. which shall be retained by the manufacturer, but made open for inspection (e.g. on-site in the engineering facilities of the manufacturer) at the time of the ADS type-approval."
+},
+{
+"k": "19a421a829c3",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "Documentation shall be made available in three parts:",
+"clause": "The manufacturer shall ensure that this material and analysis data remains available for a period of 10 years counted from the time when production of the vehicle type is definitely discontinued."
+},
+{
+"k": "b62f6e84d000",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "Documentation shall be made available in three parts:",
+"clause": "A description shall be provided giving a simple explanation of the operational characteristics of the ADS and ADS features."
+},
+{
+"k": "36addf1114fd",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "Documentation shall be made available in three parts:",
+"clause": "The description shall include:"
+},
+{
+"k": "9f8e153ca3cd",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The description shall include:",
+"clause": "A description shall be provided giving an explanation of all the functions including control strategies to ensure the robust and safe operation of the ADS and the methods used to perform the dynamic driving tasks within the ODD, and the boundaries under which the automated driving system is designed to operate, including a description on how this is ensured."
+},
+{
+"k": "a50a00442f93",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The description shall include:",
+"clause": "Any enabled or disabled automated driving functions for which the hardware and software are present in the vehicle at the time of production, shall be declared and are subject to the requirements of this annex as well as Annex II to this Regulation, prior to their use in the vehicle."
+},
+{
+"k": "87e94c05c63e",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The description shall include:",
+"clause": "The manufacturer shall also document the data processing if continuous learning algorithms are implemented."
+},
+{
+"k": "12d73050bf46",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The description shall include:",
+"clause": "A list of all input and sensed variables shall be provided and the working range of these defined, along with a description of how each variable affects the ADS behaviour."
+},
+{
+"k": "38c675db52a6",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The description shall include:",
+"clause": "A list of all output variables that are controlled by the ADS shall be provided and an explanation given, in each case, of whether the control is direct or via another vehicle system."
+},
+{
+"k": "0b44c13212be",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The description shall include:",
+"clause": "The range over which the ADS is likely to exercise control on each such variable shall be defined."
+},
+{
+"k": "e0a371184769",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The description shall include:",
+"clause": "Limits defining the boundaries of functional operation including ODD-limits shall be stated where appropriate to ADS performance."
+},
+{
+"k": "c567d396a74d",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The description shall include:",
+"clause": "The human machine interaction (HMI) concept with the vehicle occupants/on-board operator/remote intervention operator (if any) when ODD limits are approached and then reached shall be explained."
+},
+{
+"k": "7c8f188a1666",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The description shall include:",
+"clause": "The explanation shall include the list of types of situations in which the ADS will generate a support request to the on board operator/remote intervention operator (if applicable), the way the request is performed, the procedure that handles a failed request and the minimal risk manoeuvre."
+},
+{
+"k": "3fbee041ef9a",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The description shall include:",
+"clause": "Signals and information given to the on-board operator/remote intervention operator, vehicle occupants and other road users in each of the above aspects shall also be described."
+},
+{
+"k": "35e15a7f823e",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The description shall include:",
+"clause": "A list shall be provided, collating all the units of the ADS and mentioning the other vehicle systems as well as off-board hardware/software and remote capabilities that are needed to achieve specified performance of the ADS to be approved according to its ODD."
+},
+{
+"k": "84a6db6f6b98",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The description shall include:",
+"clause": "An outline schematic showing these units in combination, shall be provided with both the equipment distribution and the interconnections made clear."
+},
+{
+"k": "4be28de2b25d",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The description shall include:",
+"clause": "This outline shall include:"
+},
+{
+"k": "4b86ce67c832",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This outline shall include:",
+"clause": "The function of each unit of the ADS shall be outlined and the signals linking it with other units or with other vehicle systems shall be shown."
+},
+{
+"k": "517a409b485d",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This outline shall include:",
+"clause": "It shall include off-board systems supporting the ADS and other vehicle systems."
+},
+{
+"k": "3ebb3a4955b6",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This outline shall include:",
+"clause": "Interconnections within the ADS shall be shown by a circuit diagram for the electric transmission links, by a piping diagram for pneumatic or hydraulic transmission equipment and by a simplified diagrammatic layout for mechanical linkages."
+},
+{
+"k": "fada62983b76",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This outline shall include:",
+"clause": "The transmission links both to and from other systems shall also be shown."
+},
+{
+"k": "e556d5ccbced",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This outline shall include:",
+"clause": "There shall be a clear correspondence between transmission links and the signals carried between units."
+},
+{
+"k": "1433920a31e2",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This outline shall include:",
+"clause": "Priorities of signals on multiplexed data paths shall be stated wherever priority may be an issue affecting performance or safety."
+},
+{
+"k": "aac5ac7b9727",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This outline shall include:",
+"clause": "Each unit shall be clearly and unambiguously identifiable (e.g. by marking for hardware, and by marking or software output for software content) to provide corresponding hardware and documentation association."
+},
+{
+"k": "28ad6b74a293",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This outline shall include:",
+"clause": "Where a software version can be changed without requiring the replacement of the marking or component, the software identification must be by software output only."
+},
+{
+"k": "ca9598e54924",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This outline shall include:",
+"clause": "Where functions are combined within a single unit or indeed within a single computer, but shown in multiple blocks in the block diagram for clarity and ease of explanation, only a single hardware identification marking shall be used."
+},
+{
+"k": "40cc2d249678",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This outline shall include:",
+"clause": "The manufacturer shall, by the use of this identification, affirm that the equipment supplied conforms to the corresponding document."
+},
+{
+"k": "2b59206ebc13",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This outline shall include:",
+"clause": "The identification defines the hardware and software version and, where the latter changes such as to alter the function of the unit as far as this Regulation is concerned, this identification shall also be changed."
+},
+{
+"k": "43fa9e594082",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This outline shall include:",
+"clause": "The manufacturer shall provide information on the installation options for the individual components that comprise the sensing system."
+},
+{
+"k": "ff87406c127e",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This outline shall include:",
+"clause": "These options shall include, but are not limited to, the location of the component in/on the vehicle, the material(s) surrounding the component, the dimensioning and geometry of the material surrounding the component, and the surface finish of the materials surrounding the component, once installed in the vehicle."
+},
+{
+"k": "36b155b463ff",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This outline shall include:",
+"clause": "The information shall also include installation specifications that are critical to the ADS’s performance, e.g. tolerances on installation angle."
+},
+{
+"k": "3303969f9b91",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This outline shall include:",
+"clause": "Changes to the individual components of the sensing system, or the installation options, shall be notified to the type-approval authority and be subject to further assessment."
+},
+{
+"k": "3f5712664900",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This outline shall include:",
+"clause": "The manufacturer shall provide a statement which affirms that the ADS is free from unreasonable risks for the vehicle occupants and other road users."
+},
+{
+"k": "2cbcd4e4a052",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This outline shall include:",
+"clause": "In respect of software employed in the ADS, the outline architecture shall be explained and the design methods and tools used shall be identified (see 3.5.1)."
+},
+{
+"k": "09d4ad0c7715",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This outline shall include:",
+"clause": "The manufacturer shall show evidence of the means by which they determined the realisation of the ADS logic, during the design and development process."
+},
+{
+"k": "eed5abfe381c",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "This outline shall include:",
+"clause": "The manufacturer shall provide the type-approval authority with an explanation of the design provisions built into the ADS so as to ensure functional and operational safety."
+},
+{
+"k": "66cf12652128",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall provide the type-approval authority with an explanation of the design provisions built into the ADS so as to ensure functional and operational safety. Possible design provisions in the ADS are for example:",
+"clause": "If the chosen provision selects a partial performance mode of operation under certain fault conditions (e.g. in case of severe failures), then these conditions shall be stated (e.g. type of failure) and the resulting limits of effectiveness defined (e.g. immediate initiation of a minimal risk manoeuvre) as well as the warning strategy to the operator/remote operator, occupants and other road users (when applicable)."
+},
+{
+"k": "02b98c6721a0",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall provide the type-approval authority with an explanation of the design provisions built into the ADS so as to ensure functional and operational safety. Possible design provisions in the ADS are for example:",
+"clause": "If the chosen design provision selects a second (back-up) or diverse means to realise the performance affected by the fault, the principles of the change-over mechanism, the logic and level of redundancy and any built-in checking features shall be explained and the resulting limits of effectiveness defined."
+},
+{
+"k": "c29bf9cfa019",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall provide the type-approval authority with an explanation of the design provisions built into the ADS so as to ensure functional and operational safety. Possible design provisions in the ADS are for example:",
+"clause": "If the chosen design provision selects the removal of the automated driving function(s), this shall be done in compliance with the relevant provisions of this regulation."
+},
+{
+"k": "658c96b23e99",
+"doc": "32022R1426",
+"art": "Annex Iii",
+"chapeau": "The manufacturer shall provide the type-approval authority with an explanation of the design provisions built into the ADS so as to ensure functional and operational safety. Possible design provisions in the ADS are for example:",
+"clause": "All the corresponding output control signals associated with this function shall be inhibited."
+}
+]

@@ -1,0 +1,1052 @@
+[
+{
+"k": "beb789e5308f",
+"doc": "32021R0821",
+"art": "Art. 29",
+"chapeau": "",
+"clause": "The Commission and the Member States shall, where appropriate, maintain dialogues with third countries, with a view to promoting the global convergence of controls."
+},
+{
+"k": "0b18d1d5c97e",
+"doc": "32021R0821",
+"art": "Art. 29",
+"chapeau": "",
+"clause": "Those negotiations shall be conducted in accordance with the procedures established in Article 207(3) TFEU and in the Treaty establishing the European Atomic Energy Community, as appropriate."
+},
+{
+"k": "70b927de6216",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "Technical Note:",
+"clause": "Measurement of initial relative permeability must be performed on fully annealed materials."
+},
+{
+"k": "ab9e685d4bef",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "Technical Notes:",
+"clause": "In the case of thermoset materials, degree of cure of a dry test specimen shall be a minimum of 90% as defined by ASTM E 2160-04 or equivalent national standard."
+},
+{
+"k": "4e4e79a84967",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "he purposes of 2B, the number of axes which can be co-ordinated simultaneously for \"contouring control\" is the number of axes along or around which, during processing of the workpiece, simultaneous and interrelated motions are performed between the workpiece and a tool. This does not include any additional axes along or around which other relative movement within the machine are performed such as:",
+"clause": "Axis nomenclature shall be in accordance with International Standard ISO 841:2001, Industrial automation systems and integration - Numerical control of machines - Coordinate system and motion nomenclature."
+},
+{
+"k": "7e5195d5e810",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "'Stated \"unidirectional positioning repeatability\"' may be used for each machine tool model as an alternative to individual machine tests and is determined as follows:",
+"clause": "If any axis of a machine model not specified in 2B001.a. to 2B001.c. has a 'stated \"unidirectional positioning repeatability\" equal to or less than the specified \"unidirectional positioning repeatability\" of each machine tool model plus 0,7 μm, the builder should be required to reaffirm the accuracy level once every eighteen months."
+},
+{
+"k": "7aa2c3177906",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "'Stated \"unidirectional positioning repeatability\"' may be used for each machine tool model as an alternative to individual machine tests and is determined as follows:",
+"clause": "For the purpose of 2B001.a. to 2B001.c., the measurement of axes shall be made according to test procedures in 5.3.2. of ISO 230-2:2014."
+},
+{
+"k": "a474557de857",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "'Stated \"unidirectional positioning repeatability\"' may be used for each machine tool model as an alternative to individual machine tests and is determined as follows:",
+"clause": "Tests for axes longer than 2 meters shall be made over 2 m segments."
+},
+{
+"k": "d8fe4c12cef8",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "Note 3:",
+"clause": "A machine tool having at least two of the three turning, milling or grinding capabilities (e.g., a turning machine with milling capability), must be evaluated against each applicable entry 2B001.a., b. or c."
+},
+{
+"k": "e1a81640bb94",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "Note 4:",
+"clause": "A machine tool having an additive manufacturing capability in addition to a turning, milling or grinding capability must be evaluated against each applicable entry 2B001.a., .b. or .c."
+},
+{
+"k": "e2f69ea46c52",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "Technical Note:",
+"clause": "probe, stylus length, motion parameters, environment) and with \"all compensations available\" shall be compared to the 1,7+L/1 000 μm threshold."
+},
+{
+"k": "3c2c90d56945",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "or national equivalents may be used for each machine tool model if provided to, and accepted by, national authorities instead of individual machine tests. Determination of stated positioning accuracy:",
+"clause": "If any axis of a machine tool not specified in 2B201.a., 2B201.b. or 2B201.c. has a stated positioning accuracy of 6 μm or better (less) for grinding machines, and 8 μm or better (less) for milling and turning machines, both according to ISO 230 - 2:1988 1 , then the builder should be required to reaffirm the accuracy level once every eighteen months."
+},
+{
+"k": "0c01a7c6bd10",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "Note 2:",
+"clause": "A machine tool having at least two of the three turning, milling or grinding capabilities (e.g., a turning machine with milling capability), must be evaluated against each applicable entry 2B201.a., .b. or .c."
+},
+{
+"k": "bfb3945f62dc",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "Technical Note:",
+"clause": "probe, stylus, length, motion parameters, environments) and with all compensations available shall be compared to the (1,7 + L/800) μm threshold."
+},
+{
+"k": "d8c4c11a00da",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "Technical Notes:",
+"clause": "'Transmit/receive modules', or 'transmit modules', or 'transmit/receive MMICs' or 'transmit MMICs' may or may not have N integrated radiating antenna elements where N is the number of transmit or transmit/receive channels."
+},
+{
+"k": "5049632f63e4",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "Note 1:",
+"clause": "Computers, related equipment and \"software\" performing telecommunications or \"local area network\" functions must also be evaluated against the performance characteristics of Category 5, Part 1 (Telecommunications)."
+},
+{
+"k": "e21c323a788f",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "Note:",
+"clause": "All floating point operations must be expressed in operations per processor cycle;"
+},
+{
+"k": "276358d62274",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "Note 6:",
+"clause": "\"APP\" values must be calculated for processor combinations containing processors specially designed to enhance performance by aggregation, operating simultaneously and sharing memory;"
+},
+{
+"k": "4f42759e090a",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "Note to the Cryptography Note:",
+"clause": "To meet paragraph a. of Note 3, all of the following must apply:"
+},
+{
+"k": "0525ee8afb2d",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "Note 1:",
+"clause": "When necessary as determined by the appropriate authority in the exporter's country, details of items must be accessible and provided to the authority upon request, in order to establish any of the following:"
+},
+{
+"k": "5975d68976f1",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "Technical Notes:",
+"clause": "Manufacturers are not required to measure the surface roughness listed in 6A004.e.2. unless the optical element was designed or manufactured with the intent to meet, or exceed, the control parameter."
+},
+{
+"k": "ac824abfcf12",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "Technical Note:",
+"clause": "In 6A005 'Wall-plug efficiency' is defined as the ratio of \"laser\" output power (or \"average output power\") to total electrical input power required to operate the \"laser\", including the power supply/conditioning and thermal conditioning/heat exchanger."
+},
+{
+"k": "b18254163771",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "Note 1:",
+"clause": "For the purpose of this note, total mass includes all components required to operate the \"laser\", e.g., \"laser\", power supply, heat exchanger, but excludes external optics for beam conditioning or delivery."
+},
+{
+"k": "54fceae53b7b",
+"doc": "32021R0821",
+"art": "Annex I",
+"chapeau": "Technical Note:",
+"clause": "For the purposes of 9A010.d., 'response time' is the time required to achieve 90% of total rated thrust from start-up."
+},
+{
+"k": "69379c55f19a",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part:",
+"clause": "The exporter shall declare that the items are being exported under Union general export authorisation No EU001 in the customs declaration."
+},
+{
+"k": "cd1ab6ff55ed",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part:",
+"clause": "The exporter who uses this authorisation shall notify the competent authority of the Member State where the exporter is resident or established of the first use of this authorisation within 30 days from the date when the first export took place or, alternatively, and in accordance with a requirement by the competent authority of the Member State where the exporter is resident or established, prior to the first use of this authorisation."
+},
+{
+"k": "17ccf8c7e9d8",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part:",
+"clause": "Member States shall notify the Commission of the notification mechanism chosen for this authorisation."
+},
+{
+"k": "b04d94cae160",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part:",
+"clause": "The Commission shall publish the information notified to it in the C series of the Official Journal of the European Union."
+},
+{
+"k": "ef1e25db8ce1",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part:",
+"clause": "Reporting requirements attached to the use of this authorisation and additional information that the Member State from which the export is made might require on items exported under this authorisation shall be defined by Member States."
+},
+{
+"k": "3554563ca96c",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part:",
+"clause": "Registration shall be automatic and acknowledged by the competent authority to the exporter without delay and in any case within 10 working days of receipt, subject to Article 12(7) of this Regulation."
+},
+{
+"k": "369f9a61c04a",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part:",
+"clause": "Where applicable, the requirements set out in the second and third subparagraphs shall be based on those defined for the use of national general export authorisations granted by those Member States which provide for such authorisations."
+},
+{
+"k": "5b90f16e5fec",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part:",
+"clause": "The exporter shall declare that the items are being exported under Union general export authorisation No EU002 in the customs declaration."
+},
+{
+"k": "4f4392b3a7d2",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part:",
+"clause": "On exportation of any of the items pursuant to this authorisation, exporters shall:"
+},
+{
+"k": "497355b9ff45",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "On exportation of any of the items pursuant to this authorisation, exporters shall:",
+"clause": "The exporter who uses this authorisation shall notify the competent authority of the Member State where the exporter is resident or established of the first use of this authorisation within 30 days from the date when the first export took place or, alternatively, and in accordance with a requirement by the competent authority of the Member State where the exporter is resident or established, prior to the first use of this authorisation."
+},
+{
+"k": "95c07c0b34c2",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "On exportation of any of the items pursuant to this authorisation, exporters shall:",
+"clause": "Member States shall notify the Commission of the notification mechanism chosen for this authorisation."
+},
+{
+"k": "39ba9064b00e",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "On exportation of any of the items pursuant to this authorisation, exporters shall:",
+"clause": "The Commission shall publish the information notified to it in the C series of the Official Journal of the European Union."
+},
+{
+"k": "e8264ff987e0",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "On exportation of any of the items pursuant to this authorisation, exporters shall:",
+"clause": "Reporting requirements attached to the use of this authorisation and additional information that the Member State from which the export is made might require on items exported under this authorisation shall be defined by Member States."
+},
+{
+"k": "d504fb92fcd9",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "On exportation of any of the items pursuant to this authorisation, exporters shall:",
+"clause": "Registration shall be automatic and acknowledged by the competent authority to the exporter without delay and in any case within 10 working days of receipt, subject to Article 12(7) of this Regulation."
+},
+{
+"k": "0d28855a486e",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "On exportation of any of the items pursuant to this authorisation, exporters shall:",
+"clause": "Where applicable, the requirements set out in the second and third subparagraphs shall be based on those defined for the use of national general export authorisations granted by those Member States which provide for such authorisations."
+},
+{
+"k": "73ccad47a955",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part:",
+"clause": "The exporter shall declare that the items are being exported under Union general export authorisation No EU004 in the customs declaration."
+},
+{
+"k": "835a79cbc175",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part:",
+"clause": "The exporter shall declare that the items are being exported under Union general export authorisation No EU005 in the customs declaration."
+},
+{
+"k": "39644481312f",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part:",
+"clause": "The exporter shall declare that the items are being exported under Union general export authorisation No EU006 in the customs declaration."
+},
+{
+"k": "4ffad4ef0234",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is established that the software or technology in question is or may be intended, in its entirety or in part:",
+"clause": "The exporter intending to use this authorisation shall implement an Internal Compliance Programme."
+},
+{
+"k": "a2fdb5afe514",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is established that the software or technology in question is or may be intended, in its entirety or in part:",
+"clause": "The exporter shall declare that the items are being exported under Union general export authorisation No EU007 in the customs declaration in the case of tangible export of software or technology."
+},
+{
+"k": "5b8323982b66",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is established that the software or technology in question is or may be intended, in its entirety or in part:",
+"clause": "The exporter intending to use this authorisation shall register prior to the first use of this authorisation with the competent authority of the Member State where the exporter is established."
+},
+{
+"k": "74d6aabdb85a",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is established that the software or technology in question is or may be intended, in its entirety or in part:",
+"clause": "Registration shall be automatic and acknowledged by the competent authority to the exporter within 10 working days of receipt."
+},
+{
+"k": "e98e6ebeeb17",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is established that the software or technology in question is or may be intended, in its entirety or in part:",
+"clause": "The exporter who uses this authorisation shall notify the competent authority of the Member State where the exporter is established of the first use of this authorisation no later than 30 days prior to the date of the first export."
+},
+{
+"k": "18d3a5d427a6",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is established that the software or technology in question is or may be intended, in its entirety or in part:",
+"clause": "The exporter who uses this authorisation shall report to the competent authority of the Member State where the exporter is established on the use of this authorisation."
+},
+{
+"k": "51e266a5139a",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is established that the software or technology in question is or may be intended, in its entirety or in part:",
+"clause": "The report on the use of this authorisation shall be produced at least once per year and shall include at least information regarding:"
+},
+{
+"k": "1f83463191ea",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "The exporter who uses this authorisation shall report to the competent authority of the Member State where the exporter is established on the use of this authorisation. The report on the use of this authorisation shall be produced at least once per year and shall include at least information regarding:",
+"clause": "Additional information that the Member State from which the export is made might require on items exported under this authorisation shall be defined by Member States."
+},
+{
+"k": "e77ec43eaa96",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "This authorisation shall be valid only if the items meet all of the following conditions:",
+"clause": "This authorisation shall not be used if:"
+},
+{
+"k": "fef82eaeef79",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part:",
+"clause": "Where a customs declaration is required, the exporter shall declare that the items are being exported under Union general export authorisation No EU008 in the customs declaration."
+},
+{
+"k": "d225d940b700",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part:",
+"clause": "The exporter intending to use this authorisation shall register prior to the first use of this authorisation with the competent authority of the Member State where the exporter is resident or established."
+},
+{
+"k": "6b1093f6a465",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part:",
+"clause": "Registration shall be automatic and acknowledged by the competent authority to the exporter within 10 working days of receipt."
+},
+{
+"k": "b483ffe1b014",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part:",
+"clause": "The registered exporter shall notify the first use of this authorisation to the competent authority of the Member State where the registered exporter is resident or established, no later than 10 days before the date of the first export."
+},
+{
+"k": "d6e9ec83846b",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part:",
+"clause": "The exporter shall, at the request of the competent authority of the Member State where the exporter is resident or established, submit technical data of any export planned or conducted under this authorisation."
+},
+{
+"k": "ee9e43f4824c",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part:",
+"clause": "If such technical data has been requested in relation to a specific item and the technical data changes, the exporter shall notify the competent authority of this without delay."
+},
+{
+"k": "c58c9097fc9f",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part:",
+"clause": "The technical data shall include at least the following information regarding the item:"
+},
+{
+"k": "1923f519d7b1",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "tate where the exporter is resident or established, submit technical data of any export planned or conducted under this authorisation. If such technical data has been requested in relation to a specific item and the technical data changes, the exporter shall notify the competent authority of this without delay. The technical data shall include at least the following information regarding the item:",
+"clause": "if necessary, as determined by the competent authority, technical specifications, which shall include:"
+},
+{
+"k": "aea3a248180c",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "if necessary, as determined by the competent authority, technical specifications, which shall include:",
+"clause": "The Member State concerned shall inform the Commission and the other Member States on the use of this provision."
+},
+{
+"k": "ecccc30dc0e3",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "if necessary, as determined by the competent authority, technical specifications, which shall include:",
+"clause": "The registered exporter shall at the request of the competent authority of the Member State where the registered exporter is resident or established report on the use of this authorisation."
+},
+{
+"k": "97ba6a36633c",
+"doc": "32021R0821",
+"art": "Annex Ii",
+"chapeau": "if necessary, as determined by the competent authority, technical specifications, which shall include:",
+"clause": "Upon request, the report on the use of this authorisation shall be produced at least once per year and shall include at least the following information:"
+},
+{
+"k": "15340bf3847d",
+"doc": "32021R0821",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The following text shall be used:"
+},
+{
+"k": "179f1556724a",
+"doc": "32021R0821",
+"art": "Annex Iii",
+"chapeau": "EU validity. The following text shall be used:",
+"clause": "the following introductory text shall be used:"
+},
+{
+"k": "e7b8666668ee",
+"doc": "32021R0821",
+"art": "Annex Iii",
+"chapeau": "Items concerned: the following introductory text shall be used:",
+"clause": "the following introductory text shall be used:"
+},
+{
+"k": "fe669044e14b",
+"doc": "32014L0035",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "Electrical equipment may be made available on the Union market only if, having been constructed in accordance with good engineering practice in safety matters in force in the Union, it does not endanger the health and safety of persons and domestic animals, or property, when properly installed and maintained and used in applications for which it was made."
+},
+{
+"k": "3d7a4b73ba8b",
+"doc": "32014L0035",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "The Member States shall not impede, for the aspects covered by this Directive, the making available on the market of electrical equipment which complies with this Directive."
+},
+{
+"k": "04fd58eab22f",
+"doc": "32014L0035",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "In relation to electrical equipment, the Member States shall ensure that stricter safety requirements than the safety objectives referred to in Article 3 and set out in Annex I are not imposed by electricity supply bodies for connection to the grid, or for the supply of electricity to users of electrical equipment."
+},
+{
+"k": "361e177c4ac7",
+"doc": "32014L0035",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "When placing their electrical equipment on the market, manufacturers shall ensure that it has been designed and manufactured in accordance with the safety objectives referred to in Article 3 and set out in Annex I."
+},
+{
+"k": "9e37ae09d9bc",
+"doc": "32014L0035",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Manufacturers shall draw up the technical documentation referred to in Annex III and carry out the conformity assessment procedure referred to in Annex III or have it carried out."
+},
+{
+"k": "e620406e201d",
+"doc": "32014L0035",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Where compliance of electrical equipment with the safety objectives referred to in Article 3 and set out in Annex I has been demonstrated by the conformity assessment procedure referred to in the first subparagraph, manufacturers shall draw up an EU declaration of conformity and affix the CE marking."
+},
+{
+"k": "9e82c1c4fa61",
+"doc": "32014L0035",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Manufacturers shall keep the technical documentation referred to in Annex III and the EU declaration of conformity for 10 years after the electrical equipment has been placed on the market."
+},
+{
+"k": "221093f552f9",
+"doc": "32014L0035",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Changes in product design or characteristics and changes in the harmonised standards referred to in Article 12, the international or national standards referred to in Articles 13 and 14, or in other technical specifications by reference to which conformity of electrical equipment is declared shall be adequately taken into account."
+},
+{
+"k": "9ca6c2718b1c",
+"doc": "32014L0035",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "When deemed appropriate with regard to the risks presented by electrical equipment, manufacturers shall, to protect the health and safety of consumers, carry out sample testing of electrical equipment made available on the market, investigate, and, if necessary, keep a register of complaints, of non-conforming electrical equipment and electrical equipment recalls, and shall keep distributors informed of any such monitoring."
+},
+{
+"k": "2b28d0cfd780",
+"doc": "32014L0035",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Manufacturers shall ensure that electrical equipment which they have placed on the market bears a type, batch or serial number or other element allowing its identification, or, where the size or nature of the electrical equipment does not allow it, that the required information is provided on its packaging or in a document accompanying the electrical equipment."
+},
+{
+"k": "c2646b69ca23",
+"doc": "32014L0035",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Manufacturers shall indicate on the electrical equipment their name, registered trade name or registered trade mark and the postal address at which they can be contacted or, where that is not possible, on its packaging or in a document accompanying the electrical equipment."
+},
+{
+"k": "4c4f37d3f4ce",
+"doc": "32014L0035",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Manufacturers shall ensure that the electrical equipment is accompanied by instructions and safety information in a language which can be easily understood by consumers and other end-users, as determined by the Member State concerned."
+},
+{
+"k": "f04617d93fd2",
+"doc": "32014L0035",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Manufacturers who consider or have reason to believe that electrical equipment which they have placed on the market is not in conformity with this Directive shall immediately take the corrective measures necessary to bring that electrical equipment into conformity, to withdraw it or recall it, if appropriate."
+},
+{
+"k": "4c0ce9d19be8",
+"doc": "32014L0035",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Furthermore, where the electrical equipment presents a risk, manufacturers shall immediately inform the competent national authorities of the Member States in which they made the electrical equipment available on the market to that effect, giving details, in particular, of the non-compliance and of any corrective measures taken."
+},
+{
+"k": "d828d3a83cdf",
+"doc": "32014L0035",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Manufacturers shall, further to a reasoned request from a competent national authority, provide it with all the information and documentation in paper or electronic form necessary to demonstrate the conformity of the electrical equipment with this Directive, in a language which can be easily understood by that authority."
+},
+{
+"k": "e591a4e27133",
+"doc": "32014L0035",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "They shall cooperate with that authority, at its request, on any action taken to eliminate the risks posed by electrical equipment which they have placed on the market."
+},
+{
+"k": "5c8273db2c12",
+"doc": "32014L0035",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "The obligations laid down in Article 6(1) and the obligation to draw up technical documentation referred to in Article 6(2) shall not form part of the authorised representative’s mandate."
+},
+{
+"k": "1f8610544430",
+"doc": "32014L0035",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "Importers shall place only compliant electrical equipment on the market."
+},
+{
+"k": "2a4457186881",
+"doc": "32014L0035",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "Before placing electrical equipment on the market importers shall ensure that the appropriate conformity assessment procedure has been carried out by the manufacturer."
+},
+{
+"k": "685bb808689e",
+"doc": "32014L0035",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "They shall ensure that the manufacturer has drawn up the technical documentation, that the electrical equipment bears the CE marking and is accompanied by the required documents, and that the manufacturer has complied with the requirements set out in Article 6(5) and (6)."
+},
+{
+"k": "cb1c791e1892",
+"doc": "32014L0035",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "Where an importer considers or has reason to believe that electrical equipment is not in conformity with the safety objectives referred to in Article 3 and set out in Annex I, he shall not place the electrical equipment on the market until it has been brought into conformity."
+},
+{
+"k": "bdf93a874085",
+"doc": "32014L0035",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "Furthermore, where the electrical equipment presents a risk, the importer shall inform the manufacturer and the market surveillance authorities to that effect."
+},
+{
+"k": "45ddda7ae61a",
+"doc": "32014L0035",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "Importers shall indicate on the electrical equipment their name, registered trade name or registered trade mark and the postal address at which they can be contacted or, where that is not possible, on its packaging or in a document accompanying the electrical equipment."
+},
+{
+"k": "d5370dd33b96",
+"doc": "32014L0035",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "Importers shall ensure that the electrical equipment is accompanied by instructions and safety information in a language which can be easily understood by consumers and other end-users, as determined by the Member State concerned."
+},
+{
+"k": "d08e07bd5749",
+"doc": "32014L0035",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "Importers shall ensure that, while electrical equipment is under their responsibility, its storage or transport conditions do not jeopardise its compliance with the safety objectives referred to in Article 3 and set out in Annex I."
+},
+{
+"k": "a87fcf1f952e",
+"doc": "32014L0035",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "When deemed appropriate with regard to the risks presented by electrical equipment, importers shall, to protect the health and safety of consumers, carry out sample testing of electrical equipment made available on the market, investigate and, if necessary, keep a register of complaints, of non-conforming electrical equipment and electrical equipment recalls, and shall keep distributors informed of any such monitoring."
+},
+{
+"k": "101bf7fdb334",
+"doc": "32014L0035",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "Importers who consider or have reason to believe that electrical equipment which they have placed on the market is not in conformity with this Directive shall immediately take the corrective measures necessary to bring that electrical equipment into conformity, to withdraw it or recall it, if appropriate."
+},
+{
+"k": "52645becf9db",
+"doc": "32014L0035",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "Furthermore, where the electrical equipment presents a risk, importers shall immediately inform the competent national authorities of the Member States in which they made the electrical equipment available on the market to that effect, giving details, in particular, of the non-compliance and of any corrective measures taken."
+},
+{
+"k": "c006f730df9f",
+"doc": "32014L0035",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "Importers shall, for 10 years after the electrical equipment has been placed on the market, keep a copy of the EU declaration of conformity at the disposal of the market surveillance authorities and ensure that the technical documentation can be made available to those authorities, upon request."
+},
+{
+"k": "87f0216dba36",
+"doc": "32014L0035",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "Importers shall, further to a reasoned request from a competent national authority, provide it with all the information and documentation in paper or electronic form necessary to demonstrate the conformity of electrical equipment in a language which can be easily understood by that authority."
+},
+{
+"k": "959ed8d6689d",
+"doc": "32014L0035",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "When making electrical equipment available on the market distributors shall act with due care in relation to the requirements of this Directive."
+},
+{
+"k": "eed6159dc0f7",
+"doc": "32014L0035",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "Before making electrical equipment available on the market distributors shall verify that the electrical equipment bears the CE marking, that it is accompanied by the required documents and by instructions and safety information in a language which can be easily understood by consumers and other end-users in the Member State in which the electrical equipment is to be made available on the market, and that the manufacturer and the importer have complied with the requirements set out in Article 6(5) and (6) and Article 8(3) respectively."
+},
+{
+"k": "ba6bc805ae29",
+"doc": "32014L0035",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "Where a distributor considers or has reason to believe that electrical equipment is not in conformity with the safety objectives referred to in Article 3 and set out in Annex I, he shall not make the electrical equipment available on the market until it has been brought into conformity."
+},
+{
+"k": "d7aa8b48f5b0",
+"doc": "32014L0035",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "Furthermore, where the electrical equipment presents a risk, the distributor shall inform the manufacturer or the importer to that effect as well as the market surveillance authorities."
+},
+{
+"k": "920acb572aca",
+"doc": "32014L0035",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "Distributors shall ensure that, while electrical equipment is under their responsibility, its storage or transport conditions do not jeopardise its compliance with the safety objectives referred to in Article 3 and set out in Annex I."
+},
+{
+"k": "c8432b70893b",
+"doc": "32014L0035",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "Distributors who consider or have reason to believe that electrical equipment which they have made available on the market is not in conformity with this Directive shall make sure that the corrective measures necessary to bring that equipment into conformity, to withdraw it or recall it, if appropriate, are taken."
+},
+{
+"k": "79492502a0db",
+"doc": "32014L0035",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "Furthermore, where the electrical equipment presents a risk, distributors shall immediately inform the competent national authorities of the Member States in which they made the electrical equipment available on the market to that effect, giving details, in particular, of the non-compliance and of any corrective measures taken."
+},
+{
+"k": "b240c4c2e921",
+"doc": "32014L0035",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "Distributors shall, further to a reasoned request from a competent national authority, provide it with all the information and documentation in paper or electronic form necessary to demonstrate the conformity of electrical equipment."
+},
+{
+"k": "294075f2b9ce",
+"doc": "32014L0035",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "They shall cooperate with that authority, at its request, on any action taken to eliminate the risks posed by electrical equipment which they have made available on the market."
+},
+{
+"k": "9c2af1def082",
+"doc": "32014L0035",
+"art": "Art. 10",
+"chapeau": "",
+"clause": "An importer or distributor shall be considered a manufacturer for the purposes of this Directive and he shall be subject to the obligations of the manufacturer under Article 6, where he places electrical equipment on the market under his name or trade mark or modifies electrical equipment already placed on the market in such a way that compliance with this Directive may be affected."
+},
+{
+"k": "d3b0769c7fc3",
+"doc": "32014L0035",
+"art": "Art. 11",
+"chapeau": "Economic operators shall, on request, identify the following to the market surveillance authorities:",
+"clause": "Economic operators shall be able to present the information referred to in the first paragraph for 10 years after they have been supplied with the electrical equipment and for 10 years after they have supplied the electrical equipment."
+},
+{
+"k": "a62b0e28c725",
+"doc": "32014L0035",
+"art": "Art. 13",
+"chapeau": "",
+"clause": "Where harmonised standards referred to in Article 12 have not been drawn up and published, the Member States shall take all appropriate measures to ensure that, for the purposes of making available on the market or free movement as referred to in Articles 3 and 4 respectively, their competent authorities shall also regard as complying with the safety objectives referred to in Article 3 and set out in Annex I electrical equipment which complies with the safety provisions of the international standards set out by the International Electrotechnical Commission (IEC) in respect of which the publica"
+},
+{
+"k": "9b88ed869187",
+"doc": "32014L0035",
+"art": "Art. 13",
+"chapeau": "",
+"clause": "The safety provisions referred to in paragraph 1 shall be notified to the Member States by the Commission."
+},
+{
+"k": "d61fa7497256",
+"doc": "32014L0035",
+"art": "Art. 13",
+"chapeau": "",
+"clause": "The Commission, after consulting the Member States, shall state the safety provisions and in particular the variants thereof which it recommends to be published."
+},
+{
+"k": "b0b15f0a4b0b",
+"doc": "32014L0035",
+"art": "Art. 13",
+"chapeau": "",
+"clause": "The Member States shall inform the Commission within a period of three months of any objections they may have to the safety provisions notified in accordance with paragraph 2, stating the safety grounds on account of which the provisions should not be recognised."
+},
+{
+"k": "e9c0a51e4e7f",
+"doc": "32014L0035",
+"art": "Art. 13",
+"chapeau": "",
+"clause": "For purposes of information the references of the safety provisions against which no objection has been raised shall be published in the Official Journal of the European Union ."
+},
+{
+"k": "1c09400fc054",
+"doc": "32014L0035",
+"art": "Art. 14",
+"chapeau": "",
+"clause": "Where harmonised standards referred to in Article 12 have not been drawn up and published and international standards referred to in Article 13 have not been published, the Member States shall take all appropriate measures to ensure that, for the purpose of making available on the market or free movement as referred to in Articles 3 and 4 respectively, their competent authorities shall also regard as complying with the safety objectives referred to in Article 3 and set out in Annex I electrical equipment manufactured in accordance with the safety provisions of the standards in force in the Mem"
+},
+{
+"k": "f52c04045195",
+"doc": "32014L0035",
+"art": "Art. 15",
+"chapeau": "",
+"clause": "The EU declaration of conformity shall state that the fulfilment of the safety objectives referred to in Article 3 and set out in Annex I has been demonstrated."
+},
+{
+"k": "eec324057f0a",
+"doc": "32014L0035",
+"art": "Art. 15",
+"chapeau": "",
+"clause": "The EU declaration of conformity shall have the model structure set out in Annex IV, shall contain the elements specified in Module A as set out in Annex III and shall be continuously updated."
+},
+{
+"k": "3533a17a7389",
+"doc": "32014L0035",
+"art": "Art. 15",
+"chapeau": "",
+"clause": "It shall be translated into the language or languages required by the Member State in which the electrical equipment is placed or made available on the market."
+},
+{
+"k": "2377cf4153c3",
+"doc": "32014L0035",
+"art": "Art. 15",
+"chapeau": "",
+"clause": "Where electrical equipment is subject to more than one Union act requiring an EU declaration of conformity, a single EU declaration of conformity shall be drawn up in respect of all such Union acts."
+},
+{
+"k": "9bab0aa427af",
+"doc": "32014L0035",
+"art": "Art. 15",
+"chapeau": "",
+"clause": "By drawing up the EU declaration of conformity, the manufacturer shall assume responsibility for the compliance of the electrical equipment with the requirements laid down in this Directive."
+},
+{
+"k": "6483fc9486ad",
+"doc": "32014L0035",
+"art": "Art. 17",
+"chapeau": "",
+"clause": "The CE marking shall be affixed visibly, legibly and indelibly to the electrical equipment or to its data plate."
+},
+{
+"k": "3b919ab52caa",
+"doc": "32014L0035",
+"art": "Art. 17",
+"chapeau": "",
+"clause": "Where that is not possible or not warranted on account of the nature of the electrical equipment, it shall be affixed to the packaging and to the accompanying documents."
+},
+{
+"k": "f58266fe5e5b",
+"doc": "32014L0035",
+"art": "Art. 17",
+"chapeau": "",
+"clause": "The CE marking shall be affixed before the electrical equipment is placed on the market."
+},
+{
+"k": "ed2bc784810b",
+"doc": "32014L0035",
+"art": "Art. 19",
+"chapeau": "",
+"clause": "Where the market surveillance authorities of one Member State have sufficient reason to believe that electrical equipment covered by this Directive presents a risk to the health or safety of persons or domestic animals, or to property, they shall carry out an evaluation in relation to the electrical equipment concerned covering all relevant requirements laid down in this Directive."
+},
+{
+"k": "967118116f9c",
+"doc": "32014L0035",
+"art": "Art. 19",
+"chapeau": "",
+"clause": "Where, in the course of the evaluation referred to in the first subparagraph, the market surveillance authorities find that the electrical equipment does not comply with the requirements laid down in this Directive, they shall without delay require the relevant economic operator to take all appropriate corrective actions to bring the electrical equipment into compliance with those requirements, to withdraw the electrical equipment from the market, or to recall it within a reasonable period, commensurate with the nature of the risk, as they may prescribe."
+},
+{
+"k": "c77cb7867a5b",
+"doc": "32014L0035",
+"art": "Art. 19",
+"chapeau": "",
+"clause": "The economic operator shall ensure that all appropriate corrective action is taken in respect of electrical equipment concerned that it has made available on the market throughout the Union."
+},
+{
+"k": "bdea0e6143cf",
+"doc": "32014L0035",
+"art": "Art. 19",
+"chapeau": "",
+"clause": "Where the relevant economic operator does not take adequate corrective action within the period referred to in the second subparagraph of paragraph 1, the market surveillance authorities shall take all appropriate provisional measures to prohibit or restrict the electrical equipment’s being made available on their national market, to withdraw the electrical equipment from that market or to recall it."
+},
+{
+"k": "1b9e02c356ee",
+"doc": "32014L0035",
+"art": "Art. 19",
+"chapeau": "",
+"clause": "The information referred to in the second subparagraph of paragraph 4 shall include all available details, in particular the data necessary for the identification of the non-compliant electrical equipment, the origin of the electrical equipment, the nature of the non-compliance alleged and the risk involved, the nature and duration of the national measures taken and the arguments put forward by the relevant economic operator."
+},
+{
+"k": "ffceea8ae5ab",
+"doc": "32014L0035",
+"art": "Art. 19",
+"chapeau": "",
+"clause": "Member States other than the Member State initiating the procedure under this Article shall without delay inform the Commission and the other Member States of any measures adopted and of any additional information at their disposal relating to the non-compliance of the electrical equipment concerned, and, in the event of disagreement with the adopted national measure, of their objections."
+},
+{
+"k": "57ac4822614a",
+"doc": "32014L0035",
+"art": "Art. 19",
+"chapeau": "",
+"clause": "Member States shall ensure that appropriate restrictive measures are taken in respect of the electrical equipment concerned such as withdrawal of the electrical equipment from the market, without delay."
+},
+{
+"k": "4932fa91e90b",
+"doc": "32014L0035",
+"art": "Art. 20",
+"chapeau": "",
+"clause": "Where, on completion of the procedure set out in Article 19(3) and (4), objections are raised against a measure taken by a Member State, or where the Commission considers a national measure to be contrary to Union legislation, the Commission shall without delay enter into consultation with the Member States and the relevant economic operator or operators and shall evaluate the national measure."
+},
+{
+"k": "3ab1b0818158",
+"doc": "32014L0035",
+"art": "Art. 20",
+"chapeau": "",
+"clause": "If the national measure is considered justified, all Member States shall take the necessary measures to ensure that the non-compliant electrical equipment is withdrawn from their market, and shall inform the Commission accordingly."
+},
+{
+"k": "a9d1b7d01b6f",
+"doc": "32014L0035",
+"art": "Art. 21",
+"chapeau": "",
+"clause": "Where, having carried out an evaluation under Article 19(1), a Member State finds that although electrical equipment is in compliance with this Directive, it presents a risk to the health or safety of persons, or to domestic animals or to property it shall require the relevant economic operator to take all appropriate measures to ensure that the electrical equipment concerned, when placed on the market, no longer presents that risk, to withdraw the electrical equipment from the market or to recall it within a reasonable period, commensurate with the nature of the risk, as it may prescribe."
+},
+{
+"k": "568f44394497",
+"doc": "32014L0035",
+"art": "Art. 21",
+"chapeau": "",
+"clause": "The economic operator shall ensure that corrective action is taken in respect of all electrical equipment concerned that he has made available on the market throughout the Union."
+},
+{
+"k": "90a433bbd74f",
+"doc": "32014L0035",
+"art": "Art. 21",
+"chapeau": "",
+"clause": "That information shall include all available details, in particular the data necessary for the identification of the electrical equipment concerned, the origin and the supply chain of the electrical equipment, the nature of the risk involved and the nature and duration of the national measures taken."
+},
+{
+"k": "e0a97fd32de1",
+"doc": "32014L0035",
+"art": "Art. 21",
+"chapeau": "",
+"clause": "On the basis of the results of that evaluation, the Commission shall decide by means of implementing acts whether the national measure is justified or not, and where necessary, propose appropriate measures."
+},
+{
+"k": "ab34a8cfbfea",
+"doc": "32014L0035",
+"art": "Art. 21",
+"chapeau": "",
+"clause": "The implementing acts referred to in the first subparagraph of this paragraph shall be adopted in accordance with the examination procedure referred to in Article 23(2)."
+},
+{
+"k": "c2435bdcc537",
+"doc": "32014L0035",
+"art": "Art. 21",
+"chapeau": "",
+"clause": "On duly justified imperative grounds of urgency relating to the protection of health and safety of persons, or of domestic animals or of property, the Commission shall adopt immediately applicable implementing acts in accordance with the procedure referred to in Article 23(3)."
+},
+{
+"k": "a764540a12b3",
+"doc": "32014L0035",
+"art": "Art. 22",
+"chapeau": "",
+"clause": "Without prejudice to Article 19, where a Member State makes one of the following findings, it shall require the relevant economic operator to put an end to the non-compliance concerned:"
+},
+{
+"k": "a3fd2e2c8b27",
+"doc": "32014L0035",
+"art": "Art. 22",
+"chapeau": "",
+"clause": "Where the non-compliance referred to in paragraph 1 persists, the Member State concerned shall take all appropriate measures to restrict or prohibit the electrical equipment being made available on the market or ensure that it is recalled or withdrawn from the market."
+},
+{
+"k": "6ac208e13dc0",
+"doc": "32014L0035",
+"art": "Art. 24",
+"chapeau": "",
+"clause": "Member States shall lay down rules on penalties, applicable to infringements by economic operators of the provisions of national law adopted pursuant to this Directive and shall take all measures necessary to ensure that they are enforced."
+},
+{
+"k": "27a4e559bacf",
+"doc": "32014L0035",
+"art": "Art. 25",
+"chapeau": "",
+"clause": "Member States shall not impede the making available on the market of electrical equipment covered by Directive 2006/95/EC which is in conformity with that Directive and which was placed on the market before 20 April 2016."
+},
+{
+"k": "88a9f56ae6fd",
+"doc": "32014L0035",
+"art": "Art. 26",
+"chapeau": "",
+"clause": "Member States shall adopt and publish, by 19 April 2016, the laws, regulations and administrative provisions necessary to comply with Article 2, the first paragraph of Article 3, Article 4, Articles 6 to 12, Article 13(1), Articles 14 to 25 and Annexes II, III and IV."
+},
+{
+"k": "49c60a9a4a9b",
+"doc": "32014L0035",
+"art": "Annex I",
+"chapeau": "",
+"clause": "the essential characteristics, the recognition and observance of which will ensure that electrical equipment will be used safely and in applications for which it was made, shall be marked on the electrical equipment, or, if this is not possible, on an accompanying document;"
+},
+{
+"k": "768f8cea0fe5",
+"doc": "32014L0035",
+"art": "Annex I",
+"chapeau": "",
+"clause": "the electrical equipment, together with its component parts, shall be made in such a way as to ensure that it can be safely and properly assembled and connected;"
+},
+{
+"k": "37c4fba2eef2",
+"doc": "32014L0035",
+"art": "Annex I",
+"chapeau": "",
+"clause": "the electrical equipment shall be so designed and manufactured as to ensure that protection against the hazards set out in points 2 and 3 is assured, providing that the equipment is used in applications for which it was made and is adequately maintained."
+},
+{
+"k": "c09facf3e5cc",
+"doc": "32014L0035",
+"art": "Annex I",
+"chapeau": "",
+"clause": "Measures of a technical nature shall be laid down in accordance with point 1, in order to ensure that:"
+},
+{
+"k": "e28296468839",
+"doc": "32014L0035",
+"art": "Annex I",
+"chapeau": "",
+"clause": "Technical measures shall be laid down in accordance with point 1, in order to ensure that the electrical equipment:"
+},
+{
+"k": "8c798ee0e7e9",
+"doc": "32014L0035",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The documentation shall make it possible to assess the electrical equipment’s conformity to the relevant requirements, and shall include an adequate analysis and assessment of the risk(s)."
+},
+{
+"k": "04b6f00c08cb",
+"doc": "32014L0035",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The technical documentation shall specify the applicable requirements and cover, as far as relevant for the assessment, the design, manufacture and operation of the electrical equipment."
+},
+{
+"k": "2cf47ec802a9",
+"doc": "32014L0035",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The technical documentation shall, where applicable, contain at least the following elements:"
+},
+{
+"k": "20739258aedf",
+"doc": "32014L0035",
+"art": "Annex Iii",
+"chapeau": "ipment’s conformity to the relevant requirements, and shall include an adequate analysis and assessment of the risk(s). The technical documentation shall specify the applicable requirements and cover, as far as relevant for the assessment, the design, manufacture and operation of the electrical equipment. The technical documentation shall, where applicable, contain at least the following elements:",
+"clause": "In the event of partly applied harmonised standards or international or national standards referred to in Articles 13 and 14, the technical documentation shall specify the parts which have been applied;"
+},
+{
+"k": "3da89e31abf1",
+"doc": "32014L0035",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "The manufacturer shall take all measures necessary so that the manufacturing process and its monitoring ensure compliance of the manufactured electrical equipment with the technical documentation referred to in point 2 and with the requirements of this Directive that apply to it."
+}
+]

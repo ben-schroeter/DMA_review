@@ -144,3 +144,13 @@ Tier 3 — pending proposals and acts adopted 2024–2026 (impact assessment and
 - [x] 32023R2859 European Single Access Point (ESAP)
 - [x] 32013L0040 Cybercrime Directive
 - [x] 32011L0093 Child Sexual Abuse Directive
+- [x] 32003R0001 Antitrust Procedure Regulation
+- [x] 32006L0123 Services Directive
+- [x] 32017R0745 Medical Devices Regulation
+- [x] 32017R0746 In Vitro Diagnostic Medical Devices Regulation
+- [x] 32019R2144 Vehicle General Safety Regulation
+- [x] 32021R0821 Dual-Use Regulation
+- [x] 32014L0035 Low Voltage Directive
+- [x] 32011L0065 RoHS Directive
+- [x] 32012L0019 WEEE Directive
+- [x] 32015L0849 Fourth Anti-Money Laundering Directive

@@ -59,6 +59,10 @@ M = {   # row_id: {type: rule}
     119: {"PR": r"manufacturer|importer|distributor|product", "TC": r"electronic communications", "FI": r"bank|payment|financial",
           "PL": r"e-commerce|e-book|service provider"},
     125: {"FI": "F"}, 126: {"FI": "F"}, 127: {"FI": "F", "CL": r"crypto-asset"}, 128: {"FI": "F"},
+    # added November 2026, second round
+    132: {B: "F"}, 133: {B: "F"},
+    134: {"PR": "F"}, 135: {"PR": "F"}, 136: {"PR": "F"}, 137: {"PR": "F"}, 138: {"PR": "F"}, 139: {"PR": "F"}, 140: {"PR": "F"},
+    141: {"FI": "F"},
 }
 
 wb = openpyxl.load_workbook("digital_rulebook.xlsx", read_only=True, data_only=True)

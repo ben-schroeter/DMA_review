@@ -1,0 +1,1052 @@
+[
+{
+"k": "90e364bd407f",
+"doc": "32017R0745",
+"art": "Art. 27",
+"chapeau": "",
+"clause": "The Commission shall, by means of implementing acts, designate one or several entities to operate a system for assignment of UDIs pursuant to this Regulation (‘issuing entity’)."
+},
+{
+"k": "e4eb51c85e7a",
+"doc": "32017R0745",
+"art": "Art. 27",
+"chapeau": "",
+"clause": "That entity or those entities shall satisfy all of the following criteria:"
+},
+{
+"k": "2e02ce380969",
+"doc": "32017R0745",
+"art": "Art. 27",
+"chapeau": "the entity undertakes to do the following:",
+"clause": "When designating issuing entities, the Commission shall endeavour to ensure that UDI carriers, as defined in Part C of Annex VI, are universally readable regardless of the system used by the issuing entity, with a view to minimising financial and administrative burdens for economic operators and health institutions."
+},
+{
+"k": "2e09ab159b75",
+"doc": "32017R0745",
+"art": "Art. 27",
+"chapeau": "",
+"clause": "Before placing a device, other than a custom-made device, on the market, the manufacturer shall assign to the device and, if applicable, to all higher levels of packaging, a UDI created in compliance with the rules of the issuing entity designated by the Commission in accordance with paragraph 2."
+},
+{
+"k": "d38daa37724a",
+"doc": "32017R0745",
+"art": "Art. 27",
+"chapeau": "",
+"clause": "Before a device, other than a custom-made or investigational device, is placed on the market the manufacturer shall ensure that the information referred to in Part B of Annex VI of the device in question are correctly submitted and transferred to the UDI database referred to in Article 28."
+},
+{
+"k": "eb85a3685325",
+"doc": "32017R0745",
+"art": "Art. 27",
+"chapeau": "",
+"clause": "UDI carriers shall be placed on the label of the device and on all higher levels of packaging."
+},
+{
+"k": "1460ff4e8944",
+"doc": "32017R0745",
+"art": "Art. 27",
+"chapeau": "",
+"clause": "The UDI shall be used for reporting serious incidents and field safety corrective actions in accordance with Article 87."
+},
+{
+"k": "e28fbc933c1a",
+"doc": "32017R0745",
+"art": "Art. 27",
+"chapeau": "",
+"clause": "The Basic UDI-DI, as defined in Part C of Annex VI, of the device shall appear on the EU declaration of conformity referred to in Article 19."
+},
+{
+"k": "88a01a9f49bd",
+"doc": "32017R0745",
+"art": "Art. 27",
+"chapeau": "",
+"clause": "As part of the technical documentation referred to in Annex II, the manufacturer shall keep up-to-date a list of all UDIs that it has assigned."
+},
+{
+"k": "8a22454752a9",
+"doc": "32017R0745",
+"art": "Art. 27",
+"chapeau": "",
+"clause": "Economic operators shall store and keep, preferably by electronic means, the UDI of the devices which they have supplied or with which they have been supplied, if those devices belong to:"
+},
+{
+"k": "f92e3fd03b6c",
+"doc": "32017R0745",
+"art": "Art. 27",
+"chapeau": "",
+"clause": "Health institutions shall store and keep preferably by electronic means the UDI of the devices which they have supplied or with which they have been supplied, if those devices belong to class III implantable devices."
+},
+{
+"k": "879747cd7b32",
+"doc": "32017R0745",
+"art": "Art. 27",
+"chapeau": "",
+"clause": "For devices other than class III implantable devices, Member States shall encourage, and may require, health institutions to store and keep, preferably by electronic means, the UDI of the devices with which they have been supplied."
+},
+{
+"k": "ee13d39f3b4f",
+"doc": "32017R0745",
+"art": "Art. 27",
+"chapeau": "",
+"clause": "Member States shall encourage, and may require, healthcare professionals to store and keep preferably by electronic means, the UDI of the devices with which they have been supplied with."
+},
+{
+"k": "c4780c0096b9",
+"doc": "32017R0745",
+"art": "Art. 27",
+"chapeau": "11. The Commission may, by means of implementing acts, specify the detailed arrangements and the procedural aspects for the UDI system with a view to ensuring its harmonised application in relation to any of the following:",
+"clause": "The implementing acts referred to in the first subparagraph shall be adopted in accordance with the examination procedure referred to in Article 114(3)."
+},
+{
+"k": "aaa96e1423c0",
+"doc": "32017R0745",
+"art": "Art. 27",
+"chapeau": "",
+"clause": "When adopting the measures referred to in paragraph 11, the Commission shall take into account all of the following:"
+},
+{
+"k": "36dad9ef9d3f",
+"doc": "32017R0745",
+"art": "Art. 28",
+"chapeau": "",
+"clause": "The Commission, after consulting the MDCG shall set up and manage a UDI database to validate, collate, process and make available to the public the information mentioned in Part B of Annex VI."
+},
+{
+"k": "b866ea53b59b",
+"doc": "32017R0745",
+"art": "Art. 28",
+"chapeau": "",
+"clause": "When designing the UDI database, the Commission shall take into account the general principles set out in Section 5 of Part C of Annex VI."
+},
+{
+"k": "41b72970411a",
+"doc": "32017R0745",
+"art": "Art. 28",
+"chapeau": "",
+"clause": "The UDI database shall be designed in particular such that no UDI-PIs and no commercially confidential product information can be included therein."
+},
+{
+"k": "afcca4a02974",
+"doc": "32017R0745",
+"art": "Art. 28",
+"chapeau": "",
+"clause": "The core data elements to be provided to the UDI database, referred to in Part B of Annex VI, shall be accessible to the public free of charge."
+},
+{
+"k": "bd18e45fc6fa",
+"doc": "32017R0745",
+"art": "Art. 28",
+"chapeau": "",
+"clause": "The technical design of the UDI database shall ensure maximum accessibility to information stored therein, including multi-user access and automatic uploads and downloads of that information."
+},
+{
+"k": "8712a0b9d7c8",
+"doc": "32017R0745",
+"art": "Art. 28",
+"chapeau": "",
+"clause": "The Commission shall provide for technical and administrative support to manufacturers and other users of the UDI database."
+},
+{
+"k": "8e5d53582eb3",
+"doc": "32017R0745",
+"art": "Art. 29",
+"chapeau": "",
+"clause": "Before placing a device, other than a custom-made device, on the market, the manufacturer shall, in accordance with the rules of the issuing entity referred to in Article 27(2), assign a Basic UDI-DI as defined in Part C of Annex VI to the device and shall provide it to the UDI database together with the other core data elements referred to in Part B of Annex VI related to that device."
+},
+{
+"k": "ecd3bb96030c",
+"doc": "32017R0745",
+"art": "Art. 29",
+"chapeau": "",
+"clause": "Before placing on the market a system or procedure pack pursuant to Article 22(1) and (3), that is not a custom-made device, the natural or legal person responsible shall assign to the system or procedure pack, in compliance with the rules of the issuing entity, a Basic UDI-DI and shall provide it to the UDI database together with the other core data elements referred to in Part B of Annex VI related to that system or procedure pack."
+},
+{
+"k": "4524fb59294e",
+"doc": "32017R0745",
+"art": "Art. 29",
+"chapeau": "",
+"clause": "For devices that are the subject of a conformity assessment as referred to in Article 52(3) and in the second and third subparagraphs of Article 52(4), the assignment of a Basic UDI-DI referred to in paragraph 1 of this Article shall be done before the manufacturer applies to a notified body for that assessment."
+},
+{
+"k": "9f25088da7a7",
+"doc": "32017R0745",
+"art": "Art. 29",
+"chapeau": "",
+"clause": "For the devices referred to in the first subparagraph, the notified body shall include a reference to the Basic UDI-DI on the certificate issued in accordance with point (a) of Section 4 of Chapter I of Annex XII and confirm in Eudamed that the information referred to in Section 2.2 of Part A of Annex VI is correct."
+},
+{
+"k": "314b6f071735",
+"doc": "32017R0745",
+"art": "Art. 29",
+"chapeau": "",
+"clause": "After the issuing of the relevant certificate and before placing the device on the market, the manufacturer shall provide the Basic UDI-DI to the UDI database together with the other core data elements referred to in Part B of Annex VI related to that device."
+},
+{
+"k": "6b9fc1c57791",
+"doc": "32017R0745",
+"art": "Art. 29",
+"chapeau": "",
+"clause": "Before placing a device on the market, other than a custom-made device, the manufacturer shall enter or if, already provided, verify in Eudamed the information referred to in Section 2 of Part A of Annex VI, with the exception of Section 2.2 thereof, and shall thereafter keep the information updated."
+},
+{
+"k": "a251287f68c2",
+"doc": "32017R0745",
+"art": "Art. 30",
+"chapeau": "",
+"clause": "The Commission, after consulting the MDCG, shall set up and manage an electronic system to create the single registration number referred to in Article 31(2) and to collate and process information that is necessary and proportionate to identify the manufacturer and, where applicable, the authorised representative and the importer."
+},
+{
+"k": "1211d56606a7",
+"doc": "32017R0745",
+"art": "Art. 30",
+"chapeau": "",
+"clause": "Within two weeks of placing a device, other than a custom-made device, on the market, importers shall verify that the manufacturer or authorised representative has provided to the electronic system the information referred to in paragraph 1."
+},
+{
+"k": "d32197d66392",
+"doc": "32017R0745",
+"art": "Art. 30",
+"chapeau": "",
+"clause": "Where applicable, importers shall inform the relevant authorised representative or manufacturer if the information referred to in paragraph 1 is not included or is incorrect."
+},
+{
+"k": "7e08f7e1585f",
+"doc": "32017R0745",
+"art": "Art. 30",
+"chapeau": "",
+"clause": "Importers shall add their details to the relevant entry/entries."
+},
+{
+"k": "fff4af2e36c2",
+"doc": "32017R0745",
+"art": "Art. 31",
+"chapeau": "",
+"clause": "Before placing a device, other than a custom-made device, on the market, manufacturers, authorised representatives and importers shall, in order to register, submit to the electronic system referred to in Article 30 the information referred to in Section 1 of Part A of Annex VI, provided that they have not already registered in accordance with this Article."
+},
+{
+"k": "bed7d6867400",
+"doc": "32017R0745",
+"art": "Art. 31",
+"chapeau": "",
+"clause": "In cases where the conformity assessment procedure requires the involvement of a notified body pursuant to Article 52, the information referred to in Section 1 of Part A of Annex VI shall be provided to that electronic system before applying to the notified body."
+},
+{
+"k": "6d5e311e9192",
+"doc": "32017R0745",
+"art": "Art. 31",
+"chapeau": "",
+"clause": "After having verified the data entered pursuant to paragraph 1, the competent authority shall obtain a single registration number (‘SRN’) from the electronic system referred to in Article 30 and issue it to the manufacturer, the authorised representative or the importer."
+},
+{
+"k": "0f6ccb1a3c08",
+"doc": "32017R0745",
+"art": "Art. 31",
+"chapeau": "",
+"clause": "The manufacturer shall use the SRN when applying to a notified body for conformity assessment and for accessing Eudamed in order to fulfil its obligations under Article 29."
+},
+{
+"k": "fedd35e41e13",
+"doc": "32017R0745",
+"art": "Art. 31",
+"chapeau": "",
+"clause": "Within one week of any change occurring in relation to the information referred to in paragraph 1 of this Article, the economic operator shall update the data in the electronic system referred to in Article 30."
+},
+{
+"k": "a7cdca8beb93",
+"doc": "32017R0745",
+"art": "Art. 31",
+"chapeau": "",
+"clause": "Not later than one year after submission of the information in accordance with paragraph 1, and every second year thereafter, the economic operator shall confirm the accuracy of the data."
+},
+{
+"k": "20276311c05e",
+"doc": "32017R0745",
+"art": "Art. 31",
+"chapeau": "",
+"clause": "Without prejudice to the economic operator's responsibility for the data, the competent authority shall verify the confirmed data referred to in Section 1 of Part A of Annex VI."
+},
+{
+"k": "9e9e3549ab44",
+"doc": "32017R0745",
+"art": "Art. 31",
+"chapeau": "",
+"clause": "The data entered pursuant to paragraph 1 of this Article in the electronic system referred to in Article 30 shall be accessible to the public."
+},
+{
+"k": "16e1304ea17a",
+"doc": "32017R0745",
+"art": "Art. 32",
+"chapeau": "",
+"clause": "For implantable devices and for class III devices, other than custom-made or investigational devices, the manufacturer shall draw up a summary of safety and clinical performance."
+},
+{
+"k": "51ef5cf43592",
+"doc": "32017R0745",
+"art": "Art. 32",
+"chapeau": "",
+"clause": "The summary of safety and clinical performance shall be written in a way that is clear to the intended user and, if relevant, to the patient and shall be made available to the public via Eudamed."
+},
+{
+"k": "4be6b2341258",
+"doc": "32017R0745",
+"art": "Art. 32",
+"chapeau": "",
+"clause": "The draft of the summary of safety and clinical performance shall be part of the documentation to be submitted to the notified body involved in the conformity assessment pursuant to Article 52 and shall be validated by that body."
+},
+{
+"k": "ac56af4d3f33",
+"doc": "32017R0745",
+"art": "Art. 32",
+"chapeau": "",
+"clause": "After its validation, the notified body shall upload the summary to Eudamed."
+},
+{
+"k": "f4dcfb2d4ba6",
+"doc": "32017R0745",
+"art": "Art. 32",
+"chapeau": "",
+"clause": "The manufacturer shall mention on the label or instructions for use where the summary is available."
+},
+{
+"k": "c4123a429a86",
+"doc": "32017R0745",
+"art": "Art. 32",
+"chapeau": "",
+"clause": "The summary of safety and clinical performance shall include at least the following aspects:"
+},
+{
+"k": "35eee3e155fd",
+"doc": "32017R0745",
+"art": "Art. 32",
+"chapeau": "",
+"clause": "Those implementing acts shall be adopted in accordance with the advisory procedure referred to in Article 114(2)."
+},
+{
+"k": "fe1133739fa0",
+"doc": "32017R0745",
+"art": "Art. 33",
+"chapeau": "",
+"clause": "The Commission, after consulting the MDCG, shall set up, maintain and manage the European database on medical devices (‘Eudamed’) for the following purposes:"
+},
+{
+"k": "409f23ece9b9",
+"doc": "32017R0745",
+"art": "Art. 33",
+"chapeau": "",
+"clause": "Eudamed shall include the following electronic systems:"
+},
+{
+"k": "daa25440f80f",
+"doc": "32017R0745",
+"art": "Art. 33",
+"chapeau": "",
+"clause": "When designing Eudamed the Commission shall give due consideration to compatibility with national databases and national web-interfaces to allow for import and export of data."
+},
+{
+"k": "5f189176421b",
+"doc": "32017R0745",
+"art": "Art. 33",
+"chapeau": "",
+"clause": "The data shall be entered into Eudamed by the Member States, notified bodies, economic operators and sponsors as specified in the provisions on the electronic systems referred to in paragraph 2."
+},
+{
+"k": "17ce979dde55",
+"doc": "32017R0745",
+"art": "Art. 33",
+"chapeau": "",
+"clause": "The Commission shall provide for technical and administrative support to users of Eudamed."
+},
+{
+"k": "346ccc1611ef",
+"doc": "32017R0745",
+"art": "Art. 33",
+"chapeau": "",
+"clause": "All the information collated and processed by Eudamed shall be accessible to the Member States and to the Commission."
+},
+{
+"k": "338fda7797c5",
+"doc": "32017R0745",
+"art": "Art. 33",
+"chapeau": "",
+"clause": "The information shall be accessible to notified bodies, economic operators, sponsors and the public to the extent specified in the provisions on the electronic systems referred to in paragraph 2."
+},
+{
+"k": "87c62afd1050",
+"doc": "32017R0745",
+"art": "Art. 33",
+"chapeau": "",
+"clause": "The Commission shall ensure that public parts of Eudamed are presented in a user-friendly and easily-searchable format."
+},
+{
+"k": "faddfcc833b2",
+"doc": "32017R0745",
+"art": "Art. 33",
+"chapeau": "",
+"clause": "Eudamed shall contain personal data only insofar as necessary for the electronic systems referred to in paragraph 2 of this Article to collate and process information in accordance with this Regulation."
+},
+{
+"k": "31b7ddb38877",
+"doc": "32017R0745",
+"art": "Art. 33",
+"chapeau": "",
+"clause": "Personal data shall be kept in a form which permits identification of data subjects for periods no longer than those referred to in Article 10(8)."
+},
+{
+"k": "30a4dc0a49ab",
+"doc": "32017R0745",
+"art": "Art. 33",
+"chapeau": "",
+"clause": "The Commission and the Member States shall ensure that data subjects may effectively exercise their rights to information, of access, to rectification and to object in accordance with Regulation (EC) No 45/2001 and Directive 95/46/EC, respectively."
+},
+{
+"k": "59b7cb87a175",
+"doc": "32017R0745",
+"art": "Art. 33",
+"chapeau": "",
+"clause": "They shall also ensure that data subjects may effectively exercise the right of access to data relating to them, and the right to have inaccurate or incomplete data corrected and erased."
+},
+{
+"k": "51a35248e3ca",
+"doc": "32017R0745",
+"art": "Art. 33",
+"chapeau": "",
+"clause": "Within their respective responsibilities, the Commission and the Member States shall ensure that inaccurate and unlawfully processed data are deleted, in accordance with the applicable legislation."
+},
+{
+"k": "ef7ab498c8f5",
+"doc": "32017R0745",
+"art": "Art. 33",
+"chapeau": "",
+"clause": "Corrections and deletions shall be carried out as soon as possible, but no later than 60 days after a request is made by a data subject."
+},
+{
+"k": "a5839b56b1fd",
+"doc": "32017R0745",
+"art": "Art. 33",
+"chapeau": "",
+"clause": "The Commission shall, by means of implementing acts, lay down the detailed arrangements necessary for the setting up and maintenance of Eudamed."
+},
+{
+"k": "fa9d340bff09",
+"doc": "32017R0745",
+"art": "Art. 33",
+"chapeau": "",
+"clause": "When adopting those implementing acts, the Commission shall ensure that, as far as possible, the system is developed in such a way as to avoid having to enter the same information twice within the same module or in different modules of the system."
+},
+{
+"k": "05d28d002d1a",
+"doc": "32017R0745",
+"art": "Art. 34",
+"chapeau": "",
+"clause": "The Commission shall, in collaboration with the MDCG, draw up the functional specifications for Eudamed."
+},
+{
+"k": "534fb7dad56e",
+"doc": "32017R0745",
+"art": "Art. 34",
+"chapeau": "",
+"clause": "The Commission shall draw up a plan for the implementation of those specifications by 26 May 2018."
+},
+{
+"k": "b810e8690297",
+"doc": "32017R0745",
+"art": "Art. 34",
+"chapeau": "",
+"clause": "That plan shall seek to ensure that Eudamed is fully functional at a date that allows the Commission to publish the notice referred to in paragraph 3 of this Article by 25 March 2020 and that all other relevant deadlines laid down in Article 123 of this Regulation and in Article 113 of Regulation (EU) 2017/746 are met."
+},
+{
+"k": "adc80c908ced",
+"doc": "32017R0745",
+"art": "Art. 34",
+"chapeau": "",
+"clause": "The Commission shall, on the basis of an independent audit report, inform the MDCG when it has verified that Eudamed has achieved full functionality and Eudamed meets the functional specifications drawn up pursuant to paragraph 1."
+},
+{
+"k": "adf301713aef",
+"doc": "32017R0745",
+"art": "Art. 34",
+"chapeau": "",
+"clause": "The Commission shall, after consultation with the MDCG and when it is satisfied that the conditions referred to in paragraph 2 have been fulfilled, publish a notice to that effect in the Official Journal of the European Union ."
+},
+{
+"k": "a1832f03d5ef",
+"doc": "32017R0745",
+"art": "Art. 35",
+"chapeau": "",
+"clause": "Any Member State that intends to designate a conformity assessment body as a notified body, or has designated a notified body, to carry out conformity assessment activities under this Regulation shall appoint an authority (‘authority responsible for notified bodies’), which may consist of separate constituent entities under national law and shall be responsible for setting up and carrying out the necessary procedures for the assessment, designation and notification of conformity assessment bodies and for the monitoring of notified bodies, including subcontractors and subsidiaries of those bodi"
+},
+{
+"k": "1fd6e549a46f",
+"doc": "32017R0745",
+"art": "Art. 35",
+"chapeau": "",
+"clause": "The authority responsible for notified bodies shall be established, organised and operated so as to safeguard the objectivity and impartiality of its activities and to avoid any conflicts of interests with conformity assessment bodies."
+},
+{
+"k": "d40e39001b3a",
+"doc": "32017R0745",
+"art": "Art. 35",
+"chapeau": "",
+"clause": "The authority responsible for notified bodies shall be organised in a manner such that each decision relating to designation or notification is taken by personnel different from those who carried out the assessment."
+},
+{
+"k": "264825a8f539",
+"doc": "32017R0745",
+"art": "Art. 35",
+"chapeau": "",
+"clause": "The authority responsible for notified bodies shall not perform any activities that notified bodies perform on a commercial or competitive basis."
+},
+{
+"k": "3ab7ac186c0d",
+"doc": "32017R0745",
+"art": "Art. 35",
+"chapeau": "",
+"clause": "The authority responsible for notified bodies shall safeguard the confidential aspects of the information it obtains."
+},
+{
+"k": "69ea245d4568",
+"doc": "32017R0745",
+"art": "Art. 35",
+"chapeau": "",
+"clause": "However, it shall exchange information on notified bodies with other Member States, the Commission and, when required, with other regulatory authorities."
+},
+{
+"k": "bf65b3f2d1b6",
+"doc": "32017R0745",
+"art": "Art. 35",
+"chapeau": "",
+"clause": "The authority responsible for notified bodies shall have a sufficient number of competent personnel permanently available for the proper performance of its tasks."
+},
+{
+"k": "269080d5d9d0",
+"doc": "32017R0745",
+"art": "Art. 35",
+"chapeau": "",
+"clause": "Where the authority responsible for notified bodies is a different authority from the national competent authority for medical devices, it shall ensure that the national authority responsible for medical devices is consulted on relevant matters."
+},
+{
+"k": "f8f9c39a714c",
+"doc": "32017R0745",
+"art": "Art. 35",
+"chapeau": "",
+"clause": "Member States shall make publicly available general information on their measures governing the assessment, designation and notification of conformity assessment bodies and for the monitoring of notified bodies, and on changes which have a significant impact on such tasks."
+},
+{
+"k": "b3d4063c987a",
+"doc": "32017R0745",
+"art": "Art. 35",
+"chapeau": "",
+"clause": "The authority responsible for notified bodies shall participate in the peer-review activities provided for in Article 48."
+},
+{
+"k": "d45d07cd5618",
+"doc": "32017R0745",
+"art": "Art. 36",
+"chapeau": "",
+"clause": "Notified bodies shall fulfil the tasks for which they are designated in accordance with this Regulation."
+},
+{
+"k": "a514458ec944",
+"doc": "32017R0745",
+"art": "Art. 36",
+"chapeau": "",
+"clause": "They shall satisfy the organisational and general requirements and the quality management, resource and process requirements that are necessary to fulfil those tasks."
+},
+{
+"k": "dc82d977c8da",
+"doc": "32017R0745",
+"art": "Art. 36",
+"chapeau": "",
+"clause": "In particular, notified bodies shall comply with Annex VII."
+},
+{
+"k": "4a720a71fa44",
+"doc": "32017R0745",
+"art": "Art. 36",
+"chapeau": "",
+"clause": "In order to meet the requirements referred to in the first subparagraph, notified bodies shall have permanent availability of sufficient administrative, technical and scientific personnel in accordance with Section 3.1.1 of Annex VII and personnel with relevant clinical expertise in accordance with Section 3.2.4 of Annex VII, where possible employed by the notified body itself."
+},
+{
+"k": "f8722b6899b4",
+"doc": "32017R0745",
+"art": "Art. 36",
+"chapeau": "",
+"clause": "The personnel referred to in Sections 3.2.3 and 3.2.7 of Annex VII shall be employed by the notified body itself and shall not be external experts or subcontractors."
+},
+{
+"k": "a526c581ca83",
+"doc": "32017R0745",
+"art": "Art. 36",
+"chapeau": "",
+"clause": "Notified bodies shall make available and submit upon request all relevant documentation, including the manufacturer's documentation, to the authority responsible for notified bodies to allow it to conduct its assessment, designation, notification, monitoring and surveillance activities and to facilitate the assessment outlined in this Chapter."
+},
+{
+"k": "e4259e38508c",
+"doc": "32017R0745",
+"art": "Art. 37",
+"chapeau": "",
+"clause": "Where a notified body subcontracts specific tasks connected with conformity assessment or has recourse to a subsidiary for specific tasks connected with conformity assessment, it shall verify that the subcontractor or the subsidiary meets the applicable requirements set out in Annex VII and shall inform the authority responsible for notified bodies accordingly."
+},
+{
+"k": "db3ffd3ed567",
+"doc": "32017R0745",
+"art": "Art. 37",
+"chapeau": "",
+"clause": "Notified bodies shall take full responsibility for the tasks performed on their behalf by subcontractors or subsidiaries."
+},
+{
+"k": "bdac9f8e9555",
+"doc": "32017R0745",
+"art": "Art. 37",
+"chapeau": "",
+"clause": "Notified bodies shall make publicly available a list of their subsidiaries."
+},
+{
+"k": "7aef8119f65d",
+"doc": "32017R0745",
+"art": "Art. 37",
+"chapeau": "",
+"clause": "Notified bodies shall keep at the disposal of the authority responsible for notified bodies all relevant documents concerning the verification of the qualifications of the subcontractor or the subsidiary and the work carried out by them under this Regulation."
+},
+{
+"k": "66cbf5fe8737",
+"doc": "32017R0745",
+"art": "Art. 38",
+"chapeau": "",
+"clause": "Conformity assessment bodies shall submit an application for designation to the authority responsible for notified bodies."
+},
+{
+"k": "668fa4ee5ab5",
+"doc": "32017R0745",
+"art": "Art. 38",
+"chapeau": "",
+"clause": "The application shall specify the conformity assessment activities as defined in this Regulation, and the types of devices for which the body is applying to be designated, and shall be supported by documentation demonstrating compliance with Annex VII."
+},
+{
+"k": "25a358f9e179",
+"doc": "32017R0745",
+"art": "Art. 38",
+"chapeau": "",
+"clause": "In respect of the organisational and general requirements and the quality management requirements set out in Sections 1 and 2 of Annex VII, a valid accreditation certificate and the corresponding evaluation report delivered by a national accreditation body in accordance with Regulation (EC) No 765/2008 may be submitted and shall be taken into consideration during the assessment described in Article 39."
+},
+{
+"k": "61b705cdd58f",
+"doc": "32017R0745",
+"art": "Art. 38",
+"chapeau": "",
+"clause": "However, the applicant shall make available all the documentation referred to in the first subparagraph to demonstrate compliance with those requirements upon request."
+},
+{
+"k": "6ccdf8c47561",
+"doc": "32017R0745",
+"art": "Art. 38",
+"chapeau": "",
+"clause": "The notified body shall update the documentation referred to in paragraph 2 whenever relevant changes occur, in order to enable the authority responsible for notified bodies to monitor and verify continuous compliance with all the requirements set out in Annex VII."
+},
+{
+"k": "2de86175ad5d",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "The authority responsible for notified bodies shall within 30 days check that the application referred to in Article 38 is complete and shall request the applicant to provide any missing information."
+},
+{
+"k": "f45dbd8afba5",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "Once the application is complete that authority shall send it to the Commission."
+},
+{
+"k": "771f876db101",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "The authority responsible for notified bodies shall review the application and supporting documentation in accordance with its own procedures and shall draw up a preliminary assessment report."
+},
+{
+"k": "674cfd174672",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "The authority responsible for notified bodies shall submit the preliminary assessment report to the Commission which shall immediately transmit it to the MDCG."
+},
+{
+"k": "987a1fd3e83d",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "Within 14 days of the submission referred to in paragraph 2 of this Article, the Commission, in conjunction with the MDCG, shall appoint a joint assessment team made up of three experts, unless the specific circumstances require a different number of experts, chosen from the list referred to in Article 40(2)."
+},
+{
+"k": "91e3b7dc19bc",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "One of the experts shall be a representative of the Commission who shall coordinate the activities of the joint assessment team."
+},
+{
+"k": "80691ebae568",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "The other two experts shall come from Member States other than the one in which the applicant conformity assessment body is established."
+},
+{
+"k": "d73732019676",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "The joint assessment team shall be comprised of experts who are competent to assess the conformity assessment activities and the types of devices which are the subject of the application or, in particular when the assessment procedure is initiated in accordance with Article 47(3), to ensure that the specific concern can be appropriately assessed."
+},
+{
+"k": "fe42d2ff7d3a",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "Within 90 days of its appointment, the joint assessment team shall review the documentation submitted with the application in accordance with Article 38."
+},
+{
+"k": "f8e1b6fdda99",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "The authority responsible for notified bodies together with the joint assessment team shall plan and conduct an on-site assessment of the applicant conformity assessment body and, where relevant, of any subsidiary or subcontractor, located inside or outside the Union, to be involved in the conformity assessment process."
+},
+{
+"k": "8edcf5056382",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "The on-site assessment of the applicant body shall be led by the authority responsible for notified bodies."
+},
+{
+"k": "a4879bb724ee",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "Findings regarding non-compliance of an applicant conformity assessment body with the requirements set out in Annex VII shall be raised during the assessment process and discussed between the authority responsible for notified bodies and the joint assessment team with a view to reaching consensus and resolving any diverging opinions, with respect to the assessment of the application."
+},
+{
+"k": "4eeb6e847c77",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "At the end of the on-site assessment, the authority responsible for notified bodies shall list for the applicant conformity assessment body the non-compliances resulting from the assessment and summarise the assessment by the joint assessment team."
+},
+{
+"k": "50898f9b7f35",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "Within a specified timeframe, the applicant conformity assessment body shall submit to the national authority a corrective and preventive action plan to address the non-compliances."
+},
+{
+"k": "aebe951d2885",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "The joint assessment team shall document any remaining diverging opinions with respect to the assessment within 30 days of completion of the on-site assessment and send them to the authority responsible for notified bodies."
+},
+{
+"k": "6013800c37b3",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "The authority responsible for notified bodies shall following receipt of a corrective and preventive action plan from the applicant body assess whether non-compliances identified during the assessment have been appropriately addressed."
+},
+{
+"k": "24184026479c",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "This plan shall indicate the root cause of the identified non-compliances and shall include a timeframe for implementation of the actions therein."
+},
+{
+"k": "70b14100eb5f",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "The authority responsible for notified bodies shall having confirmed the corrective and preventive action plan forward it and its opinion thereon to the joint assessment team."
+},
+{
+"k": "72ed15293838",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "The authority responsible for notified bodies shall draw up its final assessment report which shall include:"
+},
+{
+"k": "5697c0ea0bdd",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "The authority responsible for notified bodies shall submit its final assessment report and, if applicable, the draft designation to the Commission, the MDCG and the joint assessment team."
+},
+{
+"k": "d23760e8eb57",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "The joint assessment team shall provide a final opinion regarding the assessment report prepared by the authority responsible for notified bodies and, if applicable, the draft designation within 21 days of receipt of those documents to the Commission, which shall immediately submit that final opinion to the MDCG."
+},
+{
+"k": "42582eaea6bb",
+"doc": "32017R0745",
+"art": "Art. 39",
+"chapeau": "",
+"clause": "Within 42 days of receipt of the opinion of the joint assessment team, the MDCG shall issue a recommendation with regard to the draft designation, which the authority responsible for notified bodies shall duly take into consideration for its decision on the designation of the notified body."
+},
+{
+"k": "f1fc06e4d401",
+"doc": "32017R0745",
+"art": "Art. 40",
+"chapeau": "",
+"clause": "The Member States and the Commission shall nominate experts qualified in the assessment of conformity assessment bodies in the field of medical devices to participate in the activities referred to in Articles 39 and 48."
+},
+{
+"k": "50eed19bc7a6",
+"doc": "32017R0745",
+"art": "Art. 40",
+"chapeau": "",
+"clause": "The Commission shall maintain a list of the experts nominated pursuant to paragraph 1 of this Article, together with information on their specific field of competence and expertise."
+},
+{
+"k": "bb3f598a3baa",
+"doc": "32017R0745",
+"art": "Art. 40",
+"chapeau": "",
+"clause": "That list shall be made available to Member States competent authorities through the electronic system referred to in Article 57."
+},
+{
+"k": "4e09fa092f6c",
+"doc": "32017R0745",
+"art": "Art. 41",
+"chapeau": "",
+"clause": "All documents required pursuant to Articles 38 and 39 shall be drawn up in a language or languages which shall be determined by the Member State concerned."
+},
+{
+"k": "876714cab6ad",
+"doc": "32017R0745",
+"art": "Art. 41",
+"chapeau": "",
+"clause": "Member States, in applying the first paragraph, shall consider accepting and using a commonly understood language in the medical field, for all or part of the documentation concerned."
+},
+{
+"k": "11114c72d220",
+"doc": "32017R0745",
+"art": "Art. 41",
+"chapeau": "",
+"clause": "The Commission shall provide translations of the documentation pursuant to Articles 38 and 39, or parts thereof into an official Union language, such as is necessary for that documentation to be readily understood by the joint assessment team appointed in accordance with Article 39(3)."
+},
+{
+"k": "be89d53b67ab",
+"doc": "32017R0745",
+"art": "Art. 42",
+"chapeau": "",
+"clause": "Member States may only designate conformity assessment bodies for which the assessment pursuant to Article 39 was completed and which comply with Annex VII."
+},
+{
+"k": "0f44ad887243",
+"doc": "32017R0745",
+"art": "Art. 42",
+"chapeau": "",
+"clause": "Member States shall notify the Commission and the other Member States of the conformity assessment bodies they have designated, using the electronic notification tool within the database of notified bodies developed and managed by the Commission (NANDO)."
+},
+{
+"k": "b695bab7f4f9",
+"doc": "32017R0745",
+"art": "Art. 42",
+"chapeau": "",
+"clause": "The notification shall clearly specify, using the codes referred to in paragraph 13 of this Article, the scope of the designation indicating the conformity assessment activities as defined in this Regulation and the types of devices which the notified body is authorised to assess and, without prejudice to Article 44, any conditions associated with the designation."
+},
+{
+"k": "8ff8ecd189c0",
+"doc": "32017R0745",
+"art": "Art. 42",
+"chapeau": "",
+"clause": "The notification shall be accompanied by the final assessment report of the authority responsible for notified bodies, the final opinion of the joint assessment team referred to in Article 39(9) and the recommendation of the MDCG."
+},
+{
+"k": "1230a580905f",
+"doc": "32017R0745",
+"art": "Art. 42",
+"chapeau": "",
+"clause": "Where the notifying Member State does not follow the recommendation of the MDCG, it shall provide a duly substantiated justification."
+},
+{
+"k": "bef4a48b2b98",
+"doc": "32017R0745",
+"art": "Art. 42",
+"chapeau": "",
+"clause": "The notifying Member State shall, without prejudice to Article 44, inform the Commission and the other Member States of any conditions associated with the designation and provide documentary evidence regarding the arrangements in place to ensure that the notified body will be monitored regularly and will continue to satisfy the requirements set out in Annex VII."
+},
+{
+"k": "62dc151528ce",
+"doc": "32017R0745",
+"art": "Art. 42",
+"chapeau": "",
+"clause": "Where no objection is raised, the Commission shall publish in NANDO the notification within 42 days of its having been notified as referred to in paragraph 2."
+},
+{
+"k": "09360672fba6",
+"doc": "32017R0745",
+"art": "Art. 42",
+"chapeau": "",
+"clause": "When a Member State or the Commission raises objections in accordance with paragraph 6, the Commission shall bring the matter before the MDCG within 10 days of the expiry of the period referred to in paragraph 6."
+},
+{
+"k": "840281a3fb07",
+"doc": "32017R0745",
+"art": "Art. 42",
+"chapeau": "",
+"clause": "After consulting the parties involved, the MDCG shall give its opinion at the latest within 40 days of the matter having been brought before it."
+},
+{
+"k": "a11856d7694d",
+"doc": "32017R0745",
+"art": "Art. 42",
+"chapeau": "",
+"clause": "Where the MDCG is of the opinion that the notification can be accepted, the Commission shall publish in NANDO the notification within 14 days."
+},
+{
+"k": "419dc732e4b1",
+"doc": "32017R0745",
+"art": "Art. 42",
+"chapeau": "",
+"clause": "Where the MDCG, after having been consulted in accordance with paragraph 7, confirms the existing objection or raises another objection, the notifying Member State shall provide a written response to the MDCG opinion within 40 days of its receipt."
+},
+{
+"k": "bb2540b0c1cd",
+"doc": "32017R0745",
+"art": "Art. 42",
+"chapeau": "",
+"clause": "The response shall address the objections raised in the opinion, and set out the reasons for the notifying Member State's decision to designate or not designate the conformity assessment body."
+},
+{
+"k": "a9ee103a8298",
+"doc": "32017R0745",
+"art": "Art. 42",
+"chapeau": "",
+"clause": "Where the notifying Member State decides to uphold its decision to designate the conformity assessment body, having given its reasons in accordance with paragraph 8, the Commission shall publish in NANDO the notification within 14 days of being informed thereof."
+},
+{
+"k": "f7dd47cd836a",
+"doc": "32017R0745",
+"art": "Art. 42",
+"chapeau": "",
+"clause": "When publishing the notification in NANDO, the Commission shall also add to the electronic system referred to in Article 57 the information relating to the notification of the notified body along with the documents mentioned in paragraph 4 of this Article and the opinion and responses referred to in paragraphs 7 and 8 of this Article."
+},
+{
+"k": "08e7acc93000",
+"doc": "32017R0745",
+"art": "Art. 42",
+"chapeau": "",
+"clause": "The designation shall become valid the day after the notification is published in NANDO."
+},
+{
+"k": "f404048b3f90",
+"doc": "32017R0745",
+"art": "Art. 42",
+"chapeau": "",
+"clause": "The published notification shall state the scope of lawful conformity assessment activity of the notified body."
+},
+{
+"k": "1e56d9d74ad3",
+"doc": "32017R0745",
+"art": "Art. 42",
+"chapeau": "",
+"clause": "The conformity assessment body concerned may perform the activities of a notified body only after the designation has become valid in accordance with paragraph 11."
+},
+{
+"k": "528749936c39",
+"doc": "32017R0745",
+"art": "Art. 42",
+"chapeau": "",
+"clause": "The Commission shall by 26 November 2017, by means of implementing acts, draw up a list of codes and corresponding types of devices for the purpose of specifying the scope of the designation of notified bodies."
+},
+{
+"k": "adf32c22cb8c",
+"doc": "32017R0745",
+"art": "Art. 43",
+"chapeau": "",
+"clause": "The Commission shall assign an identification number to each notified body for which the notification becomes valid in accordance with Article 42(11)."
+},
+{
+"k": "95ed32492fa9",
+"doc": "32017R0745",
+"art": "Art. 43",
+"chapeau": "",
+"clause": "It shall assign a single identification number even when the body is notified under several Union acts."
+},
+{
+"k": "4ab31fa09616",
+"doc": "32017R0745",
+"art": "Art. 43",
+"chapeau": "",
+"clause": "If they are successfully designated in accordance with this Regulation, bodies notified pursuant to Directives 90/385/EEC and 93/42/EEC shall retain the identification number assigned to them pursuant to those Directives."
+},
+{
+"k": "b591c47946d5",
+"doc": "32017R0745",
+"art": "Art. 43",
+"chapeau": "",
+"clause": "The Commission shall make the list of the bodies notified under this Regulation, including the identification numbers that have been assigned to them and the conformity assessment activities as defined in this Regulation and the types of devices for which they have been notified, accessible to the public in NANDO."
+},
+{
+"k": "aa6681b444ba",
+"doc": "32017R0745",
+"art": "Art. 43",
+"chapeau": "",
+"clause": "It shall also make this list available on the electronic system referred to in Article 57."
+},
+{
+"k": "8df0dd1a623e",
+"doc": "32017R0745",
+"art": "Art. 44",
+"chapeau": "",
+"clause": "Notified bodies shall, without delay, and at the latest within 15 days, inform the authority responsible for notified bodies of relevant changes which may affect their compliance with the requirements set out in Annex VII or their ability to conduct the conformity assessment activities relating to the devices for which they have been designated."
+},
+{
+"k": "384d59ac80c9",
+"doc": "32017R0745",
+"art": "Art. 44",
+"chapeau": "",
+"clause": "The authorities responsible for notified bodies shall monitor the notified bodies established on their territory and their subsidiaries and subcontractors to ensure ongoing compliance with the requirements and the fulfilment of its obligations set out in this Regulation."
+},
+{
+"k": "dd2446141e85",
+"doc": "32017R0745",
+"art": "Art. 44",
+"chapeau": "",
+"clause": "Notified bodies shall, upon request by their authority responsible for notified bodies, supply all relevant information and documents, required to enable the authority, the Commission and other Member States to verify compliance."
+},
+{
+"k": "cb4596df3f98",
+"doc": "32017R0745",
+"art": "Art. 44",
+"chapeau": "",
+"clause": "Where the Commission or the authority of a Member State submits a request to a notified body established on the territory of another Member State relating to a conformity assessment carried out by that notified body, it shall send a copy of that request to the authority responsible for notified bodies of that other Member State."
+},
+{
+"k": "9f15ebdb9f0e",
+"doc": "32017R0745",
+"art": "Art. 44",
+"chapeau": "",
+"clause": "The authority responsible for notified bodies of the Member State in which the body is established shall ensure that requests submitted by authorities of any other Member State or by the Commission are resolved by the notified body unless there is a legitimate reason for not doing so in which case the matter may be referred to the MDCG."
+},
+{
+"k": "7b737700cb32",
+"doc": "32017R0745",
+"art": "Art. 44",
+"chapeau": "",
+"clause": "At least once a year, the authorities responsible for notified bodies shall re-assess whether the notified bodies established on their respective territory and, where appropriate, the subsidiaries and subcontractors under the responsibility of those notified bodies still satisfy the requirements and fulfil their obligations set out in Annex VII."
+},
+{
+"k": "69394e0a0300",
+"doc": "32017R0745",
+"art": "Art. 44",
+"chapeau": "",
+"clause": "That review shall include an on-site audit of each notified body and, where necessary, of its subsidiaries and subcontractors."
+}
+]

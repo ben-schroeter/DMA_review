@@ -1,0 +1,1052 @@
+[
+{
+"k": "99a7cd5ca8ef",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "a speedometer speed:",
+"clause": "The test drive shall involve driving on public roads and streets within the territory of the European Union, as agreed between the manufacturer, the technical service and the type-approval authority."
+},
+{
+"k": "d4a6a3b4744b",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "a speedometer speed:",
+"clause": "The test drive shall involve driving on urban roads and streets, non-urban roads, and motorways/expressways/dual carriageways, where each of the three road types shall represent at least 25 % of the total distance of the route."
+},
+{
+"k": "3e29d80b9b1a",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "a speedometer speed:",
+"clause": "The route shall be one consecutive route with the same start and end point, where any repeated parts of the route in the same direction shall not count towards the test distance."
+},
+{
+"k": "0360192c8a21",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "a speedometer speed:",
+"clause": "The test drive shall involve driving in daylight and darkness conditions, where darkness shall represent at least 15 % of the total distance."
+},
+{
+"k": "275efd669bb2",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "where special variable conditions in accordance with point 3.4.2.3.2. applied, the perceived speed limit matched the expected system feedback or the assumed most common condition; or where the national speed limit applied, and during which either (d) or (e) were fulfilled:",
+"clause": "For the real-world driving assessment, it shall be checked that the SLIF adopts the relevant perceived speed limits at a reasonable distance before or after the point where such relevant applicable or national speed limit applies."
+},
+{
+"k": "5ba89dac9479",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "where special variable conditions in accordance with point 3.4.2.3.2. applied, the perceived speed limit matched the expected system feedback or the assumed most common condition; or where the national speed limit applied, and during which either (d) or (e) were fulfilled:",
+"clause": "The technical service shall select road signs for the test as referred to in point 4.1.2."
+},
+{
+"k": "7ebacd1af12f",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "where special variable conditions in accordance with point 3.4.2.3.2. applied, the perceived speed limit matched the expected system feedback or the assumed most common condition; or where the national speed limit applied, and during which either (d) or (e) were fulfilled:",
+"clause": "For ISA systems with visual warning and a cascaded acoustic warning indication as referred to in point 3.5.2.(a) or with visual warning and a cascaded haptic warning indication as referred to in point 3.5.2.(b), the following tests shall be performed:"
+},
+{
+"k": "fad844a28be8",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test 1 (warnings test):",
+"clause": "The technical service shall select a test speed limit."
+},
+{
+"k": "9179dc78df21",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test 1 (warnings test):",
+"clause": "The initial speed limit shall be at least 38 % higher than the test speed limit."
+},
+{
+"k": "c79f053da945",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test 1 (warnings test):",
+"clause": "The perceived speed limit shall be set at the initial speed limit."
+},
+{
+"k": "215ac2ec793e",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test 1 (warnings test):",
+"clause": "The subject vehicle shall be driven at a distance from the road edge such that the position of the sign meets applicable standards in the Member State concerned and with an activated SLWF using the accelerator control in a smooth manner so that its attitude is stable past a road sign indicating the test speed limit as follows:"
+},
+{
+"k": "f36aa1847550",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The subject vehicle shall be driven at a distance from the road edge such that the position of the sign meets applicable standards in the Member State concerned and with an activated SLWF using the accelerator control in a smooth manner so that its attitude is stable past a road sign indicating the test speed limit as follows:",
+"clause": "The subject vehicle shall continue at a constant speed until the cascaded acoustic or cascaded haptic warning is observed and after which:"
+},
+{
+"k": "e87e0d47d4eb",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The subject vehicle shall continue at a constant speed until the cascaded acoustic or cascaded haptic warning is observed and after which:",
+"clause": "the subject vehicle shall continue at the constant speed for at least a further 5.0 seconds and then slow down within 3.0 seconds to a speedometer speed ≤ test speed limit before 8.0 seconds have passed, for the visual warning and cascaded acoustic warning check;"
+},
+{
+"k": "6bc53287d1b7",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The subject vehicle shall continue at a constant speed until the cascaded acoustic or cascaded haptic warning is observed and after which:",
+"clause": "the subject vehicle shall continue at the constant speed for at least a further 12 seconds and then slow down within 3.0 seconds to a speedometer speed ≤ test speed limit before 15 seconds have passed, for the visual warning and cascaded haptic warning check."
+},
+{
+"k": "69c111e2f6da",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The subject vehicle shall continue at a constant speed until the cascaded acoustic or cascaded haptic warning is observed and after which:",
+"clause": "The subject vehicle shall repeat the test at the constant speed until the visual warning ends or for a maximum of 60 seconds."
+},
+{
+"k": "adec5a393cdc",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The subject vehicle shall continue at a constant speed until the cascaded acoustic or cascaded haptic warning is observed and after which:",
+"clause": "The relevant times shall be recorded in the test report."
+},
+{
+"k": "c70333cdb2da",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test 2 (deactivation (no warnings) test):",
+"clause": "The ISA system shall be deactivated and Test 1 shall be repeated at a speedometer speed selected by the technical service."
+},
+{
+"k": "b329e1186822",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test 2 (deactivation (no warnings) test):",
+"clause": "The perceived speed limit shall be set, or attempted to be set, at the test speed limit."
+},
+{
+"k": "dd75f14e9fe3",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test 3 (SLWF with driver aid control test):",
+"clause": "In the case that the vehicle type may be equipped with a driver aid where the driver is not expected to be touching the accelerator control (e.g. cruise control), a test shall be performed with an activated SLWF and the driver aid controlling the speed of the vehicle for least one speedometer speed selected by the technical service."
+},
+{
+"k": "a44b110cb2fb",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test 3 (SLWF with driver aid control test):",
+"clause": "For ISA systems with haptic warning alone as referred to in point 3.5.2.(c), the following tests shall be performed:"
+},
+{
+"k": "453e8f083f4e",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test 1 (warnings test):",
+"clause": "The subject vehicle shall be driven at a distance from the road edge such that the position of the sign meets applicable standards in the Member State concerned and with an activated SLWF using the accelerator control in a smooth manner so that its attitude is stable past a road sign indicating the test speed limit at a speedometer speed at least 1 % higher than the test speed limit as follows:"
+},
+{
+"k": "dbdf2756adae",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The subject vehicle shall be driven at a distance from the road edge such that the position of the sign meets applicable standards in the Member State concerned and with an activated SLWF using the accelerator control in a smooth manner so that its attitude is stable past a road sign indicating the test speed limit at a speedometer speed at least 1 % higher than the test speed limit as follows:",
+"clause": "The subject vehicle shall continue at a constant speed until the haptic warning is observed and after which:"
+},
+{
+"k": "d127cabb91a9",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The subject vehicle shall continue at a constant speed until the haptic warning is observed and after which:",
+"clause": "the subject vehicle shall continue at the constant speed for a further 11 seconds and then slow down within 4 seconds to a speedometer speed ≤ test speed limit before 15 seconds have passed, for the haptic warning only check."
+},
+{
+"k": "19f0b9afb891",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The subject vehicle shall continue at a constant speed until the haptic warning is observed and after which:",
+"clause": "The subject vehicle shall repeat the test at the constant speed until the haptic warning ends or for a maximum of 60 seconds."
+},
+{
+"k": "7f7e094850c1",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The subject vehicle shall continue at a constant speed until the haptic warning is observed and after which:",
+"clause": "The relevant times shall be recorded in the test report."
+},
+{
+"k": "00ba0e3912fc",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test 3 (SLWF with driver aid control test):",
+"clause": "In the case that the vehicle type may be equipped with a driver aid where the driver is not expected to be touching the accelerator control (e.g. cruise control), the Test 1 procedure referred to in point 4.4.4.1. shall be performed with an activated SLWF and the driver aid controlling the test speeds of the vehicle."
+},
+{
+"k": "175f0f875bda",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "A visual warning compliant with the requirements set out in point 3.5.2.1.1. is provided within 1.5 seconds plus the time or distance allowed for the perceived speed limit determination after passing the sign, and a cascaded acoustic or cascaded haptic warning compliant with the technical requirements set out in points 3.5.2.1.2. to 3.5.2.1.8. is present and noticeable as follows:",
+"clause": "It shall be checked that the cascaded warnings start on time and do not exceed their maximum times as laid down in points 3.5.2.1.5 and 3.5.2.1.6. and it shall be checked that the visual warning is provided until the speedometer speed is less than or equal to the perceived speed limit as laid down in point 3.5.2.1.1."
+},
+{
+"k": "076a88d4004c",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "A visual warning compliant with the requirements set out in point 3.5.2.1.1. is provided within 1.5 seconds plus the time or distance allowed for the perceived speed limit determination after passing the sign, and a cascaded acoustic or cascaded haptic warning compliant with the technical requirements set out in points 3.5.2.1.2. to 3.5.2.1.8. is present and noticeable as follows:",
+"clause": "When the tests are repeated at the constant speeds, it shall be checked that the visual warning lasts at least as long as specified in point 3.5.2.1.1."
+},
+{
+"k": "d9e4a3da459e",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test 3: SLWF with driver aid control test assessment:",
+"clause": "The gearbox type, tyre size and gear selection for the tests shall be based on a worst-case selection for the type to be approved, in agreement with the technical service."
+},
+{
+"k": "cdb9ed98ff11",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test 3: SLWF with driver aid control test assessment:",
+"clause": "The settings of the drivetrain of the test vehicle shall conform to the specifications of the manufacturer."
+},
+{
+"k": "639623954582",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test 3: SLWF with driver aid control test assessment:",
+"clause": "The tests shall be performed on a test track or on a chassis dynamometer."
+},
+{
+"k": "e44689985413",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test 3: SLWF with driver aid control test assessment:",
+"clause": "The test track surface shall be suitable to enable a stabilised speed to be maintained and shall be free from uneven patches, standing water, snow and ice."
+},
+{
+"k": "8304d8a798db",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test 3: SLWF with driver aid control test assessment:",
+"clause": "Gradients shall be ≤ 2 % and shall not vary by more than ± 1 % excluding camber effects."
+},
+{
+"k": "073a40f3b629",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test 3: SLWF with driver aid control test assessment:",
+"clause": "The mean wind speed measured at a height at least 1 m above the ground shall be less than 6 m/s with gusts not exceeding 10 m/s."
+},
+{
+"k": "966a74325deb",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test 3: SLWF with driver aid control test assessment:",
+"clause": "The equivalent inertia of the vehicle mass shall be reproduced on the chassis dynamometer with an accuracy of ± 10 %."
+},
+{
+"k": "f09d5217737b",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test 3: SLWF with driver aid control test assessment:",
+"clause": "The time shall be measured with an accuracy of ≤ 0.1 seconds."
+},
+{
+"k": "c2374e1dd791",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test 3: SLWF with driver aid control test assessment:",
+"clause": "The power absorbed by the dynamometer brake during the test shall be set to correspond with the vehicle’s resistance to progress at the tested speeds."
+},
+{
+"k": "9a3988ffde6e",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test 3: SLWF with driver aid control test assessment:",
+"clause": "This power may be established by calculation and shall be set to an accuracy of ± 10 %."
+},
+{
+"k": "98f8da282ae9",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "Test 3: SLWF with driver aid control test assessment:",
+"clause": "The test procedure specified in point 4.5.3.1.2. shall be repeated for the following speed limits:"
+},
+{
+"k": "1bcb697b5f19",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The test procedure specified in point 4.5.3.1.2. shall be repeated for the following speed limits:",
+"clause": "Only those tests where the test speed limit is lower than the vehicle’s maximum design speed have to be performed."
+},
+{
+"k": "0317592a976c",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The test procedure specified in point 4.5.3.1.2. shall be repeated for the following speed limits:",
+"clause": "The subject vehicle shall be driven with an activated SCF within the initial speedometer speed range."
+},
+{
+"k": "d3d4a0d944ac",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The test procedure specified in point 4.5.3.1.2. shall be repeated for the following speed limits:",
+"clause": "The perceived speed limit shall be set to the test speed limit."
+},
+{
+"k": "483512c4f2fb",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The test procedure specified in point 4.5.3.1.2. shall be repeated for the following speed limits:",
+"clause": "The vehicle shall then be accelerated, without applying a positive override action, until an SCF intervention is initiated."
+},
+{
+"k": "cb804e55b37a",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The test procedure specified in point 4.5.3.1.2. shall be repeated for the following speed limits:",
+"clause": "While the intervention remains active, the vehicle shall be driven long enough to allow an assessment of the stabilised speed."
+},
+{
+"k": "a9a9b11a36e8",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The test procedure specified in point 4.5.3.1.2. shall be repeated for the following speed limits:",
+"clause": "During the test, the speedometer speed shall be continuously recorded."
+},
+{
+"k": "ccd7db40107e",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The technical requirements are fulfilled if the stabilised speeds lie within the following boundaries:",
+"clause": "The test procedure specified in point 4.5.3.2.2 shall be performed at the urban test speed limit of 50 km/h, with an initial speedometer speed between 70 km/h and 79 km/h and an initial speed limit of 80 km/h."
+},
+{
+"k": "34d5f7a17d17",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The technical requirements are fulfilled if the stabilised speeds lie within the following boundaries:",
+"clause": "The subject vehicle shall be driven with an activated SCF at a constant speed within the initial speedometer speed range and the perceived speed limit shall be set to the initial speed limit so that no SCF intervention is active."
+},
+{
+"k": "761a72460277",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The technical requirements are fulfilled if the stabilised speeds lie within the following boundaries:",
+"clause": "The perceived speed limit shall then be set to the test speed limit and the vehicle shall continue to be driven at a constant speed within the initial speedometer speed range long enough to initiate an SCF intervention."
+},
+{
+"k": "8f8f95032e9b",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The technical requirements are fulfilled if the stabilised speeds lie within the following boundaries:",
+"clause": "The test procedure specified in point 4.5.3.3.2. shall be performed at the urban speed limit with an initial speedometer speed ≤ 35 km/h and a test speed limit of 50 km/h."
+},
+{
+"k": "8a8fb4fc18c8",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The technical requirements are fulfilled if the stabilised speeds lie within the following boundaries:",
+"clause": "The subject vehicle shall be driven with a deactivated SCF within the initial speedometer speed range."
+},
+{
+"k": "f5eca24f1f26",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The technical requirements are fulfilled if the stabilised speeds lie within the following boundaries:",
+"clause": "The perceived speed limit shall be set, or attempted to be set, to the test speed limit."
+},
+{
+"k": "951332817b5d",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The technical requirements are fulfilled if the stabilised speeds lie within the following boundaries:",
+"clause": "The vehicle shall then be accelerated, without applying a positive override action, for well in excess of 1.5 seconds and subsequently kept at a relatively stable speed once the test speed limit has been exceeded by a significant margin."
+},
+{
+"k": "cfc55f3d1a53",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The technical requirements are fulfilled if the stabilised speeds lie within the following boundaries:",
+"clause": "The test procedure specified in point 4.5.3.4.2. shall be performed at the urban test speed limit of 50 km/h, with an initial speedometer speed ≤ 35 km/h and the final speedometer speed ≥ 65 km/h."
+},
+{
+"k": "ea8c4f5bb903",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The technical requirements are fulfilled if the stabilised speeds lie within the following boundaries:",
+"clause": "The subject vehicle shall be driven with an activated SCF within the initial speedometer speed range."
+},
+{
+"k": "507583b76804",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The technical requirements are fulfilled if the stabilised speeds lie within the following boundaries:",
+"clause": "The perceived speed limit shall be set to the test speed limit."
+},
+{
+"k": "23675d7ec05d",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The technical requirements are fulfilled if the stabilised speeds lie within the following boundaries:",
+"clause": "The vehicle shall then be accelerated, without applying a positive override action, until an SCF intervention is initiated."
+},
+{
+"k": "0ae79b69a44e",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The technical requirements are fulfilled if the stabilised speeds lie within the following boundaries:",
+"clause": "While the intervention is active, a positive override action as specified by the vehicle manufacturer shall be applied to accelerate the vehicle to the final speedometer speed range."
+},
+{
+"k": "8413594cc6a9",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "The technical requirements are fulfilled if the stabilised speeds lie within the following boundaries:",
+"clause": "The vehicle shall then be decelerated to a speedometer speed below the test speed limit and accelerated again, without applying a positive override action, until an SCF intervention is initiated."
+},
+{
+"k": "3751d2870e32",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The observation sensor of the speed limit determination system that is used to assess real-world road signs (e.g. camera) shall not be required to observe more than the forward field of vision of the driver through the motor vehicle’s front windscreen (or a reasonable alternative field as agreed between the vehicle manufacturer, technical service and type-approval authority when the vehicle is not fitted with a front windscreen), as determined using ambinocular vision, the eyes being at the driver’s ocular points as defined in UN Regulation No 46 ( 5 ) ."
+},
+{
+"k": "7b579a9cbccc",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "",
+"clause": "A sign passing event shall not be taken into account when the related sign is partly obstructed (e.g. tree leaves, parked vehicles) or clearly not positioned perpendicularly in relation to both the ground level and the road side or otherwise in an incorrect orientation (e.g. rotated), unless requested by the manufacturer."
+},
+{
+"k": "dfdac2093cf4",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "",
+"clause": "Where the related sign is missing or positioned ambiguously in terms of location to an extent that a normal driver travelling on the relevant road section for the first time would be uncertain to whether or not it applies to that driver, as checked and agreed by the technical service for each instance, the sign passing event shall not be taken into account, unless requested by the manufacturer."
+},
+{
+"k": "eb8023c62cb6",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "",
+"clause": "Where a sign or multiple signs are conveying ambiguous, additional, complementary or diverging information in terms of applicability to vehicle categories, technically permissible maximum laden mass, vehicle dimensions, time of day, weather conditions, adjacent lanes or direction of travel, as checked and agreed by the technical service for each instance, the sign passing event shall not be taken into account, unless requested by the manufacturer."
+},
+{
+"k": "da8679c5cb9e",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "",
+"clause": "When, within 12 months before the type-approval test, a change occurred in a Member State as regards the applicable speed limit or traffic rule linked to an implicit speed limit sign, or a new sign is introduced, as included in the catalogue of signs in Annex II at time of the type-approval test of the vehicle or STU, the sign passing event shall not be taken into account, unless requested by the manufacturer."
+},
+{
+"k": "7f1cc5f759bc",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The distances, where any condition referred to in points 5.3.1. to 5.3.5. applies, shall not be taken into account for the performance metric calculation driven distances d_total and d_correct, as specified in point 4.3.2."
+},
+{
+"k": "b131d0a20cb1",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "",
+"clause": "However, although the above sign passing events shall not be taken into account, any correct perceived speed limit determination events and associated distance driven may be taken into account on the request of the manufacturer, on case-by-case basis, when the system outperforms these provisions, especially in the case where manufacturers employ a combination of an optical observation sensor + GNSS based location determination system + digital maps, being the preferred option with the greatest reliability."
+},
+{
+"k": "3f25e98884d4",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The system shall retain the perceived speed limit or information in accordance with point 3.4.1.3., even after re-activation of the vehicle master control switch, unless the system can normally determine the perceived speed limit using relevant system inputs (e.g. electronic map data) when the motor vehicle enters or starts driving on a public road."
+},
+{
+"k": "c1481829b5e0",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "",
+"clause": "In the case that the system relies on machine learning, or similar, this shall be duly taken into account when assessing the real-world driving reliability."
+},
+{
+"k": "5a9271a7f56c",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The technical service shall in such case permit a pre-conditioning of the vehicle in accordance with the manufacturer’s specifications that may be in excess of 100 km as laid down in point 4.1.1.3., as long as it is deemed reasonable."
+},
+{
+"k": "fa5f0d2a0c52",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "",
+"clause": "It shall however be prohibited that the preconditioning takes place on any part of the test drive route as determined and agreed in accordance with points 3.4.2.5.3. and 4.3.1."
+},
+{
+"k": "048c511e1d56",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "",
+"clause": "For the purpose of conformity of production and market surveillance testing, the manufacturer, technical service and national authorities shall consider the most recent available system updates at the time of testing, when made available in accordance with point 3.4.2.5.5.2."
+},
+{
+"k": "e3b2d40f90f2",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "",
+"clause": "When, within 12 months before the test, an update of the catalogue of signs in Annex II reflected a change that occurred in a Member State as regards the applicable speed limit linked to a specific implicit speed limit sign that was included in the catalogue at time of the type-approval of the vehicle or STU, the sign passing event shall not be taken into account unless requested by the manufacturer."
+},
+{
+"k": "5b863972fad6",
+"doc": "32021R1958",
+"art": "Annex I",
+"chapeau": "",
+"clause": "Any expansion of the catalogue of signs in Annex II in terms of additional implicit signs that were not included at time of the type-approval of the vehicle or STU, shall not be taken into account for the purpose of conformity of production and market surveillance testing unless when requested by the manufacturer."
+},
+{
+"k": "060f31894035",
+"doc": "32021R1958",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "However, the refresh rate of the signs shall be at least 1 000 Hz to ensure the image is captured correctly for the purpose of adequate ISA system processing."
+},
+{
+"k": "35615b31abfb",
+"doc": "32021R1958",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The ISA system shall be capable of dealing with those elements."
+},
+{
+"k": "2515d45b5720",
+"doc": "32021R1958",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "The ISA system, fitted in motor vehicles of category M2<3,5t, shall adopt the expected feedback for vehicle category M1, unless otherwise noted in the table."
+},
+{
+"k": "11d57c8c45f9",
+"doc": "32021R1958",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "the formal speed limit of 70 km/h shall be used on motorways as the perceived speed limit for N2>7,5t and N3."
+},
+{
+"k": "680a8f7c3135",
+"doc": "32021R1958",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "the formal speed limit of 80 km/h shall be used on motorways as the perceived speed limit for M2, M3, N2 and N3."
+},
+{
+"k": "a432fd9804f9",
+"doc": "32021R1958",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "the formal speed limit of 90 km/h shall be used on motorways as the perceived speed limit for M2 and M3, as well as N2 and N3 (i.e. letter S)."
+},
+{
+"k": "189df1ec4db4",
+"doc": "32021R1958",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "the formal speed limit of 80 km/h shall be used on motorways as the perceived speed limit for N3"
+},
+{
+"k": "532a25853240",
+"doc": "32021R1958",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "the formal speed limit of 90 km/h shall be used on motorways as the perceived speed limit for N2 (i.e. letter S)"
+},
+{
+"k": "3aab818863d7",
+"doc": "32021R1958",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "the formal speed limit of 100 km/h shall be used on motorways as the perceived speed limit for M3 (i.e. letter S)"
+},
+{
+"k": "797d0864b296",
+"doc": "32021R1958",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "the formal speed limit of 80 km/h shall be used on motorways as the perceived speed limit for M2>3,5t, M3, N2 and N3"
+},
+{
+"k": "a5baf8f5fa18",
+"doc": "32021R1958",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "the formal speed limit of 80 km/h shall be used on motorways as the perceived speed limit for N2 and N3"
+},
+{
+"k": "8f4b17b283c9",
+"doc": "32021R1958",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "the formal speed limit of 100 km/h (letter S) shall be used on motorways as the perceived speed limit for M2 and M3"
+},
+{
+"k": "9bd6ad31d51a",
+"doc": "32021R1958",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "the formal speed limit of 80 km/h shall be used on motorways as the perceived speed limit for M2, M3, N2 and N3"
+},
+{
+"k": "6113060ac6b1",
+"doc": "32021R1958",
+"art": "Annex Ii",
+"chapeau": "",
+"clause": "the formal speed limit of 90 km/h shall be used on motorways as the perceived speed limit for M2 and M3"
+},
+{
+"k": "d8299e280551",
+"doc": "32023R2713",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "Without prejudice to paragraph 2 of this Article, EU reference laboratories shall carry out the task referred to in Article 100(2), point (a), of Regulation (EU) 2017/746, only for devices for which manufacturers or authorised representatives lodge formal applications for conformity assessment with a notified body in accordance with Section 4.3, first subparagraph, of Annex VII to Regulation (EU) 2017/746 from 1 October 2024."
+},
+{
+"k": "2e4082689f5c",
+"doc": "32018R1108",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "Host Member States shall base their assessment of the level of money laundering or terrorist financing risk associated with the operation of those establishments on the findings of risk assessments carried out in accordance with Article 6(1) and Article 7(1) of Directive (EU) 2015/849 and other credible and reliable sources available to them."
+},
+{
+"k": "c72b68065c2b",
+"doc": "32018R1108",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "As part of this assessment, host Member States shall take into account at least the following criteria:"
+},
+{
+"k": "7f397e05a376",
+"doc": "32018R1108",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "The central contact point shall ensure that establishments specified in Article 45(9) of Directive (EU) 2015/849 comply with AML/CFT rules of the host Member State."
+},
+{
+"k": "f285c16ae67c",
+"doc": "32018R1108",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "To this end, the central contact point shall:"
+},
+{
+"k": "63b558c91dfd",
+"doc": "32018R1108",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "The central contact point shall facilitate the supervision by competent authorities of the host Member State of establishments specified in Article 45(9) of Directive (EU) 2015/849."
+},
+{
+"k": "b160f6be619e",
+"doc": "32018R1108",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "To this end, the central contact point shall, on behalf of the appointing electronic money issuer or payment services provider:"
+},
+{
+"k": "74c5dc3cd298",
+"doc": "32018R1108",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Host Member States shall base their assessment of the level of money laundering or terrorist financing risk associated with the operation of such establishments on the findings of risk assessments carried out in accordance with Article 6(1) and Article 7(1) of Directive (EU) 2015/849, Article 3(2) of this Regulation where applicable, and other credible and reliable sources available to them."
+},
+{
+"k": "3e566a5bafc8",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "For the purposes of this Annex, the following definitions apply:",
+"clause": "‘drowsiness threshold’ is a quantification of the level of driver drowsiness, at or before which the DDAW system shall provide a drowsiness warning to the driver."
+},
+{
+"k": "c76f0ed9f5ad",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "A driver drowsiness and attention warning (DDAW) system shall monitor a driver’s level of drowsiness and alert the driver through the vehicle human machine interface (HMI)."
+},
+{
+"k": "a43a256121d4",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The DDAW system shall be designed to avoid or minimise the system error rate under real driving conditions."
+},
+{
+"k": "cb855cd3248a",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The DDAW system shall function in normal operation mode without the use of biometric information, including facial recognition, of any vehicle occupants."
+},
+{
+"k": "c3a1d6811f65",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The DDAW system shall be designed in such a way that it shall only continuously record and retain data necessary for the system to function and operate within a closed-loop system."
+},
+{
+"k": "74a8d42b804f",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "Any processing of personal data shall be carried out in accordance with Union data protection law."
+},
+{
+"k": "4b2367c8d89c",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "It shall not be possible for the driver to manually deactivate the DDAW system."
+},
+{
+"k": "2ef68eaa3f35",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "Following manual deactivation of the DDAW System HMI warnings, it shall be possible for the driver to re-activate the system HMI warnings by taking no more than the same number of actions as were required to deactivate it."
+},
+{
+"k": "8e0eb69fae74",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The DDAW system shall be automatically deactivated in the situations pre-defined by the manufacturer."
+},
+{
+"k": "f9e454923f28",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The DDAW system shall be automatically reactivated as soon as the conditions that led to its automatic deactivation are no longer present."
+},
+{
+"k": "add822ffa173",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The DDAW system, including HMI warnings, shall be automatically reinstated to normal operation mode upon each activation of the vehicle master control switch."
+},
+{
+"k": "7c8bc25792b3",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The DDAW system shall be automatically activated above the speed of 70 km/h."
+},
+{
+"k": "d957708fde28",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "Once activated, DDAW system shall operate normally within the speed range of 65 km/h to 130 km/h or the vehicle’s maximum allowed speed, whichever is lower."
+},
+{
+"k": "2b0ad17a2890",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The DDAW system shall not be automatically deactivated at a speed of above 130 km/h (although the system’s behaviour can be adapted to the degraded situation)."
+},
+{
+"k": "93315fda9846",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "There shall be less than 5-minute delay between the vehicle meeting the activation criteria set out in points 3.1.4., and the DDAW system beginning to actively monitor driver drowsiness."
+},
+{
+"k": "e49f95a9fcf1",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The learning phase activation time shall start once all the conditions for the activation of the DDAW system referred to in points 3.1. and 3.2. are met."
+},
+{
+"k": "bcde8b333eb4",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The DDAW system shall operate effectively during the day and night."
+},
+{
+"k": "f0cd9996c8c2",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The DDAW system shall operate in absence of weather conditions limiting the system’s operation."
+},
+{
+"k": "9985f3b2ab8d",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "At a minimum, the DDAW system shall work effectively on a multi-lane divided road, with or without a central divide, when lane markings are visible on both sides of the lane."
+},
+{
+"k": "06d01a9c62ce",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The DDAW system shall provide a warning to the driver at a level of drowsiness which is equivalent to or above 8 on the reference sleepiness scale set out in the Appendix (Karolinska Sleepiness Scale, hereinafter referred to as ‘KSS’)."
+},
+{
+"k": "be391b786fef",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The DDAW system shall analyse other vehicle systems for detection of drowsy driving indicators."
+},
+{
+"k": "05e881b6c5ca",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The DDAW system shall analyse other vehicle systems for detection of drowsy driving indicators. Such driving indicators may include but are not limited to the following:",
+"clause": "Visual and acoustic or any other warning used by the DDAW system to alert the driver shall be presented as soon as possible after occurrence of the trigger behaviour and may cascade and intensify until acknowledgement thereof by the driver."
+},
+{
+"k": "00bc407abba1",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The DDAW system shall analyse other vehicle systems for detection of drowsy driving indicators. Such driving indicators may include but are not limited to the following:",
+"clause": "The visual warning shall be located so as to be readily visible and recognisable in daylight and at night-time by the driver and distinguishable from other alerts."
+},
+{
+"k": "df6a7f7fca6d",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The DDAW system shall analyse other vehicle systems for detection of drowsy driving indicators. Such driving indicators may include but are not limited to the following:",
+"clause": "The visual warning shall be a steady or flashing indication (e.g. tell-tale, pop-up message, etc.)."
+},
+{
+"k": "d7c9a1afd7f5",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The DDAW system shall analyse other vehicle systems for detection of drowsy driving indicators. Such driving indicators may include but are not limited to the following:",
+"clause": "The acoustic warning shall be easily recognised by the driver."
+},
+{
+"k": "b25a2d146416",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The DDAW system shall analyse other vehicle systems for detection of drowsy driving indicators. Such driving indicators may include but are not limited to the following:",
+"clause": "A majority of the acoustic warning shall fall within the frequency spectrum of 200-8 000 Hz and amplitude range of 50-90 dB."
+},
+{
+"k": "cdfa3e1107ba",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The DDAW system shall analyse other vehicle systems for detection of drowsy driving indicators. Such driving indicators may include but are not limited to the following:",
+"clause": "If speech alerts are utilised, the vocabulary used shall be consistent with any text used as part of the visual alert."
+},
+{
+"k": "58279fd7806b",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The DDAW system shall analyse other vehicle systems for detection of drowsy driving indicators. Such driving indicators may include but are not limited to the following:",
+"clause": "The audible portion of the alert shall last for at least the duration that allows the driver to understand it."
+},
+{
+"k": "d9940972e87c",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The DDAW system shall analyse other vehicle systems for detection of drowsy driving indicators. Such driving indicators may include but are not limited to the following:",
+"clause": "A constant visual failure warning signal (e.g. warning reflecting the relevant Diagnostic Trouble Codes (DTC) for the system, tell-tale, pop-up message, etc.) shall be provided when there is a failure detected in the DDAW system as a result of which the DDAW system does not meet the requirements of this Annex."
+},
+{
+"k": "c349ff91f884",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The DDAW system shall analyse other vehicle systems for detection of drowsy driving indicators. Such driving indicators may include but are not limited to the following:",
+"clause": "There shall not be an appreciable time interval between each DDAW self-check, and subsequently there shall not be a delay in displaying the failure warning signal, in the case of an electrically detectable failure."
+},
+{
+"k": "868e8422083b",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The DDAW system shall analyse other vehicle systems for detection of drowsy driving indicators. Such driving indicators may include but are not limited to the following:",
+"clause": "Upon detection of a non-electrical failure condition (e.g. sensor obscuration, excluding temporary obscuration such as caused by sun glare), the failure warning signal as laid down in point 3.5.1. shall be displayed."
+},
+{
+"k": "2dad143f2c86",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The DDAW system shall analyse other vehicle systems for detection of drowsy driving indicators. Such driving indicators may include but are not limited to the following:",
+"clause": "Failures that activate the warning signal mentioned in point 3.5.1., but which are not detected under static conditions, shall be retained upon detection and continue to be displayed from start-up of the vehicle after each activation of the vehicle master control switch, for as long as the failure or defect persists."
+},
+{
+"k": "37b19a44dcf0",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "The DDAW system shall analyse other vehicle systems for detection of drowsy driving indicators. Such driving indicators may include but are not limited to the following:",
+"clause": "For the purpose of periodic roadworthiness tests of vehicles, it shall be possible to verify the following features of the DDAW system:"
+},
+{
+"k": "f5a01550ff1e",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "For the purpose of periodic roadworthiness tests of vehicles, it shall be possible to verify the following features of the DDAW system:",
+"clause": "Where the failure warning signal is displayed in a common space (the area on which two or more information functions/symbols may be displayed, but not simultaneously), it must be checked first that the common space is functional prior to the failure warning signal status check;"
+},
+{
+"k": "ec53574fc260",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "For the purpose of periodic roadworthiness tests of vehicles, it shall be possible to verify the following features of the DDAW system:",
+"clause": "Manufacturers shall ensure to make available the technical information for the use of the electronic vehicle interface in accordance with Article 6 of Commission Implementing Regulation (EU) 2019/621 ( 2 ) ."
+},
+{
+"k": "fa4aeb3bb4e3",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "For the purpose of periodic roadworthiness tests of vehicles, it shall be possible to verify the following features of the DDAW system:",
+"clause": "At the time of type-approval, the means to protect against simple unauthorised modification of the operation of the failure warning signal chosen by the manufacturer shall be confidentially outlined in the assessment of the technical documentation under Part 3."
+},
+{
+"k": "7acecebe21f2",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "Manufacturers shall carry out validation testing to ensure that DDAW systems are able to monitor driver drowsiness in a manner which is accurate, robust and scientifically valid."
+},
+{
+"k": "ea9a495ee6ce",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The validation testing of the DDAW shall meet the requirements set out in points 2 to 8."
+},
+{
+"k": "b6348b91beba",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The manufacturer shall document the validation process in the documentation package to be provided by the manufacturer in accordance with Part 3."
+},
+{
+"k": "36f9e51a1220",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "Validation testing shall take place using human participants."
+},
+{
+"k": "0bc8373799a5",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "Alternatively the data used for the validation shall derive from behaviour data collected with human participants."
+},
+{
+"k": "f0e8f48ef62c",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "Any validation testing that includes a human participant operating a motor vehicle in a real-world, non-simulated road environment, shall have a safety backup."
+},
+{
+"k": "3eb846a12ee9",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The safety backup shall intervene if the driver becomes drowsy, so that he or she can no longer safely control the motor vehicle."
+},
+{
+"k": "15531ba86687",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "If the safety backup intervenes, the participant shall not be permitted to drive any further as part of the testing."
+},
+{
+"k": "6091e9d77276",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "double pedals) shall be required."
+},
+{
+"k": "89e59d57f2af",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "another non-drowsy driver takes primary control of the vehicle and the drowsy driver shall not be allowed to continue to drive."
+},
+{
+"k": "1736c2224095",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "If validation testing is performed in a simulator, the manufacturer shall document its limitations with regard to real-world open road testing for the purpose of testing the DDAW system."
+},
+{
+"k": "3e9a156a86cc",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "Each test participant shall generate at least 1 true positive or 1 false negative event as referred to in points 5.1.4. and 5.1.5."
+},
+{
+"k": "2ff77fdbc788",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The total number, obtained by the sum of true positive events and false negative events, shall be equal to or higher than 10."
+},
+{
+"k": "33e26a047624",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The minimum sample size of participants shall be 10 participants."
+},
+{
+"k": "93cdc15d9d10",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "All the results from participants fitting the requirements of point 3.1. shall be accounted for the validation."
+},
+{
+"k": "229d84576f50",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The participants shall correspond to the targeted demography for the vehicle (for example, participants with a valid license to drive the vehicle on which the DDAW system is installed)."
+},
+{
+"k": "1fd6f904cf07",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "None of the 10 participants of the minimum sample size shall be involved in the development of DDAW system."
+},
+{
+"k": "76bba2c9db52",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "One of the acceptance criteria, of point 8, shall be met with and without results from the additional participants involved in the DDAW system development."
+},
+{
+"k": "804b06b50bcc",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "",
+"clause": "At a minimum, the system shall be tested in the day and night conditions from point 4.1.1. or 4.1.2., and record at least a true positive event in each conditions (overall, not for each participant tested in the condition)."
+},
+{
+"k": "0fb1b8337f40",
+"doc": "32021R1341",
+"art": "Annex I",
+"chapeau": "For non-simulated road environment testing:",
+"clause": "testing shall start after sunrise and before sunset;"
+}
+]

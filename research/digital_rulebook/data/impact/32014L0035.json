@@ -1,0 +1,45 @@
+{
+ "celex": "32014L0035",
+ "name": "Low Voltage Directive",
+ "proposal": "52011PC0773",
+ "impact_assessment": "joint impact assessment SEC(2011) 1376 for the New Legislative Framework alignment package",
+ "evidence_rating": "thin: one Commission evaluation based mainly on stakeholder views; little quantitative data",
+ "summary": "The Commission's 2021 evaluation found the Directive fairly effective in creating a single market for electrical equipment and protecting safety, with no major differences in interpretation between Member States; market surveillance, especially of online sales, was the weak point. Stakeholders supplied little quantitative cost data.",
+ "last_reviewed": "2026-11-14",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "No monitoring indicators set in the proposal; assessed through the Commission's reports listed below",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2021-lvd-evaluation",
+   "citation": "European Commission (2021), Evaluation of the Low Voltage Directive 2014/35/EU, SWD(2021) 202",
+   "authors": "European Commission",
+   "year": 2021,
+   "title": "Evaluation of the Low Voltage Directive 2014/35/EU",
+   "venue": "SWD(2021) 202",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021SC0202",
+   "pdf_url": "",
+   "source_type": "Commission evaluation",
+   "method": "ex-post evaluation (stakeholder survey, external study)",
+   "outcomes": "internal market; product safety",
+   "direction": "positive with gaps",
+   "headline": "Fairly effective for the internal market and health and safety; harmonised standards keep it up to date; market surveillance, notably of e-commerce, ineffective; benefits judged to outweigh costs but little quantitative data",
+   "summary_plain": "The Commission found the safety rules for electrical equipment work, but that unsafe products sold online often slip through.",
+   "period_geography": "EU, 2016-2020",
+   "quality": "Commission self-assessment based on stakeholder views",
+   "verified": "full text read (conclusions)",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": ""
+  }
+ ]
+}

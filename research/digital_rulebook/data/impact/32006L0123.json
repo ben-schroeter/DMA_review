@@ -1,0 +1,68 @@
+{
+ "celex": "32006L0123",
+ "name": "Services Directive",
+ "proposal": "52004PC0002",
+ "impact_assessment": "extended impact assessment SEC(2004) 21",
+ "evidence_rating": "thin: model-based estimates of the effect of the barriers removed; no causal ex-post study found",
+ "summary": "The Directive required Member States to remove unjustified barriers to establishing and providing services and to set up points of single contact. A Commission economists' assessment (2012) estimated gains in trade, investment and GDP from the barriers actually removed, but its authors describe it as an extrapolation rather than a full ex-post evaluation; a 2015 review by Sweden's National Board of Trade found no ex-post analysis of the Directive's effects.",
+ "last_reviewed": "2026-11-14",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "No monitoring indicators set in the proposal; assessed through the Commission's reports listed below",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  }
+ ],
+ "literature": [
+  {
+   "id": "monteagudo-2012-services",
+   "citation": "Monteagudo, J., Rutkowski, A. and Lorenzani, D. (2012), The economic impact of the Services Directive: a first assessment following implementation, European Economy Economic Papers 456, European Commission (DG ECFIN)",
+   "authors": "Monteagudo, J., Rutkowski, A. and Lorenzani, D.",
+   "year": 2012,
+   "title": "The economic impact of the Services Directive: a first assessment following implementation",
+   "venue": "European Economy Economic Papers 456, European Commission (DG ECFIN)",
+   "url": "https://econpapers.repec.org/RePEc:euf:ecopap:0456",
+   "pdf_url": "",
+   "source_type": "Commission working paper",
+   "method": "quantitative assessment (barrier indicators before and after implementation, gravity-model estimates)",
+   "outcomes": "trade in services; FDI; GDP",
+   "direction": "positive (estimate)",
+   "headline": "Estimates gains in intra-EU services trade, FDI and GDP from the barriers removed by implementation; authors describe it as an updated prediction rather than an assessment of full effects",
+   "summary_plain": "Commission economists estimated that the barriers removed by the Directive raise trade and investment in services, but stressed that this is an estimate, not a measurement of what happened.",
+   "period_geography": "EU, 2006-2011",
+   "quality": "model-based; not causal",
+   "verified": "abstract read",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": ""
+  },
+  {
+   "id": "kommerskollegium-2015-single-market",
+   "citation": "National Board of Trade Sweden (Kommerskollegium) (2015), Economic effects of the European Single Market: review of the empirical literature, National Board of Trade report",
+   "authors": "National Board of Trade Sweden (Kommerskollegium)",
+   "year": 2015,
+   "title": "Economic effects of the European Single Market: review of the empirical literature",
+   "venue": "National Board of Trade report",
+   "url": "https://www.kommerskollegium.se/globalassets/publikationer/rapporter/2016-och-aldre/publ-economic-effects-of-the-european-single-market.pdf",
+   "pdf_url": "",
+   "source_type": "Government agency review",
+   "method": "literature review",
+   "outcomes": "single market for services",
+   "direction": "no evidence",
+   "headline": "No ex-post analysis of the effects of the Services Directive available at the time of the review",
+   "summary_plain": "A Swedish government review of the evidence found no study that had measured the Directive's actual effects.",
+   "period_geography": "EU",
+   "quality": "literature review",
+   "verified": "summary via search",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20260930204650/https://www.kommerskollegium.se/globalassets/publikationer/rapporter/2016-och-aldre/publ-economic-effects-of-the-european-single-market.pdf"
+  }
+ ]
+}

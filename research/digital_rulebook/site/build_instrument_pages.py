@@ -26,6 +26,10 @@ ct_src = open("scripts/company_types.py").read()
 CT = {}; exec(compile(ct_src.split("wb = openpyxl")[0], "ct", "exec"), CT)
 fs_src = open("scripts/firm_size.py").read()
 FSR = re.findall(r"\((\d+), lambda r: .*?, (?:MICRO|SMALL|MEDIUM|SMC|LARGE|DESIG), \"([^\"]+)\"\)", fs_src)
+TIMING = {   # when the rules apply, where the counts would otherwise mislead (notes/pending_corrections.md)
+ 68: "Applies from 10 July 2027. Until then companies' anti-money laundering duties come from the Fourth Anti-Money Laundering Directive (2015/849), applied through national law; the obligations counted here are the rules that apply from 2027.",
+ 141: "In force until 10 July 2027, when the Anti-Money Laundering Regulation (2024/1624) replaces it. Counted as originally adopted; the 2018 amendment (Directive 2018/843) is not included in the count.",
+}
 SIZE = {
  119: "Microenterprises providing services are exempt from the accessibility requirements and the obligations that go with them (Article 4(5)); microenterprises dealing with products need not document their assessment of a disproportionate burden (Article 14(4)).",
  20: "Organisations with fewer than 250 employees need not keep records of processing activities, unless the processing is risky, not occasional or involves sensitive or criminal-record data (Article 30(5)).",
@@ -302,6 +306,7 @@ def page(r):
       <h1 style="font-family: 'Source Serif 4', Georgia, serif; font-weight: 400; font-size: 52px; line-height: 1.05; letter-spacing: -0.02em; margin: 0">{esc(name)}</h1>
       <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center">{"".join(chips)}</div>
       <p class="cap" style="margin: 0">{who}</p>
+      {f'<p class="cap" style="margin: 0; padding: 10px 14px; background: #F3F1EC; border-left: 3px solid #B8860B; color: #282424">{esc(TIMING[rid])}</p>' if rid in TIMING else ""}
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; padding-top: 4px">
         <div style="display: flex; flex-direction: column; gap: 8px"><p class="eyebrow">What it does</p><p class="body" style="font-size: 17px; color: #282424">{esc(r["objectives"] or "")}</p></div>
         <div style="display: flex; flex-direction: column; gap: 8px"><p class="eyebrow">What we know so far</p><p class="body" style="font-size: 17px">{esc(r["impact_summary"] or ("Not yet adopted; no evidence on effects." if pend else "No summary yet."))}</p></div>

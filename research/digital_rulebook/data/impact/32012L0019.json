@@ -1,0 +1,54 @@
+{
+ "celex": "32012L0019",
+ "name": "WEEE Directive",
+ "proposal": "52008PC0810",
+ "impact_assessment": "SEC(2008) 2933 (summary SEC(2008) 2934)",
+ "evidence_rating": "thin: one Commission evaluation with a supporting study; collection data reported by Member States",
+ "summary": "The Commission's 2025 evaluation found that collection of waste electronics rose by about 65% between 2012 and 2021, but that nearly half of all e-waste generated in the EU is still not collected, only three Member States met the 65% collection target in 2022, and the recycling targets do little to recover critical raw materials.",
+ "last_reviewed": "2026-11-14",
+ "indicators": [
+  {
+   "type": "note",
+   "objective": "No monitoring indicators set in the proposal; assessed through the Commission's reports listed below",
+   "indicator": "",
+   "target_or_baseline": "",
+   "evidence": "",
+   "status": "",
+   "sources": ""
+  },
+  {
+   "type": "target in the act",
+   "objective": "Separate collection of WEEE",
+   "indicator": "Collection rate",
+   "target_or_baseline": "65% of EEE placed on the market (or 85% of WEEE generated) from 2019",
+   "evidence": "Collection up about 65% (2012-2021); nearly half of WEEE generated not collected; three Member States met the target in 2022.",
+   "status": "measured",
+   "sources": "Commission evaluation 2025"
+  }
+ ],
+ "literature": [
+  {
+   "id": "ec-2025-weee-evaluation",
+   "citation": "European Commission (2025), Evaluation of Directive 2012/19/EU on waste electrical and electronic equipment (WEEE), Commission staff working document (July 2025)",
+   "authors": "European Commission",
+   "year": 2025,
+   "title": "Evaluation of Directive 2012/19/EU on waste electrical and electronic equipment (WEEE)",
+   "venue": "Commission staff working document (July 2025)",
+   "url": "https://environment.ec.europa.eu/publications/staff-working-document-evaluation-directive-201219eu-waste-electrical-and-electronic-equipment-weee_en",
+   "pdf_url": "",
+   "source_type": "Commission evaluation",
+   "method": "ex-post evaluation (Member State data, supporting study by Ramboll, Umweltbundesamt and Oeko-Institut, consultation)",
+   "outcomes": "collection; recycling; raw materials",
+   "direction": "mixed",
+   "headline": "Collection up about 65% between 2012 and 2021, but nearly half of WEEE not collected; only three Member States met the 65% target in 2022; recycling targets do not drive recovery of critical raw materials",
+   "summary_plain": "The Commission found more e-waste is collected than before, but most countries miss the target and valuable materials are still lost.",
+   "period_geography": "EU, 2012-2022",
+   "quality": "Commission self-assessment; official statistics",
+   "verified": "summary via search",
+   "access": "open",
+   "interested_party": "",
+   "accessed": "2026-11-14",
+   "archive_url": "http://web.archive.org/web/20260915102652/https://environment.ec.europa.eu/publications/staff-working-document-evaluation-directive-201219eu-waste-electrical-and-electronic-equipment-weee_en"
+  }
+ ]
+}

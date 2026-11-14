@@ -1,0 +1,1052 @@
+[
+{
+"k": "05624ee79b7d",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "",
+"clause": "However, regulated tailpipe emissions shall not disproportionately increase with respect to the initial state when following the indication of the GSI."
+},
+{
+"k": "caf00c6e3687",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "",
+"clause": "In addition, following the GSI strategy shall facilitate the timely functioning of pollution control devices, such as catalysts, after a cold start, minimising their heat up time."
+},
+{
+"k": "4e67666b1658",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "",
+"clause": "For that purpose, vehicle manufacturers shall provide technical documentation to the type-approval authority, which shall describe the impact of the GSI strategy on the vehicle's regulated tailpipe emissions, under at least steady vehicle speed, and the shortening of after treatment heat up at cold start."
+},
+{
+"k": "1a5e3e12c1b7",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "",
+"clause": "Following the indication of the GSI shall not compromise the safe operation of the vehicle, e.g. prevent stalling of the engine, insufficient engine braking or insufficient engine torque in the case of high power demand."
+},
+{
+"k": "4647a9d165f8",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "",
+"clause": "The manufacturer shall provide the information to the type-approval authority in the following two parts:"
+},
+{
+"k": "95714b77c06e",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "The manufacturer shall provide the information to the type-approval authority in the following two parts:",
+"clause": "the \"extended documentation package\" that shall remain strictly confidential."
+},
+{
+"k": "52ef5ce298aa",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "The manufacturer shall provide the information to the type-approval authority in the following two parts:",
+"clause": "The formal documentation package shall contain the following information:"
+},
+{
+"k": "92f57331ed3f",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "The formal documentation package shall contain the following information:",
+"clause": "The extended documentation package shall contain the design strategy of the GSI, in particular its functional characteristics."
+},
+{
+"k": "03a682fd5abf",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "The formal documentation package shall contain the following information:",
+"clause": "Notwithstanding the provision of Article 13 of this Regulation, the extended documentation package shall remain strictly confidential between the type-approval authority and the manufacturer."
+},
+{
+"k": "cbf8a915874d",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "The formal documentation package shall contain the following information:",
+"clause": "In case the manufacturer retains the extended documentation package, that package shall be identified and dated by the type-approval authority once reviewed and approved."
+},
+{
+"k": "4d60057e74c0",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "The formal documentation package shall contain the following information:",
+"clause": "It shall be made available for inspection by the approval authority at the time of approval or at any time during the validity of the approval."
+},
+{
+"k": "5175fc4eccd4",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "",
+"clause": "The test to determine the vehicle speeds at which GSI recommends shifting up gears shall be performed on a warmed up vehicle on a chassis dynamometer in accordance with the speed profile described in point 8."
+},
+{
+"k": "3fd657fd8056",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "",
+"clause": "The advice of the GSI shall be followed for shifting up gears and the vehicle speeds, at which the GSI recommends shifting shall be recorded."
+},
+{
+"k": "1087079ef94e",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "",
+"clause": "The test shall be repeated three times."
+},
+{
+"k": "2bfa04cf8ac0",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "",
+"clause": "GSI shall denote the average speed at which the GSI recommends shifting up from gear n (n = 1, 2, …, #g) into gear n+1, determined from the 3 tests, where #g shall denote the vehicle's number of forward gears."
+},
+{
+"k": "189a53e5cde4",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "",
+"clause": "For that purpose, only GSI shift instructions in the phase before the maximum speed is reached shall be taken into account and any GSI instruction during the deceleration shall be ignored."
+},
+{
+"k": "f08b6ac9e6e8",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "",
+"clause": "GSI shall be set to 0 km/h and V #g"
+},
+{
+"k": "90f3ac59fb52",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "",
+"clause": "GSI shall be set to 140 km/h or the maximum vehicle speed, whichever is smaller."
+},
+{
+"k": "8a06e57d940d",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "",
+"clause": "Where the vehicle cannot attain 140 km/h, the vehicle shall be driven at its maximum speed until it rejoins the speed profile in Figure I.1."
+},
+{
+"k": "066b0354f00b",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "",
+"clause": "std shall denote the speed at which a typical driver is assumed to shift up from gear n into gear n+1 without GSI recommendation."
+},
+{
+"k": "1beae64c2ca7",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "",
+"clause": "Based on the gear shift points determined in the type 1 emission test ( 2 ) , the following standard gear shift speeds shall be defined:"
+},
+{
+"k": "2a9f6ecd696b",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "std shall denote the speed at which a typical driver is assumed to shift up from gear n into gear n+1 without GSI recommendation. Based on the gear shift points determined in the type 1 emission test ( 2 ) , the following standard gear shift speeds shall be defined:",
+"clause": "min shall denote the minimum vehicle speed the vehicle can be driven in the gear n without stalling of the engine and V n"
+},
+{
+"k": "7996b53cd83d",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "std shall denote the speed at which a typical driver is assumed to shift up from gear n into gear n+1 without GSI recommendation. Based on the gear shift points determined in the type 1 emission test ( 2 ) , the following standard gear shift speeds shall be defined:",
+"clause": "std shall be set to V n+1"
+},
+{
+"k": "f92bcf6841cd",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "std shall denote the speed at which a typical driver is assumed to shift up from gear n into gear n+1 without GSI recommendation. Based on the gear shift points determined in the type 1 emission test ( 2 ) , the following standard gear shift speeds shall be defined:",
+"clause": "std shall be set to V n"
+},
+{
+"k": "20e9597a85ea",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "std shall denote the speed at which a typical driver is assumed to shift up from gear n into gear n+1 without GSI recommendation. Based on the gear shift points determined in the type 1 emission test ( 2 ) , the following standard gear shift speeds shall be defined:",
+"clause": "std shall be set to V #g"
+},
+{
+"k": "48d9756c820d",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "std shall denote the speed at which a typical driver is assumed to shift up from gear n into gear n+1 without GSI recommendation. Based on the gear shift points determined in the type 1 emission test ( 2 ) , the following standard gear shift speeds shall be defined:",
+"clause": "The manufacturer shall supply the type-approval authority with the functional dependence of the vehicle's fuel consumption on the steady vehicle speed when driving with gear n according to the following rules."
+},
+{
+"k": "b3f4b257bee9",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "std shall denote the speed at which a typical driver is assumed to shift up from gear n into gear n+1 without GSI recommendation. Based on the gear shift points determined in the type 1 emission test ( 2 ) , the following standard gear shift speeds shall be defined:",
+"clause": "i shall denote the fuel consumption in terms of kg/h (kilograms per hour) where the vehicle is driven with the constant vehicle speed v i = i * 5 km/h – 2,5 km/h (where i is a positive integer number) in the gear n."
+},
+{
+"k": "85efee520336",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "std shall denote the speed at which a typical driver is assumed to shift up from gear n into gear n+1 without GSI recommendation. Based on the gear shift points determined in the type 1 emission test ( 2 ) , the following standard gear shift speeds shall be defined:",
+"clause": "These data shall be provided by the manufacturer for each gear n (n = 1, 2, …, #g) and v n"
+},
+{
+"k": "7fab7f7ca202",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "std shall denote the speed at which a typical driver is assumed to shift up from gear n into gear n+1 without GSI recommendation. Based on the gear shift points determined in the type 1 emission test ( 2 ) , the following standard gear shift speeds shall be defined:",
+"clause": "These fuel consumption values shall be determined under identical ambient conditions corresponding to a realistic driving situation that may be defined by the vehicle manufacturer, either by a physical test or by an appropriate calculation model agreed between the type-approval authority and the manufacturer."
+},
+{
+"k": "34b0e59f512f",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "std shall denote the speed at which a typical driver is assumed to shift up from gear n into gear n+1 without GSI recommendation. Based on the gear shift points determined in the type 1 emission test ( 2 ) , the following standard gear shift speeds shall be defined:",
+"clause": "The following distribution shall be used for the probability P i that the vehicle drives with a speed v, where v i – 2,5 km/h < v ≤ v i + 2,5 km/h (i = 1, …, 28):"
+},
+{
+"k": "987192c8a70f",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "The following distribution shall be used for the probability P i that the vehicle drives with a speed v, where v i – 2,5 km/h < v ≤ v i + 2,5 km/h (i = 1, …, 28):",
+"clause": "FC GSI shall denote the fuel consumption of the vehicle when the driver follows the advice of the GSI:"
+},
+{
+"k": "f962988097be",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "FC GSI shall denote the fuel consumption of the vehicle when the driver follows the advice of the GSI:",
+"clause": "FC std shall denote the fuel consumption of the vehicle when standard gear shift points are used:"
+},
+{
+"k": "2be9ed191d92",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "The relative saving of fuel consumption by following the advice of the GSI of the model is calculated as:",
+"clause": "The following information shall be recorded:"
+},
+{
+"k": "52464ff2c3ce",
+"doc": "32021R0535",
+"art": "Annex Ix",
+"chapeau": "The following information shall be recorded:",
+"clause": "Where the vehicle is unable to attain 140 km/h, it shall be driven at its maximum speed until it rejoins the above speed profile."
+},
+{
+"k": "e93010ba1aa7",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "",
+"clause": "The following information, if applicable, shall be supplied in triplicate and include a list of contents."
+},
+{
+"k": "1fc6b9106422",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "For the purposes of this Annex, the following definition apply:",
+"clause": "‘ floor entrance ’ means the lowest point of the door aperture or other structure whichever of the two is higher, which a person has to clear in terms of height in order to enter the passenger compartment."
+},
+{
+"k": "eb61d9f10d10",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "For the purposes of this Annex, the following definition apply:",
+"clause": "The design characteristics of the vehicle type shall permit entry to and exit from the passenger compartment in complete safety and entrances to the passenger compartment shall be constructed in such a way that they can be used easily and without any danger."
+},
+{
+"k": "081ed27d991f",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "For the purposes of this Annex, the following definition apply:",
+"clause": "The height of the floor entrance shall be determined either directly from the ground surface or from the horizontal plane passing through the middle, in relation to the longitudinal direction, of the step immediately below."
+},
+{
+"k": "b32e8741263b",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "For the purposes of this Annex, the following definition apply:",
+"clause": "The distance (A) from the ground surface to the upper surface of the lowest step, measured with the vehicle in running order on a horizontal and flat surface, shall not be more than 600 mm."
+},
+{
+"k": "1ebe3023d0c2",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "For the purposes of this Annex, the following definition apply:",
+"clause": "The distance (B) between the upper surfaces of the steps shall be not more than 400 mm."
+},
+{
+"k": "c098a1fc579d",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "For the purposes of this Annex, the following definition apply:",
+"clause": "The vertical distance between two subsequent steps shall not vary by more than 50 mm."
+},
+{
+"k": "a5db9c3cdf96",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "For the purposes of this Annex, the following definition apply:",
+"clause": "In addition, the following minimum geometrical specifications shall be fulfilled:"
+},
+{
+"k": "d7360b5a1c19",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "In addition, the following minimum geometrical specifications shall be fulfilled:",
+"clause": "In such a case the rung depth (R) shall be at least 20 mm."
+},
+{
+"k": "391e6547522c",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "In addition, the following minimum geometrical specifications shall be fulfilled:",
+"clause": "Rungs with a round cross-section shall not be permitted."
+},
+{
+"k": "c8d58f02decf",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "In addition, the following minimum geometrical specifications shall be fulfilled:",
+"clause": "The position of the uppermost step shall be easily recognisable when getting down from the passenger compartment."
+},
+{
+"k": "d700ae53d796",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "In addition, the following minimum geometrical specifications shall be fulfilled:",
+"clause": "All access steps shall be constructed in such a way as to preclude the risk of slipping."
+},
+{
+"k": "ad1c18613990",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "In addition, the following minimum geometrical specifications shall be fulfilled:",
+"clause": "In addition, access steps exposed to the weather and dirt during driving shall have adequate run-off or a draining surface."
+},
+{
+"k": "41a0dc3e3d1e",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "In addition, the following minimum geometrical specifications shall be fulfilled:",
+"clause": "One or more suitable handrail(s), handhold(s) or other equivalent holding device(s) shall be provided for access to the passenger compartment."
+},
+{
+"k": "dedf83c6273e",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "In addition, the following minimum geometrical specifications shall be fulfilled:",
+"clause": "All handrails, handholds or equivalent holding devices shall be positioned in such a way that they can be easily grasped and do not obstruct access to the passenger compartment."
+},
+{
+"k": "7e10717adba4",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "In addition, the following minimum geometrical specifications shall be fulfilled:",
+"clause": "A maximum discontinuity of 100 mm in the handhold area of the handrails, handholds or equivalent holding devices shall be allowed."
+},
+{
+"k": "43e0b0bf93c5",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "In addition, the following minimum geometrical specifications shall be fulfilled:",
+"clause": "For passenger compartment access with more than two steps, the handrails, handholds or equivalent holding devices shall be located in such a way that a person can support himself or herself at the same time with two hands and one foot or with two feet and one hand."
+},
+{
+"k": "cffe1845236f",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "In addition, the following minimum geometrical specifications shall be fulfilled:",
+"clause": "Except in the case of a stairway, the design and positioning of the handrails, handholds and equivalent holding devices shall be such that operators are encouraged to descend facing the passenger compartment."
+},
+{
+"k": "b93edf36db9c",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "In addition, the following minimum geometrical specifications shall be fulfilled:",
+"clause": "The height (N) of the lower edge of at least one handrail, handhold or equivalent holding device, measured from the ground surface with the vehicle in running order on a horizontal and flat surface, shall not exceed 1 850 mm."
+},
+{
+"k": "1c6689c3388e",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "In addition, the following minimum geometrical specifications shall be fulfilled:",
+"clause": "Where the floor entrance height of the passenger compartment measured from the ground surface is greater than ‘N’, that height shall be assumed as ‘N’."
+},
+{
+"k": "75b8aa4d1d0e",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "In addition, the following minimum geometrical specifications shall be fulfilled:",
+"clause": "In addition, the minimum distance (P) of the upper edge of the handrails or handholds or equivalent holding devices from the floor entrance height of the passenger compartment shall be:"
+},
+{
+"k": "4c70939ffef6",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "In addition, the minimum distance (P) of the upper edge of the handrails or handholds or equivalent holding devices from the floor entrance height of the passenger compartment shall be:",
+"clause": "The following geometrical specifications shall be fulfilled:"
+},
+{
+"k": "48000d6e3b55",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "The following geometrical specifications shall be fulfilled:",
+"clause": "Vehicles of categories M 1 and N 1 as well as N 2 with a maximum mass not exceeding 7,5 tonnes, shall have one or more running board(s) or access step(s) where the floor entrance height of the passenger compartment is higher than 600 mm above the ground measured with the vehicle in running order on a horizontal and flat surface."
+},
+{
+"k": "e9432b7328a1",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "The following geometrical specifications shall be fulfilled:",
+"clause": "All running boards and access steps shall be constructed in such a way as to preclude the risk of slipping."
+},
+{
+"k": "dfcd59629aee",
+"doc": "32021R0535",
+"art": "Annex X",
+"chapeau": "The following geometrical specifications shall be fulfilled:",
+"clause": "In addition, running boards and access steps exposed to the weather and dirt during driving shall have adequate run-off or a draining surface."
+},
+{
+"k": "df5caafef533",
+"doc": "32021R0535",
+"art": "Annex Xi",
+"chapeau": "Explanatory note:",
+"clause": "All motor vehicles shall be equipped with a device for reversing which can be easily operated from the driver’s position."
+},
+{
+"k": "380f6993e45f",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "For the purposes of this Annex, the following definitions shall apply:",
+"clause": "Where necessary the straight edge shall be shortened to avoid any contact with structures above the frontal protection system;"
+},
+{
+"k": "57747a74212e",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "General provisions:",
+"clause": "The manufacturer shall submit to the technical service responsible for conducting the type-approval tests one sample of the type of frontal protection system to be approved."
+},
+{
+"k": "680fba89f104",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "General provisions:",
+"clause": "The sample(s) shall be clearly and indelibly marked with the applicant’s trade name or mark and the type designation."
+},
+{
+"k": "dcc838b24395",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "General provisions:",
+"clause": "The manufacturer shall make provision for the subsequent compulsory display of the EU type-approval mark."
+},
+{
+"k": "1fa168583645",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "General provisions:",
+"clause": "Where the frontal protection system to be tested has been designed for use on more than one vehicle type of categories M 1 or N 1 , that system shall be type-approved separately for every vehicle type for which it is intended."
+},
+{
+"k": "85fa61594d34",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "General provisions:",
+"clause": "However, the technical service shall have the discretion to waive additional tests where the intended vehicle types or the frontal protection system types are considered to be sufficiently similar."
+},
+{
+"k": "5cddb1c2b48d",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "General provisions:",
+"clause": "If, when using a test frame, the frontal protection system makes contact with the frame during testing, the test shall be repeated with the frontal protection system mounted on the actual vehicle type for which it is intended."
+},
+{
+"k": "1a35c6988066",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "General provisions:",
+"clause": "If the relevant requirements set out in Part 2 of Annex XII to this Regulation are met, the following shall apply for the purposes of Section 3 of the type-approval number and in particular concerning the letters that shall be used:"
+},
+{
+"k": "6a3906654bee",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "If the relevant requirements set out in Part 2 of Annex XII to this Regulation are met, the following shall apply for the purposes of Section 3 of the type-approval number and in particular concerning the letters that shall be used:",
+"clause": "The components of the frontal protection system shall be so designed that all rigid surfaces which can be contacted by a 100 mm sphere, have a radius of curvature ≥ 5,0 mm."
+},
+{
+"k": "602a2ca3f91c",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "If the relevant requirements set out in Part 2 of Annex XII to this Regulation are met, the following shall apply for the purposes of Section 3 of the type-approval number and in particular concerning the letters that shall be used:",
+"clause": "The total mass of the frontal protection system, including all brackets and fixings, shall not exceed 1,2 % of the maximum mass of the vehicle for which it is designed, subject to a maximum of 18 kg."
+},
+{
+"k": "8d9a726037bb",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "If the relevant requirements set out in Part 2 of Annex XII to this Regulation are met, the following shall apply for the purposes of Section 3 of the type-approval number and in particular concerning the letters that shall be used:",
+"clause": "The height of the frontal protection system, when fitted to a vehicle, shall be no more than 50 mm above the height of the bonnet leading edge reference line as defined in accordance with UN Regulation No 127."
+},
+{
+"k": "e183f96b7b89",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "If the relevant requirements set out in Part 2 of Annex XII to this Regulation are met, the following shall apply for the purposes of Section 3 of the type-approval number and in particular concerning the letters that shall be used:",
+"clause": "The frontal protection system shall not increase the width of the vehicle to which it is fitted."
+},
+{
+"k": "5e99ac0258b8",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "If the relevant requirements set out in Part 2 of Annex XII to this Regulation are met, the following shall apply for the purposes of Section 3 of the type-approval number and in particular concerning the letters that shall be used:",
+"clause": "If the overall width of the frontal protection system is more than 75 % of the width of the vehicle, the ends of the frontal protection system shall be turned in towards the external surface in order to minimise the risk of fouling."
+},
+{
+"k": "01c38c406eb9",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "If the relevant requirements set out in Part 2 of Annex XII to this Regulation are met, the following shall apply for the purposes of Section 3 of the type-approval number and in particular concerning the letters that shall be used:",
+"clause": "Subject to point 3.1.4., the gap between the components of the frontal protection system and the underlying external surface shall not exceed 80 mm."
+},
+{
+"k": "fbfbab38d19e",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "If the relevant requirements set out in Part 2 of Annex XII to this Regulation are met, the following shall apply for the purposes of Section 3 of the type-approval number and in particular concerning the letters that shall be used:",
+"clause": "Local discontinuities in the general contour of the underlying body (such as apertures in grilles, air intakes, etc.) shall be ignored."
+},
+{
+"k": "373e160d3db2",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "If the relevant requirements set out in Part 2 of Annex XII to this Regulation are met, the following shall apply for the purposes of Section 3 of the type-approval number and in particular concerning the letters that shall be used:",
+"clause": "At any lateral position across the vehicle, in order to preserve the benefits of the vehicle bumper, the longitudinal distance between the most forward part of the bumper and the most forward part of the frontal protection system shall not exceed 50 mm."
+},
+{
+"k": "720546e18c61",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "If the relevant requirements set out in Part 2 of Annex XII to this Regulation are met, the following shall apply for the purposes of Section 3 of the type-approval number and in particular concerning the letters that shall be used:",
+"clause": "The frontal protection system shall not reduce significantly the effectiveness of the bumper."
+},
+{
+"k": "fed71402187e",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "If the relevant requirements set out in Part 2 of Annex XII to this Regulation are met, the following shall apply for the purposes of Section 3 of the type-approval number and in particular concerning the letters that shall be used:",
+"clause": "The frontal protection system shall not be inclined forward of the vertical."
+},
+{
+"k": "bc548a2d92e2",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "If the relevant requirements set out in Part 2 of Annex XII to this Regulation are met, the following shall apply for the purposes of Section 3 of the type-approval number and in particular concerning the letters that shall be used:",
+"clause": "The top parts of the frontal protection system shall not extend upwards or rearwards (towards the windscreen) more than 50 mm from the bonnet leading edge reference line of the vehicle with the frontal protection system removed."
+},
+{
+"k": "ecd0358feb46",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "If the relevant requirements set out in Part 2 of Annex XII to this Regulation are met, the following shall apply for the purposes of Section 3 of the type-approval number and in particular concerning the letters that shall be used:",
+"clause": "Conformity with the requirements of the vehicle type-approval shall not be compromised by the fitting of a frontal protection system."
+},
+{
+"k": "1add9d60c39f",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "For testing on complete vehicles, the vehicles shall comply with the conditions laid down in points 1.1.1., 1.1.2. and 1.1.3."
+},
+{
+"k": "4fd294434b88",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The vehicle shall be in its normal ride attitude and shall be either securely mounted on raised supports or at rest on a flat surface with the hand brake on."
+},
+{
+"k": "cc0b0521e6c2",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "All devices designed to protect vulnerable road users shall be correctly activated before and/or be active during the appropriate test."
+},
+{
+"k": "3c3f67d0d8e1",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "It shall be the responsibility of the applicant for approval to show that the devices will act as intended in a pedestrian impact."
+},
+{
+"k": "9867d9d0db4f",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "Any vehicle component which could change shape or position, other than active devices to protect pedestrians, and which have more than one fixed shape or position shall require the vehicle to comply with the components in each fixed shape or position."
+},
+{
+"k": "c183679418ca",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "Where only a subsystem of the vehicle is supplied for tests, it shall comply with the conditions detailed in points 2.1.1., 2.1.2., 2.1.3. and 2.1.4."
+},
+{
+"k": "03dcd5794139",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "All the parts of the vehicle structure, bonnet and under-bonnet components or behind windscreen components that may be involved in a frontal impact with a vulnerable road user shall be included in the test to demonstrate the performance and interactions of all the contributory vehicle components."
+},
+{
+"k": "02cce78f6da0",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The vehicle subsystem shall be securely mounted in the vehicle normal ride attitude."
+},
+{
+"k": "f9a31b0ca733",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The frontal protection system mounted on the vehicle shall comply with the conditions laid down in points 3. to 3.1.10. of Section A."
+},
+{
+"k": "d32b9398a121",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The vehicle shall be in its normal ride attitude and either securely mounted on raised supports or at rest on a flat surface with the handbrake on."
+},
+{
+"k": "5dfb278056f2",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The vehicle shall be fitted with the frontal protection system to be tested."
+},
+{
+"k": "024b3d5c171b",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The fitting instructions from the manufacturer of the frontal protection system shall be followed and these shall include tightening torques for all fixings."
+},
+{
+"k": "22fdff4ef4df",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "All devices designed to protect pedestrians and other vulnerable road users shall be correctly activated before and/or be active during the appropriate test."
+},
+{
+"k": "3e9d3070f66b",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The applicant shall demonstrate that the devices will function as intended if the vehicle strikes a pedestrian or other vulnerable road user."
+},
+{
+"k": "8e8ada715ae8",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "Any vehicle component that could change shape or position, such as 'pop-up' headlamps, other than devices to protect pedestrians and other vulnerable road users, shall be set to a shape or position that the technical services consider to be most appropriate for these tests."
+},
+{
+"k": "2cfc143113e6",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "Where only a frontal protection system is supplied for tests, it shall be possible to comply with the conditions laid down in points 3. to 3.1.10. of Section A when fitted to the vehicle type to which the specific separate technical unit type-approval relates."
+},
+{
+"k": "a160db4c9470",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "If, when using a test frame, the frontal protection system makes contact with the frame during testing, the test shall be repeated with the frontal protection system mounted on the actual vehicle type for which it is intended."
+},
+{
+"k": "502e4dcb1fe0",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "All frontal protection systems, whether being part of the type-approval of a vehicle with regard to it being optionally fitted with a frontal protection system or being type-approved as a separate technical unit, shall be accompanied by information as to the vehicle or vehicles on which it has been approved for fitting."
+},
+{
+"k": "38dc88846fa7",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "All frontal protection systems type-approved as separate technical units shall be accompanied by detailed installation instructions giving sufficient information for a competent person to install it on the vehicle properly."
+},
+{
+"k": "e62f4b9fc3ec",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The instructions shall be in the language or languages of the Member State in which the frontal protection system will be offered for sale."
+},
+{
+"k": "8ea748cec843",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "All the tests shall be performed at an impact speed of 40 km/h."
+},
+{
+"k": "a4e7bcd1d6c1",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "For a frontal protection system approved for fitting to vehicles that comply with the requirements of Section 2 of Annex I to Regulation (EC) No 78/2009 or point 3.1. of Annex I to Directive 2003/102/EC, the absolute value of the maximum dynamic medial collateral ligament elongation at the knee shall not exceed 40 mm, and the maximum dynamic anterior cruciate ligament and posterior cruciate ligament elongation shall not exceed 13 mm."
+},
+{
+"k": "8d1144bbfb20",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The absolute value of dynamic bending moments at the tibia shall not exceed 380 Nm."
+},
+{
+"k": "322c0d2ef7a0",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "For a frontal protection system approved for fitting to vehicles that comply with the requirements of Section 3 of Annex I to Regulation (EC) No 78/2009, point 3.2. of Annex I to Directive 2003/102/EC or UN Regulation No 127, the absolute value of the maximum dynamic medial collateral ligament elongation at the knee shall not exceed 22 mm, and the maximum dynamic anterior cruciate ligament and posterior cruciate ligament elongation shall not exceed 13 mm."
+},
+{
+"k": "a567addca992",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The absolute value of dynamic bending moments at the tibia shall not exceed 340 Nm."
+},
+{
+"k": "962340d0ec78",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "For a frontal protection system approved for fitting only to vehicles which do not comply with either Regulation (EC) No 78/2009, Directive 2003/102/EC or UN Regulation No 127, the test requirements set out in points 1.2. and 1.3. may be replaced by the following test requirements:",
+"clause": "The absolute value of the maximum dynamic medial collateral ligament elongation at the knee shall not exceed 40 mm, and the maximum dynamic anterior cruciate ligament and posterior cruciate ligament elongation shall not exceed 13 mm."
+},
+{
+"k": "262b05bd2b48",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "For a frontal protection system approved for fitting only to vehicles which do not comply with either Regulation (EC) No 78/2009, Directive 2003/102/EC or UN Regulation No 127, the test requirements set out in points 1.2. and 1.3. may be replaced by the following test requirements:",
+"clause": "The absolute value of dynamic bending moments at the tibia shall not exceed 380 Nm;"
+},
+{
+"k": "38f2053a4328",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "For a frontal protection system approved for fitting only to vehicles which do not comply with either Regulation (EC) No 78/2009, Directive 2003/102/EC or UN Regulation No 127, the test requirements set out in points 1.2. and 1.3. may be replaced by the following test requirements:",
+"clause": "A pair of tests shall be performed on the vehicle, one with the frontal protection system fitted, and a second without the frontal protection system fitted and each pair of tests shall be performed in equivalent locations as agreed with the type-approval authority and technical service."
+},
+{
+"k": "427a38701d6e",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "For a frontal protection system approved for fitting only to vehicles which do not comply with either Regulation (EC) No 78/2009, Directive 2003/102/EC or UN Regulation No 127, the test requirements set out in points 1.2. and 1.3. may be replaced by the following test requirements:",
+"clause": "The values for the maximum dynamic medial collateral ligament elongation at the knee, the maximum dynamic anterior cruciate ligament and posterior cruciate ligament elongations shall be recorded."
+},
+{
+"k": "1ad73fb01705",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "For a frontal protection system approved for fitting only to vehicles which do not comply with either Regulation (EC) No 78/2009, Directive 2003/102/EC or UN Regulation No 127, the test requirements set out in points 1.2. and 1.3. may be replaced by the following test requirements:",
+"clause": "In each case the value recorded for the vehicle fitted with the frontal protection system shall not exceed 90 % of the value recorded for the vehicle without the frontal protection system fitted."
+},
+{
+"k": "e0d118e0ecd3",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The lower legform impactor for the frontal protection system tests shall be in 'free flight' at the moment of impact, in accordance with the provisions of paragraph 1.8. of Annex 5 to UN Regulation No 127."
+},
+{
+"k": "afc1d273b230",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The impactor shall be released to free flight at such a distance that the test results are not influenced by any contact of the impactor with the propulsion system during rebound of the impactor."
+},
+{
+"k": "89e578a4297e",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The lower legform impactor shall be certified pursuant to paragraph 1. of Annex 6 to UN Regulation No 127."
+},
+{
+"k": "68bf5c1d2f2f",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "A minimum of three lower legform to frontal protection system tests shall be carried out on test points between the upper and lower frontal protection system reference lines."
+},
+{
+"k": "a1894cdcf338",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The test points shall be at positions judged by the technical service to be the most likely to cause injury."
+},
+{
+"k": "3744b04824c9",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "Tests shall be carried out to different types of structure where they vary throughout the area to be assessed."
+},
+{
+"k": "4194f32bca10",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The points tested by the technical service shall be recorded in the test report."
+},
+{
+"k": "716a46e8a1f3",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "For vehicles with a lower frontal protection system reference line height of less than 425 mm the requirements of this Section shall be applied."
+},
+{
+"k": "dd2af3f23149",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The state of the vehicle or subsystem shall comply with the provisions in Section C."
+},
+{
+"k": "361e7c11afe7",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The stabilised temperature of the test apparatus and the vehicle or separate technical unit shall be 20 °C°± 4 °C."
+},
+{
+"k": "b45aead76cc7",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The test impactor shall be stored and handled in accordance with paragraphs 1.2. and 1.3. of Annex 5 to UN Regulation No 127 prior to the test."
+},
+{
+"k": "ba054ae5e237",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The tests shall be carried out in accordance with paragraphs 1.6. to 1.14. of Annex 5 to UN Regulation No 127."
+},
+{
+"k": "1dbf4cb74efa",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "During contact between the impactor and the frontal protection system, the impactor shall not contact the ground or any object which is not part of the frontal protection system or the vehicle."
+},
+{
+"k": "ae20424ab57a",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The instantaneous sum of the impact forces with respect to time shall not exceed 7,5 kN and the bending moment on the test impactor shall not exceed 510 Nm."
+},
+{
+"k": "3854ee958cbe",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "For a frontal protection system approved for fitting only to vehicles which do not comply with either Regulation (EC) No 78/2009, Directive 2003/102/EC or UN Regulation No 127, the test requirements set out in point 1.2. may be replaced by the following test requirements:",
+"clause": "The instantaneous sum of the impact forces with respect to time shall not exceed 9,4 kN and the bending moment on the test impactor shall not exceed 640 Nm;"
+},
+{
+"k": "d4fa5749404e",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "For a frontal protection system approved for fitting only to vehicles which do not comply with either Regulation (EC) No 78/2009, Directive 2003/102/EC or UN Regulation No 127, the test requirements set out in point 1.2. may be replaced by the following test requirements:",
+"clause": "A pair of tests shall be performed on the vehicle, one with the frontal protection system fitted, and a second without the frontal protection system fitted."
+},
+{
+"k": "aa8fe300c08b",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "For a frontal protection system approved for fitting only to vehicles which do not comply with either Regulation (EC) No 78/2009, Directive 2003/102/EC or UN Regulation No 127, the test requirements set out in point 1.2. may be replaced by the following test requirements:",
+"clause": "Each pair of tests shall be performed in equivalent locations as agreed with the type-approval authority and technical service."
+},
+{
+"k": "2cc8ff3bd337",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "For a frontal protection system approved for fitting only to vehicles which do not comply with either Regulation (EC) No 78/2009, Directive 2003/102/EC or UN Regulation No 127, the test requirements set out in point 1.2. may be replaced by the following test requirements:",
+"clause": "The values for the instantaneous sum of the impact forces and the bending moment on the test impactor shall be recorded."
+},
+{
+"k": "903feecd470a",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "For a frontal protection system approved for fitting only to vehicles which do not comply with either Regulation (EC) No 78/2009, Directive 2003/102/EC or UN Regulation No 127, the test requirements set out in point 1.2. may be replaced by the following test requirements:",
+"clause": "In each case the value recorded for the vehicle fitted with the frontal protection system shall not exceed 90 % of the value recorded for the vehicle without the frontal protection system fitted."
+},
+{
+"k": "58e2b18114ef",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The upper legform impactor for tests to the frontal protection system shall be mounted to the propulsion system, by a torque limiting joint, to prevent large off-centre loads damaging the guidance system."
+},
+{
+"k": "102a78b20ad5",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The guidance system shall be fitted with low-friction guides, insensitive to off-axis loading, that allow the impactor to move only in the specified direction of impact, when in contact with the frontal protection system."
+},
+{
+"k": "d72bf5508e88",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The guides shall prevent motion in other directions including rotation about any other axis."
+},
+{
+"k": "a5b19807ea63",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The upper legform impactor shall be certified pursuant to paragraph 2. of Annex 6 to UN Regulation No 127."
+},
+{
+"k": "fe8a9552b135",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "A minimum of three upper legform to frontal protection system tests shall be carried out on test points between the Upper and Lower Frontal protection System Reference Lines."
+},
+{
+"k": "9f7510604a0f",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The stabilised temperature of the test apparatus and the vehicle or separate technical unit shall be 20° ± 4 °C."
+},
+{
+"k": "a594891ce977",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The test impactor shall be stored and handled in accordance with paragraphs 2.2. and 2.3. of Annex 5 to UN Regulation No 127."
+},
+{
+"k": "6fd205ee4842",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The tests shall be carried out in accordance with paragraphs 2.6. and 2.7. of Annex 5 to UN Regulation No 127."
+},
+{
+"k": "55d7ba4c5372",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "All the tests shall be performed at an impact speed of 35 km/h using a 3,5 kg headform test impactor for the child/small adult."
+},
+{
+"k": "1f4929418e65",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The HPC calculated from the resultant of the accelerometer time histories shall not exceed 1 000 in all cases."
+},
+{
+"k": "c69a0bd1f7cd",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The child/small adult headform impactor for the frontal protection system tests shall be in 'free flight' at the moment of impact."
+},
+{
+"k": "3e15b7266566",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The impactor shall be released to free flight at such a distance from the frontal protection system that the test results are not influenced by any contact of the impactor with the propulsion system during rebound of the impactor."
+},
+{
+"k": "5c2bfaf396ee",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The headform impactor shall be certified pursuant to paragraph 3. of Annex 6 to UN Regulation No 127."
+},
+{
+"k": "14aea8fda9e2",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "A minimum of three headform impact tests shall be carried out at positions which are judged by the technical service to be the most likely to cause injury."
+},
+{
+"k": "d6575cd4ad25",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "Tests shall be to different types of structure, where these vary throughout the area to be assessed."
+},
+{
+"k": "fd9f69cdbebf",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "Points tested by the technical service shall be recorded in the test report."
+},
+{
+"k": "3a5f90790eb6",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "Test points for the child/small adult headform impactor shall be chosen on parts of the frontal protection system where the frontal protection system wrap around distance exceeds 900 mm with the vehicle in its normal ride attitude or with the frontal protection system mounted on a test frame representing the vehicle to which it is to be fitted as if in its' normal ride attitude."
+},
+{
+"k": "832afe341bd2",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The state of the vehicle or subsystem shall comply with the provisions in point 1 of Section C."
+},
+{
+"k": "61cf01b30682",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The stabilised temperature of the test apparatus and the vehicle or separate technical unit shall be 20 °C ± 4 °C."
+},
+{
+"k": "588a5b48da09",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The impactor shall be mounted and propelled as specified in points 2.1. and 2.2."
+},
+{
+"k": "747d0d7612dc",
+"doc": "32021R0535",
+"art": "Annex Xii",
+"chapeau": "",
+"clause": "The tests shall be carried out in accordance with paragraphs 3. to 3.3.1. and 4.4. to 4.7. of Annex 5 to UN Regulation No 127."
+}
+]

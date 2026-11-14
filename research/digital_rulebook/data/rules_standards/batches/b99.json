@@ -1,0 +1,450 @@
+[
+{
+"k": "da79e0be459a",
+"doc": "32020R1207",
+"art": "Art. 14",
+"chapeau": "",
+"clause": "Procedures for cleaning referred to in point (d) of Article 11 shall cover the following, if applicable:"
+},
+{
+"k": "b504265c0952",
+"doc": "32020R1207",
+"art": "Art. 15",
+"chapeau": "",
+"clause": "Procedures for thermal disinfection referred to in point (e) of Article 11 shall cover the following, if applicable:"
+},
+{
+"k": "ccd96a9c631a",
+"doc": "32020R1207",
+"art": "Art. 16",
+"chapeau": "",
+"clause": "Procedures for chemical disinfection referred to in point (e) of Article 11 shall cover the following, if applicable:"
+},
+{
+"k": "745871eda63c",
+"doc": "32020R1207",
+"art": "Art. 17",
+"chapeau": "",
+"clause": "Procedures for drying referred to in point (f) of Article 11 shall cover the following, if applicable:"
+},
+{
+"k": "419b0722e232",
+"doc": "32020R1207",
+"art": "Art. 18",
+"chapeau": "",
+"clause": "Procedures for inspection, maintenance, repair and functionality testing referred to in point (g) of Article 11 shall cover the following, if applicable:"
+},
+{
+"k": "0472a8a0b756",
+"doc": "32020R1207",
+"art": "Art. 19",
+"chapeau": "",
+"clause": "Procedures for packaging referred to in point (h) of Article 11 shall cover the following, if applicable:"
+},
+{
+"k": "8da0ff515eab",
+"doc": "32020R1207",
+"art": "Art. 19",
+"chapeau": "",
+"clause": "The packaging and the instructions for use of the reprocessed single-use device shall not bear the CE mark."
+},
+{
+"k": "3ea8e996e3f7",
+"doc": "32020R1207",
+"art": "Art. 20",
+"chapeau": "",
+"clause": "Reprocessed single-use devices shall bear the word ‘reprocessed’ on their label, as well as the status of the single-use device:"
+},
+{
+"k": "72862faa4a8e",
+"doc": "32020R1207",
+"art": "Art. 20",
+"chapeau": "",
+"clause": "The name and address of the health institution, and the external reprocessor if applicable, shall be clearly indicated on the label and in the instructions for use of the single-use device."
+},
+{
+"k": "bd19753a1df4",
+"doc": "32020R1207",
+"art": "Art. 20",
+"chapeau": "",
+"clause": "The maximum number of reprocessing cycles allowed and the number of reprocessing cycles performed shall clearly appear on the label."
+},
+{
+"k": "89f569cb69c4",
+"doc": "32020R1207",
+"art": "Art. 21",
+"chapeau": "",
+"clause": "Reprocessors shall establish, document, implement, and maintain a QMS for the reprocessing activities."
+},
+{
+"k": "91bc036233c8",
+"doc": "32020R1207",
+"art": "Art. 21",
+"chapeau": "",
+"clause": "The QMS shall ensure that requirements set out in this Regulation and requirements applicable to reprocessing set out in Regulation (EU) 2017/745 are complied with."
+},
+{
+"k": "ab54a5c74df4",
+"doc": "32020R1207",
+"art": "Art. 21",
+"chapeau": "",
+"clause": "The QMS shall cover the organisation of all steps of reprocessing and shall address at least the following aspects:"
+},
+{
+"k": "17afb734a67b",
+"doc": "32020R1207",
+"art": "Art. 22",
+"chapeau": "",
+"clause": "Reprocessors shall undertake at least one annual independent external audit of the reprocessing activities."
+},
+{
+"k": "f1595282933c",
+"doc": "32020R1207",
+"art": "Art. 22",
+"chapeau": "",
+"clause": "The audit report shall be made available to the notified body competent for the certification of the reprocessor pursuant to Article 17(5) of Regulation (EU) 2017/745 and, upon request, to the competent authority of the Member State where the reprocessor is established."
+},
+{
+"k": "2787d8816505",
+"doc": "32020R1207",
+"art": "Art. 22",
+"chapeau": "",
+"clause": "The reprocessing processes and the QMS shall be revised, as needed, on the basis of the results of the independent external audit."
+},
+{
+"k": "db3d23df9e8c",
+"doc": "32020R1207",
+"art": "Art. 22",
+"chapeau": "",
+"clause": "The audit report and the documentation related to the eventual follow up actions shall be kept for a period of five years."
+},
+{
+"k": "fa3f3b16c76e",
+"doc": "32020R1207",
+"art": "Art. 23",
+"chapeau": "",
+"clause": "Health institutions using reprocessed single-use devices shall report all serious incidents involving reprocessed single-use devices, to the relevant competent authority."
+},
+{
+"k": "3474ac916327",
+"doc": "32020R1207",
+"art": "Art. 23",
+"chapeau": "",
+"clause": "Those incidents shall be reported by the deadlines set in Article 87 of Regulation (EU) 2017/745."
+},
+{
+"k": "a81562653ada",
+"doc": "32020R1207",
+"art": "Art. 23",
+"chapeau": "",
+"clause": "The serious incident report shall contain the following information:"
+},
+{
+"k": "274627f7bfc3",
+"doc": "32020R1207",
+"art": "Art. 23",
+"chapeau": "",
+"clause": "When the health institution sends the report referred to in paragraph 1 of this Article to the competent authority, the health institution shall send a copy of that report also to the manufacturer and, when applicable, the external reprocessor."
+},
+{
+"k": "55135c6a80fd",
+"doc": "32020R1207",
+"art": "Art. 23",
+"chapeau": "",
+"clause": "Following receipt of the copy of the report, the manufacturer shall take any of the actions listed in Article 83(3) of Regulation (EU) 2017/745, where necessary."
+},
+{
+"k": "833ae8e6e53f",
+"doc": "32020R1207",
+"art": "Art. 23",
+"chapeau": "",
+"clause": "Reprocessed single-use devices involved in a serious incident shall be set apart and shall not be used further."
+},
+{
+"k": "eab5b818e4f7",
+"doc": "32020R1207",
+"art": "Art. 23",
+"chapeau": "",
+"clause": "The health institution shall keep such single-use devices for five years and make it available to the competent authority upon request, unless otherwise instructed by the competent authority."
+},
+{
+"k": "46035c89b48e",
+"doc": "32020R1207",
+"art": "Art. 23",
+"chapeau": "",
+"clause": "During investigation of the serious incident, devices of the same type subject to the same reprocessing cycle shall be set apart."
+},
+{
+"k": "d01d961fc889",
+"doc": "32020R1207",
+"art": "Art. 23",
+"chapeau": "",
+"clause": "If the investigation of the serious incident has shown reprocessing as the possible root cause for the serious incident, these reprocessed devices shall be disposed of."
+},
+{
+"k": "90c999387a86",
+"doc": "32020R1207",
+"art": "Art. 23",
+"chapeau": "",
+"clause": "The health institution shall request its staff and, where appropriate, invite its patients to report to a contact person within the health institution any serious incident involving reprocessed single-use devices."
+},
+{
+"k": "245412c3b5cc",
+"doc": "32020R1207",
+"art": "Art. 23",
+"chapeau": "",
+"clause": "The external reprocessor shall report to the health institution any failure occurring during reprocessing that could indicate that the reprocessing cycle is no longer adequate or that the safety and performance of single-use devices already released for use cannot be guaranteed anymore."
+},
+{
+"k": "094cb1dfcdef",
+"doc": "32020R1207",
+"art": "Art. 23",
+"chapeau": "",
+"clause": "If failure occurs, adequate corrective and preventive measures shall be taken immediately."
+},
+{
+"k": "b9f34434e638",
+"doc": "32020R1207",
+"art": "Art. 23",
+"chapeau": "",
+"clause": "The health institution shall inform the competent authority accordingly and the public list referred to in Article 4(7) shall be updated."
+},
+{
+"k": "4ce5f6cbcc85",
+"doc": "32020R1207",
+"art": "Art. 23",
+"chapeau": "",
+"clause": "The health institution shall register and compile information about all incidents involving reprocessed devices and shall perform, at least annually, a critical analysis of those incidents."
+},
+{
+"k": "25c9103742e9",
+"doc": "32020R1207",
+"art": "Art. 23",
+"chapeau": "",
+"clause": "The critical analysis of all incidents, including the analysis of the trends of incidents, shall be transmitted to the manufacturer and, if applicable, to the external reprocessor."
+},
+{
+"k": "5cc7b462a41a",
+"doc": "32020R1207",
+"art": "Art. 23",
+"chapeau": "",
+"clause": "Upon request, the critical analysis of all incidents, including the analysis of the trends of incidents shall be transmitted to the relevant competent authority."
+},
+{
+"k": "d7610c327304",
+"doc": "32020R1207",
+"art": "Art. 23",
+"chapeau": "",
+"clause": "The analysis shall be used by the health institution, and if applicable, by the external reprocessor, to improve the reprocessing cycle, to review and update the technical documentation and/or to decide to discontinue reprocessing certain types of single-use devices."
+},
+{
+"k": "e12c7753e95d",
+"doc": "32020R1207",
+"art": "Art. 24",
+"chapeau": "",
+"clause": "Reprocessors shall put in place a tracking system allowing the identification of the single-use device throughout the reprocessing cycle and the lifetime of the reprocessed single-use device."
+},
+{
+"k": "f3e3bf2ef127",
+"doc": "32020R1207",
+"art": "Art. 24",
+"chapeau": "",
+"clause": "This tracking system shall ensure the following:"
+},
+{
+"k": "162f9de150e6",
+"doc": "32020R1207",
+"art": "Art. 24",
+"chapeau": "",
+"clause": "The tracking system shall ensure that reprocessed devices can be linked to the correct batch number for the purposes of field safety corrective action in accordance with Article 89 of Regulation (EU) 2017/745."
+},
+{
+"k": "2a73f33dfd25",
+"doc": "32020R1207",
+"art": "Art. 25",
+"chapeau": "",
+"clause": "Reprocessors shall store all records regarding all steps of the reprocessing cycle, for a period of at least 10 years after the last reprocessing of a single-use device."
+},
+{
+"k": "d89a65ff1755",
+"doc": "32020R1207",
+"art": "Art. 25",
+"chapeau": "",
+"clause": "The health institution and the external reprocessor, shall make those records available to the notified body competent for the certification referred to in Article 17(5) of Regulation (EU) 2017/745 and, upon request, to authorities of the Member States."
+},
+{
+"k": "9626857c97eb",
+"doc": "32021R1243",
+"art": "Art. 1",
+"chapeau": "",
+"clause": "The type-approval of motor vehicles with regard to alcohol interlock installation facilitation shall be subject to the requirements set out in Annex I."
+},
+{
+"k": "a57f75076208",
+"doc": "32021R1243",
+"art": "Annex I",
+"chapeau": "",
+"clause": "Alcohol interlock installation facilitation shall allow the fitting or retrofitting of an alcohol interlock complying with European Standards EN 50436-1:2014 or EN 50436-2:2014+A1:2015."
+},
+{
+"k": "426e7c13d62b",
+"doc": "32021R1243",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The vehicle system as regards alcohol interlock installation facilitation in each motor vehicle of categories M and N shall conform to the relevant vehicle model as laid down in the alcohol interlock installation document (‘installation document’), conforming to European Standard EN 50436-7:2016."
+},
+{
+"k": "2abddc8458e0",
+"doc": "32021R1243",
+"art": "Annex I",
+"chapeau": "",
+"clause": "For this purpose, the installation document shall cover at least one of the options in EN 50436-7:2016 Annex C 3a, 3b or 3c."
+},
+{
+"k": "f9f9be8b9266",
+"doc": "32021R1243",
+"art": "Annex I",
+"chapeau": "",
+"clause": "The installation document shall contain a detailed description, diagrams and images explaining the installation of an alcohol interlock, covering any of the following sets of information:"
+},
+{
+"k": "12cd606f3aaf",
+"doc": "32021R1243",
+"art": "Annex I",
+"chapeau": "The installation document shall contain a detailed description, diagrams and images explaining the installation of an alcohol interlock, covering any of the following sets of information:",
+"clause": "Any additional software, hardware or procedures necessary to allow the installation of an alcohol interlock in a standard vehicle shall be identified and indicated in the installation document."
+},
+{
+"k": "53737545e9c8",
+"doc": "32021R1243",
+"art": "Annex I",
+"chapeau": "The installation document shall contain a detailed description, diagrams and images explaining the installation of an alcohol interlock, covering any of the following sets of information:",
+"clause": "The alcohol interlock shall be in the blocking state normally."
+},
+{
+"k": "4266e76ffa20",
+"doc": "32021R1243",
+"art": "Annex I",
+"chapeau": "The installation document shall contain a detailed description, diagrams and images explaining the installation of an alcohol interlock, covering any of the following sets of information:",
+"clause": "The blocking state of the alcohol interlock shall be achieved by either an open output relay, a corresponding output signal or the corresponding digital bus message."
+},
+{
+"k": "123a04053daa",
+"doc": "32021R1243",
+"art": "Annex I",
+"chapeau": "The installation document shall contain a detailed description, diagrams and images explaining the installation of an alcohol interlock, covering any of the following sets of information:",
+"clause": "An installed alcohol interlock shall only intervene in the engine starting process or in allowing the vehicle to move under its own power upon the activation of the vehicle master control switch and the alcohol interlock shall not influence a running engine or a moving vehicle."
+},
+{
+"k": "92c4ba6bad0e",
+"doc": "32021R1243",
+"art": "Annex I",
+"chapeau": "The installation document shall contain a detailed description, diagrams and images explaining the installation of an alcohol interlock, covering any of the following sets of information:",
+"clause": "Vehicle manufacturers shall put in place the necessary arrangements and procedures to ensure that vehicle alcohol interlock facilitation information, in the form of relevant details of the standardised installation document, is accessible in accordance with Annex X of Regulation (EU) 2018/858."
+},
+{
+"k": "29eb994522f1",
+"doc": "32021R1243",
+"art": "Annex I",
+"chapeau": "The installation document shall contain a detailed description, diagrams and images explaining the installation of an alcohol interlock, covering any of the following sets of information:",
+"clause": "The vehicle manufacturer shall annex to the information document a declaration made out using the template set out in the Appendix to this Annex."
+},
+{
+"k": "9504343a6aa6",
+"doc": "32024R0883",
+"art": "Annex I",
+"chapeau": "in Section B, the following points 6, 6.1 and 6.2 are inserted:",
+"clause": "The height of the symbol’s characters and stated value shall not be less than 4 mm."
+},
+{
+"k": "eb73e01244f6",
+"doc": "32024R0883",
+"art": "Annex I",
+"chapeau": "in Section B, the following points 6, 6.1 and 6.2 are inserted:",
+"clause": "In addition, until the introduction of a dedicated entry in the Certificate of Conformity, the value of the mass of the energy storage system shall be stated under “remarks” in the Certificate of Conformity, as to allow inclusion of this information in on-board vehicle registration papers, as follows:"
+},
+{
+"k": "d2560873f042",
+"doc": "32024R0883",
+"art": "Annex I",
+"chapeau": "In addition, until the introduction of a dedicated entry in the Certificate of Conformity, the value of the mass of the energy storage system shall be stated under “remarks” in the Certificate of Conformity, as to allow inclusion of this information in on-board vehicle registration papers, as follows:",
+"clause": "( *1 ) In case of fuel cell hybrid vehicles (FCHV) or pure electric motor vehicles, the additional value for the mass shall be stated."
+},
+{
+"k": "1310a1742d7e",
+"doc": "32024R0883",
+"art": "Annex I",
+"chapeau": "In addition, until the introduction of a dedicated entry in the Certificate of Conformity, the value of the mass of the energy storage system shall be stated under “remarks” in the Certificate of Conformity, as to allow inclusion of this information in on-board vehicle registration papers, as follows:",
+"clause": "The value shall be rounded to whole kilograms, no decimals."
+},
+{
+"k": "38abc6ffc07c",
+"doc": "32024R0883",
+"art": "Annex I",
+"chapeau": "In addition, until the introduction of a dedicated entry in the Certificate of Conformity, the value of the mass of the energy storage system shall be stated under “remarks” in the Certificate of Conformity, as to allow inclusion of this information in on-board vehicle registration papers, as follows:",
+"clause": "In case of motor vehicles suitable for battery-swapping, the mass at the time of production of the motor vehicle shall be stated."
+},
+{
+"k": "8be01b8ee7ea",
+"doc": "32024R0883",
+"art": "Annex I",
+"chapeau": "in Section D, points 2.1.4.1 and 2.1.4.2 are replaced by the following:",
+"clause": "The height of the symbol’s characters and stated value shall not be less than 4 mm."
+},
+{
+"k": "8b4dacd46800",
+"doc": "32024R0883",
+"art": "Annex I",
+"chapeau": "in Section D, points 2.1.4.1 and 2.1.4.2 are replaced by the following:",
+"clause": "In addition, until the introduction of a dedicated entry in the Certificate of Conformity, the value of the additional weight or the mass of the energy storage system shall be stated under “remarks” in the Certificate of Conformity, as to allow inclusion of this information in on-board vehicle registration papers, as follows:"
+},
+{
+"k": "d9e15e182023",
+"doc": "32024R0883",
+"art": "Annex I",
+"chapeau": "In addition, until the introduction of a dedicated entry in the Certificate of Conformity, the value of the additional weight or the mass of the energy storage system shall be stated under “remarks” in the Certificate of Conformity, as to allow inclusion of this information in on-board vehicle registration papers, as follows:",
+"clause": "( *2 ) In case of fuel cell hybrid vehicles (FCHV) or pure electric motor vehicles, the additional mass must be stated."
+},
+{
+"k": "b91863c6f352",
+"doc": "32024R0883",
+"art": "Annex I",
+"chapeau": "In addition, until the introduction of a dedicated entry in the Certificate of Conformity, the value of the additional weight or the mass of the energy storage system shall be stated under “remarks” in the Certificate of Conformity, as to allow inclusion of this information in on-board vehicle registration papers, as follows:",
+"clause": "The value shall be rounded to whole kilograms, no decimals."
+},
+{
+"k": "00f7075564e6",
+"doc": "32024R0883",
+"art": "Annex I",
+"chapeau": "In addition, until the introduction of a dedicated entry in the Certificate of Conformity, the value of the additional weight or the mass of the energy storage system shall be stated under “remarks” in the Certificate of Conformity, as to allow inclusion of this information in on-board vehicle registration papers, as follows:",
+"clause": "In case of motor vehicles suitable for battery-swapping, the mass at the time of production of the motor vehicle shall be stated."
+},
+{
+"k": "ab7f77b94578",
+"doc": "32024R0883",
+"art": "Annex I",
+"chapeau": "In addition, until the introduction of a dedicated entry in the Certificate of Conformity, the value of the additional weight or the mass of the energy storage system shall be stated under “remarks” in the Certificate of Conformity, as to allow inclusion of this information in on-board vehicle registration papers, as follows:",
+"clause": "( *1 ) In case of fuel cell hybrid vehicles (FCHV) or pure electric motor vehicles, the additional value for the mass shall be stated."
+},
+{
+"k": "bc443fc5d667",
+"doc": "32025R1122",
+"art": "Annex",
+"chapeau": "the following note is added to the Notes to the table:",
+"clause": "Compliance is required if fitted.’."
+},
+{
+"k": "32f56611b342",
+"doc": "32025R1122",
+"art": "Annex",
+"chapeau": "the following note is added to the Notes to the table:",
+"clause": "( *1 ) In application of the transitional provisions of 04 series of amendments to UN Regulation No 127, type approvals issued using the specific provisions related to WAD 2 100 boundary on the bonnet top shall continue to be accepted until 1 September 2029."
+},
+{
+"k": "c9011bbd7d19",
+"doc": "32025R1122",
+"art": "Annex",
+"chapeau": "the following note is added to the Notes to the table:",
+"clause": "Type approvals issued using the specific provisions of the rear physical edge of the bonnet instead of the BRRL shall continue to be accepted until 1 September 2031.’;"
+}
+]
