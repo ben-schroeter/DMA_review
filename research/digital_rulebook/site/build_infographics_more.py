@@ -1,6 +1,7 @@
 """Three more Statista-style square infographics (1200x1200), same frame as build_infographic.py:
 negotiation (proposal vs adopted, 45-degree scatter), acts by policy area, EU acts vs Sarbanes-Oxley.
 Writes site/infographics/{negotiation,policy_areas,sox}.svg. Run from research/digital_rulebook."""
+import sys as _s; _s.path.insert(0, "site"); from counts import N_LAWS, N_SEC, N_IMPL, N_DEL   # no typed counts
 import collections, json, os, statistics
 import openpyxl
 
@@ -125,8 +126,8 @@ for i, (a, (old, new)) in enumerate(pa_rows):
 b += callout(W - 56 - 560, 256, 560, f"{n_new}/{len(inst)}", ["acts adopted since 2020, incl.", f"all {ind[1]} industrial-policy acts"], h=110)
 frame(["More than half of EU digital laws", "were adopted since 2020"],
       ["Adopted EU digital acts by policy area, before 2020 and since"],
-      ["Policy areas adapted from Zenner &amp; Marcus (2025). The 105 adopted EU digital acts in our database, by year of adoption;",
-       "numbers in the bars: acts since 2020 (gold) and before 2020 (light gold). As of October 2026."],
+      [f"Policy areas adapted from Zenner &amp; Marcus (2025). The {N_LAWS} adopted EU digital acts in our database, by year of adoption;",
+       "numbers in the bars: acts since 2020 (gold) and before 2020 (light gold). As of November 2026."],
       b, f"More than half of EU digital laws were adopted since 2020: {n_new} of {len(inst)}. By policy area: "
          + "; ".join(f"{a} {o + n} ({n} since 2020)" for a, (o, n) in pa_rows), "policy_areas")
 
@@ -136,7 +137,7 @@ recent = [r for r in inst if yr(r) >= 2020]
 pick = ["Artificial Intelligence Act", "Digital Services Act", "General Data Protection Regulation", "Digital Markets Act", "Data Act"]
 bars = [(SHORT[n], next(r["restrictions_total"] for r in inst if r["name"] == n), GOLD) for n in pick]
 bars += [("EU average, acts since 2020", round(statistics.mean(r["restrictions_total"] for r in recent)), STONE),
-         ("EU average, all 105 acts", round(statistics.mean(r["restrictions_total"] for r in inst)), STONE),
+         (f"EU average, all {N_LAWS} acts", round(statistics.mean(r["restrictions_total"] for r in inst)), STONE),
          ("Sarbanes-Oxley Act (US, 2002)", sox, SLATE)]
 bars.sort(key=lambda x: -x[1])
 ai = bars[0][1]
@@ -157,6 +158,6 @@ b += callout(W - 56 - 430, TOP + 16 + rh * 3.5, 430, f"×{ai / sox:.1f}", ["obli
 frame(["The AI Act carries three times as many", "obligations as Sarbanes-Oxley"],
       ["Obligations per act: major EU digital laws and EU averages against the US", "Sarbanes-Oxley Act (2002), counted the same way"],
       ["Automated count of obligations in the legal text (articles and annexes; for Sarbanes-Oxley, the enacted text). The counter was",
-       "89% precise on EU texts and 68% on Sarbanes-Oxley, so the US figure is likely overstated rather than understated. As of October 2026."],
+       "89% precise on EU texts and 68% on Sarbanes-Oxley, so the US figure is likely overstated rather than understated. As of November 2026."],
       b, f"The AI Act carries three times as many obligations as Sarbanes-Oxley: " + "; ".join(f"{n} {v}" for n, v, _ in bars), "sox")
 print("negotiation", up, len(cmp_), p_tot, a_tot, "| areas", n_new, len(inst), ind, "| sox", sox, ai, round(ai / sox, 2))

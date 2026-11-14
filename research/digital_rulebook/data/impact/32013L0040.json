@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "obligation in the act",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "2017 report: statistics and reporting channels among the provisions least implemented.",
    "status": "not measured",
-   "sources": "COM(2017) 474"
+   "sources": "COM(2017) 474",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -48,7 +50,10 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20261010085207/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52017DC0474"
+   "archive_url": "http://web.archive.org/web/20261010085207/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52017DC0474",
+   "category": "evidence",
+   "source_class": "official"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

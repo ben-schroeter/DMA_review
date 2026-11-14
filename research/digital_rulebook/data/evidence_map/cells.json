@@ -709,12 +709,14 @@
      ]
     },
     "consumers": {
-     "best": null,
-     "n": 0,
+     "best": "measured",
+     "n": 1,
      "causal": 0,
-     "measured": 0,
+     "measured": 1,
      "forecast": 0,
-     "ids": []
+     "ids": [
+      "egberts-2026-banner-friction"
+     ]
     },
     "competition": {
      "best": null,
@@ -751,22 +753,27 @@
      "ids": []
     },
     "rights": {
-     "best": null,
-     "n": 0,
+     "best": "measured",
+     "n": 3,
      "causal": 0,
-     "measured": 0,
+     "measured": 3,
      "forecast": 0,
-     "ids": []
+     "ids": [
+      "egberts-2026-banner-friction",
+      "trevisan-2019-cookie-law",
+      "ec-2023-digital-advertising-study"
+     ]
     },
     "implementation": {
      "best": "causal",
-     "n": 2,
+     "n": 3,
      "causal": 1,
-     "measured": 1,
+     "measured": 2,
      "forecast": 0,
      "ids": [
       "ec-2017-eprivacy-refit",
-      "goldfarb-tucker-2011"
+      "goldfarb-tucker-2011",
+      "ec-2023-digital-advertising-study"
      ]
     }
    }
@@ -1269,83 +1276,6 @@
     }
    }
   },
-  "European Statistics Regulation": {
-   "policy_area": "Data & Privacy",
-   "row_id": 16,
-   "year": 2009,
-   "obligations": 85,
-   "cells": {
-    "costs": {
-     "best": "forecast",
-     "n": 1,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 1,
-     "ids": [
-      "ec-2023-ess-ia"
-     ]
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "innovation": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "growth": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "market": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "rights": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "implementation": {
-     "best": "measured",
-     "n": 2,
-     "causal": 0,
-     "measured": 2,
-     "forecast": 0,
-     "ids": [
-      "eca-2012-statistics",
-      "ec-2016-cop-report"
-     ]
-    }
-   }
-  },
   "Toys Safety Directive": {
    "policy_area": "Trust & Safety",
    "row_id": 17,
@@ -1621,9 +1551,9 @@
     },
     "consumers": {
      "best": "causal",
-     "n": 9,
-     "causal": 6,
-     "measured": 3,
+     "n": 13,
+     "causal": 8,
+     "measured": 5,
      "forecast": 0,
      "ids": [
       "goldberg-johnson-shriver-2024",
@@ -1634,14 +1564,18 @@
       "godinhodematos-2022-consent-telecom",
       "lefrere-2024-gdpr-content",
       "martens-2026-consentfiction",
-      "decarolis-2025-unlockinggrowth"
+      "decarolis-2025-unlockinggrowth",
+      "wang-2023-gdpr-display-ads",
+      "zhao-2021-gdpr-search-friction",
+      "matte-2020-cookie-banners-tcf",
+      "utz-2019-uninformed-consent"
      ]
     },
     "competition": {
      "best": "causal",
-     "n": 6,
+     "n": 7,
      "causal": 3,
-     "measured": 3,
+     "measured": 4,
      "forecast": 0,
      "ids": [
       "johnson-shriver-goldberg-2023",
@@ -1649,14 +1583,15 @@
       "janssen-et-al-2022",
       "godinhodematos-2022-consent-telecom",
       "chivot-2019-gdproneyear",
-      "berggren-2025-gdprtrade"
+      "berggren-2025-gdprtrade",
+      "kollnig-2021-gdpr-apps-tracking"
      ]
     },
     "innovation": {
      "best": "causal",
-     "n": 11,
-     "causal": 6,
-     "measured": 5,
+     "n": 18,
+     "causal": 10,
+     "measured": 8,
      "forecast": 0,
      "ids": [
       "jia-jin-wagman-2021",
@@ -1669,13 +1604,20 @@
       "bessen-2020-gdpr-ai-startups",
       "chivot-2019-gdproneyear",
       "decarolis-2025-unlockinggrowth",
-      "bitkom-2023-fuenfjahredsgvo"
+      "bitkom-2023-fuenfjahredsgvo",
+      "etla-2025-privacy-rd",
+      "zew-2024-gdpr-six-years",
+      "jia-2025-transatlantic-vc",
+      "yoon-2025-gdpr-ai-innovation",
+      "cnil-2025-gdpr-cyber-benefits",
+      "hils-2020-consent-management",
+      "yuan-2019-gdpr-digital-health"
      ]
     },
     "growth": {
      "best": "causal",
-     "n": 7,
-     "causal": 4,
+     "n": 9,
+     "causal": 6,
      "measured": 3,
      "forecast": 0,
      "ids": [
@@ -1685,27 +1627,30 @@
       "godinhodematos-2022-consent-telecom",
       "lefrere-2024-gdpr-content",
       "koski-2020-gdpr-profits",
-      "berggren-2025-gdprtrade"
+      "berggren-2025-gdprtrade",
+      "ecipe-2025-gdpr-trade",
+      "wang-2023-gdpr-display-ads"
      ]
     },
     "market": {
      "best": "measured",
-     "n": 4,
+     "n": 5,
      "causal": 0,
-     "measured": 3,
+     "measured": 4,
      "forecast": 1,
      "ids": [
       "ec-2012-gdpr-ia",
       "iccl-2023-gdprcrisis",
       "decarolis-2025-unlockinggrowth",
-      "berggren-2025-gdprtrade"
+      "berggren-2025-gdprtrade",
+      "li-2024-gdpr-app-market"
      ]
     },
     "rights": {
      "best": "causal",
-     "n": 8,
-     "causal": 2,
-     "measured": 6,
+     "n": 20,
+     "causal": 5,
+     "measured": 15,
      "forecast": 0,
      "ids": [
       "miller-2024-gdpr-tracking",
@@ -1715,14 +1660,26 @@
       "ganglmair-2024-privacy-policies",
       "ec-2019-eurobarometer-487a",
       "chivot-2019-gdproneyear",
-      "martens-2026-consentfiction"
+      "martens-2026-consentfiction",
+      "ecipe-2025-gdpr-trade",
+      "etla-2025-privacy-rd",
+      "li-2024-gdpr-app-market",
+      "janssen-2026-gdpr-data-download",
+      "wang-2023-gdpr-display-ads",
+      "kollnig-2021-gdpr-apps-tracking",
+      "linden-2020-privacy-policies",
+      "matte-2020-cookie-banners-tcf",
+      "hils-2020-consent-management",
+      "sanchezrola-2019-cookie-control",
+      "utz-2019-uninformed-consent",
+      "libert-2018-news-sites-gdpr"
      ]
     },
     "implementation": {
-     "best": "measured",
-     "n": 6,
-     "causal": 0,
-     "measured": 6,
+     "best": "causal",
+     "n": 10,
+     "causal": 2,
+     "measured": 8,
      "forecast": 0,
      "ids": [
       "ec-2024-gdpr-report",
@@ -1730,7 +1687,11 @@
       "ec-2019-eurobarometer-487a",
       "iccl-2023-gdprcrisis",
       "edpb-2025-cefrightofaccess",
-      "edpb-2024-cefdpo"
+      "edpb-2024-cefdpo",
+      "etla-2025-privacy-rd",
+      "cnil-2025-gdpr-cyber-benefits",
+      "wang-2023-gdpr-display-ads",
+      "linden-2020-privacy-policies"
      ]
     }
    }
@@ -1933,23 +1894,25 @@
      ]
     },
     "competition": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
+     "best": "causal",
+     "n": 2,
+     "causal": 1,
      "measured": 1,
      "forecast": 0,
      "ids": [
-      "ec-2023-psd2-review"
+      "ec-2023-psd2-review",
+      "polasik-2020-psd2-paytech"
      ]
     },
     "innovation": {
      "best": "causal",
-     "n": 1,
-     "causal": 1,
+     "n": 2,
+     "causal": 2,
      "measured": 0,
      "forecast": 0,
      "ids": [
-      "babina-et-al-2024"
+      "babina-et-al-2024",
+      "polasik-2020-psd2-paytech"
      ]
     },
     "growth": {
@@ -1981,12 +1944,14 @@
      ]
     },
     "implementation": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
+     "best": "causal",
+     "n": 1,
+     "causal": 1,
      "measured": 0,
      "forecast": 0,
-     "ids": []
+     "ids": [
+      "polasik-2020-psd2-paytech"
+     ]
     }
    }
   },
@@ -2077,7 +2042,7 @@
   "Technology Transfer Block Exemption": {
    "policy_area": "Competition & Single Market",
    "row_id": 25,
-   "year": 2014,
+   "year": 2026,
    "obligations": 0,
    "cells": {
     "costs": {
@@ -2788,15 +2753,16 @@
     },
     "growth": {
      "best": "causal",
-     "n": 4,
-     "causal": 2,
+     "n": 5,
+     "causal": 3,
      "measured": 1,
      "forecast": 1,
      "ids": [
       "ec-2016-copyright-ia",
       "calzada-gil-2020-news-aggregators",
       "jrc-2016-news-aggregation",
-      "google-2025-eu-news-experiment"
+      "google-2025-eu-news-experiment",
+      "wlomert-2023-ugc-platform-regulation"
      ]
     },
     "market": {
@@ -3751,511 +3717,6 @@
     }
    }
   },
-  "Digital Europe Programme": {
-   "policy_area": "Research & Innovation",
-   "row_id": 45,
-   "year": 2021,
-   "obligations": 131,
-   "cells": {
-    "costs": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "innovation": {
-     "best": "measured",
-     "n": 3,
-     "causal": 0,
-     "measured": 2,
-     "forecast": 1,
-     "ids": [
-      "ec-2018-dep-ia",
-      "ec-2025-dep-interim",
-      "jrc-2025-edih-state-of-play"
-     ]
-    },
-    "growth": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "market": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "rights": {
-     "best": "measured",
-     "n": 2,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 1,
-     "ids": [
-      "ec-2018-dep-ia",
-      "ec-2025-dep-interim"
-     ]
-    },
-    "implementation": {
-     "best": "measured",
-     "n": 4,
-     "causal": 0,
-     "measured": 4,
-     "forecast": 0,
-     "ids": [
-      "simmonds-2026-dep-interim-study",
-      "jrc-2025-edih-state-of-play",
-      "carpentier-2026-edih-selection",
-      "czyzewska-misztal-2026-dih-intermediaries"
-     ]
-    }
-   }
-  },
-  "InvestEU Programme": {
-   "policy_area": "Industrial Policy",
-   "row_id": 46,
-   "year": 2021,
-   "obligations": 262,
-   "cells": {
-    "costs": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "innovation": {
-     "best": "causal",
-     "n": 5,
-     "causal": 1,
-     "measured": 3,
-     "forecast": 1,
-     "ids": [
-      "ec-2018-investeu-ia",
-      "ec-2024-investeu-interim-eval",
-      "eca-2025-efsi-sr07",
-      "frayman-2026-efsi",
-      "eib-2018-efsievaluation"
-     ]
-    },
-    "growth": {
-     "best": "causal",
-     "n": 2,
-     "causal": 2,
-     "measured": 0,
-     "forecast": 0,
-     "ids": [
-      "bertoni-2025-cosme-beFRit",
-      "bertoni-2025-cosme-grplesro"
-     ]
-    },
-    "market": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "rights": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "implementation": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    }
-   }
-  },
-  "Connecting Europe Facility": {
-   "policy_area": "Industrial Policy",
-   "row_id": 47,
-   "year": 2021,
-   "obligations": 137,
-   "cells": {
-    "costs": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "eca-2026-transport-megaprojects"
-     ]
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "innovation": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "eca-2026-transport-megaprojects"
-     ]
-    },
-    "growth": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "market": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "rights": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "implementation": {
-     "best": "measured",
-     "n": 3,
-     "causal": 0,
-     "measured": 2,
-     "forecast": 1,
-     "ids": [
-      "ec-2018-cef-ia",
-      "ec-2025-cef-progress",
-      "eca-2026-transport-megaprojects"
-     ]
-    }
-   }
-  },
-  "Horizon Europe": {
-   "policy_area": "Research & Innovation",
-   "row_id": 48,
-   "year": 2021,
-   "obligations": 365,
-   "cells": {
-    "costs": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": "causal",
-     "n": 1,
-     "causal": 1,
-     "measured": 0,
-     "forecast": 0,
-     "ids": [
-      "santoleri-et-al-2024-rd-grants"
-     ]
-    },
-    "innovation": {
-     "best": "causal",
-     "n": 8,
-     "causal": 3,
-     "measured": 5,
-     "forecast": 0,
-     "ids": [
-      "ec-2024-h2020-expost",
-      "santoleri-et-al-2024-rd-grants",
-      "ghirelli-et-al-2023-erc",
-      "delsorbo-2026-eicaccelerator",
-      "orsanigo-2026-fpnetworks",
-      "eca-2025-annualreport-research",
-      "ec-2026-monitoring-he2025",
-      "eic-2025-impact-report"
-     ]
-    },
-    "growth": {
-     "best": "causal",
-     "n": 8,
-     "causal": 4,
-     "measured": 3,
-     "forecast": 1,
-     "ids": [
-      "ec-2018-horizon-europe-ia",
-      "ec-2024-h2020-expost",
-      "ec-2025-horizon-europe-interim",
-      "santoleri-et-al-2024-rd-grants",
-      "mitra-niakaros-2023-horizon-effect",
-      "ghirelli-et-al-2023-erc",
-      "delsorbo-2026-eicaccelerator",
-      "eic-2025-impact-report"
-     ]
-    },
-    "market": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "rights": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "implementation": {
-     "best": "measured",
-     "n": 3,
-     "causal": 0,
-     "measured": 3,
-     "forecast": 0,
-     "ids": [
-      "ppmi-2025-widening-networks",
-      "eca-2025-annualreport-research",
-      "ec-2026-monitoring-he2025"
-     ]
-    }
-   }
-  },
-  "Single Market Programme": {
-   "policy_area": "Competition & Single Market",
-   "row_id": 49,
-   "year": 2021,
-   "obligations": 73,
-   "cells": {
-    "costs": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "innovation": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "eismea-2026-een-impact"
-     ]
-    },
-    "growth": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "ec-2025-smp-interim"
-     ]
-    },
-    "market": {
-     "best": "measured",
-     "n": 2,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 1,
-     "ids": [
-      "ec-2018-smp-ia",
-      "ec-2025-smp-interim"
-     ]
-    },
-    "rights": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "implementation": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    }
-   }
-  },
-  "European Cybersecurity Competence Centre": {
-   "policy_area": "Cybersecurity",
-   "row_id": 50,
-   "year": 2021,
-   "obligations": 241,
-   "cells": {
-    "costs": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": "forecast",
-     "n": 1,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 1,
-     "ids": [
-      "ec-2018-eccc-ia"
-     ]
-    },
-    "innovation": {
-     "best": "forecast",
-     "n": 1,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 1,
-     "ids": [
-      "ec-2018-eccc-ia"
-     ]
-    },
-    "growth": {
-     "best": "forecast",
-     "n": 1,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 1,
-     "ids": [
-      "ec-2018-eccc-ia"
-     ]
-    },
-    "market": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "rights": {
-     "best": "measured",
-     "n": 2,
-     "causal": 0,
-     "measured": 2,
-     "forecast": 0,
-     "ids": [
-      "ec-2025-dep-interim-cyber",
-      "eccc-2026-caar-2025"
-     ]
-    },
-    "implementation": {
-     "best": "measured",
-     "n": 3,
-     "causal": 0,
-     "measured": 2,
-     "forecast": 1,
-     "ids": [
-      "ec-2018-eccc-ia",
-      "eca-2025-ju-annual-2024",
-      "eccc-2026-caar-2025"
-     ]
-    }
-   }
-  },
   "Terrorist Content Online Regulation": {
    "policy_area": "Law Enforcement",
    "row_id": 51,
@@ -4341,105 +3802,6 @@
     }
    }
   },
-  "Recovery and Resilience Facility": {
-   "policy_area": "Industrial Policy",
-   "row_id": 52,
-   "year": 2021,
-   "obligations": 187,
-   "cells": {
-    "costs": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "innovation": {
-     "best": "causal",
-     "n": 5,
-     "causal": 1,
-     "measured": 4,
-     "forecast": 0,
-     "ids": [
-      "dipietro-2026-crowdin",
-      "ferri-2023-twin-transition",
-      "fernandezcerezo-2025-ebae-ngeu",
-      "eca-2025-sr21-business",
-      "funcas-2025-nextgen-transformacion"
-     ]
-    },
-    "growth": {
-     "best": "causal",
-     "n": 8,
-     "causal": 2,
-     "measured": 6,
-     "forecast": 0,
-     "ids": [
-      "ec-2024-rrf-midterm-evaluation",
-      "bankowski-et-al-2024-ecb-op362",
-      "busse-caselli-fotiou-2026-imf",
-      "pfeiffer-varga-intveld-2022",
-      "ferri-2023-twin-transition",
-      "havlik-2021-spreads",
-      "espinosa-2023-regional-scm",
-      "ecorys-ceps-2024-rrf-midterm-study"
-     ]
-    },
-    "market": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "pfeiffer-varga-intveld-2022"
-     ]
-    },
-    "rights": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "implementation": {
-     "best": "causal",
-     "n": 9,
-     "causal": 1,
-     "measured": 8,
-     "forecast": 0,
-     "ids": [
-      "ec-2024-rrf-midterm-evaluation",
-      "ec-2026-rrf-implementation-report",
-      "eca-2024-sr13-rrf-absorption",
-      "eca-2023-sr26-rrf-performance",
-      "zorell-2026-institutions",
-      "eca-2025-sr13-digital",
-      "ecorys-ceps-2024-rrf-midterm-study",
-      "delemos-2026-rrd-briefing",
-      "hidalgo-2026-nextgen-tracker-spain"
-     ]
-    }
-   }
-  },
   "Temporary CSAM Derogation Regulation": {
    "policy_area": "Law Enforcement",
    "row_id": 53,
@@ -4517,83 +3879,6 @@
      "ids": [
       "ec-2023-csam-interim-report",
       "edri-2024-epriv-derogation-submission"
-     ]
-    }
-   }
-  },
-  "EuroHPC Joint Undertaking Regulation": {
-   "policy_area": "Industrial Policy",
-   "row_id": 54,
-   "year": 2021,
-   "obligations": 340,
-   "cells": {
-    "costs": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "innovation": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "ec-2025-horizon-eurohpc-annex16"
-     ]
-    },
-    "growth": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "market": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "rights": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "implementation": {
-     "best": "measured",
-     "n": 2,
-     "causal": 0,
-     "measured": 2,
-     "forecast": 0,
-     "ids": [
-      "ec-2025-dep-interim-hpc",
-      "eca-2025-ju-annual-2024-eurohpc"
      ]
     }
    }
@@ -4953,20 +4238,21 @@
    "obligations": 279,
    "cells": {
     "costs": {
-     "best": "forecast",
-     "n": 1,
+     "best": "measured",
+     "n": 2,
      "causal": 0,
-     "measured": 0,
+     "measured": 1,
      "forecast": 1,
      "ids": [
-      "ec-2020-dma-ia"
+      "ec-2020-dma-ia",
+      "barczentewicz-2025-dma-digital-tax"
      ]
     },
     "consumers": {
      "best": "causal",
-     "n": 12,
+     "n": 13,
      "causal": 1,
-     "measured": 10,
+     "measured": 11,
      "forecast": 1,
      "ids": [
       "ec-2020-dma-ia",
@@ -4980,14 +4266,15 @@
       "mirai-2024-hotelads",
       "mirai-2024-directbookings",
       "beuc-2025-dma-first-bloom",
-      "petr-2026-dma-first-years"
+      "petr-2026-dma-first-years",
+      "mozilla-2023-choice-screens"
      ]
     },
     "competition": {
      "best": "causal",
-     "n": 15,
+     "n": 16,
      "causal": 7,
-     "measured": 8,
+     "measured": 9,
      "forecast": 0,
      "ids": [
       "ec-2026-dma-review",
@@ -5004,7 +4291,8 @@
       "vasquezduque-2025-choicescreens",
       "verlooy-2025-eventstudy",
       "auer-2026-icle-sevenclaims",
-      "feasey-2026-cerre-dma-impact"
+      "feasey-2026-cerre-dma-impact",
+      "barczentewicz-2025-dma-digital-tax"
      ]
     },
     "innovation": {
@@ -5099,13 +4387,14 @@
     },
     "innovation": {
      "best": "measured",
-     "n": 2,
+     "n": 3,
      "causal": 0,
-     "measured": 2,
+     "measured": 3,
      "forecast": 0,
      "ids": [
       "tonneau-2026-languages",
-      "jaursch-2024-dsa-data-access"
+      "jaursch-2024-dsa-data-access",
+      "papaevangelou-2025-dsa-observability"
      ]
     },
     "growth": {
@@ -5128,9 +4417,9 @@
     },
     "rights": {
      "best": "measured",
-     "n": 11,
+     "n": 12,
      "causal": 0,
-     "measured": 11,
+     "measured": 12,
      "forecast": 0,
      "ids": [
       "kaushal-et-al-2024",
@@ -5143,7 +4432,8 @@
       "bouchaud-2024-no-embargo-meta-ads",
       "mozilla-checkfirst-2024-ad-repositories",
       "globalwitness-2024-tiktok-election-ads",
-      "eboard-2026-second-systemic-risk-report"
+      "eboard-2026-second-systemic-risk-report",
+      "papaevangelou-2025-dsa-observability"
      ]
     },
     "implementation": {
@@ -5266,87 +4556,6 @@
     }
    }
   },
-  "Joint Undertakings under Horizon Europe": {
-   "policy_area": "Industrial Policy",
-   "row_id": 62,
-   "year": 2021,
-   "obligations": 552,
-   "cells": {
-    "costs": {
-     "best": "forecast",
-     "n": 1,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 1,
-     "ids": [
-      "ec-2021-ju-ia"
-     ]
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "innovation": {
-     "best": "measured",
-     "n": 3,
-     "causal": 0,
-     "measured": 2,
-     "forecast": 1,
-     "ids": [
-      "ec-2021-ju-ia",
-      "ec-2025-horizon-interim-jus",
-      "ec-rtd-2024-bmr-partnerships"
-     ]
-    },
-    "growth": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "market": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "rights": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "implementation": {
-     "best": "measured",
-     "n": 2,
-     "causal": 0,
-     "measured": 2,
-     "forecast": 0,
-     "ids": [
-      "eca-2024-jus-fy2023",
-      "ec-rtd-2024-bmr-partnerships"
-     ]
-    }
-   }
-  },
   "Roaming Regulation": {
    "policy_area": "Connectivity",
    "row_id": 63,
@@ -5363,9 +4572,9 @@
     },
     "consumers": {
      "best": "causal",
-     "n": 8,
+     "n": 9,
      "causal": 3,
-     "measured": 4,
+     "measured": 5,
      "forecast": 1,
      "ids": [
       "ec-2021-roaming-ia",
@@ -5375,7 +4584,8 @@
       "canzian-et-al-2025-price-caps",
       "grzybowski-munoz-2023-roaming",
       "boto-garcia-santana-2026-tourism",
-      "berec-2026-roaming-benchmark32"
+      "berec-2026-roaming-benchmark32",
+      "wik-2019-roaming-technology"
      ]
     },
     "competition": {
@@ -5451,12 +4661,14 @@
      ]
     },
     "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
+     "best": "causal",
+     "n": 1,
+     "causal": 1,
      "measured": 0,
      "forecast": 0,
-     "ids": []
+     "ids": [
+      "liu-2026-ai-act-shareholder"
+     ]
     },
     "competition": {
      "best": null,
@@ -5508,9 +4720,9 @@
      ]
     },
     "implementation": {
-     "best": "measured",
-     "n": 7,
-     "causal": 0,
+     "best": "causal",
+     "n": 8,
+     "causal": 1,
      "measured": 7,
      "forecast": 0,
      "ids": [
@@ -5520,7 +4732,8 @@
       "bitkom-2024-aiact-survey",
       "littler-2025-employer-survey",
       "fli-2026-aiact-national-authorities",
-      "deloitte-2024-aiact-survey"
+      "deloitte-2024-aiact-survey",
+      "liu-2026-ai-act-shareholder"
      ]
     }
    }
@@ -6111,84 +5324,6 @@
     }
    }
   },
-  "Digitalisation of judicial cooperation Regulation": {
-   "policy_area": "Law Enforcement",
-   "row_id": 72,
-   "year": 2023,
-   "obligations": 74,
-   "cells": {
-    "costs": {
-     "best": "forecast",
-     "n": 1,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 1,
-     "ids": [
-      "ec-2021-ejustice-ia"
-     ]
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "innovation": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "growth": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "market": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "kolitsi-2025-simplivi"
-     ]
-    },
-    "rights": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "implementation": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "kolitsi-2025-simplivi"
-     ]
-    }
-   }
-  },
   "Platform Work Directive": {
    "policy_area": "Competition & Single Market",
    "row_id": 73,
@@ -6352,90 +5487,6 @@
     }
    }
   },
-  "Union Secure Connectivity Programme": {
-   "policy_area": "Connectivity",
-   "row_id": 75,
-   "year": 2023,
-   "obligations": 173,
-   "cells": {
-    "costs": {
-     "best": "measured",
-     "n": 3,
-     "causal": 0,
-     "measured": 2,
-     "forecast": 1,
-     "ids": [
-      "ec-2022-iris2-ia",
-      "parsonson-2026-iris2-review",
-      "gorman-2026-iris2-build"
-     ]
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": "forecast",
-     "n": 1,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 1,
-     "ids": [
-      "ec-2022-iris2-ia"
-     ]
-    },
-    "innovation": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "growth": {
-     "best": "forecast",
-     "n": 1,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 1,
-     "ids": [
-      "ec-2022-iris2-ia"
-     ]
-    },
-    "market": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "rights": {
-     "best": "forecast",
-     "n": 1,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 1,
-     "ids": [
-      "ec-2022-iris2-ia"
-     ]
-    },
-    "implementation": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "gorman-2026-iris2-build"
-     ]
-    }
-   }
-  },
   "Data Act": {
    "policy_area": "Data & Privacy",
    "row_id": 76,
@@ -6589,82 +5640,6 @@
      "ids": [
       "ec-2022-vaw-ia",
       "eige-fra-eurostat-2024-gbv-survey"
-     ]
-    },
-    "implementation": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    }
-   }
-  },
-  "Cybersecurity Regulation (EU institutions)": {
-   "policy_area": "Cybersecurity",
-   "row_id": 78,
-   "year": 2023,
-   "obligations": 166,
-   "cells": {
-    "costs": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "innovation": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "growth": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "market": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "rights": {
-     "best": "measured",
-     "n": 3,
-     "causal": 0,
-     "measured": 3,
-     "forecast": 0,
-     "ids": [
-      "eca-2022-euiba-cyber",
-      "iicb-2025-annual-report",
-      "certeu-2026-tlr2025"
      ]
     },
     "implementation": {
@@ -7013,80 +5988,6 @@
     }
    }
   },
-  "Single Market Emergency Instrument (IMERA)": {
-   "policy_area": "Competition & Single Market",
-   "row_id": 85,
-   "year": 2024,
-   "obligations": 200,
-   "cells": {
-    "costs": {
-     "best": "forecast",
-     "n": 1,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 1,
-     "ids": [
-      "ec-2022-smei-ia"
-     ]
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "innovation": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "growth": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "market": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "rights": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "implementation": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    }
-   }
-  },
   "Product Liability Directive": {
    "policy_area": "Trust & Safety",
    "row_id": 86,
@@ -7249,89 +6150,6 @@
      "forecast": 0,
      "ids": [
       "ec-2021-hber-evaluation"
-     ]
-    }
-   }
-  },
-  "Interoperable Europe Act": {
-   "policy_area": "Data & Privacy",
-   "row_id": 88,
-   "year": 2024,
-   "obligations": 127,
-   "cells": {
-    "costs": {
-     "best": "forecast",
-     "n": 1,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 1,
-     "ids": [
-      "ec-2022-iea-ia"
-     ]
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": "measured",
-     "n": 2,
-     "causal": 0,
-     "measured": 2,
-     "forecast": 0,
-     "ids": [
-      "ec-2022-eif-evaluation",
-      "ec-2025-iopa-study"
-     ]
-    },
-    "innovation": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "growth": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "market": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "ec-2025-iopa-study"
-     ]
-    },
-    "rights": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "implementation": {
-     "best": "measured",
-     "n": 3,
-     "causal": 0,
-     "measured": 3,
-     "forecast": 0,
-     "ids": [
-      "ec-2022-eif-evaluation",
-      "ec-2025-interop-annual-report",
-      "ec-2025-iopa-study"
      ]
     }
    }
@@ -7582,175 +6400,6 @@
     }
    }
   },
-  "Critical Raw Materials Act": {
-   "policy_area": "Industrial Policy",
-   "row_id": 92,
-   "year": 2024,
-   "obligations": 362,
-   "cells": {
-    "costs": {
-     "best": "measured",
-     "n": 2,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 1,
-     "ids": [
-      "ec-2023-crma-ia",
-      "eca-2026-crm"
-     ]
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "innovation": {
-     "best": "measured",
-     "n": 3,
-     "causal": 0,
-     "measured": 3,
-     "forecast": 0,
-     "ids": [
-      "ec-2025-crma-strategic-projects",
-      "kurzdorfer-2026-batteriesnotincluded",
-      "chetverikova-2026-strategicprojects"
-     ]
-    },
-    "growth": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "market": {
-     "best": "measured",
-     "n": 2,
-     "causal": 0,
-     "measured": 2,
-     "forecast": 0,
-     "ids": [
-      "baratadarocha-2026-competinginputs",
-      "chetverikova-2026-strategicprojects"
-     ]
-    },
-    "rights": {
-     "best": "forecast",
-     "n": 1,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 1,
-     "ids": [
-      "ec-2023-crma-ia"
-     ]
-    },
-    "implementation": {
-     "best": "measured",
-     "n": 2,
-     "causal": 0,
-     "measured": 2,
-     "forecast": 0,
-     "ids": [
-      "eca-2026-crm",
-      "kurzdorfer-2026-batteriesnotincluded"
-     ]
-    }
-   }
-  },
-  "Net-Zero Industry Act": {
-   "policy_area": "Industrial Policy",
-   "row_id": 93,
-   "year": 2024,
-   "obligations": 286,
-   "cells": {
-    "costs": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "tagliapietra-veugelers-zettelmeyer-2023"
-     ]
-    },
-    "innovation": {
-     "best": "measured",
-     "n": 3,
-     "causal": 0,
-     "measured": 2,
-     "forecast": 1,
-     "ids": [
-      "ec-2023-nzia-proposal",
-      "ec-2023-nzia-swd68",
-      "tagliapietra-veugelers-zettelmeyer-2023"
-     ]
-    },
-    "growth": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "tagliapietra-veugelers-zettelmeyer-2023"
-     ]
-    },
-    "market": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "rights": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "implementation": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "tagliapietra-veugelers-zettelmeyer-2023"
-     ]
-    }
-   }
-  },
   "Right to Repair Directive": {
    "policy_area": "E-commerce & Consumer Protection",
    "row_id": 94,
@@ -7829,239 +6478,6 @@
      "measured": 0,
      "forecast": 0,
      "ids": []
-    }
-   }
-  },
-  "Cyber Solidarity Act": {
-   "policy_area": "Cybersecurity",
-   "row_id": 95,
-   "year": 2024,
-   "obligations": 162,
-   "cells": {
-    "costs": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "eca-2023-cyber-solidarity-opinion"
-     ]
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "innovation": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "growth": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "market": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "rights": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "ec-2025-dep-interim-evaluation"
-     ]
-    },
-    "implementation": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "eca-2023-cyber-solidarity-opinion"
-     ]
-    }
-   }
-  },
-  "Compulsory licensing of patents Regulation": {
-   "policy_area": "IPR",
-   "row_id": 96,
-   "year": 2025,
-   "obligations": 110,
-   "cells": {
-    "costs": {
-     "best": "forecast",
-     "n": 1,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 1,
-     "ids": [
-      "ec-2023-compulsory-licensing-ia"
-     ]
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "innovation": {
-     "best": "forecast",
-     "n": 1,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 1,
-     "ids": [
-      "ec-2023-compulsory-licensing-ia"
-     ]
-    },
-    "growth": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "market": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "rights": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "implementation": {
-     "best": "forecast",
-     "n": 1,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 1,
-     "ids": [
-      "ec-2023-compulsory-licensing-ia"
-     ]
-    }
-   }
-  },
-  "Strategic Technologies for Europe Platform (STEP)": {
-   "policy_area": "Industrial Policy",
-   "row_id": 97,
-   "year": 2024,
-   "obligations": 36,
-   "cells": {
-    "costs": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "innovation": {
-     "best": "measured",
-     "n": 2,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 1,
-     "ids": [
-      "ec-2023-step-proposal",
-      "ec-2025-step-annual-report-2024"
-     ]
-    },
-    "growth": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "market": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "rights": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "implementation": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "ec-2025-step-annual-report-2024"
-     ]
     }
    }
   },
@@ -8694,87 +7110,6 @@
     }
    }
   },
-  "Interoperability of EU information systems (borders and visa) Regulation": {
-   "policy_area": "Law Enforcement",
-   "row_id": 114,
-   "year": 2019,
-   "obligations": 416,
-   "cells": {
-    "costs": {
-     "best": "measured",
-     "n": 2,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 1,
-     "ids": [
-      "ec-2017-interop-ia",
-      "ec-2026-interop-state-of-play"
-     ]
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "ec-2026-eulisa-eval"
-     ]
-    },
-    "innovation": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "growth": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "market": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "rights": {
-     "best": "forecast",
-     "n": 1,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 1,
-     "ids": [
-      "ec-2017-interop-ia"
-     ]
-    },
-    "implementation": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "ec-2026-eulisa-eval"
-     ]
-    }
-   }
-  },
   "Short-Term Rental Data Regulation": {
    "policy_area": "Data & Privacy",
    "row_id": 115,
@@ -8846,6 +7181,1221 @@
      "measured": 0,
      "forecast": 0,
      "ids": []
+    }
+   }
+  },
+  "Radio Spectrum Policy Programme": {
+   "policy_area": "Connectivity",
+   "row_id": 116,
+   "year": 2012,
+   "obligations": 68,
+   "cells": {
+    "costs": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "ec-2014-rspp-report"
+     ]
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    }
+   }
+  },
+  "700 MHz Decision": {
+   "policy_area": "Connectivity",
+   "row_id": 117,
+   "year": 2017,
+   "obligations": 19,
+   "cells": {
+    "costs": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": "measured",
+     "n": 2,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 1,
+     "ids": [
+      "ec-2016-700mhz-ia",
+      "eca-2022-5g"
+     ]
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    }
+   }
+  },
+  "TRIS Directive": {
+   "policy_area": "Competition & Single Market",
+   "row_id": 118,
+   "year": 2015,
+   "obligations": 47,
+   "cells": {
+    "costs": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "ec-2022-tris-report"
+     ]
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "ec-2022-tris-report"
+     ]
+    }
+   }
+  },
+  "European Accessibility Act": {
+   "policy_area": "E-commerce & Consumer Protection",
+   "row_id": 119,
+   "year": 2019,
+   "obligations": 249,
+   "cells": {
+    "costs": {
+     "best": "forecast",
+     "n": 1,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 1,
+     "ids": [
+      "ec-2015-eaa-ia"
+     ]
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": "forecast",
+     "n": 1,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 1,
+     "ids": [
+      "ec-2015-eaa-ia"
+     ]
+    },
+    "rights": {
+     "best": "forecast",
+     "n": 1,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 1,
+     "ids": [
+      "ec-2015-eaa-ia"
+     ]
+    },
+    "implementation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    }
+   }
+  },
+  "Software Directive": {
+   "policy_area": "IPR",
+   "row_id": 120,
+   "year": 2009,
+   "obligations": 16,
+   "cells": {
+    "costs": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "ec-2000-software-report"
+     ]
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    }
+   }
+  },
+  "Collective Rights Management Directive": {
+   "policy_area": "IPR",
+   "row_id": 121,
+   "year": 2014,
+   "obligations": 169,
+   "cells": {
+    "costs": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "ec-2021-crm-report"
+     ]
+    }
+   }
+  },
+  "Conditional Access Directive": {
+   "policy_area": "Media",
+   "row_id": 122,
+   "year": 1998,
+   "obligations": 12,
+   "cells": {
+    "costs": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "ec-2008-ca-report"
+     ]
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    }
+   }
+  },
+  "ADR Directive": {
+   "policy_area": "E-commerce & Consumer Protection",
+   "row_id": 123,
+   "year": 2013,
+   "obligations": 105,
+   "cells": {
+    "costs": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "consumers": {
+     "best": "measured",
+     "n": 2,
+     "causal": 0,
+     "measured": 2,
+     "forecast": 0,
+     "ids": [
+      "ec-2019-adr-report",
+      "ec-2023-adr-ia"
+     ]
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": "measured",
+     "n": 2,
+     "causal": 0,
+     "measured": 2,
+     "forecast": 0,
+     "ids": [
+      "ec-2019-adr-report",
+      "ec-2023-adr-ia"
+     ]
+    }
+   }
+  },
+  "Representative Actions Directive": {
+   "policy_area": "E-commerce & Consumer Protection",
+   "row_id": 124,
+   "year": 2020,
+   "obligations": 93,
+   "cells": {
+    "costs": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "consumers": {
+     "best": "forecast",
+     "n": 1,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 1,
+     "ids": [
+      "ec-2018-newdeal-ia"
+     ]
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": "forecast",
+     "n": 1,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 1,
+     "ids": [
+      "ec-2018-newdeal-ia"
+     ]
+    }
+   }
+  },
+  "E-money Directive": {
+   "policy_area": "Finance",
+   "row_id": 125,
+   "year": 2009,
+   "obligations": 69,
+   "cells": {
+    "costs": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "ec-2018-emd2-report"
+     ]
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "ec-2018-emd2-report"
+     ]
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    }
+   }
+  },
+  "SEPA Regulation": {
+   "policy_area": "Finance",
+   "row_id": 126,
+   "year": 2012,
+   "obligations": 88,
+   "cells": {
+    "costs": {
+     "best": "forecast",
+     "n": 1,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 1,
+     "ids": [
+      "ec-2010-sepa-ia"
+     ]
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": "forecast",
+     "n": 1,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 1,
+     "ids": [
+      "ec-2010-sepa-ia"
+     ]
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "ec-2017-sepa-report"
+     ]
+    }
+   }
+  },
+  "Transfer of Funds Regulation": {
+   "policy_area": "Finance",
+   "row_id": 127,
+   "year": 2023,
+   "obligations": 113,
+   "cells": {
+    "costs": {
+     "best": "forecast",
+     "n": 1,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 1,
+     "ids": [
+      "ec-2021-aml-ia"
+     ]
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": "forecast",
+     "n": 1,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 1,
+     "ids": [
+      "ec-2021-aml-ia"
+     ]
+    }
+   }
+  },
+  "Consumer Credit Directive II": {
+   "policy_area": "Finance",
+   "row_id": 128,
+   "year": 2023,
+   "obligations": 281,
+   "cells": {
+    "costs": {
+     "best": "forecast",
+     "n": 1,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 1,
+     "ids": [
+      "ec-2021-ccd-ia"
+     ]
+    },
+    "consumers": {
+     "best": "measured",
+     "n": 2,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 1,
+     "ids": [
+      "ec-2020-ccd-evaluation",
+      "ec-2021-ccd-ia"
+     ]
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "ec-2020-ccd-evaluation"
+     ]
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    }
+   }
+  },
+  "European Single Access Point (ESAP)": {
+   "policy_area": "Finance",
+   "row_id": 129,
+   "year": 2023,
+   "obligations": 85,
+   "cells": {
+    "costs": {
+     "best": "forecast",
+     "n": 1,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 1,
+     "ids": [
+      "ec-2021-esap-ia"
+     ]
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    }
+   }
+  },
+  "Cybercrime Directive": {
+   "policy_area": "Law Enforcement",
+   "row_id": 130,
+   "year": 2013,
+   "obligations": 37,
+   "cells": {
+    "costs": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "ec-2017-cybercrime-report"
+     ]
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "ec-2017-cybercrime-report"
+     ]
+    }
+   }
+  },
+  "Child Sexual Abuse Directive": {
+   "policy_area": "Law Enforcement",
+   "row_id": 131,
+   "year": 2011,
+   "obligations": 90,
+   "cells": {
+    "costs": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "rights": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "ec-2024-csa-recast-ia"
+     ]
+    },
+    "implementation": {
+     "best": "measured",
+     "n": 2,
+     "causal": 0,
+     "measured": 2,
+     "forecast": 0,
+     "ids": [
+      "ec-2016-csa-transposition",
+      "ec-2024-csa-recast-ia"
+     ]
     }
    }
   }

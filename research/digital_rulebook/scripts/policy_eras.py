@@ -19,7 +19,7 @@ links = json.load(open("data/proposals.json"))["links"]
 out = []
 for x in I:
     p = fy(x["proposal_date"]); era = next(e for e in ERAS if e[2] <= p < e[3])
-    pc = x["proposal_celex"] or (links.get(str(x["celex_measured"])) or {}).get("proposal_celex") or (str(x["celex_measured"]) if str(x["celex_measured"]).startswith("5") else None)
+    pc = (str(x["proposal_celex"]).split(";")[0] if x["proposal_celex"] else None) or (links.get(str(x["celex_measured"])) or {}).get("proposal_celex") or (str(x["celex_measured"]) if str(x["celex_measured"]).startswith("5") else None)
     cites, has_text = {}, False
     if pc and str(pc).startswith("5"):
         try:

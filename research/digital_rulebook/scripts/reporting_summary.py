@@ -12,7 +12,7 @@ def sheet(n):
 
 
 I, S = sheet("instruments"), sheet("secondary_acts")
-main = {r["celex_measured"]: r for r in I if r["celex_measured"] and r["status"] == "adopted" and r["adoption_date"] and r["restrictions_total"] is not None}
+main = {c: r for r in I if r["celex_measured"] and r["status"] == "adopted" and r["adoption_date"] and r["restrictions_total"] is not None for c in str(r["celex_measured"]).split(";")}   # ESAP: three CELEX
 sec = {r["celex"]: r for r in S if r["kind"] in ("implementing", "delegated") and r["date"] and r["restrictions_total"] is not None}
 by_id = {r["row_id"]: r for r in I}
 rows = [json.loads(l) for l in open("data/reporting/reporting_instances.jsonl")]

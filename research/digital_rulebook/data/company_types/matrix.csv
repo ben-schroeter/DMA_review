@@ -1,4 +1,5 @@
 row_id,law,policy_area,Baseline: all companies,Gatekeepers and very large platforms,Online platforms and digital services,"Cloud, data and AI",Telecoms,"Finance, payments and crypto",Makers of connected products
+123,ADR Directive,E-commerce & Consumer Protection,all,,,,,,
 19,Administrative cooperation in taxation (DAC),Finance,,where named,where named,,,where named,
 68,Anti-Money Laundering Regulation,Finance,,,,,,all,
 64,Artificial Intelligence Act,Trust & Safety,,where named,where named,all,,,where named
@@ -6,13 +7,11 @@ row_id,law,policy_area,Baseline: all companies,Gatekeepers and very large platfo
 14,Common VAT system Directive,Finance,all,,,,,,
 5,Community Design Regulation,IPR,all,,,,,,
 29,Company Law Directive,Competition & Single Market,all,,,,,,
-96,Compulsory licensing of patents Regulation,IPR,all,,,,,,
+128,Consumer Credit Directive II,Finance,,,,,,all,
 31,Consumer Protection Cooperation Regulation,E-commerce & Consumer Protection,all,,,,,,
 18,Consumer Rights Directive,E-commerce & Consumer Protection,all,,,,,,
 33,Copyright in the Digital Single Market Directive,Media,,where named,where named,,,,
-92,Critical Raw Materials Act,Industrial Policy,,,,,,,all
 83,Cyber Resilience Act,Cybersecurity,,,,,,,all
-95,Cyber Solidarity Act,Cybersecurity,,,,all,,,
 37,Cybersecurity Act,Cybersecurity,,,,all,,,all
 55,DLT Pilot Regime Regulation,Research & Innovation,,,,,,all,
 76,Data Act,Data & Privacy,,,,articles 23-36,,,articles 3-12
@@ -26,13 +25,16 @@ row_id,law,policy_area,Baseline: all companies,Gatekeepers and very large platfo
 8,E-commerce Directive,E-commerce & Consumer Protection,all,,,,,,
 42,E-evidence Regulation,Law Enforcement,,all,all,all,all,,
 111,E-invoicing Directive,E-commerce & Consumer Protection,all,,,,,,
+125,E-money Directive,Finance,,,,,,all,
 11,EC Merger Regulation,Competition & Single Market,all,,,,,,
 80,Ecodesign for Sustainable Products Regulation,Trust & Safety,,where named,where named,,,,all
 109,Electromagnetic Compatibility Directive,Connectivity,,,,,,,all
+119,European Accessibility Act,E-commerce & Consumer Protection,,,where named,,where named,where named,where named
 74,European Chips Act,Industrial Policy,,,,,,,all
 32,European Electronic Communications Code,Connectivity,,where named,where named,,all,,
 81,European Health Data Space,Data & Privacy,,,,,,,all
 84,European Media Freedom Act,Media,,where named,,,,,
+129,European Single Access Point (ESAP),Finance,all,,,,,,
 66,Foreign Subsidies Regulation,Competition & Single Market,all,,,,,,
 38,Free Flow of Non-Personal Data Regulation,Data & Privacy,,,,all,,,
 20,General Data Protection Regulation,Data & Privacy,all,,,,,,
@@ -55,17 +57,20 @@ row_id,law,policy_area,Baseline: all companies,Gatekeepers and very large platfo
 86,Product Liability Directive,Trust & Safety,,,,,,,all
 110,Radio Equipment Directive,Trust & Safety,,,,,,,all
 10,Radio Spectrum Decision,Connectivity,,,,,all,,
+124,Representative Actions Directive,E-commerce & Consumer Protection,all,,,,,,
 94,Right to Repair Directive,E-commerce & Consumer Protection,,,,,,,all
 63,Roaming Regulation,Connectivity,,,,,all,,
+126,SEPA Regulation,Finance,,,,,,all,
 28,Sale of Goods Directive,E-commerce & Consumer Protection,all,,,,,,
 115,Short-Term Rental Data Regulation,Data & Privacy,,all,all,,,,
-85,Single Market Emergency Instrument (IMERA),Competition & Single Market,all,,,,,,
+120,Software Directive,IPR,all,,,,,,
 25,Technology Transfer Block Exemption,Competition & Single Market,all,,,,,,
 53,Temporary CSAM Derogation Regulation,Law Enforcement,,all,,,,,
 51,Terrorist Content Online Regulation,Law Enforcement,,all,all,all,,,
 17,Toys Safety Directive,Trust & Safety,,,,,,,all
 103,Toys Safety Regulation,Trust & Safety,,,,,,,all
 26,Trade Secrets Directive,IPR,all,,,,,,
+127,Transfer of Funds Regulation,Finance,,,,where named,,all,
 13,Unfair Commercial Practices Directive,E-commerce & Consumer Protection,all,,,,,,
 2,Unfair Contract Terms Directive,E-commerce & Consumer Protection,all,,,,,,
 90,VAT in the Digital Age (ViDA),Finance,all,,,,,,

@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "deadline in the act",
@@ -23,7 +24,8 @@
    "target_or_baseline": "1 February 2014 (euro area); 31 October 2016 (other Member States)",
    "evidence": "2017 report: migration achieved; correctly applied; IBAN discrimination still monitored.",
    "status": "measured",
-   "sources": "COM(2017) 683"
+   "sources": "COM(2017) 683",
+   "status_group": "measured"
   }
  ],
  "literature": [
@@ -48,7 +50,9 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20261106041736/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52017DC0683"
+   "archive_url": "http://web.archive.org/web/20261106041736/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52017DC0683",
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2010-sepa-ia",
@@ -71,7 +75,10 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20251002150007/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52010SC1584"
+   "archive_url": "http://web.archive.org/web/20251002150007/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52010SC1584",
+   "category": "ex-ante assessment",
+   "source_class": "official"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

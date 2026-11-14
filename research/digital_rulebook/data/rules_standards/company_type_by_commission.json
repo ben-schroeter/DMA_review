@@ -14,20 +14,20 @@
     "rules": 0.763
    },
    "Barroso I": {
-    "n": 38,
-    "rules": 0.974
+    "n": 40,
+    "rules": 0.975
    },
    "Barroso II": {
-    "n": 145,
-    "rules": 0.648
+    "n": 172,
+    "rules": 0.663
    },
    "Juncker": {
-    "n": 227,
-    "rules": 0.89
+    "n": 249,
+    "rules": 0.867
    },
    "von der Leyen I": {
-    "n": 99,
-    "rules": 0.828
+    "n": 93,
+    "rules": 0.903
    }
   },
   "secondary": {
@@ -48,7 +48,7 @@
     "rules": 0.804
    },
    "von der Leyen II": {
-    "n": 64,
+    "n": 73,
     "rules": 1.0
    }
   },
@@ -66,23 +66,23 @@
     "rules": 0.763
    },
    "Barroso I": {
-    "n": 39,
-    "rules": 0.974
+    "n": 41,
+    "rules": 0.976
    },
    "Barroso II": {
-    "n": 241,
-    "rules": 0.776
+    "n": 268,
+    "rules": 0.772
    },
    "Juncker": {
-    "n": 271,
-    "rules": 0.845
+    "n": 293,
+    "rules": 0.829
    },
    "von der Leyen I": {
-    "n": 738,
-    "rules": 0.808
+    "n": 732,
+    "rules": 0.817
    },
    "von der Leyen II": {
-    "n": 64,
+    "n": 73,
     "rules": 1.0
    }
   }
@@ -130,8 +130,8 @@
  "PL": {
   "main": {
    "Juncker": {
-    "n": 153,
-    "rules": 0.765
+    "n": 171,
+    "rules": 0.76
    },
    "von der Leyen I": {
     "n": 385,
@@ -154,8 +154,8 @@
   },
   "both": {
    "Juncker": {
-    "n": 154,
-    "rules": 0.766
+    "n": 172,
+    "rules": 0.762
    },
    "von der Leyen I": {
     "n": 805,
@@ -174,8 +174,8 @@
     "rules": 0.683
    },
    "von der Leyen I": {
-    "n": 574,
-    "rules": 0.683
+    "n": 586,
+    "rules": 0.691
    }
   },
   "secondary": {
@@ -194,8 +194,8 @@
     "rules": 0.683
    },
    "von der Leyen I": {
-    "n": 1098,
-    "rules": 0.698
+    "n": 1110,
+    "rules": 0.702
    },
    "von der Leyen II": {
     "n": 45,
@@ -210,8 +210,8 @@
     "rules": 0.515
    },
    "Juncker": {
-    "n": 196,
-    "rules": 0.704
+    "n": 201,
+    "rules": 0.701
    },
    "von der Leyen I": {
     "n": 187,
@@ -242,8 +242,8 @@
     "rules": 0.705
    },
    "Juncker": {
-    "n": 287,
-    "rules": 0.77
+    "n": 292,
+    "rules": 0.767
    },
    "von der Leyen I": {
     "n": 746,
@@ -257,13 +257,17 @@
  },
  "FI": {
   "main": {
+   "Barroso I": {
+    "n": 33,
+    "rules": 0.939
+   },
    "Barroso II": {
-    "n": 216,
-    "rules": 0.87
+    "n": 256,
+    "rules": 0.883
    },
    "von der Leyen I": {
-    "n": 1094,
-    "rules": 0.659
+    "n": 1298,
+    "rules": 0.669
    }
   },
   "secondary": {
@@ -276,26 +280,30 @@
     "rules": 0.846
    },
    "von der Leyen II": {
-    "n": 408,
-    "rules": 0.794
+    "n": 441,
+    "rules": 0.81
    }
   },
   "both": {
+   "Barroso I": {
+    "n": 33,
+    "rules": 0.939
+   },
    "Barroso II": {
-    "n": 216,
-    "rules": 0.87
+    "n": 256,
+    "rules": 0.883
    },
    "Juncker": {
     "n": 191,
     "rules": 0.838
    },
    "von der Leyen I": {
-    "n": 2247,
-    "rules": 0.755
+    "n": 2451,
+    "rules": 0.752
    },
    "von der Leyen II": {
-    "n": 408,
-    "rules": 0.794
+    "n": 441,
+    "rules": 0.81
    }
   }
  },
@@ -310,12 +318,12 @@
     "rules": 0.749
    },
    "Juncker": {
-    "n": 68,
-    "rules": 0.559
+    "n": 197,
+    "rules": 0.665
    },
    "von der Leyen I": {
-    "n": 2282,
-    "rules": 0.661
+    "n": 2238,
+    "rules": 0.658
    }
   },
   "secondary": {
@@ -328,8 +336,8 @@
     "rules": 0.689
    },
    "von der Leyen II": {
-    "n": 94,
-    "rules": 0.894
+    "n": 93,
+    "rules": 0.892
    }
   },
   "both": {
@@ -342,16 +350,16 @@
     "rules": 0.749
    },
    "Juncker": {
-    "n": 73,
-    "rules": 0.589
+    "n": 202,
+    "rules": 0.673
    },
    "von der Leyen I": {
-    "n": 2765,
-    "rules": 0.666
+    "n": 2721,
+    "rules": 0.664
    },
    "von der Leyen II": {
-    "n": 94,
-    "rules": 0.894
+    "n": 93,
+    "rules": 0.892
    }
   }
  }

@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "activity (operation report)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "2016-2020: 3,553 notifications; 212 detailed opinions and 816 comments by the Commission; access to notifications rose from about 1.2 million (2015) to 7.4 million (2020).",
    "status": "reported as activity",
-   "sources": "COM(2022) 481; SWD(2022) 297"
+   "sources": "COM(2022) 481; SWD(2022) 297",
+   "status_group": "reported as activity"
   }
  ],
  "literature": [
@@ -48,7 +50,10 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20241113102946/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52022DC0481"
+   "archive_url": "http://web.archive.org/web/20241113102946/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52022DC0481",
+   "category": "evidence",
+   "source_class": "official"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

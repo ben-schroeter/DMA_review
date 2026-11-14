@@ -26,7 +26,11 @@ pend = json.load(open("site/forthcoming_list.json"))
 ids = json.load(open("data/initiative_ids.json")) if os.path.exists("data/initiative_ids.json") else {}
 rows = {ws.cell(r, 1).value: r for r in range(2, ws.max_row + 1) if ws.cell(r, 1).value is not None}
 total_row = next((r for r in range(2, ws.max_row + 1) if ws.cell(r, 1).value is None and ws.cell(r, 2).value), None)
-nxt = max([k for k in rows if isinstance(k, int)] + list(ids.values()) + [0]) + 1
+import csv as _csv
+LAW_IDS = {int(r["row_id"]) for r in _csv.DictReader(open("data/instrument_map.csv"))}
+clash = {k: v for k, v in ids.items() if v in LAW_IDS}
+assert not clash, f"initiative ids clash with law rows in data/instrument_map.csv: {clash}"
+nxt = max([k for k in rows if isinstance(k, int)] + list(ids.values()) + list(LAW_IDS) + [0]) + 1
 for p in pend:
     lid = p.get("law_id") or ids.get(p["id"])
     if not lid:

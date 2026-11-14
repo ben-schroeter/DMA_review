@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "evaluation question",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "2024 evaluation: rules 'largely meet their objectives', providing legal certainty and lower compliance costs, but market-share thresholds hard to apply (especially early-stage licensing) and data licensing/licensing negotiation groups not covered. Based on consultation, not measured outcomes.",
    "status": "reported as activity",
-   "sources": "SWD(2024) 268"
+   "sources": "SWD(2024) 268",
+   "status_group": "reported as activity"
   },
   {
    "type": "expected impact (impact assessment, successor TTBER)",
@@ -32,7 +34,8 @@
    "target_or_baseline": "-15 to -40% (forecast)",
    "evidence": "Forecast only; the new Regulation applies from 1 May 2026.",
    "status": "not measured",
-   "sources": "SWD(2026) 114/116"
+   "sources": "SWD(2026) 114/116",
+   "status_group": "not measured"
   },
   {
    "type": "expected impact (impact assessment, successor TTBER)",
@@ -41,7 +44,8 @@
    "target_or_baseline": "up to -33% (forecast)",
    "evidence": "Forecast only.",
    "status": "not measured",
-   "sources": "SWD(2026) 114/116"
+   "sources": "SWD(2026) 114/116",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -66,7 +70,9 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260711114357/https://competition-policy.ec.europa.eu/public-consultations/2023-technology-transfer_en"
+   "archive_url": "http://web.archive.org/web/20260711114357/https://competition-policy.ec.europa.eu/public-consultations/2023-technology-transfer_en",
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2026-ttber-ia",
@@ -89,7 +95,10 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "ex-ante assessment",
+   "source_class": "official"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

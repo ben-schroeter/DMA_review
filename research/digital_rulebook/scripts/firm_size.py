@@ -52,7 +52,8 @@ RULES = [
     (81, lambda r: r["kind"] == "main" and art(r) is not None and 50 <= art(r) <= 81 and "health data holder" in text(r), SMALL, "EHDS Art. 50: health data holder duties do not apply to microenterprises"),
     (11, lambda r: True, LARGE, "EC Merger Regulation Art. 1: concentrations above EUR 5 billion worldwide and EUR 250 million EU turnover (or the lower alternative thresholds)"),
     (66, lambda r: True, LARGE, "Foreign Subsidies Regulation Arts. 20-29: notification of deals involving EUR 500 million EU turnover; procurement above EUR 250 million"),
-    (92, lambda r: "large compan" in text(r), LARGE, "CRMA Art. 24: risk preparedness duties for large companies (over 500 staff and EUR 150 million)"),
+    (119, lambda r: r["kind"] == "main" and (art(r) == 13 or "service provider" in text(r)), SMALL, "European Accessibility Act Art. 4(5): microenterprises providing services are exempt from the accessibility requirements and related obligations"),
+    (119, lambda r: r["kind"] == "main" and art(r) == 14 and "assessment" in text(r), SMALL, "European Accessibility Act Art. 14(4): microenterprises dealing with products need not document their assessment of a disproportionate burden"),
 ]
 TYPE_OVERRIDE = {("TC", 61): MICRO}   # NIS2 Art. 2(2)(a): public electronic communications providers regardless of size
 LIGHTER = ["GDPR Art. 30(5): record-keeping exemption under 250 staff, but not where processing is risky, not occasional or involves special data (in practice rarely usable)",
@@ -60,7 +61,7 @@ LIGHTER = ["GDPR Art. 30(5): record-keeping exemption under 250 staff, but not w
            "Cyber Resilience Act Art. 33(5): simplified technical documentation for micro and small; Art. 64(10): no fines on micro and small for missing the 24-hour early warning",
            "Copyright DSM Art. 17(6): lighter liability conditions for content-sharing services under three years old and under EUR 10 million turnover",
            "Platform Work Directive Art. 17: SMEs may update information yearly", "Short-Term Rental Data Regulation Art. 9: small platforms with few listings report quarterly",
-           "DORA Arts. 6(5), 12(4), 25(3), 30: lighter versions for microenterprises", "Chips Act, IMERA, compulsory licensing: lower fines for SMEs"]
+           "DORA Arts. 6(5), 12(4), 25(3), 30: lighter versions for microenterprises", "Chips Act: lower fines for SMEs"]
 OPTIONAL = ["EECC Art. 17: Member States may exempt undertakings under EUR 50 million from accounting separation",
             "EECC Art. 98: Title III end-user rules do not apply to micro providers of number-independent communications (not modelled: type-specific)",
             "VAT Directive Arts. 282-292: optional small-enterprise scheme for very small turnover", "AML Regulation Art. 5: Member States may exempt small football clubs"]

@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "evaluation question",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "2016: main gaps in offender programmes (Arts 22-24), substantive criminal law (Arts 3-5) and victim support (Arts 18-20); removal of online material (Art. 25) still incomplete.",
    "status": "reported as activity",
-   "sources": "COM(2016) 871; COM(2016) 872"
+   "sources": "COM(2016) 871; COM(2016) 872",
+   "status_group": "reported as activity"
   }
  ],
  "literature": [
@@ -48,7 +50,9 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20260918200122/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52016DC0871"
+   "archive_url": "http://web.archive.org/web/20260918200122/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52016DC0871",
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2016-csa-art25",
@@ -71,7 +75,9 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20260818194642/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52016DC0872"
+   "archive_url": "http://web.archive.org/web/20260818194642/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52016DC0872",
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2024-csa-recast-ia",
@@ -94,7 +100,10 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20260822170450/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52024SC0033"
+   "archive_url": "http://web.archive.org/web/20260822170450/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52024SC0033",
+   "category": "evidence",
+   "source_class": "official"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

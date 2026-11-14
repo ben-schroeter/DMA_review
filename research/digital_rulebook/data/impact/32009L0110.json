@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "evaluation question",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Interest in e-money licences and cross-border passporting increased since 2011; number of institutions unevenly distributed across Member States.",
    "status": "partially measured",
-   "sources": "COM(2018) 41"
+   "sources": "COM(2018) 41",
+   "status_group": "partially measured"
   }
  ],
  "literature": [
@@ -48,7 +50,10 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20230322074626/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52018DC0041"
+   "archive_url": "http://web.archive.org/web/20230322074626/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52018DC0041",
+   "category": "evidence",
+   "source_class": "official"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

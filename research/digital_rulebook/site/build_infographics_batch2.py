@@ -3,6 +3,7 @@ ict_use (Why page, Gordon & Sayed), compliance_2023 and compliance_trend (Why pa
 design_grid (Rules vs Standards page), company_types (By type of company), firm_size (By type of company),
 reporting_growth (In Numbers). Data come from the same code and files as the page charts, so the figures match.
 Writes site/infographics/<name>.svg. Run from research/digital_rulebook."""
+import sys as _s; _s.path.insert(0, "site"); from counts import N_LAWS, N_SEC, N_IMPL, N_DEL   # no typed counts
 import contextlib, io, json, math, os
 
 INK, INK2, MUTED, LINE, BASE = "#282424", "#3F3B3B", "#666666", "#E8E6E3", "#C9C6C3"
@@ -181,7 +182,7 @@ for code, (cx, cy) in {"MM": (0, 0), "ME": (1, 0), "XM": (0, 1), "XE": (1, 1)}.i
     b.append(t(x + 32, y + 240, sub, 21, ink))
 frame("design_grid", [f"{G['MM']:.0%} of EU obligations on companies", "say exactly what to do"],
       ["Obligations on companies in the main EU digital laws, by regulatory design"],
-      [f"{G['n']:,} obligations on companies in the 105 adopted main laws, each coded by what it fixes (the means or the end) and how precisely",
+      [f"{G['n']:,} obligations on companies in the {N_LAWS} adopted main laws, each coded by what it fixes (the means or the end) and how precisely",
        "(specific or general), following C. Coglianese’s regulatory design framework. Obligations that set no duty, leave matters to member states",
        "or are specified later are not shown. Coding by AI readers, checked against a hand-coded sample (89% agreement)."],
       b, f"{G['MM']:.0%} of EU obligations on companies say exactly what to do: prescriptive rules {G['MM']:.0%}, performance rules {G['ME']:.0%}, "
@@ -232,7 +233,7 @@ pre_all, tot_all = sum(mult[k][0] for k in spec), sum(mult[k][1] for k in spec)
 frame("company_types", ["EU rules aimed at specific types of", "companies have multiplied since 2018"],
       ["Obligations specific to each type of company: in force at the start of 2018", "and added since, by policy area of the law"],
       ["Obligations in the main laws and their implementing and delegated acts that apply only to that type of company; the baseline applies to every",
-       "company. Right column: growth since the start of 2018. Types can overlap (a gatekeeper is also an online platform). As of October 2026."],
+       "company. Right column: growth since the start of 2018. Types can overlap (a gatekeeper is also an online platform). As of November 2026."],
       b, "EU rules aimed at specific types of companies have multiplied since 2018: " + "; ".join(f"{NAMES[k]} from {mult[k][0]:,} to {mult[k][1]:,}" for k in order),
       "The EU Digital Rulebook (2026)")
 

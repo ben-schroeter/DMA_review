@@ -27,6 +27,7 @@ CT = {}; exec(compile(ct_src.split("wb = openpyxl")[0], "ct", "exec"), CT)
 fs_src = open("scripts/firm_size.py").read()
 FSR = re.findall(r"\((\d+), lambda r: .*?, (?:MICRO|SMALL|MEDIUM|SMC|LARGE|DESIG), \"([^\"]+)\"\)", fs_src)
 SIZE = {
+ 119: "Microenterprises providing services are exempt from the accessibility requirements and the obligations that go with them (Article 4(5)); microenterprises dealing with products need not document their assessment of a disproportionate burden (Article 14(4)).",
  20: "Organisations with fewer than 250 employees need not keep records of processing activities, unless the processing is risky, not occasional or involves sensitive or criminal-record data (Article 30(5)).",
  32: "Microenterprises offering only number-independent communications services (such as messaging apps) are exempt from most end-user rights rules in Title III, except Articles 99 and 100 (Article 98).",
  71: "Micro, small and medium-sized publishers are exempt from periodic reporting on political advertising revenue (Article 14(2)) and get longer deadlines and best-efforts duties when answering authorities and handling notifications (Articles 15 and 16).",
@@ -89,7 +90,7 @@ def strip(r):
     g.append(f'<line x1="{X(v):.1f}" x2="{X(v):.1f}" y1="18" y2="66" stroke="#B8860B" stroke-width="1.5"></line>'
              f'<circle cx="{X(v):.1f}" cy="66" r="7" fill="{"#FAF9F5" if pend else "#B8860B"}" stroke="#B8860B" stroke-width="2"></circle>'
              f'<text x="{min(max(X(v), 140), 860):.1f}" y="13" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="13" font-weight="600" fill="#282424">{esc(r["name"])}: {v:,}{" (proposal)" if pend else ""}</text>')
-    return f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Obligations in this act compared with all 105 adopted acts">' + "".join(g) + "</svg>"
+    return f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Obligations in this act compared with all {len(adopted)} adopted acts">' + "".join(g) + "</svg>"
 
 def timeline(r):
     pts = [("Proposal", r["proposal_date"]), ("Adopted", r["adoption_date"]), ("Published", r["oj_publication_date"]), ("In force", r["entry_into_force"])]
@@ -161,7 +162,7 @@ def page(r):
     kpi.append((f'{len(causal)}', f'causal studies among {len(ev)} sources'))
     kpis = "".join(f'<div style="display: flex; flex-direction: column; gap: 8px"><span class="num">{a}</span><span class="cap">{esc(b)}</span></div>' for a, b in kpi)
     rank = sum(1 for a in adopted if a["restrictions_total"] < n)
-    cmp_text = (f"With {n:,} obligations, the {esc(name)} has more than {rank} of the 105 adopted EU digital acts. The median act has {med:.0f}."
+    cmp_text = (f"With {n:,} obligations, the {esc(name)} has more than {rank} of the {len(adopted)} adopted EU digital acts. The median act has {med:.0f}."
                 if not pend else f"The proposal contains {n:,} obligations; the median adopted act has {med:.0f}.")
     # rules
     ap, ams, aei, aun, ano = (r[k] or 0 for k in ("addr_private_parties", "addr_member_states", "addr_eu_institutions", "addr_unclear", "addr_no_actor"))

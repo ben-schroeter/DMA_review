@@ -70,9 +70,10 @@ def sheet(n):
 
 
 I, S = sheet("instruments"), sheet("secondary_acts")
-main = {r["celex_measured"]: r for r in I if r["celex_measured"] and r["status"] == "adopted" and r["adoption_date"] and r["restrictions_total"] is not None}
+main = {c: r for r in I if r["celex_measured"] and r["status"] == "adopted" and r["adoption_date"] and r["restrictions_total"] is not None for c in str(r["celex_measured"]).split(";")}   # ESAP: three CELEX
 sec = {r["celex"]: r for r in S if r["kind"] in ("implementing", "delegated") and r["date"] and r["restrictions_total"] is not None}
 by_id = {r["row_id"]: r for r in I}
+M = {k: v for k, v in M.items() if k in by_id}   # rows dropped from scope (data/archive/) are skipped
 rows = [r for r in map(json.loads, open("data/reporting/reporting_instances.jsonl"))
         if r["addressee"] == "private_parties" and ((r["kind"] == "main" and r["doc"] in main) or (r["kind"] == "secondary" and r["doc"] in sec))]
 for r in rows:

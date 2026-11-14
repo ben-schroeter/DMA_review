@@ -6,8 +6,8 @@ Writes site/firm_relief.svg and data/firm_size/relief.json. Run from research/di
 import json, re
 
 exec(open("scripts/firm_size.py").read().split("def staircase")[0])     # rows, M, min_band, RULES, bands, art(), text()
-rid = lambda s: next(k for k, v in by_id.items() if v["name"] and s in v["name"])
-THRESH = {rid("EC Merger Regulation"), rid("Foreign Subsidies Regulation"), rid("Critical Raw Materials")}
+rid = lambda s: next((k for k, v in by_id.items() if v["name"] and s in v["name"]), None)   # None for laws dropped from scope
+THRESH = {rid("EC Merger Regulation"), rid("Foreign Subsidies Regulation")}
 LIGHT = [(rid("General Data Protection"), lambda r: r["kind"] == "main" and art(r) == 30),
          (rid("Artificial Intelligence"), lambda r: r["kind"] == "main" and art(r) == 17),
          (rid("Cyber Resilience"), lambda r: r["kind"] == "main" and (art(r) == 31 or (r.get("article") or "").lower().startswith("annex vii"))),
@@ -15,7 +15,7 @@ LIGHT = [(rid("General Data Protection"), lambda r: r["kind"] == "main" and art(
          (rid("Platform Work"), lambda r: r["kind"] == "main" and art(r) == 17),
          (rid("Short-Term Rental"), lambda r: r["kind"] == "main" and art(r) == 9),
          (rid("Operational Resilience"), lambda r: "microenterprise" in text(r) and "other than microenterprise" not in text(r))]
-FINES = {rid(s) for s in ("Artificial Intelligence", "Cyber Resilience", "European Chips", "Single Market Emergency", "Compulsory licensing")}
+FINES = {rid(s) for s in ("Artificial Intelligence", "Cyber Resilience", "European Chips")}
 
 cnt = {"removed": 0, "threshold": 0, "lightened": 0, "fines": 0, "unchanged": 0}
 for r in rows:

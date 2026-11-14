@@ -1,7 +1,8 @@
-"""Draft: timeline of EU digital policy, 1987-2028, with the 105 adopted laws.
+"""Draft: timeline of EU digital policy, 1987-2028, with the adopted laws.
 Layers: economic strategies and digital agendas (spans), Commission presidents and lead digital commissioners, events;
 instruments by policy area as a line from proposal to adoption (dot at adoption sized by obligations; open line =
 pending); cumulative obligations at the bottom. Era shading by proposal date. Writes site/policy_timeline.svg."""
+import sys as _s; _s.path.insert(0, "site"); from counts import N_LAWS   # no typed counts
 import openpyxl, math, collections
 wb = openpyxl.load_workbook("digital_rulebook.xlsx", read_only=True, data_only=True); r = list(wb["instruments"].values); h = r[0]
 I = [dict(zip(h, x)) for x in r[1:] if x[0] and x[h.index("status")] == "adopted"]  # pending proposals enter once adopted
@@ -112,5 +113,5 @@ for v in (2000, 2010, 2020):
 ly = H - 6
 g.append(f'<line x1="{L}" x2="{L + 30}" y1="{ly - 4}" y2="{ly - 4}" stroke="{GOLD}" stroke-width="1.6" opacity="0.6"></line><circle cx="{L}" cy="{ly - 4}" r="1.8" fill="{GOLD_D}"></circle>'
          f'<circle cx="{L + 30}" cy="{ly - 4}" r="6" fill="{GOLD}"></circle>' + t(L + 42, ly, "Instrument: proposed → adopted (dot size = obligations)", 12))
-open("site/policy_timeline.svg", "w").write(f'<svg viewBox="0 0 {W} {H + 4}" width="100%" role="img" aria-label="Timeline of EU digital policy, 1987 to 2028, with the 105 adopted laws">' + "".join(g) + "</svg>")
+open("site/policy_timeline.svg", "w").write(f'<svg viewBox="0 0 {W} {H + 4}" width="100%" role="img" aria-label="Timeline of EU digital policy, 1987 to 2028, with the {N_LAWS} adopted laws">' + "".join(g) + "</svg>")
 print(H, cum)

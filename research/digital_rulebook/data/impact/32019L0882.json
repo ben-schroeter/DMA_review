@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "baseline about EUR 20 billion (2020); savings up to 45-50% (forecast)",
    "evidence": "Forecast only.",
    "status": "not measured",
-   "sources": "SWD(2015) 264"
+   "sources": "SWD(2015) 264",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -48,7 +50,10 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20261001043653/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52015SC0264"
+   "archive_url": "http://web.archive.org/web/20261001043653/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52015SC0264",
+   "category": "ex-ante assessment",
+   "source_class": "official"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

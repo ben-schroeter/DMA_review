@@ -10,7 +10,7 @@
   "area": "Connectivity",
   "obligations": 6,
   "era": "market_opening",
-  "proposal_text": true,
+  "proposal_text": false,
   "cites": {},
   "cites_own_era": false
  },
@@ -25,7 +25,7 @@
   "area": "E-commerce & Consumer Protection",
   "obligations": 26,
   "era": "market_opening",
-  "proposal_text": true,
+  "proposal_text": false,
   "cites": {},
   "cites_own_era": false
  },
@@ -40,7 +40,7 @@
   "area": "Media",
   "obligations": 35,
   "era": "market_opening",
-  "proposal_text": true,
+  "proposal_text": false,
   "cites": {},
   "cites_own_era": false
  },
@@ -227,23 +227,6 @@
   "cites_own_era": true
  },
  {
-  "row_id": 16,
-  "name": "European Statistics Regulation",
-  "celex": "32009R0223",
-  "proposal_celex": "52007PC0625",
-  "proposal_date": "2007-10-16",
-  "adoption_date": "2009-03-11",
-  "status": "adopted",
-  "area": "Data & Privacy",
-  "obligations": 85,
-  "era": "lisbon",
-  "proposal_text": true,
-  "cites": {
-   "lisbon": "Lisbon Agenda"
-  },
-  "cites_own_era": true
- },
- {
   "row_id": 17,
   "name": "Toys Safety Directive",
   "celex": "32009L0048",
@@ -374,14 +357,14 @@
  {
   "row_id": 25,
   "name": "Technology Transfer Block Exemption",
-  "celex": "32014R0316",
+  "celex": "32026R0877",
   "proposal_celex": null,
-  "proposal_date": "2013-02-20",
-  "adoption_date": "2014-03-21",
+  "proposal_date": "2025-09-11",
+  "adoption_date": "2026-04-16",
   "status": "adopted",
   "area": "Competition & Single Market",
   "obligations": 0,
-  "era": "europe2020",
+  "era": "competitiveness",
   "proposal_text": false,
   "cites": {},
   "cites_own_era": false
@@ -584,10 +567,8 @@
   "obligations": 380,
   "era": "dsm",
   "proposal_text": true,
-  "cites": {
-   "dsm": "Digital Single Market Strategy"
-  },
-  "cites_own_era": true
+  "cites": {},
+  "cites_own_era": false
  },
  {
   "row_id": 38,
@@ -703,101 +684,6 @@
   "cites_own_era": true
  },
  {
-  "row_id": 45,
-  "name": "Digital Europe Programme",
-  "celex": "32021R0694",
-  "proposal_celex": "52018PC0434",
-  "proposal_date": "2018-06-06",
-  "adoption_date": "2021-04-29",
-  "status": "adopted",
-  "area": "Research & Innovation",
-  "obligations": 131,
-  "era": "dsm",
-  "proposal_text": true,
-  "cites": {
-   "dsm": "Digital Single Market Strategy"
-  },
-  "cites_own_era": true
- },
- {
-  "row_id": 46,
-  "name": "InvestEU Programme",
-  "celex": "32021R0523",
-  "proposal_celex": "52020PC0403",
-  "proposal_date": "2018-06-06",
-  "adoption_date": "2021-03-24",
-  "status": "adopted",
-  "area": "Industrial Policy",
-  "obligations": 262,
-  "era": "dsm",
-  "proposal_text": true,
-  "cites": {
-   "europe2020": "Europe 2020",
-   "dsm": "Digital Single Market Strategy"
-  },
-  "cites_own_era": true
- },
- {
-  "row_id": 47,
-  "name": "Connecting Europe Facility",
-  "celex": "32021R1153",
-  "proposal_celex": "52018PC0438",
-  "proposal_date": "2018-06-06",
-  "adoption_date": "2021-07-07",
-  "status": "adopted",
-  "area": "Industrial Policy",
-  "obligations": 137,
-  "era": "dsm",
-  "proposal_text": true,
-  "cites": {},
-  "cites_own_era": false
- },
- {
-  "row_id": 48,
-  "name": "Horizon Europe",
-  "celex": "32021R0695",
-  "proposal_celex": "52018PC0435",
-  "proposal_date": "2018-06-07",
-  "adoption_date": "2021-04-28",
-  "status": "adopted",
-  "area": "Research & Innovation",
-  "obligations": 365,
-  "era": "dsm",
-  "proposal_text": true,
-  "cites": {},
-  "cites_own_era": false
- },
- {
-  "row_id": 49,
-  "name": "Single Market Programme",
-  "celex": "32021R0690",
-  "proposal_celex": "52018PC0441",
-  "proposal_date": "2018-06-07",
-  "adoption_date": "2021-04-28",
-  "status": "adopted",
-  "area": "Competition & Single Market",
-  "obligations": 73,
-  "era": "dsm",
-  "proposal_text": true,
-  "cites": {},
-  "cites_own_era": false
- },
- {
-  "row_id": 50,
-  "name": "European Cybersecurity Competence Centre",
-  "celex": "32021R0887",
-  "proposal_celex": "52018PC0630",
-  "proposal_date": "2018-09-12",
-  "adoption_date": "2021-05-20",
-  "status": "adopted",
-  "area": "Cybersecurity",
-  "obligations": 241,
-  "era": "dsm",
-  "proposal_text": true,
-  "cites": {},
-  "cites_own_era": false
- },
- {
   "row_id": 51,
   "name": "Terrorist Content Online Regulation",
   "celex": "32021R0784",
@@ -808,21 +694,6 @@
   "area": "Law Enforcement",
   "obligations": 118,
   "era": "dsm",
-  "proposal_text": true,
-  "cites": {},
-  "cites_own_era": false
- },
- {
-  "row_id": 52,
-  "name": "Recovery and Resilience Facility",
-  "celex": "32021R0241",
-  "proposal_celex": "52020PC0408",
-  "proposal_date": "2020-05-28",
-  "adoption_date": "2021-02-12",
-  "status": "adopted",
-  "area": "Industrial Policy",
-  "obligations": 187,
-  "era": "digital_decade",
   "proposal_text": true,
   "cites": {},
   "cites_own_era": false
@@ -841,23 +712,6 @@
   "proposal_text": true,
   "cites": {},
   "cites_own_era": false
- },
- {
-  "row_id": 54,
-  "name": "EuroHPC Joint Undertaking Regulation",
-  "celex": "32021R1173",
-  "proposal_celex": "52020PC0569",
-  "proposal_date": "2020-09-18",
-  "adoption_date": "2021-07-13",
-  "status": "adopted",
-  "area": "Industrial Policy",
-  "obligations": 340,
-  "era": "digital_decade",
-  "proposal_text": true,
-  "cites": {
-   "digital_decade": "European Strategy for Data"
-  },
-  "cites_own_era": true
  },
  {
   "row_id": 55,
@@ -940,7 +794,7 @@
   "era": "digital_decade",
   "proposal_text": true,
   "cites": {
-   "digital_decade": "Shaping Europe’s digital future"
+   "digital_decade": "Shaping Europe\u2019s digital future"
   },
   "cites_own_era": true
  },
@@ -957,7 +811,7 @@
   "era": "digital_decade",
   "proposal_text": true,
   "cites": {
-   "digital_decade": "Shaping Europe’s Digital Future"
+   "digital_decade": "Shaping Europe\u2019s Digital Future"
   },
   "cites_own_era": true
  },
@@ -971,23 +825,6 @@
   "status": "adopted",
   "area": "Cybersecurity",
   "obligations": 286,
-  "era": "digital_decade",
-  "proposal_text": true,
-  "cites": {
-   "digital_decade": "Europe fit for the digital age"
-  },
-  "cites_own_era": true
- },
- {
-  "row_id": 62,
-  "name": "Joint Undertakings under Horizon Europe",
-  "celex": "32021R2085",
-  "proposal_celex": "52021PC0087",
-  "proposal_date": "2021-02-23",
-  "adoption_date": "2021-11-19",
-  "status": "adopted",
-  "area": "Industrial Policy",
-  "obligations": 552,
   "era": "digital_decade",
   "proposal_text": true,
   "cites": {
@@ -1010,7 +847,7 @@
   "cites": {
    "lisbon": "i2010",
    "europe2020": "Digital Agenda for Europe",
-   "digital_decade": "Shaping Europe’s Digital Future"
+   "digital_decade": "Shaping Europe\u2019s Digital Future"
   },
   "cites_own_era": true
  },
@@ -1141,23 +978,6 @@
   "cites_own_era": false
  },
  {
-  "row_id": 72,
-  "name": "Digitalisation of judicial cooperation Regulation",
-  "celex": "32023R2844",
-  "proposal_celex": "52021PC0759",
-  "proposal_date": "2021-12-01",
-  "adoption_date": "2023-12-13",
-  "status": "adopted",
-  "area": "Law Enforcement",
-  "obligations": 74,
-  "era": "digital_decade",
-  "proposal_text": true,
-  "cites": {
-   "digital_decade": "Shaping Europe’s digital future"
-  },
-  "cites_own_era": true
- },
- {
   "row_id": 73,
   "name": "Platform Work Directive",
   "celex": "32024L2831",
@@ -1190,21 +1010,6 @@
   "cites_own_era": true
  },
  {
-  "row_id": 75,
-  "name": "Union Secure Connectivity Programme",
-  "celex": "32023R0588",
-  "proposal_celex": "52022PC0057",
-  "proposal_date": "2022-02-15",
-  "adoption_date": "2023-03-15",
-  "status": "adopted",
-  "area": "Connectivity",
-  "obligations": 173,
-  "era": "digital_decade",
-  "proposal_text": true,
-  "cites": {},
-  "cites_own_era": false
- },
- {
   "row_id": 76,
   "name": "Data Act",
   "celex": "32023R2854",
@@ -1231,38 +1036,6 @@
   "status": "adopted",
   "area": "Law Enforcement",
   "obligations": 206,
-  "era": "digital_decade",
-  "proposal_text": true,
-  "cites": {},
-  "cites_own_era": false
- },
- {
-  "row_id": 78,
-  "name": "Cybersecurity Regulation (EU institutions)",
-  "celex": "32023R2841",
-  "proposal_celex": "52022PC0122",
-  "proposal_date": "2022-03-22",
-  "adoption_date": "2023-12-13",
-  "status": "adopted",
-  "area": "Cybersecurity",
-  "obligations": 166,
-  "era": "digital_decade",
-  "proposal_text": true,
-  "cites": {
-   "digital_decade": "Europe fit for the digital age"
-  },
-  "cites_own_era": true
- },
- {
-  "row_id": 79,
-  "name": "Information Security Regulation",
-  "celex": "52022PC0119",
-  "proposal_celex": "52022PC0119",
-  "proposal_date": "2022-03-22",
-  "adoption_date": null,
-  "status": "proposed",
-  "area": "Cybersecurity",
-  "obligations": 398,
   "era": "digital_decade",
   "proposal_text": true,
   "cites": {},
@@ -1330,7 +1103,7 @@
   "era": "digital_decade",
   "proposal_text": true,
   "cites": {
-   "digital_decade": "Shaping Europe’s digital future"
+   "digital_decade": "Shaping Europe\u2019s digital future"
   },
   "cites_own_era": true
  },
@@ -1350,21 +1123,6 @@
    "digital_decade": "Digital Decade"
   },
   "cites_own_era": true
- },
- {
-  "row_id": 85,
-  "name": "Single Market Emergency Instrument (IMERA)",
-  "celex": "32024R2747",
-  "proposal_celex": "52022PC0459",
-  "proposal_date": "2022-09-19",
-  "adoption_date": "2024-10-09",
-  "status": "adopted",
-  "area": "Competition & Single Market",
-  "obligations": 200,
-  "era": "digital_decade",
-  "proposal_text": true,
-  "cites": {},
-  "cites_own_era": false
  },
  {
   "row_id": 86,
@@ -1397,23 +1155,6 @@
   "proposal_text": false,
   "cites": {},
   "cites_own_era": false
- },
- {
-  "row_id": 88,
-  "name": "Interoperable Europe Act",
-  "celex": "32024R0903",
-  "proposal_celex": "52022PC0720",
-  "proposal_date": "2022-11-18",
-  "adoption_date": "2024-03-13",
-  "status": "adopted",
-  "area": "Data & Privacy",
-  "obligations": 127,
-  "era": "digital_decade",
-  "proposal_text": true,
-  "cites": {
-   "digital_decade": "Shaping Europe’s Digital Future"
-  },
-  "cites_own_era": true
  },
  {
   "row_id": 89,
@@ -1460,41 +1201,9 @@
   "era": "digital_decade",
   "proposal_text": true,
   "cites": {
-   "digital_decade": "Shaping Europe’s Digital Future"
+   "digital_decade": "Shaping Europe\u2019s Digital Future"
   },
   "cites_own_era": true
- },
- {
-  "row_id": 92,
-  "name": "Critical Raw Materials Act",
-  "celex": "32024R1252",
-  "proposal_celex": "52023PC0160",
-  "proposal_date": "2023-03-16",
-  "adoption_date": "2024-04-11",
-  "status": "adopted",
-  "area": "Industrial Policy",
-  "obligations": 362,
-  "era": "digital_decade",
-  "proposal_text": true,
-  "cites": {
-   "digital_decade": "Digital Decade"
-  },
-  "cites_own_era": true
- },
- {
-  "row_id": 93,
-  "name": "Net-Zero Industry Act",
-  "celex": "32024R1735",
-  "proposal_celex": "52023PC0161",
-  "proposal_date": "2023-03-16",
-  "adoption_date": "2024-06-13",
-  "status": "adopted",
-  "area": "Industrial Policy",
-  "obligations": 286,
-  "era": "digital_decade",
-  "proposal_text": true,
-  "cites": {},
-  "cites_own_era": false
  },
  {
   "row_id": 94,
@@ -1510,53 +1219,6 @@
   "proposal_text": true,
   "cites": {},
   "cites_own_era": false
- },
- {
-  "row_id": 95,
-  "name": "Cyber Solidarity Act",
-  "celex": "32025R0038",
-  "proposal_celex": "52023PC0209",
-  "proposal_date": "2023-04-18",
-  "adoption_date": "2024-12-19",
-  "status": "adopted",
-  "area": "Cybersecurity",
-  "obligations": 162,
-  "era": "digital_decade",
-  "proposal_text": true,
-  "cites": {},
-  "cites_own_era": false
- },
- {
-  "row_id": 96,
-  "name": "Compulsory licensing of patents Regulation",
-  "celex": "32025R2645",
-  "proposal_celex": "52023PC0224",
-  "proposal_date": "2023-04-27",
-  "adoption_date": "2025-12-16",
-  "status": "adopted",
-  "area": "IPR",
-  "obligations": 110,
-  "era": "digital_decade",
-  "proposal_text": true,
-  "cites": {},
-  "cites_own_era": false
- },
- {
-  "row_id": 97,
-  "name": "Strategic Technologies for Europe Platform (STEP)",
-  "celex": "32024R0795",
-  "proposal_celex": "52023PC0335",
-  "proposal_date": "2023-06-20",
-  "adoption_date": "2024-02-29",
-  "status": "adopted",
-  "area": "Industrial Policy",
-  "obligations": 36,
-  "era": "digital_decade",
-  "proposal_text": true,
-  "cites": {
-   "digital_decade": "Digital Decade"
-  },
-  "cites_own_era": true
  },
  {
   "row_id": 98,
@@ -1681,23 +1343,6 @@
   "cites_own_era": false
  },
  {
-  "row_id": 106,
-  "name": "EU Digital Travel Application Regulation",
-  "celex": "52024PC0670",
-  "proposal_celex": "52024PC0670",
-  "proposal_date": "2024-10-08",
-  "adoption_date": null,
-  "status": "proposed",
-  "area": "Law Enforcement",
-  "obligations": 50,
-  "era": "digital_decade",
-  "proposal_text": true,
-  "cites": {
-   "digital_decade": "Digital Compass"
-  },
-  "cites_own_era": true
- },
- {
   "row_id": 107,
   "name": "EU Space Act",
   "celex": "52025PC0335",
@@ -1813,21 +1458,6 @@
   "cites_own_era": true
  },
  {
-  "row_id": 114,
-  "name": "Interoperability of EU information systems (borders and visa) Regulation",
-  "celex": "32019R0817",
-  "proposal_celex": "52017PC0793",
-  "proposal_date": "2017-12-12",
-  "adoption_date": "2019-05-20",
-  "status": "adopted",
-  "area": "Law Enforcement",
-  "obligations": 416,
-  "era": "dsm",
-  "proposal_text": true,
-  "cites": {},
-  "cites_own_era": false
- },
- {
   "row_id": 115,
   "name": "Short-Term Rental Data Regulation",
   "celex": "32024R1028",
@@ -1843,5 +1473,261 @@
    "digital_decade": "Digital Decade"
   },
   "cites_own_era": true
+ },
+ {
+  "row_id": 116,
+  "name": "Radio Spectrum Policy Programme",
+  "celex": "32012D0243",
+  "proposal_celex": "52010PC0471",
+  "proposal_date": "2010-09-20",
+  "adoption_date": "2012-03-14",
+  "status": "adopted",
+  "area": "Connectivity",
+  "obligations": 68,
+  "era": "europe2020",
+  "proposal_text": true,
+  "cites": {
+   "europe2020": "Digital Agenda for Europe"
+  },
+  "cites_own_era": true
+ },
+ {
+  "row_id": 117,
+  "name": "700 MHz Decision",
+  "celex": "32017D0899",
+  "proposal_celex": "52016PC0043",
+  "proposal_date": "2016-02-02",
+  "adoption_date": "2017-05-17",
+  "status": "adopted",
+  "area": "Connectivity",
+  "obligations": 19,
+  "era": "dsm",
+  "proposal_text": true,
+  "cites": {
+   "dsm": "Digital Single Market Strategy"
+  },
+  "cites_own_era": true
+ },
+ {
+  "row_id": 118,
+  "name": "TRIS Directive",
+  "celex": "32015L1535",
+  "proposal_celex": "52013PC0932",
+  "proposal_date": "2013-12-20",
+  "adoption_date": "2015-09-09",
+  "status": "adopted",
+  "area": "Competition & Single Market",
+  "obligations": 47,
+  "era": "europe2020",
+  "proposal_text": true,
+  "cites": {},
+  "cites_own_era": false
+ },
+ {
+  "row_id": 119,
+  "name": "European Accessibility Act",
+  "celex": "32019L0882",
+  "proposal_celex": "52015PC0615",
+  "proposal_date": "2015-12-02",
+  "adoption_date": "2019-04-17",
+  "status": "adopted",
+  "area": "E-commerce & Consumer Protection",
+  "obligations": 249,
+  "era": "dsm",
+  "proposal_text": true,
+  "cites": {
+   "dsm": "Digital Single Market Strategy"
+  },
+  "cites_own_era": true
+ },
+ {
+  "row_id": 120,
+  "name": "Software Directive",
+  "celex": "32009L0024",
+  "proposal_celex": "52008PC0023",
+  "proposal_date": "2008-01-28",
+  "adoption_date": "2009-04-23",
+  "status": "adopted",
+  "area": "IPR",
+  "obligations": 16,
+  "era": "lisbon",
+  "proposal_text": true,
+  "cites": {},
+  "cites_own_era": false
+ },
+ {
+  "row_id": 121,
+  "name": "Collective Rights Management Directive",
+  "celex": "32014L0026",
+  "proposal_celex": "52012PC0372",
+  "proposal_date": "2012-07-11",
+  "adoption_date": "2014-02-26",
+  "status": "adopted",
+  "area": "IPR",
+  "obligations": 169,
+  "era": "europe2020",
+  "proposal_text": true,
+  "cites": {
+   "europe2020": "Digital Agenda for Europe"
+  },
+  "cites_own_era": true
+ },
+ {
+  "row_id": 122,
+  "name": "Conditional Access Directive",
+  "celex": "31998L0084",
+  "proposal_celex": "51997PC0356",
+  "proposal_date": "1997-07-09",
+  "adoption_date": "1998-11-20",
+  "status": "adopted",
+  "area": "Media",
+  "obligations": 12,
+  "era": "market_opening",
+  "proposal_text": true,
+  "cites": {},
+  "cites_own_era": false
+ },
+ {
+  "row_id": 123,
+  "name": "ADR Directive",
+  "celex": "32013L0011",
+  "proposal_celex": "52011PC0793",
+  "proposal_date": "2011-11-29",
+  "adoption_date": "2013-05-21",
+  "status": "adopted",
+  "area": "E-commerce & Consumer Protection",
+  "obligations": 105,
+  "era": "europe2020",
+  "proposal_text": true,
+  "cites": {},
+  "cites_own_era": false
+ },
+ {
+  "row_id": 124,
+  "name": "Representative Actions Directive",
+  "celex": "32020L1828",
+  "proposal_celex": "52018PC0184",
+  "proposal_date": "2018-04-11",
+  "adoption_date": "2020-11-25",
+  "status": "adopted",
+  "area": "E-commerce & Consumer Protection",
+  "obligations": 93,
+  "era": "dsm",
+  "proposal_text": true,
+  "cites": {},
+  "cites_own_era": false
+ },
+ {
+  "row_id": 125,
+  "name": "E-money Directive",
+  "celex": "32009L0110",
+  "proposal_celex": "52008PC0627",
+  "proposal_date": "2008-10-09",
+  "adoption_date": "2009-09-16",
+  "status": "adopted",
+  "area": "Finance",
+  "obligations": 69,
+  "era": "lisbon",
+  "proposal_text": true,
+  "cites": {
+   "lisbon": "Lisbon agenda"
+  },
+  "cites_own_era": true
+ },
+ {
+  "row_id": 126,
+  "name": "SEPA Regulation",
+  "celex": "32012R0260",
+  "proposal_celex": "52010PC0775",
+  "proposal_date": "2010-12-16",
+  "adoption_date": "2012-03-14",
+  "status": "adopted",
+  "area": "Finance",
+  "obligations": 88,
+  "era": "europe2020",
+  "proposal_text": true,
+  "cites": {
+   "europe2020": "Europe 2020"
+  },
+  "cites_own_era": true
+ },
+ {
+  "row_id": 127,
+  "name": "Transfer of Funds Regulation",
+  "celex": "32023R1113",
+  "proposal_celex": "52021PC0422",
+  "proposal_date": "2021-07-20",
+  "adoption_date": "2023-05-31",
+  "status": "adopted",
+  "area": "Finance",
+  "obligations": 113,
+  "era": "digital_decade",
+  "proposal_text": true,
+  "cites": {},
+  "cites_own_era": false
+ },
+ {
+  "row_id": 128,
+  "name": "Consumer Credit Directive II",
+  "celex": "32023L2225",
+  "proposal_celex": "52021PC0347",
+  "proposal_date": "2021-06-30",
+  "adoption_date": "2023-10-18",
+  "status": "adopted",
+  "area": "Finance",
+  "obligations": 281,
+  "era": "digital_decade",
+  "proposal_text": true,
+  "cites": {},
+  "cites_own_era": false
+ },
+ {
+  "row_id": 129,
+  "name": "European Single Access Point (ESAP)",
+  "celex": "32023R2859;32023L2864;32023R2869",
+  "proposal_celex": "52021PC0723",
+  "proposal_date": "2021-11-25",
+  "adoption_date": "2023-12-13",
+  "status": "adopted",
+  "area": "Finance",
+  "obligations": 85,
+  "era": "digital_decade",
+  "proposal_text": true,
+  "cites": {
+   "digital_decade": "European strategy for data"
+  },
+  "cites_own_era": true
+ },
+ {
+  "row_id": 130,
+  "name": "Cybercrime Directive",
+  "celex": "32013L0040",
+  "proposal_celex": "52010PC0517",
+  "proposal_date": "2010-09-30",
+  "adoption_date": "2013-08-12",
+  "status": "adopted",
+  "area": "Law Enforcement",
+  "obligations": 37,
+  "era": "europe2020",
+  "proposal_text": true,
+  "cites": {
+   "europe2020": "Digital Agenda for Europe"
+  },
+  "cites_own_era": true
+ },
+ {
+  "row_id": 131,
+  "name": "Child Sexual Abuse Directive",
+  "celex": "32011L0093",
+  "proposal_celex": "52010PC0094",
+  "proposal_date": "2010-03-29",
+  "adoption_date": "2011-12-13",
+  "status": "adopted",
+  "area": "Law Enforcement",
+  "obligations": 90,
+  "era": "lisbon",
+  "proposal_text": true,
+  "cites": {},
+  "cites_own_era": false
  }
 ]

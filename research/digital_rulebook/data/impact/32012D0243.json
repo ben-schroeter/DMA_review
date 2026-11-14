@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "target in the act",
@@ -23,7 +24,8 @@
    "target_or_baseline": "at least 1200 MHz by 2015",
    "evidence": "2014 report: the target promoted spectrum sharing and the spectrum inventory; delays in assigning the 800 MHz band (deadline 1 January 2013) in several Member States.",
    "status": "partially measured",
-   "sources": "COM(2014) 228"
+   "sources": "COM(2014) 228",
+   "status_group": "partially measured"
   }
  ],
  "literature": [
@@ -48,7 +50,10 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20260113041719/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52014DC0228"
+   "archive_url": "http://web.archive.org/web/20260113041719/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52014DC0228",
+   "category": "evidence",
+   "source_class": "official"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

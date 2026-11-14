@@ -1,69 +1,69 @@
 {
- "instruments": 105,
- "sources": 571,
- "sources_without_category": 15,
+ "instruments": 100,
+ "sources": 525,
+ "sources_without_category": 14,
  "by_category": {
   "costs": {
    "name": "Compliance costs and burden",
-   "measured": 43,
-   "none": 30,
-   "forecast": 30,
+   "measured": 39,
+   "none": 31,
+   "forecast": 28,
    "causal": 2
   },
   "consumers": {
    "name": "Prices and consumers",
-   "none": 72,
-   "measured": 20,
-   "forecast": 4,
-   "causal": 9
+   "none": 62,
+   "measured": 23,
+   "forecast": 5,
+   "causal": 10
   },
   "competition": {
    "name": "Competition and market structure",
    "causal": 8,
-   "none": 74,
-   "measured": 18,
-   "forecast": 5
+   "none": 72,
+   "measured": 16,
+   "forecast": 4
   },
   "innovation": {
    "name": "Innovation and investment",
-   "measured": 32,
-   "none": 58,
-   "forecast": 6,
-   "causal": 9
+   "measured": 25,
+   "none": 65,
+   "forecast": 4,
+   "causal": 6
   },
   "growth": {
    "name": "Growth and jobs",
-   "none": 66,
-   "measured": 15,
-   "causal": 15,
-   "forecast": 9
+   "none": 68,
+   "measured": 13,
+   "causal": 12,
+   "forecast": 7
   },
   "market": {
    "name": "Single market, trade and FDI",
-   "none": 64,
-   "measured": 29,
+   "none": 57,
+   "measured": 30,
    "causal": 5,
-   "forecast": 7
+   "forecast": 8
   },
   "rights": {
    "name": "Rights, safety and security",
-   "none": 69,
-   "measured": 25,
+   "none": 68,
+   "measured": 23,
    "causal": 3,
-   "forecast": 8
+   "forecast": 6
   },
   "implementation": {
    "name": "Implementation and enforcement",
-   "none": 22,
-   "measured": 76,
-   "causal": 3,
-   "forecast": 4
+   "none": 25,
+   "measured": 65,
+   "causal": 5,
+   "forecast": 5
   }
  },
- "pairs": 840,
- "pairs_evidence": 312,
- "pairs_causal": 54,
- "core_pairs": 525,
- "core_evidence": 171,
- "core_causal": 43
+ "pairs": 800,
+ "pairs_evidence": 285,
+ "pairs_causal": 51,
+ "core_pairs": 500,
+ "core_evidence": 154,
+ "core_causal": 38
 }

@@ -42,9 +42,9 @@ def prefill(celex, force=False):
     man = {}
     for b in sparql(Q.format(celex=celex)):
         man.setdefault(b["type"]["value"], []).append(b["m"]["value"])
-    xh = sorted(man.get("xhtml", []))
+    xh = sorted(man.get("xhtml", [])) or sorted(man.get("html", []))   # older documents: plain HTML only
     if not xh:
-        return f"no xhtml manifestation ({sorted(man)})"
+        return f"no xhtml or html manifestation ({sorted(man)})"
     _store(html_url, _item(xh[-1]))
     pdfs = sorted(man.get("pdfa2a", []) + man.get("pdfa1a", []) + man.get("pdf", []))
     if pdfs:

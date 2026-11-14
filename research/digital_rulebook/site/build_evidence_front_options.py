@@ -1,6 +1,7 @@
 """Front-page options aggregating the evidence map (data/evidence_map/cells.json). Writes site/evidence_front_options.json
 ({A, B, C, D: svg}). A: per kind of effect, laws by strongest evidence (100% bars). B: waffle of all law-effect pairs.
 C: funnel of laws. D: obligations by whether their law has a causal study of its economic effects. Run from research/digital_rulebook."""
+import sys as _s; _s.path.insert(0, "site"); from counts import N_LAWS, N_SEC, N_IMPL, N_DEL   # no typed counts
 import json
 
 d = json.load(open("data/evidence_map/cells.json")); V = list(d["instruments"].values())
@@ -56,7 +57,7 @@ for i, gr in enumerate(pairs):
     g.append(f'<rect x="{x}" y="{y}" width="{S}" height="{S}" rx="2" fill="{COL[gr]}" stroke="{LINE if gr in ("none", "forecast") else COL[gr]}"></rect>')
 cnt = {gr: pairs.count(gr) for gr in COL}
 H = 34 + (len(pairs) // NC + 1) * (S + GAP) + 30
-g.append(t(0, H - 6, f'{len(pairs)} pairs of law and effect (105 laws × 8 kinds of effect): {cnt["causal"]} causal study · {cnt["measured"]} other evidence · {cnt["forecast"]} forecast only · {cnt["none"]} nothing found', 13, MUTED))
+g.append(t(0, H - 6, f'{len(pairs)} pairs of law and effect ({N_LAWS} laws × 8 kinds of effect): {cnt["causal"]} causal study · {cnt["measured"]} other evidence · {cnt["forecast"]} forecast only · {cnt["none"]} nothing found', 13, MUTED))
 out["B"] = f'<svg viewBox="0 0 {NC * (S + GAP)} {H}" width="100%">' + "".join(g) + "</svg>"
 
 # C: funnel of laws

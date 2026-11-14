@@ -8,8 +8,8 @@ codes = _load_codes()   # rules/standards codes, harmonised with the grid's "not
 inst = [json.loads(l) for l in open("data/rules_standards/instances.jsonl")]
 wb = openpyxl.load_workbook("digital_rulebook.xlsx", read_only=True, data_only=True)
 rows = list(wb["instruments"].values); h = rows[0]
-I = {str(r[h.index("celex_measured")]): dict(zip(h, r)) for r in rows[1:] if r[0] and r[h.index("status")] == "adopted"
-     and r[h.index("restrictions_total")] is not None}
+I = {c: dict(zip(h, r)) for r in rows[1:] if r[0] and r[h.index("status")] == "adopted"
+     and r[h.index("restrictions_total")] is not None for c in str(r[h.index("celex_measured")]).split(";")}   # ESAP: three CELEX
 parent = {s["celex"]: s["parent"] for s in json.load(open("data/secondary_acts.json"))}
 addr_m = [json.loads(l)["formal"] for l in open("data/addressee/v2_final_main.jsonl")]
 addr_s = [json.loads(l)["formal"] for l in open("data/addressee/v2_secondary.jsonl")]

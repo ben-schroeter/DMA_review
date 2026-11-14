@@ -1,6 +1,7 @@
 """Statista-style square infographic (1200x1200), same frame as the others: obligations on companies by policy area,
 start of 2018 vs October 2026, in adopted acts plus their implementing and delegated acts (dumbbell chart).
 Writes site/infographics/areas_growth.svg. Run from research/digital_rulebook."""
+import sys as _s; _s.path.insert(0, "site"); from counts import N_LAWS, N_SEC, N_IMPL, N_DEL   # no typed counts
 import collections, os
 import openpyxl
 
@@ -77,7 +78,7 @@ g.append(t(cx + 190, cy + 102, f"start of 2018, {sum(now.values()):,} now", 20, 
 # footer
 g.append(f'<line x1="56" x2="{W - 56}" y1="1066" y2="1066" stroke="{LINE}"></line>')
 for i, line in enumerate(("Policy areas adapted from Zenner &amp; Marcus (2025). Automated count of obligations naming a company as the one who must act, in the",
-                          "105 adopted EU digital acts and their 690 implementing and delegated acts; “new”: no such obligations before 2018. Counts measure",
+                          f"{N_LAWS} adopted EU digital acts and their {N_SEC} implementing and delegated acts; “new”: no such obligations before 2018. Counts measure",
                           "the number of rules, not their cost. Acts repealed before 2018 are not in the inventory, so earlier totals are a lower bound.")):
     g.append(t(56, 1100 + 24 * i, line, 16, MUTED))
 g.append(f'<g transform="translate({W - 330},1160)"><rect x="0" y="0" width="22" height="22" rx="3" fill="none" stroke="{INK}" stroke-width="1.6"></rect>'

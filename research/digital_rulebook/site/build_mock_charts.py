@@ -1,5 +1,6 @@
 """Generate inline-SVG charts for the website mockup's front page (palette and fonts match the mockup).
 Writes site/mock_charts.json: {name: svg string}. Run from research/digital_rulebook."""
+import sys as _s; _s.path.insert(0, "site"); from counts import N_LAWS, N_SEC, N_IMPL, N_DEL   # no typed counts
 import collections, datetime as dt, json, statistics
 import openpyxl
 
@@ -169,7 +170,7 @@ LIGHT = {CLAY: "#E3CF9C", AVG: "#DAD8D5", INK: "#A6A3A0"}
 bars = [(n.replace("General Data Protection Regulation", "GDPR").replace("Artificial Intelligence Act", "AI Act"),
          next(r["restrictions_total"] for r in inst if r["name"] == n), next(r["addr_private_parties"] or 0 for r in inst if r["name"] == n), CLAY) for n in pick]
 bars += [("EU average since 2020", mean(recent, "restrictions_total"), mean(recent, "addr_private_parties"), AVG),
-         ("EU average, all 105", mean(inst, "restrictions_total"), mean(inst, "addr_private_parties"), AVG),
+         (f"EU average, all {N_LAWS}", mean(inst, "restrictions_total"), mean(inst, "addr_private_parties"), AVG),
          ("Sarbanes-Oxley Act (US)", sox["restrictions_total"], sox_priv, INK)]
 bars.sort(key=lambda b: -b[1])
 BW, rowh, LB, RB, TOPB = 1000, 44, 230, 820, 34
@@ -339,8 +340,8 @@ for y, name, n, col in pm1:
 y, name, n, col = pm2[0]
 y = min(y, P0 + 2 * PH + PG - 40)
 labt += [f'<text x="{W - R + 12}" y="{y - 6:.1f}" {F} font-size="20" fill="{BLUE}" font-weight="600">{n:,}</text>',
-         f'<text x="{W - R + 12}" y="{y + 12:.1f}" {F} font-size="12.5" fill="{MUTED}">605 implementing,</text>',
-         f'<text x="{W - R + 12}" y="{y + 28:.1f}" {F} font-size="12.5" fill="{MUTED}">85 delegated</text>']
+         f'<text x="{W - R + 12}" y="{y + 12:.1f}" {F} font-size="12.5" fill="{MUTED}">{N_IMPL} implementing,</text>',
+         f'<text x="{W - R + 12}" y="{y + 28:.1f}" {F} font-size="12.5" fill="{MUTED}">{N_DEL} delegated</text>']
 peryear = {}
 for r in inst:
     peryear.setdefault(r["d"].year, [0] * len(GROUPS))[gof[r["policy_area"]]] += 1

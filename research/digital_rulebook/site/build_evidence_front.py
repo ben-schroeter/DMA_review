@@ -1,6 +1,6 @@
 """Front-page evidence chart in two parts on one colour logic (white = nothing found):
-  top    what happened to the 398 objectives, indicators and forecasts in the Commission's proposals
-  bottom for each kind of effect, the 105 laws in force by the strongest evidence found after adoption (evidence map)
+  top    what happened to the objectives, indicators and forecasts in the Commission's proposals
+  bottom for each kind of effect, the laws in force by the strongest evidence found after adoption (evidence map)
 Objective counts are the key results in the workbook's proposal_indicators sheet for adopted laws; law counts come from data/evidence_map/cells.json.
 Writes site/evidence_front.svg. Run from research/digital_rulebook."""
 import json
@@ -12,8 +12,16 @@ t = lambda x, y, s, size=13, fill=INK2, anchor="start", weight=None: (f'<text x=
                                                                       + (f' font-weight="{weight}"' if weight else "") + f'>{s}</text>')
 DEFS = ('<defs><pattern id="hf" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#FFFFFF"></rect>'
         '<line x1="0" y1="0" x2="0" y2="6" stroke="#A6A3A0" stroke-width="2"></line></pattern></defs>')
-OBJ = [("Measured", 61, "#8F6708", "#FFFFFF"), ("Partly measured", 60, "#B8860B", "#FFFFFF"), ("Mixed evidence", 25, "#E3CF9C", INK),
-       ("Activity only", 66, "url(#hf)", INK), ("Never measured", 186, "#FFFFFF", INK)]
+import collections, openpyxl
+_wb = openpyxl.load_workbook("digital_rulebook.xlsx", read_only=True, data_only=True)
+def _sheet(n):
+    r = list(_wb[n].iter_rows(values_only=True)); return [dict(zip(r[0], x)) for x in r[1:] if any(v is not None for v in x)]
+_Aid = {x["row_id"] for x in _sheet("instruments") if x["row_id"] and x["status"] == "adopted"}
+_sg = collections.Counter(p["status_group"] for p in _sheet("proposal_indicators") if p["indicator / promised impact"] and p["parent_row_id"] in _Aid)   # as site/facts.py
+NLAWS = len(V)
+OBJ = [("Measured", _sg["measured"], "#8F6708", "#FFFFFF"), ("Partly measured", _sg["partially measured"], "#B8860B", "#FFFFFF"),
+       ("Mixed evidence", _sg["mixed evidence"], "#E3CF9C", INK), ("Activity only", _sg["reported as activity"], "url(#hf)", INK),
+       ("Never measured", _sg["not measured"], "#FFFFFF", INK)]
 GR = [("causal", "Causal study", "#8F6708", "#FFFFFF"), ("measured", "Other evaluation or study", "#E3CF9C", INK),
       ("forecast", "Forecast only", "url(#hf)", INK), ("none", "Nothing found", "#FFFFFF", INK)]
 NAMES = {"costs": "Compliance costs", "consumers": "Prices and consumers", "competition": "Competition", "innovation": "Innovation and investment",
@@ -32,9 +40,9 @@ def legend(items, y):
 
 # top: objectives
 tot = sum(n for _, n, _, _ in OBJ)
-g.append(t(0, 16, "What happened to the 398 objectives in the Commission's proposals", 15, INK, "start", 600))
+g.append(t(0, 16, f"What happened to the {tot} objectives in the Commission's proposals", 15, INK, "start", 600))
 y0, BH = 34, 34
-g.append(t(L - 12, y0 + 22, "398 objectives", 14, INK, "end"))
+g.append(t(L - 12, y0 + 22, f"{tot} objectives", 14, INK, "end"))
 x = L
 for lab, n, f, tc in OBJ:
     w = n / tot * (R - L)
@@ -42,12 +50,12 @@ for lab, n, f, tc in OBJ:
     if w > 34:
         g.append(t(x + w / 2, y0 + 22, n, 13, tc, "middle", 700))
     x += w
-g.append(t(R, y0 - 8, f"{186 / tot:.0%} never measured", 13, INK, "end", 600))
+g.append(t(R, y0 - 8, f"{OBJ[-1][1] / tot:.0%} never measured", 13, INK, "end", 600))
 legend([(lab, f) for lab, _, f, _ in OBJ], y0 + BH + 20)
 
 # bottom: effect by effect
 y1 = y0 + BH + 74
-g.append(t(0, y1, "What has been studied since adoption, by kind of effect: 105 laws in force", 15, INK, "start", 600))
+g.append(t(0, y1, f"What has been studied since adoption, by kind of effect: {NLAWS} laws in force", 15, INK, "start", 600))
 legend([(lab, f) for _, lab, f, _ in GR], y1 + 26)
 rows = sorted(NAMES, key=lambda k: sum(1 for v in V if not v["cells"][k]["best"]))
 RH, RG, top = 26, 10, y1 + 46
@@ -65,8 +73,8 @@ for i, k in enumerate(rows):
         x += w
     g.append(t(R + 8, y + 18, cnt["none"], 14, INK, "start", 600))
 H = top + len(rows) * (RH + RG) + 4
-aria = ("Top: of 398 objectives in the Commission's proposals for the 105 adopted laws, 61 measured, 60 partly measured, 25 mixed evidence, 66 activity only, 186 never measured. "
-        "Bottom: for each kind of effect, how many of 105 laws have a causal study, other evidence, a forecast only or nothing: "
+aria = (f"Top: of {tot} objectives in the Commission's proposals for the {NLAWS} adopted laws, " + ", ".join(f"{n} {lab.lower()}" for lab, n, _, _ in OBJ) + ". "
+        f"Bottom: for each kind of effect, how many of {NLAWS} laws have a causal study, other evidence, a forecast only or nothing: "
         + "; ".join(f'{NAMES[k]} {sum(1 for v in V if not v["cells"][k]["best"])} with nothing' for k in rows))
 open("site/evidence_front.svg", "w").write(f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="{aria}">' + "".join(g) + "</svg>")
 print(H)

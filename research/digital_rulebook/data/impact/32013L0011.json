@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "evaluation question",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "2019: full sector coverage reached; framework 'underused'; ODR platform led to direct settlement in up to 42% of cases. 2023: low trader participation remains the main obstacle.",
    "status": "partially measured",
-   "sources": "COM(2019) 425; SWD(2023) 335"
+   "sources": "COM(2019) 425; SWD(2023) 335",
+   "status_group": "partially measured"
   }
  ],
  "literature": [
@@ -48,7 +50,9 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20240924105133/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52019DC0425"
+   "archive_url": "http://web.archive.org/web/20240924105133/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52019DC0425",
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2023-adr-ia",
@@ -71,7 +75,10 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20250521005817/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52023SC0335"
+   "archive_url": "http://web.archive.org/web/20250521005817/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52023SC0335",
+   "category": "evidence",
+   "source_class": "official"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

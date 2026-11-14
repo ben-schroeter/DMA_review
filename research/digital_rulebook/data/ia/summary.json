@@ -1,25 +1,25 @@
 {
  "2003\u20132014": [
-  14,
-  13
+  20,
+  20
  ],
  "2015\u20132019": [
-  26,
-  24
+  23,
+  21
  ],
  "2020 onwards": [
-  48,
-  37
+  38,
+  33
  ],
- "board_known": 45,
- "board_neg_first": 16,
- "board_neg_twice": 2,
+ "board_known": 36,
+ "board_neg_first": 12,
+ "board_neg_twice": 1,
  "status": {
-  "pre": 12,
+  "pre": 13,
   "full": 74,
-  "codification": 3,
-  "none": 11,
-  "unknown": 2,
-  "swd": 3
+  "codification": 5,
+  "unknown": 1,
+  "none": 6,
+  "swd": 1
  }
 }

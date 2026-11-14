@@ -264,30 +264,6 @@
   ]
  },
  {
-  "id": "euccs",
-  "name": "European Critical Communication System (EUCCS)",
-  "stage": "proposed",
-  "law_id": null,
-  "policy_area": "Connectivity",
-  "procedure": "2026/0301(COD)",
-  "proposal": "Sep 2026",
-  "parliament_position": "",
-  "council_position": "",
-  "trilogues": "",
-  "agreement": "",
-  "expected_proposal": "",
-  "target_for_agreement": "—",
-  "latest": "Proposed 30 September 2026.",
-  "page": "Fc-euccs.dc.html",
-  "impact_assessment": "full",
-  "impact_assessment_docs": [
-   "SWD(2026) 1010"
-  ],
-  "impact_assessment_urls": [
-   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026SC1010"
-  ]
- },
- {
   "id": "multimodal-digital-mobility",
   "name": "Multimodal Digital Mobility Services Regulation",
   "stage": "proposed",
@@ -404,30 +380,6 @@
   ]
  },
  {
-  "id": "digital-travel",
-  "name": "EU Digital Travel Application Regulation",
-  "stage": "proposed",
-  "law_id": 106,
-  "policy_area": "Data & Privacy",
-  "procedure": "2024/0670(COD)",
-  "proposal": "Oct 2024",
-  "parliament_position": "Dec 2025",
-  "council_position": "Nov 2025",
-  "trilogues": "",
-  "agreement": "",
-  "expected_proposal": "",
-  "target_for_agreement": "—",
-  "latest": "Parliament (December 2025) and Council (November 2025) have mandates; trilogues continuing, with the age limit for digital travel credentials open.",
-  "page": "Act-eu-digital-travel-application-regulation.dc.html",
-  "impact_assessment": "full",
-  "impact_assessment_docs": [
-   "SWD(2024) 671"
-  ],
-  "impact_assessment_urls": [
-   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52024SC0671"
-  ]
- },
- {
   "id": "space-act",
   "name": "EU Space Act",
   "stage": "proposed",
@@ -449,30 +401,6 @@
   ],
   "impact_assessment_urls": [
    "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025SC0335"
-  ]
- },
- {
-  "id": "infosec",
-  "name": "Information Security Regulation",
-  "stage": "proposed",
-  "law_id": 79,
-  "policy_area": "Cybersecurity",
-  "procedure": "2022/0084(COD)",
-  "proposal": "Mar 2022",
-  "parliament_position": "",
-  "council_position": "",
-  "trilogues": "",
-  "agreement": "",
-  "expected_proposal": "",
-  "target_for_agreement": "—",
-  "latest": "Stalled: Parliament's committee has not yet voted, more than four years after the proposal.",
-  "page": "Act-information-security-regulation.dc.html",
-  "impact_assessment": "analysis",
-  "impact_assessment_docs": [
-   "SWD(2022) 66"
-  ],
-  "impact_assessment_urls": [
-   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022SC0066"
   ]
  },
  {

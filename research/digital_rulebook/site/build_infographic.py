@@ -1,5 +1,6 @@
 """Statista-style square infographic: obligations binding private parties, cumulative, 2010-2026.
 Writes site/infographics/private_parties.svg (1200x1200). Run from research/digital_rulebook."""
+import sys as _s; _s.path.insert(0, "site"); from counts import N_LAWS, N_SEC, N_IMPL, N_DEL   # no typed counts
 import collections, os
 import openpyxl
 
@@ -75,7 +76,7 @@ g.append(t(cx + 168, cy + 76, f"of 2018, {now:,} now,", 20, INK2))
 g.append(t(cx + 168, cy + 102, "in the laws themselves", 20, INK2))
 # footer
 g.append(f'<line x1="56" x2="{W - 56}" y1="1066" y2="1066" stroke="{LINE}"></line>')
-g.append(t(56, 1100, "* As of October 2026. Automated count of the 105 adopted EU digital acts in our database and their 690 implementing", 16, MUTED))
+g.append(t(56, 1100, f"* As of November 2026. Automated count of the {N_LAWS} adopted EU digital acts in our database and their {N_SEC} implementing", 16, MUTED))
 g.append(t(56, 1124, "and delegated acts, original texts from EUR-Lex; each obligation coded by who must act. Including the implementing and delegated", 16, MUTED))
 g.append(t(56, 1148, f"acts, obligations on companies rose ×{(cum[Y1][0] + cum[Y1][1]) / (cum[2017][0] + cum[2017][1]):.1f} over the same period.", 16, MUTED))
 g.append(f'<g transform="translate({W - 330},1160)"><rect x="0" y="0" width="22" height="22" rx="3" fill="none" stroke="{INK}" stroke-width="1.6"></rect>'

@@ -1,11 +1,11 @@
 {
- "all_main_R": 0.7163580416506401,
- "all_main_standard_like": 0.266,
- "comp_main_R": 0.7045880149812734,
- "all_sec_R": 0.8332825667580465,
- "comp_sec_R": 0.8329905388728918,
- "acts_with_second_layer": 29,
- "acts_more_rules": 27,
+ "all_main_R": 0.7128829780622709,
+ "all_main_standard_like": 0.264,
+ "comp_main_R": 0.7076258104353196,
+ "all_sec_R": 0.838339222614841,
+ "comp_sec_R": 0.8415906127770535,
+ "acts_with_second_layer": 25,
+ "acts_more_rules": 24,
  "companies_by_law": {
   "Unfair Contract Terms Directive": {
    "main": 0.5
@@ -36,10 +36,6 @@
   },
   "Audiovisual Media Services Directive": {
    "main": 0.72
-  },
-  "European Statistics Regulation": {
-   "main": 0.3333,
-   "secondary": 0.7143
   },
   "Trade Secrets Directive": {
    "main": 0.5
@@ -126,19 +122,8 @@
   "Platform-to-Business (P2B) Regulation": {
    "main": 0.75
   },
-  "Single Market Programme": {
-   "main": 0.5,
-   "secondary": 1.0
-  },
-  "European Cybersecurity Competence Centre": {
-   "main": 0.6667
-  },
   "Terrorist Content Online Regulation": {
    "main": 0.6809
-  },
-  "Recovery and Resilience Facility": {
-   "main": 0.875,
-   "secondary": 1.0
   },
   "Company Law Directive": {
    "main": 0.9329,
@@ -154,26 +139,9 @@
    "main": 0.7339,
    "secondary": 0.8605
   },
-  "Digital Europe Programme": {
-   "main": 0.2
-  },
-  "InvestEU Programme": {
-   "main": 0.6774,
-   "secondary": 0.8021
-  },
-  "Connecting Europe Facility": {
-   "main": 0.7778,
-   "secondary": 0.0
-  },
-  "Horizon Europe": {
-   "main": 0.6849
-  },
   "Temporary CSAM Derogation Regulation": {
    "main": 0.5,
    "secondary": 1.0
-  },
-  "EuroHPC Joint Undertaking Regulation": {
-   "main": 0.8409
   },
   "DLT Pilot Regime Regulation": {
    "main": 0.7143
@@ -205,16 +173,9 @@
    "main": 0.809,
    "secondary": 0.8723
   },
-  "Digitalisation of judicial cooperation Regulation": {
-   "main": 0.7857,
-   "secondary": 0.5085
-  },
   "NIS 2 Directive": {
    "main": 0.75,
    "secondary": 0.5161
-  },
-  "Joint Undertakings under Horizon Europe": {
-   "main": 0.8462
   },
   "Roaming Regulation": {
    "main": 0.8163
@@ -237,25 +198,14 @@
   "Anti-Money Laundering Regulation": {
    "main": 0.6969
   },
-  "Single Market Emergency Instrument (IMERA)": {
-   "main": 0.7
-  },
   "Platform Work Directive": {
    "main": 0.7632
   },
   "European Chips Act": {
    "main": 0.7692
   },
-  "Union Secure Connectivity Programme": {
-   "main": 0.6,
-   "secondary": 1.0
-  },
   "Data Act": {
    "main": 0.6557
-  },
-  "Interoperable Europe Act": {
-   "main": 1.0,
-   "secondary": 0.9
   },
   "Design Directive": {
    "main": 0.9231
@@ -266,18 +216,8 @@
   "Gigabit Infrastructure Act": {
    "main": 0.5789
   },
-  "Critical Raw Materials Act": {
-   "main": 0.8095
-  },
-  "Net-Zero Industry Act": {
-   "main": 0.6667,
-   "secondary": 1.0
-  },
   "Right to Repair Directive": {
    "main": 0.7083
-  },
-  "Cyber Solidarity Act": {
-   "main": 0.5185
   },
   "European Health Data Space": {
    "main": 0.7923,
@@ -288,12 +228,6 @@
   },
   "European Media Freedom Act": {
    "main": 0.5833
-  },
-  "Compulsory licensing of patents Regulation": {
-   "main": 0.6
-  },
-  "Strategic Technologies for Europe Platform (STEP)": {
-   "main": 0.75
   },
   "Violence Against Women Directive": {
    "main": 0.4167
@@ -323,10 +257,6 @@
    "main": 0.7368,
    "secondary": 0.5833
   },
-  "Interoperability of EU information systems (borders and visa) Regulation": {
-   "main": 0.8148,
-   "secondary": 0.9615
-  },
   "Short-Term Rental Data Regulation": {
    "main": 0.9333
   },
@@ -338,6 +268,43 @@
   },
   "Radio Spectrum Decision": {
    "secondary": 0.8958
+  },
+  "Software Directive": {
+   "main": 1.0
+  },
+  "E-money Directive": {
+   "main": 0.9286
+  },
+  "Child Sexual Abuse Directive": {
+   "main": 0.6667
+  },
+  "SEPA Regulation": {
+   "main": 0.95,
+   "secondary": 1.0
+  },
+  "ADR Directive": {
+   "main": 0.9
+  },
+  "Cybercrime Directive": {
+   "main": 0.0
+  },
+  "Collective Rights Management Directive": {
+   "main": 0.7241
+  },
+  "TRIS Directive": {
+   "main": 1.0
+  },
+  "European Accessibility Act": {
+   "main": 0.7383
+  },
+  "Representative Actions Directive": {
+   "main": 0.6
+  },
+  "Consumer Credit Directive II": {
+   "main": 0.7938
+  },
+  "Transfer of Funds Regulation": {
+   "main": 0.6406
   }
  }
 }

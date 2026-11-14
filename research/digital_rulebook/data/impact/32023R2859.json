@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "ESMA up to EUR 16 million (2022-2027); filers about EUR 121 million a year (forecast)",
    "evidence": "Forecast only.",
    "status": "not measured",
-   "sources": "SWD(2021) 344/345"
+   "sources": "SWD(2021) 344/345",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -48,7 +50,10 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20251021150843/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021SC0345"
+   "archive_url": "http://web.archive.org/web/20251021150843/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021SC0345",
+   "category": "ex-ante assessment",
+   "source_class": "official"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }

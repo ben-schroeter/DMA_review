@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "deadline in the act",
@@ -23,7 +24,8 @@
    "target_or_baseline": "by 30 June 2020 (delay up to 2 years for listed reasons)",
    "evidence": "No Commission compliance report found; the ECA audit (2022) reports delays in 5G deployment generally, not band by band.",
    "status": "not measured",
-   "sources": "ECA Special Report 03/2022"
+   "sources": "ECA Special Report 03/2022",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -48,7 +50,9 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20200924143026/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52016SC0019"
+   "archive_url": "http://web.archive.org/web/20200924143026/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52016SC0019",
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "eca-2022-5g",
@@ -71,7 +75,10 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20261030073157/https://op.europa.eu/webpub/eca/special-reports/security-5g-networks-03-2022/en/"
+   "archive_url": "http://web.archive.org/web/20261030073157/https://op.europa.eu/webpub/eca/special-reports/security-5g-networks-03-2022/en/",
+   "category": "evidence",
+   "source_class": "official"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

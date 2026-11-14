@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "expected impact (impact assessment)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "about EUR 2 billion less in 2021-2030 (forecast)",
    "evidence": "Forecast only.",
    "status": "not measured",
-   "sources": "SWD(2021) 170/171"
+   "sources": "SWD(2021) 170/171",
+   "status_group": "not measured"
   }
  ],
  "literature": [
@@ -48,7 +50,9 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20251122141953/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020DC0963"
+   "archive_url": "http://web.archive.org/web/20251122141953/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020DC0963",
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2021-ccd-ia",
@@ -71,7 +75,10 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20260115020124/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021SC0171"
+   "archive_url": "http://web.archive.org/web/20260115020124/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021SC0171",
+   "category": "ex-ante assessment",
+   "source_class": "official"
   }
- ]
+ ],
+ "evidence_level": "ex-ante only"
 }
