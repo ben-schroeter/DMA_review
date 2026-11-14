@@ -1,0 +1,702 @@
+[
+{
+"k": "1d14c906a96d",
+"doc": "32023R2859",
+"art": "Art. 3",
+"chapeau": "When submitting such information to the collection body, the entity shall:",
+"clause": "ensure that no personal data are included in the information, except where the personal data are required by Union or national law or constitute a necessary element of the information about the entity’s economic activities."
+},
+{
+"k": "2c4c2d3b4a79",
+"doc": "32023R2859",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "By 9 January 2030, each Member State shall designate at least one collection body for the collection of information submitted on a voluntary basis and notify ESMA thereof."
+},
+{
+"k": "1a0c3bc575f1",
+"doc": "32023R2859",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "The European Supervisory Authorities established by Regulations (EU) No 1093/2010, (EU) No 1094/2010 and (EU) No 1095/2010 of the European Parliament and of the Council (collectively, the ‘ESAs’) shall, through the Joint Committee, develop draft implementing technical standards to specify the following:"
+},
+{
+"k": "640f2f8f0e7e",
+"doc": "32023R2859",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "When developing the implementing technical standards referred to in paragraph 3, the ESAs shall take into consideration any standards that already exist in the corresponding sectoral Union legislative acts and, in particular, any standards specifically designed for SMEs."
+},
+{
+"k": "5a0c666d9c66",
+"doc": "32023R2859",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "The ESAs shall submit the draft implementing technical standards to the Commission by 10 January 2028."
+},
+{
+"k": "b9a93930bc03",
+"doc": "32023R2859",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "The ESAs, through the Joint Committee, shall adopt guidelines for entities to ensure that the metadata submitted is correct, including the conditions for the inclusion of personal data in voluntary submissions."
+},
+{
+"k": "f6cb53e60b0e",
+"doc": "32023R2859",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "Where the information referred to in paragraph 1 contains personal data, entities shall ensure that any processing of those data is based on one of the lawful grounds for processing listed in Article 6(1) of Regulation (EU) 2016/679."
+},
+{
+"k": "954e0c160339",
+"doc": "32023R2859",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "ESMA shall publish a list of the collection bodies, containing the uniform resource locator of each collection body, on the web portal referred to in Article 7(1), point (a)."
+},
+{
+"k": "c4c691cc1c70",
+"doc": "32023R2859",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "ESMA shall ensure that that list is kept up-to-date and shall notify the Commission of any changes thereto."
+},
+{
+"k": "94e222367020",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "The collection bodies shall do the following:"
+},
+{
+"k": "90d1ad6a7d6e",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "perform technical automated validations in respect of the information submitted by entities to verify whether the information complies with the following:",
+"clause": "For the purposes of point (g) of the first subparagraph of this paragraph, and in accordance with Regulations (EU) 2016/679 and (EU) No 2018/1725, the collection bodies shall take the appropriate technical and organisational measures to ensure that, where the metadata accompanying the submitted information refers to any personal data, that information is not retained for the purpose of being made available to ESAP, nor made accessible on ESAP, for longer than five years, unless otherwise provided in the Union legislative acts under Article 1(1), point (a), of this Regulation."
+},
+{
+"k": "9bafde45285f",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "The collection bodies shall remove information made accessible on ESAP that they determine to be manifestly inappropriate, abusive or outside the scope of the information referred to in Article 1(1)."
+},
+{
+"k": "30932bff4929",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "The collection bodies shall reject information submitted by entities where the automated validations referred to in paragraph 1, point (c), of this Article reveal that the information does not comply with the requirements laid down in that point or, where relevant, on the basis of notifications received pursuant to Article 10(2)."
+},
+{
+"k": "17df716f99cb",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "The collection bodies shall notify entities of the rejection or the removal of information and the reasons therefor, within a reasonable timeframe."
+},
+{
+"k": "ad5eea67be52",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "Where the information submitted by an entity pursuant to Article 1(1), point (a), is rejected or removed by a collection body, that entity shall rectify and resubmit the information without undue delay."
+},
+{
+"k": "f47f284d6c71",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "The collection body shall notify ESMA where information is rejected, removed or replaced pursuant to paragraph 2 of this Article."
+},
+{
+"k": "3a098e299c51",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "The submission and any re-submission of information, together with the relevant accompanying metadata, shall be made to the same collection body."
+},
+{
+"k": "720509c2208b",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "Entities shall be responsible for the completeness and accuracy of the information in the language in which it is submitted, as well as for the relevant accompanying metadata they submit to the collection bodies."
+},
+{
+"k": "774e50189e33",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "In particular, entities shall be responsible for the identification of the inclusion of personal data in the information that they submit to the collection body together with the relevant accompanying metadata indicating whether the information contains personal data."
+},
+{
+"k": "fef39e2e5277",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "As regards the information within the scope of this Regulation, the collection bodies shall not exercise the right of the maker of a database, referred to in Article 7(1) of Directive 96/9/EC of the European Parliament and of the Council ( 15 ) , or any other intellectual property rights in a way that prevents or restricts the use and re-use of the contents of the database pursuant to Article 9 of this Regulation."
+},
+{
+"k": "26b688b1bc03",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "Any delegation of tasks shall take the form of a written agreement specifying the tasks to be delegated and the conditions under which they are to be carried out (‘delegation agreement’)."
+},
+{
+"k": "a369213df382",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "The conditions set out in the delegation agreement shall ensure that:"
+},
+{
+"k": "e84afaa2b60c",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "The conditions set out in the delegation agreement shall ensure that:",
+"clause": "The collection body shall remain responsible for any tasks that it delegates, including making available to ESMA any information needed by ESMA regarding a delegated task."
+},
+{
+"k": "58eaac3b43e1",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "The conditions set out in the delegation agreement shall ensure that:",
+"clause": "The collection body’s liability shall not be affected by the fact that the collection body has delegated tasks to a third party."
+},
+{
+"k": "b87d552267b3",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "The conditions set out in the delegation agreement shall ensure that:",
+"clause": "The collection body shall not delegate its tasks to such an extent that it can no longer be considered a collection body."
+},
+{
+"k": "40f78db2b83f",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "The conditions set out in the delegation agreement shall ensure that:",
+"clause": "The collection body shall ensure that any delegation of tasks is exercised in a cost-efficient manner and that, as far as possible, the delegation is used to allow existing collection procedures and infrastructure to continue to apply for the purposes of ESAP."
+},
+{
+"k": "818002910928",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "The conditions set out in the delegation agreement shall ensure that:",
+"clause": "The collection body shall notify ESMA of any delegation agreement it concludes."
+},
+{
+"k": "4e13c199da65",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "The collection bodies shall ensure appropriate levels of authenticity, availability, integrity and non-repudiation of the information submitted by entities to be made accessible on ESAP."
+},
+{
+"k": "476c5b701f77",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "The ESAs, through the Joint Committee, shall develop draft implementing technical standards specifying the following:"
+},
+{
+"k": "5a6cd0a9f022",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "When developing the draft implementing technical standards referred to in paragraph 10, the ESAs shall take into consideration any standards that already exist in the corresponding sectoral Union legislative acts and in particular the standards specifically designed for SMEs."
+},
+{
+"k": "89d068f70082",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "The ESAs shall submit those draft implementing technical standards to the Commission by 10 September 2024."
+},
+{
+"k": "03e12f435f0f",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "Collection bodies that are Union bodies, offices or agencies that make historical information available to ESAP in accordance with Article 1(3) shall do the following:"
+},
+{
+"k": "f9fa7737ddb6",
+"doc": "32023R2859",
+"art": "Art. 5",
+"chapeau": "accompany that information by metadata specifying the following:",
+"clause": "By way of derogation from paragraph 1, point (g), of this Article, historical information shall not be made accessible on ESAP for longer than five years."
+},
+{
+"k": "2e71b125e737",
+"doc": "32023R2859",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "ESMA shall put in place an effective and proportionate IT security policy for ESAP and shall ensure appropriate levels of authenticity, availability, integrity and non-repudiation of the information made accessible on ESAP and of the protection of personal data."
+},
+{
+"k": "0d04398aa4b3",
+"doc": "32023R2859",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "ESMA shall ensure that ESAP has at least the following functionalities:"
+},
+{
+"k": "2e163372de03",
+"doc": "32023R2859",
+"art": "Art. 7",
+"chapeau": "the presentation of information submitted on a voluntary basis pursuant to Article 1(1), point (b), in such a manner that:",
+"clause": "it can be clearly distinguished from information submitted on a mandatory basis pursuant to Article 1(1), point (a);"
+},
+{
+"k": "0d9514215ea6",
+"doc": "32023R2859",
+"art": "Art. 7",
+"chapeau": "the presentation of information submitted on a voluntary basis pursuant to Article 1(1), point (b), in such a manner that:",
+"clause": "where applicable, users are informed that the information does not necessarily meet all the requirements for information submitted on a mandatory basis pursuant to Article 1(1), point (a), and will not necessarily be updated over time."
+},
+{
+"k": "d455deba2f92",
+"doc": "32023R2859",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "ESMA shall ensure that ESAP provides for the functionalities referred to in paragraph 1, points (e) and (g), by 10 July 2028."
+},
+{
+"k": "a34d0f35fadb",
+"doc": "32023R2859",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "ESMA shall ensure that ESAP provides for the functionalities referred to in paragraph 1, point (h), by 9 January 2030."
+},
+{
+"k": "0e85c80d62e0",
+"doc": "32023R2859",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "The search function referred to in paragraph 1, point (c), of this Article shall allow for a search on the basis of the following metadata:"
+},
+{
+"k": "ab44a9b3b3d0",
+"doc": "32023R2859",
+"art": "Art. 7",
+"chapeau": "3. The search function referred to in paragraph 1, point (c), of this Article shall allow for a search on the basis of the following metadata:",
+"clause": "the type of information, as referred to in Article 1(1), submitted by the entity and whether such information was submitted on a mandatory basis under Article 1(1), point (a), or on a voluntary basis under point (b) of that paragraph;"
+},
+{
+"k": "b437f17b7084",
+"doc": "32023R2859",
+"art": "Art. 7",
+"chapeau": "4. The ESAs, through the Joint Committee, shall develop draft implementing technical standards specifying the following:",
+"clause": "The ESAs shall submit those draft implementing technical standards to the Commission by 10 September 2024."
+},
+{
+"k": "25c084e42888",
+"doc": "32023R2859",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "In order to promote transparency and the smooth functioning of Union capital markets, ESMA shall ensure that access to information on ESAP is provided on a non-discriminatory basis and that users have direct and immediate access free of charge to the information on ESAP."
+},
+{
+"k": "7a7277b3a8eb",
+"doc": "32023R2859",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "ESMA shall, however, charge fees for specific services with high maintenance and support costs or that involve searches for and downloads of large volumes of information."
+},
+{
+"k": "9df5aa0886a7",
+"doc": "32023R2859",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "Those fees shall not exceed the direct costs incurred by ESMA for the provision of those services."
+},
+{
+"k": "5ed230921976",
+"doc": "32023R2859",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "Notwithstanding paragraph 2, ESMA shall allow the following entities to have direct and immediate access to the information on ESAP free of charge to the extent necessary for those entities to fulfil their respective responsibilities, mandates and obligations:"
+},
+{
+"k": "c533b8f09e4f",
+"doc": "32023R2859",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "For the purposes of paragraph 2, ESMA shall develop draft implementing technical standards to determine the nature and extent of the specific services for which fees may be charged and to determine the associated fee structure."
+},
+{
+"k": "fd29f8eb7e7c",
+"doc": "32023R2859",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "ESMA shall submit those draft implementing technical standards to the Commission."
+},
+{
+"k": "11d2593c3130",
+"doc": "32023R2859",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "ESMA shall publish and make easily accessible on the ESAP website the fee structure, the volume thresholds, if relevant, and the rates."
+},
+{
+"k": "f4a8ebde17a9",
+"doc": "32023R2859",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "ESMA shall review the volume thresholds and the rates on an annual basis."
+},
+{
+"k": "d0daacbdbb0b",
+"doc": "32023R2859",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "Neither ESMA nor the collection bodies shall bear any liability for the access, use or re-use of information submitted by entities to the collection bodies and made accessible on ESAP."
+},
+{
+"k": "d5c1a170a461",
+"doc": "32023R2859",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "Personal data accessible on ESAP shall be used and re-used in accordance with Regulation (EU) 2016/679."
+},
+{
+"k": "eb25b51a558f",
+"doc": "32023R2859",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "Any personal data that is re-used shall not be retained for longer than necessary and in any event for no longer than five years, unless otherwise provided in Union legislative acts under Article 1(1), point (a), of this Regulation."
+},
+{
+"k": "850de19f280f",
+"doc": "32023R2859",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "ESMA shall ensure that the use and re-use of information accessible on ESAP is not subject to any conditions unless those conditions fulfil the following requirements:"
+},
+{
+"k": "5ebe690c964f",
+"doc": "32023R2859",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "The use and re-use for regulatory and non-commercial purposes of the information made accessible on ESAP shall not be limited by entities submitting their information for publication on the basis of a sui generis right referred to in Article 7(1) of Directive 96/9/EC."
+},
+{
+"k": "6479ed2840aa",
+"doc": "32023R2859",
+"art": "Art. 10",
+"chapeau": "",
+"clause": "ESMA shall perform automated validations to verify whether all information provided to ESAP by the collection bodies complies with the requirements laid down in Article 5(1), point (c)."
+},
+{
+"k": "5319efdb3606",
+"doc": "32023R2859",
+"art": "Art. 10",
+"chapeau": "",
+"clause": "Such automated validations shall not differ from those carried out by the collection bodies pursuant to Article 5(1), point (c)."
+},
+{
+"k": "0a0a779126f3",
+"doc": "32023R2859",
+"art": "Art. 10",
+"chapeau": "",
+"clause": "ESMA shall implement appropriate technical processes to automatically notify a collection body in cases where the information provided does not comply with the requirements laid down in Article 5(1), point (c)."
+},
+{
+"k": "4aeeee7ee2d1",
+"doc": "32023R2859",
+"art": "Art. 10",
+"chapeau": "",
+"clause": "In cases of non-compliance with those requirements, entities shall bear the responsibility for the information."
+},
+{
+"k": "c414852c0342",
+"doc": "32023R2859",
+"art": "Art. 10",
+"chapeau": "",
+"clause": "The collection body shall notify the entity in cases where the information has been rejected and the reasons for that rejection in accordance with Article 5(4)."
+},
+{
+"k": "6de5ab97a40e",
+"doc": "32023R2859",
+"art": "Art. 11",
+"chapeau": "",
+"clause": "ESMA shall, in close cooperation with EBA and EIOPA do the following:"
+},
+{
+"k": "02f5a2f0602d",
+"doc": "32023R2859",
+"art": "Art. 11",
+"chapeau": "",
+"clause": "For the purposes of paragraph 1 of this Article, ESMA shall ensure, through the establishment of an ad hoc task force, group or committee, as appropriate, that experts and relevant stakeholders are consulted to provide advice and support on the technical implementation of ESAP."
+},
+{
+"k": "ed1c1fa049d2",
+"doc": "32023R2859",
+"art": "Art. 11",
+"chapeau": "",
+"clause": "Unless necessary for the purpose of facilitating access to the information provided by the collection bodies and implementing the requirements of this Regulation, ESMA shall not store information containing personal data except for automatic, intermediate and transient processing."
+},
+{
+"k": "561f7729f65f",
+"doc": "32023R2859",
+"art": "Art. 11",
+"chapeau": "",
+"clause": "ESMA shall take the appropriate technical and organisational measures to ensure that personal data processing via ESAP is carried out in accordance with Regulation (EU) 2018/1725 and that information containing personal data is not retained or made available any longer than as provided for in Article 5(1), point (g)."
+},
+{
+"k": "c1ec5cde10ea",
+"doc": "32023R2859",
+"art": "Art. 11",
+"chapeau": "",
+"clause": "ESMA shall ensure that personal data processing complies with the legal framework for the protection of personal data processed by Union institutions, bodies, offices and agencies."
+},
+{
+"k": "6fc45360b5da",
+"doc": "32023R2859",
+"art": "Art. 12",
+"chapeau": "",
+"clause": "ESMA, in close cooperation with EBA and EIOPA, shall monitor the functioning of ESAP based on at least the qualitative and quantitative indicators laid down in paragraph 2, and shall publish and submit to the European Parliament and to the Council an annual report on the functioning of ESAP."
+},
+{
+"k": "caa333fc005c",
+"doc": "32023R2859",
+"art": "Art. 12",
+"chapeau": "",
+"clause": "Before submitting the report referred to in paragraph 1 of this Article, ESMA shall consult the ad hoc task force, group or committee to be established pursuant to Article 11(2) of this Regulation and it may consult the Securities and Markets Stakeholder Group referred to in Article 37 of Regulation (EU) No 1095/2010."
+},
+{
+"k": "59195e56c076",
+"doc": "32023R2859",
+"art": "Art. 13",
+"chapeau": "",
+"clause": "By 10 January 2029 the Commission shall, in close cooperation with ESMA, and taking into account the annual reports referred to in Article 12, submit a report to the European Parliament and to the Council on the implementation, functioning and effectiveness of ESAP."
+},
+{
+"k": "dd5b332712f7",
+"doc": "32023R2859",
+"art": "Art. 13",
+"chapeau": "",
+"clause": "The report referred to in paragraph 1 shall address the following:"
+},
+{
+"k": "8065fe1e250c",
+"doc": "32023R2859",
+"art": "Art. 13",
+"chapeau": "",
+"clause": "Taking into account the added value, technical challenges and expected costs, the report referred to in paragraph 1 shall include a cost-benefit analysis linked to future inclusion within the scope of this Regulation of possibly relevant information that is not yet accessible on ESAP at the time when the report is drawn up, thus resulting in a data gap."
+},
+{
+"k": "6a3e4744fbcb",
+"doc": "32023R2859",
+"art": "Art. 13",
+"chapeau": "",
+"clause": "The report shall also include recommendations on the future development of ESAP."
+},
+{
+"k": "91fb3593aa02",
+"doc": "32023R2859",
+"art": "Art. 13",
+"chapeau": "",
+"clause": "The Commission shall adopt a delegated act in accordance with Article 14 amending the Union legislative acts referred to in the second subparagraph of this paragraph in order to postpone the inclusion on ESAP of information for which submission to ESAP is not yet required or permitted pursuant to Article 1(1), point (a), by a maximum of 36 months if the Commission concludes in the report referred to in paragraph 1 of this Article that there is evidence of severe and pervasive difficulties as regards the elements listed in paragraph 2, points (a) and (b), of this Article."
+},
+{
+"k": "ebddefa64ae4",
+"doc": "32023R2859",
+"art": "Art. 13",
+"chapeau": "",
+"clause": "The Union legislative acts referred to in the first subparagraph of this paragraph shall comprise the following:"
+},
+{
+"k": "5537ee563fd5",
+"doc": "32025R1339",
+"art": "Art. 1",
+"chapeau": "",
+"clause": "Where a specific machine-readable format is required by any of the acts referred to in Article 1(1), point (a), of Regulation (EU) 2023/2859, collection bodies shall verify that the information submitted to them pursuant to that act is compliant with the machine-readable format specified in those acts."
+},
+{
+"k": "6d6af07cf6cd",
+"doc": "32025R1339",
+"art": "Art. 1",
+"chapeau": "",
+"clause": "Where no specific machine-readable format is required by any of the acts referred to in Article 1(1), point (a), of Regulation (EU) 2023/2859, collection bodies shall verify that the information submitted to them:"
+},
+{
+"k": "0697835f60e6",
+"doc": "32025R1339",
+"art": "Art. 1",
+"chapeau": "",
+"clause": "Collection bodies shall verify that:"
+},
+{
+"k": "dcc1162f3b75",
+"doc": "32025R1339",
+"art": "Art. 1",
+"chapeau": "",
+"clause": "Where a qualified electronic seal is required in accordance with Article 5(9) of Regulation (EU) 2023/2859, collection bodies shall:"
+},
+{
+"k": "2e34769608d2",
+"doc": "32025R1339",
+"art": "Art. 1",
+"chapeau": "",
+"clause": "Collection bodies shall reject information that does not comply with any one of the requirements set out in paragraphs 1 to 4."
+},
+{
+"k": "7c2a98d26ab8",
+"doc": "32025R1339",
+"art": "Art. 1",
+"chapeau": "",
+"clause": "Collection bodies shall undertake their best efforts to provide the submitting entities with detailed information on the results of the automated validations referred to in paragraphs 1 to 4 within 60 minutes after they have received the information."
+},
+{
+"k": "364ee13ec746",
+"doc": "32025R1339",
+"art": "Art. 1",
+"chapeau": "",
+"clause": "In that case, collection bodies shall undertake their best efforts to provide the results of the automated validations to the submitting entities within 60 minutes after the resolution of the relevant exceptional circumstance."
+},
+{
+"k": "fa0276db403f",
+"doc": "32025R1339",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "Where Member State require a qualified electronic seal, that seal accompanying the information shall comply with the list of technical specifications set out in the Annex to Implementing Decision (EU) 2015/1506 and shall be at conformance level LT or higher."
+},
+{
+"k": "eb2ebb2458c0",
+"doc": "32025R1339",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "Where the submitting entity is identified with a legal entity identifier compliant with ISO 17442, the qualified electronic seal shall be based on the qualified certificate in which the submitting entity is identified with that legal entity identifier."
+},
+{
+"k": "b4f6a77e619b",
+"doc": "32025R1339",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "The use and re-use of the information made available to the ESAP by the collection bodies shall be subject to the conditions of the Creative Commons public domain dedication (CC0) or any equivalent open licence allowing for unrestricted use and re-use of data."
+},
+{
+"k": "264403ba399b",
+"doc": "32025R1339",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "That is without prejudice to information covered by copyright and other related rights, the use and re-use of which shall be governed by the conditions of the Creative Commons Licence BY-NC-ND or any equivalent open license."
+},
+{
+"k": "04b8df3a1222",
+"doc": "32025R1339",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "The application programming interface (API) for the collection of ESAP data from collection bodies shall:"
+},
+{
+"k": "a6ffacd80a56",
+"doc": "32025R1339",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "When providing the ESAP with information referred to in Article 1(1), point (a), of Regulation (EU) 2023/2859, collection bodies shall make available to the ESAP the relevant accompanying metadata in accordance with the table of the Annex to this Regulation."
+},
+{
+"k": "fa0508c01f09",
+"doc": "32025R1339",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "Collection bodies shall provide the metadata in a common format in accordance with the ISO 20022 methodology."
+},
+{
+"k": "de985d18fca9",
+"doc": "32025R1339",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "Where the information is prepared in a machine-readable format pursuant to any of the Union legislative acts referred to in Article 1(1), point (a), of Regulation (EU) 2023/2859, collection bodies shall ensure that the metadata for that information is provided either in accordance with the ISO 20022 methodology or in the same format as the information."
+},
+{
+"k": "35ce52f1c772",
+"doc": "32025R1339",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Without prejudice to other legal obligations stemming from Union legislative acts, collection bodies shall provide to the ESAP the information, the metadata for that information and, where required, the qualified electronic seal as soon as possible, and no later than 60 minutes after the information has been submitted to the collection body for the purpose of making it accessible on the ESAP and the submission of the information has passed the technical automated validations referred to in Article 1."
+},
+{
+"k": "7c842ea6c59e",
+"doc": "32025R1339",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "In that case, collection bodies shall inform ESMA as soon as possible during their working hours and undertake their best efforts to provide the information within 60 minutes after the resolution of the relevant exceptional circumstance."
+},
+{
+"k": "c59b53a372c7",
+"doc": "32025R1339",
+"art": "Annex",
+"chapeau": "",
+"clause": "Voluntary or mandatory nature of the information submitted"
+},
+{
+"k": "5c24654088ef",
+"doc": "32025R1339",
+"art": "Annex",
+"chapeau": "",
+"clause": "‘false’ – mandatory"
+},
+{
+"k": "bda5d30f1025",
+"doc": "32025R1979",
+"art": "Art. 1",
+"chapeau": "",
+"clause": "PSPs shall report on the level of charges for credit transfers, instant credit transfers and payment accounts by submitting the information specified in templates 1.1, 1.2, 2.1, 2.2 and 3 set out in Annex I and in accordance with the instructions set out in Annex II."
+},
+{
+"k": "9060a3e756b7",
+"doc": "32025R1979",
+"art": "Art. 1",
+"chapeau": "",
+"clause": "PSPs shall report the annual aggregate figures up until 31 of December of the calendar year preceding the year in which the report is submitted."
+},
+{
+"k": "0b8ecd1448a3",
+"doc": "32025R1979",
+"art": "Art. 1",
+"chapeau": "",
+"clause": "By way of derogation from paragraph 2, the first harmonised report shall contain aggregate figures for each year preceding the year in which the report is submitted, starting with the period of 26 October 2022 – 31 December 2022, for 2022."
+},
+{
+"k": "e3e1780b89cc",
+"doc": "32025R1979",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "PSPs shall report the share of instant credit transfer transactions that have been rejected due to targeted financial restrictive measures, as referred to in Article 15(3) of Regulation (EU) No 260/2012, including separate data for national and cross-border transactions, by submitting the information specified in template 4 set out in Annex I and in accordance with the instructions set out in Annex II."
+},
+{
+"k": "7a0bbe9bad8a",
+"doc": "32025R1979",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "The reports shall include the number of rejections for the calendar year preceding the year in which the report is submitted."
+},
+{
+"k": "e4c9e819142d",
+"doc": "32025R1979",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "By way of derogation from paragraph 2, the first harmonised report shall contain the completed templates with the number of rejections for each year preceding the year in which the report is submitted, starting with the period of 26 October 2022 – 31 December 2022, for 2022."
+},
+{
+"k": "9394e5b9d50f",
+"doc": "32025R1979",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "PSPs shall submit the information referred to in Articles 1 and 2 of this Regulation in the data exchange formats and representations specified by the competent authorities, and respect the data point definition of the data point model and the validation formulae made available on the EBA website."
+},
+{
+"k": "3dcdf900951f",
+"doc": "32025R1979",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "PSPs shall comply with the following specifications:"
+}
+]

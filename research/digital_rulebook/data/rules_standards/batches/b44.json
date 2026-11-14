@@ -1,0 +1,702 @@
+[
+{
+"k": "4fb070325636",
+"doc": "32012R0260",
+"art": "Art. 15",
+"chapeau": "",
+"clause": "By 1 February 2017, the Commission shall present to the European Parliament, the Council, the European Economic and Social Committee, ECB and EBA a report on the application of this Regulation accompanied, if appropriate, by a proposal."
+},
+{
+"k": "ace451792c3b",
+"doc": "32012R0260",
+"art": "Art. 16",
+"chapeau": "",
+"clause": "That payment account identifier shall be delivered to the initiating PSU, where appropriate before the payment is executed."
+},
+{
+"k": "76a26a44975c",
+"doc": "32012R0260",
+"art": "Art. 16",
+"chapeau": "",
+"clause": "In such a case PSPs shall not levy any charges or other fees on the PSU directly or indirectly linked to those conversion services."
+},
+{
+"k": "c975529c1a04",
+"doc": "32012R0260",
+"art": "Art. 16",
+"chapeau": "",
+"clause": "PSPs that offer payment services denominated in euro and that are located in a Member State which does not have the euro as its currency shall comply with Article 3 when offering payment services denominated in euro by 31 October 2016."
+},
+{
+"k": "8796639deb06",
+"doc": "32012R0260",
+"art": "Art. 16",
+"chapeau": "",
+"clause": "If, however, the euro is introduced as the currency of any such Member State before 31 October 2015, the PSP located in that Member State shall comply with Article 3 within 1 year of the date on which the Member State concerned joined the euro area."
+},
+{
+"k": "059b070057a0",
+"doc": "32012R0260",
+"art": "Art. 16",
+"chapeau": "",
+"clause": "By way of derogation from Article 6(1) and (2), Member States may allow their competent authorities, until 1 February 2016, to waive the specific requirement to use the message formats specified in point (1)(b) of the Annex set out in Article 5(1)(d) for PSUs which initiate or receive individual credit transfers or direct debits that are bundled together for transmission."
+},
+{
+"k": "95ed2da7ae65",
+"doc": "32012R0260",
+"art": "Art. 16",
+"chapeau": "",
+"clause": "Notwithstanding a possible waiver, PSPs shall fulfil the requirements set out in Article 5(1)(d) where a PSU requests such a service."
+},
+{
+"k": "9301af361262",
+"doc": "32012R0260",
+"art": "Art. 16",
+"chapeau": "",
+"clause": "Where a Member State intends to make use of a derogation as provided for in paragraph 1, 3, 4, 5 or 6, that Member State shall notify the Commission accordingly by 1 February 2013, and shall subsequently allow its competent authority to waive, as relevant, some or all of the requirements set out in Article 5, Article 6(1) or (2) and the Annex, for the relevant payment transactions as referred to in the respective paragraphs or subparagraphs and for a period not exceeding that of the derogation."
+},
+{
+"k": "7cf17db25a5d",
+"doc": "32012R0260",
+"art": "Art. 16",
+"chapeau": "",
+"clause": "Member States shall notify the Commission of the payment transactions subject to the derogation and of any subsequent change."
+},
+{
+"k": "0d6599b136a7",
+"doc": "32012R0260",
+"art": "Art. 16",
+"chapeau": "",
+"clause": "PSPs located in, and PSUs making use of a payment service in a Member State which does not have the euro as its currency shall comply with the requirements of Articles 4 and 5 by 31 October 2016."
+},
+{
+"k": "98aa754e8aca",
+"doc": "32012R0260",
+"art": "Art. 16",
+"chapeau": "",
+"clause": "Operators of retail payment systems for a Member State which does not have the euro as its currency shall comply with the requirements of Article 4(2) by 31 October 2016."
+},
+{
+"k": "5a90700c030e",
+"doc": "32012R0260",
+"art": "Art. 16",
+"chapeau": "",
+"clause": "If, however, the euro is introduced as the currency of any such Member State before 31 October 2015, the PSPs or where relevant operators of retail payment systems located and PSUs making use of a payment service, in that Member State shall comply with the respective provisions within 1 year of the date on which the Member State concerned joined the euro area, but not earlier than the respective dates specified for the Member States having the euro as their own currency on 31 March 2012."
+},
+{
+"k": "52155d929dc6",
+"doc": "32012R0260",
+"art": "Annex",
+"chapeau": "In addition to the essential requirements set out in Article 5, the following technical requirements shall apply to credit transfers and direct debit transactions:",
+"clause": "The payment account identifier referred to in Article 5(1)(a) and (c) must be IBAN."
+},
+{
+"k": "8949e1752196",
+"doc": "32012R0260",
+"art": "Annex",
+"chapeau": "In addition to the essential requirements set out in Article 5, the following technical requirements shall apply to credit transfers and direct debit transactions:",
+"clause": "The standard for message format referred to in Article 5(1)(b) and (d) must be the ISO 20022 XML standard."
+},
+{
+"k": "0c5b786d4760",
+"doc": "32012R0260",
+"art": "Annex",
+"chapeau": "In addition to the essential requirements set out in Article 5, the following technical requirements shall apply to credit transfers and direct debit transactions:",
+"clause": "The remittance data field must allow for 140 characters."
+},
+{
+"k": "19c736ea0f59",
+"doc": "32012R0260",
+"art": "Annex",
+"chapeau": "In addition to the essential requirements set out in Article 5, the following technical requirements shall apply to credit transfers and direct debit transactions:",
+"clause": "Remittance reference information and all the other data elements provided in accordance with points (2) and (3) of this Annex must be passed in full and without alteration between PSPs in the payment chain."
+},
+{
+"k": "5815c24fec4e",
+"doc": "32012R0260",
+"art": "Annex",
+"chapeau": "In addition to the essential requirements set out in Article 5, the following technical requirements shall apply to credit transfers and direct debit transactions:",
+"clause": "Once the required data is available in electronic form payment transactions must allow for a fully automated, electronic processing in all process stages throughout the payment chain (end-to-end straight through processing), enabling the entire payment process to be conducted electronically without the need for re-keying or manual intervention."
+},
+{
+"k": "94f2b3033d42",
+"doc": "32012R0260",
+"art": "Annex",
+"chapeau": "In addition to the essential requirements set out in Article 5, the following technical requirements shall apply to credit transfers and direct debit transactions:",
+"clause": "This must also apply to exceptional handling of credit transfers and direct debit transactions, whenever possible."
+},
+{
+"k": "3d56b1e0e362",
+"doc": "32012R0260",
+"art": "Annex",
+"chapeau": "In addition to the essential requirements set out in Article 5, the following technical requirements shall apply to credit transfers and direct debit transactions:",
+"clause": "Payment schemes must set no minimum threshold for the amount of the payment transaction allowing for credit transfers and direct debits but are not required to process payment transactions with zero amount."
+},
+{
+"k": "bf1d88a6be82",
+"doc": "32012R0260",
+"art": "Annex",
+"chapeau": "In addition to the essential requirements set out in Article 5, the following technical requirements shall apply to credit transfers and direct debit transactions:",
+"clause": "Payment schemes are not obliged to carry out credit transfers and direct debits exceeding the amount of EUR 999 999 999,99."
+},
+{
+"k": "282604af66c2",
+"doc": "32012R0260",
+"art": "Annex",
+"chapeau": "The data elements referred to in Article 5(2)(b) are the following:",
+"clause": "In addition, the following mandatory data elements are to be provided by the payer’s PSP to the payee’s PSP:"
+},
+{
+"k": "8e55346b431a",
+"doc": "32013L0011",
+"art": "Art. 1",
+"chapeau": "",
+"clause": "This Directive is without prejudice to national legislation making participation in such procedures mandatory, provided that such legislation does not prevent the parties from exercising their right of access to the judicial system."
+},
+{
+"k": "52efd85d17b7",
+"doc": "32013L0011",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "Save as otherwise set out in this Directive, if any provision of this Directive conflicts with a provision laid down in another Union legal act and relating to out-of-court redress procedures initiated by a consumer against a trader, the provision of this Directive shall prevail."
+},
+{
+"k": "e506721cfd56",
+"doc": "32013L0011",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "Member States shall facilitate access by consumers to ADR procedures and shall ensure that disputes covered by this Directive and which involve a trader established on their respective territories can be submitted to an ADR entity which complies with the requirements set out in this Directive."
+},
+{
+"k": "d4196891f92b",
+"doc": "32013L0011",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "Member States shall ensure that ADR entities:"
+},
+{
+"k": "66939f0b3842",
+"doc": "32013L0011",
+"art": "Art. 5",
+"chapeau": "4. Member States may, at their discretion, permit ADR entities to maintain and introduce procedural rules that allow them to refuse to deal with a given dispute on the grounds that:",
+"clause": "the consumer has not submitted the complaint to the ADR entity within a pre-specified time limit, which shall not be set at less than one year from the date upon which the consumer submitted the complaint to the trader;"
+},
+{
+"k": "c0ecc3e30f54",
+"doc": "32013L0011",
+"art": "Art. 5",
+"chapeau": "4. Member States may, at their discretion, permit ADR entities to maintain and introduce procedural rules that allow them to refuse to deal with a given dispute on the grounds that:",
+"clause": "Where, in accordance with its procedural rules, an ADR entity is unable to consider a dispute that has been submitted to it, that ADR entity shall provide both parties with a reasoned explanation of the grounds for not considering the dispute within three weeks of receiving the complaint file."
+},
+{
+"k": "6be32343eec0",
+"doc": "32013L0011",
+"art": "Art. 5",
+"chapeau": "4. Member States may, at their discretion, permit ADR entities to maintain and introduce procedural rules that allow them to refuse to deal with a given dispute on the grounds that:",
+"clause": "Such procedural rules shall not significantly impair consumers’ access to ADR procedures, including in the case of cross-border disputes."
+},
+{
+"k": "be317f12ac7d",
+"doc": "32013L0011",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "Member States shall ensure that, when ADR entities are permitted to establish pre-specified monetary thresholds in order to limit access to ADR procedures, those thresholds are not set at a level at which they significantly impair the consumers’ access to complaint handling by ADR entities."
+},
+{
+"k": "b4719d4f5512",
+"doc": "32013L0011",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "Where, in accordance with the procedural rules referred to in paragraph 4, an ADR entity is unable to consider a complaint that has been submitted to it, a Member State shall not be required to ensure that the consumer can submit his complaint to another ADR entity."
+},
+{
+"k": "91b5a739e420",
+"doc": "32013L0011",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Member States shall ensure that the natural persons in charge of ADR possess the necessary expertise and are independent and impartial."
+},
+{
+"k": "87e9aee9acc4",
+"doc": "32013L0011",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "This shall be guaranteed by ensuring that such persons:"
+},
+{
+"k": "113c46e2aa33",
+"doc": "32013L0011",
+"art": "Art. 6",
+"chapeau": "1. Member States shall ensure that the natural persons in charge of ADR possess the necessary expertise and are independent and impartial. This shall be guaranteed by ensuring that such persons:",
+"clause": "The obligation to disclose such circumstances shall be a continuing obligation throughout the ADR procedure."
+},
+{
+"k": "1690a11e29fb",
+"doc": "32013L0011",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Member States shall ensure that ADR entities have in place procedures to ensure that in the case of circumstances referred to in point (e) of paragraph 1:"
+},
+{
+"k": "a440faf0d232",
+"doc": "32013L0011",
+"art": "Art. 6",
+"chapeau": "2. Member States shall ensure that ADR entities have in place procedures to ensure that in the case of circumstances referred to in point (e) of paragraph 1:",
+"clause": "the natural person concerned is replaced by another natural person that shall be entrusted with conducting the ADR procedure;"
+},
+{
+"k": "e2e516ac4755",
+"doc": "32013L0011",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Where Member States decide to allow procedures referred to in point (a) of Article 2(2) as ADR procedures under this Directive, they shall ensure that, in addition to the general requirements set out in paragraphs 1 and 5, those procedures comply with the following specific requirements:"
+},
+{
+"k": "bbdc6bd5ecb7",
+"doc": "32013L0011",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Where the natural persons in charge of ADR are employed or remunerated exclusively by a professional organisation or a business association of which the trader is a member, Member States shall ensure that, in addition to the general requirements set out in paragraphs 1 and 5, they have a separate and dedicated budget at their disposal which is sufficient to fulfil their tasks."
+},
+{
+"k": "f616451d1bf8",
+"doc": "32013L0011",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Member States shall ensure that ADR entities where the natural persons in charge of dispute resolution form part of a collegial body provide for an equal number of representatives of consumers’ interests and of representatives of traders’ interests in that body."
+},
+{
+"k": "b94529843ffb",
+"doc": "32013L0011",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "For the purposes of point (a) of paragraph 1, Member States shall encourage ADR entities to provide training for natural persons in charge of ADR."
+},
+{
+"k": "438b31770671",
+"doc": "32013L0011",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "If such training is provided, competent authorities shall monitor the training schemes established by ADR entities, on the basis of information communicated to them in accordance with point (g) of Article 19(3)."
+},
+{
+"k": "fba9641f4fde",
+"doc": "32013L0011",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "Member States shall ensure that ADR entities make publicly available on their websites, on a durable medium upon request, and by any other means they consider appropriate, clear and easily understandable information on:"
+},
+{
+"k": "1f0b1b75fc26",
+"doc": "32013L0011",
+"art": "Art. 7",
+"chapeau": "1. Member States shall ensure that ADR entities make publicly available on their websites, on a durable medium upon request, and by any other means they consider appropriate, clear and easily understandable information on:",
+"clause": "any preliminary requirements the parties may have to meet before an ADR procedure can be instituted, including the requirement that an attempt be made by the consumer to resolve the matter directly with the trader;"
+},
+{
+"k": "bdbee577f47e",
+"doc": "32013L0011",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "Member States shall ensure that ADR entities make publicly available on their websites, on a durable medium upon request, and by any other means they consider appropriate, annual activity reports."
+},
+{
+"k": "ec7105988eae",
+"doc": "32013L0011",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "Those reports shall include the following information relating to both domestic and cross-border disputes:"
+},
+{
+"k": "d2cdd2728d95",
+"doc": "32013L0011",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "Member States shall ensure that ADR procedures are effective and fulfil the following requirements:"
+},
+{
+"k": "d459d47059b5",
+"doc": "32013L0011",
+"art": "Art. 8",
+"chapeau": "Member States shall ensure that ADR procedures are effective and fulfil the following requirements:",
+"clause": "the parties have access to the procedure without being obliged to retain a lawyer or a legal advisor, but the procedure shall not deprive the parties of their right to independent advice or to be represented or assisted by a third party at any stage of the procedure;"
+},
+{
+"k": "eeb021f3844f",
+"doc": "32013L0011",
+"art": "Art. 8",
+"chapeau": "Member States shall ensure that ADR procedures are effective and fulfil the following requirements:",
+"clause": "The parties shall be informed of any extension of that period and of the expected length of time that will be needed for the conclusion of the dispute."
+},
+{
+"k": "1250b15fa6d9",
+"doc": "32013L0011",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "Member States shall ensure that in ADR procedures:"
+},
+{
+"k": "7e88e5e4e971",
+"doc": "32013L0011",
+"art": "Art. 9",
+"chapeau": "1. Member States shall ensure that in ADR procedures:",
+"clause": "the parties are informed that they are not obliged to retain a lawyer or a legal advisor, but they may seek independent advice or be represented or assisted by a third party at any stage of the procedure;"
+},
+{
+"k": "74babb88885a",
+"doc": "32013L0011",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "In ADR procedures which aim at resolving the dispute by proposing a solution, Member States shall ensure that:"
+},
+{
+"k": "b59d7258ce23",
+"doc": "32013L0011",
+"art": "Art. 9",
+"chapeau": "2. In ADR procedures which aim at resolving the dispute by proposing a solution, Member States shall ensure that:",
+"clause": "They shall be informed of that right before the procedure commences."
+},
+{
+"k": "c32afa4e340c",
+"doc": "32013L0011",
+"art": "Art. 9",
+"chapeau": "2. In ADR procedures which aim at resolving the dispute by proposing a solution, Member States shall ensure that:",
+"clause": "Where national rules provide for mandatory participation by the trader in ADR procedures, this point shall apply only to the consumer."
+},
+{
+"k": "ce0da02b578d",
+"doc": "32013L0011",
+"art": "Art. 10",
+"chapeau": "",
+"clause": "Member States shall ensure that an agreement between a consumer and a trader to submit complaints to an ADR entity is not binding on the consumer if it was concluded before the dispute has materialised and if it has the effect of depriving the consumer of his right to bring an action before the courts for the settlement of the dispute."
+},
+{
+"k": "139bc464b8b4",
+"doc": "32013L0011",
+"art": "Art. 10",
+"chapeau": "",
+"clause": "Member States shall ensure that in ADR procedures which aim at resolving the dispute by imposing a solution the solution imposed may be binding on the parties only if they were informed of its binding nature in advance and specifically accepted this."
+},
+{
+"k": "4a54b3643244",
+"doc": "32013L0011",
+"art": "Art. 10",
+"chapeau": "",
+"clause": "Specific acceptance by the trader is not required if national rules provide that solutions are binding on traders."
+},
+{
+"k": "8381040da1dd",
+"doc": "32013L0011",
+"art": "Art. 11",
+"chapeau": "",
+"clause": "Member States shall ensure that in ADR procedures which aim at resolving the dispute by imposing a solution on the consumer:"
+},
+{
+"k": "9e92a133bf55",
+"doc": "32013L0011",
+"art": "Art. 11",
+"chapeau": "1. Member States shall ensure that in ADR procedures which aim at resolving the dispute by imposing a solution on the consumer:",
+"clause": "in a situation involving a conflict of laws, where the law applicable to the sales or service contract is determined in accordance with Article 5(1) to (3) of the Rome Convention of 19 June 1980 on the law applicable to contractual obligations, the solution imposed by the ADR entity shall not result in the consumer being deprived of the protection afforded to him by the mandatory rules of the law of the Member State in which he is habitually resident."
+},
+{
+"k": "bcb160346b68",
+"doc": "32013L0011",
+"art": "Art. 12",
+"chapeau": "",
+"clause": "Member States shall ensure that parties who, in an attempt to settle a dispute, have recourse to ADR procedures the outcome of which is not binding, are not subsequently prevented from initiating judicial proceedings in relation to that dispute as a result of the expiry of limitation or prescription periods during the ADR procedure."
+},
+{
+"k": "0878a68c8754",
+"doc": "32013L0011",
+"art": "Art. 13",
+"chapeau": "",
+"clause": "Member States shall ensure that traders established on their territories inform consumers about the ADR entity or ADR entities by which those traders are covered, when those traders commit to or are obliged to use those entities to resolve disputes with consumers."
+},
+{
+"k": "3b2ccdaa334a",
+"doc": "32013L0011",
+"art": "Art. 13",
+"chapeau": "",
+"clause": "That information shall include the website address of the relevant ADR entity or ADR entities."
+},
+{
+"k": "95ffc870d30c",
+"doc": "32013L0011",
+"art": "Art. 13",
+"chapeau": "",
+"clause": "The information referred to in paragraph 1 shall be provided in a clear, comprehensible and easily accessible way on the traders’ website, where one exists, and, if applicable, in the general terms and conditions of sales or service contracts between the trader and a consumer."
+},
+{
+"k": "395c6e3f6deb",
+"doc": "32013L0011",
+"art": "Art. 13",
+"chapeau": "",
+"clause": "Member States shall ensure that, in cases where a dispute between a consumer and a trader established in their territory could not be settled further to a complaint submitted directly by the consumer to the trader, the trader provides the consumer with the information referred to in paragraph 1, specifying whether he will make use of the relevant ADR entities to settle the dispute."
+},
+{
+"k": "5436dd708db3",
+"doc": "32013L0011",
+"art": "Art. 13",
+"chapeau": "",
+"clause": "That information shall be provided on paper or on another durable medium."
+},
+{
+"k": "26fbbc82aea6",
+"doc": "32013L0011",
+"art": "Art. 14",
+"chapeau": "",
+"clause": "Member States shall ensure that, with regard to disputes arising from cross-border sales or service contracts, consumers can obtain assistance to access the ADR entity operating in another Member State which is competent to deal with their cross-border dispute."
+},
+{
+"k": "bf32d0815b19",
+"doc": "32013L0011",
+"art": "Art. 14",
+"chapeau": "",
+"clause": "Member States shall confer responsibility for the task referred to in paragraph 1 on their centres of the European Consumer Centre Network, on consumer organisations or on any other body."
+},
+{
+"k": "2c195df75a62",
+"doc": "32013L0011",
+"art": "Art. 15",
+"chapeau": "",
+"clause": "Member States shall ensure that ADR entities, the centres of the European Consumer Centre Network and, where appropriate, the bodies designated in accordance with Article 14(2) make publicly available on their websites, by providing a link to the Commission’s website, and whenever possible on a durable medium at their premises, the list of ADR entities referred to in Article 20(4)."
+},
+{
+"k": "bff1b07f23a8",
+"doc": "32013L0011",
+"art": "Art. 15",
+"chapeau": "",
+"clause": "Member States shall encourage relevant consumer organisations and business associations to make publicly available on their websites, and by any other means they consider appropriate, the list of ADR entities referred to in Article 20(4)."
+},
+{
+"k": "b5d604bd93d7",
+"doc": "32013L0011",
+"art": "Art. 15",
+"chapeau": "",
+"clause": "The Commission and Member States shall ensure appropriate dissemination of information on how consumers can access ADR procedures for resolving disputes covered by this Directive."
+},
+{
+"k": "696fb76f092d",
+"doc": "32013L0011",
+"art": "Art. 15",
+"chapeau": "",
+"clause": "The Commission and the Member States shall take accompanying measures to encourage consumer organisations and professional organisations, at Union and at national level, to raise awareness of ADR entities and their procedures and to promote ADR take-up by traders and consumers."
+},
+{
+"k": "a4e2d8d3cb18",
+"doc": "32013L0011",
+"art": "Art. 15",
+"chapeau": "",
+"clause": "Those bodies shall also be encouraged to provide consumers with information about competent ADR entities when they receive complaints from consumers."
+},
+{
+"k": "a38f078c9bae",
+"doc": "32013L0011",
+"art": "Art. 16",
+"chapeau": "",
+"clause": "Member States shall ensure that ADR entities cooperate in the resolution of cross-border disputes and conduct regular exchanges of best practices as regards the settlement of both cross-border and domestic disputes."
+},
+{
+"k": "0fcba95769e1",
+"doc": "32013L0011",
+"art": "Art. 16",
+"chapeau": "",
+"clause": "The Commission shall support and facilitate the networking of national ADR entities and the exchange and dissemination of their best practices and experiences."
+},
+{
+"k": "f3c5ca35d3cd",
+"doc": "32013L0011",
+"art": "Art. 16",
+"chapeau": "",
+"clause": "Where a network of ADR entities facilitating the resolution of cross-border disputes exists in a sector-specific area within the Union, Member States shall encourage ADR entities that deal with disputes in that area to become a member of that network."
+},
+{
+"k": "42d0a07c60d3",
+"doc": "32013L0011",
+"art": "Art. 16",
+"chapeau": "",
+"clause": "The Commission shall publish a list containing the names and contact details of the networks referred to in paragraph 3."
+},
+{
+"k": "44b8cef47122",
+"doc": "32013L0011",
+"art": "Art. 16",
+"chapeau": "",
+"clause": "The Commission shall, when necessary, update this list."
+},
+{
+"k": "1ad15680bb9b",
+"doc": "32013L0011",
+"art": "Art. 17",
+"chapeau": "",
+"clause": "Member States shall ensure cooperation between ADR entities and national authorities entrusted with the enforcement of Union legal acts on consumer protection."
+},
+{
+"k": "211681e8cc3a",
+"doc": "32013L0011",
+"art": "Art. 17",
+"chapeau": "",
+"clause": "This cooperation shall in particular include mutual exchange of information on practices in specific business sectors about which consumers have repeatedly lodged complaints."
+},
+{
+"k": "d14fb89f5b56",
+"doc": "32013L0011",
+"art": "Art. 17",
+"chapeau": "",
+"clause": "It shall also include the provision of technical assessment and information by such national authorities to ADR entities where such assessment or information is necessary for the handling of individual disputes and is already available."
+},
+{
+"k": "6bee79741850",
+"doc": "32013L0011",
+"art": "Art. 17",
+"chapeau": "",
+"clause": "Member States shall ensure that cooperation and mutual information exchanges referred to in paragraphs 1 and 2 comply with the rules on the protection of personal data laid down in Directive 95/46/EC."
+},
+{
+"k": "602472e20f70",
+"doc": "32013L0011",
+"art": "Art. 17",
+"chapeau": "",
+"clause": "ADR entities shall be subject to rules of professional secrecy or other equivalent duties of confidentiality laid down in the legislation of the Member States where they are established."
+},
+{
+"k": "e097c65185bb",
+"doc": "32013L0011",
+"art": "Art. 18",
+"chapeau": "",
+"clause": "Each Member State shall designate a competent authority which shall carry out the functions set out in Articles 19 and 20."
+},
+{
+"k": "03d0d0cb0aba",
+"doc": "32013L0011",
+"art": "Art. 18",
+"chapeau": "",
+"clause": "If a Member State does so, it shall determine which of the competent authorities designated is the single point of contact for the Commission."
+},
+{
+"k": "ef2b65c5e963",
+"doc": "32013L0011",
+"art": "Art. 18",
+"chapeau": "",
+"clause": "Each Member State shall communicate the competent authority or, where appropriate, the competent authorities, including the single point of contact it has designated, to the Commission."
+},
+{
+"k": "c40ff50415f0",
+"doc": "32013L0011",
+"art": "Art. 18",
+"chapeau": "",
+"clause": "The Commission shall establish a list of the competent authorities including, where appropriate, the single point of contact communicated to it in accordance with paragraph 1, and publish that list in the Official Journal of the European Union ."
+},
+{
+"k": "99f45148477f",
+"doc": "32013L0011",
+"art": "Art. 19",
+"chapeau": "",
+"clause": "Member States shall ensure that dispute resolution entities established on their territories, which intend to qualify as ADR entities under this Directive and be listed in accordance with Article 20(2), notify to the competent authority the following:"
+},
+{
+"k": "2477492c03e9",
+"doc": "32013L0011",
+"art": "Art. 19",
+"chapeau": "1. Member States shall ensure that dispute resolution entities established on their territories, which intend to qualify as ADR entities under this Directive and be listed in accordance with Article 20(2), notify to the competent authority the following:",
+"clause": "In the event of changes to the information referred to in points (a) to (h), ADR entities shall without undue delay notify those changes to the competent authority."
+},
+{
+"k": "9be8d0fd982a",
+"doc": "32013L0011",
+"art": "Art. 19",
+"chapeau": "",
+"clause": "Where Member States decide to allow procedures as referred to in point (a) of Article 2(2), they shall ensure that ADR entities applying such procedures notify to the competent authority, in addition to the information and statements referred to in paragraph 1, the information necessary to assess their compliance with the specific additional requirements of independence and transparency set out in Article 6(3)."
+},
+{
+"k": "ed0e1b05627b",
+"doc": "32013L0011",
+"art": "Art. 19",
+"chapeau": "",
+"clause": "Member States shall ensure that ADR entities communicate to the competent authorities every two years information on:"
+},
+{
+"k": "7be730dca993",
+"doc": "32013L0011",
+"art": "Art. 20",
+"chapeau": "",
+"clause": "Each competent authority shall assess, in particular on the basis of the information it has received in accordance with Article 19(1), whether the dispute resolution entities notified to it qualify as ADR entities falling within the scope of this Directive and comply with the quality requirements set out in Chapter II and in national provisions implementing it, including national provisions going beyond the requirements of this Directive, in conformity with Union law."
+},
+{
+"k": "ee9d55e2afbb",
+"doc": "32013L0011",
+"art": "Art. 20",
+"chapeau": "",
+"clause": "Each competent authority shall, on the basis of the assessment referred to in paragraph 1, list all the ADR entities that have been notified to it and fulfil the conditions set out in paragraph 1."
+},
+{
+"k": "8aa282650714",
+"doc": "32013L0011",
+"art": "Art. 20",
+"chapeau": "",
+"clause": "That list shall include the following:"
+},
+{
+"k": "30eebdbce839",
+"doc": "32013L0011",
+"art": "Art. 20",
+"chapeau": "That list shall include the following:",
+"clause": "Each competent authority shall notify the list referred to in the first subparagraph of this paragraph to the Commission."
+},
+{
+"k": "14f758d9aded",
+"doc": "32013L0011",
+"art": "Art. 20",
+"chapeau": "That list shall include the following:",
+"clause": "If any changes are notified to the competent authority in accordance with the second subparagraph of Article 19(1), that list shall be updated without undue delay and the relevant information notified to the Commission."
+},
+{
+"k": "b1247027bc29",
+"doc": "32013L0011",
+"art": "Art. 20",
+"chapeau": "That list shall include the following:",
+"clause": "If a dispute resolution entity listed as ADR entity under this Directive no longer complies with the requirements referred to in paragraph 1, the competent authority concerned shall contact that dispute resolution entity, stating the requirements the dispute resolution entity fails to comply with and requesting it to ensure compliance immediately."
+},
+{
+"k": "03e512bf431d",
+"doc": "32013L0011",
+"art": "Art. 20",
+"chapeau": "That list shall include the following:",
+"clause": "If the dispute resolution entity after a period of three months still does not fulfil the requirements referred to in paragraph 1, the competent authority shall remove the dispute resolution entity from the list referred to in the first subparagraph of this paragraph."
+},
+{
+"k": "5af9fbe09780",
+"doc": "32013L0011",
+"art": "Art. 20",
+"chapeau": "That list shall include the following:",
+"clause": "That list shall be updated without undue delay and the relevant information notified to the Commission."
+},
+{
+"k": "c0ab47a7452c",
+"doc": "32013L0011",
+"art": "Art. 20",
+"chapeau": "",
+"clause": "If a Member State has designated more than one competent authority, the list and its updates referred to in paragraph 2 shall be notified to the Commission by the single point of contact referred to in Article 18(1)."
+},
+{
+"k": "18872cd276ec",
+"doc": "32013L0011",
+"art": "Art. 20",
+"chapeau": "",
+"clause": "That list and those updates shall relate to all ADR entities established in that Member State."
+},
+{
+"k": "69198c44d28e",
+"doc": "32013L0011",
+"art": "Art. 20",
+"chapeau": "",
+"clause": "The Commission shall establish a list of the ADR entities notified to it in accordance with paragraph 2 and update that list whenever changes are notified to the Commission."
+},
+{
+"k": "fd6b91d9d86e",
+"doc": "32013L0011",
+"art": "Art. 20",
+"chapeau": "",
+"clause": "The Commission shall make publicly available that list and its updates on its website and on a durable medium."
+}
+]

@@ -52,6 +52,13 @@ M = {   # row_id: {type: rule}
     # law enforcement duties on service providers
     42: {"GK": "F", "PL": "F", "CL": "F", "TC": "F"}, 51: {"GK": "F", "PL": "F", "CL": "F"}, 53: {"GK": "F"},
     77: {"GK": r"hosting|intermediary|online platform", "PL": r"hosting|intermediary|online platform"},
+    # added November 2026 (notes/scope_2026-11.md); laws whose duties fall on Member States or public bodies only
+    # (116 RSPP, 117 700 MHz, 118 TRIS, 122 Conditional Access, 130 Cybercrime, 131 Child Sexual Abuse) and the
+    # Collective Rights Management Directive (121: collecting societies, outside the six types) are not counted
+    120: {B: "F"}, 123: {B: "F"}, 124: {B: "F"}, 129: {B: "F"},
+    119: {"PR": r"manufacturer|importer|distributor|product", "TC": r"electronic communications", "FI": r"bank|payment|financial",
+          "PL": r"e-commerce|e-book|service provider"},
+    125: {"FI": "F"}, 126: {"FI": "F"}, 127: {"FI": "F", "CL": r"crypto-asset"}, 128: {"FI": "F"},
 }
 
 wb = openpyxl.load_workbook("digital_rulebook.xlsx", read_only=True, data_only=True)

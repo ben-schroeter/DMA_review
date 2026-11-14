@@ -1,0 +1,702 @@
+[
+{
+"k": "25191875c2c4",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "The product, including its user interface, shall contain features, elements and functions, that allow persons with disabilities to access, perceive, operate, understand and control the product by ensuring that:",
+"clause": "when the product uses colour to convey information, indicate an action, require a response or identify elements, it shall provide an alternative to colour;"
+},
+{
+"k": "846487f39ab8",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "The product, including its user interface, shall contain features, elements and functions, that allow persons with disabilities to access, perceive, operate, understand and control the product by ensuring that:",
+"clause": "when the product uses audible signals to convey information, indicate an action, require a response or identify elements, it shall provide an alternative to audible signals;"
+},
+{
+"k": "3c83643f508e",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "The product, including its user interface, shall contain features, elements and functions, that allow persons with disabilities to access, perceive, operate, understand and control the product by ensuring that:",
+"clause": "when the product uses visual elements it shall provide for flexible ways of improving vision clarity;"
+},
+{
+"k": "08b1929bf340",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "The product, including its user interface, shall contain features, elements and functions, that allow persons with disabilities to access, perceive, operate, understand and control the product by ensuring that:",
+"clause": "when the product uses audio it shall provide for user control of volume and speed, and enhanced audio features including the reduction of interfering audio signals from surrounding products and audio clarity;"
+},
+{
+"k": "e9e1f6cd2be5",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "The product, including its user interface, shall contain features, elements and functions, that allow persons with disabilities to access, perceive, operate, understand and control the product by ensuring that:",
+"clause": "when the product requires manual operation and control, it shall provide for sequential control and alternatives to fine motor control, avoiding the need for simultaneous controls for manipulation, and shall use tactile discernible parts;"
+},
+{
+"k": "ee851bbb0714",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "The product, including its user interface, shall contain features, elements and functions, that allow persons with disabilities to access, perceive, operate, understand and control the product by ensuring that:",
+"clause": "the product shall avoid modes of operation requiring extensive reach and great strength;"
+},
+{
+"k": "0cfb069d5fb7",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "The product, including its user interface, shall contain features, elements and functions, that allow persons with disabilities to access, perceive, operate, understand and control the product by ensuring that:",
+"clause": "the product shall avoid triggering photosensitive seizures;"
+},
+{
+"k": "4e213a6620f1",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "The product, including its user interface, shall contain features, elements and functions, that allow persons with disabilities to access, perceive, operate, understand and control the product by ensuring that:",
+"clause": "the product shall protect the user’s privacy when he or she uses the accessibility features;"
+},
+{
+"k": "6239569d2b59",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "The product, including its user interface, shall contain features, elements and functions, that allow persons with disabilities to access, perceive, operate, understand and control the product by ensuring that:",
+"clause": "the product shall provide an alternative to biometrics identification and control;"
+},
+{
+"k": "008b28c06a73",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "The product, including its user interface, shall contain features, elements and functions, that allow persons with disabilities to access, perceive, operate, understand and control the product by ensuring that:",
+"clause": "the product shall ensure the consistency of the functionality and shall provide enough, and flexible amounts of, time for interaction;"
+},
+{
+"k": "3fbea0c528b5",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "The product, including its user interface, shall contain features, elements and functions, that allow persons with disabilities to access, perceive, operate, understand and control the product by ensuring that:",
+"clause": "the product shall provide software and hardware for interfacing with the assistive technologies;"
+},
+{
+"k": "efd390311114",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "The product, including its user interface, shall contain features, elements and functions, that allow persons with disabilities to access, perceive, operate, understand and control the product by ensuring that:",
+"clause": "the product shall comply with the following sector-specific requirements:"
+},
+{
+"k": "b21fd7bf5b0a",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "self-service terminals:",
+"clause": "shall provide for text-to-speech technology;"
+},
+{
+"k": "7c0655997db4",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "self-service terminals:",
+"clause": "shall allow for the use of personal headsets;"
+},
+{
+"k": "e8bfa0775dda",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "self-service terminals:",
+"clause": "where a timed response is required, shall alert the user via more than one sensory channel;"
+},
+{
+"k": "d99fc7c14cc0",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "self-service terminals:",
+"clause": "shall give the possibility to extend the time given;"
+},
+{
+"k": "81f860beb9de",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "self-service terminals:",
+"clause": "shall have an adequate contrast and tactilely discernible keys and controls when keys and controls are available;"
+},
+{
+"k": "13511ec52dd3",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "self-service terminals:",
+"clause": "shall not require an accessibility feature to be activated in order to enable a user who needs the feature to turn it on;"
+},
+{
+"k": "6cc796833d66",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "self-service terminals:",
+"clause": "when the product uses audio or audible signals, it shall be compatible with assistive devices and technologies available at Union level, including hearing technologies such as hearing aids, telecoils, cochlear implants and assistive listening devices;"
+},
+{
+"k": "dc1f0e191370",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "self-service terminals:",
+"clause": "e-readers shall provide for text-to-speech technology;"
+},
+{
+"k": "cc5cfcae761f",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "consumer terminal equipment with interactive computing capability, used for the provision of electronic communications services:",
+"clause": "shall, when such products have text capability in addition to voice, provide for the handling of real time text and support high fidelity audio;"
+},
+{
+"k": "38164a79c9e7",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "consumer terminal equipment with interactive computing capability, used for the provision of electronic communications services:",
+"clause": "shall, when they have video capabilities in addition to or in combination with text and voice, provide for the handling of total conversation including synchronised voice, real time text, and video with a resolution enabling sign language communication;"
+},
+{
+"k": "c81fa4a2b120",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "consumer terminal equipment with interactive computing capability, used for the provision of electronic communications services:",
+"clause": "shall ensure effective wireless coupling to hearing technologies;"
+},
+{
+"k": "f8f736d2175e",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "consumer terminal equipment with interactive computing capability, used for the provision of electronic communications services:",
+"clause": "shall avoid interferences with assistive devices;"
+},
+{
+"k": "fe06b322901b",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "consumer terminal equipment with interactive computing capability, used for the provision of electronic communications services:",
+"clause": "consumer terminal equipment with interactive computing capability, used for accessing audio visual media services shall make available to persons with disabilities the accessibility components provided by the audiovisual media service provider, for user access, selection, control, and personalisation and for transmission to assistive devices."
+},
+{
+"k": "f0d16a87064e",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "Support services:",
+"clause": "Where available, support services (help desks, call centres, technical support, relay services and training services) shall provide information on the accessibility of the product and its compatibility with assistive technologies, in accessible modes of communication."
+},
+{
+"k": "50ce86ee8b5c",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "Support services:",
+"clause": "In addition to the requirements of Section I, the packaging and instructions of products covered by this Section shall be made accessible, in order to maximise their foreseeable use by persons with disabilities."
+},
+{
+"k": "be0ef1232b21",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "In addition to the requirements of Section I, the packaging and instructions of products covered by this Section shall be made accessible, in order to maximise their foreseeable use by persons with disabilities. This means that:",
+"clause": "the packaging of the product including the information provided in it (e.g. about opening, closing, use, disposal), including, when provided, information about the accessibility characteristics of the product, shall be made accessible;"
+},
+{
+"k": "ad1d893c9cc9",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "In addition to the requirements of Section I, the packaging and instructions of products covered by this Section shall be made accessible, in order to maximise their foreseeable use by persons with disabilities. This means that:",
+"clause": "and, when feasible, that accessible information shall be provided on the package;"
+},
+{
+"k": "2f2c894f17a2",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "In addition to the requirements of Section I, the packaging and instructions of products covered by this Section shall be made accessible, in order to maximise their foreseeable use by persons with disabilities. This means that:",
+"clause": "the instructions for the installation and maintenance, storage and disposal of the product not provided on the product itself but made available through other means, such as a website, shall be publicly available when the product is placed on the market and shall comply with the following requirements:"
+},
+{
+"k": "34bfc757c286",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "the instructions for the installation and maintenance, storage and disposal of the product not provided on the product itself but made available through other means, such as a website, shall be publicly available when the product is placed on the market and shall comply with the following requirements:",
+"clause": "content of instructions shall be made available in text formats that can be used for generating alternative assistive formats to be presented in different ways and via more than one sensory channel;"
+},
+{
+"k": "10a803768bd6",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "the instructions for the installation and maintenance, storage and disposal of the product not provided on the product itself but made available through other means, such as a website, shall be publicly available when the product is placed on the market and shall comply with the following requirements:",
+"clause": "instructions containing any non-textual content shall be accompanied by an alternative presentation of that content."
+},
+{
+"k": "f438d567417e",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "the instructions for the installation and maintenance, storage and disposal of the product not provided on the product itself but made available through other means, such as a website, shall be publicly available when the product is placed on the market and shall comply with the following requirements:",
+"clause": "The provision of services in order to maximise their foreseeable use by persons with disabilities, shall be achieved by:"
+},
+{
+"k": "728937d3679c",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "providing information about the functioning of the service, and where products are used in the provision of the service, its link to these products as well as information about their accessibility characteristics and interoperability with assistive devices and facilities:",
+"clause": "The provision of services in order to maximise their foreseeable use by persons with disabilities, shall be achieved by including functions, practices, policies and procedures and alterations in the operation of the service targeted to address the needs of persons with disabilities and ensure interoperability with assistive technologies:"
+},
+{
+"k": "063d15c903f3",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "E-Commerce services:",
+"clause": "In order to maximise their foreseeable use by persons with disabilities, the answering of emergency communications to the single European emergency number ‘112’ by the most appropriate PSAP, shall be achieved by including functions, practices, policies and procedures and alterations targeted to address the needs of persons with disabilities."
+},
+{
+"k": "ecc694551da8",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "E-Commerce services:",
+"clause": "Emergency communications to the single European emergency number ‘112’ shall be appropriately answered, in the manner best suited to the national organisation of emergency systems, by the most appropriate PSAP using the same communication means as received, namely by using synchronised voice and text (including real time text), or, where video is provided, voice, text (including real time text) and video synchronised as total conversation."
+},
+{
+"k": "faf7d40e93f7",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "Services:",
+"clause": "In order to maximise the foreseeable use by persons with disabilities, when the accessibility requirements, set out in Sections I to VI of this Annex, do not address one or more functions of the design and production of products or the provision of services those functions or means shall be accessible by complying with the related functional performance criteria."
+},
+{
+"k": "31f63f624768",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "Services:",
+"clause": "Those functional performance criteria may only be used as an alternative to one or more specific technical requirements, when these are referred to in the accessibility requirements, if and only if the application of the relevant functional performance criteria complies with the accessibility requirements and it determines that the design and production of products and the provision of services results in equivalent or increased accessibility for the foreseable use by persons with disabilities."
+},
+{
+"k": "0cb6d88b8977",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "Services:",
+"clause": "Where the product or service provides visual modes of operation, it shall provide at least one mode of operation that does not require vision."
+},
+{
+"k": "b1f9b002f5fa",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "Services:",
+"clause": "Where the product or service provides visual modes of operation, it shall provide at least one mode of operation that enables users to operate the product with limited vision."
+},
+{
+"k": "85cbebc0673e",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "Services:",
+"clause": "Where the product or service provides visual modes of operation, it shall provide at least one mode of operation that does not require user perception of colour."
+},
+{
+"k": "4da55d909ace",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "Services:",
+"clause": "Where the product or service provides auditory modes of operation, it shall provide at least one mode of operation that does not require hearing."
+},
+{
+"k": "10e1b8013f3c",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "Services:",
+"clause": "Where the product or service provides auditory modes of operation, it shall provide at least one mode of operation with enhanced audio features that enables users with limited hearing to operate the product."
+},
+{
+"k": "dfac813f62ee",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "Services:",
+"clause": "Where the product or service requires vocal input from users, it shall provide at least one mode of operation that does not require vocal input."
+},
+{
+"k": "dd1cd6367a88",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "Services:",
+"clause": "Where the product or service requires manual actions, it shall provide at least one mode of operation that enables users to make use of the product through alternative actions not requiring fine motor control and manipulation, hand strength or operation of more than one control at the same time."
+},
+{
+"k": "e428797ca010",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "Services:",
+"clause": "The operational elements of products shall be within reach of all users."
+},
+{
+"k": "5c7c65fa0d95",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "Services:",
+"clause": "Where the product or service provides a manual mode of operation, it shall provide at least one mode of operation that is operable with limited reach and limited strength."
+},
+{
+"k": "7172520458cc",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "Services:",
+"clause": "Where the product provides visual modes of operation, it shall avoid modes of operation that trigger photosensitive seizures."
+},
+{
+"k": "d189b178b0c4",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "Services:",
+"clause": "The product or service shall provide at least one mode of operation incorporating features that make it simpler and easier to use."
+},
+{
+"k": "a49bc819b8c9",
+"doc": "32019L0882",
+"art": "Annex I",
+"chapeau": "Services:",
+"clause": "Where the product or service incorporates features that are provided for accessibility, it shall provide at least one mode of operation that maintains privacy when using those features that are provided for accessibility."
+},
+{
+"k": "ad968f794198",
+"doc": "32019L0882",
+"art": "Annex Iii",
+"chapeau": "",
+"clause": "In order to maximise the foreseeable use in an independent manner by persons with disabilities of the built environment in which a service is provided and which is under the responsibility of the service provider, as referred to in Article 4(4), the accessibility of areas intended for public access shall include the following aspects:"
+},
+{
+"k": "87dbef07148e",
+"doc": "32019L0882",
+"art": "Annex Iv",
+"chapeau": "",
+"clause": "The technical documentation shall make it possible to assess the conformity of the product to the relevant accessibility requirements referred to in Article 4 and, in case the manufacturer relied on Article 14, to demonstrate that relevant accessibility requirements would introduce a fundamental alteration or impose a disproportionate burden."
+},
+{
+"k": "4935f0ac3dc9",
+"doc": "32019L0882",
+"art": "Annex Iv",
+"chapeau": "",
+"clause": "The technical documentation shall specify only the applicable requirements and cover, as far as relevant for the assessment, the design, manufacture and operation of the product."
+},
+{
+"k": "4455a9ddc11a",
+"doc": "32019L0882",
+"art": "Annex Iv",
+"chapeau": "The technical documentation shall, wherever applicable, contain at least the following elements:",
+"clause": "in the event of partly applied harmonised standards or technical specifications, the technical documentation shall specify the parts which have been applied."
+},
+{
+"k": "91788c926f93",
+"doc": "32019L0882",
+"art": "Annex Iv",
+"chapeau": "",
+"clause": "The manufacturer shall take all measures necessary so that the manufacturing process and its monitoring ensure compliance of the products with the technical documentation referred to in point 2 of this Annex and with the accessibility requirements of this Directive."
+},
+{
+"k": "9225b43a81cb",
+"doc": "32019L0882",
+"art": "Annex Iv",
+"chapeau": "",
+"clause": "The manufacturer shall affix the CE marking referred to in this Directive to each individual product that satisfies the applicable requirements of this Directive."
+},
+{
+"k": "b15cb23d1687",
+"doc": "32019L0882",
+"art": "Annex Iv",
+"chapeau": "",
+"clause": "The manufacturer shall draw up a written EU declaration of conformity for a product model."
+},
+{
+"k": "f64099d30f04",
+"doc": "32019L0882",
+"art": "Annex Iv",
+"chapeau": "",
+"clause": "The EU declaration of conformity shall identify the product for which it has been drawn up."
+},
+{
+"k": "56164b2e96ec",
+"doc": "32019L0882",
+"art": "Annex V",
+"chapeau": "",
+"clause": "The service provider shall include the information assessing how the service meets the accessibility requirements referred to in Article 4 in the general terms and conditions, or equivalent document."
+},
+{
+"k": "68eff83ad8dd",
+"doc": "32019L0882",
+"art": "Annex V",
+"chapeau": "",
+"clause": "The information shall describe the applicable requirements and cover, as far as relevant for the assessment the design and the operation of the service."
+},
+{
+"k": "2dbaac649896",
+"doc": "32019L0882",
+"art": "Annex V",
+"chapeau": "",
+"clause": "In addition to the consumer information requirements of Directive 2011/83/EU, the information shall, where applicable, contain the following elements:"
+},
+{
+"k": "f1346ef30daa",
+"doc": "32019L0882",
+"art": "Annex V",
+"chapeau": "quirements referred to in Article 4 in the general terms and conditions, or equivalent document. The information shall describe the applicable requirements and cover, as far as relevant for the assessment the design and the operation of the service. In addition to the consumer information requirements of Directive 2011/83/EU, the information shall, where applicable, contain the following elements:",
+"clause": "The service provider shall provide information demonstrating that the service delivery process and its monitoring ensure compliance of the service with point 1 of this Annex and with the applicable requirements of this Directive."
+},
+{
+"k": "e3162dd0cf19",
+"doc": "32020L1828",
+"art": "Art. 1",
+"chapeau": "",
+"clause": "However, Member States shall ensure that at least one procedural mechanism that allows qualified entities to bring representative actions for the purpose of both injunctive measures and redress measures complies with this Directive."
+},
+{
+"k": "9ddeb6e0b5e7",
+"doc": "32020L1828",
+"art": "Art. 1",
+"chapeau": "",
+"clause": "The implementation of this Directive shall not constitute grounds for the reduction of consumer protection in fields covered by the scope of the legal acts listed in Annex I."
+},
+{
+"k": "b7314331f34d",
+"doc": "32020L1828",
+"art": "Art. 1",
+"chapeau": "",
+"clause": "Qualified entities shall be free to choose any procedural means available to them under Union or national law for the protection of the collective interests of consumers."
+},
+{
+"k": "779cd1f41a1f",
+"doc": "32020L1828",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "Member States shall ensure that representative actions as provided for by this Directive can be brought by qualified entities designated by the Member States for this purpose."
+},
+{
+"k": "37cf1cd9ce7d",
+"doc": "32020L1828",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "Member States shall ensure that entities, in particular consumer organisations, including consumer organisations that represent members from more than one Member State, are eligible to be designated as qualified entities for the purpose of bringing domestic representative actions, cross-border representative actions, or both."
+},
+{
+"k": "270bd0e41c8c",
+"doc": "32020L1828",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "Member States shall designate an entity as referred to in paragraph 2 that has made a request for designation as a qualified entity for the purpose of bringing cross-border representative actions if that entity complies with all of the following criteria:"
+},
+{
+"k": "f356fe0df994",
+"doc": "32020L1828",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "Member States shall ensure that the criteria they use to designate an entity as a qualified entity for the purpose of bringing domestic representative actions are consistent with the objectives of this Directive in order to make the functioning of such representative actions effective and efficient."
+},
+{
+"k": "8806b9a309ce",
+"doc": "32020L1828",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "Each Member State shall communicate to the Commission a list of the qualified entities that it has designated in advance for the purpose of bringing cross-border representative actions, including the name and statutory purpose of those qualified entities, by 26 December 2023."
+},
+{
+"k": "528011249d75",
+"doc": "32020L1828",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "Each Member State shall notify the Commission whenever there are changes to that list."
+},
+{
+"k": "3bf097d0366b",
+"doc": "32020L1828",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "Member States shall make that list publicly available."
+},
+{
+"k": "06e9e829e519",
+"doc": "32020L1828",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "The Commission shall compile a list of those qualified entities and make it publicly available."
+},
+{
+"k": "1471bb03ba21",
+"doc": "32020L1828",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "The Commission shall update that list whenever changes to the Member States’ lists of qualified entities are communicated to the Commission."
+},
+{
+"k": "ceebbc0b92a6",
+"doc": "32020L1828",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "Member States shall ensure that information about the qualified entities designated in advance for the purpose of bringing domestic representative actions is made available to the public."
+},
+{
+"k": "9f0c01e7170f",
+"doc": "32020L1828",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "Member States shall assess at least every five years whether qualified entities continue to comply with the criteria listed in Article 4(3)."
+},
+{
+"k": "102301d1e3c9",
+"doc": "32020L1828",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "Member States shall ensure that the qualified entity loses its status if it no longer complies with one or more of those criteria."
+},
+{
+"k": "7904e1176e81",
+"doc": "32020L1828",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "If a Member State or the Commission raises concerns regarding the compliance by a qualified entity with the criteria listed in Article 4(3), the Member State that designated that qualified entity shall investigate the concerns."
+},
+{
+"k": "9d84ce11a2a2",
+"doc": "32020L1828",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "If appropriate, Member States shall revoke the designation of that qualified entity if it no longer complies with one or more of those criteria."
+},
+{
+"k": "627ef1083c00",
+"doc": "32020L1828",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "Member States shall designate national contact points for the purposes of paragraph 4 and shall communicate the name and contact details of those contact points to the Commission."
+},
+{
+"k": "146635f2d14e",
+"doc": "32020L1828",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "The Commission shall compile a list of those contact points and make that list available to the Member States."
+},
+{
+"k": "4f5821c0d5c7",
+"doc": "32020L1828",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Member States shall ensure that qualified entities designated in advance in another Member State for the purpose of bringing cross-border representative actions can bring such representative actions before their courts or administrative authorities."
+},
+{
+"k": "72410cfda0fc",
+"doc": "32020L1828",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Member States shall ensure that where the alleged infringement of Union law as referred to in Article 2(1) affects or is likely to affect consumers in different Member States, the representative action can be brought before the court or administrative authority of a Member State by several qualified entities from different Member States in order to protect the collective interests of consumers in different Member States."
+},
+{
+"k": "a7097c9412bd",
+"doc": "32020L1828",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "Courts and administrative authorities shall accept the list referred to in Article 5(1) as proof of the legal standing of the qualified entity to bring a cross-border representative action, without prejudice to the right of the court or administrative authority seised to examine whether the statutory purpose of the qualified entity justifies its taking action in a specific case."
+},
+{
+"k": "6901afb4f97f",
+"doc": "32020L1828",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "Member States shall ensure that representative actions as provided for by this Directive can be brought before their courts or administrative authorities by qualified entities designated in accordance with Article 4."
+},
+{
+"k": "fd14cf3907e8",
+"doc": "32020L1828",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "When bringing a representative action, the qualified entity shall provide the court or administrative authority with sufficient information about the consumers concerned by the representative action."
+},
+{
+"k": "f688d120399e",
+"doc": "32020L1828",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "The courts or administrative authorities shall assess the admissibility of a specific representative action in accordance with this Directive and national law."
+},
+{
+"k": "887fa6ea9932",
+"doc": "32020L1828",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "Member States shall ensure that qualified entities are entitled to seek at least the following measures:"
+},
+{
+"k": "4d7440266150",
+"doc": "32020L1828",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "Member States shall ensure that consumers’ interests in representative actions are represented by qualified entities and that those qualified entities have the rights and obligations of a claimant party in the proceedings."
+},
+{
+"k": "13d5613ee265",
+"doc": "32020L1828",
+"art": "Art. 7",
+"chapeau": "",
+"clause": "Member States shall ensure that courts or administrative authorities are able to dismiss manifestly unfounded cases at the earliest possible stage of the proceedings in accordance with national law."
+},
+{
+"k": "ffb8ac9171c6",
+"doc": "32020L1828",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "Member States shall ensure that injunctive measures referred to in point (a) of Article 7(4) are available in the form of:"
+},
+{
+"k": "2e482d75690f",
+"doc": "32020L1828",
+"art": "Art. 8",
+"chapeau": "2. A measure referred to in point (b) of paragraph 1 may include, if provided for in national law:",
+"clause": "an obligation to publish the decision on the measure in full or in part, in such form as the court or administrative authority considers appropriate, or an obligation to publish a corrective statement."
+},
+{
+"k": "00516d88c87b",
+"doc": "32020L1828",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "In order for a qualified entity to seek an injunctive measure, individual consumers shall not be required to express their wish to be represented by that qualified entity."
+},
+{
+"k": "5d1d4d9007dd",
+"doc": "32020L1828",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "The qualified entity shall not be required to prove:"
+},
+{
+"k": "cda04da434e7",
+"doc": "32020L1828",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "Member States shall notify the Commission of any such provisions of national law."
+},
+{
+"k": "1593a0aba52d",
+"doc": "32020L1828",
+"art": "Art. 8",
+"chapeau": "",
+"clause": "The Commission shall ensure that that information is publicly available."
+},
+{
+"k": "be05af257279",
+"doc": "32020L1828",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "A redress measure shall require a trader to provide consumers concerned with remedies such as compensation, repair, replacement, price reduction, contract termination or reimbursement of the price paid, as appropriate and as available under Union or national law."
+},
+{
+"k": "33733945af9b",
+"doc": "32020L1828",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "Member States shall lay down rules on how and at which stage of a representative action for redress measures the individual consumers concerned by that representative action explicitly or tacitly express their wish within an appropriate time limit after that representative action has been brought, to be represented or not by the qualified entity in that representative action and to be bound or not by the outcome of the representative action."
+},
+{
+"k": "6d479ce6bb1f",
+"doc": "32020L1828",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "Notwithstanding paragraph 2, Member States shall ensure that individual consumers who are not habitually resident in the Member State of the court or administrative authority before which a representative action has been brought have to explicitly express their wish to be represented in that representative action in order for those consumers to be bound by the outcome of that representative action."
+},
+{
+"k": "c6d7df3c936b",
+"doc": "32020L1828",
+"art": "Art. 9",
+"chapeau": "",
+"clause": "Member States shall lay down rules to ensure that consumers who have explicitly or tacitly expressed their wish to be represented in a representative action can neither be represented in other representative actions with the same cause of action and against the same trader, nor be able to bring an action individually with the same cause of action and against the same trader."
+}
+]

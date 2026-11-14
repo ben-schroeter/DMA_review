@@ -1,0 +1,569 @@
+[
+{
+"k": "2246dfbed2a3",
+"doc": "32025R1979",
+"art": "Art. 3",
+"chapeau": "PSPs shall submit the information referred to in Articles 1 and 2 of this Regulation in the data exchange formats and representations specified by the competent authorities, and respect the data point definition of the data point model and the validation formulae made available on the EBA website. PSPs shall comply with the following specifications:",
+"clause": "information that is not required or not applicable shall not be included in a data submission;"
+},
+{
+"k": "519712d8ea7f",
+"doc": "32025R1979",
+"art": "Art. 3",
+"chapeau": "PSPs shall submit the information referred to in Articles 1 and 2 of this Regulation in the data exchange formats and representations specified by the competent authorities, and respect the data point definition of the data point model and the validation formulae made available on the EBA website. PSPs shall comply with the following specifications:",
+"clause": "numerical values shall be submitted as follows:"
+},
+{
+"k": "406f58dd02fc",
+"doc": "32025R1979",
+"art": "Art. 3",
+"chapeau": "numerical values shall be submitted as follows:",
+"clause": "PSPs shall report data points with the data type ‘Monetary’ using a minimum precision equivalent to thousands of units;"
+},
+{
+"k": "b5ea8e68708b",
+"doc": "32025R1979",
+"art": "Art. 3",
+"chapeau": "numerical values shall be submitted as follows:",
+"clause": "PSPs shall not use decimals when reporting data points with the data type ‘Integer’ and shall use a precision equivalent to units."
+},
+{
+"k": "13eab82dd5a0",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "Annex I consists of six different templates:",
+"clause": "In Annex I, in columns “Number”, PSPs shall report numerical values following the specific instructions given for the templates."
+},
+{
+"k": "f2874108297b",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "Annex I consists of six different templates:",
+"clause": "PSPs located in euro Member States in scope for the reporting obligations based on Article 15 of Regulation (EU) No 260/2012 of the European Parliament and of the Council ( 1 ) shall report templates S 01.01, S 02.01, S 03.00 and S 04.00, with all the data points presented in this Annex, unless the national competent authorities in their jurisdiction allow them to send only a reference (including a link, where available) to identical previously submitted data points."
+},
+{
+"k": "9dcff0bec63c",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "Annex I consists of six different templates:",
+"clause": "Therefore, they shall report all templates with all the data points presented in this Annex, unless the national competent authorities in their jurisdiction allow them to send only a reference (including a link, where available) to identical previously submitted data points."
+},
+{
+"k": "e4bf50d63905",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "Annex I consists of six different templates:",
+"clause": "Branches of PSPs located in Member States other than Member States of their parent entities shall submit their data to the competent authority of the host Member State and parent entities shall report for themselves to the competent authority of their home Member State."
+},
+{
+"k": "aaa2199acaca",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "Annex I consists of six different templates:",
+"clause": "Charges for transfers denominated in euro shall always be reported in euro, even if they were levied in another currency."
+},
+{
+"k": "9b233b929b7e",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "Annex I consists of six different templates:",
+"clause": "Charges for transfers denominated in Member States’ national currencies other than euro shall be reported in that national currency, even where they were levied in a different currency."
+},
+{
+"k": "e7aec2320b19",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "Annex I consists of six different templates:",
+"clause": "In such cases, where charges are converted into euro or into other national currencies, data shall be converted using the ECB reference exchange rate or exchange rates applied for those transactions, in accordance with Regulation (EU) No 1409/2013 of the European Central Bank ( 2 ) ."
+},
+{
+"k": "a5fad454f6e8",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "Annex I consists of six different templates:",
+"clause": "The currency conversion fee shall be excluded from reporting."
+},
+{
+"k": "826c6c9e7065",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "Annex I consists of six different templates:",
+"clause": "PSPs shall report the six sets of templates in this Annex separately for each reference period."
+},
+{
+"k": "a76630a8b06c",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "Annex I consists of six different templates:",
+"clause": "PSPs shall complete Template S 01.01 with the number and value of sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro for PSPs located in non-euro Member States."
+},
+{
+"k": "f51672afa83b",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "Annex I consists of six different templates:",
+"clause": "The number and value of credit transfers and instant credit transfers shall include the number of such transfers sent by each PSP in the reference period, with breakdowns by:"
+},
+{
+"k": "0a4136090295",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "The number and value of credit transfers and instant credit transfers shall include the number of such transfers sent by each PSP in the reference period, with breakdowns by:",
+"clause": "For the breakdowns referred to in points (a), (b) and (c), the sum of the reported data points shall add up to the total number or value of reported credit transfers."
+},
+{
+"k": "2ae3e5540be8",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "The number and value of credit transfers and instant credit transfers shall include the number of such transfers sent by each PSP in the reference period, with breakdowns by:",
+"clause": "For the breakdown referred to in point (d), in the credit transfers \"initiated electronically via online banking’, PSPs shall include credit transfers initiated online on a single payment basis and credit transfers initiated in a file/batch."
+},
+{
+"k": "ae6dcfc2faf1",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "The number and value of credit transfers and instant credit transfers shall include the number of such transfers sent by each PSP in the reference period, with breakdowns by:",
+"clause": "Each credit transfer contained in a batch shall be counted as a separate credit transfer when reporting the number of transactions."
+},
+{
+"k": "0caab3936fa7",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "The number and value of credit transfers and instant credit transfers shall include the number of such transfers sent by each PSP in the reference period, with breakdowns by:",
+"clause": "PSPs shall indicate in Template S 01.01 the number and value of received credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro for PSPs located in non-euro Member States."
+},
+{
+"k": "86a3d7dbc016",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "The number and value of credit transfers and instant credit transfers shall include the number of such transfers sent by each PSP in the reference period, with breakdowns by:",
+"clause": "The number and value of credit transfers and instant credit transfers shall indicate the number of transfers received by each PSP in the reference period, with a breakdown by whether the transfer is free of charge or not."
+},
+{
+"k": "7b615a02602d",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "The number and value of credit transfers and instant credit transfers shall include the number of such transfers sent by each PSP in the reference period, with breakdowns by:",
+"clause": "Information in this template shall be reported at a total level."
+},
+{
+"k": "2200c278fe4c",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "The number and value of credit transfers and instant credit transfers shall include the number of such transfers sent by each PSP in the reference period, with breakdowns by:",
+"clause": "The value shall be expressed in national currency."
+},
+{
+"k": "6e00150e5c7f",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "The number and value of credit transfers and instant credit transfers shall include the number of such transfers sent by each PSP in the reference period, with breakdowns by:",
+"clause": "Cross-border transactions where either the payer’s or the payee’s PSP are located outside the Union shall be excluded."
+},
+{
+"k": "0364ae23ff82",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "The number and value of credit transfers and instant credit transfers shall include the number of such transfers sent by each PSP in the reference period, with breakdowns by:",
+"clause": "PSPs shall complete Template S 01.02 by including the number and value of sent and received credit transfers and instant credit transfers in euro only for PSPs located in non-euro Member States, without further breakdowns."
+},
+{
+"k": "e023bde03a5b",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "The number and value of credit transfers and instant credit transfers shall include the number of such transfers sent by each PSP in the reference period, with breakdowns by:",
+"clause": "PSPs shall complete Template S 02.01 by including information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period."
+},
+{
+"k": "d4c996d630fc",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "The number and value of credit transfers and instant credit transfers shall include the number of such transfers sent by each PSP in the reference period, with breakdowns by:",
+"clause": "The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:"
+},
+{
+"k": "62eb08691bd4",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "For the breakdowns referred to in points (a) and (b), the sum of the reported data points shall add up to the total value of charges for the reported credit transfers."
+},
+{
+"k": "00db52ef02d4",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "PSPs shall also include in Template S 02.01 information on the charges levied by PSPs on PSUs for received credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro for PSPs located in non-euro Member States, with no further breakdowns."
+},
+{
+"k": "d4c3dbb8b816",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "The value shall be expressed in national currency."
+},
+{
+"k": "a818c0c82028",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "Charges of cross-border transactions where either the payer’s or the payee’s PSP are located outside the Union, shall be excluded."
+},
+{
+"k": "d1c2f5604680",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "PSPs shall complete Template S 02.02 by including information on the charges for sent and received credit transfers and instant credit transfers in euro only for PSPs located in non-euro Member States, without further breakdowns."
+},
+{
+"k": "efc0fb90fd10",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "Template S 03.00 shall include information on the number of payment accounts and total charges for such accounts in the reference period."
+},
+{
+"k": "ec64c0885880",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "Values of charges shall be reported in euro for PSPs located in euro Member States and in national currency other than euro for non-euro Member States."
+},
+{
+"k": "dde6b5283874",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "Where charges were applied in a different currency than the one used for reporting in this template, the value of such charges shall be converted into euro or into other national currencies, using the ECB reference exchange rate or exchange rates applied for those transactions, in accordance with Regulation (EU) No 1409/2013."
+},
+{
+"k": "c615446ba64a",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "The total number of payment accounts shall reflect the number at the end of the reference period."
+},
+{
+"k": "a9f3baa66ab7",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "All payment accounts shall be included irrespective of the currency they are denominated in."
+},
+{
+"k": "584787ede64c",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "For those accounts which do not fall within the scope of Directive 2014/92/EU of the European Parliament and of the Council ( 3 ) and for which the SoF is not mandatory nor provided to the account holder, the figure shall in any case indicate the total annual fees paid by the account holders for the services linked to the payment account, which may vary according to the number and type of services provided and to the type of pricing applied by the PSPs."
+},
+{
+"k": "220cab2c318d",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "The figure shall be expressed in national currency."
+},
+{
+"k": "4fd488f480cf",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "In case a pre-paid package (or 'single flat fee') is applied, meaning that one or more services are offered as part of a package of services linked to a payment account, the figure shall just disclose the single fee applied for the entire package and the additional fee charged for any service exceeding the quantity covered by the package fee, if applicable."
+},
+{
+"k": "b1699aa4f4a8",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "All charges irrespective of the currency shall be included."
+},
+{
+"k": "55d9c42ec844",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "The currency conversion fee shall be excluded from reporting."
+},
+{
+"k": "314efd4ebc4c",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "For those accounts which do not fall within the scope of Directive 2014/92/EU and for which the FID is not mandatory nor provided to the account holder, the figure shall in any case indicate the charge for the maintenance of the payment account, meaning the charges that the provider levies to operate the account for use by the customer, as per the national list of the most representative services linked to a payment account drafted by each Member State and applicable to the specific reporting PSP."
+},
+{
+"k": "b15fd3e843e8",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "In case a pre-paid package (or 'single flat fee') is applied, meaning that one or more services are offered as part of a package of services linked to a payment account, the figure shall just disclose the single fee applied for the entire package."
+},
+{
+"k": "d6e71cd169ad",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "PSPs shall complete Template S 04.00 by including information on the number of rejected instant credit transfers due to the application of the targeted financial restrictive measures in the reference period."
+},
+{
+"k": "8d6a95b0180b",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "The number of rejected instant credit transfers shall include both transfers within the same PSP and transfers between different PSPs."
+},
+{
+"k": "efc9872c5915",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "The reported figure shall include incoming instant credit transfers rejected by the reporting PSP or instances when funds were received and immediately frozen on the account of the reporting PSP’s PSU."
+},
+{
+"k": "2d3bbe0b1d70",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "Only actions due to the application of the targeted financial restrictive measures, in the reference period, shall be reported."
+},
+{
+"k": "dbbf1a7b0929",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "The reported figure shall include instances where the payer’s PSP stopped the execution of the requested instant credit transfer, following its PSU’s request to initiate the transaction, including situations stemming from the payer’s PSP obligation under Article 5d(1) of Regulation (EU) No 260/2012 to verify its PSUs or due to the PSU’s payment account being frozen following such a verification."
+},
+{
+"k": "d045696cdfbd",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "The reported figure shall include incoming instant credit transfers rejected by the reporting PSP or instances where funds were received and immediately frozen on the account of the reporting PSP’s PSU."
+},
+{
+"k": "56c1db83705f",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "National instant credit transfers shall be those where the payer’s PSP and the payee’s PSP are located in the same Member State."
+},
+{
+"k": "8a00af68d61b",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "The reported figure shall include instances where the payer’s PSP stopped the execution of the requested national instant credit transfer, following its PSU’s request to initiate the transaction, including situations stemming from the payer’s PSP obligation under Article 5d(1) of Regulation (EU) No 260/2012 to verify its PSUs or due to the PSU’s payment account being frozen following such a verification."
+},
+{
+"k": "b57f24634fa0",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "Only actions due to the application of the targeted financial restrictive measures, in the reference period shall be reported."
+},
+{
+"k": "fab2200a7a0c",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "National instant credit transfers shall be those where both the payer’s PSP and the payee’s PSP are located in the same Member State."
+},
+{
+"k": "e3c4952b9b37",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "The reported figure shall include incoming cross-border instant credit transfers rejected by the reporting PSP or instances where funds were received and immediately frozen on the account of the reporting PSP’s PSU."
+},
+{
+"k": "d2ae5c075c72",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "Cross-border instant credit transfers shall be those where both the payer’s PSP and the payee’s PSP are not located in the same Member State."
+},
+{
+"k": "75e73f814022",
+"doc": "32025R1979",
+"art": "Annex Ii",
+"chapeau": "ng information on the charges levied by PSPs on PSUs for sent credit transfers and instant credit transfers in euro for PSPs located in euro Member States, and in national currency other than euro levied by PSPs located in non-euro Member States, in the reference period. The value of charges for sent credit transfers and instant credit transfers in the reference period shall include breakdowns by:",
+"clause": "The reported figure shall include instances where the payer’s PSP stopped the execution of the requested cross-border instant credit transfer, following its PSU’s request to initiate the transaction, including situations stemming from the payer’s PSP obligation under Article 5d(1) of Regulation (EU) No 260/2012 to verify its PSUs or due to the PSU’s payment account being frozen following such a verification."
+},
+{
+"k": "dcaf1e70a6d2",
+"doc": "32013D0195",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "In order to fulfil the objectives under Article 9(1) of Decision No 243/2012/EU, Member States shall collect and provide for electronic data interchange with the Commission data which is available to them on rights of use and actual use of the relevant spectrum, in accordance with the following arrangements:"
+},
+{
+"k": "0ac96a02779e",
+"doc": "32013D0195",
+"art": "Art. 2",
+"chapeau": "In order to fulfil the objectives under Article 9(1) of Decision No 243/2012/EU, Member States shall collect and provide for electronic data interchange with the Commission data which is available to them on rights of use and actual use of the relevant spectrum, in accordance with the following arrangements:",
+"clause": "Member States shall ensure that the relevant information already collected pursuant to Decision No 2007/344/EC is provided by the European Communications Office to the Commission, so as to minimise the administrative burden;"
+},
+{
+"k": "e38a7749fe9b",
+"doc": "32013D0195",
+"art": "Art. 2",
+"chapeau": "In order to fulfil the objectives under Article 9(1) of Decision No 243/2012/EU, Member States shall collect and provide for electronic data interchange with the Commission data which is available to them on rights of use and actual use of the relevant spectrum, in accordance with the following arrangements:",
+"clause": "in addition to data under paragraph 1, Member States shall provide to the Commission data, if available at national level, in the machine readable format chosen at national level, including data on the public use of spectrum, and which is necessary for the Commission to carry out its tasks under this Decision and Decision No 243/2012/EU;"
+},
+{
+"k": "f516870bc77c",
+"doc": "32013D0195",
+"art": "Art. 2",
+"chapeau": "In order to fulfil the objectives under Article 9(1) of Decision No 243/2012/EU, Member States shall collect and provide for electronic data interchange with the Commission data which is available to them on rights of use and actual use of the relevant spectrum, in accordance with the following arrangements:",
+"clause": "Member States shall cooperate with the Commission to increase the data available on spectrum use for provision under paragraph 2, in particular by providing quantitative data such as, unless they consider it impossible in view of national circumstances, the number of transmitters, time duration of usage and the coordinates or location information showing the geographical extent of spectrum usage, as well as technologies in use and sharing conditions, and this in a comparable format across Member States."
+},
+{
+"k": "cff784e150ea",
+"doc": "32013D0195",
+"art": "Art. 2",
+"chapeau": "In order to fulfil the objectives under Article 9(1) of Decision No 243/2012/EU, Member States shall collect and provide for electronic data interchange with the Commission data which is available to them on rights of use and actual use of the relevant spectrum, in accordance with the following arrangements:",
+"clause": "In order to limit the administrative burden, data concerning those bands relevant for the implementation of the objectives set by Decision No 243/2012/EU, taking into account the opinion of the Radio Spectrum Policy Group, shall be collected and provided in accordance with this Article first."
+},
+{
+"k": "1b01d276e6a5",
+"doc": "32013D0195",
+"art": "Art. 2",
+"chapeau": "In order to fulfil the objectives under Article 9(1) of Decision No 243/2012/EU, Member States shall collect and provide for electronic data interchange with the Commission data which is available to them on rights of use and actual use of the relevant spectrum, in accordance with the following arrangements:",
+"clause": "Data about all frequency bands in the relevant spectrum shall be collected and provided by Member States in a step-by-step approach by 31 December 2015."
+},
+{
+"k": "e4615037dc57",
+"doc": "32013D0195",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "In order to help identify future demand for spectrum as well as specific spectrum bands which could best accommodate future needs and demand for spectrum, whilst taking utmost account of the opinion of the Radio Spectrum Policy Group, the Commission shall analyse all data collected pursuant to Article 2 or through other means, such as public consultations and studies, taking into account:"
+},
+{
+"k": "9ca8c02cd763",
+"doc": "32013D0195",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "The analysis referred to in paragraph 1 shall aim at identifying technology trends, future needs and demand for spectrum in Union policy areas in relation to applications grouped by similar technical characteristics and functionality in Part I of the Annex, and the identification of significant developing and potential uses of spectrum."
+},
+{
+"k": "c1958e57be00",
+"doc": "32013D0195",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "This analysis shall, where necessary and possible, contain at least the information listed in Part II of the Annex."
+},
+{
+"k": "9e1cdc10ddc0",
+"doc": "32013D0195",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "The Commission shall ensure transparency by conducting workshops or public consultations."
+},
+{
+"k": "85a02284830a",
+"doc": "32013D0195",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "The Commission shall include the results of the analysis conducted pursuant to this Decision and the information listed in Part II of the Annex in regular reports to be submitted pursuant to Article 9(4) of Decision No 243/2012/EU."
+},
+{
+"k": "f503fe8fad74",
+"doc": "32013D0195",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "Member States and the Commission shall ensure the protection of information which is considered confidential or classified by a Member State, an international institution, the Commission or any third party, in accordance with EU and national law, in particular:"
+},
+{
+"k": "a55a246536bf",
+"doc": "32013D0195",
+"art": "Art. 5",
+"chapeau": "Member States and the Commission shall ensure the protection of information which is considered confidential or classified by a Member State, an international institution, the Commission or any third party, in accordance with EU and national law, in particular:",
+"clause": "Such disclosure shall be proportionate and shall have regard to the legitimate interest of the party concerned in the protection of any of the information mentioned above."
+},
+{
+"k": "3a02e63ecbcb",
+"doc": "32013D0195",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "In order to assist the Commission in reporting on the functioning of the radio spectrum inventory, Member States shall provide the Commission with information on the application and effectiveness of this decision."
+},
+{
+"k": "f0831f3fa621",
+"doc": "32013D0195",
+"art": "Annex",
+"chapeau": "",
+"clause": "Where possible depending on the level of data collected, the report to be submitted by the Commission pursuant to Article 9(4) of Decision No 243/2012/EU shall include at least the following information:"
+},
+{
+"k": "50cc6c90391c",
+"doc": "32025R1338",
+"art": "Art. 1",
+"chapeau": "",
+"clause": "The API shall:"
+},
+{
+"k": "07b942ef95c1",
+"doc": "32025R1338",
+"art": "Art. 2",
+"chapeau": "",
+"clause": "Where required by any of the acts referred to in Article 1(1), point (a), of Regulation (EU) 2023/2859 or by any delegated or implementing act based on those acts for the purpose of the ESAP, entities submitting information to collection bodies and the legal person to which the information relates shall be identified with a legal entity identifier that:"
+},
+{
+"k": "5e1f3da151cb",
+"doc": "32025R1338",
+"art": "Art. 3",
+"chapeau": "",
+"clause": "Information submitted by the entities to collection bodies shall be classified according to the applicable types of information set out in Table 1 of the Annex."
+},
+{
+"k": "0f1aa9c9d090",
+"doc": "32025R1338",
+"art": "Art. 4",
+"chapeau": "",
+"clause": "Where metadata indicating the size category of an entity is required by any of the acts referred to in Article 1(1), point (a), of Regulation (EU) 2023/2859 or by any delegated or implementing act based on those acts for the purpose of the ESAP, the information shall be accompanied by either of the following:"
+},
+{
+"k": "d57b5c47c0ae",
+"doc": "32025R1338",
+"art": "Art. 5",
+"chapeau": "",
+"clause": "Where metadata indicating the industry sector of the economic activities is required by any of the acts referred to in Article 1(1), point (a), of Regulation (EU) 2023/2859 or by any delegated or implementing act based on those acts for the purpose of the ESAP:"
+},
+{
+"k": "4e6cda2b50e0",
+"doc": "32025R1338",
+"art": "Art. 5",
+"chapeau": "Where metadata indicating the industry sector of the economic activities is required by any of the acts referred to in Article 1(1), point (a), of Regulation (EU) 2023/2859 or by any delegated or implementing act based on those acts for the purpose of the ESAP:",
+"clause": "entities falling under one or more categories set out in Table 3 of the Annex shall be classified according to that table;"
+},
+{
+"k": "ba798edee177",
+"doc": "32025R1338",
+"art": "Art. 5",
+"chapeau": "Where metadata indicating the industry sector of the economic activities is required by any of the acts referred to in Article 1(1), point (a), of Regulation (EU) 2023/2859 or by any delegated or implementing act based on those acts for the purpose of the ESAP:",
+"clause": "other entities shall be categorised on the basis of one or more of the main sections of Statistical Classification of economics activities in the European Community (NACE), as defined in Delegated Regulation (EU) 2023/137."
+},
+{
+"k": "1af2d1f7ae56",
+"doc": "32025R1338",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "The ESAs, through the Joint Committee, shall re-assess the technical standards laid down in this Regulation relating to the legal entity identifier, having regard to information submitted by entities to collection bodies."
+},
+{
+"k": "fea9021467c8",
+"doc": "32025R1338",
+"art": "Art. 6",
+"chapeau": "",
+"clause": "The ESAs shall submit a report to the Commission by 31 December 2026, accompanied, where appropriate, with proposed draft amendments to this Regulation."
+},
+{
+"k": "48d98a72b764",
+"doc": "32025R1338",
+"art": "Art. 16",
+"chapeau": "",
+"clause": "Additional regulated information required to be disclosed under the laws of a Member State"
+}
+]
