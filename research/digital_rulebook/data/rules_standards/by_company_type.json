@@ -1,22 +1,22 @@
 {
  "baseline": {
   "all": {
-   "n": 1612,
+   "n": 1695,
    "uncoded": 9,
-   "rules": 0.814,
-   "standards": 0.179
+   "rules": 0.813,
+   "standards": 0.181
   },
   "main": {
-   "n": 759,
+   "n": 811,
    "uncoded": 9,
-   "rules": 0.796,
-   "standards": 0.19
+   "rules": 0.789,
+   "standards": 0.197
   },
   "secondary": {
-   "n": 853,
+   "n": 884,
    "uncoded": 0,
-   "rules": 0.83,
-   "standards": 0.17
+   "rules": 0.835,
+   "standards": 0.165
   },
   "most_standards": [
    [
@@ -32,14 +32,14 @@
     13
    ],
    [
-    "IPR Enforcement Directive",
-    10
+    "Services Directive",
+    12
    ]
   ],
   "by_period": {
    "before 2015": {
-    "n": 372,
-    "rules": 0.82
+    "n": 455,
+    "rules": 0.815
    },
    "2015-2019": {
     "n": 413,
@@ -53,16 +53,16 @@
  },
  "GK": {
   "all": {
-   "n": 1372,
+   "n": 1380,
    "uncoded": 0,
-   "rules": 0.77,
-   "standards": 0.229
+   "rules": 0.771,
+   "standards": 0.228
   },
   "main": {
-   "n": 709,
+   "n": 717,
    "uncoded": 0,
-   "rules": 0.756,
-   "standards": 0.243
+   "rules": 0.757,
+   "standards": 0.241
   },
   "secondary": {
    "n": 663,
@@ -98,23 +98,23 @@
     "rules": 0.766
    },
    "2020 or later": {
-    "n": 1295,
+    "n": 1303,
     "rules": 0.771
    }
   }
  },
  "PL": {
   "all": {
-   "n": 1053,
+   "n": 1061,
    "uncoded": 0,
-   "rules": 0.754,
-   "standards": 0.245
+   "rules": 0.755,
+   "standards": 0.244
   },
   "main": {
-   "n": 556,
+   "n": 564,
    "uncoded": 0,
-   "rules": 0.746,
-   "standards": 0.252
+   "rules": 0.748,
+   "standards": 0.25
   },
   "secondary": {
    "n": 497,
@@ -150,23 +150,23 @@
     "rules": 0.758
    },
    "2020 or later": {
-    "n": 958,
-    "rules": 0.754
+    "n": 966,
+    "rules": 0.755
    }
   }
  },
  "CL": {
   "all": {
-   "n": 1281,
+   "n": 1289,
    "uncoded": 0,
-   "rules": 0.703,
-   "standards": 0.297
+   "rules": 0.704,
+   "standards": 0.296
   },
   "main": {
-   "n": 712,
+   "n": 720,
    "uncoded": 0,
-   "rules": 0.69,
-   "standards": 0.309
+   "rules": 0.692,
+   "standards": 0.307
   },
   "secondary": {
    "n": 569,
@@ -202,23 +202,23 @@
     "rules": 0.551
    },
    "2020 or later": {
-    "n": 1232,
-    "rules": 0.709
+    "n": 1240,
+    "rules": 0.71
    }
   }
  },
  "TC": {
   "all": {
-   "n": 1225,
+   "n": 1233,
    "uncoded": 0,
    "rules": 0.767,
-   "standards": 0.232
+   "standards": 0.231
   },
   "main": {
-   "n": 421,
+   "n": 429,
    "uncoded": 0,
-   "rules": 0.715,
-   "standards": 0.283
+   "rules": 0.718,
+   "standards": 0.28
   },
   "secondary": {
    "n": 804,
@@ -254,29 +254,29 @@
     "rules": 0.725
    },
    "2020 or later": {
-    "n": 902,
-    "rules": 0.775
+    "n": 910,
+    "rules": 0.776
    }
   }
  },
  "FI": {
   "all": {
-   "n": 3372,
+   "n": 3472,
    "uncoded": 0,
-   "rules": 0.776,
-   "standards": 0.222
+   "rules": 0.772,
+   "standards": 0.227
   },
   "main": {
-   "n": 1587,
+   "n": 1656,
    "uncoded": 0,
-   "rules": 0.71,
-   "standards": 0.288
+   "rules": 0.703,
+   "standards": 0.294
   },
   "secondary": {
-   "n": 1785,
+   "n": 1816,
    "uncoded": 0,
-   "rules": 0.836,
-   "standards": 0.164
+   "rules": 0.834,
+   "standards": 0.166
   },
   "most_standards": [
    [
@@ -302,64 +302,64 @@
     "rules": 0.945
    },
    "2015-2019": {
-    "n": 407,
-    "rules": 0.855
+    "n": 500,
+    "rules": 0.804
    },
    "2020 or later": {
-    "n": 2892,
-    "rules": 0.761
+    "n": 2899,
+    "rules": 0.762
    }
   }
  },
  "PR": {
   "all": {
-   "n": 3591,
+   "n": 8684,
    "uncoded": 0,
-   "rules": 0.677,
-   "standards": 0.321
+   "rules": 0.75,
+   "standards": 0.248
   },
   "main": {
-   "n": 3010,
+   "n": 5226,
    "uncoded": 0,
-   "rules": 0.668,
-   "standards": 0.329
+   "rules": 0.697,
+   "standards": 0.301
   },
   "secondary": {
-   "n": 581,
+   "n": 3458,
    "uncoded": 0,
-   "rules": 0.725,
-   "standards": 0.275
+   "rules": 0.832,
+   "standards": 0.168
   },
   "most_standards": [
+   [
+    "Medical Devices Regulation",
+    373
+   ],
+   [
+    "In Vitro Diagnostic Medical Devices Regulation",
+    344
+   ],
    [
     "Machinery Regulation",
     319
    ],
    [
-    "NIS 2 Directive",
-    121
-   ],
-   [
-    "Toys Safety Regulation",
-    100
-   ],
-   [
-    "Toys Safety Directive",
-    75
+    "Vehicle General Safety Regulation",
+    247
    ]
   ],
   "by_period": {
    "before 2015": {
-    "n": 575,
+    "n": 710,
     "rules": 0.708
    },
    "2015-2019": {
-    "n": 202,
-    "rules": 0.673
+    "n": 2276,
+    "rules": 0.73
    },
    "2020 or later": {
-    "n": 2814,
-    "rules": 0.671
+    "n": 5698,
+    "rules": 0.764
    }
   }
  }

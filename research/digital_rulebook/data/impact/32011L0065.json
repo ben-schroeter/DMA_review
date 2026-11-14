@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   }
  ],
  "literature": [
@@ -39,7 +40,10 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20240423063231/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023SC0760"
+   "archive_url": "http://web.archive.org/web/20240423063231/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023SC0760",
+   "category": "evidence",
+   "source_class": "official"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

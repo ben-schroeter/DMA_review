@@ -61,7 +61,7 @@ LIGHTER = ["GDPR Art. 30(5): record-keeping exemption under 250 staff, but not w
            "Cyber Resilience Act Art. 33(5): simplified technical documentation for micro and small; Art. 64(10): no fines on micro and small for missing the 24-hour early warning",
            "Copyright DSM Art. 17(6): lighter liability conditions for content-sharing services under three years old and under EUR 10 million turnover",
            "Platform Work Directive Art. 17: SMEs may update information yearly", "Short-Term Rental Data Regulation Art. 9: small platforms with few listings report quarterly",
-           "DORA Arts. 6(5), 12(4), 25(3), 30: lighter versions for microenterprises", "Chips Act: lower fines for SMEs"]
+           "DORA Arts. 6(5), 12(4), 25(3), 30: lighter versions for microenterprises", "Chips Act: lower fines for SMEs", "Medical Devices and In Vitro Diagnostic Medical Devices Regulations Art. 15(2): micro and small manufacturers may use an external person responsible for regulatory compliance"]
 OPTIONAL = ["EECC Art. 17: Member States may exempt undertakings under EUR 50 million from accounting separation",
             "EECC Art. 98: Title III end-user rules do not apply to micro providers of number-independent communications (not modelled: type-specific)",
             "VAT Directive Arts. 282-292: optional small-enterprise scheme for very small turnover", "AML Regulation Art. 5: Member States may exempt small football clubs"]

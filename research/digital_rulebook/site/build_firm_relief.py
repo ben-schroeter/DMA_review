@@ -14,7 +14,9 @@ LIGHT = [(rid("General Data Protection"), lambda r: r["kind"] == "main" and art(
          (rid("Copyright in the Digital"), lambda r: r["kind"] == "main" and art(r) == 17),
          (rid("Platform Work"), lambda r: r["kind"] == "main" and art(r) == 17),
          (rid("Short-Term Rental"), lambda r: r["kind"] == "main" and art(r) == 9),
-         (rid("Operational Resilience"), lambda r: "microenterprise" in text(r) and "other than microenterprise" not in text(r))]
+         (rid("Operational Resilience"), lambda r: "microenterprise" in text(r) and "other than microenterprise" not in text(r)),
+         (rid("Medical Devices Regulation"), lambda r: r["kind"] == "main" and art(r) == 15),
+         (rid("In Vitro Diagnostic"), lambda r: r["kind"] == "main" and art(r) == 15)]
 FINES = {rid(s) for s in ("Artificial Intelligence", "Cyber Resilience", "European Chips")}
 
 cnt = {"removed": 0, "threshold": 0, "lightened": 0, "fines": 0, "unchanged": 0}

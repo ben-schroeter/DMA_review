@@ -10,8 +10,8 @@
     "rules": 0.652
    },
    "Prodi": {
-    "n": 135,
-    "rules": 0.763
+    "n": 187,
+    "rules": 0.743
    },
    "Barroso I": {
     "n": 40,
@@ -36,7 +36,7 @@
     "rules": 1.0
    },
    "Barroso II": {
-    "n": 96,
+    "n": 127,
     "rules": 0.969
    },
    "Juncker": {
@@ -62,16 +62,16 @@
     "rules": 0.652
    },
    "Prodi": {
-    "n": 135,
-    "rules": 0.763
+    "n": 187,
+    "rules": 0.743
    },
    "Barroso I": {
     "n": 41,
     "rules": 0.976
    },
    "Barroso II": {
-    "n": 268,
-    "rules": 0.772
+    "n": 299,
+    "rules": 0.793
    },
    "Juncker": {
     "n": 293,
@@ -90,8 +90,8 @@
  "GK": {
   "main": {
    "Juncker": {
-    "n": 153,
-    "rules": 0.765
+    "n": 161,
+    "rules": 0.77
    },
    "von der Leyen I": {
     "n": 556,
@@ -114,8 +114,8 @@
   },
   "both": {
    "Juncker": {
-    "n": 154,
-    "rules": 0.766
+    "n": 162,
+    "rules": 0.772
    },
    "von der Leyen I": {
     "n": 1118,
@@ -130,8 +130,8 @@
  "PL": {
   "main": {
    "Juncker": {
-    "n": 171,
-    "rules": 0.76
+    "n": 179,
+    "rules": 0.765
    },
    "von der Leyen I": {
     "n": 385,
@@ -154,8 +154,8 @@
   },
   "both": {
    "Juncker": {
-    "n": 172,
-    "rules": 0.762
+    "n": 180,
+    "rules": 0.767
    },
    "von der Leyen I": {
     "n": 805,
@@ -170,8 +170,8 @@
  "CL": {
   "main": {
    "Juncker": {
-    "n": 126,
-    "rules": 0.683
+    "n": 134,
+    "rules": 0.694
    },
    "von der Leyen I": {
     "n": 586,
@@ -190,8 +190,8 @@
   },
   "both": {
    "Juncker": {
-    "n": 126,
-    "rules": 0.683
+    "n": 134,
+    "rules": 0.694
    },
    "von der Leyen I": {
     "n": 1110,
@@ -210,8 +210,8 @@
     "rules": 0.515
    },
    "Juncker": {
-    "n": 201,
-    "rules": 0.701
+    "n": 209,
+    "rules": 0.708
    },
    "von der Leyen I": {
     "n": 187,
@@ -242,8 +242,8 @@
     "rules": 0.705
    },
    "Juncker": {
-    "n": 292,
-    "rules": 0.767
+    "n": 300,
+    "rules": 0.77
    },
    "von der Leyen I": {
     "n": 746,
@@ -262,8 +262,8 @@
     "rules": 0.939
    },
    "Barroso II": {
-    "n": 256,
-    "rules": 0.883
+    "n": 325,
+    "rules": 0.812
    },
    "von der Leyen I": {
     "n": 1298,
@@ -272,12 +272,12 @@
   },
   "secondary": {
    "Juncker": {
-    "n": 191,
-    "rules": 0.838
+    "n": 215,
+    "rules": 0.819
    },
    "von der Leyen I": {
-    "n": 1153,
-    "rules": 0.846
+    "n": 1160,
+    "rules": 0.847
    },
    "von der Leyen II": {
     "n": 441,
@@ -290,16 +290,16 @@
     "rules": 0.939
    },
    "Barroso II": {
-    "n": 256,
-    "rules": 0.883
+    "n": 325,
+    "rules": 0.812
    },
    "Juncker": {
-    "n": 191,
-    "rules": 0.838
+    "n": 215,
+    "rules": 0.819
    },
    "von der Leyen I": {
-    "n": 2451,
-    "rules": 0.752
+    "n": 2458,
+    "rules": 0.753
    },
    "von der Leyen II": {
     "n": 441,
@@ -310,16 +310,16 @@
  "PR": {
   "main": {
    "Barroso I": {
-    "n": 204,
-    "rules": 0.632
+    "n": 260,
+    "rules": 0.681
    },
    "Barroso II": {
-    "n": 371,
-    "rules": 0.749
+    "n": 2463,
+    "rules": 0.734
    },
    "Juncker": {
-    "n": 197,
-    "rules": 0.665
+    "n": 265,
+    "rules": 0.687
    },
    "von der Leyen I": {
     "n": 2238,
@@ -328,38 +328,38 @@
   },
   "secondary": {
    "Juncker": {
-    "n": 5,
-    "rules": 1.0
+    "n": 29,
+    "rules": 0.931
    },
    "von der Leyen I": {
-    "n": 483,
-    "rules": 0.689
+    "n": 3257,
+    "rules": 0.827
    },
    "von der Leyen II": {
-    "n": 93,
-    "rules": 0.892
+    "n": 172,
+    "rules": 0.907
    }
   },
   "both": {
    "Barroso I": {
-    "n": 204,
-    "rules": 0.632
+    "n": 260,
+    "rules": 0.681
    },
    "Barroso II": {
-    "n": 371,
-    "rules": 0.749
+    "n": 2463,
+    "rules": 0.734
    },
    "Juncker": {
-    "n": 202,
-    "rules": 0.673
+    "n": 294,
+    "rules": 0.711
    },
    "von der Leyen I": {
-    "n": 2721,
-    "rules": 0.664
+    "n": 5495,
+    "rules": 0.758
    },
    "von der Leyen II": {
-    "n": 93,
-    "rules": 0.892
+    "n": 172,
+    "rules": 0.907
    }
   }
  }

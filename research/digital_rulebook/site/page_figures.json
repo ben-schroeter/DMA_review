@@ -16,24 +16,24 @@
   "text": "16"
  },
  "ct_fast_FI": {
-  "value": 53,
-  "text": "53"
+  "value": 54,
+  "text": "54"
  },
  "ct_fast_PR": {
-  "value": 70,
-  "text": "70"
+  "value": 117,
+  "text": "117"
  },
  "ct_fast_B": {
-  "value": 46,
-  "text": "46"
+  "value": 47,
+  "text": "47"
  },
  "firm_relief_exempt": {
   "value": 476,
   "text": "476"
  },
  "firm_relief_lightened": {
-  "value": 111,
-  "text": "111"
+  "value": 125,
+  "text": "125"
  },
  "firm_relief_fines": {
   "value": 587,
@@ -108,20 +108,20 @@
   "text": "29"
  },
  "sec_since_2020": {
-  "value": 456,
-  "text": "456"
+  "value": 542,
+  "text": "542"
  },
  "sec_dated": {
-  "value": 650,
-  "text": "650"
+  "value": 812,
+  "text": "812"
  },
  "n_regulations": {
-  "value": 49,
-  "text": "49"
+  "value": 54,
+  "text": "54"
  },
  "n_directives": {
-  "value": 47,
-  "text": "47"
+  "value": 52,
+  "text": "52"
  },
  "n_decisions": {
   "value": 4,
@@ -132,20 +132,20 @@
   "text": "250"
  },
  "avg_early_2000s": {
-  "value": 96,
-  "text": "96"
+  "value": 97,
+  "text": "97"
  },
  "avg_ratio_2025_2000s": {
-  "value": 2.6,
-  "text": "2.6"
+  "value": 2.5,
+  "text": "2.5"
  },
  "density_min": {
   "value": 9.6,
   "text": "9.6"
  },
  "density_max": {
-  "value": 16.2,
-  "text": "16.2"
+  "value": 15.9,
+  "text": "15.9"
  },
  "sox_obligations": {
   "value": 240,
@@ -156,12 +156,12 @@
   "text": "59"
  },
  "priv_avg_since_2020": {
-  "value": 115,
-  "text": "115"
+  "value": 113,
+  "text": "113"
  },
  "priv_avg_2000s": {
-  "value": 41,
-  "text": "41"
+  "value": 39,
+  "text": "39"
  },
  "sox_cmp_ai_priv": {
   "value": 346,
@@ -189,6 +189,6 @@
  },
  "growth_new_areas": {
   "value": 3,
-  "text": "Cybersecurity, research &amp; innovation and industrial policy"
+  "text": "Cybersecurity, industrial policy and research &amp; innovation"
  }
 }

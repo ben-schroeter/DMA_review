@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   }
  ],
  "literature": [
@@ -39,7 +40,9 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2025-mdr-ivdr-savings",
@@ -62,7 +65,9 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "ex-ante assessment",
+   "source_class": "official"
   },
   {
    "id": "medtecheurope-2024-survey",
@@ -85,7 +90,10 @@
    "access": "open",
    "interested_party": "medical technology industry association",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20261017134845/https://www.medtecheurope.org/wp-content/uploads/2025/01/mte-ivdr-mdr-survey-report-highlights-final.pdf"
+   "archive_url": "http://web.archive.org/web/20261017134845/https://www.medtecheurope.org/wp-content/uploads/2025/01/mte-ivdr-mdr-survey-report-highlights-final.pdf",
+   "category": "evidence",
+   "source_class": "consultancy or industry"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

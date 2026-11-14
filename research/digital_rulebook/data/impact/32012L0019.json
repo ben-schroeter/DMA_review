@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "target in the act",
@@ -23,7 +24,8 @@
    "target_or_baseline": "65% of EEE placed on the market (or 85% of WEEE generated) from 2019",
    "evidence": "Collection up about 65% (2012-2021); nearly half of WEEE generated not collected; three Member States met the target in 2022.",
    "status": "measured",
-   "sources": "Commission evaluation 2025"
+   "sources": "Commission evaluation 2025",
+   "status_group": "measured"
   }
  ],
  "literature": [
@@ -48,7 +50,10 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20260915102652/https://environment.ec.europa.eu/publications/staff-working-document-evaluation-directive-201219eu-waste-electrical-and-electronic-equipment-weee_en"
+   "archive_url": "http://web.archive.org/web/20260915102652/https://environment.ec.europa.eu/publications/staff-working-document-evaluation-directive-201219eu-waste-electrical-and-electronic-equipment-weee_en",
+   "category": "evidence",
+   "source_class": "official"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

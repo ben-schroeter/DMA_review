@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "activity (evaluation)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "2004-2024: 225 Commission enforcement decisions; fines above EUR 42 billion (about EUR 37 billion upheld by the EU Courts).",
    "status": "reported as activity",
-   "sources": "SWD(2024) 217"
+   "sources": "SWD(2024) 217",
+   "status_group": "reported as activity"
   }
  ],
  "literature": [
@@ -48,7 +50,9 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20260908090748/https://competition-policy.ec.europa.eu/antitrust-and-cartels/legislation/regulation-12003_en"
+   "archive_url": "http://web.archive.org/web/20260908090748/https://competition-policy.ec.europa.eu/antitrust-and-cartels/legislation/regulation-12003_en",
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2009-reg1-report",
@@ -71,7 +75,10 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20250903070627/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52009DC0206"
+   "archive_url": "http://web.archive.org/web/20250903070627/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52009DC0206",
+   "category": "evidence",
+   "source_class": "official"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

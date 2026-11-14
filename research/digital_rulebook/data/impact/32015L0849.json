@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   }
  ],
  "literature": [
@@ -39,7 +40,9 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20261011102627/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52019DC0360"
+   "archive_url": "http://web.archive.org/web/20261011102627/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52019DC0360",
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "eca-2021-aml",
@@ -62,7 +65,10 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20241115195416/https://op.europa.eu/webpub/eca/special-reports/fight-money-laundering-13-2021/en/index.html"
+   "archive_url": "http://web.archive.org/web/20241115195416/https://op.europa.eu/webpub/eca/special-reports/fight-money-laundering-13-2021/en/index.html",
+   "category": "evidence",
+   "source_class": "official"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

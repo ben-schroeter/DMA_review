@@ -12,7 +12,7 @@ eu = [json.loads(l) for l in open("data/rules_standards/instances.jsonl")]
 am = [json.loads(l)["formal"] for l in open("data/addressee/v2_final_main.jsonl")]
 import openpyxl
 wb = openpyxl.load_workbook("digital_rulebook.xlsx", read_only=True, data_only=True); r = list(wb["instruments"].values); h = r[0]
-cel2row = {str(x[h.index("celex_measured")]): x[0] for x in r[1:] if x[0]}
+cel2row = {c: x[0] for x in r[1:] if x[0] for c in str(x[h.index("celex_measured")]).split(";")}   # multi-CELEX rows (ESAP, E-evidence)
 EUN = {13: "Unfair Commercial Practices", 17: "Toy Safety", 20: "GDPR", 26: "Trade Secrets", 42: "E-evidence", 67: "Product Safety", 74: "Chips Act", 64: "AI Act"}
 LAB = {"ftc5": "FTC Act §5", "cpsia": "CPSIA", "ccpa": "CCPA (California)", "dtsa": "Defend Trade Secrets Act", "cloud": "CLOUD Act",
        "cpsa": "Consumer Product Safety Act", "chips": "CHIPS Act", "colorado_ai": "Colorado AI Act"}

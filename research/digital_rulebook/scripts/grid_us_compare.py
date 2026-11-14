@@ -16,7 +16,7 @@ us = [json.loads(l) for l in open("data/rules_standards/us_instances.jsonl")]
 eu = [json.loads(l) for l in open("data/rules_standards/instances.jsonl")]
 am = [json.loads(l)["formal"] for l in open("data/addressee/v2_final_main.jsonl")]
 wb = openpyxl.load_workbook("digital_rulebook.xlsx", read_only=True, data_only=True); r = list(wb["instruments"].values); h = r[0]
-cel2row = {str(x[h.index("celex_measured")]): x[0] for x in r[1:] if x[0]}
+cel2row = {c: x[0] for x in r[1:] if x[0] for c in str(x[h.index("celex_measured")]).split(";")}   # multi-CELEX rows (ESAP, E-evidence)
 ROWS = {x["row_id"]: x["law"] for x in us}
 EUN = {13: "Unfair Commercial Practices Directive", 17: "Toy Safety Directive", 20: "GDPR", 26: "Trade Secrets Directive", 42: "E-evidence Regulation",
        67: "General Product Safety Regulation", 74: "Chips Act", 64: "AI Act"}

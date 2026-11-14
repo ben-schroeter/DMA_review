@@ -16,78 +16,78 @@
   "designated": "Designated very large firms"
  },
  "baseline": [
-  1596,
-  1596,
-  1596,
-  1596,
-  1966,
-  1966
+  1794,
+  1794,
+  1794,
+  1794,
+  2164,
+  2164
  ],
  "types": {
   "GK": {
    "name": "Gatekeepers and very large platforms",
    "specific": [
-    813,
-    813,
-    1154,
-    1154,
-    1154,
-    1452
+    821,
+    821,
+    1162,
+    1162,
+    1162,
+    1460
    ]
   },
   "PL": {
    "name": "Online platforms and digital services",
    "specific": [
-    748,
-    748,
-    1089,
-    1089,
-    1089,
-    1089
+    758,
+    774,
+    1115,
+    1115,
+    1115,
+    1115
    ]
   },
   "CL": {
    "name": "Cloud, data and AI",
    "specific": [
-    1053,
-    1055,
-    1319,
-    1319,
-    1319,
-    1322
+    1102,
+    1104,
+    1368,
+    1368,
+    1368,
+    1371
    ]
   },
   "TC": {
    "name": "Telecoms",
    "specific": [
-    1275,
-    1275,
-    1278,
-    1278,
-    1278,
-    1278
+    1287,
+    1288,
+    1291,
+    1291,
+    1291,
+    1291
    ]
   },
   "FI": {
    "name": "Finance, payments and crypto",
    "specific": [
-    3460,
-    3482,
-    3482,
-    3482,
-    3482,
-    3482
+    3837,
+    3859,
+    3859,
+    3859,
+    3859,
+    3859
    ]
   },
   "PR": {
    "name": "Makers of connected products",
    "specific": [
-    3312,
-    3343,
-    3665,
-    3665,
-    3665,
-    3668
+    8752,
+    8785,
+    9107,
+    9107,
+    9107,
+    9110
    ]
   }
  },
@@ -152,6 +152,14 @@
    "obligations": 10,
    "band": "medium"
   },
+  "European Accessibility Act Art. 4(5): microenterprises providing services are exempt from the accessibility requirements and related obligations": {
+   "obligations": 16,
+   "band": "small"
+  },
+  "European Accessibility Act Art. 14(4): microenterprises dealing with products need not document their assessment of a disproportionate burden": {
+   "obligations": 4,
+   "band": "small"
+  },
   "DSA implementing and delegated acts for very large platforms (audits, VLOP reporting)": {
    "obligations": 89,
    "band": "designated"
@@ -165,7 +173,8 @@
   "Platform Work Directive Art. 17: SMEs may update information yearly",
   "Short-Term Rental Data Regulation Art. 9: small platforms with few listings report quarterly",
   "DORA Arts. 6(5), 12(4), 25(3), 30: lighter versions for microenterprises",
-  "Chips Act: lower fines for SMEs"
+  "Chips Act: lower fines for SMEs",
+  "Medical Devices and In Vitro Diagnostic Medical Devices Regulations Art. 15(2): micro and small manufacturers may use an external person responsible for regulatory compliance"
  ],
  "optional": [
   "EECC Art. 17: Member States may exempt undertakings under EUR 50 million from accounting separation",
@@ -174,11 +183,11 @@
   "AML Regulation Art. 5: Member States may exempt small football clubs"
  ],
  "all_company_obligations": [
-  11124,
-  11177,
-  11580,
-  11580,
-  11950,
-  12248
+  17154,
+  17227,
+  17630,
+  17630,
+  18000,
+  18298
  ]
 }

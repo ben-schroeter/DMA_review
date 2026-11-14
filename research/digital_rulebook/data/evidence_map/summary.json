@@ -1,18 +1,18 @@
 {
- "instruments": 100,
- "sources": 525,
+ "instruments": 110,
+ "sources": 543,
  "sources_without_category": 14,
  "by_category": {
   "costs": {
    "name": "Compliance costs and burden",
-   "measured": 39,
-   "none": 31,
-   "forecast": 28,
+   "measured": 41,
+   "none": 38,
+   "forecast": 29,
    "causal": 2
   },
   "consumers": {
    "name": "Prices and consumers",
-   "none": 62,
+   "none": 72,
    "measured": 23,
    "forecast": 5,
    "causal": 10
@@ -20,50 +20,50 @@
   "competition": {
    "name": "Competition and market structure",
    "causal": 8,
-   "none": 72,
-   "measured": 16,
+   "none": 81,
+   "measured": 17,
    "forecast": 4
   },
   "innovation": {
    "name": "Innovation and investment",
-   "measured": 25,
-   "none": 65,
+   "measured": 27,
+   "none": 73,
    "forecast": 4,
    "causal": 6
   },
   "growth": {
    "name": "Growth and jobs",
-   "none": 68,
-   "measured": 13,
+   "none": 76,
+   "measured": 15,
    "causal": 12,
    "forecast": 7
   },
   "market": {
    "name": "Single market, trade and FDI",
-   "none": 57,
-   "measured": 30,
+   "none": 64,
+   "measured": 33,
    "causal": 5,
    "forecast": 8
   },
   "rights": {
    "name": "Rights, safety and security",
-   "none": 68,
-   "measured": 23,
+   "none": 74,
+   "measured": 26,
    "causal": 3,
-   "forecast": 6
+   "forecast": 7
   },
   "implementation": {
    "name": "Implementation and enforcement",
-   "none": 25,
-   "measured": 65,
+   "none": 31,
+   "measured": 69,
    "causal": 5,
    "forecast": 5
   }
  },
- "pairs": 800,
- "pairs_evidence": 285,
+ "pairs": 880,
+ "pairs_evidence": 302,
  "pairs_causal": 51,
- "core_pairs": 500,
- "core_evidence": 154,
+ "core_pairs": 550,
+ "core_evidence": 161,
  "core_causal": 38
 }

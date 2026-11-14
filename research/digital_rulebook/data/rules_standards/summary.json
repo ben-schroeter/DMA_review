@@ -1,40 +1,40 @@
 {
  "total_by_code": {
   "main": {
-   "R": 11536,
-   "S": 3648,
-   "N": 2230,
-   "D": 363,
-   "M": 567,
-   "L": 55
+   "R": 14498,
+   "S": 4440,
+   "N": 2587,
+   "D": 435,
+   "M": 748,
+   "L": 74
   },
   "secondary": {
-   "R": 7615,
-   "D": 41,
-   "N": 1333,
-   "S": 1102,
-   "L": 163,
-   "M": 162
+   "R": 11023,
+   "D": 134,
+   "N": 1588,
+   "S": 1483,
+   "L": 167,
+   "M": 280
   }
  },
  "missing": 0,
  "main_all": {
-  "n": 16169,
-  "R": 0.713,
-  "S": 0.226,
-  "M": 0.035,
-  "L": 0.003,
+  "n": 20195,
+  "R": 0.718,
+  "S": 0.22,
+  "M": 0.037,
+  "L": 0.004,
   "D": 0.022,
-  "standard_like": 0.264
+  "standard_like": 0.261
  },
  "secondary_all": {
-  "n": 9083,
-  "R": 0.838,
-  "S": 0.121,
-  "M": 0.018,
-  "L": 0.018,
-  "D": 0.005,
-  "standard_like": 0.157
+  "n": 13087,
+  "R": 0.842,
+  "S": 0.113,
+  "M": 0.021,
+  "L": 0.013,
+  "D": 0.01,
+  "standard_like": 0.147
  },
  "by_area": {
   "Connectivity": {
@@ -83,40 +83,40 @@
    "standard_like": 0.258
   },
   "Competition & Single Market": {
-   "n": 1234,
-   "R": 0.776,
-   "S": 0.163,
-   "M": 0.03,
+   "n": 1505,
+   "R": 0.755,
+   "S": 0.182,
+   "M": 0.035,
    "L": 0.0,
-   "D": 0.032,
-   "standard_like": 0.193
+   "D": 0.027,
+   "standard_like": 0.217
   },
   "Finance": {
-   "n": 3255,
-   "R": 0.756,
-   "S": 0.186,
-   "M": 0.03,
+   "n": 3517,
+   "R": 0.744,
+   "S": 0.196,
+   "M": 0.031,
    "L": 0.002,
-   "D": 0.026,
-   "standard_like": 0.218
+   "D": 0.027,
+   "standard_like": 0.229
   },
   "Trust & Safety": {
-   "n": 3616,
-   "R": 0.688,
-   "S": 0.268,
-   "M": 0.027,
-   "L": 0.007,
-   "D": 0.01,
-   "standard_like": 0.302
+   "n": 6838,
+   "R": 0.715,
+   "S": 0.232,
+   "M": 0.036,
+   "L": 0.006,
+   "D": 0.011,
+   "standard_like": 0.274
   },
   "Law Enforcement": {
-   "n": 856,
-   "R": 0.718,
-   "S": 0.22,
-   "M": 0.023,
+   "n": 895,
+   "R": 0.722,
+   "S": 0.216,
+   "M": 0.022,
    "L": 0.0,
-   "D": 0.039,
-   "standard_like": 0.243
+   "D": 0.04,
+   "standard_like": 0.238
   },
   "Cybersecurity": {
    "n": 978,
@@ -137,77 +137,77 @@
    "standard_like": 0.241
   },
   "Industrial Policy": {
-   "n": 260,
-   "R": 0.681,
-   "S": 0.292,
-   "M": 0.023,
-   "L": 0.0,
-   "D": 0.004,
-   "standard_like": 0.315
+   "n": 492,
+   "R": 0.756,
+   "S": 0.183,
+   "M": 0.024,
+   "L": 0.002,
+   "D": 0.035,
+   "standard_like": 0.209
   }
  },
  "by_period": {
   "before 2020": {
-   "n": 6748,
-   "R": 0.72,
+   "n": 10503,
+   "R": 0.723,
    "S": 0.205,
-   "M": 0.039,
-   "L": 0.003,
-   "D": 0.034,
-   "standard_like": 0.247
+   "M": 0.042,
+   "L": 0.004,
+   "D": 0.027,
+   "standard_like": 0.25
   },
   "2020 or later": {
-   "n": 9421,
-   "R": 0.709,
-   "S": 0.241,
+   "n": 9692,
+   "R": 0.713,
+   "S": 0.236,
    "M": 0.032,
    "L": 0.004,
-   "D": 0.014,
-   "standard_like": 0.277
+   "D": 0.016,
+   "standard_like": 0.272
   }
  },
  "by_addressee": {
   "member_states": {
-   "n": 5798,
-   "R": 0.677,
-   "S": 0.225,
-   "M": 0.037,
+   "n": 6865,
+   "R": 0.679,
+   "S": 0.222,
+   "M": 0.039,
    "L": 0.002,
-   "D": 0.058,
-   "standard_like": 0.265
+   "D": 0.059,
+   "standard_like": 0.262
   },
   "eu_institutions": {
-   "n": 3847,
-   "R": 0.778,
-   "S": 0.195,
-   "M": 0.022,
-   "L": 0.003,
+   "n": 4542,
+   "R": 0.785,
+   "S": 0.187,
+   "M": 0.024,
+   "L": 0.004,
    "D": 0.001,
-   "standard_like": 0.221
+   "standard_like": 0.214
   },
   "private_parties": {
-   "n": 6504,
-   "R": 0.708,
-   "S": 0.244,
-   "M": 0.041,
+   "n": 8757,
+   "R": 0.714,
+   "S": 0.235,
+   "M": 0.043,
    "L": 0.005,
    "D": 0.003,
-   "standard_like": 0.289
+   "standard_like": 0.283
   },
   "no_actor": {
-   "n": 20,
-   "R": 0.7,
-   "S": 0.25,
+   "n": 31,
+   "R": 0.71,
+   "S": 0.258,
    "M": 0.0,
    "L": 0.0,
-   "D": 0.05,
-   "standard_like": 0.25
+   "D": 0.032,
+   "standard_like": 0.258
   }
  },
  "labels": {
   "standards-based": 3,
-  "mixed": 18,
-  "rule-based": 76
+  "mixed": 20,
+  "rule-based": 85
  },
  "instruments": [
   {
@@ -396,6 +396,31 @@
    }
   },
   {
+   "row_id": 133,
+   "name": "Services Directive",
+   "area": "Competition & Single Market",
+   "year": 2006,
+   "main": {
+    "n": 190,
+    "R": 0.611,
+    "S": 0.305,
+    "M": 0.074,
+    "L": 0.0,
+    "D": 0.011,
+    "standard_like": 0.379
+   },
+   "label": "mixed",
+   "secondary": {
+    "n": 68,
+    "R": 0.956,
+    "S": 0.044,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.044
+   }
+  },
+  {
    "row_id": 61,
    "name": "NIS 2 Directive",
    "area": "Cybersecurity",
@@ -443,6 +468,31 @@
     "L": 0.0,
     "D": 0.008,
     "standard_like": 0.182
+   }
+  },
+  {
+   "row_id": 141,
+   "name": "Fourth Anti-Money Laundering Directive",
+   "area": "Finance",
+   "year": 2015,
+   "main": {
+    "n": 262,
+    "R": 0.599,
+    "S": 0.321,
+    "M": 0.042,
+    "L": 0.0,
+    "D": 0.038,
+    "standard_like": 0.363
+   },
+   "label": "mixed",
+   "secondary": {
+    "n": 68,
+    "R": 0.765,
+    "S": 0.176,
+    "M": 0.044,
+    "L": 0.015,
+    "D": 0.0,
+    "standard_like": 0.235
    }
   },
   {
@@ -603,6 +653,23 @@
     "D": 0.0,
     "standard_like": 0.111
    }
+  },
+  {
+   "row_id": 138,
+   "name": "Low Voltage Directive",
+   "area": "Trust & Safety",
+   "year": 2014,
+   "main": {
+    "n": 130,
+    "R": 0.654,
+    "S": 0.292,
+    "M": 0.031,
+    "L": 0.0,
+    "D": 0.023,
+    "standard_like": 0.323
+   },
+   "label": "rule-based",
+   "secondary": null
   },
   {
    "row_id": 44,
@@ -1110,6 +1177,31 @@
    }
   },
   {
+   "row_id": 134,
+   "name": "Medical Devices Regulation",
+   "area": "Trust & Safety",
+   "year": 2017,
+   "main": {
+    "n": 1458,
+    "R": 0.737,
+    "S": 0.195,
+    "M": 0.056,
+    "L": 0.003,
+    "D": 0.01,
+    "standard_like": 0.254
+   },
+   "label": "rule-based",
+   "secondary": {
+    "n": 549,
+    "R": 0.789,
+    "S": 0.155,
+    "M": 0.053,
+    "L": 0.004,
+    "D": 0.0,
+    "standard_like": 0.211
+   }
+  },
+  {
    "row_id": 37,
    "name": "Cybersecurity Act",
    "area": "Cybersecurity",
@@ -1219,6 +1311,31 @@
    "secondary": null
   },
   {
+   "row_id": 135,
+   "name": "In Vitro Diagnostic Medical Devices Regulation",
+   "area": "Trust & Safety",
+   "year": 2017,
+   "main": {
+    "n": 1319,
+    "R": 0.752,
+    "S": 0.195,
+    "M": 0.041,
+    "L": 0.003,
+    "D": 0.009,
+    "standard_like": 0.239
+   },
+   "label": "rule-based",
+   "secondary": {
+    "n": 380,
+    "R": 0.745,
+    "S": 0.142,
+    "M": 0.111,
+    "L": 0.003,
+    "D": 0.0,
+    "standard_like": 0.255
+   }
+  },
+  {
    "row_id": 63,
    "name": "Roaming Regulation",
    "area": "Connectivity",
@@ -1251,6 +1368,31 @@
    },
    "label": "rule-based",
    "secondary": null
+  },
+  {
+   "row_id": 136,
+   "name": "Vehicle General Safety Regulation",
+   "area": "Trust & Safety",
+   "year": 2019,
+   "main": {
+    "n": 100,
+    "R": 0.77,
+    "S": 0.08,
+    "M": 0.06,
+    "L": 0.09,
+    "D": 0.0,
+    "standard_like": 0.23
+   },
+   "label": "rule-based",
+   "secondary": {
+    "n": 2258,
+    "R": 0.888,
+    "S": 0.091,
+    "M": 0.019,
+    "L": 0.0,
+    "D": 0.002,
+    "standard_like": 0.111
+   }
   },
   {
    "row_id": 71,
@@ -1368,6 +1510,31 @@
    },
    "label": "rule-based",
    "secondary": null
+  },
+  {
+   "row_id": 132,
+   "name": "Antitrust Procedure Regulation",
+   "area": "Competition & Single Market",
+   "year": 2002,
+   "main": {
+    "n": 81,
+    "R": 0.79,
+    "S": 0.185,
+    "M": 0.025,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.21
+   },
+   "label": "rule-based",
+   "secondary": {
+    "n": 49,
+    "R": 0.837,
+    "S": 0.163,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.0,
+    "standard_like": 0.163
+   }
   },
   {
    "row_id": 128,
@@ -1698,6 +1865,31 @@
    }
   },
   {
+   "row_id": 140,
+   "name": "WEEE Directive",
+   "area": "Trust & Safety",
+   "year": 2012,
+   "main": {
+    "n": 149,
+    "R": 0.799,
+    "S": 0.141,
+    "M": 0.02,
+    "L": 0.0,
+    "D": 0.04,
+    "standard_like": 0.161
+   },
+   "label": "rule-based",
+   "secondary": {
+    "n": 74,
+    "R": 0.986,
+    "S": 0.0,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.014,
+    "standard_like": 0.0
+   }
+  },
+  {
    "row_id": 86,
    "name": "Product Liability Directive",
    "area": "Trust & Safety",
@@ -1752,6 +1944,23 @@
     "L": 0.0,
     "D": 0.0,
     "standard_like": 0.138
+   },
+   "label": "rule-based",
+   "secondary": null
+  },
+  {
+   "row_id": 42,
+   "name": "E-evidence Regulation",
+   "area": "Law Enforcement",
+   "year": 2023,
+   "main": {
+    "n": 39,
+    "R": 0.795,
+    "S": 0.128,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.077,
+    "standard_like": 0.128
    },
    "label": "rule-based",
    "secondary": null
@@ -1839,6 +2048,31 @@
    },
    "label": "rule-based",
    "secondary": null
+  },
+  {
+   "row_id": 139,
+   "name": "RoHS Directive",
+   "area": "Trust & Safety",
+   "year": 2011,
+   "main": {
+    "n": 66,
+    "R": 0.788,
+    "S": 0.121,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.091,
+    "standard_like": 0.121
+   },
+   "label": "rule-based",
+   "secondary": {
+    "n": 435,
+    "R": 0.8,
+    "S": 0.0,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.2,
+    "standard_like": 0.0
+   }
   },
   {
    "row_id": 30,
@@ -2016,6 +2250,31 @@
    },
    "label": "rule-based",
    "secondary": null
+  },
+  {
+   "row_id": 137,
+   "name": "Dual-Use Regulation",
+   "area": "Industrial Policy",
+   "year": 2021,
+   "main": {
+    "n": 232,
+    "R": 0.841,
+    "S": 0.06,
+    "M": 0.026,
+    "L": 0.004,
+    "D": 0.069,
+    "standard_like": 0.091
+   },
+   "label": "rule-based",
+   "secondary": {
+    "n": 123,
+    "R": 0.886,
+    "S": 0.106,
+    "M": 0.0,
+    "L": 0.0,
+    "D": 0.008,
+    "standard_like": 0.106
+   }
   },
   {
    "row_id": 126,

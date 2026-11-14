@@ -2,6 +2,7 @@ row_id,law,policy_area,Baseline: all companies,Gatekeepers and very large platfo
 123,ADR Directive,E-commerce & Consumer Protection,all,,,,,,
 19,Administrative cooperation in taxation (DAC),Finance,,where named,where named,,,where named,
 68,Anti-Money Laundering Regulation,Finance,,,,,,all,
+132,Antitrust Procedure Regulation,Competition & Single Market,all,,,,,,
 64,Artificial Intelligence Act,Trust & Safety,,where named,where named,all,,,where named
 15,Audiovisual Media Services Directive,Media,,where named,where named,,,,
 14,Common VAT system Directive,Finance,all,,,,,,
@@ -22,6 +23,7 @@ row_id,law,policy_area,Baseline: all companies,Gatekeepers and very large platfo
 59,Digital Markets Act,Competition & Single Market,,all,,,,,
 57,Digital Operational Resilience Act (DORA),Finance,,,,where named,,all,
 60,Digital Services Act,E-commerce & Consumer Protection,,all,articles 11-32,articles 11-18,articles 11-15,,
+137,Dual-Use Regulation,Industrial Policy,,,,,,,all
 8,E-commerce Directive,E-commerce & Consumer Protection,all,,,,,,
 42,E-evidence Regulation,Law Enforcement,,all,all,all,all,,
 111,E-invoicing Directive,E-commerce & Consumer Protection,all,,,,,,
@@ -36,6 +38,7 @@ row_id,law,policy_area,Baseline: all companies,Gatekeepers and very large platfo
 84,European Media Freedom Act,Media,,where named,,,,,
 129,European Single Access Point (ESAP),Finance,all,,,,,,
 66,Foreign Subsidies Regulation,Competition & Single Market,all,,,,,,
+141,Fourth Anti-Money Laundering Directive,Finance,,,,,,all,
 38,Free Flow of Non-Personal Data Regulation,Data & Privacy,,,,all,,,
 20,General Data Protection Regulation,Data & Privacy,all,,,,,,
 67,General Product Safety Regulation,Trust & Safety,,where named,where named,,,,all
@@ -43,9 +46,12 @@ row_id,law,policy_area,Baseline: all companies,Gatekeepers and very large platfo
 91,Gigabit Infrastructure Act,Connectivity,,,,,all,,
 87,Horizontal Block Exemption Regulations,Competition & Single Market,all,,,,,,
 12,IPR Enforcement Directive,IPR,all,,,,,,
+135,In Vitro Diagnostic Medical Devices Regulation,Trust & Safety,,,,,,,all
+138,Low Voltage Directive,Trust & Safety,,,,,,,all
 65,Machinery Regulation,Trust & Safety,,,,,,,all
 41,Market Surveillance Regulation,Competition & Single Market,,where named,where named,,,,all
 56,Markets in Crypto-Assets (MiCA),Finance,,,,,,all,
+134,Medical Devices Regulation,Trust & Safety,,,,,,,all
 61,NIS 2 Directive,Cybersecurity,,all,all,all,all,,all
 24,Open Internet Access Regulation,Connectivity,,,,,all,,
 23,Payment Services Directive 2 (PSD2),Finance,,,,,,all,
@@ -59,9 +65,11 @@ row_id,law,policy_area,Baseline: all companies,Gatekeepers and very large platfo
 10,Radio Spectrum Decision,Connectivity,,,,,all,,
 124,Representative Actions Directive,E-commerce & Consumer Protection,all,,,,,,
 94,Right to Repair Directive,E-commerce & Consumer Protection,,,,,,,all
+139,RoHS Directive,Trust & Safety,,,,,,,all
 63,Roaming Regulation,Connectivity,,,,,all,,
 126,SEPA Regulation,Finance,,,,,,all,
 28,Sale of Goods Directive,E-commerce & Consumer Protection,all,,,,,,
+133,Services Directive,Competition & Single Market,all,,,,,,
 115,Short-Term Rental Data Regulation,Data & Privacy,,all,all,,,,
 120,Software Directive,IPR,all,,,,,,
 25,Technology Transfer Block Exemption,Competition & Single Market,all,,,,,,
@@ -74,7 +82,9 @@ row_id,law,policy_area,Baseline: all companies,Gatekeepers and very large platfo
 13,Unfair Commercial Practices Directive,E-commerce & Consumer Protection,all,,,,,,
 2,Unfair Contract Terms Directive,E-commerce & Consumer Protection,all,,,,,,
 90,VAT in the Digital Age (ViDA),Finance,all,,,,,,
+136,Vehicle General Safety Regulation,Trust & Safety,,,,,,,all
 69,Vertical Block Exemption Regulation,Competition & Single Market,all,,,,,,
 77,Violence Against Women Directive,Law Enforcement,,where named,where named,,,,
+140,WEEE Directive,Trust & Safety,,,,,,,all
 22,eIDAS Regulation,Trust & Safety,,where named,,,,where named,
 9,ePrivacy Directive,Data & Privacy,all,,,,,,

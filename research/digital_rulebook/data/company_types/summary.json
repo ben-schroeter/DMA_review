@@ -10,10 +10,10 @@
  },
  "types": {
   "GK": {
-   "obligations": 1452,
+   "obligations": 1460,
    "start_2018": 21,
    "in_implementing_delegated": 691,
-   "since_2020": 1370,
+   "since_2020": 1378,
    "reporting": 230,
    "reporting_by_type": {
     "report_submission": 91,
@@ -32,9 +32,9 @@
     "Political Advertising Regulation": 163,
     "Digital Markets Act": 143,
     "Artificial Intelligence Act": 86,
+    "E-evidence Regulation": 50,
     "Platform-to-Business (P2B) Regulation": 50,
-    "Terrorist Content Online Regulation": 49,
-    "E-evidence Regulation": 42
+    "Terrorist Content Online Regulation": 49
    },
    "by_year": {
     "2017": 21,
@@ -42,19 +42,19 @@
     "2019": 59,
     "2021": 51,
     "2022": 371,
-    "2023": 168,
+    "2023": 176,
     "2024": 680,
     "2025": 75,
     "2026": 25
    },
-   "with_baseline": 3511,
-   "with_baseline_start_2018": 972
+   "with_baseline": 3624,
+   "with_baseline_start_2018": 1077
   },
   "PL": {
-   "obligations": 1107,
+   "obligations": 1115,
    "start_2018": 21,
    "in_implementing_delegated": 519,
-   "since_2020": 1007,
+   "since_2020": 1015,
    "reporting": 174,
    "reporting_by_type": {
     "report_submission": 66,
@@ -73,9 +73,9 @@
     "Political Advertising Regulation": 163,
     "Platform Work Directive": 56,
     "Artificial Intelligence Act": 55,
+    "E-evidence Regulation": 50,
     "Platform-to-Business (P2B) Regulation": 50,
-    "Terrorist Content Online Regulation": 49,
-    "E-evidence Regulation": 42
+    "Terrorist Content Online Regulation": 49
    },
    "by_year": {
     "2017": 21,
@@ -83,19 +83,19 @@
     "2019": 77,
     "2021": 49,
     "2022": 163,
-    "2023": 62,
+    "2023": 70,
     "2024": 657,
     "2025": 54,
     "2026": 22
    },
-   "with_baseline": 3166,
-   "with_baseline_start_2018": 972
+   "with_baseline": 3279,
+   "with_baseline_start_2018": 1077
   },
   "CL": {
-   "obligations": 1363,
+   "obligations": 1371,
    "start_2018": 0,
    "in_implementing_delegated": 594,
-   "since_2020": 1307,
+   "since_2020": 1315,
    "reporting": 235,
    "reporting_by_type": {
     "report_submission": 76,
@@ -115,27 +115,27 @@
     "Digital Operational Resilience Act (DORA)": 200,
     "Data Governance Act": 66,
     "Digital Services Act": 59,
-    "Terrorist Content Online Regulation": 49,
-    "E-evidence Regulation": 42
+    "E-evidence Regulation": 50,
+    "Terrorist Content Online Regulation": 49
    },
    "by_year": {
     "2018": 1,
     "2019": 55,
     "2021": 49,
     "2022": 200,
-    "2023": 123,
+    "2023": 131,
     "2024": 888,
     "2025": 33,
     "2026": 14
    },
-   "with_baseline": 3422,
-   "with_baseline_start_2018": 951
+   "with_baseline": 3535,
+   "with_baseline_start_2018": 1056
   },
   "TC": {
-   "obligations": 1283,
+   "obligations": 1291,
    "start_2018": 90,
    "in_implementing_delegated": 836,
-   "since_2020": 942,
+   "since_2020": 950,
    "reporting": 128,
    "reporting_by_type": {
     "disclosure": 57,
@@ -153,8 +153,8 @@
     "NIS 2 Directive": 261,
     "Digital Services Act": 234,
     "Roaming Regulation": 100,
+    "E-evidence Regulation": 50,
     "Open Internet Access Regulation": 44,
-    "E-evidence Regulation": 42,
     "Gigabit Infrastructure Act": 22
    },
    "by_year": {
@@ -170,118 +170,121 @@
     "2020": 32,
     "2021": 13,
     "2022": 235,
-    "2023": 34,
+    "2023": 42,
     "2024": 490,
     "2025": 37,
     "2026": 101
    },
-   "with_baseline": 3342,
-   "with_baseline_start_2018": 1041
+   "with_baseline": 3455,
+   "with_baseline_start_2018": 1146
   },
   "FI": {
-   "obligations": 3747,
-   "start_2018": 476,
-   "in_implementing_delegated": 1981,
-   "since_2020": 3197,
-   "reporting": 599,
+   "obligations": 3859,
+   "start_2018": 554,
+   "in_implementing_delegated": 2015,
+   "since_2020": 3206,
+   "reporting": 608,
    "reporting_by_type": {
-    "report_submission": 278,
-    "disclosure": 127,
-    "record_keeping": 90,
-    "notification": 82,
+    "report_submission": 281,
+    "disclosure": 128,
+    "record_keeping": 91,
+    "notification": 84,
     "on_request": 15,
-    "registration": 7
+    "registration": 9
    },
-   "reporting_event": 199,
+   "reporting_event": 201,
    "reporting_periodic": 27,
-   "laws": 10,
+   "laws": 11,
    "top_laws": {
     "Markets in Crypto-Assets (MiCA)": 1580,
     "Digital Operational Resilience Act (DORA)": 974,
     "Payment Services Directive 2 (PSD2)": 481,
     "Anti-Money Laundering Regulation": 295,
     "Consumer Credit Directive II": 150,
+    "Fourth Anti-Money Laundering Directive": 112,
     "DLT Pilot Regime Regulation": 79,
-    "SEPA Regulation": 79,
-    "Transfer of Funds Regulation": 69
+    "SEPA Regulation": 79
    },
    "by_year": {
     "2009": 36,
     "2012": 46,
-    "2015": 264,
+    "2015": 342,
     "2017": 130,
-    "2018": 69,
-    "2019": 5,
-    "2021": 12,
+    "2018": 71,
+    "2019": 28,
+    "2021": 21,
     "2022": 329,
     "2023": 797,
     "2024": 1599,
     "2025": 460
    },
-   "with_baseline": 5806,
-   "with_baseline_start_2018": 1427
+   "with_baseline": 6023,
+   "with_baseline_start_2018": 1610
   },
   "PR": {
-   "obligations": 3801,
-   "start_2018": 600,
-   "in_implementing_delegated": 630,
-   "since_2020": 2991,
-   "reporting": 624,
+   "obligations": 9110,
+   "start_2018": 2849,
+   "in_implementing_delegated": 3619,
+   "since_2020": 5988,
+   "reporting": 1143,
    "reporting_by_type": {
-    "report_submission": 204,
-    "notification": 165,
-    "record_keeping": 110,
-    "disclosure": 76,
-    "on_request": 60,
-    "registration": 9
+    "report_submission": 460,
+    "notification": 270,
+    "record_keeping": 194,
+    "disclosure": 118,
+    "on_request": 91,
+    "registration": 10
    },
-   "reporting_event": 200,
-   "reporting_periodic": 34,
-   "laws": 18,
+   "reporting_event": 348,
+   "reporting_periodic": 42,
+   "laws": 25,
    "top_laws": {
+    "Vehicle General Safety Regulation": 2163,
+    "Medical Devices Regulation": 1467,
+    "In Vitro Diagnostic Medical Devices Regulation": 1432,
     "Machinery Regulation": 784,
     "Toys Safety Regulation": 327,
     "Cyber Resilience Act": 281,
     "European Health Data Space": 262,
-    "Ecodesign for Sustainable Products Regulation": 262,
-    "NIS 2 Directive": 261,
-    "Artificial Intelligence Act": 250,
-    "Cybersecurity Act": 233
+    "Ecodesign for Sustainable Products Regulation": 262
    },
    "by_year": {
     "2009": 214,
-    "2014": 382,
-    "2017": 4,
+    "2011": 15,
+    "2012": 44,
+    "2014": 464,
+    "2017": 2112,
     "2018": 1,
-    "2019": 209,
-    "2021": 7,
-    "2022": 44,
-    "2023": 1058,
-    "2024": 1201,
-    "2025": 569,
-    "2026": 112
+    "2019": 272,
+    "2020": 122,
+    "2021": 1767,
+    "2022": 906,
+    "2023": 1162,
+    "2024": 1264,
+    "2025": 585,
+    "2026": 182
    },
-   "with_baseline": 5860,
-   "with_baseline_start_2018": 1551
+   "with_baseline": 11274,
+   "with_baseline_start_2018": 3905
   }
  },
  "baseline": {
-  "obligations": 2059,
-  "start_2018": 951,
-  "in_implementing_delegated": 1044,
+  "obligations": 2164,
+  "start_2018": 1056,
+  "in_implementing_delegated": 1082,
   "since_2020": 980,
-  "reporting": 362,
+  "reporting": 371,
   "reporting_by_type": {
-   "report_submission": 143,
+   "report_submission": 148,
    "disclosure": 104,
-   "notification": 56,
+   "notification": 59,
    "record_keeping": 37,
    "on_request": 14,
-   "registration": 8
+   "registration": 9
   },
-  "reporting_event": 108,
+  "reporting_event": 110,
   "reporting_periodic": 6,
-  "laws": 28,
+  "laws": 30,
   "top_laws": {
    "General Data Protection Regulation": 671,
    "Company Law Directive": 257,
@@ -289,8 +292,8 @@
    "Common VAT system Directive": 207,
    "Foreign Subsidies Regulation": 137,
    "Community Design Regulation": 118,
-   "Consumer Rights Directive": 77,
-   "European Single Access Point (ESAP)": 41
+   "Services Directive": 87,
+   "Consumer Rights Directive": 77
   },
   "by_year": {
    "1993": 11,
@@ -298,15 +301,15 @@
    "1998": 3,
    "2000": 22,
    "2001": 67,
-   "2002": 25,
+   "2002": 43,
    "2004": 35,
    "2005": 10,
-   "2006": 111,
+   "2006": 160,
    "2009": 16,
    "2010": 2,
    "2011": 115,
    "2012": 1,
-   "2013": 125,
+   "2013": 163,
    "2014": 3,
    "2015": 1,
    "2016": 166,
@@ -323,8 +326,8 @@
   }
  },
  "gk_split": {
-  "all": 1452,
-  "also_platform_rules": 1033,
+  "all": 1460,
+  "also_platform_rules": 1041,
   "gatekeeper_only": 419
  },
  "not_counted_obligations": 613,

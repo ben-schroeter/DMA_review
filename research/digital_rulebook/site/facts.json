@@ -1,107 +1,107 @@
 {
  "laws_adopted": {
-  "value": 100,
-  "text": "100"
+  "value": 110,
+  "text": "110"
  },
  "obligations_main": {
-  "value": 18430,
-  "text": "18,430"
+  "value": 22813,
+  "text": "22,813"
  },
  "obligations_main_k": {
-  "value": 18430,
-  "text": "18,400"
+  "value": 22813,
+  "text": "22,800"
  },
  "words_m": {
-  "value": 2202586,
-  "text": "2.2"
+  "value": 2616178,
+  "text": "2.6"
  },
  "secondary_acts": {
-  "value": 650,
-  "text": "650"
+  "value": 812,
+  "text": "812"
  },
  "implementing_acts": {
-  "value": 584,
-  "text": "584"
+  "value": 618,
+  "text": "618"
  },
  "delegated_acts": {
-  "value": 66,
-  "text": "66"
+  "value": 194,
+  "text": "194"
  },
  "obligations_secondary": {
-  "value": 9915,
-  "text": "9,915"
+  "value": 14025,
+  "text": "14,025"
  },
  "obligations_secondary_k": {
-  "value": 9915,
-  "text": "9,900"
+  "value": 14025,
+  "text": "14,000"
  },
  "amending_acts": {
-  "value": 161,
-  "text": "161"
+  "value": 293,
+  "text": "293"
  },
  "national_measures": {
   "value": 48158,
   "text": "48,158"
  },
  "private_main": {
-  "value": 7170,
-  "text": "7,170"
+  "value": 9553,
+  "text": "9,553"
  },
  "private_secondary": {
-  "value": 5813,
-  "text": "5,813"
+  "value": 8867,
+  "text": "8,867"
  },
  "private_total": {
-  "value": 12983,
-  "text": "12,983"
+  "value": 18420,
+  "text": "18,420"
  },
  "private_total_k": {
-  "value": 12983,
-  "text": "13,000"
+  "value": 18420,
+  "text": "18,400"
  },
  "obligations_since_2018": {
-  "value": 13151,
-  "text": "13,151"
+  "value": 13559,
+  "text": "13,559"
  },
  "laws_since_2020": {
-  "value": 41,
-  "text": "41"
+  "value": 42,
+  "text": "42"
  },
  "obligations_since_2020_pct": {
-  "value": 57,
-  "text": "57%"
+  "value": 47,
+  "text": "47%"
  },
  "compared_with_proposal": {
-  "value": 94,
-  "text": "94"
+  "value": 104,
+  "text": "104"
  },
  "grew_in_negotiation": {
-  "value": 77,
-  "text": "77"
+  "value": 84,
+  "text": "84"
  },
  "studies_evidence": {
-  "value": 441,
-  "text": "441"
+  "value": 456,
+  "text": "456"
  },
  "studies_causal": {
   "value": 66,
   "text": "66"
  },
  "studies_review": {
-  "value": 112,
-  "text": "112"
+  "value": 124,
+  "text": "124"
  },
  "sources_total": {
-  "value": 441,
-  "text": "441"
+  "value": 456,
+  "text": "456"
  },
  "ia_full": {
-  "value": 74,
-  "text": "74"
+  "value": 83,
+  "text": "83"
  },
  "ia_pre": {
-  "value": 13,
-  "text": "13"
+  "value": 14,
+  "text": "14"
  },
  "ia_codification": {
   "value": 5,
@@ -120,16 +120,16 @@
   "text": "0"
  },
  "ia_laws_0314": {
-  "value": 20,
-  "text": "20"
+  "value": 27,
+  "text": "27"
  },
  "ia_without_1519": {
   "value": 2,
   "text": "2"
  },
  "ia_laws_1519": {
-  "value": 23,
-  "text": "23"
+  "value": 25,
+  "text": "25"
  },
  "ia_without_20": {
   "value": 5,
@@ -156,28 +156,28 @@
   "text": "50"
  },
  "library_total": {
-  "value": 491,
-  "text": "491"
+  "value": 506,
+  "text": "506"
  },
  "objectives": {
-  "value": 331,
-  "text": "331"
+  "value": 335,
+  "text": "335"
  },
  "obj_measured": {
-  "value": 48,
-  "text": "48"
+  "value": 49,
+  "text": "49"
  },
  "obj_partly": {
-  "value": 51,
-  "text": "51"
+  "value": 52,
+  "text": "52"
  },
  "obj_mixed": {
   "value": 21,
   "text": "21"
  },
  "obj_activity": {
-  "value": 51,
-  "text": "51"
+  "value": 53,
+  "text": "53"
  },
  "obj_never": {
   "value": 160,
@@ -188,20 +188,20 @@
   "text": "48%"
  },
  "src_official": {
-  "value": 202,
-  "text": "202"
+  "value": 214,
+  "text": "214"
  },
  "src_academic": {
-  "value": 134,
-  "text": "134"
+  "value": 135,
+  "text": "135"
  },
  "src_thinktank": {
   "value": 46,
   "text": "46"
  },
  "src_industry": {
-  "value": 50,
-  "text": "50"
+  "value": 52,
+  "text": "52"
  },
  "src_other": {
   "value": 9,
@@ -216,28 +216,28 @@
   "text": "12"
  },
  "lvl_thin": {
-  "value": 64,
-  "text": "64"
+  "value": 73,
+  "text": "73"
  },
  "lvl_too_early": {
-  "value": 21,
-  "text": "21"
+  "value": 22,
+  "text": "22"
  },
  "lvl_none": {
   "value": 1,
   "text": "1"
  },
  "rs_main_n": {
-  "value": 16169,
-  "text": "16,169"
+  "value": 20195,
+  "text": "20,195"
  },
  "rs_secondary_n": {
-  "value": 9083,
-  "text": "9,083"
+  "value": 13087,
+  "text": "13,087"
  },
  "rs_total_k": {
-  "value": 25252,
-  "text": "25,300"
+  "value": 33282,
+  "text": "33,300"
  },
  "forthcoming_withdrawn": {
   "value": 3,
@@ -272,8 +272,8 @@
   "text": "7"
  },
  "ev_costs_n": {
-  "value": 41,
-  "text": "41"
+  "value": 43,
+  "text": "43"
  },
  "ev_costs_causal": {
   "value": 2,
@@ -288,76 +288,76 @@
   "text": "10"
  },
  "ev_competition_n": {
-  "value": 24,
-  "text": "24"
+  "value": 25,
+  "text": "25"
  },
  "ev_competition_causal": {
   "value": 8,
   "text": "8"
  },
  "ev_innovation_n": {
-  "value": 31,
-  "text": "31"
+  "value": 33,
+  "text": "33"
  },
  "ev_innovation_causal": {
   "value": 6,
   "text": "6"
  },
  "ev_growth_n": {
-  "value": 25,
-  "text": "25"
+  "value": 27,
+  "text": "27"
  },
  "ev_growth_causal": {
   "value": 12,
   "text": "12"
  },
  "ev_market_n": {
-  "value": 35,
-  "text": "35"
+  "value": 38,
+  "text": "38"
  },
  "ev_market_causal": {
   "value": 5,
   "text": "5"
  },
  "ev_rights_n": {
-  "value": 26,
-  "text": "26"
+  "value": 29,
+  "text": "29"
  },
  "ev_rights_causal": {
   "value": 3,
   "text": "3"
  },
  "ev_implementation_n": {
-  "value": 70,
-  "text": "70"
+  "value": 74,
+  "text": "74"
  },
  "ev_implementation_causal": {
   "value": 5,
   "text": "5"
  },
  "db_instruments": {
-  "value": 133,
-  "text": "133"
+  "value": 143,
+  "text": "143"
  },
  "db_secondary_all": {
-  "value": 716,
-  "text": "716"
+  "value": 888,
+  "text": "888"
  },
  "db_secondary_guidance": {
-  "value": 40,
-  "text": "40"
+  "value": 47,
+  "text": "47"
  },
  "db_secondary_other": {
-  "value": 26,
-  "text": "26"
+  "value": 29,
+  "text": "29"
  },
  "db_amendments": {
-  "value": 187,
-  "text": "187"
+  "value": 319,
+  "text": "319"
  },
  "db_corrigenda": {
-  "value": 412,
-  "text": "412"
+  "value": 469,
+  "text": "469"
  },
  "db_us_mapped": {
   "value": 115,
@@ -376,80 +376,80 @@
   "text": "82"
  },
  "ct_PR": {
-  "value": 3801,
-  "text": "3,801"
+  "value": 9110,
+  "text": "9,110"
  },
  "ct_PR_2018": {
-  "value": 600,
-  "text": "600"
+  "value": 2849,
+  "text": "2,849"
  },
  "ct_FI": {
-  "value": 3747,
-  "text": "3,747"
+  "value": 3859,
+  "text": "3,859"
  },
  "ct_FI_2018": {
-  "value": 476,
-  "text": "476"
+  "value": 554,
+  "text": "554"
  },
  "ct_GK": {
-  "value": 1452,
-  "text": "1,452"
+  "value": 1460,
+  "text": "1,460"
  },
  "ct_GK_2018": {
   "value": 21,
   "text": "21"
  },
  "ct_CL": {
-  "value": 1363,
-  "text": "1,363"
+  "value": 1371,
+  "text": "1,371"
  },
  "ct_CL_2018": {
   "value": 0,
   "text": "0"
  },
  "ct_TC": {
-  "value": 1283,
-  "text": "1,283"
+  "value": 1291,
+  "text": "1,291"
  },
  "ct_TC_2018": {
   "value": 90,
   "text": "90"
  },
  "ct_PL": {
-  "value": 1107,
-  "text": "1,107"
+  "value": 1115,
+  "text": "1,115"
  },
  "ct_PL_2018": {
   "value": 21,
   "text": "21"
  },
  "ct_baseline": {
-  "value": 2059,
-  "text": "2,059"
+  "value": 2164,
+  "text": "2,164"
  },
  "ct_reporting_share": {
-  "value": 15,
-  "text": "15%"
+  "value": 14,
+  "text": "14%"
  },
  "firm_company_obligations": {
-  "value": 12466,
-  "text": "12,466"
+  "value": 18000,
+  "text": "18,000"
  },
  "firm_relief_removed": {
   "value": 846,
   "text": "846"
  },
  "firm_micro_pct": {
-  "value": 93,
-  "text": "93%"
+  "value": 95,
+  "text": "95%"
  },
  "prohib_since_2018": {
-  "value": 6.3,
-  "text": "6.3%"
+  "value": 6.2,
+  "text": "6.2%"
  },
  "prohib_before_2018": {
-  "value": 9.2,
-  "text": "9.2%"
+  "value": 7.4,
+  "text": "7.4%"
  },
  "growth_words_median": {
   "value": 44,
@@ -468,20 +468,20 @@
   "text": "90%"
  },
  "rep_total": {
-  "value": 5088,
-  "text": "5,088"
+  "value": 6263,
+  "text": "6,263"
  },
  "rep_private": {
-  "value": 2093,
-  "text": "2,093"
+  "value": 2630,
+  "text": "2,630"
  },
  "rep_states": {
-  "value": 1762,
-  "text": "1,762"
+  "value": 2216,
+  "text": "2,216"
  },
  "rep_eu": {
-  "value": 1232,
-  "text": "1,232"
+  "value": 1416,
+  "text": "1,416"
  },
  "rep_precision": {
   "value": 94,
@@ -508,16 +508,16 @@
   "text": "68%"
  },
  "model_clauses_k": {
-  "value": 4925,
-  "text": "4,900"
+  "value": 5778,
+  "text": "5,700"
  },
  "area_finance_k": {
-  "value": 3818,
-  "text": "3,800"
+  "value": 3893,
+  "text": "3,900"
  },
  "area_trust_k": {
-  "value": 3387,
-  "text": "3,400"
+  "value": 8563,
+  "text": "8,600"
  },
  "ex_ai_proposal": {
   "value": 392,
@@ -544,12 +544,12 @@
   "text": "603"
  },
  "rs_no_duty_main": {
-  "value": 2230,
-  "text": "2,230"
+  "value": 2587,
+  "text": "2,587"
  },
  "rs_no_duty_secondary": {
-  "value": 1333,
-  "text": "1,333"
+  "value": 1588,
+  "text": "1,588"
  },
  "rs_agreement": {
   "value": 92,
@@ -560,8 +560,8 @@
   "text": "200"
  },
  "rs_all_main_R": {
-  "value": 71,
-  "text": "71%"
+  "value": 72,
+  "text": "72%"
  },
  "rs_all_main_standard_like": {
   "value": 26,
@@ -576,16 +576,16 @@
   "text": "84%"
  },
  "rs_comp_sec_R": {
-  "value": 84,
-  "text": "84%"
+  "value": 85,
+  "text": "85%"
  },
  "rs_acts_second_layer": {
-  "value": 25,
-  "text": "25"
+  "value": 33,
+  "text": "33"
  },
  "rs_acts_more_rules": {
-  "value": 24,
-  "text": "24"
+  "value": 31,
+  "text": "31"
  },
  "rs_ecodesign_main": {
   "value": 65,
@@ -624,32 +624,32 @@
   "text": "65%"
  },
  "grid_comp_ME": {
-  "value": 7,
-  "text": "7%"
+  "value": 6,
+  "text": "6%"
  },
  "grid_comp_XM": {
-  "value": 7,
-  "text": "7%"
+  "value": 8,
+  "text": "8%"
  },
  "grid_comp_XE": {
-  "value": 21,
-  "text": "21%"
+  "value": 20,
+  "text": "20%"
  },
  "grid_comp_open": {
   "value": 34,
   "text": "34%"
  },
  "grid_comp_n": {
-  "value": 6491,
-  "text": "6,491"
+  "value": 8717,
+  "text": "8,717"
  },
  "grid_comp_sec_open": {
-  "value": 24,
-  "text": "24%"
+  "value": 26,
+  "text": "26%"
  },
  "grid_no_duty_main": {
-  "value": 12,
-  "text": "12%"
+  "value": 11,
+  "text": "11%"
  },
  "grid_val_n": {
   "value": 100,
@@ -664,12 +664,12 @@
   "text": "0.82"
  },
  "grid_ct_B_open": {
-  "value": 21,
-  "text": "21%"
+  "value": 22,
+  "text": "22%"
  },
  "grid_ct_B_main_open": {
-  "value": 27,
-  "text": "27%"
+  "value": 28,
+  "text": "28%"
  },
  "grid_ct_B_sec_open": {
   "value": 16,
@@ -736,16 +736,16 @@
   "text": "26%"
  },
  "grid_ct_PR_open": {
-  "value": 38,
-  "text": "38%"
+  "value": 34,
+  "text": "34%"
  },
  "grid_ct_PR_main_open": {
-  "value": 38,
-  "text": "38%"
+  "value": 36,
+  "text": "36%"
  },
  "grid_ct_PR_sec_open": {
-  "value": 37,
-  "text": "37%"
+  "value": 31,
+  "text": "31%"
  },
  "ext_main_01": {
   "value": "70%",
@@ -1074,24 +1074,24 @@
   "text": "16"
  },
  "ct_fast_FI": {
-  "value": 53,
-  "text": "53"
+  "value": 54,
+  "text": "54"
  },
  "ct_fast_PR": {
-  "value": 70,
-  "text": "70"
+  "value": 117,
+  "text": "117"
  },
  "ct_fast_B": {
-  "value": 46,
-  "text": "46"
+  "value": 47,
+  "text": "47"
  },
  "firm_relief_exempt": {
   "value": 476,
   "text": "476"
  },
  "firm_relief_lightened": {
-  "value": 111,
-  "text": "111"
+  "value": 125,
+  "text": "125"
  },
  "firm_relief_fines": {
   "value": 587,
@@ -1166,20 +1166,20 @@
   "text": "29"
  },
  "sec_since_2020": {
-  "value": 456,
-  "text": "456"
+  "value": 542,
+  "text": "542"
  },
  "sec_dated": {
-  "value": 650,
-  "text": "650"
+  "value": 812,
+  "text": "812"
  },
  "n_regulations": {
-  "value": 49,
-  "text": "49"
+  "value": 54,
+  "text": "54"
  },
  "n_directives": {
-  "value": 47,
-  "text": "47"
+  "value": 52,
+  "text": "52"
  },
  "n_decisions": {
   "value": 4,
@@ -1190,20 +1190,20 @@
   "text": "250"
  },
  "avg_early_2000s": {
-  "value": 96,
-  "text": "96"
+  "value": 97,
+  "text": "97"
  },
  "avg_ratio_2025_2000s": {
-  "value": 2.6,
-  "text": "2.6"
+  "value": 2.5,
+  "text": "2.5"
  },
  "density_min": {
   "value": 9.6,
   "text": "9.6"
  },
  "density_max": {
-  "value": 16.2,
-  "text": "16.2"
+  "value": 15.9,
+  "text": "15.9"
  },
  "sox_obligations": {
   "value": 240,
@@ -1214,12 +1214,12 @@
   "text": "59"
  },
  "priv_avg_since_2020": {
-  "value": 115,
-  "text": "115"
+  "value": 113,
+  "text": "113"
  },
  "priv_avg_2000s": {
-  "value": 41,
-  "text": "41"
+  "value": 39,
+  "text": "39"
  },
  "sox_cmp_ai_priv": {
   "value": 346,
@@ -1247,39 +1247,39 @@
  },
  "growth_new_areas": {
   "value": 3,
-  "text": "Cybersecurity, research &amp; innovation and industrial policy"
+  "text": "Cybersecurity, industrial policy and research &amp; innovation"
  },
  "ia_exante_sources": {
-  "value": 84,
-  "text": "84"
+  "value": 87,
+  "text": "87"
  },
  "evmap_pairs": {
-  "value": 800,
-  "text": "800"
+  "value": 880,
+  "text": "880"
  },
  "evmap_pairs_any": {
-  "value": 285,
-  "text": "285"
+  "value": 302,
+  "text": "302"
  },
  "evmap_pairs_causal": {
   "value": 51,
   "text": "51"
  },
  "evmap_eco_pairs": {
-  "value": 500,
-  "text": "500"
+  "value": 550,
+  "text": "550"
  },
  "evmap_eco_any": {
-  "value": 154,
-  "text": "154"
+  "value": 161,
+  "text": "161"
  },
  "evmap_eco_causal": {
   "value": 38,
   "text": "38"
  },
  "ms_company_conduct": {
-  "value": 450,
-  "text": "450"
+  "value": 545,
+  "text": "540"
  },
  "us_mapped": {
   "value": 84,
@@ -1310,24 +1310,24 @@
   "text": "12"
  },
  "rep_comp_event": {
-  "value": 677,
-  "text": "677"
+  "value": 829,
+  "text": "829"
  },
  "rep_comp_urgent": {
-  "value": 224,
-  "text": "224"
+  "value": 271,
+  "text": "271"
  },
  "rep_comp_periodic": {
-  "value": 91,
-  "text": "91"
+  "value": 99,
+  "text": "99"
  },
  "rep_comp_annual": {
-  "value": 37,
-  "text": "37"
+  "value": 42,
+  "text": "42"
  },
  "rep_comp_regular": {
-  "value": 35,
-  "text": "35"
+  "value": 38,
+  "text": "38"
  },
  "rep_comp_monthly": {
   "value": 8,
@@ -1338,20 +1338,20 @@
   "text": "6"
  },
  "rep_comp_records": {
-  "value": 275,
-  "text": "275"
+  "value": 360,
+  "text": "360"
  },
  "rep_comp_unspecified": {
-  "value": 895,
-  "text": "895"
+  "value": 1123,
+  "text": "1,123"
  },
  "rep_comp_2018": {
-  "value": 391,
-  "text": "391"
+  "value": 726,
+  "text": "726"
  },
  "rep_comp_growth_x": {
-  "value": 5.4,
-  "text": "5.4"
+  "value": 3.6,
+  "text": "3.6"
  },
  "rep_top1_name": {
   "value": "Markets in Crypto-Assets (MiCA)",
@@ -1362,27 +1362,27 @@
   "text": "331"
  },
  "rep_top2_name": {
-  "value": "General Data Protection Regulation",
-  "text": "the GDPR"
+  "value": "Medical Devices Regulation",
+  "text": "the Medical Devices Regulation"
  },
  "rep_top2": {
-  "value": 136,
-  "text": "136"
+  "value": 191,
+  "text": "191"
  },
  "rep_top3_name": {
-  "value": "Digital Operational Resilience Act (DORA)",
-  "text": "the Digital Operational Resilience Act"
+  "value": "In Vitro Diagnostic Medical Devices Regulation",
+  "text": "the In Vitro Diagnostic Medical Devices Regulation"
  },
  "rep_top3": {
-  "value": 95,
-  "text": "95"
+  "value": 176,
+  "text": "176"
  },
  "comm_guidance": {
-  "value": 46,
-  "text": "46"
+  "value": 53,
+  "text": "53"
  },
  "db_secondary_items": {
-  "value": 716,
-  "text": "716"
+  "value": 888,
+  "text": "888"
  }
 }

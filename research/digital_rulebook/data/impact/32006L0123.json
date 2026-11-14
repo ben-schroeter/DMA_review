@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   }
  ],
  "literature": [
@@ -39,7 +40,9 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence",
+   "source_class": "academic"
   },
   {
    "id": "kommerskollegium-2015-single-market",
@@ -62,7 +65,10 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20260930204650/https://www.kommerskollegium.se/globalassets/publikationer/rapporter/2016-och-aldre/publ-economic-effects-of-the-european-single-market.pdf"
+   "archive_url": "http://web.archive.org/web/20260930204650/https://www.kommerskollegium.se/globalassets/publikationer/rapporter/2016-och-aldre/publ-economic-effects-of-the-european-single-market.pdf",
+   "category": "evidence",
+   "source_class": "official"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }

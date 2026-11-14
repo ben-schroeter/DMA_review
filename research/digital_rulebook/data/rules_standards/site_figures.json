@@ -1,11 +1,11 @@
 {
- "all_main_R": 0.7128829780622709,
- "all_main_standard_like": 0.264,
- "comp_main_R": 0.7076258104353196,
- "all_sec_R": 0.838339222614841,
- "comp_sec_R": 0.8415906127770535,
- "acts_with_second_layer": 25,
- "acts_more_rules": 24,
+ "all_main_R": 0.7158936736847394,
+ "all_main_standard_like": 0.261,
+ "comp_main_R": 0.7128246380142496,
+ "all_sec_R": 0.8427648777487313,
+ "comp_sec_R": 0.8510371710984268,
+ "acts_with_second_layer": 33,
+ "acts_more_rules": 31,
  "companies_by_law": {
   "Unfair Contract Terms Directive": {
    "main": 0.5
@@ -110,10 +110,6 @@
   "Market Surveillance Regulation": {
    "main": 0.6111,
    "secondary": 0.75
-  },
-  "E-evidence Regulation": {
-   "main": 0.8966,
-   "secondary": 0.5
   },
   "Open Data Directive (PSI)": {
    "main": 0.5385,
@@ -305,6 +301,44 @@
   },
   "Transfer of Funds Regulation": {
    "main": 0.6406
+  },
+  "Antitrust Procedure Regulation": {
+   "main": 0.5833,
+   "secondary": 1.0
+  },
+  "Services Directive": {
+   "main": 0.6207,
+   "secondary": 0.9677
+  },
+  "Medical Devices Regulation": {
+   "main": 0.7283,
+   "secondary": 0.7767
+  },
+  "In Vitro Diagnostic Medical Devices Regulation": {
+   "main": 0.7485,
+   "secondary": 0.8313
+  },
+  "Vehicle General Safety Regulation": {
+   "main": 0.5946,
+   "secondary": 0.8908
+  },
+  "Dual-Use Regulation": {
+   "main": 0.9355,
+   "secondary": 0.8333
+  },
+  "Low Voltage Directive": {
+   "main": 0.6026
+  },
+  "RoHS Directive": {
+   "main": 0.7857
+  },
+  "WEEE Directive": {
+   "main": 0.7143,
+   "secondary": 1.0
+  },
+  "Fourth Anti-Money Laundering Directive": {
+   "main": 0.625,
+   "secondary": 0.7241
   }
  }
 }

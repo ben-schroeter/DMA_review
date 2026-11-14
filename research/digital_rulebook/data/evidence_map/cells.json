@@ -3463,7 +3463,7 @@
    "policy_area": "Law Enforcement",
    "row_id": 42,
    "year": 2023,
-   "obligations": 206,
+   "obligations": 245,
    "cells": {
     "costs": {
      "best": "forecast",
@@ -8395,6 +8395,772 @@
      "ids": [
       "ec-2016-csa-transposition",
       "ec-2024-csa-recast-ia"
+     ]
+    }
+   }
+  },
+  "Antitrust Procedure Regulation": {
+   "policy_area": "Competition & Single Market",
+   "row_id": 132,
+   "year": 2002,
+   "obligations": 109,
+   "cells": {
+    "costs": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "ec-2009-reg1-report"
+     ]
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": "measured",
+     "n": 2,
+     "causal": 0,
+     "measured": 2,
+     "forecast": 0,
+     "ids": [
+      "ec-2024-reg1-evaluation",
+      "ec-2009-reg1-report"
+     ]
+    }
+   }
+  },
+  "Services Directive": {
+   "policy_area": "Competition & Single Market",
+   "row_id": 133,
+   "year": 2006,
+   "obligations": 212,
+   "cells": {
+    "costs": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "monteagudo-2012-services"
+     ]
+    },
+    "market": {
+     "best": "measured",
+     "n": 2,
+     "causal": 0,
+     "measured": 2,
+     "forecast": 0,
+     "ids": [
+      "monteagudo-2012-services",
+      "kommerskollegium-2015-single-market"
+     ]
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    }
+   }
+  },
+  "Medical Devices Regulation": {
+   "policy_area": "Trust & Safety",
+   "row_id": 134,
+   "year": 2017,
+   "obligations": 1571,
+   "cells": {
+    "costs": {
+     "best": "measured",
+     "n": 2,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 1,
+     "ids": [
+      "ec-2025-mdr-ivdr-evaluation",
+      "ec-2025-mdr-ivdr-savings"
+     ]
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": "measured",
+     "n": 2,
+     "causal": 0,
+     "measured": 2,
+     "forecast": 0,
+     "ids": [
+      "ec-2025-mdr-ivdr-evaluation",
+      "medtecheurope-2024-survey"
+     ]
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "rights": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "ec-2025-mdr-ivdr-evaluation"
+     ]
+    },
+    "implementation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    }
+   }
+  },
+  "In Vitro Diagnostic Medical Devices Regulation": {
+   "policy_area": "Trust & Safety",
+   "row_id": 135,
+   "year": 2017,
+   "obligations": 1427,
+   "cells": {
+    "costs": {
+     "best": "measured",
+     "n": 2,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 1,
+     "ids": [
+      "ec-2025-mdr-ivdr-evaluation",
+      "ec-2025-mdr-ivdr-savings"
+     ]
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": "measured",
+     "n": 2,
+     "causal": 0,
+     "measured": 2,
+     "forecast": 0,
+     "ids": [
+      "ec-2025-mdr-ivdr-evaluation",
+      "medtecheurope-2024-survey"
+     ]
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "rights": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "ec-2025-mdr-ivdr-evaluation"
+     ]
+    },
+    "implementation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    }
+   }
+  },
+  "Vehicle General Safety Regulation": {
+   "policy_area": "Trust & Safety",
+   "row_id": 136,
+   "year": 2019,
+   "obligations": 115,
+   "cells": {
+    "costs": {
+     "best": "forecast",
+     "n": 1,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 1,
+     "ids": [
+      "ec-2018-gsr-ia"
+     ]
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "rights": {
+     "best": "forecast",
+     "n": 1,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 1,
+     "ids": [
+      "ec-2018-gsr-ia"
+     ]
+    },
+    "implementation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    }
+   }
+  },
+  "Dual-Use Regulation": {
+   "policy_area": "Industrial Policy",
+   "row_id": 137,
+   "year": 2021,
+   "obligations": 254,
+   "cells": {
+    "costs": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": "measured",
+     "n": 2,
+     "causal": 0,
+     "measured": 2,
+     "forecast": 0,
+     "ids": [
+      "ec-2026-dualuse-report",
+      "ec-2022-dualuse-report"
+     ]
+    },
+    "market": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "ec-2026-dualuse-report"
+     ]
+    }
+   }
+  },
+  "Low Voltage Directive": {
+   "policy_area": "Trust & Safety",
+   "row_id": 138,
+   "year": 2014,
+   "obligations": 134,
+   "cells": {
+    "costs": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "ec-2021-lvd-evaluation"
+     ]
+    },
+    "rights": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "ec-2021-lvd-evaluation"
+     ]
+    },
+    "implementation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    }
+   }
+  },
+  "RoHS Directive": {
+   "policy_area": "Trust & Safety",
+   "row_id": 139,
+   "year": 2011,
+   "obligations": 78,
+   "cells": {
+    "costs": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "ec-2023-rohs-evaluation"
+     ]
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    }
+   }
+  },
+  "WEEE Directive": {
+   "policy_area": "Trust & Safety",
+   "row_id": 140,
+   "year": 2012,
+   "obligations": 163,
+   "cells": {
+    "costs": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "ec-2025-weee-evaluation"
+     ]
+    }
+   }
+  },
+  "Fourth Anti-Money Laundering Directive": {
+   "policy_area": "Finance",
+   "row_id": 141,
+   "year": 2015,
+   "obligations": 281,
+   "cells": {
+    "costs": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": "measured",
+     "n": 2,
+     "causal": 0,
+     "measured": 2,
+     "forecast": 0,
+     "ids": [
+      "ec-2019-aml-implementation",
+      "eca-2021-aml"
      ]
     }
    }

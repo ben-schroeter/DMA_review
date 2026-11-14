@@ -14,7 +14,8 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": ""
+   "sources": "",
+   "status_group": ""
   },
   {
    "type": "activity (implementation report)",
@@ -23,7 +24,8 @@
    "target_or_baseline": "",
    "evidence": "Dual-use exports about 2.7% of EU exports (EUR 128 billion, 2020); latest report covers 2024.",
    "status": "reported as activity",
-   "sources": "COM(2022) 434; COM(2026) 296"
+   "sources": "COM(2022) 434; COM(2026) 296",
+   "status_group": "reported as activity"
   }
  ],
  "literature": [
@@ -48,7 +50,9 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": ""
+   "archive_url": "",
+   "category": "evidence",
+   "source_class": "official"
   },
   {
    "id": "ec-2022-dualuse-report",
@@ -71,7 +75,10 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-11-14",
-   "archive_url": "http://web.archive.org/web/20240612231703/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52022DC0434"
+   "archive_url": "http://web.archive.org/web/20240612231703/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52022DC0434",
+   "category": "evidence",
+   "source_class": "official"
   }
- ]
+ ],
+ "evidence_level": "thin"
 }
