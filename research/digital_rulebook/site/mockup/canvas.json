@@ -19,7 +19,7 @@
       "page": "instruments",
       "title": "Instrument: Administrative cooperation in taxation (DAC)",
       "w": 1440,
-      "x": 0,
+      "x": 1520,
       "y": 0
     },
     "Act-anti-money-laundering-regulation.dc.html": {
@@ -29,7 +29,7 @@
       "page": "instruments",
       "title": "Instrument: Anti-Money Laundering Regulation",
       "w": 1440,
-      "x": 1520,
+      "x": 4560,
       "y": 0
     },
     "Act-artificial-intelligence-act.dc.html": {
@@ -39,7 +39,7 @@
       "page": "instruments",
       "title": "Instrument: Artificial Intelligence Act",
       "w": 1440,
-      "x": 3040,
+      "x": 6080,
       "y": 0
     },
     "Act-audiovisual-media-services-directive.dc.html": {
@@ -49,7 +49,7 @@
       "page": "instruments",
       "title": "Instrument: Audiovisual Media Services Directive",
       "w": 1440,
-      "x": 4560,
+      "x": 7600,
       "y": 0
     },
     "Act-child-sexual-abuse-directive-recast.dc.html": {
@@ -59,7 +59,7 @@
       "page": "instruments",
       "title": "Instrument: Child Sexual Abuse Directive (recast)",
       "w": 1440,
-      "x": 6080,
+      "x": 9120,
       "y": 0
     },
     "Act-child-sexual-abuse-regulation-csar.dc.html": {
@@ -69,7 +69,7 @@
       "page": "instruments",
       "title": "Instrument: Child Sexual Abuse Regulation (CSAR)",
       "w": 1440,
-      "x": 7600,
+      "x": 12160,
       "y": 0
     },
     "Act-common-vat-system-directive.dc.html": {
@@ -79,8 +79,8 @@
       "page": "instruments",
       "title": "Instrument: Common VAT system Directive",
       "w": 1440,
-      "x": 9120,
-      "y": 0
+      "x": 0,
+      "y": 5320
     },
     "Act-community-design-regulation.dc.html": {
       "expand": "fill",
@@ -89,8 +89,8 @@
       "page": "instruments",
       "title": "Instrument: Community Design Regulation",
       "w": 1440,
-      "x": 10640,
-      "y": 0
+      "x": 1520,
+      "y": 5320
     },
     "Act-company-law-directive.dc.html": {
       "expand": "fill",
@@ -99,27 +99,7 @@
       "page": "instruments",
       "title": "Instrument: Company Law Directive",
       "w": 1440,
-      "x": 12160,
-      "y": 0
-    },
-    "Act-compulsory-licensing-of-patents-regulation.dc.html": {
-      "expand": "fill",
-      "h": 3533,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Compulsory licensing of patents Regulation",
-      "w": 1440,
-      "x": 13680,
-      "y": 0
-    },
-    "Act-connecting-europe-facility.dc.html": {
-      "expand": "fill",
-      "h": 4583,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Connecting Europe Facility",
-      "w": 1440,
-      "x": 0,
+      "x": 3040,
       "y": 5320
     },
     "Act-consumer-protection-cooperation-regulation.dc.html": {
@@ -129,7 +109,7 @@
       "page": "instruments",
       "title": "Instrument: Consumer Protection Cooperation Regulation",
       "w": 1440,
-      "x": 1520,
+      "x": 7600,
       "y": 5320
     },
     "Act-consumer-rights-directive.dc.html": {
@@ -139,7 +119,7 @@
       "page": "instruments",
       "title": "Instrument: Consumer Rights Directive",
       "w": 1440,
-      "x": 3040,
+      "x": 9120,
       "y": 5320
     },
     "Act-copyright-in-the-digital-single-market-directive.dc.html": {
@@ -149,17 +129,7 @@
       "page": "instruments",
       "title": "Instrument: Copyright in the Digital Single Market Directive",
       "w": 1440,
-      "x": 4560,
-      "y": 5320
-    },
-    "Act-critical-raw-materials-act.dc.html": {
-      "expand": "fill",
-      "h": 4648,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Critical Raw Materials Act",
-      "w": 1440,
-      "x": 6080,
+      "x": 10640,
       "y": 5320
     },
     "Act-cyber-resilience-act.dc.html": {
@@ -169,17 +139,7 @@
       "page": "instruments",
       "title": "Instrument: Cyber Resilience Act",
       "w": 1440,
-      "x": 7600,
-      "y": 5320
-    },
-    "Act-cyber-solidarity-act.dc.html": {
-      "expand": "fill",
-      "h": 3907,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Cyber Solidarity Act",
-      "w": 1440,
-      "x": 9120,
+      "x": 12160,
       "y": 5320
     },
     "Act-cybersecurity-act.dc.html": {
@@ -189,18 +149,8 @@
       "page": "instruments",
       "title": "Instrument: Cybersecurity Act",
       "w": 1440,
-      "x": 10640,
-      "y": 5320
-    },
-    "Act-cybersecurity-regulation-eu-institutions.dc.html": {
-      "expand": "fill",
-      "h": 4080,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Cybersecurity Regulation (EU institutions)",
-      "w": 1440,
-      "x": 12160,
-      "y": 5320
+      "x": 0,
+      "y": 10640
     },
     "Act-data-act.dc.html": {
       "expand": "fill",
@@ -209,8 +159,8 @@
       "page": "instruments",
       "title": "Instrument: Data Act",
       "w": 1440,
-      "x": 13680,
-      "y": 5320
+      "x": 1520,
+      "y": 10640
     },
     "Act-data-governance-act.dc.html": {
       "expand": "fill",
@@ -219,7 +169,7 @@
       "page": "instruments",
       "title": "Instrument: Data Governance Act",
       "w": 1440,
-      "x": 0,
+      "x": 3040,
       "y": 10640
     },
     "Act-data-protection-by-eu-institutions-regulation.dc.html": {
@@ -229,7 +179,7 @@
       "page": "instruments",
       "title": "Instrument: Data protection by EU institutions Regulation",
       "w": 1440,
-      "x": 1520,
+      "x": 4560,
       "y": 10640
     },
     "Act-database-directive.dc.html": {
@@ -239,7 +189,7 @@
       "page": "instruments",
       "title": "Instrument: Database Directive",
       "w": 1440,
-      "x": 3040,
+      "x": 6080,
       "y": 10640
     },
     "Act-design-directive.dc.html": {
@@ -249,7 +199,7 @@
       "page": "instruments",
       "title": "Instrument: Design Directive",
       "w": 1440,
-      "x": 4560,
+      "x": 7600,
       "y": 10640
     },
     "Act-digital-content-directive.dc.html": {
@@ -259,7 +209,7 @@
       "page": "instruments",
       "title": "Instrument: Digital Content Directive",
       "w": 1440,
-      "x": 6080,
+      "x": 9120,
       "y": 10640
     },
     "Act-digital-decade-policy-programme-decision.dc.html": {
@@ -269,7 +219,7 @@
       "page": "instruments",
       "title": "Instrument: Digital Decade Policy Programme Decision",
       "w": 1440,
-      "x": 7600,
+      "x": 10640,
       "y": 10640
     },
     "Act-digital-euro-regulation.dc.html": {
@@ -279,17 +229,7 @@
       "page": "instruments",
       "title": "Instrument: Digital Euro Regulation",
       "w": 1440,
-      "x": 9120,
-      "y": 10640
-    },
-    "Act-digital-europe-programme.dc.html": {
-      "expand": "fill",
-      "h": 4612,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Digital Europe Programme",
-      "w": 1440,
-      "x": 10640,
+      "x": 12160,
       "y": 10640
     },
     "Act-digital-operational-resilience-act-dora.dc.html": {
@@ -299,7 +239,7 @@
       "page": "instruments",
       "title": "Instrument: Digital Operational Resilience Act (DORA)",
       "w": 1440,
-      "x": 12160,
+      "x": 13680,
       "y": 10640
     },
     "Act-digital-services-act.dc.html": {
@@ -308,16 +248,6 @@
       "is_interactive": true,
       "page": "instruments",
       "title": "Instrument: Digital Services Act",
-      "w": 1440,
-      "x": 13680,
-      "y": 10640
-    },
-    "Act-digitalisation-of-judicial-cooperation-regulatio.dc.html": {
-      "expand": "fill",
-      "h": 4160,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Digitalisation of judicial cooperation Regulation",
       "w": 1440,
       "x": 0,
       "y": 15960
@@ -369,7 +299,7 @@
       "page": "instruments",
       "title": "Instrument: EC Merger Regulation",
       "w": 1440,
-      "x": 7600,
+      "x": 9120,
       "y": 15960
     },
     "Act-ecodesign-for-sustainable-products-regulation.dc.html": {
@@ -379,7 +309,7 @@
       "page": "instruments",
       "title": "Instrument: Ecodesign for Sustainable Products Regulation",
       "w": 1440,
-      "x": 9120,
+      "x": 10640,
       "y": 15960
     },
     "Act-eidas-regulation.dc.html": {
@@ -389,7 +319,7 @@
       "page": "instruments",
       "title": "Instrument: eIDAS Regulation",
       "w": 1440,
-      "x": 10640,
+      "x": 12160,
       "y": 15960
     },
     "Act-electromagnetic-compatibility-directive.dc.html": {
@@ -399,7 +329,7 @@
       "page": "instruments",
       "title": "Instrument: Electromagnetic Compatibility Directive",
       "w": 1440,
-      "x": 12160,
+      "x": 13680,
       "y": 15960
     },
     "Act-eprivacy-directive.dc.html": {
@@ -408,16 +338,6 @@
       "is_interactive": true,
       "page": "instruments",
       "title": "Instrument: ePrivacy Directive",
-      "w": 1440,
-      "x": 13680,
-      "y": 15960
-    },
-    "Act-eu-digital-travel-application-regulation.dc.html": {
-      "expand": "fill",
-      "h": 4422,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: EU Digital Travel Application Regulation",
       "w": 1440,
       "x": 0,
       "y": 21280
@@ -442,16 +362,6 @@
       "x": 3040,
       "y": 21280
     },
-    "Act-eurohpc-joint-undertaking-regulation.dc.html": {
-      "expand": "fill",
-      "h": 4234,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: EuroHPC Joint Undertaking Regulation",
-      "w": 1440,
-      "x": 4560,
-      "y": 21280
-    },
     "Act-european-chips-act.dc.html": {
       "expand": "fill",
       "h": 4272,
@@ -462,16 +372,6 @@
       "x": 6080,
       "y": 21280
     },
-    "Act-european-cybersecurity-competence-centre.dc.html": {
-      "expand": "fill",
-      "h": 4151,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: European Cybersecurity Competence Centre",
-      "w": 1440,
-      "x": 7600,
-      "y": 21280
-    },
     "Act-european-electronic-communications-code.dc.html": {
       "expand": "fill",
       "h": 4835,
@@ -479,7 +379,7 @@
       "page": "instruments",
       "title": "Instrument: European Electronic Communications Code",
       "w": 1440,
-      "x": 9120,
+      "x": 7600,
       "y": 21280
     },
     "Act-european-health-data-space.dc.html": {
@@ -489,7 +389,7 @@
       "page": "instruments",
       "title": "Instrument: European Health Data Space",
       "w": 1440,
-      "x": 10640,
+      "x": 9120,
       "y": 21280
     },
     "Act-european-media-freedom-act.dc.html": {
@@ -499,7 +399,7 @@
       "page": "instruments",
       "title": "Instrument: European Media Freedom Act",
       "w": 1440,
-      "x": 12160,
+      "x": 10640,
       "y": 21280
     },
     "Act-european-standardisation-regulation.dc.html": {
@@ -512,16 +412,6 @@
       "x": 13680,
       "y": 21280
     },
-    "Act-european-statistics-regulation.dc.html": {
-      "expand": "fill",
-      "h": 4085,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: European Statistics Regulation",
-      "w": 1440,
-      "x": 0,
-      "y": 26600
-    },
     "Act-fdi-screening-regulation.dc.html": {
       "expand": "fill",
       "h": 4545,
@@ -529,7 +419,7 @@
       "page": "instruments",
       "title": "Instrument: FDI Screening Regulation",
       "w": 1440,
-      "x": 1520,
+      "x": 0,
       "y": 26600
     },
     "Act-financial-data-access-regulation-fida.dc.html": {
@@ -539,7 +429,7 @@
       "page": "instruments",
       "title": "Instrument: Financial Data Access Regulation (FiDA)",
       "w": 1440,
-      "x": 3040,
+      "x": 1520,
       "y": 26600
     },
     "Act-foreign-subsidies-regulation.dc.html": {
@@ -549,7 +439,7 @@
       "page": "instruments",
       "title": "Instrument: Foreign Subsidies Regulation",
       "w": 1440,
-      "x": 4560,
+      "x": 3040,
       "y": 26600
     },
     "Act-free-flow-of-non-personal-data-regulation.dc.html": {
@@ -559,7 +449,7 @@
       "page": "instruments",
       "title": "Instrument: Free Flow of Non-Personal Data Regulation",
       "w": 1440,
-      "x": 6080,
+      "x": 4560,
       "y": 26600
     },
     "Act-frequency-bands-directive-gsm.dc.html": {
@@ -569,7 +459,7 @@
       "page": "instruments",
       "title": "Instrument: Frequency Bands Directive (GSM)",
       "w": 1440,
-      "x": 7600,
+      "x": 6080,
       "y": 26600
     },
     "Act-gdpr-procedural-regulation.dc.html": {
@@ -579,7 +469,7 @@
       "page": "instruments",
       "title": "Instrument: GDPR Procedural Regulation",
       "w": 1440,
-      "x": 9120,
+      "x": 7600,
       "y": 26600
     },
     "Act-general-data-protection-regulation.dc.html": {
@@ -589,7 +479,7 @@
       "page": "instruments",
       "title": "Instrument: General Data Protection Regulation",
       "w": 1440,
-      "x": 10640,
+      "x": 9120,
       "y": 26600
     },
     "Act-general-product-safety-regulation.dc.html": {
@@ -599,7 +489,7 @@
       "page": "instruments",
       "title": "Instrument: General Product Safety Regulation",
       "w": 1440,
-      "x": 12160,
+      "x": 10640,
       "y": 26600
     },
     "Act-geo-blocking-regulation.dc.html": {
@@ -609,7 +499,7 @@
       "page": "instruments",
       "title": "Instrument: Geo-blocking Regulation",
       "w": 1440,
-      "x": 13680,
+      "x": 12160,
       "y": 26600
     },
     "Act-gigabit-infrastructure-act.dc.html": {
@@ -619,18 +509,8 @@
       "page": "instruments",
       "title": "Instrument: Gigabit Infrastructure Act",
       "w": 1440,
-      "x": 0,
-      "y": 31920
-    },
-    "Act-horizon-europe.dc.html": {
-      "expand": "fill",
-      "h": 4639,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Horizon Europe",
-      "w": 1440,
-      "x": 1520,
-      "y": 31920
+      "x": 13680,
+      "y": 26600
     },
     "Act-horizontal-block-exemption-regulations.dc.html": {
       "expand": "fill",
@@ -639,17 +519,7 @@
       "page": "instruments",
       "title": "Instrument: Horizontal Block Exemption Regulations",
       "w": 1440,
-      "x": 3040,
-      "y": 31920
-    },
-    "Act-information-security-regulation.dc.html": {
-      "expand": "fill",
-      "h": 4250,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Information Security Regulation",
-      "w": 1440,
-      "x": 4560,
+      "x": 0,
       "y": 31920
     },
     "Act-information-society-infosoc-directive.dc.html": {
@@ -659,37 +529,7 @@
       "page": "instruments",
       "title": "Instrument: Information Society (InfoSoc) Directive",
       "w": 1440,
-      "x": 6080,
-      "y": 31920
-    },
-    "Act-interoperability-of-eu-information-systems-borde.dc.html": {
-      "expand": "fill",
-      "h": 4840,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Interoperability of EU information systems (borders and visa) Regulation",
-      "w": 1440,
-      "x": 7600,
-      "y": 31920
-    },
-    "Act-interoperable-europe-act.dc.html": {
-      "expand": "fill",
-      "h": 4006,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Interoperable Europe Act",
-      "w": 1440,
-      "x": 9120,
-      "y": 31920
-    },
-    "Act-investeu-programme.dc.html": {
-      "expand": "fill",
-      "h": 4784,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: InvestEU Programme",
-      "w": 1440,
-      "x": 10640,
+      "x": 1520,
       "y": 31920
     },
     "Act-ipr-enforcement-directive.dc.html": {
@@ -699,17 +539,7 @@
       "page": "instruments",
       "title": "Instrument: IPR Enforcement Directive",
       "w": 1440,
-      "x": 12160,
-      "y": 31920
-    },
-    "Act-joint-undertakings-under-horizon-europe.dc.html": {
-      "expand": "fill",
-      "h": 4283,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Joint Undertakings under Horizon Europe",
-      "w": 1440,
-      "x": 13680,
+      "x": 3040,
       "y": 31920
     },
     "Act-late-payment-regulation.dc.html": {
@@ -719,8 +549,8 @@
       "page": "instruments",
       "title": "Instrument: Late Payment Regulation",
       "w": 1440,
-      "x": 0,
-      "y": 37240
+      "x": 4560,
+      "y": 31920
     },
     "Act-law-enforcement-directive.dc.html": {
       "expand": "fill",
@@ -729,8 +559,8 @@
       "page": "instruments",
       "title": "Instrument: Law Enforcement Directive",
       "w": 1440,
-      "x": 1520,
-      "y": 37240
+      "x": 6080,
+      "y": 31920
     },
     "Act-machinery-regulation.dc.html": {
       "expand": "fill",
@@ -739,8 +569,8 @@
       "page": "instruments",
       "title": "Instrument: Machinery Regulation",
       "w": 1440,
-      "x": 3040,
-      "y": 37240
+      "x": 7600,
+      "y": 31920
     },
     "Act-market-surveillance-regulation.dc.html": {
       "expand": "fill",
@@ -749,8 +579,8 @@
       "page": "instruments",
       "title": "Instrument: Market Surveillance Regulation",
       "w": 1440,
-      "x": 4560,
-      "y": 37240
+      "x": 9120,
+      "y": 31920
     },
     "Act-markets-in-crypto-assets-mica.dc.html": {
       "expand": "fill",
@@ -759,18 +589,8 @@
       "page": "instruments",
       "title": "Instrument: Markets in Crypto-Assets (MiCA)",
       "w": 1440,
-      "x": 6080,
-      "y": 37240
-    },
-    "Act-net-zero-industry-act.dc.html": {
-      "expand": "fill",
-      "h": 4176,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Net-Zero Industry Act",
-      "w": 1440,
-      "x": 7600,
-      "y": 37240
+      "x": 10640,
+      "y": 31920
     },
     "Act-nis-2-directive.dc.html": {
       "expand": "fill",
@@ -779,8 +599,8 @@
       "page": "instruments",
       "title": "Instrument: NIS 2 Directive",
       "w": 1440,
-      "x": 9120,
-      "y": 37240
+      "x": 12160,
+      "y": 31920
     },
     "Act-non-cash-payment-fraud-directive.dc.html": {
       "expand": "fill",
@@ -789,8 +609,8 @@
       "page": "instruments",
       "title": "Instrument: Non-cash payment fraud Directive",
       "w": 1440,
-      "x": 10640,
-      "y": 37240
+      "x": 13680,
+      "y": 31920
     },
     "Act-open-data-directive-psi.dc.html": {
       "expand": "fill",
@@ -799,7 +619,7 @@
       "page": "instruments",
       "title": "Instrument: Open Data Directive (PSI)",
       "w": 1440,
-      "x": 12160,
+      "x": 0,
       "y": 37240
     },
     "Act-open-internet-access-regulation.dc.html": {
@@ -809,7 +629,7 @@
       "page": "instruments",
       "title": "Instrument: Open Internet Access Regulation",
       "w": 1440,
-      "x": 13680,
+      "x": 1520,
       "y": 37240
     },
     "Act-payment-services-directive-2-psd2.dc.html": {
@@ -819,8 +639,8 @@
       "page": "instruments",
       "title": "Instrument: Payment Services Directive 2 (PSD2)",
       "w": 1440,
-      "x": 0,
-      "y": 42560
+      "x": 3040,
+      "y": 37240
     },
     "Act-payment-services-directive-3-psd3.dc.html": {
       "expand": "fill",
@@ -829,8 +649,8 @@
       "page": "instruments",
       "title": "Instrument: Payment Services Directive 3 (PSD3)",
       "w": 1440,
-      "x": 1520,
-      "y": 42560
+      "x": 4560,
+      "y": 37240
     },
     "Act-payment-services-regulation-psr.dc.html": {
       "expand": "fill",
@@ -839,8 +659,8 @@
       "page": "instruments",
       "title": "Instrument: Payment Services Regulation (PSR)",
       "w": 1440,
-      "x": 3040,
-      "y": 42560
+      "x": 6080,
+      "y": 37240
     },
     "Act-platform-to-business-p2b-regulation.dc.html": {
       "expand": "fill",
@@ -849,8 +669,8 @@
       "page": "instruments",
       "title": "Instrument: Platform-to-Business (P2B) Regulation",
       "w": 1440,
-      "x": 4560,
-      "y": 42560
+      "x": 7600,
+      "y": 37240
     },
     "Act-platform-work-directive.dc.html": {
       "expand": "fill",
@@ -859,8 +679,8 @@
       "page": "instruments",
       "title": "Instrument: Platform Work Directive",
       "w": 1440,
-      "x": 6080,
-      "y": 42560
+      "x": 9120,
+      "y": 37240
     },
     "Act-political-advertising-regulation.dc.html": {
       "expand": "fill",
@@ -869,8 +689,8 @@
       "page": "instruments",
       "title": "Instrument: Political Advertising Regulation",
       "w": 1440,
-      "x": 7600,
-      "y": 42560
+      "x": 10640,
+      "y": 37240
     },
     "Act-portability-regulation.dc.html": {
       "expand": "fill",
@@ -879,8 +699,8 @@
       "page": "instruments",
       "title": "Instrument: Portability Regulation",
       "w": 1440,
-      "x": 9120,
-      "y": 42560
+      "x": 12160,
+      "y": 37240
     },
     "Act-price-indication-directive.dc.html": {
       "expand": "fill",
@@ -889,8 +709,8 @@
       "page": "instruments",
       "title": "Instrument: Price Indication Directive",
       "w": 1440,
-      "x": 10640,
-      "y": 42560
+      "x": 13680,
+      "y": 37240
     },
     "Act-product-liability-directive.dc.html": {
       "expand": "fill",
@@ -899,7 +719,7 @@
       "page": "instruments",
       "title": "Instrument: Product Liability Directive",
       "w": 1440,
-      "x": 12160,
+      "x": 0,
       "y": 42560
     },
     "Act-radio-equipment-directive.dc.html": {
@@ -909,7 +729,7 @@
       "page": "instruments",
       "title": "Instrument: Radio Equipment Directive",
       "w": 1440,
-      "x": 13680,
+      "x": 1520,
       "y": 42560
     },
     "Act-radio-spectrum-decision.dc.html": {
@@ -919,18 +739,8 @@
       "page": "instruments",
       "title": "Instrument: Radio Spectrum Decision",
       "w": 1440,
-      "x": 0,
-      "y": 47880
-    },
-    "Act-recovery-and-resilience-facility.dc.html": {
-      "expand": "fill",
-      "h": 4845,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Recovery and Resilience Facility",
-      "w": 1440,
-      "x": 1520,
-      "y": 47880
+      "x": 3040,
+      "y": 42560
     },
     "Act-right-to-repair-directive.dc.html": {
       "expand": "fill",
@@ -939,8 +749,8 @@
       "page": "instruments",
       "title": "Instrument: Right to Repair Directive",
       "w": 1440,
-      "x": 3040,
-      "y": 47880
+      "x": 7600,
+      "y": 42560
     },
     "Act-roaming-regulation.dc.html": {
       "expand": "fill",
@@ -949,8 +759,8 @@
       "page": "instruments",
       "title": "Instrument: Roaming Regulation",
       "w": 1440,
-      "x": 4560,
-      "y": 47880
+      "x": 9120,
+      "y": 42560
     },
     "Act-sale-of-goods-directive.dc.html": {
       "expand": "fill",
@@ -959,8 +769,8 @@
       "page": "instruments",
       "title": "Instrument: Sale of Goods Directive",
       "w": 1440,
-      "x": 6080,
-      "y": 47880
+      "x": 10640,
+      "y": 42560
     },
     "Act-satellite-and-cable-directive.dc.html": {
       "expand": "fill",
@@ -969,8 +779,8 @@
       "page": "instruments",
       "title": "Instrument: Satellite and Cable Directive",
       "w": 1440,
-      "x": 7600,
-      "y": 47880
+      "x": 12160,
+      "y": 42560
     },
     "Act-satellite-and-cable-ii-directive.dc.html": {
       "expand": "fill",
@@ -979,8 +789,8 @@
       "page": "instruments",
       "title": "Instrument: Satellite and Cable II Directive",
       "w": 1440,
-      "x": 9120,
-      "y": 47880
+      "x": 13680,
+      "y": 42560
     },
     "Act-short-term-rental-data-regulation.dc.html": {
       "expand": "fill",
@@ -989,7 +799,7 @@
       "page": "instruments",
       "title": "Instrument: Short-Term Rental Data Regulation",
       "w": 1440,
-      "x": 10640,
+      "x": 1520,
       "y": 47880
     },
     "Act-single-digital-gateway-regulation.dc.html": {
@@ -999,38 +809,8 @@
       "page": "instruments",
       "title": "Instrument: Single Digital Gateway Regulation",
       "w": 1440,
-      "x": 12160,
+      "x": 3040,
       "y": 47880
-    },
-    "Act-single-market-emergency-instrument-imera.dc.html": {
-      "expand": "fill",
-      "h": 3504,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Single Market Emergency Instrument (IMERA)",
-      "w": 1440,
-      "x": 13680,
-      "y": 47880
-    },
-    "Act-single-market-programme.dc.html": {
-      "expand": "fill",
-      "h": 4094,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Single Market Programme",
-      "w": 1440,
-      "x": 0,
-      "y": 53200
-    },
-    "Act-strategic-technologies-for-europe-platform-step.dc.html": {
-      "expand": "fill",
-      "h": 4036,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Strategic Technologies for Europe Platform (STEP)",
-      "w": 1440,
-      "x": 1520,
-      "y": 53200
     },
     "Act-technology-transfer-block-exemption.dc.html": {
       "expand": "fill",
@@ -1039,8 +819,8 @@
       "page": "instruments",
       "title": "Instrument: Technology Transfer Block Exemption",
       "w": 1440,
-      "x": 3040,
-      "y": 53200
+      "x": 6080,
+      "y": 47880
     },
     "Act-temporary-csam-derogation-regulation.dc.html": {
       "expand": "fill",
@@ -1049,8 +829,8 @@
       "page": "instruments",
       "title": "Instrument: Temporary CSAM Derogation Regulation",
       "w": 1440,
-      "x": 4560,
-      "y": 53200
+      "x": 7600,
+      "y": 47880
     },
     "Act-terrorist-content-online-regulation.dc.html": {
       "expand": "fill",
@@ -1059,8 +839,8 @@
       "page": "instruments",
       "title": "Instrument: Terrorist Content Online Regulation",
       "w": 1440,
-      "x": 6080,
-      "y": 53200
+      "x": 9120,
+      "y": 47880
     },
     "Act-toys-safety-directive.dc.html": {
       "expand": "fill",
@@ -1069,8 +849,8 @@
       "page": "instruments",
       "title": "Instrument: Toys Safety Directive",
       "w": 1440,
-      "x": 7600,
-      "y": 53200
+      "x": 10640,
+      "y": 47880
     },
     "Act-toys-safety-regulation.dc.html": {
       "expand": "fill",
@@ -1079,8 +859,8 @@
       "page": "instruments",
       "title": "Instrument: Toys Safety Regulation",
       "w": 1440,
-      "x": 9120,
-      "y": 53200
+      "x": 12160,
+      "y": 47880
     },
     "Act-trade-secrets-directive.dc.html": {
       "expand": "fill",
@@ -1089,8 +869,8 @@
       "page": "instruments",
       "title": "Instrument: Trade Secrets Directive",
       "w": 1440,
-      "x": 10640,
-      "y": 53200
+      "x": 13680,
+      "y": 47880
     },
     "Act-unfair-commercial-practices-directive.dc.html": {
       "expand": "fill",
@@ -1099,7 +879,7 @@
       "page": "instruments",
       "title": "Instrument: Unfair Commercial Practices Directive",
       "w": 1440,
-      "x": 12160,
+      "x": 3040,
       "y": 53200
     },
     "Act-unfair-contract-terms-directive.dc.html": {
@@ -1109,18 +889,8 @@
       "page": "instruments",
       "title": "Instrument: Unfair Contract Terms Directive",
       "w": 1440,
-      "x": 13680,
+      "x": 4560,
       "y": 53200
-    },
-    "Act-union-secure-connectivity-programme.dc.html": {
-      "expand": "fill",
-      "h": 4214,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Union Secure Connectivity Programme",
-      "w": 1440,
-      "x": 0,
-      "y": 58520
     },
     "Act-vat-in-the-digital-age-vida.dc.html": {
       "expand": "fill",
@@ -1129,8 +899,8 @@
       "page": "instruments",
       "title": "Instrument: VAT in the Digital Age (ViDA)",
       "w": 1440,
-      "x": 1520,
-      "y": 58520
+      "x": 6080,
+      "y": 53200
     },
     "Act-vertical-block-exemption-regulation.dc.html": {
       "expand": "fill",
@@ -1139,8 +909,8 @@
       "page": "instruments",
       "title": "Instrument: Vertical Block Exemption Regulation",
       "w": 1440,
-      "x": 3040,
-      "y": 58520
+      "x": 7600,
+      "y": 53200
     },
     "Act-violence-against-women-directive.dc.html": {
       "expand": "fill",
@@ -1149,8 +919,8 @@
       "page": "instruments",
       "title": "Instrument: Violence Against Women Directive",
       "w": 1440,
-      "x": 4560,
-      "y": 58520
+      "x": 9120,
+      "y": 53200
     },
     "CompanyTypes.dc.html": {
       "expand": "fill",
@@ -1351,16 +1121,6 @@
       "w": 1440,
       "x": 0,
       "y": 4400
-    },
-    "Fc-euccs.dc.html": {
-      "expand": "fill",
-      "h": 1661,
-      "is_interactive": true,
-      "page": "forthcoming",
-      "title": "Forthcoming: European Critical Communication System (EUCCS)",
-      "w": 1440,
-      "x": 3040,
-      "y": 2200
     },
     "Fc-european-innovation-act.dc.html": {
       "expand": "fill",
@@ -1634,6 +1394,166 @@
       "w": 1440,
       "x": 1520,
       "y": 0
+    },
+    "Act-700-mhz-decision.dc.html": {
+      "expand": "fill",
+      "h": 3399,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: 700 MHz Decision",
+      "w": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "Act-adr-directive.dc.html": {
+      "expand": "fill",
+      "h": 3583,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: ADR Directive",
+      "w": 1440,
+      "x": 3040,
+      "y": 0
+    },
+    "Act-child-sexual-abuse-directive.dc.html": {
+      "expand": "fill",
+      "h": 3608,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Child Sexual Abuse Directive",
+      "w": 1440,
+      "x": 10640,
+      "y": 0
+    },
+    "Act-collective-rights-management-directive.dc.html": {
+      "expand": "fill",
+      "h": 2893,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Collective Rights Management Directive",
+      "w": 1440,
+      "x": 13680,
+      "y": 0
+    },
+    "Act-conditional-access-directive.dc.html": {
+      "expand": "fill",
+      "h": 2808,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Conditional Access Directive",
+      "w": 1440,
+      "x": 4560,
+      "y": 5320
+    },
+    "Act-consumer-credit-directive-ii.dc.html": {
+      "expand": "fill",
+      "h": 3472,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Consumer Credit Directive II",
+      "w": 1440,
+      "x": 6080,
+      "y": 5320
+    },
+    "Act-cybercrime-directive.dc.html": {
+      "expand": "fill",
+      "h": 3438,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Cybercrime Directive",
+      "w": 1440,
+      "x": 13680,
+      "y": 5320
+    },
+    "Act-e-money-directive.dc.html": {
+      "expand": "fill",
+      "h": 3436,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: E-money Directive",
+      "w": 1440,
+      "x": 7600,
+      "y": 15960
+    },
+    "Act-european-accessibility-act.dc.html": {
+      "expand": "fill",
+      "h": 3470,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: European Accessibility Act",
+      "w": 1440,
+      "x": 4560,
+      "y": 21280
+    },
+    "Act-european-single-access-point-esap.dc.html": {
+      "expand": "fill",
+      "h": 3546,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: European Single Access Point (ESAP)",
+      "w": 1440,
+      "x": 12160,
+      "y": 21280
+    },
+    "Act-radio-spectrum-policy-programme.dc.html": {
+      "expand": "fill",
+      "h": 3499,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Radio Spectrum Policy Programme",
+      "w": 1440,
+      "x": 4560,
+      "y": 42560
+    },
+    "Act-representative-actions-directive.dc.html": {
+      "expand": "fill",
+      "h": 3133,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Representative Actions Directive",
+      "w": 1440,
+      "x": 6080,
+      "y": 42560
+    },
+    "Act-sepa-regulation.dc.html": {
+      "expand": "fill",
+      "h": 3655,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: SEPA Regulation",
+      "w": 1440,
+      "x": 0,
+      "y": 47880
+    },
+    "Act-software-directive.dc.html": {
+      "expand": "fill",
+      "h": 2828,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Software Directive",
+      "w": 1440,
+      "x": 4560,
+      "y": 47880
+    },
+    "Act-transfer-of-funds-regulation.dc.html": {
+      "expand": "fill",
+      "h": 2797,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Transfer of Funds Regulation",
+      "w": 1440,
+      "x": 0,
+      "y": 53200
+    },
+    "Act-tris-directive.dc.html": {
+      "expand": "fill",
+      "h": 3450,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: TRIS Directive",
+      "w": 1440,
+      "x": 1520,
+      "y": 53200
     }
   },
   "createdOnFiles": {
@@ -1670,25 +1590,27 @@
     "InfographicGap.dc.html",
     "InfographicHq.dc.html",
     "InfographicAreasGrowth.dc.html",
+    "Act-700-mhz-decision.dc.html",
     "Act-administrative-cooperation-in-taxation-dac.dc.html",
+    "Act-adr-directive.dc.html",
     "Act-anti-money-laundering-regulation.dc.html",
     "Act-artificial-intelligence-act.dc.html",
     "Act-audiovisual-media-services-directive.dc.html",
     "Act-child-sexual-abuse-directive-recast.dc.html",
+    "Act-child-sexual-abuse-directive.dc.html",
     "Act-child-sexual-abuse-regulation-csar.dc.html",
+    "Act-collective-rights-management-directive.dc.html",
     "Act-common-vat-system-directive.dc.html",
     "Act-community-design-regulation.dc.html",
     "Act-company-law-directive.dc.html",
-    "Act-compulsory-licensing-of-patents-regulation.dc.html",
-    "Act-connecting-europe-facility.dc.html",
+    "Act-conditional-access-directive.dc.html",
+    "Act-consumer-credit-directive-ii.dc.html",
     "Act-consumer-protection-cooperation-regulation.dc.html",
     "Act-consumer-rights-directive.dc.html",
     "Act-copyright-in-the-digital-single-market-directive.dc.html",
-    "Act-critical-raw-materials-act.dc.html",
     "Act-cyber-resilience-act.dc.html",
-    "Act-cyber-solidarity-act.dc.html",
+    "Act-cybercrime-directive.dc.html",
     "Act-cybersecurity-act.dc.html",
-    "Act-cybersecurity-regulation-eu-institutions.dc.html",
     "Act-data-act.dc.html",
     "Act-data-governance-act.dc.html",
     "Act-data-protection-by-eu-institutions-regulation.dc.html",
@@ -1697,30 +1619,27 @@
     "Act-digital-content-directive.dc.html",
     "Act-digital-decade-policy-programme-decision.dc.html",
     "Act-digital-euro-regulation.dc.html",
-    "Act-digital-europe-programme.dc.html",
     "Act-digital-operational-resilience-act-dora.dc.html",
     "Act-digital-services-act.dc.html",
-    "Act-digitalisation-of-judicial-cooperation-regulatio.dc.html",
     "Act-dlt-pilot-regime-regulation.dc.html",
     "Act-e-commerce-directive.dc.html",
     "Act-e-evidence-regulation.dc.html",
     "Act-e-invoicing-directive.dc.html",
+    "Act-e-money-directive.dc.html",
     "Act-ec-merger-regulation.dc.html",
     "Act-ecodesign-for-sustainable-products-regulation.dc.html",
     "Act-eidas-regulation.dc.html",
     "Act-electromagnetic-compatibility-directive.dc.html",
     "Act-eprivacy-directive.dc.html",
-    "Act-eu-digital-travel-application-regulation.dc.html",
     "Act-eu-space-act.dc.html",
     "Act-eu-top-level-domain-regulation.dc.html",
-    "Act-eurohpc-joint-undertaking-regulation.dc.html",
+    "Act-european-accessibility-act.dc.html",
     "Act-european-chips-act.dc.html",
-    "Act-european-cybersecurity-competence-centre.dc.html",
     "Act-european-electronic-communications-code.dc.html",
     "Act-european-health-data-space.dc.html",
     "Act-european-media-freedom-act.dc.html",
+    "Act-european-single-access-point-esap.dc.html",
     "Act-european-standardisation-regulation.dc.html",
-    "Act-european-statistics-regulation.dc.html",
     "Act-fdi-screening-regulation.dc.html",
     "Act-financial-data-access-regulation-fida.dc.html",
     "Act-foreign-subsidies-regulation.dc.html",
@@ -1731,21 +1650,14 @@
     "Act-general-product-safety-regulation.dc.html",
     "Act-geo-blocking-regulation.dc.html",
     "Act-gigabit-infrastructure-act.dc.html",
-    "Act-horizon-europe.dc.html",
     "Act-horizontal-block-exemption-regulations.dc.html",
-    "Act-information-security-regulation.dc.html",
     "Act-information-society-infosoc-directive.dc.html",
-    "Act-interoperability-of-eu-information-systems-borde.dc.html",
-    "Act-interoperable-europe-act.dc.html",
-    "Act-investeu-programme.dc.html",
     "Act-ipr-enforcement-directive.dc.html",
-    "Act-joint-undertakings-under-horizon-europe.dc.html",
     "Act-late-payment-regulation.dc.html",
     "Act-law-enforcement-directive.dc.html",
     "Act-machinery-regulation.dc.html",
     "Act-market-surveillance-regulation.dc.html",
     "Act-markets-in-crypto-assets-mica.dc.html",
-    "Act-net-zero-industry-act.dc.html",
     "Act-nis-2-directive.dc.html",
     "Act-non-cash-payment-fraud-directive.dc.html",
     "Act-open-data-directive-psi.dc.html",
@@ -1761,26 +1673,27 @@
     "Act-product-liability-directive.dc.html",
     "Act-radio-equipment-directive.dc.html",
     "Act-radio-spectrum-decision.dc.html",
-    "Act-recovery-and-resilience-facility.dc.html",
+    "Act-radio-spectrum-policy-programme.dc.html",
+    "Act-representative-actions-directive.dc.html",
     "Act-right-to-repair-directive.dc.html",
     "Act-roaming-regulation.dc.html",
     "Act-sale-of-goods-directive.dc.html",
     "Act-satellite-and-cable-directive.dc.html",
     "Act-satellite-and-cable-ii-directive.dc.html",
+    "Act-sepa-regulation.dc.html",
     "Act-short-term-rental-data-regulation.dc.html",
     "Act-single-digital-gateway-regulation.dc.html",
-    "Act-single-market-emergency-instrument-imera.dc.html",
-    "Act-single-market-programme.dc.html",
-    "Act-strategic-technologies-for-europe-platform-step.dc.html",
+    "Act-software-directive.dc.html",
     "Act-technology-transfer-block-exemption.dc.html",
     "Act-temporary-csam-derogation-regulation.dc.html",
     "Act-terrorist-content-online-regulation.dc.html",
     "Act-toys-safety-directive.dc.html",
     "Act-toys-safety-regulation.dc.html",
     "Act-trade-secrets-directive.dc.html",
+    "Act-transfer-of-funds-regulation.dc.html",
+    "Act-tris-directive.dc.html",
     "Act-unfair-commercial-practices-directive.dc.html",
     "Act-unfair-contract-terms-directive.dc.html",
-    "Act-union-secure-connectivity-programme.dc.html",
     "Act-vat-in-the-digital-age-vida.dc.html",
     "Act-vertical-block-exemption-regulation.dc.html",
     "Act-violence-against-women-directive.dc.html",
@@ -1797,7 +1710,6 @@
     "Fc-digital-networks-act.dc.html",
     "Fc-digital-omnibus.dc.html",
     "Fc-eu-inc.dc.html",
-    "Fc-euccs.dc.html",
     "Fc-european-innovation-act.dc.html",
     "Fc-european-product-act.dc.html",
     "Fc-multimodal-digital-mobility.dc.html",
