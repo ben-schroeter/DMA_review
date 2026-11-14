@@ -165,3 +165,13 @@ TH = TT + 58 + 3 * (PH + GY) - GY + 26
 time_svg = (f'<svg viewBox="0 0 {TW} {TH}" width="100%" role="img" aria-label="Obligations on companies by policy area, cumulative 2000 to 2026, twelve panels on shared axes, '
             f'split into the laws and their implementing and delegated acts: ' + "; ".join(f"{a.replace('&', 'and')} {then[a]:,} at the start of 2018, {now[a]:,} in 2026" for a in areas) + '">' + "".join(q) + "</svg>")
 open("site/areas_growth_time.svg", "w").write(time_svg)
+from counts import record
+_r = {a: now[a] / then[a] for a in areas if then[a]}
+_lo, _hi = min(_r, key=_r.get), max(_r, key=_r.get)
+_nm = lambda a: a.replace("&", "&amp;").lower().replace("ipr", "IP").replace("trust &amp; safety", "Trust &amp; Safety").replace("e-commerce &amp; consumer protection", "e-commerce and consumer protection")
+record("growth_min_area", _lo, _nm(_lo)); record("growth_min_x", round(_r[_lo], 1), f"{_r[_lo]:.1f}")
+record("growth_max_area", _hi, _nm(_hi)); record("growth_max_x", round(_r[_hi]), f"{_r[_hi]:.0f}")
+_z = [a for a in areas if not then[a] and now[a]]
+_zt = [_nm(a) for a in _z]; _zt[0] = _zt[0][:1].upper() + _zt[0][1:] if _zt else ""
+record("growth_new_areas", len(_z), (", ".join(_zt[:-1]) + " and " + _zt[-1]) if len(_zt) > 1 else "".join(_zt))
+print("growth", _lo, round(_r[_lo], 1), _hi, round(_r[_hi], 1), "new", _z)

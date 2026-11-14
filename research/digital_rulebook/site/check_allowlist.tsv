@@ -1,0 +1,67 @@
+# page	figure	context (substring)	why it stays typed
+*	14	Last update: 14 November	date stamp (site/stamp_dates.py)
+*	72	72 hours	legal deadline in the texts
+*	1,000	per 1,000 words	unit
+CompanyTypes.dc.html	10	staff	size band in the laws (SME Recommendation 2003/361, designation thresholds)
+CompanyTypes.dc.html	250	staff	size band in the laws (SME Recommendation 2003/361, designation thresholds)
+CompanyTypes.dc.html	750	staff	size band in the laws (SME Recommendation 2003/361, designation thresholds)
+CompanyTypes.dc.html	10	Under 10 staff	legal threshold in the size-band table
+CompanyTypes.dc.html	10	10–49 staff	legal threshold in the size-band table
+CompanyTypes.dc.html	49	10–49 staff	legal threshold in the size-band table
+CompanyTypes.dc.html	50	50–249 staff	legal threshold in the size-band table
+CompanyTypes.dc.html	249	50–249 staff	legal threshold in the size-band table
+CompanyTypes.dc.html	43	€43 million	legal threshold in the size-band table
+CompanyTypes.dc.html	250	250–749 staff	legal threshold in the size-band table
+CompanyTypes.dc.html	749	250–749 staff	legal threshold in the size-band table
+CompanyTypes.dc.html	150	€150 million	legal threshold in the size-band table
+CompanyTypes.dc.html	750	750 staff or more	legal threshold in the size-band table
+CompanyTypes.dc.html	250	€250 million EU turnover	legal threshold in the size-band table
+CompanyTypes.dc.html	500	€500 million EU turnover	legal threshold in the size-band table
+CompanyTypes.dc.html	7.5	€7.5 billion	legal threshold in the size-band table
+CompanyTypes.dc.html	75	€75 billion	legal threshold in the size-band table
+CompanyTypes.dc.html	45	45 million users	legal threshold in the size-band table
+CompanyTypes.dc.html	250	ends at 250 staff	legal threshold in the size-band table
+CompanyTypes.dc.html	19	Arts 15, 19, 29	article numbers
+CompanyTypes.dc.html	29	Arts 15, 19, 29	article numbers
+CompanyTypes.dc.html	43	DSA Arts 33–43	article numbers
+CompanyTypes.dc.html	15	Articles 11 to 15	article numbers
+CompanyTypes.dc.html	16	16 to 18	article numbers
+CompanyTypes.dc.html	18	16 to 18	article numbers
+CompanyTypes.dc.html	19	19 to 32	article numbers
+CompanyTypes.dc.html	32	19 to 32	article numbers
+CompanyTypes.dc.html	33	33 to 43	article numbers
+CompanyTypes.dc.html	43	33 to 43	article numbers
+*	150	a hand check of 150	validation sample size (fixed)
+Methodology.dc.html	200	sample of 200	validation sample size (fixed)
+UsComparison.dc.html	200	check of 200	validation sample size (fixed)
+Methodology.dc.html	300	first sample of 300	development sample size (fixed)
+Methodology.dc.html	197	197 of 210	reporting validation result (fixed sample)
+Methodology.dc.html	210	197 of 210	reporting validation result (fixed sample)
+Methodology.dc.html	100	4 of 100	reporting validation result (fixed sample)
+Methodology.dc.html	29	29 best-studied	history of the October 2026 literature search (describes that search, not the current law set)
+Methodology.dc.html	77	77 acts adopted since 2016	history of the October 2026 literature search (describes that search, not the current law set)
+Methodology.dc.html	189	added 189 sources	history of the October 2026 literature search
+UsComparison.dc.html	60	at least 60 obligations	selection threshold of the chart
+UsComparison.dc.html	50	at least 50 in the main act	selection threshold of the chart
+UsComparison.dc.html	13.7	13.7 obligations per 1,000	matched-pair density; pairs unchanged by the 2026-11 scope change; source computation not stored (to trace)
+UsComparison.dc.html	9.1	against 9.1	matched-pair density; pairs unchanged by the 2026-11 scope change; source computation not stored (to trace)
+CompanyTypes.dc.html	77	binding reliefs for small firms	external study (Schrepel 2026)
+CompanyTypes.dc.html	34	binding reliefs for small firms	external study (Schrepel 2026)
+Main.dc.html	100	1995 = 100	index base
+Main.dc.html	50	4 of 50	external statistic (largest tech companies)
+WhyItMatters.dc.html	30	past 30 years	external statistic or citation
+WhyItMatters.dc.html	50	past 50 years	external statistic or citation
+WhyItMatters.dc.html	10	$10 billion	external statistic or citation
+WhyItMatters.dc.html	241	241 of such	external statistic or citation
+WhyItMatters.dc.html	29.6	$29.6	external statistic or citation
+WhyItMatters.dc.html	14	the EU has only 14	external statistic or citation
+WhyItMatters.dc.html	0.43	$0.43	external statistic or citation
+WhyItMatters.dc.html	50	under 50 years	external statistic or citation
+WhyItMatters.dc.html	26	26 November 2024	external statistic or citation
+WhyItMatters.dc.html	21	€21 billion	external statistic or citation
+WhyItMatters.dc.html	24	$24 billion	external statistic or citation
+WhyItMatters.dc.html	18	$18 billion	external statistic or citation
+WhyItMatters.dc.html	14	$14 billion	external statistic or citation
+WhyItMatters.dc.html	100	$100 million	external statistic or citation
+WhyItMatters.dc.html	1856	No. 1856	external statistic or citation
+WhyItMatters.dc.html	2.4	Figure 2.4	external statistic or citation

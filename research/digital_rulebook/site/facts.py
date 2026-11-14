@@ -142,5 +142,35 @@ for t, v in GR["company_types"].items():
 # external statistics quoted on the site (Why it matters, front page): edited in data/external_figures.json, with page context
 for k, v in json.load(open("data/external_figures.json")).items():
     F[k] = {"value": v["text"], "text": v["text"], "external": True}
+
+# ---- figures for page text that used to be typed (November 2026 audit; site/assemble.py --check flags any left) ----
+import os as _os
+if _os.path.exists("site/page_figures.json"):          # computed by the chart builders (site/counts.py record)
+    F.update(json.load(open("site/page_figures.json")))
+put("ia_exante_sources", sum(1 for x in LIT if x["category"] == "ex-ante assessment" and x["parent_row_id"] in Aid))
+_ev = json.load(open("data/evidence_map/cells.json"))["instruments"]
+_ev = [v for v in _ev.values() if v["row_id"] in Aid]
+_cells = [c for v in _ev for c in v["cells"].values()]
+put("evmap_pairs", len(_cells)); put("evmap_pairs_any", sum(c["best"] in ("causal", "measured") for c in _cells)); put("evmap_pairs_causal", sum(c["best"] == "causal" for c in _cells))
+_eco = [c for v in _ev for k, c in v["cells"].items() if k in ("costs", "consumers", "competition", "innovation", "growth")]
+put("evmap_eco_pairs", len(_eco)); put("evmap_eco_any", sum(c["best"] in ("causal", "measured") for c in _eco)); put("evmap_eco_causal", sum(c["best"] == "causal" for c in _eco))
+put("ms_company_conduct", s(A, "ult_private_parties") - s(A, "addr_private_parties"), f'{round(s(A, "ult_private_parties") - s(A, "addr_private_parties"), -1):,}')
+_us = [x for x in json.load(open("data/us_map/us_counterparts.json")) if x["row_id"] in Aid]
+_uq = collections.Counter(x["match_quality"] for x in _us)
+put("us_mapped", len(_us))
+for k, key in (("close", "us_close"), ("partial", "us_partial"), ("agency rule only", "us_agency"), ("state only", "us_state"), ("proposed only", "us_proposed"), ("none", "us_none")):
+    put(key, _uq[k])
+_rp = json.load(open("data/reporting/summary.json"))["by_who"]["private_parties"]
+put("rep_comp_event", _rp["cadence"]["event"]); put("rep_comp_urgent", _rp["without_delay"]); put("rep_comp_periodic", _rp["cadence"]["periodic"])
+for k in ("annual", "regular", "monthly", "quarterly"):
+    put(f"rep_comp_{k}", _rp["period"].get(k, 0))
+put("rep_comp_records", _rp["type"]["record_keeping"]); put("rep_comp_unspecified", _rp["cadence"]["unspecified"])
+put("rep_comp_2018", _rp["start_2018"]); put("rep_comp_growth_x", round(_rp["total"] / _rp["start_2018"], 1), f'{_rp["total"] / _rp["start_2018"]:.1f}')
+_top = list(_rp["top_instruments"].items())[:3]
+_short = {"Markets in Crypto-Assets (MiCA)": "The Markets in Crypto-Assets Regulation", "General Data Protection Regulation": "the GDPR", "Digital Operational Resilience Act (DORA)": "the Digital Operational Resilience Act"}
+for i, (n, v) in enumerate(_top, 1):
+    put(f"rep_top{i}_name", n, _short.get(n, ("the " if i > 1 else "The ") + n)); put(f"rep_top{i}", v)
+put("comm_guidance", F["db_secondary_guidance"]["value"] + sum(1 for x in sheet("guidance_web") if x["parent_row_id"] in Aid))
+put("db_secondary_items", s([{"n": F[k]["value"]} for k in ("implementing_acts", "delegated_acts", "db_secondary_guidance", "db_secondary_other")], "n"))
 json.dump(F, open("site/facts.json", "w"), indent=1, ensure_ascii=False)
 print(len(F), {k: v["text"] for k, v in F.items()})

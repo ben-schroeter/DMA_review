@@ -59,3 +59,7 @@ aria = "Reporting obligations by type of company and timing: " + "; ".join(f"{NA
 open("site/company_types_speed.svg", "w").write(f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="{aria}">' + "".join(g) + "</svg>")
 for k in order:
     print(k, sum(cnt[k].values()), dict(cnt[k]))
+import sys as _s; _s.path.insert(0, "site"); from counts import record
+for k in TYPES + ["B"]:
+    record(f"ct_fast_{k}", cnt[k]["fast"])
+print("fast:", {k: cnt[k]["fast"] for k in TYPES + ["B"]})

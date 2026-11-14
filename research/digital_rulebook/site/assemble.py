@@ -139,14 +139,31 @@ def fill_data_blocks(p, s):
         s = re.sub(r"const S = \[\[.*?\]\];\n", lambda m: "const S = " + json.dumps(L, ensure_ascii=False) + ";\n", s, count=1, flags=re.S)
     return s
 
+
+# any number in page text: thousands, percentages, decimals and plain integers of two or more digits
+NUM = re.compile(r"(?<![\w.,/(§-])(?:\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?%|\d+\.\d+|\d{2,})(?![\w/-])")
+ALLOW = []   # (page, figure, context substring) reviewed as not depending on the law set: site/check_allowlist.tsv
+if os.path.exists(f"{SITE}/check_allowlist.tsv"):
+    for l in open(f"{SITE}/check_allowlist.tsv"):
+        if l.strip() and not l.startswith("#"):
+            a, b, c, *_ = l.rstrip("\n").split("\t"); ALLOW.append((a, b, c))
+def is_exempt(t, m):
+    v = m.group(0); ctx = t[max(0, m.start() - 70):m.end() + 50]
+    if re.fullmatch(r"(19|20)\d\d", v): return True                       # years
+    if re.search(r"(Articles?|Arts?\.?|Annex|Recital|COM|SWD|SEC|No|Regulation \(EU\)|Directive \(EU\)|Decision \(EU\)|L|C)\s*\(?$", t[max(0, m.start() - 20):m.start()]): return True
+    if re.match(r"\s?(px|em|rem)\b", t[m.end():m.end() + 4]): return True
+    return any(pg in ("*", CUR_PAGE[0]) and fig == v and c in re.sub(r"\s+", " ", ctx) for pg, fig, c in ALLOW)
+CUR_PAGE = [""]
 CTX = []
 def check(s, page=""):
+    CUR_PAGE[0] = page
     found = collections.Counter()
     blocks = [(m.start(), m.end()) for m in re.finditer(r"<!--@chart \S+?-->.*?<!--@end-->|<!-- LATEST-PROPOSALS -->.*?<!-- /LATEST-PROPOSALS -->", s, re.S)]  # charts, and the proposal cards built from the same data as the skipped Fc- pages
     for a, b in text_segments(s):
         if re.search(r'<span data-fact="[^"]+">$', s[max(0, a - 80):a]) or any(x <= a < y for x, y in blocks): continue
         t = s[a:b]
-        for m in re.finditer(r"(?<!per )\b\d{1,3}(?:,\d{3})+\b|\b\d+(?:\.\d+)?%", t):
+        for m in re.finditer(NUM, t):
+            if is_exempt(t, m): continue
             found[m.group(0)] += 1; CTX.append((page, m.group(0), re.sub(r"\s+", " ", t[max(0, m.start() - 70):m.end() + 50]).strip()))
     return found
 

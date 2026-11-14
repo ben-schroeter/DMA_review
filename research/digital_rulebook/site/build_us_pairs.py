@@ -68,3 +68,15 @@ ra, rc = [x["ra"] for x in P], [x["rc"] for x in P]
 print("pairs", len(P), "median all", round(statistics.median(ra), 2), "median companies", round(statistics.median(rc), 2))
 print("means all", round(statistics.mean(x["eu_total"] for x in P)), round(statistics.mean(x["us_total"] for x in P)),
       "companies", round(statistics.mean(x["eu_private"] for x in P)), round(statistics.mean(x["us_private"] for x in P)))
+import sys as _s; _s.path.insert(0, "site"); from counts import record
+record("us_pairs_n", len(P), {6: "six", 7: "seven", 8: "eight", 9: "nine", 10: "ten"}.get(len(P), str(len(P))))
+_w = lambda n: {0: "none", 1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 7: "seven", 8: "eight"}.get(n, str(n))
+_more = sum(x["eu_total"] > x["us_total"] for x in P); _same = sum(x["eu_total"] == x["us_total"] for x in P)
+record("us_pairs_more_all", _more, _w(_more)); record("us_pairs_same_all", _same, _w(_same))
+_cm = sum(x["rc"] > 1.2 for x in P); _cs = sum(0.8 <= x["rc"] <= 1.2 for x in P); _cf = sum(x["rc"] < 0.8 for x in P)
+record("us_pairs_more_comp", _cm, _w(_cm)); record("us_pairs_same_comp", _cs, _w(_cs)); record("us_pairs_fewer_comp", _cf, _w(_cf))
+record("us_median_all", round(statistics.median(ra), 1), f"{statistics.median(ra):.1f}"); record("us_median_comp", round(statistics.median(rc), 1), f"{statistics.median(rc):.1f}")
+record("us_mean_eu_all", round(statistics.mean(x["eu_total"] for x in P))); record("us_mean_us_all", round(statistics.mean(x["us_total"] for x in P)))
+record("us_mean_eu_comp", round(statistics.mean(x["eu_private"] for x in P))); record("us_mean_us_comp", round(statistics.mean(x["us_private"] for x in P)))
+_ai = next(x for x in P if x["row_id"] == 64)
+record("us_ai_eu_all", _ai["eu_total"]); record("us_ai_us_all", _ai["us_total"]); record("us_ai_eu_comp", _ai["eu_private"]); record("us_ai_us_comp", _ai["us_private"])

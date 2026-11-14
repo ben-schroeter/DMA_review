@@ -1,0 +1,194 @@
+{
+ "ct_fast_GK": {
+  "value": 40,
+  "text": "40"
+ },
+ "ct_fast_PL": {
+  "value": 34,
+  "text": "34"
+ },
+ "ct_fast_CL": {
+  "value": 29,
+  "text": "29"
+ },
+ "ct_fast_TC": {
+  "value": 16,
+  "text": "16"
+ },
+ "ct_fast_FI": {
+  "value": 53,
+  "text": "53"
+ },
+ "ct_fast_PR": {
+  "value": 70,
+  "text": "70"
+ },
+ "ct_fast_B": {
+  "value": 46,
+  "text": "46"
+ },
+ "firm_relief_exempt": {
+  "value": 476,
+  "text": "476"
+ },
+ "firm_relief_lightened": {
+  "value": 111,
+  "text": "111"
+ },
+ "firm_relief_fines": {
+  "value": 587,
+  "text": "587"
+ },
+ "firm_designated_step": {
+  "value": 298,
+  "text": "300"
+ },
+ "us_pairs_n": {
+  "value": 8,
+  "text": "eight"
+ },
+ "us_pairs_more_all": {
+  "value": 7,
+  "text": "seven"
+ },
+ "us_pairs_same_all": {
+  "value": 1,
+  "text": "one"
+ },
+ "us_pairs_more_comp": {
+  "value": 6,
+  "text": "six"
+ },
+ "us_pairs_same_comp": {
+  "value": 1,
+  "text": "one"
+ },
+ "us_pairs_fewer_comp": {
+  "value": 1,
+  "text": "one"
+ },
+ "us_median_all": {
+  "value": 2.0,
+  "text": "2.0"
+ },
+ "us_median_comp": {
+  "value": 2.0,
+  "text": "2.0"
+ },
+ "us_mean_eu_all": {
+  "value": 286,
+  "text": "286"
+ },
+ "us_mean_us_all": {
+  "value": 111,
+  "text": "111"
+ },
+ "us_mean_eu_comp": {
+  "value": 114,
+  "text": "114"
+ },
+ "us_mean_us_comp": {
+  "value": 33,
+  "text": "33"
+ },
+ "us_ai_eu_all": {
+  "value": 764,
+  "text": "764"
+ },
+ "us_ai_us_all": {
+  "value": 30,
+  "text": "30"
+ },
+ "us_ai_eu_comp": {
+  "value": 346,
+  "text": "346"
+ },
+ "us_ai_us_comp": {
+  "value": 29,
+  "text": "29"
+ },
+ "sec_since_2020": {
+  "value": 456,
+  "text": "456"
+ },
+ "sec_dated": {
+  "value": 650,
+  "text": "650"
+ },
+ "n_regulations": {
+  "value": 49,
+  "text": "49"
+ },
+ "n_directives": {
+  "value": 47,
+  "text": "47"
+ },
+ "n_decisions": {
+  "value": 4,
+  "text": "4"
+ },
+ "avg_since_2025": {
+  "value": 250,
+  "text": "250"
+ },
+ "avg_early_2000s": {
+  "value": 96,
+  "text": "96"
+ },
+ "avg_ratio_2025_2000s": {
+  "value": 2.6,
+  "text": "2.6"
+ },
+ "density_min": {
+  "value": 9.6,
+  "text": "9.6"
+ },
+ "density_max": {
+  "value": 16.2,
+  "text": "16.2"
+ },
+ "sox_obligations": {
+  "value": 240,
+  "text": "240"
+ },
+ "sox_private": {
+  "value": 59,
+  "text": "59"
+ },
+ "priv_avg_since_2020": {
+  "value": 115,
+  "text": "115"
+ },
+ "priv_avg_2000s": {
+  "value": 41,
+  "text": "41"
+ },
+ "sox_cmp_ai_priv": {
+  "value": 346,
+  "text": "346"
+ },
+ "sox_cmp_dsa_priv": {
+  "value": 185,
+  "text": "185"
+ },
+ "growth_min_area": {
+  "value": "IPR",
+  "text": "IP"
+ },
+ "growth_min_x": {
+  "value": 1.4,
+  "text": "1.4"
+ },
+ "growth_max_area": {
+  "value": "E-commerce & Consumer Protection",
+  "text": "e-commerce and consumer protection"
+ },
+ "growth_max_x": {
+  "value": 9,
+  "text": "9"
+ },
+ "growth_new_areas": {
+  "value": 3,
+  "text": "Cybersecurity, research &amp; innovation and industrial policy"
+ }
+}

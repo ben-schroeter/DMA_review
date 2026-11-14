@@ -8,3 +8,12 @@ _A = [x for x in _sheet("instruments") if x["row_id"] and x["status"] == "adopte
 _impl = [x for x in _sheet("secondary_acts") if x["parent_row_id"] in _Aid and x["kind"] in ("implementing", "delegated")]
 N_LAWS = len(_A); N_SEC = len(_impl)
 N_IMPL = sum(x["kind"] == "implementing" for x in _impl); N_DEL = sum(x["kind"] == "delegated" for x in _impl)
+
+
+# figures computed inside chart builders for the page text: site/page_figures.json, merged into site/facts.json by site/facts.py
+import json as _json, os as _os
+_PF = "site/page_figures.json"
+def record(key, value, text=None):
+    d = _json.load(open(_PF)) if _os.path.exists(_PF) else {}
+    d[key] = {"value": value, "text": text if text is not None else (f"{value:,}" if isinstance(value, int) else str(value))}
+    _json.dump(d, open(_PF, "w"), indent=1, ensure_ascii=False)

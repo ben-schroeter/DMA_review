@@ -597,3 +597,19 @@ meta["rank_dma"] = {"below": b_, "n": n_, "median": m_}
 
 json.dump({"charts": charts, "meta": meta}, open("site/mock_charts.json", "w"), ensure_ascii=False)
 print(json.dumps(meta))
+
+# figures for the Rules and US comparison page text (site/counts.py record -> site/page_figures.json -> site/facts.py)
+import sys as _s; _s.path.insert(0, "site"); from counts import record
+_ids = {r["row_id"] for r in inst}
+_sec = [r for r in sec if r["parent_row_id"] in _ids]
+record("sec_since_2020", sum(r["d"].year >= 2020 for r in _sec)); record("sec_dated", len(_sec))
+_ty = collections.Counter(r["type"] for r in inst)
+record("n_regulations", _ty["Regulation"]); record("n_directives", _ty["Directive"]); record("n_decisions", _ty["Decision"])
+_m = lambda xs, k="restrictions_total": sum(x[k] or 0 for x in xs) / len(xs)
+_a25 = _m([r for r in inst if r["d"].year >= 2025]); _a00 = _m([r for r in inst if 2000 <= r["d"].year <= 2004])
+record("avg_since_2025", int(round(_a25, -1))); record("avg_early_2000s", round(_a00)); record("avg_ratio_2025_2000s", round(_a25 / _a00, 1), f"{_a25 / _a00:.1f}")
+_d = [v for a, v in meta["avg5_1"] if a >= Y1 - 1 - 22]   # five-year averages over the last two decades
+record("density_min", min(_d), f"{min(_d):.1f}"); record("density_max", max(_d), f"{max(_d):.1f}")
+record("sox_obligations", sox["restrictions_total"]); record("sox_private", sox_priv)
+record("priv_avg_since_2020", round(_m(recent, "addr_private_parties"))); record("priv_avg_2000s", round(_m([r for r in inst if 2000 <= r["d"].year <= 2009], "addr_private_parties")))
+_sb = meta["sox_bars"]; record("sox_cmp_ai_priv", _sb["AI Act"][1]); record("sox_cmp_dsa_priv", _sb["Digital Services Act"][1])

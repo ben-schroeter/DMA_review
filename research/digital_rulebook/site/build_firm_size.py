@@ -49,3 +49,6 @@ for k in ORDER:
     print(k, series[k], f"micro faces {series[k][0] / series[k][4]:.0%} of large")
 a = d["all_company_obligations"]
 print("all company obligations", a, f"micro {a[0] / a[4]:.1%} of large")
+import sys as _s, json as _j; _s.path.insert(0, "site"); from counts import record
+_g = _j.load(open("data/firm_size/summary.json"))["types"]["GK"]["specific"]
+record("firm_designated_step", _g[-1] - _g[-2], f"{round(_g[-1] - _g[-2], -1):,}")   # shown as "about N"

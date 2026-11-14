@@ -67,3 +67,5 @@ H = ly + 12
 aria = "Obligations on companies for a firm with fewer than 10 staff: " + "; ".join(f"{lab} {cnt[k]:,} ({cnt[k] / tot:.1%})" for k, lab, *_ in SEG)
 open("site/firm_relief.svg", "w").write(f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="{aria}">' + "".join(g) + "</svg>")
 print(tot, cnt, {k: round(v / tot * 100, 1) for k, v in cnt.items()})
+import sys as _s; _s.path.insert(0, "site"); from counts import record
+record("firm_relief_exempt", cnt["removed"]); record("firm_relief_lightened", cnt["lightened"]); record("firm_relief_fines", cnt["fines"])
