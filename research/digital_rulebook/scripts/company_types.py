@@ -123,6 +123,9 @@ for t in TYPES:
     p["with_baseline"] = p["obligations"] + out["baseline"]["obligations"]
     p["with_baseline_start_2018"] = p["start_2018"] + out["baseline"]["start_2018"]
     out["types"][t] = p
+_sel = lambda t: {id(r) for r in rows if t in M.get(r["row_id"], {}) and applies(M[r["row_id"]][t], r, t)}
+_gk, _pl = _sel("GK"), _sel("PL")
+out["gk_split"] = {"all": len(_gk), "also_platform_rules": len(_gk & _pl), "gatekeeper_only": len(_gk - _pl)}   # used by the GK card text
 out["not_counted_obligations"] = sum(1 for r in rows if r["row_id"] not in M)
 out["not_counted_laws"] = sorted({by_id[r["row_id"]]["name"] for r in rows if r["row_id"] not in M})
 os.makedirs("data/company_types", exist_ok=True)

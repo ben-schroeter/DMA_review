@@ -36,7 +36,8 @@ TEXT = {
   "Marketplaces, gig and booking platforms, hosting and other online services below the very-large thresholds."
  ]
 }
-EXTRA = {"GK": '. Of the 1,452, 1,033 are the rules for all online platforms and 419 apply only to gatekeepers and very large platforms.'}   # split of the gatekeeper count, from data/company_types/matrix.csv
+_sp = S["gk_split"]   # computed in scripts/company_types.py
+EXTRA = {"GK": f'. Of the {_sp["all"]:,}, {_sp["also_platform_rules"]:,} are the rules for all online platforms and {_sp["gatekeeper_only"]:,} apply only to gatekeepers and very large platforms.'}
 B = S["types"]["B"]["obligations"] if "B" in S["types"] else S["baseline"]["obligations"]
 out = []
 for k in ORDER:

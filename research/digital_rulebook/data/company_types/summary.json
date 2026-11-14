@@ -322,6 +322,11 @@
    "2026": 51
   }
  },
+ "gk_split": {
+  "all": 1452,
+  "also_platform_rules": 1033,
+  "gatekeeper_only": 419
+ },
  "not_counted_obligations": 613,
  "not_counted_laws": [
   ".eu Top-Level Domain Regulation",
