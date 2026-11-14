@@ -23,7 +23,7 @@ row_id,name,identifier,celex_measured,status,note
 22,eIDAS Regulation,Regulation (EU) 910/2014,32014R0910,adopted,
 23,Payment Services Directive 2 (PSD2),Directive (EU) 2015/2366,32015L2366,adopted,
 24,Open Internet Access Regulation,Regulation (EU) 2015/2120,32015R2120,adopted,
-25,Technology Transfer Block Exemption,Regulation (EU) 316/2014,32014R0316,adopted,
+25,Technology Transfer Block Exemption,Regulation (EU) 2026/877,32026R0877,adopted,Replaces Regulation (EU) 316/2014 (expired 30 April 2026)
 26,Trade Secrets Directive,Directive (EU) 2016/943,32016L0943,adopted,
 27,Digital Content Directive,Directive (EU) 2019/770,32019L0770,adopted,
 28,Sale of Goods Directive,Directive (EU) 2019/771,32019L0771,adopted,
@@ -88,7 +88,7 @@ row_id,name,identifier,celex_measured,status,note
 87,Horizontal Block Exemption Regulations,"Regulations (EU) 2023/1066, 2023/1067",32023R1066;32023R1067,adopted,
 88,Interoperable Europe Act,Regulation (EU) 2024/903,32024R0903,adopted,
 89,Design Directive,Directive (EU) 2024/2823,32024L2823,adopted,
-90,VAT in the Digital Age (ViDA),2022/0407(CNS),32025L0516,adopted,Adopted after CEPS snapshot: Council Directive (EU) 2025/516 (11 Mar 2025)
+90,VAT in the Digital Age (ViDA),Directive (EU) 2025/516,32025L0516,adopted,Adopted after CEPS snapshot: Council Directive (EU) 2025/516 (11 Mar 2025)
 91,Gigabit Infrastructure Act,Regulation (EU) 2024/1309,32024R1309,adopted,
 92,Critical Raw Materials Act,Regulation (EU) 2024/1252,32024R1252,adopted,
 93,Net-Zero Industry Act,Regulation (EU) 2024/1735,32024R1735,adopted,

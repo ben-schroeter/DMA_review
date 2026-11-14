@@ -1,10 +1,10 @@
 {
- "celex": "32014R0316",
+ "celex": "32026R0877",
  "name": "Technology Transfer Block Exemption",
  "proposal": null,
- "impact_assessment": "No IA for the 2014 Regulation reviewed; evaluation SWD(2024) 268; successor IA SWD(2026) 114",
+ "impact_assessment": "IA SWD(2026) 114 (executive summary SWD(2026) 116); evaluation of the predecessor Regulation 316/2014 in SWD(2024) 268",
  "evidence_rating": "thin: Commission evaluation based on stakeholder views; no independent empirical study of the Regulation's effect on licensing or innovation found",
- "summary": "This competition-law safe harbour for technology licensing had no monitoring indicators. The Commission's 2024 evaluation, based mostly on stakeholder views, found it largely did its job of giving firms legal certainty, but had gaps on early-stage technologies and data licensing; its 2026 replacement is forecast to cut legal-assessment costs by 15-40%. No independent study measuring its effect on licensing or innovation was found.",
+ "summary": "Regulation (EU) 2026/877 replaced Regulation 316/2014 on 1 May 2026 and runs until 30 April 2038. The safe harbour for technology licensing had no monitoring indicators. The Commission's 2024 evaluation of the 2014 rules, based mostly on stakeholder views, found they largely gave firms legal certainty but had gaps on early-stage technologies and data licensing; the impact assessment for the new rules forecasts 15-40% lower legal-assessment costs. No independent study measuring the effect on licensing or innovation was found.",
  "last_reviewed": "2026-10-10",
  "indicators": [
   {
@@ -14,8 +14,7 @@
    "target_or_baseline": "",
    "evidence": "",
    "status": "",
-   "sources": "",
-   "status_group": ""
+   "sources": ""
   },
   {
    "type": "evaluation question",
@@ -24,18 +23,16 @@
    "target_or_baseline": "",
    "evidence": "2024 evaluation: rules 'largely meet their objectives', providing legal certainty and lower compliance costs, but market-share thresholds hard to apply (especially early-stage licensing) and data licensing/licensing negotiation groups not covered. Based on consultation, not measured outcomes.",
    "status": "reported as activity",
-   "sources": "SWD(2024) 268",
-   "status_group": "reported as activity"
+   "sources": "SWD(2024) 268"
   },
   {
    "type": "expected impact (impact assessment, successor TTBER)",
    "objective": "Simplify threshold assessment",
    "indicator": "Cost of applying market-share thresholds per licensing agreement",
    "target_or_baseline": "-15 to -40% (forecast)",
-   "evidence": "Forecast only; new TTBER applies from May 2026.",
+   "evidence": "Forecast only; the new Regulation applies from 1 May 2026.",
    "status": "not measured",
-   "sources": "SWD(2026) 114/116",
-   "status_group": "not measured"
+   "sources": "SWD(2026) 114/116"
   },
   {
    "type": "expected impact (impact assessment, successor TTBER)",
@@ -44,8 +41,7 @@
    "target_or_baseline": "up to -33% (forecast)",
    "evidence": "Forecast only.",
    "status": "not measured",
-   "sources": "SWD(2026) 114/116",
-   "status_group": "not measured"
+   "sources": "SWD(2026) 114/116"
   }
  ],
  "literature": [
@@ -70,9 +66,7 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "http://web.archive.org/web/20260711114357/https://competition-policy.ec.europa.eu/public-consultations/2023-technology-transfer_en",
-   "category": "evidence",
-   "source_class": "official"
+   "archive_url": "http://web.archive.org/web/20260711114357/https://competition-policy.ec.europa.eu/public-consultations/2023-technology-transfer_en"
   },
   {
    "id": "ec-2026-ttber-ia",
@@ -95,10 +89,7 @@
    "access": "open",
    "interested_party": "",
    "accessed": "2026-10-10",
-   "archive_url": "",
-   "category": "ex-ante assessment",
-   "source_class": "official"
+   "archive_url": ""
   }
- ],
- "evidence_level": "thin"
+ ]
 }

@@ -362,12 +362,16 @@ def ia_pend(rid):
     col = "#2E7D5B" if head == "Impact assessment" else "#9B3B3B"
     return (f'<p class="body" style="font-size: 15px; margin: 0"><span class="st" style="border-color: {col}; color: {col}">{head}</span> '
             + "<br>".join(lab(l) for l in com + oth) + "</p>")
+def swd_links(t):
+    return re.sub(r"\b(SWD|SEC)\((\d{4})\) ?(\d+)", lambda m: f'<a href="https://ec.europa.eu/transparency/documents-register/detail?ref={m[1]}({m[2]}){m[3]}&amp;lang=en">{m[0]}</a>', t)
 def ia_line(r):
     x = IA.get(str(r["celex_measured"]).split(";")[0])
     if not x: return ""
     lab, col = IA_LAB[x["status"]]
     docs = ", ".join(f'<a href="{esc(d["url"])}">{esc(d["ref"])}</a>' for d in x["docs"])
-    note = "" if x["status"] in ("full", "pre") else f' <span class="cap">· {esc(x["note"][0].lower() + x["note"][1:]) if x["note"] else ""}</span>'
+    # notes are shown unless the status says it all; SWD/SEC references become links to the Commission's register
+    show = x["note"] and (x["status"] != "full") and (x["status"] != "pre" or re.search(r"SWD|SEC\(", x["note"]))
+    note = f' <span class="cap">· {swd_links(esc(x["note"][0].lower() + x["note"][1:]))}</span>' if show else ""
     b = x.get("board"); brd = ""
     if b:
         seq = b["first"] if b["first"] == b["final"] else f'{b["first"]} first, then {b["final"]}'

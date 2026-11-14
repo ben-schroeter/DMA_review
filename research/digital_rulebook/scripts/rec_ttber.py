@@ -7,7 +7,7 @@ indicators = [
      "2024 evaluation: rules 'largely meet their objectives', providing legal certainty and lower compliance costs, but market-share thresholds hard to apply (especially early-stage licensing) and data licensing/licensing negotiation groups not covered. Based on consultation, not measured outcomes.",
      "reported as activity", "SWD(2024) 268"),
  ind("expected impact (impact assessment, successor TTBER)", "Simplify threshold assessment", "Cost of applying market-share thresholds per licensing agreement", "-15 to -40% (forecast)",
-     "Forecast only; new TTBER applies from May 2026.", "not measured", "SWD(2026) 114/116"),
+     "Forecast only; the new Regulation applies from 1 May 2026.", "not measured", "SWD(2026) 114/116"),
  ind("expected impact (impact assessment, successor TTBER)", "Facilitate data licensing", "Compliance assessment costs for covered data licensing agreements", "up to -33% (forecast)",
      "Forecast only.", "not measured", "SWD(2026) 114/116"),
 ]
@@ -23,7 +23,7 @@ literature = [
      "For the replacement rules, the Commission expects firms' legal-assessment costs for licensing deals to fall by 15-40%.",
      "EU, forecast", "forecast", "full text read (executive summary)"),
 ]
-write("32014R0316", "Technology Transfer Block Exemption", None, "No IA for the 2014 Regulation reviewed; evaluation SWD(2024) 268; successor IA SWD(2026) 114",
+write("32026R0877", "Technology Transfer Block Exemption", None, "IA SWD(2026) 114 (executive summary SWD(2026) 116); evaluation of the predecessor Regulation 316/2014 in SWD(2024) 268",
       "thin: Commission evaluation based on stakeholder views; no independent empirical study of the Regulation's effect on licensing or innovation found",
-      "This competition-law safe harbour for technology licensing had no monitoring indicators. The Commission's 2024 evaluation, based mostly on stakeholder views, found it largely did its job of giving firms legal certainty, but had gaps on early-stage technologies and data licensing; its 2026 replacement is forecast to cut legal-assessment costs by 15-40%. No independent study measuring its effect on licensing or innovation was found.",
+      "Regulation (EU) 2026/877 replaced Regulation 316/2014 on 1 May 2026 and runs until 30 April 2038. The safe harbour for technology licensing had no monitoring indicators. The Commission's 2024 evaluation of the 2014 rules, based mostly on stakeholder views, found they largely gave firms legal certainty but had gaps on early-stage technologies and data licensing; the impact assessment for the new rules forecasts 15-40% lower legal-assessment costs. No independent study measuring the effect on licensing or innovation was found.",
       indicators, literature)

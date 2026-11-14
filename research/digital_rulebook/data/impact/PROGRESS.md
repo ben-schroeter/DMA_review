@@ -127,3 +127,4 @@ Tier 3 — pending proposals and acts adopted 2024–2026 (impact assessment and
 - [x] 52024PC0060 Child Sexual Abuse Directive (recast)
 - [x] 52024PC0670 EU Digital Travel Application Regulation
 - [x] 52025PC0335 EU Space Act
+- [x] 32026R0877 Technology Transfer Block Exemption
