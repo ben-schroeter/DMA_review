@@ -2,7 +2,7 @@
   who_type      stacked bars: reporting obligations by who must report, split by type
   areas_growth  dumbbell: companies' reporting obligations by policy area, start of 2018 vs October 2026
 Writes site/reporting_charts.json. Run from research/digital_rulebook."""
-import collections, json
+import collections, json, sys as _s; _s.path.insert(0, "site"); from counts import nice_axis
 import openpyxl
 
 INK, INK2, MUTED, LINE, BASE, BG = "#282424", "#3F3B3B", "#666666", "#E8E6E3", "#C9C6C3", "#FAF9F5"
@@ -40,7 +40,7 @@ TYPES = [("report_submission", "Reports and submissions", GOLD, "#FFFFFF"), ("no
 WHO = [("private_parties", "Companies"), ("member_states", "Member states"), ("eu_institutions", "EU institutions")]
 cnt = {w: collections.Counter(r["type"] for r in rep if r["addressee"] == w) for w, _ in WHO}
 W, L, R, TOP, BH, GAP = 1000, 150, 900, 70, 40, 26
-XMAX = 2200
+XMAX, _XS = nice_axis(max(sum(cnt[w].values()) for w, _ in WHO) + 120, 6)   # room for the total label
 X = lambda v: L + v / XMAX * (R - L)
 g, lx, ly = [], 0, 6
 for k, lab, c, _ in TYPES:     # legend, wraps to two rows
@@ -49,7 +49,7 @@ for k, lab, c, _ in TYPES:     # legend, wraps to two rows
         lx, ly = 0, ly + 22
     g.append(f'<rect x="{lx}" y="{ly}" width="12" height="12" rx="2" fill="{c}"></rect>' + t(lx + 18, ly + 11, lab, 13))
     lx += w + 18
-for v in range(0, XMAX + 1, 500):
+for v in range(0, XMAX + 1, _XS):
     g.append(f'<line x1="{X(v):.1f}" x2="{X(v):.1f}" y1="{TOP - 6}" y2="{TOP + 3 * (BH + GAP) - GAP + 6}" stroke="{BASE if v == 0 else LINE}"></line>')
     g.append(t(X(v), TOP + 3 * (BH + GAP) - GAP + 26, f"{v:,}", 12, MUTED, "middle"))
 for i, (w, lab) in enumerate(WHO):
@@ -73,13 +73,13 @@ pp = [r for r in rep if r["addressee"] == "private_parties"]
 then, now = collections.Counter(area(r) for r in pp if year(r) <= 2017), collections.Counter(area(r) for r in pp)
 areas = sorted(now, key=lambda a: -now[a])
 W, PL, PR, PTOP, PROW = 1000, 250, 860, 50, 36
-VMAX = 600
+VMAX, _VS = nice_axis(max(now.values()) + 40, 8)   # room for the value label
 PX = lambda v: PL + v / VMAX * (PR - PL)
 PBOT = PTOP + PROW * len(areas)
 g = [f'<circle cx="10" cy="12" r="6.5" fill="{BG}" stroke="{STONE}" stroke-width="2.5"></circle>' + t(24, 17, "Start of 2018", 14),
      f'<circle cx="140" cy="12" r="7" fill="{GOLD}"></circle>' + t(154, 17, "October 2026", 14), t(W - 4, PTOP - 12, "Growth", 13, MUTED, "end")]
-for v in range(0, VMAX + 1, 100):
-    g.append(f'<line x1="{PX(v):.1f}" x2="{PX(v):.1f}" y1="{PTOP - 4}" y2="{PBOT}" stroke="{BASE if v == 0 else LINE}"></line>' + t(PX(v), PBOT + 20, v, 13, MUTED, "middle"))
+for v in range(0, VMAX + 1, _VS):
+    g.append(f'<line x1="{PX(v):.1f}" x2="{PX(v):.1f}" y1="{PTOP - 4}" y2="{PBOT}" stroke="{BASE if v == 0 else LINE}"></line>' + t(PX(v), PBOT + 20, f"{v:,}", 13, MUTED, "middle"))
 for i, a in enumerate(areas):
     y = PTOP + PROW * i + PROW / 2
     al = a.replace(" Protection", "").replace("&", "&amp;")
@@ -104,13 +104,13 @@ for a in areas:
         run += byy[y]; series[y] = run
     cum[a] = series
 NC, W, LM, PW, GX, PH, GY, TOP = 4, 1000, 40, 208, 34, 110, 74, 12
-YM = 600
+YM, _YS = nice_axis(max(max(c.values()) for c in cum.values()), 4)
 g = []
 for i, a in enumerate(areas):
     x0 = LM + (i % NC) * (PW + GX); y0 = TOP + 40 + (i // NC) * (PH + GY)
     X = lambda y, x0=x0: x0 + (y - Y0) / (Y1 - Y0) * PW
     Yv = lambda v, y0=y0: y0 + PH - v / YM * PH
-    for v in (200, 400, 600):
+    for v in range(_YS, YM + 1, _YS):
         g.append(f'<line x1="{x0}" x2="{x0 + PW}" y1="{Yv(v):.1f}" y2="{Yv(v):.1f}" stroke="{LINE}"></line>')
         if i % NC == 0:
             g.append(t(x0 - 6, Yv(v) + 4, v, 11.5, MUTED, "end"))

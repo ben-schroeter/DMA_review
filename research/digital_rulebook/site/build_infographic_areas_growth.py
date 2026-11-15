@@ -1,7 +1,7 @@
 """Statista-style square infographic (1200x1200), same frame as the others: obligations on companies by policy area,
 start of 2018 vs October 2026, in adopted acts plus their implementing and delegated acts (dumbbell chart).
 Writes site/infographics/areas_growth.svg. Run from research/digital_rulebook."""
-import sys as _s; _s.path.insert(0, "site"); from counts import N_LAWS, N_SEC, N_IMPL, N_DEL   # no typed counts
+import sys as _s; _s.path.insert(0, "site"); from counts import N_LAWS, N_SEC, N_IMPL, N_DEL, nice_axis as nice   # no typed counts
 import collections, os
 import openpyxl
 
@@ -50,11 +50,11 @@ g.append(f'<circle cx="252" cy="310" r="7" fill="{SLATE}" stroke="{BG}" stroke-w
 g.append(f'<circle cx="452" cy="310" r="10" fill="{GOLD}"></circle>' + t(472, 317, "2026: plus implementing and delegated acts", 21, INK2))
 # chart
 L, R, TOP, ROW = 400, 990, 370, 52
-VMAX = 3600
+VMAX, VSTEP = nice(max(now.values()) + 700, 6)   # room for the value label right of the dot
 X = lambda v: L + v / VMAX * (R - L)
 BOT = TOP + ROW * len(areas)
 g.append(t(W - 56, TOP - 14, "Growth", 18, MUTED, "end"))
-for v in range(0, VMAX + 1, 1000):
+for v in range(0, VMAX + 1, VSTEP):
     g.append(f'<line x1="{X(v):.1f}" x2="{X(v):.1f}" y1="{TOP - 6}" y2="{BOT}" stroke="{BASE if v == 0 else LINE}"></line>')
     g.append(t(X(v), BOT + 28, f"{v:,}", 18, MUTED, "middle"))
 for i, a in enumerate(areas):
@@ -102,7 +102,7 @@ p = [f'<circle cx="10" cy="12" r="6.5" fill="{BG}" stroke="{STONE}" stroke-width
      f'<circle cx="138" cy="12" r="5" fill="{SLATE}" stroke="{BG}" stroke-width="1.5"></circle>' + t(150, 17, "2026: laws only", 14, INK2),
      f'<circle cx="282" cy="12" r="7" fill="{GOLD}"></circle>' + t(296, 17, "2026: plus implementing and delegated acts", 14, INK2),
      t(PW - 4, PTOP - 14, "Growth", 13, MUTED, "end")]
-for v in range(0, VMAX + 1, 1000):
+for v in range(0, VMAX + 1, VSTEP):
     p.append(f'<line x1="{PX(v):.1f}" x2="{PX(v):.1f}" y1="{PTOP - 4}" y2="{PBOT}" stroke="{BASE if v == 0 else LINE}"></line>')
     p.append(t(PX(v), PBOT + 20, f"{v:,}", 13, MUTED, "middle"))
 for i, a in enumerate(areas):
@@ -129,7 +129,7 @@ for a in areas:
     for y in range(TY0, TY1 + 1):
         rl += bl[y]; rs += bs[y]; ser_l[a][y], ser_s[a][y] = rl, rs
 NC, TW, LM, PW, GX, PH, GY, TT = 4, 1000, 44, 206, 34, 110, 74, 12
-TYM = 4000
+TYM, TST = nice(max(now.values()), 4)
 q = [f'<rect x="{LM}" y="4" width="12" height="12" rx="2" fill="{LAWC}"></rect>' + t(LM + 18, 15, "In the laws", 13),
      f'<rect x="{LM + 120}" y="4" width="12" height="12" rx="2" fill="{SECC}"></rect>' + t(LM + 138, 15, "In implementing and delegated acts", 13),
      f'<line x1="{LM + 390}" x2="{LM + 390}" y1="2" y2="18" stroke="{STONE}" stroke-dasharray="3 3"></line>' + t(LM + 398, 15, "start of 2018", 13, MUTED)]
@@ -137,10 +137,10 @@ for i, a in enumerate(areas):
     x0 = LM + (i % NC) * (PW + GX); y0 = TT + 58 + (i // NC) * (PH + GY)
     SX = lambda y, x0=x0: x0 + (y - TY0) / (TY1 - TY0) * PW
     SY = lambda v, y0=y0: y0 + PH - v / TYM * PH
-    for v in (1000, 2000, 3000, 4000):
+    for v in range(TST, TYM + 1, TST):
         q.append(f'<line x1="{x0}" x2="{x0 + PW}" y1="{SY(v):.1f}" y2="{SY(v):.1f}" stroke="{LINE}"></line>')
         if i % NC == 0:
-            q.append(t(x0 - 6, SY(v) + 4, f"{v // 1000}k", 11.5, MUTED, "end"))
+            q.append(t(x0 - 6, SY(v) + 4, f"{v / 1000:g}k", 11.5, MUTED, "end"))
     def steps(vals):
         out, prev = [], None
         for y in range(TY0, TY1 + 1):

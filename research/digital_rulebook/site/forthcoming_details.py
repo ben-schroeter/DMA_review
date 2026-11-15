@@ -13,6 +13,18 @@ D = {
              ("Open Data Directive", "merged into the Data Act", 43), ("Platform-to-Business Regulation", "repealed", 44), ("NIS 2 Directive", "incident reporting streamlined", 61)],
     latest="The Council agreed its negotiating mandate on 21 October 2026. Parliament's committees are still working through more than 1,750 amendments, so trilogues have not started. The separate Digital Omnibus on AI was adopted as Regulation (EU) 2026/1744 and entered into force on 27 July 2026.",
     date="Nov 2025", ref="COM(2025) 837", eurlex="52025PC0837"),
+ "medical-devices-revision": dict(
+    intro="A targeted revision of the two medical device regulations, after the Commission's own evaluation found them safe but slow and costly, with some devices leaving the EU market. The Commission estimates the combined savings at more than €3 billion a year.",
+    does=["No fixed five-year expiry of certificates: notified bodies carry out periodic reviews proportionate to risk instead of recertifying.",
+          "Lighter requirements for well-established technologies and lower risk classes for some devices, such as reusable surgical instruments and some software.",
+          "Less notified-body involvement for lower and medium-risk devices, remote audits, and surveillance audits every two years where there are no safety issues.",
+          "Fewer safety update reports and summaries, and 30 instead of 15 days to report some serious incidents.",
+          "Priority, rolling review for breakthrough and orphan devices, regulatory sandboxes, and more room for hospitals' in-house devices and tests.",
+          "Moves the two regulations to Section B of the AI Act's Annex I, so the AI Act's high-risk rules reach AI-based medical devices only through the device rules."],
+    changes=[("Medical Devices Regulation", "amended", 134), ("In Vitro Diagnostic Medical Devices Regulation", "amended", 135),
+             ("Artificial Intelligence Act", "Annex I: device regulations moved to Section B", 64)],
+    latest="Proposed on 16 December 2025 and referred to Parliament's Public Health committee (SANT) in March 2026; rapporteur Oliver Schenk's draft report came in June 2026 and amendments in July. The Legislative Observatory lists a plenary vote for 18 January 2027 (indicative). No Council position yet.",
+    date="Dec 2025", ref="COM(2025) 1023", eurlex="52025PC1023"),
  "business-wallet": dict(
     intro="A digital wallet for companies and public bodies to identify themselves, sign, and exchange verified documents with each other and with authorities anywhere in the EU.",
     does=["European Business Wallets with a unique EU identifier for each company.",

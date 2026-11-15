@@ -1,6 +1,6 @@
 """Generate inline-SVG charts for the website mockup's front page (palette and fonts match the mockup).
 Writes site/mock_charts.json: {name: svg string}. Run from research/digital_rulebook."""
-import sys as _s; _s.path.insert(0, "site"); from counts import N_LAWS, N_SEC, N_IMPL, N_DEL   # no typed counts
+import sys as _s; _s.path.insert(0, "site"); from counts import N_LAWS, N_SEC, N_IMPL, N_DEL, nice_axis   # no typed counts
 import collections, datetime as dt, json, statistics
 import openpyxl
 
@@ -106,7 +106,7 @@ for r in ev:
     for t in order:
         run += cum[t]; pts[t].append((y, run))
 tot = sum(cum.values())
-Yf, g = axes(120, [0, 20, 40, 60, 80, 100, 120])
+_t, _s = nice_axis(tot); Yf, g = axes(_t, list(range(0, _t + 1, _s)))
 bands = stack_paths([(t, cols[t], pts[t]) for t in order], Yf)
 lab = []
 run = 0
@@ -121,7 +121,7 @@ evs = sorted([(fy(r["d"]), r["restrictions_total"], 0) for r in inst] + [(fy(r["
 m = s = 0; pm = [(Y0, 0)]; ps = [(Y0, 0)]
 for y, a, b in evs:
     m += a; s += b; pm.append((y, m)); ps.append((y, m + s))
-Yf, g = axes(35000, [0, 5000, 10000, 15000, 20000, 25000, 30000, 35000])
+_t, _s = nice_axis(m + s); Yf, g = axes(_t, list(range(0, _t + 1, _s)))
 bands = stack_paths([("main", CLAY, pm), ("sec", CLAY2, ps)], Yf)
 lab = [f'<text x="{W - R + 10}" y="{Yf(m / 2) + 5:.1f}" {F} font-size="14" fill="{INK2}">Main acts</text>',
        f'<text x="{W - R + 10}" y="{Yf(m / 2) + 23:.1f}" {F} font-size="14" fill="{INK}" font-weight="600">{m:,}</text>',
@@ -134,24 +134,24 @@ meta = {"acts_by_type": cum, "main": m, "secondary": s}
 
 # C. proposal vs adopted (45-degree line)
 cmp = [r for r in inst if isinstance(r.get("proposal_restrictions_total"), (int, float))]
-mx = 1200
+mx, _mxs = nice_axis(max(max(r["restrictions_total"], r["proposal_restrictions_total"]) for r in cmp), 7)
 S, P = 560, 56
 sx = lambda v: P + v / mx * (S - P - 16)
 sy = lambda v: S - P - v / mx * (S - P - 16)
 g = []
-for t in (0, 300, 600, 900, 1200):
+for t in range(0, mx + 1, _mxs):
     g.append(f'<line x1="{P}" x2="{S - 16}" y1="{sy(t):.1f}" y2="{sy(t):.1f}" stroke="{LINE}"></line>')
-    g.append(f'<text x="{P - 8}" y="{sy(t) + 5:.1f}" text-anchor="end" {F} font-size="13" fill="{MUTED}">{t}</text>')
-    g.append(f'<text x="{sx(t):.1f}" y="{S - P + 22}" text-anchor="middle" {F} font-size="13" fill="{MUTED}">{t}</text>')
+    g.append(f'<text x="{P - 8}" y="{sy(t) + 5:.1f}" text-anchor="end" {F} font-size="13" fill="{MUTED}">{t:,}</text>')
+    g.append(f'<text x="{sx(t):.1f}" y="{S - P + 22}" text-anchor="middle" {F} font-size="13" fill="{MUTED}">{t:,}</text>')
 g.append(f'<line x1="{sx(0):.1f}" y1="{sy(0):.1f}" x2="{sx(mx):.1f}" y2="{sy(mx):.1f}" stroke="{SLATE}" stroke-width="1.2" stroke-dasharray="5 4"></line>')
-g.append(f'<text x="{sx(1050):.1f}" y="{sy(1080):.1f}" {F} font-size="13" fill="{SLATE}" text-anchor="end" transform="rotate(-45 {sx(1050):.1f} {sy(1080):.1f})">no change</text>')
+g.append(f'<text x="{sx(mx * .875):.1f}" y="{sy(mx * .9):.1f}" {F} font-size="13" fill="{SLATE}" text-anchor="end" transform="rotate(-45 {sx(mx * .875):.1f} {sy(mx * .9):.1f})">no change</text>')
 above = sum(r["restrictions_total"] > r["proposal_restrictions_total"] for r in cmp)
 for r in cmp:
     c = CLAY if r["restrictions_total"] > r["proposal_restrictions_total"] else SLATE
     g.append(f'<circle cx="{sx(min(r["proposal_restrictions_total"], mx)):.1f}" cy="{sy(min(r["restrictions_total"], mx)):.1f}" r="5" fill="{c}" fill-opacity="0.75" stroke="#FAF9F5" stroke-width="1.2"></circle>')
 big = sorted(cmp, key=lambda r: -(r["restrictions_total"] - r["proposal_restrictions_total"]))[:4]
 for r in big:
-    nm = r["name"].replace("Artificial Intelligence Act", "AI Act").replace("General Data Protection Regulation", "GDPR").replace("Markets in Crypto-Assets (MiCA)", "MiCA").split(" (")[0]
+    nm = r["name"].replace("Artificial Intelligence Act", "AI Act").replace("General Data Protection Regulation", "GDPR").replace("Markets in Crypto-Assets (MiCA)", "MiCA").replace("In Vitro Diagnostic Medical Devices Regulation", "IVDR").replace("Medical Devices Regulation", "MDR").split(" (")[0]
     g.append(f'<text x="{sx(r["proposal_restrictions_total"]) + 9:.1f}" y="{sy(r["restrictions_total"]) + 4:.1f}" {F} font-size="13" fill="{INK2}">{nm}</text>')
 g.append(f'<text x="{(P + S) / 2:.0f}" y="{S - 8}" text-anchor="middle" {F} font-size="13" fill="{MUTED}">Obligations in the Commission proposal</text>')
 g.append(f'<text x="14" y="{(S - P) / 2:.0f}" text-anchor="middle" {F} font-size="13" fill="{MUTED}" transform="rotate(-90 14 {(S - P) / 2:.0f})">Obligations in the adopted act</text>')
@@ -271,7 +271,7 @@ evp = sorted([(fy(r["d"]), r["addr_private_parties"] or 0, 0) for r in inst] + [
 m2 = s2 = 0; qm = [(Y0, 0)]; qs = [(Y0, 0)]
 for y, a, b in evp:
     m2 += a; s2 += b; qm.append((y, m2)); qs.append((y, m2 + s2))
-Yf, g = axes(9000, [0, 2000, 4000, 6000, 8000])
+_t, _s = nice_axis(m2 + s2); Yf, g = axes(_t, list(range(0, _t + 1, _s)))
 bands = stack_paths([("main", CLAY, qm), ("sec", CLAY2, qs)], Yf)
 lab = [f'<text x="{W - R + 10}" y="{Yf(m2 / 2) + 5:.1f}" {F} font-size="14" fill="{INK2}">Main acts</text>',
        f'<text x="{W - R + 10}" y="{Yf(m2 / 2) + 23:.1f}" {F} font-size="14" fill="{INK}" font-weight="600">{m2:,}</text>',
@@ -293,6 +293,10 @@ gof = {a: gi for gi, (_, areas, _) in enumerate(GROUPS) for a in areas}
 TOPH = H
 BOT0, BOTH = TOPH + 92, 200            # bottom panel origin and height
 g = []          # top section: three panels with their own scales (below)
+PH, P0, RX = 2 * 136 + 8, 96, 50          # panel height, top, extra right margin for the right-hand axis
+PRX = W - R - RX                           # right edge of the plot
+_X0 = X
+X = lambda y: L + (y - Y0) / (Y1 - Y0) * (PRX - L)
 # Commission terms: dashed rules with names in two staggered rows
 TERMS = [("Santer", dt.date(1995, 1, 23)), ("Prodi", dt.date(1999, 9, 16)), ("Barroso", dt.date(2004, 11, 22)), ("Barroso II", dt.date(2010, 2, 10)),
          ("Juncker", dt.date(2014, 11, 1)), ("von der Leyen I", dt.date(2019, 12, 1)), ("von der Leyen II", dt.date(2024, 12, 1))]
@@ -308,40 +312,54 @@ for r in ev:
 sp = [(Y0, 0)]
 for r in sorted(sec, key=lambda r: r["d"]):
     sp.append((fy(r["d"]), sp[-1][1] + 1))
-# two panels on the shared time axis: laws (regulations and directives, stacked) above, implementing and delegated acts below
-PH, PG, P0 = 136, 34, 66
+# one panel on the shared time axis with two y axes: laws (regulations and directives, stacked bands) on the left scale,
+# implementing and delegated acts (blue line) on the right scale; gridlines shared, so both scales use the same number of steps
+NL, NS = len(ev), len(sec)
+STEPS = (10, 20, 25, 50, 100, 200, 250, 500, 1000)
+best = None                                # the blue band is stacked on the laws, so the two shares must fit in one panel
+for n in (4, 5, 6, 7, 8):
+    for ls in STEPS:
+        for rs in STEPS:
+            fill = NL / (n * ls) + NS / (n * rs)
+            if fill <= 0.95 and NL / (n * ls) >= 0.3 and (best is None or fill > best[0]):
+                best = (fill, n, ls, rs)
+_, NST, LST, RST = best
+LT, RT = NST * LST, NST * RST
+Yl = lambda v: P0 + PH - v / LT * PH
+Yr = lambda v: P0 + PH - v / RT * PH
 top, labt = [], []
-
-
-def panel(i, ymx, ticks, layers, title, tcol):
-    y0 = P0 + i * (PH + PG); ybase = y0 + PH
-    Yp = lambda v: y0 + PH - v / ymx * PH
-    for t in ticks:
-        g.append(f'<line x1="{L}" x2="{W - R}" y1="{Yp(t):.1f}" y2="{Yp(t):.1f}" stroke="{LINE}"></line>')
-        g.append(f'<text x="{L - 10}" y="{Yp(t) + 5:.1f}" text-anchor="end" {F} font-size="13" fill="{MUTED}">{t:,}</text>')
-    g.append(f'<line x1="{L}" x2="{W - R}" y1="{ybase}" y2="{ybase}" stroke="{BASE}"></line>')
-    top.append(f'<text x="{L + 8}" y="{y0 + 4}" {F} font-size="14" fill="{tcol}" font-weight="600">{title}</text>')
-    prev, mids = None, []
-    for name, rr, col, op in layers:
-        cur = rr if prev is None else [(x, v + pv) for (x, v), (_, pv) in zip(rr, prev)]
-        top.append(f'<path d="{band_d(cur, prev, X, Yp)}" fill="{col}" fill-opacity="{op}"></path>')
-        top.append(f'<path d="{smooth_d([(X(x), Yp(v)) for x, v in cur])}" fill="none" stroke="{col}" stroke-width="2"></path>')
-        lo = prev[-1][1] if prev else 0
-        mids.append((Yp(lo + rr[-1][1] / 2), name, rr[-1][1], col))
-        prev = cur
-    return mids
-
-
-pm1 = panel(0, 120, (40, 80, 120), [("Regulations", resample(own["Regulation"]), CLAY, 0.32),
-                                    ("Directives", resample(own["Directive"]), SLATE, 0.20)], "Laws", INK)
-pm2 = panel(1, 800, (400, 800), [("Implementing and delegated acts", resample(sp), BLUE, 0.24)], "Implementing and delegated acts", BLUE)
-for y, name, n, col in pm1:
-    labt.append(f'<text x="{W - R + 12}" y="{y + 5:.1f}" {F} font-size="14" fill="{INK if col == SLATE else col}" font-weight="600">{name} {n}</text>')
-y, name, n, col = pm2[0]
-y = min(y, P0 + 2 * PH + PG - 40)
-labt += [f'<text x="{W - R + 12}" y="{y - 6:.1f}" {F} font-size="20" fill="{BLUE}" font-weight="600">{n:,}</text>',
-         f'<text x="{W - R + 12}" y="{y + 12:.1f}" {F} font-size="12.5" fill="{MUTED}">{N_IMPL} implementing,</text>',
-         f'<text x="{W - R + 12}" y="{y + 28:.1f}" {F} font-size="12.5" fill="{MUTED}">{N_DEL} delegated</text>']
+for k in range(NST + 1):
+    yv = Yl(k * LST)
+    g.append(f'<line x1="{L}" x2="{PRX}" y1="{yv:.1f}" y2="{yv:.1f}" stroke="{BASE if k == 0 else LINE}"></line>')
+    if k:
+        g.append(f'<text x="{L - 10}" y="{yv + 5:.1f}" text-anchor="end" {F} font-size="13" fill="{INK2}">{k * LST:,}</text>')
+        g.append(f'<text x="{PRX + 8}" y="{yv + 5:.1f}" {F} font-size="13" fill="{BLUE}">{k * RST:,}</text>')
+top.append(f'<text x="{L - 10}" y="{P0 - 22}" {F} font-size="13.5" fill="{INK}" font-weight="600">Laws (left scale)</text>')
+top.append(f'<text x="{PRX + 44}" y="{P0 - 22}" text-anchor="end" {F} font-size="13.5" fill="{BLUE}" font-weight="600">Implementing and delegated acts, stacked (right scale)</text>')
+prev, ends = None, []
+for name, rr, col, op in (("Regulations", resample(own["Regulation"]), CLAY, 0.32), ("Directives", resample(own["Directive"]), SLATE, 0.20)):
+    cur = rr if prev is None else [(x, v + pv) for (x, v), (_, pv) in zip(rr, prev)]
+    top.append(f'<path d="{band_d(cur, prev, X, Yl)}" fill="{col}" fill-opacity="{op}"></path>')
+    top.append(f'<path d="{smooth_d([(X(x), Yl(v)) for x, v in cur])}" fill="none" stroke="{col}" stroke-width="2"></path>')
+    lo = prev[-1][1] if prev else 0
+    ends.append([Yl(lo + rr[-1][1] / 2), 18, [(f"{name} {rr[-1][1]}", 14, INK if col == SLATE else col, 600)]])
+    prev = cur
+spr = resample(sp)
+# blue band on top of the laws: starts at the laws' cumulative total, thickness on the right scale
+lawtop = [(x, Yl(v)) for x, v in prev]
+bluetop = [(x, py - (P0 + PH - Yr(sv))) for (x, py), (_, sv) in zip(lawtop, spr)]
+top.append(f'<path d="{band_d(bluetop, lawtop, X, lambda v: v)}" fill="{BLUE}" fill-opacity="0.22"></path>')
+top.append(f'<path d="{smooth_d([(X(x), v) for x, v in bluetop])}" fill="none" stroke="{BLUE}" stroke-width="2.2"></path>')
+ends.append([(bluetop[-1][1] + lawtop[-1][1]) / 2, 52, [(f"{NS:,}", 20, BLUE, 600), (f"{N_IMPL} implementing", 12, MUTED, 400), (f"{N_DEL} delegated", 12, MUTED, 400)]])
+# end labels: keep them apart, top to bottom
+ends.sort(key=lambda e: e[0])
+for i in range(1, len(ends)):
+    ends[i][0] = max(ends[i][0], ends[i - 1][0] + ends[i - 1][1] / 2 + ends[i][1] / 2 + 6)
+for yc, h_, lines in ends:
+    yy_ = yc - h_ / 2 + 14
+    for txt, sz, col, wt in lines:
+        labt.append(f'<text x="{PRX + 50}" y="{yy_:.1f}" {F} font-size="{sz}" fill="{col}" font-weight="{wt}">{txt}</text>')
+        yy_ += 17 if sz < 14 else 20
 peryear = {}
 for r in inst:
     peryear.setdefault(r["d"].year, [0] * len(GROUPS))[gof[r["policy_area"]]] += 1
@@ -349,8 +367,10 @@ ymax = max(sum(v) for v in peryear.values())
 ymaxr = 20 if ymax <= 20 else 25
 by = lambda v: BOT0 + BOTH - v / ymaxr * BOTH
 b = []
+_q = sum(peryear.get(2020, [0]))
+_lull = '; none was adopted in 2020' if not _q else ('; only one was adopted in 2020' if _q == 1 else f'; only {_q} were adopted in 2020')
 for t in (5, 10, 15, 20) if ymaxr == 20 else (5, 10, 15, 20, 25):
-    b.append(f'<line x1="{L}" x2="{W - R}" y1="{by(t):.1f}" y2="{by(t):.1f}" stroke="{LINE}"></line>')
+    b.append(f'<line x1="{L}" x2="{PRX}" y1="{by(t):.1f}" y2="{by(t):.1f}" stroke="{LINE}"></line>')
     b.append(f'<text x="{L - 10}" y="{by(t) + 5:.1f}" text-anchor="end" {F} font-size="14" fill="{MUTED}">{t}</text>')
 bw = (W - L - R) / (Y1 - Y0) * 0.72
 for yr, v in sorted(peryear.items()):
@@ -361,10 +381,10 @@ for yr, v in sorted(peryear.items()):
         y_top = by(acc + n); hgt = by(acc) - by(acc + n)
         b.append(f'<rect x="{x0:.1f}" y="{y_top:.1f}" width="{bw:.1f}" height="{max(hgt - 1, 1):.1f}" fill="{GROUPS[gi][2]}" fill-opacity="0.85"></rect>')
         acc += n
-b.append(f'<line x1="{L}" x2="{W - R}" y1="{BOT0 + BOTH}" y2="{BOT0 + BOTH}" stroke="{BASE}"></line>')
+b.append(f'<line x1="{L}" x2="{PRX}" y1="{BOT0 + BOTH}" y2="{BOT0 + BOTH}" stroke="{BASE}"></line>')
 b += [f'<text x="{X(y):.1f}" y="{BOT0 + BOTH + 24}" text-anchor="middle" {F} font-size="13.5" fill="{MUTED}">{y}</text>' for y in range(1990, 2026, 5)]
 b.append(f'<text x="{L}" y="{BOT0 - 24}" {F} font-size="15" fill="{INK}"><tspan font-weight="600">New acts adopted each year, by policy area.</tspan>'
-         f'<tspan fill="{INK2}"> Adoptions bunch before each European election; none on the list was adopted in 2020.</tspan></text>')
+         f'<tspan fill="{INK2}"> Adoptions bunch before each European election{_lull}.</tspan></text>')
 
 ly = BOT0 + BOTH + 52
 COLW = [0, 260, 500, 730]            # legend columns: row 2 sits under row 1
@@ -377,6 +397,7 @@ charts["acts_combined"] = (f'<svg viewBox="0 0 {WC} {ly + 16}" width="100%" role
                            f'({cum["Regulation"]} regulations, {cum["Directive"]} directives, {cum["Decision"]} decisions). Bottom: new acts each year by policy area; '
                            f'{sum(since)} adopted since 2020; {len(sec)} implementing and delegated acts">' + "".join(g + top + labt + b) + "</svg>")
 meta["groups_since_2020"] = {name: sum(v[gi] for yr, v in peryear.items() if yr >= 2020) for gi, (name, _, _) in enumerate(GROUPS)}
+X = _X0
 
 # H. small multiples: cumulative obligations by policy area, main acts vs their implementing and delegated acts
 area_of = {r["row_id"]: r["policy_area"] for r in sheet("instruments")}
@@ -423,8 +444,9 @@ VW, VH, PL, PR_, PT, PB, PGAP = 1000, 460, 52, 16, 40, 36, 60
 pw = (VW - 2 * PL - PR_ - PGAP) / 2
 dens = lambda r: 1000 * r["restrictions_total"] / max(1, (r["words_articles"] or 0) + (r["words_annexes"] or 0))
 g = []
-for k, (title, f, ym, ticks, sv) in enumerate((("Obligations per act", lambda r: r["restrictions_total"], 1200, (400, 800, 1200), sox["restrictions_total"]),
-                                               ("Obligations per 1,000 words", dens, 40, (10, 20, 30, 40), sox["per_1000_words"]))):
+_pa, _pas = nice_axis(max(r["restrictions_total"] for r in inst), 4); _de, _des = nice_axis(max(dens(r) for r in inst), 4)
+for k, (title, f, ym, ticks, sv) in enumerate((("Obligations per act", lambda r: r["restrictions_total"], _pa, range(_pas, _pa + 1, _pas), sox["restrictions_total"]),
+                                               ("Obligations per 1,000 words", dens, _de, range(_des, _de + 1, _des), sox["per_1000_words"]))):
     x0 = PL + k * (pw + PL + PGAP)
     xx = lambda y: x0 + (y - Y0) / (Y1 - Y0) * pw
     yy = lambda v: PT + (VH - PT - PB) * (1 - min(v, ym) / ym)
@@ -495,9 +517,9 @@ def by_type(weight):
 
 
 FILLS = {"Regulation": (CLAY, 0.30, CLAY), "Directive": (SLATE, 0.16, None), "Decision": (SLATE, 0.08, INK)}
-for key, wfun, ymax, ticks, unit in (("acts_by_type_half", lambda r: 1, 120, [0, 20, 40, 60, 80, 100, 120], "adopted acts"),
-                                     ("restr_by_type_half", lambda r: r["restrictions_total"], 24000, [0, 4000, 8000, 12000, 16000, 20000, 24000], "obligations")):
+for key, wfun, unit in (("acts_by_type_half", lambda r: 1, "adopted acts"), ("restr_by_type_half", lambda r: r["restrictions_total"], "obligations")):
     cc, pp_ = by_type(wfun)
+    ymax, _st = nice_axis(sum(cc.values()) * 1.06); ticks = list(range(0, ymax + 1, _st))
     tot_ = sum(cc.values())
     layers = [(FILLS[t][0], FILLS[t][1], pp_[t], FILLS[t][2]) for t in order]
     reg, dirc = cc["Regulation"], cc["Directive"]
@@ -510,21 +532,22 @@ for key, wfun, ymax, ticks, unit in (("acts_by_type_half", lambda r: 1, 120, [0,
                           f"{cc['Decision']:,} in decisions; dashed lines mark new Commissions", fmt=fmt)
     meta[key] = cc
 
-# private parties, tall version for the side column of the rulebook page
-labs = [(f"{m2 + s2:,}", m2 + s2 + 300, INK, 600, 19), ("in total", m2 + s2 - 500, MUTED, 400, 12.5),
-        ("Main acts", m2 / 2 + 250, CLAY, 600, 13.5), (f"{m2:,}", m2 / 2 - 450, INK, 600, 13.5),
-        ("Implementing", m2 + s2 / 2 + 300, INK2, 400, 13.5), ("& delegated", m2 + s2 / 2 - 250, INK2, 400, 13.5), (f"{s2:,}", m2 + s2 / 2 - 900, INK, 600, 13.5)]
-charts["private_tall"] = compact([(CLAY, 0.85, qm, None), (CLAY2, 0.9, qs, INK)], 14000, [0, 2000, 4000, 6000, 8000, 10000, 12000, 14000], labs,
+# private parties, tall version for the side column of the rulebook page; the scale follows the data
+ym, _st = nice_axis((m2 + s2) * 1.06, 10); pt_ticks = list(range(0, ym + 1, _st))
+labs = [(f"{m2 + s2:,}", m2 + s2 + ym * 0.02, INK, 600, 19), ("in total", m2 + s2 - ym * 0.035, MUTED, 400, 12.5),
+        ("Main acts", m2 / 2 + ym * 0.018, CLAY, 600, 13.5), (f"{m2:,}", m2 / 2 - ym * 0.032, INK, 600, 13.5),
+        ("Implementing", m2 + s2 / 2 + ym * 0.04, INK2, 400, 13.5), ("&amp; delegated", m2 + s2 / 2 + ym * 0.002, INK2, 400, 13.5),
+        (f"{s2:,}", m2 + s2 / 2 - ym * 0.045, INK, 600, 13.5)]
+charts["private_tall"] = compact([(CLAY, 0.85, qm, None), (CLAY2, 0.9, qs, INK)], ym, pt_ticks, labs,
                                  f"Cumulative obligations binding private parties: {m2:,} in the main acts and {s2:,} in implementing and delegated acts",
                                  W_=560, H_=600, fmt=lambda v: f"{v / 1000:.0f}k")
 
 # private parties, half-width version for the front page (same size as acts_by_type_half)
-ym = 14000
 labs = [(f"{m2 + s2:,}", m2 + s2 + ym * 0.02, INK, 600, 19), ("obligations", m2 + s2 - ym * 0.055, MUTED, 400, 12.5),
         ("Main acts", m2 / 2 + ym * 0.03, CLAY, 600, 13.5), (f"{m2:,}", m2 / 2 - ym * 0.03, CLAY, 600, 13.5),
         ("Implementing", m2 + s2 / 2 + ym * 0.06, INK2, 400, 13.5), ("&amp; delegated", m2 + s2 / 2 + ym * 0.005, INK2, 400, 13.5),
         (f"{s2:,}", m2 + s2 / 2 - ym * 0.05, INK, 600, 13.5)]
-charts["private_half"] = compact([(CLAY, 0.30, qm, CLAY), (SLATE, 0.16, qs, None)], ym, [0, 2000, 4000, 6000, 8000, 10000, 12000, 14000], labs,
+charts["private_half"] = compact([(CLAY, 0.30, qm, CLAY), (SLATE, 0.16, qs, None)], ym, pt_ticks, labs,
                                  f"Cumulative obligations binding private parties: {m2:,} in the main acts and {s2:,} in implementing and delegated acts; dashed lines mark new Commissions",
                                  fmt=lambda v: f"{v / 1000:.0f}k")
 
@@ -556,7 +579,7 @@ def rank_strip(celex, refs=("General Data Protection Regulation", "Artificial In
     vals = sorted(((r["restrictions_total"], r) for r in inst), key=lambda t: t[0])
     me = next(r for v, r in vals if r["celex_measured"] == celex)
     W_, L_, R_, rad = 1000, 24, 24, 5.5
-    vmax = 1200
+    vmax, _vs = nice_axis(vals[-1][0], 8)
     X = lambda v: L_ + v / vmax * (W_ - L_ - R_)
     placed = []  # (x, dy)
     for v, r in vals:
@@ -570,7 +593,7 @@ def rank_strip(celex, refs=("General Data Protection Regulation", "Artificial In
     med = statistics.median(v for v, _ in vals)
     below = sum(v < me["restrictions_total"] for v, _ in vals)
     g = [f'<line x1="{L_}" x2="{W_ - R_}" y1="{BASE_}" y2="{BASE_}" stroke="{BASE}" stroke-width="1"></line>']
-    for t in range(0, vmax + 1, 200):
+    for t in range(0, vmax + 1, _vs):
         g.append(f'<line x1="{X(t):.1f}" x2="{X(t):.1f}" y1="{BASE_ + span + 14}" y2="{BASE_ + span + 20}" stroke="{BASE}"></line>')
         g.append(f'<text x="{X(t):.1f}" y="{BASE_ + span + 38}" text-anchor="middle" {F} font-size="13" fill="{MUTED}">{t:,}</text>')
     g.append(f'<line x1="{X(med):.1f}" x2="{X(med):.1f}" y1="{BASE_ - span - 16}" y2="{BASE_ + span + 10}" stroke="{INK2}" stroke-dasharray="3 3"></line>')
@@ -613,3 +636,9 @@ record("density_min", min(_d), f"{min(_d):.1f}"); record("density_max", max(_d),
 record("sox_obligations", sox["restrictions_total"]); record("sox_private", sox_priv)
 record("priv_avg_since_2020", round(_m(recent, "addr_private_parties"))); record("priv_avg_2000s", round(_m([r for r in inst if 2000 <= r["d"].year <= 2009], "addr_private_parties")))
 _sb = meta["sox_bars"]; record("sox_cmp_ai_priv", _sb["AI Act"][1]); record("sox_cmp_dsa_priv", _sb["Digital Services Act"][1])
+# largest increases between proposal and adopted act, for the page text ("The largest increases: ...")
+_SHORT = {"Artificial Intelligence Act": "the AI Act", "Markets in Crypto-Assets (MiCA)": "MiCA", "Medical Devices Regulation": "the Medical Devices Regulation",
+          "In Vitro Diagnostic Medical Devices Regulation": "the In Vitro Diagnostic Medical Devices Regulation", "General Data Protection Regulation": "the GDPR"}
+_top = sorted(cmp, key=lambda r: -(r["restrictions_total"] - r["proposal_restrictions_total"]))[:4]
+_it = [f'{_SHORT.get(r["name"], "the " + r["name"])} ({r["proposal_restrictions_total"]:,} to {r["restrictions_total"]:,})' for r in _top]
+record("cmp_top_increases", [r["name"] for r in _top], ", ".join(_it[:-1]) + " and " + _it[-1])

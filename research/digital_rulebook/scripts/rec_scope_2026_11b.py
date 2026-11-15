@@ -70,6 +70,10 @@ write("32017R0746", "In Vitro Diagnostic Medical Devices Regulation", "52012PC05
       "The Regulation has applied since May 2022, with long transition periods because most tests now need a notified body. The Commission's 2025 targeted evaluation, covering both device regulations, found safety and transparency benefits but high and often disproportionate costs and reduced availability of some devices; the December 2025 proposal would simplify both.",
       [ind("note", NOIND)], [MD_EVAL, MD_SAVE, MD_IND])
 
+# the December 2025 revision proposal (Forthcoming page): no impact assessment; a cost-savings staff working document and the targeted evaluation
+write("52025PC1023", "Simplification of the medical device rules (proposal)", "52025PC1023", "none: staff working document only (cost savings), SWD(2025) 1050; targeted evaluation SWD(2025) 1051",
+      "ex-ante only: not adopted", "", [], [MD_SAVE, MD_EVAL])
+
 write("32019R2144", "Vehicle General Safety Regulation", "52018PC0286", "SWD(2018) 190 (executive summary SWD(2018) 191)",
       "ex-ante only: applies to all new vehicles since July 2024; first Commission evaluation due July 2027",
       "The mandatory safety systems apply to new vehicle types since July 2022 and to all new vehicles since July 2024; the Commission must report on their effect, including real-world performance of intelligent speed assistance, by 7 July 2027. No evaluation exists yet.",

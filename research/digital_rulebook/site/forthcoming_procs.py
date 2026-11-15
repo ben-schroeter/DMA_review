@@ -12,6 +12,7 @@ PROC = {
  "space-act": ["2025/0335(COD)"], "infosec": ["2022/0084(COD)"], "late-payment": ["2023/0323(COD)"], "psr": ["2023/0210(COD)"],
  "psd3": ["2023/0209(COD)"], "csa-directive": ["2024/0035(COD)"],
  "digital-fairness-act": ["2026/0356(COD)", "2026/0357(COD)"], "cpc-review": ["2026/0358(COD)"],
+ "medical-devices-revision": ["2025/0404(COD)"],
 }
 # documents adopted on 11 November 2026 and not yet on EUR-Lex: link the Commission document pages or the register instead
 DOC_URL = {"COM(2026)1100": "https://commission.europa.eu/document/0575d59f-554f-4a9e-b54b-e6b717175809_en",
@@ -45,7 +46,7 @@ REC = {"psr": "52023PC0367", "psd3": "52023PC0366", "digital-euro": "52023PC0369
        "digital-networks-act": "52026PC0016", "cybersecurity-act-2": "52026PC0011", "cloud-ai-development-act": "52026PC0502",
        "eu-kids-act": "52026PC0681", "digital-fairness-act": "fc-digital-fairness-act",
        "fida": "52023PC0360", "late-payment": "52023PC0533", "digital-services-tax": "52018PC0148", "significant-digital-presence": "52018PC0147",
-       "vat-imported-distance-sales": "52023PC0262"}
+       "vat-imported-distance-sales": "52023PC0262", "medical-devices-revision": "52025PC1023"}
 PREP = {
  "digital-transformation-package": [("Nov 2025", "Digital fitness check: call for evidence and public consultation on how EU digital rules work together (closed 11 Mar 2026)", "Have your say", "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/15554-Digital-Fitness-Check_en"),
                                     ("Sep 2026", "Consultation on the effect of technology on copyright (extended to 10 Nov 2026)", "Commission", "https://digital-strategy.ec.europa.eu/en/news/commission-seeks-feedback-challenges-and-way-forward-area-effect-technology-copyright")],

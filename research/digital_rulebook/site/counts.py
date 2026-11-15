@@ -17,3 +17,12 @@ def record(key, value, text=None):
     d = _json.load(open(_PF)) if _os.path.exists(_PF) else {}
     d[key] = {"value": value, "text": text if text is not None else (f"{value:,}" if isinstance(value, int) else str(value))}
     _json.dump(d, open(_PF, "w"), indent=1, ensure_ascii=False)
+
+
+def nice_axis(v, n=6, pad=1.04):
+    """Axis top and step for a maximum value v: the smallest round step that covers v (with a little headroom) in at most n steps."""
+    for st in (1, 2, 5, 10, 20, 25, 50, 100, 200, 250, 500, 1000, 2000, 2500, 5000, 10000, 20000, 25000, 50000):
+        top = -(-v * pad // st) * st
+        if top / st <= n:
+            return int(top), st
+    return int(v * pad), int(v * pad)

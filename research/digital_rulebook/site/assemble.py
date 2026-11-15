@@ -152,6 +152,7 @@ def is_exempt(t, m):
     if re.fullmatch(r"(19|20)\d\d", v): return True                       # years
     if re.search(r"(Articles?|Arts?\.?|Annex|Recital|COM|SWD|SEC|No|Regulation \(EU\)|Directive \(EU\)|Decision \(EU\)|L|C)\s*\(?$", t[max(0, m.start() - 20):m.start()]): return True
     if re.match(r"\s?(px|em|rem)\b", t[m.end():m.end() + 4]): return True
+    if re.search(r"Last update:\s*$", t[max(0, m.start() - 20):m.start()]): return True   # date stamp (site/stamp_dates.py)
     return any(pg in ("*", CUR_PAGE[0]) and fig == v and c in re.sub(r"\s+", " ", ctx) for pg, fig, c in ALLOW)
 CUR_PAGE = [""]
 CTX = []

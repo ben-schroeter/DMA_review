@@ -244,28 +244,28 @@
   "text": "3"
  },
  "fc_ia_total": {
-  "value": 23,
-  "text": "23"
+  "value": 24,
+  "text": "24"
  },
  "fc_ia_full": {
   "value": 17,
   "text": "17"
  },
  "fc_ia_without": {
-  "value": 4,
-  "text": "4"
+  "value": 5,
+  "text": "5"
  },
  "forthcoming_total": {
-  "value": 30,
-  "text": "30"
+  "value": 31,
+  "text": "31"
  },
  "forthcoming_agreed": {
   "value": 4,
   "text": "4"
  },
  "forthcoming_negotiation": {
-  "value": 19,
-  "text": "19"
+  "value": 20,
+  "text": "20"
  },
  "forthcoming_announced": {
   "value": 7,
@@ -336,8 +336,8 @@
   "text": "5"
  },
  "db_instruments": {
-  "value": 143,
-  "text": "143"
+  "value": 144,
+  "text": "144"
  },
  "db_secondary_all": {
   "value": 888,
@@ -1248,6 +1248,15 @@
  "growth_new_areas": {
   "value": 3,
   "text": "Cybersecurity, industrial policy and research &amp; innovation"
+ },
+ "cmp_top_increases": {
+  "value": [
+   "Medical Devices Regulation",
+   "In Vitro Diagnostic Medical Devices Regulation",
+   "Artificial Intelligence Act",
+   "Markets in Crypto-Assets (MiCA)"
+  ],
+  "text": "the Medical Devices Regulation (923 to 1,571), the In Vitro Diagnostic Medical Devices Regulation (916 to 1,427), the AI Act (392 to 764) and MiCA (766 to 1,114)"
  },
  "ia_exante_sources": {
   "value": 87,
