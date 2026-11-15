@@ -80,20 +80,20 @@
   "text": "84"
  },
  "studies_evidence": {
-  "value": 456,
-  "text": "456"
+  "value": 501,
+  "text": "501"
  },
  "studies_causal": {
-  "value": 66,
-  "text": "66"
+  "value": 70,
+  "text": "70"
  },
  "studies_review": {
-  "value": 124,
-  "text": "124"
+  "value": 126,
+  "text": "126"
  },
  "sources_total": {
-  "value": 456,
-  "text": "456"
+  "value": 501,
+  "text": "501"
  },
  "ia_full": {
   "value": 83,
@@ -156,8 +156,8 @@
   "text": "50"
  },
  "library_total": {
-  "value": 506,
-  "text": "506"
+  "value": 551,
+  "text": "551"
  },
  "objectives": {
   "value": 335,
@@ -188,36 +188,36 @@
   "text": "48%"
  },
  "src_official": {
-  "value": 214,
-  "text": "214"
+  "value": 221,
+  "text": "221"
  },
  "src_academic": {
-  "value": 135,
-  "text": "135"
+  "value": 171,
+  "text": "171"
  },
  "src_thinktank": {
   "value": 46,
   "text": "46"
  },
  "src_industry": {
-  "value": 52,
-  "text": "52"
+  "value": 53,
+  "text": "53"
  },
  "src_other": {
-  "value": 9,
-  "text": "9"
+  "value": 10,
+  "text": "10"
  },
  "lvl_strong": {
   "value": 2,
   "text": "2"
  },
  "lvl_moderate": {
-  "value": 12,
-  "text": "12"
+  "value": 16,
+  "text": "16"
  },
  "lvl_thin": {
-  "value": 73,
-  "text": "73"
+  "value": 69,
+  "text": "69"
  },
  "lvl_too_early": {
   "value": 22,
@@ -272,52 +272,52 @@
   "text": "7"
  },
  "ev_costs_n": {
-  "value": 43,
-  "text": "43"
+  "value": 46,
+  "text": "46"
  },
  "ev_costs_causal": {
   "value": 2,
   "text": "2"
  },
  "ev_consumers_n": {
-  "value": 33,
-  "text": "33"
+  "value": 35,
+  "text": "35"
  },
  "ev_consumers_causal": {
-  "value": 10,
-  "text": "10"
+  "value": 11,
+  "text": "11"
  },
  "ev_competition_n": {
-  "value": 25,
-  "text": "25"
+  "value": 27,
+  "text": "27"
  },
  "ev_competition_causal": {
   "value": 8,
   "text": "8"
  },
  "ev_innovation_n": {
-  "value": 33,
-  "text": "33"
+  "value": 34,
+  "text": "34"
  },
  "ev_innovation_causal": {
-  "value": 6,
-  "text": "6"
+  "value": 7,
+  "text": "7"
  },
  "ev_growth_n": {
-  "value": 27,
-  "text": "27"
+  "value": 29,
+  "text": "29"
  },
  "ev_growth_causal": {
-  "value": 12,
-  "text": "12"
+  "value": 13,
+  "text": "13"
  },
  "ev_market_n": {
-  "value": 38,
-  "text": "38"
+  "value": 39,
+  "text": "39"
  },
  "ev_market_causal": {
-  "value": 5,
-  "text": "5"
+  "value": 7,
+  "text": "7"
  },
  "ev_rights_n": {
   "value": 29,
@@ -328,12 +328,12 @@
   "text": "3"
  },
  "ev_implementation_n": {
-  "value": 74,
-  "text": "74"
+  "value": 76,
+  "text": "76"
  },
  "ev_implementation_causal": {
-  "value": 5,
-  "text": "5"
+  "value": 6,
+  "text": "6"
  },
  "db_instruments": {
   "value": 144,
@@ -1267,24 +1267,24 @@
   "text": "880"
  },
  "evmap_pairs_any": {
-  "value": 302,
-  "text": "302"
+  "value": 315,
+  "text": "315"
  },
  "evmap_pairs_causal": {
-  "value": 51,
-  "text": "51"
+  "value": 57,
+  "text": "57"
  },
  "evmap_eco_pairs": {
   "value": 550,
   "text": "550"
  },
  "evmap_eco_any": {
-  "value": 161,
-  "text": "161"
+  "value": 171,
+  "text": "171"
  },
  "evmap_eco_causal": {
-  "value": 38,
-  "text": "38"
+  "value": 41,
+  "text": "41"
  },
  "ms_company_conduct": {
   "value": 545,

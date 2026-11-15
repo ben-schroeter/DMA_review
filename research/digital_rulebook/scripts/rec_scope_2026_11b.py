@@ -3,8 +3,40 @@ Sources: Commission evaluations, implementation reports and impact assessments r
 where available, otherwise from the Commission's pages and summaries found by search (marked in `verified`).
 Run from scripts/: python3 rec_scope_2026_11b.py"""
 import sys; sys.path.insert(0, ".")
-from impact_record import ind, lit, write
+from impact_record import ind, lit
 EU = "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:"
+from lit_scope_2026_11b import LIT
+import impact_record as _ir
+DROP = {"gorg-2024-sanctions-german-firms", "pol-2020-aml-effectiveness", "monteagudo-2012-services-directive-impact"}
+REPLACED = {"ec-2024-reg1-evaluation", "ec-2021-lvd-evaluation", "medtecheurope-2024-survey", "ec-2026-dualuse-report", "ec-2023-rohs-evaluation", "eca-2021-aml"}   # same documents, read more fully in the review
+
+
+def write(celex, name, proposal, ia, rating, summary, indicators, literature):
+    lits = [l for l in literature if l["id"] not in REPLACED]
+    seen = {l["id"] for l in lits}
+    lits += [l for l in LIT.get(celex, []) if l["id"] not in DROP and l["id"] not in seen and not seen.add(l["id"])]
+    _ir.write(celex, name, proposal, ia, RATING.get(celex, rating), SUMMARY.get(celex, summary), indicators, lits)
+
+
+# ratings and summaries revised after the literature review (15 November 2026); laws not listed keep the text in their write() call
+RATING = {
+ "32006L0123": "moderate: difference-in-differences and gravity studies of services trade comparing covered and uncovered services, with mixed results; a firm-level productivity study; Commission model-based estimates",
+ "32017R0745": "moderate: monitoring surveys for the Commission and national shortage data that measure device withdrawals and certification times, plus the Commission's targeted evaluation; no causal study of effects on safety or innovation",
+ "32017R0746": "thin: one monitoring survey of manufacturers, single-laboratory inventories of in-house tests and interview studies; no causal study",
+ "32019R2144": "ex-ante only: applies to all new vehicles since July 2024 and the first Commission evaluation is due in July 2027; studies of the same systems fitted voluntarily before the mandate measure their effect on crashes",
+ "32012L0019": "moderate: the Commission evaluation and a European Court of Auditors review measure collection and recycling; an EU-wide study of e-waste flows; panel studies of collection schemes; no causal estimate of the Directive itself",
+ "32015L0849": "moderate: one causal study of the beneficial ownership registers (staggered roll-out across Member States); audits and assessments of implementation; no study of money laundering itself",
+}
+SUMMARY = {
+ "32006L0123": "The Directive required Member States to remove unjustified barriers to establishing and providing services and to set up points of single contact. Studies that compare services covered by the Directive with others find that intra-EU trade in the targeted services rose by 29 to 67% (Kern, Paetzold and Winner 2021), though an earlier study finds trade was reallocated between countries rather than raised overall (Dettmer 2014), and a firm-level study finds productivity gains its author does not treat as firmly causal.",
+ "32017R0745": "The Regulation has applied since May 2021, with transition periods extended several times. The Commission's 2025 targeted evaluation found safety and transparency improving but compliance costs high and often disproportionate. In surveys for the Commission's monitoring study, 48% of responding manufacturers had withdrawn some devices from the EU since 2021, most because revenue did not justify recertification, and notified bodies report that most new certificates take more than a year. The only before-and-after test found, for AI imaging devices, shows no change in the gap between EU and US approval. A targeted revision proposed in December 2025 is estimated to save about EUR 3.3 billion a year.",
+ "32017R0746": "The Regulation has applied since May 2022, with long transition periods because most tests now need a notified body. In the Commission's monitoring survey, 61% of responding manufacturers of in vitro diagnostics had withdrawn some tests since 2022. Hospital laboratories rely heavily on tests they make themselves, which the Regulation restricts: 47% of the tests used at one Belgian university hospital. The Commission's 2025 evaluation of both device regulations found high and often disproportionate costs; the December 2025 proposal would simplify both.",
+ "32019R2144": "The mandatory safety systems apply to new vehicle types since July 2022 and to all new vehicles since July 2024; the Commission must report on their effect, including real-world performance of intelligent speed assistance, by 7 July 2027. Studies of the same systems fitted voluntarily before the mandate found that automatic emergency braking cut rear-end crashes by 38% and lane-keeping systems cut the crashes they target by 53%, while emergency braking for pedestrians showed no clear effect, none at all in darkness.",
+ "32012L0019": "The Commission's 2025 evaluation found that collection of waste electronics rose by about 65% between 2012 and 2021, but that nearly half of all e-waste generated in the EU is still not collected and only three Member States met the 65% collection target in 2022. The European Court of Auditors (2021) found that collected e-waste is mostly recycled but that collection lags, and an EU-funded study estimated that only 35% of Europe's e-waste went through official channels in 2012, with 1.3 million tonnes leaving the EU undocumented.",
+ "32015L0849": "The Directive introduced central registers of companies' beneficial owners. A study using the staggered opening of the registers across Member States finds that investment into the EU from financial havens fell once they opened, but that likely illicit owners avoided complying rather than changing behaviour (Amberger, Wilde and Wu 2025). The Commission's 2019 assessment and the European Court of Auditors (2021) found implementation uneven and insufficient, which led to the 2024 package replacing this Directive with a directly applicable Regulation from July 2027.",
+}
+
+
 NOIND = "No monitoring indicators set in the proposal; assessed through the Commission's reports listed below"
 
 write("32003R0001", "Antitrust Procedure Regulation", "52000PC0582", "none (proposed in 2000, before impact assessments)",

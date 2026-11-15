@@ -109,7 +109,7 @@ h2.h2{position:relative;padding-left:18px}h2.h2::before{content:"";position:abso
         </div>
         <label for="causal-only" style="display: inline-flex; align-items: center; gap: 10px; font-size: 15px; min-height: 44px; cursor: pointer"><input id="causal-only" type="checkbox" checked="{{causalOnly}}" onChange="{{toggle}}" style="width: 18px; height: 18px; accent-color: #B8860B">Causal studies only</label>
       </div>
-      <div class="scroll" style="max-height: 560px; background: #FAF9F5"><table class="tbl"><thead><tr><th scope="col">Source</th><th scope="col">Method</th><th scope="col">Finding</th></tr></thead><tbody><sc-if value="{{showAll}}" hint-placeholder-val="{{ true }}"><tr><td style="min-width: 260px"><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021SC0202">European Commission (2021), Evaluation of the Low Voltage Directive 2014/35/EU, SWD(2021) 202</a><span class="small">Commission evaluation · 2021</span></td><td>ex-post evaluation (stakeholder survey, external study)</td><td>The Commission found the safety rules for electrical equipment work, but that unsafe products sold online often slip through.</td></tr></sc-if></tbody></table></div>
+      <div class="scroll" style="max-height: 560px; background: #FAF9F5"><table class="tbl"><thead><tr><th scope="col">Source</th><th scope="col">Method</th><th scope="col">Finding</th></tr></thead><tbody><sc-if value="{{showAll}}" hint-placeholder-val="{{ true }}"><tr><td style="min-width: 260px"><a href="https://edz.bib.uni-mannheim.de/edz/pdf/swd/2021/swd-2021-0202-en.pdf">European Commission (DG GROW) (2021), Commission Staff Working Document: Evaluation of the Low Voltage Directive 2014/35/EU (SWD(2021) 202 final), European Commission, Staff Working Document</a><span class="small">official evaluation (Commission staff working document) · 2021</span></td><td>evaluation drawing on support study (Ecorys/VVA/Deloitte), stakeholder surveys (116 manufacturers, 12 authorities), Safety Gate/RAPEX and joint market-surveillance action data</td><td>The Commission found the electrical-safety rules sound on paper, but checks keep finding that many products, often imported and sold online, do not comply.</td></tr></sc-if></tbody></table></div>
       <span class="cap">1 sources, 0 causal. Each source links to the paper or official page.</span>
     </div>
   </section>
@@ -150,7 +150,7 @@ h2.h2{position:relative;padding-left:18px}h2.h2::before{content:"";position:abso
   </footer>
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":3035}}'>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":3076}}'>
 class Component extends DCLogic {
   constructor(props) { super(props); this.state = { causalOnly: false }; }
   renderVals() {

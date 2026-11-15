@@ -8448,12 +8448,14 @@
      "ids": []
     },
     "market": {
-     "best": null,
-     "n": 0,
+     "best": "measured",
+     "n": 1,
      "causal": 0,
-     "measured": 0,
+     "measured": 1,
      "forecast": 0,
-     "ids": []
+     "ids": [
+      "bernatt-2015-new-member-state-ncas"
+     ]
     },
     "rights": {
      "best": null,
@@ -8465,13 +8467,17 @@
     },
     "implementation": {
      "best": "measured",
-     "n": 2,
+     "n": 6,
      "causal": 0,
-     "measured": 2,
+     "measured": 6,
      "forecast": 0,
      "ids": [
-      "ec-2024-reg1-evaluation",
-      "ec-2009-reg1-report"
+      "ec-2009-reg1-report",
+      "ec-2024-reg1-2003-evaluation",
+      "wils-2013-reg1-2003-retrospective",
+      "bernatt-2015-new-member-state-ncas",
+      "hellwig-huschelrath-2017-cartel-enforcement",
+      "ordonez-de-haro-2018-cartel-policy-history"
      ]
     }
    }
@@ -8491,12 +8497,14 @@
      "ids": []
     },
     "consumers": {
-     "best": null,
-     "n": 0,
+     "best": "measured",
+     "n": 1,
      "causal": 0,
-     "measured": 0,
+     "measured": 1,
      "forecast": 0,
-     "ids": []
+     "ids": [
+      "kern-2021-services-directive-trade"
+     ]
     },
     "competition": {
      "best": null,
@@ -8515,24 +8523,27 @@
      "ids": []
     },
     "growth": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
+     "best": "causal",
+     "n": 2,
+     "causal": 1,
      "measured": 1,
      "forecast": 0,
      "ids": [
-      "monteagudo-2012-services"
+      "monteagudo-2012-services",
+      "olbrecht-2018-services-directive-productivity"
      ]
     },
     "market": {
-     "best": "measured",
-     "n": 2,
-     "causal": 0,
-     "measured": 2,
+     "best": "causal",
+     "n": 4,
+     "causal": 1,
+     "measured": 3,
      "forecast": 0,
      "ids": [
       "monteagudo-2012-services",
-      "kommerskollegium-2015-single-market"
+      "kommerskollegium-2015-single-market",
+      "kern-2021-services-directive-trade",
+      "dettmer-2014-services-directive-trade"
      ]
     },
     "rights": {
@@ -8561,13 +8572,18 @@
    "cells": {
     "costs": {
      "best": "measured",
-     "n": 2,
+     "n": 7,
      "causal": 0,
-     "measured": 1,
+     "measured": 6,
      "forecast": 1,
      "ids": [
       "ec-2025-mdr-ivdr-evaluation",
-      "ec-2025-mdr-ivdr-savings"
+      "ec-2025-mdr-ivdr-savings",
+      "goeg-2026-md-availability-eo-survey",
+      "mcdermott-2026-mdr-ivdr-impact-survey",
+      "kearney-2023-clinical-evaluation-survey",
+      "carl-2023-orthopaedic-aids-two-surveys",
+      "medtech-europe-2025-ivdr-mdr-survey"
      ]
     },
     "consumers": {
@@ -8579,14 +8595,49 @@
      "ids": []
     },
     "competition": {
-     "best": null,
-     "n": 0,
+     "best": "measured",
+     "n": 1,
      "causal": 0,
-     "measured": 0,
+     "measured": 1,
      "forecast": 0,
-     "ids": []
+     "ids": [
+      "hulstaert-2023-evidence-gaps"
+     ]
     },
     "innovation": {
+     "best": "measured",
+     "n": 4,
+     "causal": 0,
+     "measured": 4,
+     "forecast": 0,
+     "ids": [
+      "ec-2025-mdr-ivdr-evaluation",
+      "ey-sante-2025-regulatory-governance-innovation",
+      "medtech-europe-2025-ivdr-mdr-survey",
+      "bonan-2025-cardiovascular-availability"
+     ]
+    },
+    "growth": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "goeg-2026-md-availability-eo-survey"
+     ]
+    },
+    "market": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "shatrov-blankart-2022-mdr-goals-review"
+     ]
+    },
+    "rights": {
      "best": "measured",
      "n": 2,
      "causal": 0,
@@ -8594,42 +8645,22 @@
      "forecast": 0,
      "ids": [
       "ec-2025-mdr-ivdr-evaluation",
-      "medtecheurope-2024-survey"
-     ]
-    },
-    "growth": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "market": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "rights": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "ec-2025-mdr-ivdr-evaluation"
+      "shatrov-blankart-2022-mdr-goals-review"
      ]
     },
     "implementation": {
-     "best": null,
-     "n": 0,
+     "best": "measured",
+     "n": 5,
      "causal": 0,
-     "measured": 0,
+     "measured": 5,
      "forecast": 0,
-     "ids": []
+     "ids": [
+      "ey-sante-2025-regulatory-governance-innovation",
+      "siontis-2026-ai-ce-fda-timelag",
+      "carl-2023-orthopaedic-aids-two-surveys",
+      "dobrzynska-2025-nb-conditional-certification",
+      "gandjour-2026-mdr-mortality-model"
+     ]
     }
    }
   },
@@ -8641,13 +8672,15 @@
    "cells": {
     "costs": {
      "best": "measured",
-     "n": 2,
+     "n": 4,
      "causal": 0,
-     "measured": 1,
+     "measured": 3,
      "forecast": 1,
      "ids": [
       "ec-2025-mdr-ivdr-evaluation",
-      "ec-2025-mdr-ivdr-savings"
+      "ec-2025-mdr-ivdr-savings",
+      "hermans-2022-cdx-hospital-labs",
+      "mcdermott-2026-ivdr-impact-survey"
      ]
     },
     "consumers": {
@@ -8674,7 +8707,7 @@
      "forecast": 0,
      "ids": [
       "ec-2025-mdr-ivdr-evaluation",
-      "medtecheurope-2024-survey"
+      "hermans-2022-cdx-hospital-labs"
      ]
     },
     "growth": {
@@ -8720,13 +8753,14 @@
    "obligations": 115,
    "cells": {
     "costs": {
-     "best": "forecast",
-     "n": 1,
+     "best": "measured",
+     "n": 2,
      "causal": 0,
-     "measured": 0,
+     "measured": 1,
      "forecast": 1,
      "ids": [
-      "ec-2018-gsr-ia"
+      "ec-2018-gsr-ia",
+      "lai-2012-isa-benefits"
      ]
     },
     "consumers": {
@@ -8829,13 +8863,14 @@
     },
     "growth": {
      "best": "measured",
-     "n": 2,
+     "n": 3,
      "causal": 0,
-     "measured": 2,
+     "measured": 3,
      "forecast": 0,
      "ids": [
-      "ec-2026-dualuse-report",
-      "ec-2022-dualuse-report"
+      "ec-2022-dualuse-report",
+      "ec-2026-dual-use-annual-report",
+      "versino-2015-dual-use-trade-figures"
      ]
     },
     "market": {
@@ -8855,14 +8890,12 @@
      "ids": []
     },
     "implementation": {
-     "best": "measured",
-     "n": 1,
+     "best": null,
+     "n": 0,
      "causal": 0,
-     "measured": 1,
+     "measured": 0,
      "forecast": 0,
-     "ids": [
-      "ec-2026-dualuse-report"
-     ]
+     "ids": []
     }
    }
   },
@@ -8873,12 +8906,14 @@
    "obligations": 134,
    "cells": {
     "costs": {
-     "best": null,
-     "n": 0,
+     "best": "measured",
+     "n": 1,
      "causal": 0,
-     "measured": 0,
+     "measured": 1,
      "forecast": 0,
-     "ids": []
+     "ids": [
+      "ec-2021-lvd-evaluation"
+     ]
     },
     "consumers": {
      "best": null,
@@ -8913,14 +8948,12 @@
      "ids": []
     },
     "market": {
-     "best": "measured",
-     "n": 1,
+     "best": null,
+     "n": 0,
      "causal": 0,
-     "measured": 1,
+     "measured": 0,
      "forecast": 0,
-     "ids": [
-      "ec-2021-lvd-evaluation"
-     ]
+     "ids": []
     },
     "rights": {
      "best": "measured",
@@ -8933,12 +8966,14 @@
      ]
     },
     "implementation": {
-     "best": null,
-     "n": 0,
+     "best": "measured",
+     "n": 1,
      "causal": 0,
-     "measured": 0,
+     "measured": 1,
      "forecast": 0,
-     "ids": []
+     "ids": [
+      "ec-2021-lvd-evaluation"
+     ]
     }
    }
   },
@@ -8989,154 +9024,6 @@
      "ids": []
     },
     "market": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "ec-2023-rohs-evaluation"
-     ]
-    },
-    "rights": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "implementation": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    }
-   }
-  },
-  "WEEE Directive": {
-   "policy_area": "Trust & Safety",
-   "row_id": 140,
-   "year": 2012,
-   "obligations": 163,
-   "cells": {
-    "costs": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "innovation": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "growth": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "market": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "rights": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "implementation": {
-     "best": "measured",
-     "n": 1,
-     "causal": 0,
-     "measured": 1,
-     "forecast": 0,
-     "ids": [
-      "ec-2025-weee-evaluation"
-     ]
-    }
-   }
-  },
-  "Fourth Anti-Money Laundering Directive": {
-   "policy_area": "Finance",
-   "row_id": 141,
-   "year": 2015,
-   "obligations": 281,
-   "cells": {
-    "costs": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "consumers": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "competition": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "innovation": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "growth": {
-     "best": null,
-     "n": 0,
-     "causal": 0,
-     "measured": 0,
-     "forecast": 0,
-     "ids": []
-    },
-    "market": {
      "best": null,
      "n": 0,
      "causal": 0,
@@ -9159,8 +9046,176 @@
      "measured": 2,
      "forecast": 0,
      "ids": [
+      "ec-2023-rohs-review-report",
+      "kajiwara-2011-rohs-xrf-screening"
+     ]
+    }
+   }
+  },
+  "WEEE Directive": {
+   "policy_area": "Trust & Safety",
+   "row_id": 140,
+   "year": 2012,
+   "obligations": 163,
+   "cells": {
+    "costs": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "favot-2022-epr-competition-weee"
+     ]
+    },
+    "consumers": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "competition": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "corsini-2017-epr-organisation-collection"
+     ]
+    },
+    "innovation": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "growth": {
+     "best": "measured",
+     "n": 1,
+     "causal": 0,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "huisman-2015-cwit"
+     ]
+    },
+    "market": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": "measured",
+     "n": 4,
+     "causal": 0,
+     "measured": 4,
+     "forecast": 0,
+     "ids": [
+      "ec-2025-weee-evaluation",
+      "eca-2021-ewaste-review",
+      "huisman-2015-cwit",
+      "favot-grassetti-2017-italy-collection"
+     ]
+    }
+   }
+  },
+  "Fourth Anti-Money Laundering Directive": {
+   "policy_area": "Finance",
+   "row_id": 141,
+   "year": 2015,
+   "obligations": 281,
+   "cells": {
+    "costs": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "consumers": {
+     "best": "causal",
+     "n": 2,
+     "causal": 1,
+     "measured": 1,
+     "forecast": 0,
+     "ids": [
+      "collin-2023-londongrad",
+      "eba-2022-de-risking-opinion"
+     ]
+    },
+    "competition": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "innovation": {
+     "best": "causal",
+     "n": 1,
+     "causal": 1,
+     "measured": 0,
+     "forecast": 0,
+     "ids": [
+      "amberger-2025-ownership-transparency"
+     ]
+    },
+    "growth": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "market": {
+     "best": "causal",
+     "n": 1,
+     "causal": 1,
+     "measured": 0,
+     "forecast": 0,
+     "ids": [
+      "amberger-2025-ownership-transparency"
+     ]
+    },
+    "rights": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "implementation": {
+     "best": "causal",
+     "n": 5,
+     "causal": 2,
+     "measured": 3,
+     "forecast": 0,
+     "ids": [
       "ec-2019-aml-implementation",
-      "eca-2021-aml"
+      "amberger-2025-ownership-transparency",
+      "collin-2023-londongrad",
+      "eca-2021-aml-banking-audit",
+      "eba-2022-de-risking-opinion"
      ]
     }
    }
