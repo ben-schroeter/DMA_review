@@ -15,8 +15,8 @@ HEAD = {"costs": ("Compliance", "costs"), "consumers": ("Prices and", "consumers
         "innovation": ("Innovation and", "investment"), "growth": ("Growth", "and jobs"), "market": ("Single market,", "trade and FDI"),
         "rights": ("Rights, safety", "and security"), "implementation": ("Implemen-", "tation")}
 SHORT = {"E-commerce & Consumer Protection": "E-commerce & consumer", "Competition & Single Market": "Competition & single market",
-         "Data & Privacy": "Data & privacy", "Trust & Safety": "Trust & safety", "Industrial Policy": "Industrial policy",
-         "Law Enforcement": "Law enforcement", "Research & Innovation": "Research & innovation", "IPR": "Intellectual property"}
+         "Data & Privacy": "Data & privacy", "Product Safety & Compliance": "Product safety", "AI & Digital Trust": "AI & digital trust",
+         "Connectivity & Digital Infrastructure": "Connectivity", "Online Crime & Law Enforcement": "Online crime", "IPR": "Intellectual property"}
 HEAD_FULL = {"costs": ("Compliance", "costs"), "consumers": ("Prices,", "consumers"), "competition": ("Compe-", "tition"),
              "innovation": ("Innovation,", "investment"), "growth": ("Growth,", "jobs"), "market": ("Single mkt,", "trade, FDI"),
              "rights": ("Rights,", "safety"), "implementation": ("Implemen-", "tation")}

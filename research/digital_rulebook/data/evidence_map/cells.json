@@ -35,7 +35,7 @@
  ],
  "instruments": {
   "Frequency Bands Directive (GSM)": {
-   "policy_area": "Connectivity",
+   "policy_area": "Connectivity & Digital Infrastructure",
    "row_id": 1,
    "year": 1987,
    "obligations": 6,
@@ -779,7 +779,7 @@
    }
   },
   "Radio Spectrum Decision": {
-   "policy_area": "Connectivity",
+   "policy_area": "Connectivity & Digital Infrastructure",
    "row_id": 10,
    "year": 2002,
    "obligations": 25,
@@ -1277,7 +1277,7 @@
    }
   },
   "Toys Safety Directive": {
-   "policy_area": "Trust & Safety",
+   "policy_area": "Product Safety & Compliance",
    "row_id": 17,
    "year": 2009,
    "obligations": 328,
@@ -1697,7 +1697,7 @@
    }
   },
   "Law Enforcement Directive": {
-   "policy_area": "Law Enforcement",
+   "policy_area": "Online Crime & Law Enforcement",
    "row_id": 21,
    "year": 2016,
    "obligations": 223,
@@ -1777,7 +1777,7 @@
    }
   },
   "eIDAS Regulation": {
-   "policy_area": "Trust & Safety",
+   "policy_area": "AI & Digital Trust",
    "row_id": 22,
    "year": 2014,
    "obligations": 179,
@@ -1956,7 +1956,7 @@
    }
   },
   "Open Internet Access Regulation": {
-   "policy_area": "Connectivity",
+   "policy_area": "Connectivity & Digital Infrastructure",
    "row_id": 24,
    "year": 2015,
    "obligations": 36,
@@ -2618,7 +2618,7 @@
    }
   },
   "European Electronic Communications Code": {
-   "policy_area": "Connectivity",
+   "policy_area": "Connectivity & Digital Infrastructure",
    "row_id": 32,
    "year": 2018,
    "obligations": 829,
@@ -2953,7 +2953,7 @@
    }
   },
   "Single Digital Gateway Regulation": {
-   "policy_area": "Trust & Safety",
+   "policy_area": "AI & Digital Trust",
    "row_id": 36,
    "year": 2018,
    "obligations": 132,
@@ -3293,7 +3293,7 @@
    }
   },
   "Non-cash payment fraud Directive": {
-   "policy_area": "Law Enforcement",
+   "policy_area": "Online Crime & Law Enforcement",
    "row_id": 40,
    "year": 2019,
    "obligations": 52,
@@ -3377,7 +3377,7 @@
    }
   },
   "Market Surveillance Regulation": {
-   "policy_area": "Competition & Single Market",
+   "policy_area": "Product Safety & Compliance",
    "row_id": 41,
    "year": 2019,
    "obligations": 194,
@@ -3460,7 +3460,7 @@
    }
   },
   "E-evidence Regulation": {
-   "policy_area": "Law Enforcement",
+   "policy_area": "Online Crime & Law Enforcement",
    "row_id": 42,
    "year": 2023,
    "obligations": 245,
@@ -3718,7 +3718,7 @@
    }
   },
   "Terrorist Content Online Regulation": {
-   "policy_area": "Law Enforcement",
+   "policy_area": "Online Crime & Law Enforcement",
    "row_id": 51,
    "year": 2021,
    "obligations": 118,
@@ -3803,7 +3803,7 @@
    }
   },
   "Temporary CSAM Derogation Regulation": {
-   "policy_area": "Law Enforcement",
+   "policy_area": "Online Crime & Law Enforcement",
    "row_id": 53,
    "year": 2021,
    "obligations": 11,
@@ -3884,7 +3884,7 @@
    }
   },
   "DLT Pilot Regime Regulation": {
-   "policy_area": "Research & Innovation",
+   "policy_area": "Finance",
    "row_id": 55,
    "year": 2022,
    "obligations": 176,
@@ -4557,7 +4557,7 @@
    }
   },
   "Roaming Regulation": {
-   "policy_area": "Connectivity",
+   "policy_area": "Connectivity & Digital Infrastructure",
    "row_id": 63,
    "year": 2022,
    "obligations": 161,
@@ -4644,7 +4644,7 @@
    }
   },
   "Artificial Intelligence Act": {
-   "policy_area": "Trust & Safety",
+   "policy_area": "AI & Digital Trust",
    "row_id": 64,
    "year": 2024,
    "obligations": 764,
@@ -4739,7 +4739,7 @@
    }
   },
   "Machinery Regulation": {
-   "policy_area": "Trust & Safety",
+   "policy_area": "Product Safety & Compliance",
    "row_id": 65,
    "year": 2023,
    "obligations": 918,
@@ -4897,7 +4897,7 @@
    }
   },
   "General Product Safety Regulation": {
-   "policy_area": "Trust & Safety",
+   "policy_area": "Product Safety & Compliance",
    "row_id": 67,
    "year": 2023,
    "obligations": 243,
@@ -5162,7 +5162,7 @@
    }
   },
   "Digital Decade Policy Programme Decision": {
-   "policy_area": "Industrial Policy",
+   "policy_area": "Connectivity & Digital Infrastructure",
    "row_id": 70,
    "year": 2022,
    "obligations": 112,
@@ -5404,7 +5404,7 @@
    }
   },
   "European Chips Act": {
-   "policy_area": "Industrial Policy",
+   "policy_area": "Connectivity & Digital Infrastructure",
    "row_id": 74,
    "year": 2023,
    "obligations": 235,
@@ -5576,7 +5576,7 @@
    }
   },
   "Violence Against Women Directive": {
-   "policy_area": "Law Enforcement",
+   "policy_area": "Online Crime & Law Enforcement",
    "row_id": 77,
    "year": 2024,
    "obligations": 206,
@@ -5653,7 +5653,7 @@
    }
   },
   "Ecodesign for Sustainable Products Regulation": {
-   "policy_area": "Trust & Safety",
+   "policy_area": "Product Safety & Compliance",
    "row_id": 80,
    "year": 2024,
    "obligations": 464,
@@ -5989,7 +5989,7 @@
    }
   },
   "Product Liability Directive": {
-   "policy_area": "Trust & Safety",
+   "policy_area": "Product Safety & Compliance",
    "row_id": 86,
    "year": 2024,
    "obligations": 46,
@@ -6321,7 +6321,7 @@
    }
   },
   "Gigabit Infrastructure Act": {
-   "policy_area": "Connectivity",
+   "policy_area": "Connectivity & Digital Infrastructure",
    "row_id": 91,
    "year": 2024,
    "obligations": 114,
@@ -6560,7 +6560,7 @@
    }
   },
   "Toys Safety Regulation": {
-   "policy_area": "Trust & Safety",
+   "policy_area": "Product Safety & Compliance",
    "row_id": 103,
    "year": 2025,
    "obligations": 476,
@@ -6639,7 +6639,7 @@
    }
   },
   "European Standardisation Regulation": {
-   "policy_area": "Trust & Safety",
+   "policy_area": "Product Safety & Compliance",
    "row_id": 108,
    "year": 2012,
    "obligations": 73,
@@ -6717,7 +6717,7 @@
    }
   },
   "Electromagnetic Compatibility Directive": {
-   "policy_area": "Connectivity",
+   "policy_area": "Product Safety & Compliance",
    "row_id": 109,
    "year": 2014,
    "obligations": 241,
@@ -6791,7 +6791,7 @@
    }
   },
   "Radio Equipment Directive": {
-   "policy_area": "Trust & Safety",
+   "policy_area": "Product Safety & Compliance",
    "row_id": 110,
    "year": 2014,
    "obligations": 334,
@@ -7032,7 +7032,7 @@
    }
   },
   ".eu Top-Level Domain Regulation": {
-   "policy_area": "Connectivity",
+   "policy_area": "Connectivity & Digital Infrastructure",
    "row_id": 113,
    "year": 2019,
    "obligations": 53,
@@ -7185,7 +7185,7 @@
    }
   },
   "Radio Spectrum Policy Programme": {
-   "policy_area": "Connectivity",
+   "policy_area": "Connectivity & Digital Infrastructure",
    "row_id": 116,
    "year": 2012,
    "obligations": 68,
@@ -7259,7 +7259,7 @@
    }
   },
   "700 MHz Decision": {
-   "policy_area": "Connectivity",
+   "policy_area": "Connectivity & Digital Infrastructure",
    "row_id": 117,
    "year": 2017,
    "obligations": 19,
@@ -8247,7 +8247,7 @@
    }
   },
   "Cybercrime Directive": {
-   "policy_area": "Law Enforcement",
+   "policy_area": "Online Crime & Law Enforcement",
    "row_id": 130,
    "year": 2013,
    "obligations": 37,
@@ -8323,7 +8323,7 @@
    }
   },
   "Child Sexual Abuse Directive": {
-   "policy_area": "Law Enforcement",
+   "policy_area": "Online Crime & Law Enforcement",
    "row_id": 131,
    "year": 2011,
    "obligations": 90,
@@ -8565,7 +8565,7 @@
    }
   },
   "Medical Devices Regulation": {
-   "policy_area": "Trust & Safety",
+   "policy_area": "Product Safety & Compliance",
    "row_id": 134,
    "year": 2017,
    "obligations": 1571,
@@ -8665,7 +8665,7 @@
    }
   },
   "In Vitro Diagnostic Medical Devices Regulation": {
-   "policy_area": "Trust & Safety",
+   "policy_area": "Product Safety & Compliance",
    "row_id": 135,
    "year": 2017,
    "obligations": 1427,
@@ -8747,7 +8747,7 @@
    }
   },
   "Vehicle General Safety Regulation": {
-   "policy_area": "Trust & Safety",
+   "policy_area": "Product Safety & Compliance",
    "row_id": 136,
    "year": 2019,
    "obligations": 115,
@@ -8824,7 +8824,7 @@
    }
   },
   "Dual-Use Regulation": {
-   "policy_area": "Industrial Policy",
+   "policy_area": "Product Safety & Compliance",
    "row_id": 137,
    "year": 2021,
    "obligations": 254,
@@ -8900,7 +8900,7 @@
    }
   },
   "Low Voltage Directive": {
-   "policy_area": "Trust & Safety",
+   "policy_area": "Product Safety & Compliance",
    "row_id": 138,
    "year": 2014,
    "obligations": 134,
@@ -8978,7 +8978,7 @@
    }
   },
   "RoHS Directive": {
-   "policy_area": "Trust & Safety",
+   "policy_area": "Product Safety & Compliance",
    "row_id": 139,
    "year": 2011,
    "obligations": 78,
@@ -9053,7 +9053,7 @@
    }
   },
   "WEEE Directive": {
-   "policy_area": "Trust & Safety",
+   "policy_area": "Product Safety & Compliance",
    "row_id": 140,
    "year": 2012,
    "obligations": 163,

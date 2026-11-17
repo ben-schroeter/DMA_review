@@ -22,8 +22,8 @@ ERAS = [(1987, 2000.2, "Market opening", "market-opening"), (2000.2, 2010.2, "Li
         (2015.35, 2019.92, "Digital Single Market", "digital-single-market"), (2019.92, 2025.0, "Digital Decade", "digital-decade"), (2025.0, 2028.6, "Competitiveness", "competitiveness")]
 ERA_FILL = ["#F3F1EC", "#FAF9F5"]
 TOP = 4
-AREAS = ["Connectivity", "Data & Privacy", "Trust & Safety", "E-commerce & Consumer Protection", "Competition & Single Market", "Cybersecurity",
-         "Finance", "IPR", "Media", "Law Enforcement", "Industrial Policy", "Research & Innovation"]
+AREAS = ["Connectivity & Digital Infrastructure", "Data & Privacy", "AI & Digital Trust", "Cybersecurity", "E-commerce & Consumer Protection",
+         "Competition & Single Market", "Product Safety & Compliance", "Finance", "IPR", "Media", "Online Crime & Law Enforcement"]
 LANE = 38
 lane_top = TOP + 214
 lanes_bottom = lane_top + len(AREAS) * LANE
@@ -82,7 +82,7 @@ rad = lambda n: 2.5 + math.sqrt(max(n or 0, 1)) / 3.2
 for i, a in enumerate(AREAS):
     yy = lane_top + i * LANE + LANE / 2
     g.append(f'<line x1="{L}" x2="{R}" y1="{yy + LANE / 2:.1f}" y2="{yy + LANE / 2:.1f}" stroke="{LINE}"></line>')
-    g.append(t(L - 12, yy + 4, a.replace("E-commerce & Consumer Protection", "E-commerce, consumers").replace("Competition & Single Market", "Competition, single mkt").replace("Research & Innovation", "Research, innovation"), 12.5, INK, "end"))
+    g.append(t(L - 12, yy + 4, a.replace("E-commerce & Consumer Protection", "E-commerce, consumers").replace("Competition & Single Market", "Competition, single mkt").replace("Connectivity & Digital Infrastructure", "Connectivity, infra.").replace("Product Safety & Compliance", "Product safety").replace("Online Crime & Law Enforcement", "Online crime"), 12.5, INK, "end"))
     acts = sorted([x for x in I if x["policy_area"] == a], key=lambda x: fy(x["proposal_date"]))
     for k, x in enumerate(acts):
         p, d = fy(x["proposal_date"]), fy(x["adoption_date"])

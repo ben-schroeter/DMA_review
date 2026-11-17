@@ -112,7 +112,7 @@ put("us_precision", round(100 * json.load(open("data/us_map/validation_us.json")
 put("sox_precision", round(100 * json.load(open("data/benchmark_sox.json"))["validation"]["precision"]), f"{100 * json.load(open('data/benchmark_sox.json'))['validation']['precision']:.0f}%")
 put("model_clauses_k", sum(1 for _ in open("data/addressee/model_decisions.jsonl")), f"{(sum(1 for _ in open('data/addressee/model_decisions.jsonl')) // 100) * 100:,}")
 AR = json.load(open("data/company_types/areas_now.json"))
-put("area_finance_k", AR["Finance"], k100(AR["Finance"])); put("area_trust_k", AR["Trust & Safety"], k100(AR["Trust & Safety"]))
+put("area_finance_k", AR["Finance"], k100(AR["Finance"])); put("area_trust_k", AR["Product Safety & Compliance"], k100(AR["Product Safety & Compliance"]))
 byname = {x["name"]: x for x in A}
 for key, nm in (("ai", "Artificial Intelligence Act"), ("mica", "Markets in Crypto-Assets (MiCA)"), ("ehds", "European Health Data Space")):
     put(f"ex_{key}_proposal", byname[nm]["proposal_restrictions_total"]); put(f"ex_{key}_adopted", byname[nm]["restrictions_total"])

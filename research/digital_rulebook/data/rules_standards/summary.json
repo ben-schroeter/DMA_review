@@ -37,14 +37,14 @@
   "standard_like": 0.147
  },
  "by_area": {
-  "Connectivity": {
-   "n": 1490,
-   "R": 0.632,
-   "S": 0.276,
-   "M": 0.068,
+  "Connectivity & Digital Infrastructure": {
+   "n": 1520,
+   "R": 0.628,
+   "S": 0.286,
+   "M": 0.064,
    "L": 0.004,
-   "D": 0.021,
-   "standard_like": 0.348
+   "D": 0.018,
+   "standard_like": 0.353
   },
   "E-commerce & Consumer Protection": {
    "n": 1536,
@@ -83,33 +83,33 @@
    "standard_like": 0.258
   },
   "Competition & Single Market": {
-   "n": 1505,
-   "R": 0.755,
-   "S": 0.182,
+   "n": 1342,
+   "R": 0.761,
+   "S": 0.175,
    "M": 0.035,
    "L": 0.0,
-   "D": 0.027,
-   "standard_like": 0.217
+   "D": 0.029,
+   "standard_like": 0.21
   },
   "Finance": {
-   "n": 3517,
-   "R": 0.744,
-   "S": 0.196,
-   "M": 0.031,
+   "n": 3687,
+   "R": 0.745,
+   "S": 0.194,
+   "M": 0.033,
    "L": 0.002,
-   "D": 0.027,
+   "D": 0.026,
    "standard_like": 0.229
   },
-  "Trust & Safety": {
-   "n": 6838,
-   "R": 0.715,
-   "S": 0.232,
-   "M": 0.036,
-   "L": 0.006,
-   "D": 0.011,
-   "standard_like": 0.274
+  "Product Safety & Compliance": {
+   "n": 6548,
+   "R": 0.718,
+   "S": 0.225,
+   "M": 0.037,
+   "L": 0.007,
+   "D": 0.014,
+   "standard_like": 0.268
   },
-  "Law Enforcement": {
+  "Online Crime & Law Enforcement": {
    "n": 895,
    "R": 0.722,
    "S": 0.216,
@@ -117,6 +117,15 @@
    "L": 0.0,
    "D": 0.04,
    "standard_like": 0.238
+  },
+  "AI & Digital Trust": {
+   "n": 915,
+   "R": 0.723,
+   "S": 0.24,
+   "M": 0.026,
+   "L": 0.001,
+   "D": 0.009,
+   "standard_like": 0.268
   },
   "Cybersecurity": {
    "n": 978,
@@ -126,24 +135,6 @@
    "L": 0.002,
    "D": 0.008,
    "standard_like": 0.292
-  },
-  "Research & Innovation": {
-   "n": 170,
-   "R": 0.759,
-   "S": 0.153,
-   "M": 0.088,
-   "L": 0.0,
-   "D": 0.0,
-   "standard_like": 0.241
-  },
-  "Industrial Policy": {
-   "n": 492,
-   "R": 0.756,
-   "S": 0.183,
-   "M": 0.024,
-   "L": 0.002,
-   "D": 0.035,
-   "standard_like": 0.209
   }
  },
  "by_period": {
@@ -213,7 +204,7 @@
   {
    "row_id": 116,
    "name": "Radio Spectrum Policy Programme",
-   "area": "Connectivity",
+   "area": "Connectivity & Digital Infrastructure",
    "year": 2012,
    "main": {
     "n": 64,
@@ -238,7 +229,7 @@
   {
    "row_id": 10,
    "name": "Radio Spectrum Decision",
-   "area": "Connectivity",
+   "area": "Connectivity & Digital Infrastructure",
    "year": 2002,
    "main": {
     "n": 22,
@@ -280,7 +271,7 @@
   {
    "row_id": 117,
    "name": "700 MHz Decision",
-   "area": "Connectivity",
+   "area": "Connectivity & Digital Infrastructure",
    "year": 2017,
    "main": {
     "n": 19,
@@ -297,7 +288,7 @@
   {
    "row_id": 77,
    "name": "Violence Against Women Directive",
-   "area": "Law Enforcement",
+   "area": "Online Crime & Law Enforcement",
    "year": 2024,
    "main": {
     "n": 201,
@@ -373,7 +364,7 @@
   {
    "row_id": 65,
    "name": "Machinery Regulation",
-   "area": "Trust & Safety",
+   "area": "Product Safety & Compliance",
    "year": 2023,
    "main": {
     "n": 888,
@@ -448,7 +439,7 @@
   {
    "row_id": 32,
    "name": "European Electronic Communications Code",
-   "area": "Connectivity",
+   "area": "Connectivity & Digital Infrastructure",
    "year": 2018,
    "main": {
     "n": 779,
@@ -565,7 +556,7 @@
   {
    "row_id": 24,
    "name": "Open Internet Access Regulation",
-   "area": "Connectivity",
+   "area": "Connectivity & Digital Infrastructure",
    "year": 2015,
    "main": {
     "n": 66,
@@ -632,7 +623,7 @@
   {
    "row_id": 80,
    "name": "Ecodesign for Sustainable Products Regulation",
-   "area": "Trust & Safety",
+   "area": "Product Safety & Compliance",
    "year": 2024,
    "main": {
     "n": 435,
@@ -657,7 +648,7 @@
   {
    "row_id": 138,
    "name": "Low Voltage Directive",
-   "area": "Trust & Safety",
+   "area": "Product Safety & Compliance",
    "year": 2014,
    "main": {
     "n": 130,
@@ -708,7 +699,7 @@
   {
    "row_id": 74,
    "name": "European Chips Act",
-   "area": "Industrial Policy",
+   "area": "Connectivity & Digital Infrastructure",
    "year": 2023,
    "main": {
     "n": 167,
@@ -725,7 +716,7 @@
   {
    "row_id": 64,
    "name": "Artificial Intelligence Act",
-   "area": "Trust & Safety",
+   "area": "AI & Digital Trust",
    "year": 2024,
    "main": {
     "n": 677,
@@ -767,7 +758,7 @@
   {
    "row_id": 70,
    "name": "Digital Decade Policy Programme Decision",
-   "area": "Industrial Policy",
+   "area": "Connectivity & Digital Infrastructure",
    "year": 2022,
    "main": {
     "n": 93,
@@ -826,7 +817,7 @@
   {
    "row_id": 17,
    "name": "Toys Safety Directive",
-   "area": "Trust & Safety",
+   "area": "Product Safety & Compliance",
    "year": 2009,
    "main": {
     "n": 308,
@@ -851,7 +842,7 @@
   {
    "row_id": 91,
    "name": "Gigabit Infrastructure Act",
-   "area": "Connectivity",
+   "area": "Connectivity & Digital Infrastructure",
    "year": 2024,
    "main": {
     "n": 101,
@@ -902,7 +893,7 @@
   {
    "row_id": 103,
    "name": "Toys Safety Regulation",
-   "area": "Trust & Safety",
+   "area": "Product Safety & Compliance",
    "year": 2025,
    "main": {
     "n": 435,
@@ -961,7 +952,7 @@
   {
    "row_id": 41,
    "name": "Market Surveillance Regulation",
-   "area": "Competition & Single Market",
+   "area": "Product Safety & Compliance",
    "year": 2019,
    "main": {
     "n": 163,
@@ -1011,7 +1002,7 @@
   {
    "row_id": 109,
    "name": "Electromagnetic Compatibility Directive",
-   "area": "Connectivity",
+   "area": "Product Safety & Compliance",
    "year": 2014,
    "main": {
     "n": 230,
@@ -1095,7 +1086,7 @@
   {
    "row_id": 67,
    "name": "General Product Safety Regulation",
-   "area": "Trust & Safety",
+   "area": "Product Safety & Compliance",
    "year": 2023,
    "main": {
     "n": 217,
@@ -1154,7 +1145,7 @@
   {
    "row_id": 21,
    "name": "Law Enforcement Directive",
-   "area": "Law Enforcement",
+   "area": "Online Crime & Law Enforcement",
    "year": 2016,
    "main": {
     "n": 187,
@@ -1179,7 +1170,7 @@
   {
    "row_id": 134,
    "name": "Medical Devices Regulation",
-   "area": "Trust & Safety",
+   "area": "Product Safety & Compliance",
    "year": 2017,
    "main": {
     "n": 1458,
@@ -1254,7 +1245,7 @@
   {
    "row_id": 51,
    "name": "Terrorist Content Online Regulation",
-   "area": "Law Enforcement",
+   "area": "Online Crime & Law Enforcement",
    "year": 2021,
    "main": {
     "n": 105,
@@ -1296,7 +1287,7 @@
   {
    "row_id": 55,
    "name": "DLT Pilot Regime Regulation",
-   "area": "Research & Innovation",
+   "area": "Finance",
    "year": 2022,
    "main": {
     "n": 170,
@@ -1313,7 +1304,7 @@
   {
    "row_id": 135,
    "name": "In Vitro Diagnostic Medical Devices Regulation",
-   "area": "Trust & Safety",
+   "area": "Product Safety & Compliance",
    "year": 2017,
    "main": {
     "n": 1319,
@@ -1338,7 +1329,7 @@
   {
    "row_id": 63,
    "name": "Roaming Regulation",
-   "area": "Connectivity",
+   "area": "Connectivity & Digital Infrastructure",
    "year": 2022,
    "main": {
     "n": 158,
@@ -1372,7 +1363,7 @@
   {
    "row_id": 136,
    "name": "Vehicle General Safety Regulation",
-   "area": "Trust & Safety",
+   "area": "Product Safety & Compliance",
    "year": 2019,
    "main": {
     "n": 100,
@@ -1447,7 +1438,7 @@
   {
    "row_id": 110,
    "name": "Radio Equipment Directive",
-   "area": "Trust & Safety",
+   "area": "Product Safety & Compliance",
    "year": 2014,
    "main": {
     "n": 315,
@@ -1556,7 +1547,7 @@
   {
    "row_id": 108,
    "name": "European Standardisation Regulation",
-   "area": "Trust & Safety",
+   "area": "Product Safety & Compliance",
    "year": 2012,
    "main": {
     "n": 68,
@@ -1623,7 +1614,7 @@
   {
    "row_id": 53,
    "name": "Temporary CSAM Derogation Regulation",
-   "area": "Law Enforcement",
+   "area": "Online Crime & Law Enforcement",
    "year": 2021,
    "main": {
     "n": 10,
@@ -1648,7 +1639,7 @@
   {
    "row_id": 113,
    "name": ".eu Top-Level Domain Regulation",
-   "area": "Connectivity",
+   "area": "Connectivity & Digital Infrastructure",
    "year": 2019,
    "main": {
     "n": 45,
@@ -1673,7 +1664,7 @@
   {
    "row_id": 131,
    "name": "Child Sexual Abuse Directive",
-   "area": "Law Enforcement",
+   "area": "Online Crime & Law Enforcement",
    "year": 2011,
    "main": {
     "n": 89,
@@ -1741,7 +1732,7 @@
   {
    "row_id": 36,
    "name": "Single Digital Gateway Regulation",
-   "area": "Trust & Safety",
+   "area": "AI & Digital Trust",
    "year": 2018,
    "main": {
     "n": 105,
@@ -1766,7 +1757,7 @@
   {
    "row_id": 1,
    "name": "Frequency Bands Directive (GSM)",
-   "area": "Connectivity",
+   "area": "Connectivity & Digital Infrastructure",
    "year": 1987,
    "main": {
     "n": 6,
@@ -1867,7 +1858,7 @@
   {
    "row_id": 140,
    "name": "WEEE Directive",
-   "area": "Trust & Safety",
+   "area": "Product Safety & Compliance",
    "year": 2012,
    "main": {
     "n": 149,
@@ -1892,7 +1883,7 @@
   {
    "row_id": 86,
    "name": "Product Liability Directive",
-   "area": "Trust & Safety",
+   "area": "Product Safety & Compliance",
    "year": 2024,
    "main": {
     "n": 35,
@@ -1951,7 +1942,7 @@
   {
    "row_id": 42,
    "name": "E-evidence Regulation",
-   "area": "Law Enforcement",
+   "area": "Online Crime & Law Enforcement",
    "year": 2023,
    "main": {
     "n": 39,
@@ -2052,7 +2043,7 @@
   {
    "row_id": 139,
    "name": "RoHS Directive",
-   "area": "Trust & Safety",
+   "area": "Product Safety & Compliance",
    "year": 2011,
    "main": {
     "n": 66,
@@ -2094,7 +2085,7 @@
   {
    "row_id": 22,
    "name": "eIDAS Regulation",
-   "area": "Trust & Safety",
+   "area": "AI & Digital Trust",
    "year": 2014,
    "main": {
     "n": 133,
@@ -2119,7 +2110,7 @@
   {
    "row_id": 130,
    "name": "Cybercrime Directive",
-   "area": "Law Enforcement",
+   "area": "Online Crime & Law Enforcement",
    "year": 2013,
    "main": {
     "n": 36,
@@ -2136,7 +2127,7 @@
   {
    "row_id": 42,
    "name": "E-evidence Regulation",
-   "area": "Law Enforcement",
+   "area": "Online Crime & Law Enforcement",
    "year": 2023,
    "main": {
     "n": 177,
@@ -2195,7 +2186,7 @@
   {
    "row_id": 40,
    "name": "Non-cash payment fraud Directive",
-   "area": "Law Enforcement",
+   "area": "Online Crime & Law Enforcement",
    "year": 2019,
    "main": {
     "n": 51,
@@ -2254,7 +2245,7 @@
   {
    "row_id": 137,
    "name": "Dual-Use Regulation",
-   "area": "Industrial Policy",
+   "area": "Product Safety & Compliance",
    "year": 2021,
    "main": {
     "n": 232,

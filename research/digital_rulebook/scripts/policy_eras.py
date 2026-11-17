@@ -14,7 +14,7 @@ PAT = {"lisbon": r"Lisbon ([Ss]trategy|[Aa]genda|European Council|objectives|[Pp
        "competitiveness": r"Competitiveness Compass|One Europe, One Market|Draghi"}
 fy = lambda d: (lambda s: int(s[:4]) + (int(s[5:7]) - 1) / 12)(str(d))
 wb = openpyxl.load_workbook("digital_rulebook.xlsx", read_only=True, data_only=True); r = list(wb["instruments"].values); h = r[0]
-I = [dict(zip(h, x)) for x in r[1:] if x[0]]
+I = [dict(zip(h, x)) for x in r[1:] if x[0] and str(x[h.index("proposal_date")] or "")[:4].isdigit()]   # initiative rows (Forthcoming) carry month-name dates
 links = json.load(open("data/proposals.json"))["links"]
 out = []
 for x in I:

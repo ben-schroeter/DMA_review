@@ -77,7 +77,7 @@ g.append(t(cx + 190, cy + 76, f"across all areas: {sum(then.values()):,} at the"
 g.append(t(cx + 190, cy + 102, f"start of 2018, {sum(now.values()):,} now", 20, INK2))
 # footer
 g.append(f'<line x1="56" x2="{W - 56}" y1="1066" y2="1066" stroke="{LINE}"></line>')
-for i, line in enumerate(("Policy areas adapted from Zenner &amp; Marcus (2025). Automated count of obligations naming a company as the one who must act, in the",
+for i, line in enumerate(("Policy areas regrouped from Zenner &amp; Marcus (2025). Automated count of obligations naming a company as the one who must act, in the",
                           f"{N_LAWS} adopted EU digital acts and their {N_SEC} implementing and delegated acts; “new”: no such obligations before 2018. Counts measure",
                           "the number of rules, not their cost. Acts repealed before 2018 are not in the inventory, so earlier totals are a lower bound.")):
     g.append(t(56, 1100 + 24 * i, line, 16, MUTED))
@@ -117,6 +117,8 @@ for i, a in enumerate(areas):
 page_svg = (f'<svg viewBox="0 0 {PW} {PBOT + 30}" width="100%" role="img" aria-label="{aria.replace("&", "&amp;")}">' + "".join(p) + "</svg>")
 open("site/areas_growth_page.svg", "w").write(page_svg)
 
+PSHORT = {"E-commerce & Consumer Protection": "E-commerce & Consumer", "Connectivity & Digital Infrastructure": "Connectivity & Infrastructure",
+          "Online Crime & Law Enforcement": "Online Crime & Law Enforcement"}
 # Small multiples over time for the Rules page: cumulative obligations on companies by policy area, laws vs implementing/delegated acts
 TY0, TY1 = 2000, 2026
 LAWC, SECC = GOLD, "#E3CF9C"
@@ -128,19 +130,22 @@ for a in areas:
     ser_l[a], ser_s[a] = {}, {}
     for y in range(TY0, TY1 + 1):
         rl += bl[y]; rs += bs[y]; ser_l[a][y], ser_s[a][y] = rl, rs
-NC, TW, LM, PW, GX, PH, GY, TT = 4, 1000, 44, 206, 34, 110, 74, 12
-TYM, TST = nice(max(now.values()), 4)
+NC, TW, LM, PW, GX, PH, GY, TT = 4, 1000, 40, 202, 44, 110, 78, 12
+# each panel has its own scale (the areas differ by two orders of magnitude); panels ordered by growth since 2018, new areas first
+grow = lambda a: float("inf") if then[a] == 0 else now[a] / then[a]
+porder = sorted(areas, key=lambda a: (-grow(a), -now[a]))
 q = [f'<rect x="{LM}" y="4" width="12" height="12" rx="2" fill="{LAWC}"></rect>' + t(LM + 18, 15, "In the laws", 13),
      f'<rect x="{LM + 120}" y="4" width="12" height="12" rx="2" fill="{SECC}"></rect>' + t(LM + 138, 15, "In implementing and delegated acts", 13),
-     f'<line x1="{LM + 390}" x2="{LM + 390}" y1="2" y2="18" stroke="{STONE}" stroke-dasharray="3 3"></line>' + t(LM + 398, 15, "start of 2018", 13, MUTED)]
-for i, a in enumerate(areas):
+     f'<line x1="{LM + 390}" x2="{LM + 390}" y1="2" y2="18" stroke="{STONE}" stroke-dasharray="3 3"></line>' + t(LM + 398, 15, "start of 2018", 13, MUTED),
+     t(TW - 4, 15, "Each panel has its own scale", 13, MUTED, "end")]
+for i, a in enumerate(porder):
     x0 = LM + (i % NC) * (PW + GX); y0 = TT + 58 + (i // NC) * (PH + GY)
+    TYM, TST = nice(max(ser_l[a][TY1] + ser_s[a][TY1], 1), 4)
     SX = lambda y, x0=x0: x0 + (y - TY0) / (TY1 - TY0) * PW
-    SY = lambda v, y0=y0: y0 + PH - v / TYM * PH
+    SY = lambda v, y0=y0, TYM=TYM: y0 + PH - v / TYM * PH
     for v in range(TST, TYM + 1, TST):
         q.append(f'<line x1="{x0}" x2="{x0 + PW}" y1="{SY(v):.1f}" y2="{SY(v):.1f}" stroke="{LINE}"></line>')
-        if i % NC == 0:
-            q.append(t(x0 - 6, SY(v) + 4, f"{v / 1000:g}k", 11.5, MUTED, "end"))
+        q.append(t(x0 - 5, SY(v) + 4, f"{v / 1000:g}k" if TYM >= 2000 else f"{v:,}", 10.5, MUTED, "end"))
     def steps(vals):
         out, prev = [], None
         for y in range(TY0, TY1 + 1):
@@ -159,19 +164,34 @@ for i, a in enumerate(areas):
         q.append(t(SX(y), y0 + PH + 15, y, 11, MUTED, "middle"))
     gr = "new since 2018" if then[a] == 0 else f"×{now[a] / then[a]:.1f} since 2018"
     q.append(f'<rect x="{x0}" y="{y0}" width="{PW}" height="{PH}" fill="transparent"><title>{a.replace("&", "&amp;")}: {then[a]:,} at the start of 2018, {now[a]:,} in October 2026 ({now_laws[a]:,} in the laws)</title></rect>')
-    q.append(t(x0, y0 - 22, a.replace(" Protection", "").replace("&", "&amp;"), 14, INK, "start", 600))
-    q.append(t(x0, y0 - 6, f'{now[a]:,} <tspan fill="{GOLD_D}" font-weight="600">{gr}</tspan>', 12.5, MUTED))
-TH = TT + 58 + 3 * (PH + GY) - GY + 26
-time_svg = (f'<svg viewBox="0 0 {TW} {TH}" width="100%" role="img" aria-label="Obligations on companies by policy area, cumulative 2000 to 2026, twelve panels on shared axes, '
+    q.append(t(x0, y0 - 24, PSHORT.get(a, a).replace("&", "&amp;"), 14, INK, "start", 600))
+    q.append(t(x0, y0 - 8, f'{now[a]:,} <tspan fill="{GOLD_D}" font-weight="600">{gr}</tspan>', 12.5, MUTED))
+TH = TT + 58 + ((len(porder) - 1) // NC + 1) * (PH + GY) - GY + 26
+time_svg = (f'<svg viewBox="0 0 {TW} {TH}" width="100%" role="img" aria-label="Obligations on companies by policy area, cumulative 2000 to 2026, one panel per policy area, each on its own scale, ordered by growth since 2018, '
             f'split into the laws and their implementing and delegated acts: ' + "; ".join(f"{a.replace('&', 'and')} {then[a]:,} at the start of 2018, {now[a]:,} in 2026" for a in areas) + '">' + "".join(q) + "</svg>")
 open("site/areas_growth_time.svg", "w").write(time_svg)
 from counts import record
 _r = {a: now[a] / then[a] for a in areas if then[a]}
 _lo, _hi = min(_r, key=_r.get), max(_r, key=_r.get)
-_nm = lambda a: a.replace("&", "&amp;").lower().replace("ipr", "IP").replace("trust &amp; safety", "Trust &amp; Safety").replace("e-commerce &amp; consumer protection", "e-commerce and consumer protection")
+_NMS = {"IPR": "IP", "AI & Digital Trust": "AI and digital trust", "E-commerce & Consumer Protection": "e-commerce and consumer protection"}
+_nm = lambda a: _NMS.get(a, a.lower().replace(" & ", " and "))
 record("growth_min_area", _lo, _nm(_lo)); record("growth_min_x", round(_r[_lo], 1), f"{_r[_lo]:.1f}")
 record("growth_max_area", _hi, _nm(_hi)); record("growth_max_x", round(_r[_hi]), f"{_r[_hi]:.0f}")
 _z = [a for a in areas if not then[a] and now[a]]
 _zt = [_nm(a) for a in _z]; _zt[0] = _zt[0][:1].upper() + _zt[0][1:] if _zt else ""
 record("growth_new_areas", len(_z), (", ".join(_zt[:-1]) + " and " + _zt[-1]) if len(_zt) > 1 else "".join(_zt))
 print("growth", _lo, round(_r[_lo], 1), _hi, round(_r[_hi], 1), "new", _z)
+# the three laws that carry most of the largest area, for the Rules page text
+_top = areas[0]
+_by_law = collections.Counter()
+for r in inst:
+    if r["policy_area"] == _top: _by_law[r["name"]] += r["addr_private_parties"] or 0
+for r in sec:
+    nm = next((x["name"] for x in inst if x["row_id"] == r["parent_row_id"]), None)
+    if nm and area_of.get(r["parent_row_id"]) == _top: _by_law[nm] += r["addr_private_parties"] or 0
+_t3 = _by_law.most_common(3)
+_SH = {"In Vitro Diagnostic Medical Devices Regulation": "the in vitro diagnostics regulation", "Medical Devices Regulation": "the Medical Devices Regulation",
+       "Vehicle General Safety Regulation": "the Vehicle General Safety Regulation"}
+_nms = [_SH.get(n, "the " + n) for n, _ in _t3]
+record("top_area_lead_share", round(100 * sum(v for _, v in _t3) / now[_top]), f"{100 * sum(v for _, v in _t3) / now[_top]:.0f}%")
+record("top_area_lead_laws", [n for n, _ in _t3], ", ".join(_nms[:-1]) + " and " + _nms[-1])

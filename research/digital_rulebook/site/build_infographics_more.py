@@ -103,7 +103,7 @@ for r in inst:
     pa[r["policy_area"]][yr(r) >= 2020] += 1
 pa_rows = sorted(pa.items(), key=lambda kv: (-sum(kv[1]), kv[0]))
 n_new = sum(v[1] for _, v in pa_rows)
-ind = pa["Industrial Policy"]
+top_a = max(pa, key=lambda a: pa[a][1]); ind = pa[top_a]
 L, TOP, BOT = 390, 392, 1036
 rh = (BOT - TOP) / len(pa_rows)
 pmax = max(sum(v) for _, v in pa_rows)
@@ -123,10 +123,10 @@ for i, (a, (old, new)) in enumerate(pa_rows):
         if PX(old) > 34:
             b.append(t(L + PX(new) + PX(old) / 2, y + rh / 2 + 7, str(old), 18, INK2, "middle", 600))
     b.append(t(L + PX(old + new) + 12, y + rh / 2 + 8, str(old + new), 22, INK, weight=700))
-b += callout(W - 56 - 560, 256, 560, f"{n_new}/{len(inst)}", ["acts adopted since 2020, incl.", f"all {ind[1]} industrial-policy acts"], h=110)
+b += callout(W - 56 - 560, 256, 560, f"{n_new}/{len(inst)}", ["acts adopted since 2020, most in", f"{top_a.lower().replace('&', '&amp;')} ({ind[1]})"], h=110)
 frame(["More than half of EU digital laws", "were adopted since 2020"],
       ["Adopted EU digital acts by policy area, before 2020 and since"],
-      [f"Policy areas adapted from Zenner &amp; Marcus (2025). The {N_LAWS} adopted EU digital acts in our database, by year of adoption;",
+      [f"Policy areas regrouped from Zenner &amp; Marcus (2025). The {N_LAWS} adopted EU digital acts in our database, by year of adoption;",
        "numbers in the bars: acts since 2020 (gold) and before 2020 (light gold). As of November 2026."],
       b, f"More than half of EU digital laws were adopted since 2020: {n_new} of {len(inst)}. By policy area: "
          + "; ".join(f"{a} {o + n} ({n} since 2020)" for a, (o, n) in pa_rows), "policy_areas")

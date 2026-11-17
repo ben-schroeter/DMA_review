@@ -1,0 +1,18 @@
+{
+ "_note": "Policy areas: our grouping, starting from Zenner & Marcus (2025) Table 1 (data/policy_area.json). Agreed 17 November 2026. 'rename' renames a Zenner & Marcus area; 'move' assigns a law (by name) to another area. Applied in scripts/build_workbook.py.",
+ "rename": {
+  "Connectivity": "Connectivity & Digital Infrastructure",
+  "Law Enforcement": "Online Crime & Law Enforcement",
+  "Industrial Policy": "Connectivity & Digital Infrastructure",
+  "Research & Innovation": "Finance",
+  "Trust & Safety": "Product Safety & Compliance"
+ },
+ "move": {
+  "Artificial Intelligence Act": "AI & Digital Trust",
+  "eIDAS Regulation": "AI & Digital Trust",
+  "Single Digital Gateway Regulation": "AI & Digital Trust",
+  "Electromagnetic Compatibility Directive": "Product Safety & Compliance",
+  "Market Surveillance Regulation": "Product Safety & Compliance",
+  "Dual-Use Regulation": "Product Safety & Compliance"
+ }
+}

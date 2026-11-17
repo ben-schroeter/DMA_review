@@ -9,10 +9,11 @@ GOLD_D, STONE = "#8F6708", "#A6A3A0"
 F = 'font-family="DM Sans, sans-serif"'
 t = lambda x, y, s, size=13, fill=INK2, anchor="start", weight=None: (f'<text x="{x:.1f}" y="{y:.1f}" text-anchor="{anchor}" {F} font-size="{size}" fill="{fill}"'
                                                                       + (f' font-weight="{weight}"' if weight else "") + f'>{s}</text>')
-AREAS = [("Finance", "Finance", "#8F6708", "#FFFFFF"), ("Trust & Safety", "Trust &amp; safety", "#B8860B", "#FFFFFF"),
+AREAS = [("Finance", "Finance", "#8F6708", "#FFFFFF"), ("Product Safety & Compliance", "Product safety", "#B8860B", "#FFFFFF"),
          ("Cybersecurity", "Cybersecurity", "#004494", "#FFFFFF"), ("E-commerce & Consumer Protection", "E-commerce &amp; consumer", "#E3CF9C", INK),
          ("Data & Privacy", "Data &amp; privacy", "#5C5858", "#FFFFFF"), ("Competition & Single Market", "Competition &amp; single market", "#8FA9C9", INK),
-         ("Connectivity", "Connectivity", "#282424", "#FFFFFF"), ("Other", "Other", "#D4D2CE", INK)]
+         ("Connectivity & Digital Infrastructure", "Connectivity", "#282424", "#FFFFFF"), ("AI & Digital Trust", "AI &amp; digital trust", "#7FA3CC", INK),
+         ("Other", "Other", "#D4D2CE", INK)]
 KEYS = {a for a, *_ in AREAS}
 sel = {k: [r for r in rows if k in M.get(r["row_id"], {}) and applies(M[r["row_id"]][k], r, k)] for k in TYPES}
 sel["B"] = [r for r in rows if M.get(r["row_id"], {}).get("B") == "F"]

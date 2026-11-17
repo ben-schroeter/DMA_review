@@ -512,12 +512,12 @@
   "text": "5,700"
  },
  "area_finance_k": {
-  "value": 3893,
-  "text": "3,900"
+  "value": 3971,
+  "text": "4,000"
  },
  "area_trust_k": {
-  "value": 8563,
-  "text": "8,600"
+  "value": 7538,
+  "text": "7,500"
  },
  "ex_ai_proposal": {
   "value": 392,
@@ -1238,16 +1238,16 @@
   "text": "1.4"
  },
  "growth_max_area": {
-  "value": "E-commerce & Consumer Protection",
-  "text": "e-commerce and consumer protection"
+  "value": "AI & Digital Trust",
+  "text": "AI and digital trust"
  },
  "growth_max_x": {
-  "value": 9,
-  "text": "9"
+  "value": 13,
+  "text": "13"
  },
  "growth_new_areas": {
-  "value": 3,
-  "text": "Cybersecurity, industrial policy and research &amp; innovation"
+  "value": 1,
+  "text": "Cybersecurity"
  },
  "cmp_top_increases": {
   "value": [
@@ -1257,6 +1257,29 @@
    "Markets in Crypto-Assets (MiCA)"
   ],
   "text": "the Medical Devices Regulation (923 to 1,571), the In Vitro Diagnostic Medical Devices Regulation (916 to 1,427), the AI Act (392 to 764) and MiCA (766 to 1,114)"
+ },
+ "top_area_lead_share": {
+  "value": 67,
+  "text": "67%"
+ },
+ "top_area_lead_laws": {
+  "value": [
+   "Vehicle General Safety Regulation",
+   "Medical Devices Regulation",
+   "In Vitro Diagnostic Medical Devices Regulation"
+  ],
+  "text": "the Vehicle General Safety Regulation, the Medical Devices Regulation and the in vitro diagnostics regulation"
+ },
+ "reg_vs_dir": {
+  "value": 1.04,
+  "text": "now slightly outnumber directives"
+ },
+ "groups_lead_2020": {
+  "value": [
+   "Data, AI & cybersecurity",
+   "Finance"
+  ],
+  "text": "data, AI and cybersecurity (8 acts) and finance (8)"
  },
  "ia_exante_sources": {
   "value": 87,

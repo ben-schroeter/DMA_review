@@ -99,17 +99,16 @@
     "2026": 58
    },
    "by_policy_area": {
-    "Trust & Safety": 950,
-    "Finance": 633,
+    "Product Safety & Compliance": 852,
+    "Finance": 651,
     "Data & Privacy": 293,
-    "Competition & Single Market": 214,
+    "Competition & Single Market": 194,
     "E-commerce & Consumer Protection": 157,
+    "AI & Digital Trust": 157,
     "Cybersecurity": 129,
-    "Connectivity": 124,
+    "Connectivity & Digital Infrastructure": 102,
     "IPR": 45,
-    "Law Enforcement": 38,
-    "Research & Innovation": 18,
-    "Industrial Policy": 17,
+    "Online Crime & Law Enforcement": 38,
     "Media": 12
    },
    "top_instruments": {
@@ -226,18 +225,17 @@
     "2026": 19
    },
    "by_policy_area": {
-    "Trust & Safety": 609,
-    "Finance": 478,
+    "Product Safety & Compliance": 568,
+    "Finance": 496,
     "Data & Privacy": 249,
-    "Competition & Single Market": 181,
-    "Connectivity": 165,
+    "Connectivity & Digital Infrastructure": 174,
+    "Competition & Single Market": 147,
     "E-commerce & Consumer Protection": 146,
-    "Law Enforcement": 118,
+    "AI & Digital Trust": 136,
+    "Online Crime & Law Enforcement": 118,
     "Cybersecurity": 117,
-    "Industrial Policy": 70,
     "Media": 38,
-    "IPR": 27,
-    "Research & Innovation": 18
+    "IPR": 27
    },
    "top_instruments": {
     "RoHS Directive": 178,
@@ -346,18 +344,17 @@
     "2026": 57
    },
    "by_policy_area": {
-    "Trust & Safety": 369,
+    "Product Safety & Compliance": 291,
     "Data & Privacy": 215,
-    "Competition & Single Market": 200,
-    "Finance": 191,
+    "Finance": 209,
+    "Competition & Single Market": 190,
+    "AI & Digital Trust": 115,
     "E-commerce & Consumer Protection": 113,
+    "Connectivity & Digital Infrastructure": 99,
     "Cybersecurity": 70,
-    "Connectivity": 65,
-    "Industrial Policy": 61,
     "IPR": 51,
-    "Law Enforcement": 40,
-    "Media": 23,
-    "Research & Innovation": 18
+    "Online Crime & Law Enforcement": 40,
+    "Media": 23
    },
    "top_instruments": {
     "Data protection by EU institutions Regulation": 82,

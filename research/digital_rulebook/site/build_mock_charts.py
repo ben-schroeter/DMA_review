@@ -283,12 +283,13 @@ charts["private"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-l
 meta.update({"private_main": m2, "private_secondary": s2})
 
 # G. combined: cumulative acts by legal type (top) + new acts per year by policy group (bottom), shared x axis
-GROUPS = [("Data, privacy & cybersecurity", ["Data & Privacy", "Cybersecurity"], "#B8860B"),
-          ("Platforms, content & media", ["Trust & Safety", "Media"], "#004494"),
-          ("Markets, consumers & IP", ["Competition & Single Market", "E-commerce & Consumer Protection", "IPR"], "#D9BE7A"),
+GROUPS = [("Data, AI & cybersecurity", ["Data & Privacy", "Cybersecurity", "AI & Digital Trust"], "#B8860B"),
+          ("Platforms, consumers & media", ["E-commerce & Consumer Protection", "Media"], "#004494"),
+          ("Competition, markets & IP", ["Competition & Single Market", "IPR"], "#D9BE7A"),
           ("Finance", ["Finance"], "#5C5858"),
-          ("Industry, research & connectivity", ["Industrial Policy", "Research & Innovation", "Connectivity"], "#7FA3CC"),
-          ("Law enforcement", ["Law Enforcement"], "#C4C1BE")]
+          ("Product safety", ["Product Safety & Compliance"], "#8F6708"),
+          ("Connectivity & infrastructure", ["Connectivity & Digital Infrastructure"], "#7FA3CC"),
+          ("Online crime & law enforcement", ["Online Crime & Law Enforcement"], "#C4C1BE")]
 gof = {a: gi for gi, (_, areas, _) in enumerate(GROUPS) for a in areas}
 TOPH = H
 BOT0, BOTH = TOPH + 92, 200            # bottom panel origin and height
@@ -642,3 +643,11 @@ _SHORT = {"Artificial Intelligence Act": "the AI Act", "Markets in Crypto-Assets
 _top = sorted(cmp, key=lambda r: -(r["restrictions_total"] - r["proposal_restrictions_total"]))[:4]
 _it = [f'{_SHORT.get(r["name"], "the " + r["name"])} ({r["proposal_restrictions_total"]:,} to {r["restrictions_total"]:,})' for r in _top]
 record("cmp_top_increases", [r["name"] for r in _top], ", ".join(_it[:-1]) + " and " + _it[-1])
+# Rules page text: regulations against directives, and the policy groups that led adoptions since 2020
+_r, _d = cum["Regulation"], cum["Directive"]
+_ratio = _r / _d
+record("reg_vs_dir", round(_ratio, 2), "now outnumber directives about two to one" if _ratio >= 1.8 else "now outnumber directives" if _ratio >= 1.15
+       else "now slightly outnumber directives" if _ratio > 1 else "are now about as many as directives" if _ratio >= 0.95 else "are still fewer than directives")
+_g = sorted(meta["groups_since_2020"].items(), key=lambda kv: -kv[1])
+_low = lambda n: n[0].lower() + n[1:].replace(" & ", " and ") if not n.startswith(("AI", "IP")) else n.replace(" & ", " and ")
+record("groups_lead_2020", [n for n, _ in _g[:2]], f"{_low(_g[0][0])} ({_g[0][1]} acts) and {_low(_g[1][0])} ({_g[1][1]})")
