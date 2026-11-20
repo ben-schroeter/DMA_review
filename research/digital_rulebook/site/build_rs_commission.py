@@ -56,3 +56,39 @@ G = json.load(open("data/rules_standards/grid/summary.json"))["groups"]
 record("grid_xm_co_pre2010", round(100 * G["companies_period|before 2010"]["XM"]), f'{G["companies_period|before 2010"]["XM"]:.0%}')
 record("grid_xm_co_2018", round(100 * G["companies_period|2018 or later"]["XM"]), f'{G["companies_period|2018 or later"]["XM"]:.0%}')
 print("rs by commission (companies, standards):", {r["commission"]: (r["companies"]["n"], r["companies"]["standards"]) for r in rows})
+
+# management-based duties (Coglianese's macro-means) in obligations on companies: Prodi against von der Leyen I, two bars
+import glob, collections
+GC = {}
+for f in sorted(glob.glob("data/rules_standards/grid/b??_coded.json")):
+    for o in json.load(open(f)): GC[o["k"]] = o["c"]
+_inst = [json.loads(l) for l in open("data/rules_standards/instances.jsonl")]
+_eras = {o["celex"]: o for o in json.load(open("data/policy_eras/instruments.json")) if o["status"] == "adopted"}
+_am = [json.loads(l)["formal"] for l in open("data/addressee/v2_final_main.jsonl")]
+_TERMS = [("Delors", 1985.0), ("Santer", 1995.04), ("Prodi", 1999.7), ("Barroso I", 2004.9), ("Barroso II", 2010.1),
+          ("Juncker", 2014.84), ("von der Leyen I", 2019.92), ("von der Leyen II", 2024.92)]
+_fy = lambda d: int(d[:4]) + (int(d[5:7]) - 1) / 12
+_term = lambda v: [t_ for t_, s_ in _TERMS if s_ <= v][-1]
+_cnt = collections.defaultdict(collections.Counter)
+for x in _inst:
+    c = GC.get(x["key"]); e = _eras.get(x["doc"])
+    if x["src"] != "main" or not c or c == "N" or not e or _am[x["rid"]] != "private_parties":
+        continue
+    _cnt[_term(_fy(e["proposal_date"]))][c] += 1
+xm = {k: v["XM"] / sum(v[c] for c in ("MM", "ME", "XM", "XE", "L", "D")) for k, v in _cnt.items()}
+pair = [("Prodi", "Prodi Commission"), ("von der Leyen I", "von der Leyen I")]
+BLUE = "#4F7FB3"   # the management-based colour of the grid chart (site/build_grid_charts.py)
+W2, L2, R2 = 520, 150, 470
+mx = max(xm[k] for k, _ in pair)
+g = []
+for i, (k, lab) in enumerate(pair):
+    y = 8 + i * 34; w = (R2 - L2) * xm[k] / mx
+    g.append(t(L2 - 12, y + 16, lab, 13.5, INK2, "end"))
+    g.append(f'<rect x="{L2}" y="{y}" width="{max(w, 2):.1f}" height="22" rx="3" fill="{BLUE}"><title>{lab}: {xm[k]:.1%} of obligations on companies are management-based duties</title></rect>')
+    g.append(t(L2 + max(w, 2) + 8, y + 16, f"{xm[k]:.0%}", 14, INK, "start", 600))
+svg2 = (f'<svg viewBox="0 0 {W2} 78" width="100%" role="img" aria-label="Management-based duties as a share of obligations on companies: '
+        + ", ".join(f"{lab} {xm[k]:.0%}" for k, lab in pair) + '">' + "".join(g) + "</svg>")
+open("site/grid_xm_commission.svg", "w").write(svg2)
+record("grid_xm_co_prodi", round(100 * xm["Prodi"]), f'{xm["Prodi"]:.0%}')
+record("grid_xm_co_vdl1", round(100 * xm["von der Leyen I"]), f'{xm["von der Leyen I"]:.0%}')
+print("management-based share, companies:", {k: round(v, 3) for k, v in xm.items()})
