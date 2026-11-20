@@ -39,7 +39,7 @@ def t(x, y, txt, size, fill=INK2, anchor="start", weight=400, font=SANS):
 
 W = H = 1200
 L, R, TOP, BOT = 104, 56, 400, 1000
-ymax = 14000
+ymax = int(-(-sum(cum[Y1]) * 1.06 // 2000) * 2000)   # axis follows the data (total at the latest year, with headroom)
 n = Y1 - Y0 + 1
 slot = (W - L - R) / n
 bw = slot * 0.72

@@ -240,7 +240,8 @@ frame("company_types", ["EU rules aimed at specific types of", "companies have m
 # 7. firm size
 f = run("site/build_firm_size.py")
 series, ORDER, SHORT, COL, COLS, SUB = f["series"], f["ORDER"], f["SHORT"], f["COL"], f["COLS"], f["SUB"]
-L, R, TOP, BOT, YM = 140, 1110, 470, 960, 6000
+L, R, TOP, BOT = 140, 1110, 470, 960
+YM = int(-(-max(max(v) for v in series.values()) * 1.05 // 2000) * 2000)   # axis follows the data
 X = lambda i: L + 30 + i * (R - L - 60) / 5
 Y = lambda v: BOT - v / YM * (BOT - TOP)
 b = []
@@ -250,7 +251,7 @@ for n, k in enumerate(ORDER):
     b.append(f'<line x1="{lx}" x2="{lx + 34}" y1="{ly - 7}" y2="{ly - 7}" stroke="{COL[k]}" stroke-width="5"{dash}></line>')
     b.append(t(lx + 46, ly, SHORT[k], 21, INK, weight=600))
     b.append(t(lx + 46, ly + 22, f"{series[k][0]:,} at micro → {series[k][-1]:,} {'designated' if len(series[k]) == 6 else 'at large'}", 17, MUTED))
-for v in range(0, YM + 1, 1000):
+for v in range(0, YM + 1, 2000 if YM > 8000 else 1000):
     b.append(f'<line x1="{L}" x2="{R}" y1="{Y(v):.1f}" y2="{Y(v):.1f}" stroke="{BASE if v == 0 else LINE}"></line>' + t(L - 14, Y(v) + 7, f"{v:,}", 19, MUTED, "end"))
 for i, (cc, s) in enumerate(zip(COLS, SUB)):
     b.append(t(X(i), BOT + 32, cc, 20, INK, "middle", 600) + t(X(i), BOT + 56, s, 16, MUTED, "middle"))
@@ -265,19 +266,20 @@ frame("firm_size", [f"Even a micro firm in finance faces", f"about {round(fi0, -
       ["Obligations that apply to a firm of each size, by type of company"],
       ["Obligations for the firm’s type plus those for any company in the digital economy, counting size thresholds and SME relief in the laws.",
        "Online platforms continue as gatekeepers and very large platforms; cloud, data and AI as providers of general-purpose AI models with",
-       "systemic risk. Main laws and their implementing and delegated acts, as of October 2026."],
+       "systemic risk. Main laws and their implementing and delegated acts, as of November 2026."],
       b, "Obligations that apply to a firm of each size: " + "; ".join(f"{SHORT[k]} from {series[k][0]:,} (micro) to {series[k][-1]:,}" for k in ORDER),
       "The EU Digital Rulebook (2026)")
 
 # 8. companies' reporting duties by policy area
 r = run("site/build_reporting_charts.py")
 then, now, areas = r["then"], r["now"], r["areas"]
-L, R, TOP, VMAX = 380, 1040, 380, 600
+L, R, TOP = 380, 1040, 380
+VMAX = int(-(-max(now.values()) * 1.12 // 100) * 100)   # axis follows the data, room for the value label
 PX = lambda v: L + v / VMAX * (R - L)
 rh = (1000 - TOP) / len(areas)
 b = [f'<circle cx="68" cy="312" r="10" fill="{BG}" stroke="{STONE}" stroke-width="3.5"></circle>' + t(88, 319, "Start of 2018", 21),
-     f'<circle cx="270" cy="312" r="11" fill="{GOLD}"></circle>' + t(290, 319, "October 2026", 21)]
-for v in range(0, VMAX + 1, 100):
+     f'<circle cx="270" cy="312" r="11" fill="{GOLD}"></circle>' + t(290, 319, "November 2026", 21)]
+for v in range(0, VMAX + 1, 200 if VMAX > 600 else 100):
     b.append(f'<line x1="{PX(v):.1f}" x2="{PX(v):.1f}" y1="{TOP - 6}" y2="{TOP + rh * len(areas)}" stroke="{BASE if v == 0 else LINE}"></line>' + t(PX(v), TOP + rh * len(areas) + 28, v, 18, MUTED, "middle"))
 for i, a in enumerate(areas):
     y = TOP + rh * i + rh / 2
@@ -290,8 +292,8 @@ for i, a in enumerate(areas):
 T0, T1 = sum(then.values()), sum(now.values())
 b += callout(640, 262, 504, f"×{T1 / T0:.1f}", [f"{T0:,} reporting duties on companies", f"in 2018, {T1:,} today"], h=96, size=50)
 frame("reporting_growth", ["Companies’ reporting duties have", "grown in every policy area"],
-      ["Reporting obligations on companies, by policy area, start of 2018 and October 2026"],
+      ["Reporting obligations on companies, by policy area, start of 2018 and November 2026"],
       ["Reports, notifications, disclosures, record-keeping, information on request and registration that companies must provide, in the main laws",
        "and their implementing and delegated acts; policy areas regrouped from Zenner &amp; Marcus (2025). Right column: growth since the start of 2018."],
-      b, f"Companies' reporting duties have grown in every policy area, from {T0:,} at the start of 2018 to {T1:,} in October 2026: "
+      b, f"Companies' reporting duties have grown in every policy area, from {T0:,} at the start of 2018 to {T1:,} in November 2026: "
          + "; ".join(f"{a} {then[a]} to {now[a]}" for a in areas), "The EU Digital Rulebook (2026)")

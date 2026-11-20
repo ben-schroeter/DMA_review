@@ -1,5 +1,5 @@
 """Statista-style square infographic (1200x1200), same frame as the others: obligations on companies by policy area,
-start of 2018 vs October 2026, in adopted acts plus their implementing and delegated acts (dumbbell chart).
+start of 2018 vs November 2026, in adopted acts plus their implementing and delegated acts (dumbbell chart).
 Writes site/infographics/areas_growth.svg. Run from research/digital_rulebook."""
 import sys as _s; _s.path.insert(0, "site"); from counts import N_LAWS, N_SEC, N_IMPL, N_DEL, nice_axis as nice   # no typed counts
 import collections, os
@@ -44,7 +44,7 @@ g = [f'<rect width="{W}" height="{H}" fill="{BG}"></rect>', f'<rect width="{W}" 
 for i, line in enumerate(("EU rules for tech companies have", "grown in every policy area.")):
     g.append(t(56, 112 + 60 * i, line, 50, INK, weight=700))
 g.append(t(56, 228, "Obligations on companies in EU digital laws and their implementing and", 24, MUTED))
-g.append(t(56, 260, "delegated acts, by policy area: start of 2018 and October 2026", 24, MUTED))
+g.append(t(56, 260, "delegated acts, by policy area: start of 2018 and November 2026", 24, MUTED))
 g.append(f'<circle cx="66" cy="310" r="9" fill="{BG}" stroke="{STONE}" stroke-width="3"></circle>' + t(86, 317, "Start of 2018", 21, INK2))
 g.append(f'<circle cx="252" cy="310" r="7" fill="{SLATE}" stroke="{BG}" stroke-width="2"></circle>' + t(268, 317, "2026: laws only", 21, INK2))
 g.append(f'<circle cx="452" cy="310" r="10" fill="{GOLD}"></circle>' + t(472, 317, "2026: plus implementing and delegated acts", 21, INK2))
@@ -86,7 +86,7 @@ g.append(f'<g transform="translate({W - 330},1160)"><rect x="0" y="0" width="22"
 g.append(t(W - 298, 1178, "The EU Digital Rulebook", 22, INK, font=SERIF))
 g.append(t(56, 1180, f'Source: The EU Digital Rulebook (2026) · <tspan fill="{GOLD}" font-weight="700" font-size="18">eutechlaws.org</tspan>', 16, INK2, weight=500))
 
-aria = ("EU rules for tech companies have grown in every policy area. Obligations on companies, start of 2018 to October 2026: "
+aria = ("EU rules for tech companies have grown in every policy area. Obligations on companies, start of 2018 to November 2026: "
         + "; ".join(f"{a} {then[a]:,} to {now[a]:,}" for a in areas) + f". Across all areas x{factor:.1f}.")
 svg = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="{aria.replace("&", "&amp;")}">' + "".join(g) + "</svg>"
 os.makedirs("site/infographics", exist_ok=True)
@@ -110,8 +110,8 @@ for i, a in enumerate(areas):
     p.append(t(PL - 14, y + 5, a.replace(" Protection", "").replace("&", "&amp;"), 14.5, INK, "end", 500))
     p.append(f'<line x1="{PX(then[a]):.1f}" x2="{PX(now[a]):.1f}" y1="{y:.1f}" y2="{y:.1f}" stroke="{GOLD}" stroke-opacity="0.45" stroke-width="4.5" stroke-linecap="round"></line>')
     p.append(f'<circle cx="{PX(then[a]):.1f}" cy="{y:.1f}" r="6" fill="{BG}" stroke="{STONE}" stroke-width="2.5"><title>{a.replace("&", "&amp;")}, start of 2018: {then[a]:,}</title></circle>')
-    p.append(f'<circle cx="{PX(now[a]):.1f}" cy="{y:.1f}" r="7.5" fill="{GOLD}"><title>{a.replace("&", "&amp;")}, October 2026: {now[a]:,}</title></circle>')
-    p.append(f'<circle cx="{PX(now_laws[a]):.1f}" cy="{y:.1f}" r="5" fill="{SLATE}" stroke="{BG}" stroke-width="1.5"><title>{a.replace("&", "&amp;")}, laws only, October 2026: {now_laws[a]:,}</title></circle>')
+    p.append(f'<circle cx="{PX(now[a]):.1f}" cy="{y:.1f}" r="7.5" fill="{GOLD}"><title>{a.replace("&", "&amp;")}, November 2026: {now[a]:,}</title></circle>')
+    p.append(f'<circle cx="{PX(now_laws[a]):.1f}" cy="{y:.1f}" r="5" fill="{SLATE}" stroke="{BG}" stroke-width="1.5"><title>{a.replace("&", "&amp;")}, laws only, November 2026: {now_laws[a]:,}</title></circle>')
     p.append(t(PX(now[a]) + 13, y + 5, f"{now[a]:,}", 13, INK2))
     p.append(t(PW - 4, y + 5, "new" if then[a] == 0 else f"×{now[a] / then[a]:.1f}", 15, GOLD_D, "end", 700))
 page_svg = (f'<svg viewBox="0 0 {PW} {PBOT + 30}" width="100%" role="img" aria-label="{aria.replace("&", "&amp;")}">' + "".join(p) + "</svg>")
@@ -163,7 +163,7 @@ for i, a in enumerate(porder):
     for y in (2000, 2018, 2026):
         q.append(t(SX(y), y0 + PH + 15, y, 11, MUTED, "middle"))
     gr = "new since 2018" if then[a] == 0 else f"×{now[a] / then[a]:.1f} since 2018"
-    q.append(f'<rect x="{x0}" y="{y0}" width="{PW}" height="{PH}" fill="transparent"><title>{a.replace("&", "&amp;")}: {then[a]:,} at the start of 2018, {now[a]:,} in October 2026 ({now_laws[a]:,} in the laws)</title></rect>')
+    q.append(f'<rect x="{x0}" y="{y0}" width="{PW}" height="{PH}" fill="transparent"><title>{a.replace("&", "&amp;")}: {then[a]:,} at the start of 2018, {now[a]:,} in November 2026 ({now_laws[a]:,} in the laws)</title></rect>')
     q.append(t(x0, y0 - 24, PSHORT.get(a, a).replace("&", "&amp;"), 14, INK, "start", 600))
     q.append(t(x0, y0 - 8, f'{now[a]:,} <tspan fill="{GOLD_D}" font-weight="600">{gr}</tspan>', 12.5, MUTED))
 TH = TT + 58 + ((len(porder) - 1) // NC + 1) * (PH + GY) - GY + 26

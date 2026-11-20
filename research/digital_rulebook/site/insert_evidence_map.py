@@ -4,7 +4,7 @@ import re, sys, json
 D = sys.argv[1]
 s = json.load(open("data/evidence_map/summary.json"))
 compact, full = open("site/evidence_map_compact.svg").read(), open("site/evidence_map_full.svg").read()
-CAVEAT = ("An empty cell means our searches found nothing, not that nothing exists. Counts are not quality, and one source can count "
+CAVEAT = ("An empty cell means our searches found nothing. Counts are not quality-adjusted, and one source can count "
           "for several effects. We sorted sources into effects by keywords on the outcomes recorded for each; a hand check of 150 "
           "found 86% tagged correctly before we fixed the commonest errors. Enforcement decisions and court rulings are not counted.")
 EV = f'''<!-- EVIDENCE-MAP -->

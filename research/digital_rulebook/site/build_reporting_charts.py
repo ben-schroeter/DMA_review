@@ -1,6 +1,6 @@
 """Charts for the reporting-obligations section of the Rules page (from data/reporting/reporting_instances.jsonl).
   who_type      stacked bars: reporting obligations by who must report, split by type
-  areas_growth  dumbbell: companies' reporting obligations by policy area, start of 2018 vs October 2026
+  areas_growth  dumbbell: companies' reporting obligations by policy area, start of 2018 vs November 2026
 Writes site/reporting_charts.json. Run from research/digital_rulebook."""
 import collections, json, sys as _s; _s.path.insert(0, "site"); from counts import nice_axis
 import openpyxl
@@ -77,7 +77,7 @@ VMAX, _VS = nice_axis(max(now.values()) + 40, 8)   # room for the value label
 PX = lambda v: PL + v / VMAX * (PR - PL)
 PBOT = PTOP + PROW * len(areas)
 g = [f'<circle cx="10" cy="12" r="6.5" fill="{BG}" stroke="{STONE}" stroke-width="2.5"></circle>' + t(24, 17, "Start of 2018", 14),
-     f'<circle cx="140" cy="12" r="7" fill="{GOLD}"></circle>' + t(154, 17, "October 2026", 14), t(W - 4, PTOP - 12, "Growth", 13, MUTED, "end")]
+     f'<circle cx="140" cy="12" r="7" fill="{GOLD}"></circle>' + t(154, 17, "November 2026", 14), t(W - 4, PTOP - 12, "Growth", 13, MUTED, "end")]
 for v in range(0, VMAX + 1, _VS):
     g.append(f'<line x1="{PX(v):.1f}" x2="{PX(v):.1f}" y1="{PTOP - 4}" y2="{PBOT}" stroke="{BASE if v == 0 else LINE}"></line>' + t(PX(v), PBOT + 20, f"{v:,}", 13, MUTED, "middle"))
 for i, a in enumerate(areas):
@@ -86,10 +86,10 @@ for i, a in enumerate(areas):
     g.append(t(PL - 14, y + 5, al, 14.5, INK, "end", 500))
     g.append(f'<line x1="{PX(then[a]):.1f}" x2="{PX(now[a]):.1f}" y1="{y:.1f}" y2="{y:.1f}" stroke="{GOLD}" stroke-opacity="0.45" stroke-width="4.5" stroke-linecap="round"></line>')
     g.append(f'<circle cx="{PX(then[a]):.1f}" cy="{y:.1f}" r="6" fill="{BG}" stroke="{STONE}" stroke-width="2.5"><title>{al}, start of 2018: {then[a]}</title></circle>')
-    g.append(f'<circle cx="{PX(now[a]):.1f}" cy="{y:.1f}" r="7.5" fill="{GOLD}"><title>{al}, October 2026: {now[a]}</title></circle>')
+    g.append(f'<circle cx="{PX(now[a]):.1f}" cy="{y:.1f}" r="7.5" fill="{GOLD}"><title>{al}, November 2026: {now[a]}</title></circle>')
     g.append(t(PX(now[a]) + 13, y + 5, f"{now[a]:,}", 13, INK2))
     g.append(t(W - 4, y + 5, "new" if then[a] == 0 else f"×{now[a] / then[a]:.1f}", 15, GOLD_D, "end", 700))
-charts["areas_growth"] = (f'<svg viewBox="0 0 {W} {PBOT + 30}" width="100%" role="img" aria-label="Companies\' reporting obligations by policy area, start of 2018 and October 2026: '
+charts["areas_growth"] = (f'<svg viewBox="0 0 {W} {PBOT + 30}" width="100%" role="img" aria-label="Companies\' reporting obligations by policy area, start of 2018 and November 2026: '
                           + "; ".join(f"{a.replace('&', 'and')} {then[a]} to {now[a]}" for a in areas) + '">' + "".join(g) + "</svg>")
 json.dump(charts, open("site/reporting_charts.json", "w"), ensure_ascii=False)
 print({w: sum(cnt[w].values()) for w, _ in WHO}, sum(then.values()), len(pp), {a: (then[a], now[a]) for a in areas})
@@ -124,7 +124,7 @@ for i, a in enumerate(areas):
     g.append(f'<polyline points="{" ".join(step)}" fill="none" stroke="{GOLD}" stroke-width="2.2" stroke-linejoin="round"></polyline>')
     g.append(f'<line x1="{X(2018):.1f}" x2="{X(2018):.1f}" y1="{y0 - 4}" y2="{y0 + PH}" stroke="{STONE}" stroke-dasharray="3 3"></line>')
     g.append(f'<circle cx="{X(2018):.1f}" cy="{Yv(cum[a][2017]):.1f}" r="3.5" fill="{BG}" stroke="{SLATE}" stroke-width="1.6"><title>{a.replace("&", "&amp;")}, start of 2018: {cum[a][2017]}</title></circle>')
-    g.append(f'<circle cx="{X(Y1):.1f}" cy="{Yv(cum[a][Y1]):.1f}" r="3.5" fill="{GOLD}"><title>{a.replace("&", "&amp;")}, October 2026: {cum[a][Y1]}</title></circle>')
+    g.append(f'<circle cx="{X(Y1):.1f}" cy="{Yv(cum[a][Y1]):.1f}" r="3.5" fill="{GOLD}"><title>{a.replace("&", "&amp;")}, November 2026: {cum[a][Y1]}</title></circle>')
     g.append(f'<line x1="{x0}" x2="{x0 + PW}" y1="{y0 + PH}" y2="{y0 + PH}" stroke="{BASE}"></line>')
     for y in (2000, 2018, 2026):
         g.append(t(X(y), y0 + PH + 15, y, 11, MUTED, "middle"))

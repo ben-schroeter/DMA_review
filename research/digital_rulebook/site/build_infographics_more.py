@@ -16,7 +16,7 @@ rows = list(wb["instruments"].values); hdr = rows[0]
 inst = [r for r in (dict(zip(hdr, x)) for x in rows[1:] if x[0] is not None)
         if r["adoption_date"] and r["restrictions_total"] is not None and r["status"] == "adopted"]
 yr = lambda r: int(str(r["adoption_date"])[:4])
-SHORT = {"Artificial Intelligence Act": "AI Act", "Markets in Crypto-Assets (MiCA)": "MiCA", "General Data Protection Regulation": "GDPR",
+SHORT = {"In Vitro Diagnostic Medical Devices Regulation": "In vitro diagnostics (IVDR)", "Medical Devices Regulation": "Medical devices (MDR)", "Artificial Intelligence Act": "AI Act", "Markets in Crypto-Assets (MiCA)": "MiCA", "General Data Protection Regulation": "GDPR",
          "Digital Services Act": "DSA", "Digital Markets Act": "DMA", "European Health Data Space": "European Health Data Space",
          "Anti-Money Laundering Regulation": "AML Regulation", "Horizon Europe": "Horizon Europe", "Data Act": "Data Act"}
 
@@ -61,9 +61,15 @@ os.makedirs("site/infographics", exist_ok=True)
 
 # 1. negotiation: proposal (x) vs adopted (y), 45-degree line
 cmp_ = [r for r in inst if isinstance(r.get("proposal_restrictions_total"), (int, float))]
+_nc = [r for r in inst if r not in cmp_]
+_bx = sum("Block Exemption" in r["name"] for r in _nc); _np = len(_nc) - _bx
+_W = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 7: "seven", 8: "eight", 9: "nine"}
+_bx, _np = _W.get(_bx, _bx), _W.get(_np, _np)
 up = sum(r["restrictions_total"] > r["proposal_restrictions_total"] for r in cmp_)
 p_tot, a_tot = sum(r["proposal_restrictions_total"] for r in cmp_), sum(r["restrictions_total"] for r in cmp_)
-L, R, TOP, BOT, mx = 130, 80, 300, 970, 1200
+L, R, TOP, BOT = 130, 80, 300, 970
+mx = (-(-max(max(r["restrictions_total"], r["proposal_restrictions_total"]) for r in cmp_) * 1.05 // 200)) * 200   # axis follows the data
+mx = int(mx)
 X = lambda v: L + v / mx * (W - L - R)
 Y = lambda v: BOT - v / mx * (BOT - TOP)
 b = [f'<path d="M{X(0):.1f},{Y(0):.1f} L{X(0):.1f},{Y(mx):.1f} L{X(mx):.1f},{Y(mx):.1f} Z" fill="{GOLD2}" fill-opacity="0.22"></path>']
@@ -75,24 +81,25 @@ for v in range(0, mx + 1, 200):
 b.append(t((L + W - R) / 2, BOT + 60, "Obligations in the Commission’s proposal", 20, INK2, "middle", 500))
 b.append(f'<text transform="translate({L - 82},{(TOP + BOT) / 2}) rotate(-90)" text-anchor="middle" {SANS} font-size="20" font-weight="500" fill="{INK2}">Obligations in the adopted law</text>')
 b.append(f'<line x1="{X(0):.1f}" y1="{Y(0):.1f}" x2="{X(mx):.1f}" y2="{Y(mx):.1f}" stroke="{INK2}" stroke-width="1.5" stroke-dasharray="7 6"></line>')
-b.append(t(X(1075), Y(985), "no change", 17, MUTED, "middle"))
-b.append(t(X(40), Y(1150), "Above the line: more obligations", 18, INK2, weight=500))
-b.append(t(X(40), Y(1150) + 24, "after negotiation", 18, INK2, weight=500))
+b.append(t(X(mx * 0.78), Y(mx * 0.7), "no change", 17, MUTED, "middle"))
+b.append(t(X(mx * 0.03), Y(mx * 0.96), "Above the line: more obligations", 18, INK2, weight=500))
+b.append(t(X(mx * 0.03), Y(mx * 0.96) + 24, "after negotiation", 18, INK2, weight=500))
 for r in sorted(cmp_, key=lambda r: r["restrictions_total"] > r["proposal_restrictions_total"]):
     c = GOLD if r["restrictions_total"] > r["proposal_restrictions_total"] else SLATE
     b.append(f'<circle cx="{X(r["proposal_restrictions_total"]):.1f}" cy="{Y(r["restrictions_total"]):.1f}" r="7" fill="{c}" fill-opacity="0.85" stroke="{BG}" stroke-width="1.2"></circle>')
 top6 = sorted(cmp_, key=lambda r: -(r["restrictions_total"] - r["proposal_restrictions_total"]))[:6]
-OFF = {"AI Act": (-14, 0, "end"), "MiCA": (-14, 6, "end"), "European Health Data Space": (-14, -4, "end"),
-       "AML Regulation": (-14, 16, "end"), "DSA": (-14, -12, "end"), "Horizon Europe": (-14, 0, "end")}
+OFF = {"AI Act": (-14, 0, "end"), "MiCA": (-14, 6, "end"), "European Health Data Space": (12, 5, "start"),
+       "AML Regulation": (-14, -26, "end"), "DSA": (-14, -12, "end"), "Horizon Europe": (-14, 0, "end")}
 for r in top6:
     nm = SHORT.get(r["name"], r["name"].split(" (")[0])
     dx, dy, an = OFF.get(nm, (12, 5, "start"))
     b.append(t(X(r["proposal_restrictions_total"]) + dx, Y(r["restrictions_total"]) + dy + 6, f'{esc(nm)} <tspan fill="{MUTED}" font-weight="400">{r["proposal_restrictions_total"]:,} → {r["restrictions_total"]:,}</tspan>', 16, INK, an, 600))
-b += callout(X(560), Y(560) + 150, 470, f"{up}/{len(cmp_)}", ["acts gained obligations; together", f"{p_tot:,} → {a_tot:,} (+{100 * (a_tot / p_tot - 1):.0f}%)"], h=110)
+b += callout(X(mx * 0.47), Y(mx * 0.47) + 150, 470, f"{up}/{len(cmp_)}", ["acts gained obligations; together", f"{p_tot:,} → {a_tot:,} (+{100 * (a_tot / p_tot - 1):.0f}%)"], h=110)
 frame(["EU digital laws come out of negotiation", "with more rules than went in"],
       [f"Obligations in the Commission’s proposal and in the adopted law, {len(cmp_)} EU digital acts"],
       ["Each dot is one act; gold: more obligations in the adopted law than in the proposal. Legal text only (articles and annexes), counted",
-       "the same way in both. Three adopted acts could not be compared because their proposals are not usable in EUR-Lex."],
+       f"the same way in both. Not compared: {_bx} block exemption regulations, which the Commission adopts without a legislative proposal,",
+       f"and {_np} acts whose proposals were not usable."],
       b, f"EU digital laws come out of negotiation with more rules than went in: {up} of {len(cmp_)} acts gained obligations, "
          f"together from {p_tot:,} to {a_tot:,}. Largest: " + "; ".join(f'{SHORT.get(r["name"], r["name"])} {r["proposal_restrictions_total"]} to {r["restrictions_total"]}' for r in top6),
       "negotiation")
@@ -124,11 +131,13 @@ for i, (a, (old, new)) in enumerate(pa_rows):
             b.append(t(L + PX(new) + PX(old) / 2, y + rh / 2 + 7, str(old), 18, INK2, "middle", 600))
     b.append(t(L + PX(old + new) + 12, y + rh / 2 + 8, str(old + new), 22, INK, weight=700))
 b += callout(W - 56 - 560, 256, 560, f"{n_new}/{len(inst)}", ["acts adopted since 2020, most in", f"{top_a.lower().replace('&', '&amp;')} ({ind[1]})"], h=110)
-frame(["More than half of EU digital laws", "were adopted since 2020"],
+_fr = n_new / len(inst)
+_head = ("More than half of" if _fr > 0.5 else "Almost half of" if _fr >= 0.45 else "Nearly two in five" if _fr >= 0.36 else "About a third of" if _fr >= 0.3 else f"{n_new} of {len(inst)}")
+frame([f"{_head} EU digital laws", "were adopted since 2020"],
       ["Adopted EU digital acts by policy area, before 2020 and since"],
       [f"Policy areas regrouped from Zenner &amp; Marcus (2025). The {N_LAWS} adopted EU digital acts in our database, by year of adoption;",
        "numbers in the bars: acts since 2020 (gold) and before 2020 (light gold). As of November 2026."],
-      b, f"More than half of EU digital laws were adopted since 2020: {n_new} of {len(inst)}. By policy area: "
+      b, f"{_head} EU digital laws were adopted since 2020: {n_new} of {len(inst)}. By policy area: "
          + "; ".join(f"{a} {o + n} ({n} since 2020)" for a, (o, n) in pa_rows), "policy_areas")
 
 # 3. EU acts vs Sarbanes-Oxley

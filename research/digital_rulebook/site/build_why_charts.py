@@ -214,13 +214,22 @@ for o in usb:
         g.append(t(cx, cy + 4, nm.replace(" Holdings", "").replace(" Sciences", ""), 11.5 if len(nm) < 11 else 9.5, INK, "middle", 500))
 # Not yet public (dashed): sized at the midpoint of reported valuation ranges, same scale; not in the US count or total
 kk = 29570 / sum(o["r"] ** 2 for o in usb)
-for nm, v, cx, cy in (("Anthropic", 1750, 626, 128), ("OpenAI", 1325, 762, 150)):
+# Anthropic listed on Nasdaq on 19 November 2026: solid, at its first-day closing value (about $1.8trn fully diluted, CNBC);
+# not in McAfee's November 2024 count or total. OpenAI stays dashed at its private valuation.
+ANT_V = 1800
+for nm, v, cx, cy in (("Anthropic", ANT_V, 626, 128), ("OpenAI", 1325, 762, 150)):
     r = math.sqrt(v / kk)
-    g.append(f'<circle cx="{cx}" cy="{cy}" r="{r:.1f}" fill="{TECH}" fill-opacity="0.10" stroke="{TECH}" stroke-width="2" stroke-dasharray="6 5">'
-             f'<title>{nm}: private company, not yet listed</title></circle>')
-    g.append(t(cx, cy + 2, nm, 15, INK, "middle", 600))
-    g.append(t(cx, cy + 20, "not yet public", 11.5, MUTED, "middle"))
-g.append(t(560, 40, "Not yet public, at private valuations", 13, MUTED, "start", 600))
+    if nm == "Anthropic":
+        g.append(f'<circle cx="{cx}" cy="{cy}" r="{r - 0.6:.1f}" fill="{TECH}" stroke="#FAF9F5" stroke-width="1.1">'
+                 f'<title>Anthropic: listed 19 November 2026, about ${v / 1000:.1f} trillion at the first-day close</title></circle>')
+        g.append(t(cx, cy + 2, nm, 15, INK, "middle", 600))
+        g.append(t(cx, cy + 20, "listed Nov 2026", 11.5, INK2, "middle"))
+    else:
+        g.append(f'<circle cx="{cx}" cy="{cy}" r="{r:.1f}" fill="{TECH}" fill-opacity="0.10" stroke="{TECH}" stroke-width="2" stroke-dasharray="6 5">'
+                 f'<title>{nm}: private company, not yet listed</title></circle>')
+        g.append(t(cx, cy + 2, nm, 15, INK, "middle", 600))
+        g.append(t(cx, cy + 20, "not yet public", 11.5, MUTED, "middle"))
+g.append(t(560, 40, "Listed since McAfee's count, or not yet public", 13, MUTED, "start", 600))
 # EU cluster at the same scale
 ex0 = min(o["x"] for o in eus); ey0 = min(o["y"] for o in eus)
 EX, EY = 735, 330
@@ -276,7 +285,7 @@ g.append(t(kx - k1 - 10, kb - 20, "Circle area =", 12.5, MUTED, "end"))
 g.append(t(kx - k1 - 10, kb - 4, "market value", 12.5, MUTED, "end"))
 charts["mcafee_full"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Public companies founded from scratch in the last 50 years and worth over $10 billion, '
                          f'one bubble per company sized by market value: 241 in the US worth $29.6 trillion, led by Apple, Nvidia, Microsoft, Amazon and Alphabet; '
-                         f'14 in the EU worth $0.43 trillion, led by Spotify. Dashed: private companies not yet listed (Anthropic, OpenAI; in the EU Mistral AI, Helsing, Trade Republic).">' + "".join(g) + "</svg>")
+                         f'14 in the EU worth $0.43 trillion, led by Spotify. Anthropic, listed in November 2026, shown at its first-day value of about $1.8 trillion. Dashed: private companies not yet listed (OpenAI; in the EU Mistral AI, Helsing, Trade Republic).">' + "".join(g) + "</svg>")
 
 
 # 8b. Column-width version of the full recreation (for a two-column layout): US cluster left, private firms, EU cluster and
@@ -305,10 +314,13 @@ g.append(t(300, 540 - 2 * math.sqrt(1000 / kk) * S_ - 4, "$1trn", 10.5, MUTED, "
 g.append(t(258, 524, "Circle area =", 10.5, MUTED, "end")); g.append(t(258, 537, "market value", 10.5, MUTED, "end"))
 # right column
 RX = 405
-g.append(t(RX, 36, "Not yet public, at private valuations", 10.5, MUTED, "start", 600))
-for nm, v, cx, cy in (("Anthropic", 1750, RX + 46, 98), ("OpenAI", 1325, RX + 146, 104)):
+g.append(t(RX, 36, "Listed since 2024, or not yet public", 10.5, MUTED, "start", 600))
+for nm, v, cx, cy in (("Anthropic", ANT_V, RX + 46, 98), ("OpenAI", 1325, RX + 146, 104)):
     r = math.sqrt(v / kk) * S_
-    g.append(f'<circle cx="{cx}" cy="{cy}" r="{r:.1f}" fill="{TECH}" fill-opacity="0.10" stroke="{TECH}" stroke-width="1.6" stroke-dasharray="5 4"><title>{nm}: private company, not yet listed</title></circle>')
+    if nm == "Anthropic":
+        g.append(f'<circle cx="{cx}" cy="{cy}" r="{r - 0.5:.1f}" fill="{TECH}" stroke="#FAF9F5" stroke-width="1"><title>Anthropic: listed 19 November 2026, about ${v / 1000:.1f} trillion at the first-day close</title></circle>')
+    else:
+        g.append(f'<circle cx="{cx}" cy="{cy}" r="{r:.1f}" fill="{TECH}" fill-opacity="0.10" stroke="{TECH}" stroke-width="1.6" stroke-dasharray="5 4"><title>{nm}: private company, not yet listed</title></circle>')
     g.append(t(cx, cy + 3, nm, 11, INK, "middle", 600))
 EX, EY = RX + 6, 168
 for o in sorted(eus, key=lambda o: o["r"]):
@@ -338,7 +350,7 @@ for (n, v), cx in zip(eu_priv, (RX + 34, RX + 98, RX + 160)):
         g.append(t(cx, py2 + 3 + (k - (len(n.split(" ")) - 1) / 2) * 9, w_, 8, INK, "middle", 500))
 charts["mcafee_col"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Public companies founded from scratch in the last 50 years and worth over $10 billion, '
                         f'one bubble per company sized by market value: 241 in the US worth $29.6 trillion, led by Apple, Nvidia, Microsoft, Amazon and Alphabet; 14 in the EU worth $0.43 trillion, led by Spotify. '
-                        f'Dashed: private companies not yet listed (Anthropic, OpenAI; in the EU Mistral AI, Helsing, Trade Republic).">' + "".join(g) + "</svg>")
+                        f'Anthropic, listed in November 2026, shown at its first-day value of about $1.8 trillion. Dashed: private companies not yet listed (OpenAI; in the EU Mistral AI, Helsing, Trade Republic).">' + "".join(g) + "</svg>")
 
 # 9. Reichardt & Reis (2026), Figure 1: HQ migration rates of firms under ten years old, 2014-2024, by total funding raised.
 # Values measured from the published bar chart (vector PDF rendered at 400 dpi); averages are the paper's dashed lines.

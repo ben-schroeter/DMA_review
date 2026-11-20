@@ -360,8 +360,8 @@ body = f'''
       {tabs("Forthcoming.dc.html")}
       <p class="eyebrow">Digital Acquis · Forthcoming</p>
       <h1 class="h1">{sum(f["stage"] != "withdrawn" for f in F)} digital initiatives not yet adopted</h1>
-      <p class="body">Proposals still being negotiated and initiatives the Commission has announced but not yet proposed, with where each stands and the documents behind it. Targets for agreement are from the One Europe, One Market roadmap (April 2026). Status as of {AS_OF}.</p>
-      <p class="body">Of the {IA_TOTAL} proposals agreed or in negotiation, {IA_N["full"]} came with a full impact assessment, {IA_N["analysis"]} with a lighter analysis of impacts and {IA_N["swd"]} with only a staff working document. Without a full impact assessment: {"; ".join(f["name"] for f in F if f.get("ia", {}).get("status") in ("analysis", "swd"))}.</p>
+      <p class="body">This page lists proposals still being negotiated and initiatives the Commission has announced but not yet proposed. Targets for agreement are from the One Europe, One Market roadmap (April 2026). Status as of {AS_OF}.</p>
+      <!-- impact assessment count paragraph removed by the author (November 2026) -->
       <div style="display: flex; flex-wrap: wrap; gap: 14px">{stat}</div>
       {legend}
     </div>

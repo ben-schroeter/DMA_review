@@ -106,7 +106,8 @@ put("precision", round(100 * V["precision"]), f"{100 * V['precision']:.0f}%"); p
 REP = json.load(open("data/reporting/summary.json")); RV = REP["validation"] if isinstance(REP["validation"], dict) else json.load(open("data/reporting/validation_results.json"))
 put("rep_total", REP["reporting_obligations"]); put("rep_private", REP["by_addressee"]["private_parties"]); put("rep_states", REP["by_addressee"]["member_states"]); put("rep_eu", REP["by_addressee"]["eu_institutions"])
 put("rep_precision", round(100 * RV["precision"]), f"{100 * RV['precision']:.0f}%"); put("rep_recall", round(100 * RV["estimated_recall"]), f"{100 * RV['estimated_recall']:.0f}%")
-put("rep_estimate_k", RV["estimated_true_total"], k100(RV["estimated_true_total"]))
+_rep_est = round(REP["reporting_obligations"] * RV["precision"] / RV["estimated_recall"])   # from the current count, not the stored total
+put("rep_estimate_k", _rep_est, k100(_rep_est))
 EM = json.load(open("data/evidence_map/validation.json")); a_, b_ = map(int, EM["combined_before_fixes"].split(" ")[0].split("/"))
 put("evmap_check", round(100 * a_ / b_), f"{100 * a_ / b_:.0f}%")
 put("us_precision", round(100 * json.load(open("data/us_map/validation_us.json"))["precision"]), f"{100 * json.load(open('data/us_map/validation_us.json'))['precision']:.0f}%")

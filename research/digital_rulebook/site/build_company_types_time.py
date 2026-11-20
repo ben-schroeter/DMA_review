@@ -50,7 +50,7 @@ for i, k in enumerate(order):
     now, then = st[Y1], st[2017]
     gr = "new since 2018" if then == 0 else (f"×{now / then:.0f} since 2018" if now / then >= 10 else f"×{now / then:.1f} since 2018")
     name = NAMES[k].replace("Baseline: all companies", "Baseline: every company")
-    g.append(f'<rect x="{x0}" y="{y0}" width="{PW}" height="{PH}" fill="transparent"><title>{name}: {then:,} at the start of 2018, {now:,} in October 2026 ({sl[Y1]:,} in the laws)</title></rect>')
+    g.append(f'<rect x="{x0}" y="{y0}" width="{PW}" height="{PH}" fill="transparent"><title>{name}: {then:,} at the start of 2018, {now:,} in November 2026 ({sl[Y1]:,} in the laws)</title></rect>')
     g.append(t(x0, y0 - 22, name if len(name) < 30 else name.replace(" and very large platforms", " and very large platforms").replace("Online platforms and digital services", "Online platforms, digital services"), 14 if len(name) < 30 else 12.5, INK, "start", 600))
     g.append(t(x0, y0 - 6, f'{now:,} <tspan fill="{GOLD_D if k != "B" else MUTED}" font-weight="600">{gr}</tspan>', 12.5, MUTED))
 H = TT + 58 + 2 * (PH + GY) - GY + 26
