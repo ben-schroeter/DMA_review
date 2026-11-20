@@ -54,7 +54,7 @@ READING = {
          "url": "https://constitutionofinnovation.eu/", "cover": "/_blob/3e006eac1ba7fdad17c7d8bbb358a278",
          "note": "Why Europe struggles to innovate, and a proposal for a new constitutional framework for its economy."},
         {"title": "A dataset of EU legal and policy instruments for the digital world", "by": "Kai Zenner, J. Scott Marcus and Kamil Sekut", "where": "CEPS, 2026", "cover": "/_blob/28ab552dbecc472bc5a99170050793d5",
-         "url": "https://www.ceps.eu/ceps-publications/a-dataset-of-eu-legal-and-policy-instruments-for-the-digital-world/",
+         "url": "https://www.ceps.eu/ceps-publications/a-dataset-of-eu-legal-and-policy-instruments-for-the-digital-world-2/",
          "note": "The inventory of 115 EU digital instruments that this site's list of laws builds on."},
         {"title": "The Future of European Competitiveness", "by": "Mario Draghi", "where": "European Commission, 2024",
          "url": "https://commission.europa.eu/topics/eu-competitiveness/draghi-report_en", "cover": "/_blob/bc43031307dc93c84f3fdca3256c8f87",
