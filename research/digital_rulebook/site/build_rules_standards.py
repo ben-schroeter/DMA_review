@@ -70,14 +70,14 @@ if not TOP_BARS:
 y0 = y + 26
 g.append(t(0, y0, "Share of obligations on companies that are rules, in the main act and in its implementing and delegated acts", 14, INK, "start", 600))
 X = lambda v: L + (v - 0.4) / 0.6 * (R - L)
-CMIN = 20   # laws shown when both layers have at least this many obligations on companies
+CMIN = 20   # laws shown when the main act has at least this many obligations on companies (any number in the implementing acts)
 acts = []
 for o in s["instruments"]:
     if (o["secondary"] or {}).get("n", 0) < 60 or o["main"]["n"] < 50:
         continue
     cel = name2cel[o["name"]]
     cm, cs = share(per[(cel, "main", "companies")]), share(per[(cel, "secondary", "companies")])
-    if cm["n"] >= CMIN and cs["n"] >= CMIN:
+    if cm["n"] >= CMIN and cs["n"] >= 1:
         acts.append((o["name"], cm, cs))
 acts.sort(key=lambda x: x[1]["R"])
 top = y0 + 46; RH = 27
@@ -92,12 +92,12 @@ for i, (name, cm, cs) in enumerate(acts):
     g.append(t(L - 14, y + 5, nm(name), 13.5, INK, "end"))
     if abs(b - a) > 0.012:
         g.append(f'<line x1="{X(a):.1f}" x2="{X(b) + (-7 if b > a else 7):.1f}" y1="{y}" y2="{y}" stroke="{BLUE}" stroke-width="1.8" marker-end="url(#ah)" opacity="0.8"></line>')
-    g.append(f'<circle cx="{X(a):.1f}" cy="{y}" r="6" fill="{GOLD}"><title>{name}: main act {a:.0%} ({cm["n"]} obligations on companies)</title></circle>')
-    g.append(f'<circle cx="{X(b):.1f}" cy="{y}" r="5" fill="{BLUE}"><title>{name}: implementing and delegated acts {b:.0%} ({cs["n"]} obligations on companies)</title></circle>')
+    g.append(f'<circle cx="{X(a):.1f}" cy="{y}" r="6" fill="{GOLD}"><title>{name}: main act {a:.0%}</title></circle>')
+    g.append(f'<circle cx="{X(b):.1f}" cy="{y}" r="5" fill="{BLUE}"><title>{name}: implementing and delegated acts {b:.0%}</title></circle>')
 ly = top + len(acts) * RH + 22
 g.append(f'<circle cx="{L + 6}" cy="{ly - 4}" r="6" fill="{GOLD}"></circle>' + t(L + 18, ly, "Main act", 13))
 g.append(f'<circle cx="{L + 106}" cy="{ly - 4}" r="5" fill="{BLUE}"></circle>' + t(L + 118, ly, "Its implementing and delegated acts", 13))
-g.append(t(L + 360, ly, f"Laws with at least {CMIN} obligations on companies in each layer", 12.5, MUTED))
+g.append(t(L + 360, ly, f"Laws with at least {CMIN} obligations on companies in the main act", 12.5, MUTED))
 H = ly + 12
 open("site/rules_standards.svg", "w").write(f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Share of obligations on companies that are rules, in the main act and in its implementing and delegated acts, by law">' + "".join(g) + "</svg>")
 up = sum(cs["R"] > cm["R"] for _, cm, cs in acts)
