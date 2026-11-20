@@ -117,6 +117,17 @@ for ic in os.listdir("site/static/icons"):
 open(os.path.join(OUT, "site.webmanifest"), "w").write(json.dumps({"name": "The EU Digital Rulebook", "short_name": "EU Rulebook",
     "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}],
     "theme_color": "#FAF9F5", "background_color": "#FAF9F5", "display": "browser", "start_url": "/"}, indent=1))
+# the old names also as small redirect pages, for servers without .htaccess. A name that differs from the new one only in
+# letter case (About.html / about.html) is skipped: unzipped on a Mac or Windows it would overwrite the page itself.
+STUBS = 0
+for o, n in sorted(LEGACY.items()):
+    if o.lower() == n.lower():
+        continue
+    open(os.path.join(OUT, o), "w").write(
+        f'<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>Moved</title>\n<link rel="canonical" href="{n}">\n'
+        f'<meta http-equiv="refresh" content="0; url={n}">\n<meta name="robots" content="noindex">\n'
+        f'<script>location.replace("{n}" + location.hash)</script>\n</head>\n<body><p>This page has moved to <a href="{n}">{n}</a>.</p></body>\n</html>\n')
+    STUBS += 1
 if LEGACY:   # case-sensitive match, so /about.html itself is never redirected
     open(os.path.join(OUT, ".htaccess"), "w").write(
         "# Old page names (before the lower-case rename) redirect permanently to the current pages.\n"
@@ -126,7 +137,9 @@ open(os.path.join(OUT, "README.txt"), "w").write(
     "Upload the contents of this folder to the web root of the server (for example public_html/), keeping the\n"
     "folder structure. index.html is the front page. No PHP, database or build step is needed; any web server works.\n"
     ".htaccess (a hidden file: make sure it is uploaded too) redirects the old upper-case page names, such as Rules.html,\n"
-    "to the current lower-case pages; it needs Apache with mod_alias (standard on shared hosting).\n"
+    "to the current lower-case pages; it needs Apache with mod_alias (standard on shared hosting). On other servers the old\n"
+    "names are served by small redirect pages (Rules.html and so on) included in the folder; only names that differ from\n"
+    "the new ones in letter case alone (About.html) rely on .htaccess.\n"
     "Interactive pages (Digital Acquis list, Studies library, law pages, Infographics) use dc-lite.js.\n"
     "Fonts load from Google Fonts. Regenerate with: python3 site/export_static.py (from research/digital_rulebook).\n")
 
@@ -143,7 +156,7 @@ def priority(n):
 base = args.base.rstrip("/") + "/"
 urls = []
 for n in sorted(os.listdir(OUT), key=lambda n: (n != "index.html", n in LAWNAMES, n)):
-    if not n.endswith(".html"): continue
+    if not n.endswith(".html") or n in LEGACY: continue
     loc = base if n == "index.html" else base + n
     urls.append(f"  <url><loc>{loc}</loc><lastmod>{lastmod(open(os.path.join(OUT, n)).read())}</lastmod><priority>{priority(n)}</priority></url>")
 open(os.path.join(OUT, "sitemap.xml"), "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -155,5 +168,5 @@ with zipfile.ZipFile(zpath, "w", zipfile.ZIP_DEFLATED) as z:
     for dp, _, fs in os.walk(OUT):
         for fn in fs:
             p = os.path.join(dp, fn); z.write(p, os.path.relpath(p, OUT))
-print(json.dumps({"pages": len(seen), "dynamic": len(dynamic_pages), "assets": len(used), "missing_assets": sorted(missing),
+print(json.dumps({"pages": len(seen), "legacy_redirect_pages": STUBS, "dynamic": len(dynamic_pages), "assets": len(used), "missing_assets": sorted(missing),
                   "sitemap_urls": len(urls), "zip": zpath, "zip_mb": round(os.path.getsize(zpath) / 1e6, 1)}))
