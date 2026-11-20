@@ -94,6 +94,7 @@ aco = FS["all_company_obligations"]; put("firm_micro_pct", round(100 * aco[0] / 
 pro = lambda xs: sum(x["r_prohibition"] or 0 for x in xs) / max(1, sum(x["restrictions_total"] or 0 for x in xs))
 put("prohib_since_2018", round(100 * pro([x for x in A if yr(x) >= 2018]), 1), f"{100 * pro([x for x in A if yr(x) >= 2018]):.1f}%")
 put("prohib_before_2018", round(100 * pro([x for x in A if yr(x) < 2018]), 1), f"{100 * pro([x for x in A if yr(x) < 2018]):.1f}%")
+put("prohib_before_2010", round(100 * pro([x for x in A if yr(x) < 2010]), 1), f"{100 * pro([x for x in A if yr(x) < 2010]):.1f}%")
 gw = [(x["words_legal_text"] - x["proposal_words_legal_text"]) / x["proposal_words_legal_text"] for x in both if x["proposal_words_legal_text"]]
 go = [(x["restrictions_total"] - x["proposal_restrictions_total"]) / x["proposal_restrictions_total"] for x in both]
 put("growth_words_median", round(100 * statistics.median(gw)), f"{100 * statistics.median(gw):.0f}%"); put("growth_obligations_median", round(100 * statistics.median(go)), f"{100 * statistics.median(go):.0f}%")

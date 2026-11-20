@@ -12,6 +12,16 @@
       "x": 7600,
       "y": 8500
     },
+    "Act-700-mhz-decision.dc.html": {
+      "expand": "fill",
+      "h": 3399,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: 700 MHz Decision",
+      "w": 1440,
+      "x": 0,
+      "y": 0
+    },
     "Act-administrative-cooperation-in-taxation-dac.dc.html": {
       "expand": "fill",
       "h": 4846,
@@ -22,6 +32,16 @@
       "x": 1520,
       "y": 0
     },
+    "Act-adr-directive.dc.html": {
+      "expand": "fill",
+      "h": 3583,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: ADR Directive",
+      "w": 1440,
+      "x": 3040,
+      "y": 0
+    },
     "Act-anti-money-laundering-regulation.dc.html": {
       "expand": "fill",
       "h": 4536,
@@ -30,6 +50,16 @@
       "title": "Instrument: Anti-Money Laundering Regulation",
       "w": 1440,
       "x": 4560,
+      "y": 0
+    },
+    "Act-antitrust-procedure-regulation.dc.html": {
+      "expand": "fill",
+      "h": 4535,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Antitrust Procedure Regulation",
+      "w": 1440,
+      "x": 6080,
       "y": 0
     },
     "Act-artificial-intelligence-act.dc.html": {
@@ -62,6 +92,16 @@
       "x": 10640,
       "y": 0
     },
+    "Act-child-sexual-abuse-directive.dc.html": {
+      "expand": "fill",
+      "h": 3608,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Child Sexual Abuse Directive",
+      "w": 1440,
+      "x": 12160,
+      "y": 0
+    },
     "Act-child-sexual-abuse-regulation-csar.dc.html": {
       "expand": "fill",
       "h": 4258,
@@ -71,6 +111,16 @@
       "w": 1440,
       "x": 13680,
       "y": 0
+    },
+    "Act-collective-rights-management-directive.dc.html": {
+      "expand": "fill",
+      "h": 2893,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Collective Rights Management Directive",
+      "w": 1440,
+      "x": 0,
+      "y": 5320
     },
     "Act-common-vat-system-directive.dc.html": {
       "expand": "fill",
@@ -100,6 +150,26 @@
       "title": "Instrument: Company Law Directive",
       "w": 1440,
       "x": 4560,
+      "y": 5320
+    },
+    "Act-conditional-access-directive.dc.html": {
+      "expand": "fill",
+      "h": 2808,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Conditional Access Directive",
+      "w": 1440,
+      "x": 6080,
+      "y": 5320
+    },
+    "Act-consumer-credit-directive-ii.dc.html": {
+      "expand": "fill",
+      "h": 3472,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Consumer Credit Directive II",
+      "w": 1440,
+      "x": 7600,
       "y": 5320
     },
     "Act-consumer-protection-cooperation-regulation.dc.html": {
@@ -141,6 +211,16 @@
       "w": 1440,
       "x": 13680,
       "y": 5320
+    },
+    "Act-cybercrime-directive.dc.html": {
+      "expand": "fill",
+      "h": 3438,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Cybercrime Directive",
+      "w": 1440,
+      "x": 0,
+      "y": 10640
     },
     "Act-cybersecurity-act.dc.html": {
       "expand": "fill",
@@ -262,6 +342,16 @@
       "x": 3040,
       "y": 15960
     },
+    "Act-dual-use-regulation.dc.html": {
+      "expand": "fill",
+      "h": 4448,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Dual-Use Regulation",
+      "w": 1440,
+      "x": 4560,
+      "y": 15960
+    },
     "Act-e-commerce-directive.dc.html": {
       "expand": "fill",
       "h": 4274,
@@ -290,6 +380,16 @@
       "title": "Instrument: E-invoicing Directive",
       "w": 1440,
       "x": 9120,
+      "y": 15960
+    },
+    "Act-e-money-directive.dc.html": {
+      "expand": "fill",
+      "h": 3436,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: E-money Directive",
+      "w": 1440,
+      "x": 10640,
       "y": 15960
     },
     "Act-ec-merger-regulation.dc.html": {
@@ -362,6 +462,16 @@
       "x": 6080,
       "y": 21280
     },
+    "Act-european-accessibility-act.dc.html": {
+      "expand": "fill",
+      "h": 3470,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: European Accessibility Act",
+      "w": 1440,
+      "x": 7600,
+      "y": 21280
+    },
     "Act-european-chips-act.dc.html": {
       "expand": "fill",
       "h": 4304,
@@ -402,6 +512,16 @@
       "x": 13680,
       "y": 21280
     },
+    "Act-european-single-access-point-esap.dc.html": {
+      "expand": "fill",
+      "h": 3546,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: European Single Access Point (ESAP)",
+      "w": 1440,
+      "x": 0,
+      "y": 26600
+    },
     "Act-european-standardisation-regulation.dc.html": {
       "expand": "fill",
       "h": 4592,
@@ -440,6 +560,16 @@
       "title": "Instrument: Foreign Subsidies Regulation",
       "w": 1440,
       "x": 6080,
+      "y": 26600
+    },
+    "Act-fourth-anti-money-laundering-directive.dc.html": {
+      "expand": "fill",
+      "h": 4161,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Fourth Anti-Money Laundering Directive",
+      "w": 1440,
+      "x": 7600,
       "y": 26600
     },
     "Act-free-flow-of-non-personal-data-regulation.dc.html": {
@@ -522,6 +652,16 @@
       "x": 4560,
       "y": 31920
     },
+    "Act-in-vitro-diagnostic-medical-devices-regulation.dc.html": {
+      "expand": "fill",
+      "h": 4184,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: In Vitro Diagnostic Medical Devices Regulation",
+      "w": 1440,
+      "x": 6080,
+      "y": 31920
+    },
     "Act-information-society-infosoc-directive.dc.html": {
       "expand": "fill",
       "h": 4506,
@@ -562,6 +702,16 @@
       "x": 12160,
       "y": 31920
     },
+    "Act-low-voltage-directive.dc.html": {
+      "expand": "fill",
+      "h": 3076,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Low Voltage Directive",
+      "w": 1440,
+      "x": 13680,
+      "y": 31920
+    },
     "Act-machinery-regulation.dc.html": {
       "expand": "fill",
       "h": 3998,
@@ -590,6 +740,16 @@
       "title": "Instrument: Markets in Crypto-Assets (MiCA)",
       "w": 1440,
       "x": 3040,
+      "y": 37240
+    },
+    "Act-medical-devices-regulation.dc.html": {
+      "expand": "fill",
+      "h": 4926,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Medical Devices Regulation",
+      "w": 1440,
+      "x": 4560,
       "y": 37240
     },
     "Act-nis-2-directive.dc.html": {
@@ -742,6 +902,26 @@
       "x": 12160,
       "y": 42560
     },
+    "Act-radio-spectrum-policy-programme.dc.html": {
+      "expand": "fill",
+      "h": 3499,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Radio Spectrum Policy Programme",
+      "w": 1440,
+      "x": 13680,
+      "y": 42560
+    },
+    "Act-representative-actions-directive.dc.html": {
+      "expand": "fill",
+      "h": 3133,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Representative Actions Directive",
+      "w": 1440,
+      "x": 0,
+      "y": 47880
+    },
     "Act-right-to-repair-directive.dc.html": {
       "expand": "fill",
       "h": 3983,
@@ -760,6 +940,16 @@
       "title": "Instrument: Roaming Regulation",
       "w": 1440,
       "x": 3040,
+      "y": 47880
+    },
+    "Act-rohs-directive.dc.html": {
+      "expand": "fill",
+      "h": 3950,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: RoHS Directive",
+      "w": 1440,
+      "x": 4560,
       "y": 47880
     },
     "Act-sale-of-goods-directive.dc.html": {
@@ -792,6 +982,26 @@
       "x": 9120,
       "y": 47880
     },
+    "Act-sepa-regulation.dc.html": {
+      "expand": "fill",
+      "h": 3655,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: SEPA Regulation",
+      "w": 1440,
+      "x": 10640,
+      "y": 47880
+    },
+    "Act-services-directive.dc.html": {
+      "expand": "fill",
+      "h": 3676,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Services Directive",
+      "w": 1440,
+      "x": 12160,
+      "y": 47880
+    },
     "Act-short-term-rental-data-regulation.dc.html": {
       "expand": "fill",
       "h": 3644,
@@ -810,6 +1020,16 @@
       "title": "Instrument: Single Digital Gateway Regulation",
       "w": 1440,
       "x": 0,
+      "y": 53200
+    },
+    "Act-software-directive.dc.html": {
+      "expand": "fill",
+      "h": 2828,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Software Directive",
+      "w": 1440,
+      "x": 1520,
       "y": 53200
     },
     "Act-technology-transfer-block-exemption.dc.html": {
@@ -872,6 +1092,26 @@
       "x": 10640,
       "y": 53200
     },
+    "Act-transfer-of-funds-regulation.dc.html": {
+      "expand": "fill",
+      "h": 2797,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Transfer of Funds Regulation",
+      "w": 1440,
+      "x": 12160,
+      "y": 53200
+    },
+    "Act-tris-directive.dc.html": {
+      "expand": "fill",
+      "h": 3450,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: TRIS Directive",
+      "w": 1440,
+      "x": 13680,
+      "y": 53200
+    },
     "Act-unfair-commercial-practices-directive.dc.html": {
       "expand": "fill",
       "h": 4760,
@@ -902,6 +1142,16 @@
       "x": 3040,
       "y": 58520
     },
+    "Act-vehicle-general-safety-regulation.dc.html": {
+      "expand": "fill",
+      "h": 4112,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: Vehicle General Safety Regulation",
+      "w": 1440,
+      "x": 4560,
+      "y": 58520
+    },
     "Act-vertical-block-exemption-regulation.dc.html": {
       "expand": "fill",
       "h": 4061,
@@ -920,6 +1170,16 @@
       "title": "Instrument: Violence Against Women Directive",
       "w": 1440,
       "x": 7600,
+      "y": 58520
+    },
+    "Act-weee-directive.dc.html": {
+      "expand": "fill",
+      "h": 4500,
+      "is_interactive": true,
+      "page": "instruments",
+      "title": "Instrument: WEEE Directive",
+      "w": 1440,
+      "x": 9120,
       "y": 58520
     },
     "CompanyTypes.dc.html": {
@@ -1142,6 +1402,12 @@
       "x": 6080,
       "y": 2200
     },
+    "Fc-medical-devices-revision.dc.html": {
+      "h": 2607,
+      "w": 1440,
+      "x": 16720,
+      "y": 0
+    },
     "Fc-multimodal-digital-mobility.dc.html": {
       "expand": "fill",
       "h": 1701,
@@ -1357,7 +1623,7 @@
     },
     "Rules.dc.html": {
       "expand": "fill",
-      "h": 7957,
+      "h": 7980,
       "is_interactive": true,
       "page": "site",
       "title": "Findings: quantification",
@@ -1377,7 +1643,7 @@
     },
     "UsComparison.dc.html": {
       "expand": "fill",
-      "h": 7228,
+      "h": 7196,
       "is_interactive": true,
       "page": "site",
       "title": "Findings: EU vs US",
@@ -1394,266 +1660,6 @@
       "w": 1440,
       "x": 1520,
       "y": 0
-    },
-    "Act-700-mhz-decision.dc.html": {
-      "expand": "fill",
-      "h": 3399,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: 700 MHz Decision",
-      "w": 1440,
-      "x": 0,
-      "y": 0
-    },
-    "Act-adr-directive.dc.html": {
-      "expand": "fill",
-      "h": 3583,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: ADR Directive",
-      "w": 1440,
-      "x": 3040,
-      "y": 0
-    },
-    "Act-child-sexual-abuse-directive.dc.html": {
-      "expand": "fill",
-      "h": 3608,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Child Sexual Abuse Directive",
-      "w": 1440,
-      "x": 12160,
-      "y": 0
-    },
-    "Act-collective-rights-management-directive.dc.html": {
-      "expand": "fill",
-      "h": 2893,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Collective Rights Management Directive",
-      "w": 1440,
-      "x": 0,
-      "y": 5320
-    },
-    "Act-conditional-access-directive.dc.html": {
-      "expand": "fill",
-      "h": 2808,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Conditional Access Directive",
-      "w": 1440,
-      "x": 6080,
-      "y": 5320
-    },
-    "Act-consumer-credit-directive-ii.dc.html": {
-      "expand": "fill",
-      "h": 3472,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Consumer Credit Directive II",
-      "w": 1440,
-      "x": 7600,
-      "y": 5320
-    },
-    "Act-cybercrime-directive.dc.html": {
-      "expand": "fill",
-      "h": 3438,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Cybercrime Directive",
-      "w": 1440,
-      "x": 0,
-      "y": 10640
-    },
-    "Act-e-money-directive.dc.html": {
-      "expand": "fill",
-      "h": 3436,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: E-money Directive",
-      "w": 1440,
-      "x": 10640,
-      "y": 15960
-    },
-    "Act-european-accessibility-act.dc.html": {
-      "expand": "fill",
-      "h": 3470,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: European Accessibility Act",
-      "w": 1440,
-      "x": 7600,
-      "y": 21280
-    },
-    "Act-european-single-access-point-esap.dc.html": {
-      "expand": "fill",
-      "h": 3546,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: European Single Access Point (ESAP)",
-      "w": 1440,
-      "x": 0,
-      "y": 26600
-    },
-    "Act-radio-spectrum-policy-programme.dc.html": {
-      "expand": "fill",
-      "h": 3499,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Radio Spectrum Policy Programme",
-      "w": 1440,
-      "x": 13680,
-      "y": 42560
-    },
-    "Act-representative-actions-directive.dc.html": {
-      "expand": "fill",
-      "h": 3133,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Representative Actions Directive",
-      "w": 1440,
-      "x": 0,
-      "y": 47880
-    },
-    "Act-sepa-regulation.dc.html": {
-      "expand": "fill",
-      "h": 3655,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: SEPA Regulation",
-      "w": 1440,
-      "x": 10640,
-      "y": 47880
-    },
-    "Act-software-directive.dc.html": {
-      "expand": "fill",
-      "h": 2828,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Software Directive",
-      "w": 1440,
-      "x": 1520,
-      "y": 53200
-    },
-    "Act-transfer-of-funds-regulation.dc.html": {
-      "expand": "fill",
-      "h": 2797,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Transfer of Funds Regulation",
-      "w": 1440,
-      "x": 12160,
-      "y": 53200
-    },
-    "Act-tris-directive.dc.html": {
-      "expand": "fill",
-      "h": 3450,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: TRIS Directive",
-      "w": 1440,
-      "x": 13680,
-      "y": 53200
-    },
-    "Act-antitrust-procedure-regulation.dc.html": {
-      "expand": "fill",
-      "h": 4535,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Antitrust Procedure Regulation",
-      "w": 1440,
-      "x": 6080,
-      "y": 0
-    },
-    "Act-dual-use-regulation.dc.html": {
-      "expand": "fill",
-      "h": 4448,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Dual-Use Regulation",
-      "w": 1440,
-      "x": 4560,
-      "y": 15960
-    },
-    "Act-fourth-anti-money-laundering-directive.dc.html": {
-      "expand": "fill",
-      "h": 4161,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Fourth Anti-Money Laundering Directive",
-      "w": 1440,
-      "x": 7600,
-      "y": 26600
-    },
-    "Act-in-vitro-diagnostic-medical-devices-regulation.dc.html": {
-      "expand": "fill",
-      "h": 4184,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: In Vitro Diagnostic Medical Devices Regulation",
-      "w": 1440,
-      "x": 6080,
-      "y": 31920
-    },
-    "Act-low-voltage-directive.dc.html": {
-      "expand": "fill",
-      "h": 3076,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Low Voltage Directive",
-      "w": 1440,
-      "x": 13680,
-      "y": 31920
-    },
-    "Act-medical-devices-regulation.dc.html": {
-      "expand": "fill",
-      "h": 4926,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Medical Devices Regulation",
-      "w": 1440,
-      "x": 4560,
-      "y": 37240
-    },
-    "Act-rohs-directive.dc.html": {
-      "expand": "fill",
-      "h": 3950,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: RoHS Directive",
-      "w": 1440,
-      "x": 4560,
-      "y": 47880
-    },
-    "Act-services-directive.dc.html": {
-      "expand": "fill",
-      "h": 3676,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Services Directive",
-      "w": 1440,
-      "x": 12160,
-      "y": 47880
-    },
-    "Act-vehicle-general-safety-regulation.dc.html": {
-      "expand": "fill",
-      "h": 4112,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: Vehicle General Safety Regulation",
-      "w": 1440,
-      "x": 4560,
-      "y": 58520
-    },
-    "Act-weee-directive.dc.html": {
-      "expand": "fill",
-      "h": 4500,
-      "is_interactive": true,
-      "page": "instruments",
-      "title": "Instrument: WEEE Directive",
-      "w": 1440,
-      "x": 9120,
-      "y": 58520
     }
   },
   "createdOnFiles": {
@@ -1832,7 +1838,8 @@
     "Fc-political-ads-review.dc.html",
     "Fc-digital-services-tax.dc.html",
     "Fc-significant-digital-presence.dc.html",
-    "Fc-vat-imported-distance-sales.dc.html"
+    "Fc-vat-imported-distance-sales.dc.html",
+    "Fc-medical-devices-revision.dc.html"
   ],
   "pages": [
     {

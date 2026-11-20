@@ -391,7 +391,7 @@ ly = BOT0 + BOTH + 52
 COLW = [0, 260, 500, 730]            # legend columns: row 2 sits under row 1
 for i, (name, _, col) in enumerate(GROUPS):
     lx, yy = L + COLW[i % 4], ly + (i // 4) * 24
-    b.append(f'<rect x="{lx}" y="{yy - 10}" width="12" height="12" rx="2" fill="{col}"></rect><text x="{lx + 18}" y="{yy}" {F} font-size="13.5" fill="{INK2}">{name}</text>')
+    b.append(f'<rect x="{lx}" y="{yy - 10}" width="12" height="12" rx="2" fill="{col}"></rect><text x="{lx + 18}" y="{yy}" {F} font-size="13.5" fill="{INK2}">{name.replace('&', '&amp;')}</text>')
 ly += 24 * ((len(GROUPS) - 1) // 4)
 since = [sum(v) for yr, v in peryear.items() if yr >= 2020]
 charts["acts_combined"] = (f'<svg viewBox="0 0 {WC} {ly + 16}" width="100%" role="img" aria-label="Top: cumulative adopted regulations, directives and implementing and delegated acts '

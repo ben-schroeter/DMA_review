@@ -37,7 +37,8 @@ SHORT = {"Markets in Crypto-Assets (MiCA)": "MiCA", "Digital Operational Resilie
          "Payment Services Directive 2 (PSD2)": "PSD2", "Common VAT system Directive": "VAT Directive", "Digitalisation of judicial cooperation Regulation": "Judicial digitalisation",
          "Ecodesign for Sustainable Products Regulation": "Ecodesign Regulation", "European Electronic Communications Code": "Electronic Communications Code",
          "Artificial Intelligence Act": "AI Act", "NIS 2 Directive": "NIS2", "European Health Data Space": "Health Data Space",
-         "Administrative cooperation in taxation (DAC)": "Tax cooperation (DAC)"}
+         "Administrative cooperation in taxation (DAC)": "Tax cooperation (DAC)",
+         "In Vitro Diagnostic Medical Devices Regulation": "In vitro diagnostics Regulation", "Fourth Anti-Money Laundering Directive": "4th Anti-Money Laundering Dir."}
 nm = lambda n: "EU information systems" if n.startswith("Interoperability of EU") else SHORT.get(n, n.split(" (")[0])
 W, L, R = 1000, 270, 930
 g = []
@@ -61,6 +62,10 @@ for grp, glab in (("all", "All obligations"), ("companies", "Obligations on comp
             x += w
         y += 38
     y += 8
+# the four 100% bars above were taken off the Rules vs Standards page (November 2026): keep only the per-act chart
+TOP_BARS = False
+if not TOP_BARS:
+    g, y = [], -6
 # bottom: per act, share of rules, all (light) and companies (bold)
 y0 = y + 26
 g.append(t(0, y0, "Share of obligations that are rules, in the main act and in its implementing and delegated acts", 14, INK, "start", 600))
