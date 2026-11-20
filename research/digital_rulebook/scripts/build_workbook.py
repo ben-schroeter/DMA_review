@@ -15,7 +15,7 @@ sec = json.load(open(D + "secondary_acts.json"))
 web = list(csv.DictReader(open(D + "guidance_web_supplement.csv")))
 val = json.load(open(D + "validation_results.json"))
 pol = json.load(open(D + "policy_area.json"))
-_rg = json.load(open(D + "policy_area_regroup.json"))   # our grouping, starting from Zenner & Marcus (2025)
+_rg = json.load(open(D + "policy_area_regroup.json"))   # our grouping, starting from Zenner & Marcus (2026)
 for _n, _v in pol.items():
     if _v.get("policy_area"):
         _v["policy_area_zm"] = _v["policy_area"]

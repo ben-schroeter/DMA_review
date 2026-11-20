@@ -69,6 +69,9 @@ print("pairs", len(P), "median all", round(statistics.median(ra), 2), "median co
 print("means all", round(statistics.mean(x["eu_total"] for x in P)), round(statistics.mean(x["us_total"] for x in P)),
       "companies", round(statistics.mean(x["eu_private"] for x in P)), round(statistics.mean(x["us_private"] for x in P)))
 import sys as _s; _s.path.insert(0, "site"); from counts import record
+_all = json.load(open("data/us_map/us_private.json")); _wd = {1: "one", 2: "two", 3: "three", 4: "four"}
+record("us_pairs_measured", len(_all), {8: "Eight", 9: "Nine", 10: "Ten", 11: "Eleven", 12: "Twelve"}.get(len(_all), str(len(_all))))
+record("us_pairs_public", len(_all) - len(P), _wd.get(len(_all) - len(P), str(len(_all) - len(P))))
 record("us_pairs_n", len(P), {6: "six", 7: "seven", 8: "eight", 9: "nine", 10: "ten"}.get(len(P), str(len(P))))
 _w = lambda n: {0: "none", 1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 7: "seven", 8: "eight"}.get(n, str(n))
 _more = sum(x["eu_total"] > x["us_total"] for x in P); _same = sum(x["eu_total"] == x["us_total"] for x in P)

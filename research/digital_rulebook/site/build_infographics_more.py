@@ -135,7 +135,7 @@ _fr = n_new / len(inst)
 _head = ("More than half of" if _fr > 0.5 else "Almost half of" if _fr >= 0.45 else "Nearly two in five" if _fr >= 0.36 else "About a third of" if _fr >= 0.3 else f"{n_new} of {len(inst)}")
 frame([f"{_head} EU digital laws", "were adopted since 2020"],
       ["Adopted EU digital acts by policy area, before 2020 and since"],
-      [f"Policy areas regrouped from Zenner &amp; Marcus (2025). The {N_LAWS} adopted EU digital acts in our database, by year of adoption;",
+      [f"Policy areas regrouped from Zenner &amp; Marcus (2026). The {N_LAWS} adopted EU digital acts in our database, by year of adoption;",
        "numbers in the bars: acts since 2020 (gold) and before 2020 (light gold). As of November 2026."],
       b, f"{_head} EU digital laws were adopted since 2020: {n_new} of {len(inst)}. By policy area: "
          + "; ".join(f"{a} {o + n} ({n} since 2020)" for a, (o, n) in pa_rows), "policy_areas")

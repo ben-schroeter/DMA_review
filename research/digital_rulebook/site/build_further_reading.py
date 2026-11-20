@@ -53,7 +53,7 @@ READING = {
         {"title": "The Constitution of Innovation", "by": "Luis Garicano, Bengt Holmström and Nicolas Petit", "where": "Academic paper",
          "url": "https://constitutionofinnovation.eu/", "cover": "/_blob/3e006eac1ba7fdad17c7d8bbb358a278",
          "note": "Why Europe struggles to innovate, and a proposal for a new constitutional framework for its economy."},
-        {"title": "A dataset of EU legal and policy instruments for the digital world", "by": "Kai Zenner, J. Scott Marcus and Kamil Sekut", "where": "CEPS, 2025", "cover": "/_blob/28ab552dbecc472bc5a99170050793d5",
+        {"title": "A dataset of EU legal and policy instruments for the digital world", "by": "Kai Zenner, J. Scott Marcus and Kamil Sekut", "where": "CEPS, 2026", "cover": "/_blob/28ab552dbecc472bc5a99170050793d5",
          "url": "https://www.ceps.eu/ceps-publications/a-dataset-of-eu-legal-and-policy-instruments-for-the-digital-world/",
          "note": "The inventory of 115 EU digital instruments that this site's list of laws builds on."},
         {"title": "The Future of European Competitiveness", "by": "Mario Draghi", "where": "European Commission, 2024",

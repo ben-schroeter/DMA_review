@@ -65,7 +65,7 @@ P_ALL = json.load(open("site/forthcoming_list.json"))
 P = [x for x in P_ALL if x["stage"] != "withdrawn"]
 put("forthcoming_withdrawn", sum(x["stage"] == "withdrawn" for x in P_ALL))
 _ia = collections.Counter(x.get("impact_assessment") for x in P if x.get("impact_assessment"))
-put("fc_ia_total", sum(_ia.values())); put("fc_ia_full", _ia["full"]); put("fc_ia_without", _ia["analysis"] + _ia["swd"])
+put("fc_ia_total", sum(_ia.values())); put("fc_ia_full", _ia["full"]); put("fc_ia_without", sum(_ia.values()) - _ia["full"])
 c = collections.Counter(x["stage"] for x in P)
 put("forthcoming_total", len(P)); put("forthcoming_agreed", c["agreed"]); put("forthcoming_negotiation", c["proposed"]); put("forthcoming_announced", c["announced"])
 # evidence map: laws with after-the-fact evidence / with a causal study, per kind of effect (Evidence page table)
@@ -172,7 +172,14 @@ _top = list(_rp["top_instruments"].items())[:3]
 _short = {"Markets in Crypto-Assets (MiCA)": "The Markets in Crypto-Assets Regulation", "General Data Protection Regulation": "the GDPR", "Digital Operational Resilience Act (DORA)": "the Digital Operational Resilience Act"}
 for i, (n, v) in enumerate(_top, 1):
     put(f"rep_top{i}_name", n, _short.get(n, ("the " if i > 1 else "The ") + n)); put(f"rep_top{i}", v)
-put("comm_guidance", F["db_secondary_guidance"]["value"] + sum(1 for x in sheet("guidance_web") if x["parent_row_id"] in Aid))
+put("comm_guidance_web", sum(1 for x in sheet("guidance_web") if x["parent_row_id"] in Aid))
+put("comm_guidance", F["db_secondary_guidance"]["value"] + F["comm_guidance_web"]["value"])
+# third literature search (November 2026): the ten laws added that month (scripts/lit_scope_2026_11b.py, merged by rec_scope_2026_11b.py)
+import importlib, re, sys as _sys3; _sys3.path.insert(0, "scripts")
+_l3 = importlib.import_module("lit_scope_2026_11b").LIT; _d3 = __import__("ast").literal_eval(re.search(r"^DROP = (\{.*?\})", open("scripts/rec_scope_2026_11b.py").read(), re.M).group(1))   # read, not imported: importing writes the records
+_w3 = {8: "eight", 9: "nine", 10: "ten", 11: "eleven", 12: "twelve"}
+put("lit_round3_laws", len(_l3), _w3.get(len(_l3), str(len(_l3))))
+put("lit_round3_sources", len({l["id"] for v in _l3.values() for l in v if l["id"] not in _d3}))
 put("db_secondary_items", s([{"n": F[k]["value"]} for k in ("implementing_acts", "delegated_acts", "db_secondary_guidance", "db_secondary_other")], "n"))
 json.dump(F, open("site/facts.json", "w"), indent=1, ensure_ascii=False)
 print(len(F), {k: v["text"] for k, v in F.items()})

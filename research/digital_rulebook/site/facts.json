@@ -252,8 +252,8 @@
   "text": "16"
  },
  "fc_ia_without": {
-  "value": 5,
-  "text": "5"
+  "value": 8,
+  "text": "8"
  },
  "forthcoming_total": {
   "value": 31,
@@ -1313,6 +1313,14 @@
   "value": 9,
   "text": "9%"
  },
+ "us_pairs_measured": {
+  "value": 10,
+  "text": "Ten"
+ },
+ "us_pairs_public": {
+  "value": 2,
+  "text": "two"
+ },
  "ia_exante_sources": {
   "value": 87,
   "text": "87"
@@ -1441,9 +1449,21 @@
   "value": 176,
   "text": "176"
  },
+ "comm_guidance_web": {
+  "value": 6,
+  "text": "6"
+ },
  "comm_guidance": {
   "value": 53,
   "text": "53"
+ },
+ "lit_round3_laws": {
+  "value": 10,
+  "text": "ten"
+ },
+ "lit_round3_sources": {
+  "value": 52,
+  "text": "52"
  },
  "db_secondary_items": {
   "value": 888,

@@ -294,6 +294,6 @@ b += callout(640, 262, 504, f"×{T1 / T0:.1f}", [f"{T0:,} reporting duties on co
 frame("reporting_growth", ["Companies’ reporting duties have", "grown in every policy area"],
       ["Reporting obligations on companies, by policy area, start of 2018 and November 2026"],
       ["Reports, notifications, disclosures, record-keeping, information on request and registration that companies must provide, in the main laws",
-       "and their implementing and delegated acts; policy areas regrouped from Zenner &amp; Marcus (2025). Right column: growth since the start of 2018."],
+       "and their implementing and delegated acts; policy areas regrouped from Zenner &amp; Marcus (2026). Right column: growth since the start of 2018."],
       b, f"Companies' reporting duties have grown in every policy area, from {T0:,} at the start of 2018 to {T1:,} in November 2026: "
          + "; ".join(f"{a} {then[a]} to {now[a]}" for a in areas), "The EU Digital Rulebook (2026)")

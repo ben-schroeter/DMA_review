@@ -77,7 +77,7 @@ g.append(t(cx + 190, cy + 76, f"across all areas: {sum(then.values()):,} at the"
 g.append(t(cx + 190, cy + 102, f"start of 2018, {sum(now.values()):,} now", 20, INK2))
 # footer
 g.append(f'<line x1="56" x2="{W - 56}" y1="1066" y2="1066" stroke="{LINE}"></line>')
-for i, line in enumerate(("Policy areas regrouped from Zenner &amp; Marcus (2025). Automated count of obligations naming a company as the one who must act, in the",
+for i, line in enumerate(("Policy areas regrouped from Zenner &amp; Marcus (2026). Automated count of obligations naming a company as the one who must act, in the",
                           f"{N_LAWS} adopted EU digital acts and their {N_SEC} implementing and delegated acts; “new”: no such obligations before 2018. Counts measure",
                           "the number of rules, not their cost. Acts repealed before 2018 are not in the inventory, so earlier totals are a lower bound.")):
     g.append(t(56, 1100 + 24 * i, line, 16, MUTED))
