@@ -17,11 +17,11 @@ F = [
  dict(id="psr", name="Payment Services Regulation (PSR)", stage="agreed", area="Finance", row=99, proc="2023/0210(COD)",
       what="Directly applicable rules for payment services: fraud prevention, IBAN checks, open banking access.",
       track=["Jun 2023", "Apr 2024", "Jun 2025", "2025", "Apr 2026"], target="—",
-      latest="Agreed with Council in November 2025; Parliament's committee approved the text in May 2026; plenary vote indicatively 14 December 2026."),
+      latest="Agreed with Council in November 2025. Parliament voted its first reading in April 2024, so the deal is closed at second reading: the Council published its first-reading position, the agreed text, on 5 November 2026, and Parliament's second-reading vote is indicatively set for 14 December 2026."),
  dict(id="psd3", name="Payment Services Directive 3 (PSD3)", stage="agreed", area="Finance", row=100, proc="2023/0209(COD)",
       what="Licensing and supervision of payment and e-money institutions.",
       track=["Jun 2023", "Apr 2024", "Jun 2025", "2025", "Apr 2026"], target="—",
-      latest="Agreed together with the PSR; plenary vote indicatively 14 December 2026."),
+      latest="Agreed together with the PSR; the Council published its first-reading position on 5 November 2026, and Parliament's second-reading vote is indicatively set for 14 December 2026."),
  # --- proposed, in negotiation
  dict(id="digital-omnibus", name="Digital Omnibus (data, privacy, cybersecurity)", stage="proposed", area="Data & Privacy", proc="COM(2025) 837",
       what="Amends the GDPR, ePrivacy rules, the Data Act and incident reporting to cut compliance costs.",
@@ -86,7 +86,7 @@ F = [
  dict(id="space-act", name="EU Space Act", stage="proposed", area="Connectivity & Digital Infrastructure", row=107, proc="COM(2025) 335",
       what="Common rules on safety, resilience and sustainability for space operators in the EU.",
       track=["Jun 2025", None, None, None, None], target="—",
-      latest="Parliament committee vote moved to November 2026; no Council general approach yet."),
+      latest="Parliament's Industry committee (ITRE, rapporteur Elena Donazzan) adopted its report on 19 November 2026 and decided to open negotiations with the Council."),
  dict(id="digital-services-tax", name="Digital services tax", stage="proposed", area="Finance", row=None, proc="2018/0073(CNS)",
       what="An interim 3% tax on revenues from online advertising, digital intermediation and the sale of user data, for large digital companies.",
       track=["Mar 2018", "Dec 2018", None, None, None], target="—",
@@ -106,11 +106,11 @@ F = [
  dict(id="csa-directive", name="Child Sexual Abuse Directive (recast)", stage="agreed", area="Data & Privacy", row=105, proc="2024/0035(COD)",
       what="Updates criminal-law definitions and penalties, including for AI-generated abuse material and livestreamed abuse.",
       track=["Feb 2024", "", "", "", "Jun 2026"], target="—",
-      latest="Provisional agreement on 22 June 2026; plenary vote indicatively 14 December 2026."),
+      latest="Provisional agreement on 22 June 2026, approved by Parliament's committee on 4 November 2026; plenary vote indicatively 14 December 2026."),
  dict(id="omnibus-iv", name="Omnibus IV (small mid-caps and digital product compliance)", stage="agreed", area="Competition & Single Market", proc="COM(2025) 501",
       what="Extends SME relief to small mid-caps, narrows the GDPR record-keeping duty and moves product compliance documents to digital.",
       track=["May 2025", "", "", "", "Jun 2026"], target="End 2026",
-      latest="Provisional agreement in June 2026, approved by Parliament's committees in July; plenary vote indicatively 23 November 2026."),
+      latest="Provisional agreement in June 2026, approved by Parliament's committees in July; plenary vote scheduled for 24 November 2026."),
  dict(id="digital-fairness-act", name="Digital Fairness Act", stage="proposed", area="E-commerce & Consumer Protection", proc="2026/0356(COD)",
       what="Turns the Unfair Commercial Practices Directive into a regulation and adds rules on dark patterns, addictive design, personalised ads and prices, influencer marketing and subscriptions.",
       track=["Nov 2026", None, None, None, None], target="—",
@@ -255,7 +255,9 @@ def com_docs(fid):
             out.append((mon(pr[0][0]) if pr else "", f"Commission proposal: {d.get('title', '')}", re.sub(r"\)0*", ") ", c), DOC_URL.get(c) or EUR(celex(c, "PC"))))
         sw = d.get("swd", [])
         if sw:
-            out.append(("", "Staff working documents: impact assessment or supporting analysis", ", ".join(re.sub(r"\)0*", ") ", x) for x in sw), DOC_URL.get(sw[0]) or EUR(celex(sw[0], "SC"))))
+            ia = [x for x in sw if SWD.get(swd_ref(x), {}).get("type") == "IMPACT_ASSESS"]
+            main = ia[0] if ia else sw[0]
+            out.append(("", "Staff working documents: impact assessment or supporting analysis", ", ".join(re.sub(r"\)0*", ") ", x) for x in sw), DOC_URL.get(main) or EUR(celex(main, "SC"))))
     return out
 def omnibus_html(fid):
     o = OMNIBUS.get(fid)

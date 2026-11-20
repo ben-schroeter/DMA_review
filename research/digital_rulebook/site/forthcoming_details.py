@@ -170,7 +170,7 @@ D = {
           "Digital-by-default compliance documents and declarations of conformity in product laws.",
           "Common technical specifications when harmonised standards are late."],
     changes=[("General Data Protection Regulation", "record-keeping duty narrowed (Article 30)", 20)],
-    latest="A provisional agreement was reported on 9 June 2026, reportedly raising the small mid-cap threshold to fewer than 1,000 employees for the GDPR change. Parliament's plenary vote is indicatively set for 23 November 2026.",
+    latest="A provisional agreement was reported on 9 June 2026, reportedly raising the small mid-cap threshold to fewer than 1,000 employees for the GDPR change. Parliament's plenary vote is scheduled for 24 November 2026.",
     stage_override="agreed", date="May 2025", ref="COM(2025) 501"),
  "smbpa": dict(
     intro="Planned law to stop new national barriers before they arise, by screening draft national measures and requiring member states to check them against EU law.",

@@ -13,7 +13,7 @@
   "agreement": "Nov 2025",
   "expected_proposal": "",
   "target_for_agreement": "—",
-  "latest": "Agreed with Council in November 2025; Parliament's committee approved the text in May 2026; plenary vote indicatively 14 December 2026.",
+  "latest": "Agreed with Council in November 2025. Parliament voted its first reading in April 2024, so the deal is closed at second reading: the Council published its first-reading position, the agreed text, on 5 November 2026, and Parliament's second-reading vote is indicatively set for 14 December 2026.",
   "page": "Act-payment-services-regulation-psr.dc.html",
   "impact_assessment": "full",
   "impact_assessment_docs": [
@@ -37,7 +37,7 @@
   "agreement": "Nov 2025",
   "expected_proposal": "",
   "target_for_agreement": "—",
-  "latest": "Agreed together with the PSR; plenary vote indicatively 14 December 2026.",
+  "latest": "Agreed together with the PSR; the Council published its first-reading position on 5 November 2026, and Parliament's second-reading vote is indicatively set for 14 December 2026.",
   "page": "Act-payment-services-directive-3-psd3.dc.html",
   "impact_assessment": "full",
   "impact_assessment_docs": [
@@ -183,13 +183,9 @@
   "target_for_agreement": "End 2026",
   "latest": "In committee in Parliament and in Council working party.",
   "page": "Fc-cybersecurity-act-2.dc.html",
-  "impact_assessment": "full",
-  "impact_assessment_docs": [
-   "SWD(2026) 11"
-  ],
-  "impact_assessment_urls": [
-   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026SC0011"
-  ]
+  "impact_assessment": "none",
+  "impact_assessment_docs": [],
+  "impact_assessment_urls": []
  },
  {
   "id": "eu-inc",
@@ -417,7 +413,7 @@
   "agreement": "",
   "expected_proposal": "",
   "target_for_agreement": "—",
-  "latest": "Parliament committee vote moved to November 2026; no Council general approach yet.",
+  "latest": "Parliament's Industry committee (ITRE, rapporteur Elena Donazzan) adopted its report on 19 November 2026 and decided to open negotiations with the Council.",
   "page": "Act-eu-space-act.dc.html",
   "impact_assessment": "full",
   "impact_assessment_docs": [
@@ -521,7 +517,7 @@
   "agreement": "Jun 2026",
   "expected_proposal": "",
   "target_for_agreement": "—",
-  "latest": "Provisional agreement on 22 June 2026; plenary vote indicatively 14 December 2026.",
+  "latest": "Provisional agreement on 22 June 2026, approved by Parliament's committee on 4 November 2026; plenary vote indicatively 14 December 2026.",
   "page": "Act-child-sexual-abuse-directive-recast.dc.html",
   "impact_assessment": "full",
   "impact_assessment_docs": [
@@ -545,7 +541,7 @@
   "agreement": "Jun 2026",
   "expected_proposal": "",
   "target_for_agreement": "End 2026",
-  "latest": "Provisional agreement in June 2026, approved by Parliament's committees in July; plenary vote indicatively 23 November 2026.",
+  "latest": "Provisional agreement in June 2026, approved by Parliament's committees in July; plenary vote scheduled for 24 November 2026.",
   "page": "Fc-omnibus-iv.dc.html",
   "impact_assessment": "swd",
   "impact_assessment_docs": [
@@ -578,7 +574,7 @@
    "SWD(2026) 1101"
   ],
   "impact_assessment_urls": [
-   "https://ec.europa.eu/transparency/documents-register/detail?ref=SWD(2026)1101&lang=en"
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026SC1101"
   ]
  },
  {
@@ -622,7 +618,7 @@
    "SWD(2026) 1121"
   ],
   "impact_assessment_urls": [
-   "https://ec.europa.eu/transparency/documents-register/detail?ref=SWD(2026)1121&lang=en"
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026SC1121"
   ]
  },
  {

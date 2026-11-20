@@ -14,12 +14,9 @@ PROC = {
  "digital-fairness-act": ["2026/0356(COD)", "2026/0357(COD)"], "cpc-review": ["2026/0358(COD)"],
  "medical-devices-revision": ["2025/0404(COD)"],
 }
-# documents adopted on 11 November 2026 and not yet on EUR-Lex: link the Commission document pages or the register instead
-DOC_URL = {"COM(2026)1100": "https://commission.europa.eu/document/0575d59f-554f-4a9e-b54b-e6b717175809_en",
-           "COM(2026)1110": "https://commission.europa.eu/document/f3b0c009-d27e-45e2-b253-e291f7d9254f_en",
-           "COM(2026)1120": "https://commission.europa.eu/document/9c63e001-7dae-4d07-90ff-3efb4961490b_en"}
-for _r in ("SWD(2026)1100", "SWD(2026)1101", "SWD(2026)1102", "SWD(2026)1120", "SWD(2026)1121", "SWD(2026)1122"):
-    DOC_URL[_r] = f"https://ec.europa.eu/transparency/documents-register/detail?ref={_r}&lang=en"
+# documents not yet on EUR-Lex: link the Commission document pages or the register instead (none at present; the 11 November 2026
+# consumer package is on EUR-Lex since mid-November)
+DOC_URL = {}
 
 # Council: (date, what, reference, url, kind) with kind "mandate" (Council position), "agreement", or "note"
 COUNCIL = {
@@ -29,9 +26,11 @@ COUNCIL = {
  "digital-networks-act": [("21 May 2026", "Presidency progress report", "ST 8523/26", "https://data.consilium.europa.eu/doc/document/ST-8523-2026-INIT/en/pdf", "note"),
                           ("9 Jun 2026", "Policy debate at the Telecoms Council", "ST 9685/26", "https://data.consilium.europa.eu/doc/document/ST-9685-2026-INIT/en/pdf", "note")],
  "psr": [("18 Jun 2025", "Council negotiating mandate (item note to Coreper)", "ST 10175/25", "https://data.consilium.europa.eu/doc/document/ST-10175-2025-INIT/en/pdf", "mandate"),
-         ("Nov 2025", "Provisional agreement with Parliament", "EP press release", "https://www.europarl.europa.eu/news/en/press-room/20251121IPR31540/payment-services-deal-more-protection-from-online-fraud-and-hidden-fees", "agreement")],
+         ("Nov 2025", "Provisional agreement with Parliament", "EP press release", "https://www.europarl.europa.eu/news/en/press-room/20251121IPR31540/payment-services-deal-more-protection-from-online-fraud-and-hidden-fees", "agreement"),
+         ("5 Nov 2026", "Council position at first reading (the agreed text)", "ST 8543/1/26", "https://www.consilium.europa.eu/EN/documents/public-register/public-register-search/?DocumentNumber=8543%2F26&DocumentTypes=LEGISLATIVE+ACTS+AND+OTHER+INSTRUMENTS", "note")],
  "psd3": [("18 Jun 2025", "Council negotiating mandate (item note to Coreper)", "ST 10175/25", "https://data.consilium.europa.eu/doc/document/ST-10175-2025-INIT/en/pdf", "mandate"),
-          ("Nov 2025", "Provisional agreement with Parliament", "EP press release", "https://www.europarl.europa.eu/news/en/press-room/20251121IPR31540/payment-services-deal-more-protection-from-online-fraud-and-hidden-fees", "agreement")],
+          ("Nov 2025", "Provisional agreement with Parliament", "EP press release", "https://www.europarl.europa.eu/news/en/press-room/20251121IPR31540/payment-services-deal-more-protection-from-online-fraud-and-hidden-fees", "agreement"),
+          ("5 Nov 2026", "Council position at first reading (the agreed text)", "ST 8535/1/26", "https://www.consilium.europa.eu/EN/documents/public-register/public-register-search/?DocumentNumber=8535%2F26&DocumentTypes=LEGISLATIVE+ACTS+AND+OTHER+INSTRUMENTS", "note")],
  "digital-travel": [("19 Nov 2025", "Council negotiating mandate", "ST 15634/25", "https://data.consilium.europa.eu/doc/document/ST-15634-2025-INIT/en/pdf", "mandate")],
  "csar": [("26 Nov 2025", "Council position, without mandatory detection orders", "Press release", "https://www.consilium.europa.eu/en/press/press-releases/2025/11/26/child-sexual-abuse-council-reaches-position-on-law-protecting-children-from-online-abuse/", "mandate")],
  "csa-directive": [("13 Dec 2024", "Council general approach", "ST 16674/24", "https://data.consilium.europa.eu/doc/document/ST-16674-2024-INIT/en/pdf", "mandate"), ("22 Jun 2026", "Provisional agreement with Parliament", "Press release", "https://www.consilium.europa.eu/en/press/press-releases/2026/06/22/combatting-child-sexual-abuse-eu-agrees-stronger-criminal-law-rules-and-enhanced-support-to-victims/", "agreement")],
