@@ -584,12 +584,12 @@
   "text": "85%"
  },
  "rs_acts_second_layer": {
-  "value": 33,
-  "text": "33"
+  "value": 23,
+  "text": "23"
  },
  "rs_acts_more_rules": {
-  "value": 31,
-  "text": "31"
+  "value": 20,
+  "text": "20"
  },
  "rs_ecodesign_main": {
   "value": 65,
@@ -1304,6 +1304,14 @@
  "grid_xm_co_2018": {
   "value": 8,
   "text": "8%"
+ },
+ "grid_xm_co_prodi": {
+  "value": 1,
+  "text": "1%"
+ },
+ "grid_xm_co_vdl1": {
+  "value": 9,
+  "text": "9%"
  },
  "ia_exante_sources": {
   "value": 87,
