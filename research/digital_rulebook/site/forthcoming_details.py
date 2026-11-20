@@ -119,8 +119,8 @@ D = {
           "Coordination of EU and national quantum investment.",
           "Measures for skills and industrial take-up."],
     changes=[],
-    latest="Announced in the 2026 work programme for Q2 2026. The Commission's indicative agenda of 20 October 2026 schedules the proposal for 18 November 2026. The roadmap targets agreement by Q3 2027.",
-    expected="18 Nov 2026 (indicative)"),
+    latest="Announced in the 2026 work programme for Q2 2026 and then scheduled on the Commission's indicative agenda for 18 November 2026. A draft was reported in the press on 14 November, but no adopted proposal had been published on EUR-Lex or the Commission's pages by 20 November 2026. The roadmap targets agreement by Q3 2027.",
+    expected="Was due 18 Nov 2026; not yet published"),
  "cpc-review": dict(
     intro="A new regulation on enforcing EU consumer law across borders, replacing the 2017 Consumer Protection Cooperation Regulation and, for the first time, letting the Commission enforce consumer law itself in the largest cases.",
     does=["Direct Commission powers to investigate large-scale infringements that affect consumers in at least two-thirds of member states and population, by companies that are not SMEs.",
