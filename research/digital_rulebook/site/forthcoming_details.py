@@ -119,8 +119,8 @@ D = {
           "Coordination of EU and national quantum investment.",
           "Measures for skills and industrial take-up."],
     changes=[],
-    latest="Announced in the 2026 work programme for Q2 2026 and then scheduled on the Commission's indicative agenda for 18 November 2026. A draft was reported in the press on 14 November, but no adopted proposal had been published on EUR-Lex or the Commission's pages by 20 November 2026. The roadmap targets agreement by Q3 2027.",
-    expected="Was due 18 Nov 2026; not yet published"),
+    latest="Announced in the 2026 work programme for Q2 2026, then scheduled for 18 November 2026. The Commission's indicative agendas of 10 and 16 November (SEC(2026) 2584 and 2585) move it to the College meeting of 24 November 2026 in Strasbourg, presented by Executive Vice-President Virkkunen. A draft was reported in the press on 14 November. The roadmap targets agreement by Q3 2027.",
+    expected="24 Nov 2026 (indicative)"),
  "cpc-review": dict(
     intro="A new regulation on enforcing EU consumer law across borders, replacing the 2017 Consumer Protection Cooperation Regulation and, for the first time, letting the Commission enforce consumer law itself in the largest cases.",
     does=["Direct Commission powers to investigate large-scale infringements that affect consumers in at least two-thirds of member states and population, by companies that are not SMEs.",
@@ -162,7 +162,7 @@ D = {
           "Common specifications adopted by the Commission where harmonised standards are late or missing.",
           "Later parts: an updated 'new legislative framework' for product laws and stronger market surveillance, including of online sales."],
     changes=[("European Standardisation Regulation", "to be replaced", 108), ("Market Surveillance Regulation", "to be revised in a later part", 41)],
-    latest="The Standardisation Regulation was proposed on 6 October 2026 and awaits referral to a Parliament committee. The other parts of the European Product Act, planned for Q3 2026, have not yet been proposed. The roadmap targets agreement by Q4 2027.",
+    latest="The Standardisation Regulation was proposed on 6 October 2026 and awaits referral to a Parliament committee. The other parts of the European Product Act, planned for Q3 2026, have not yet been proposed; the Commission's indicative agenda of 16 November 2026 (SEC(2026) 2585) lists the European Product Act for 15 December 2026. The roadmap targets agreement by Q4 2027.",
     date="Oct 2026", ref="COM(2026) 780", eurlex="52026PC0780"),
  "omnibus-iv": dict(
     intro="A simplification package for small mid-cap companies and product rules: SME relief extended to firms with up to 750 employees, and paper requirements in product laws replaced by digital ones.",

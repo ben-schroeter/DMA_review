@@ -117,8 +117,8 @@ F = [
       latest="Proposed on 11 November 2026, with a directive simplifying the Consumer Rights Directive and the revision of the Consumer Protection Cooperation Regulation; awaits referral to a Parliament committee."),
  dict(id="quantum-act", name="Quantum Act", stage="announced", area="Connectivity & Digital Infrastructure", proc="CWP 2026",
       what="Support for quantum research, pilot lines and industrial take-up.",
-      expected="Was due 18 Nov 2026; not yet published", target="Q3 2027",
-      latest="Was on the Commission's indicative agenda for 18 November 2026 and a draft was reported in the press on 14 November, but no adopted proposal had been published by 20 November."),
+      expected="24 Nov 2026 (indicative)", target="Q3 2027",
+      latest="On the Commission's indicative agenda for 24 November 2026 (College meeting in Strasbourg), moved from 18 November."),
  dict(id="cpc-review", name="Revision of the Consumer Protection Cooperation Regulation", stage="proposed", area="E-commerce & Consumer Protection", row=None, proc="2026/0358(COD)",
       what="Direct Commission enforcement of consumer law in large cross-border cases, with fines of up to 6% of worldwide turnover, and faster coordination of national authorities.",
       track=["Nov 2026", None, None, None, None], target="Q4 2027",
@@ -130,7 +130,7 @@ F = [
  dict(id="european-product-act", name="European Product Act: Standardisation Regulation", stage="proposed", area="Competition & Single Market", proc="2026/0307(COD)",
       what="First part of the European Product Act: a faster European standardisation system, with common specifications where standards are late.",
       track=["Oct 2026", None, None, None, None], target="Q4 2027",
-      latest="Standardisation Regulation proposed on 6 October 2026; the parts on the product framework and market surveillance are still to come."),
+      latest="Standardisation Regulation proposed on 6 October 2026; the parts on the product framework and market surveillance are on the Commission's indicative agenda for 15 December 2026."),
  dict(id="smbpa", name="Single Market Barriers Prevention Act", stage="announced", area="Competition & Single Market", proc="CWP 2027",
       what="Screens draft national rules to stop new single-market barriers before they are adopted.",
       expected="Q3 2027", target="—",
@@ -508,7 +508,7 @@ SRC = json.load(open("forthcoming_sources.json"))
 CWP26 = ("Oct 2025", "Commission work programme 2026", "COM(2025) 870", EUR("52025DC0870"))
 ROADMAP = ("Apr 2026", "One Europe, One Market roadmap", "Parliament, Council and Commission", "https://commission.europa.eu/topics/competitiveness/one-europe-one-market-roadmap_en")
 # indicative list of items for Commission meetings (Secretariat-General); ids listed are scheduled in it
-AGENDA = ("Oct 2026", "Indicative Commission agenda, 27 October to 24 November 2026", "SEC(2026) 2581", "https://ec.europa.eu/transparency/documents-register/detail?ref=SEC(2026)2581&lang=en")
+AGENDA = ("Nov 2026", "Indicative Commission agenda, 24 November to 15 December 2026", "SEC(2026) 2585", "https://ec.europa.eu/transparency/documents-register/detail?ref=SEC(2026)2585&lang=en")
 ON_AGENDA = {"quantum-act"}
 # Commission work programme 2027, adopted 4 November 2026 (register entry; EUR-Lex had no CELEX yet on adoption day)
 CWP27 = ("Nov 2026", "Commission work programme 2027", "COM(2026) 710", "https://ec.europa.eu/transparency/documents-register/detail?ref=COM(2026)710&lang=en")
