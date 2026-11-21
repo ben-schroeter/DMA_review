@@ -8,6 +8,8 @@ For each law (digital_rulebook.xlsx, sheet 'instruments', status 'adopted'):
     (English, plus French/German/Italian/Spanish/Dutch names for the laws companies cite most);
   - abbreviations that also mean other things count only in reports that use one of the law's
     full names and do not define the abbreviation otherwise (CONFLICTS).
+Mentions in reports for years before a law's proposal (min_year) are not counted, and official
+numbers inside an 'amending ...' clause of another act's title are ignored (cr_code.match_law).
 The three pilot laws (GDPR, DMA, AI Act) keep their validated patterns from law_patterns.json,
 and the UK / non-EU entries are carried over (logged separately, never counted as EU).
 """
@@ -83,7 +85,7 @@ NAMES = {
     71: (["Political Advertising Regulation", "Regulation on the transparency and targeting of political advertising", "TTPA\\b"], [], []),
     73: (["Platform Work Directive", "Directive on improving working conditions in platform work"], [], []),
     74: (["(European|EU) Chips Act", "Chips Act \\(EU\\)", "(?i)européen sur les semi-conducteurs"], [], []),
-    76: (["(?<!Personal )(?<!Protection )Data Act(?! [0-9]{4})(?! of)", "(?i)règlement sur les données", "Datenverordnung", "(?i)regolamento sui dati"], [], []),
+    76: (["(?:EU|European Union|EU['’]s|European|[Tt]he) Data Act(?! [0-9]{4})(?! of)", "Data Act \\((?:EU|Regulation)", "(?i)règlement (européen )?sur les données", "Datenverordnung", "(?i)regolamento (europeo )?sui dati"], [], []),
     77: (["Directive on combating violence against women"], [], []),
     80: (["Ecodesign for Sustainable Products Regulation", "ESPR\\b", "(EU )?Digital Product Passport"], [], []),
     81: (["European Health Data Space", "EHDS\\b"], [], []),
@@ -115,20 +117,20 @@ NAMES = {
     124: (["Representative Actions Directive", "(EU )?Collective Redress Directive", "Directive on representative actions"], [], []),
     125: (["E-?[Mm]oney Directive", "Electronic Money Directive", "EMD ?2\\b", "Second E-?[Mm]oney Directive"], [], []),
     126: (["SEPA Regulation", "SEPA End-?[Dd]ate Regulation", "Instant Payments Regulation"], [], []),
-    127: (["(Revised |EU )?Transfer of Funds Regulation", "Funds Transfer Regulation", "Wire Transfer Regulation", "TFR\\b"], [], []),
+    127: (["(Revised |EU )?Transfer of Funds Regulation", "Funds Transfer Regulation", "Wire Transfer Regulation"], [], []),   # 'TFR' = Italian severance pay
     128: (["Consumer Credit Directive", "CCD ?2\\b"], [], []),
-    129: (["European Single Access Point", "ESAP\\b"], [], []),
+    129: (["European Single Access Point"], [r"\bESAP\b"], [r"(?i)Executive Separation"]),
     130: (["Cybercrime Directive", "Directive on attacks against information systems"], [], []),
     131: (["Child Sexual Abuse Directive", "Directive on combating the sexual abuse and sexual exploitation of children"], [], []),
     132: (["Regulation 1/2003", "Modernisation Regulation", "Antitrust Procedure Regulation"], [], []),
-    133: (["(EU |European )?Services Directive(?! 2)", "Bolkestein Directive"], [], []),
+    133: (["(EU|European|Single Market) Services Directive", "Bolkestein Directive", "Directive on services in the internal market"], [], []),
     134: (["(EU |European )?Medical Devices? Regulation", "EU MDR\\b", "MDR \\(EU\\)"], [], []),
     135: (["In[- ][Vv]itro Diagnostic( Medical Devices)? Regulation", "IVDR\\b"], [], []),
     136: (["(Vehicle )?General Safety Regulation", "GSR ?2\\b"], [], []),
     137: (["(EU |European )?Dual-[Uu]se Regulation", "(EU|European) [Dd]ual-[Uu]se (export )?(controls?|regime)"], [], []),
-    138: (["Low Voltage Directive", "LVD\\b"], [], []),
+    138: (["Low Voltage Directive"], [], []),   # 'LVD' is also a company name
     139: (["RoHS( ?[23])?( Directive)?"], [], []),
-    140: (["WEEE( Directive)?"], [], []),
+    140: (["WEEE( 2)? Directive", "EU WEEE", "Directive (on )?(WEEE|[Ww]aste (from |of )?[Ee]lectrical and [Ee]lectronic [Ee]quipment)", "[Ww]aste (from |of )?[Ee]lectrical and [Ee]lectronic [Ee]quipment \\(WEEE\\) Directive", "(?i)directive DEEE"], [], []),   # bare 'WEEE' is also the waste category
     141: (["(Fourth|Fifth|4th|5th) Anti-?[Mm]oney[- ][Ll]aundering Directive", "(4|5|6)AMLD\\b", "AMLD ?[456]\\b", "(EU |European )?Anti-Money Laundering Directive"], [], []),
 }
 # names that also match narrower or broader things: reject if the preceding text matches
@@ -155,6 +157,13 @@ def number_patterns(ident):
     return pats
 
 
+def min_year(proposal_date):
+    """Mentions count from the report year before the Commission proposal (a report for year t is
+    published in t+1 and may discuss a proposal made then); earlier matches are predecessors or noise."""
+    m = re.search(r"(19|20)\d\d", str(proposal_date or ""))
+    return int(m.group(0)) - 1 if m else 0
+
+
 def main():
     wb = openpyxl.load_workbook(os.path.join(ROOT, "digital_rulebook.xlsx"), read_only=True)
     rows = list(wb["instruments"].iter_rows(values_only=True))
@@ -166,7 +175,7 @@ def main():
             continue
         rid, name, ident = r[ix["row_id"]], r[ix["name"]], r[ix["identifier"]]
         if rid in PILOT_ROWS:
-            l = dict(pilot[PILOT_ROWS[rid]], row_id=rid, policy_area=r[ix["policy_area"]])
+            l = dict(pilot[PILOT_ROWS[rid]], row_id=rid, policy_area=r[ix["policy_area"]], min_year=min_year(r[ix["proposal_date"]]))
             laws.append(l)
             continue
         if rid not in NAMES:
@@ -174,7 +183,7 @@ def main():
         names, abbrev, conflicts = NAMES.get(rid, ([], [], []))
         base = re.sub(r"\s*\([^)]*\)\s*$", "", name).strip()          # 'Payment Services Directive 2 (PSD2)' -> name
         full = [re.escape(base)] + list(names) + number_patterns(ident)
-        laws.append({"id": f"R{rid}", "row_id": rid, "scope": "eu", "name": name, "identifier": ident,
+        laws.append({"id": f"R{rid}", "row_id": rid, "scope": "eu", "name": name, "identifier": ident, "min_year": min_year(r[ix["proposal_date"]]),
                      "policy_area": r[ix["policy_area"]], "full": list(dict.fromkeys(full)), "abbrev": abbrev,
                      "abbrev_conflicts": conflicts, "not_before": NOT_BEFORE.get(rid, ""), "not_after": NOT_AFTER.get(rid, "")})
     laws += [l for l in pilot.values() if l["scope"] != "eu"]

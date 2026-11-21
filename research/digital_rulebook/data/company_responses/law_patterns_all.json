@@ -7,6 +7,7 @@
    "scope": "eu",
    "name": "Frequency Bands Directive (GSM)",
    "identifier": "Directive 87/372/EEC",
+   "min_year": 1985,
    "policy_area": "Connectivity & Digital Infrastructure",
    "full": [
     "Frequency\\ Bands\\ Directive",
@@ -25,6 +26,7 @@
    "scope": "eu",
    "name": "Unfair Contract Terms Directive",
    "identifier": "Directive 93/13/EEC",
+   "min_year": 1989,
    "policy_area": "E-commerce & Consumer Protection",
    "full": [
     "Unfair\\ Contract\\ Terms\\ Directive",
@@ -43,6 +45,7 @@
    "scope": "eu",
    "name": "Satellite and Cable Directive",
    "identifier": "Directive 93/83/EEC",
+   "min_year": 1990,
    "policy_area": "Media",
    "full": [
     "Satellite\\ and\\ Cable\\ Directive",
@@ -61,6 +64,7 @@
    "scope": "eu",
    "name": "Database Directive",
    "identifier": "Directive 96/9/EC",
+   "min_year": 1991,
    "policy_area": "IPR",
    "full": [
     "Database\\ Directive",
@@ -79,6 +83,7 @@
    "scope": "eu",
    "name": "Community Design Regulation",
    "identifier": "Regulation (EC) 6/2002",
+   "min_year": 1992,
    "policy_area": "IPR",
    "full": [
     "Community\\ Design\\ Regulation",
@@ -97,6 +102,7 @@
    "scope": "eu",
    "name": "Price Indication Directive",
    "identifier": "Directive 98/6/EC",
+   "min_year": 1994,
    "policy_area": "E-commerce & Consumer Protection",
    "full": [
     "Price\\ Indication\\ Directive",
@@ -114,6 +120,7 @@
    "scope": "eu",
    "name": "Information Society (InfoSoc) Directive",
    "identifier": "Directive 2001/29/EC",
+   "min_year": 1996,
    "policy_area": "Media",
    "full": [
     "Information\\ Society\\ \\(InfoSoc\\)\\ Directive",
@@ -135,6 +142,7 @@
    "scope": "eu",
    "name": "E-commerce Directive",
    "identifier": "Directive 2000/31/EC",
+   "min_year": 1997,
    "policy_area": "E-commerce & Consumer Protection",
    "full": [
     "E\\-commerce\\ Directive",
@@ -154,6 +162,7 @@
    "scope": "eu",
    "name": "ePrivacy Directive",
    "identifier": "Directive 2002/58/EC",
+   "min_year": 1999,
    "policy_area": "Data & Privacy",
    "full": [
     "ePrivacy\\ Directive",
@@ -174,6 +183,7 @@
    "scope": "eu",
    "name": "Radio Spectrum Decision",
    "identifier": "Decision 676/2002/EC",
+   "min_year": 1999,
    "policy_area": "Connectivity & Digital Infrastructure",
    "full": [
     "Radio\\ Spectrum\\ Decision",
@@ -191,6 +201,7 @@
    "scope": "eu",
    "name": "EC Merger Regulation",
    "identifier": "Regulation (EC) 139/2004",
+   "min_year": 2001,
    "policy_area": "Competition & Single Market",
    "full": [
     "EC\\ Merger\\ Regulation",
@@ -213,6 +224,7 @@
    "scope": "eu",
    "name": "IPR Enforcement Directive",
    "identifier": "Directive 2004/48/EC",
+   "min_year": 2002,
    "policy_area": "IPR",
    "full": [
     "IPR\\ Enforcement\\ Directive",
@@ -232,6 +244,7 @@
    "scope": "eu",
    "name": "Unfair Commercial Practices Directive",
    "identifier": "Directive 2005/29/EC",
+   "min_year": 2002,
    "policy_area": "E-commerce & Consumer Protection",
    "full": [
     "Unfair\\ Commercial\\ Practices\\ Directive",
@@ -252,6 +265,7 @@
    "scope": "eu",
    "name": "Common VAT system Directive",
    "identifier": "Directive 2006/112/EC",
+   "min_year": 2003,
    "policy_area": "Finance",
    "full": [
     "Common\\ VAT\\ system\\ Directive",
@@ -271,6 +285,7 @@
    "scope": "eu",
    "name": "Audiovisual Media Services Directive",
    "identifier": "Directive 2010/13/EU",
+   "min_year": 2004,
    "policy_area": "Media",
    "full": [
     "Audiovisual\\ Media\\ Services\\ Directive",
@@ -292,6 +307,7 @@
    "scope": "eu",
    "name": "Toys Safety Directive",
    "identifier": "Directive 2009/48/EC",
+   "min_year": 2007,
    "policy_area": "Product Safety & Compliance",
    "full": [
     "Toys\\ Safety\\ Directive",
@@ -309,6 +325,7 @@
    "scope": "eu",
    "name": "Consumer Rights Directive",
    "identifier": "Directive 2011/83/EU",
+   "min_year": 2007,
    "policy_area": "E-commerce & Consumer Protection",
    "full": [
     "Consumer\\ Rights\\ Directive",
@@ -327,6 +344,7 @@
    "scope": "eu",
    "name": "Administrative cooperation in taxation (DAC)",
    "identifier": "Directive 2011/16/EU",
+   "min_year": 2008,
    "policy_area": "Finance",
    "full": [
     "Administrative\\ cooperation\\ in\\ taxation",
@@ -372,7 +390,8 @@
    "not_before": "(?i)(\\bUK|United Kingdom|U\\.K\\.|British)['’]?s?\\s*(version of the\\s*)?$",
    "abbrev_conflicts": [],
    "row_id": 20,
-   "policy_area": "Data & Privacy"
+   "policy_area": "Data & Privacy",
+   "min_year": 2011
   },
   {
    "id": "R21",
@@ -380,6 +399,7 @@
    "scope": "eu",
    "name": "Law Enforcement Directive",
    "identifier": "Directive (EU) 2016/680",
+   "min_year": 2011,
    "policy_area": "Online Crime & Law Enforcement",
    "full": [
     "Law\\ Enforcement\\ Directive",
@@ -398,6 +418,7 @@
    "scope": "eu",
    "name": "eIDAS Regulation",
    "identifier": "Regulation (EU) 910/2014",
+   "min_year": 2011,
    "policy_area": "AI & Digital Trust",
    "full": [
     "eIDAS\\ Regulation",
@@ -417,6 +438,7 @@
    "scope": "eu",
    "name": "Payment Services Directive 2 (PSD2)",
    "identifier": "Directive (EU) 2015/2366",
+   "min_year": 2012,
    "policy_area": "Finance",
    "full": [
     "Payment\\ Services\\ Directive\\ 2",
@@ -438,6 +460,7 @@
    "scope": "eu",
    "name": "Open Internet Access Regulation",
    "identifier": "Regulation (EU) 2015/2120",
+   "min_year": 2012,
    "policy_area": "Connectivity & Digital Infrastructure",
    "full": [
     "Open\\ Internet\\ Access\\ Regulation",
@@ -457,6 +480,7 @@
    "scope": "eu",
    "name": "Technology Transfer Block Exemption",
    "identifier": "Regulation (EU) 2026/877",
+   "min_year": 2024,
    "policy_area": "Competition & Single Market",
    "full": [
     "Technology\\ Transfer\\ Block\\ Exemption",
@@ -476,6 +500,7 @@
    "scope": "eu",
    "name": "Trade Secrets Directive",
    "identifier": "Directive (EU) 2016/943",
+   "min_year": 2012,
    "policy_area": "IPR",
    "full": [
     "Trade\\ Secrets\\ Directive",
@@ -493,6 +518,7 @@
    "scope": "eu",
    "name": "Digital Content Directive",
    "identifier": "Directive (EU) 2019/770",
+   "min_year": 2014,
    "policy_area": "E-commerce & Consumer Protection",
    "full": [
     "Digital\\ Content\\ Directive",
@@ -510,6 +536,7 @@
    "scope": "eu",
    "name": "Sale of Goods Directive",
    "identifier": "Directive (EU) 2019/771",
+   "min_year": 2014,
    "policy_area": "E-commerce & Consumer Protection",
    "full": [
     "Sale\\ of\\ Goods\\ Directive",
@@ -527,6 +554,7 @@
    "scope": "eu",
    "name": "Company Law Directive",
    "identifier": "Directive (EU) 2017/1132",
+   "min_year": 2014,
    "policy_area": "Competition & Single Market",
    "full": [
     "Company\\ Law\\ Directive",
@@ -545,6 +573,7 @@
    "scope": "eu",
    "name": "Geo-blocking Regulation",
    "identifier": "Regulation (EU) 2018/302",
+   "min_year": 2015,
    "policy_area": "E-commerce & Consumer Protection",
    "full": [
     "Geo\\-blocking\\ Regulation",
@@ -563,6 +592,7 @@
    "scope": "eu",
    "name": "Consumer Protection Cooperation Regulation",
    "identifier": "Regulation (EU) 2017/2394",
+   "min_year": 2015,
    "policy_area": "E-commerce & Consumer Protection",
    "full": [
     "Consumer\\ Protection\\ Cooperation\\ Regulation",
@@ -581,6 +611,7 @@
    "scope": "eu",
    "name": "European Electronic Communications Code",
    "identifier": "Directive (EU) 2018/1972",
+   "min_year": 2015,
    "policy_area": "Connectivity & Digital Infrastructure",
    "full": [
     "European\\ Electronic\\ Communications\\ Code",
@@ -603,6 +634,7 @@
    "scope": "eu",
    "name": "Copyright in the Digital Single Market Directive",
    "identifier": "Directive (EU) 2019/790",
+   "min_year": 2015,
    "policy_area": "Media",
    "full": [
     "Copyright\\ in\\ the\\ Digital\\ Single\\ Market\\ Directive",
@@ -623,6 +655,7 @@
    "scope": "eu",
    "name": "Satellite and Cable II Directive",
    "identifier": "Directive (EU) 2019/789",
+   "min_year": 2015,
    "policy_area": "Media",
    "full": [
     "Satellite\\ and\\ Cable\\ II\\ Directive",
@@ -641,6 +674,7 @@
    "scope": "eu",
    "name": "Data protection by EU institutions Regulation",
    "identifier": "Regulation (EU) 2018/1725",
+   "min_year": 2016,
    "policy_area": "Data & Privacy",
    "full": [
     "Data\\ protection\\ by\\ EU\\ institutions\\ Regulation",
@@ -659,6 +693,7 @@
    "scope": "eu",
    "name": "Single Digital Gateway Regulation",
    "identifier": "Regulation (EU) 2018/1724",
+   "min_year": 2016,
    "policy_area": "AI & Digital Trust",
    "full": [
     "Single\\ Digital\\ Gateway\\ Regulation",
@@ -676,6 +711,7 @@
    "scope": "eu",
    "name": "Cybersecurity Act",
    "identifier": "Regulation (EU) 2019/881",
+   "min_year": 2016,
    "policy_area": "Cybersecurity",
    "full": [
     "Cybersecurity\\ Act",
@@ -693,6 +729,7 @@
    "scope": "eu",
    "name": "Free Flow of Non-Personal Data Regulation",
    "identifier": "Regulation (EU) 2018/1807",
+   "min_year": 2016,
    "policy_area": "Data & Privacy",
    "full": [
     "Free\\ Flow\\ of\\ Non\\-Personal\\ Data\\ Regulation",
@@ -711,6 +748,7 @@
    "scope": "eu",
    "name": "FDI Screening Regulation",
    "identifier": "Regulation (EU) 2019/452",
+   "min_year": 2016,
    "policy_area": "Competition & Single Market",
    "full": [
     "FDI\\ Screening\\ Regulation",
@@ -730,6 +768,7 @@
    "scope": "eu",
    "name": "Non-cash payment fraud Directive",
    "identifier": "Directive (EU) 2019/713",
+   "min_year": 2016,
    "policy_area": "Online Crime & Law Enforcement",
    "full": [
     "Non\\-cash\\ payment\\ fraud\\ Directive",
@@ -748,6 +787,7 @@
    "scope": "eu",
    "name": "Market Surveillance Regulation",
    "identifier": "Regulation (EU) 2019/1020",
+   "min_year": 2016,
    "policy_area": "Product Safety & Compliance",
    "full": [
     "Market\\ Surveillance\\ Regulation",
@@ -765,6 +805,7 @@
    "scope": "eu",
    "name": "E-evidence Regulation",
    "identifier": "Regulation (EU) 2023/1543",
+   "min_year": 2017,
    "policy_area": "Online Crime & Law Enforcement",
    "full": [
     "E\\-evidence\\ Regulation",
@@ -783,6 +824,7 @@
    "scope": "eu",
    "name": "Open Data Directive (PSI)",
    "identifier": "Directive (EU) 2019/1024",
+   "min_year": 2017,
    "policy_area": "Data & Privacy",
    "full": [
     "Open\\ Data\\ Directive",
@@ -802,6 +844,7 @@
    "scope": "eu",
    "name": "Platform-to-Business (P2B) Regulation",
    "identifier": "Regulation (EU) 2019/1150",
+   "min_year": 2017,
    "policy_area": "Competition & Single Market",
    "full": [
     "Platform\\-to\\-Business\\ \\(P2B\\)\\ Regulation",
@@ -824,6 +867,7 @@
    "scope": "eu",
    "name": "Terrorist Content Online Regulation",
    "identifier": "Regulation (EU) 2021/784",
+   "min_year": 2017,
    "policy_area": "Online Crime & Law Enforcement",
    "full": [
     "Terrorist\\ Content\\ Online\\ Regulation",
@@ -845,6 +889,7 @@
    "scope": "eu",
    "name": "Temporary CSAM Derogation Regulation",
    "identifier": "Regulation (EU) 2021/1232",
+   "min_year": 2019,
    "policy_area": "Online Crime & Law Enforcement",
    "full": [
     "Temporary\\ CSAM\\ Derogation\\ Regulation",
@@ -863,6 +908,7 @@
    "scope": "eu",
    "name": "DLT Pilot Regime Regulation",
    "identifier": "Regulation (EU) 2022/858",
+   "min_year": 2019,
    "policy_area": "Finance",
    "full": [
     "DLT\\ Pilot\\ Regime\\ Regulation",
@@ -881,6 +927,7 @@
    "scope": "eu",
    "name": "Markets in Crypto-Assets (MiCA)",
    "identifier": "Regulation (EU) 2023/1114",
+   "min_year": 2019,
    "policy_area": "Finance",
    "full": [
     "Markets\\ in\\ Crypto\\-Assets",
@@ -900,6 +947,7 @@
    "scope": "eu",
    "name": "Digital Operational Resilience Act (DORA)",
    "identifier": "Regulation (EU) 2022/2554",
+   "min_year": 2019,
    "policy_area": "Finance",
    "full": [
     "Digital\\ Operational\\ Resilience\\ Act",
@@ -923,6 +971,7 @@
    "scope": "eu",
    "name": "Data Governance Act",
    "identifier": "Regulation (EU) 2022/868",
+   "min_year": 2019,
    "policy_area": "Data & Privacy",
    "full": [
     "Data\\ Governance\\ Act",
@@ -966,7 +1015,8 @@
     "(?i)\\bDMA\\W{0,6}(double )?materiality"
    ],
    "row_id": 59,
-   "policy_area": "Competition & Single Market"
+   "policy_area": "Competition & Single Market",
+   "min_year": 2019
   },
   {
    "id": "R60",
@@ -974,6 +1024,7 @@
    "scope": "eu",
    "name": "Digital Services Act",
    "identifier": "Regulation (EU) 2022/2065",
+   "min_year": 2019,
    "policy_area": "E-commerce & Consumer Protection",
    "full": [
     "Digital\\ Services\\ Act",
@@ -1001,6 +1052,7 @@
    "scope": "eu",
    "name": "NIS 2 Directive",
    "identifier": "Directive (EU) 2022/2555",
+   "min_year": 2019,
    "policy_area": "Cybersecurity",
    "full": [
     "NIS\\ 2\\ Directive",
@@ -1022,6 +1074,7 @@
    "scope": "eu",
    "name": "Roaming Regulation",
    "identifier": "Regulation (EU) 2022/612",
+   "min_year": 2020,
    "policy_area": "Connectivity & Digital Infrastructure",
    "full": [
     "Roaming\\ Regulation",
@@ -1059,7 +1112,8 @@
    "not_before": "(?i)(Colorado|Utah|Texas|California|Illinois|Korea|Korean|Japan|Japanese|Basic|China|Chinese|state)['’]?s?\\s*(Artificial Intelligence|AI)?\\s*$",
    "abbrev_conflicts": [],
    "row_id": 64,
-   "policy_area": "AI & Digital Trust"
+   "policy_area": "AI & Digital Trust",
+   "min_year": 2020
   },
   {
    "id": "R65",
@@ -1067,6 +1121,7 @@
    "scope": "eu",
    "name": "Machinery Regulation",
    "identifier": "Regulation (EU) 2023/1230",
+   "min_year": 2020,
    "policy_area": "Product Safety & Compliance",
    "full": [
     "Machinery\\ Regulation",
@@ -1085,6 +1140,7 @@
    "scope": "eu",
    "name": "Foreign Subsidies Regulation",
    "identifier": "Regulation (EU) 2022/2560",
+   "min_year": 2020,
    "policy_area": "Competition & Single Market",
    "full": [
     "Foreign\\ Subsidies\\ Regulation",
@@ -1107,6 +1163,7 @@
    "scope": "eu",
    "name": "General Product Safety Regulation",
    "identifier": "Regulation (EU) 2023/988",
+   "min_year": 2020,
    "policy_area": "Product Safety & Compliance",
    "full": [
     "General\\ Product\\ Safety\\ Regulation",
@@ -1126,6 +1183,7 @@
    "scope": "eu",
    "name": "Anti-Money Laundering Regulation",
    "identifier": "Regulation (EU) 2024/1624",
+   "min_year": 2020,
    "policy_area": "Finance",
    "full": [
     "Anti\\-Money\\ Laundering\\ Regulation",
@@ -1145,6 +1203,7 @@
    "scope": "eu",
    "name": "Vertical Block Exemption Regulation",
    "identifier": "Regulation (EU) 2022/720",
+   "min_year": 2020,
    "policy_area": "Competition & Single Market",
    "full": [
     "Vertical\\ Block\\ Exemption\\ Regulation",
@@ -1164,6 +1223,7 @@
    "scope": "eu",
    "name": "Digital Decade Policy Programme Decision",
    "identifier": "Decision (EU) 2022/2481",
+   "min_year": 2020,
    "policy_area": "Connectivity & Digital Infrastructure",
    "full": [
     "Digital\\ Decade\\ Policy\\ Programme\\ Decision",
@@ -1182,6 +1242,7 @@
    "scope": "eu",
    "name": "Political Advertising Regulation",
    "identifier": "Regulation (EU) 2024/900",
+   "min_year": 2020,
    "policy_area": "E-commerce & Consumer Protection",
    "full": [
     "Political\\ Advertising\\ Regulation",
@@ -1201,6 +1262,7 @@
    "scope": "eu",
    "name": "Platform Work Directive",
    "identifier": "Directive (EU) 2024/2831",
+   "min_year": 2020,
    "policy_area": "Competition & Single Market",
    "full": [
     "Platform\\ Work\\ Directive",
@@ -1219,6 +1281,7 @@
    "scope": "eu",
    "name": "European Chips Act",
    "identifier": "Regulation (EU) 2023/1781",
+   "min_year": 2021,
    "policy_area": "Connectivity & Digital Infrastructure",
    "full": [
     "European\\ Chips\\ Act",
@@ -1238,13 +1301,15 @@
    "scope": "eu",
    "name": "Data Act",
    "identifier": "Regulation (EU) 2023/2854",
+   "min_year": 2021,
    "policy_area": "Data & Privacy",
    "full": [
     "Data\\ Act",
-    "(?<!Personal )(?<!Protection )Data Act(?! [0-9]{4})(?! of)",
-    "(?i)règlement sur les données",
+    "(?:EU|European Union|EU['’]s|European|[Tt]he) Data Act(?! [0-9]{4})(?! of)",
+    "Data Act \\((?:EU|Regulation)",
+    "(?i)règlement (européen )?sur les données",
     "Datenverordnung",
-    "(?i)regolamento sui dati",
+    "(?i)regolamento (europeo )?sui dati",
     "(?<![\\d/])2023/2854(?![\\d/])"
    ],
    "abbrev": [],
@@ -1258,6 +1323,7 @@
    "scope": "eu",
    "name": "Violence Against Women Directive",
    "identifier": "Directive (EU) 2024/1385",
+   "min_year": 2021,
    "policy_area": "Online Crime & Law Enforcement",
    "full": [
     "Violence\\ Against\\ Women\\ Directive",
@@ -1275,6 +1341,7 @@
    "scope": "eu",
    "name": "Ecodesign for Sustainable Products Regulation",
    "identifier": "Regulation (EU) 2024/1781",
+   "min_year": 2021,
    "policy_area": "Product Safety & Compliance",
    "full": [
     "Ecodesign\\ for\\ Sustainable\\ Products\\ Regulation",
@@ -1294,6 +1361,7 @@
    "scope": "eu",
    "name": "European Health Data Space",
    "identifier": "Regulation (EU) 2025/327",
+   "min_year": 2021,
    "policy_area": "Data & Privacy",
    "full": [
     "European\\ Health\\ Data\\ Space",
@@ -1312,6 +1380,7 @@
    "scope": "eu",
    "name": "Cyber Resilience Act",
    "identifier": "Regulation (EU) 2024/2847",
+   "min_year": 2021,
    "policy_area": "Cybersecurity",
    "full": [
     "Cyber\\ Resilience\\ Act",
@@ -1336,6 +1405,7 @@
    "scope": "eu",
    "name": "European Media Freedom Act",
    "identifier": "Regulation (EU) 2024/1083",
+   "min_year": 2021,
    "policy_area": "Media",
    "full": [
     "European\\ Media\\ Freedom\\ Act",
@@ -1354,6 +1424,7 @@
    "scope": "eu",
    "name": "Product Liability Directive",
    "identifier": "Directive (EU) 2024/2853",
+   "min_year": 2021,
    "policy_area": "Product Safety & Compliance",
    "full": [
     "Product\\ Liability\\ Directive",
@@ -1371,6 +1442,7 @@
    "scope": "eu",
    "name": "Horizontal Block Exemption Regulations",
    "identifier": "Regulations (EU) 2023/1066, 2023/1067",
+   "min_year": 2021,
    "policy_area": "Competition & Single Market",
    "full": [
     "Horizontal\\ Block\\ Exemption\\ Regulations",
@@ -1392,6 +1464,7 @@
    "scope": "eu",
    "name": "Design Directive",
    "identifier": "Directive (EU) 2024/2823",
+   "min_year": 2021,
    "policy_area": "IPR",
    "full": [
     "Design\\ Directive",
@@ -1410,6 +1483,7 @@
    "scope": "eu",
    "name": "VAT in the Digital Age (ViDA)",
    "identifier": "2022/0407(CNS)",
+   "min_year": 2021,
    "policy_area": "Finance",
    "full": [
     "VAT\\ in\\ the\\ Digital\\ Age",
@@ -1428,6 +1502,7 @@
    "scope": "eu",
    "name": "Gigabit Infrastructure Act",
    "identifier": "Regulation (EU) 2024/1309",
+   "min_year": 2022,
    "policy_area": "Connectivity & Digital Infrastructure",
    "full": [
     "Gigabit\\ Infrastructure\\ Act",
@@ -1448,6 +1523,7 @@
    "scope": "eu",
    "name": "Right to Repair Directive",
    "identifier": "Directive (EU) 2024/1799",
+   "min_year": 2022,
    "policy_area": "E-commerce & Consumer Protection",
    "full": [
     "Right\\ to\\ Repair\\ Directive",
@@ -1466,6 +1542,7 @@
    "scope": "eu",
    "name": "GDPR Procedural Regulation",
    "identifier": "2023/0202(COD)",
+   "min_year": 2022,
    "policy_area": "Data & Privacy",
    "full": [
     "GDPR\\ Procedural\\ Regulation",
@@ -1484,6 +1561,7 @@
    "scope": "eu",
    "name": "Toys Safety Regulation",
    "identifier": "2023/0290(COD)",
+   "min_year": 2022,
    "policy_area": "Product Safety & Compliance",
    "full": [
     "Toys\\ Safety\\ Regulation",
@@ -1501,6 +1579,7 @@
    "scope": "eu",
    "name": "European Standardisation Regulation",
    "identifier": "Regulation (EU) 1025/2012",
+   "min_year": 2010,
    "policy_area": "Product Safety & Compliance",
    "full": [
     "European\\ Standardisation\\ Regulation",
@@ -1518,6 +1597,7 @@
    "scope": "eu",
    "name": "Electromagnetic Compatibility Directive",
    "identifier": "Directive 2014/30/EU",
+   "min_year": 2010,
    "policy_area": "Product Safety & Compliance",
    "full": [
     "Electromagnetic\\ Compatibility\\ Directive",
@@ -1536,6 +1616,7 @@
    "scope": "eu",
    "name": "Radio Equipment Directive",
    "identifier": "Directive 2014/53/EU",
+   "min_year": 2011,
    "policy_area": "Product Safety & Compliance",
    "full": [
     "Radio\\ Equipment\\ Directive",
@@ -1555,6 +1636,7 @@
    "scope": "eu",
    "name": "E-invoicing Directive",
    "identifier": "Directive 2014/55/EU",
+   "min_year": 2012,
    "policy_area": "E-commerce & Consumer Protection",
    "full": [
     "E\\-invoicing\\ Directive",
@@ -1573,6 +1655,7 @@
    "scope": "eu",
    "name": "Portability Regulation",
    "identifier": "Regulation (EU) 2017/1128",
+   "min_year": 2014,
    "policy_area": "Media",
    "full": [
     "Portability\\ Regulation",
@@ -1591,6 +1674,7 @@
    "scope": "eu",
    "name": ".eu Top-Level Domain Regulation",
    "identifier": "Regulation (EU) 2019/517",
+   "min_year": 2017,
    "policy_area": "Connectivity & Digital Infrastructure",
    "full": [
     "\\.eu\\ Top\\-Level\\ Domain\\ Regulation",
@@ -1609,6 +1693,7 @@
    "scope": "eu",
    "name": "Short-Term Rental Data Regulation",
    "identifier": "Regulation (EU) 2024/1028",
+   "min_year": 2021,
    "policy_area": "Data & Privacy",
    "full": [
     "Short\\-Term\\ Rental\\ Data\\ Regulation",
@@ -1627,6 +1712,7 @@
    "scope": "eu",
    "name": "Radio Spectrum Policy Programme",
    "identifier": "Decision No 243/2012/EU",
+   "min_year": 2009,
    "policy_area": "Connectivity & Digital Infrastructure",
    "full": [
     "Radio\\ Spectrum\\ Policy\\ Programme",
@@ -1645,6 +1731,7 @@
    "scope": "eu",
    "name": "700 MHz Decision",
    "identifier": "Decision (EU) 2017/899",
+   "min_year": 2015,
    "policy_area": "Connectivity & Digital Infrastructure",
    "full": [
     "700\\ MHz\\ Decision",
@@ -1662,6 +1749,7 @@
    "scope": "eu",
    "name": "TRIS Directive",
    "identifier": "Directive (EU) 2015/1535",
+   "min_year": 2012,
    "policy_area": "Competition & Single Market",
    "full": [
     "TRIS\\ Directive",
@@ -1681,6 +1769,7 @@
    "scope": "eu",
    "name": "European Accessibility Act",
    "identifier": "Directive (EU) 2019/882",
+   "min_year": 2014,
    "policy_area": "E-commerce & Consumer Protection",
    "full": [
     "European\\ Accessibility\\ Act",
@@ -1701,6 +1790,7 @@
    "scope": "eu",
    "name": "Software Directive",
    "identifier": "Directive 2009/24/EC",
+   "min_year": 2007,
    "policy_area": "IPR",
    "full": [
     "Software\\ Directive",
@@ -1720,6 +1810,7 @@
    "scope": "eu",
    "name": "Collective Rights Management Directive",
    "identifier": "Directive 2014/26/EU",
+   "min_year": 2011,
    "policy_area": "IPR",
    "full": [
     "Collective\\ Rights\\ Management\\ Directive",
@@ -1738,6 +1829,7 @@
    "scope": "eu",
    "name": "Conditional Access Directive",
    "identifier": "Directive 98/84/EC",
+   "min_year": 1996,
    "policy_area": "Media",
    "full": [
     "Conditional\\ Access\\ Directive",
@@ -1755,6 +1847,7 @@
    "scope": "eu",
    "name": "ADR Directive",
    "identifier": "Directive 2013/11/EU",
+   "min_year": 2010,
    "policy_area": "E-commerce & Consumer Protection",
    "full": [
     "ADR\\ Directive",
@@ -1774,6 +1867,7 @@
    "scope": "eu",
    "name": "Representative Actions Directive",
    "identifier": "Directive (EU) 2020/1828",
+   "min_year": 2017,
    "policy_area": "E-commerce & Consumer Protection",
    "full": [
     "Representative\\ Actions\\ Directive",
@@ -1793,6 +1887,7 @@
    "scope": "eu",
    "name": "E-money Directive",
    "identifier": "Directive 2009/110/EC",
+   "min_year": 2007,
    "policy_area": "Finance",
    "full": [
     "E\\-money\\ Directive",
@@ -1813,6 +1908,7 @@
    "scope": "eu",
    "name": "SEPA Regulation",
    "identifier": "Regulation (EU) No 260/2012",
+   "min_year": 2009,
    "policy_area": "Finance",
    "full": [
     "SEPA\\ Regulation",
@@ -1832,13 +1928,13 @@
    "scope": "eu",
    "name": "Transfer of Funds Regulation",
    "identifier": "Regulation (EU) 2023/1113",
+   "min_year": 2020,
    "policy_area": "Finance",
    "full": [
     "Transfer\\ of\\ Funds\\ Regulation",
     "(Revised |EU )?Transfer of Funds Regulation",
     "Funds Transfer Regulation",
     "Wire Transfer Regulation",
-    "TFR\\b",
     "(?<![\\d/])2023/1113(?![\\d/])"
    ],
    "abbrev": [],
@@ -1852,6 +1948,7 @@
    "scope": "eu",
    "name": "Consumer Credit Directive II",
    "identifier": "Directive (EU) 2023/2225",
+   "min_year": 2020,
    "policy_area": "Finance",
    "full": [
     "Consumer\\ Credit\\ Directive\\ II",
@@ -1870,15 +1967,19 @@
    "scope": "eu",
    "name": "European Single Access Point (ESAP)",
    "identifier": "Regulation (EU) 2023/2859",
+   "min_year": 2020,
    "policy_area": "Finance",
    "full": [
     "European\\ Single\\ Access\\ Point",
     "European Single Access Point",
-    "ESAP\\b",
     "(?<![\\d/])2023/2859(?![\\d/])"
    ],
-   "abbrev": [],
-   "abbrev_conflicts": [],
+   "abbrev": [
+    "\\bESAP\\b"
+   ],
+   "abbrev_conflicts": [
+    "(?i)Executive Separation"
+   ],
    "not_before": "",
    "not_after": ""
   },
@@ -1888,6 +1989,7 @@
    "scope": "eu",
    "name": "Cybercrime Directive",
    "identifier": "Directive 2013/40/EU",
+   "min_year": 2009,
    "policy_area": "Online Crime & Law Enforcement",
    "full": [
     "Cybercrime\\ Directive",
@@ -1906,6 +2008,7 @@
    "scope": "eu",
    "name": "Child Sexual Abuse Directive",
    "identifier": "Directive 2011/93/EU",
+   "min_year": 2009,
    "policy_area": "Online Crime & Law Enforcement",
    "full": [
     "Child\\ Sexual\\ Abuse\\ Directive",
@@ -1924,6 +2027,7 @@
    "scope": "eu",
    "name": "Antitrust Procedure Regulation",
    "identifier": "Regulation (EC) No 1/2003",
+   "min_year": 1999,
    "policy_area": "Competition & Single Market",
    "full": [
     "Antitrust\\ Procedure\\ Regulation",
@@ -1943,11 +2047,13 @@
    "scope": "eu",
    "name": "Services Directive",
    "identifier": "Directive 2006/123/EC",
+   "min_year": 2003,
    "policy_area": "Competition & Single Market",
    "full": [
     "Services\\ Directive",
-    "(EU |European )?Services Directive(?! 2)",
+    "(EU|European|Single Market) Services Directive",
     "Bolkestein Directive",
+    "Directive on services in the internal market",
     "(?<![\\d/])2006/123(?![\\d/])"
    ],
    "abbrev": [],
@@ -1961,6 +2067,7 @@
    "scope": "eu",
    "name": "Medical Devices Regulation",
    "identifier": "Regulation (EU) 2017/745",
+   "min_year": 2011,
    "policy_area": "Product Safety & Compliance",
    "full": [
     "Medical\\ Devices\\ Regulation",
@@ -1980,6 +2087,7 @@
    "scope": "eu",
    "name": "In Vitro Diagnostic Medical Devices Regulation",
    "identifier": "Regulation (EU) 2017/746",
+   "min_year": 2011,
    "policy_area": "Product Safety & Compliance",
    "full": [
     "In\\ Vitro\\ Diagnostic\\ Medical\\ Devices\\ Regulation",
@@ -1998,6 +2106,7 @@
    "scope": "eu",
    "name": "Vehicle General Safety Regulation",
    "identifier": "Regulation (EU) 2019/2144",
+   "min_year": 2017,
    "policy_area": "Product Safety & Compliance",
    "full": [
     "Vehicle\\ General\\ Safety\\ Regulation",
@@ -2016,6 +2125,7 @@
    "scope": "eu",
    "name": "Dual-Use Regulation",
    "identifier": "Regulation (EU) 2021/821",
+   "min_year": 2015,
    "policy_area": "Product Safety & Compliance",
    "full": [
     "Dual\\-Use\\ Regulation",
@@ -2034,11 +2144,11 @@
    "scope": "eu",
    "name": "Low Voltage Directive",
    "identifier": "Directive 2014/35/EU",
+   "min_year": 2010,
    "policy_area": "Product Safety & Compliance",
    "full": [
     "Low\\ Voltage\\ Directive",
     "Low Voltage Directive",
-    "LVD\\b",
     "(?<![\\d/])2014/35(?![\\d/])"
    ],
    "abbrev": [],
@@ -2052,6 +2162,7 @@
    "scope": "eu",
    "name": "RoHS Directive",
    "identifier": "Directive 2011/65/EU",
+   "min_year": 2007,
    "policy_area": "Product Safety & Compliance",
    "full": [
     "RoHS\\ Directive",
@@ -2069,10 +2180,15 @@
    "scope": "eu",
    "name": "WEEE Directive",
    "identifier": "Directive 2012/19/EU",
+   "min_year": 2007,
    "policy_area": "Product Safety & Compliance",
    "full": [
     "WEEE\\ Directive",
-    "WEEE( Directive)?",
+    "WEEE( 2)? Directive",
+    "EU WEEE",
+    "Directive (on )?(WEEE|[Ww]aste (from |of )?[Ee]lectrical and [Ee]lectronic [Ee]quipment)",
+    "[Ww]aste (from |of )?[Ee]lectrical and [Ee]lectronic [Ee]quipment \\(WEEE\\) Directive",
+    "(?i)directive DEEE",
     "(?<![\\d/])2012/19(?![\\d/])"
    ],
    "abbrev": [],
@@ -2086,6 +2202,7 @@
    "scope": "eu",
    "name": "Fourth Anti-Money Laundering Directive",
    "identifier": "Directive (EU) 2015/849",
+   "min_year": 2012,
    "policy_area": "Finance",
    "full": [
     "Fourth\\ Anti\\-Money\\ Laundering\\ Directive",

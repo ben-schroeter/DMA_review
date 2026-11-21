@@ -102,8 +102,12 @@ def main():
     laws = _LAWS
     reps = json.load(open(opt["--manifest"]))
     ok = [r for r in reps if r.get("status") == "ok"]
+    results = []
     with Pool(int(opt["--procs"]), initializer=_init, initargs=(opt["--patterns"],)) as pool:
-        results = pool.map(measure, ok, chunksize=4)
+        for i, res in enumerate(pool.imap(measure, ok, chunksize=4), 1):
+            results.append(res)
+            if i % 100 == 0:
+                print(f"{i}/{len(ok)} reports", flush=True)
     meas = {(r["company"], r["year"]): x for r, x in zip(ok, results)}
 
     def base(r):
@@ -120,7 +124,7 @@ def main():
             continue
         nwords, lang, res = meas[(r["company"], r["year"])]
         for l in laws:
-            x = res.get(l["id"], {})
+            x = res.get(l["id"], {}) if r["year"] >= l.get("min_year", 0) else {}
             n = x.get("mentions", 0)
             rows.append(dict(b, language=lang, words=nwords, law=l["id"], mentions=n, paragraphs=x.get("paragraphs", 0),
                              per_100k=round(1e5 * n / nwords, 3) if nwords else "", matched=x.get("matched", ""),

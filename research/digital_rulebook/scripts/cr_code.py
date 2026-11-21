@@ -37,6 +37,7 @@ AMOUNT = re.compile(r"(?:(?:€|EUR|US\$|USD|\$|£|GBP)\s?\d[\d,.]*(?:\s?(?:mill
 # names that make a sentence a list of laws
 LAWISH = re.compile(r"\b(GDPR|CCPA|CPRA|LGPD|PIPL|PIPEDA|HIPAA|COPPA|DSA|DMA|NIS ?2|DORA|ePrivacy|Data Act|AI Act|"
                     r"[A-Z][A-Za-z-]+ (Act|Regulation|Directive|Law))\b")
+AMENDING = re.compile(r"(?i)(amending|amended by|modifi(ant|é|ée|cando|ca)|zur Änderung|ändert)\b[^.;]{0,80}$")
 GLOSS = re.compile(r"\b([A-Z]{2,7}) (?:[A-Z][a-z]+ ){1,6}")   # 'GLCM Global Liquidity and Cash ...' 
 VERBISH = re.compile(r"\b(is|are|was|were|be|been|may|might|will|would|could|can|we|our|has|have|had|its)\b")
 ZW = re.compile("[\u200b\u200c\u200d\u2060\ufeff\u00ad]")   # zero-width characters in some iXBRL filings
@@ -97,6 +98,9 @@ def match_law(law, flat, doc_has_full):
             if law["nb_re"] and law["nb_re"].search(flat[max(0, m.start() - 40):m.start()]):
                 continue
             if law.get("na_re") and law["na_re"].search(flat[m.end():m.end() + 20]):
+                continue
+            # an official number cited in another act's title ('... amending Regulation (EU) 2023/2859')
+            if "/" in m.group(0) and AMENDING.search(flat[max(0, m.start() - 90):m.start()]):
                 continue
             hits.append(m)
     # drop matches contained in a longer match (e.g. 'GDPR' inside 'EU and UK GDPR')
