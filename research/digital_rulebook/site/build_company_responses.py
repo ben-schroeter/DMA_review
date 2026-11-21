@@ -192,21 +192,20 @@ for o, c, lid in sorted(pts, key=lambda p: p[2] in LAB):
         lab = {"R65": "Machinery Regulation", "R135": "In-vitro diagnostics Reg.", "R103": "Toys Safety Regulation",
                "R110": "Radio Equipment Directive", "R81": "Health Data Space"}.get(lid, nm(lid))
         g.append(t(X(o) + dx, Y(c) + dy, lab, 11.5, INK, anc))
-# fitted lines (least squares on log(1 + x) against log(1 + y), the scales of the chart) with their correlations
-def _fit(P):
-    xs_ = [math.log1p(p[0]) for p in P]; ys_ = [math.log1p(p[1]) for p in P]
-    mx_, my_ = st.mean(xs_), st.mean(ys_)
-    sxy = sum((u - mx_) * (v - my_) for u, v in zip(xs_, ys_)); sxx = sum((u - mx_) ** 2 for u in xs_); syy = sum((v - my_) ** 2 for v in ys_)
-    return my_ - sxy / sxx * mx_, sxy / sxx, sxy / math.sqrt(sxx * syy), min(xs_), max(xs_)
+# fitted curves: second-degree polynomial (least squares) of log(1 + companies) on log(1 + obligations), the scales of the chart.
+# The legend gives the correlation r (as in the text) and the curve's R².
+import numpy as _np
 for P, dash, col, lab in ((pts, "6 5", MUTED, "all laws"), ([p for p in pts if p[1] >= 2], "", GOLD_D, "laws named by 2+ companies")):
-    a0, b1, r, x0, x1 = _fit(P)
-    yv = lambda u: math.expm1(a0 + b1 * u)
-    g.append(f'<line x1="{X(math.expm1(x0)):.1f}" y1="{Y(max(yv(x0), 0)):.1f}" x2="{X(math.expm1(x1)):.1f}" y2="{Y(yv(x1)):.1f}" stroke="{col}" stroke-width="2"'
-             + (f' stroke-dasharray="{dash}"' if dash else "") + "></line>")
-    # legend, top left of the plot (no dots there)
-    ly = TM4 + 14 + (0 if dash else 20)
+    xs_ = _np.array([math.log1p(p[0]) for p in P]); ys_ = _np.array([math.log1p(p[1]) for p in P])
+    cf = _np.polyfit(xs_, ys_, 2); fit = _np.polyval(cf, xs_)
+    r2 = 1 - ((ys_ - fit) ** 2).sum() / ((ys_ - ys_.mean()) ** 2).sum()
+    r = float(_np.corrcoef(xs_, ys_)[0, 1])
+    us = _np.linspace(xs_.min(), xs_.max(), 60)
+    pts_ = " ".join(f"{X(math.expm1(u)):.1f},{Y(max(math.expm1(float(_np.polyval(cf, u))), 0)):.1f}" for u in us)
+    g.append(f'<polyline points="{pts_}" fill="none" stroke="{col}" stroke-width="2"' + (f' stroke-dasharray="{dash}"' if dash else "") + "></polyline>")
+    ly = TM4 + 14 + (0 if dash else 20)   # legend, top left of the plot (no dots there)
     g.append(f'<line x1="{LM4 + 14}" x2="{LM4 + 44}" y1="{ly - 4}" y2="{ly - 4}" stroke="{col}" stroke-width="2"' + (f' stroke-dasharray="{dash}"' if dash else "") + "></line>")
-    g.append(t(LM4 + 52, ly, f"Fitted line, {lab}: r = {r:.2f}", 12.5, col, "start", 600))
+    g.append(t(LM4 + 52, ly, f"Polynomial fit, {lab}: r = {r:.2f}, R² = {r2:.2f}", 12.5, col, "start", 600))
 H = TM4 + PH4 + 44
 svg("cr_size.svg", W4, H, "Each EU law by the number of obligations it places on companies and the number of companies naming it in an annual report. "
     "The GDPR, the AI Act, DORA and the platform laws are widely named; large product laws such as the Machinery Regulation, the Toys Safety Regulation and the Radio Equipment Directive are never named.", g)
