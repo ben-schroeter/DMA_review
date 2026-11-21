@@ -1702,7 +1702,7 @@
    "id": "salesforce",
    "name": "Salesforce",
    "groups": [
-    "Added: major CL/PL company"
+    "Added"
    ],
    "sec_ciks": [
     1108524
@@ -1711,7 +1711,700 @@
    "hq": "US",
    "legal_name": "SALESFORCE, INC.",
    "company_types": "CL;PL",
-   "type_status": "proposed",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "booking-holdings",
+   "name": "Booking Holdings",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    1075531
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "GK;PL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "spotify",
+   "name": "Spotify",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    1639920
+   ],
+   "lei": "549300B4X0JHWV0DTD60",
+   "hq": "SE",
+   "legal_name": "SPOTIFY TECHNOLOGY S.A.",
+   "company_types": "PL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "netflix",
+   "name": "Netflix",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    1065280
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "airbnb",
+   "name": "Airbnb",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    1559720
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "ebay",
+   "name": "eBay",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    1065088
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "pinterest",
+   "name": "Pinterest",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    1506293
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "GK;PL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "snap",
+   "name": "Snap",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    1564408
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "GK;PL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "delivery-hero",
+   "name": "Delivery Hero",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [],
+   "lei": "529900C3EX1FZGE48X78",
+   "hq": "DE",
+   "legal_name": "Delivery Hero SE",
+   "company_types": "PL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "accenture",
+   "name": "Accenture",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    {
+     "cik": 1134538,
+     "to": 2008,
+     "note": "Accenture Ltd (Bermuda), predecessor"
+    },
+    1467373
+   ],
+   "lei": null,
+   "hq": "IE",
+   "legal_name": null,
+   "company_types": "CL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "adobe",
+   "name": "Adobe",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    796343
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "CL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "servicenow",
+   "name": "ServiceNow",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    1373715
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "CL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "palantir",
+   "name": "Palantir",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    1321655
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "CL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "ovhcloud",
+   "name": "OVHcloud",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [],
+   "lei": "9695001J8OSOVX4TP939",
+   "hq": "FR",
+   "legal_name": "OVH GROUPE",
+   "company_types": "CL",
+   "type_status": "include",
+   "esef_reports": {
+    "2022": {
+     "url": "https://filings.xbrl.org/9695001J8OSOVX4TP939/2022-08-31/ESEF/FR/0/9695001J8OSOVX4TP939-2022-08-31-fr/reports/9695001J8OSOVX4TP939-2022-08-31-fr.xhtml",
+     "period_end": "2022-08-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/9695001J8OSOVX4TP939/2024-08-31/ESEF/FR/0/ovhgroupe-2024-08-31-0-fr/reports/ovhgroupe-2024-08-31-fr.html",
+     "period_end": "2024-08-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/9695001J8OSOVX4TP939/2025-08-31/ESEF/FR/0/ovhgroupe-2025-08-31-0-fr/reports/ovhgroupe-2025-08-31-0-fr.html",
+     "period_end": "2025-08-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2026": {
+     "url": "https://filings.xbrl.org/9695001J8OSOVX4TP939/2026-08-31/ESEF/FR/0/ovhgroupe-2026-08-31-1/reports/ovhgroupe-2026-08-31-1-fr.html",
+     "period_end": "2026-08-31",
+     "country": "FR",
+     "language": "fr"
+    }
+   }
+  },
+  {
+   "id": "telef-nica",
+   "name": "Telefónica",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    814052
+   ],
+   "lei": "549300EEJH4FEPDBBR25",
+   "hq": "ES",
+   "legal_name": "TELEFONICA SA",
+   "company_types": "TC",
+   "type_status": "include",
+   "esef_reports": {
+    "2020": {
+     "url": "https://filings.xbrl.org/549300EEJH4FEPDBBR25/2020-12-31/ESEF/ES/0/549300EEJH4FEPDBBR25-20201231/reports/549300EEJH4FEPDBBR25-20201231.xhtml",
+     "period_end": "2020-12-31",
+     "country": "ES",
+     "language": ""
+    },
+    "2021": {
+     "url": "https://filings.xbrl.org/549300EEJH4FEPDBBR25/2021-12-31/ESEF/ES/0/549300EEJH4FEPDBBR25-20211231-en/reports/549300EEJH4FEPDBBR25-20211231-en.xhtml",
+     "period_end": "2021-12-31",
+     "country": "ES",
+     "language": "en"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/549300EEJH4FEPDBBR25/2022-12-31/ESEF/ES/0/549300EEJH4FEPDBBR25-20221231-en/reports/549300EEJH4FEPDBBR25-20221231-en.xhtml",
+     "period_end": "2022-12-31",
+     "country": "ES",
+     "language": "en"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/549300EEJH4FEPDBBR25/2023-12-31/ESEF/ES/0/549300EEJH4FEPDBBR25-20231231-en/reports/549300EEJH4FEPDBBR25-20231231-en.xhtml",
+     "period_end": "2023-12-31",
+     "country": "ES",
+     "language": "en"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/549300EEJH4FEPDBBR25/2024-12-31/ESEF/ES/0/549300EEJH4FEPDBBR25-20241231-en/reports/549300EEJH4FEPDBBR25-20241231-en.xhtml",
+     "period_end": "2024-12-31",
+     "country": "ES",
+     "language": "en"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/549300EEJH4FEPDBBR25/2025-12-31/ESEF/ES/0/549300EEJH4FEPDBBR25-2025-12-31-1-es/reports/549300EEJH4FEPDBBR25-2025-12-31-1-es.xhtml",
+     "period_end": "2025-12-31",
+     "country": "ES",
+     "language": "es"
+    }
+   }
+  },
+  {
+   "id": "kpn",
+   "name": "KPN",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [],
+   "lei": "549300YO0JZHAL7FVP81",
+   "hq": "NL",
+   "legal_name": "Koninklijke KPN N.V.",
+   "company_types": "TC",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/549300YO0JZHAL7FVP81/2021-12-31/ESEF/NL/0/KONI-2021-12-31/reports/KONI-2021-12-31.html",
+     "period_end": "2021-12-31",
+     "country": "NL",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/549300YO0JZHAL7FVP81/2022-12-31/ESEF/NL/0/KONI-2022-12-31/reports/KONI-2022-12-31.html",
+     "period_end": "2022-12-31",
+     "country": "NL",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/549300YO0JZHAL7FVP81/2023-12-31/ESEF/NL/0/KONI-2023-12-31/reports/KONI-2023-12-31.html",
+     "period_end": "2023-12-31",
+     "country": "NL",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/549300YO0JZHAL7FVP81/2024-12-31/ESEF/NL/0/KONI-2024-12-31-en/reports/KONI-2024-12-31-en.html",
+     "period_end": "2024-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/549300YO0JZHAL7FVP81/2025-12-31/ESEF/NL/0/549300YO0JZHAL7FVP81-2025-12-31-1-en/reports/549300YO0JZHAL7FVP81-2025-12-31-1-en.html",
+     "period_end": "2025-12-31",
+     "country": "NL",
+     "language": "en"
+    }
+   }
+  },
+  {
+   "id": "telia",
+   "name": "Telia",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [],
+   "lei": "213800FSR9RNDUOTXO25",
+   "hq": "SE",
+   "legal_name": "TELIA COMPANY AB",
+   "company_types": "TC",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/213800FSR9RNDUOTXO25/2021-12-31/ESEF/SE/0/TeliaCompanyAB-2021-12-31-sv/reports/TeliaCompanyAB-2021-12-31-sv.xhtml",
+     "period_end": "2021-12-31",
+     "country": "SE",
+     "language": "sv"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/213800FSR9RNDUOTXO25/2022-12-31/ESEF/SE/0/TeliaCompanyAB-2022-12-31-sv/reports/TeliaCompanyAB-2022-12-31-sv.xhtml",
+     "period_end": "2022-12-31",
+     "country": "SE",
+     "language": "sv"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/213800FSR9RNDUOTXO25/2023-12-31/ESEF/SE/0/TeliaCompanyAB-2023-12-31-sv/reports/TeliaCompanyAB-2023-12-31-sv.xhtml",
+     "period_end": "2023-12-31",
+     "country": "SE",
+     "language": "sv"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/213800FSR9RNDUOTXO25/2024-12-31/ESEF/SE/0/TeliaCompanyAB-2024-12-31-0-sv/reports/TeliaCompanyAB-2024-12-31-0-sv.xhtml",
+     "period_end": "2024-12-31",
+     "country": "SE",
+     "language": "sv"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/213800FSR9RNDUOTXO25/2025-12-31/ESEF/SE/0/TeliaCompanyAB-2025-12-31-1-sv/reports/TeliaCompanyAB-2025-12-31-1-sv.xhtml",
+     "period_end": "2025-12-31",
+     "country": "SE",
+     "language": "sv"
+    }
+   }
+  },
+  {
+   "id": "telecom-italia",
+   "name": "Telecom Italia",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    948642
+   ],
+   "lei": "549300W384M3RI3VXU42",
+   "hq": "IT",
+   "legal_name": "TELECOM ITALIA SPA O TIM S.P.A.",
+   "company_types": "TC",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/549300W384M3RI3VXU42/2021-12-31/ESEF/IT/0/tim-2021-12-31-it/reports/tim-2021-12-31-it.xhtml",
+     "period_end": "2021-12-31",
+     "country": "IT",
+     "language": "it"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/549300W384M3RI3VXU42/2024-12-31/ESEF/IT/0/tim-2024-12-31-it/reports/tim-2024-12-31-it.xhtml",
+     "period_end": "2024-12-31",
+     "country": "IT",
+     "language": "it"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/549300W384M3RI3VXU42/2025-12-31/ESEF/IT/0/tim-2025-12-31-it/reports/tim-2025-12-31-it.xhtml",
+     "period_end": "2025-12-31",
+     "country": "IT",
+     "language": "it"
+    }
+   }
+  },
+  {
+   "id": "ericsson",
+   "name": "Ericsson",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    717826
+   ],
+   "lei": "549300W9JLPW15XIFM52",
+   "hq": "SE",
+   "legal_name": "Telefonaktiebolaget LM Ericsson",
+   "company_types": "PR;TC",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/549300W9JLPW15XIFM52/2021-12-31/ESEF/SE/0/549300W9JLPW15XIFM52-2021-12-31-sv/reports/549300W9JLPW15XIFM52-2021-12-31-sv.xhtml",
+     "period_end": "2021-12-31",
+     "country": "SE",
+     "language": "sv"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/549300W9JLPW15XIFM52/2022-12-31/ESEF/SE/0/549300W9JLPW15XIFM52-2022-12-31-sv/reports/549300W9JLPW15XIFM52-2022-12-31-sv.xhtml",
+     "period_end": "2022-12-31",
+     "country": "SE",
+     "language": "sv"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/549300W9JLPW15XIFM52/2023-12-31/ESEF/SE/0/549300W9JLPW15XIFM52-2023-12-31-sv/reports/549300W9JLPW15XIFM52-2023-12-31-sv.xhtml",
+     "period_end": "2023-12-31",
+     "country": "SE",
+     "language": "sv"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/549300W9JLPW15XIFM52/2024-12-31/ESEF/SE/0/549300W9JLPW15XIFM52-2024-12-31-0-sv/reports/549300W9JLPW15XIFM52-2024-12-31-0-sv.xhtml",
+     "period_end": "2024-12-31",
+     "country": "SE",
+     "language": "sv"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/549300W9JLPW15XIFM52/2025-12-31/ESEF/SE/0/549300W9JLPW15XIFM52-2025-12-31-1-sv/reports/549300W9JLPW15XIFM52-2025-12-31-1-sv.xhtml",
+     "period_end": "2025-12-31",
+     "country": "SE",
+     "language": "sv"
+    }
+   }
+  },
+  {
+   "id": "visa",
+   "name": "Visa",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    1403161
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "mastercard",
+   "name": "Mastercard",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    1141391
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "paypal",
+   "name": "PayPal",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    1633917
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "coinbase",
+   "name": "Coinbase",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    1679788
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "klarna",
+   "name": "Klarna",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    2003292
+   ],
+   "lei": "636700HER4JIK7GZUN17",
+   "hq": "GB",
+   "legal_name": "KLARNA GROUP PLC",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "generali",
+   "name": "Generali",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [],
+   "lei": "549300X5UKJVE386ZB61",
+   "hq": "IT",
+   "legal_name": "ASSICURAZIONI GENERALI SOCIETA' PER AZIONI",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/549300X5UKJVE386ZB61/2021-12-31/ESEF/IT/0/549300X5UKJVE386ZB61-2021-12-31/reports/549300X5UKJVE386ZB61-2021-12-31.html",
+     "period_end": "2021-12-31",
+     "country": "IT",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/549300X5UKJVE386ZB61/2022-12-31/ESEF/IT/0/549300X5UKJVE386ZB61-2022-12-31-it/reports/549300X5UKJVE386ZB61-2022-12-31-it.html",
+     "period_end": "2022-12-31",
+     "country": "IT",
+     "language": "it"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/549300X5UKJVE386ZB61/2024-12-31/ESEF/IT/0/549300X5UKJVE386ZB61-2024-12-31-0-it/reports/549300X5UKJVE386ZB61-2024-12-31-0-it.html",
+     "period_end": "2024-12-31",
+     "country": "IT",
+     "language": "it"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/549300X5UKJVE386ZB61/2025-12-31/ESEF/IT/0/549300X5UKJVE386ZB61-2025-12-31-1-it/reports/549300X5UKJVE386ZB61-2025-12-31-1-it.html",
+     "period_end": "2025-12-31",
+     "country": "IT",
+     "language": "it"
+    }
+   }
+  },
+  {
+   "id": "philips",
+   "name": "Philips",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    313216
+   ],
+   "lei": "H1FJE8H61JGM1JSGM897",
+   "hq": "NL",
+   "legal_name": "Koninklijke Philips N.V.",
+   "company_types": "PR",
+   "type_status": "include",
+   "esef_reports": {
+    "2020": {
+     "url": "https://filings.xbrl.org/H1FJE8H61JGM1JSGM897/2020-12-31/ESEF/NL/0/H1FJE8H61JGM1JSGM897-2020-12-31/reports/H1FJE8H61JGM1JSGM897-2020-12-31.html",
+     "period_end": "2020-12-31",
+     "country": "NL",
+     "language": ""
+    },
+    "2021": {
+     "url": "https://filings.xbrl.org/H1FJE8H61JGM1JSGM897/2021-12-31/ESEF/NL/0/H1FJE8H61JGM1JSGM897-2021-12-31/reports/H1FJE8H61JGM1JSGM897-2021-12-31.xhtml",
+     "period_end": "2021-12-31",
+     "country": "NL",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/H1FJE8H61JGM1JSGM897/2022-12-31/ESEF/NL/0/H1FJE8H61JGM1JSGM897-2022-12-31/reports/H1FJE8H61JGM1JSGM897-2022-12-31.xhtml",
+     "period_end": "2022-12-31",
+     "country": "NL",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/H1FJE8H61JGM1JSGM897/2023-12-31/ESEF/NL/0/H1FJE8H61JGM1JSGM897-2023-12-31/reports/H1FJE8H61JGM1JSGM897-2023-12-31.xhtml",
+     "period_end": "2023-12-31",
+     "country": "NL",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/H1FJE8H61JGM1JSGM897/2024-12-31/ESEF/NL/0/phg-2024-12-31-en/reports/phg-2024-12-31-en.xhtml",
+     "period_end": "2024-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/H1FJE8H61JGM1JSGM897/2025-12-31/ESEF/NL/0/phia-2025-12-31-1-en/reports/phia-2025-12-31-1-en.xhtml",
+     "period_end": "2025-12-31",
+     "country": "NL",
+     "language": "en"
+    }
+   }
+  },
+  {
+   "id": "nxp-semiconductors",
+   "name": "NXP Semiconductors",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    1413447
+   ],
+   "lei": "724500M9BY5293JDF951",
+   "hq": "NL",
+   "legal_name": "NXP Semiconductors N.V.",
+   "company_types": "PR",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "qualcomm",
+   "name": "Qualcomm",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    804328
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PR",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "amd",
+   "name": "AMD",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    2488
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PR;CL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "bosch",
+   "name": "Bosch",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "DE",
+   "legal_name": null,
+   "company_types": "PR",
+   "type_status": "include",
    "esef_reports": {}
   },
   {
@@ -3394,39 +4087,9 @@
    "hq": "GB",
    "legal_name": "3I GROUP PLC",
    "company_types": "FI",
-   "type_status": "include",
-   "esef_reports": {
-    "2022": {
-     "url": "https://filings.xbrl.org/35GDVHRBMFE7NWATNM84/2022-03-31/ESEF/GB/0/35GDVHRBMFE7NWATNM84-2022-03-31/reports/35GDVHRBMFE7NWATNM84-2022-03-31-T01.xhtml",
-     "period_end": "2022-03-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2023": {
-     "url": "https://filings.xbrl.org/35GDVHRBMFE7NWATNM84/2023-03-31/ESEF/GB/0/35GDVHRBMFE7NWATNM84-2023-03-31/reports/35GDVHRBMFE7NWATNM84-2023-03-31-T01.html",
-     "period_end": "2023-03-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2024": {
-     "url": "https://filings.xbrl.org/35GDVHRBMFE7NWATNM84/2024-03-31/ESEF/GB/0/35GDVHRBMFE7NWATNM84-2024-03-31/reports/35GDVHRBMFE7NWATNM84-2024-03-31-T01.html",
-     "period_end": "2024-03-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2025": {
-     "url": "https://filings.xbrl.org/35GDVHRBMFE7NWATNM84/2025-03-31/ESEF/GB/0/35GDVHRBMFE7NWATNM84-2025-03-31/reports/35GDVHRBMFE7NWATNM84-2025-03-31-T01.html",
-     "period_end": "2025-03-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2026": {
-     "url": "https://filings.xbrl.org/35GDVHRBMFE7NWATNM84/2026-03-31/ESEF/GB/0/35GDVHRBMFE7NWATNM84-2026-03-31/reports/35GDVHRBMFE7NWATNM84-2026-03-31-T01.html",
-     "period_end": "2026-03-31",
-     "country": "GB",
-     "language": ""
-    }
-   }
+   "type_status": "exclude",
+   "exclude": "private equity and infrastructure investor",
+   "esef_reports": {}
   },
   {
    "id": "aberdeen-group",
@@ -3439,39 +4102,9 @@
    "hq": "GB",
    "legal_name": "ABERDEEN GROUP PLC",
    "company_types": "FI",
-   "type_status": "include",
-   "esef_reports": {
-    "2021": {
-     "url": "https://filings.xbrl.org/0TMBS544NMO7GLCE7H90/2021-12-31/ESEF/GB/0/0TMBS544NMO7GLCE7H90-2021-12-31/reports/0TMBS544NMO7GLCE7H90-2021-12-31-T01.xhtml",
-     "period_end": "2021-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2022": {
-     "url": "https://filings.xbrl.org/0TMBS544NMO7GLCE7H90/2022-12-31/ESEF/GB/0/0TMBS544NMO7GLCE7H90-2022-12-31/reports/0TMBS544NMO7GLCE7H90-2022-12-31-T01.xhtml",
-     "period_end": "2022-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2023": {
-     "url": "https://filings.xbrl.org/0TMBS544NMO7GLCE7H90/2023-12-31/ESEF/GB/0/0TMBS544NMO7GLCE7H90-2023-12-31/reports/0TMBS544NMO7GLCE7H90-2023-12-31-T01.xhtml",
-     "period_end": "2023-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2024": {
-     "url": "https://filings.xbrl.org/0TMBS544NMO7GLCE7H90/2024-12-31/ESEF/GB/0/0TMBS544NMO7GLCE7H90-2024-12-31/reports/0TMBS544NMO7GLCE7H90-2024-12-31-T01.html",
-     "period_end": "2024-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2025": {
-     "url": "https://filings.xbrl.org/0TMBS544NMO7GLCE7H90/2025-12-31/ESEF/GB/0/0TMBS544NMO7GLCE7H90-2025-12-31/reports/0TMBS544NMO7GLCE7H90-2025-12-31-T01.html",
-     "period_end": "2025-12-31",
-     "country": "GB",
-     "language": ""
-    }
-   }
+   "type_status": "exclude",
+   "exclude": "asset manager and investment platform",
+   "esef_reports": {}
   },
   {
    "id": "admiral-group",
@@ -3484,39 +4117,9 @@
    "hq": "GB",
    "legal_name": "ADMIRAL GROUP PLC",
    "company_types": "FI",
-   "type_status": "include",
-   "esef_reports": {
-    "2021": {
-     "url": "https://filings.xbrl.org/213800FGVM7Z9EJB2685/2021-12-31/ESEF/GB/0/213800FGVM7Z9EJB2685-2021-12-31/reports/213800FGVM7Z9EJB2685-2021-12-31-T01.xhtml",
-     "period_end": "2021-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2022": {
-     "url": "https://filings.xbrl.org/213800FGVM7Z9EJB2685/2022-12-31/ESEF/GB/0/213800FGVM7Z9EJB2685-2022-12-31/reports/213800FGVM7Z9EJB2685-2022-12-31-T01.xhtml",
-     "period_end": "2022-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2023": {
-     "url": "https://filings.xbrl.org/213800FGVM7Z9EJB2685/2023-12-31/ESEF/GB/0/213800FGVM7Z9EJB2685-2023-12-31/reports/213800FGVM7Z9EJB2685-2023-12-31-T01.xhtml",
-     "period_end": "2023-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2024": {
-     "url": "https://filings.xbrl.org/213800FGVM7Z9EJB2685/2024-12-31/ESEF/GB/0/213800FGVM7Z9EJB2685-2024-12-31/reports/213800FGVM7Z9EJB2685-2024-12-31-T01.html",
-     "period_end": "2024-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2025": {
-     "url": "https://filings.xbrl.org/213800FGVM7Z9EJB2685/2025-12-31/ESEF/GB/0/213800FGVM7Z9EJB2685-2025-12-31/reports/213800FGVM7Z9EJB2685-2025-12-31-T01.html",
-     "period_end": "2025-12-31",
-     "country": "GB",
-     "language": ""
-    }
-   }
+   "type_status": "exclude",
+   "exclude": "insurer",
+   "esef_reports": {}
   },
   {
    "id": "airtel-africa",
@@ -3529,39 +4132,9 @@
    "hq": "GB",
    "legal_name": "AIRTEL AFRICA PLC",
    "company_types": "TC",
-   "type_status": "include",
-   "esef_reports": {
-    "2022": {
-     "url": "https://filings.xbrl.org/254900ZNZDQL6OWQH623/2022-03-31/ESEF/GB/0/254900ZNZDQL6OWQH623-2022-03-31/reports/254900ZNZDQL6OWQH623-2022-03-31-T01.html",
-     "period_end": "2022-03-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2023": {
-     "url": "https://filings.xbrl.org/254900ZNZDQL6OWQH623/2023-03-31/ESEF/GB/0/254900ZNZDQL6OWQH623-2023-03-31/reports/254900ZNZDQL6OWQH623-2023-03-31.html",
-     "period_end": "2023-03-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2024": {
-     "url": "https://filings.xbrl.org/254900ZNZDQL6OWQH623/2024-03-31/ESEF/GB/0/254900ZNZDQL6OWQH623-2024-03-31/reports/254900ZNZDQL6OWQH623-2024-03-31.html",
-     "period_end": "2024-03-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2025": {
-     "url": "https://filings.xbrl.org/254900ZNZDQL6OWQH623/2025-03-31/ESEF/GB/0/254900ZNZDQL6OWQH623-2025-03-31/reports/254900ZNZDQL6OWQH623-2025-03-31.xhtml",
-     "period_end": "2025-03-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2026": {
-     "url": "https://filings.xbrl.org/254900ZNZDQL6OWQH623/2026-03-31/ESEF/GB/0/254900ZNZDQL6OWQH623-2026-03-31/reports/254900ZNZDQL6OWQH623-2026-03-31.xhtml",
-     "period_end": "2026-03-31",
-     "country": "GB",
-     "language": ""
-    }
-   }
+   "type_status": "exclude",
+   "exclude": "telecoms operator (HQ London, operations in Africa)",
+   "esef_reports": {}
   },
   {
    "id": "alliance-witan",
@@ -3698,39 +4271,9 @@
    "hq": "GB",
    "legal_name": "AVIVA PLC",
    "company_types": "FI",
-   "type_status": "include",
-   "esef_reports": {
-    "2021": {
-     "url": "https://filings.xbrl.org/YF0Y5B0IB8SM0ZFG9G81/2021-12-31/ESEF/GB/0/YF0Y5B0IB8SM0ZFG9G81-2021-12-31/reports/YF0Y5B0IB8SM0ZFG9G81-2021-12-31-T01.html",
-     "period_end": "2021-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2022": {
-     "url": "https://filings.xbrl.org/YF0Y5B0IB8SM0ZFG9G81/2022-12-31/ESEF/GB/0/YF0Y5B0IB8SM0ZFG9G81-2022-12-31/reports/YF0Y5B0IB8SM0ZFG9G81-2022-12-31-T01.html",
-     "period_end": "2022-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2023": {
-     "url": "https://filings.xbrl.org/YF0Y5B0IB8SM0ZFG9G81/2023-12-31/ESEF/GB/0/YF0Y5B0IB8SM0ZFG9G81-2023-12-31/reports/YF0Y5B0IB8SM0ZFG9G81-2023-12-31-T01.html",
-     "period_end": "2023-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2024": {
-     "url": "https://filings.xbrl.org/YF0Y5B0IB8SM0ZFG9G81/2024-12-31/ESEF/GB/0/YF0Y5B0IB8SM0ZFG9G81-2024-12-31/reports/YF0Y5B0IB8SM0ZFG9G81-2024-12-31-T01.html",
-     "period_end": "2024-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2026": {
-     "url": "https://filings.xbrl.org/YF0Y5B0IB8SM0ZFG9G81/2026-03-02/ESEF/GB/0/YF0Y5B0IB8SM0ZFG9G81-2025-12-31/reports/YF0Y5B0IB8SM0ZFG9G81-2025-12-31-T01.html",
-     "period_end": "2026-03-02",
-     "country": "GB",
-     "language": ""
-    }
-   }
+   "type_status": "exclude",
+   "exclude": "insurer",
+   "esef_reports": {}
   },
   {
    "id": "babcock-international",
@@ -4429,33 +4972,9 @@
    "hq": "GB",
    "legal_name": "ICG PLC",
    "company_types": "FI",
-   "type_status": "include",
-   "esef_reports": {
-    "2022": {
-     "url": "https://filings.xbrl.org/549300OGASR5WRKJ8R68/2022-03-31/ESEF/GB/0/549300OGASR5WRKJ8R68-2022-03-31/reports/549300OGASR5WRKJ8R68-2022-03-31-T01.xhtml",
-     "period_end": "2022-03-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2024": {
-     "url": "https://filings.xbrl.org/549300OGASR5WRKJ8R68/2024-03-31/ESEF/GB/0/549300OGASR5WRKJ8R68-2024-03-31/reports/549300OGASR5WRKJ8R68-2024-03-31-T01.xhtml",
-     "period_end": "2024-03-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2025": {
-     "url": "https://filings.xbrl.org/549300OGASR5WRKJ8R68/2025-03-31/ESEF/GB/0/549300OGASR5WRKJ8R68-2025-03-31/reports/549300OGASR5WRKJ8R68-2025-03-31-T01.xhtml",
-     "period_end": "2025-03-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2026": {
-     "url": "https://filings.xbrl.org/549300OGASR5WRKJ8R68/2026-03-31/ESEF/GB/0/549300OGASR5WRKJ8R68-2026-03-31/reports/549300OGASR5WRKJ8R68-2026-03-31-T01.xhtml",
-     "period_end": "2026-03-31",
-     "country": "GB",
-     "language": ""
-    }
-   }
+   "type_status": "exclude",
+   "exclude": "asset manager",
+   "esef_reports": {}
   },
   {
    "id": "ig-group",
@@ -4468,27 +4987,9 @@
    "hq": "GB",
    "legal_name": "IG GROUP HOLDINGS PLC",
    "company_types": "FI",
-   "type_status": "include",
-   "esef_reports": {
-    "2022": {
-     "url": "https://filings.xbrl.org/2138003A5Q1M7ANOUD76/2022-05-31/ESEF/GB/0/2138003A5Q1M7ANOUD76-2022-05-31/reports/2138003A5Q1M7ANOUD76-2022-05-31-T01.xhtml",
-     "period_end": "2022-05-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2023": {
-     "url": "https://filings.xbrl.org/2138003A5Q1M7ANOUD76/2023-05-31/ESEF/GB/0/2138003A5Q1M7ANOUD76-2023-05-31/reports/2138003A5Q1M7ANOUD76-2023-05-31-T01.xhtml",
-     "period_end": "2023-05-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2024": {
-     "url": "https://filings.xbrl.org/2138003A5Q1M7ANOUD76/2024-05-31/ESEF/GB/0/2138003A5Q1M7ANOUD76-2024-05-31/reports/2138003A5Q1M7ANOUD76-2024-05-31-T01.xhtml",
-     "period_end": "2024-05-31",
-     "country": "GB",
-     "language": ""
-    }
-   }
+   "type_status": "exclude",
+   "exclude": "online trading, crypto",
+   "esef_reports": {}
   },
   {
    "id": "ihg-hotels-resorts",
@@ -4623,33 +5124,9 @@
    "hq": "GB",
    "legal_name": "INVESTEC PLC",
    "company_types": "FI",
-   "type_status": "include",
-   "esef_reports": {
-    "2022": {
-     "url": "https://filings.xbrl.org/2138007Z3U5GWDN3MY22/2022-03-31/ESEF/GB/0/2138007Z3U5GWDN3MY22-2022-03-31/reports/2138007Z3U5GWDN3MY22-2022-03-31-T01.html",
-     "period_end": "2022-03-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2023": {
-     "url": "https://filings.xbrl.org/2138007Z3U5GWDN3MY22/2023-03-31/ESEF/GB/0/2138007Z3U5GWDN3MY22-2023-03-31/reports/2138007Z3U5GWDN3MY22-2023-03-31-T01.html",
-     "period_end": "2023-03-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2024": {
-     "url": "https://filings.xbrl.org/2138007Z3U5GWDN3MY22/2024-03-31/ESEF/GB/0/2138007Z3U5GWDN3MY22-2024-03-31/reports/2138007Z3U5GWDN3MY22-2024-03-31-T01.html",
-     "period_end": "2024-03-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2026": {
-     "url": "https://filings.xbrl.org/2138007Z3U5GWDN3MY22/2026-03-31/ESEF/GB/0/2138007Z3U5GWDN3MY22-2026-03-31/reports/2138007Z3U5GWDN3MY22-2026-03-31-T01.html",
-     "period_end": "2026-03-31",
-     "country": "GB",
-     "language": ""
-    }
-   }
+   "type_status": "exclude",
+   "exclude": "bank and wealth manager",
+   "esef_reports": {}
   },
   {
    "id": "ithaca-energy",
@@ -4692,39 +5169,9 @@
    "hq": "GB",
    "legal_name": "LION FINANCE GROUP PLC",
    "company_types": "FI",
-   "type_status": "include",
-   "esef_reports": {
-    "2021": {
-     "url": "https://filings.xbrl.org/213800XKDG12NQG8VC53/2021-12-31/ESEF/GB/0/213800XKDG12NQG8VC53-2021-12-31/reports/213800XKDG12NQG8VC53-2021-12-31-T01.xhtml",
-     "period_end": "2021-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2022": {
-     "url": "https://filings.xbrl.org/213800XKDG12NQG8VC53/2022-12-31/ESEF/GB/0/213800XKDG12NQG8VC53-2022-12-31/reports/213800XKDG12NQG8VC53-2022-12-31-T01.xhtml",
-     "period_end": "2022-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2023": {
-     "url": "https://filings.xbrl.org/213800XKDG12NQG8VC53/2023-12-31/ESEF/GB/0/213800XKDG12NQG8VC53-2023-12-31/reports/213800XKDG12NQG8VC53-2023-12-31-T01.xhtml",
-     "period_end": "2023-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2024": {
-     "url": "https://filings.xbrl.org/213800XKDG12NQG8VC53/2024-12-31/ESEF/GB/0/213800XKDG12NQG8VC53-2024-12-31/reports/213800XKDG12NQG8VC53-2024-12-31-T01.xhtml",
-     "period_end": "2024-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2025": {
-     "url": "https://filings.xbrl.org/213800XKDG12NQG8VC53/2025-12-31/ESEF/GB/0/213800XKDG12NQG8VC53-2025-12-31/reports/213800XKDG12NQG8VC53-2025-12-31-T01.xhtml",
-     "period_end": "2025-12-31",
-     "country": "GB",
-     "language": ""
-    }
-   }
+   "type_status": "exclude",
+   "exclude": "bank holding (HQ London, operations in Georgia and Armenia)",
+   "esef_reports": {}
   },
   {
    "id": "kingfisher-plc",
@@ -4767,39 +5214,9 @@
    "hq": "GB",
    "legal_name": "LEGAL & GENERAL GROUP PLC",
    "company_types": "FI",
-   "type_status": "include",
-   "esef_reports": {
-    "2021": {
-     "url": "https://filings.xbrl.org/213800JH9QQWHLO99821/2021-12-31/ESEF/GB/0/213800JH9QQWHLO99821-2021-12-31/reports/213800JH9QQWHLO99821-2021-12-31-T01.xhtml",
-     "period_end": "2021-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2022": {
-     "url": "https://filings.xbrl.org/213800JH9QQWHLO99821/2022-12-31/ESEF/GB/0/213800JH9QQWHLO99821-2022-12-31/reports/213800JH9QQWHLO99821-2022-12-31-T01.xhtml",
-     "period_end": "2022-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2023": {
-     "url": "https://filings.xbrl.org/213800JH9QQWHLO99821/2023-12-31/ESEF/GB/0/213800JH9QQWHLO99821-2023-12-31/reports/213800JH9QQWHLO99821-2023-12-31-T01.xhtml",
-     "period_end": "2023-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2024": {
-     "url": "https://filings.xbrl.org/213800JH9QQWHLO99821/2024-12-31/ESEF/GB/0/213800JH9QQWHLO99821-2024-12-31/reports/213800JH9QQWHLO99821-2024-12-31-T01.xhtml",
-     "period_end": "2024-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2025": {
-     "url": "https://filings.xbrl.org/213800JH9QQWHLO99821/2025-12-31/ESEF/GB/0/213800JH9QQWHLO99821-2025-12-31/reports/213800JH9QQWHLO99821-2025-12-31-T01.html",
-     "period_end": "2025-12-31",
-     "country": "GB",
-     "language": ""
-    }
-   }
+   "type_status": "exclude",
+   "exclude": "insurer and asset manager",
+   "esef_reports": {}
   },
   {
    "id": "lloyds-banking-group",
@@ -4874,39 +5291,9 @@
    "hq": "GB",
    "legal_name": "LONDON STOCK EXCHANGE GROUP PLC",
    "company_types": "FI;CL",
-   "type_status": "include",
-   "esef_reports": {
-    "2021": {
-     "url": "https://filings.xbrl.org/213800QAUUUP6I445N30/2021-12-31/ESEF/GB/0/213800QAUUUP6I445N30-2021-12-31/reports/213800QAUUUP6I445N30-2021-12-31-T01.xhtml",
-     "period_end": "2021-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2022": {
-     "url": "https://filings.xbrl.org/213800QAUUUP6I445N30/2022-12-31/ESEF/GB/0/213800QAUUUP6I445N30-2022-12-31/reports/213800QAUUUP6I445N30-2022-12-31-T01.xhtml",
-     "period_end": "2022-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2023": {
-     "url": "https://filings.xbrl.org/213800QAUUUP6I445N30/2023-12-31/ESEF/GB/0/213800QAUUUP6I445N30-2023-12-31/reports/213800QAUUUP6I445N30-2023-12-31-T01.xhtml",
-     "period_end": "2023-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2024": {
-     "url": "https://filings.xbrl.org/213800QAUUUP6I445N30/2024-12-31/ESEF/GB/0/213800QAUUUP6I445N30-2024-12-31/reports/213800QAUUUP6I445N30-2024-12-31-T01.xhtml",
-     "period_end": "2024-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2025": {
-     "url": "https://filings.xbrl.org/213800QAUUUP6I445N30/2025-12-31/ESEF/GB/0/213800QAUUUP6I445N30-2025-12-31/reports/213800QAUUUP6I445N30-2025-12-31-T01.xhtml",
-     "period_end": "2025-12-31",
-     "country": "GB",
-     "language": ""
-    }
-   }
+   "type_status": "exclude",
+   "exclude": "exchange and financial data",
+   "esef_reports": {}
   },
   {
    "id": "m-g",
@@ -4919,39 +5306,9 @@
    "hq": "GB",
    "legal_name": "M&G PLC",
    "company_types": "FI",
-   "type_status": "include",
-   "esef_reports": {
-    "2021": {
-     "url": "https://filings.xbrl.org/254900TWUJUQ44TQJY84/2021-12-31/ESEF/GB/0/254900TWUJUQ44TQJY84-2021-12-31/reports/254900TWUJUQ44TQJY84-2021-12-31-T01.xhtml",
-     "period_end": "2021-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2022": {
-     "url": "https://filings.xbrl.org/254900TWUJUQ44TQJY84/2022-12-31/ESEF/GB/0/254900TWUJUQ44TQJY84-2022-12-31/reports/254900TWUJUQ44TQJY84-2022-12-31-T01.xhtml",
-     "period_end": "2022-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2023": {
-     "url": "https://filings.xbrl.org/254900TWUJUQ44TQJY84/2023-12-31/ESEF/GB/0/254900TWUJUQ44TQJY84-2023-12-31/reports/254900TWUJUQ44TQJY84-2023-12-31-T01.html",
-     "period_end": "2023-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2024": {
-     "url": "https://filings.xbrl.org/254900TWUJUQ44TQJY84/2024-12-31/ESEF/GB/0/254900TWUJUQ44TQJY84-2024-12-31/reports/254900TWUJUQ44TQJY84-2024-12-31-T01.html",
-     "period_end": "2024-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2025": {
-     "url": "https://filings.xbrl.org/254900TWUJUQ44TQJY84/2025-12-31/ESEF/GB/0/254900TWUJUQ44TQJY84-2025-12-31/reports/254900TWUJUQ44TQJY84-2025-12-31-T01.html",
-     "period_end": "2025-12-31",
-     "country": "GB",
-     "language": ""
-    }
-   }
+   "type_status": "exclude",
+   "exclude": "asset manager and insurer",
+   "esef_reports": {}
   },
   {
    "id": "marks-spencer",
@@ -5028,33 +5385,9 @@
    "hq": "GB",
    "legal_name": "NATWEST GROUP PLC",
    "company_types": "FI",
-   "type_status": "include",
-   "esef_reports": {
-    "2021": {
-     "url": "https://filings.xbrl.org/2138005O9XJIJN4JPN90/2021-12-31/ESEF/GB/0/2138005O9XJIJN4JPN90-2021-12-31/reports/2138005O9XJIJN4JPN90-2021-12-31-T01.html",
-     "period_end": "2021-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2022": {
-     "url": "https://filings.xbrl.org/2138005O9XJIJN4JPN90/2022-12-31/ESEF/GB/0/2138005O9XJIJN4JPN90-2022-12-31/reports/2138005O9XJIJN4JPN90-2022-12-31-T01.html",
-     "period_end": "2022-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2024": {
-     "url": "https://filings.xbrl.org/2138005O9XJIJN4JPN90/2024-01-31/ESEF/GB/0/2138005O9XJIJN4JPN90-2023-12-31/reports/2138005O9XJIJN4JPN90-2023-12-31-T01.html",
-     "period_end": "2024-01-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2026": {
-     "url": "https://filings.xbrl.org/2138005O9XJIJN4JPN90/2026-01-31/ESEF/GB/0/2138005O9XJIJN4JPN90-2025-12-31/reports/2138005O9XJIJN4JPN90-2025-12-31-T01.html",
-     "period_end": "2026-01-31",
-     "country": "GB",
-     "language": ""
-    }
-   }
+   "type_status": "exclude",
+   "exclude": "bank",
+   "esef_reports": {}
   },
   {
    "id": "next-plc",
@@ -5191,39 +5524,9 @@
    "hq": "GB",
    "legal_name": "Prudential Public Limited Company",
    "company_types": "FI",
-   "type_status": "include",
-   "esef_reports": {
-    "2021": {
-     "url": "https://filings.xbrl.org/5493001Z3ZE83NGK8Y12/2021-12-31/ESEF/GB/0/5493001Z3ZE83NGK8Y12-2021-12-31/reports/5493001Z3ZE83NGK8Y12-2021-12-31-T01.html",
-     "period_end": "2021-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2022": {
-     "url": "https://filings.xbrl.org/5493001Z3ZE83NGK8Y12/2022-12-31/ESEF/GB/0/5493001Z3ZE83NGK8Y12-2022-12-31/reports/5493001Z3ZE83NGK8Y12-2022-12-31-T01.html",
-     "period_end": "2022-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2023": {
-     "url": "https://filings.xbrl.org/5493001Z3ZE83NGK8Y12/2023-12-31/ESEF/GB/0/5493001Z3ZE83NGK8Y12-2023-12-31/reports/5493001Z3ZE83NGK8Y12-2023-12-31-T01.html",
-     "period_end": "2023-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2024": {
-     "url": "https://filings.xbrl.org/5493001Z3ZE83NGK8Y12/2024-12-31/ESEF/GB/0/5493001Z3ZE83NGK8Y12-2024-12-31/reports/5493001Z3ZE83NGK8Y12-2024-12-31-T01.html",
-     "period_end": "2024-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2025": {
-     "url": "https://filings.xbrl.org/5493001Z3ZE83NGK8Y12/2025-12-31/ESEF/GB/0/5493001Z3ZE83NGK8Y12-2025-12-31/reports/5493001Z3ZE83NGK8Y12-2025-12-31-T01.html",
-     "period_end": "2025-12-31",
-     "country": "GB",
-     "language": ""
-    }
-   }
+   "type_status": "exclude",
+   "exclude": "insurer",
+   "esef_reports": {}
   },
   {
    "id": "reckitt",
@@ -5525,39 +5828,9 @@
    "hq": "GB",
    "legal_name": "STANDARD CHARTERED PLC",
    "company_types": "FI",
-   "type_status": "include",
-   "esef_reports": {
-    "2021": {
-     "url": "https://filings.xbrl.org/U4LOSYZ7YG4W3S5F2G91/2021-12-31/ESEF/GB/0/U4LOSYZ7YG4W3S5F2G91-2021-12-31/reports/U4LOSYZ7YG4W3S5F2G91-2021-12-31-T01.html",
-     "period_end": "2021-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2022": {
-     "url": "https://filings.xbrl.org/U4LOSYZ7YG4W3S5F2G91/2022-12-31/ESEF/GB/0/U4LOSYZ7YG4W3S5F2G91-2022-12-31/reports/U4LOSYZ7YG4W3S5F2G91-2022-12-31-T01.html",
-     "period_end": "2022-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2023": {
-     "url": "https://filings.xbrl.org/U4LOSYZ7YG4W3S5F2G91/2023-12-31/ESEF/GB/0/U4LOSYZ7YG4W3S5F2G91-2023-12-31/reports/U4LOSYZ7YG4W3S5F2G91-2023-12-31-T01.html",
-     "period_end": "2023-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2024": {
-     "url": "https://filings.xbrl.org/U4LOSYZ7YG4W3S5F2G91/2024-12-31/ESEF/GB/0/U4LOSYZ7YG4W3S5F2G91-2024-12-31/reports/U4LOSYZ7YG4W3S5F2G91-2024-12-31-T01.html",
-     "period_end": "2024-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2026": {
-     "url": "https://filings.xbrl.org/U4LOSYZ7YG4W3S5F2G91/2026-01-26/ESEF/GB/0/U4LOSYZ7YG4W3S5F2G91-2025-12-31/reports/U4LOSYZ7YG4W3S5F2G91-2025-12-31-T01.xhtml",
-     "period_end": "2026-01-26",
-     "country": "GB",
-     "language": ""
-    }
-   }
+   "type_status": "exclude",
+   "exclude": "bank",
+   "esef_reports": {}
   },
   {
    "id": "standard-life",
@@ -5572,39 +5845,9 @@
    "hq": "GB",
    "legal_name": "STANDARD LIFE PLC",
    "company_types": "FI",
-   "type_status": "include",
-   "esef_reports": {
-    "2021": {
-     "url": "https://filings.xbrl.org/2138001P49OLAEU33T68/2021-12-31/ESEF/GB/0/2138001P49OLAEU33T68-2021-12-31/reports/2138001P49OLAEU33T68-2021-12-31-T01.xhtml",
-     "period_end": "2021-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2022": {
-     "url": "https://filings.xbrl.org/2138001P49OLAEU33T68/2022-12-31/ESEF/GB/0/2138001P49OLAEU33T68-2022-12-31/reports/2138001P49OLAEU33T68-2022-12-31-T01.xhtml",
-     "period_end": "2022-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2023": {
-     "url": "https://filings.xbrl.org/2138001P49OLAEU33T68/2023-12-31/ESEF/GB/0/2138001P49OLAEU33T68-2023-12-31/reports/2138001P49OLAEU33T68-2023-12-31-T01.xhtml",
-     "period_end": "2023-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2024": {
-     "url": "https://filings.xbrl.org/2138001P49OLAEU33T68/2024-12-31/ESEF/GB/0/2138001P49OLAEU33T68-2024-12-31/reports/2138001P49OLAEU33T68-2024-12-31-T01.xhtml",
-     "period_end": "2024-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2025": {
-     "url": "https://filings.xbrl.org/2138001P49OLAEU33T68/2025-12-31/ESEF/GB/0/2138001P49OLAEU33T68-2025-12-31/reports/2138001P49OLAEU33T68-2025-12-31-T01.xhtml",
-     "period_end": "2025-12-31",
-     "country": "GB",
-     "language": ""
-    }
-   }
+   "type_status": "exclude",
+   "exclude": "pensions and savings",
+   "esef_reports": {}
   },
   {
    "id": "st-james-s-place",
@@ -5617,45 +5860,9 @@
    "hq": "GB",
    "legal_name": "ST. JAMES'S PLACE PLC",
    "company_types": "FI",
-   "type_status": "include",
-   "esef_reports": {
-    "2020": {
-     "url": "https://filings.xbrl.org/213800M993ICXOMBCP87/2020-12-31/ESEF/GB/0/213800M993ICXOMBCP87-2020-12-31/reports/213800M993ICXOMBCP87-2020-12-31-T01.html",
-     "period_end": "2020-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2021": {
-     "url": "https://filings.xbrl.org/213800M993ICXOMBCP87/2021-12-31/ESEF/GB/0/213800M993ICXOMBCP87-2021-12-31/reports/213800M993ICXOMBCP87-2021-12-31-T01.xhtml",
-     "period_end": "2021-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2022": {
-     "url": "https://filings.xbrl.org/213800M993ICXOMBCP87/2022-12-31/ESEF/GB/0/213800M993ICXOMBCP87-2022-12-31/reports/213800M993ICXOMBCP87-2022-12-31-T01.xhtml",
-     "period_end": "2022-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2023": {
-     "url": "https://filings.xbrl.org/213800M993ICXOMBCP87/2023-12-31/ESEF/GB/0/213800M993ICXOMBCP87-2023-12-31/reports/213800M993ICXOMBCP87-2023-12-31-T01.xhtml",
-     "period_end": "2023-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2024": {
-     "url": "https://filings.xbrl.org/213800M993ICXOMBCP87/2024-12-31/ESEF/GB/0/213800M993ICXOMBCP87-2024-12-31/reports/213800M993ICXOMBCP87-2024-12-31-T01.xhtml",
-     "period_end": "2024-12-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2025": {
-     "url": "https://filings.xbrl.org/213800M993ICXOMBCP87/2025-12-31/ESEF/GB/0/213800M993ICXOMBCP87-2025-12-31/reports/213800M993ICXOMBCP87-2025-12-31-T01.xhtml",
-     "period_end": "2025-12-31",
-     "country": "GB",
-     "language": ""
-    }
-   }
+   "type_status": "exclude",
+   "exclude": "wealth manager",
+   "esef_reports": {}
   },
   {
    "id": "tesco",
@@ -9152,6 +9359,326 @@
    },
    "2024": {
     "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_AAF.L_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "bosch": {
+   "2000": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2000.pdf",
+    "source": "annualreports.com"
+   },
+   "2001": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2001.pdf",
+    "source": "annualreports.com"
+   },
+   "2002": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2002.pdf",
+    "source": "annualreports.com"
+   },
+   "2003": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2003.pdf",
+    "source": "annualreports.com"
+   },
+   "2004": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2004.pdf",
+    "source": "annualreports.com"
+   },
+   "2005": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2005.pdf",
+    "source": "annualreports.com"
+   },
+   "2006": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2006.pdf",
+    "source": "annualreports.com"
+   },
+   "2007": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2007.pdf",
+    "source": "annualreports.com"
+   },
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2009": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2009.pdf",
+    "source": "annualreports.com"
+   },
+   "2010": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2010.pdf",
+    "source": "annualreports.com"
+   },
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "ericsson": {
+   "2000": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2000.pdf",
+    "source": "annualreports.com"
+   },
+   "2001": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2001.pdf",
+    "source": "annualreports.com"
+   },
+   "2002": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2002.pdf",
+    "source": "annualreports.com"
+   },
+   "2003": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2003.pdf",
+    "source": "annualreports.com"
+   },
+   "2004": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2004.pdf",
+    "source": "annualreports.com"
+   },
+   "2005": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2005.pdf",
+    "source": "annualreports.com"
+   },
+   "2006": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2006.pdf",
+    "source": "annualreports.com"
+   },
+   "2007": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2007.pdf",
+    "source": "annualreports.com"
+   },
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2009": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2009.pdf",
+    "source": "annualreports.com"
+   },
+   "2010": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2010.pdf",
+    "source": "annualreports.com"
+   },
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/NASDAQ_ERIC_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/NASDAQ_ERIC_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/NASDAQ_ERIC_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "philips": {
+   "2004": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/NYSE_PHG_2004.pdf",
+    "source": "annualreports.com"
+   },
+   "2005": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/NYSE_PHG_2005.pdf",
+    "source": "annualreports.com"
+   },
+   "2006": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/NYSE_PHG_2006.pdf",
+    "source": "annualreports.com"
+   },
+   "2007": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/NYSE_PHG_2007.pdf",
+    "source": "annualreports.com"
+   },
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/NYSE_PHG_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2009": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/NYSE_PHG_2009.pdf",
+    "source": "annualreports.com"
+   },
+   "2010": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/NYSE_PHG_2010.pdf",
+    "source": "annualreports.com"
+   },
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/NYSE_PHG_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/NYSE_PHG_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/NYSE_PHG_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/NYSE_PHG_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/NYSE_PHG_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/NYSE_PHG_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/NYSE_PHG_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/NYSE_PHG_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/NYSE_PHG_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/NYSE_PHG_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/NYSE_PHG_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/NYSE_PHG_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/NYSE_PHG_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/NYSE_PHG_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "spotify": {
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/NYSE_SPOT_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/NYSE_SPOT_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/NYSE_SPOT_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/NYSE_SPOT_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/NYSE_SPOT_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/NYSE_SPOT_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/NYSE_SPOT_2024.pdf",
     "source": "annualreports.com"
    }
   }

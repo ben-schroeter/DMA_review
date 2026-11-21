@@ -1,11 +1,214 @@
 {
- "_note": "Companies added to the universe outside Fortune 100 / the four indices. status 'proposed' = suggested, awaiting the project lead's decision.",
+ "_note": "Companies added to the universe outside Fortune 100 / the four indices, decided by the project lead on 2026-11-21.",
  "companies": [
   {
    "name": "Salesforce",
    "hq": "US",
    "groups": [
-    "Added: major CL/PL company"
+    "Added"
+   ]
+  },
+  {
+   "name": "Booking Holdings",
+   "hq": "US",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "Spotify",
+   "hq": "SE",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "Netflix",
+   "hq": "US",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "Airbnb",
+   "hq": "US",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "eBay",
+   "hq": "US",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "Pinterest",
+   "hq": "US",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "Snap",
+   "hq": "US",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "Delivery Hero",
+   "hq": "DE",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "Accenture",
+   "hq": "IE",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "Adobe",
+   "hq": "US",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "ServiceNow",
+   "hq": "US",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "Palantir",
+   "hq": "US",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "OVHcloud",
+   "hq": "FR",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "Telefónica",
+   "hq": "ES",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "KPN",
+   "hq": "NL",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "Telia",
+   "hq": "SE",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "Telecom Italia",
+   "hq": "IT",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "Ericsson",
+   "hq": "SE",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "Visa",
+   "hq": "US",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "Mastercard",
+   "hq": "US",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "PayPal",
+   "hq": "US",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "Coinbase",
+   "hq": "US",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "Klarna",
+   "hq": "GB",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "Generali",
+   "hq": "IT",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "Philips",
+   "hq": "NL",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "NXP Semiconductors",
+   "hq": "NL",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "Qualcomm",
+   "hq": "US",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "AMD",
+   "hq": "US",
+   "groups": [
+    "Added"
+   ]
+  },
+  {
+   "name": "Bosch",
+   "hq": "DE",
+   "groups": [
+    "Added"
    ]
   }
  ]

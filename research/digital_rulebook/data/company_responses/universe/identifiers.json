@@ -1443,6 +1443,173 @@
    ],
    "lei": "RCGZFPDMRW58VJ54VR07",
    "added": "not in Fortune 100 or the indices; added as a major CL/PL company"
+  },
+  "Booking Holdings": {
+   "sec_ciks": [
+    1075531
+   ],
+   "lei": null
+  },
+  "Spotify": {
+   "sec_ciks": [
+    1639920
+   ],
+   "lei": "549300B4X0JHWV0DTD60"
+  },
+  "Netflix": {
+   "sec_ciks": [
+    1065280
+   ],
+   "lei": null
+  },
+  "Airbnb": {
+   "sec_ciks": [
+    1559720
+   ],
+   "lei": null
+  },
+  "eBay": {
+   "sec_ciks": [
+    1065088
+   ],
+   "lei": null
+  },
+  "Pinterest": {
+   "sec_ciks": [
+    1506293
+   ],
+   "lei": null
+  },
+  "Snap": {
+   "sec_ciks": [
+    1564408
+   ],
+   "lei": null
+  },
+  "Delivery Hero": {
+   "sec_ciks": [],
+   "lei": "529900C3EX1FZGE48X78"
+  },
+  "Accenture": {
+   "sec_ciks": [
+    {
+     "cik": 1134538,
+     "to": 2008,
+     "note": "Accenture Ltd (Bermuda), predecessor"
+    },
+    1467373
+   ],
+   "lei": null
+  },
+  "Adobe": {
+   "sec_ciks": [
+    796343
+   ],
+   "lei": null
+  },
+  "ServiceNow": {
+   "sec_ciks": [
+    1373715
+   ],
+   "lei": null
+  },
+  "Palantir": {
+   "sec_ciks": [
+    1321655
+   ],
+   "lei": null
+  },
+  "OVHcloud": {
+   "sec_ciks": [],
+   "lei": "9695001J8OSOVX4TP939"
+  },
+  "Telefónica": {
+   "sec_ciks": [
+    814052
+   ],
+   "lei": "549300EEJH4FEPDBBR25"
+  },
+  "KPN": {
+   "sec_ciks": [],
+   "lei": "549300YO0JZHAL7FVP81"
+  },
+  "Telia": {
+   "sec_ciks": [],
+   "lei": "213800FSR9RNDUOTXO25"
+  },
+  "Telecom Italia": {
+   "sec_ciks": [
+    948642
+   ],
+   "lei": "549300W384M3RI3VXU42"
+  },
+  "Ericsson": {
+   "sec_ciks": [
+    717826
+   ],
+   "lei": "549300W9JLPW15XIFM52"
+  },
+  "Visa": {
+   "sec_ciks": [
+    1403161
+   ],
+   "lei": null
+  },
+  "Mastercard": {
+   "sec_ciks": [
+    1141391
+   ],
+   "lei": null
+  },
+  "PayPal": {
+   "sec_ciks": [
+    1633917
+   ],
+   "lei": null
+  },
+  "Coinbase": {
+   "sec_ciks": [
+    1679788
+   ],
+   "lei": null
+  },
+  "Klarna": {
+   "sec_ciks": [
+    2003292
+   ],
+   "lei": "636700HER4JIK7GZUN17"
+  },
+  "Generali": {
+   "sec_ciks": [],
+   "lei": "549300X5UKJVE386ZB61"
+  },
+  "Philips": {
+   "sec_ciks": [
+    313216
+   ],
+   "lei": "H1FJE8H61JGM1JSGM897"
+  },
+  "NXP Semiconductors": {
+   "sec_ciks": [
+    1413447
+   ],
+   "lei": "724500M9BY5293JDF951"
+  },
+  "Qualcomm": {
+   "sec_ciks": [
+    804328
+   ],
+   "lei": null
+  },
+  "AMD": {
+   "sec_ciks": [
+    2488
+   ],
+   "lei": null
+  },
+  "Bosch": {
+   "sec_ciks": [],
+   "lei": null
   }
  }
 }

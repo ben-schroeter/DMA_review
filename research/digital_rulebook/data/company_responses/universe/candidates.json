@@ -6,343 +6,392 @@
    "types": "GK;PL",
    "hq": "US",
    "source": "SEC 10-K",
-   "why": "designated DMA gatekeeper (2024); not in Fortune 100"
+   "why": "designated DMA gatekeeper (2024); not in Fortune 100",
+   "status": "added"
   },
   {
    "name": "Spotify",
    "types": "PL",
    "hq": "LU",
    "source": "SEC 20-F (2018-)",
-   "why": "largest EU-headquartered consumer platform; P2B/DMA complainant"
+   "why": "largest EU-headquartered consumer platform; P2B/DMA complainant",
+   "status": "added"
   },
   {
    "name": "Netflix",
    "types": "PL",
    "hq": "US",
    "source": "SEC 10-K",
-   "why": "video on demand (AVMSD), large EU user base"
+   "why": "video on demand (AVMSD), large EU user base",
+   "status": "added"
   },
   {
    "name": "Airbnb",
    "types": "PL",
    "hq": "US",
    "source": "SEC 10-K (2020-)",
-   "why": "short-term rental platform (DSA, DAC7, STR Regulation)"
+   "why": "short-term rental platform (DSA, DAC7, STR Regulation)",
+   "status": "added"
   },
   {
    "name": "eBay",
    "types": "PL",
    "hq": "US",
    "source": "SEC 10-K",
-   "why": "online marketplace"
+   "why": "online marketplace",
+   "status": "added"
   },
   {
    "name": "Expedia",
    "types": "PL",
    "hq": "US",
    "source": "SEC 10-K",
-   "why": "online travel platform"
+   "why": "online travel platform",
+   "status": "not added"
   },
   {
    "name": "Pinterest",
    "types": "GK;PL",
    "hq": "US",
    "source": "SEC 10-K (2019-)",
-   "why": "designated very large online platform (DSA)"
+   "why": "designated very large online platform (DSA)",
+   "status": "added"
   },
   {
    "name": "Snap",
    "types": "GK;PL",
    "hq": "US",
    "source": "SEC 10-K (2017-)",
-   "why": "designated very large online platform (DSA)"
+   "why": "designated very large online platform (DSA)",
+   "status": "added"
   },
   {
    "name": "Delivery Hero",
    "types": "PL",
    "hq": "DE",
    "source": "ESEF? / IR site",
-   "why": "food-delivery platform (Platform Work Directive); DAX 2020-23"
+   "why": "food-delivery platform (Platform Work Directive); DAX 2020-23",
+   "status": "added"
   },
   {
    "name": "Just Eat Takeaway",
    "types": "PL",
    "hq": "NL",
    "source": "ESEF / IR site",
-   "why": "food-delivery platform; now owned by Prosus"
+   "why": "food-delivery platform; now owned by Prosus",
+   "status": "not added"
   },
   {
    "name": "Allegro",
    "types": "PL",
    "hq": "PL",
    "source": "ESEF",
-   "why": "largest marketplace in Poland"
+   "why": "largest marketplace in Poland",
+   "status": "not added"
   },
   {
    "name": "Adobe",
    "types": "CL",
    "hq": "US",
    "source": "SEC 10-K",
-   "why": "cloud software, generative AI"
+   "why": "cloud software, generative AI",
+   "status": "added"
   },
   {
    "name": "ServiceNow",
    "types": "CL",
    "hq": "US",
    "source": "SEC 10-K (2012-)",
-   "why": "cloud software"
+   "why": "cloud software",
+   "status": "added"
   },
   {
    "name": "Workday",
    "types": "CL",
    "hq": "US",
    "source": "SEC 10-K (2012-)",
-   "why": "cloud software"
+   "why": "cloud software",
+   "status": "not added"
   },
   {
    "name": "Palantir",
    "types": "CL",
    "hq": "US",
    "source": "SEC 10-K (2020-)",
-   "why": "data and AI software"
+   "why": "data and AI software",
+   "status": "added"
   },
   {
    "name": "Accenture",
    "types": "CL",
    "hq": "IE",
    "source": "SEC 10-K",
-   "why": "largest IT services firm; headquartered in Dublin"
+   "why": "largest IT services firm; headquartered in Dublin",
+   "status": "added"
   },
   {
    "name": "Equinix",
    "types": "CL",
    "hq": "US",
    "source": "SEC 10-K",
-   "why": "data centres (EED reporting, NIS2)"
+   "why": "data centres (EED reporting, NIS2)",
+   "status": "not added"
   },
   {
    "name": "Cloudflare",
    "types": "CL",
    "hq": "US",
    "source": "SEC 10-K (2019-)",
-   "why": "CDN and cloud security (NIS2, DSA intermediary)"
+   "why": "CDN and cloud security (NIS2, DSA intermediary)",
+   "status": "not added"
   },
   {
    "name": "Arm Holdings",
    "types": "PR;CL",
    "hq": "GB",
    "source": "SEC (2023-)",
-   "why": "chip designs used in most connected devices"
+   "why": "chip designs used in most connected devices",
+   "status": "not added"
   },
   {
    "name": "Wolters Kluwer",
    "types": "CL",
    "hq": "NL",
    "source": "ESEF",
-   "why": "information and data services"
+   "why": "information and data services",
+   "status": "not added"
   },
   {
    "name": "Amadeus",
    "types": "CL",
    "hq": "ES",
    "source": "ESEF",
-   "why": "travel technology and data"
+   "why": "travel technology and data",
+   "status": "not added"
   },
   {
    "name": "Atos",
    "types": "CL",
    "hq": "FR",
    "source": "ESEF",
-   "why": "IT services and cloud"
+   "why": "IT services and cloud",
+   "status": "not added"
   },
   {
    "name": "OVHcloud",
    "types": "CL",
    "hq": "FR",
    "source": "ESEF",
-   "why": "largest EU cloud provider"
+   "why": "largest EU cloud provider",
+   "status": "added"
   },
   {
    "name": "Telefónica",
    "types": "TC",
    "hq": "ES",
    "source": "SEC 20-F",
-   "why": "telecoms operator"
+   "why": "telecoms operator",
+   "status": "added"
   },
   {
    "name": "KPN",
    "types": "TC",
    "hq": "NL",
    "source": "ESEF",
-   "why": "telecoms operator"
+   "why": "telecoms operator",
+   "status": "added"
   },
   {
    "name": "Telia",
    "types": "TC",
    "hq": "SE",
    "source": "ESEF",
-   "why": "telecoms operator"
+   "why": "telecoms operator",
+   "status": "added"
   },
   {
    "name": "Telecom Italia (TIM)",
    "types": "TC",
    "hq": "IT",
    "source": "ESEF / SEC 20-F (to 2022)",
-   "why": "telecoms operator"
+   "why": "telecoms operator",
+   "status": "added"
   },
   {
    "name": "Proximus",
    "types": "TC",
    "hq": "BE",
    "source": "ESEF",
-   "why": "telecoms operator"
+   "why": "telecoms operator",
+   "status": "not added"
   },
   {
    "name": "Cellnex",
    "types": "TC",
    "hq": "ES",
    "source": "ESEF",
-   "why": "telecoms towers"
+   "why": "telecoms towers",
+   "status": "not added"
   },
   {
    "name": "Ericsson",
    "types": "PR;TC",
    "hq": "SE",
    "source": "SEC 20-F",
-   "why": "network equipment (5G toolbox, CRA)"
+   "why": "network equipment (5G toolbox, CRA)",
+   "status": "added"
   },
   {
    "name": "Visa",
    "types": "FI",
    "hq": "US",
    "source": "SEC 10-K (2008-)",
-   "why": "card payments (PSD2, Interchange Fee Regulation)"
+   "why": "card payments (PSD2, Interchange Fee Regulation)",
+   "status": "added"
   },
   {
    "name": "Mastercard",
    "types": "FI",
    "hq": "US",
    "source": "SEC 10-K",
-   "why": "card payments"
+   "why": "card payments",
+   "status": "added"
   },
   {
    "name": "PayPal",
    "types": "FI",
    "hq": "US",
    "source": "SEC 10-K (2015-)",
-   "why": "payments; EU bank in Luxembourg"
+   "why": "payments; EU bank in Luxembourg",
+   "status": "added"
   },
   {
    "name": "Coinbase",
    "types": "FI",
    "hq": "US",
    "source": "SEC 10-K (2021-)",
-   "why": "crypto-asset service provider (MiCA)"
+   "why": "crypto-asset service provider (MiCA)",
+   "status": "added"
   },
   {
    "name": "Klarna",
    "types": "FI",
    "hq": "GB",
    "source": "SEC (2025-)",
-   "why": "buy-now-pay-later; Swedish bank"
+   "why": "buy-now-pay-later; Swedish bank",
+   "status": "added"
   },
   {
    "name": "Wise",
    "types": "FI",
    "hq": "GB",
    "source": "FCA NSM / ESEF",
-   "why": "payments; listed in London"
+   "why": "payments; listed in London",
+   "status": "not added"
   },
   {
    "name": "Worldline",
    "types": "FI",
    "hq": "FR",
    "source": "ESEF",
-   "why": "payments"
+   "why": "payments",
+   "status": "not added"
   },
   {
    "name": "Nexi",
    "types": "FI",
    "hq": "IT",
    "source": "ESEF",
-   "why": "payments"
+   "why": "payments",
+   "status": "not added"
   },
   {
    "name": "Generali",
    "types": "FI",
    "hq": "IT",
    "source": "ESEF",
-   "why": "insurer"
+   "why": "insurer",
+   "status": "added"
   },
   {
    "name": "ABN AMRO",
    "types": "FI",
    "hq": "NL",
    "source": "ESEF",
-   "why": "bank"
+   "why": "bank",
+   "status": "not added"
   },
   {
    "name": "CaixaBank",
    "types": "FI",
    "hq": "ES",
    "source": "ESEF",
-   "why": "bank"
+   "why": "bank",
+   "status": "not added"
   },
   {
    "name": "KBC",
    "types": "FI",
    "hq": "BE",
    "source": "ESEF",
-   "why": "bank and insurer"
+   "why": "bank and insurer",
+   "status": "not added"
   },
   {
    "name": "Philips",
    "types": "PR",
    "hq": "NL",
    "source": "SEC 20-F",
-   "why": "connected health devices"
+   "why": "connected health devices",
+   "status": "added"
   },
   {
    "name": "NXP Semiconductors",
    "types": "PR",
    "hq": "NL",
    "source": "SEC 10-K",
-   "why": "chips for cars and connected devices"
+   "why": "chips for cars and connected devices",
+   "status": "added"
   },
   {
    "name": "Qualcomm",
    "types": "PR",
    "hq": "US",
    "source": "SEC 10-K",
-   "why": "mobile chips; standard-essential patents (SEP Regulation)"
+   "why": "mobile chips; standard-essential patents (SEP Regulation)",
+   "status": "added"
   },
   {
    "name": "AMD",
    "types": "PR;CL",
    "hq": "US",
    "source": "SEC 10-K",
-   "why": "processors and AI accelerators"
+   "why": "processors and AI accelerators",
+   "status": "added"
   },
   {
    "name": "Honeywell",
    "types": "PR",
    "hq": "US",
    "source": "SEC 10-K",
-   "why": "connected industrial and building products"
+   "why": "connected industrial and building products",
+   "status": "not added"
   },
   {
    "name": "Deere",
    "types": "PR",
    "hq": "US",
    "source": "SEC 10-K",
-   "why": "connected farm machinery (Data Act)"
+   "why": "connected farm machinery (Data Act)",
+   "status": "not added"
   },
   {
    "name": "Bosch",
    "types": "PR",
    "hq": "DE",
    "source": "IR site (private; publishes annual report)",
-   "why": "largest maker of connected products in the EU; not listed"
+   "why": "largest maker of connected products in the EU; not listed",
+   "status": "added"
   }
  ],
  "not_feasible": [

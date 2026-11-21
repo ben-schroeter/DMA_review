@@ -567,8 +567,9 @@
   },
   "Airtel Africa": {
    "types": "TC",
-   "status": "include",
-   "why": "telecoms operator (HQ London, operations in Africa)"
+   "status": "exclude",
+   "why": "telecoms operator (HQ London, operations in Africa)",
+   "decision": "dropped by project lead, 2026-11-21"
   },
   "RELX": {
    "types": "CL",
@@ -592,8 +593,9 @@
   },
   "London Stock Exchange Group": {
    "types": "FI;CL",
-   "status": "include",
-   "why": "exchange and financial data"
+   "status": "exclude",
+   "why": "exchange and financial data",
+   "decision": "UK finance limited to HSBC, Barclays and Lloyds; decided by project lead, 2026-11-21"
   },
   "Autotrader Group": {
    "types": "PL",
@@ -602,23 +604,27 @@
   },
   "3i": {
    "types": "FI",
-   "status": "include",
-   "why": "private equity and infrastructure investor"
+   "status": "exclude",
+   "why": "private equity and infrastructure investor",
+   "decision": "UK finance limited to HSBC, Barclays and Lloyds; decided by project lead, 2026-11-21"
   },
   "Aberdeen Group": {
    "types": "FI",
-   "status": "include",
-   "why": "asset manager and investment platform"
+   "status": "exclude",
+   "why": "asset manager and investment platform",
+   "decision": "UK finance limited to HSBC, Barclays and Lloyds; decided by project lead, 2026-11-21"
   },
   "Admiral Group": {
    "types": "FI",
-   "status": "include",
-   "why": "insurer"
+   "status": "exclude",
+   "why": "insurer",
+   "decision": "UK finance limited to HSBC, Barclays and Lloyds; decided by project lead, 2026-11-21"
   },
   "Aviva": {
    "types": "FI",
-   "status": "include",
-   "why": "insurer"
+   "status": "exclude",
+   "why": "insurer",
+   "decision": "UK finance limited to HSBC, Barclays and Lloyds; decided by project lead, 2026-11-21"
   },
   "Barclays": {
    "types": "FI",
@@ -637,38 +643,45 @@
   },
   "NatWest Group": {
    "types": "FI",
-   "status": "include",
-   "why": "bank"
+   "status": "exclude",
+   "why": "bank",
+   "decision": "UK finance limited to HSBC, Barclays and Lloyds; decided by project lead, 2026-11-21"
   },
   "Standard Chartered": {
    "types": "FI",
-   "status": "include",
-   "why": "bank"
+   "status": "exclude",
+   "why": "bank",
+   "decision": "UK finance limited to HSBC, Barclays and Lloyds; decided by project lead, 2026-11-21"
   },
   "Legal & General": {
    "types": "FI",
-   "status": "include",
-   "why": "insurer and asset manager"
+   "status": "exclude",
+   "why": "insurer and asset manager",
+   "decision": "UK finance limited to HSBC, Barclays and Lloyds; decided by project lead, 2026-11-21"
   },
   "Prudential plc": {
    "types": "FI",
-   "status": "include",
-   "why": "insurer"
+   "status": "exclude",
+   "why": "insurer",
+   "decision": "UK finance limited to HSBC, Barclays and Lloyds; decided by project lead, 2026-11-21"
   },
   "M&G": {
    "types": "FI",
-   "status": "include",
-   "why": "asset manager and insurer"
+   "status": "exclude",
+   "why": "asset manager and insurer",
+   "decision": "UK finance limited to HSBC, Barclays and Lloyds; decided by project lead, 2026-11-21"
   },
   "Standard Life": {
    "types": "FI",
-   "status": "include",
-   "why": "pensions and savings"
+   "status": "exclude",
+   "why": "pensions and savings",
+   "decision": "UK finance limited to HSBC, Barclays and Lloyds; decided by project lead, 2026-11-21"
   },
   "St. James's Place": {
    "types": "FI",
-   "status": "include",
-   "why": "wealth manager"
+   "status": "exclude",
+   "why": "wealth manager",
+   "decision": "UK finance limited to HSBC, Barclays and Lloyds; decided by project lead, 2026-11-21"
   },
   "Hiscox": {
    "types": "FI",
@@ -677,23 +690,27 @@
   },
   "IG Group": {
    "types": "FI",
-   "status": "include",
-   "why": "online trading, crypto"
+   "status": "exclude",
+   "why": "online trading, crypto",
+   "decision": "UK finance limited to HSBC, Barclays and Lloyds; decided by project lead, 2026-11-21"
   },
   "Investec": {
    "types": "FI",
-   "status": "include",
-   "why": "bank and wealth manager"
+   "status": "exclude",
+   "why": "bank and wealth manager",
+   "decision": "UK finance limited to HSBC, Barclays and Lloyds; decided by project lead, 2026-11-21"
   },
   "ICG": {
    "types": "FI",
-   "status": "include",
-   "why": "asset manager"
+   "status": "exclude",
+   "why": "asset manager",
+   "decision": "UK finance limited to HSBC, Barclays and Lloyds; decided by project lead, 2026-11-21"
   },
   "Lion Finance Group": {
    "types": "FI",
-   "status": "include",
-   "why": "bank holding (HQ London, operations in Georgia and Armenia)"
+   "status": "exclude",
+   "why": "bank holding (HQ London, operations in Georgia and Armenia)",
+   "decision": "UK finance limited to HSBC, Barclays and Lloyds; decided by project lead, 2026-11-21"
   },
   "WPP": {
    "types": "CL",
@@ -727,8 +744,183 @@
   },
   "Salesforce": {
    "types": "CL;PL",
-   "status": "proposed",
-   "why": "cloud CRM and AI software; Slack (platform)"
+   "status": "include",
+   "why": "cloud CRM and AI software; Slack (platform)",
+   "decision": "decided by project lead, 2026-11-21"
+  },
+  "Booking Holdings": {
+   "types": "GK;PL",
+   "status": "include",
+   "why": "designated DMA gatekeeper (2024); Priceline until 2018",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Spotify": {
+   "types": "PL",
+   "status": "include",
+   "why": "audio streaming platform; registered in Luxembourg, HQ Stockholm",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Netflix": {
+   "types": "PL",
+   "status": "include",
+   "why": "video on demand",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Airbnb": {
+   "types": "PL",
+   "status": "include",
+   "why": "short-term rental platform",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "eBay": {
+   "types": "PL",
+   "status": "include",
+   "why": "online marketplace",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Pinterest": {
+   "types": "GK;PL",
+   "status": "include",
+   "why": "designated very large online platform (DSA)",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Snap": {
+   "types": "GK;PL",
+   "status": "include",
+   "why": "designated very large online platform (DSA)",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Delivery Hero": {
+   "types": "PL",
+   "status": "include",
+   "why": "food-delivery platform",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Accenture": {
+   "types": "CL",
+   "status": "include",
+   "why": "IT services; headquartered in Dublin",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Adobe": {
+   "types": "CL",
+   "status": "include",
+   "why": "cloud software, generative AI",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "ServiceNow": {
+   "types": "CL",
+   "status": "include",
+   "why": "cloud software",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Palantir": {
+   "types": "CL",
+   "status": "include",
+   "why": "data and AI software",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "OVHcloud": {
+   "types": "CL",
+   "status": "include",
+   "why": "largest EU cloud provider",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Telefónica": {
+   "types": "TC",
+   "status": "include",
+   "why": "telecoms operator",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "KPN": {
+   "types": "TC",
+   "status": "include",
+   "why": "telecoms operator",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Telia": {
+   "types": "TC",
+   "status": "include",
+   "why": "telecoms operator",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Telecom Italia": {
+   "types": "TC",
+   "status": "include",
+   "why": "telecoms operator (TIM)",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Ericsson": {
+   "types": "PR;TC",
+   "status": "include",
+   "why": "network equipment",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Visa": {
+   "types": "FI",
+   "status": "include",
+   "why": "card payments",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Mastercard": {
+   "types": "FI",
+   "status": "include",
+   "why": "card payments",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "PayPal": {
+   "types": "FI",
+   "status": "include",
+   "why": "payments; EU bank in Luxembourg",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Coinbase": {
+   "types": "FI",
+   "status": "include",
+   "why": "crypto-asset services (MiCA)",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Klarna": {
+   "types": "FI",
+   "status": "include",
+   "why": "buy-now-pay-later; Swedish bank; UK-registered holding",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Generali": {
+   "types": "FI",
+   "status": "include",
+   "why": "insurer",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Philips": {
+   "types": "PR",
+   "status": "include",
+   "why": "connected health devices",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "NXP Semiconductors": {
+   "types": "PR",
+   "status": "include",
+   "why": "chips for cars and connected devices",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Qualcomm": {
+   "types": "PR",
+   "status": "include",
+   "why": "mobile chips, standard-essential patents",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "AMD": {
+   "types": "PR;CL",
+   "status": "include",
+   "why": "processors and AI accelerators",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Bosch": {
+   "types": "PR",
+   "status": "include",
+   "why": "connected products; private, publishes an annual report",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
   }
  }
 }
