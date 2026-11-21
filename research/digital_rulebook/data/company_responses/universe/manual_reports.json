@@ -1,0 +1,25 @@
+{
+ "_note": "Annual reports collected by hand (company websites), keyed by universe id and report year. Used where SEC EDGAR and filings.xbrl.org have nothing. Add URLs here and rerun cr_universe.py and cr_fetch.py.",
+ "capgemini": {
+  "2016": "https://investors.capgemini.com/en/file/16870?download=1",
+  "2017": "https://investors.capgemini.com/en/file/8825?download=1",
+  "2018": "https://investors.capgemini.com/en/file/13002?download=1",
+  "2019": "https://investors.capgemini.com/en/file/15064?download=1",
+  "2020": "https://investors.capgemini.com/en/file/16754?download=1",
+  "2021": "https://investors.capgemini.com/en/file/22708?download=1",
+  "2022": "https://investors.capgemini.com/en/file/24133?download=1",
+  "2023": "https://investors.capgemini.com/en/file/26225?download=1",
+  "2024": "https://investors.capgemini.com/en/file/28667?download=1",
+  "2025": "https://investors.capgemini.com/en/file/30242?download=1"
+ },
+ "deutsche-telekom": {
+  "2018": "https://report.telekom.com/annual-report-2018/servicepages/downloads/files/entire_dtag_ar18.pdf",
+  "2019": "https://report.telekom.com/annual-report-2019/servicepages/downloads/files/entire_dtag_ar19.pdf",
+  "2020": "https://report.telekom.com/annual-report-2020/_assets/downloads/entire-dtag-ar20.pdf",
+  "2021": "https://report.telekom.com/annual-report-2021/_assets/downloads/entire-dtag-ar21.pdf",
+  "2022": "https://report.telekom.com/annual-report-2022/_assets/downloads/entire-dtag-ar22.pdf",
+  "2023": "https://report.telekom.com/annual-report-2023/_assets/downloads/entire-dtag-ar23.pdf",
+  "2024": "https://report.telekom.com/annual-report-2024/_assets/downloads/entire-dtag-ar24.pdf",
+  "2025": "https://report.telekom.com/annual-report-2025/_assets/downloads/entire-dtag-ar25.pdf"
+ }
+}

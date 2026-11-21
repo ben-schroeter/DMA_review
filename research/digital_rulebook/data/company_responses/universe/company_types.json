@@ -1,0 +1,690 @@
+{
+ "_note": "Which of the six company types (scripts/company_types.py: GK gatekeepers and very large platforms, PL online platforms and digital services, CL cloud, data and AI, TC telecoms, FI finance, payments and crypto, PR makers of connected products) each company in the universe belongs to, by its principal activities. 'include' = clearly one of the types; 'borderline' = for the project lead to decide; 'exclude' = fits a type but is out of scope. Companies not listed fit none of the types (energy, mining, retail, consumer goods, pharma and health services, construction, utilities, real estate, transport, aerospace and defence). Classified by Claude on 2026-11-21 from general knowledge of the companies' businesses; to be checked.",
+ "types": {
+  "Amazon": {
+   "types": "GK;PL;CL",
+   "status": "include",
+   "why": "designated gatekeeper; marketplace; AWS"
+  },
+  "Apple": {
+   "types": "GK;PR",
+   "status": "include",
+   "why": "gatekeeper; devices"
+  },
+  "Alphabet": {
+   "types": "GK;PL;CL",
+   "status": "include",
+   "why": "gatekeeper; Google Cloud"
+  },
+  "Microsoft": {
+   "types": "GK;CL",
+   "status": "include",
+   "why": "gatekeeper; Azure"
+  },
+  "Meta Platforms": {
+   "types": "GK;PL",
+   "status": "include",
+   "why": "gatekeeper"
+  },
+  "Nvidia": {
+   "types": "CL;PR",
+   "status": "include",
+   "why": "AI accelerators and software"
+  },
+  "Dell Technologies": {
+   "types": "PR;CL",
+   "status": "include",
+   "why": "PCs, servers, storage"
+  },
+  "International Business Machines": {
+   "types": "CL",
+   "status": "include",
+   "why": "cloud, software, AI"
+  },
+  "Oracle": {
+   "types": "CL",
+   "status": "include",
+   "why": "cloud and database software"
+  },
+  "Broadcom": {
+   "types": "PR;CL",
+   "status": "include",
+   "why": "semiconductors; VMware cloud software"
+  },
+  "Cisco Systems": {
+   "types": "PR",
+   "status": "include",
+   "why": "network equipment"
+  },
+  "HP": {
+   "types": "PR",
+   "status": "include",
+   "why": "PCs and printers"
+  },
+  "Intel": {
+   "types": "PR",
+   "status": "include",
+   "why": "semiconductors"
+  },
+  "Tesla": {
+   "types": "PR",
+   "status": "include",
+   "why": "connected vehicles"
+  },
+  "Ford Motor": {
+   "types": "PR",
+   "status": "include",
+   "why": "connected vehicles"
+  },
+  "General Motors": {
+   "types": "PR",
+   "status": "include",
+   "why": "connected vehicles"
+  },
+  "Uber Technologies": {
+   "types": "PL",
+   "status": "include",
+   "why": "platform work, ride-hailing and delivery platforms"
+  },
+  "Verizon Communications": {
+   "types": "TC",
+   "status": "include",
+   "why": "telecoms operator"
+  },
+  "AT&T": {
+   "types": "TC",
+   "status": "include",
+   "why": "telecoms operator"
+  },
+  "Comcast": {
+   "types": "TC",
+   "status": "include",
+   "why": "cable and broadband; Sky"
+  },
+  "Charter Communications": {
+   "types": "TC",
+   "status": "include",
+   "why": "cable and broadband"
+  },
+  "JPMorgan Chase": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "Bank of America": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "Citigroup": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "Wells Fargo": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "Goldman Sachs Group": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "Morgan Stanley": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "American Express": {
+   "types": "FI",
+   "status": "include",
+   "why": "payments"
+  },
+  "Capital One Financial": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank, cards"
+  },
+  "Fannie Mae": {
+   "types": "FI",
+   "status": "include",
+   "why": "mortgage finance"
+  },
+  "Freddie Mac": {
+   "types": "FI",
+   "status": "include",
+   "why": "mortgage finance"
+  },
+  "StoneX Group": {
+   "types": "FI",
+   "status": "include",
+   "why": "brokerage, payments"
+  },
+  "MetLife": {
+   "types": "FI",
+   "status": "include",
+   "why": "insurer"
+  },
+  "Prudential Financial": {
+   "types": "FI",
+   "status": "include",
+   "why": "insurer"
+  },
+  "Progressive": {
+   "types": "FI",
+   "status": "include",
+   "why": "insurer"
+  },
+  "Allstate": {
+   "types": "FI",
+   "status": "include",
+   "why": "insurer"
+  },
+  "Travelers": {
+   "types": "FI",
+   "status": "include",
+   "why": "insurer"
+  },
+  "Berkshire Hathaway": {
+   "types": "FI",
+   "status": "include",
+   "why": "conglomerate; insurance is its core (GEICO, General Re)"
+  },
+  "Galaxy Digital": {
+   "types": "FI",
+   "status": "include",
+   "why": "crypto-asset services"
+  },
+  "State Farm Insurance": {
+   "types": "FI",
+   "status": "include",
+   "why": "mutual insurer; no SEC filings"
+  },
+  "New York Life Insurance": {
+   "types": "FI",
+   "status": "include",
+   "why": "mutual insurer; no SEC filings"
+  },
+  "Nationwide": {
+   "types": "FI",
+   "status": "include",
+   "why": "mutual insurer; no SEC filings"
+  },
+  "United Services Automobile Assn.": {
+   "types": "FI",
+   "status": "include",
+   "why": "member-owned insurer and bank; no SEC filings"
+  },
+  "TIAA": {
+   "types": "FI",
+   "status": "include",
+   "why": "retirement and asset management; no SEC 10-K"
+  },
+  "Liberty Mutual Insurance Group": {
+   "types": "FI",
+   "status": "include",
+   "why": "mutual insurer; no SEC filings"
+  },
+  "Massachusetts Mutual Life Insurance": {
+   "types": "FI",
+   "status": "include",
+   "why": "mutual insurer; no SEC filings"
+  },
+  "UnitedHealth Group": {
+   "types": "FI",
+   "status": "borderline",
+   "why": "health insurer (and Optum health data); finance type covers insurers, but EU finance law hardly reaches US health insurance"
+  },
+  "Elevance Health": {
+   "types": "FI",
+   "status": "borderline",
+   "why": "health insurer"
+  },
+  "Centene": {
+   "types": "FI",
+   "status": "borderline",
+   "why": "health insurer"
+  },
+  "Humana": {
+   "types": "FI",
+   "status": "borderline",
+   "why": "health insurer"
+  },
+  "Cigna Group": {
+   "types": "FI",
+   "status": "borderline",
+   "why": "health insurer"
+  },
+  "CVS Health": {
+   "types": "FI",
+   "status": "borderline",
+   "why": "pharmacy chain with Aetna health insurance"
+  },
+  "Walmart": {
+   "types": "PL",
+   "status": "borderline",
+   "why": "retailer that also runs a large online marketplace (US only)"
+  },
+  "Walt Disney": {
+   "types": "PL",
+   "status": "borderline",
+   "why": "Disney+ streaming; mainly media and parks"
+  },
+  "TD Synnex": {
+   "types": "PR",
+   "status": "borderline",
+   "why": "IT distributor, not a maker (CRA/GPSR distributor duties only)"
+  },
+  "Ingram Micro Holding": {
+   "types": "PR",
+   "status": "borderline",
+   "why": "IT distributor and cloud marketplace, not a maker"
+  },
+  "Caterpillar": {
+   "types": "PR",
+   "status": "borderline",
+   "why": "connected machinery (telematics: Data Act connected products)"
+  },
+  "SAP": {
+   "types": "CL",
+   "status": "include",
+   "why": "enterprise and cloud software"
+  },
+  "Deutsche Telekom": {
+   "types": "TC",
+   "status": "include",
+   "why": "telecoms operator"
+  },
+  "Allianz": {
+   "types": "FI",
+   "status": "include",
+   "why": "insurer"
+  },
+  "Munich Re": {
+   "types": "FI",
+   "status": "include",
+   "why": "reinsurer"
+  },
+  "Hannover Re": {
+   "types": "FI",
+   "status": "include",
+   "why": "reinsurer"
+  },
+  "Deutsche Bank": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "Commerzbank": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "Deutsche Börse": {
+   "types": "FI",
+   "status": "include",
+   "why": "exchange and market infrastructure"
+  },
+  "Siemens": {
+   "types": "PR;CL",
+   "status": "include",
+   "why": "industrial automation and software"
+  },
+  "Siemens Healthineers": {
+   "types": "PR",
+   "status": "include",
+   "why": "connected medical devices"
+  },
+  "Infineon Technologies": {
+   "types": "PR",
+   "status": "include",
+   "why": "semiconductors"
+  },
+  "BMW": {
+   "types": "PR",
+   "status": "include",
+   "why": "connected vehicles"
+  },
+  "Mercedes-Benz Group": {
+   "types": "PR",
+   "status": "include",
+   "why": "connected vehicles"
+  },
+  "Volkswagen Group": {
+   "types": "PR",
+   "status": "include",
+   "why": "connected vehicles"
+  },
+  "Daimler Truck": {
+   "types": "PR",
+   "status": "include",
+   "why": "connected trucks"
+  },
+  "Zalando": {
+   "types": "GK;PL",
+   "status": "include",
+   "why": "designated very large online platform (DSA)"
+  },
+  "Scout24": {
+   "types": "PL",
+   "status": "include",
+   "why": "online property marketplace"
+  },
+  "Porsche SE": {
+   "types": "PR",
+   "status": "borderline",
+   "why": "holding company; its main asset is Volkswagen"
+  },
+  "Continental": {
+   "types": "PR",
+   "status": "borderline",
+   "why": "automotive electronics spun off (Aumovio, 2025); now mainly tyres"
+  },
+  "Orange": {
+   "types": "TC",
+   "status": "include",
+   "why": "telecoms operator"
+  },
+  "Bouygues": {
+   "types": "TC",
+   "status": "include",
+   "why": "Bouygues Telecom (also construction, media)"
+  },
+  "Capgemini": {
+   "types": "CL",
+   "status": "include",
+   "why": "IT services, cloud, data and AI"
+  },
+  "Dassault Systèmes": {
+   "types": "CL",
+   "status": "include",
+   "why": "design and simulation software, cloud"
+  },
+  "Thales": {
+   "types": "PR;CL",
+   "status": "include",
+   "why": "digital identity and security, cybersecurity (also defence)"
+  },
+  "Schneider Electric": {
+   "types": "PR",
+   "status": "include",
+   "why": "connected energy management and automation"
+  },
+  "Legrand": {
+   "types": "PR",
+   "status": "include",
+   "why": "connected electrical and building products"
+  },
+  "Renault": {
+   "types": "PR",
+   "status": "include",
+   "why": "connected vehicles"
+  },
+  "Stellantis": {
+   "types": "PR",
+   "status": "include",
+   "why": "connected vehicles"
+  },
+  "BNP Paribas": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "Crédit Agricole": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "Société Générale": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "Axa": {
+   "types": "FI",
+   "status": "include",
+   "why": "insurer"
+  },
+  "Euronext": {
+   "types": "FI",
+   "status": "include",
+   "why": "exchange"
+  },
+  "Publicis": {
+   "types": "CL",
+   "status": "borderline",
+   "why": "advertising group with a data business (Epsilon)"
+  },
+  "EssilorLuxottica": {
+   "types": "PR",
+   "status": "borderline",
+   "why": "eyewear; makes Ray-Ban Meta smart glasses"
+  },
+  "STMicroelectronics": {
+   "types": "PR",
+   "status": "exclude",
+   "why": "semiconductors, but headquarters Geneva (GLEIF), outside EU-27/UK/US"
+  },
+  "Adyen": {
+   "types": "FI",
+   "status": "include",
+   "why": "payments"
+  },
+  "Nokia": {
+   "types": "PR;TC",
+   "status": "include",
+   "why": "network equipment"
+  },
+  "Prosus": {
+   "types": "PL",
+   "status": "include",
+   "why": "holding of online platforms (iFood, OLX)"
+  },
+  "ING Group": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "Intesa Sanpaolo": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "UniCredit": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "Nordea": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "Banco Santander": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "BBVA": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "Ferrari": {
+   "types": "PR",
+   "status": "borderline",
+   "why": "cars with limited connected features"
+  },
+  "ASML Holding": {
+   "types": "PR",
+   "status": "borderline",
+   "why": "chip-making equipment (not a connected consumer product)"
+  },
+  "Vodafone Group": {
+   "types": "TC",
+   "status": "include",
+   "why": "telecoms operator"
+  },
+  "BT Group": {
+   "types": "TC",
+   "status": "include",
+   "why": "telecoms operator"
+  },
+  "Airtel Africa": {
+   "types": "TC",
+   "status": "include",
+   "why": "telecoms operator (HQ London, operations in Africa)"
+  },
+  "RELX": {
+   "types": "CL",
+   "status": "include",
+   "why": "data and analytics"
+  },
+  "Experian": {
+   "types": "CL;FI",
+   "status": "include",
+   "why": "credit data and analytics (HQ Dublin)"
+  },
+  "Sage Group": {
+   "types": "CL",
+   "status": "include",
+   "why": "cloud accounting software"
+  },
+  "Computacenter": {
+   "types": "CL",
+   "status": "include",
+   "why": "IT services"
+  },
+  "London Stock Exchange Group": {
+   "types": "FI;CL",
+   "status": "include",
+   "why": "exchange and financial data"
+  },
+  "Autotrader Group": {
+   "types": "PL",
+   "status": "include",
+   "why": "online car marketplace"
+  },
+  "3i": {
+   "types": "FI",
+   "status": "include",
+   "why": "private equity and infrastructure investor"
+  },
+  "Aberdeen Group": {
+   "types": "FI",
+   "status": "include",
+   "why": "asset manager and investment platform"
+  },
+  "Admiral Group": {
+   "types": "FI",
+   "status": "include",
+   "why": "insurer"
+  },
+  "Aviva": {
+   "types": "FI",
+   "status": "include",
+   "why": "insurer"
+  },
+  "Barclays": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "HSBC": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "Lloyds Banking Group": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "NatWest Group": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "Standard Chartered": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank"
+  },
+  "Legal & General": {
+   "types": "FI",
+   "status": "include",
+   "why": "insurer and asset manager"
+  },
+  "Prudential plc": {
+   "types": "FI",
+   "status": "include",
+   "why": "insurer"
+  },
+  "M&G": {
+   "types": "FI",
+   "status": "include",
+   "why": "asset manager and insurer"
+  },
+  "Standard Life": {
+   "types": "FI",
+   "status": "include",
+   "why": "pensions and savings"
+  },
+  "St. James's Place": {
+   "types": "FI",
+   "status": "include",
+   "why": "wealth manager"
+  },
+  "Hiscox": {
+   "types": "FI",
+   "status": "exclude",
+   "why": "insurer, but Hiscox Ltd is headquartered in Bermuda (GLEIF)"
+  },
+  "IG Group": {
+   "types": "FI",
+   "status": "include",
+   "why": "online trading, crypto"
+  },
+  "Investec": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank and wealth manager"
+  },
+  "ICG": {
+   "types": "FI",
+   "status": "include",
+   "why": "asset manager"
+  },
+  "Lion Finance Group": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank holding (HQ London, operations in Georgia and Armenia)"
+  },
+  "WPP": {
+   "types": "CL",
+   "status": "borderline",
+   "why": "advertising group with data and AI businesses"
+  },
+  "Pearson plc": {
+   "types": "PL",
+   "status": "borderline",
+   "why": "digital learning services"
+  },
+  "Next plc": {
+   "types": "PL",
+   "status": "borderline",
+   "why": "retailer whose Total Platform runs e-commerce for third-party brands"
+  },
+  "Informa": {
+   "types": "PL",
+   "status": "borderline",
+   "why": "events and academic publishing"
+  },
+  "Halma plc": {
+   "types": "PR",
+   "status": "borderline",
+   "why": "safety and environmental sensors"
+  }
+ }
+}

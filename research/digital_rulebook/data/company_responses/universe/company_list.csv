@@ -1,0 +1,136 @@
+company,region,hq,groups,types,type_status,why,sec_years,sec_forms,esef_years,manual_years,auto,missing_2016_2025
+AT&T,US,US,Fortune 100 (#35),TC,include,telecoms operator,10,10-K,0,0,10,
+Allstate,US,US,Fortune 100 (#64),FI,include,insurer,10,10-K,0,0,10,
+Alphabet,US,US,Fortune 100 (#5),GK;PL;CL,include,gatekeeper; Google Cloud,10,10-K,0,0,10,
+Amazon,US,US,Fortune 100 (#1),GK;PL;CL,include,designated gatekeeper; marketplace; AWS,10,10-K,0,0,10,
+American Express,US,US,Fortune 100 (#56),FI,include,payments,10,10-K,0,0,10,
+Apple,US,US,Fortune 100 (#4),GK;PR,include,gatekeeper; devices,11,10-K,0,0,10,
+Bank of America,US,US,Fortune 100 (#20),FI,include,bank,10,10-K,0,0,10,
+Berkshire Hathaway,US,US,Fortune 100 (#7),FI,include,"conglomerate; insurance is its core (GEICO, General Re)",10,10-K,0,0,10,
+Broadcom,US,US,Fortune 100 (#70),PR;CL,include,semiconductors; VMware cloud software,10,10-K,0,0,10,
+Capital One Financial,US,US,Fortune 100 (#63),FI,include,"bank, cards",10,10-K,0,0,10,
+Charter Communications,US,US,Fortune 100 (#85),TC,include,cable and broadband,10,10-K,0,0,10,
+Cisco Systems,US,US,Fortune 100 (#83),PR,include,network equipment,11,10-K,0,0,10,
+Citigroup,US,US,Fortune 100 (#24),FI,include,bank,10,10-K,0,0,10,
+Comcast,US,US,Fortune 100 (#37),TC,include,cable and broadband; Sky,10,10-K,0,0,10,
+Dell Technologies,US,US,Fortune 100 (#41),PR;CL,include,"PCs, servers, storage",10,10-K,0,0,9,2016
+Fannie Mae,US,US,Fortune 100 (#26),FI,include,mortgage finance,10,10-K,0,0,10,
+Ford Motor,US,US,Fortune 100 (#22),PR,include,connected vehicles,10,10-K,0,0,10,
+Freddie Mac,US,US,Fortune 100 (#33),FI,include,mortgage finance,10,10-K,0,0,10,
+Galaxy Digital,US,US,Fortune 100 (#76),FI,include,crypto-asset services,1,10-K,0,0,1,2016 2017 2018 2019 2020 2021 2022 2023 2024
+General Motors,US,US,Fortune 100 (#23),PR,include,connected vehicles,10,10-K,0,0,10,
+Goldman Sachs Group,US,US,Fortune 100 (#36),FI,include,bank,10,10-K,0,0,10,
+HP,US,US,Fortune 100 (#84),PR,include,PCs and printers,10,10-K,0,0,10,
+Intel,US,US,Fortune 100 (#88),PR,include,semiconductors,10,10-K,0,0,10,
+International Business Machines,US,US,Fortune 100 (#66),CL,include,"cloud, software, AI",10,10-K,0,0,10,
+JPMorgan Chase,US,US,Fortune 100 (#12),FI,include,bank,10,10-K,0,0,10,
+Liberty Mutual Insurance Group,US,US,Fortune 100 (#95),FI,include,mutual insurer; no SEC filings,0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+Massachusetts Mutual Life Insurance,US,US,Fortune 100 (#100),FI,include,mutual insurer; no SEC filings,0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+MetLife,US,US,Fortune 100 (#59),FI,include,insurer,10,10-K,0,0,10,
+Meta Platforms,US,US,Fortune 100 (#17),GK;PL,include,gatekeeper,10,10-K,0,0,10,
+Microsoft,US,US,Fortune 100 (#11),GK;CL,include,gatekeeper; Azure,11,10-K,0,0,10,
+Morgan Stanley,US,US,Fortune 100 (#39),FI,include,bank,10,10-K,0,0,10,
+Nationwide,US,US,Fortune 100 (#69),FI,include,mutual insurer; no SEC filings,0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+New York Life Insurance,US,US,Fortune 100 (#62),FI,include,mutual insurer; no SEC filings,0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+Nvidia,US,US,Fortune 100 (#16),CL;PR,include,AI accelerators and software,11,10-K,0,0,10,
+Oracle,US,US,Fortune 100 (#82),CL,include,cloud and database software,10,10-K,0,0,9,2025
+Progressive,US,US,Fortune 100 (#51),FI,include,insurer,10,10-K,0,0,10,
+Prudential Financial,US,US,Fortune 100 (#78),FI,include,insurer,10,10-K,0,0,10,
+State Farm Insurance,US,US,Fortune 100 (#32),FI,include,mutual insurer; no SEC filings,0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+StoneX Group,US,US,Fortune 100 (#31),FI,include,"brokerage, payments",10,10-K,0,0,10,
+TIAA,US,US,Fortune 100 (#94),FI,include,retirement and asset management; no SEC 10-K,0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+Tesla,US,US,Fortune 100 (#43),PR,include,connected vehicles,10,10-K,0,0,10,
+Travelers,US,US,Fortune 100 (#96),FI,include,insurer,10,10-K,0,0,10,
+Uber Technologies,US,US,Fortune 100 (#92),PL,include,"platform work, ride-hailing and delivery platforms",7,10-K,0,0,7,2016 2017 2018
+United Services Automobile Assn.,US,US,Fortune 100 (#93),FI,include,member-owned insurer and bank; no SEC filings,0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+Verizon Communications,US,US,Fortune 100 (#28),TC,include,telecoms operator,10,10-K,0,0,10,
+Wells Fargo,US,US,Fortune 100 (#38),FI,include,bank,10,10-K,0,0,10,
+Adyen,EU,NL,EURO STOXX 50,FI,include,payments,0,,6,0,6,2016 2017 2018 2019
+Allianz,EU,DE,DAX; EURO STOXX 50,FI,include,insurer,0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+Axa,EU,FR,CAC 40; EURO STOXX 50,FI,include,insurer,0,,5,0,5,2016 2017 2018 2019 2021
+BBVA,EU,ES,EURO STOXX 50,FI,include,bank,10,20-F,6,0,10,
+BMW,EU,DE,DAX; EURO STOXX 50,PR,include,connected vehicles,0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+BNP Paribas,EU,FR,CAC 40; EURO STOXX 50,FI,include,bank,0,,5,0,5,2016 2017 2018 2019 2020
+Banco Santander,EU,ES,EURO STOXX 50,FI,include,bank,10,20-F,6,0,10,
+Bouygues,EU,FR,CAC 40,TC,include,"Bouygues Telecom (also construction, media)",0,,4,0,4,2016 2017 2018 2019 2020 2025
+Capgemini,EU,FR,CAC 40,CL,include,"IT services, cloud, data and AI",0,,3,10,10,
+Commerzbank,EU,DE,DAX,FI,include,bank,0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+Crédit Agricole,EU,FR,CAC 40,FI,include,bank,0,,6,0,6,2016 2017 2018 2019
+Daimler Truck,EU,DE,DAX,PR,include,connected trucks,0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+Dassault Systèmes,EU,FR,CAC 40,CL,include,"design and simulation software, cloud",0,,5,0,5,2016 2017 2018 2019 2020
+Deutsche Bank,EU,DE,DAX; EURO STOXX 50,FI,include,bank,10,20-F,0,0,10,
+Deutsche Börse,EU,DE,DAX; EURO STOXX 50,FI,include,exchange and market infrastructure,0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+Deutsche Telekom,EU,DE,DAX; EURO STOXX 50,TC,include,telecoms operator,0,,0,8,8,2016 2017
+Euronext,EU,NL,CAC 40,FI,include,exchange,0,,5,0,5,2016 2017 2018 2019 2020
+Experian,EU,IE,FTSE 100,CL;FI,include,credit data and analytics (HQ Dublin),0,,6,0,5,2016 2017 2018 2019 2020
+Hannover Re,EU,DE,DAX,FI,include,reinsurer,0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+ING Group,EU,NL,EURO STOXX 50,FI,include,bank,10,20-F,5,0,10,
+Infineon Technologies,EU,DE,DAX; EURO STOXX 50,PR,include,semiconductors,0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+Intesa Sanpaolo,EU,IT,EURO STOXX 50,FI,include,bank,0,,2,0,2,2016 2017 2018 2019 2020 2023 2024 2025
+Legrand,EU,FR,CAC 40,PR,include,connected electrical and building products,0,,5,0,5,2016 2017 2018 2019 2020
+Mercedes-Benz Group,EU,DE,DAX; EURO STOXX 50,PR,include,connected vehicles,0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+Munich Re,EU,DE,DAX; EURO STOXX 50,FI,include,reinsurer,0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+Nokia,EU,FI,EURO STOXX 50,PR;TC,include,network equipment,10,20-F,6,0,10,
+Nordea,EU,FI,EURO STOXX 50,FI,include,bank,0,,6,0,6,2016 2017 2018 2019
+Orange,EU,FR,CAC 40,TC,include,telecoms operator,8,20-F,4,0,9,2025
+Prosus,EU,NL,EURO STOXX 50,PL,include,"holding of online platforms (iFood, OLX)",0,,3,0,3,2016 2017 2018 2019 2020 2021 2025
+Renault,EU,FR,CAC 40,PR,include,connected vehicles,0,,5,0,5,2016 2017 2018 2019 2020
+SAP,EU,DE,DAX; EURO STOXX 50,CL,include,enterprise and cloud software,10,20-F,0,0,10,
+Schneider Electric,EU,FR,CAC 40; EURO STOXX 50,PR,include,connected energy management and automation,0,,6,0,6,2016 2017 2018 2019
+Scout24,EU,DE,DAX,PL,include,online property marketplace,0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+Siemens,EU,DE,DAX; EURO STOXX 50,PR;CL,include,industrial automation and software,0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+Siemens Healthineers,EU,DE,DAX,PR,include,connected medical devices,0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+Société Générale,EU,FR,CAC 40,FI,include,bank,0,,4,0,4,2016 2017 2018 2019 2020 2024
+Stellantis,EU,NL,CAC 40,PR,include,connected vehicles,10,20-F,5,0,10,
+Thales,EU,FR,CAC 40,PR;CL,include,"digital identity and security, cybersecurity (also defence)",0,,4,0,4,2016 2017 2018 2019 2020 2023
+UniCredit,EU,IT,EURO STOXX 50,FI,include,bank,0,,4,0,4,2016 2017 2018 2019 2020 2025
+Volkswagen Group,EU,DE,DAX,PR,include,connected vehicles,0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+Zalando,EU,DE,DAX,GK;PL,include,designated very large online platform (DSA),0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+3i,UK,GB,FTSE 100,FI,include,private equity and infrastructure investor,0,,5,0,4,2016 2017 2018 2019 2020 2021
+Aberdeen Group,UK,GB,FTSE 100,FI,include,asset manager and investment platform,0,,5,0,5,2016 2017 2018 2019 2020
+Admiral Group,UK,GB,FTSE 100,FI,include,insurer,0,,5,0,5,2016 2017 2018 2019 2020
+Airtel Africa,UK,GB,FTSE 100,TC,include,"telecoms operator (HQ London, operations in Africa)",0,,5,0,4,2016 2017 2018 2019 2020 2021
+Autotrader Group,UK,GB,FTSE 100,PL,include,online car marketplace,0,,5,0,4,2016 2017 2018 2019 2020 2021
+Aviva,UK,GB,FTSE 100,FI,include,insurer,0,,5,0,4,2016 2017 2018 2019 2020 2025
+BT Group,UK,GB,FTSE 100,TC,include,telecoms operator,0,,5,0,4,2016 2017 2018 2019 2020 2021
+Barclays,UK,GB,FTSE 100,FI,include,bank,10,20-F,5,0,10,
+Computacenter,UK,GB,FTSE 100,CL,include,IT services,0,,5,0,5,2016 2017 2018 2019 2020
+HSBC,UK,GB,FTSE 100,FI,include,bank,10,20-F,5,0,10,
+ICG,UK,GB,FTSE 100,FI,include,asset manager,0,,4,0,3,2016 2017 2018 2019 2020 2021 2023
+IG Group,UK,GB,FTSE 100,FI,include,"online trading, crypto",0,,3,0,3,2016 2017 2018 2019 2020 2021 2025
+Investec,UK,GB,FTSE 100,FI,include,bank and wealth manager,0,,4,0,3,2016 2017 2018 2019 2020 2021 2025
+Legal & General,UK,GB,FTSE 100,FI,include,insurer and asset manager,0,,5,0,5,2016 2017 2018 2019 2020
+Lion Finance Group,UK,GB,FTSE 100,FI,include,"bank holding (HQ London, operations in Georgia and Armenia)",0,,5,0,5,2016 2017 2018 2019 2020
+Lloyds Banking Group,UK,GB,FTSE 100,FI,include,bank,10,20-F,5,0,10,
+London Stock Exchange Group,UK,GB,FTSE 100,FI;CL,include,exchange and financial data,0,,5,0,5,2016 2017 2018 2019 2020
+M&G,UK,GB,FTSE 100,FI,include,asset manager and insurer,0,,5,0,5,2016 2017 2018 2019 2020
+NatWest Group,UK,GB,FTSE 100,FI,include,bank,10,20-F,4,0,10,
+Prudential plc,UK,GB,FTSE 100,FI,include,insurer,10,20-F,5,0,10,
+RELX,UK,GB,FTSE 100,CL,include,data and analytics,10,20-F,5,0,10,
+Sage Group,UK,GB,FTSE 100,CL,include,cloud accounting software,0,,4,0,4,2016 2017 2018 2019 2020 2021
+St. James's Place,UK,GB,FTSE 100,FI,include,wealth manager,0,,6,0,6,2016 2017 2018 2019
+Standard Chartered,UK,GB,FTSE 100,FI,include,bank,0,,5,0,4,2016 2017 2018 2019 2020 2025
+Standard Life,UK,GB,FTSE 100,FI,include,pensions and savings,0,,5,0,5,2016 2017 2018 2019 2020
+Vodafone Group,UK,GB,FTSE 100,TC,include,telecoms operator,11,20-F,5,0,10,
+CVS Health,US,US,Fortune 100 (#6),FI,borderline,pharmacy chain with Aetna health insurance,10,10-K,0,0,10,
+Caterpillar,US,US,Fortune 100 (#65),PR,borderline,connected machinery (telematics: Data Act connected products),10,10-K,0,0,10,
+Centene,US,US,Fortune 100 (#19),FI,borderline,health insurer,10,10-K,0,0,10,
+Cigna Group,US,US,Fortune 100 (#14),FI,borderline,health insurer,10,10-K,0,0,10,
+Elevance Health,US,US,Fortune 100 (#18),FI,borderline,health insurer,10,10-K,0,0,10,
+Humana,US,US,Fortune 100 (#34),FI,borderline,health insurer,10,10-K,0,0,10,
+Ingram Micro Holding,US,US,Fortune 100 (#90),PR,borderline,"IT distributor and cloud marketplace, not a maker",2,10-K,0,0,2,2016 2017 2018 2019 2020 2021 2022 2023
+TD Synnex,US,US,Fortune 100 (#74),PR,borderline,"IT distributor, not a maker (CRA/GPSR distributor duties only)",10,10-K,0,0,10,
+UnitedHealth Group,US,US,Fortune 100 (#3),FI,borderline,"health insurer (and Optum health data); finance type covers insurers, but EU finance law hardly reaches US health insurance",10,10-K,0,0,10,
+Walmart,US,US,Fortune 100 (#2),PL,borderline,retailer that also runs a large online marketplace (US only),11,10-K,0,0,10,
+Walt Disney,US,US,Fortune 100 (#44),PL,borderline,Disney+ streaming; mainly media and parks,11,10-K,0,0,10,
+ASML Holding,EU,NL,EURO STOXX 50,PR,borderline,chip-making equipment (not a connected consumer product),10,20-F,5,0,10,
+Continental,EU,DE,DAX,PR,borderline,"automotive electronics spun off (Aumovio, 2025); now mainly tyres",0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+EssilorLuxottica,EU,FR,CAC 40; EURO STOXX 50,PR,borderline,eyewear; makes Ray-Ban Meta smart glasses,0,,4,0,4,2016 2017 2018 2019 2020 2025
+Ferrari,EU,IT,EURO STOXX 50,PR,borderline,cars with limited connected features,10,20-F,5,0,10,
+Porsche SE,EU,DE,DAX,PR,borderline,holding company; its main asset is Volkswagen,0,,0,0,0,2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+Publicis,EU,FR,CAC 40,CL,borderline,advertising group with a data business (Epsilon),0,,4,0,4,2016 2017 2018 2019 2020 2025
+Halma plc,UK,GB,FTSE 100,PR,borderline,safety and environmental sensors,0,,5,0,4,2016 2017 2018 2019 2020 2021
+Informa,UK,GB,FTSE 100,PL,borderline,events and academic publishing,0,,5,0,5,2016 2017 2018 2019 2020
+Next plc,UK,GB,FTSE 100,PL,borderline,retailer whose Total Platform runs e-commerce for third-party brands,0,,5,0,4,2016 2017 2018 2019 2020 2021
+Pearson plc,UK,GB,FTSE 100,PL,borderline,digital learning services,10,20-F,5,0,10,
+WPP,UK,GB,FTSE 100,CL,borderline,advertising group with data and AI businesses,10,20-F,5,0,10,

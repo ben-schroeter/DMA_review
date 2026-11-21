@@ -2,7 +2,8 @@
 
 Universe = Fortune 100 (2026 list) + current constituents of DAX, CAC 40, FTSE 100 and
 EURO STOXX 50, restricted to companies headquartered in the EU-27, the UK or the US
-(headquarters country from GLEIF; Fortune 500 companies are all US).
+(headquarters country from GLEIF; Fortune 500 companies are all US) that belong to at
+least one of the six company types (universe/company_types.json, 'include' or 'borderline').
 
 For each company it checks, for report years 2016-2026:
   - SEC EDGAR: original 10-K / 20-F / 40-F filings for the CIKs in identifiers.json;
@@ -81,6 +82,7 @@ def main():
     f100 = json.load(open(os.path.join(U, "fortune100_2026.json")))["companies"]
     eu = json.load(open(os.path.join(U, "eu_indices_2026-11.json")))["constituents"]
     ids = json.load(open(os.path.join(U, "identifiers.json")))["companies"]
+    types = json.load(open(os.path.join(U, "company_types.json")))["types"]
     comps = {}
     for c in f100:
         comps[c["name"]] = {"name": c["name"], "groups": [f"Fortune 100 (#{c['rank']})"], "hq_default": "US"}
@@ -96,8 +98,15 @@ def main():
         hq, legal = (gleif_hq(row["lei"]) if row["lei"] else (None, None))
         row["hq"] = "US" if c["hq_default"] == "US" else (hq or c["hq_default"])
         row["legal_name"] = legal
+        t = types.get(n)
+        row["company_types"] = t["types"] if t else ""
+        row["type_status"] = t["status"] if t else ""
         if i.get("exclude"):
             row["exclude"] = i["exclude"]
+        elif not t:
+            row["exclude"] = "fits none of the six company types"
+        elif t["status"] == "exclude":
+            row["exclude"] = t["why"]
         elif row["hq"] not in EU27 | {"GB", "US"}:
             row["exclude"] = f"headquarters outside EU-27/UK/US ({row['hq']})"
         if i.get("note"):
@@ -113,14 +122,22 @@ def main():
                 esef = esef_filings(row["lei"])
         row["esef_reports"] = {str(y): v for y, v in sorted(esef.items()) if y in YEARS}
         universe.append(row)
-        covered = sorted(set(sec_years) | {y for y in esef if y in YEARS})
-        cov.append({"company": n, "groups": "; ".join(c["groups"]), "hq": row["hq"], "excluded": row.get("exclude", ""),
+        manual_years = {int(y) for y in json.load(open(os.path.join(U, "manual_reports.json"))).get(row["id"], {})} \
+            if os.path.exists(os.path.join(U, "manual_reports.json")) and not row.get("exclude") else set()
+        covered = sorted(set(sec_years) | {y for y in esef if y in YEARS} | manual_years)
+        cov.append({"company": n, "groups": "; ".join(c["groups"]), "hq": row["hq"], "types": row["company_types"],
+                    "type_status": row["type_status"], "excluded": row.get("exclude", ""),
                     "sec_years": len(sec_years), "sec_forms": "/".join(sorted(set(sec_years.values()))),
-                    "esef_years": len([y for y in esef if y in YEARS]),
+                    "esef_years": len([y for y in esef if y in YEARS]), "manual_years": len(manual_years),
                     "years_covered": len(covered), "first": covered[0] if covered else "", "last": covered[-1] if covered else "",
                     "missing_2016_2025": " ".join(str(y) for y in range(2016, 2026) if y not in covered)})
         print(n, row["hq"], row.get("exclude", ""), len(sec_years), len(esef), flush=True)
-    json.dump({"_note": "Built by scripts/cr_universe.py; see METHOD.md (frequency study).", "companies": universe},
+    manual = {}
+    mp = os.path.join(U, "manual_reports.json")
+    if os.path.exists(mp):
+        manual = {k: v for k, v in json.load(open(mp)).items() if not k.startswith("_")}
+    json.dump({"_note": "Built by scripts/cr_universe.py; see METHOD.md (frequency study).", "companies": universe,
+               "web_reports": manual},
               open(os.path.join(U, "universe.json"), "w"), indent=1, ensure_ascii=False)
     with open(os.path.join(U, "coverage.csv"), "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=list(cov[0].keys()))

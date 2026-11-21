@@ -1,0 +1,6444 @@
+{
+ "_note": "Built by scripts/cr_universe.py; see METHOD.md (frequency study).",
+ "companies": [
+  {
+   "id": "amazon",
+   "name": "Amazon",
+   "groups": [
+    "Fortune 100 (#1)"
+   ],
+   "sec_ciks": [
+    1018724
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "GK;PL;CL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "walmart",
+   "name": "Walmart",
+   "groups": [
+    "Fortune 100 (#2)"
+   ],
+   "sec_ciks": [
+    104169
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PL",
+   "type_status": "borderline",
+   "esef_reports": {}
+  },
+  {
+   "id": "unitedhealth-group",
+   "name": "UnitedHealth Group",
+   "groups": [
+    "Fortune 100 (#3)"
+   ],
+   "sec_ciks": [
+    731766
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "borderline",
+   "esef_reports": {}
+  },
+  {
+   "id": "apple",
+   "name": "Apple",
+   "groups": [
+    "Fortune 100 (#4)"
+   ],
+   "sec_ciks": [
+    320193
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "GK;PR",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "alphabet",
+   "name": "Alphabet",
+   "groups": [
+    "Fortune 100 (#5)"
+   ],
+   "sec_ciks": [
+    1652044
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "GK;PL;CL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "cvs-health",
+   "name": "CVS Health",
+   "groups": [
+    "Fortune 100 (#6)"
+   ],
+   "sec_ciks": [
+    64803
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "borderline",
+   "esef_reports": {}
+  },
+  {
+   "id": "berkshire-hathaway",
+   "name": "Berkshire Hathaway",
+   "groups": [
+    "Fortune 100 (#7)"
+   ],
+   "sec_ciks": [
+    1067983
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "mckesson",
+   "name": "McKesson",
+   "groups": [
+    "Fortune 100 (#8)"
+   ],
+   "sec_ciks": [
+    927653
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "exxon-mobil-holdings",
+   "name": "Exxon Mobil Holdings",
+   "groups": [
+    "Fortune 100 (#9)"
+   ],
+   "sec_ciks": [
+    34088,
+    2115436
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "cencora",
+   "name": "Cencora",
+   "groups": [
+    "Fortune 100 (#10)"
+   ],
+   "sec_ciks": [
+    1140859
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "microsoft",
+   "name": "Microsoft",
+   "groups": [
+    "Fortune 100 (#11)"
+   ],
+   "sec_ciks": [
+    789019
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "GK;CL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "jpmorgan-chase",
+   "name": "JPMorgan Chase",
+   "groups": [
+    "Fortune 100 (#12)"
+   ],
+   "sec_ciks": [
+    19617
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "costco-wholesale",
+   "name": "Costco Wholesale",
+   "groups": [
+    "Fortune 100 (#13)"
+   ],
+   "sec_ciks": [
+    909832
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "cigna-group",
+   "name": "Cigna Group",
+   "groups": [
+    "Fortune 100 (#14)"
+   ],
+   "sec_ciks": [
+    701221,
+    1739940
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "borderline",
+   "esef_reports": {}
+  },
+  {
+   "id": "cardinal-health",
+   "name": "Cardinal Health",
+   "groups": [
+    "Fortune 100 (#15)"
+   ],
+   "sec_ciks": [
+    721371
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "nvidia",
+   "name": "Nvidia",
+   "groups": [
+    "Fortune 100 (#16)"
+   ],
+   "sec_ciks": [
+    1045810
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "CL;PR",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "meta-platforms",
+   "name": "Meta Platforms",
+   "groups": [
+    "Fortune 100 (#17)"
+   ],
+   "sec_ciks": [
+    1326801
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "GK;PL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "elevance-health",
+   "name": "Elevance Health",
+   "groups": [
+    "Fortune 100 (#18)"
+   ],
+   "sec_ciks": [
+    1156039
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "borderline",
+   "esef_reports": {}
+  },
+  {
+   "id": "centene",
+   "name": "Centene",
+   "groups": [
+    "Fortune 100 (#19)"
+   ],
+   "sec_ciks": [
+    1071739
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "borderline",
+   "esef_reports": {}
+  },
+  {
+   "id": "bank-of-america",
+   "name": "Bank of America",
+   "groups": [
+    "Fortune 100 (#20)"
+   ],
+   "sec_ciks": [
+    70858
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "chevron",
+   "name": "Chevron",
+   "groups": [
+    "Fortune 100 (#21)"
+   ],
+   "sec_ciks": [
+    93410
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "ford-motor",
+   "name": "Ford Motor",
+   "groups": [
+    "Fortune 100 (#22)"
+   ],
+   "sec_ciks": [
+    37996
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PR",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "general-motors",
+   "name": "General Motors",
+   "groups": [
+    "Fortune 100 (#23)"
+   ],
+   "sec_ciks": [
+    1467858
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PR",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "citigroup",
+   "name": "Citigroup",
+   "groups": [
+    "Fortune 100 (#24)"
+   ],
+   "sec_ciks": [
+    831001
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "home-depot",
+   "name": "Home Depot",
+   "groups": [
+    "Fortune 100 (#25)"
+   ],
+   "sec_ciks": [
+    354950
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "fannie-mae",
+   "name": "Fannie Mae",
+   "groups": [
+    "Fortune 100 (#26)"
+   ],
+   "sec_ciks": [
+    310522
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "kroger",
+   "name": "Kroger",
+   "groups": [
+    "Fortune 100 (#27)"
+   ],
+   "sec_ciks": [
+    56873
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "verizon-communications",
+   "name": "Verizon Communications",
+   "groups": [
+    "Fortune 100 (#28)"
+   ],
+   "sec_ciks": [
+    732712
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "TC",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "phillips-66",
+   "name": "Phillips 66",
+   "groups": [
+    "Fortune 100 (#29)"
+   ],
+   "sec_ciks": [
+    1534701
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "marathon-petroleum",
+   "name": "Marathon Petroleum",
+   "groups": [
+    "Fortune 100 (#30)"
+   ],
+   "sec_ciks": [
+    1510295
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "stonex-group",
+   "name": "StoneX Group",
+   "groups": [
+    "Fortune 100 (#31)"
+   ],
+   "sec_ciks": [
+    913760
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "state-farm-insurance",
+   "name": "State Farm Insurance",
+   "groups": [
+    "Fortune 100 (#32)"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "note": "mutual / member-owned; does not file 10-Ks with the SEC",
+   "esef_reports": {}
+  },
+  {
+   "id": "freddie-mac",
+   "name": "Freddie Mac",
+   "groups": [
+    "Fortune 100 (#33)"
+   ],
+   "sec_ciks": [
+    1026214
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "humana",
+   "name": "Humana",
+   "groups": [
+    "Fortune 100 (#34)"
+   ],
+   "sec_ciks": [
+    49071
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "borderline",
+   "esef_reports": {}
+  },
+  {
+   "id": "at-t",
+   "name": "AT&T",
+   "groups": [
+    "Fortune 100 (#35)"
+   ],
+   "sec_ciks": [
+    732717
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "TC",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "goldman-sachs-group",
+   "name": "Goldman Sachs Group",
+   "groups": [
+    "Fortune 100 (#36)"
+   ],
+   "sec_ciks": [
+    886982
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "comcast",
+   "name": "Comcast",
+   "groups": [
+    "Fortune 100 (#37)"
+   ],
+   "sec_ciks": [
+    1166691
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "TC",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "wells-fargo",
+   "name": "Wells Fargo",
+   "groups": [
+    "Fortune 100 (#38)"
+   ],
+   "sec_ciks": [
+    72971
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "morgan-stanley",
+   "name": "Morgan Stanley",
+   "groups": [
+    "Fortune 100 (#39)"
+   ],
+   "sec_ciks": [
+    895421
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "valero-energy",
+   "name": "Valero Energy",
+   "groups": [
+    "Fortune 100 (#40)"
+   ],
+   "sec_ciks": [
+    1035002
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "dell-technologies",
+   "name": "Dell Technologies",
+   "groups": [
+    "Fortune 100 (#41)"
+   ],
+   "sec_ciks": [
+    1571996
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PR;CL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "target",
+   "name": "Target",
+   "groups": [
+    "Fortune 100 (#42)"
+   ],
+   "sec_ciks": [
+    27419
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "tesla",
+   "name": "Tesla",
+   "groups": [
+    "Fortune 100 (#43)"
+   ],
+   "sec_ciks": [
+    1318605
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PR",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "walt-disney",
+   "name": "Walt Disney",
+   "groups": [
+    "Fortune 100 (#44)"
+   ],
+   "sec_ciks": [
+    1001039,
+    1744489
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PL",
+   "type_status": "borderline",
+   "esef_reports": {}
+  },
+  {
+   "id": "johnson-johnson",
+   "name": "Johnson & Johnson",
+   "groups": [
+    "Fortune 100 (#45)"
+   ],
+   "sec_ciks": [
+    200406
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "pepsico",
+   "name": "PepsiCo",
+   "groups": [
+    "Fortune 100 (#46)"
+   ],
+   "sec_ciks": [
+    77476
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "boeing",
+   "name": "Boeing",
+   "groups": [
+    "Fortune 100 (#47)"
+   ],
+   "sec_ciks": [
+    12927
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "ups",
+   "name": "UPS",
+   "groups": [
+    "Fortune 100 (#48)"
+   ],
+   "sec_ciks": [
+    1090727
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "rtx",
+   "name": "RTX",
+   "groups": [
+    "Fortune 100 (#49)"
+   ],
+   "sec_ciks": [
+    101829
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "fedex",
+   "name": "FedEx",
+   "groups": [
+    "Fortune 100 (#50)"
+   ],
+   "sec_ciks": [
+    1048911
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "progressive",
+   "name": "Progressive",
+   "groups": [
+    "Fortune 100 (#51)"
+   ],
+   "sec_ciks": [
+    80661
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "lowe-s",
+   "name": "Lowe's",
+   "groups": [
+    "Fortune 100 (#52)"
+   ],
+   "sec_ciks": [
+    60667
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "energy-transfer",
+   "name": "Energy Transfer",
+   "groups": [
+    "Fortune 100 (#53)"
+   ],
+   "sec_ciks": [
+    1276187
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "procter-gamble",
+   "name": "Procter & Gamble",
+   "groups": [
+    "Fortune 100 (#54)"
+   ],
+   "sec_ciks": [
+    80424
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "sysco",
+   "name": "Sysco",
+   "groups": [
+    "Fortune 100 (#55)"
+   ],
+   "sec_ciks": [
+    96021
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "american-express",
+   "name": "American Express",
+   "groups": [
+    "Fortune 100 (#56)"
+   ],
+   "sec_ciks": [
+    4962
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "albertsons",
+   "name": "Albertsons",
+   "groups": [
+    "Fortune 100 (#57)"
+   ],
+   "sec_ciks": [
+    1646972
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "archer-daniels-midland",
+   "name": "Archer Daniels Midland",
+   "groups": [
+    "Fortune 100 (#58)"
+   ],
+   "sec_ciks": [
+    7084
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "metlife",
+   "name": "MetLife",
+   "groups": [
+    "Fortune 100 (#59)"
+   ],
+   "sec_ciks": [
+    1099219
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "hca-healthcare",
+   "name": "HCA Healthcare",
+   "groups": [
+    "Fortune 100 (#60)"
+   ],
+   "sec_ciks": [
+    860730
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "lockheed-martin",
+   "name": "Lockheed Martin",
+   "groups": [
+    "Fortune 100 (#61)"
+   ],
+   "sec_ciks": [
+    936468
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "new-york-life-insurance",
+   "name": "New York Life Insurance",
+   "groups": [
+    "Fortune 100 (#62)"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "note": "mutual / member-owned; does not file 10-Ks with the SEC",
+   "esef_reports": {}
+  },
+  {
+   "id": "capital-one-financial",
+   "name": "Capital One Financial",
+   "groups": [
+    "Fortune 100 (#63)"
+   ],
+   "sec_ciks": [
+    927628
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "allstate",
+   "name": "Allstate",
+   "groups": [
+    "Fortune 100 (#64)"
+   ],
+   "sec_ciks": [
+    899051
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "caterpillar",
+   "name": "Caterpillar",
+   "groups": [
+    "Fortune 100 (#65)"
+   ],
+   "sec_ciks": [
+    18230
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PR",
+   "type_status": "borderline",
+   "esef_reports": {}
+  },
+  {
+   "id": "international-business-machines",
+   "name": "International Business Machines",
+   "groups": [
+    "Fortune 100 (#66)"
+   ],
+   "sec_ciks": [
+    51143
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "CL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "eli-lilly",
+   "name": "Eli Lilly",
+   "groups": [
+    "Fortune 100 (#67)"
+   ],
+   "sec_ciks": [
+    59478
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "msd",
+   "name": "MSD",
+   "groups": [
+    "Fortune 100 (#68)"
+   ],
+   "sec_ciks": [
+    310158
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "nationwide",
+   "name": "Nationwide",
+   "groups": [
+    "Fortune 100 (#69)"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "note": "mutual / member-owned; does not file 10-Ks with the SEC",
+   "esef_reports": {}
+  },
+  {
+   "id": "broadcom",
+   "name": "Broadcom",
+   "groups": [
+    "Fortune 100 (#70)"
+   ],
+   "sec_ciks": [
+    1649338,
+    1730168
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PR;CL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "delta-air-lines",
+   "name": "Delta Air Lines",
+   "groups": [
+    "Fortune 100 (#71)"
+   ],
+   "sec_ciks": [
+    27904
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "publix-super-markets",
+   "name": "Publix Super Markets",
+   "groups": [
+    "Fortune 100 (#72)"
+   ],
+   "sec_ciks": [
+    81061
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "pfizer",
+   "name": "Pfizer",
+   "groups": [
+    "Fortune 100 (#73)"
+   ],
+   "sec_ciks": [
+    78003
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "td-synnex",
+   "name": "TD Synnex",
+   "groups": [
+    "Fortune 100 (#74)"
+   ],
+   "sec_ciks": [
+    1177394
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PR",
+   "type_status": "borderline",
+   "esef_reports": {}
+  },
+  {
+   "id": "conocophillips",
+   "name": "ConocoPhillips",
+   "groups": [
+    "Fortune 100 (#75)"
+   ],
+   "sec_ciks": [
+    1163165
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "galaxy-digital",
+   "name": "Galaxy Digital",
+   "groups": [
+    "Fortune 100 (#76)"
+   ],
+   "sec_ciks": [
+    1859392
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "abbvie",
+   "name": "AbbVie",
+   "groups": [
+    "Fortune 100 (#77)"
+   ],
+   "sec_ciks": [
+    1551152
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "prudential-financial",
+   "name": "Prudential Financial",
+   "groups": [
+    "Fortune 100 (#78)"
+   ],
+   "sec_ciks": [
+    1137774
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "tjx",
+   "name": "TJX",
+   "groups": [
+    "Fortune 100 (#79)"
+   ],
+   "sec_ciks": [
+    109198
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "performance-food-group",
+   "name": "Performance Food Group",
+   "groups": [
+    "Fortune 100 (#80)"
+   ],
+   "sec_ciks": [
+    1618673
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "united-airlines-holdings",
+   "name": "United Airlines Holdings",
+   "groups": [
+    "Fortune 100 (#81)"
+   ],
+   "sec_ciks": [
+    100517
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "oracle",
+   "name": "Oracle",
+   "groups": [
+    "Fortune 100 (#82)"
+   ],
+   "sec_ciks": [
+    1341439
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "CL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "cisco-systems",
+   "name": "Cisco Systems",
+   "groups": [
+    "Fortune 100 (#83)"
+   ],
+   "sec_ciks": [
+    858877
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PR",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "hp",
+   "name": "HP",
+   "groups": [
+    "Fortune 100 (#84)"
+   ],
+   "sec_ciks": [
+    47217
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PR",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "charter-communications",
+   "name": "Charter Communications",
+   "groups": [
+    "Fortune 100 (#85)"
+   ],
+   "sec_ciks": [
+    1091667
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "TC",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "american-airlines-group",
+   "name": "American Airlines Group",
+   "groups": [
+    "Fortune 100 (#86)"
+   ],
+   "sec_ciks": [
+    6201
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "tyson-foods",
+   "name": "Tyson Foods",
+   "groups": [
+    "Fortune 100 (#87)"
+   ],
+   "sec_ciks": [
+    100493
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "intel",
+   "name": "Intel",
+   "groups": [
+    "Fortune 100 (#88)"
+   ],
+   "sec_ciks": [
+    50863
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PR",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "enterprise-products-partners",
+   "name": "Enterprise Products Partners",
+   "groups": [
+    "Fortune 100 (#89)"
+   ],
+   "sec_ciks": [
+    1061219
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "ingram-micro-holding",
+   "name": "Ingram Micro Holding",
+   "groups": [
+    "Fortune 100 (#90)"
+   ],
+   "sec_ciks": [
+    1897762
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PR",
+   "type_status": "borderline",
+   "esef_reports": {}
+  },
+  {
+   "id": "general-dynamics",
+   "name": "General Dynamics",
+   "groups": [
+    "Fortune 100 (#91)"
+   ],
+   "sec_ciks": [
+    40533
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "uber-technologies",
+   "name": "Uber Technologies",
+   "groups": [
+    "Fortune 100 (#92)"
+   ],
+   "sec_ciks": [
+    1543151
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "united-services-automobile-assn",
+   "name": "United Services Automobile Assn.",
+   "groups": [
+    "Fortune 100 (#93)"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "note": "mutual / member-owned; does not file 10-Ks with the SEC",
+   "esef_reports": {}
+  },
+  {
+   "id": "tiaa",
+   "name": "TIAA",
+   "groups": [
+    "Fortune 100 (#94)"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "note": "mutual / member-owned; does not file 10-Ks with the SEC",
+   "esef_reports": {}
+  },
+  {
+   "id": "liberty-mutual-insurance-group",
+   "name": "Liberty Mutual Insurance Group",
+   "groups": [
+    "Fortune 100 (#95)"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "note": "mutual / member-owned; does not file 10-Ks with the SEC",
+   "esef_reports": {}
+  },
+  {
+   "id": "travelers",
+   "name": "Travelers",
+   "groups": [
+    "Fortune 100 (#96)"
+   ],
+   "sec_ciks": [
+    86312
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "bristol-myers-squibb",
+   "name": "Bristol-Myers Squibb",
+   "groups": [
+    "Fortune 100 (#97)"
+   ],
+   "sec_ciks": [
+    14272
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "coca-cola",
+   "name": "Coca-Cola",
+   "groups": [
+    "Fortune 100 (#98)"
+   ],
+   "sec_ciks": [
+    21344
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "nike",
+   "name": "Nike",
+   "groups": [
+    "Fortune 100 (#99)"
+   ],
+   "sec_ciks": [
+    320187
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "massachusetts-mutual-life-insurance",
+   "name": "Massachusetts Mutual Life Insurance",
+   "groups": [
+    "Fortune 100 (#100)"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "note": "mutual / member-owned; does not file 10-Ks with the SEC",
+   "esef_reports": {}
+  },
+  {
+   "id": "adidas",
+   "name": "Adidas",
+   "groups": [
+    "DAX",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "549300JSX0Z4CW0V5023",
+   "hq": "DE",
+   "legal_name": "adidas AG",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "airbus",
+   "name": "Airbus",
+   "groups": [
+    "DAX",
+    "CAC 40",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "MINO79WLOO247M1IL051",
+   "hq": "NL",
+   "legal_name": "AIRBUS SE",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "allianz",
+   "name": "Allianz",
+   "groups": [
+    "DAX",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "529900K9B0N5BT694847",
+   "hq": "DE",
+   "legal_name": "Allianz SE",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "basf",
+   "name": "BASF",
+   "groups": [
+    "DAX",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "529900PM64WH8AF1E917",
+   "hq": "DE",
+   "legal_name": "BASF SE",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "bayer",
+   "name": "Bayer",
+   "groups": [
+    "DAX",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "549300J4U55H3WP1XT59",
+   "hq": "DE",
+   "legal_name": "Bayer Aktiengesellschaft",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "beiersdorf",
+   "name": "Beiersdorf",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [],
+   "lei": "L47NHHI0Z9X22DV46U41",
+   "hq": "DE",
+   "legal_name": "Beiersdorf Aktiengesellschaft",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "bmw",
+   "name": "BMW",
+   "groups": [
+    "DAX",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "DE",
+   "legal_name": null,
+   "company_types": "PR",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "brenntag",
+   "name": "Brenntag",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "DE",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "commerzbank",
+   "name": "Commerzbank",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [],
+   "lei": "851WYGNLUQLFZBSYGB56",
+   "hq": "DE",
+   "legal_name": "COMMERZBANK Aktiengesellschaft",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "continental",
+   "name": "Continental",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "DE",
+   "legal_name": null,
+   "company_types": "PR",
+   "type_status": "borderline",
+   "esef_reports": {}
+  },
+  {
+   "id": "daimler-truck",
+   "name": "Daimler Truck",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "DE",
+   "legal_name": null,
+   "company_types": "PR",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "deutsche-bank",
+   "name": "Deutsche Bank",
+   "groups": [
+    "DAX",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [
+    1159508
+   ],
+   "lei": "7LTWFZYICNSX8D621K86",
+   "hq": "DE",
+   "legal_name": "DEUTSCHE BANK AKTIENGESELLSCHAFT",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "deutsche-b-rse",
+   "name": "Deutsche Börse",
+   "groups": [
+    "DAX",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "529900G3SW56SHYNPR95",
+   "hq": "DE",
+   "legal_name": "Deutsche Börse Aktiengesellschaft",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "deutsche-post",
+   "name": "Deutsche Post",
+   "groups": [
+    "DAX",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "DE",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "deutsche-telekom",
+   "name": "Deutsche Telekom",
+   "groups": [
+    "DAX",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [
+    946770
+   ],
+   "lei": "549300V9QSIG4WX4GJ96",
+   "hq": "DE",
+   "legal_name": "DEUTSCHE TELEKOM AG",
+   "company_types": "TC",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "e-on",
+   "name": "E.ON",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [
+    1136808
+   ],
+   "lei": null,
+   "hq": "DE",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "fresenius",
+   "name": "Fresenius",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "DE",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "fresenius-medical-care",
+   "name": "Fresenius Medical Care",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [
+    1333141
+   ],
+   "lei": "549300CP8NY40UP89Q40",
+   "hq": "DE",
+   "legal_name": "Fresenius Medical Care AG",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "gea-group",
+   "name": "GEA Group",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "DE",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "hannover-re",
+   "name": "Hannover Re",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [],
+   "lei": "529900KIN5BE45V5KB18",
+   "hq": "DE",
+   "legal_name": "Hannover Rück SE",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "heidelberg-materials",
+   "name": "Heidelberg Materials",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "DE",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "henkel",
+   "name": "Henkel",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [],
+   "lei": "549300VZCL1HTH4O4Y49",
+   "hq": "DE",
+   "legal_name": "Henkel AG & Co. KGaA",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "infineon-technologies",
+   "name": "Infineon Technologies",
+   "groups": [
+    "DAX",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [
+    1107457
+   ],
+   "lei": null,
+   "hq": "DE",
+   "legal_name": null,
+   "company_types": "PR",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "mercedes-benz-group",
+   "name": "Mercedes-Benz Group",
+   "groups": [
+    "DAX",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [
+    1067318
+   ],
+   "lei": "529900R27DL06UVNT076",
+   "hq": "DE",
+   "legal_name": "Mercedes-Benz Group AG",
+   "company_types": "PR",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "merck",
+   "name": "Merck",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [],
+   "lei": "529900OAREIS0MOPTW25",
+   "hq": "DE",
+   "legal_name": "MERCK Kommanditgesellschaft auf Aktien",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "mtu-aero-engines",
+   "name": "MTU Aero Engines",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [],
+   "lei": "529900807L67JY81RD65",
+   "hq": "DE",
+   "legal_name": "MTU Aero Engines AG",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "munich-re",
+   "name": "Munich Re",
+   "groups": [
+    "DAX",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "DE",
+   "legal_name": null,
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "porsche-se",
+   "name": "Porsche SE",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "DE",
+   "legal_name": null,
+   "company_types": "PR",
+   "type_status": "borderline",
+   "esef_reports": {}
+  },
+  {
+   "id": "qiagen",
+   "name": "Qiagen",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [
+    1015820
+   ],
+   "lei": "54930036WK3GMCN17Z57",
+   "hq": "NL",
+   "legal_name": "QIAGEN N.V.",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "rheinmetall",
+   "name": "Rheinmetall",
+   "groups": [
+    "DAX",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "5299001OU9CSE29O6S05",
+   "hq": "DE",
+   "legal_name": "Rheinmetall Aktiengesellschaft",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "rwe",
+   "name": "RWE",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "DE",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "sap",
+   "name": "SAP",
+   "groups": [
+    "DAX",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [
+    1000184
+   ],
+   "lei": "529900D6BF99LW9R2E68",
+   "hq": "DE",
+   "legal_name": "SAP SE",
+   "company_types": "CL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "scout24",
+   "name": "Scout24",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [],
+   "lei": "5493007EIKM2ENQS7U66",
+   "hq": "DE",
+   "legal_name": "Scout24 SE",
+   "company_types": "PL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "siemens",
+   "name": "Siemens",
+   "groups": [
+    "DAX",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "W38RGI023J3WT1HWRP32",
+   "hq": "DE",
+   "legal_name": "Siemens Aktiengesellschaft",
+   "company_types": "PR;CL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "siemens-energy",
+   "name": "Siemens Energy",
+   "groups": [
+    "DAX",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "DE",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "siemens-healthineers",
+   "name": "Siemens Healthineers",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "DE",
+   "legal_name": null,
+   "company_types": "PR",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "symrise",
+   "name": "Symrise",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "DE",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "volkswagen-group",
+   "name": "Volkswagen Group",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [],
+   "lei": "529900NNUPAGGOMPXZ31",
+   "hq": "DE",
+   "legal_name": "VOLKSWAGEN AKTIENGESELLSCHAFT",
+   "company_types": "PR",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "vonovia",
+   "name": "Vonovia",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [],
+   "lei": "5299005A2ZEP6AP7KM81",
+   "hq": "DE",
+   "legal_name": "Vonovia SE",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "zalando",
+   "name": "Zalando",
+   "groups": [
+    "DAX"
+   ],
+   "sec_ciks": [],
+   "lei": "529900YRFFGH5AXU4S86",
+   "hq": "DE",
+   "legal_name": "Zalando SE",
+   "company_types": "GK;PL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "accor",
+   "name": "Accor",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [],
+   "lei": "969500QZC2Q0TK11NV07",
+   "hq": "FR",
+   "legal_name": "ACCOR",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "air-liquide",
+   "name": "Air Liquide",
+   "groups": [
+    "CAC 40",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "969500MMPQVHK671GT54",
+   "hq": "FR",
+   "legal_name": "L'AIR LIQUIDE SOCIETE ANONYME POUR L'ETUDE ET L'EXPLOITATION DES PROCEDES GEORGES CLAUDE",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "arcelormittal",
+   "name": "ArcelorMittal",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [
+    1243429
+   ],
+   "lei": "2EULGUTUI56JI9SAL165",
+   "hq": "LU",
+   "legal_name": "ArcelorMittal",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "axa",
+   "name": "Axa",
+   "groups": [
+    "CAC 40",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "F5WCUMTUM4RKZ1MAIE39",
+   "hq": "FR",
+   "legal_name": "AXA",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2020": {
+     "url": "https://filings.xbrl.org/F5WCUMTUM4RKZ1MAIE39/2020-12-31/ESEF/FR/0/axa-2020-12-31AR/reports/axa-2020-12-31AR.xhtml",
+     "period_end": "2020-12-31",
+     "country": "FR",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/F5WCUMTUM4RKZ1MAIE39/2022-12-31/ESEF/FR/0/axa-2022-12-31-fr/reports/axa-2022-12-31-fr.xhtml",
+     "period_end": "2022-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/F5WCUMTUM4RKZ1MAIE39/2023-12-31/ESEF/FR/0/axa-2023-12-31-fr/reports/axa-2023-12-31-fr.xhtml",
+     "period_end": "2023-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/F5WCUMTUM4RKZ1MAIE39/2024-12-31/ESEF/FR/0/axa-2024-12-31-0-fr/reports/axa-2024-12-31-0-fr.html",
+     "period_end": "2024-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/F5WCUMTUM4RKZ1MAIE39/2025-12-31/ESEF/FR/0/axa-2025-12-31-1-fr/reports/axa-2025-12-31-1-fr.html",
+     "period_end": "2025-12-31",
+     "country": "FR",
+     "language": "fr"
+    }
+   }
+  },
+  {
+   "id": "bnp-paribas",
+   "name": "BNP Paribas",
+   "groups": [
+    "CAC 40",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "R0MUWSFPU8MPRO8K5P83",
+   "hq": "FR",
+   "legal_name": "BNP PARIBAS",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/R0MUWSFPU8MPRO8K5P83/2021-12-31/ESEF/FR/0/bnpp-2021-12-31-fr/reports/bnpp-2021-12-31-fr.xhtml",
+     "period_end": "2021-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/R0MUWSFPU8MPRO8K5P83/2022-12-31/ESEF/FR/1/bnpp-2022-12-31-en/reports/bnpp-2022-12-31-en.xhtml",
+     "period_end": "2022-12-31",
+     "country": "FR",
+     "language": "en"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/R0MUWSFPU8MPRO8K5P83/2023-12-31/ESEF/FR/1/bnpp-2023-12-31-en/reports/bnpp-2023-12-31-en.xhtml",
+     "period_end": "2023-12-31",
+     "country": "FR",
+     "language": "en"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/R0MUWSFPU8MPRO8K5P83/2024-12-31/ESEF/FR/1/bnpp-2024-12-31-0-en/reports/bnpp-2024-12-31-0-en.html",
+     "period_end": "2024-12-31",
+     "country": "FR",
+     "language": "en"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/R0MUWSFPU8MPRO8K5P83/2025-12-31/ESEF/FR/0/bnp-2025-12-31-1/reports/bnp-2025-12-31-1-en.html",
+     "period_end": "2025-12-31",
+     "country": "FR",
+     "language": "en"
+    }
+   }
+  },
+  {
+   "id": "bouygues",
+   "name": "Bouygues",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [],
+   "lei": "969500MOCLNQFNZN0D63",
+   "hq": "FR",
+   "legal_name": "BOUYGUES",
+   "company_types": "TC",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/969500MOCLNQFNZN0D63/2021-12-31/ESEF/FR/0/969500MOCLNQFNZN0D63-2021-12-31AR/reports/969500MOCLNQFNZN0D63-2021-12-31AR.xhtml",
+     "period_end": "2021-12-31",
+     "country": "FR",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/969500MOCLNQFNZN0D63/2022-12-31/ESEF/FR/0/969500MOCLNQFNZN0D63-2022-12-31AR/reports/969500MOCLNQFNZN0D63-2022-12-31AR.xhtml",
+     "period_end": "2022-12-31",
+     "country": "FR",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/969500MOCLNQFNZN0D63/2023-12-31/ESEF/FR/0/969500MOCLNQFNZN0D63-2023-12-31AR/reports/969500MOCLNQFNZN0D63-2023-12-31AR.xhtml",
+     "period_end": "2023-12-31",
+     "country": "FR",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/969500MOCLNQFNZN0D63/2024-12-31/ESEF/FR/0/969500MOCLNQFNZN0D63-2024-12-31-0-fr/reports/969500MOCLNQFNZN0D63-2024-12-31-0-fr.xhtml",
+     "period_end": "2024-12-31",
+     "country": "FR",
+     "language": "fr"
+    }
+   }
+  },
+  {
+   "id": "bureau-veritas",
+   "name": "Bureau Veritas",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [],
+   "lei": "969500TPU5T3HA5D1F11",
+   "hq": "FR",
+   "legal_name": "BUREAU VERITAS",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "capgemini",
+   "name": "Capgemini",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [],
+   "lei": "96950077L0TN7BAROX36",
+   "hq": "FR",
+   "legal_name": "CAPGEMINI",
+   "company_types": "CL",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/96950077L0TN7BAROX36/2021-12-31/ESEF/FR/0/capg-2021-12-31AR/reports/capg-2021-12-31AR.xhtml",
+     "period_end": "2021-12-31",
+     "country": "FR",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/96950077L0TN7BAROX36/2022-12-31/ESEF/FR/0/capg-2022-12-31-fr/reports/capg-2022-12-31-fr.xhtml",
+     "period_end": "2022-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/96950077L0TN7BAROX36/2024-12-31/ESEF/FR/0/capg-2024-12-31-fr/reports/capg-2024-12-31-fr.xhtml",
+     "period_end": "2024-12-31",
+     "country": "FR",
+     "language": "fr"
+    }
+   }
+  },
+  {
+   "id": "carrefour",
+   "name": "Carrefour",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [],
+   "lei": "549300B8P6MUJ1YWTS08",
+   "hq": "FR",
+   "legal_name": "CARREFOUR",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "cr-dit-agricole",
+   "name": "Crédit Agricole",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [
+    1279967
+   ],
+   "lei": "969500TJ5KRTCJQWXH05",
+   "hq": "FR",
+   "legal_name": "CREDIT AGRICOLE SA",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2020": {
+     "url": "https://filings.xbrl.org/969500TJ5KRTCJQWXH05/2020-12-31/ESEF/FR/0/969500TJ5KRTCJQWXH05-2020-12-31AR/reports/969500TJ5KRTCJQWXH05-2020-12-31AR.xhtml",
+     "period_end": "2020-12-31",
+     "country": "FR",
+     "language": ""
+    },
+    "2021": {
+     "url": "https://filings.xbrl.org/969500TJ5KRTCJQWXH05/2021-12-31/ESEF/FR/0/969500TJ5KRTCJQWXH05-2021-12-31-fr/reports/969500TJ5KRTCJQWXH05-2021-12-31-fr.xhtml",
+     "period_end": "2021-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/969500TJ5KRTCJQWXH05/2022-12-31/ESEF/FR/0/969500TJ5KRTCJQWXH05-2022-12-31-fr/reports/969500TJ5KRTCJQWXH05-2022-12-31-fr.xhtml",
+     "period_end": "2022-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/969500TJ5KRTCJQWXH05/2023-12-31/ESEF/FR/0/969500TJ5KRTCJQWXH05-2023-12-31-fr/reports/969500TJ5KRTCJQWXH05-2023-12-31-fr.xhtml",
+     "period_end": "2023-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/969500TJ5KRTCJQWXH05/2024-12-31/ESEF/FR/0/969500TJ5KRTCJQWXH05-2024-12-31-1-fr/reports/969500TJ5KRTCJQWXH05-2024-12-31-1-fr.xhtml",
+     "period_end": "2024-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/969500TJ5KRTCJQWXH05/2025-12-31/ESEF/FR/0/969500TJ5KRTCJQWXH05-2025-12-31-1-fr/reports/969500TJ5KRTCJQWXH05-2025-12-31-1-fr.xhtml",
+     "period_end": "2025-12-31",
+     "country": "FR",
+     "language": "fr"
+    }
+   }
+  },
+  {
+   "id": "danone",
+   "name": "Danone",
+   "groups": [
+    "CAC 40",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "969500KMUQ2B6CBAF162",
+   "hq": "FR",
+   "legal_name": "DANONE",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "dassault-syst-mes",
+   "name": "Dassault Systèmes",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [],
+   "lei": "96950065LBWY0APQIM86",
+   "hq": "FR",
+   "legal_name": "DASSAULT SYSTEMES",
+   "company_types": "CL",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/96950065LBWY0APQIM86/2021-12-31/ESEF/FR/0/dassault-2021-12-31/reports/dassault-2021-12-31.html",
+     "period_end": "2021-12-31",
+     "country": "FR",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/96950065LBWY0APQIM86/2022-12-31/ESEF/FR/0/96950065LBWY0APQIM86-2022-12-31-fr/reports/96950065LBWY0APQIM86-2022-12-31-fr.html",
+     "period_end": "2022-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/96950065LBWY0APQIM86/2023-12-31/ESEF/FR/0/96950065LBWY0APQIM86-2023-12-31-fr/reports/96950065LBWY0APQIM86-2023-12-31-fr.xhtml",
+     "period_end": "2023-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/96950065LBWY0APQIM86/2024-12-31/ESEF/FR/0/96950065LBWY0APQIM86-2024-12-31-0-fr/reports/96950065LBWY0APQIM86-2024-12-31-0-fr.xhtml",
+     "period_end": "2024-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/96950065LBWY0APQIM86/2025-12-31/ESEF/FR/0/96950065LBWY0APQIM86-2025-12-31-1-fr/reports/96950065LBWY0APQIM86-2025-12-31-1-fr.xhtml",
+     "period_end": "2025-12-31",
+     "country": "FR",
+     "language": "fr"
+    }
+   }
+  },
+  {
+   "id": "eiffage",
+   "name": "Eiffage",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [],
+   "lei": "969500OQXKE5WDM9M994",
+   "hq": "FR",
+   "legal_name": "EIFFAGE",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "engie",
+   "name": "Engie",
+   "groups": [
+    "CAC 40",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "LAXUQCHT4FH58LRZDY46",
+   "hq": "FR",
+   "legal_name": "ENGIE",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "essilorluxottica",
+   "name": "EssilorLuxottica",
+   "groups": [
+    "CAC 40",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "549300M3VH1A3ER1TB49",
+   "hq": "FR",
+   "legal_name": "ESSILORLUXOTTICA",
+   "company_types": "PR",
+   "type_status": "borderline",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/549300M3VH1A3ER1TB49/2021-12-31/ESEF/FR/0/el-2021-12-31AR/reports/el-2021-12-31AR.xhtml",
+     "period_end": "2021-12-31",
+     "country": "FR",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/549300M3VH1A3ER1TB49/2022-12-31/ESEF/FR/0/el-2022-12-31-fr/reports/el-2022-12-31-fr.xhtml",
+     "period_end": "2022-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/549300M3VH1A3ER1TB49/2023-12-31/ESEF/FR/0/el-2023-12-31-fr/reports/el-2023-12-31-fr.xhtml",
+     "period_end": "2023-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/549300M3VH1A3ER1TB49/2024-12-31/ESEF/FR/0/el-2024-12-31-0-fr/reports/el-2024-12-31-0-fr.xhtml",
+     "period_end": "2024-12-31",
+     "country": "FR",
+     "language": "fr"
+    }
+   }
+  },
+  {
+   "id": "eurofins-scientific",
+   "name": "Eurofins Scientific",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [],
+   "lei": "529900JEHFM47DYY3S57",
+   "hq": "LU",
+   "legal_name": "EUROFINS SCIENTIFIC SE",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "euronext",
+   "name": "Euronext",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [],
+   "lei": "724500QJ4QSZ3H9QU415",
+   "hq": "NL",
+   "legal_name": "Euronext N.V.",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2021-12-31/ESEF/NL/0/eur-2021-12-31-en/reports/eur-2021-12-31-en.xhtml",
+     "period_end": "2021-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2022-12-31/ESEF/NL/0/eur-2022-12-31-en/reports/eur-2022-12-31-en.xhtml",
+     "period_end": "2022-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2023-12-31/ESEF/NL/0/eur-2023-12-31-en/reports/eur-2023-12-31-en.xhtml",
+     "period_end": "2023-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2024-12-31/ESEF/NL/0/eur-2024-12-31-en/reports/eur-2024-12-31-en.xhtml",
+     "period_end": "2024-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2025-12-31/ESEF/NL/0/eur-2025-12-31-en/reports/eur-2025-12-31-en.xhtml",
+     "period_end": "2025-12-31",
+     "country": "NL",
+     "language": "en"
+    }
+   }
+  },
+  {
+   "id": "herm-s",
+   "name": "Hermès",
+   "groups": [
+    "CAC 40",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "969500Y4IJGHJE2MTJ13",
+   "hq": "FR",
+   "legal_name": "HERMES INTERNATIONAL",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "kering",
+   "name": "Kering",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [],
+   "lei": "549300VGEJKB7SVUZR78",
+   "hq": "FR",
+   "legal_name": "KERING",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "l-or-al",
+   "name": "L'Oréal",
+   "groups": [
+    "CAC 40",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "529900JI1GG6F7RKVI53",
+   "hq": "FR",
+   "legal_name": "L'OREAL",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "legrand",
+   "name": "Legrand",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [],
+   "lei": "969500XXRPGD7HCAFA90",
+   "hq": "FR",
+   "legal_name": "LEGRAND",
+   "company_types": "PR",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/969500XXRPGD7HCAFA90/2021-12-31/ESEF/FR/0/legrand-2021-12-31/reports/legrand-2021-12-31.xhtml",
+     "period_end": "2021-12-31",
+     "country": "FR",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/969500XXRPGD7HCAFA90/2022-12-31/ESEF/FR/0/969500XXRPGD7HCAFA90-2022-09-09-fr/reports/969500XXRPGD7HCAFA90-2022-09-09-fr.xhtml",
+     "period_end": "2022-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/969500XXRPGD7HCAFA90/2023-12-31/ESEF/FR/0/legrandgroup-2023-12-31-fr/reports/legrandgroup-2023-12-31-fr.xhtml",
+     "period_end": "2023-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/969500XXRPGD7HCAFA90/2024-12-31/ESEF/FR/0/Legrand-2024-12-31AR/reports/Legrand-2024-12-31AR.xhtml",
+     "period_end": "2024-12-31",
+     "country": "FR",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/969500XXRPGD7HCAFA90/2025-12-31/ESEF/FR/0/Legrand-2025-12-31-1-FR/reports/Legrand-2025-12-31-1-FR.xhtml",
+     "period_end": "2025-12-31",
+     "country": "FR",
+     "language": "fr"
+    }
+   }
+  },
+  {
+   "id": "lvmh",
+   "name": "LVMH",
+   "groups": [
+    "CAC 40",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "IOG4E947OATN0KJYSD45",
+   "hq": "FR",
+   "legal_name": "LVMH MOET HENNESSY LOUIS VUITTON",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "michelin",
+   "name": "Michelin",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [],
+   "lei": "549300SOSI58J6VIW052",
+   "hq": "FR",
+   "legal_name": "COMPAGNIE GENERALE DES ETABLISSEMENTS MICHELIN",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "orange",
+   "name": "Orange",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [
+    1038143
+   ],
+   "lei": "969500MCOONR8990S771",
+   "hq": "FR",
+   "legal_name": "ORANGE",
+   "company_types": "TC",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/969500MCOONR8990S771/2021-12-31/ESEF/FR/0/ora-2021-12-31AR/reports/ora-2021-12-31AR.xhtml",
+     "period_end": "2021-12-31",
+     "country": "FR",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/969500MCOONR8990S771/2022-12-31/ESEF/FR/0/ORAN-2022-12-31AR/reports/ORAN-2022-12-31AR.xhtml",
+     "period_end": "2022-12-31",
+     "country": "FR",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/969500MCOONR8990S771/2023-12-31/ESEF/FR/0/ORAN-2023-12-31AR/reports/ORAN-2023-12-31AR.xhtml",
+     "period_end": "2023-12-31",
+     "country": "FR",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/969500MCOONR8990S771/2024-12-31/ESEF/FR/0/ORAN-2024-12-31-0-fr/reports/969500MCOONR8990S771-2024-12-31-0-fr.xhtml",
+     "period_end": "2024-12-31",
+     "country": "FR",
+     "language": "fr"
+    }
+   }
+  },
+  {
+   "id": "pernod-ricard",
+   "name": "Pernod Ricard",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [],
+   "lei": "52990097YFPX9J0H5D87",
+   "hq": "FR",
+   "legal_name": "PERNOD RICARD",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "publicis",
+   "name": "Publicis",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [],
+   "lei": "2138004KW8BV57III342",
+   "hq": "FR",
+   "legal_name": "PUBLICIS GROUPE SA",
+   "company_types": "CL",
+   "type_status": "borderline",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/2138004KW8BV57III342/2021-12-31/ESEF/FR/0/publicis-2021-12-31-fr/reports/publicis-2021-12-31-fr.xhtml",
+     "period_end": "2021-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/2138004KW8BV57III342/2022-12-31/ESEF/FR/0/publicis-2022-12-31-fr/reports/publicis-2022-12-31-fr.xhtml",
+     "period_end": "2022-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/2138004KW8BV57III342/2023-12-31/ESEF/FR/0/publicis-2023-12-31/reports/publicis-2021-12-31-fr.html",
+     "period_end": "2023-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/2138004KW8BV57III342/2024-12-31/ESEF/FR/0/publicis-2024-12-31-2-fr/reports/publicis-2024-12-31-2-fr.xhtml",
+     "period_end": "2024-12-31",
+     "country": "FR",
+     "language": "fr"
+    }
+   }
+  },
+  {
+   "id": "renault",
+   "name": "Renault",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [],
+   "lei": "969500F7JLTX36OUI695",
+   "hq": "FR",
+   "legal_name": "RENAULT",
+   "company_types": "PR",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/969500F7JLTX36OUI695/2021-12-31/ESEF/FR/0/969500F7JLTX36OUI695-2021-12-31/reports/969500F7JLTX36OUI695-2021-12-31.xhtml",
+     "period_end": "2021-12-31",
+     "country": "FR",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/969500F7JLTX36OUI695/2022-12-31/ESEF/FR/0/969500F7JLTX36OUI695-2022-12-31-fr/reports/969500F7JLTX36OUI695-2022-12-31-fr.xhtml",
+     "period_end": "2022-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/969500F7JLTX36OUI695/2023-12-31/ESEF/FR/0/969500F7JLTX36OUI695-2023-12-31AR/reports/969500F7JLTX36OUI695-2023-12-31AR.xhtml",
+     "period_end": "2023-12-31",
+     "country": "FR",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/969500F7JLTX36OUI695/2024-12-31/ESEF/FR/0/969500F7JLTX36OUI695-2024-12-31-0-FR/reports/969500F7JLTX36OUI695-2024-12-31-0-FR.xhtml",
+     "period_end": "2024-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/969500F7JLTX36OUI695/2025-12-31/ESEF/FR/0/renault-2025-12-31-0-fr/reports/renault-2025-12-31-0-fr.xhtml",
+     "period_end": "2025-12-31",
+     "country": "FR",
+     "language": "fr"
+    }
+   }
+  },
+  {
+   "id": "safran",
+   "name": "Safran",
+   "groups": [
+    "CAC 40",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "969500UIC89GT3UL7L24",
+   "hq": "FR",
+   "legal_name": "SAFRAN",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "saint-gobain",
+   "name": "Saint-Gobain",
+   "groups": [
+    "CAC 40",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [
+    1012037
+   ],
+   "lei": null,
+   "hq": "FR",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "sanofi",
+   "name": "Sanofi",
+   "groups": [
+    "CAC 40",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [
+    1121404
+   ],
+   "lei": "549300E9PC51EN656011",
+   "hq": "FR",
+   "legal_name": "SANOFI",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "schneider-electric",
+   "name": "Schneider Electric",
+   "groups": [
+    "CAC 40",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "969500A1YF1XUYYXS284",
+   "hq": "FR",
+   "legal_name": "SCHNEIDER ELECTRIC SE",
+   "company_types": "PR",
+   "type_status": "include",
+   "esef_reports": {
+    "2020": {
+     "url": "https://filings.xbrl.org/969500A1YF1XUYYXS284/2020-12-31/ESEF/FR/0/schneiderelectric-2020-12-31AR/reports/schneiderelectric-2020-12-31AR.xhtml",
+     "period_end": "2020-12-31",
+     "country": "FR",
+     "language": ""
+    },
+    "2021": {
+     "url": "https://filings.xbrl.org/969500A1YF1XUYYXS284/2021-12-31/ESEF/FR/0/969500A1YF1XUYYXS284-2021-12-31-fr/reports/969500A1YF1XUYYXS284-2021-12-31-fr.xhtml",
+     "period_end": "2021-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/969500A1YF1XUYYXS284/2022-12-31/ESEF/FR/0/schneiderelectric-2022-12-31UR/reports/969500A1YF1XUYYXS284-2022-12-31-fr.xhtml",
+     "period_end": "2022-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/969500A1YF1XUYYXS284/2023-12-31/ESEF/FR/0/969500A1YF1XUYYXS284-2023-12-31-fr/reports/969500A1YF1XUYYXS284-2023-12-31-fr.xhtml",
+     "period_end": "2023-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/969500A1YF1XUYYXS284/2024-12-31/ESEF/FR/0/969500A1YF1XUYYXS284-2024-12-31-fr/reports/969500A1YF1XUYYXS284-2024-12-31-fr.xhtml",
+     "period_end": "2024-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/969500A1YF1XUYYXS284/2025-12-31/ESEF/FR/0/969500A1YF1XUYYXS284-2025-12-31-fr/reports/969500A1YF1XUYYXS284-2025-12-31-fr.xhtml",
+     "period_end": "2025-12-31",
+     "country": "FR",
+     "language": "fr"
+    }
+   }
+  },
+  {
+   "id": "soci-t-g-n-rale",
+   "name": "Société Générale",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [],
+   "lei": "O2RNE8IBXP4R0TD8PU41",
+   "hq": "FR",
+   "legal_name": "SOCIETE GENERALE",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/O2RNE8IBXP4R0TD8PU41/2021-12-31/ESEF/FR/0/socgen-2021-12-31-fr/reports/socgen-2021-12-31-fr.xhtml",
+     "period_end": "2021-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/O2RNE8IBXP4R0TD8PU41/2022-12-31/ESEF/FR/0/SocGen-2022-12-31-fr/reports/SocGen-2022-12-31-fr.xhtml",
+     "period_end": "2022-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/O2RNE8IBXP4R0TD8PU41/2023-12-31/ESEF/FR/0/SocGen-2023-12-31-fr/reports/socgen-2023-12-31-fr.html",
+     "period_end": "2023-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/O2RNE8IBXP4R0TD8PU41/2025-12-31/ESEF/FR/0/O2RNE8IBXP4R0TD8PU41-2025-12-31-1-FR/reports/O2RNE8IBXP4R0TD8PU41-2025-12-31-1-FR.xhtml",
+     "period_end": "2025-12-31",
+     "country": "FR",
+     "language": "fr"
+    }
+   }
+  },
+  {
+   "id": "stellantis",
+   "name": "Stellantis",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [
+    1605484
+   ],
+   "lei": "549300LKT9PW7ZIBDF31",
+   "hq": "NL",
+   "legal_name": "STELLANTIS N.V.",
+   "company_types": "PR",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/549300LKT9PW7ZIBDF31/2021-12-31/ESEF/NL/0/stellantis-2021-12-31-en/reports/stellantis-2021-12-31-en.xhtml",
+     "period_end": "2021-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/549300LKT9PW7ZIBDF31/2022-12-31/ESEF/NL/0/stellantis-2022-12-31-en/reports/stellantis-2022-12-31-en.xhtml",
+     "period_end": "2022-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/549300LKT9PW7ZIBDF31/2023-12-31/ESEF/NL/0/stellantis-2023-12-31-en/reports/stellantis-2023-12-31-en.xhtml",
+     "period_end": "2023-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/549300LKT9PW7ZIBDF31/2024-12-31/ESEF/NL/0/stellantis-2024-12-31-en/reports/stellantis-2024-12-31-en.xhtml",
+     "period_end": "2024-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/549300LKT9PW7ZIBDF31/2025-12-31/ESEF/NL/0/stellantis-2025-12-31-en/reports/stellantis-2025-12-31-en.xhtml",
+     "period_end": "2025-12-31",
+     "country": "NL",
+     "language": "en"
+    }
+   }
+  },
+  {
+   "id": "stmicroelectronics",
+   "name": "STMicroelectronics",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [
+    932787
+   ],
+   "lei": "213800Z8NOHIKRI42W10",
+   "hq": "CH",
+   "legal_name": "STMICROELECTRONICS N.V.",
+   "company_types": "PR",
+   "type_status": "exclude",
+   "exclude": "semiconductors, but headquarters Geneva (GLEIF), outside EU-27/UK/US",
+   "esef_reports": {}
+  },
+  {
+   "id": "thales",
+   "name": "Thales",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [],
+   "lei": "529900FNDVTQJOVVPZ19",
+   "hq": "FR",
+   "legal_name": "THALES",
+   "company_types": "PR;CL",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/529900FNDVTQJOVVPZ19/2021-12-31/ESEF/FR/0/tha-2021-12-31AR/reports/tha-2021-12-31AR.xhtml",
+     "period_end": "2021-12-31",
+     "country": "FR",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/529900FNDVTQJOVVPZ19/2022-12-31/ESEF/FR/0/tha-2022-12-31-fr/reports/tha-2022-12-31-fr.xhtml",
+     "period_end": "2022-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/529900FNDVTQJOVVPZ19/2024-12-31/ESEF/FR/0/tha-2024-12-31-fr/reports/tha-2024-12-31-fr.xhtml",
+     "period_end": "2024-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/529900FNDVTQJOVVPZ19/2025-12-31/ESEF/FR/0/tha-2025-12-31-1-fr/reports/tha-2025-12-31-1-fr.xhtml",
+     "period_end": "2025-12-31",
+     "country": "FR",
+     "language": "fr"
+    }
+   }
+  },
+  {
+   "id": "totalenergies",
+   "name": "TotalEnergies",
+   "groups": [
+    "CAC 40",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [
+    879764
+   ],
+   "lei": "529900S21EQ1BO4ESM68",
+   "hq": "FR",
+   "legal_name": "TotalEnergies SE",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "unibail-rodamco-westfield",
+   "name": "Unibail-Rodamco-Westfield",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [],
+   "lei": "969500SHQITWXSIS7N89",
+   "hq": "FR",
+   "legal_name": "UNIBAIL-RODAMCO-WESTFIELD SE",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "veolia",
+   "name": "Veolia",
+   "groups": [
+    "CAC 40"
+   ],
+   "sec_ciks": [],
+   "lei": "969500LENY69X51OOT31",
+   "hq": "FR",
+   "legal_name": "VEOLIA ENVIRONNEMENT",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "vinci",
+   "name": "Vinci",
+   "groups": [
+    "CAC 40",
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "213800WFQ334R8UXUG83",
+   "hq": "FR",
+   "legal_name": "VINCI",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "3i",
+   "name": "3i",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "35GDVHRBMFE7NWATNM84",
+   "hq": "GB",
+   "legal_name": "3I GROUP PLC",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2022": {
+     "url": "https://filings.xbrl.org/35GDVHRBMFE7NWATNM84/2022-03-31/ESEF/GB/0/35GDVHRBMFE7NWATNM84-2022-03-31/reports/35GDVHRBMFE7NWATNM84-2022-03-31-T01.xhtml",
+     "period_end": "2022-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/35GDVHRBMFE7NWATNM84/2023-03-31/ESEF/GB/0/35GDVHRBMFE7NWATNM84-2023-03-31/reports/35GDVHRBMFE7NWATNM84-2023-03-31-T01.html",
+     "period_end": "2023-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/35GDVHRBMFE7NWATNM84/2024-03-31/ESEF/GB/0/35GDVHRBMFE7NWATNM84-2024-03-31/reports/35GDVHRBMFE7NWATNM84-2024-03-31-T01.html",
+     "period_end": "2024-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/35GDVHRBMFE7NWATNM84/2025-03-31/ESEF/GB/0/35GDVHRBMFE7NWATNM84-2025-03-31/reports/35GDVHRBMFE7NWATNM84-2025-03-31-T01.html",
+     "period_end": "2025-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2026": {
+     "url": "https://filings.xbrl.org/35GDVHRBMFE7NWATNM84/2026-03-31/ESEF/GB/0/35GDVHRBMFE7NWATNM84-2026-03-31/reports/35GDVHRBMFE7NWATNM84-2026-03-31-T01.html",
+     "period_end": "2026-03-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "aberdeen-group",
+   "name": "Aberdeen Group",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "0TMBS544NMO7GLCE7H90",
+   "hq": "GB",
+   "legal_name": "ABERDEEN GROUP PLC",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/0TMBS544NMO7GLCE7H90/2021-12-31/ESEF/GB/0/0TMBS544NMO7GLCE7H90-2021-12-31/reports/0TMBS544NMO7GLCE7H90-2021-12-31-T01.xhtml",
+     "period_end": "2021-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/0TMBS544NMO7GLCE7H90/2022-12-31/ESEF/GB/0/0TMBS544NMO7GLCE7H90-2022-12-31/reports/0TMBS544NMO7GLCE7H90-2022-12-31-T01.xhtml",
+     "period_end": "2022-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/0TMBS544NMO7GLCE7H90/2023-12-31/ESEF/GB/0/0TMBS544NMO7GLCE7H90-2023-12-31/reports/0TMBS544NMO7GLCE7H90-2023-12-31-T01.xhtml",
+     "period_end": "2023-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/0TMBS544NMO7GLCE7H90/2024-12-31/ESEF/GB/0/0TMBS544NMO7GLCE7H90-2024-12-31/reports/0TMBS544NMO7GLCE7H90-2024-12-31-T01.html",
+     "period_end": "2024-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/0TMBS544NMO7GLCE7H90/2025-12-31/ESEF/GB/0/0TMBS544NMO7GLCE7H90-2025-12-31/reports/0TMBS544NMO7GLCE7H90-2025-12-31-T01.html",
+     "period_end": "2025-12-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "admiral-group",
+   "name": "Admiral Group",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800FGVM7Z9EJB2685",
+   "hq": "GB",
+   "legal_name": "ADMIRAL GROUP PLC",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/213800FGVM7Z9EJB2685/2021-12-31/ESEF/GB/0/213800FGVM7Z9EJB2685-2021-12-31/reports/213800FGVM7Z9EJB2685-2021-12-31-T01.xhtml",
+     "period_end": "2021-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/213800FGVM7Z9EJB2685/2022-12-31/ESEF/GB/0/213800FGVM7Z9EJB2685-2022-12-31/reports/213800FGVM7Z9EJB2685-2022-12-31-T01.xhtml",
+     "period_end": "2022-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/213800FGVM7Z9EJB2685/2023-12-31/ESEF/GB/0/213800FGVM7Z9EJB2685-2023-12-31/reports/213800FGVM7Z9EJB2685-2023-12-31-T01.xhtml",
+     "period_end": "2023-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/213800FGVM7Z9EJB2685/2024-12-31/ESEF/GB/0/213800FGVM7Z9EJB2685-2024-12-31/reports/213800FGVM7Z9EJB2685-2024-12-31-T01.html",
+     "period_end": "2024-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/213800FGVM7Z9EJB2685/2025-12-31/ESEF/GB/0/213800FGVM7Z9EJB2685-2025-12-31/reports/213800FGVM7Z9EJB2685-2025-12-31-T01.html",
+     "period_end": "2025-12-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "airtel-africa",
+   "name": "Airtel Africa",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "254900ZNZDQL6OWQH623",
+   "hq": "GB",
+   "legal_name": "AIRTEL AFRICA PLC",
+   "company_types": "TC",
+   "type_status": "include",
+   "esef_reports": {
+    "2022": {
+     "url": "https://filings.xbrl.org/254900ZNZDQL6OWQH623/2022-03-31/ESEF/GB/0/254900ZNZDQL6OWQH623-2022-03-31/reports/254900ZNZDQL6OWQH623-2022-03-31-T01.html",
+     "period_end": "2022-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/254900ZNZDQL6OWQH623/2023-03-31/ESEF/GB/0/254900ZNZDQL6OWQH623-2023-03-31/reports/254900ZNZDQL6OWQH623-2023-03-31.html",
+     "period_end": "2023-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/254900ZNZDQL6OWQH623/2024-03-31/ESEF/GB/0/254900ZNZDQL6OWQH623-2024-03-31/reports/254900ZNZDQL6OWQH623-2024-03-31.html",
+     "period_end": "2024-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/254900ZNZDQL6OWQH623/2025-03-31/ESEF/GB/0/254900ZNZDQL6OWQH623-2025-03-31/reports/254900ZNZDQL6OWQH623-2025-03-31.xhtml",
+     "period_end": "2025-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2026": {
+     "url": "https://filings.xbrl.org/254900ZNZDQL6OWQH623/2026-03-31/ESEF/GB/0/254900ZNZDQL6OWQH623-2026-03-31/reports/254900ZNZDQL6OWQH623-2026-03-31.xhtml",
+     "period_end": "2026-03-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "alliance-witan",
+   "name": "Alliance Witan",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "GB",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "investment trust / fund",
+   "esef_reports": {}
+  },
+  {
+   "id": "anglo-american-plc",
+   "name": "Anglo American plc",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "549300S9XF92D1X8ME43",
+   "hq": "GB",
+   "legal_name": "ANGLO AMERICAN PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "antofagasta-plc",
+   "name": "Antofagasta plc",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800MY6QVH4FVLD628",
+   "hq": "GB",
+   "legal_name": "ANTOFAGASTA PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "associated-british-foods",
+   "name": "Associated British Foods",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "GBQKSY6W7G0OHCQ8OQ72",
+   "hq": "GB",
+   "legal_name": "ASSOCIATED BRITISH FOODS PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "astrazeneca",
+   "name": "AstraZeneca",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    901832
+   ],
+   "lei": "PY6ZZQWO2IZFZC3IOL08",
+   "hq": "GB",
+   "legal_name": "ASTRAZENECA PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "autotrader-group",
+   "name": "Autotrader Group",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800QLK9BZILB1DI86",
+   "hq": "GB",
+   "legal_name": "AUTOTRADER GROUP PLC",
+   "company_types": "PL",
+   "type_status": "include",
+   "esef_reports": {
+    "2022": {
+     "url": "https://filings.xbrl.org/213800QLK9BZILB1DI86/2022-03-31/ESEF/GB/0/213800QLK9BZILB1DI86-2022-03-31/reports/213800QLK9BZILB1DI86-2022-03-31-T01.xhtml",
+     "period_end": "2022-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/213800QLK9BZILB1DI86/2023-03-31/ESEF/GB/0/213800QLK9BZILB1DI86-2023-03-31/reports/213800QLK9BZILB1DI86-2023-03-31-T01.html",
+     "period_end": "2023-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/213800QLK9BZILB1DI86/2024-03-31/ESEF/GB/0/213800QLK9BZILB1DI86-2024-03-31/reports/213800QLK9BZILB1DI86-2024-03-31-T01.html",
+     "period_end": "2024-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/213800QLK9BZILB1DI86/2025-03-31/ESEF/GB/0/213800QLK9BZILB1DI86-2025-03-31/reports/213800QLK9BZILB1DI86-2025-03-31-T01.html",
+     "period_end": "2025-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2026": {
+     "url": "https://filings.xbrl.org/213800QLK9BZILB1DI86/2026-03-31/ESEF/GB/0/213800QLK9BZILB1DI86-2026-03-31/reports/213800QLK9BZILB1DI86-2026-03-31-T01.html",
+     "period_end": "2026-03-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "aviva",
+   "name": "Aviva",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    1140022
+   ],
+   "lei": "YF0Y5B0IB8SM0ZFG9G81",
+   "hq": "GB",
+   "legal_name": "AVIVA PLC",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/YF0Y5B0IB8SM0ZFG9G81/2021-12-31/ESEF/GB/0/YF0Y5B0IB8SM0ZFG9G81-2021-12-31/reports/YF0Y5B0IB8SM0ZFG9G81-2021-12-31-T01.html",
+     "period_end": "2021-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/YF0Y5B0IB8SM0ZFG9G81/2022-12-31/ESEF/GB/0/YF0Y5B0IB8SM0ZFG9G81-2022-12-31/reports/YF0Y5B0IB8SM0ZFG9G81-2022-12-31-T01.html",
+     "period_end": "2022-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/YF0Y5B0IB8SM0ZFG9G81/2023-12-31/ESEF/GB/0/YF0Y5B0IB8SM0ZFG9G81-2023-12-31/reports/YF0Y5B0IB8SM0ZFG9G81-2023-12-31-T01.html",
+     "period_end": "2023-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/YF0Y5B0IB8SM0ZFG9G81/2024-12-31/ESEF/GB/0/YF0Y5B0IB8SM0ZFG9G81-2024-12-31/reports/YF0Y5B0IB8SM0ZFG9G81-2024-12-31-T01.html",
+     "period_end": "2024-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2026": {
+     "url": "https://filings.xbrl.org/YF0Y5B0IB8SM0ZFG9G81/2026-03-02/ESEF/GB/0/YF0Y5B0IB8SM0ZFG9G81-2025-12-31/reports/YF0Y5B0IB8SM0ZFG9G81-2025-12-31-T01.html",
+     "period_end": "2026-03-02",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "babcock-international",
+   "name": "Babcock International",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800TSKOLX4EU6L377",
+   "hq": "GB",
+   "legal_name": "BABCOCK INTERNATIONAL GROUP PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "bae-systems",
+   "name": "BAE Systems",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    895564
+   ],
+   "lei": "8SVCSVKSGDWMW2QHOH83",
+   "hq": "GB",
+   "legal_name": "BAE SYSTEMS PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "balfour-beatty",
+   "name": "Balfour Beatty",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "CT4UIJ3TUKGYYHMENQ17",
+   "hq": "GB",
+   "legal_name": "BALFOUR BEATTY PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "barclays",
+   "name": "Barclays",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    312069
+   ],
+   "lei": "213800LBQA1Y9L22JB70",
+   "hq": "GB",
+   "legal_name": "BARCLAYS PLC",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/213800LBQA1Y9L22JB70/2021-12-31/ESEF/GB/0/213800LBQA1Y9L22JB70-2021-12-31/reports/213800LBQA1Y9L22JB70-2021-12-31-T01.html",
+     "period_end": "2021-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/213800LBQA1Y9L22JB70/2022-12-31/ESEF/GB/0/213800LBQA1Y9L22JB70-2022-12-31/reports/213800LBQA1Y9L22JB70-2022-12-31-T01.html",
+     "period_end": "2022-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/213800LBQA1Y9L22JB70/2023-12-31/ESEF/GB/0/213800LBQA1Y9L22JB70-2023-12-31/reports/213800LBQA1Y9L22JB70-2023-12-31-T01.html",
+     "period_end": "2023-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/213800LBQA1Y9L22JB70/2024-12-31/ESEF/GB/0/213800LBQA1Y9L22JB70-2024-12-31/reports/213800LBQA1Y9L22JB70-2024-12-31-T01.html",
+     "period_end": "2024-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/213800LBQA1Y9L22JB70/2025-12-31/ESEF/GB/0/213800LBQA1Y9L22JB70-2025-12-31/reports/213800LBQA1Y9L22JB70-2025-12-31-T01.html",
+     "period_end": "2025-12-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "barratt-redrow",
+   "name": "Barratt Redrow",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "2138006R85VEOF5YNK29",
+   "hq": "GB",
+   "legal_name": "BARRATT REDROW PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "bp",
+   "name": "BP",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    313807
+   ],
+   "lei": "213800LH1BZH3DI6G760",
+   "hq": "GB",
+   "legal_name": "BP P.L.C.",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "british-american-tobacco",
+   "name": "British American Tobacco",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    1303523
+   ],
+   "lei": "213800FKA5MF17RJKT63",
+   "hq": "GB",
+   "legal_name": "BRITISH AMERICAN TOBACCO P.L.C.",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "british-land",
+   "name": "British Land",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "RV5B68J2GV3QGMRPW209",
+   "hq": "GB",
+   "legal_name": "BRITISH LAND COMPANY PUBLIC LIMITED COMPANY(THE)",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "bt-group",
+   "name": "BT Group",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800LRO7NS5CYQMN21",
+   "hq": "GB",
+   "legal_name": "BT GROUP PLC",
+   "company_types": "TC",
+   "type_status": "include",
+   "esef_reports": {
+    "2022": {
+     "url": "https://filings.xbrl.org/213800LRO7NS5CYQMN21/2022-03-31/ESEF/GB/0/213800LRO7NS5CYQMN21-2022-03-31/reports/213800LRO7NS5CYQMN21-2022-03-31-T01.xhtml",
+     "period_end": "2022-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/213800LRO7NS5CYQMN21/2023-03-31/ESEF/GB/0/213800LRO7NS5CYQMN21-2023-03-31/reports/213800LRO7NS5CYQMN21-2023-03-31-T01.xhtml",
+     "period_end": "2023-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/213800LRO7NS5CYQMN21/2024-03-31/ESEF/GB/0/213800LRO7NS5CYQMN21-2024-03-31/reports/213800LRO7NS5CYQMN21-2024-03-31-T01.xhtml",
+     "period_end": "2024-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/213800LRO7NS5CYQMN21/2025-03-31/ESEF/GB/0/213800LRO7NS5CYQMN21-2025-03-31/reports/213800LRO7NS5CYQMN21-2025-03-31-T01.html",
+     "period_end": "2025-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2026": {
+     "url": "https://filings.xbrl.org/213800LRO7NS5CYQMN21/2026-03-31/ESEF/GB/0/213800LRO7NS5CYQMN21-2026-03-31/reports/213800LRO7NS5CYQMN21-2026-03-31-T01.html",
+     "period_end": "2026-03-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "bunzl",
+   "name": "Bunzl",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800Q1Q9DV4L78UM09",
+   "hq": "GB",
+   "legal_name": "BUNZL PUBLIC LIMITED COMPANY",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "burberry-group",
+   "name": "Burberry Group",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800PE1KEFCNFR1R50",
+   "hq": "GB",
+   "legal_name": "BURBERRY GROUP PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "centrica",
+   "name": "Centrica",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "E26EDV109X6EEPBKVH76",
+   "hq": "GB",
+   "legal_name": "CENTRICA PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "coca-cola-europacific-partners",
+   "name": "Coca-Cola Europacific Partners",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    1650107
+   ],
+   "lei": "549300LTH67W4GWMRF57",
+   "hq": "GB",
+   "legal_name": "COCA-COLA EUROPACIFIC PARTNERS PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "coca-cola-hbc",
+   "name": "Coca-Cola HBC",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "549300EFP3TNG7JGVE49",
+   "hq": "CH",
+   "legal_name": "Coca-Cola HBC AG",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "compass-group",
+   "name": "Compass Group",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "2138008M6MH9OZ6U2T68",
+   "hq": "GB",
+   "legal_name": "COMPASS GROUP PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "computacenter",
+   "name": "Computacenter",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "549300XSXUZ1I19DB105",
+   "hq": "GB",
+   "legal_name": "COMPUTACENTER PLC",
+   "company_types": "CL",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/549300XSXUZ1I19DB105/2021-12-31/ESEF/GB/0/549300XSXUZ1I19DB105-2021-12-31/reports/549300XSXUZ1I19DB105-2021-12-31-T01.xhtml",
+     "period_end": "2021-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/549300XSXUZ1I19DB105/2022-12-31/ESEF/GB/0/549300XSXUZ1I19DB105-2022-12-31/reports/549300XSXUZ1I19DB105-2022-12-31-T01.xhtml",
+     "period_end": "2022-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/549300XSXUZ1I19DB105/2023-12-31/ESEF/GB/0/549300XSXUZ1I19DB105-2023-12-31/reports/549300XSXUZ1I19DB105-2023-12-31-T01.xhtml",
+     "period_end": "2023-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/549300XSXUZ1I19DB105/2024-12-31/ESEF/GB/0/549300XSXUZ1I19DB105-2024-12-31/reports/549300XSXUZ1I19DB105-2024-12-31-T01.xhtml",
+     "period_end": "2024-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/549300XSXUZ1I19DB105/2025-12-31/ESEF/GB/0/549300XSXUZ1I19DB105-2025-12-31/reports/549300XSXUZ1I19DB105-2025-12-31-T01.xhtml",
+     "period_end": "2025-12-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "convatec",
+   "name": "Convatec",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800LS272L4FIDOH92",
+   "hq": "GB",
+   "legal_name": "CONVATEC GROUP PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "croda-international",
+   "name": "Croda International",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "2138004WCNBFJEEOXV26",
+   "hq": "GB",
+   "legal_name": "CRODA INTERNATIONAL PUBLIC LIMITED COMPANY",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "dcc-energy",
+   "name": "DCC Energy",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800UPS1QEE4TD3T45",
+   "hq": "IE",
+   "legal_name": "DCC ENERGY PUBLIC LIMITED COMPANY",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "diageo",
+   "name": "Diageo",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    835403
+   ],
+   "lei": "213800ZVIELEA55JMJ32",
+   "hq": "GB",
+   "legal_name": "DIAGEO PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "diploma",
+   "name": "Diploma",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "2138008OGI7VYG8FGR19",
+   "hq": "GB",
+   "legal_name": "DIPLOMA PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "easyjet",
+   "name": "EasyJet",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "2138001S47XKWIB7TH90",
+   "hq": "GB",
+   "legal_name": "EASYJET PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "endeavour-mining",
+   "name": "Endeavour Mining",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "529900NI5MXQ91GHXR07",
+   "hq": "GB",
+   "legal_name": "ENDEAVOUR MINING PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "experian",
+   "name": "Experian",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "635400RXXHHYT1JTSZ26",
+   "hq": "IE",
+   "legal_name": "Experian plc",
+   "company_types": "CL;FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/635400RXXHHYT1JTSZ26/2021-03-31/ESEF/GB/0/635400RXXHHYT1JTSZ26-2021-03-31/reports/635400RXXHHYT1JTSZ26-2021-03-31-T01.html",
+     "period_end": "2021-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/635400RXXHHYT1JTSZ26/2022-03-31/ESEF/GB/0/635400RXXHHYT1JTSZ26-2022-03-31/reports/635400RXXHHYT1JTSZ26-2022-03-31-T01.html",
+     "period_end": "2022-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/635400RXXHHYT1JTSZ26/2023-03-31/ESEF/GB/0/635400RXXHHYT1JTSZ26-2023-03-31/reports/635400RXXHHYT1JTSZ26-2023-03-31-T01.html",
+     "period_end": "2023-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/635400RXXHHYT1JTSZ26/2024-03-31/ESEF/GB/0/635400RXXHHYT1JTSZ26-2024-03-31/reports/635400RXXHHYT1JTSZ26-2024-03-31-T01.html",
+     "period_end": "2024-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/635400RXXHHYT1JTSZ26/2025-03-31/ESEF/GB/0/635400RXXHHYT1JTSZ26-2025-03-31/reports/635400RXXHHYT1JTSZ26-2025-03-31-T01.html",
+     "period_end": "2025-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2026": {
+     "url": "https://filings.xbrl.org/635400RXXHHYT1JTSZ26/2026-03-31/ESEF/GB/0/635400RXXHHYT1JTSZ26-2026-03-31/reports/635400RXXHHYT1JTSZ26-2026-03-31-T01.html",
+     "period_end": "2026-03-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "f-c-investment-trust",
+   "name": "F & C Investment Trust",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "GB",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "investment trust / fund",
+   "esef_reports": {}
+  },
+  {
+   "id": "fresnillo-plc",
+   "name": "Fresnillo plc",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "549300JXWH1UV5J0XV81",
+   "hq": "MX",
+   "legal_name": "FRESNILLO PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "games-workshop",
+   "name": "Games Workshop",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800RP9QJQYGWHNT41",
+   "hq": "GB",
+   "legal_name": "GAMES WORKSHOP GROUP PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "glencore",
+   "name": "Glencore",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "2138002658CPO9NBH955",
+   "hq": "CH",
+   "legal_name": "GLENCORE PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "gsk-plc",
+   "name": "GSK plc",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    1131399
+   ],
+   "lei": "5493000HZTVUYLO1D793",
+   "hq": "GB",
+   "legal_name": "GSK PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "haleon",
+   "name": "Haleon",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    1900304
+   ],
+   "lei": "549300PSB3WWEODCUP19",
+   "hq": "GB",
+   "legal_name": "HALEON PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "halma-plc",
+   "name": "Halma plc",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "2138007FRGLUR9KGBT40",
+   "hq": "GB",
+   "legal_name": "HALMA PUBLIC LIMITED COMPANY",
+   "company_types": "PR",
+   "type_status": "borderline",
+   "esef_reports": {
+    "2022": {
+     "url": "https://filings.xbrl.org/2138007FRGLUR9KGBT40/2022-03-31/ESEF/GB/0/2138007FRGLUR9KGBT40-2022-03-31/reports/2138007FRGLUR9KGBT40-2022-03-31-T01.xhtml",
+     "period_end": "2022-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/2138007FRGLUR9KGBT40/2023-03-31/ESEF/GB/0/2138007FRGLUR9KGBT40-2023-03-31/reports/2138007FRGLUR9KGBT40-2023-03-31-T01.xhtml",
+     "period_end": "2023-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/2138007FRGLUR9KGBT40/2024-03-31/ESEF/GB/0/2138007FRGLUR9KGBT40-2024-03-31/reports/2138007FRGLUR9KGBT40-2024-03-31-T01.xhtml",
+     "period_end": "2024-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/2138007FRGLUR9KGBT40/2025-03-31/ESEF/GB/0/2138007FRGLUR9KGBT40-2025-03-31/reports/2138007FRGLUR9KGBT40-2025-03-31-T01.xhtml",
+     "period_end": "2025-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2026": {
+     "url": "https://filings.xbrl.org/2138007FRGLUR9KGBT40/2026-03-31/ESEF/GB/0/2138007FRGLUR9KGBT40-2026-03-31/reports/2138007FRGLUR9KGBT40-2026-03-31-T01.xhtml",
+     "period_end": "2026-03-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "hiscox",
+   "name": "Hiscox",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "5493007JXOLJ0QCY2D70",
+   "hq": "BM",
+   "legal_name": "HISCOX LTD",
+   "company_types": "FI",
+   "type_status": "exclude",
+   "exclude": "insurer, but Hiscox Ltd is headquartered in Bermuda (GLEIF)",
+   "esef_reports": {}
+  },
+  {
+   "id": "howdens-joinery",
+   "name": "Howdens Joinery",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800KC1LJOJTY3JP45",
+   "hq": "GB",
+   "legal_name": "HOWDEN JOINERY GROUP PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "hsbc",
+   "name": "HSBC",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    1089113
+   ],
+   "lei": "MLU0ZO3ML4LN2LL2TL39",
+   "hq": "GB",
+   "legal_name": "HSBC HOLDINGS PLC",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/MLU0ZO3ML4LN2LL2TL39/2021-12-31/ESEF/GB/0/MLU0ZO3ML4LN2LL2TL39-2021-12-31/reports/MLU0ZO3ML4LN2LL2TL39-2021-12-31-T01.html",
+     "period_end": "2021-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/MLU0ZO3ML4LN2LL2TL39/2022-12-31/ESEF/GB/0/MLU0ZO3ML4LN2LL2TL39-2022-12-31/reports/MLU0ZO3ML4LN2LL2TL39-2022-12-31-T01.html",
+     "period_end": "2022-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/MLU0ZO3ML4LN2LL2TL39/2023-12-31/ESEF/GB/0/MLU0ZO3ML4LN2LL2TL39-2023-12-31/reports/MLU0ZO3ML4LN2LL2TL39-2023-12-31-T01.html",
+     "period_end": "2023-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/MLU0ZO3ML4LN2LL2TL39/2024-12-31/ESEF/GB/0/MLU0ZO3ML4LN2LL2TL39-2024-12-31/reports/MLU0ZO3ML4LN2LL2TL39-2024-12-31-T01.html",
+     "period_end": "2024-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/MLU0ZO3ML4LN2LL2TL39/2025-12-31/ESEF/GB/0/MLU0ZO3ML4LN2LL2TL39-2025-12-31/reports/MLU0ZO3ML4LN2LL2TL39-2025-12-31-T01.html",
+     "period_end": "2025-12-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "icg",
+   "name": "ICG",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "549300OGASR5WRKJ8R68",
+   "hq": "GB",
+   "legal_name": "ICG PLC",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2022": {
+     "url": "https://filings.xbrl.org/549300OGASR5WRKJ8R68/2022-03-31/ESEF/GB/0/549300OGASR5WRKJ8R68-2022-03-31/reports/549300OGASR5WRKJ8R68-2022-03-31-T01.xhtml",
+     "period_end": "2022-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/549300OGASR5WRKJ8R68/2024-03-31/ESEF/GB/0/549300OGASR5WRKJ8R68-2024-03-31/reports/549300OGASR5WRKJ8R68-2024-03-31-T01.xhtml",
+     "period_end": "2024-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/549300OGASR5WRKJ8R68/2025-03-31/ESEF/GB/0/549300OGASR5WRKJ8R68-2025-03-31/reports/549300OGASR5WRKJ8R68-2025-03-31-T01.xhtml",
+     "period_end": "2025-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2026": {
+     "url": "https://filings.xbrl.org/549300OGASR5WRKJ8R68/2026-03-31/ESEF/GB/0/549300OGASR5WRKJ8R68-2026-03-31/reports/549300OGASR5WRKJ8R68-2026-03-31-T01.xhtml",
+     "period_end": "2026-03-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "ig-group",
+   "name": "IG Group",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "2138003A5Q1M7ANOUD76",
+   "hq": "GB",
+   "legal_name": "IG GROUP HOLDINGS PLC",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2022": {
+     "url": "https://filings.xbrl.org/2138003A5Q1M7ANOUD76/2022-05-31/ESEF/GB/0/2138003A5Q1M7ANOUD76-2022-05-31/reports/2138003A5Q1M7ANOUD76-2022-05-31-T01.xhtml",
+     "period_end": "2022-05-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/2138003A5Q1M7ANOUD76/2023-05-31/ESEF/GB/0/2138003A5Q1M7ANOUD76-2023-05-31/reports/2138003A5Q1M7ANOUD76-2023-05-31-T01.xhtml",
+     "period_end": "2023-05-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/2138003A5Q1M7ANOUD76/2024-05-31/ESEF/GB/0/2138003A5Q1M7ANOUD76-2024-05-31/reports/2138003A5Q1M7ANOUD76-2024-05-31-T01.xhtml",
+     "period_end": "2024-05-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "ihg-hotels-resorts",
+   "name": "IHG Hotels & Resorts",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    858446
+   ],
+   "lei": "2138007ZFQYRUSLU3J98",
+   "hq": "GB",
+   "legal_name": "INTERCONTINENTAL HOTELS GROUP PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "imi",
+   "name": "IMI",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "2138002W9Q21PF751R30",
+   "hq": "GB",
+   "legal_name": "IMI PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "imperial-brands",
+   "name": "Imperial Brands",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "549300DFVPOB67JL3A42",
+   "hq": "GB",
+   "legal_name": "IMPERIAL BRANDS PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "informa",
+   "name": "Informa",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "5493006VM2LKUPSEDU20",
+   "hq": "GB",
+   "legal_name": "INFORMA PLC",
+   "company_types": "PL",
+   "type_status": "borderline",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/5493006VM2LKUPSEDU20/2021-12-31/ESEF/GB/0/5493006VM2LKUPSEDU20-2021-12-31/reports/5493006VM2LKUPSEDU20-2021-12-31-T01.xhtml",
+     "period_end": "2021-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/5493006VM2LKUPSEDU20/2022-12-31/ESEF/GB/0/5493006VM2LKUPSEDU20-2022-12-31/reports/5493006VM2LKUPSEDU20-2022-12-31-T01.xhtml",
+     "period_end": "2022-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/5493006VM2LKUPSEDU20/2023-12-31/ESEF/GB/0/5493006VM2LKUPSEDU20-2023-12-31/reports/5493006VM2LKUPSEDU20-2023-12-31-T01.xhtml",
+     "period_end": "2023-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/5493006VM2LKUPSEDU20/2024-12-31/ESEF/GB/0/5493006VM2LKUPSEDU20-2024-12-31/reports/5493006VM2LKUPSEDU20-2024-12-31-T01.xhtml",
+     "period_end": "2024-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/5493006VM2LKUPSEDU20/2025-12-31/ESEF/GB/0/5493006VM2LKUPSEDU20-2025-12-31/reports/5493006VM2LKUPSEDU20-2025-12-31-T01.xhtml",
+     "period_end": "2025-12-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "international-airlines-group",
+   "name": "International Airlines Group",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "959800TZHQRUSH1ESL13",
+   "hq": "GB",
+   "legal_name": "INTERNATIONAL CONSOLIDATED AIRLINES GROUP, S.A.",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "intertek",
+   "name": "Intertek",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "2138003GAT25WW1RN369",
+   "hq": "GB",
+   "legal_name": "INTERTEK GROUP PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "investec",
+   "name": "Investec",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "2138007Z3U5GWDN3MY22",
+   "hq": "GB",
+   "legal_name": "INVESTEC PLC",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2022": {
+     "url": "https://filings.xbrl.org/2138007Z3U5GWDN3MY22/2022-03-31/ESEF/GB/0/2138007Z3U5GWDN3MY22-2022-03-31/reports/2138007Z3U5GWDN3MY22-2022-03-31-T01.html",
+     "period_end": "2022-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/2138007Z3U5GWDN3MY22/2023-03-31/ESEF/GB/0/2138007Z3U5GWDN3MY22-2023-03-31/reports/2138007Z3U5GWDN3MY22-2023-03-31-T01.html",
+     "period_end": "2023-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/2138007Z3U5GWDN3MY22/2024-03-31/ESEF/GB/0/2138007Z3U5GWDN3MY22-2024-03-31/reports/2138007Z3U5GWDN3MY22-2024-03-31-T01.html",
+     "period_end": "2024-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2026": {
+     "url": "https://filings.xbrl.org/2138007Z3U5GWDN3MY22/2026-03-31/ESEF/GB/0/2138007Z3U5GWDN3MY22-2026-03-31/reports/2138007Z3U5GWDN3MY22-2026-03-31-T01.html",
+     "period_end": "2026-03-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "ithaca-energy",
+   "name": "Ithaca Energy",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "21380057TNFLXPXBIP34",
+   "hq": "GB",
+   "legal_name": "ITHACA ENERGY PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "jd-sports",
+   "name": "JD Sports",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800HROV6Y9MUU8375",
+   "hq": "GB",
+   "legal_name": "JD SPORTS FASHION PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "lion-finance-group",
+   "name": "Lion Finance Group",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800XKDG12NQG8VC53",
+   "hq": "GB",
+   "legal_name": "LION FINANCE GROUP PLC",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/213800XKDG12NQG8VC53/2021-12-31/ESEF/GB/0/213800XKDG12NQG8VC53-2021-12-31/reports/213800XKDG12NQG8VC53-2021-12-31-T01.xhtml",
+     "period_end": "2021-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/213800XKDG12NQG8VC53/2022-12-31/ESEF/GB/0/213800XKDG12NQG8VC53-2022-12-31/reports/213800XKDG12NQG8VC53-2022-12-31-T01.xhtml",
+     "period_end": "2022-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/213800XKDG12NQG8VC53/2023-12-31/ESEF/GB/0/213800XKDG12NQG8VC53-2023-12-31/reports/213800XKDG12NQG8VC53-2023-12-31-T01.xhtml",
+     "period_end": "2023-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/213800XKDG12NQG8VC53/2024-12-31/ESEF/GB/0/213800XKDG12NQG8VC53-2024-12-31/reports/213800XKDG12NQG8VC53-2024-12-31-T01.xhtml",
+     "period_end": "2024-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/213800XKDG12NQG8VC53/2025-12-31/ESEF/GB/0/213800XKDG12NQG8VC53-2025-12-31/reports/213800XKDG12NQG8VC53-2025-12-31-T01.xhtml",
+     "period_end": "2025-12-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "kingfisher-plc",
+   "name": "Kingfisher plc",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800KBMEV7I92FY281",
+   "hq": "GB",
+   "legal_name": "KINGFISHER PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "land-securities",
+   "name": "Land Securities",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800V8IAVKS37D6B88",
+   "hq": "GB",
+   "legal_name": "LAND SECURITIES GROUP PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "legal-general",
+   "name": "Legal & General",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800JH9QQWHLO99821",
+   "hq": "GB",
+   "legal_name": "LEGAL & GENERAL GROUP PLC",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/213800JH9QQWHLO99821/2021-12-31/ESEF/GB/0/213800JH9QQWHLO99821-2021-12-31/reports/213800JH9QQWHLO99821-2021-12-31-T01.xhtml",
+     "period_end": "2021-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/213800JH9QQWHLO99821/2022-12-31/ESEF/GB/0/213800JH9QQWHLO99821-2022-12-31/reports/213800JH9QQWHLO99821-2022-12-31-T01.xhtml",
+     "period_end": "2022-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/213800JH9QQWHLO99821/2023-12-31/ESEF/GB/0/213800JH9QQWHLO99821-2023-12-31/reports/213800JH9QQWHLO99821-2023-12-31-T01.xhtml",
+     "period_end": "2023-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/213800JH9QQWHLO99821/2024-12-31/ESEF/GB/0/213800JH9QQWHLO99821-2024-12-31/reports/213800JH9QQWHLO99821-2024-12-31-T01.xhtml",
+     "period_end": "2024-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/213800JH9QQWHLO99821/2025-12-31/ESEF/GB/0/213800JH9QQWHLO99821-2025-12-31/reports/213800JH9QQWHLO99821-2025-12-31-T01.html",
+     "period_end": "2025-12-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "lloyds-banking-group",
+   "name": "Lloyds Banking Group",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    1160106
+   ],
+   "lei": "549300PPXHEU2JF0AM85",
+   "hq": "GB",
+   "legal_name": "LLOYDS BANKING GROUP PLC",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/549300PPXHEU2JF0AM85/2021-12-31/ESEF/GB/0/LLOY-2020-12-31-en/reports/549300PPXHEU2JF0AM85-2021-12-31-T01.xhtml",
+     "period_end": "2021-12-31",
+     "country": "GB",
+     "language": "en"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/549300PPXHEU2JF0AM85/2022-12-31/ESEF/GB/0/549300PPXHEU2JF0AM85-2022-12-31/reports/549300PPXHEU2JF0AM85-2022-12-31-T01.xhtml",
+     "period_end": "2022-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/549300PPXHEU2JF0AM85/2023-12-31/ESEF/GB/0/549300PPXHEU2JF0AM85-2023-12-31/reports/549300PPXHEU2JF0AM85-2023-12-31-T01.xhtml",
+     "period_end": "2023-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/549300PPXHEU2JF0AM85/2024-12-31/ESEF/GB/0/549300PPXHEU2JF0AM85-2024-12-31/reports/549300PPXHEU2JF0AM85-2024-12-31-T01.xhtml",
+     "period_end": "2024-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/549300PPXHEU2JF0AM85/2025-12-31/ESEF/GB/0/549300PPXHEU2JF0AM85-2025-12-31/reports/549300PPXHEU2JF0AM85-2025-12-31-T01.html",
+     "period_end": "2025-12-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "londonmetric-property",
+   "name": "LondonMetric Property",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800OCERWWPQDURL87",
+   "hq": "GB",
+   "legal_name": "LONDONMETRIC PROPERTY PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "london-stock-exchange-group",
+   "name": "London Stock Exchange Group",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800QAUUUP6I445N30",
+   "hq": "GB",
+   "legal_name": "LONDON STOCK EXCHANGE GROUP PLC",
+   "company_types": "FI;CL",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/213800QAUUUP6I445N30/2021-12-31/ESEF/GB/0/213800QAUUUP6I445N30-2021-12-31/reports/213800QAUUUP6I445N30-2021-12-31-T01.xhtml",
+     "period_end": "2021-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/213800QAUUUP6I445N30/2022-12-31/ESEF/GB/0/213800QAUUUP6I445N30-2022-12-31/reports/213800QAUUUP6I445N30-2022-12-31-T01.xhtml",
+     "period_end": "2022-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/213800QAUUUP6I445N30/2023-12-31/ESEF/GB/0/213800QAUUUP6I445N30-2023-12-31/reports/213800QAUUUP6I445N30-2023-12-31-T01.xhtml",
+     "period_end": "2023-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/213800QAUUUP6I445N30/2024-12-31/ESEF/GB/0/213800QAUUUP6I445N30-2024-12-31/reports/213800QAUUUP6I445N30-2024-12-31-T01.xhtml",
+     "period_end": "2024-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/213800QAUUUP6I445N30/2025-12-31/ESEF/GB/0/213800QAUUUP6I445N30-2025-12-31/reports/213800QAUUUP6I445N30-2025-12-31-T01.xhtml",
+     "period_end": "2025-12-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "m-g",
+   "name": "M&G",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "254900TWUJUQ44TQJY84",
+   "hq": "GB",
+   "legal_name": "M&G PLC",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/254900TWUJUQ44TQJY84/2021-12-31/ESEF/GB/0/254900TWUJUQ44TQJY84-2021-12-31/reports/254900TWUJUQ44TQJY84-2021-12-31-T01.xhtml",
+     "period_end": "2021-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/254900TWUJUQ44TQJY84/2022-12-31/ESEF/GB/0/254900TWUJUQ44TQJY84-2022-12-31/reports/254900TWUJUQ44TQJY84-2022-12-31-T01.xhtml",
+     "period_end": "2022-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/254900TWUJUQ44TQJY84/2023-12-31/ESEF/GB/0/254900TWUJUQ44TQJY84-2023-12-31/reports/254900TWUJUQ44TQJY84-2023-12-31-T01.html",
+     "period_end": "2023-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/254900TWUJUQ44TQJY84/2024-12-31/ESEF/GB/0/254900TWUJUQ44TQJY84-2024-12-31/reports/254900TWUJUQ44TQJY84-2024-12-31-T01.html",
+     "period_end": "2024-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/254900TWUJUQ44TQJY84/2025-12-31/ESEF/GB/0/254900TWUJUQ44TQJY84-2025-12-31/reports/254900TWUJUQ44TQJY84-2025-12-31-T01.html",
+     "period_end": "2025-12-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "marks-spencer",
+   "name": "Marks & Spencer",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800EJP14A79ZG1X44",
+   "hq": "GB",
+   "legal_name": "MARKS AND SPENCER GROUP P.L.C.",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "melrose-industries",
+   "name": "Melrose Industries",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800RGNXXZY2M7TR85",
+   "hq": "GB",
+   "legal_name": "MELROSE INDUSTRIES PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "metlen-energy-metals",
+   "name": "Metlen Energy & Metals",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800ZSR3HVKMMPVG86",
+   "hq": "GB",
+   "legal_name": "METLEN ENERGY & METALS PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "national-grid-plc",
+   "name": "National Grid plc",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    1004315
+   ],
+   "lei": "8R95QZMKZLJX5Q2XR704",
+   "hq": "GB",
+   "legal_name": "NATIONAL GRID PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "natwest-group",
+   "name": "NatWest Group",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    844150
+   ],
+   "lei": "2138005O9XJIJN4JPN90",
+   "hq": "GB",
+   "legal_name": "NATWEST GROUP PLC",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/2138005O9XJIJN4JPN90/2021-12-31/ESEF/GB/0/2138005O9XJIJN4JPN90-2021-12-31/reports/2138005O9XJIJN4JPN90-2021-12-31-T01.html",
+     "period_end": "2021-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/2138005O9XJIJN4JPN90/2022-12-31/ESEF/GB/0/2138005O9XJIJN4JPN90-2022-12-31/reports/2138005O9XJIJN4JPN90-2022-12-31-T01.html",
+     "period_end": "2022-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/2138005O9XJIJN4JPN90/2024-01-31/ESEF/GB/0/2138005O9XJIJN4JPN90-2023-12-31/reports/2138005O9XJIJN4JPN90-2023-12-31-T01.html",
+     "period_end": "2024-01-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2026": {
+     "url": "https://filings.xbrl.org/2138005O9XJIJN4JPN90/2026-01-31/ESEF/GB/0/2138005O9XJIJN4JPN90-2025-12-31/reports/2138005O9XJIJN4JPN90-2025-12-31-T01.html",
+     "period_end": "2026-01-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "next-plc",
+   "name": "Next plc",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800WQD8ECPZP9PH98",
+   "hq": "GB",
+   "legal_name": "NEXT PLC",
+   "company_types": "PL",
+   "type_status": "borderline",
+   "esef_reports": {
+    "2022": {
+     "url": "https://filings.xbrl.org/213800WQD8ECPZP9PH98/2022-01-29/ESEF/GB/0/213800WQD8ECPZP9PH98-2022-01-29/reports/213800WQD8ECPZP9PH98-2022-01-29-T01.xhtml",
+     "period_end": "2022-01-29",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/213800WQD8ECPZP9PH98/2023-01-28/ESEF/GB/0/213800WQD8ECPZP9PH98-2023-01-28/reports/213800WQD8ECPZP9PH98-2023-01-28-T01.xhtml",
+     "period_end": "2023-01-28",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/213800WQD8ECPZP9PH98/2024-01-27/ESEF/GB/0/213800WQD8ECPZP9PH98-2024-01-27/reports/213800WQD8ECPZP9PH98-2024-01-27-T01.xhtml",
+     "period_end": "2024-01-27",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/213800WQD8ECPZP9PH98/2025-01-25/ESEF/GB/0/213800WQD8ECPZP9PH98-2025-01-25/reports/213800WQD8ECPZP9PH98-2025-01-25-T01.xhtml",
+     "period_end": "2025-01-25",
+     "country": "GB",
+     "language": ""
+    },
+    "2026": {
+     "url": "https://filings.xbrl.org/213800WQD8ECPZP9PH98/2026-01-31/ESEF/GB/0/213800WQD8ECPZP9PH98-2026-01-31/reports/213800WQD8ECPZP9PH98-2026-01-31-T01.xhtml",
+     "period_end": "2026-01-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "pearson-plc",
+   "name": "Pearson plc",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    938323
+   ],
+   "lei": "2138004JBXWWJKIURC57",
+   "hq": "GB",
+   "legal_name": "PEARSON PLC",
+   "company_types": "PL",
+   "type_status": "borderline",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/2138004JBXWWJKIURC57/2021-12-31/ESEF/GB/0/2138004JBXWWJKIURC57-2021-12-31/reports/2138004JBXWWJKIURC57-2021-12-31-T01.xhtml",
+     "period_end": "2021-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/2138004JBXWWJKIURC57/2022-12-31/ESEF/GB/0/2138004JBXWWJKIURC57-2022-12-31/reports/2138004JBXWWJKIURC57-2022-12-31-T01.xhtml",
+     "period_end": "2022-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/2138004JBXWWJKIURC57/2023-12-31/ESEF/GB/0/2138004JBXWWJKIURC57-2023-12-31/reports/2138004JBXWWJKIURC57-2023-12-31-T01.xhtml",
+     "period_end": "2023-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/2138004JBXWWJKIURC57/2024-12-31/ESEF/GB/0/2138004JBXWWJKIURC57-2024-12-31/reports/2138004JBXWWJKIURC57-2024-12-31-T01.xhtml",
+     "period_end": "2024-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/2138004JBXWWJKIURC57/2025-12-31/ESEF/GB/0/2138004JBXWWJKIURC57-2025-12-31/reports/2138004JBXWWJKIURC57-2025-12-31-T01.xhtml",
+     "period_end": "2025-12-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "pershing-square-holdings",
+   "name": "Pershing Square Holdings",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "GB",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "investment trust / fund",
+   "esef_reports": {}
+  },
+  {
+   "id": "polar-capital-technology-trust",
+   "name": "Polar Capital Technology Trust",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "GB",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "investment trust / fund",
+   "esef_reports": {}
+  },
+  {
+   "id": "prudential-plc",
+   "name": "Prudential plc",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    1116578
+   ],
+   "lei": "5493001Z3ZE83NGK8Y12",
+   "hq": "GB",
+   "legal_name": "Prudential Public Limited Company",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/5493001Z3ZE83NGK8Y12/2021-12-31/ESEF/GB/0/5493001Z3ZE83NGK8Y12-2021-12-31/reports/5493001Z3ZE83NGK8Y12-2021-12-31-T01.html",
+     "period_end": "2021-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/5493001Z3ZE83NGK8Y12/2022-12-31/ESEF/GB/0/5493001Z3ZE83NGK8Y12-2022-12-31/reports/5493001Z3ZE83NGK8Y12-2022-12-31-T01.html",
+     "period_end": "2022-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/5493001Z3ZE83NGK8Y12/2023-12-31/ESEF/GB/0/5493001Z3ZE83NGK8Y12-2023-12-31/reports/5493001Z3ZE83NGK8Y12-2023-12-31-T01.html",
+     "period_end": "2023-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/5493001Z3ZE83NGK8Y12/2024-12-31/ESEF/GB/0/5493001Z3ZE83NGK8Y12-2024-12-31/reports/5493001Z3ZE83NGK8Y12-2024-12-31-T01.html",
+     "period_end": "2024-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/5493001Z3ZE83NGK8Y12/2025-12-31/ESEF/GB/0/5493001Z3ZE83NGK8Y12-2025-12-31/reports/5493001Z3ZE83NGK8Y12-2025-12-31-T01.html",
+     "period_end": "2025-12-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "reckitt",
+   "name": "Reckitt",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "5493003JFSMOJG48V108",
+   "hq": "GB",
+   "legal_name": "RECKITT BENCKISER GROUP PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "relx",
+   "name": "RELX",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    929869
+   ],
+   "lei": "549300WSX3VBUFFJOO66",
+   "hq": "GB",
+   "legal_name": "RELX PLC",
+   "company_types": "CL",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/549300WSX3VBUFFJOO66/2021-12-31/ESEF/NL/0/549300WSX3VBUFFJOO66-2021-12-31-en/reports/549300WSX3VBUFFJOO66-2021-12-31-en.xhtml",
+     "period_end": "2021-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/549300WSX3VBUFFJOO66/2022-12-31/ESEF/NL/0/549300WSX3VBUFFJOO66-2022-12-31-en/reports/549300WSX3VBUFFJOO66-2022-12-31-en.xhtml",
+     "period_end": "2022-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/549300WSX3VBUFFJOO66/2023-12-31/ESEF/NL/0/549300WSX3VBUFFJOO66-2023-12-31-en/reports/549300WSX3VBUFFJOO66-2023-12-31-en.xhtml",
+     "period_end": "2023-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/549300WSX3VBUFFJOO66/2024-12-31/ESEF/NL/0/Netherlands ESEF/reports/549300WSX3VBUFFJOO66-2024-12-31-0-en.xhtml",
+     "period_end": "2024-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/549300WSX3VBUFFJOO66/2025-12-31/ESEF/NL/0/549300WSX3VBUFFJOO66-2025-12-31-1-en/reports/549300WSX3VBUFFJOO66-2025-12-31-1-en.xhtml",
+     "period_end": "2025-12-31",
+     "country": "NL",
+     "language": "en"
+    }
+   }
+  },
+  {
+   "id": "rentokil-initial",
+   "name": "Rentokil Initial",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    930157
+   ],
+   "lei": "549300VN4WV7Z6T14K68",
+   "hq": "GB",
+   "legal_name": "RENTOKIL INITIAL PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "rio-tinto",
+   "name": "Rio Tinto",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    863064
+   ],
+   "lei": "213800YOEO5OQ72G2R82",
+   "hq": "GB",
+   "legal_name": "RIO TINTO PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "rolls-royce-holdings",
+   "name": "Rolls-Royce Holdings",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800EC7997ZBLZJH69",
+   "hq": "GB",
+   "legal_name": "ROLLS-ROYCE HOLDINGS PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "sage-group",
+   "name": "Sage Group",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "2138005RN5XYLTF8G138",
+   "hq": "GB",
+   "legal_name": "THE SAGE GROUP PLC.",
+   "company_types": "CL",
+   "type_status": "include",
+   "esef_reports": {
+    "2022": {
+     "url": "https://filings.xbrl.org/2138005RN5XYLTF8G138/2022-09-30/ESEF/GB/0/2138005RN5XYLTF8G138-2022-09-30/reports/2138005RN5XYLTF8G138-2022-09-30-T01.xhtml",
+     "period_end": "2022-09-30",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/2138005RN5XYLTF8G138/2023-09-30/ESEF/GB/0/2138005RN5XYLTF8G138-2023-09-30/reports/2138005RN5XYLTF8G138-2023-09-30-T01.xhtml",
+     "period_end": "2023-09-30",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/2138005RN5XYLTF8G138/2024-09-30/ESEF/GB/0/2138005RN5XYLTF8G138-2024-09-30/reports/2138005RN5XYLTF8G138-2024-09-30-T01.xhtml",
+     "period_end": "2024-09-30",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/2138005RN5XYLTF8G138/2025-09-30/ESEF/GB/0/2138005RN5XYLTF8G138-2025-09-30/reports/2138005RN5XYLTF8G138-2025-09-30-T01.xhtml",
+     "period_end": "2025-09-30",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "sainsbury-s",
+   "name": "Sainsbury's",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800VGZAAJIKJ9Y484",
+   "hq": "GB",
+   "legal_name": "J SAINSBURY PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "scottish-mortgage-investment-trust",
+   "name": "Scottish Mortgage Investment Trust",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "GB",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "investment trust / fund",
+   "esef_reports": {}
+  },
+  {
+   "id": "segro",
+   "name": "Segro",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800XC35KGM9NFC641",
+   "hq": "GB",
+   "legal_name": "SEGRO PUBLIC LIMITED COMPANY",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "severn-trent",
+   "name": "Severn Trent",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800RPBXRETY4A4C59",
+   "hq": "GB",
+   "legal_name": "SEVERN TRENT PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "shell-plc",
+   "name": "Shell plc",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    1306965
+   ],
+   "lei": "21380068P1DRHMJ8KU70",
+   "hq": "GB",
+   "legal_name": "SHELL PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "smiths-group",
+   "name": "Smiths Group",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800MJL6IPZS3ASA11",
+   "hq": "GB",
+   "legal_name": "SMITHS GROUP PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "smith-nephew",
+   "name": "Smith & Nephew",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    845982
+   ],
+   "lei": "213800ZTMDN8S67S1H61",
+   "hq": "GB",
+   "legal_name": "SMITH & NEPHEW PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "spirax-group",
+   "name": "Spirax Group",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800WFVZQMHOZP2W17",
+   "hq": "GB",
+   "legal_name": "SPIRAX GROUP PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "sse-plc",
+   "name": "SSE plc",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "549300KI75VYLLMSK856",
+   "hq": "GB",
+   "legal_name": "SSE PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "standard-chartered",
+   "name": "Standard Chartered",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "U4LOSYZ7YG4W3S5F2G91",
+   "hq": "GB",
+   "legal_name": "STANDARD CHARTERED PLC",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/U4LOSYZ7YG4W3S5F2G91/2021-12-31/ESEF/GB/0/U4LOSYZ7YG4W3S5F2G91-2021-12-31/reports/U4LOSYZ7YG4W3S5F2G91-2021-12-31-T01.html",
+     "period_end": "2021-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/U4LOSYZ7YG4W3S5F2G91/2022-12-31/ESEF/GB/0/U4LOSYZ7YG4W3S5F2G91-2022-12-31/reports/U4LOSYZ7YG4W3S5F2G91-2022-12-31-T01.html",
+     "period_end": "2022-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/U4LOSYZ7YG4W3S5F2G91/2023-12-31/ESEF/GB/0/U4LOSYZ7YG4W3S5F2G91-2023-12-31/reports/U4LOSYZ7YG4W3S5F2G91-2023-12-31-T01.html",
+     "period_end": "2023-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/U4LOSYZ7YG4W3S5F2G91/2024-12-31/ESEF/GB/0/U4LOSYZ7YG4W3S5F2G91-2024-12-31/reports/U4LOSYZ7YG4W3S5F2G91-2024-12-31-T01.html",
+     "period_end": "2024-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2026": {
+     "url": "https://filings.xbrl.org/U4LOSYZ7YG4W3S5F2G91/2026-01-26/ESEF/GB/0/U4LOSYZ7YG4W3S5F2G91-2025-12-31/reports/U4LOSYZ7YG4W3S5F2G91-2025-12-31-T01.xhtml",
+     "period_end": "2026-01-26",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "standard-life",
+   "name": "Standard Life",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    1370418
+   ],
+   "lei": "2138001P49OLAEU33T68",
+   "hq": "GB",
+   "legal_name": "STANDARD LIFE PLC",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/2138001P49OLAEU33T68/2021-12-31/ESEF/GB/0/2138001P49OLAEU33T68-2021-12-31/reports/2138001P49OLAEU33T68-2021-12-31-T01.xhtml",
+     "period_end": "2021-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/2138001P49OLAEU33T68/2022-12-31/ESEF/GB/0/2138001P49OLAEU33T68-2022-12-31/reports/2138001P49OLAEU33T68-2022-12-31-T01.xhtml",
+     "period_end": "2022-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/2138001P49OLAEU33T68/2023-12-31/ESEF/GB/0/2138001P49OLAEU33T68-2023-12-31/reports/2138001P49OLAEU33T68-2023-12-31-T01.xhtml",
+     "period_end": "2023-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/2138001P49OLAEU33T68/2024-12-31/ESEF/GB/0/2138001P49OLAEU33T68-2024-12-31/reports/2138001P49OLAEU33T68-2024-12-31-T01.xhtml",
+     "period_end": "2024-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/2138001P49OLAEU33T68/2025-12-31/ESEF/GB/0/2138001P49OLAEU33T68-2025-12-31/reports/2138001P49OLAEU33T68-2025-12-31-T01.xhtml",
+     "period_end": "2025-12-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "st-james-s-place",
+   "name": "St. James's Place",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800M993ICXOMBCP87",
+   "hq": "GB",
+   "legal_name": "ST. JAMES'S PLACE PLC",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2020": {
+     "url": "https://filings.xbrl.org/213800M993ICXOMBCP87/2020-12-31/ESEF/GB/0/213800M993ICXOMBCP87-2020-12-31/reports/213800M993ICXOMBCP87-2020-12-31-T01.html",
+     "period_end": "2020-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2021": {
+     "url": "https://filings.xbrl.org/213800M993ICXOMBCP87/2021-12-31/ESEF/GB/0/213800M993ICXOMBCP87-2021-12-31/reports/213800M993ICXOMBCP87-2021-12-31-T01.xhtml",
+     "period_end": "2021-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/213800M993ICXOMBCP87/2022-12-31/ESEF/GB/0/213800M993ICXOMBCP87-2022-12-31/reports/213800M993ICXOMBCP87-2022-12-31-T01.xhtml",
+     "period_end": "2022-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/213800M993ICXOMBCP87/2023-12-31/ESEF/GB/0/213800M993ICXOMBCP87-2023-12-31/reports/213800M993ICXOMBCP87-2023-12-31-T01.xhtml",
+     "period_end": "2023-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/213800M993ICXOMBCP87/2024-12-31/ESEF/GB/0/213800M993ICXOMBCP87-2024-12-31/reports/213800M993ICXOMBCP87-2024-12-31-T01.xhtml",
+     "period_end": "2024-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/213800M993ICXOMBCP87/2025-12-31/ESEF/GB/0/213800M993ICXOMBCP87-2025-12-31/reports/213800M993ICXOMBCP87-2025-12-31-T01.xhtml",
+     "period_end": "2025-12-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "tesco",
+   "name": "Tesco",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "2138002P5RNKC5W2JZ46",
+   "hq": "GB",
+   "legal_name": "TESCO PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "tritax-big-box-reit",
+   "name": "Tritax Big Box REIT",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "213800L6X88MIYPVR714",
+   "hq": "GB",
+   "legal_name": "TRITAX BIG BOX REIT PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "unilever",
+   "name": "Unilever",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    217410
+   ],
+   "lei": "549300MKFYEKVRWML317",
+   "hq": "GB",
+   "legal_name": "UNILEVER PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "united-utilities",
+   "name": "United Utilities",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "2138002IEYQAOC88ZJ59",
+   "hq": "GB",
+   "legal_name": "UNITED UTILITIES GROUP PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "vodafone-group",
+   "name": "Vodafone Group",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    839923
+   ],
+   "lei": "213800TB53ELEUKM7Q61",
+   "hq": "GB",
+   "legal_name": "VODAFONE GROUP PUBLIC LIMITED COMPANY",
+   "company_types": "TC",
+   "type_status": "include",
+   "esef_reports": {
+    "2022": {
+     "url": "https://filings.xbrl.org/213800TB53ELEUKM7Q61/2022-03-31/ESEF/GB/0/213800TB53ELEUKM7Q61-2022-03-31/reports/213800TB53ELEUKM7Q61-2022-03-31-T01.html",
+     "period_end": "2022-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/213800TB53ELEUKM7Q61/2023-03-31/ESEF/GB/0/213800TB53ELEUKM7Q61-2023-03-31/reports/213800TB53ELEUKM7Q61-2023-03-31-T01.html",
+     "period_end": "2023-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/213800TB53ELEUKM7Q61/2024-03-31/ESEF/GB/0/213800TB53ELEUKM7Q61-2024-03-31/reports/213800TB53ELEUKM7Q61-2024-03-31-T01.html",
+     "period_end": "2024-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/213800TB53ELEUKM7Q61/2025-03-31/ESEF/GB/0/213800TB53ELEUKM7Q61-2025-03-31/reports/213800TB53ELEUKM7Q61-2025-03-31-T01.html",
+     "period_end": "2025-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2026": {
+     "url": "https://filings.xbrl.org/213800TB53ELEUKM7Q61/2026-03-31/ESEF/GB/0/213800TB53ELEUKM7Q61-2026-03-31/reports/213800TB53ELEUKM7Q61-2026-03-31-T01.html",
+     "period_end": "2026-03-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "weir",
+   "name": "Weir",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "549300KDR56WHY9I3D10",
+   "hq": "GB",
+   "legal_name": "WEIR PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "whitbread",
+   "name": "Whitbread",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [],
+   "lei": "21380099VMZKRMN3EX36",
+   "hq": "GB",
+   "legal_name": "WHITBREAD PLC",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "wpp",
+   "name": "WPP",
+   "groups": [
+    "FTSE 100"
+   ],
+   "sec_ciks": [
+    806968
+   ],
+   "lei": "549300LSGBXPYHXGDT93",
+   "hq": "GB",
+   "legal_name": "WPP PLC",
+   "company_types": "CL",
+   "type_status": "borderline",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/549300LSGBXPYHXGDT93/2021-12-31/ESEF/GB/0/549300LSGBXPYHXGDT93-2021-12-31/reports/549300LSGBXPYHXGDT93-2021-12-31-T01.xhtml",
+     "period_end": "2021-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/549300LSGBXPYHXGDT93/2022-12-31/ESEF/GB/0/549300LSGBXPYHXGDT93-2022-12-31/reports/549300LSGBXPYHXGDT93-2022-12-31-T01.xhtml",
+     "period_end": "2022-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/549300LSGBXPYHXGDT93/2023-12-31/ESEF/GB/0/549300LSGBXPYHXGDT93-2023-12-31/reports/549300LSGBXPYHXGDT93-2023-12-31-T01.xhtml",
+     "period_end": "2023-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/549300LSGBXPYHXGDT93/2024-12-31/ESEF/GB/0/549300LSGBXPYHXGDT93-2024-12-31/reports/549300LSGBXPYHXGDT93-2024-12-31-T01.xhtml",
+     "period_end": "2024-12-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/549300LSGBXPYHXGDT93/2025-12-31/ESEF/GB/0/549300LSGBXPYHXGDT93-2025-12-31/reports/549300LSGBXPYHXGDT93-2025-12-31-T01.xhtml",
+     "period_end": "2025-12-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "adyen",
+   "name": "Adyen",
+   "groups": [
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "724500973ODKK3IFQ447",
+   "hq": "NL",
+   "legal_name": "Adyen N.V.",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2020": {
+     "url": "https://filings.xbrl.org/724500973ODKK3IFQ447/2020-12-31/ESEF/NL/0/724500973ODKK3IFQ447-2020-12-31/reports/724500973ODKK3IFQ447-2020-12-31.html",
+     "period_end": "2020-12-31",
+     "country": "NL",
+     "language": ""
+    },
+    "2021": {
+     "url": "https://filings.xbrl.org/724500973ODKK3IFQ447/2021-12-31/ESEF/NL/0/724500973ODKK3IFQ447-2021-12-31-en/reports/724500973ODKK3IFQ447-2021-12-31-en.xhtml",
+     "period_end": "2021-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/724500973ODKK3IFQ447/2022-12-31/ESEF/NL/0/724500973ODKK3IFQ447-2022-12-31-en/reports/724500973ODKK3IFQ447-2022-12-31-en.xhtml",
+     "period_end": "2022-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/724500973ODKK3IFQ447/2023-12-31/ESEF/NL/0/724500973ODKK3IFQ447-2023-12-31-en/reports/724500973ODKK3IFQ447-2023-12-31-en.xhtml",
+     "period_end": "2023-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/724500973ODKK3IFQ447/2024-12-31/ESEF/NL/0/724500973ODKK3IFQ447-2024-12-31-en/reports/724500973ODKK3IFQ447-2024-12-31-en.xhtml",
+     "period_end": "2024-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/724500973ODKK3IFQ447/2025-12-31/ESEF/NL/0/724500973ODKK3IFQ447-2025-12-31-1-en/reports/724500973ODKK3IFQ447-2025-12-31-1-en.xhtml",
+     "period_end": "2025-12-31",
+     "country": "NL",
+     "language": "en"
+    }
+   }
+  },
+  {
+   "id": "ahold-delhaize",
+   "name": "Ahold Delhaize",
+   "groups": [
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": null,
+   "hq": "",
+   "legal_name": null,
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "anheuser-busch-inbev",
+   "name": "Anheuser-Busch InBev",
+   "groups": [
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [
+    1668717
+   ],
+   "lei": "5493008H3828EMEXB082",
+   "hq": "BE",
+   "legal_name": "ANHEUSER-BUSCH INBEV",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "argenx",
+   "name": "Argenx",
+   "groups": [
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [
+    1697862
+   ],
+   "lei": "7245009C5FZE6G9ODQ71",
+   "hq": "NL",
+   "legal_name": "argenx SE",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "asml-holding",
+   "name": "ASML Holding",
+   "groups": [
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [
+    937966
+   ],
+   "lei": "724500Y6DUVHQD6OXN27",
+   "hq": "NL",
+   "legal_name": "ASML Holding N.V.",
+   "company_types": "PR",
+   "type_status": "borderline",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/724500Y6DUVHQD6OXN27/2021-12-31/ESEF/NL/0/asml-2021-12-31-en/reports/asml-2021-12-31-en.xhtml",
+     "period_end": "2021-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/724500Y6DUVHQD6OXN27/2022-12-31/ESEF/NL/0/asml-2022-12-31-en/reports/asml-2022-12-31-en.xhtml",
+     "period_end": "2022-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/724500Y6DUVHQD6OXN27/2023-12-31/ESEF/NL/0/asml-2023-12-31-en/reports/asml-2023-12-31-en.xhtml",
+     "period_end": "2023-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/724500Y6DUVHQD6OXN27/2024-12-31/ESEF/NL/0/asml-2024-12-31-en/reports/asml-2024-12-31-en.xhtml",
+     "period_end": "2024-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/724500Y6DUVHQD6OXN27/2025-12-31/ESEF/NL/0/asml-2025-12-31-1-en/reports/asml-2025-12-31-1-en.xhtml",
+     "period_end": "2025-12-31",
+     "country": "NL",
+     "language": "en"
+    }
+   }
+  },
+  {
+   "id": "bbva",
+   "name": "BBVA",
+   "groups": [
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [
+    842180
+   ],
+   "lei": "K8MS7FD7N5Z2WQ51AZ71",
+   "hq": "ES",
+   "legal_name": "BANCO BILBAO VIZCAYA ARGENTARIA SOCIEDAD ANONIMA",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2020": {
+     "url": "https://filings.xbrl.org/K8MS7FD7N5Z2WQ51AZ71/2020-12-31/ESEF/ES/0/bbva-2020-12-31/reports/bbva-2020-12-31.html",
+     "period_end": "2020-12-31",
+     "country": "ES",
+     "language": ""
+    },
+    "2021": {
+     "url": "https://filings.xbrl.org/K8MS7FD7N5Z2WQ51AZ71/2021-12-31/ESEF/ES/0/K8MS7FD7N5Z2WQ51AZ71-20211231-en/reports/K8MS7FD7N5Z2WQ51AZ71-20211231-en.xhtml",
+     "period_end": "2021-12-31",
+     "country": "ES",
+     "language": "en"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/K8MS7FD7N5Z2WQ51AZ71/2022-12-31/ESEF/ES/0/K8MS7FD7N5Z2WQ51AZ71-20221231-en/reports/K8MS7FD7N5Z2WQ51AZ71-20221231-en.xhtml",
+     "period_end": "2022-12-31",
+     "country": "ES",
+     "language": "en"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/K8MS7FD7N5Z2WQ51AZ71/2023-12-31/ESEF/ES/0/K8MS7FD7N5Z2WQ51AZ71-20231231-en/reports/K8MS7FD7N5Z2WQ51AZ71-20231231-en.xhtml",
+     "period_end": "2023-12-31",
+     "country": "ES",
+     "language": "en"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/K8MS7FD7N5Z2WQ51AZ71/2024-12-31/ESEF/ES/0/K8MS7FD7N5Z2WQ51AZ71-20241231-0-en/reports/K8MS7FD7N5Z2WQ51AZ71-20241231-0-en.xhtml",
+     "period_end": "2024-12-31",
+     "country": "ES",
+     "language": "en"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/K8MS7FD7N5Z2WQ51AZ71/2025-12-31/ESEF/ES/0/K8MS7FD7N5Z2WQ51AZ71-2025-12-31-1-es/reports/K8MS7FD7N5Z2WQ51AZ71-2025-12-31-1-es.xhtml",
+     "period_end": "2025-12-31",
+     "country": "ES",
+     "language": "es"
+    }
+   }
+  },
+  {
+   "id": "banco-santander",
+   "name": "Banco Santander",
+   "groups": [
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [
+    891478
+   ],
+   "lei": "5493006QMFDDMYWIAM13",
+   "hq": "ES",
+   "legal_name": "BANCO SANTANDER S.A.",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2020": {
+     "url": "https://filings.xbrl.org/5493006QMFDDMYWIAM13/2020-12-31/ESEF/ES/0/5493006QMFDDMYWIAM13-20201231/reports/5493006QMFDDMYWIAM13-20201231.xhtml",
+     "period_end": "2020-12-31",
+     "country": "ES",
+     "language": ""
+    },
+    "2021": {
+     "url": "https://filings.xbrl.org/5493006QMFDDMYWIAM13/2021-12-31/ESEF/ES/0/5493006QMFDDMYWIAM13-20211231-en/reports/5493006QMFDDMYWIAM13-20211231-en.xhtml",
+     "period_end": "2021-12-31",
+     "country": "ES",
+     "language": "en"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/5493006QMFDDMYWIAM13/2022-12-31/ESEF/ES/0/5493006QMFDDMYWIAM13-20221231-en/reports/5493006QMFDDMYWIAM13-20221231-en.xhtml",
+     "period_end": "2022-12-31",
+     "country": "ES",
+     "language": "en"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/5493006QMFDDMYWIAM13/2023-12-31/ESEF/ES/0/5493006QMFDDMYWIAM13-20231231-en/reports/5493006QMFDDMYWIAM13-20231231-en.xhtml",
+     "period_end": "2023-12-31",
+     "country": "ES",
+     "language": "en"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/5493006QMFDDMYWIAM13/2024-12-31/ESEF/ES/0/5493006QMFDDMYWIAM13-20241231-en/reports/5493006QMFDDMYWIAM13-20241231-en.xhtml",
+     "period_end": "2024-12-31",
+     "country": "ES",
+     "language": "en"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/5493006QMFDDMYWIAM13/2025-12-31/ESEF/GB/0/5493006QMFDDMYWIAM13-2025-12-31/reports/5493006QMFDDMYWIAM13-2025-12-31-T01.html",
+     "period_end": "2025-12-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "enel",
+   "name": "Enel",
+   "groups": [
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "WOCMU6HCI0OJWNPRZS33",
+   "hq": "IT",
+   "legal_name": "ENEL - SPA",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "eni",
+   "name": "Eni",
+   "groups": [
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [
+    1002242
+   ],
+   "lei": "BUCRF72VH5RBN7X3VL35",
+   "hq": "IT",
+   "legal_name": "ENI S.P.A.",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "ferrari",
+   "name": "Ferrari",
+   "groups": [
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [
+    1648416
+   ],
+   "lei": "549300RIVY5EX8RCON76",
+   "hq": "IT",
+   "legal_name": "FERRARI N.V.",
+   "company_types": "PR",
+   "type_status": "borderline",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/549300RIVY5EX8RCON76/2021-12-31/ESEF/NL/0/race-2021-12-31-en/reports/race-2021-12-31-en.xhtml",
+     "period_end": "2021-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/549300RIVY5EX8RCON76/2022-12-31/ESEF/NL/0/race-2022-12-31-en/reports/race-2022-12-31-en.xhtml",
+     "period_end": "2022-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/549300RIVY5EX8RCON76/2023-12-31/ESEF/NL/0/race-2023-12-31-en/reports/race-2023-12-31-en.xhtml",
+     "period_end": "2023-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/549300RIVY5EX8RCON76/2024-12-31/ESEF/NL/0/race-2024-12-31-en/reports/race-2024-12-31-en.xhtml",
+     "period_end": "2024-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/549300RIVY5EX8RCON76/2025-12-31/ESEF/NL/0/race-2025-12-31-1-en/reports/race-2025-12-31-1-en.xhtml",
+     "period_end": "2025-12-31",
+     "country": "NL",
+     "language": "en"
+    }
+   }
+  },
+  {
+   "id": "iberdrola",
+   "name": "Iberdrola",
+   "groups": [
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "5QK37QC7NWOJ8D7WVQ45",
+   "hq": "ES",
+   "legal_name": "IBERDROLA SA",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "inditex",
+   "name": "Inditex",
+   "groups": [
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "549300TTCXZOGZM2EY83",
+   "hq": "ES",
+   "legal_name": "INDUSTRIA DE DISEÑO TEXTIL, S.A.",
+   "company_types": "",
+   "type_status": "",
+   "exclude": "fits none of the six company types",
+   "esef_reports": {}
+  },
+  {
+   "id": "ing-group",
+   "name": "ING Group",
+   "groups": [
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [
+    1039765
+   ],
+   "lei": "549300NYKK9MWM7GGW15",
+   "hq": "NL",
+   "legal_name": "ING GROEP N.V.",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/549300NYKK9MWM7GGW15/2021-12-31/ESEF/NL/0/inggroup-2021-12-31/reports/inggroup-2021-12-31.html",
+     "period_end": "2021-12-31",
+     "country": "NL",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/549300NYKK9MWM7GGW15/2022-12-31/ESEF/NL/0/ing-2022-12-31-en/reports/ing-2022-12-31-en.xhtml",
+     "period_end": "2022-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/549300NYKK9MWM7GGW15/2023-12-31/ESEF/NL/0/ing-2023-12-31-en/reports/ing-2023-12-31-en.xhtml",
+     "period_end": "2023-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/549300NYKK9MWM7GGW15/2024-12-31/ESEF/NL/0/ing-2024-12-31-en/reports/ing-2024-12-31-en.xhtml",
+     "period_end": "2024-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/549300NYKK9MWM7GGW15/2025-12-31/ESEF/NL/0/ing-2025-12-31-en/reports/ing-2025-12-31-en.xhtml",
+     "period_end": "2025-12-31",
+     "country": "NL",
+     "language": "en"
+    }
+   }
+  },
+  {
+   "id": "intesa-sanpaolo",
+   "name": "Intesa Sanpaolo",
+   "groups": [
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "2W8N8UU78PMDQKZENC08",
+   "hq": "IT",
+   "legal_name": "INTESA SANPAOLO SPA",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/2W8N8UU78PMDQKZENC08/2021-12-31/ESEF/IT/0/2W8N8UU78PMDQKZENC08-2021-12-31/reports/2W8N8UU78PMDQKZENC08-2021-12-31.html",
+     "period_end": "2021-12-31",
+     "country": "IT",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/2W8N8UU78PMDQKZENC08/2022-12-31/ESEF/IT/0/2W8N8UU78PMDQKZENC08-2022-12-31-en/reports/2W8N8UU78PMDQKZENC08-2022-12-31-en.xhtml",
+     "period_end": "2022-12-31",
+     "country": "IT",
+     "language": "en"
+    }
+   }
+  },
+  {
+   "id": "nokia",
+   "name": "Nokia",
+   "groups": [
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [
+    924613
+   ],
+   "lei": "549300A0JPRWG1KI7U06",
+   "hq": "FI",
+   "legal_name": "Nokia Oyj",
+   "company_types": "PR;TC",
+   "type_status": "include",
+   "esef_reports": {
+    "2020": {
+     "url": "https://filings.xbrl.org/549300A0JPRWG1KI7U06/2020-12-31/ESEF/FI/0/nok-2020-12-31_iXBRL/reports/nok-2020-12-31_iXBRL.xhtml",
+     "period_end": "2020-12-31",
+     "country": "FI",
+     "language": ""
+    },
+    "2021": {
+     "url": "https://filings.xbrl.org/549300A0JPRWG1KI7U06/2021-12-31/ESEF/FI/0/549300A0JPRWG1KI7U06-2021-12-31-fi/reports/549300A0JPRWG1KI7U06-2021-12-31-fi.xhtml",
+     "period_end": "2021-12-31",
+     "country": "FI",
+     "language": "fi"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/549300A0JPRWG1KI7U06/2022-12-31/ESEF/FI/0/549300A0JPRWG1KI7U06-2022-12-31-fi/reports/549300A0JPRWG1KI7U06-2022-12-31-fi.xhtml",
+     "period_end": "2022-12-31",
+     "country": "FI",
+     "language": "fi"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/549300A0JPRWG1KI7U06/2023-12-31/ESEF/FI/0/549300A0JPRWG1KI7U06-2023-12-31-fi/reports/549300A0JPRWG1KI7U06-2023-12-31-fi.xhtml",
+     "period_end": "2023-12-31",
+     "country": "FI",
+     "language": "fi"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/549300A0JPRWG1KI7U06/2024-12-31/ESEF/FI/0/549300A0JPRWG1KI7U06-2024-12-31-fi/reports/549300A0JPRWG1KI7U06-2024-12-31-fi.xhtml",
+     "period_end": "2024-12-31",
+     "country": "FI",
+     "language": "fi"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/549300A0JPRWG1KI7U06/2025-12-31/ESEF/FI/0/549300A0JPRWG1KI7U06-2025-12-31-1-fi/reports/549300A0JPRWG1KI7U06-2025-12-31-1-fi.xhtml",
+     "period_end": "2025-12-31",
+     "country": "FI",
+     "language": "fi"
+    }
+   }
+  },
+  {
+   "id": "nordea",
+   "name": "Nordea",
+   "groups": [
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "529900ODI3047E2LIV03",
+   "hq": "FI",
+   "legal_name": "Nordea Bank Abp",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2020": {
+     "url": "https://filings.xbrl.org/529900ODI3047E2LIV03/2020-12-31/ESEF/FI/0/Nordea Annual Report 2020 (ESEF, only in Swedish)/reports/NordeaBankAbp-2020-12-31.xhtml",
+     "period_end": "2020-12-31",
+     "country": "FI",
+     "language": ""
+    },
+    "2021": {
+     "url": "https://filings.xbrl.org/529900ODI3047E2LIV03/2021-12-31/ESEF/NO/0/nord-2021-12-31-sv/reports/nord-2021-12-31-sv.xhtml",
+     "period_end": "2021-12-31",
+     "country": "NO",
+     "language": "sv"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/529900ODI3047E2LIV03/2022-12-31/ESEF/FI/0/nordea-2022-12-31-sv/reports/nordea-2022-12-31-sv.xhtml",
+     "period_end": "2022-12-31",
+     "country": "FI",
+     "language": "sv"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/529900ODI3047E2LIV03/2023-12-31/ESEF/FI/0/nordea-2023-12-31-sv/reports/nordea-2023-12-31-sv.xhtml",
+     "period_end": "2023-12-31",
+     "country": "FI",
+     "language": "sv"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/529900ODI3047E2LIV03/2024-12-31/ESEF/FI/0/nordea-2024-12-31-0-sv/reports/nordea-2024-12-31-0-sv.xhtml",
+     "period_end": "2024-12-31",
+     "country": "FI",
+     "language": "sv"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/529900ODI3047E2LIV03/2025-12-31/ESEF/FI/0/nordea-2025-12-31-1-sv/reports/nordea-2025-12-31-1-sv.xhtml",
+     "period_end": "2025-12-31",
+     "country": "FI",
+     "language": "sv"
+    }
+   }
+  },
+  {
+   "id": "prosus",
+   "name": "Prosus",
+   "groups": [
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "635400Z5LQ5F9OLVT688",
+   "hq": "NL",
+   "legal_name": "Prosus N.V.",
+   "company_types": "PL",
+   "type_status": "include",
+   "esef_reports": {
+    "2022": {
+     "url": "https://filings.xbrl.org/635400Z5LQ5F9OLVT688/2022-03-31/ESEF/NL/0/635400Z5LQ5F9OLVT688-2022-03-31-en/reports/635400Z5LQ5F9OLVT688-2022-03-31-en.xhtml",
+     "period_end": "2022-03-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/635400Z5LQ5F9OLVT688/2023-03-31/ESEF/NL/0/635400Z5LQ5F9OLVT688-2023-03-31-en/reports/635400Z5LQ5F9OLVT688-2023-03-31-en.xhtml",
+     "period_end": "2023-03-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/635400Z5LQ5F9OLVT688/2024-03-31/ESEF/NL/0/635400Z5LQ5F9OLVT688-2024-03-31-en/reports/635400Z5LQ5F9OLVT688-2024-03-31-en.xhtml",
+     "period_end": "2024-03-31",
+     "country": "NL",
+     "language": "en"
+    }
+   }
+  },
+  {
+   "id": "unicredit",
+   "name": "UniCredit",
+   "groups": [
+    "EURO STOXX 50"
+   ],
+   "sec_ciks": [],
+   "lei": "549300TRUWO2CD2G5692",
+   "hq": "IT",
+   "legal_name": "UNICREDIT, SOCIETA' PER AZIONI",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/549300TRUWO2CD2G5692/2021-12-31/ESEF/IT/0/549300TRUWO2CD2G5692-2021-12-31-en/reports/549300TRUWO2CD2G5692-2021-12-31-en.html",
+     "period_end": "2021-12-31",
+     "country": "IT",
+     "language": "en"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/549300TRUWO2CD2G5692/2022-12-31/ESEF/IT/0/549300TRUWO2CD2G5692-2022-12-31-en/reports/549300TRUWO2CD2G5692-2022-12-31-en.html",
+     "period_end": "2022-12-31",
+     "country": "IT",
+     "language": "en"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/549300TRUWO2CD2G5692/2023-12-31/ESEF/IT/0/549300TRUWO2CD2G5692-2023-12-31-en/reports/549300TRUWO2CD2G5692-2023-12-31-en.html",
+     "period_end": "2023-12-31",
+     "country": "IT",
+     "language": "en"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/549300TRUWO2CD2G5692/2024-12-31/ESEF/IT/1/549300TRUWO2CD2G5692-2024-12-31-0-en/reports/549300TRUWO2CD2G5692-2024-12-31-0-en.html",
+     "period_end": "2024-12-31",
+     "country": "IT",
+     "language": "en"
+    }
+   }
+  }
+ ],
+ "web_reports": {
+  "capgemini": {
+   "2016": "https://investors.capgemini.com/en/file/16870?download=1",
+   "2017": "https://investors.capgemini.com/en/file/8825?download=1",
+   "2018": "https://investors.capgemini.com/en/file/13002?download=1",
+   "2019": "https://investors.capgemini.com/en/file/15064?download=1",
+   "2020": "https://investors.capgemini.com/en/file/16754?download=1",
+   "2021": "https://investors.capgemini.com/en/file/22708?download=1",
+   "2022": "https://investors.capgemini.com/en/file/24133?download=1",
+   "2023": "https://investors.capgemini.com/en/file/26225?download=1",
+   "2024": "https://investors.capgemini.com/en/file/28667?download=1",
+   "2025": "https://investors.capgemini.com/en/file/30242?download=1"
+  },
+  "deutsche-telekom": {
+   "2018": "https://report.telekom.com/annual-report-2018/servicepages/downloads/files/entire_dtag_ar18.pdf",
+   "2019": "https://report.telekom.com/annual-report-2019/servicepages/downloads/files/entire_dtag_ar19.pdf",
+   "2020": "https://report.telekom.com/annual-report-2020/_assets/downloads/entire-dtag-ar20.pdf",
+   "2021": "https://report.telekom.com/annual-report-2021/_assets/downloads/entire-dtag-ar21.pdf",
+   "2022": "https://report.telekom.com/annual-report-2022/_assets/downloads/entire-dtag-ar22.pdf",
+   "2023": "https://report.telekom.com/annual-report-2023/_assets/downloads/entire-dtag-ar23.pdf",
+   "2024": "https://report.telekom.com/annual-report-2024/_assets/downloads/entire-dtag-ar24.pdf",
+   "2025": "https://report.telekom.com/annual-report-2025/_assets/downloads/entire-dtag-ar25.pdf"
+  }
+ }
+}
