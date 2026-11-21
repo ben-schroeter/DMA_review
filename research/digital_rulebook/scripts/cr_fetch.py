@@ -70,7 +70,7 @@ def html_to_text(raw):
 
 
 def pdf_to_text(raw):
-    tmp = os.path.join(CACHE, "_tmp.pdf")
+    tmp = os.path.join(CACHE, f"_tmp_{os.getpid()}.pdf")   # one per process (parallel runs)
     open(tmp, "wb").write(raw)
     out = subprocess.run(["pdftotext", "-enc", "UTF-8", tmp, "-"], capture_output=True).stdout.decode("utf-8", "replace")
     os.remove(tmp)
