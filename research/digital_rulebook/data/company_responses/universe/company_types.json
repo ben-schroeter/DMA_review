@@ -103,8 +103,9 @@
   },
   "Charter Communications": {
    "types": "TC",
-   "status": "include",
-   "why": "cable and broadband"
+   "status": "exclude",
+   "why": "cable and broadband",
+   "decision": "dropped by project lead, 2026-11-21"
   },
   "JPMorgan Chase": {
    "types": "FI",
@@ -920,6 +921,120 @@
    "types": "PR",
    "status": "include",
    "why": "connected products; private, publishes an annual report",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Expedia": {
+   "types": "PL",
+   "status": "include",
+   "why": "online travel platform",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Workday": {
+   "types": "CL",
+   "status": "include",
+   "why": "cloud software",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Cloudflare": {
+   "types": "CL",
+   "status": "include",
+   "why": "CDN and cloud security",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Equinix": {
+   "types": "CL",
+   "status": "include",
+   "why": "data centres",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Arm Holdings": {
+   "types": "PR;CL",
+   "status": "include",
+   "why": "chip designs for connected devices",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Honeywell": {
+   "types": "PR",
+   "status": "include",
+   "why": "connected industrial and building products",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Deere": {
+   "types": "PR",
+   "status": "include",
+   "why": "connected farm machinery (Data Act)",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Wolters Kluwer": {
+   "types": "CL",
+   "status": "include",
+   "why": "information and data services",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Amadeus": {
+   "types": "CL",
+   "status": "include",
+   "why": "travel technology and data",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Atos": {
+   "types": "CL",
+   "status": "include",
+   "why": "IT services and cloud",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Proximus": {
+   "types": "TC",
+   "status": "include",
+   "why": "telecoms operator",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Cellnex": {
+   "types": "TC",
+   "status": "include",
+   "why": "telecoms towers",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Worldline": {
+   "types": "FI",
+   "status": "include",
+   "why": "payments",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Nexi": {
+   "types": "FI",
+   "status": "include",
+   "why": "payments",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Wise": {
+   "types": "FI",
+   "status": "include",
+   "why": "payments",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "ABN AMRO": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "CaixaBank": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "KBC": {
+   "types": "FI",
+   "status": "include",
+   "why": "bank and insurer",
+   "decision": "added from candidate list; decided by project lead, 2026-11-21"
+  },
+  "Allegro": {
+   "types": "PL",
+   "status": "include",
+   "why": "online marketplace (Poland)",
    "decision": "added from candidate list; decided by project lead, 2026-11-21"
   }
  }

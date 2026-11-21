@@ -1446,7 +1446,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "TC",
-   "type_status": "include",
+   "type_status": "exclude",
+   "exclude": "cable and broadband",
    "esef_reports": {}
   },
   {
@@ -2406,6 +2407,652 @@
    "company_types": "PR",
    "type_status": "include",
    "esef_reports": {}
+  },
+  {
+   "id": "expedia",
+   "name": "Expedia",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    1324424
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "workday",
+   "name": "Workday",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    1327811
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "CL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "cloudflare",
+   "name": "Cloudflare",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    1477333
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "CL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "equinix",
+   "name": "Equinix",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    1101239
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "CL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "arm-holdings",
+   "name": "Arm Holdings",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    1973239
+   ],
+   "lei": null,
+   "hq": "GB",
+   "legal_name": null,
+   "company_types": "PR;CL",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "honeywell",
+   "name": "Honeywell",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    773840
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PR",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "deere",
+   "name": "Deere",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [
+    315189
+   ],
+   "lei": null,
+   "hq": "US",
+   "legal_name": null,
+   "company_types": "PR",
+   "type_status": "include",
+   "esef_reports": {}
+  },
+  {
+   "id": "wolters-kluwer",
+   "name": "Wolters Kluwer",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [],
+   "lei": "724500TEM53I0U077B74",
+   "hq": "NL",
+   "legal_name": "Wolters Kluwer N.V.",
+   "company_types": "CL",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/724500TEM53I0U077B74/2021-12-31/ESEF/NL/0/wolt-2021-12-31-en/reports/wolt-2021-12-31-en.xhtml",
+     "period_end": "2021-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/724500TEM53I0U077B74/2022-12-31/ESEF/NL/0/wolt-2022-12-31-en/reports/wolt-2022-12-31-en.xhtml",
+     "period_end": "2022-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/724500TEM53I0U077B74/2023-12-31/ESEF/NL/0/wolt-2023-12-31-en/reports/wolt-2023-12-31-en.xhtml",
+     "period_end": "2023-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/724500TEM53I0U077B74/2024-12-31/ESEF/NL/0/wolt-2024-12-31-0-en/reports/wolt-2024-12-31-0-en.xhtml",
+     "period_end": "2024-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/724500TEM53I0U077B74/2025-12-31/ESEF/NL/0/wolt-2025-12-31-0-en/reports/wolt-2025-12-31-0-en.xhtml",
+     "period_end": "2025-12-31",
+     "country": "NL",
+     "language": "en"
+    }
+   }
+  },
+  {
+   "id": "amadeus",
+   "name": "Amadeus",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [],
+   "lei": "9598004A3FTY3TEHHN09",
+   "hq": "ES",
+   "legal_name": "AMADEUS IT GROUP SOCIEDAD ANONIMA",
+   "company_types": "CL",
+   "type_status": "include",
+   "esef_reports": {
+    "2020": {
+     "url": "https://filings.xbrl.org/9598004A3FTY3TEHHN09/2020-12-31/ESEF/ES/0/9598004A3FTY3TEHHN09-2020-12-31/reports/9598004A3FTY3TEHHN09-2020-12-31.xhtml",
+     "period_end": "2020-12-31",
+     "country": "ES",
+     "language": ""
+    },
+    "2021": {
+     "url": "https://filings.xbrl.org/9598004A3FTY3TEHHN09/2021-12-31/ESEF/ES/0/9598004A3FTY3TEHHN09-2021-12-31-ES/reports/9598004A3FTY3TEHHN09-2021-12-31-ES.xhtml",
+     "period_end": "2021-12-31",
+     "country": "ES",
+     "language": "es"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/9598004A3FTY3TEHHN09/2022-12-31/ESEF/ES/0/9598004A3FTY3TEHHN09-20221231-es/reports/9598004A3FTY3TEHHN09-20221231-es.xhtml",
+     "period_end": "2022-12-31",
+     "country": "ES",
+     "language": "es"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/9598004A3FTY3TEHHN09/2023-12-31/ESEF/ES/0/9598004A3FTY3TEHHN09-20231231-es/reports/9598004A3FTY3TEHHN09-20231231-es.xhtml",
+     "period_end": "2023-12-31",
+     "country": "ES",
+     "language": "es"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/9598004A3FTY3TEHHN09/2024-12-31/ESEF/ES/0/9598004A3FTY3TEHHN09-20241231-es/reports/9598004A3FTY3TEHHN09-20241231-es.xhtml",
+     "period_end": "2024-12-31",
+     "country": "ES",
+     "language": "es"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/9598004A3FTY3TEHHN09/2025-12-31/ESEF/ES/0/9598004A3FTY3TEHHN09-2025-12-31-1-es/reports/9598004A3FTY3TEHHN09-2025-12-31-1-es.xhtml",
+     "period_end": "2025-12-31",
+     "country": "ES",
+     "language": "es"
+    }
+   }
+  },
+  {
+   "id": "atos",
+   "name": "Atos",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [],
+   "lei": "5493001EZOOA66PTBR68",
+   "hq": "FR",
+   "legal_name": "Atos Group",
+   "company_types": "CL",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/5493001EZOOA66PTBR68/2021-12-31/ESEF/FR/0/atos-2021-12-31-fr/reports/atos-2021-12-31-fr.xhtml",
+     "period_end": "2021-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/5493001EZOOA66PTBR68/2022-12-31/ESEF/FR/0/atos-2022-12-31-fr/reports/atos-2022-12-31-fr.html",
+     "period_end": "2022-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/5493001EZOOA66PTBR68/2023-12-31/ESEF/FR/0/atos-2023-12-31-fr/reports/atos-2023-12-31-fr.html",
+     "period_end": "2023-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/5493001EZOOA66PTBR68/2024-12-31/ESEF/FR/0/atos-2024-12-31-0-fr/reports/atos-2023-12-31-0-fr.html",
+     "period_end": "2024-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/5493001EZOOA66PTBR68/2025-12-31/ESEF/FR/0/atos-2025-12-31-1/reports/atos-2025-12-31-1-fr.html",
+     "period_end": "2025-12-31",
+     "country": "FR",
+     "language": "fr"
+    }
+   }
+  },
+  {
+   "id": "proximus",
+   "name": "Proximus",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [],
+   "lei": "549300CWRXC5EP004533",
+   "hq": "BE",
+   "legal_name": "PROXIMUS",
+   "company_types": "TC",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/549300CWRXC5EP004533/2021-12-31/ESEF/BE/0/proximus-2021-12-31/reports/proximus-2021-12-31.html",
+     "period_end": "2021-12-31",
+     "country": "BE",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/549300CWRXC5EP004533/2022-12-31/ESEF/BE/2/549300CWRXC5EP004533-2022-12-31-en/reports/549300CWRXC5EP004533-2022-12-31-en.xhtml",
+     "period_end": "2022-12-31",
+     "country": "BE",
+     "language": "en"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/549300CWRXC5EP004533/2023-12-31/ESEF/BE/2/549300CWRXC5EP004533-2023-12-31-en/reports/549300CWRXC5EP004533-2023-12-31-en.xhtml",
+     "period_end": "2023-12-31",
+     "country": "BE",
+     "language": "en"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/549300CWRXC5EP004533/2024-12-31/ESEF/BE/2/549300CWRXC5EP004533-2024-12-31-0-en/reports/549300CWRXC5EP004533-2024-12-31-0-en.xhtml",
+     "period_end": "2024-12-31",
+     "country": "BE",
+     "language": "en"
+    }
+   }
+  },
+  {
+   "id": "cellnex",
+   "name": "Cellnex",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [],
+   "lei": "5493008T4YG3AQUI7P67",
+   "hq": "ES",
+   "legal_name": "CELLNEX TELECOM SA",
+   "company_types": "TC",
+   "type_status": "include",
+   "esef_reports": {
+    "2020": {
+     "url": "https://filings.xbrl.org/5493008T4YG3AQUI7P67/2020-12-31/ESEF/ES/0/5493008T4YG3AQUI7P67-20201231/reports/5493008T4YG3AQUI7P67-20201231.xhtml",
+     "period_end": "2020-12-31",
+     "country": "ES",
+     "language": ""
+    },
+    "2021": {
+     "url": "https://filings.xbrl.org/5493008T4YG3AQUI7P67/2021-12-31/ESEF/ES/0/5493008T4YG3AQUI7P67-20211231-es/reports/5493008T4YG3AQUI7P67-20211231-es.xhtml",
+     "period_end": "2021-12-31",
+     "country": "ES",
+     "language": "es"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/5493008T4YG3AQUI7P67/2022-12-31/ESEF/ES/0/5493008T4YG3AQUI7P67-20221231-es/reports/5493008T4YG3AQUI7P67-20221231-es.xhtml",
+     "period_end": "2022-12-31",
+     "country": "ES",
+     "language": "es"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/5493008T4YG3AQUI7P67/2023-12-31/ESEF/ES/0/5493008T4YG3AQUI7P67-20231231-es/reports/5493008T4YG3AQUI7P67-20231231-es.xhtml",
+     "period_end": "2023-12-31",
+     "country": "ES",
+     "language": "es"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/5493008T4YG3AQUI7P67/2024-12-31/ESEF/ES/0/5493008T4YG3AQUI7P67-20241231-es/reports/5493008T4YG3AQUI7P67-20241231-es.xhtml",
+     "period_end": "2024-12-31",
+     "country": "ES",
+     "language": "es"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/5493008T4YG3AQUI7P67/2025-12-31/ESEF/ES/0/5493008T4YG3AQUI7P67-2025-12-31-1-es/reports/5493008T4YG3AQUI7P67-2025-12-31-1-es.xhtml",
+     "period_end": "2025-12-31",
+     "country": "ES",
+     "language": "es"
+    }
+   }
+  },
+  {
+   "id": "worldline",
+   "name": "Worldline",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [],
+   "lei": "549300CJMQNCA0U4TS33",
+   "hq": "FR",
+   "legal_name": "WORLDLINE",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/549300CJMQNCA0U4TS33/2021-12-31/ESEF/FR/0/WORDLINE-2021-12-31-fr/reports/WORDLINE-2021-12-31-fr.xhtml",
+     "period_end": "2021-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/549300CJMQNCA0U4TS33/2022-12-31/ESEF/FR/0/worldline-2022-12-31-fr/reports/worldline-2022-12-31-fr.xhtml",
+     "period_end": "2022-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/549300CJMQNCA0U4TS33/2023-12-31/ESEF/FR/0/549300CJMQNCA0U4TS33-2023-12-31AR/reports/549300CJMQNCA0U4TS33-2023-12-31AR.xhtml",
+     "period_end": "2023-12-31",
+     "country": "FR",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/549300CJMQNCA0U4TS33/2024-12-31/ESEF/FR/0/549300CJMQNCA0U4TS33-2024-12-31-0-FR/reports/549300CJMQNCA0U4TS33-2024-12-31-0-FR.xhtml",
+     "period_end": "2024-12-31",
+     "country": "FR",
+     "language": "fr"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/549300CJMQNCA0U4TS33/2025-12-31/ESEF/FR/0/549300CJMQNCA0U4TS33-2025-12-31AR/reports/549300CJMQNCA0U4TS33-2025-12-31AR.xhtml",
+     "period_end": "2025-12-31",
+     "country": "FR",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "nexi",
+   "name": "Nexi",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [],
+   "lei": "5493000P70CQRQG8SN85",
+   "hq": "IT",
+   "legal_name": "NEXI SPA",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/5493000P70CQRQG8SN85/2021-12-31/ESEF/IT/0/5493000P70CQRQG8SN85-2021-12-31-en/reports/5493000P70CQRQG8SN85-2021-12-31-en.xhtml",
+     "period_end": "2021-12-31",
+     "country": "IT",
+     "language": "en"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/5493000P70CQRQG8SN85/2022-12-31/ESEF/IT/0/5493000P70CQRQG8SN85-2022-12-31-en/reports/5493000P70CQRQG8SN85-2022-12-31-en.xhtml",
+     "period_end": "2022-12-31",
+     "country": "IT",
+     "language": "en"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/5493000P70CQRQG8SN85/2023-12-31/ESEF/IT/0/5493000P70CQRQG8SN85-2023-12-31-en/reports/5493000P70CQRQG8SN85-2023-12-31-en.xhtml",
+     "period_end": "2023-12-31",
+     "country": "IT",
+     "language": "en"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/5493000P70CQRQG8SN85/2024-12-31/ESEF/IT/0/5493000P70CQRQG8SN85-2024-12-31-0-en/reports/5493000P70CQRQG8SN85-2024-12-31-0-en.xhtml",
+     "period_end": "2024-12-31",
+     "country": "IT",
+     "language": "en"
+    }
+   }
+  },
+  {
+   "id": "wise",
+   "name": "Wise",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [],
+   "lei": "213800LD9XCHIC1C4V71",
+   "hq": "GB",
+   "legal_name": "WISE PLC",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2022": {
+     "url": "https://filings.xbrl.org/213800LD9XCHIC1C4V71/2022-03-31/ESEF/GB/0/213800LD9XCHIC1C4V71-2022-03-31/reports/213800LD9XCHIC1C4V71-2022-03-31-T01.xhtml",
+     "period_end": "2022-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/213800LD9XCHIC1C4V71/2023-03-31/ESEF/GB/0/213800LD9XCHIC1C4V71-2023-03-31/reports/213800LD9XCHIC1C4V71-2023-03-31-T01.xhtml",
+     "period_end": "2023-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/213800LD9XCHIC1C4V71/2024-03-31/ESEF/GB/0/213800LD9XCHIC1C4V71-2024-03-31/reports/213800LD9XCHIC1C4V71-2024-03-31-T01.xhtml",
+     "period_end": "2024-03-31",
+     "country": "GB",
+     "language": ""
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/213800LD9XCHIC1C4V71/2025-03-31/ESEF/GB/0/213800LD9XCHIC1C4V71-2025-03-31/reports/213800LD9XCHIC1C4V71-2025-03-31-T01.xhtml",
+     "period_end": "2025-03-31",
+     "country": "GB",
+     "language": ""
+    }
+   }
+  },
+  {
+   "id": "abn-amro",
+   "name": "ABN AMRO",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [],
+   "lei": "BFXS5XCH7N0Y05NIXW11",
+   "hq": "NL",
+   "legal_name": "ABN AMRO Bank N.V.",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/BFXS5XCH7N0Y05NIXW11/2021-12-31/ESEF/NL/0/BFXS5XCH7N0Y05NIXW11-2021-12-31-en/reports/BFXS5XCH7N0Y05NIXW11-2021-12-31-en.xhtml",
+     "period_end": "2021-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/BFXS5XCH7N0Y05NIXW11/2022-12-31/ESEF/NL/0/BFXS5XCH7N0Y05NIXW11-2022-12-31-en/reports/BFXS5XCH7N0Y05NIXW11-2022-12-31-en.xhtml",
+     "period_end": "2022-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/BFXS5XCH7N0Y05NIXW11/2023-12-31/ESEF/NL/0/BFXS5XCH7N0Y05NIXW11-2023-12-31-en/reports/BFXS5XCH7N0Y05NIXW11-2023-12-31-en.xhtml",
+     "period_end": "2023-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/BFXS5XCH7N0Y05NIXW11/2024-12-31/ESEF/NL/0/abn-2024-12-31-en/reports/abn-2024-12-31-en.xhtml",
+     "period_end": "2024-12-31",
+     "country": "NL",
+     "language": "en"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/BFXS5XCH7N0Y05NIXW11/2025-12-31/ESEF/NL/0/abn-2025-12-31-1-en/reports/abn-2025-12-31-1-en.xhtml",
+     "period_end": "2025-12-31",
+     "country": "NL",
+     "language": "en"
+    }
+   }
+  },
+  {
+   "id": "caixabank",
+   "name": "CaixaBank",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [],
+   "lei": "7CUNS533WID6K7DGFI87",
+   "hq": "ES",
+   "legal_name": "CAIXABANK SA",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2020": {
+     "url": "https://filings.xbrl.org/7CUNS533WID6K7DGFI87/2020-12-31/ESEF/ES/0/cabk-2020-12-31/reports/cabk-2020-12-31.html",
+     "period_end": "2020-12-31",
+     "country": "ES",
+     "language": ""
+    },
+    "2021": {
+     "url": "https://filings.xbrl.org/7CUNS533WID6K7DGFI87/2021-12-31/ESEF/ES/0/7CUNS533WID6K7DGFI87-20211231-es/reports/cabk-2021-12-31.html",
+     "period_end": "2021-12-31",
+     "country": "ES",
+     "language": "es"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/7CUNS533WID6K7DGFI87/2022-12-31/ESEF/ES/0/7CUNS533WID6K7DGFI87-20221231-es/reports/7CUNS533WID6K7DGFI87-20221231-es.xhtml",
+     "period_end": "2022-12-31",
+     "country": "ES",
+     "language": "es"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/7CUNS533WID6K7DGFI87/2023-12-31/ESEF/ES/0/7CUNS533WID6K7DGFI87-20231231-es/reports/7CUNS533WID6K7DGFI87-20231231-es.xhtml",
+     "period_end": "2023-12-31",
+     "country": "ES",
+     "language": "es"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/7CUNS533WID6K7DGFI87/2024-12-31/ESEF/ES/0/7CUNS533WID6K7DGFI87-20241231-es/reports/7CUNS533WID6K7DGFI87-20241231-es.xhtml",
+     "period_end": "2024-12-31",
+     "country": "ES",
+     "language": "es"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/7CUNS533WID6K7DGFI87/2025-12-31/ESEF/ES/0/7CUNS533WID6K7DGFI87-2025-12-31-1-es/reports/7CUNS533WID6K7DGFI87-2025-12-31-1-es.xhtml",
+     "period_end": "2025-12-31",
+     "country": "ES",
+     "language": "es"
+    }
+   }
+  },
+  {
+   "id": "kbc",
+   "name": "KBC",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [],
+   "lei": "213800X3Q9LSAKRUWY91",
+   "hq": "BE",
+   "legal_name": "KBC GROEP",
+   "company_types": "FI",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/213800X3Q9LSAKRUWY91/2021-12-31/ESEF/BE/1/213800X3Q9LSAKRUWY91-2021-12-31-en/reports/213800X3Q9LSAKRUWY91-2021-12-31-en.xhtml",
+     "period_end": "2021-12-31",
+     "country": "BE",
+     "language": "en"
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/213800X3Q9LSAKRUWY91/2022-12-31/ESEF/BE/1/213800X3Q9LSAKRUWY91-2022-12-31-en/reports/213800X3Q9LSAKRUWY91-2022-12-31-en.xhtml",
+     "period_end": "2022-12-31",
+     "country": "BE",
+     "language": "en"
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/213800X3Q9LSAKRUWY91/2023-12-31/ESEF/BE/1/213800X3Q9LSAKRUWY91-2023-12-31-en/reports/213800X3Q9LSAKRUWY91-2023-12-31-en.xhtml",
+     "period_end": "2023-12-31",
+     "country": "BE",
+     "language": "en"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/213800X3Q9LSAKRUWY91/2024-12-31/ESEF/BE/1/213800X3Q9LSAKRUWY91-2024-12-31-0-en/reports/213800X3Q9LSAKRUWY91-2024-12-31-0-en.xhtml",
+     "period_end": "2024-12-31",
+     "country": "BE",
+     "language": "en"
+    },
+    "2025": {
+     "url": "https://filings.xbrl.org/213800X3Q9LSAKRUWY91/2025-12-31/ESEF/BE/1/213800X3Q9LSAKRUWY91-2025-12-31-0-en/reports/213800X3Q9LSAKRUWY91-2025-12-31-0-en.xhtml",
+     "period_end": "2025-12-31",
+     "country": "BE",
+     "language": "en"
+    }
+   }
+  },
+  {
+   "id": "allegro",
+   "name": "Allegro",
+   "groups": [
+    "Added"
+   ],
+   "sec_ciks": [],
+   "lei": "222100VRLXV3FPMG4982",
+   "hq": "LU",
+   "legal_name": "ALLEGRO.EU",
+   "company_types": "PL",
+   "type_status": "include",
+   "esef_reports": {
+    "2021": {
+     "url": "https://filings.xbrl.org/222100VRLXV3FPMG4982/2021-12-31/ESEF/LU/0/ESEF_Allegro.eu_Group_Consolidated_Financial_Statements_31.12.2021/reports/esef_ale_2021-12-31_en.xhtml",
+     "period_end": "2021-12-31",
+     "country": "LU",
+     "language": ""
+    },
+    "2022": {
+     "url": "https://filings.xbrl.org/222100VRLXV3FPMG4982/2022-12-31/ESEF/LU/0/ESEF_Allegro.eu_Group_Consolidated_Financial_Statements_31.12.2022/reports/esef_ale_2022-12-31_en.xhtml",
+     "period_end": "2022-12-31",
+     "country": "LU",
+     "language": ""
+    },
+    "2023": {
+     "url": "https://filings.xbrl.org/222100VRLXV3FPMG4982/2023-12-31/ESEF/LU/0/Allegroeu-2023-12-31-en/reports/Allegroeu-2023-12-31-en.html",
+     "period_end": "2023-12-31",
+     "country": "LU",
+     "language": "en"
+    },
+    "2024": {
+     "url": "https://filings.xbrl.org/222100VRLXV3FPMG4982/2024-12-31/ESEF/LU/0/Allegroeu-2024-12-31-en/reports/222100VRLXV3FPMG4982-2024-12-31-0-en.html",
+     "period_end": "2024-12-31",
+     "country": "LU",
+     "language": "en"
+    }
+   }
   },
   {
    "id": "adidas",
@@ -6635,6 +7282,51 @@
  ],
  "web_reports": {
   "capgemini": {
+   "2007": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN114707_20090911.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2007"
+   },
+   "2008": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR048223_20090312.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2008"
+   },
+   "2009": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/06/FCMAN111444_20100614.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2009"
+   },
+   "2010": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/08/FCMAN122144_20110818.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2010 - Rapport financier annuel"
+   },
+   "2011": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/10/FCMAN130207_20121022.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2011 - Rapport financier annuel"
+   },
+   "2012": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2013/04/FCCNS117002_20130422.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2012"
+   },
+   "2013": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2014/04/FCCNS124478_20140404.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2013"
+   },
+   "2014": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2015/04/FCCNS133639_20150402.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2014"
+   },
+   "2015": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2016/04/FCCNS143458_20160407.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2015"
+   },
    "2016": {
     "url": "https://investors.capgemini.com/en/file/16870?download=1",
     "source": "company website"
@@ -7947,6 +8639,11 @@
     "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2019.pdf",
     "source": "annualreports.com"
    },
+   "2020": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/281/8888/01/FC281377157_20210315.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "GROUPE RENAULT - DOCUMENT D'ENREGISTREMENT UNIVERSEL 2020"
+   },
    "2022": {
     "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2022.pdf",
     "source": "annualreports.com"
@@ -7961,6 +8658,26 @@
    }
   },
   "schneider-electric": {
+   "2007": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN141203_20090914.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2007"
+   },
+   "2008": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/ECO/2009/02/FCECO010512_20090219.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Schneider Electric : 2008 Consolidated Financial Statements"
+   },
+   "2009": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/04/FCMAN100030_20100427.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2009"
+   },
+   "2010": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/05/FCMAN145913_20110510.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Rapport annuel 2010- Document de référence"
+   },
    "2011": {
     "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2011.pdf",
     "source": "annualreports.com"
@@ -9680,6 +10397,450 @@
    "2024": {
     "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/NYSE_SPOT_2024.pdf",
     "source": "annualreports.com"
+   }
+  },
+  "legrand": {
+   "2007": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN112559_20090914.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "rapport financier annuel 2007"
+   },
+   "2008": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN131053_20090914.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Rapport financier annuel 2008"
+   },
+   "2009": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR058051_20100416.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2009 incluant un rapport financier annuel"
+   },
+   "2010": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/08/FCMAN131247_20110817.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2010"
+   },
+   "2011": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR075143_20120209.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Annual financial report"
+   },
+   "2012": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR087403_20130214.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Annual financial report"
+   },
+   "2016": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR098614_20170209.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Annual financial report"
+   },
+   "2017": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR107236_20180208.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Rapport financier annuel"
+   },
+   "2018": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR115636_20190214.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Annual financial report"
+   },
+   "2019": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR123550_20200213.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Rapports financiers et d'audit annuels / Rapport financier annuel"
+   },
+   "2020": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/370/8888/01/FC370379993_20210412.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "DOCUMENT D'ENREGISTREMENT UNIVERSEL 2020"
+   }
+  },
+  "thales": {
+   "2007": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN125905_20090915.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2007"
+   },
+   "2008": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN092952_20090917.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Rapport financier annuel"
+   },
+   "2009": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/04/FCMAN115037_20100427.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2009"
+   },
+   "2010": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/08/FCMAN143759_20110812.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2010"
+   },
+   "2011": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/10/FCMAN131608_20121016.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2011- Rapport financier annuel"
+   },
+   "2015": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/ECO/2016/03/FCECO039663_20160331.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Thales - Document de Référence 2015"
+   }
+  },
+  "dassault-syst-mes": {
+   "2007": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN082636_20090916.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "rapport financier annuel 2007"
+   },
+   "2008": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN072647_20090917.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Rapport financier annuel"
+   },
+   "2009": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/04/FCMAN134758_20100426.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2009"
+   },
+   "2010": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/05/FCMAN144152_20110510.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2010"
+   },
+   "2011": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/05/FCMAN131215_20120524.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2011"
+   },
+   "2016": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR099514_20170323.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Rapport financier annuel"
+   },
+   "2017": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR108198_20180322.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Rapport financier annuel"
+   },
+   "2018": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR116554_20190327.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Annual financial and audit reports / Annual financial report"
+   },
+   "2019": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MKW/8888/01/FCMKW136200_20200320.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Dassault Systèmes SE : Document d'enregistrement universel 2019"
+   }
+  },
+  "publicis": {
+   "2007": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN075739_20090915.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2007"
+   },
+   "2009": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN132830_20090916.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2009"
+   },
+   "2010": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/05/FCMAN155810_20110520.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Rapport annuel 2010"
+   },
+   "2011": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/05/FCMAN140317_20120515.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2011 - Rapport financier annuel"
+   },
+   "2016": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR100639_20170428.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Rapport financier annuel"
+   },
+   "2020": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/118/8888/01/FC118379846_20210409.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document d'enregistrement universel 2020"
+   }
+  },
+  "orange": {
+   "2007": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN081234_20090915.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2007"
+   },
+   "2008": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN112322_20090917.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Rapport financier annuel"
+   },
+   "2009": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/06/FCMAN074907_20100615.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2009"
+   },
+   "2010": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2011/04/FCCNS102738_20110421.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "France Télécom : document de référence 2010"
+   },
+   "2011": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/03/FCMAN093133_20120308.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "France Telecom, Comptes consolidés annuels 2011"
+   },
+   "2018": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/177/2019/02/FC177270190_20190222.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Comptes Consolidés 2018"
+   },
+   "2019": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/177/2020/02/FC177327217_20200213.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Consolidated financial statements 2019"
+   },
+   "2020": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/177/8888/01/FC177377555_20210317.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document d'enregistrement universel 2020"
+   }
+  },
+  "atos": {
+   "2007": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN094053_20090916.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2007"
+   },
+   "2008": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN115152_20090917.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Documents de référence"
+   },
+   "2009": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/04/FCMAN132221_20100426.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2009"
+   },
+   "2010": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2011/06/FCCNS103953_20110601.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "ATOSRA1"
+   },
+   "2011": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/10/FCMAN114331_20121016.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2011"
+   },
+   "2012": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2013/04/FCCNS116542_20130403.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Mise a disposition du document de reference 2012"
+   },
+   "2020": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/259/8888/01/FC259379571_20210407.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Atos - Document d'Enregistrement Universel 2020 (incluant le rapport f"
+   },
+   "2022": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MKW/2023/02/FCMKW135409_20230228.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Résultats annuels 2022 : Atos avance dans son plan de transformation s"
+   }
+  },
+  "worldline": {
+   "2020": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/130/8888/01/FC130380121_20210413.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Worldline - Document d'Enregistrement Universel 2020"
+   }
+  },
+  "delivery-hero": {
+   "2017": {
+    "url": "https://irpages2.eqs.com/download/companies/delivery/Annual%20Reports/DE000A2E4K43-JA-2017-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2019": {
+    "url": "https://irpages2.eqs.com/download/companies/delivery/Annual%20Reports/DE000A2E4K43-JA-2019-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2020": {
+    "url": "https://irpages2.eqs.com/download/companies/delivery/Annual%20Reports/DE000A2E4K43-JA-2020-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2021": {
+    "url": "https://irpages2.eqs.com/download/companies/delivery/Annual%20Reports/DE000A2E4K43-JA-2021-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2023": {
+    "url": "https://irpages2.eqs.com/download/companies/delivery/Annual%20Reports/DE000A2E4K43-JA-2023-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2024": {
+    "url": "https://irpages2.eqs.com/download/companies/delivery/Annual%20Reports/DE000A2E4K43-JA-2024-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2025": {
+    "url": "https://irpages2.eqs.com/download/companies/delivery/Annual%20Reports/DE000A2E4K43-JA-2025-EQ-E-00.pdf",
+    "source": "company website"
+   }
+  },
+  "bnp-paribas": {
+   "2007": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN140432_20090914.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2007"
+   },
+   "2008": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/09/FCMAN101156_20100906.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "BNP Paribas Public Sector SCF - 2008 Financial Statements"
+   },
+   "2009": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/07/FCMAN085146_20100728.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "2009 registration document and annual financial report"
+   },
+   "2010": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/04/FCMAN154432_20110421.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence et rapport financier annuel 2010"
+   },
+   "2011": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/04/FCMAN141957_20120427.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence et rapport financier annuel 2011"
+   },
+   "2012": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2013/08/FCMAN112804_20130828.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Rapport annuel 2012"
+   },
+   "2018": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/303/2019/02/FC303269337_20190212.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "ETATS FINANCIERS CONSOLIDES AU 31 DECEMBRE 2018 (comptes non audités)"
+   },
+   "2020": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/303/8888/01/FC303375868_20210302.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document d'enregistrement universel et rapport financier annuel 2020"
+   },
+   "2021": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/303/8888/01/FC303437811_20220325.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Universal Registration Document and Annual Financial Report 2021"
+   }
+  },
+  "soci-t-g-n-rale": {
+   "2008": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN080712_20090915.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2008"
+   },
+   "2009": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/03/FCMAN095619_20100326.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2009"
+   },
+   "2021": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/300/8888/01/FC300377564_20210317.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "DOCUMENT D'ENREGISTREMENT UNIVERSEL 2021"
+   }
+  },
+  "cr-dit-agricole": {
+   "2007": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN113346_20090911.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2007"
+   },
+   "2008": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/04/FCMAN153750_20110413.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Crédit Agricole SA Registration Document 2008 free English translation"
+   },
+   "2009": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/04/FCMAN153542_20110413.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Crédit Agricole SA Registration Document 2009 free English translation"
+   },
+   "2010": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/04/FCMAN153654_20110413.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Crédit Agricole SA Registration Document 2010 free English translation"
+   },
+   "2011": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/06/FCMAN113340_20120620.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Rapport financier annuel : rapport de gestion 2011"
+   },
+   "2012": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2013/07/FCMAN121929_20130715.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Comptes individuels au 31/12/2012"
+   },
+   "2014": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2015/02/FCCNS132629_20150225.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Comptes consolidés du Groupe Crédit Agricole au 31 Décembre 2014"
+   },
+   "2015": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2016/03/FCCNS142928_20160321.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "GROUPE CREDIT AGRICOLE : Comptes consolidés au 31.12.2015 -non audités"
+   },
+   "2016": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2017/02/FCCNS151842_20170217.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Groupe Crédit Agricole : Eléments financiers au 31/12/16 (non audités)"
+   },
+   "2017": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2018/02/FCCNS161473_20180216.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Crédit Agricole Groupe : Eléments financiers au 31.12.17 (non audités)"
+   },
+   "2018": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2019/02/FCCNS170512_20190214.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Groupe Crédit Agricole : Etats financiers au 31.12.2018 (non audités)"
+   },
+   "2019": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/305/2020/02/FC305327865_20200220.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "CREDIT AGRICOLE S.A. Etats financiers 2019"
+   }
+  },
+  "bouygues": {
+   "2009": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/04/FCMAN145622_20100429.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2009"
+   },
+   "2010": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/08/FCMAN145916_20110816.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2010 - Rapport financier annuel 2010"
+   },
+   "2011": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/10/FCMAN140648_20121016.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document de référence 2011"
+   },
+   "2020": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/134/8888/01/FC134377572_20210317.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Document Enregistrement Universel 2020"
+   }
+  },
+  "euronext": {
+   "2022": {
+    "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MKW/2023/03/FCMKW111266_20230331.pdf",
+    "source": "AMF (info-financiere.gouv.fr)",
+    "title": "Euronext publishes its 2022 Universal Registration Document"
    }
   }
  }

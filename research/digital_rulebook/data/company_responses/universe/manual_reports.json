@@ -1,6 +1,51 @@
 {
- "_note": "Annual reports collected outside SEC EDGAR and filings.xbrl.org, keyed by universe id and report year: {url, source}. Sources: 'company website' (incl. EQS-hosted IR files, irpages2.eqs.com, which serve the companies' IR sites), 'annualreports.com' (third-party archive of company reports; its file-name year may be the publication year and is checked at download). Only used for years with no SEC or ESEF report. Collected 2026-11-21.",
+ "_note": "Annual reports collected outside SEC EDGAR and filings.xbrl.org, keyed by universe id and report year: {url, source}. Sources: 'company website' (incl. EQS-hosted IR files, irpages2.eqs.com, which serve the companies' IR sites), 'AMF (info-financiere.gouv.fr)' (French regulator's storage mechanism, usually French-language), 'annualreports.com' (third-party archive of company reports; its file-name year may be the publication year and is checked at download). Only used for years with no SEC or ESEF report. Collected 2026-11-21.",
  "capgemini": {
+  "2007": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN114707_20090911.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2007"
+  },
+  "2008": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR048223_20090312.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2008"
+  },
+  "2009": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/06/FCMAN111444_20100614.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2009"
+  },
+  "2010": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/08/FCMAN122144_20110818.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2010 - Rapport financier annuel"
+  },
+  "2011": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/10/FCMAN130207_20121022.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2011 - Rapport financier annuel"
+  },
+  "2012": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2013/04/FCCNS117002_20130422.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2012"
+  },
+  "2013": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2014/04/FCCNS124478_20140404.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2013"
+  },
+  "2014": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2015/04/FCCNS133639_20150402.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2014"
+  },
+  "2015": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2016/04/FCCNS143458_20160407.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2015"
+  },
   "2016": {
    "url": "https://investors.capgemini.com/en/file/16870?download=1",
    "source": "company website"
@@ -1313,6 +1358,11 @@
    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2019.pdf",
    "source": "annualreports.com"
   },
+  "2020": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/281/8888/01/FC281377157_20210315.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "GROUPE RENAULT - DOCUMENT D'ENREGISTREMENT UNIVERSEL 2020"
+  },
   "2022": {
    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2022.pdf",
    "source": "annualreports.com"
@@ -1327,6 +1377,26 @@
   }
  },
  "schneider-electric": {
+  "2007": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN141203_20090914.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2007"
+  },
+  "2008": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/ECO/2009/02/FCECO010512_20090219.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Schneider Electric : 2008 Consolidated Financial Statements"
+  },
+  "2009": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/04/FCMAN100030_20100427.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2009"
+  },
+  "2010": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/05/FCMAN145913_20110510.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Rapport annuel 2010- Document de référence"
+  },
   "2011": {
    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2011.pdf",
    "source": "annualreports.com"
@@ -3046,6 +3116,450 @@
   "2024": {
    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/NYSE_SPOT_2024.pdf",
    "source": "annualreports.com"
+  }
+ },
+ "legrand": {
+  "2007": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN112559_20090914.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "rapport financier annuel 2007"
+  },
+  "2008": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN131053_20090914.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Rapport financier annuel 2008"
+  },
+  "2009": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR058051_20100416.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2009 incluant un rapport financier annuel"
+  },
+  "2010": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/08/FCMAN131247_20110817.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2010"
+  },
+  "2011": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR075143_20120209.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Annual financial report"
+  },
+  "2012": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR087403_20130214.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Annual financial report"
+  },
+  "2016": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR098614_20170209.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Annual financial report"
+  },
+  "2017": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR107236_20180208.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Rapport financier annuel"
+  },
+  "2018": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR115636_20190214.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Annual financial report"
+  },
+  "2019": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR123550_20200213.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Rapports financiers et d'audit annuels / Rapport financier annuel"
+  },
+  "2020": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/370/8888/01/FC370379993_20210412.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "DOCUMENT D'ENREGISTREMENT UNIVERSEL 2020"
+  }
+ },
+ "thales": {
+  "2007": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN125905_20090915.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2007"
+  },
+  "2008": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN092952_20090917.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Rapport financier annuel"
+  },
+  "2009": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/04/FCMAN115037_20100427.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2009"
+  },
+  "2010": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/08/FCMAN143759_20110812.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2010"
+  },
+  "2011": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/10/FCMAN131608_20121016.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2011- Rapport financier annuel"
+  },
+  "2015": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/ECO/2016/03/FCECO039663_20160331.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Thales - Document de Référence 2015"
+  }
+ },
+ "dassault-syst-mes": {
+  "2007": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN082636_20090916.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "rapport financier annuel 2007"
+  },
+  "2008": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN072647_20090917.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Rapport financier annuel"
+  },
+  "2009": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/04/FCMAN134758_20100426.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2009"
+  },
+  "2010": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/05/FCMAN144152_20110510.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2010"
+  },
+  "2011": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/05/FCMAN131215_20120524.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2011"
+  },
+  "2016": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR099514_20170323.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Rapport financier annuel"
+  },
+  "2017": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR108198_20180322.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Rapport financier annuel"
+  },
+  "2018": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR116554_20190327.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Annual financial and audit reports / Annual financial report"
+  },
+  "2019": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MKW/8888/01/FCMKW136200_20200320.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Dassault Systèmes SE : Document d'enregistrement universel 2019"
+  }
+ },
+ "publicis": {
+  "2007": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN075739_20090915.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2007"
+  },
+  "2009": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN132830_20090916.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2009"
+  },
+  "2010": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/05/FCMAN155810_20110520.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Rapport annuel 2010"
+  },
+  "2011": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/05/FCMAN140317_20120515.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2011 - Rapport financier annuel"
+  },
+  "2016": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR100639_20170428.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Rapport financier annuel"
+  },
+  "2020": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/118/8888/01/FC118379846_20210409.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document d'enregistrement universel 2020"
+  }
+ },
+ "orange": {
+  "2007": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN081234_20090915.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2007"
+  },
+  "2008": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN112322_20090917.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Rapport financier annuel"
+  },
+  "2009": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/06/FCMAN074907_20100615.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2009"
+  },
+  "2010": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2011/04/FCCNS102738_20110421.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "France Télécom : document de référence 2010"
+  },
+  "2011": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/03/FCMAN093133_20120308.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "France Telecom, Comptes consolidés annuels 2011"
+  },
+  "2018": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/177/2019/02/FC177270190_20190222.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Comptes Consolidés 2018"
+  },
+  "2019": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/177/2020/02/FC177327217_20200213.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Consolidated financial statements 2019"
+  },
+  "2020": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/177/8888/01/FC177377555_20210317.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document d'enregistrement universel 2020"
+  }
+ },
+ "atos": {
+  "2007": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN094053_20090916.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2007"
+  },
+  "2008": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN115152_20090917.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Documents de référence"
+  },
+  "2009": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/04/FCMAN132221_20100426.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2009"
+  },
+  "2010": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2011/06/FCCNS103953_20110601.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "ATOSRA1"
+  },
+  "2011": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/10/FCMAN114331_20121016.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2011"
+  },
+  "2012": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2013/04/FCCNS116542_20130403.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Mise a disposition du document de reference 2012"
+  },
+  "2020": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/259/8888/01/FC259379571_20210407.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Atos - Document d'Enregistrement Universel 2020 (incluant le rapport f"
+  },
+  "2022": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MKW/2023/02/FCMKW135409_20230228.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Résultats annuels 2022 : Atos avance dans son plan de transformation s"
+  }
+ },
+ "worldline": {
+  "2020": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/130/8888/01/FC130380121_20210413.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Worldline - Document d'Enregistrement Universel 2020"
+  }
+ },
+ "delivery-hero": {
+  "2017": {
+   "url": "https://irpages2.eqs.com/download/companies/delivery/Annual%20Reports/DE000A2E4K43-JA-2017-EQ-E-00.pdf",
+   "source": "company website"
+  },
+  "2019": {
+   "url": "https://irpages2.eqs.com/download/companies/delivery/Annual%20Reports/DE000A2E4K43-JA-2019-EQ-E-00.pdf",
+   "source": "company website"
+  },
+  "2020": {
+   "url": "https://irpages2.eqs.com/download/companies/delivery/Annual%20Reports/DE000A2E4K43-JA-2020-EQ-E-01.pdf",
+   "source": "company website"
+  },
+  "2021": {
+   "url": "https://irpages2.eqs.com/download/companies/delivery/Annual%20Reports/DE000A2E4K43-JA-2021-EQ-E-01.pdf",
+   "source": "company website"
+  },
+  "2023": {
+   "url": "https://irpages2.eqs.com/download/companies/delivery/Annual%20Reports/DE000A2E4K43-JA-2023-EQ-E-00.pdf",
+   "source": "company website"
+  },
+  "2024": {
+   "url": "https://irpages2.eqs.com/download/companies/delivery/Annual%20Reports/DE000A2E4K43-JA-2024-EQ-E-00.pdf",
+   "source": "company website"
+  },
+  "2025": {
+   "url": "https://irpages2.eqs.com/download/companies/delivery/Annual%20Reports/DE000A2E4K43-JA-2025-EQ-E-00.pdf",
+   "source": "company website"
+  }
+ },
+ "bnp-paribas": {
+  "2007": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN140432_20090914.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2007"
+  },
+  "2008": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/09/FCMAN101156_20100906.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "BNP Paribas Public Sector SCF - 2008 Financial Statements"
+  },
+  "2009": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/07/FCMAN085146_20100728.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "2009 registration document and annual financial report"
+  },
+  "2010": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/04/FCMAN154432_20110421.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence et rapport financier annuel 2010"
+  },
+  "2011": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/04/FCMAN141957_20120427.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence et rapport financier annuel 2011"
+  },
+  "2012": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2013/08/FCMAN112804_20130828.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Rapport annuel 2012"
+  },
+  "2018": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/303/2019/02/FC303269337_20190212.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "ETATS FINANCIERS CONSOLIDES AU 31 DECEMBRE 2018 (comptes non audités)"
+  },
+  "2020": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/303/8888/01/FC303375868_20210302.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document d'enregistrement universel et rapport financier annuel 2020"
+  },
+  "2021": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/303/8888/01/FC303437811_20220325.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Universal Registration Document and Annual Financial Report 2021"
+  }
+ },
+ "soci-t-g-n-rale": {
+  "2008": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN080712_20090915.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2008"
+  },
+  "2009": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/03/FCMAN095619_20100326.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2009"
+  },
+  "2021": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/300/8888/01/FC300377564_20210317.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "DOCUMENT D'ENREGISTREMENT UNIVERSEL 2021"
+  }
+ },
+ "cr-dit-agricole": {
+  "2007": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN113346_20090911.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2007"
+  },
+  "2008": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/04/FCMAN153750_20110413.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Crédit Agricole SA Registration Document 2008 free English translation"
+  },
+  "2009": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/04/FCMAN153542_20110413.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Crédit Agricole SA Registration Document 2009 free English translation"
+  },
+  "2010": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/04/FCMAN153654_20110413.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Crédit Agricole SA Registration Document 2010 free English translation"
+  },
+  "2011": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/06/FCMAN113340_20120620.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Rapport financier annuel : rapport de gestion 2011"
+  },
+  "2012": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2013/07/FCMAN121929_20130715.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Comptes individuels au 31/12/2012"
+  },
+  "2014": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2015/02/FCCNS132629_20150225.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Comptes consolidés du Groupe Crédit Agricole au 31 Décembre 2014"
+  },
+  "2015": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2016/03/FCCNS142928_20160321.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "GROUPE CREDIT AGRICOLE : Comptes consolidés au 31.12.2015 -non audités"
+  },
+  "2016": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2017/02/FCCNS151842_20170217.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Groupe Crédit Agricole : Eléments financiers au 31/12/16 (non audités)"
+  },
+  "2017": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2018/02/FCCNS161473_20180216.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Crédit Agricole Groupe : Eléments financiers au 31.12.17 (non audités)"
+  },
+  "2018": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2019/02/FCCNS170512_20190214.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Groupe Crédit Agricole : Etats financiers au 31.12.2018 (non audités)"
+  },
+  "2019": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/305/2020/02/FC305327865_20200220.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "CREDIT AGRICOLE S.A. Etats financiers 2019"
+  }
+ },
+ "bouygues": {
+  "2009": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/04/FCMAN145622_20100429.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2009"
+  },
+  "2010": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/08/FCMAN145916_20110816.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2010 - Rapport financier annuel 2010"
+  },
+  "2011": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/10/FCMAN140648_20121016.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document de référence 2011"
+  },
+  "2020": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/134/8888/01/FC134377572_20210317.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Document Enregistrement Universel 2020"
+  }
+ },
+ "euronext": {
+  "2022": {
+   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MKW/2023/03/FCMKW111266_20230331.pdf",
+   "source": "AMF (info-financiere.gouv.fr)",
+   "title": "Euronext publishes its 2022 Universal Registration Document"
   }
  }
 }

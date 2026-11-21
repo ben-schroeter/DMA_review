@@ -1610,6 +1610,96 @@
   "Bosch": {
    "sec_ciks": [],
    "lei": null
+  },
+  "Expedia": {
+   "sec_ciks": [
+    1324424
+   ],
+   "lei": null
+  },
+  "Workday": {
+   "sec_ciks": [
+    1327811
+   ],
+   "lei": null
+  },
+  "Cloudflare": {
+   "sec_ciks": [
+    1477333
+   ],
+   "lei": null
+  },
+  "Equinix": {
+   "sec_ciks": [
+    1101239
+   ],
+   "lei": null
+  },
+  "Arm Holdings": {
+   "sec_ciks": [
+    1973239
+   ],
+   "lei": null
+  },
+  "Honeywell": {
+   "sec_ciks": [
+    773840
+   ],
+   "lei": null
+  },
+  "Deere": {
+   "sec_ciks": [
+    315189
+   ],
+   "lei": null
+  },
+  "Wolters Kluwer": {
+   "sec_ciks": [],
+   "lei": "724500TEM53I0U077B74"
+  },
+  "Amadeus": {
+   "sec_ciks": [],
+   "lei": "9598004A3FTY3TEHHN09"
+  },
+  "Atos": {
+   "sec_ciks": [],
+   "lei": "5493001EZOOA66PTBR68"
+  },
+  "Proximus": {
+   "sec_ciks": [],
+   "lei": "549300CWRXC5EP004533"
+  },
+  "Cellnex": {
+   "sec_ciks": [],
+   "lei": "5493008T4YG3AQUI7P67"
+  },
+  "Worldline": {
+   "sec_ciks": [],
+   "lei": "549300CJMQNCA0U4TS33"
+  },
+  "Nexi": {
+   "sec_ciks": [],
+   "lei": "5493000P70CQRQG8SN85"
+  },
+  "Wise": {
+   "sec_ciks": [],
+   "lei": "213800LD9XCHIC1C4V71"
+  },
+  "ABN AMRO": {
+   "sec_ciks": [],
+   "lei": "BFXS5XCH7N0Y05NIXW11"
+  },
+  "CaixaBank": {
+   "sec_ciks": [],
+   "lei": "7CUNS533WID6K7DGFI87"
+  },
+  "KBC": {
+   "sec_ciks": [],
+   "lei": "213800X3Q9LSAKRUWY91"
+  },
+  "Allegro": {
+   "sec_ciks": [],
+   "lei": "222100VRLXV3FPMG4982"
   }
  }
 }
