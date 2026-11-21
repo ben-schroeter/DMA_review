@@ -72,7 +72,7 @@ charts["who_type"] = (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-
 pp = [r for r in rep if r["addressee"] == "private_parties"]
 then, now = collections.Counter(area(r) for r in pp if year(r) <= 2017), collections.Counter(area(r) for r in pp)
 areas = sorted(now, key=lambda a: -now[a])
-W, PL, PR, PTOP, PROW = 1000, 250, 860, 50, 36
+W, PL, PR, PTOP, PROW = 1000, 300, 860, 50, 36   # PL: room for the longest area name
 VMAX, _VS = nice_axis(max(now.values()) + 40, 8)   # room for the value label
 PX = lambda v: PL + v / VMAX * (PR - PL)
 PBOT = PTOP + PROW * len(areas)
