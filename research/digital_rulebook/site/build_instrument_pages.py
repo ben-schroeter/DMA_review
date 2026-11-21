@@ -311,9 +311,9 @@ def page(r):
         <div style="display: flex; flex-direction: column; gap: 8px"><p class="eyebrow">What it does</p><p class="body" style="font-size: 17px; color: #282424">{esc(r["objectives"] or "")}</p></div>
         <div style="display: flex; flex-direction: column; gap: 8px"><p class="eyebrow">What we know so far</p><p class="body" style="font-size: 17px">{esc(r["impact_summary"] or ("Not yet adopted; no evidence on effects." if pend else "No summary yet."))}</p></div>
       </div>
-      {ia_pend(rid) if pend else ia_line(r)}
       <figure style="margin: 8px 0 0; display: flex; flex-direction: column; gap: 4px"><figcaption class="eyebrow">Timeline</figcaption>{timeline(r)}
         <span class="cap">{f'{months(r["proposal_date"], r["adoption_date"])} months from proposal to adoption.' if r["adoption_date"] and not pend else f'In negotiation for {months(r["proposal_date"], "2026-10-31")} months.'} Dates when rules start to apply may be set in the text and can come later.</span></figure>
+      {ia_pend(rid) if pend else ia_line(r)}
     </div>
   </section>
   <section style="border-top: 1px solid #E8E6E3; border-bottom: 1px solid #E8E6E3; background: #F3F1EC">
@@ -352,10 +352,20 @@ def page(r):
 REVIEWS = json.load(open("data/reviews.json")) if os.path.exists("data/reviews.json") else []
 # impact assessment and Regulatory Scrutiny Board verdict (scripts/ia_lookup.py -> data/ia/ia_laws.json)
 IA = json.load(open("data/ia/ia_laws.json")) if os.path.exists("data/ia/ia_laws.json") else {}
-IA_LAB = {"full": ("Impact assessment", "#2E7D5B"), "pre": ("No impact assessment: proposed before the Commission introduced them in 2003", "#6B6B6B"),
+IA_LAB = {"full": ("Full impact assessment", "#2E7D5B"), "pre": ("No impact assessment: proposed before the Commission introduced them in 2003", "#6B6B6B"),
           "codification": ("No impact assessment: codification or recast", "#6B6B6B"), "none": ("No impact assessment", "#9B3B3B"),
           "swd": ("No impact assessment: staff working document only", "#9B3B3B"), "unknown": ("Impact assessment not found", "#6B6B6B")}
 IA_TYPE = re.compile(r"impact assessment|analysis of impacts", re.I)
+def ia_panel(cols):
+    """The impact assessment and the Scrutiny Board's verdict, in a card of their own below the introduction."""
+    cols = [c for c in cols if c]
+    if not cols:
+        return ""
+    cell = lambda eb, html_: (f'<div style="display: flex; flex-direction: column; gap: 8px; min-width: 0"><p class="eyebrow" style="margin: 0">{eb}</p>'
+                              f'<div class="body" style="font-size: 15px; margin: 0; display: flex; flex-direction: column; gap: 6px">{html_}</div></div>')
+    return ('<aside aria-label="Impact assessment and Regulatory Scrutiny Board" style="margin-top: 14px; padding: 20px 24px; background: #FFFFFF; '
+            'border: 1px solid #E8E6E3; border-radius: 12px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px 40px">'
+            + "".join(cell(eb, h) for eb, h in cols) + "</aside>")
 def ia_pend(rid):
     """Pending and withdrawn proposals: the impact assessment and Parliament's work on it, from the proposal's record."""
     ia = [l for l in LIT if l["parent_row_id"] == rid and IA_TYPE.search(l["source_type"] or "")]
@@ -364,10 +374,10 @@ def ia_pend(rid):
     lab = lambda l: f'<a href="{esc(l["url"] or l["pdf_url"] or "")}">{esc(l["citation"] or "")}</a> <span class="cap">· {esc(l["source_type"] or "")}</span>'
     com = [l for l in ia if (l["source_type"] or "").startswith("Commission")]
     oth = [l for l in ia if l not in com]
-    head = "Impact assessment" if any("Commission impact assessment" == l["source_type"] for l in com) else "No full impact assessment"
-    col = "#2E7D5B" if head == "Impact assessment" else "#9B3B3B"
-    return (f'<p class="body" style="font-size: 15px; margin: 0"><span class="st" style="border-color: {col}; color: {col}">{head}</span> '
-            + "<br>".join(lab(l) for l in com + oth) + "</p>")
+    head = "Full impact assessment" if any("Commission impact assessment" == l["source_type"] for l in com) else "No full impact assessment"
+    col = "#2E7D5B" if head == "Full impact assessment" else "#9B3B3B"
+    return ia_panel([("Impact assessment", f'<span><span class="st" style="border-color: {col}; color: {col}">{head}</span></span>'
+                      + "".join(f"<span>{lab(l)}</span>" for l in com + oth))])
 def swd_links(t):
     return re.sub(r"\b(SWD|SEC)\((\d{4})\) ?(\d+)", lambda m: f'<a href="https://ec.europa.eu/transparency/documents-register/detail?ref={m[1]}({m[2]}){m[3]}&amp;lang=en">{m[0]}</a>', t)
 def ia_line(r):
@@ -382,8 +392,13 @@ def ia_line(r):
     if b:
         seq = b["first"] if b["first"] == b["final"] else f'{b["first"]} first, then {b["final"]}'
         src = ", ".join(f'<a href="{esc(o["url"])}">{esc(o["ref"])}</a>' for o in b["opinions"]) if b["opinions"] else esc(b["source"])
-        brd = f'<br><span class="cap">Regulatory Scrutiny Board: <strong style="font-weight: 600; color: #282424">{esc(seq)}</strong> · {src}</span>'
-    return (f'<p class="body" style="font-size: 15px; margin: 0"><span class="st" style="border-color: {col}; color: {col}">{esc(lab)}</span> {docs}{note}{brd}</p>')
+        brd = f'<span><strong style="font-weight: 600; color: #282424">{esc(seq[0].upper() + seq[1:])}</strong></span><span class="cap">Opinion: {src}</span>'
+    ia = f'<span><span class="st" style="border-color: {col}; color: {col}">{esc(lab)}</span></span>' + (f'<span>{docs}{note if docs else note.replace("· ", "", 1).strip()}</span>' if docs or note else "")
+    if not brd:   # the Board (since 2016; before it the Impact Assessment Board) only reviews impact assessments
+        brd = ('<span class="cap">No opinion: there was no impact assessment to review</span>' if x["status"] != "full"
+               else '<span class="cap">Proposed before the Board was set up in 2016</span>' if str(r["proposal_date"] or "")[:4] < "2016"
+               else '<span class="cap">No opinion found</span>')
+    return ia_panel([("Impact assessment", ia), ("Regulatory Scrutiny Board", brd)])
 PENDING = json.load(open("data/pending_amendments.json")) if os.path.exists("data/pending_amendments.json") else []
 STAND = json.load(open("site/forthcoming.json")) if os.path.exists("site/forthcoming.json") else {}
 TPL = open("site/instrument_template.dc.html").read()

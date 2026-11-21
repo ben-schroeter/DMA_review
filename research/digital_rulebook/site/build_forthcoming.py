@@ -206,11 +206,19 @@ def ia_status(f):
 for f in F:
     if f["stage"] in ("proposed", "agreed"):
         f["ia"] = ia_status(f)
-def ia_html(f):
+def ia_card(cols):
+    """Impact assessment (and Parliament's appraisal) in a card of their own, as on the law pages (site/build_instrument_pages.py)."""
+    cell = lambda eb, h: (f'<div style="display: flex; flex-direction: column; gap: 8px; min-width: 0"><p class="eyebrow" style="margin: 0">{eb}</p>'
+                          f'<div class="body" style="font-size: 15px; margin: 0; display: flex; flex-direction: column; gap: 6px">{h}</div></div>')
+    return ('<aside aria-label="Impact assessment" style="padding: 20px 24px; background: #FFFFFF; border: 1px solid #E8E6E3; border-radius: 12px; '
+            'display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px 40px">' + "".join(cell(e, h) for e, h in cols if h) + "</aside>")
+def ia_html(f, card=False):
     x = f.get("ia")
     com = [l for l in lit_of(f) if l.get("source_type") == "Commission impact assessment"]
     if (not x or x["status"] == "none") and com:   # e.g. withdrawn proposals: the register lookup finds nothing, the record has the impact assessment
         links = ", ".join(f'<a href="{esc(l.get("url") or l.get("pdf_url") or "")}">{esc(l.get("venue") or l.get("title"))}</a>' for l in com)
+        if card:
+            return ia_card([("Impact assessment", f'<span><span class="st" style="border-color: #2E7D5B; color: #2E7D5B">Full impact assessment</span></span><span>{links}</span>')])
         return (f'<p class="body" style="font-size: 15px; margin: 0"><span class="st" style="border-color: #2E7D5B; color: #2E7D5B">Impact assessment</span> {links}</p>')
     if not x: return ""
     col = "#2E7D5B" if x["status"] == "full" else "#9B3B3B"
@@ -218,6 +226,11 @@ def ia_html(f):
     extra = (f' <span class="cap">(executive summary {", ".join(swd_lab(r) for r in x["summary"])})</span>' if x["summary"] else "") + (' <span class="cap">· shared with the multimodal booking proposal</span>' if x["shared"] else "")
     ep = [l for l in lit_of(f) if re.search(r"Parliament.*impact assessment", l.get("source_type") or "")]
     ep_html = "".join(f'<br><span class="cap">European Parliament: <a href="{esc(l.get("url") or l.get("pdf_url") or "")}">{esc(l.get("title") or l.get("citation"))}</a> ({esc(l.get("source_type")[11:])}, {l.get("year")})</span>' for l in ep)
+    if card:
+        lab = "Full impact assessment" if x["status"] == "full" else IA_LABEL[x["status"]]
+        ia = f'<span><span class="st" style="border-color: {col}; color: {col}">{lab}</span></span>' + (f"<span>{refs}{extra}</span>" if refs else "")
+        epc = "".join(f'<span><a href="{esc(l.get("url") or l.get("pdf_url") or "")}">{esc(l.get("title") or l.get("citation"))}</a> <span class="cap">({esc(l.get("source_type")[11:])}, {l.get("year")})</span></span>' for l in ep)
+        return ia_card([("Impact assessment", ia), ("European Parliament", epc)])
     return (f'<p class="body" style="font-size: 15px; margin: 0"><span class="st" style="border-color: {col}; color: {col}">{IA_LABEL[x["status"]]}</span> '
             + (refs + extra if refs else "") + ep_html + "</p>")
 IA_N = {k: sum(1 for f in F if f.get("ia", {}).get("status") == k) for k in IA_LABEL}
@@ -423,7 +436,7 @@ def fpage(f, sub, intro, does, changes, docs, docs_title, docs_note, extra=""):
                  + "".join(f'<div style="display: flex; flex-direction: column; gap: 4px; padding: 16px 18px; border: 1px solid #E8E6E3; border-radius: 12px; background: #FFFFFF; min-width: 200px"><span class="cap">{a}</span><span style="font-family: \'Source Serif 4\', Georgia, serif; font-size: 22px">{b}</span></div>'
                           for a, b in sub) + "</div>")
     else:
-        where = track(f["track"], big=True) + ia_html(f)
+        where = track(f["track"], big=True) + '<div style="margin-top: 14px">' + ia_html(f, card=True) + "</div>"
     chg = "".join(f'<li style="display: block"><a href="{u}">{esc(t)}</a> <span class="cap">· {esc(how)}</span></li>' for t, how, u in changes)
     body = f'''
   <section style="padding-block: 48px 24px">
@@ -558,7 +571,7 @@ for f in F:
     <div class="wrap" style="display: flex; flex-direction: column; gap: 16px">
       <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px"><h2 class="h2">Where it stands</h2><span class="chip" style="border-color: {col}; color: {col}; font-weight: 600">{lab}</span><a class="cap" href="Forthcoming.dc.html">All forthcoming initiatives →</a></div>
       {track(f["track"], big=True)}
-      {ia_html(f)}
+      {ia_html(f, card=True)}
       <div style="padding: 16px 20px; border-left: 3px solid #B8860B; background: #FFFFFF; border-radius: 0 12px 12px 0"><p class="eyebrow" style="font-size: 12px">Latest · {AS_OF}</p><p class="body" style="margin-top: 6px">{esc(f["latest"])}</p></div>
       {dl}
     </div>
