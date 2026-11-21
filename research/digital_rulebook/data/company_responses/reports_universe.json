@@ -5424,7 +5424,10 @@
   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN094053_20090916.pdf",
   "source": "AMF (info-financiere.gouv.fr)",
   "kind": "pdf",
-  "status": "download failed: [Errno 2] No such file or directory: '/root/.cache/digital_rulebook/company_reports/_tmp.pdf'",
+  "chars": 673175,
+  "pages": 219,
+  "text_file": "txt_5591d35b2649f5efb7e69dbadcf449c13ce0f94a.txt",
+  "status": "ok",
   "checked": "2026-11-21",
   "language": "en"
  },
@@ -5436,7 +5439,10 @@
   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN115152_20090917.pdf",
   "source": "AMF (info-financiere.gouv.fr)",
   "kind": "pdf",
-  "status": "download failed: [Errno 2] No such file or directory: '/root/.cache/digital_rulebook/company_reports/_tmp.pdf'",
+  "chars": 791214,
+  "pages": 259,
+  "text_file": "txt_c0a36b6c3fc3588f79172882266958fe76b1b718.txt",
+  "status": "ok",
   "checked": "2026-11-21",
   "language": "en"
  },
@@ -10156,7 +10162,17 @@
  {
   "company": "cellnex",
   "year": 2015,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2015-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/1805/2016/10-K/1805_10-k_2016-02-19_c00bcaee-a7b7-4ded-b6c2-aa16e0b04ee2.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 2107373,
+  "pages": 292,
+  "text_file": "txt_4d38bb77b87c6fd3896d8b1b09de8a228af72e77.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "cellnex",
@@ -10166,7 +10182,17 @@
  {
   "company": "cellnex",
   "year": 2017,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2017-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/1805/2018/10-K/1805_10-k_2018-02-16_cbf2b545-7a77-4474-adf5-35b2fd39bfee.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 1224028,
+  "pages": 508,
+  "text_file": "txt_630842bc045423f6792665b8446a70179b3ad3fc.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "cellnex",
@@ -18844,17 +18870,47 @@
  {
   "company": "generali",
   "year": 2014,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2014-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/4190/2015/RNS/4190_rns_2015-04-07_bb50b78d-067e-47a6-b261-8aa36e2522ad.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 852291,
+  "pages": 347,
+  "text_file": "txt_13ce35db1853e07c87fb81861e303d755dd6f89b.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "generali",
   "year": 2015,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2015-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/4190/2016/10-K/4190_10-k_2016-04-05_cafa7d97-19a2-4f0a-9e01-4ac48916cbd9.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 873934,
+  "pages": 366,
+  "text_file": "txt_db6db8268bb218c68c79e368bece2e07f8965695.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "generali",
   "year": 2016,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2016-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/4190/2017/10-K/4190_10-k_2017-04-04_b5e9e247-51cc-4f2d-b05b-9bc6b0fa0b2e.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 838946,
+  "pages": 339,
+  "text_file": "txt_736ae0ff68ab7438807c891a107002135e4a3c1b.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "generali",
@@ -18864,17 +18920,47 @@
  {
   "company": "generali",
   "year": 2018,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2018-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/4190/2019/10-K/4190_10-k_2019-04-08_b632f5ce-19ea-4196-8e34-d3d01921eb0b.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 973029,
+  "pages": 359,
+  "text_file": "txt_c4e73c9c09daef300c106e5a9f5aa3630a17c9e3.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "generali",
   "year": 2019,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2019-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/4190/2020/10-K/4190_10-k_2020-04-16_07570f4f-fd01-4f9b-86ff-bf8b293826e1.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 677535,
+  "pages": 323,
+  "text_file": "txt_e08637cd6ba2a3e0bceb3a8575d2bd6e03085c8d.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "generali",
   "year": 2020,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2020-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/4190/2021/10-K/4190_10-k_2021-04-01_fed738b9-2753-4e7b-8497-be92739a5496.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 1221665,
+  "pages": 363,
+  "text_file": "txt_f2138b53ad8f18165df25d68a982fc180e8365ef.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "generali",
@@ -23441,72 +23527,212 @@
  {
   "company": "kpn",
   "year": 2007,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2007-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3858/2008/10-Q/3858_10-q_2008-02-20_ac8941d3-96c1-4d30-82a0-cd94b762c512.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 793370,
+  "pages": 236,
+  "text_file": "txt_1957cdb958da7d9d3da27263e7d2763c711b0cec.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "kpn",
   "year": 2008,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2008-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3858/2009/10-Q/3858_10-q_2009-02-12_11dd2546-aa81-4220-91c1-0f5750eaf47f.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 493200,
+  "pages": 157,
+  "text_file": "txt_64a05e8839156fbd5e9ab3e0256d4e23f62e1ad3.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "kpn",
   "year": 2009,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2009-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3858/2010/10-K/3858_10-k_2010-02-24_88c576ee-7444-4a30-a428-537fad1ed20e.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 528537,
+  "pages": 149,
+  "text_file": "txt_5c05944ba986bdcf65713b242b6b34402bfbe368.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "kpn",
   "year": 2010,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2010-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3858/2011/10-K/3858_10-k_2011-02-22_304793bc-3718-4ca0-b0bb-9d976d495c7c.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 507204,
+  "pages": 149,
+  "text_file": "txt_d2e60bd7a6a9e12df5cdacd0c209d475ba266997.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "kpn",
   "year": 2011,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2011-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3858/2012/10-K/3858_10-k_2012-04-20_617ca724-3753-4e22-a8c5-1e84472b3029.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 513544,
+  "pages": 153,
+  "text_file": "txt_bcd83d403afd4ff9e868ff7e2bc129d9090cd2cc.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "kpn",
   "year": 2012,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2012-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3858/2013/10-K/3858_10-k_2013-02-28_05d5e158-f3f8-426a-b5a1-551512456d6b.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 544820,
+  "pages": 165,
+  "text_file": "txt_16e92e9521d55d413f2ed07fe14975d1af5e0a94.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "kpn",
   "year": 2013,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2013-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3858/2014/10-K/3858_10-k_2014-02-27_b8730c6b-9ca5-4463-96d1-9a176437c1b0.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 758392,
+  "pages": 202,
+  "text_file": "txt_771f97c3476153cb6e7c66b28f89d68b6f8e89cf.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "kpn",
   "year": 2014,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2014-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3858/2015/10-K/3858_10-k_2015-02-27_a6085c24-c196-4ced-b9b8-c921fe630dda.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 781122,
+  "pages": 205,
+  "text_file": "txt_349f78bd13b5ba2634a1f19051765a4be4f5258a.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "kpn",
   "year": 2015,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2015-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3858/2016/10-K/3858_10-k_2016-02-25_3072df80-e7a4-4a42-acb9-e587d44fb4f9.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 642545,
+  "pages": 193,
+  "text_file": "txt_39dde981ceb9e84349eb13ccd3f10017a4ea4a8a.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "kpn",
   "year": 2016,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2016-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3858/2017/10-K/3858_10-k_2017-02-27_7e78b236-6fca-4775-8127-ed7697c43759.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 656266,
+  "pages": 217,
+  "text_file": "txt_dd009b55206dda6e81f604ec6d20575415529a33.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "kpn",
   "year": 2017,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2017-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3858/2018/10-K/3858_10-k_2018-02-26_ea79aa39-624f-4585-b127-b5fc21fb5c45.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 541227,
+  "pages": 167,
+  "text_file": "txt_9c2bff6e5be5717118308f0fb26238b96c9fe9d5.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "kpn",
   "year": 2018,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2018-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3858/2019/10-K/3858_10-k_2019-02-25_5a6d96cb-3037-4147-81d9-affc9a813f67.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 680266,
+  "pages": 253,
+  "text_file": "txt_998e8925674fa87835acb4a0bc00122a6b82b820.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "kpn",
   "year": 2019,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2019-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3858/2020/10-K/3858_10-k_2020-02-24_d526b4e8-7e42-4721-abac-4495796d68ba.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 703929,
+  "pages": 233,
+  "text_file": "txt_7943c6fa55d14c56bf734901d4025cb2cb99912b.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "kpn",
   "year": 2020,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2020-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3858/2021/10-K/3858_10-k_2021-02-22_67c8e0d7-12a9-407a-b74b-05c84ced2cab.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 731607,
+  "pages": 233,
+  "text_file": "txt_96f5930a46f871bce7078548005dd2c34dd407bf.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "kpn",
@@ -29848,7 +30074,10 @@
   "url": "https://www.sec.gov/Archives/edgar/data/313216/000095012310015062/u08188e20vf.htm",
   "source": "SEC EDGAR",
   "kind": "html",
-  "status": "download failed: HTTP Error 502: Bad Gateway",
+  "chars": 314398,
+  "pages": null,
+  "text_file": "txt_47e3b91fc0f3f5213860a399a02fd02b794548aa.txt",
+  "status": "ok",
   "checked": "2026-11-21",
   "language": "en"
  },
@@ -30396,47 +30625,137 @@
  {
   "company": "proximus",
   "year": 2009,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2009-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3989/2012/RNS/3989_rns_2012-03-16_14ba6d88-126b-48f4-857d-22e45a54753b.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 44,
+  "pages": 45,
+  "text_file": "txt_662d7b5547f34d1c32f29db617c897ac9a4643f6.txt",
+  "status": "too short",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "proximus",
   "year": 2010,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2010-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3989/2011/10-K/3989_10-k_2011-03-29_f8bf9c2f-ec51-4aa2-a7e2-7291355dcee4.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 526786,
+  "pages": 183,
+  "text_file": "txt_c1c43526cdd654789bd52836a6b5ba89e317e069.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "proximus",
   "year": 2011,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2011-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3989/2012/10-K/3989_10-k_2012-04-05_f57d50ba-395c-41a4-bf63-5043877d3053.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 491948,
+  "pages": 170,
+  "text_file": "txt_224f47ab9618e8b8f53aef230d050fcc627b9257.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "proximus",
   "year": 2012,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2012-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3989/2013/10-K/3989_10-k_2013-04-03_fcf9a9d3-c8db-4f74-b931-7a9e175710c1.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 305602,
+  "pages": 121,
+  "text_file": "txt_1cd171667d39d1fb2821f3c48cce0c8edb6ee9d9.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "proximus",
   "year": 2013,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2013-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3989/2014/10-K/3989_10-k_2014-04-02_c49f1492-9fed-4f66-881e-c79d0683f0b0.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 524421,
+  "pages": 170,
+  "text_file": "txt_48170022c2b67bec023851f305c3ba5850fac8fb.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "proximus",
   "year": 2014,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2014-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3989/2015/10-K/3989_10-k_2015-04-07_a3af5091-229b-4ff6-a24a-9f1f09133393.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 528134,
+  "pages": 301,
+  "text_file": "txt_3a11d10eb6b2d4d79008c90db262c27def20ac70.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "proximus",
   "year": 2015,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2015-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3989/2016/RNS/3989_rns_2016-03-18_9de6e78a-8a25-4777-929b-0244659f8bd5.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 2,
+  "pages": 3,
+  "text_file": "txt_b53a69451895cea6bff7953e34a6353fd79ed62c.txt",
+  "status": "too short",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "proximus",
   "year": 2016,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2016-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3989/2017/10-K/3989_10-k_2017-03-17_1d367cb1-6f0e-4a5b-8a46-0b66df2b0214.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 621173,
+  "pages": 314,
+  "text_file": "txt_d23f4d9d3a651538d6854ffeb8ef860e0ec08781.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "proximus",
   "year": 2017,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2017-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3989/2018/10-K/3989_10-k_2018-03-16_73a20590-30ac-4a13-b9d6-3b5f20e0f683.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 791905,
+  "pages": 360,
+  "text_file": "txt_ff35eb1ebe689f0a401157c43112cda94fd468fb.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "proximus",
@@ -30446,12 +30765,32 @@
  {
   "company": "proximus",
   "year": 2019,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2019-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3989/2020/10-K/3989_10-k_2020-03-13_5a3aed40-363c-4b8c-a969-b73971cd76a2.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 1047358,
+  "pages": 450,
+  "text_file": "txt_869ce3c0d1d0cae8db7f24ba6b2365e4a88b8a9c.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "proximus",
   "year": 2020,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2020-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3989/2021/10-K/3989_10-k_2021-03-19_cce10386-326e-4e8b-b052-95c63f623151.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 742560,
+  "pages": 315,
+  "text_file": "txt_04446156d227520c6064ce7807fb28273f1a75b8.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "proximus",
@@ -30516,7 +30855,17 @@
  {
   "company": "proximus",
   "year": 2025,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2025-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/3989/2026/RNS/3989_rns_2026-03-13_8eae1155-dda1-4b25-8590-bb12937b893b.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 1129712,
+  "pages": 407,
+  "text_file": "txt_1a2da029236bc4ba7305329cd9efac878d691443.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "proximus",
@@ -35330,12 +35679,32 @@
  {
   "company": "telecom-italia",
   "year": 2019,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2019-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/4448/2020/10-K/4448_10-k_2020-03-26_16783dfb-9fff-4c9d-8fc1-0bc2db6d5179.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 1387987,
+  "pages": 470,
+  "text_file": "txt_98f128979b0c6e6eeaf41eb3b902a2b256be49c4.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "telecom-italia",
   "year": 2020,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2020-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/4448/2021/10-K/4448_10-k_2021-03-10_f5f77a1a-1b38-4ce1-b0c7-a02693f9d258.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 1445061,
+  "pages": 469,
+  "text_file": "txt_af494611c33c8123c462c9e6740e0743bfb08177.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "telecom-italia",
@@ -35355,12 +35724,32 @@
  {
   "company": "telecom-italia",
   "year": 2022,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2022-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/4448/2023/10-K/4448_10-k_2023-03-30_78e5540b-d9f4-41fd-99e3-257ab6770c3c.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 1538867,
+  "pages": 444,
+  "text_file": "txt_d980b37b2a941d4a92434cc1ac4142c37409d9c7.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "telecom-italia",
   "year": 2023,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2023-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/4448/2024/10-K/4448_10-k_2024-03-26_9787eba3-a89b-40cc-b1e3-a3e569097770.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 1557185,
+  "pages": 452,
+  "text_file": "txt_ee8fdfda4601ea9aa9039e6dac8eeb9837c7f786.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "telecom-italia",
@@ -35667,7 +36056,10 @@
   "url": "https://www.sec.gov/Archives/edgar/data/814052/000095010317001636/dp73125_20f.htm",
   "source": "SEC EDGAR",
   "kind": "html",
-  "status": "download failed: HTTP Error 504: Gateway Time-out",
+  "chars": 1083763,
+  "pages": null,
+  "text_file": "txt_62cecc8e73cc64cab594bc4a6e66ab244ab6b97e.txt",
+  "status": "ok",
   "checked": "2026-11-21",
   "language": "en"
  },
@@ -35865,72 +36257,212 @@
  {
   "company": "telia",
   "year": 2007,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2007-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/2982/2008/10-K/2982_10-k_2008-03-17_6bc50184-8f07-40d1-9e4f-f4c7d925e81a.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 521759,
+  "pages": 132,
+  "text_file": "txt_87345e641a18e75a271a2eea679179c4ad03b3d1.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "telia",
   "year": 2008,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2008-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/2982/2009/10-K/2982_10-k_2009-03-18_b6a9f093-81e8-421e-b7f8-5e7e5341c079.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 540716,
+  "pages": 125,
+  "text_file": "txt_fe26d9a506207eb3b65e340886e6f3b069629ba6.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "telia",
   "year": 2009,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2009-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/2982/2010/10-K/2982_10-k_2010-03-22_ed4f11d9-4d04-4488-bc73-8d24bb234383.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 478742,
+  "pages": 107,
+  "text_file": "txt_14470483a95f46e9cc73daa77b2c87def9b59d39.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "telia",
   "year": 2010,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2010-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/2982/2011/10-K/2982_10-k_2011-03-16_2f73e389-cc2d-4b82-9a45-a3337588c43e.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 502995,
+  "pages": 115,
+  "text_file": "txt_15d8f94c57905a2abbdab06605c11d65f64a36ff.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "telia",
   "year": 2011,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2011-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/2982/2012/10-K/2982_10-k_2012-04-01_584cc20d-ea38-4a81-ab59-15469afccb5a.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 510142,
+  "pages": 125,
+  "text_file": "txt_49f6b2ad8f115540251a352e7cd9048007fbd3b6.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "telia",
   "year": 2012,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2012-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/2982/2013/10-K/2982_10-k_2013-03-13_24371285-a019-46aa-be00-d9a0a55a0b32.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 561164,
+  "pages": 139,
+  "text_file": "txt_a04c7d3fc56c77057683f78bb8489ddc1bb575a3.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "telia",
   "year": 2013,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2013-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/2982/2014/10-K/2982_10-k_2014-03-12_41a5d038-b1db-4492-a781-e16a48a27962.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 579859,
+  "pages": 147,
+  "text_file": "txt_194ee696db7c55c820cb69225939edebdbccc28b.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "telia",
   "year": 2014,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2014-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/2982/2015/10-K/2982_10-k_2015-03-18_da9fd7d7-c47b-4832-8642-4557f52a8fe0.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 744843,
+  "pages": 203,
+  "text_file": "txt_0fedb9a0dfc7f170721a2ba83e79a561f76365ea.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "telia",
   "year": 2015,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2015-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/2982/2016/10-K/2982_10-k_2016-03-22_e5b58db1-11d1-49c6-b8b7-085259d749c9.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 735319,
+  "pages": 221,
+  "text_file": "txt_1000b88fc1866c06429ebdf5987d54ef7c3bcc50.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "telia",
   "year": 2016,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2016-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/2982/2017/10-K/2982_10-k_2017-03-15_df15a875-4d72-4b2f-aec5-dd68c6f75f6b.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 774741,
+  "pages": 233,
+  "text_file": "txt_2b50d59ca5aa42e05b74ebd53703277191f68bdf.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "telia",
   "year": 2017,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2017-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/2982/2018/10-K/2982_10-k_2018-03-20_29018237-bcc9-45ac-b26a-e3b18a51f47c.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 780672,
+  "pages": 231,
+  "text_file": "txt_0878396ee1cc9b95a2fc444206744cfcebb0bb26.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "telia",
   "year": 2018,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2018-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/2982/2019/10-K/2982_10-k_2019-03-20_0fc3c964-d5b1-423c-8b06-fe9a10db4e45.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 819738,
+  "pages": 239,
+  "text_file": "txt_50833cde1f3344abfb9c69ea7af1c1bc1d75e8b0.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "telia",
   "year": 2019,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2019-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/2982/2020/10-K/2982_10-k_2020-03-12_27bd83b4-8cf1-4017-be5c-9d89f2108bdf.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 822946,
+  "pages": 242,
+  "text_file": "txt_4bdc772bc66610ef1d3634f630a5ce0569f57e3c.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "telia",
   "year": 2020,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2020-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/2982/2021/10-K/2982_10-k_2021-03-11_2d5145cd-011d-42f2-9b67-907a9e3790a2.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 849024,
+  "pages": 260,
+  "text_file": "txt_345ef65711a58d0a52d685ae6571b085dce04fc9.txt",
+  "status": "ok",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "telia",
@@ -39444,7 +39976,17 @@
  {
   "company": "wise",
   "year": 2021,
-  "status": "not found"
+  "form": "Annual report (financialreports.eu)",
+  "period_end": "2021-12-31",
+  "url": "https://cdn.financialreports.eu/financialreports/media/filings/5351/2021/RNS/5351_rns_2021-12-16_caa8411d-2b7d-4037-9f5b-8c3589b5d835.pdf",
+  "source": "financialreports.eu",
+  "kind": "pdf",
+  "chars": 18,
+  "pages": 19,
+  "text_file": "txt_ee06fc56668bcd43dd2a4ddfa47d40214c9c3df4.txt",
+  "status": "too short",
+  "checked": "2026-11-21",
+  "language": "en"
  },
  {
   "company": "wise",
