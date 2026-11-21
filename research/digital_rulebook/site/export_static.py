@@ -57,6 +57,7 @@ if args.original_names:   # one set of names only (no lower-case copies), so not
 dup = sorted(n for n in set(NAMES.values()) if list(NAMES.values()).count(n) > 1)
 assert not dup, dup
 LAWNAMES = {NAMES[f] for f in NAMES if LAWPAGE(f)}
+json.dump(NAMES, open(os.path.join(os.path.dirname(OUT.rstrip("/")) or ".", os.path.basename(OUT.rstrip("/")) + "_names.json"), "w"), indent=0)   # page -> file name, for site/export_both.py
 out_name = lambda f: NAMES.get(f) or (f.replace(".dc.html", ".html") if args.original_names else kebab(f))
 LINK = re.compile(r"\b([A-Za-z0-9_-]+)\.dc\.html")
 fix_links = lambda s: LINK.sub(lambda m: out_name(m.group(1) + ".dc.html"), s)
