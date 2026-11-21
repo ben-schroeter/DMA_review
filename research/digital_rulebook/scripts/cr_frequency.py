@@ -93,11 +93,18 @@ def main():
     args = sys.argv[1:]
     opt = {"--config": os.path.join(DATA, "universe", "universe.json"),
            "--manifest": os.path.join(DATA, "reports_universe.json"),
-           "--out": os.path.join(DATA, "frequency.csv"), "--patterns": None, "--out-prefix": None, "--procs": "4"}
+           "--out": os.path.join(DATA, "frequency.csv"), "--patterns": None, "--out-prefix": None, "--procs": "4", "--laws": None}
     for k in list(opt):
         if k in args:
             opt[k] = args[args.index(k) + 1]
     cfg = {c["id"]: c for c in json.load(open(opt["--config"]))["companies"]}
+    only = set(filter(None, (opt.get("--laws") or "").split(",")))
+    if only:   # remeasure some laws and update the existing compact outputs
+        tmp = os.path.join(DATA, "_patterns_subset.json")
+        d = json.load(open(opt["--patterns"]))
+        d["laws"] = [l for l in d["laws"] if l["id"] in only]
+        json.dump(d, open(tmp, "w"))
+        opt["--patterns"] = tmp
     _init(opt["--patterns"])
     laws = _LAWS
     reps = json.load(open(opt["--manifest"]))
@@ -132,18 +139,24 @@ def main():
     if opt["--out-prefix"]:
         P = opt["--out-prefix"]
         rep_cols = ["company", "name", "hq", "region", "groups", "year", "form", "source", "report_status", "language", "words"]
-        with open(P + "_reports.csv", "w", newline="", encoding="utf-8") as f:
+        with open(P + ("_reports_subset.csv" if only else "_reports.csv"), "w", newline="", encoding="utf-8") as f:
             w = csv.DictWriter(f, fieldnames=rep_cols, extrasaction="ignore")
             w.writeheader()
             w.writerows(dict(base(r), **({"language": meas[(r["company"], r["year"])][1], "words": meas[(r["company"], r["year"])][0]}
                                           if (r["company"], r["year"]) in meas else {})) for r in reps)
         names = {l["id"]: l["name"] for l in laws}
+        cols = ["company", "region", "year", "law", "law_name", "mentions", "paragraphs", "per_100k", "words", "matched", "context"]
+        new_rows = [dict(x, law_name=names[x["law"]]) for x in rows if x["mentions"]]
+        if only:   # keep the other laws' rows; summary rows are rebuilt for the remeasured laws only
+            old_rows = [x for x in csv.DictReader(open(P + "_mentions.csv", encoding="utf-8")) if x["law"] not in only]
+            new_rows = old_rows + new_rows
         with open(P + "_mentions.csv", "w", newline="", encoding="utf-8") as f:
-            cols = ["company", "region", "year", "law", "law_name", "mentions", "paragraphs", "per_100k", "words", "matched", "context"]
             w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
             w.writeheader()
-            w.writerows(dict(x, law_name=names[x["law"]]) for x in rows if x["mentions"])
+            w.writerows(new_rows)
         out_summary = P + "_summary.csv"
+        if only:
+            os.remove(os.path.join(DATA, "_patterns_subset.json"))
     else:
         cols = ["company", "name", "hq", "region", "groups", "year", "form", "source", "report_status", "language", "words",
                 "law", "mentions", "paragraphs", "per_100k"]
@@ -164,6 +177,8 @@ def main():
         summ.append({"region": g, "year": y, "law": l, "reports": len(xs),
                      "share_mentioning": round(sum(x["mentions"] > 0 for x in xs) / len(xs), 3),
                      "mean_per_100k": round(statistics.mean(rates), 3), "median_per_100k": round(statistics.median(rates), 3)})
+    if only and os.path.exists(out_summary):
+        summ = [x for x in csv.DictReader(open(out_summary, encoding="utf-8")) if x["law"] not in only] + summ
     with open(out_summary, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(summ[0].keys()))
         w.writeheader()

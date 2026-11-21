@@ -141,6 +141,7 @@ NOT_BEFORE = {
     86: COUNTRY_BEFORE, 74: COUNTRY_BEFORE, 139: r"(?i)(China|Chinese|Korea|India|UAE)\s*$", 140: r"(?i)(UK|China|Chinese)\s*$",
     11: r"(?i)(UK|national)\s*$", 14: r"(?i)(UK|national)\s*$",
 }
+NO_BASE_NAME = {76, 133}   # 'Data Act' and 'Services Directive' alone are too generic; only the curated forms count
 NOT_AFTER = {37: r"^\s*(of|20\d\d)", 76: r"^\s*(\(|of|20\d\d)", 68: r"^s?\s*(20\d\d)"}
 
 
@@ -182,7 +183,7 @@ def main():
             missing.append((rid, name))
         names, abbrev, conflicts = NAMES.get(rid, ([], [], []))
         base = re.sub(r"\s*\([^)]*\)\s*$", "", name).strip()          # 'Payment Services Directive 2 (PSD2)' -> name
-        full = [re.escape(base)] + list(names) + number_patterns(ident)
+        full = ([] if rid in NO_BASE_NAME else [re.escape(base)]) + list(names) + number_patterns(ident)
         laws.append({"id": f"R{rid}", "row_id": rid, "scope": "eu", "name": name, "identifier": ident, "min_year": min_year(r[ix["proposal_date"]]),
                      "policy_area": r[ix["policy_area"]], "full": list(dict.fromkeys(full)), "abbrev": abbrev,
                      "abbrev_conflicts": conflicts, "not_before": NOT_BEFORE.get(rid, ""), "not_after": NOT_AFTER.get(rid, "")})

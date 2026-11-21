@@ -1304,7 +1304,6 @@
    "min_year": 2021,
    "policy_area": "Data & Privacy",
    "full": [
-    "Data\\ Act",
     "(?:EU|European Union|EU['’]s|European|[Tt]he) Data Act(?! [0-9]{4})(?! of)",
     "Data Act \\((?:EU|Regulation)",
     "(?i)règlement (européen )?sur les données",
@@ -2050,7 +2049,6 @@
    "min_year": 2003,
    "policy_area": "Competition & Single Market",
    "full": [
-    "Services\\ Directive",
     "(EU|European|Single Market) Services Directive",
     "Bolkestein Directive",
     "Directive on services in the internal market",
