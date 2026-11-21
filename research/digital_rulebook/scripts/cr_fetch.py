@@ -22,7 +22,7 @@ WEB_UA = "Mozilla/5.0 (compatible; EU Digital Rulebook research)"
 YEARS = range(int(os.environ.get("CR_FROM", "2016")), 2027)   # CR_FROM=2000 for the frequency study
 
 
-def get(url, ua, binary=True, sleep=0.25, retries=6):
+def get(url, ua, binary=True, sleep=0.4, retries=6):
     os.makedirs(CACHE, exist_ok=True)
     path = os.path.join(CACHE, "raw_" + hashlib.sha1(url.encode()).hexdigest())
     if os.path.exists(path):
@@ -57,6 +57,7 @@ def html_to_text(raw):
     """Tag-stripping extraction that keeps block boundaries as blank lines."""
     import html as _html
     t = raw.decode("utf-8", "replace") if isinstance(raw, bytes) else raw
+    t = re.sub(r"(?ms)^begin \d{3} \S+$.*?^end$", " ", t)          # uuencoded files in .txt submissions
     t = re.sub(r"(?is)<(script|style|ix:header)\b.*?</\1>", " ", t)
     t = BLOCK.sub("\n\n", t)
     t = re.sub(r"(?s)<[^>]+>", " ", t)
@@ -106,7 +107,8 @@ def sec_annual_filings(cik):
             if gap < 20:
                 period = f"{int(filed[:4]) - 1}-12-31"
             acc = r["accessionNumber"][i]
-            url = f"https://www.sec.gov/Archives/edgar/data/{cik}/{acc.replace('-', '')}/{r['primaryDocument'][i]}"
+            doc = r["primaryDocument"][i] or f"{acc}.txt"   # older filings: complete submission text file
+            url = f"https://www.sec.gov/Archives/edgar/data/{cik}/{acc.replace('-', '')}/{doc}"
             out.append({"form": form, "filed": filed, "period_end": period, "accession": acc, "url": url})
     return out
 
@@ -124,9 +126,10 @@ def sec_filings_for(ciks):
     return out
 
 
-def sec_exhibits(url):
-    """Annual-report exhibits of a 20-F (some issuers, e.g. Orange, file the
-    Registration Document as Exhibit 15.1 and keep only a cross-reference in the 20-F)."""
+def sec_exhibits(url, form="20-F"):
+    """Annual-report exhibits: for a 20-F, EX-15 / EX-99 (Orange files its Registration Document
+    as Exhibit 15.1, Vodafone its annual report as Exhibit 99.1); for a 10-K, EX-13 (annual report
+    to shareholders incorporated by reference, e.g. Wells Fargo). In a 20-F, Exhibit 13 is a certification."""
     base = url.rsplit("/", 1)[0]
     idx = get(base + "/", SEC_UA, binary=False)
     out = []
@@ -134,7 +137,9 @@ def sec_exhibits(url):
         name = m.group(1).rsplit("/", 1)[1].lower()
         if name == url.rsplit("/", 1)[1].lower():
             continue
-        if re.search(r"ex-?15|ex15|ex-?99|ex99|exh?_?15|exhibit_?15|exhibit_?99|registration|annualreport|dex151|dex991", name):
+        pat = (r"ex-?13|ex13|exh?_?13|exhibit_?13|dex13|annualreport" if form.startswith("10-K") else
+               r"ex-?15|ex15|ex-?99|ex99|exh?_?15|exhibit_?15|exhibit_?99|registration|annualreport|dex151|dex991")
+        if re.search(pat, name):
             out.append("https://www.sec.gov" + m.group(1))
     return out
 
@@ -190,9 +195,17 @@ def main():
             r.update(found[y])
             try:
                 ua = SEC_UA if r["source"] == "SEC EDGAR" else WEB_UA
-                text = to_text(r["url"], ua, r["kind"])
-                if r.get("form") == "20-F":   # annual report may be an exhibit (EX-15.1, EX-99.1)
-                    ex = sec_exhibits(r["url"])
+                try:
+                    text = to_text(r["url"], ua, r["kind"])
+                except Exception as e:
+                    # early-2000s EDGAR records name documents that are not on the server:
+                    # fall back to the complete submission text file
+                    if r["source"] != "SEC EDGAR" or getattr(e, "code", None) != 404:
+                        raise
+                    r["url"] = r["url"].rsplit("/", 1)[0] + "/" + r["accession"] + ".txt"
+                    text = to_text(r["url"], ua, r["kind"])
+                if r.get("form") in ("20-F", "10-K", "10-K405") and not r["url"].endswith(".txt"):
+                    ex = sec_exhibits(r["url"], r["form"])   # annual report may be an exhibit
                     parts = [(u, to_text(u, ua, "html")) for u in ex]
                     parts = [(u, t) for u, t in parts if len(t) > 100_000]
                     if parts:
