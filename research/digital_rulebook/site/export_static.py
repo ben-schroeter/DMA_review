@@ -16,6 +16,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--assets", default="site/assets_blob")
 ap.add_argument("--out", default="site_export")
 ap.add_argument("--base", default="https://eutechlaws.org/")
+ap.add_argument("--original-names", action="store_true", help="name every page as in the mockup (Rules.html, About.html, Act-...html; front page index.html) and link to those names")
 ap.add_argument("--no-legacy-names", action="store_true", help="skip the .htaccess redirects from the old <Page>.html names")
 args = ap.parse_args()
 
@@ -50,10 +51,13 @@ for f in sorted(seen):
         NAMES[f] = slug(re.search(r"<title>(.*?)</title>", open(os.path.join(SRC, f)).read(), re.S).group(1).split(":")[0]) + ".html"
     else:
         NAMES[f] = kebab(f)
+if args.original_names:   # one set of names only (no lower-case copies), so nothing clashes on case-insensitive disks
+    NAMES = {f: ("index.html" if f == "Main.dc.html" else f.replace(".dc.html", ".html")) for f in NAMES}
+    args.no_legacy_names = True
 dup = sorted(n for n in set(NAMES.values()) if list(NAMES.values()).count(n) > 1)
 assert not dup, dup
 LAWNAMES = {NAMES[f] for f in NAMES if LAWPAGE(f)}
-out_name = lambda f: NAMES.get(f) or kebab(f)
+out_name = lambda f: NAMES.get(f) or (f.replace(".dc.html", ".html") if args.original_names else kebab(f))
 LINK = re.compile(r"\b([A-Za-z0-9_-]+)\.dc\.html")
 fix_links = lambda s: LINK.sub(lambda m: out_name(m.group(1) + ".dc.html"), s)
 
@@ -136,10 +140,12 @@ open(os.path.join(OUT, "README.txt"), "w").write(
     "eutechlaws.org: static export of The EU Digital Rulebook\n\n"
     "Upload the contents of this folder to the web root of the server (for example public_html/), keeping the\n"
     "folder structure. index.html is the front page. No PHP, database or build step is needed; any web server works.\n"
+    + ("Pages keep their original names (Rules.html, About.html, Act-...html), as in the design files; links use the same names.\n"
+       if args.original_names else
     ".htaccess (a hidden file: make sure it is uploaded too) redirects the old upper-case page names, such as Rules.html,\n"
     "to the current lower-case pages; it needs Apache with mod_alias (standard on shared hosting). On other servers the old\n"
     "names are served by small redirect pages (Rules.html and so on) included in the folder; only names that differ from\n"
-    "the new ones in letter case alone (About.html) rely on .htaccess.\n"
+    "the new ones in letter case alone (About.html) rely on .htaccess.\n") +
     "Interactive pages (Digital Acquis list, Studies library, law pages, Infographics) use dc-lite.js.\n"
     "Fonts load from Google Fonts. Regenerate with: python3 site/export_static.py (from research/digital_rulebook).\n")
 
