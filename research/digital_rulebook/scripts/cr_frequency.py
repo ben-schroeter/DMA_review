@@ -48,56 +48,107 @@ def region(hq):
     return "US" if hq == "US" else "UK" if hq == "GB" else "EU" if hq in EU27 else hq
 
 
+_LAWS = None
+
+
+def _init(path):
+    global _LAWS
+    _LAWS = [l for l in cc.load_laws(path) if l["scope"] == "eu"]
+
+
+def measure(r):
+    """Words, language and per-law mentions for one report (runs in a worker process)."""
+    text = cc.ZW.sub("", open(os.path.join(cc.CACHE, r["text_file"]), encoding="utf-8").read())
+    seen, paras = set(), []
+    for _, p in cc.paragraphs(text):
+        if len(p) >= 80:
+            if p in seen:
+                continue
+            seen.add(p)
+        paras.append(p)
+    flat = " ".join(paras)
+    nwords = len(WORD.findall(flat))
+    lang = language(flat[: min(len(flat), 400_000)])
+    offs, pos = [], 0
+    for p in paras:
+        offs.append(pos)
+        pos += len(p) + 1
+    res = {}
+    for l in _LAWS:
+        full = any(rx.search(flat) for rx in l["full_re"]) and not any(rx.search(flat) for rx in l["conflict_re"])
+        ms = cc.match_law(l, flat, full)
+        if ms:
+            m = ms[0]
+            res[l["id"]] = {"mentions": len(ms), "paragraphs": len({bisect.bisect_right(offs, x.start()) for x in ms}),
+                            "matched": m.group(0), "context": re.sub(r"\s+", " ", flat[max(0, m.start() - 150):m.end() + 150])}
+    return nwords, lang, res
+
+
 def main():
+    """Default: the three pilot laws, long format (frequency.csv: one row per report x law).
+    With --patterns FILE (e.g. law_patterns_all.json) and --out-prefix P: compact output for many laws,
+    P_reports.csv (one row per report), P_mentions.csv (report x law with at least one mention, with the
+    first match and its context for checking) and P_summary.csv (region x year x law, zeros included)."""
+    from multiprocessing import Pool
     args = sys.argv[1:]
     opt = {"--config": os.path.join(DATA, "universe", "universe.json"),
            "--manifest": os.path.join(DATA, "reports_universe.json"),
-           "--out": os.path.join(DATA, "frequency.csv")}
+           "--out": os.path.join(DATA, "frequency.csv"), "--patterns": None, "--out-prefix": None, "--procs": "4"}
     for k in list(opt):
         if k in args:
             opt[k] = args[args.index(k) + 1]
     cfg = {c["id"]: c for c in json.load(open(opt["--config"]))["companies"]}
-    laws = [l for l in cc.load_laws() if l["scope"] == "eu"]
-    rows = []
-    for r in json.load(open(opt["--manifest"])):
+    _init(opt["--patterns"])
+    laws = _LAWS
+    reps = json.load(open(opt["--manifest"]))
+    ok = [r for r in reps if r.get("status") == "ok"]
+    with Pool(int(opt["--procs"]), initializer=_init, initargs=(opt["--patterns"],)) as pool:
+        results = pool.map(measure, ok, chunksize=4)
+    meas = {(r["company"], r["year"]): x for r, x in zip(ok, results)}
+
+    def base(r):
         c = cfg.get(r["company"], {})
         hq = c.get("hq", "")
-        base = {"company": r["company"], "name": c.get("name", r["company"]), "hq": hq, "region": region(hq),
+        return {"company": r["company"], "name": c.get("name", r["company"]), "hq": hq, "region": region(hq),
                 "groups": "; ".join(c.get("groups", [])), "year": r["year"], "form": r.get("form", ""),
                 "source": r.get("source", ""), "report_status": r.get("status", "")}
-        if r.get("status") != "ok":
-            for l in laws:
-                rows.append(dict(base, law=l["id"]))
+
+    rows = []      # long rows, used for the summary
+    for r in reps:
+        b = base(r)
+        if (r["company"], r["year"]) not in meas:
             continue
-        text = cc.ZW.sub("", open(os.path.join(cc.CACHE, r["text_file"]), encoding="utf-8").read())
-        seen, paras = set(), []
-        for _, p in cc.paragraphs(text):
-            if len(p) >= 80:
-                if p in seen:
-                    continue
-                seen.add(p)
-            paras.append(p)
-        flat = " ".join(paras)
-        nwords = len(WORD.findall(flat))
-        lang = language(flat[: min(len(flat), 400_000)])
-        offs, pos = [], 0
-        for p in paras:
-            offs.append(pos)
-            pos += len(p) + 1
+        nwords, lang, res = meas[(r["company"], r["year"])]
         for l in laws:
-            full = any(rx.search(flat) for rx in l["full_re"]) and not any(rx.search(flat) for rx in l["conflict_re"])
-            ms = cc.match_law(l, flat, full)
-            npara = len({bisect.bisect_right(offs, m.start()) for m in ms})
-            rows.append(dict(base, language=lang, words=nwords, law=l["id"], mentions=len(ms), paragraphs=npara,
-                             per_100k=round(1e5 * len(ms) / nwords, 3) if nwords else ""))
-        print(r["company"], r["year"], lang, nwords, [x["mentions"] for x in rows[-len(laws):]], flush=True)
-    cols = ["company", "name", "hq", "region", "groups", "year", "form", "source", "report_status", "language", "words",
-            "law", "mentions", "paragraphs", "per_100k"]
-    with open(opt["--out"], "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=cols)
-        w.writeheader()
-        w.writerows(rows)
-    # summary by region x year x law
+            x = res.get(l["id"], {})
+            n = x.get("mentions", 0)
+            rows.append(dict(b, language=lang, words=nwords, law=l["id"], mentions=n, paragraphs=x.get("paragraphs", 0),
+                             per_100k=round(1e5 * n / nwords, 3) if nwords else "", matched=x.get("matched", ""),
+                             context=x.get("context", "")))
+    if opt["--out-prefix"]:
+        P = opt["--out-prefix"]
+        rep_cols = ["company", "name", "hq", "region", "groups", "year", "form", "source", "report_status", "language", "words"]
+        with open(P + "_reports.csv", "w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=rep_cols, extrasaction="ignore")
+            w.writeheader()
+            w.writerows(dict(base(r), **({"language": meas[(r["company"], r["year"])][1], "words": meas[(r["company"], r["year"])][0]}
+                                          if (r["company"], r["year"]) in meas else {})) for r in reps)
+        names = {l["id"]: l["name"] for l in laws}
+        with open(P + "_mentions.csv", "w", newline="", encoding="utf-8") as f:
+            cols = ["company", "region", "year", "law", "law_name", "mentions", "paragraphs", "per_100k", "words", "matched", "context"]
+            w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
+            w.writeheader()
+            w.writerows(dict(x, law_name=names[x["law"]]) for x in rows if x["mentions"])
+        out_summary = P + "_summary.csv"
+    else:
+        cols = ["company", "name", "hq", "region", "groups", "year", "form", "source", "report_status", "language", "words",
+                "law", "mentions", "paragraphs", "per_100k"]
+        with open(opt["--out"], "w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
+            w.writeheader()
+            w.writerows(rows)
+            w.writerows(dict(base(r), law=l["id"]) for r in reps if (r["company"], r["year"]) not in meas for l in laws)
+        out_summary = opt["--out"].replace(".csv", "_summary.csv")
     groups = {}
     for x in rows:
         if x.get("per_100k", "") == "":
@@ -109,10 +160,11 @@ def main():
         summ.append({"region": g, "year": y, "law": l, "reports": len(xs),
                      "share_mentioning": round(sum(x["mentions"] > 0 for x in xs) / len(xs), 3),
                      "mean_per_100k": round(statistics.mean(rates), 3), "median_per_100k": round(statistics.median(rates), 3)})
-    with open(opt["--out"].replace(".csv", "_summary.csv"), "w", newline="", encoding="utf-8") as f:
+    with open(out_summary, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(summ[0].keys()))
         w.writeheader()
         w.writerows(summ)
+    print(len(ok), "reports measured;", len(laws), "laws")
 
 
 if __name__ == "__main__":

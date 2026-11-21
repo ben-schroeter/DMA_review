@@ -43,12 +43,22 @@ ZW = re.compile("[\u200b\u200c\u200d\u2060\ufeff\u00ad]")   # zero-width charact
 SENT = re.compile(r"(?<=[.!?;])\s+(?=[A-Z(“\"])")
 
 
-def load_laws():
-    laws = json.load(open(os.path.join(DATA, "law_patterns.json")))["laws"]
+def _combine(pats):
+    """One alternation per law; a leading (?i) becomes a scoped (?i:...) group. Used only to test
+    whether a report names a law at all (a single alternation is slower than separate patterns
+    for finding every match, because Python's re loses its literal-prefix search)."""
+    parts = ["(?i:" + p[4:] + ")" if p.startswith("(?i)") else "(?:" + p + ")" for p in pats]
+    return re.compile("|".join(parts)) if parts else None
+
+
+def load_laws(path=None):
+    laws = json.load(open(path or os.path.join(DATA, "law_patterns.json")))["laws"]
     for l in laws:
         l["full_re"] = [re.compile(p) for p in l["full"]]
         l["abbrev_re"] = [re.compile(p) for p in l["abbrev"]]
-        l["nb_re"] = re.compile(l["not_before"]) if l["not_before"] else None
+        l["full_cre"], l["abbrev_cre"] = _combine(l["full"]), _combine(l["abbrev"])
+        l["nb_re"] = re.compile(l["not_before"]) if l.get("not_before") else None
+        l["na_re"] = re.compile(l["not_after"]) if l.get("not_after") else None
         l["conflict_re"] = [re.compile(p) for p in l.get("abbrev_conflicts", [])]
     return laws
 
@@ -82,10 +92,11 @@ def match_law(law, flat, doc_has_full):
     """Matches on the whole report (paragraphs joined by spaces), so names split
     across HTML blocks or PDF lines are still found."""
     hits = []
-    pats = law["full_re"] + (law["abbrev_re"] if doc_has_full else [])
-    for rx in pats:
+    for rx in law["full_re"] + (law["abbrev_re"] if doc_has_full else []):
         for m in rx.finditer(flat):
             if law["nb_re"] and law["nb_re"].search(flat[max(0, m.start() - 40):m.start()]):
+                continue
+            if law.get("na_re") and law["na_re"].search(flat[m.end():m.end() + 20]):
                 continue
             hits.append(m)
     # drop matches contained in a longer match (e.g. 'GDPR' inside 'EU and UK GDPR')
