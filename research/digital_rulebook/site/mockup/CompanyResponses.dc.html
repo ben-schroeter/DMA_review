@@ -56,7 +56,7 @@ h2.h2{position:relative;padding-left:18px}h2.h2::before{content:"";position:abso
       </nav>
       <p class="eyebrow">In Numbers · What companies say</p>
       <h1 class="h1" style="max-width: 22ch">Annual reports show growing importance of EU tech laws</h1>
-      <p class="body">What do the companies that EU tech law is aimed at tell their investors about it? We read <span data-fact="cr_reports">2,497</span> annual reports of <span data-fact="cr_companies">134</span> large companies, from <span data-fact="cr_year_first">2000</span> to 2025, and counted how often each report names each of the <span data-fact="cr_laws_total">110</span> EU digital laws in this database. The result is a measure of attention: which laws companies consider important enough to put in front of investors, and when. It does not measure what the laws cost or whether companies comply.</p>
+      <p class="body">This page analyses which EU tech laws companies flag to their investors. We show how the importance of EU laws has developed over time, and what triggers disclosure. Attention to EU tech laws has grown in two waves: first with the GDPR and then with the DMA, DSA, and AI Act.</p>
     </div>
   </section>
 
@@ -73,8 +73,8 @@ h2.h2{position:relative;padding-left:18px}h2.h2::before{content:"";position:abso
     <div class="wrap">
       <div style="padding: 24px 28px; border: 1px solid #E8E6E3; border-radius: 12px; background: #FFFFFF; display: flex; flex-direction: column; gap: 10px; max-width: 860px">
         <p style="margin: 0; font-weight: 600">How we measured it</p>
-        <p class="body" style="font-size: 15.5px">The companies are those in the Fortune 100 and in the DAX, CAC 40, FTSE 100 and EURO STOXX 50 indices that are headquartered in the EU, the UK or the US and belong to one of the <a href="CompanyTypes.dc.html">six types of company</a>, plus a few large platform, cloud, telecoms, payments and hardware firms outside those lists. Their annual reports come from the US Securities and Exchange Commission (10-K and 20-F filings), from the EU's electronic annual reports (ESEF), and from company and regulator archives. For each report we count every mention of each law, by its name, its abbreviation or its official number, in English, French, German, Italian, Spanish, Dutch and Swedish, per 100,000 words, in the spirit of <a href="https://doi.org/10.1093/qje/qjz021">Hassan, Hollander, van Lent and Tahoun (2019)</a>. Samples of matches were checked by hand for every law, and names that also mean other things were excluded.</p>
-        <p class="body" style="font-size: 15.5px">The set of reports changes over time: companies list, sources change, and a US filing is shorter than a French registration document. So we show two lines: the raw average across all reports each year, and the change within the same companies and sources (a regression with company, year, source and language effects).</p>
+        <p class="body" style="font-size: 15.5px">The companies are those in the Fortune 100 and in the DAX, CAC 40, FTSE 100 and EURO STOXX 50 indices that are headquartered in the EU, the UK or the US and belong to one of the <a href="CompanyTypes.dc.html">six types of company</a>&nbsp;(with a few exceptions). Their annual reports come from the US Securities and Exchange Commission (10-K and 20-F filings), from the EU's electronic annual reports (ESEF), and from company and regulator archives. For each report we count every mention of each law, by its name, its abbreviation or its official number, in English, French, German, Italian, Spanish, Dutch and Swedish, per 100,000 words, in the spirit of <a href="https://doi.org/10.1093/qje/qjz021">Hassan, Hollander, van Lent and Tahoun (2019)</a>. Samples of matches were checked by hand for every law, and names that also mean other things were excluded.</p>
+        <p class="body" style="font-size: 15.5px">The set of reports changes over time: companies list, sources change, and a US filing is shorter than a French registration document. So we show two lines: the raw average across all reports each year, and the change within the same companies and sources (a regression with company, year, source and language fixed effects).</p>
       </div>
     </div>
   </section>
@@ -154,7 +154,7 @@ h2.h2{position:relative;padding-left:18px}h2.h2::before{content:"";position:abso
         </div>
         <div style="display: flex; flex-direction: column; gap: 10px; padding: 24px; border: 1px solid #E8E6E3; border-radius: 12px; background: #FFFFFF">
           <p class="eyebrow">The gatekeepers and the Digital Markets Act</p>
-          <p class="body" style="font-size: 16px">Apple's mentions of the Digital Markets Act rose from <span data-fact="cr_apple_dma_2023">6</span> to <span data-fact="cr_apple_dma_2024">41</span> per 100,000 words between its 2023 and 2024 reports, when the obligations started to apply to the App Store. Meta's rose from <span data-fact="cr_meta_dma_2022">24</span> to <span data-fact="cr_meta_dma_2024">40</span>; Booking discussed it heavily even before it was designated in 2024.</p>
+          <p class="body" style="font-size: 16px">Apple's mentions of the Digital Markets Act rose from <span data-fact="cr_apple_dma_2023">6</span> to <span data-fact="cr_apple_dma_2024">41</span> per 100,000 words between its 2023 and 2024 reports, when the obligations started to apply to the App Store; Meta's rose from <span data-fact="cr_meta_dma_2022">24</span> to <span data-fact="cr_meta_dma_2024">40</span>.</p>
         </div>
         <div style="display: flex; flex-direction: column; gap: 10px; padding: 24px; border: 1px solid #E8E6E3; border-radius: 12px; background: #FFFFFF">
           <p class="eyebrow">The AI Act</p>
@@ -173,7 +173,7 @@ h2.h2{position:relative;padding-left:18px}h2.h2::before{content:"";position:abso
   </footer>
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":6835}}'>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":6710}}'>
 class Component extends DCLogic {
   renderVals() { return {}; }
 }
