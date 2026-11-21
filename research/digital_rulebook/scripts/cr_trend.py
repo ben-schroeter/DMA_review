@@ -12,7 +12,8 @@ Three ways of holding composition constant:
               and report-language dummies; year coefficients relative to the base year, with
               standard errors clustered by company. The FE model also runs on SEC filings only.
 
-  python3 cr_trend.py [--from 2010] [--to 2025] [--exclude R127,R129] [--out trend_controls.csv]
+  python3 cr_trend.py [--from 2010] [--to 2025] [--exclude R127,R129] [--out trend_controls.csv] [--by-type]
+  --by-type also writes trend_by_type.csv (raw means and FE per main company type).
 """
 import collections, csv, json, math, os, sys
 import numpy as np
@@ -105,6 +106,30 @@ def main():
                 b, s = est.get(t, (0.0, 0.0)) if t != y0 else (0.0, 0.0)
                 res.append({"method": f"{label}: {k}", "year": t, "n_reports": n, "n_companies": nc,
                             "coef": round(float(b), 3), "se": round(float(s), 3)})
+    # by company type (main type, as in universe/company_list.md): raw means and FE per type
+    if "--by-type" in a:
+        u = json.load(open(os.path.join(DATA, "universe", "universe.json")))["companies"]
+        main = {c["id"]: (c.get("company_types") or "").split(";")[0] for c in u}
+        res2 = []
+        for ty in ("GK", "PL", "CL", "TC", "FI", "PR"):
+            sub = [r for r in rows if main.get(r["company"]) == ty]
+            for t in years:
+                xs = [r for r in sub if r["year"] == t]
+                if xs:
+                    res2.append({"type": ty, "method": "raw", "year": t, "n_reports": len(xs),
+                                 **{k: round(sum(f(r) for r in xs) / len(xs), 3) for k, f in outcomes.items()}})
+            for k, f in outcomes.items():
+                est, nc, n = fe_years(sub, f, years, y0)
+                for t in years:
+                    b, s = est.get(t, (0.0, 0.0)) if t != y0 else (0.0, 0.0)
+                    res2.append({"type": ty, "method": f"fe: {k}", "year": t, "n_reports": n, "n_companies": nc,
+                                 "coef": round(float(b), 3), "se": round(float(s), 3)})
+        with open(os.path.join(DATA, "trend_by_type.csv"), "w", newline="", encoding="utf-8") as fh:
+            w = csv.DictWriter(fh, fieldnames=["type", "method", "year", "n_reports", "n_companies", "laws", "log_rate",
+                                               "non_gdpr", "coef", "se"])
+            w.writeheader()
+            w.writerows(res2)
+        print("wrote trend_by_type.csv")
     out = os.path.join(DATA, get("--out", "trend_controls.csv"))
     cols = ["method", "year", "n_reports", "n_companies", "laws", "log_rate", "non_gdpr", "coef", "se"]
     with open(out, "w", newline="", encoding="utf-8") as fh:
