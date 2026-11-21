@@ -30,7 +30,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "PL",
-   "type_status": "borderline",
+   "type_status": "exclude",
+   "exclude": "retailer that also runs a large online marketplace (US only)",
    "esef_reports": {}
   },
   {
@@ -46,7 +47,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "borderline",
+   "type_status": "exclude",
+   "exclude": "health insurer (and Optum health data); finance type covers insurers, but EU finance law hardly reaches US health insurance",
    "esef_reports": {}
   },
   {
@@ -72,6 +74,11 @@
     "Fortune 100 (#5)"
    ],
    "sec_ciks": [
+    {
+     "cik": 1288776,
+     "to": 2014,
+     "note": "Google Inc."
+    },
     1652044
    ],
    "lei": null,
@@ -94,7 +101,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "borderline",
+   "type_status": "exclude",
+   "exclude": "pharmacy chain with Aetna health insurance",
    "esef_reports": {}
   },
   {
@@ -110,7 +118,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "include",
+   "type_status": "exclude",
+   "exclude": "conglomerate; insurance is its core (GEICO, General Re)",
    "esef_reports": {}
   },
   {
@@ -228,7 +237,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "borderline",
+   "type_status": "exclude",
+   "exclude": "health insurer",
    "esef_reports": {}
   },
   {
@@ -293,7 +303,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "borderline",
+   "type_status": "exclude",
+   "exclude": "health insurer",
    "esef_reports": {}
   },
   {
@@ -309,7 +320,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "borderline",
+   "type_status": "exclude",
+   "exclude": "health insurer",
    "esef_reports": {}
   },
   {
@@ -368,6 +380,11 @@
     "Fortune 100 (#23)"
    ],
    "sec_ciks": [
+    {
+     "cik": 40730,
+     "to": 2008,
+     "note": "old General Motors Corp."
+    },
     1467858
    ],
    "lei": null,
@@ -423,7 +440,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "include",
+   "type_status": "exclude",
+   "exclude": "mortgage finance",
    "esef_reports": {}
   },
   {
@@ -506,7 +524,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "include",
+   "type_status": "exclude",
+   "exclude": "brokerage, payments",
    "esef_reports": {}
   },
   {
@@ -520,7 +539,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "include",
+   "type_status": "exclude",
+   "exclude": "mutual insurer; no SEC filings",
    "note": "mutual / member-owned; does not file 10-Ks with the SEC",
    "esef_reports": {}
   },
@@ -537,7 +557,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "include",
+   "type_status": "exclude",
+   "exclude": "mortgage finance",
    "esef_reports": {}
   },
   {
@@ -553,7 +574,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "borderline",
+   "type_status": "exclude",
+   "exclude": "health insurer",
    "esef_reports": {}
   },
   {
@@ -595,6 +617,11 @@
     "Fortune 100 (#37)"
    ],
    "sec_ciks": [
+    {
+     "cik": 22301,
+     "to": 2001,
+     "note": "old Comcast Corp."
+    },
     1166691
    ],
    "lei": null,
@@ -660,6 +687,11 @@
     "Fortune 100 (#41)"
    ],
    "sec_ciks": [
+    {
+     "cik": 826083,
+     "to": 2013,
+     "note": "Dell Inc."
+    },
     1571996
    ],
    "lei": null,
@@ -716,7 +748,7 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "PL",
-   "type_status": "borderline",
+   "type_status": "include",
    "esef_reports": {}
   },
   {
@@ -834,7 +866,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "include",
+   "type_status": "exclude",
+   "exclude": "insurer",
    "esef_reports": {}
   },
   {
@@ -968,7 +1001,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "include",
+   "type_status": "exclude",
+   "exclude": "insurer",
    "esef_reports": {}
   },
   {
@@ -1016,7 +1050,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "include",
+   "type_status": "exclude",
+   "exclude": "mutual insurer; no SEC filings",
    "note": "mutual / member-owned; does not file 10-Ks with the SEC",
    "esef_reports": {}
   },
@@ -1049,7 +1084,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "include",
+   "type_status": "exclude",
+   "exclude": "insurer",
    "esef_reports": {}
   },
   {
@@ -1065,7 +1101,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "PR",
-   "type_status": "borderline",
+   "type_status": "exclude",
+   "exclude": "connected machinery (telematics: Data Act connected products)",
    "esef_reports": {}
   },
   {
@@ -1129,7 +1166,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "include",
+   "type_status": "exclude",
+   "exclude": "mutual insurer; no SEC filings",
    "note": "mutual / member-owned; does not file 10-Ks with the SEC",
    "esef_reports": {}
   },
@@ -1140,6 +1178,11 @@
     "Fortune 100 (#70)"
    ],
    "sec_ciks": [
+    {
+     "cik": 1441634,
+     "to": 2015,
+     "note": "Avago Technologies"
+    },
     1649338,
     1730168
    ],
@@ -1214,7 +1257,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "PR",
-   "type_status": "borderline",
+   "type_status": "exclude",
+   "exclude": "IT distributor, not a maker (CRA/GPSR distributor duties only)",
    "esef_reports": {}
   },
   {
@@ -1247,7 +1291,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "include",
+   "type_status": "exclude",
+   "exclude": "crypto-asset services",
    "esef_reports": {}
   },
   {
@@ -1280,7 +1325,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "include",
+   "type_status": "exclude",
+   "exclude": "insurer",
    "esef_reports": {}
   },
   {
@@ -1341,6 +1387,11 @@
     "Fortune 100 (#82)"
    ],
    "sec_ciks": [
+    {
+     "cik": 777676,
+     "to": 2005,
+     "note": "Oracle Systems / old Oracle Corp."
+    },
     1341439
    ],
    "lei": null,
@@ -1478,7 +1529,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "PR",
-   "type_status": "borderline",
+   "type_status": "exclude",
+   "exclude": "IT distributor and cloud marketplace, not a maker",
    "esef_reports": {}
   },
   {
@@ -1525,7 +1577,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "include",
+   "type_status": "exclude",
+   "exclude": "member-owned insurer and bank; no SEC filings",
    "note": "mutual / member-owned; does not file 10-Ks with the SEC",
    "esef_reports": {}
   },
@@ -1540,7 +1593,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "include",
+   "type_status": "exclude",
+   "exclude": "retirement and asset management; no SEC 10-K",
    "note": "mutual / member-owned; does not file 10-Ks with the SEC",
    "esef_reports": {}
   },
@@ -1555,7 +1609,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "include",
+   "type_status": "exclude",
+   "exclude": "mutual insurer; no SEC filings",
    "note": "mutual / member-owned; does not file 10-Ks with the SEC",
    "esef_reports": {}
   },
@@ -1572,7 +1627,8 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "include",
+   "type_status": "exclude",
+   "exclude": "insurer",
    "esef_reports": {}
   },
   {
@@ -1637,8 +1693,25 @@
    "hq": "US",
    "legal_name": null,
    "company_types": "FI",
-   "type_status": "include",
+   "type_status": "exclude",
+   "exclude": "mutual insurer; no SEC filings",
    "note": "mutual / member-owned; does not file 10-Ks with the SEC",
+   "esef_reports": {}
+  },
+  {
+   "id": "salesforce",
+   "name": "Salesforce",
+   "groups": [
+    "Added: major CL/PL company"
+   ],
+   "sec_ciks": [
+    1108524
+   ],
+   "lei": "RCGZFPDMRW58VJ54VR07",
+   "hq": "US",
+   "legal_name": "SALESFORCE, INC.",
+   "company_types": "CL;PL",
+   "type_status": "proposed",
    "esef_reports": {}
   },
   {
@@ -1681,7 +1754,9 @@
     "DAX",
     "EURO STOXX 50"
    ],
-   "sec_ciks": [],
+   "sec_ciks": [
+    1127508
+   ],
    "lei": "529900K9B0N5BT694847",
    "hq": "DE",
    "legal_name": "Allianz SE",
@@ -1791,7 +1866,8 @@
    "hq": "DE",
    "legal_name": null,
    "company_types": "PR",
-   "type_status": "borderline",
+   "type_status": "exclude",
+   "exclude": "automotive electronics spun off (Aumovio, 2025); now mainly tyres",
    "esef_reports": {}
   },
   {
@@ -2071,7 +2147,8 @@
    "hq": "DE",
    "legal_name": null,
    "company_types": "PR",
-   "type_status": "borderline",
+   "type_status": "exclude",
+   "exclude": "holding company; its main asset is Volkswagen",
    "esef_reports": {}
   },
   {
@@ -2160,7 +2237,9 @@
     "DAX",
     "EURO STOXX 50"
    ],
-   "sec_ciks": [],
+   "sec_ciks": [
+    1135644
+   ],
    "lei": "W38RGI023J3WT1HWRP32",
    "hq": "DE",
    "legal_name": "Siemens Aktiengesellschaft",
@@ -2311,7 +2390,9 @@
     "CAC 40",
     "EURO STOXX 50"
    ],
-   "sec_ciks": [],
+   "sec_ciks": [
+    898427
+   ],
    "lei": "F5WCUMTUM4RKZ1MAIE39",
    "hq": "FR",
    "legal_name": "AXA",
@@ -2573,7 +2654,9 @@
    "groups": [
     "CAC 40"
    ],
-   "sec_ciks": [],
+   "sec_ciks": [
+    1016118
+   ],
    "lei": "96950065LBWY0APQIM86",
    "hq": "FR",
    "legal_name": "DASSAULT SYSTEMES",
@@ -2655,33 +2738,9 @@
    "hq": "FR",
    "legal_name": "ESSILORLUXOTTICA",
    "company_types": "PR",
-   "type_status": "borderline",
-   "esef_reports": {
-    "2021": {
-     "url": "https://filings.xbrl.org/549300M3VH1A3ER1TB49/2021-12-31/ESEF/FR/0/el-2021-12-31AR/reports/el-2021-12-31AR.xhtml",
-     "period_end": "2021-12-31",
-     "country": "FR",
-     "language": ""
-    },
-    "2022": {
-     "url": "https://filings.xbrl.org/549300M3VH1A3ER1TB49/2022-12-31/ESEF/FR/0/el-2022-12-31-fr/reports/el-2022-12-31-fr.xhtml",
-     "period_end": "2022-12-31",
-     "country": "FR",
-     "language": "fr"
-    },
-    "2023": {
-     "url": "https://filings.xbrl.org/549300M3VH1A3ER1TB49/2023-12-31/ESEF/FR/0/el-2023-12-31-fr/reports/el-2023-12-31-fr.xhtml",
-     "period_end": "2023-12-31",
-     "country": "FR",
-     "language": "fr"
-    },
-    "2024": {
-     "url": "https://filings.xbrl.org/549300M3VH1A3ER1TB49/2024-12-31/ESEF/FR/0/el-2024-12-31-0-fr/reports/el-2024-12-31-0-fr.xhtml",
-     "period_end": "2024-12-31",
-     "country": "FR",
-     "language": "fr"
-    }
-   }
+   "type_status": "exclude",
+   "exclude": "eyewear; makes Ray-Ban Meta smart glasses",
+   "esef_reports": {}
   },
   {
    "id": "eurofins-scientific",
@@ -2928,12 +2987,14 @@
    "groups": [
     "CAC 40"
    ],
-   "sec_ciks": [],
+   "sec_ciks": [
+    1050952
+   ],
    "lei": "2138004KW8BV57III342",
    "hq": "FR",
    "legal_name": "PUBLICIS GROUPE SA",
    "company_types": "CL",
-   "type_status": "borderline",
+   "type_status": "include",
    "esef_reports": {
     "2021": {
      "url": "https://filings.xbrl.org/2138004KW8BV57III342/2021-12-31/ESEF/FR/0/publicis-2021-12-31-fr/reports/publicis-2021-12-31-fr.xhtml",
@@ -3156,6 +3217,11 @@
     "CAC 40"
    ],
    "sec_ciks": [
+    {
+     "cik": 842317,
+     "to": 2013,
+     "note": "Fiat S.p.A."
+    },
     1605484
    ],
    "lei": "549300LKT9PW7ZIBDF31",
@@ -3163,6 +3229,7 @@
    "legal_name": "STELLANTIS N.V.",
    "company_types": "PR",
    "type_status": "include",
+   "note": "CIK 842317 = Fiat S.p.A., predecessor (2000s 20-Fs)",
    "esef_reports": {
     "2021": {
      "url": "https://filings.xbrl.org/549300LKT9PW7ZIBDF31/2021-12-31/ESEF/NL/0/stellantis-2021-12-31-en/reports/stellantis-2021-12-31-en.xhtml",
@@ -3829,7 +3896,9 @@
    "groups": [
     "FTSE 100"
    ],
-   "sec_ciks": [],
+   "sec_ciks": [
+    756620
+   ],
    "lei": "213800LRO7NS5CYQMN21",
    "hq": "GB",
    "legal_name": "BT GROUP PLC",
@@ -4268,39 +4337,9 @@
    "hq": "GB",
    "legal_name": "HALMA PUBLIC LIMITED COMPANY",
    "company_types": "PR",
-   "type_status": "borderline",
-   "esef_reports": {
-    "2022": {
-     "url": "https://filings.xbrl.org/2138007FRGLUR9KGBT40/2022-03-31/ESEF/GB/0/2138007FRGLUR9KGBT40-2022-03-31/reports/2138007FRGLUR9KGBT40-2022-03-31-T01.xhtml",
-     "period_end": "2022-03-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2023": {
-     "url": "https://filings.xbrl.org/2138007FRGLUR9KGBT40/2023-03-31/ESEF/GB/0/2138007FRGLUR9KGBT40-2023-03-31/reports/2138007FRGLUR9KGBT40-2023-03-31-T01.xhtml",
-     "period_end": "2023-03-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2024": {
-     "url": "https://filings.xbrl.org/2138007FRGLUR9KGBT40/2024-03-31/ESEF/GB/0/2138007FRGLUR9KGBT40-2024-03-31/reports/2138007FRGLUR9KGBT40-2024-03-31-T01.xhtml",
-     "period_end": "2024-03-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2025": {
-     "url": "https://filings.xbrl.org/2138007FRGLUR9KGBT40/2025-03-31/ESEF/GB/0/2138007FRGLUR9KGBT40-2025-03-31/reports/2138007FRGLUR9KGBT40-2025-03-31-T01.xhtml",
-     "period_end": "2025-03-31",
-     "country": "GB",
-     "language": ""
-    },
-    "2026": {
-     "url": "https://filings.xbrl.org/2138007FRGLUR9KGBT40/2026-03-31/ESEF/GB/0/2138007FRGLUR9KGBT40-2026-03-31/reports/2138007FRGLUR9KGBT40-2026-03-31-T01.xhtml",
-     "period_end": "2026-03-31",
-     "country": "GB",
-     "language": ""
-    }
-   }
+   "type_status": "exclude",
+   "exclude": "safety and environmental sensors",
+   "esef_reports": {}
   },
   {
    "id": "hiscox",
@@ -4509,7 +4548,7 @@
    "hq": "GB",
    "legal_name": "INFORMA PLC",
    "company_types": "PL",
-   "type_status": "borderline",
+   "type_status": "include",
    "esef_reports": {
     "2021": {
      "url": "https://filings.xbrl.org/5493006VM2LKUPSEDU20/2021-12-31/ESEF/GB/0/5493006VM2LKUPSEDU20-2021-12-31/reports/5493006VM2LKUPSEDU20-2021-12-31-T01.xhtml",
@@ -5028,7 +5067,7 @@
    "hq": "GB",
    "legal_name": "NEXT PLC",
    "company_types": "PL",
-   "type_status": "borderline",
+   "type_status": "include",
    "esef_reports": {
     "2022": {
      "url": "https://filings.xbrl.org/213800WQD8ECPZP9PH98/2022-01-29/ESEF/GB/0/213800WQD8ECPZP9PH98-2022-01-29/reports/213800WQD8ECPZP9PH98-2022-01-29-T01.xhtml",
@@ -5075,7 +5114,7 @@
    "hq": "GB",
    "legal_name": "PEARSON PLC",
    "company_types": "PL",
-   "type_status": "borderline",
+   "type_status": "include",
    "esef_reports": {
     "2021": {
      "url": "https://filings.xbrl.org/2138004JBXWWJKIURC57/2021-12-31/ESEF/GB/0/2138004JBXWWJKIURC57-2021-12-31/reports/2138004JBXWWJKIURC57-2021-12-31-T01.xhtml",
@@ -5770,7 +5809,7 @@
    "hq": "GB",
    "legal_name": "WPP PLC",
    "company_types": "CL",
-   "type_status": "borderline",
+   "type_status": "include",
    "esef_reports": {
     "2021": {
      "url": "https://filings.xbrl.org/549300LSGBXPYHXGDT93/2021-12-31/ESEF/GB/0/549300LSGBXPYHXGDT93-2021-12-31/reports/549300LSGBXPYHXGDT93-2021-12-31-T01.xhtml",
@@ -5917,7 +5956,7 @@
    "hq": "NL",
    "legal_name": "ASML Holding N.V.",
    "company_types": "PR",
-   "type_status": "borderline",
+   "type_status": "include",
    "esef_reports": {
     "2021": {
      "url": "https://filings.xbrl.org/724500Y6DUVHQD6OXN27/2021-12-31/ESEF/NL/0/asml-2021-12-31-en/reports/asml-2021-12-31-en.xhtml",
@@ -6102,39 +6141,9 @@
    "hq": "IT",
    "legal_name": "FERRARI N.V.",
    "company_types": "PR",
-   "type_status": "borderline",
-   "esef_reports": {
-    "2021": {
-     "url": "https://filings.xbrl.org/549300RIVY5EX8RCON76/2021-12-31/ESEF/NL/0/race-2021-12-31-en/reports/race-2021-12-31-en.xhtml",
-     "period_end": "2021-12-31",
-     "country": "NL",
-     "language": "en"
-    },
-    "2022": {
-     "url": "https://filings.xbrl.org/549300RIVY5EX8RCON76/2022-12-31/ESEF/NL/0/race-2022-12-31-en/reports/race-2022-12-31-en.xhtml",
-     "period_end": "2022-12-31",
-     "country": "NL",
-     "language": "en"
-    },
-    "2023": {
-     "url": "https://filings.xbrl.org/549300RIVY5EX8RCON76/2023-12-31/ESEF/NL/0/race-2023-12-31-en/reports/race-2023-12-31-en.xhtml",
-     "period_end": "2023-12-31",
-     "country": "NL",
-     "language": "en"
-    },
-    "2024": {
-     "url": "https://filings.xbrl.org/549300RIVY5EX8RCON76/2024-12-31/ESEF/NL/0/race-2024-12-31-en/reports/race-2024-12-31-en.xhtml",
-     "period_end": "2024-12-31",
-     "country": "NL",
-     "language": "en"
-    },
-    "2025": {
-     "url": "https://filings.xbrl.org/549300RIVY5EX8RCON76/2025-12-31/ESEF/NL/0/race-2025-12-31-1-en/reports/race-2025-12-31-1-en.xhtml",
-     "period_end": "2025-12-31",
-     "country": "NL",
-     "language": "en"
-    }
-   }
+   "type_status": "exclude",
+   "exclude": "cars with limited connected features",
+   "esef_reports": {}
   },
   {
    "id": "iberdrola",
@@ -6419,26 +6428,2732 @@
  ],
  "web_reports": {
   "capgemini": {
-   "2016": "https://investors.capgemini.com/en/file/16870?download=1",
-   "2017": "https://investors.capgemini.com/en/file/8825?download=1",
-   "2018": "https://investors.capgemini.com/en/file/13002?download=1",
-   "2019": "https://investors.capgemini.com/en/file/15064?download=1",
-   "2020": "https://investors.capgemini.com/en/file/16754?download=1",
-   "2021": "https://investors.capgemini.com/en/file/22708?download=1",
-   "2022": "https://investors.capgemini.com/en/file/24133?download=1",
-   "2023": "https://investors.capgemini.com/en/file/26225?download=1",
-   "2024": "https://investors.capgemini.com/en/file/28667?download=1",
-   "2025": "https://investors.capgemini.com/en/file/30242?download=1"
+   "2016": {
+    "url": "https://investors.capgemini.com/en/file/16870?download=1",
+    "source": "company website"
+   },
+   "2017": {
+    "url": "https://investors.capgemini.com/en/file/8825?download=1",
+    "source": "company website"
+   },
+   "2018": {
+    "url": "https://investors.capgemini.com/en/file/13002?download=1",
+    "source": "company website"
+   },
+   "2019": {
+    "url": "https://investors.capgemini.com/en/file/15064?download=1",
+    "source": "company website"
+   },
+   "2020": {
+    "url": "https://investors.capgemini.com/en/file/16754?download=1",
+    "source": "company website"
+   },
+   "2021": {
+    "url": "https://investors.capgemini.com/en/file/22708?download=1",
+    "source": "company website"
+   },
+   "2022": {
+    "url": "https://investors.capgemini.com/en/file/24133?download=1",
+    "source": "company website"
+   },
+   "2023": {
+    "url": "https://investors.capgemini.com/en/file/26225?download=1",
+    "source": "company website"
+   },
+   "2024": {
+    "url": "https://investors.capgemini.com/en/file/28667?download=1",
+    "source": "company website"
+   },
+   "2025": {
+    "url": "https://investors.capgemini.com/en/file/30242?download=1",
+    "source": "company website"
+   }
   },
   "deutsche-telekom": {
-   "2018": "https://report.telekom.com/annual-report-2018/servicepages/downloads/files/entire_dtag_ar18.pdf",
-   "2019": "https://report.telekom.com/annual-report-2019/servicepages/downloads/files/entire_dtag_ar19.pdf",
-   "2020": "https://report.telekom.com/annual-report-2020/_assets/downloads/entire-dtag-ar20.pdf",
-   "2021": "https://report.telekom.com/annual-report-2021/_assets/downloads/entire-dtag-ar21.pdf",
-   "2022": "https://report.telekom.com/annual-report-2022/_assets/downloads/entire-dtag-ar22.pdf",
-   "2023": "https://report.telekom.com/annual-report-2023/_assets/downloads/entire-dtag-ar23.pdf",
-   "2024": "https://report.telekom.com/annual-report-2024/_assets/downloads/entire-dtag-ar24.pdf",
-   "2025": "https://report.telekom.com/annual-report-2025/_assets/downloads/entire-dtag-ar25.pdf"
+   "2001": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/NYSE_DT_2001.pdf",
+    "source": "annualreports.com"
+   },
+   "2002": {
+    "url": "https://irpages2.eqs.com/download/companies/deutschetelekom/Annual%20Reports/DE0005557508-JA-2002-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2003": {
+    "url": "https://irpages2.eqs.com/download/companies/deutschetelekom/Annual%20Reports/DE0005557508-JA-2003-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2004": {
+    "url": "https://irpages2.eqs.com/download/companies/deutschetelekom/Annual%20Reports/DE0005557508-JA-2004-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2005": {
+    "url": "https://irpages2.eqs.com/download/companies/deutschetelekom/Annual%20Reports/DE0005557508-JA-2005-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2006": {
+    "url": "https://irpages2.eqs.com/download/companies/deutschetelekom/Annual%20Reports/DE0005557508-JA-2006-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2007": {
+    "url": "https://irpages2.eqs.com/download/companies/deutschetelekom/Annual%20Reports/DE0005557508-JA-2007-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2008": {
+    "url": "https://irpages2.eqs.com/download/companies/deutschetelekom/Annual%20Reports/DE0005557508-JA-2008-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2009": {
+    "url": "https://irpages2.eqs.com/download/companies/deutschetelekom/Annual%20Reports/DE0005557508-JA-2009-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2010": {
+    "url": "https://irpages2.eqs.com/download/companies/deutschetelekom/Annual%20Reports/DE0005557508-JA-2010-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2011": {
+    "url": "https://irpages2.eqs.com/download/companies/deutschetelekom/Annual%20Reports/DE0005557508-JA-2011-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2012": {
+    "url": "https://irpages2.eqs.com/download/companies/deutschetelekom/Annual%20Reports/DE0005557508-JA-2012-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2013": {
+    "url": "https://irpages2.eqs.com/download/companies/deutschetelekom/Annual%20Reports/DE0005557508-JA-2013-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2014": {
+    "url": "https://irpages2.eqs.com/download/companies/deutschetelekom/Annual%20Reports/DE0005557508-JA-2014-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2015": {
+    "url": "https://irpages2.eqs.com/download/companies/deutschetelekom/Annual%20Reports/DE0005557508-JA-2015-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2016": {
+    "url": "https://irpages2.eqs.com/download/companies/deutschetelekom/Annual%20Reports/DE0005557508-JA-2016-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2017": {
+    "url": "https://irpages2.eqs.com/download/companies/deutschetelekom/Annual%20Reports/DE0005557508-JA-2017-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2018": {
+    "url": "https://report.telekom.com/annual-report-2018/servicepages/downloads/files/entire_dtag_ar18.pdf",
+    "source": "company website"
+   },
+   "2019": {
+    "url": "https://report.telekom.com/annual-report-2019/servicepages/downloads/files/entire_dtag_ar19.pdf",
+    "source": "company website"
+   },
+   "2020": {
+    "url": "https://report.telekom.com/annual-report-2020/_assets/downloads/entire-dtag-ar20.pdf",
+    "source": "company website"
+   },
+   "2021": {
+    "url": "https://report.telekom.com/annual-report-2021/_assets/downloads/entire-dtag-ar21.pdf",
+    "source": "company website"
+   },
+   "2022": {
+    "url": "https://report.telekom.com/annual-report-2022/_assets/downloads/entire-dtag-ar22.pdf",
+    "source": "company website"
+   },
+   "2023": {
+    "url": "https://report.telekom.com/annual-report-2023/_assets/downloads/entire-dtag-ar23.pdf",
+    "source": "company website"
+   },
+   "2024": {
+    "url": "https://report.telekom.com/annual-report-2024/_assets/downloads/entire-dtag-ar24.pdf",
+    "source": "company website"
+   },
+   "2025": {
+    "url": "https://report.telekom.com/annual-report-2025/_assets/downloads/entire-dtag-ar25.pdf",
+    "source": "company website"
+   }
+  },
+  "allianz": {
+   "2000": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NYSE_AZ_2000.pdf",
+    "source": "annualreports.com"
+   },
+   "2001": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NYSE_AZ_2001.pdf",
+    "source": "annualreports.com"
+   },
+   "2002": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NYSE_AZ_2002.pdf",
+    "source": "annualreports.com"
+   },
+   "2003": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NYSE_AZ_2003.pdf",
+    "source": "annualreports.com"
+   },
+   "2004": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NYSE_AZ_2004.pdf",
+    "source": "annualreports.com"
+   },
+   "2005": {
+    "url": "https://irpages2.eqs.com/download/companies/allianz/Annual%20Reports/DE0008404005-JA-2005-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2006": {
+    "url": "https://irpages2.eqs.com/download/companies/allianz/Annual%20Reports/DE0008404005-JA-2006-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2007": {
+    "url": "https://irpages2.eqs.com/download/companies/allianz/Annual%20Reports/DE0008404005-JA-2007-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2008": {
+    "url": "https://irpages2.eqs.com/download/companies/allianz/Annual%20Reports/DE0008404005-JA-2008-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2009": {
+    "url": "https://irpages2.eqs.com/download/companies/allianz/Annual%20Reports/DE0008404005-JA-2009-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2010": {
+    "url": "https://irpages2.eqs.com/download/companies/allianz/Annual%20Reports/DE0008404005-JA-2010-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2011": {
+    "url": "https://irpages2.eqs.com/download/companies/allianz/Annual%20Reports/DE0008404005-JA-2011-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2012": {
+    "url": "https://irpages2.eqs.com/download/companies/allianz/Annual%20Reports/DE0008404005-JA-2012-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2013": {
+    "url": "https://irpages2.eqs.com/download/companies/allianz/Annual%20Reports/DE0008404005-JA-2013-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2014": {
+    "url": "https://irpages2.eqs.com/download/companies/allianz/Annual%20Reports/DE0008404005-JA-2014-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2015": {
+    "url": "https://irpages2.eqs.com/download/companies/allianz/Annual%20Reports/DE0008404005-JA-2015-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2016": {
+    "url": "https://irpages2.eqs.com/download/companies/allianz/Annual%20Reports/DE0008404005-JA-2016-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2017": {
+    "url": "https://irpages2.eqs.com/download/companies/allianz/Annual%20Reports/DE0008404005-JA-2017-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2018": {
+    "url": "https://irpages2.eqs.com/download/companies/allianz/Annual%20Reports/DE0008404005-JA-2018-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2019": {
+    "url": "https://irpages2.eqs.com/download/companies/allianz/Annual%20Reports/DE0008404005-JA-2019-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2020": {
+    "url": "https://irpages2.eqs.com/download/companies/allianz/Annual%20Reports/DE0008404005-JA-2020-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2021": {
+    "url": "https://irpages2.eqs.com/download/companies/allianz/Annual%20Reports/DE0008404005-JA-2021-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2022": {
+    "url": "https://irpages2.eqs.com/download/companies/allianz/Annual%20Reports/DE0008404005-JA-2022-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2023": {
+    "url": "https://irpages2.eqs.com/download/companies/allianz/Annual%20Reports/DE0008404005-JA-2023-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2024": {
+    "url": "https://irpages2.eqs.com/download/companies/allianz/Annual%20Reports/DE0008404005-JA-2024-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2025": {
+    "url": "https://irpages2.eqs.com/download/companies/allianz/Annual%20Reports/DE0008404005-JA-2025-EQ-E-00.pdf",
+    "source": "company website"
+   }
+  },
+  "siemens": {
+   "2005": {
+    "url": "https://irpages2.eqs.com/download/companies/siemens/Annual%20Reports/DE0007236101-JA-2005-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2006": {
+    "url": "https://irpages2.eqs.com/download/companies/siemens/Annual%20Reports/DE0007236101-JA-2006-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2007": {
+    "url": "https://irpages2.eqs.com/download/companies/siemens/Annual%20Reports/DE0007236101-JA-2007-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2008": {
+    "url": "https://irpages2.eqs.com/download/companies/siemens/Annual%20Reports/DE0007236101-JA-2008-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2009": {
+    "url": "https://irpages2.eqs.com/download/companies/siemens/Annual%20Reports/DE0007236101-JA-2009-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2010": {
+    "url": "https://irpages2.eqs.com/download/companies/siemens/Annual%20Reports/DE0007236101-JA-2010-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2011": {
+    "url": "https://irpages2.eqs.com/download/companies/siemens/Annual%20Reports/DE0007236101-JA-2011-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2012": {
+    "url": "https://irpages2.eqs.com/download/companies/siemens/Annual%20Reports/DE0007236101-JA-2012-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2013": {
+    "url": "https://irpages2.eqs.com/download/companies/siemens/Annual%20Reports/DE0007236101-JA-2013-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2014": {
+    "url": "https://irpages2.eqs.com/download/companies/siemens/Annual%20Reports/DE0007236101-JA-2014-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2015": {
+    "url": "https://irpages2.eqs.com/download/companies/siemens/Annual%20Reports/DE0007236101-JA-2015-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2016": {
+    "url": "https://irpages2.eqs.com/download/companies/siemens/Annual%20Reports/DE0007236101-JA-2016-EQ-E-02.pdf",
+    "source": "company website"
+   },
+   "2017": {
+    "url": "https://irpages2.eqs.com/download/companies/siemens/Annual%20Reports/DE0007236101-JA-2017-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2018": {
+    "url": "https://irpages2.eqs.com/download/companies/siemens/Annual%20Reports/DE0007236101-JA-2018-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2019": {
+    "url": "https://irpages2.eqs.com/download/companies/siemens/Annual%20Reports/DE0007236101-JA-2019-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2020": {
+    "url": "https://irpages2.eqs.com/download/companies/siemens/Annual%20Reports/DE0007236101-JA-2020-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2021": {
+    "url": "https://irpages2.eqs.com/download/companies/siemens/Annual%20Reports/DE0007236101-JA-2021-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2022": {
+    "url": "https://irpages2.eqs.com/download/companies/siemens/Annual%20Reports/DE0007236101-JA-2022-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2023": {
+    "url": "https://irpages2.eqs.com/download/companies/siemens/Annual%20Reports/DE0007236101-JA-2023-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2024": {
+    "url": "https://irpages2.eqs.com/download/companies/siemens/Annual%20Reports/DE0007236101-JA-2024-EQ-E-00.pdf",
+    "source": "company website"
+   }
+  },
+  "infineon-technologies": {
+   "2002": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2002-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2003": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2003-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2004": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2004-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2005": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2005-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2006": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2006-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2007": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2007-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2008": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2008-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2009": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2009-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2010": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2010-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2011": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2011-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2012": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2012-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2013": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2013-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2014": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2014-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2015": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2015-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2016": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2016-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2017": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2017-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2018": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2018-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2019": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2019-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2020": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2020-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2021": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2021-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2022": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2022-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2023": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2023-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2024": {
+    "url": "https://irpages2.eqs.com/download/companies/infineon/Annual%20Reports/DE0006231004-JA-2024-EQ-E-00.pdf",
+    "source": "company website"
+   }
+  },
+  "bmw": {
+   "2006": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2006.pdf",
+    "source": "annualreports.com"
+   },
+   "2007": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2007.pdf",
+    "source": "annualreports.com"
+   },
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2009": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2009.pdf",
+    "source": "annualreports.com"
+   },
+   "2010": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2010.pdf",
+    "source": "annualreports.com"
+   },
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://irpages2.eqs.com/download/companies/bmw/Annual%20Reports/DE0005190003-JA-2013-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2014": {
+    "url": "https://irpages2.eqs.com/download/companies/bmw/Annual%20Reports/DE0005190003-JA-2014-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2015": {
+    "url": "https://irpages2.eqs.com/download/companies/bmw/Annual%20Reports/DE0005190003-JA-2015-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2016": {
+    "url": "https://irpages2.eqs.com/download/companies/bmw/Annual%20Reports/DE0005190003-JA-2016-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2017": {
+    "url": "https://irpages2.eqs.com/download/companies/bmw/Annual%20Reports/DE0005190003-JA-2017-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2018": {
+    "url": "https://irpages2.eqs.com/download/companies/bmw/Annual%20Reports/DE0005190003-JA-2018-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2019": {
+    "url": "https://irpages2.eqs.com/download/companies/bmw/Annual%20Reports/DE0005190003-JA-2019-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2020": {
+    "url": "https://irpages2.eqs.com/download/companies/bmw/Annual%20Reports/DE0005190003-JA-2020-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "volkswagen-group": {
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/v/OTC_VWAGY_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2009": {
+    "url": "https://irpages2.eqs.com/download/companies/vw/Annual%20Reports/DE0007664039-JA-2009-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2010": {
+    "url": "https://irpages2.eqs.com/download/companies/vw/Annual%20Reports/DE0007664039-JA-2010-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2011": {
+    "url": "https://irpages2.eqs.com/download/companies/vw/Annual%20Reports/DE0007664039-JA-2011-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2012": {
+    "url": "https://irpages2.eqs.com/download/companies/vw/Annual%20Reports/DE0007664039-JA-2012-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2013": {
+    "url": "https://irpages2.eqs.com/download/companies/vw/Annual%20Reports/DE0007664039-JA-2013-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2014": {
+    "url": "https://irpages2.eqs.com/download/companies/vw/Annual%20Reports/DE0007664039-JA-2014-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2015": {
+    "url": "https://irpages2.eqs.com/download/companies/vw/Annual%20Reports/DE0007664039-JA-2015-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2016": {
+    "url": "https://irpages2.eqs.com/download/companies/vw/Annual%20Reports/DE0007664039-JA-2016-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2017": {
+    "url": "https://irpages2.eqs.com/download/companies/vw/Annual%20Reports/DE0007664039-JA-2017-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2018": {
+    "url": "https://irpages2.eqs.com/download/companies/vw/Annual%20Reports/DE0007664039-JA-2018-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2019": {
+    "url": "https://irpages2.eqs.com/download/companies/vw/Annual%20Reports/DE0007664039-JA-2019-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2020": {
+    "url": "https://irpages2.eqs.com/download/companies/vw/Annual%20Reports/DE0007664039-JA-2020-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2021": {
+    "url": "https://irpages2.eqs.com/download/companies/vw/Annual%20Reports/DE0007664039-JA-2021-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2022": {
+    "url": "https://irpages2.eqs.com/download/companies/vw/Annual%20Reports/DE0007664039-JA-2022-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2023": {
+    "url": "https://irpages2.eqs.com/download/companies/vw/Annual%20Reports/DE0007664039-JA-2023-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2024": {
+    "url": "https://irpages2.eqs.com/download/companies/vw/Annual%20Reports/DE0007664039-JA-2024-EQ-E-00.pdf",
+    "source": "company website"
+   }
+  },
+  "zalando": {
+   "2014": {
+    "url": "https://irpages2.eqs.com/download/companies/zalando/Annual%20Reports/DE000ZAL1111-JA-2014-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2015": {
+    "url": "https://irpages2.eqs.com/download/companies/zalando/Annual%20Reports/DE000ZAL1111-JA-2015-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2016": {
+    "url": "https://irpages2.eqs.com/download/companies/zalando/Annual%20Reports/DE000ZAL1111-JA-2016-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2017": {
+    "url": "https://irpages2.eqs.com/download/companies/zalando/Annual%20Reports/DE000ZAL1111-JA-2017-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2018": {
+    "url": "https://irpages2.eqs.com/download/companies/zalando/Annual%20Reports/DE000ZAL1111-JA-2018-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2019": {
+    "url": "https://irpages2.eqs.com/download/companies/zalando/Annual%20Reports/DE000ZAL1111-JA-2019-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2020": {
+    "url": "https://irpages2.eqs.com/download/companies/zalando/Annual%20Reports/DE000ZAL1111-JA-2020-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2021": {
+    "url": "https://irpages2.eqs.com/download/companies/zalando/Annual%20Reports/DE000ZAL1111-JA-2021-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2022": {
+    "url": "https://irpages2.eqs.com/download/companies/zalando/Annual%20Reports/DE000ZAL1111-JA-2022-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2023": {
+    "url": "https://irpages2.eqs.com/download/companies/zalando/Annual%20Reports/DE000ZAL1111-JA-2023-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2024": {
+    "url": "https://irpages2.eqs.com/download/companies/zalando/Annual%20Reports/DE000ZAL1111-JA-2024-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2025": {
+    "url": "https://irpages2.eqs.com/download/companies/zalando/Annual%20Reports/DE000ZAL1111-JA-2025-EQ-E-00.pdf",
+    "source": "company website"
+   }
+  },
+  "scout24": {
+   "2015": {
+    "url": "https://irpages2.eqs.com/download/companies/scout24/Annual%20Reports/DE000A12DM80-JA-2015-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2016": {
+    "url": "https://irpages2.eqs.com/download/companies/scout24/Annual%20Reports/DE000A12DM80-JA-2016-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2017": {
+    "url": "https://irpages2.eqs.com/download/companies/scout24/Annual%20Reports/DE000A12DM80-JA-2017-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2018": {
+    "url": "https://irpages2.eqs.com/download/companies/scout24/Annual%20Reports/DE000A12DM80-JA-2018-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2019": {
+    "url": "https://irpages2.eqs.com/download/companies/scout24/Annual%20Reports/DE000A12DM80-JA-2019-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2020": {
+    "url": "https://irpages2.eqs.com/download/companies/scout24/Annual%20Reports/DE000A12DM80-JA-2020-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2021": {
+    "url": "https://irpages2.eqs.com/download/companies/scout24/Annual%20Reports/DE000A12DM80-JA-2021-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2022": {
+    "url": "https://irpages2.eqs.com/download/companies/scout24/Annual%20Reports/DE000A12DM80-JA-2022-EQ-E-02.pdf",
+    "source": "company website"
+   },
+   "2023": {
+    "url": "https://irpages2.eqs.com/download/companies/scout24/Annual%20Reports/DE000A12DM80-JA-2023-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2024": {
+    "url": "https://irpages2.eqs.com/download/companies/scout24/Annual%20Reports/DE000A12DM80-JA-2024-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2025": {
+    "url": "https://irpages2.eqs.com/download/companies/scout24/Annual%20Reports/DE000A12DM80-JA-2025-EQ-E-00.pdf",
+    "source": "company website"
+   }
+  },
+  "hannover-re": {
+   "2002": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2002-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2003": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2003-EQ-E-02.pdf",
+    "source": "company website"
+   },
+   "2004": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2004-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2005": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2005-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2006": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2006-EQ-E-02.pdf",
+    "source": "company website"
+   },
+   "2007": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2007-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2008": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2008-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2009": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2009-EQ-E-02.pdf",
+    "source": "company website"
+   },
+   "2010": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2010-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2011": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2011-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2012": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2012-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2013": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2013-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2014": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2014-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2015": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2015-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2016": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2016-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2017": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2017-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2018": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2018-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2019": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2019-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2020": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2020-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2021": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2021-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2022": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2022-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2023": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2023-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2024": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2024-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2025": {
+    "url": "https://irpages2.eqs.com/download/companies/hannoverrueck/Annual%20Reports/DE0008402215-JA-2025-EQ-E-00.pdf",
+    "source": "company website"
+   }
+  },
+  "mercedes-benz-group": {
+   "2000": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/NYSE_DAI_2000.pdf",
+    "source": "annualreports.com"
+   },
+   "2001": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/NYSE_DAI_2001.pdf",
+    "source": "annualreports.com"
+   },
+   "2002": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/NYSE_DAI_2002.pdf",
+    "source": "annualreports.com"
+   },
+   "2003": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/NYSE_DAI_2003.pdf",
+    "source": "annualreports.com"
+   },
+   "2004": {
+    "url": "https://irpages2.eqs.com/download/companies/daimlerchrysler/Annual%20Reports/DE0007100000-JA-2004-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2005": {
+    "url": "https://irpages2.eqs.com/download/companies/daimlerchrysler/Annual%20Reports/DE0007100000-JA-2005-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2006": {
+    "url": "https://irpages2.eqs.com/download/companies/daimlerchrysler/Annual%20Reports/DE0007100000-JA-2006-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2007": {
+    "url": "https://irpages2.eqs.com/download/companies/daimlerchrysler/Annual%20Reports/DE0007100000-JA-2007-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2008": {
+    "url": "https://irpages2.eqs.com/download/companies/daimlerchrysler/Annual%20Reports/DE0007100000-JA-2008-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2009": {
+    "url": "https://irpages2.eqs.com/download/companies/daimlerchrysler/Annual%20Reports/DE0007100000-JA-2009-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2010": {
+    "url": "https://irpages2.eqs.com/download/companies/daimlerchrysler/Annual%20Reports/DE0007100000-JA-2010-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2011": {
+    "url": "https://irpages2.eqs.com/download/companies/daimlerchrysler/Annual%20Reports/DE0007100000-JA-2011-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2012": {
+    "url": "https://irpages2.eqs.com/download/companies/daimlerchrysler/Annual%20Reports/DE0007100000-JA-2012-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2013": {
+    "url": "https://irpages2.eqs.com/download/companies/daimlerchrysler/Annual%20Reports/DE0007100000-JA-2013-EQ-E-02.pdf",
+    "source": "company website"
+   },
+   "2014": {
+    "url": "https://irpages2.eqs.com/download/companies/daimlerchrysler/Annual%20Reports/DE0007100000-JA-2014-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2015": {
+    "url": "https://irpages2.eqs.com/download/companies/daimlerchrysler/Annual%20Reports/DE0007100000-JA-2015-EQ-E-02.pdf",
+    "source": "company website"
+   },
+   "2016": {
+    "url": "https://irpages2.eqs.com/download/companies/daimlerchrysler/Annual%20Reports/DE0007100000-JA-2016-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2017": {
+    "url": "https://irpages2.eqs.com/download/companies/daimlerchrysler/Annual%20Reports/DE0007100000-JA-2017-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2018": {
+    "url": "https://irpages2.eqs.com/download/companies/daimlerchrysler/Annual%20Reports/DE0007100000-JA-2018-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/NYSE_DAI_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://irpages2.eqs.com/download/companies/daimlerchrysler/Annual%20Reports/DE0007100000-JA-2020-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2021": {
+    "url": "https://irpages2.eqs.com/download/companies/daimlerchrysler/Annual%20Reports/DE0007100000-JA-2021-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/OTC_MBGAF_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://irpages2.eqs.com/download/companies/daimlerchrysler/Annual%20Reports/DE0007100000-JA-2023-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2024": {
+    "url": "https://irpages2.eqs.com/download/companies/daimlerchrysler/Annual%20Reports/DE0007100000-JA-2024-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2025": {
+    "url": "https://irpages2.eqs.com/download/companies/daimlerchrysler/Annual%20Reports/DE0007100000-JA-2025-EQ-E-00.pdf",
+    "source": "company website"
+   }
+  },
+  "daimler-truck": {
+   "2021": {
+    "url": "https://www.daimlertruck.com/documents/investors/reports/annual-reports/daimler-truck-ir-annual-report-2021-incl-combined-management-report-dth-ag.pdf",
+    "source": "company website"
+   },
+   "2022": {
+    "url": "https://www.daimler-truck.com/fileadmin/user_upload/documents/investors/reports/annual-reports/2022/daimler-truck-ir-annual-report-2022-incl-combined-management-report-dth-ag.pdf",
+    "source": "company website"
+   },
+   "2023": {
+    "url": "https://irpages2.eqs.com/download/companies/58610a/Annual%20Reports/DE000DTR0CK8-JA-2023-EQ-E-01.pdf",
+    "source": "company website"
+   },
+   "2024": {
+    "url": "https://irpages2.eqs.com/download/companies/58610a/Annual%20Reports/DE000DTR0CK8-JA-2024-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2025": {
+    "url": "https://irpages2.eqs.com/download/companies/58610a/Annual%20Reports/DE000DTR0CK8-JA-2025-EQ-E-00.pdf",
+    "source": "company website"
+   }
+  },
+  "commerzbank": {
+   "2000": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2000.pdf",
+    "source": "annualreports.com"
+   },
+   "2001": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2001.pdf",
+    "source": "annualreports.com"
+   },
+   "2002": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2002.pdf",
+    "source": "annualreports.com"
+   },
+   "2003": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2003.pdf",
+    "source": "annualreports.com"
+   },
+   "2004": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2004.pdf",
+    "source": "annualreports.com"
+   },
+   "2005": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2005.pdf",
+    "source": "annualreports.com"
+   },
+   "2006": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2006.pdf",
+    "source": "annualreports.com"
+   },
+   "2007": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2007.pdf",
+    "source": "annualreports.com"
+   },
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2009": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2009.pdf",
+    "source": "annualreports.com"
+   },
+   "2010": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2010.pdf",
+    "source": "annualreports.com"
+   },
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://irpages2.eqs.com/download/companies/commerzbank/Annual%20Reports/DE000CBK1001-JA-2022-EQ-E-00.pdf",
+    "source": "company website"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "siemens-healthineers": {
+   "2018": {
+    "url": "https://corporate.webassets.siemens-healthineers.com/1800000005904947/1be9e3c7fc7c/1800000005904947-ef806566e5ee-Annual-Report-2018.pdf",
+    "source": "company website"
+   },
+   "2019": {
+    "url": "https://corporate.webassets.siemens-healthineers.com/1800000006835562/383ab5036ed8/1800000006835562-12e08501046c-Siemens-Healthineers-Annual-Report-2019.pdf",
+    "source": "company website"
+   },
+   "2020": {
+    "url": "https://corporate.webassets.siemens-healthineers.com/180f4f3673c1bef8/42315c736d84/180f4f3673c1bef8-747507c6608d-Siemens_Healthineers-_Annual-_Report_2020.pdf",
+    "source": "company website"
+   },
+   "2021": {
+    "url": "https://corporate.webassets.siemens-healthineers.com/df1896911b345f04/bc8ba64c5954/Siemens_Healthineers_Annual-Report_2021.pdf",
+    "source": "company website"
+   },
+   "2022": {
+    "url": "https://corporate.webassets.siemens-healthineers.com/df8210151cd8d47a/08fb7cbfa175/siemens-healthineers-ir-annual-report-2022.pdf",
+    "source": "company website"
+   },
+   "2023": {
+    "url": "https://corporate.webassets.siemens-healthineers.com/f548fca6fac5ebe0/8bda062e9d1e/siemens-healthineers-ir-annual-report-2023.pdf",
+    "source": "company website"
+   },
+   "2024": {
+    "url": "https://corporate.webassets.siemens-healthineers.com/427714ab59c7e09a/34f542dcc913/siemens-healthineers-ir-annual-report-2024.pdf",
+    "source": "company website"
+   },
+   "2025": {
+    "url": "https://corporate.webassets.siemens-healthineers.com/a364b935102e7df5/d7fdacda458e/siemens-healthineers-ir-annual-report-2025.pdf",
+    "source": "company website"
+   }
+  },
+  "munich-re": {
+   "2000": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2000.pdf",
+    "source": "annualreports.com"
+   },
+   "2001": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2001.pdf",
+    "source": "annualreports.com"
+   },
+   "2002": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2002.pdf",
+    "source": "annualreports.com"
+   },
+   "2003": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2003.pdf",
+    "source": "annualreports.com"
+   },
+   "2004": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2004.pdf",
+    "source": "annualreports.com"
+   },
+   "2005": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2005.pdf",
+    "source": "annualreports.com"
+   },
+   "2006": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2006.pdf",
+    "source": "annualreports.com"
+   },
+   "2007": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2007.pdf",
+    "source": "annualreports.com"
+   },
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2009": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2009.pdf",
+    "source": "annualreports.com"
+   },
+   "2010": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2010.pdf",
+    "source": "annualreports.com"
+   },
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2024.pdf",
+    "source": "annualreports.com"
+   },
+   "2025": {
+    "url": "https://www.munichre.com/content/dam/munichre/mrwebsiteslaunches/2025-annual-report/MunichRe-Group-Annual-Report-2025-en.pdf/_jcr_content/renditions/original./MunichRe-Group-Annual-Report-2025-en.pdf",
+    "source": "company website"
+   }
+  },
+  "deutsche-b-rse": {
+   "2002": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2002.pdf",
+    "source": "annualreports.com"
+   },
+   "2003": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2003.pdf",
+    "source": "annualreports.com"
+   },
+   "2004": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2004.pdf",
+    "source": "annualreports.com"
+   },
+   "2005": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2005.pdf",
+    "source": "annualreports.com"
+   },
+   "2006": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2006.pdf",
+    "source": "annualreports.com"
+   },
+   "2007": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2007.pdf",
+    "source": "annualreports.com"
+   },
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2009": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2009.pdf",
+    "source": "annualreports.com"
+   },
+   "2010": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2010.pdf",
+    "source": "annualreports.com"
+   },
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "renault": {
+   "2000": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2000.pdf",
+    "source": "annualreports.com"
+   },
+   "2001": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2001.pdf",
+    "source": "annualreports.com"
+   },
+   "2002": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2002.pdf",
+    "source": "annualreports.com"
+   },
+   "2003": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2003.pdf",
+    "source": "annualreports.com"
+   },
+   "2004": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2004.pdf",
+    "source": "annualreports.com"
+   },
+   "2005": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2005.pdf",
+    "source": "annualreports.com"
+   },
+   "2006": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2006.pdf",
+    "source": "annualreports.com"
+   },
+   "2007": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2007.pdf",
+    "source": "annualreports.com"
+   },
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2009": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2009.pdf",
+    "source": "annualreports.com"
+   },
+   "2010": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2010.pdf",
+    "source": "annualreports.com"
+   },
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "schneider-electric": {
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "axa": {
+   "2000": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2000.pdf",
+    "source": "annualreports.com"
+   },
+   "2001": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2001.pdf",
+    "source": "annualreports.com"
+   },
+   "2002": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2002.pdf",
+    "source": "annualreports.com"
+   },
+   "2003": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2003.pdf",
+    "source": "annualreports.com"
+   },
+   "2004": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2004.pdf",
+    "source": "annualreports.com"
+   },
+   "2005": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2005.pdf",
+    "source": "annualreports.com"
+   },
+   "2006": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2006.pdf",
+    "source": "annualreports.com"
+   },
+   "2007": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2007.pdf",
+    "source": "annualreports.com"
+   },
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2009": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2009.pdf",
+    "source": "annualreports.com"
+   },
+   "2010": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2010.pdf",
+    "source": "annualreports.com"
+   },
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "nordea": {
+   "2000": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2000.pdf",
+    "source": "annualreports.com"
+   },
+   "2001": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2001.pdf",
+    "source": "annualreports.com"
+   },
+   "2002": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2002.pdf",
+    "source": "annualreports.com"
+   },
+   "2003": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2003.pdf",
+    "source": "annualreports.com"
+   },
+   "2004": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2004.pdf",
+    "source": "annualreports.com"
+   },
+   "2005": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2005.pdf",
+    "source": "annualreports.com"
+   },
+   "2006": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2006.pdf",
+    "source": "annualreports.com"
+   },
+   "2007": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2007.pdf",
+    "source": "annualreports.com"
+   },
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2009": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2009.pdf",
+    "source": "annualreports.com"
+   },
+   "2010": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2010.pdf",
+    "source": "annualreports.com"
+   },
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "unicredit": {
+   "2005": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2005.pdf",
+    "source": "annualreports.com"
+   },
+   "2006": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2006.pdf",
+    "source": "annualreports.com"
+   },
+   "2007": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2007.pdf",
+    "source": "annualreports.com"
+   },
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2009": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2009.pdf",
+    "source": "annualreports.com"
+   },
+   "2010": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2010.pdf",
+    "source": "annualreports.com"
+   },
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "intesa-sanpaolo": {
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/intesa-sanpaolo-group_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/intesa-sanpaolo-group_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/intesa-sanpaolo-group_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/intesa-sanpaolo-group_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/intesa-sanpaolo-group_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/intesa-sanpaolo-group_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/intesa-sanpaolo-group_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/intesa-sanpaolo-group_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/intesa-sanpaolo-group_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "3i": {
+   "2003": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2003.pdf",
+    "source": "annualreports.com"
+   },
+   "2004": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2004.pdf",
+    "source": "annualreports.com"
+   },
+   "2005": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2005.pdf",
+    "source": "annualreports.com"
+   },
+   "2006": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2006.pdf",
+    "source": "annualreports.com"
+   },
+   "2007": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2007.pdf",
+    "source": "annualreports.com"
+   },
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2009": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2009.pdf",
+    "source": "annualreports.com"
+   },
+   "2010": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2010.pdf",
+    "source": "annualreports.com"
+   },
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/3/LSE_III_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "admiral-group": {
+   "2002": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2002.pdf",
+    "source": "annualreports.com"
+   },
+   "2003": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2003.pdf",
+    "source": "annualreports.com"
+   },
+   "2004": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2004.pdf",
+    "source": "annualreports.com"
+   },
+   "2005": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2005.pdf",
+    "source": "annualreports.com"
+   },
+   "2006": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2006.pdf",
+    "source": "annualreports.com"
+   },
+   "2007": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2007.pdf",
+    "source": "annualreports.com"
+   },
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2010": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2010_9623a677ef50466fbae4f24582f2e216.pdf",
+    "source": "annualreports.com"
+   },
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ADM_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "aviva": {
+   "2000": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2000.pdf",
+    "source": "annualreports.com"
+   },
+   "2001": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2001.pdf",
+    "source": "annualreports.com"
+   },
+   "2002": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2002.pdf",
+    "source": "annualreports.com"
+   },
+   "2003": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2003.pdf",
+    "source": "annualreports.com"
+   },
+   "2004": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2004.pdf",
+    "source": "annualreports.com"
+   },
+   "2005": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2005.pdf",
+    "source": "annualreports.com"
+   },
+   "2006": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2006.pdf",
+    "source": "annualreports.com"
+   },
+   "2007": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2007.pdf",
+    "source": "annualreports.com"
+   },
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2009": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2009.pdf",
+    "source": "annualreports.com"
+   },
+   "2010": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2010.pdf",
+    "source": "annualreports.com"
+   },
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AV_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "computacenter": {
+   "2000": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2000.pdf",
+    "source": "annualreports.com"
+   },
+   "2001": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2001.pdf",
+    "source": "annualreports.com"
+   },
+   "2002": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2002.pdf",
+    "source": "annualreports.com"
+   },
+   "2003": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2003.pdf",
+    "source": "annualreports.com"
+   },
+   "2004": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2004.pdf",
+    "source": "annualreports.com"
+   },
+   "2005": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2005.pdf",
+    "source": "annualreports.com"
+   },
+   "2006": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2006.pdf",
+    "source": "annualreports.com"
+   },
+   "2007": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2007.pdf",
+    "source": "annualreports.com"
+   },
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2009": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2009.pdf",
+    "source": "annualreports.com"
+   },
+   "2010": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2010.pdf",
+    "source": "annualreports.com"
+   },
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "experian": {
+   "2007": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2007.pdf",
+    "source": "annualreports.com"
+   },
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2009": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2009.pdf",
+    "source": "annualreports.com"
+   },
+   "2010": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2010.pdf",
+    "source": "annualreports.com"
+   },
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "icg": {
+   "2000": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2000.pdf",
+    "source": "annualreports.com"
+   },
+   "2001": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2001.pdf",
+    "source": "annualreports.com"
+   },
+   "2002": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2002.pdf",
+    "source": "annualreports.com"
+   },
+   "2003": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2003.pdf",
+    "source": "annualreports.com"
+   },
+   "2004": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2004.pdf",
+    "source": "annualreports.com"
+   },
+   "2005": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2005.pdf",
+    "source": "annualreports.com"
+   },
+   "2006": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2006.pdf",
+    "source": "annualreports.com"
+   },
+   "2007": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2007.pdf",
+    "source": "annualreports.com"
+   },
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2009": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2009.pdf",
+    "source": "annualreports.com"
+   },
+   "2010": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2010.pdf",
+    "source": "annualreports.com"
+   },
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_ICP_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "sage-group": {
+   "2006": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2006.pdf",
+    "source": "annualreports.com"
+   },
+   "2007": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2007.pdf",
+    "source": "annualreports.com"
+   },
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2009": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2009.pdf",
+    "source": "annualreports.com"
+   },
+   "2010": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2010.pdf",
+    "source": "annualreports.com"
+   },
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "standard-chartered": {
+   "2002": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2002.pdf",
+    "source": "annualreports.com"
+   },
+   "2004": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2004.pdf",
+    "source": "annualreports.com"
+   },
+   "2005": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2005.pdf",
+    "source": "annualreports.com"
+   },
+   "2006": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2006.pdf",
+    "source": "annualreports.com"
+   },
+   "2007": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2007.pdf",
+    "source": "annualreports.com"
+   },
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2009": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2009.pdf",
+    "source": "annualreports.com"
+   },
+   "2010": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2010.pdf",
+    "source": "annualreports.com"
+   },
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAN_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "standard-life": {
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/P/LSE_PHNX_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2009": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/P/LSE_PHNX_2009.pdf",
+    "source": "annualreports.com"
+   },
+   "2010": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/P/LSE_PHNX_2010.pdf",
+    "source": "annualreports.com"
+   },
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/P/LSE_PHNX_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/P/LSE_PHNX_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/P/LSE_PHNX_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/P/LSE_PHNX_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/P/LSE_PHNX_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/P/LSE_PHNX_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/P/LSE_PHNX_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/P/LSE_PHNX_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/P/LSE_PHNX_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/P/LSE_PHNX_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/P/LSE_PHNX_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/P/LSE_PHNX_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/P/LSE_PHNX_2023.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "st-james-s-place": {
+   "2004": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SJP_2004.pdf",
+    "source": "annualreports.com"
+   },
+   "2005": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SJP_2005.pdf",
+    "source": "annualreports.com"
+   },
+   "2006": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SJP_2006.pdf",
+    "source": "annualreports.com"
+   },
+   "2007": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SJP_2007.pdf",
+    "source": "annualreports.com"
+   },
+   "2008": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SJP_2008.pdf",
+    "source": "annualreports.com"
+   },
+   "2009": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SJP_2009.pdf",
+    "source": "annualreports.com"
+   },
+   "2010": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SJP_2010.pdf",
+    "source": "annualreports.com"
+   },
+   "2011": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SJP_2011.pdf",
+    "source": "annualreports.com"
+   },
+   "2012": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SJP_2012.pdf",
+    "source": "annualreports.com"
+   },
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SJP_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SJP_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SJP_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SJP_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SJP_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SJP_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SJP_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SJP_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SJP_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SJP_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SJP_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SJP_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "aberdeen-group": {
+   "2013": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ABDN_2013.pdf",
+    "source": "annualreports.com"
+   },
+   "2014": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ABDN_2014.pdf",
+    "source": "annualreports.com"
+   },
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ABDN_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ABDN_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SLA.L_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SLA.L_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SLA.L_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ABDN_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ABDN_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ABDN_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ABDN_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_ABDN_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "m-g": {
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGCI_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGCI_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGCI_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGCI_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGCI_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGCI_2024.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "autotrader-group": {
+   "2015": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AUTO_2015.pdf",
+    "source": "annualreports.com"
+   },
+   "2016": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AUTO_2016.pdf",
+    "source": "annualreports.com"
+   },
+   "2017": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AUTO_2017.pdf",
+    "source": "annualreports.com"
+   },
+   "2018": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AUTO_2018.pdf",
+    "source": "annualreports.com"
+   },
+   "2019": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AUTO_2019.pdf",
+    "source": "annualreports.com"
+   },
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AUTO_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AUTO_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AUTO_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AUTO_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AUTO_2024.pdf",
+    "source": "annualreports.com"
+   },
+   "2025": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AUTO_2025.pdf",
+    "source": "annualreports.com"
+   }
+  },
+  "airtel-africa": {
+   "2020": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_AAF.L_2020.pdf",
+    "source": "annualreports.com"
+   },
+   "2021": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_AAF.L_2021.pdf",
+    "source": "annualreports.com"
+   },
+   "2022": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_AAF.L_2022.pdf",
+    "source": "annualreports.com"
+   },
+   "2023": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_AAF.L_2023.pdf",
+    "source": "annualreports.com"
+   },
+   "2024": {
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_AAF.L_2024.pdf",
+    "source": "annualreports.com"
+   }
   }
  }
 }

@@ -1,0 +1,366 @@
+{
+ "_note": "Candidate additions: companies in the six types with large EU activity that are not in Fortune 100 or the four indices. Proposed by Claude on 2026-11-21; nothing added until the project lead decides.",
+ "candidates": [
+  {
+   "name": "Booking Holdings",
+   "types": "GK;PL",
+   "hq": "US",
+   "source": "SEC 10-K",
+   "why": "designated DMA gatekeeper (2024); not in Fortune 100"
+  },
+  {
+   "name": "Spotify",
+   "types": "PL",
+   "hq": "LU",
+   "source": "SEC 20-F (2018-)",
+   "why": "largest EU-headquartered consumer platform; P2B/DMA complainant"
+  },
+  {
+   "name": "Netflix",
+   "types": "PL",
+   "hq": "US",
+   "source": "SEC 10-K",
+   "why": "video on demand (AVMSD), large EU user base"
+  },
+  {
+   "name": "Airbnb",
+   "types": "PL",
+   "hq": "US",
+   "source": "SEC 10-K (2020-)",
+   "why": "short-term rental platform (DSA, DAC7, STR Regulation)"
+  },
+  {
+   "name": "eBay",
+   "types": "PL",
+   "hq": "US",
+   "source": "SEC 10-K",
+   "why": "online marketplace"
+  },
+  {
+   "name": "Expedia",
+   "types": "PL",
+   "hq": "US",
+   "source": "SEC 10-K",
+   "why": "online travel platform"
+  },
+  {
+   "name": "Pinterest",
+   "types": "GK;PL",
+   "hq": "US",
+   "source": "SEC 10-K (2019-)",
+   "why": "designated very large online platform (DSA)"
+  },
+  {
+   "name": "Snap",
+   "types": "GK;PL",
+   "hq": "US",
+   "source": "SEC 10-K (2017-)",
+   "why": "designated very large online platform (DSA)"
+  },
+  {
+   "name": "Delivery Hero",
+   "types": "PL",
+   "hq": "DE",
+   "source": "ESEF? / IR site",
+   "why": "food-delivery platform (Platform Work Directive); DAX 2020-23"
+  },
+  {
+   "name": "Just Eat Takeaway",
+   "types": "PL",
+   "hq": "NL",
+   "source": "ESEF / IR site",
+   "why": "food-delivery platform; now owned by Prosus"
+  },
+  {
+   "name": "Allegro",
+   "types": "PL",
+   "hq": "PL",
+   "source": "ESEF",
+   "why": "largest marketplace in Poland"
+  },
+  {
+   "name": "Adobe",
+   "types": "CL",
+   "hq": "US",
+   "source": "SEC 10-K",
+   "why": "cloud software, generative AI"
+  },
+  {
+   "name": "ServiceNow",
+   "types": "CL",
+   "hq": "US",
+   "source": "SEC 10-K (2012-)",
+   "why": "cloud software"
+  },
+  {
+   "name": "Workday",
+   "types": "CL",
+   "hq": "US",
+   "source": "SEC 10-K (2012-)",
+   "why": "cloud software"
+  },
+  {
+   "name": "Palantir",
+   "types": "CL",
+   "hq": "US",
+   "source": "SEC 10-K (2020-)",
+   "why": "data and AI software"
+  },
+  {
+   "name": "Accenture",
+   "types": "CL",
+   "hq": "IE",
+   "source": "SEC 10-K",
+   "why": "largest IT services firm; headquartered in Dublin"
+  },
+  {
+   "name": "Equinix",
+   "types": "CL",
+   "hq": "US",
+   "source": "SEC 10-K",
+   "why": "data centres (EED reporting, NIS2)"
+  },
+  {
+   "name": "Cloudflare",
+   "types": "CL",
+   "hq": "US",
+   "source": "SEC 10-K (2019-)",
+   "why": "CDN and cloud security (NIS2, DSA intermediary)"
+  },
+  {
+   "name": "Arm Holdings",
+   "types": "PR;CL",
+   "hq": "GB",
+   "source": "SEC (2023-)",
+   "why": "chip designs used in most connected devices"
+  },
+  {
+   "name": "Wolters Kluwer",
+   "types": "CL",
+   "hq": "NL",
+   "source": "ESEF",
+   "why": "information and data services"
+  },
+  {
+   "name": "Amadeus",
+   "types": "CL",
+   "hq": "ES",
+   "source": "ESEF",
+   "why": "travel technology and data"
+  },
+  {
+   "name": "Atos",
+   "types": "CL",
+   "hq": "FR",
+   "source": "ESEF",
+   "why": "IT services and cloud"
+  },
+  {
+   "name": "OVHcloud",
+   "types": "CL",
+   "hq": "FR",
+   "source": "ESEF",
+   "why": "largest EU cloud provider"
+  },
+  {
+   "name": "Telefónica",
+   "types": "TC",
+   "hq": "ES",
+   "source": "SEC 20-F",
+   "why": "telecoms operator"
+  },
+  {
+   "name": "KPN",
+   "types": "TC",
+   "hq": "NL",
+   "source": "ESEF",
+   "why": "telecoms operator"
+  },
+  {
+   "name": "Telia",
+   "types": "TC",
+   "hq": "SE",
+   "source": "ESEF",
+   "why": "telecoms operator"
+  },
+  {
+   "name": "Telecom Italia (TIM)",
+   "types": "TC",
+   "hq": "IT",
+   "source": "ESEF / SEC 20-F (to 2022)",
+   "why": "telecoms operator"
+  },
+  {
+   "name": "Proximus",
+   "types": "TC",
+   "hq": "BE",
+   "source": "ESEF",
+   "why": "telecoms operator"
+  },
+  {
+   "name": "Cellnex",
+   "types": "TC",
+   "hq": "ES",
+   "source": "ESEF",
+   "why": "telecoms towers"
+  },
+  {
+   "name": "Ericsson",
+   "types": "PR;TC",
+   "hq": "SE",
+   "source": "SEC 20-F",
+   "why": "network equipment (5G toolbox, CRA)"
+  },
+  {
+   "name": "Visa",
+   "types": "FI",
+   "hq": "US",
+   "source": "SEC 10-K (2008-)",
+   "why": "card payments (PSD2, Interchange Fee Regulation)"
+  },
+  {
+   "name": "Mastercard",
+   "types": "FI",
+   "hq": "US",
+   "source": "SEC 10-K",
+   "why": "card payments"
+  },
+  {
+   "name": "PayPal",
+   "types": "FI",
+   "hq": "US",
+   "source": "SEC 10-K (2015-)",
+   "why": "payments; EU bank in Luxembourg"
+  },
+  {
+   "name": "Coinbase",
+   "types": "FI",
+   "hq": "US",
+   "source": "SEC 10-K (2021-)",
+   "why": "crypto-asset service provider (MiCA)"
+  },
+  {
+   "name": "Klarna",
+   "types": "FI",
+   "hq": "GB",
+   "source": "SEC (2025-)",
+   "why": "buy-now-pay-later; Swedish bank"
+  },
+  {
+   "name": "Wise",
+   "types": "FI",
+   "hq": "GB",
+   "source": "FCA NSM / ESEF",
+   "why": "payments; listed in London"
+  },
+  {
+   "name": "Worldline",
+   "types": "FI",
+   "hq": "FR",
+   "source": "ESEF",
+   "why": "payments"
+  },
+  {
+   "name": "Nexi",
+   "types": "FI",
+   "hq": "IT",
+   "source": "ESEF",
+   "why": "payments"
+  },
+  {
+   "name": "Generali",
+   "types": "FI",
+   "hq": "IT",
+   "source": "ESEF",
+   "why": "insurer"
+  },
+  {
+   "name": "ABN AMRO",
+   "types": "FI",
+   "hq": "NL",
+   "source": "ESEF",
+   "why": "bank"
+  },
+  {
+   "name": "CaixaBank",
+   "types": "FI",
+   "hq": "ES",
+   "source": "ESEF",
+   "why": "bank"
+  },
+  {
+   "name": "KBC",
+   "types": "FI",
+   "hq": "BE",
+   "source": "ESEF",
+   "why": "bank and insurer"
+  },
+  {
+   "name": "Philips",
+   "types": "PR",
+   "hq": "NL",
+   "source": "SEC 20-F",
+   "why": "connected health devices"
+  },
+  {
+   "name": "NXP Semiconductors",
+   "types": "PR",
+   "hq": "NL",
+   "source": "SEC 10-K",
+   "why": "chips for cars and connected devices"
+  },
+  {
+   "name": "Qualcomm",
+   "types": "PR",
+   "hq": "US",
+   "source": "SEC 10-K",
+   "why": "mobile chips; standard-essential patents (SEP Regulation)"
+  },
+  {
+   "name": "AMD",
+   "types": "PR;CL",
+   "hq": "US",
+   "source": "SEC 10-K",
+   "why": "processors and AI accelerators"
+  },
+  {
+   "name": "Honeywell",
+   "types": "PR",
+   "hq": "US",
+   "source": "SEC 10-K",
+   "why": "connected industrial and building products"
+  },
+  {
+   "name": "Deere",
+   "types": "PR",
+   "hq": "US",
+   "source": "SEC 10-K",
+   "why": "connected farm machinery (Data Act)"
+  },
+  {
+   "name": "Bosch",
+   "types": "PR",
+   "hq": "DE",
+   "source": "IR site (private; publishes annual report)",
+   "why": "largest maker of connected products in the EU; not listed"
+  }
+ ],
+ "not_feasible": [
+  {
+   "name": "Stripe",
+   "why": "private; publishes no group annual report (only an annual letter); subsidiaries' statutory accounts in Ireland and the UK"
+  },
+  {
+   "name": "X (Twitter)",
+   "why": "private since 2022; no reports"
+  },
+  {
+   "name": "TikTok/ByteDance, Temu/PDD, Shein, AliExpress/Alibaba",
+   "why": "headquarters outside EU-27/UK/US"
+  },
+  {
+   "name": "Revolut, Bolt, Vinted, Mistral",
+   "why": "private; Revolut files full accounts at Companies House, the others do not publish comparable reports"
+  }
+ ]
+}

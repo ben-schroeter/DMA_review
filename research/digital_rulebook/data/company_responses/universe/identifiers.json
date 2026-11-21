@@ -23,6 +23,11 @@
   },
   "Alphabet": {
    "sec_ciks": [
+    {
+     "cik": 1288776,
+     "to": 2014,
+     "note": "Google Inc."
+    },
     1652044
    ]
   },
@@ -115,6 +120,11 @@
   },
   "General Motors": {
    "sec_ciks": [
+    {
+     "cik": 40730,
+     "to": 2008,
+     "note": "old General Motors Corp."
+    },
     1467858
    ]
   },
@@ -184,6 +194,11 @@
   },
   "Comcast": {
    "sec_ciks": [
+    {
+     "cik": 22301,
+     "to": 2001,
+     "note": "old Comcast Corp."
+    },
     1166691
    ]
   },
@@ -204,6 +219,11 @@
   },
   "Dell Technologies": {
    "sec_ciks": [
+    {
+     "cik": 826083,
+     "to": 2013,
+     "note": "Dell Inc."
+    },
     1571996
    ]
   },
@@ -348,6 +368,11 @@
   },
   "Broadcom": {
    "sec_ciks": [
+    {
+     "cik": 1441634,
+     "to": 2015,
+     "note": "Avago Technologies"
+    },
     1649338,
     1730168
    ]
@@ -409,6 +434,11 @@
   },
   "Oracle": {
    "sec_ciks": [
+    {
+     "cik": 777676,
+     "to": 2005,
+     "note": "Oracle Systems / old Oracle Corp."
+    },
     1341439
    ]
   },
@@ -507,7 +537,9 @@
    "lei": "MINO79WLOO247M1IL051"
   },
   "Allianz": {
-   "sec_ciks": [],
+   "sec_ciks": [
+    1127508
+   ],
    "lei": "529900K9B0N5BT694847"
   },
   "BASF": {
@@ -647,7 +679,9 @@
    "lei": "5493007EIKM2ENQS7U66"
   },
   "Siemens": {
-   "sec_ciks": [],
+   "sec_ciks": [
+    1135644
+   ],
    "lei": "W38RGI023J3WT1HWRP32"
   },
   "Siemens Energy": {
@@ -689,7 +723,9 @@
    "lei": "2EULGUTUI56JI9SAL165"
   },
   "Axa": {
-   "sec_ciks": [],
+   "sec_ciks": [
+    898427
+   ],
    "lei": "F5WCUMTUM4RKZ1MAIE39"
   },
   "BNP Paribas": {
@@ -723,7 +759,9 @@
    "lei": "969500KMUQ2B6CBAF162"
   },
   "Dassault Systèmes": {
-   "sec_ciks": [],
+   "sec_ciks": [
+    1016118
+   ],
    "lei": "96950065LBWY0APQIM86"
   },
   "Eiffage": {
@@ -781,7 +819,9 @@
    "lei": "52990097YFPX9J0H5D87"
   },
   "Publicis": {
-   "sec_ciks": [],
+   "sec_ciks": [
+    1050952
+   ],
    "lei": "2138004KW8BV57III342"
   },
   "Renault": {
@@ -814,9 +854,15 @@
   },
   "Stellantis": {
    "sec_ciks": [
+    {
+     "cik": 842317,
+     "to": 2013,
+     "note": "Fiat S.p.A."
+    },
     1605484
    ],
-   "lei": "549300LKT9PW7ZIBDF31"
+   "lei": "549300LKT9PW7ZIBDF31",
+   "note": "CIK 842317 = Fiat S.p.A., predecessor (2000s 20-Fs)"
   },
   "STMicroelectronics": {
    "sec_ciks": [
@@ -934,7 +980,9 @@
    "lei": "RV5B68J2GV3QGMRPW209"
   },
   "BT Group": {
-   "sec_ciks": [],
+   "sec_ciks": [
+    756620
+   ],
    "lei": "213800LRO7NS5CYQMN21"
   },
   "Bunzl": {
@@ -1388,6 +1436,13 @@
   "UniCredit": {
    "sec_ciks": [],
    "lei": "549300TRUWO2CD2G5692"
+  },
+  "Salesforce": {
+   "sec_ciks": [
+    1108524
+   ],
+   "lei": "RCGZFPDMRW58VJ54VR07",
+   "added": "not in Fortune 100 or the indices; added as a major CL/PL company"
   }
  }
 }

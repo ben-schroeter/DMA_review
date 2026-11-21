@@ -1,5 +1,5 @@
 {
- "_note": "Which of the six company types (scripts/company_types.py: GK gatekeepers and very large platforms, PL online platforms and digital services, CL cloud, data and AI, TC telecoms, FI finance, payments and crypto, PR makers of connected products) each company in the universe belongs to, by its principal activities. 'include' = clearly one of the types; 'borderline' = for the project lead to decide; 'exclude' = fits a type but is out of scope. Companies not listed fit none of the types (energy, mining, retail, consumer goods, pharma and health services, construction, utilities, real estate, transport, aerospace and defence). Classified by Claude on 2026-11-21 from general knowledge of the companies' businesses; to be checked.",
+ "_note": "Which of the six company types (scripts/company_types.py: GK gatekeepers and very large platforms, PL online platforms and digital services, CL cloud, data and AI, TC telecoms, FI finance, payments and crypto, PR makers of connected products) each company in the universe belongs to, by its principal activities. 'include' = clearly one of the types; 'exclude' = fits a type but is out of scope. Companies not listed fit none of the types (energy, mining, retail, consumer goods, pharma and health services, construction, utilities, real estate, transport, aerospace and defence). Classified by Claude on 2026-11-21 from general knowledge of the companies' businesses; to be checked. Decisions of the project lead on 21 November 2026 are recorded in 'decision'.",
  "types": {
   "Amazon": {
    "types": "GK;PL;CL",
@@ -148,143 +148,171 @@
   },
   "Fannie Mae": {
    "types": "FI",
-   "status": "include",
-   "why": "mortgage finance"
+   "status": "exclude",
+   "why": "mortgage finance",
+   "decision": "dropped by project lead, 2026-11-21"
   },
   "Freddie Mac": {
    "types": "FI",
-   "status": "include",
-   "why": "mortgage finance"
+   "status": "exclude",
+   "why": "mortgage finance",
+   "decision": "dropped by project lead, 2026-11-21"
   },
   "StoneX Group": {
    "types": "FI",
-   "status": "include",
-   "why": "brokerage, payments"
+   "status": "exclude",
+   "why": "brokerage, payments",
+   "decision": "dropped by project lead, 2026-11-21"
   },
   "MetLife": {
    "types": "FI",
-   "status": "include",
-   "why": "insurer"
+   "status": "exclude",
+   "why": "insurer",
+   "decision": "dropped by project lead, 2026-11-21"
   },
   "Prudential Financial": {
    "types": "FI",
-   "status": "include",
-   "why": "insurer"
+   "status": "exclude",
+   "why": "insurer",
+   "decision": "dropped by project lead, 2026-11-21"
   },
   "Progressive": {
    "types": "FI",
-   "status": "include",
-   "why": "insurer"
+   "status": "exclude",
+   "why": "insurer",
+   "decision": "dropped by project lead, 2026-11-21"
   },
   "Allstate": {
    "types": "FI",
-   "status": "include",
-   "why": "insurer"
+   "status": "exclude",
+   "why": "insurer",
+   "decision": "dropped by project lead, 2026-11-21"
   },
   "Travelers": {
    "types": "FI",
-   "status": "include",
-   "why": "insurer"
+   "status": "exclude",
+   "why": "insurer",
+   "decision": "dropped by project lead, 2026-11-21"
   },
   "Berkshire Hathaway": {
    "types": "FI",
-   "status": "include",
-   "why": "conglomerate; insurance is its core (GEICO, General Re)"
+   "status": "exclude",
+   "why": "conglomerate; insurance is its core (GEICO, General Re)",
+   "decision": "dropped by project lead, 2026-11-21"
   },
   "Galaxy Digital": {
    "types": "FI",
-   "status": "include",
-   "why": "crypto-asset services"
+   "status": "exclude",
+   "why": "crypto-asset services",
+   "decision": "dropped by project lead, 2026-11-21"
   },
   "State Farm Insurance": {
    "types": "FI",
-   "status": "include",
-   "why": "mutual insurer; no SEC filings"
+   "status": "exclude",
+   "why": "mutual insurer; no SEC filings",
+   "decision": "dropped by project lead, 2026-11-21"
   },
   "New York Life Insurance": {
    "types": "FI",
-   "status": "include",
-   "why": "mutual insurer; no SEC filings"
+   "status": "exclude",
+   "why": "mutual insurer; no SEC filings",
+   "decision": "dropped by project lead, 2026-11-21"
   },
   "Nationwide": {
    "types": "FI",
-   "status": "include",
-   "why": "mutual insurer; no SEC filings"
+   "status": "exclude",
+   "why": "mutual insurer; no SEC filings",
+   "decision": "dropped by project lead, 2026-11-21"
   },
   "United Services Automobile Assn.": {
    "types": "FI",
-   "status": "include",
-   "why": "member-owned insurer and bank; no SEC filings"
+   "status": "exclude",
+   "why": "member-owned insurer and bank; no SEC filings",
+   "decision": "dropped by project lead, 2026-11-21"
   },
   "TIAA": {
    "types": "FI",
-   "status": "include",
-   "why": "retirement and asset management; no SEC 10-K"
+   "status": "exclude",
+   "why": "retirement and asset management; no SEC 10-K",
+   "decision": "dropped by project lead, 2026-11-21"
   },
   "Liberty Mutual Insurance Group": {
    "types": "FI",
-   "status": "include",
-   "why": "mutual insurer; no SEC filings"
+   "status": "exclude",
+   "why": "mutual insurer; no SEC filings",
+   "decision": "dropped by project lead, 2026-11-21"
   },
   "Massachusetts Mutual Life Insurance": {
    "types": "FI",
-   "status": "include",
-   "why": "mutual insurer; no SEC filings"
+   "status": "exclude",
+   "why": "mutual insurer; no SEC filings",
+   "decision": "dropped by project lead, 2026-11-21"
   },
   "UnitedHealth Group": {
    "types": "FI",
-   "status": "borderline",
-   "why": "health insurer (and Optum health data); finance type covers insurers, but EU finance law hardly reaches US health insurance"
+   "status": "exclude",
+   "why": "health insurer (and Optum health data); finance type covers insurers, but EU finance law hardly reaches US health insurance",
+   "decision": "borderline, not included by project lead, 2026-11-21"
   },
   "Elevance Health": {
    "types": "FI",
-   "status": "borderline",
-   "why": "health insurer"
+   "status": "exclude",
+   "why": "health insurer",
+   "decision": "borderline, not included by project lead, 2026-11-21"
   },
   "Centene": {
    "types": "FI",
-   "status": "borderline",
-   "why": "health insurer"
+   "status": "exclude",
+   "why": "health insurer",
+   "decision": "borderline, not included by project lead, 2026-11-21"
   },
   "Humana": {
    "types": "FI",
-   "status": "borderline",
-   "why": "health insurer"
+   "status": "exclude",
+   "why": "health insurer",
+   "decision": "borderline, not included by project lead, 2026-11-21"
   },
   "Cigna Group": {
    "types": "FI",
-   "status": "borderline",
-   "why": "health insurer"
+   "status": "exclude",
+   "why": "health insurer",
+   "decision": "borderline, not included by project lead, 2026-11-21"
   },
   "CVS Health": {
    "types": "FI",
-   "status": "borderline",
-   "why": "pharmacy chain with Aetna health insurance"
+   "status": "exclude",
+   "why": "pharmacy chain with Aetna health insurance",
+   "decision": "borderline, not included by project lead, 2026-11-21"
   },
   "Walmart": {
    "types": "PL",
-   "status": "borderline",
-   "why": "retailer that also runs a large online marketplace (US only)"
+   "status": "exclude",
+   "why": "retailer that also runs a large online marketplace (US only)",
+   "decision": "borderline, not included by project lead, 2026-11-21"
   },
   "Walt Disney": {
    "types": "PL",
-   "status": "borderline",
-   "why": "Disney+ streaming; mainly media and parks"
+   "status": "include",
+   "why": "Disney+ streaming; mainly media and parks",
+   "decision": "included by project lead, 2026-11-21"
   },
   "TD Synnex": {
    "types": "PR",
-   "status": "borderline",
-   "why": "IT distributor, not a maker (CRA/GPSR distributor duties only)"
+   "status": "exclude",
+   "why": "IT distributor, not a maker (CRA/GPSR distributor duties only)",
+   "decision": "borderline, not included by project lead, 2026-11-21"
   },
   "Ingram Micro Holding": {
    "types": "PR",
-   "status": "borderline",
-   "why": "IT distributor and cloud marketplace, not a maker"
+   "status": "exclude",
+   "why": "IT distributor and cloud marketplace, not a maker",
+   "decision": "borderline, not included by project lead, 2026-11-21"
   },
   "Caterpillar": {
    "types": "PR",
-   "status": "borderline",
-   "why": "connected machinery (telematics: Data Act connected products)"
+   "status": "exclude",
+   "why": "connected machinery (telematics: Data Act connected products)",
+   "decision": "borderline, not included by project lead, 2026-11-21"
   },
   "SAP": {
    "types": "CL",
@@ -373,13 +401,15 @@
   },
   "Porsche SE": {
    "types": "PR",
-   "status": "borderline",
-   "why": "holding company; its main asset is Volkswagen"
+   "status": "exclude",
+   "why": "holding company; its main asset is Volkswagen",
+   "decision": "borderline, not included by project lead, 2026-11-21"
   },
   "Continental": {
    "types": "PR",
-   "status": "borderline",
-   "why": "automotive electronics spun off (Aumovio, 2025); now mainly tyres"
+   "status": "exclude",
+   "why": "automotive electronics spun off (Aumovio, 2025); now mainly tyres",
+   "decision": "borderline, not included by project lead, 2026-11-21"
   },
   "Orange": {
    "types": "TC",
@@ -453,13 +483,15 @@
   },
   "Publicis": {
    "types": "CL",
-   "status": "borderline",
-   "why": "advertising group with a data business (Epsilon)"
+   "status": "include",
+   "why": "advertising group with a data business (Epsilon)",
+   "decision": "included by project lead, 2026-11-21"
   },
   "EssilorLuxottica": {
    "types": "PR",
-   "status": "borderline",
-   "why": "eyewear; makes Ray-Ban Meta smart glasses"
+   "status": "exclude",
+   "why": "eyewear; makes Ray-Ban Meta smart glasses",
+   "decision": "borderline, not included by project lead, 2026-11-21"
   },
   "STMicroelectronics": {
    "types": "PR",
@@ -513,13 +545,15 @@
   },
   "Ferrari": {
    "types": "PR",
-   "status": "borderline",
-   "why": "cars with limited connected features"
+   "status": "exclude",
+   "why": "cars with limited connected features",
+   "decision": "borderline, not included by project lead, 2026-11-21"
   },
   "ASML Holding": {
    "types": "PR",
-   "status": "borderline",
-   "why": "chip-making equipment (not a connected consumer product)"
+   "status": "include",
+   "why": "chip-making equipment (not a connected consumer product)",
+   "decision": "included by project lead, 2026-11-21"
   },
   "Vodafone Group": {
    "types": "TC",
@@ -663,28 +697,38 @@
   },
   "WPP": {
    "types": "CL",
-   "status": "borderline",
-   "why": "advertising group with data and AI businesses"
+   "status": "include",
+   "why": "advertising group with data and AI businesses",
+   "decision": "included by project lead, 2026-11-21"
   },
   "Pearson plc": {
    "types": "PL",
-   "status": "borderline",
-   "why": "digital learning services"
+   "status": "include",
+   "why": "digital learning services",
+   "decision": "included by project lead, 2026-11-21"
   },
   "Next plc": {
    "types": "PL",
-   "status": "borderline",
-   "why": "retailer whose Total Platform runs e-commerce for third-party brands"
+   "status": "include",
+   "why": "retailer whose Total Platform runs e-commerce for third-party brands",
+   "decision": "included by project lead, 2026-11-21"
   },
   "Informa": {
    "types": "PL",
-   "status": "borderline",
-   "why": "events and academic publishing"
+   "status": "include",
+   "why": "events and academic publishing",
+   "decision": "included by project lead, 2026-11-21"
   },
   "Halma plc": {
    "types": "PR",
-   "status": "borderline",
-   "why": "safety and environmental sensors"
+   "status": "exclude",
+   "why": "safety and environmental sensors",
+   "decision": "borderline, not included by project lead, 2026-11-21"
+  },
+  "Salesforce": {
+   "types": "CL;PL",
+   "status": "proposed",
+   "why": "cloud CRM and AI software; Slack (platform)"
   }
  }
 }

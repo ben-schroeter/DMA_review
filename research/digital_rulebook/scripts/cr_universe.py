@@ -5,7 +5,7 @@ EURO STOXX 50, restricted to companies headquartered in the EU-27, the UK or the
 (headquarters country from GLEIF; Fortune 500 companies are all US) that belong to at
 least one of the six company types (universe/company_types.json, 'include' or 'borderline').
 
-For each company it checks, for report years 2016-2026:
+For each company it checks, for report years 2000-2026:
   - SEC EDGAR: original 10-K / 20-F / 40-F filings for the CIKs in identifiers.json;
   - filings.xbrl.org: ESEF annual financial reports for the company's LEI.
 Writes data/company_responses/universe/universe.json (companies with their sources,
@@ -15,7 +15,8 @@ import csv, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from cr_fetch import sec_annual_filings, get, SEC_UA, YEARS  # noqa: E402
+os.environ.setdefault("CR_FROM", "2000")
+from cr_fetch import sec_filings_for, get, SEC_UA, YEARS  # noqa: E402
 
 U = os.path.join(HERE, "..", "data", "company_responses", "universe")
 EU27 = set("AT BE BG HR CY CZ DK EE FI FR DE GR HU IE IT LV LT LU MT NL PL PT RO SK SI ES SE".split())
@@ -86,6 +87,9 @@ def main():
     comps = {}
     for c in f100:
         comps[c["name"]] = {"name": c["name"], "groups": [f"Fortune 100 (#{c['rank']})"], "hq_default": "US"}
+    ap = os.path.join(U, "additions.json")
+    for c in (json.load(open(ap))["companies"] if os.path.exists(ap) else []):
+        comps[c["name"]] = {"name": c["name"], "groups": c["groups"], "hq_default": c["hq"]}
     for c in eu:
         n = ids.get(c["name"], {}).get("same_as", c["name"])
         e = comps.setdefault(n, {"name": n, "groups": [], "hq_default": INDEX_DEFAULT_HQ.get(c["index"], "")})
@@ -105,7 +109,7 @@ def main():
             row["exclude"] = i["exclude"]
         elif not t:
             row["exclude"] = "fits none of the six company types"
-        elif t["status"] == "exclude":
+        elif t["status"] not in ("include", "proposed"):
             row["exclude"] = t["why"]
         elif row["hq"] not in EU27 | {"GB", "US"}:
             row["exclude"] = f"headquarters outside EU-27/UK/US ({row['hq']})"
@@ -113,11 +117,10 @@ def main():
             row["note"] = i["note"]
         sec_years, esef = {}, {}
         if not row.get("exclude"):
-            for cik in row["sec_ciks"]:
-                for fl in sec_annual_filings(cik):
-                    y = int(fl["period_end"][:4])
-                    if y in YEARS and y not in sec_years:
-                        sec_years[y] = fl["form"]
+            for fl in sorted(sec_filings_for(row["sec_ciks"]), key=lambda f: f["filed"]):
+                y = int(fl["period_end"][:4])
+                if y in YEARS and y not in sec_years:
+                    sec_years[y] = fl["form"]
             if row["lei"] and row["hq"] != "US":
                 esef = esef_filings(row["lei"])
         row["esef_reports"] = {str(y): v for y, v in sorted(esef.items()) if y in YEARS}
@@ -130,7 +133,7 @@ def main():
                     "sec_years": len(sec_years), "sec_forms": "/".join(sorted(set(sec_years.values()))),
                     "esef_years": len([y for y in esef if y in YEARS]), "manual_years": len(manual_years),
                     "years_covered": len(covered), "first": covered[0] if covered else "", "last": covered[-1] if covered else "",
-                    "missing_2016_2025": " ".join(str(y) for y in range(2016, 2026) if y not in covered)})
+                    "missing_2000_2025": " ".join(str(y) for y in range(2000, 2026) if y not in covered)})
         print(n, row["hq"], row.get("exclude", ""), len(sec_years), len(esef), flush=True)
     manual = {}
     mp = os.path.join(U, "manual_reports.json")

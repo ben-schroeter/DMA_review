@@ -90,3 +90,18 @@ Apple's 10-Ks never name the GDPR (they refer to "privacy, data security and dat
 3. Replace the boilerplate rule with two separate fields, `repeated` (computed) and `generic` (coded).
 4. Drop the automatic `amounts` field and record amounts by hand. They are rare.
 5. Add a fourth UK source with OCR (Companies House) or NSM access, so that the UK sample is not limited to SEC filers.
+
+## Frequency study (from November 2026)
+
+Measure: mentions of each EU law per 100,000 words of the annual report (`scripts/cr_frequency.py`), a firm-level attention measure in the spirit of Hassan et al. (2019, QJE), without their risk-word component (in annual reports, risk is signalled by section and modal verbs, not by risk words next to the law's name: in the pilot only 23 of 1,023 mentions had one within 10 words). Compare within firm over time and within document type. Report years 2000-2026 (`CR_FROM=2000`).
+
+Universe (`universe/`): Fortune 100 (2026) plus DAX, CAC 40, FTSE 100 and EURO STOXX 50 constituents, headquarters in the EU-27/UK/US (GLEIF), restricted to the six company types (`company_types.json`, decisions of the project lead recorded there), plus additions (`additions.json`). List by type: `universe/company_list.md`; candidates not yet included: `universe/candidates.md`.
+
+Sources, in order: SEC EDGAR 10-K / 10-K405 / 20-F (incl. predecessor registrants, e.g. Google Inc., Fiat S.p.A., with year limits in `identifiers.json`); ESEF reports on filings.xbrl.org (from FY2020/21; none for Germany or Ireland); reports collected from company IR sites (including files hosted by EQS for German issuers, `irpages2.eqs.com`) and from annualreports.com, a third-party archive (`universe/manual_reports.json`). annualreports.com file names may carry the publication year; the fiscal year is to be checked at download.
+
+```
+cd scripts
+python3 cr_universe.py                       # universe.json, coverage.csv
+CR_FROM=2000 python3 cr_fetch.py --config ../data/company_responses/universe/universe.json --manifest ../data/company_responses/reports_universe.json
+python3 cr_frequency.py                      # frequency.csv, frequency_summary.csv
+```

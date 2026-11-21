@@ -1,168 +1,138 @@
-# Company list for the frequency study
+# Companies in the frequency study (by company type)
 
-Fortune 100 (2026) and DAX, CAC 40, FTSE 100 and EURO STOXX 50 constituents headquartered in the EU-27, UK or US that belong to one of the six company types (`company_types.json`). **Reports 2016-25** = report years 2016-2025 for which a report is available automatically (SEC EDGAR, filings.xbrl.org) or already collected by hand (`manual_reports.json`); **Missing** = years to collect by hand. Types: GK gatekeepers and very large platforms, PL platforms and digital services, CL cloud, data and AI, TC telecoms, FI finance, payments and crypto, PR makers of connected products.
+Fortune 100 (2026) and DAX, CAC 40, FTSE 100 and EURO STOXX 50 constituents headquartered in the EU-27, the UK or the US that belong to one of the six company types, after the project lead's decisions of 21 November 2026, plus Salesforce (proposed). Each company is listed under its main type; other types in brackets. **Reports** = report years 2000-2025 for which an annual report is available: SEC 10-K/20-F, ESEF (filings.xbrl.org), the company's IR website (including EQS-hosted files) or annualreports.com. **Gaps** = missing years after the first available one. Years before a company's first report are mostly before it was listed or formed.
+**104 companies.**
 
-## Included: US (46)
+## Gatekeepers and very large platforms (6)
 
-| Company | Index | HQ | Types | Reports 2016-25 | Source | Missing |
+| Company | Region | Also | Reports | Years | Gaps | Sources |
 |---|---|---|---|---|---|---|
-| AT&T | F100 (#35) | US | TC | 10/10 | SEC 10-K | – |
-| Allstate | F100 (#64) | US | FI | 10/10 | SEC 10-K | – |
-| Alphabet | F100 (#5) | US | GK;PL;CL | 10/10 | SEC 10-K | – |
-| Amazon | F100 (#1) | US | GK;PL;CL | 10/10 | SEC 10-K | – |
-| American Express | F100 (#56) | US | FI | 10/10 | SEC 10-K | – |
-| Apple | F100 (#4) | US | GK;PR | 10/10 | SEC 10-K | – |
-| Bank of America | F100 (#20) | US | FI | 10/10 | SEC 10-K | – |
-| Berkshire Hathaway | F100 (#7) | US | FI | 10/10 | SEC 10-K | – |
-| Broadcom | F100 (#70) | US | PR;CL | 10/10 | SEC 10-K | – |
-| Capital One Financial | F100 (#63) | US | FI | 10/10 | SEC 10-K | – |
-| Charter Communications | F100 (#85) | US | TC | 10/10 | SEC 10-K | – |
-| Cisco Systems | F100 (#83) | US | PR | 10/10 | SEC 10-K | – |
-| Citigroup | F100 (#24) | US | FI | 10/10 | SEC 10-K | – |
-| Comcast | F100 (#37) | US | TC | 10/10 | SEC 10-K | – |
-| Dell Technologies | F100 (#41) | US | PR;CL | 9/10 | SEC 10-K | 2016 |
-| Fannie Mae | F100 (#26) | US | FI | 10/10 | SEC 10-K | – |
-| Ford Motor | F100 (#22) | US | PR | 10/10 | SEC 10-K | – |
-| Freddie Mac | F100 (#33) | US | FI | 10/10 | SEC 10-K | – |
-| Galaxy Digital | F100 (#76) | US | FI | 1/10 | SEC 10-K | 2016 2017 2018 2019 2020 2021 2022 2023 2024 |
-| General Motors | F100 (#23) | US | PR | 10/10 | SEC 10-K | – |
-| Goldman Sachs Group | F100 (#36) | US | FI | 10/10 | SEC 10-K | – |
-| HP | F100 (#84) | US | PR | 10/10 | SEC 10-K | – |
-| Intel | F100 (#88) | US | PR | 10/10 | SEC 10-K | – |
-| International Business Machines | F100 (#66) | US | CL | 10/10 | SEC 10-K | – |
-| JPMorgan Chase | F100 (#12) | US | FI | 10/10 | SEC 10-K | – |
-| Liberty Mutual Insurance Group | F100 (#95) | US | FI | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| Massachusetts Mutual Life Insurance | F100 (#100) | US | FI | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| MetLife | F100 (#59) | US | FI | 10/10 | SEC 10-K | – |
-| Meta Platforms | F100 (#17) | US | GK;PL | 10/10 | SEC 10-K | – |
-| Microsoft | F100 (#11) | US | GK;CL | 10/10 | SEC 10-K | – |
-| Morgan Stanley | F100 (#39) | US | FI | 10/10 | SEC 10-K | – |
-| Nationwide | F100 (#69) | US | FI | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| New York Life Insurance | F100 (#62) | US | FI | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| Nvidia | F100 (#16) | US | CL;PR | 10/10 | SEC 10-K | – |
-| Oracle | F100 (#82) | US | CL | 9/10 | SEC 10-K | 2025 |
-| Progressive | F100 (#51) | US | FI | 10/10 | SEC 10-K | – |
-| Prudential Financial | F100 (#78) | US | FI | 10/10 | SEC 10-K | – |
-| State Farm Insurance | F100 (#32) | US | FI | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| StoneX Group | F100 (#31) | US | FI | 10/10 | SEC 10-K | – |
-| TIAA | F100 (#94) | US | FI | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| Tesla | F100 (#43) | US | PR | 10/10 | SEC 10-K | – |
-| Travelers | F100 (#96) | US | FI | 10/10 | SEC 10-K | – |
-| Uber Technologies | F100 (#92) | US | PL | 7/10 | SEC 10-K | 2016 2017 2018 |
-| United Services Automobile Assn. | F100 (#93) | US | FI | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| Verizon Communications | F100 (#28) | US | TC | 10/10 | SEC 10-K | – |
-| Wells Fargo | F100 (#38) | US | FI | 10/10 | SEC 10-K | – |
+| Zalando | EU (DE) | PL | 2014–2025 | 12 | – | IR site / annualreports.com |
+| Alphabet | US (US) | PL, CL | 2004–2025 | 22 | – | SEC 10-K |
+| Amazon | US (US) | PL, CL | 2000–2025 | 26 | – | SEC 10-K/10-K405 |
+| Apple | US (US) | PR | 2000–2025 | 26 | – | SEC 10-K/10-K405 |
+| Meta Platforms | US (US) | PL | 2012–2025 | 14 | – | SEC 10-K |
+| Microsoft | US (US) | CL | 2000–2025 | 26 | – | SEC 10-K |
 
-## Included: EU (41)
+## Online platforms and digital services (8)
 
-| Company | Index | HQ | Types | Reports 2016-25 | Source | Missing |
+| Company | Region | Also | Reports | Years | Gaps | Sources |
 |---|---|---|---|---|---|---|
-| Adyen | EURO STOXX 50 | NL | FI | 6/10 | ESEF | 2016 2017 2018 2019 |
-| Allianz | DAX; EURO STOXX 50 | DE | FI | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| Axa | CAC 40; EURO STOXX 50 | FR | FI | 5/10 | ESEF | 2016 2017 2018 2019 2021 |
-| BBVA | EURO STOXX 50 | ES | FI | 10/10 | SEC 20-F, ESEF | – |
-| BMW | DAX; EURO STOXX 50 | DE | PR | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| BNP Paribas | CAC 40; EURO STOXX 50 | FR | FI | 5/10 | ESEF | 2016 2017 2018 2019 2020 |
-| Banco Santander | EURO STOXX 50 | ES | FI | 10/10 | SEC 20-F, ESEF | – |
-| Bouygues | CAC 40 | FR | TC | 4/10 | ESEF | 2016 2017 2018 2019 2020 2025 |
-| Capgemini | CAC 40 | FR | CL | 10/10 | ESEF, manual | – |
-| Commerzbank | DAX | DE | FI | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| Crédit Agricole | CAC 40 | FR | FI | 6/10 | ESEF | 2016 2017 2018 2019 |
-| Daimler Truck | DAX | DE | PR | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| Dassault Systèmes | CAC 40 | FR | CL | 5/10 | ESEF | 2016 2017 2018 2019 2020 |
-| Deutsche Bank | DAX; EURO STOXX 50 | DE | FI | 10/10 | SEC 20-F | – |
-| Deutsche Börse | DAX; EURO STOXX 50 | DE | FI | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| Deutsche Telekom | DAX; EURO STOXX 50 | DE | TC | 8/10 | manual | 2016 2017 |
-| Euronext | CAC 40 | NL | FI | 5/10 | ESEF | 2016 2017 2018 2019 2020 |
-| Experian | FTSE 100 | IE | CL;FI | 5/10 | ESEF | 2016 2017 2018 2019 2020 |
-| Hannover Re | DAX | DE | FI | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| ING Group | EURO STOXX 50 | NL | FI | 10/10 | SEC 20-F, ESEF | – |
-| Infineon Technologies | DAX; EURO STOXX 50 | DE | PR | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| Intesa Sanpaolo | EURO STOXX 50 | IT | FI | 2/10 | ESEF | 2016 2017 2018 2019 2020 2023 2024 2025 |
-| Legrand | CAC 40 | FR | PR | 5/10 | ESEF | 2016 2017 2018 2019 2020 |
-| Mercedes-Benz Group | DAX; EURO STOXX 50 | DE | PR | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| Munich Re | DAX; EURO STOXX 50 | DE | FI | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| Nokia | EURO STOXX 50 | FI | PR;TC | 10/10 | SEC 20-F, ESEF | – |
-| Nordea | EURO STOXX 50 | FI | FI | 6/10 | ESEF | 2016 2017 2018 2019 |
-| Orange | CAC 40 | FR | TC | 9/10 | SEC 20-F, ESEF | 2025 |
-| Prosus | EURO STOXX 50 | NL | PL | 3/10 | ESEF | 2016 2017 2018 2019 2020 2021 2025 |
-| Renault | CAC 40 | FR | PR | 5/10 | ESEF | 2016 2017 2018 2019 2020 |
-| SAP | DAX; EURO STOXX 50 | DE | CL | 10/10 | SEC 20-F | – |
-| Schneider Electric | CAC 40; EURO STOXX 50 | FR | PR | 6/10 | ESEF | 2016 2017 2018 2019 |
-| Scout24 | DAX | DE | PL | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| Siemens | DAX; EURO STOXX 50 | DE | PR;CL | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| Siemens Healthineers | DAX | DE | PR | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| Société Générale | CAC 40 | FR | FI | 4/10 | ESEF | 2016 2017 2018 2019 2020 2024 |
-| Stellantis | CAC 40 | NL | PR | 10/10 | SEC 20-F, ESEF | – |
-| Thales | CAC 40 | FR | PR;CL | 4/10 | ESEF | 2016 2017 2018 2019 2020 2023 |
-| UniCredit | EURO STOXX 50 | IT | FI | 4/10 | ESEF | 2016 2017 2018 2019 2020 2025 |
-| Volkswagen Group | DAX | DE | PR | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| Zalando | DAX | DE | GK;PL | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
+| Prosus | EU (NL) | – | 2022–2024 | 3 | 2025 | ESEF |
+| Scout24 | EU (DE) | – | 2015–2025 | 11 | – | IR site / annualreports.com |
+| Autotrader Group | UK (GB) | – | 2015–2025 | 11 | – | ESEF, IR site / annualreports.com |
+| Informa | UK (GB) | – | 2021–2025 | 5 | – | ESEF |
+| Next plc | UK (GB) | – | 2022–2025 | 4 | – | ESEF |
+| Pearson plc | UK (GB) | – | 2000–2025 | 26 | – | SEC 20-F, ESEF |
+| Uber Technologies | US (US) | – | 2019–2025 | 7 | – | SEC 10-K |
+| Walt Disney | US (US) | – | 2000–2025 | 26 | – | SEC 10-K |
 
-## Included: UK (26)
+## Cloud, data and AI (13)
 
-| Company | Index | HQ | Types | Reports 2016-25 | Source | Missing |
+| Company | Region | Also | Reports | Years | Gaps | Sources |
 |---|---|---|---|---|---|---|
-| 3i | FTSE 100 | GB | FI | 4/10 | ESEF | 2016 2017 2018 2019 2020 2021 |
-| Aberdeen Group | FTSE 100 | GB | FI | 5/10 | ESEF | 2016 2017 2018 2019 2020 |
-| Admiral Group | FTSE 100 | GB | FI | 5/10 | ESEF | 2016 2017 2018 2019 2020 |
-| Airtel Africa | FTSE 100 | GB | TC | 4/10 | ESEF | 2016 2017 2018 2019 2020 2021 |
-| Autotrader Group | FTSE 100 | GB | PL | 4/10 | ESEF | 2016 2017 2018 2019 2020 2021 |
-| Aviva | FTSE 100 | GB | FI | 4/10 | ESEF | 2016 2017 2018 2019 2020 2025 |
-| BT Group | FTSE 100 | GB | TC | 4/10 | ESEF | 2016 2017 2018 2019 2020 2021 |
-| Barclays | FTSE 100 | GB | FI | 10/10 | SEC 20-F, ESEF | – |
-| Computacenter | FTSE 100 | GB | CL | 5/10 | ESEF | 2016 2017 2018 2019 2020 |
-| HSBC | FTSE 100 | GB | FI | 10/10 | SEC 20-F, ESEF | – |
-| ICG | FTSE 100 | GB | FI | 3/10 | ESEF | 2016 2017 2018 2019 2020 2021 2023 |
-| IG Group | FTSE 100 | GB | FI | 3/10 | ESEF | 2016 2017 2018 2019 2020 2021 2025 |
-| Investec | FTSE 100 | GB | FI | 3/10 | ESEF | 2016 2017 2018 2019 2020 2021 2025 |
-| Legal & General | FTSE 100 | GB | FI | 5/10 | ESEF | 2016 2017 2018 2019 2020 |
-| Lion Finance Group | FTSE 100 | GB | FI | 5/10 | ESEF | 2016 2017 2018 2019 2020 |
-| Lloyds Banking Group | FTSE 100 | GB | FI | 10/10 | SEC 20-F, ESEF | – |
-| London Stock Exchange Group | FTSE 100 | GB | FI;CL | 5/10 | ESEF | 2016 2017 2018 2019 2020 |
-| M&G | FTSE 100 | GB | FI | 5/10 | ESEF | 2016 2017 2018 2019 2020 |
-| NatWest Group | FTSE 100 | GB | FI | 10/10 | SEC 20-F, ESEF | – |
-| Prudential plc | FTSE 100 | GB | FI | 10/10 | SEC 20-F, ESEF | – |
-| RELX | FTSE 100 | GB | CL | 10/10 | SEC 20-F, ESEF | – |
-| Sage Group | FTSE 100 | GB | CL | 4/10 | ESEF | 2016 2017 2018 2019 2020 2021 |
-| St. James's Place | FTSE 100 | GB | FI | 6/10 | ESEF | 2016 2017 2018 2019 |
-| Standard Chartered | FTSE 100 | GB | FI | 4/10 | ESEF | 2016 2017 2018 2019 2020 2025 |
-| Standard Life | FTSE 100 | GB | FI | 5/10 | ESEF | 2016 2017 2018 2019 2020 |
-| Vodafone Group | FTSE 100 | GB | TC | 10/10 | SEC 20-F, ESEF | – |
+| Capgemini | EU (FR) | – | 2016–2025 | 10 | – | ESEF, IR site / annualreports.com |
+| Dassault Systèmes | EU (FR) | – | 2001–2025 | 12 | 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 | SEC 20-F, ESEF |
+| Experian | EU (IE) | FI | 2007–2025 | 19 | – | ESEF, IR site / annualreports.com |
+| Publicis | EU (FR) | – | 2000–2024 | 11 | 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2025 | SEC 20-F, ESEF |
+| SAP | EU (DE) | – | 2000–2025 | 26 | – | SEC 20-F |
+| Computacenter | UK (GB) | – | 2000–2025 | 25 | 2016 | ESEF, IR site / annualreports.com |
+| RELX | UK (GB) | – | 2000–2025 | 26 | – | SEC 20-F, ESEF |
+| Sage Group | UK (GB) | – | 2006–2025 | 20 | – | ESEF, IR site / annualreports.com |
+| WPP | UK (GB) | – | 2000–2025 | 26 | – | SEC 20-F, ESEF |
+| International Business Machines | US (US) | – | 2000–2025 | 26 | – | SEC 10-K/10-K405 |
+| Nvidia | US (US) | PR | 2000–2025 | 25 | 2008 | SEC 10-K/10-K405 |
+| Oracle | US (US) | – | 2000–2025 | 25 | 2025 | SEC 10-K |
+| Salesforce (proposed) | US (US) | PL | 2005–2025 | 21 | – | SEC 10-K |
 
-## Borderline (decision needed): US (11)
+## Telecoms (10)
 
-| Company | Index | HQ | Types | Reports 2016-25 | Source | Missing |
+| Company | Region | Also | Reports | Years | Gaps | Sources |
 |---|---|---|---|---|---|---|
-| CVS Health | F100 (#6) | US | FI | 10/10 | SEC 10-K | – |
-| Caterpillar | F100 (#65) | US | PR | 10/10 | SEC 10-K | – |
-| Centene | F100 (#19) | US | FI | 10/10 | SEC 10-K | – |
-| Cigna Group | F100 (#14) | US | FI | 10/10 | SEC 10-K | – |
-| Elevance Health | F100 (#18) | US | FI | 10/10 | SEC 10-K | – |
-| Humana | F100 (#34) | US | FI | 10/10 | SEC 10-K | – |
-| Ingram Micro Holding | F100 (#90) | US | PR | 2/10 | SEC 10-K | 2016 2017 2018 2019 2020 2021 2022 2023 |
-| TD Synnex | F100 (#74) | US | PR | 10/10 | SEC 10-K | – |
-| UnitedHealth Group | F100 (#3) | US | FI | 10/10 | SEC 10-K | – |
-| Walmart | F100 (#2) | US | PL | 10/10 | SEC 10-K | – |
-| Walt Disney | F100 (#44) | US | PL | 10/10 | SEC 10-K | – |
+| Bouygues | EU (FR) | – | 2021–2024 | 4 | 2025 | ESEF |
+| Deutsche Telekom | EU (DE) | – | 2001–2025 | 25 | – | SEC 20-F, IR site / annualreports.com |
+| Orange | EU (FR) | – | 2001–2024 | 24 | 2025 | SEC 20-F, ESEF |
+| Airtel Africa | UK (GB) | – | 2020–2025 | 6 | – | ESEF, IR site / annualreports.com |
+| BT Group | UK (GB) | – | 2001–2025 | 23 | 2003 2021 | SEC 20-F, ESEF |
+| Vodafone Group | UK (GB) | – | 2002–2025 | 24 | – | SEC 20-F, ESEF |
+| AT&T | US (US) | – | 2000–2025 | 26 | – | SEC 10-K |
+| Charter Communications | US (US) | – | 2000–2025 | 26 | – | SEC 10-K/10-K405 |
+| Comcast | US (US) | – | 2000–2025 | 26 | – | SEC 10-K |
+| Verizon Communications | US (US) | – | 2000–2025 | 26 | – | SEC 10-K/10-K405 |
 
-## Borderline (decision needed): EU (6)
+## Finance, payments and crypto (45)
 
-| Company | Index | HQ | Types | Reports 2016-25 | Source | Missing |
+| Company | Region | Also | Reports | Years | Gaps | Sources |
 |---|---|---|---|---|---|---|
-| ASML Holding | EURO STOXX 50 | NL | PR | 10/10 | SEC 20-F, ESEF | – |
-| Continental | DAX | DE | PR | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| EssilorLuxottica | CAC 40; EURO STOXX 50 | FR | PR | 4/10 | ESEF | 2016 2017 2018 2019 2020 2025 |
-| Ferrari | EURO STOXX 50 | IT | PR | 10/10 | SEC 20-F, ESEF | – |
-| Porsche SE | DAX | DE | PR | 0/10 | none | 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 |
-| Publicis | CAC 40 | FR | CL | 4/10 | ESEF | 2016 2017 2018 2019 2020 2025 |
+| Adyen | EU (NL) | – | 2020–2025 | 6 | – | ESEF |
+| Allianz | EU (DE) | – | 2000–2025 | 26 | – | SEC 20-F, IR site / annualreports.com |
+| Axa | EU (FR) | – | 2000–2025 | 26 | – | SEC 20-F, ESEF, IR site / annualreports.com |
+| BBVA | EU (ES) | – | 2001–2025 | 25 | – | SEC 20-F, ESEF |
+| BNP Paribas | EU (FR) | – | 2021–2025 | 5 | – | ESEF |
+| Banco Santander | EU (ES) | – | 2001–2025 | 25 | – | SEC 20-F, ESEF |
+| Commerzbank | EU (DE) | – | 2000–2024 | 25 | 2025 | IR site / annualreports.com |
+| Crédit Agricole | EU (FR) | – | 2020–2025 | 6 | – | ESEF |
+| Deutsche Bank | EU (DE) | – | 2001–2025 | 25 | – | SEC 20-F |
+| Deutsche Börse | EU (DE) | – | 2002–2024 | 23 | 2025 | IR site / annualreports.com |
+| Euronext | EU (NL) | – | 2021–2025 | 5 | – | ESEF |
+| Hannover Re | EU (DE) | – | 2002–2025 | 24 | – | IR site / annualreports.com |
+| ING Group | EU (NL) | – | 2001–2025 | 25 | – | SEC 20-F, ESEF |
+| Intesa Sanpaolo | EU (IT) | – | 2016–2024 | 9 | 2025 | ESEF, IR site / annualreports.com |
+| Munich Re | EU (DE) | – | 2000–2025 | 26 | – | IR site / annualreports.com |
+| Nordea | EU (FI) | – | 2000–2025 | 26 | – | ESEF, IR site / annualreports.com |
+| Société Générale | EU (FR) | – | 2021–2025 | 4 | 2024 | ESEF |
+| UniCredit | EU (IT) | – | 2005–2024 | 20 | 2025 | ESEF, IR site / annualreports.com |
+| 3i | UK (GB) | – | 2003–2025 | 23 | – | ESEF, IR site / annualreports.com |
+| Aberdeen Group | UK (GB) | – | 2013–2025 | 13 | – | ESEF, IR site / annualreports.com |
+| Admiral Group | UK (GB) | – | 2002–2025 | 23 | 2009 | ESEF, IR site / annualreports.com |
+| Aviva | UK (GB) | – | 2000–2025 | 25 | 2025 | SEC 20-F, ESEF, IR site / annualreports.com |
+| Barclays | UK (GB) | – | 2001–2025 | 25 | – | SEC 20-F, ESEF |
+| HSBC | UK (GB) | – | 2001–2025 | 25 | – | SEC 20-F, ESEF |
+| ICG | UK (GB) | – | 2000–2025 | 26 | – | ESEF, IR site / annualreports.com |
+| IG Group | UK (GB) | – | 2022–2024 | 3 | 2025 | ESEF |
+| Investec | UK (GB) | – | 2022–2025 | 3 | 2025 | ESEF |
+| Legal & General | UK (GB) | – | 2021–2025 | 5 | – | ESEF |
+| Lion Finance Group | UK (GB) | – | 2021–2025 | 5 | – | ESEF |
+| Lloyds Banking Group | UK (GB) | – | 2001–2025 | 25 | – | SEC 20-F, ESEF |
+| London Stock Exchange Group | UK (GB) | CL | 2021–2025 | 5 | – | ESEF |
+| M&G | UK (GB) | – | 2019–2025 | 7 | – | ESEF, IR site / annualreports.com |
+| NatWest Group | UK (GB) | – | 2001–2025 | 25 | – | SEC 20-F, ESEF |
+| Prudential plc | UK (GB) | – | 2001–2025 | 25 | – | SEC 20-F, ESEF |
+| St. James's Place | UK (GB) | – | 2004–2025 | 22 | – | ESEF, IR site / annualreports.com |
+| Standard Chartered | UK (GB) | – | 2002–2025 | 22 | 2003 2025 | ESEF, IR site / annualreports.com |
+| Standard Life | UK (GB) | – | 2008–2025 | 18 | – | ESEF, IR site / annualreports.com |
+| American Express | US (US) | – | 2000–2025 | 26 | – | SEC 10-K/10-K405 |
+| Bank of America | US (US) | – | 2000–2025 | 26 | – | SEC 10-K |
+| Capital One Financial | US (US) | – | 2000–2025 | 26 | – | SEC 10-K |
+| Citigroup | US (US) | – | 2000–2025 | 26 | – | SEC 10-K/10-K405 |
+| Goldman Sachs Group | US (US) | – | 2000–2025 | 26 | – | SEC 10-K/10-K405 |
+| JPMorgan Chase | US (US) | – | 2000–2025 | 26 | – | SEC 10-K/10-K405 |
+| Morgan Stanley | US (US) | – | 2000–2025 | 26 | – | SEC 10-K/10-K405 |
+| Wells Fargo | US (US) | – | 2000–2025 | 26 | – | SEC 10-K |
 
-## Borderline (decision needed): UK (5)
+## Makers of connected products (22)
 
-| Company | Index | HQ | Types | Reports 2016-25 | Source | Missing |
+| Company | Region | Also | Reports | Years | Gaps | Sources |
 |---|---|---|---|---|---|---|
-| Halma plc | FTSE 100 | GB | PR | 4/10 | ESEF | 2016 2017 2018 2019 2020 2021 |
-| Informa | FTSE 100 | GB | PL | 5/10 | ESEF | 2016 2017 2018 2019 2020 |
-| Next plc | FTSE 100 | GB | PL | 4/10 | ESEF | 2016 2017 2018 2019 2020 2021 |
-| Pearson plc | FTSE 100 | GB | PL | 10/10 | SEC 20-F, ESEF | – |
-| WPP | FTSE 100 | GB | CL | 10/10 | SEC 20-F, ESEF | – |
+| ASML Holding | EU (NL) | – | 2001–2025 | 25 | – | SEC 20-F, ESEF |
+| BMW | EU (DE) | – | 2006–2024 | 19 | 2025 | IR site / annualreports.com |
+| Daimler Truck | EU (DE) | – | 2021–2025 | 5 | – | IR site / annualreports.com |
+| Infineon Technologies | EU (DE) | – | 2001–2024 | 24 | 2025 | SEC 20-F, IR site / annualreports.com |
+| Legrand | EU (FR) | – | 2021–2025 | 5 | – | ESEF |
+| Mercedes-Benz Group | EU (DE) | – | 2000–2025 | 26 | – | SEC 20-F, IR site / annualreports.com |
+| Nokia | EU (FI) | TC | 2001–2025 | 25 | – | SEC 20-F, ESEF |
+| Renault | EU (FR) | – | 2000–2025 | 25 | 2020 | ESEF, IR site / annualreports.com |
+| Schneider Electric | EU (FR) | – | 2011–2025 | 15 | – | ESEF, IR site / annualreports.com |
+| Siemens | EU (DE) | CL | 2001–2024 | 24 | 2025 | SEC 20-F, IR site / annualreports.com |
+| Siemens Healthineers | EU (DE) | – | 2018–2025 | 8 | – | IR site / annualreports.com |
+| Stellantis | EU (NL) | – | 2001–2025 | 18 | 2007 2008 2009 2010 2011 2012 2013 | SEC 20-F, ESEF |
+| Thales | EU (FR) | CL | 2021–2025 | 4 | 2023 | ESEF |
+| Volkswagen Group | EU (DE) | – | 2008–2024 | 17 | 2025 | IR site / annualreports.com |
+| Broadcom | US (US) | CL | 2009–2025 | 17 | – | SEC 10-K |
+| Cisco Systems | US (US) | – | 2000–2025 | 26 | – | SEC 10-K |
+| Dell Technologies | US (US) | CL | 2000–2025 | 23 | 2014 2015 2016 | SEC 10-K |
+| Ford Motor | US (US) | – | 2000–2025 | 26 | – | SEC 10-K |
+| General Motors | US (US) | – | 2000–2025 | 26 | – | SEC 10-K |
+| HP | US (US) | – | 2000–2025 | 26 | – | SEC 10-K |
+| Intel | US (US) | – | 2000–2025 | 26 | – | SEC 10-K |
+| Tesla | US (US) | – | 2010–2025 | 16 | – | SEC 10-K |

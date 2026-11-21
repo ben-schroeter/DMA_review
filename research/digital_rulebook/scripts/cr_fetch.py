@@ -19,7 +19,7 @@ DATA = os.path.join(HERE, "..", "data", "company_responses")
 CACHE = os.path.join(os.environ.get("RULEBOOK_CACHE", os.path.expanduser("~/.cache/digital_rulebook")), "company_reports")
 SEC_UA = "EU Digital Rulebook admin@ben-schroeter.de"
 WEB_UA = "Mozilla/5.0 (compatible; EU Digital Rulebook research)"
-YEARS = range(2016, 2027)
+YEARS = range(int(os.environ.get("CR_FROM", "2016")), 2027)   # CR_FROM=2000 for the frequency study
 
 
 def get(url, ua, binary=True, sleep=0.25, retries=6):
@@ -96,7 +96,7 @@ def sec_annual_filings(cik):
     out = []
     for r in blocks:
         for i, form in enumerate(r["form"]):
-            if form not in ("10-K", "20-F"):
+            if form not in ("10-K", "10-K405", "20-F"):
                 continue
             filed = r["filingDate"][i]
             period = r["reportDate"][i] or filed
@@ -108,6 +108,19 @@ def sec_annual_filings(cik):
             acc = r["accessionNumber"][i]
             url = f"https://www.sec.gov/Archives/edgar/data/{cik}/{acc.replace('-', '')}/{r['primaryDocument'][i]}"
             out.append({"form": form, "filed": filed, "period_end": period, "accession": acc, "url": url})
+    return out
+
+
+def sec_filings_for(ciks):
+    """Annual filings for a list of CIKs; an entry may be {"cik": n, "from": y, "to": y} to use a
+    predecessor registrant only for some report years (e.g. old General Motors until 2008)."""
+    out = []
+    for c in ciks:
+        c = c if isinstance(c, dict) else {"cik": c}
+        for f in sec_annual_filings(c["cik"]):
+            y = int(f["period_end"][:4])
+            if c.get("from", 0) <= y <= c.get("to", 9999):
+                out.append(f)
     return out
 
 
@@ -150,7 +163,7 @@ def main():
             continue
         found = {}
         ciks = c.get("sec_ciks") or ([c["sec_cik"]] if c.get("sec_cik") else [])
-        filings = [f for cik in ciks for f in sec_annual_filings(cik)]
+        filings = sec_filings_for(ciks)
         for f in sorted(filings, key=lambda f: f["filed"]):
             y = int(f["period_end"][:4])
             if y in YEARS and y not in found:   # first original filing for the period
@@ -162,11 +175,12 @@ def main():
             lang = e.get("language") or ("fr" if "-fr" in e["url"] else "")
             found[int(y)] = {"form": "ESEF annual financial report", "period_end": e.get("period_end", f"{y}-12-31"),
                              "url": e["url"], "source": "filings.xbrl.org", "kind": "html", "language": lang}
-        for y, url in cfg.get("web_reports", {}).get(cid, {}).items():
+        for y, w in cfg.get("web_reports", {}).get(cid, {}).items():
             if y.startswith("_") or int(y) in found:
                 continue
-            found[int(y)] = {"form": "Annual report (company website)", "period_end": f"{y}-12-31", "url": url,
-                             "source": "company website", "kind": "pdf"}
+            w = w if isinstance(w, dict) else {"url": w, "source": "company website"}
+            found[int(y)] = {"form": "Annual report (" + w["source"] + ")", "period_end": f"{y}-12-31", "url": w["url"],
+                             "source": w["source"], "kind": "pdf"}
         for y in YEARS:
             r = {"company": cid, "year": y}
             if y not in found:
