@@ -88,13 +88,14 @@ for r in sorted(cmp_, key=lambda r: r["restrictions_total"] > r["proposal_restri
     c = GOLD if r["restrictions_total"] > r["proposal_restrictions_total"] else SLATE
     b.append(f'<circle cx="{X(r["proposal_restrictions_total"]):.1f}" cy="{Y(r["restrictions_total"]):.1f}" r="7" fill="{c}" fill-opacity="0.85" stroke="{BG}" stroke-width="1.2"></circle>')
 top6 = sorted(cmp_, key=lambda r: -(r["restrictions_total"] - r["proposal_restrictions_total"]))[:6]
-OFF = {"AI Act": (-14, 0, "end"), "MiCA": (-14, 6, "end"), "European Health Data Space": (12, 5, "start"),
+OFF = {"In vitro diagnostics (IVDR)": (-14, 6, "end"), "AI Act": (-14, 0, "end"), "MiCA": (-14, 6, "end"), "European Health Data Space": (12, 5, "start"),
        "AML Regulation": (-14, -26, "end"), "DSA": (-14, -12, "end"), "Horizon Europe": (-14, 0, "end")}
 for r in top6:
     nm = SHORT.get(r["name"], r["name"].split(" (")[0])
     dx, dy, an = OFF.get(nm, (12, 5, "start"))
     b.append(t(X(r["proposal_restrictions_total"]) + dx, Y(r["restrictions_total"]) + dy + 6, f'{esc(nm)} <tspan fill="{MUTED}" font-weight="400">{r["proposal_restrictions_total"]:,} → {r["restrictions_total"]:,}</tspan>', 16, INK, an, 600))
-b += callout(X(mx * 0.47), Y(mx * 0.47) + 150, 470, f"{up}/{len(cmp_)}", ["acts gained obligations; together", f"{p_tot:,} → {a_tot:,} (+{100 * (a_tot / p_tot - 1):.0f}%)"], h=110)
+_cw = 590   # wide enough for the number and its two lines of text; right-aligned in the plot, clear of the dots
+b += callout(W - R - _cw - 16, Y(mx * 0.47) + 150, _cw, f"{up}/{len(cmp_)}", ["acts gained obligations; together", f"{p_tot:,} → {a_tot:,} (+{100 * (a_tot / p_tot - 1):.0f}%)"], h=110)
 frame(["EU digital laws come out of negotiation", "with more rules than went in"],
       [f"Obligations in the Commission’s proposal and in the adopted law, {len(cmp_)} EU digital acts"],
       ["Each dot is one act; gold: more obligations in the adopted law than in the proposal. Legal text only (articles and annexes), counted",

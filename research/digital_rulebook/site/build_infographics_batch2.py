@@ -85,11 +85,11 @@ for i, (lab, e, u) in enumerate(data):
         b.append(t(lab_x, yy + 21, f"{v:+.2f}".replace("-", "−"), 19, INK if hl else MUTED, anc, 700 if hl else 400))
 us_use = next(u for l, e, u in data if l == "ICT-using services"); eu_use = next(e for l, e, u in data if l == "ICT-using services")
 b += callout(640, 236, 504, f"+{us_use:.2f}", ["points of extra growth from", "ICT-using services in the US"], h=104, size=50)
-frame("ict_use", ["The US gained from using digital", "technology, not just from making it"],
+frame("ict_use", ["The US got ahead by adopting digital", "technology, not just by making it"],
       ["Contribution to the change in productivity growth after 1995, by sector,", "ten EU countries and the US, percentage points"],
       ["ICT-using services are retail, wholesale and finance, among others. EU-10: ten EU countries. Redrawn from R. Gordon and H. Sayed,",
        "“Transatlantic technologies: the role of ICT in the evolution of US and European productivity growth”, NBER w27425 (2020)."],
-      b, f"The US gained from using digital technology, not just from making it. Contribution to the change in productivity growth after 1995: "
+      b, f"The US got ahead by adopting digital technology, not just by making it. Contribution to the change in productivity growth after 1995: "
          + "; ".join(f"{l}: EU-10 {e:+.2f}, US {u:+.2f}" for l, e, u in data), "Gordon &amp; Sayed (2020)")
 
 # 2 and 3. OECD: share of employment spent on regulatory tasks
@@ -114,12 +114,12 @@ for i, (key, lab, c, pts) in enumerate((("EU countries", "EU countries", GOLD, P
     b.append(t(cx + bw / 2 + 18, Y(a["median"]) + 10, f'{a["median"]:.1f}%', 30, INK, weight=700, halo=True))
     b.append(t(cx, BOT + 44, lab, 26, INK, "middle", 700))
 b += callout(700, 300, 444, f"{eu_m:.1f}% v {us_m:.1f}%", ["median EU country", "vs median US state"], h=100, size=40)
-frame("compliance_2023", ["Europe spends more of its workforce", "on compliance than the US"],
+frame("compliance_2023", ["Europe spends more on compliance", "than the US"],
       ["Share of employment spent on regulatory tasks, 2023:", "each dot is one EU country or US state"],
       ["Box: middle half of countries or states; line: median; whiskers: range. EU countries: the EU except Bulgaria, Malta and Slovenia, plus",
        "Iceland, Norway and Switzerland. Dots read off the published chart; quartiles, median and range from the OECD data. Andrews, Turban",
        "and Tyros, OECD Economics Department Working Paper No. 1856 (2026), Figure 4; OECD Economic Outlook 2025/2, Figure 2.4."],
-      b, f"Europe spends more of its workforce on compliance than the US: median share of employment on regulatory tasks {eu_m:.1f}% across {len(P)} EU countries and {us_m:.1f}% across {len(PU)} US states, 2023.",
+      b, f"Europe spends more on compliance than the US: median share of employment on regulatory tasks {eu_m:.1f}% across {len(P)} EU countries and {us_m:.1f}% across {len(PU)} US states, 2023.",
       "OECD (2025, 2026)")
 
 TOP, BOT, lo, hi = 380, 960, 3.4, 4.2
@@ -160,11 +160,11 @@ for i, (lab, v, src, url) in enumerate(rows):
     vl = "~70%" if v == 69.5 else f"{v:.0f}%"
     b.append(t(56 + BW * v / 100 + 14, y + 65, vl, 30, INK, weight=700))
     b.append(t(56 + BW * v / 100 + 14 + 19 * len(vl) + 14, y + 64, src.replace("&amp;", "&amp;"), 18, MUTED))
-frame("firm_surveys", ["Firms see regulation as a brake", "on business and on AI"],
+frame("firm_surveys", ["EU firms see regulation as a brake", "on business and on AI"],
       ["Findings from seven surveys of companies"],
       ["Each survey asks a different question of a different group, so the shares show a common pattern, not a ranking.",
        "Eurostat: EU firms with 10+ employees that considered using AI but did not; several answers possible. IAPP: nearly 7 in 10 businesses."],
-      b, "Firms see regulation as a brake on business and on AI: " + "; ".join(f"{l} {v:.0f}% ({s})" for l, v, s, u in rows),
+      b, "EU firms see regulation as a brake on business and on AI: " + "; ".join(f"{l} {v:.0f}% ({s})" for l, v, s, u in rows),
       "Bitkom, IAPP, EIB, Eurobarometer, Eurostat, European Commission")
 
 # 5. regulatory design grid
@@ -192,8 +192,8 @@ frame("design_grid", [f"{G['MM']:.0%} of EU obligations on companies", "say exac
 c = run("site/build_company_types.py")
 order, sel, NAMES, AREAS, area = c["order"], c["sel"], c["NAMES"], c["AREAS"], c["area"]
 import collections
-L, R, TOP, BH, GAP = 400, 1060, 400, 58, 22
-XM = 4000
+L, R, TOP, BH, GAP = 400, 1040, 400, 58, 22   # R leaves room for the growth column
+XM = max(len(sel[k]) for k in order)   # the longest bar fills the plot
 X = lambda v: L + v / XM * (R - L)
 b, lx, ly = [], 56, 300
 for k, lab, col, _ in [("_pre", "In force at the start of 2018", BG, None)] + AREAS:
@@ -226,7 +226,15 @@ for i, k in enumerate(order):
             b.append(f'<rect x="{X(x):.1f}" y="{y}" width="{X(x + v) - X(x):.1f}" height="{BH}" fill="{col}" stroke="{BG}" stroke-width="1.5"></rect>')
             x += v
     tot = len(sel[k]); mult[k] = (pre, tot)
-    b.append(t(X(tot) + 12, y + BH / 2 + 9, f"{tot:,}", 24, INK, weight=700))
+    # long bar: the count goes inside its largest segment (right end), in that segment's text colour
+    segs, x0 = [], pre
+    for a, _, _, tc in AREAS:
+        if add[a]: segs.append((add[a], x0, tc)); x0 += add[a]
+    big = max(segs) if segs else None
+    if big and X(big[0]) - X(0) >= 150:
+        b.append(t(X(big[1] + big[0]) - 14, y + BH / 2 + 9, f"{tot:,}", 24, big[2], "end", 700))
+    else:
+        b.append(t(X(tot) + 12, y + BH / 2 + 9, f"{tot:,}", 24, INK, weight=700))
     b.append(t(W - 56, y + BH / 2 + 9, "new" if pre == 0 else f"×{tot / pre:.0f}" if tot / pre >= 10 else f"×{tot / pre:.1f}", 24, GOLD_D, "end", 700))
 spec = [k for k in order if k != "B"]
 pre_all, tot_all = sum(mult[k][0] for k in spec), sum(mult[k][1] for k in spec)
