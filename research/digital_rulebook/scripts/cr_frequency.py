@@ -143,7 +143,7 @@ def main():
             w = csv.DictWriter(f, fieldnames=rep_cols, extrasaction="ignore")
             w.writeheader()
             w.writerows(dict(base(r), **({"language": meas[(r["company"], r["year"])][1], "words": meas[(r["company"], r["year"])][0]}
-                                          if (r["company"], r["year"]) in meas else {})) for r in reps)
+                                          if (r["company"], r["year"]) in meas and r.get("status") == "ok" else {})) for r in reps)
         names = {l["id"]: l["name"] for l in laws}
         cols = ["company", "region", "year", "law", "law_name", "mentions", "paragraphs", "per_100k", "words", "matched", "context"]
         new_rows = [dict(x, law_name=names[x["law"]]) for x in rows if x["mentions"]]

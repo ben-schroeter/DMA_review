@@ -185,5 +185,8 @@ _w3 = {8: "eight", 9: "nine", 10: "ten", 11: "eleven", 12: "twelve"}
 put("lit_round3_laws", len(_l3), _w3.get(len(_l3), str(len(_l3))))
 put("lit_round3_sources", len({l["id"] for v in _l3.values() for l in v if l["id"] not in _d3}))
 put("db_secondary_items", s([{"n": F[k]["value"]} for k in ("implementing_acts", "delegated_acts", "db_secondary_guidance", "db_secondary_other")], "n"))
+# What companies say (In Numbers): figures computed by site/build_company_responses.py from the frequency study
+for _k, _v in json.load(open("site/company_responses_facts.json")).items():
+    put(_k, _v["value"], _v["text"])
 json.dump(F, open("site/facts.json", "w"), indent=1, ensure_ascii=False)
 print(len(F), {k: v["text"] for k, v in F.items()})

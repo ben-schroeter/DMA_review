@@ -52,6 +52,10 @@ def main():
                     "counts": json.dumps(counts), "url": r["url"]})
         if "--apply" in args and y and y != r["year"] and (r["company"], y) not in have and 2000 <= y <= 2026:
             have.discard((r["company"], r["year"]))
+            # swap with the placeholder row for the detected year, so each company-year appears once
+            for o in rows:
+                if o is not r and o["company"] == r["company"] and o["year"] == y and o.get("status") != "ok":
+                    o["year"] = r["year"]
             r["year_labelled"], r["year"] = r["year"], y
             have.add((r["company"], y))
     with open(os.path.join(DATA, "year_check.csv"), "w", newline="", encoding="utf-8") as f:

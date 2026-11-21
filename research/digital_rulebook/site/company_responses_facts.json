@@ -1,0 +1,350 @@
+{
+ "cr_laws_2010": {
+  "value": 0.24,
+  "text": "0.2"
+ },
+ "cr_laws_2025": {
+  "value": 3.508,
+  "text": "3.5"
+ },
+ "cr_fe_laws_2025": {
+  "value": 2.976,
+  "text": "3.0"
+ },
+ "cr_nongdpr_2010": {
+  "value": 0.146,
+  "text": "15%"
+ },
+ "cr_nongdpr_2025": {
+  "value": 0.712,
+  "text": "71%"
+ },
+ "cr_fe_nongdpr_2025": {
+  "value": 0.532,
+  "text": "53"
+ },
+ "cr_rate_2010": {
+  "value": 0.2032184401276953,
+  "text": "0.2"
+ },
+ "cr_rate_2025": {
+  "value": 5.271402413192673,
+  "text": "5.3"
+ },
+ "cr_rate_fe_2025": {
+  "value": 4.766123398239736,
+  "text": "4.8"
+ },
+ "cr_rate_2018": {
+  "value": 3.632052155359771,
+  "text": "3.6"
+ },
+ "cr_rate_2023": {
+  "value": 3.553972823441481,
+  "text": "3.6"
+ },
+ "cr_reports_fe": {
+  "value": 1748,
+  "text": "1,748"
+ },
+ "cr_type_TC": {
+  "value": 4.776,
+  "text": "4.8"
+ },
+ "cr_type_GK": {
+  "value": 4.316,
+  "text": "4.3"
+ },
+ "cr_type_FI": {
+  "value": 3.796,
+  "text": "3.8"
+ },
+ "cr_type_CL": {
+  "value": 2.419,
+  "text": "2.4"
+ },
+ "cr_type_PL": {
+  "value": 2.11,
+  "text": "2.1"
+ },
+ "cr_type_PR": {
+  "value": 1.561,
+  "text": "1.6"
+ },
+ "cr_type_n_min": {
+  "value": 9,
+  "text": "9"
+ },
+ "cr_type_n_max": {
+  "value": 41,
+  "text": "41"
+ },
+ "cr_ai_us": {
+  "value": 0.6274509803921569,
+  "text": "63%"
+ },
+ "cr_ai_eu": {
+  "value": 0.582089552238806,
+  "text": "58%"
+ },
+ "cr_ai_uk": {
+  "value": 0.4375,
+  "text": "44%"
+ },
+ "cr_dora_us": {
+  "value": 0.17647058823529413,
+  "text": "18%"
+ },
+ "cr_dora_eu": {
+  "value": 0.44776119402985076,
+  "text": "45%"
+ },
+ "cr_dora_uk": {
+  "value": 0.3125,
+  "text": "31%"
+ },
+ "cr_dsa_us": {
+  "value": 0.23529411764705882,
+  "text": "24%"
+ },
+ "cr_dsa_eu": {
+  "value": 0.26865671641791045,
+  "text": "27%"
+ },
+ "cr_dsa_uk": {
+  "value": 0.0625,
+  "text": "6%"
+ },
+ "cr_dma_us": {
+  "value": 0.1568627450980392,
+  "text": "16%"
+ },
+ "cr_dma_eu": {
+  "value": 0.208955223880597,
+  "text": "21%"
+ },
+ "cr_dma_uk": {
+  "value": 0.0625,
+  "text": "6%"
+ },
+ "cr_nis2_us": {
+  "value": 0.11764705882352941,
+  "text": "12%"
+ },
+ "cr_nis2_eu": {
+  "value": 0.29850746268656714,
+  "text": "30%"
+ },
+ "cr_nis2_uk": {
+  "value": 0.1875,
+  "text": "19%"
+ },
+ "cr_gdpr_us": {
+  "value": 0.9019607843137255,
+  "text": "90%"
+ },
+ "cr_gdpr_eu": {
+  "value": 0.8656716417910447,
+  "text": "87%"
+ },
+ "cr_gdpr_uk": {
+  "value": 0.8125,
+  "text": "81%"
+ },
+ "cr_top_n": {
+  "value": 15,
+  "text": "15"
+ },
+ "cr_n_us": {
+  "value": 51,
+  "text": "51"
+ },
+ "cr_n_eu": {
+  "value": 67,
+  "text": "67"
+ },
+ "cr_n_uk": {
+  "value": 16,
+  "text": "16"
+ },
+ "cr_corr_size": {
+  "value": 0.3304912489616949,
+  "text": "0.33"
+ },
+ "cr_laws_never": {
+  "value": 38,
+  "text": "38"
+ },
+ "cr_laws_named": {
+  "value": 72,
+  "text": "72"
+ },
+ "cr_laws_total": {
+  "value": 110,
+  "text": "110"
+ },
+ "cr_never_median_oblig": {
+  "value": 21.5,
+  "text": "22"
+ },
+ "cr_wide_n": {
+  "value": 20,
+  "text": "20"
+ },
+ "cr_wide_median_oblig": {
+  "value": 154.0,
+  "text": "154"
+ },
+ "cr_machinery_oblig": {
+  "value": 784,
+  "text": "784"
+ },
+ "cr_before_gdpr": {
+  "value": 0.10569105691056911,
+  "text": "11%"
+ },
+ "cr_median_first_gdpr": {
+  "value": 2018,
+  "text": "2018"
+ },
+ "cr_companies_gdpr": {
+  "value": 123,
+  "text": "123"
+ },
+ "cr_before_r23": {
+  "value": 0.1111111111111111,
+  "text": "11%"
+ },
+ "cr_median_first_r23": {
+  "value": 2017.0,
+  "text": "2017"
+ },
+ "cr_companies_r23": {
+  "value": 36,
+  "text": "36"
+ },
+ "cr_before_r60": {
+  "value": 0.5161290322580645,
+  "text": "52%"
+ },
+ "cr_median_first_r60": {
+  "value": 2021,
+  "text": "2021"
+ },
+ "cr_companies_r60": {
+  "value": 31,
+  "text": "31"
+ },
+ "cr_before_dma": {
+  "value": 0.6521739130434783,
+  "text": "65%"
+ },
+ "cr_median_first_dma": {
+  "value": 2021,
+  "text": "2021"
+ },
+ "cr_companies_dma": {
+  "value": 23,
+  "text": "23"
+ },
+ "cr_before_r57": {
+  "value": 0.18181818181818182,
+  "text": "18%"
+ },
+ "cr_median_first_r57": {
+  "value": 2023.0,
+  "text": "2023"
+ },
+ "cr_companies_r57": {
+  "value": 44,
+  "text": "44"
+ },
+ "cr_before_r61": {
+  "value": 0.034482758620689655,
+  "text": "3%"
+ },
+ "cr_median_first_r61": {
+  "value": 2024,
+  "text": "2024"
+ },
+ "cr_companies_r61": {
+  "value": 29,
+  "text": "29"
+ },
+ "cr_before_ai_act": {
+  "value": 0.3076923076923077,
+  "text": "31%"
+ },
+ "cr_median_first_ai_act": {
+  "value": 2024.0,
+  "text": "2024"
+ },
+ "cr_companies_ai_act": {
+  "value": 78,
+  "text": "78"
+ },
+ "cr_before_r76": {
+  "value": 0.13043478260869565,
+  "text": "13%"
+ },
+ "cr_median_first_r76": {
+  "value": 2024,
+  "text": "2024"
+ },
+ "cr_companies_r76": {
+  "value": 23,
+  "text": "23"
+ },
+ "cr_companies": {
+  "value": 134,
+  "text": "134"
+ },
+ "cr_reports": {
+  "value": 2497,
+  "text": "2,497"
+ },
+ "cr_year_first": {
+  "value": 2000,
+  "text": "2000"
+ },
+ "cr_persist": {
+  "value": 0.8390134529147982,
+  "text": "84%"
+ },
+ "cr_ai_types": {
+  "value": 6,
+  "text": "all six"
+ },
+ "cr_meta_gdpr_2024": {
+  "value": 63.726,
+  "text": "64"
+ },
+ "cr_gdpr_median_2024": {
+  "value": 3.795,
+  "text": "4"
+ },
+ "cr_apple_dma_2023": {
+  "value": 6.381,
+  "text": "6"
+ },
+ "cr_apple_dma_2024": {
+  "value": 40.829,
+  "text": "41"
+ },
+ "cr_meta_dma_2022": {
+  "value": 23.791,
+  "text": "24"
+ },
+ "cr_meta_dma_2024": {
+  "value": 39.828,
+  "text": "40"
+ },
+ "cr_booking_dma_2023": {
+  "value": 34.539,
+  "text": "35"
+ },
+ "cr_booking_dma_2024": {
+  "value": 25.382,
+  "text": "25"
+ }
+}

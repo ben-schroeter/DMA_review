@@ -27154,11 +27154,6 @@
  {
   "company": "legrand",
   "year": 2015,
-  "status": "not found"
- },
- {
-  "company": "legrand",
-  "year": 2015,
   "form": "Annual report (AMF (info-financiere.gouv.fr))",
   "period_end": "2016-12-31",
   "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR098614_20170209.pdf",
@@ -27171,6 +27166,11 @@
   "checked": "2026-11-21",
   "language": "en",
   "year_labelled": 2016
+ },
+ {
+  "company": "legrand",
+  "year": 2016,
+  "status": "not found"
  },
  {
   "company": "legrand",
@@ -37211,6 +37211,21 @@
  },
  {
   "company": "renault",
+  "year": 2016,
+  "form": "Annual report (annualreports.com)",
+  "period_end": "2017-12-31",
+  "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2017.pdf",
+  "source": "annualreports.com",
+  "kind": "pdf",
+  "chars": 38907,
+  "pages": 41,
+  "text_file": "txt_a7e37018a9cf9dc83ed2c422eb77b20356ffb8d1.txt",
+  "status": "too short",
+  "checked": "2026-11-21",
+  "language": "en"
+ },
+ {
+  "company": "renault",
   "year": 2017,
   "form": "Annual report (annualreports.com)",
   "period_end": "2016-12-31",
@@ -37224,21 +37239,6 @@
   "checked": "2026-11-21",
   "language": "en",
   "year_labelled": 2016
- },
- {
-  "company": "renault",
-  "year": 2017,
-  "form": "Annual report (annualreports.com)",
-  "period_end": "2017-12-31",
-  "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2017.pdf",
-  "source": "annualreports.com",
-  "kind": "pdf",
-  "chars": 38907,
-  "pages": 41,
-  "text_file": "txt_a7e37018a9cf9dc83ed2c422eb77b20356ffb8d1.txt",
-  "status": "too short",
-  "checked": "2026-11-21",
-  "language": "en"
  },
  {
   "company": "renault",
@@ -44836,11 +44836,6 @@
  {
   "company": "volkswagen-group",
   "year": 2007,
-  "status": "not found"
- },
- {
-  "company": "volkswagen-group",
-  "year": 2007,
   "form": "Annual report (annualreports.com)",
   "period_end": "2008-12-31",
   "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/v/OTC_VWAGY_2008.pdf",
@@ -44853,6 +44848,11 @@
   "checked": "2026-11-21",
   "language": "en",
   "year_labelled": 2008
+ },
+ {
+  "company": "volkswagen-group",
+  "year": 2008,
+  "status": "not found"
  },
  {
   "company": "volkswagen-group",
