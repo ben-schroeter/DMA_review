@@ -5,7 +5,7 @@
  "impact_assessment": "SEC(2012) 72 (executive summary SEC(2012) 73)",
  "evidence_rating": "strong: several peer-reviewed causal studies (mostly short-run, digital sector); Commission reviews give enforcement statistics but no cost-benefit estimate",
  "summary": "Independent causal studies consistently find costs: less venture funding, fewer apps (a third exited, entry halved), higher data costs (+22%), lower recorded web traffic (-12%) and more concentration among web vendors favouring Google and Facebook. The Commission's reviews report rising enforcement (EUR 4.2bn in fines) and better-resourced regulators, but the promised EUR 2.3bn a year in administrative savings has never been evaluated.",
- "last_reviewed": "2026-10-10",
+ "last_reviewed": "2026-11-21",
  "indicators": [
   {
    "type": "specific objective",
@@ -1428,6 +1428,32 @@
    "archive_url": "",
    "category": "evidence",
    "source_class": "academic"
+  },
+  {
+   "id": "gal-aviv-2020-gdpr-competition",
+   "authors": "Gal, M. S. & Aviv, O.",
+   "year": 2020,
+   "title": "The Competitive Effects of the GDPR",
+   "venue": "Journal of Competition Law & Economics 16(3), 349-391",
+   "url": "https://doi.org/10.1093/joclec/nhaa012",
+   "pdf_url": "",
+   "source_type": "academic article",
+   "method": "economic and legal analysis (conceptual); no data of its own",
+   "outcomes": "competition and concentration in data markets, data sharing",
+   "direction": "negative",
+   "headline": "Argues the GDPR limits competition in data-driven markets and favours more concentrated market structures by restricting data collection and sharing; identifies seven market dynamics behind these unintended effects and proposes remedies (less legal uncertainty, certification, data-sharing duties).",
+   "summary_plain": "Two law professors argue that the GDPR, while protecting privacy, tends to help large data holders and make markets more concentrated.",
+   "period_geography": "EU",
+   "quality": "Conceptual; cites early empirical evidence but does not test its claims.",
+   "verified": "abstract and part of the full text read",
+   "access": "subscription",
+   "interested_party": "",
+   "source_class": "academic",
+   "citation": "Gal, M. S. & Aviv, O. (2020), The Competitive Effects of the GDPR, Journal of Competition Law & Economics 16(3), 349-391",
+   "accessed": "2026-11-21",
+   "archive_url": "",
+   "added": "2026-11 author suggestions",
+   "category": "evidence"
   }
  ],
  "evidence_level": "strong"

@@ -1,96 +1,7 @@
 {
- "note": "Sources suggested by the author on 21 November 2026, written up and awaiting the author's decision; not yet in the records.",
- "pending": [
-  {
-   "celex": "32022R1925",
-   "law": "Digital Markets Act",
-   "entry": {
-    "id": "lama-2025-dma-business-impact",
-    "authors": "Cennamo, C., Kretschmer, T., Constantiou, I. & Garcés, E. (LAMA Economic Research, for CCIA Europe)",
-    "year": 2025,
-    "title": "Economic Impact of the Digital Markets Act on European Businesses and the European Economy",
-    "venue": "LAMA Economic Research report, June 2025",
-    "url": "https://www.dmcforum.net/wp-content/uploads/2025/06/120625-FINAL-CCIA-DMA-Report-.pdf",
-    "pdf_url": "https://www.dmcforum.net/wp-content/uploads/2025/06/120625-FINAL-CCIA-DMA-Report-.pdf",
-    "source_type": "consultancy report (simulation)",
-    "method": "calculation: revenue-loss rates taken from published studies of reduced personalisation, reach and integration, applied to Eurostat B2C web sales of firms that use online advertising, by sector and country; no measured post-DMA outcomes",
-    "outcomes": "business revenue and revenue per worker in EU service sectors",
-    "direction": "negative",
-    "headline": "Estimates that DMA-driven loss of platform efficiency could cost EU businesses in the sectors covered EUR 8.5bn to EUR 114bn in revenue (0.05%-0.64% of turnover), up to EUR 1,122 per worker a year; accommodation EUR 1-14bn, retail EUR 4.4-59bn.",
-    "summary_plain": "An industry-funded study calculates that the DMA's limits on how gatekeepers personalise ads, rank results and combine services could cost European businesses up to EUR 114bn a year in lost sales.",
-    "period_geography": "EU-27, Eurostat data for 2023-2024",
-    "quality": "Projection, not a measurement: loss rates are assumed from other studies rather than observed after the DMA; upper bound depends on how intensively firms use platform tools; funded by CCIA Europe.",
-    "verified": "full text read (executive summary and methodology)",
-    "access": "open",
-    "interested_party": "Funded by CCIA Europe (trade association whose members include gatekeepers); academic authors received a grant from LAMA Economic Research",
-    "source_class": "consultancy or industry",
-    "citation": "Cennamo, C., Kretschmer, T., Constantiou, I. & Garcés, E. (LAMA Economic Research, for CCIA Europe) (2025), Economic Impact of the Digital Markets Act on European Businesses and the European Economy, LAMA Economic Research report, June 2025",
-    "accessed": "2026-11-21",
-    "archive_url": "",
-    "added": "2026-11 author suggestions",
-    "category": "evidence"
-   }
-  },
-  {
-   "celex": "32022R2065",
-   "law": "Digital Services Act",
-   "entry": {
-    "id": "natostratcom-2025-dsa-facebook",
-    "authors": "Belafatti, F., Bergmanis-Korāts, G., Haiduchyk, T., Khusnutdinov, M., Kubś, J. & Šuminas, A. (NATO StratCom COE)",
-    "year": 2025,
-    "title": "Impact of the Digital Services Act: A Facebook Case Study",
-    "venue": "NATO Strategic Communications Centre of Excellence, Riga, May 2025",
-    "url": "https://stratcomcoe.org/publications/impact-of-the-digital-services-act-a-facebook-case-study/319",
-    "pdf_url": "https://stratcomcoe.org/publications/download/Impact-of-the-Digital-Services-Act-DIGITAL.pdf",
-    "source_type": "research report",
-    "method": "before/after comparison of harmful posts by Polish and Lithuanian Facebook accounts in 2023 and 2024; posts flagged by GPT-4o mini and validated by larger language models (959 harmful posts in 2023, 1,392 in 2024); availability of posts checked in November 2024",
-    "outcomes": "prevalence of harmful content (mainly hate speech), fact-checking, removal of harmful posts",
-    "direction": "negative",
-    "headline": "Harmful posts rose 45% from 2023 to 2024 (+55% in Polish, -11% in Lithuanian); about 90% were hate speech. Fact-checked posts rose 45%, but the share of harmful posts removed fell from 12% to 4% (Lithuanian 33.3% to 0.8%; Polish 11% to 4.5%). The authors could not find an overall improvement after DSA enforcement.",
-    "summary_plain": "A NATO-affiliated study of Polish and Lithuanian Facebook found more hate speech and fewer removals in 2024 than in 2023, despite the DSA, though Facebook did more fact-checking.",
-    "period_geography": "Poland and Lithuania, Facebook, 2023 vs 2024",
-    "quality": "Simple before/after comparison with no control group; AI classification (accuracy reported in an appendix); 2024 posts had less time to be removed than 2023 posts; two small language markets only.",
-    "verified": "full text read (executive summary, removal and conclusions sections)",
-    "access": "open",
-    "interested_party": "",
-    "source_class": "think tank",
-    "citation": "Belafatti, F., Bergmanis-Korāts, G., Haiduchyk, T., Khusnutdinov, M., Kubś, J. & Šuminas, A. (NATO StratCom COE) (2025), Impact of the Digital Services Act: A Facebook Case Study, NATO Strategic Communications Centre of Excellence, Riga, May 2025",
-    "accessed": "2026-11-21",
-    "archive_url": "",
-    "added": "2026-11 author suggestions",
-    "category": "evidence"
-   }
-  },
-  {
-   "celex": "32016R0679",
-   "law": "General Data Protection Regulation",
-   "entry": {
-    "id": "gal-aviv-2020-gdpr-competition",
-    "authors": "Gal, M. S. & Aviv, O.",
-    "year": 2020,
-    "title": "The Competitive Effects of the GDPR",
-    "venue": "Journal of Competition Law & Economics 16(3), 349-391",
-    "url": "https://doi.org/10.1093/joclec/nhaa012",
-    "pdf_url": "",
-    "source_type": "academic article",
-    "method": "economic and legal analysis (conceptual); no data of its own",
-    "outcomes": "competition and concentration in data markets, data sharing",
-    "direction": "negative",
-    "headline": "Argues the GDPR limits competition in data-driven markets and favours more concentrated market structures by restricting data collection and sharing; identifies seven market dynamics behind these unintended effects and proposes remedies (less legal uncertainty, certification, data-sharing duties).",
-    "summary_plain": "Two law professors argue that the GDPR, while protecting privacy, tends to help large data holders and make markets more concentrated.",
-    "period_geography": "EU",
-    "quality": "Conceptual; cites early empirical evidence but does not test its claims.",
-    "verified": "abstract and part of the full text read",
-    "access": "subscription",
-    "interested_party": "",
-    "source_class": "academic",
-    "citation": "Gal, M. S. & Aviv, O. (2020), The Competitive Effects of the GDPR, Journal of Competition Law & Economics 16(3), 349-391",
-    "accessed": "2026-11-21",
-    "archive_url": "",
-    "added": "2026-11 author suggestions",
-    "category": "evidence"
-   }
-  },
+ "note": "Suggested by the author on 21 November 2026. Added to the records: CCIA/LAMA report (DMA), NATO StratCom COE study (DSA), Gal & Aviv (GDPR). Not added at the author's decision: Sun et al. (2024), Langus & Lipatov (2022).",
+ "pending": [],
+ "not_added": [
   {
    "collection": "economics of regulation",
    "entry": {
@@ -114,6 +25,12 @@
      "privacy",
      "digital regulation"
     ]
+   }
+  },
+  {
+   "entry": {
+    "id": "langus-lipatov-2022",
+    "citation": "Langus, G. & Lipatov, V. (2022), Value Creation by Ad-Funded Platforms, CESifo Working Paper 9525"
    }
   }
  ]

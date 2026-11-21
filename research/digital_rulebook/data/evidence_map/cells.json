@@ -1573,9 +1573,9 @@
     },
     "competition": {
      "best": "causal",
-     "n": 7,
+     "n": 8,
      "causal": 3,
-     "measured": 4,
+     "measured": 5,
      "forecast": 0,
      "ids": [
       "johnson-shriver-goldberg-2023",
@@ -1584,7 +1584,8 @@
       "godinhodematos-2022-consent-telecom",
       "chivot-2019-gdproneyear",
       "berggren-2025-gdprtrade",
-      "kollnig-2021-gdpr-apps-tracking"
+      "kollnig-2021-gdpr-apps-tracking",
+      "gal-aviv-2020-gdpr-competition"
      ]
     },
     "innovation": {
@@ -4302,12 +4303,13 @@
     },
     "growth": {
      "best": "causal",
-     "n": 1,
+     "n": 2,
      "causal": 1,
-     "measured": 0,
+     "measured": 1,
      "forecast": 0,
      "ids": [
-      "verlooy-2025-eventstudy"
+      "verlooy-2025-eventstudy",
+      "lama-2025-dma-business-impact"
      ]
     },
     "market": {
@@ -4409,9 +4411,9 @@
     },
     "rights": {
      "best": "measured",
-     "n": 12,
+     "n": 13,
      "causal": 0,
-     "measured": 12,
+     "measured": 13,
      "forecast": 0,
      "ids": [
       "kaushal-et-al-2024",
@@ -4425,7 +4427,8 @@
       "mozilla-checkfirst-2024-ad-repositories",
       "globalwitness-2024-tiktok-election-ads",
       "eboard-2026-second-systemic-risk-report",
-      "papaevangelou-2025-dsa-observability"
+      "papaevangelou-2025-dsa-observability",
+      "natostratcom-2025-dsa-facebook"
      ]
     },
     "implementation": {
