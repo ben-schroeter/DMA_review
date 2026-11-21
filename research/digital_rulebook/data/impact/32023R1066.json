@@ -42,9 +42,9 @@
    "objective": "Innovation",
    "indicator": "More pro-competitive R&D cooperation and innovation",
    "target_or_baseline": "",
-   "evidence": "No empirical study found of the block exemption's effect on R&D cooperation or innovation; theory suggests the 25% market-share safe harbour is not clearly justified.",
+   "evidence": "No empirical study found of the block exemption's effect on R&D cooperation or innovation.",
    "status": "not measured",
-   "sources": "Ruble & Versaevel 2014",
+   "sources": "",
    "status_group": "not measured"
   }
  ],
@@ -98,31 +98,6 @@
    "archive_url": "",
    "category": "ex-ante assessment",
    "source_class": "official"
-  },
-  {
-   "id": "ruble-versaevel-2014",
-   "citation": "Ruble & Versaevel (2014), Market shares, R&D agreements, and the EU block exemption, International Review of Law and Economics 37: 15-25",
-   "authors": "Ruble & Versaevel",
-   "year": 2014,
-   "title": "Market shares, R&D agreements, and the EU block exemption",
-   "venue": "International Review of Law and Economics 37: 15-25",
-   "url": "https://doi.org/10.1016/j.irle.2013.04.008",
-   "pdf_url": "",
-   "source_type": "peer-reviewed",
-   "method": "theoretical model",
-   "outcomes": "R&D incentives; welfare",
-   "direction": "mixed",
-   "headline": "Incentives to innovate under cooperation depend on several effects; an 'outsider effect' can raise R&D when combined market share is high, so theory does not support limiting the exemption to low market shares",
-   "summary_plain": "A theory paper argues that the market-share cap in the R&D block exemption may exclude cooperation that would actually boost innovation.",
-   "period_geography": "theory (Regulation 1217/2010)",
-   "quality": "theory only; no data",
-   "verified": "page summary via search",
-   "access": "paywalled",
-   "interested_party": "",
-   "accessed": "2026-10-10",
-   "archive_url": "",
-   "category": "evidence",
-   "source_class": "academic"
   }
  ],
  "evidence_level": "thin"

@@ -42,9 +42,9 @@
    "objective": "Prices and consumer welfare",
    "indicator": "Prices -0.5% offline and -0.6% online; consumer surplus +0.8%; no price increases in any Member State",
    "target_or_baseline": "-0.5% / -0.6%; +0.8% consumer surplus",
-   "evidence": "Not measured ex post. Theory (Bourreau & Manenti 2023) predicts lower prices short-run but possibly lower investment and welfare long-run.",
+   "evidence": "Not measured ex post.",
    "status": "not measured",
-   "sources": "SWD(2016) 174; Bourreau & Manenti 2023",
+   "sources": "SWD(2016) 174",
    "status_group": "not measured"
   },
   {
@@ -158,31 +158,6 @@
    "archive_url": "http://web.archive.org/web/20260615014441/https://publications.jrc.ec.europa.eu/repository/handle/JRC101100",
    "category": "evidence",
    "source_class": "official"
-  },
-  {
-   "id": "bourreau-manenti-2023-geoblocking",
-   "citation": "Bourreau & Manenti (2023), Selling cross-border in online markets: The impact of the ban on geoblocking strategies, International Journal of Industrial Organization 86",
-   "authors": "Bourreau & Manenti",
-   "year": 2023,
-   "title": "Selling cross-border in online markets: The impact of the ban on geoblocking strategies",
-   "venue": "International Journal of Industrial Organization 86",
-   "url": "https://doi.org/10.1016/j.ijindorg.2022.102892",
-   "pdf_url": "",
-   "source_type": "peer-reviewed",
-   "method": "theoretical model",
-   "outcomes": "prices; investment; welfare",
-   "direction": "mixed",
-   "headline": "Geoblocking softens competition; a ban lowers online and offline prices, but when firms can invest in online demand the ban may reduce investment and welfare",
-   "summary_plain": "A theory paper finds a geo-blocking ban cuts prices in the short run but could reduce firms' investment in online sales in the long run.",
-   "period_geography": "theory",
-   "quality": "theoretical",
-   "verified": "page summary via search",
-   "access": "paywalled",
-   "interested_party": "",
-   "accessed": "2026-10-10",
-   "archive_url": "",
-   "category": "evidence",
-   "source_class": "academic"
   },
   {
    "id": "eca-2025-geoblocking",

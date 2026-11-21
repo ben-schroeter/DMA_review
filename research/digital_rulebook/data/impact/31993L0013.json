@@ -22,9 +22,9 @@
    "objective": "Consumer protection",
    "indicator": "Unfair standard terms not binding on consumers; plain, intelligible drafting",
    "target_or_baseline": "",
-   "evidence": "2000 report: injunction actions in mobile, cable/satellite TV, car rental and timeshare mostly led traders to change terms, but traders rarely gave consumers terms in advance. 2017 fitness check: largely fit for purpose. 2024 fitness check: limited effectiveness online; legal analysis finds many big online service terms likely unfair.",
+   "evidence": "2000 report: injunction actions in mobile, cable/satellite TV, car rental and timeshare mostly led traders to change terms, but traders rarely gave consumers terms in advance. 2017 fitness check: largely fit for purpose. 2024 fitness check: limited effectiveness online.",
    "status": "reported as activity",
-   "sources": "COM(2000) 248; SWD(2017) 209; SWD(2024) 230; Loos & Luzak 2016",
+   "sources": "COM(2000) 248; SWD(2017) 209; SWD(2024) 230",
    "status_group": "reported as activity"
   },
   {
@@ -123,31 +123,6 @@
    "archive_url": "",
    "category": "evidence",
    "source_class": "official"
-  },
-  {
-   "id": "loos-luzak-2016-bigger-stick",
-   "citation": "Loos & Luzak (2016), Wanted: a Bigger Stick. On Unfair Terms in Consumer Contracts with Online Service Providers, Journal of Consumer Policy 39(1)",
-   "authors": "Loos & Luzak",
-   "year": 2016,
-   "title": "Wanted: a Bigger Stick. On Unfair Terms in Consumer Contracts with Online Service Providers",
-   "venue": "Journal of Consumer Policy 39(1)",
-   "url": "https://doi.org/10.1007/s10603-015-9303-7",
-   "pdf_url": "",
-   "source_type": "peer-reviewed",
-   "method": "legal analysis of standard terms of major online service providers against CJEU case law",
-   "outcomes": "contract terms; enforcement",
-   "direction": "negative",
-   "headline": "Several common terms of international online service providers (unilateral changes of terms or service, unilateral termination, liability exclusions, jurisdiction and choice-of-law clauses) are unlikely to pass the UCTD unfairness test; stronger sanctions needed",
-   "summary_plain": "A legal study of the terms used by big online services found many likely breach the unfair terms rules, suggesting the Directive is weakly enforced online.",
-   "period_geography": "EU, c. 2015",
-   "quality": "legal-doctrinal, not quantitative",
-   "verified": "abstract read",
-   "access": "open",
-   "interested_party": "",
-   "accessed": "2026-10-10",
-   "archive_url": "",
-   "category": "evidence",
-   "source_class": "academic"
   }
  ],
  "evidence_level": "thin"

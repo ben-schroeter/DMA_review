@@ -1,5 +1,5 @@
 {
- "note": "Sources removed at the author's request (21 November 2026). scripts/impact_merge_additions.py skips them (kept outside data/impact/, which holds one record per law).",
+ "note": "Sources removed at the author's request (21 November 2026): five DMA papers, then conceptual pieces and pre-adoption opinions that hold no evidence on what the laws did. scripts/impact_merge_additions.py skips them (kept outside data/impact/, which holds one record per law).",
  "removed": [
   {
    "celex": "32022R1925",
@@ -20,6 +20,54 @@
   {
    "celex": "32022R1925",
    "id": "motta-peitz-2020-expert-report"
+  },
+  {
+   "celex": "31993L0013",
+   "id": "loos-luzak-2016-bigger-stick"
+  },
+  {
+   "celex": "32000L0031",
+   "id": "lefouili-madio-2022-platform-liability"
+  },
+  {
+   "celex": "32017R0745",
+   "id": "shatrov-blankart-2022-mdr-goals-review"
+  },
+  {
+   "celex": "32018R0302",
+   "id": "bourreau-manenti-2023-geoblocking"
+  },
+  {
+   "celex": "32018R1724",
+   "id": "graux-2021-sdg-once-only"
+  },
+  {
+   "celex": "32019L0770",
+   "id": "eli-2016-dcd-statement"
+  },
+  {
+   "celex": "32022R0868",
+   "id": "carovano-finck-2023"
+  },
+  {
+   "celex": "32023R1066",
+   "id": "ruble-versaevel-2014"
+  },
+  {
+   "celex": "32025R2518",
+   "id": "edpb-edps-2023-joint-opinion-procedural"
+  },
+  {
+   "celex": "52022PC0209",
+   "id": "edpb-edps-2022-csam-opinion"
+  },
+  {
+   "celex": "52023PC0360",
+   "id": "de-la-mano-padilla-2018-big-tech-banking"
+  },
+  {
+   "celex": "fc-digital-fairness-act",
+   "id": "ep-2026-dfa-considerations"
   }
  ]
 }

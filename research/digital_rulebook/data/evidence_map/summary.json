@@ -1,6 +1,6 @@
 {
  "instruments": 110,
- "sources": 586,
+ "sources": 577,
  "sources_without_category": 29,
  "by_category": {
   "costs": {
@@ -12,23 +12,23 @@
   },
   "consumers": {
    "name": "Prices and consumers",
-   "none": 70,
-   "measured": 24,
-   "forecast": 5,
+   "none": 72,
+   "measured": 21,
+   "forecast": 6,
    "causal": 11
   },
   "competition": {
    "name": "Competition and market structure",
    "causal": 8,
-   "none": 79,
-   "measured": 19,
+   "none": 80,
+   "measured": 18,
    "forecast": 4
   },
   "innovation": {
    "name": "Innovation and investment",
-   "measured": 27,
-   "none": 72,
-   "forecast": 4,
+   "measured": 25,
+   "none": 73,
+   "forecast": 5,
    "causal": 7
   },
   "growth": {
@@ -40,8 +40,8 @@
   },
   "market": {
    "name": "Single market, trade and FDI",
-   "none": 63,
-   "measured": 32,
+   "none": 64,
+   "measured": 31,
    "causal": 7,
    "forecast": 8
   },
@@ -61,9 +61,9 @@
   }
  },
  "pairs": 880,
- "pairs_evidence": 315,
+ "pairs_evidence": 308,
  "pairs_causal": 57,
  "core_pairs": 550,
- "core_evidence": 171,
+ "core_evidence": 165,
  "core_causal": 41
 }

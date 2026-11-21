@@ -183,15 +183,14 @@
     },
     "implementation": {
      "best": "measured",
-     "n": 4,
+     "n": 3,
      "causal": 0,
-     "measured": 4,
+     "measured": 3,
      "forecast": 0,
      "ids": [
       "ec-2000-uctd-report",
       "ec-2017-consumer-fitness-check",
-      "ec-2024-digital-fairness-fitness-check",
-      "loos-luzak-2016-bigger-stick"
+      "ec-2024-digital-fairness-fitness-check"
      ]
     }
    }
@@ -617,34 +616,29 @@
      "ids": []
     },
     "consumers": {
-     "best": "measured",
-     "n": 1,
+     "best": null,
+     "n": 0,
      "causal": 0,
-     "measured": 1,
+     "measured": 0,
      "forecast": 0,
-     "ids": [
-      "lefouili-madio-2022-platform-liability"
-     ]
+     "ids": []
     },
     "competition": {
-     "best": "measured",
-     "n": 1,
+     "best": null,
+     "n": 0,
      "causal": 0,
-     "measured": 1,
+     "measured": 0,
      "forecast": 0,
-     "ids": [
-      "lefouili-madio-2022-platform-liability"
-     ]
+     "ids": []
     },
     "innovation": {
      "best": "measured",
-     "n": 2,
+     "n": 1,
      "causal": 0,
-     "measured": 2,
+     "measured": 1,
      "forecast": 0,
      "ids": [
-      "oxera-2015-safe-harbours",
-      "lefouili-madio-2022-platform-liability"
+      "oxera-2015-safe-harbours"
      ]
     },
     "growth": {
@@ -2213,14 +2207,13 @@
      "ids": []
     },
     "consumers": {
-     "best": "measured",
-     "n": 2,
+     "best": "forecast",
+     "n": 1,
      "causal": 0,
-     "measured": 1,
+     "measured": 0,
      "forecast": 1,
      "ids": [
-      "ec-2015-dcd-sgd-ia",
-      "eli-2016-dcd-statement"
+      "ec-2015-dcd-sgd-ia"
      ]
     },
     "competition": {
@@ -2462,15 +2455,14 @@
     },
     "consumers": {
      "best": "measured",
-     "n": 6,
+     "n": 5,
      "causal": 0,
-     "measured": 5,
+     "measured": 4,
      "forecast": 1,
      "ids": [
       "ec-2016-geoblocking-ia",
       "alaveras-duchbrown-martens-2020-gbr",
       "duchbrown-martens-2016-geoblocking",
-      "bourreau-manenti-2023-geoblocking",
       "eca-2025-geoblocking",
       "ec-2020-mystery-shopping-geoblocking"
      ]
@@ -2484,14 +2476,12 @@
      "ids": []
     },
     "innovation": {
-     "best": "measured",
-     "n": 1,
+     "best": null,
+     "n": 0,
      "causal": 0,
-     "measured": 1,
+     "measured": 0,
      "forecast": 0,
-     "ids": [
-      "bourreau-manenti-2023-geoblocking"
-     ]
+     "ids": []
     },
     "growth": {
      "best": null,
@@ -3005,14 +2995,13 @@
     },
     "market": {
      "best": "measured",
-     "n": 4,
+     "n": 3,
      "causal": 0,
-     "measured": 3,
+     "measured": 2,
      "forecast": 1,
      "ids": [
       "ec-2017-sdg-ia",
       "ec-2023-sdg-report",
-      "graux-2021-sdg-once-only",
       "capgemini-2025-egovbenchmark"
      ]
     },
@@ -4218,12 +4207,11 @@
     },
     "implementation": {
      "best": "measured",
-     "n": 5,
+     "n": 4,
      "causal": 0,
-     "measured": 5,
+     "measured": 4,
      "forecast": 0,
      "ids": [
-      "carovano-finck-2023",
       "ec-2026-dga-registers",
       "ec-2025-digital-omnibus-dga",
       "gardner-2025-dgaevaluation",
@@ -6083,14 +6071,12 @@
      ]
     },
     "consumers": {
-     "best": "measured",
-     "n": 1,
+     "best": null,
+     "n": 0,
      "causal": 0,
-     "measured": 1,
+     "measured": 0,
      "forecast": 0,
-     "ids": [
-      "ruble-versaevel-2014"
-     ]
+     "ids": []
     },
     "competition": {
      "best": "forecast",
@@ -6103,14 +6089,13 @@
      ]
     },
     "innovation": {
-     "best": "measured",
-     "n": 2,
+     "best": "forecast",
+     "n": 1,
      "causal": 0,
-     "measured": 1,
+     "measured": 0,
      "forecast": 1,
      "ids": [
-      "ec-2023-hber-note",
-      "ruble-versaevel-2014"
+      "ec-2023-hber-note"
      ]
     },
     "growth": {
@@ -6542,13 +6527,12 @@
     },
     "implementation": {
      "best": "measured",
-     "n": 3,
+     "n": 2,
      "causal": 0,
-     "measured": 3,
+     "measured": 2,
      "forecast": 0,
      "ids": [
       "ec-2024-gdpr-second-report",
-      "edpb-edps-2023-joint-opinion-procedural",
       "euronews-2025-noyb-procedural"
      ]
     }
@@ -8623,24 +8607,21 @@
      ]
     },
     "market": {
+     "best": null,
+     "n": 0,
+     "causal": 0,
+     "measured": 0,
+     "forecast": 0,
+     "ids": []
+    },
+    "rights": {
      "best": "measured",
      "n": 1,
      "causal": 0,
      "measured": 1,
      "forecast": 0,
      "ids": [
-      "shatrov-blankart-2022-mdr-goals-review"
-     ]
-    },
-    "rights": {
-     "best": "measured",
-     "n": 2,
-     "causal": 0,
-     "measured": 2,
-     "forecast": 0,
-     "ids": [
-      "ec-2025-mdr-ivdr-evaluation",
-      "shatrov-blankart-2022-mdr-goals-review"
+      "ec-2025-mdr-ivdr-evaluation"
      ]
     },
     "implementation": {
