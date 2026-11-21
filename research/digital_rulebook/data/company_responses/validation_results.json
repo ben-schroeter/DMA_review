@@ -1,0 +1,74 @@
+{
+ "n_sampled": 75,
+ "n_checked": 75,
+ "precision_law": 1.0,
+ "categories": {
+  "risk_factor": {
+   "tp": 8,
+   "fp": 10,
+   "fn": 19,
+   "precision": 0.44,
+   "recall": 0.3
+  },
+  "compliance_cost": {
+   "tp": 6,
+   "fp": 3,
+   "fn": 3,
+   "precision": 0.67,
+   "recall": 0.67
+  },
+  "fine_or_provision": {
+   "tp": 6,
+   "fp": 1,
+   "fn": 1,
+   "precision": 0.86,
+   "recall": 0.86
+  },
+  "product_change": {
+   "tp": 6,
+   "fp": 4,
+   "fn": 12,
+   "precision": 0.6,
+   "recall": 0.33
+  },
+  "revenue_impact": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 8,
+   "precision": null,
+   "recall": 0.0
+  },
+  "legal_proceedings": {
+   "tp": 4,
+   "fp": 10,
+   "fn": 2,
+   "precision": 0.29,
+   "recall": 0.67
+  },
+  "opportunity": {
+   "tp": 0,
+   "fp": 2,
+   "fn": 4,
+   "precision": 0.0,
+   "recall": 0.0
+  }
+ },
+ "boilerplate_agreement": 0.507,
+ "boilerplate_coded_vs_hand": {
+  "both": 5,
+  "coded_only": 5,
+  "hand_only": 32,
+  "neither": 33
+ },
+ "amounts_checked": 1,
+ "amounts_law_related_share": 0.0,
+ "precision_by_law": {
+  "GDPR": 1.0,
+  "DMA": 1.0,
+  "AI_ACT": 1.0
+ },
+ "recall_probe": {
+  "report_years_checked": 6,
+  "missed_mentions_found": 0
+ }
+}

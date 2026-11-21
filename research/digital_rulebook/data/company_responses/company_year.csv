@@ -1,0 +1,397 @@
+company,year,law,report,report_status,mentioned,n_passages,n_substantive,risk_factor,compliance_cost,fine_or_provision,product_change,revenue_impact,legal_proceedings,opportunity,amounts,example_quote,example_link
+alphabet,2016,GDPR,10-K,ok,1,1,1,0,0,1,0,0,0,0,,"The General Data Protection Regulation, coming into effect in Europe in May of 2018, which creates a range of new compliance obligations, and increases financial penalties for noncompliance significantly.",https://www.sec.gov/Archives/edgar/data/1652044/000165204417000008/goog10-kq42016.htm
+alphabet,2016,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+alphabet,2016,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+alphabet,2017,GDPR,10-K,ok,1,2,2,1,0,2,2,0,0,0,€20 million,"For example, the General Data Protection Regulation (GDPR), coming into application in the European Union (EU) on May 25, 2018, will apply to all of our activities conducted from an establishment in the EU or related to products and services that we offer to EU users.",https://www.sec.gov/Archives/edgar/data/1652044/000165204418000007/goog10-kq42017.htm
+alphabet,2017,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+alphabet,2017,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+alphabet,2018,GDPR,10-K,ok,1,2,2,1,1,0,0,0,1,0,,"Ensuring compliance with the GDPR is an ongoing commitment which involves substantial costs, and it is possible that despite our efforts, governmental authorities or third parties will assert that our business practices fail to comply.",https://www.sec.gov/Archives/edgar/data/1652044/000165204419000004/goog10-kq42018.htm
+alphabet,2018,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+alphabet,2018,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+alphabet,2019,GDPR,10-K,ok,1,2,2,2,1,1,1,0,0,0,,"Ensuring compliance with the GDPR is an ongoing commitment that involves substantial costs, and despite our efforts, governmental authorities or others have asserted and may continue to assert that our business practices fail to comply with its requirements.",https://www.sec.gov/Archives/edgar/data/1652044/000165204420000008/goog10-k2019.htm
+alphabet,2019,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+alphabet,2019,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+alphabet,2020,GDPR,10-K,ok,1,2,2,1,1,0,0,0,0,0,,"For example, the General Data Protection Regulation (GDPR) applies to all of our activities conducted from an establishment in the EU or related to products and services that we offer to EU",https://www.sec.gov/Archives/edgar/data/1652044/000165204421000010/goog-20201231.htm
+alphabet,2020,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+alphabet,2020,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+alphabet,2021,GDPR,10-K,ok,1,2,1,0,1,0,0,0,0,0,,"• The General Data Protection Regulation (GDPR), which applies to all of our activities conducted from an establishment in the EU or related to products and services that we offer to EU users or customers, or the monitoring of their behavior in the EU.",https://www.sec.gov/Archives/edgar/data/1652044/000165204422000019/goog-20211231.htm
+alphabet,2021,DMA,10-K,ok,1,2,2,1,0,1,0,0,1,0,,"• Laws and regulations around the world focused on large technology platforms, including the Digital Markets Act in the European Union and proposed antitrust legislation on self-preferencing and mergers and acquisitions in the U.S., which may limit certain business practices, and in some cases, create the risk of signi…",https://www.sec.gov/Archives/edgar/data/1652044/000165204422000019/goog-20211231.htm
+alphabet,2021,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+alphabet,2022,GDPR,10-K,ok,1,1,1,0,0,0,0,0,0,0,,"• The General Data Protection Regulation and the United Kingdom General Data Protection Regulations, which apply to all of our activities conducted from an establishment in the EU or the United Kingdom, respectively, or related to products and services that we offer to EU or the United Kingdom users or customers, respe…",https://www.sec.gov/Archives/edgar/data/1652044/000165204423000016/goog-20221231.htm
+alphabet,2022,DMA,10-K,ok,1,3,3,1,0,0,0,0,1,0,,"…al; pending litigation in the U.S., EU, and around the world that could diminish or eliminate safe harbor protection for websites and online platforms; and the Digital Markets Act and Digital Services Act in Europe and various legislative proposals in the U.S. focused on large technology platforms.…",https://www.sec.gov/Archives/edgar/data/1652044/000165204423000016/goog-20221231.htm
+alphabet,2022,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+alphabet,2023,GDPR,10-K,ok,1,1,0,0,0,0,0,0,0,0,,"• The General Data Protection Regulation and the United Kingdom General Data Protection Regulations, which apply to all of our activities conducted from an establishment in the EU or the United Kingdom, respectively, or related to products and services that we offer to EU or the United Kingdom users or customers, respe…",https://www.sec.gov/Archives/edgar/data/1652044/000165204424000022/goog-20231231.htm
+alphabet,2023,DMA,10-K,ok,1,3,2,1,0,0,0,0,1,0,,"…and pending litigation in the U.S., EU, and around the world that could diminish or eliminate safe harbor protection for websites and online platforms; and the Digital Markets Act and Digital Services Act in Europe and various legislative proposals in the U.S. focused on large technology platforms.…",https://www.sec.gov/Archives/edgar/data/1652044/000165204424000022/goog-20231231.htm
+alphabet,2023,AI_ACT,10-K,ok,1,1,1,0,0,1,0,0,0,0,,"For example, while legislative text has yet to be finalized and formally approved, provisional political agreement on a proposed EU AI Act was reached between co-legislators in December 2023, including that specific transparency and other requirements would be introduced for general purpose AI systems and the models on…",https://www.sec.gov/Archives/edgar/data/1652044/000165204424000022/goog-20231231.htm
+alphabet,2024,GDPR,10-K,ok,1,1,0,0,0,0,0,0,0,0,,"• The EU General Data Protection Regulation and the United Kingdom General Data Protection Regulations, which apply to all of our activities conducted from an establishment in the EU or the United Kingdom, respectively, or related to products and services that we offer to EU or the United Kingdom users or customers, re…",https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm
+alphabet,2024,DMA,10-K,ok,1,3,3,0,0,1,1,0,2,0,,"• European Digital Markets Act: In March 2024, the EC opened two investigations regarding Google's compliance with certain provisions of EU's Digital Markets Act relating to Google Play and Search.",https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm
+alphabet,2024,AI_ACT,10-K,ok,1,1,1,0,0,1,0,0,0,0,,"For example, the EU AI Act came into force on August 1, 2024, and will generally become fully applicable after a two-year transitional period (although certain obligations will take effect at an earlier or later time).",https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm
+alphabet,2025,GDPR,10-K,ok,1,1,1,0,0,0,0,0,0,0,,"• The EU General Data Protection Regulation and the UK General Data Protection Regulations, which apply to all of our activities conducted from an establishment in the EU or the UK, respectively, or related to products and services that we offer to EU or the UK users or customers, respectively, or the monitoring of the…",https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm
+alphabet,2025,DMA,10-K,ok,1,3,2,0,0,1,1,0,2,0,,"• European Digital Markets Act: In March 2024, the EC opened two investigations regarding Google's compliance with certain provisions of the EU's Digital Markets Act relating to Google Play and Search.",https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm
+alphabet,2025,AI_ACT,10-K,ok,1,1,1,0,0,1,0,0,0,0,,"For example, the EU AI Act came into force on August 1, 2024, and will generally become fully applicable after a two-year transitional period (although certain obligations have already taken effect).",https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm
+alphabet,2026,GDPR,,not found,,0,0,0,0,0,0,0,0,0,,,
+alphabet,2026,DMA,,not found,,0,0,0,0,0,0,0,0,0,,,
+alphabet,2026,AI_ACT,,not found,,0,0,0,0,0,0,0,0,0,,,
+apple,2016,GDPR,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2016,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2016,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2017,GDPR,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2017,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2017,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2018,GDPR,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2018,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2018,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2019,GDPR,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2019,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2019,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2020,GDPR,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2020,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2020,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2021,GDPR,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2021,DMA,10-K,ok,1,2,2,0,0,0,1,0,1,0,,"New legislative initiatives, such as the proposed European Union (“EU”) Digital Markets Act, could, if enacted, require further changes.",https://www.sec.gov/Archives/edgar/data/320193/000032019321000105/aapl-20210925.htm
+apple,2021,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2022,GDPR,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2022,DMA,10-K,ok,1,2,1,0,0,0,1,0,1,0,,"New legislative initiatives, such as the EU Digital Markets Act, or similar laws in other jurisdictions, could require further changes.",https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm
+apple,2022,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2023,GDPR,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2023,DMA,10-K,ok,1,2,2,0,0,0,2,0,2,0,,"The Company expects to make further business changes in the future, including as a result of legislative initiatives impacting the App Store, such as the European Union (“EU”) Digital Markets Act, which the Company is required to comply with by March 2024.",https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm
+apple,2023,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2024,GDPR,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2024,DMA,10-K,ok,1,3,3,1,0,0,3,1,1,2,,"The Company has also implemented changes to iOS, iPadOS, the App Store and Safari ® in the European Union (“EU”) as it seeks to comply with the Digital Markets Act (the “DMA”), including new business terms and alternative fee structures for iOS and iPadOS apps, alternative methods of distribution for iOS and iPadOS app…",https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm
+apple,2024,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2025,GDPR,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2025,DMA,10-K,ok,1,2,2,1,0,0,1,0,1,1,,"For example, the Company has implemented changes to iOS, iPadOS, the App Store and Safari ® in the EU as it seeks to comply with the Digital Markets Act (“DMA”), including new business terms and alternative fee structures for iOS and iPadOS apps, alternative methods of distribution for iOS and iPadOS apps, alternative …",https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm
+apple,2025,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2026,GDPR,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+apple,2026,DMA,10-K,ok,1,3,2,1,1,0,1,0,2,1,,"For example, the Company has implemented changes to iOS, iPadOS, the App Store and Safari ® in the EU as it seeks to comply with the Digital Markets Act (“DMA”), including new business terms and alternative fee structures for iOS and iPadOS apps, alternative methods of distribution for iOS and iPadOS apps, alternative …",https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm
+apple,2026,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+capgemini,2016,GDPR,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+capgemini,2016,DMA,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+capgemini,2016,AI_ACT,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+capgemini,2017,GDPR,Annual report (company website),ok,1,1,1,0,0,0,0,0,1,0,,"…d by the French data protection authority, Commission Nationale de l'Informatique et des Libertés (CNIL), in 2016, while mutualizing actions to prepare for the General Data Protection Regulation (GDPR) coming into force on May 25, 2018.…",https://investors.capgemini.com/en/file/8825?download=1#page=130
+capgemini,2017,DMA,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+capgemini,2017,AI_ACT,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+capgemini,2018,GDPR,Annual report (company website),ok,1,7,7,3,2,0,0,0,0,3,,"GDPR); — automation as a driver for time to market, scalability, quality and cost reduction.",https://investors.capgemini.com/en/file/13002?download=1#page=17
+capgemini,2018,DMA,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+capgemini,2018,AI_ACT,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+capgemini,2019,GDPR,Annual report (company website),ok,1,4,4,2,1,1,0,0,0,2,,"GDPR Compliance as a source of competitive advantage More than a year after the entry into e:ect of the GDPR, the report, “Championing Data Protection and PrivacyR–Ra Source of Competitive Advantage in the Digital Century”, reveals that companies are complying more slowly than expected with the new legislation, held ba…",https://investors.capgemini.com/en/file/15064?download=1#page=25
+capgemini,2019,DMA,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+capgemini,2019,AI_ACT,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+capgemini,2020,GDPR,Annual report (company website),ok,1,8,8,0,0,1,0,0,0,0,,"…oyees, if required, to issue an alert and be geolocated to receive assistance; — implementation of an information and training program for all employees on the General Data Protection Regulation (GDPR), and Group-wide roll-out of the Binding Corporate Rules (BCR) for personal data protection;…",https://investors.capgemini.com/en/file/16754?download=1#page=124
+capgemini,2020,DMA,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+capgemini,2020,AI_ACT,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+capgemini,2021,GDPR,Annual report (company website),ok,1,9,9,2,0,0,0,1,1,0,,— P  ercentage of employees attending the data protection training — Number of requests of data subjects exercising one of the rights granted under GDPR — Number of users whose information is intentionally used for a purpose that is outside the primary purpose for which the data was collected — Number of public aut…,https://investors.capgemini.com/en/file/22708?download=1#page=139
+capgemini,2021,DMA,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+capgemini,2021,AI_ACT,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+capgemini,2022,GDPR,Annual report (company website),ok,1,8,8,0,0,0,0,1,1,0,,— %  of employees attending the data protection training — Number of requests of data subjects exercising one of the rights granted under the GDPR — Number of users whose information is intentionally used for a purpose that is outside the primary purpose for which the data was collected — Number of public authoriti…,https://investors.capgemini.com/en/file/24133?download=1#page=145
+capgemini,2022,DMA,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+capgemini,2022,AI_ACT,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+capgemini,2023,GDPR,Annual report (company website),ok,1,5,5,0,0,0,0,1,2,0,,"… of the year) who completed the e‑learning module on Data protection — Number of requests from individuals or organizations, exercising their rights under the GDPR — Number of law enforcement requests for user information — Number of users whose information was requested by agencies and employees responsible for enf…",https://investors.capgemini.com/en/file/26225?download=1#page=155
+capgemini,2023,DMA,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+capgemini,2023,AI_ACT,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+capgemini,2024,GDPR,Annual report (company website),ok,1,5,5,1,0,0,0,0,2,0,,… Capgemini Group adopted Binding Corporate Rules (BCR) approved by European authorities in 2016 and updated in 2019 and 2023 to reflect the requirements of the General Data Protection Regulation 2016/679 as well as the changes brought about by the Schrems II ruling (C-311/18) delivered by the Court of Justice of the Eu…,https://investors.capgemini.com/en/file/28667?download=1#page=123
+capgemini,2024,DMA,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+capgemini,2024,AI_ACT,Annual report (company website),ok,1,2,2,1,1,1,0,0,0,0,,Adherence to the Pact involves voluntarily undertaking to begin to apply certain provisions of the EU AI Act before they officially come into force and sharing progress and best practice with the EU AI Office and other signatories of the Pact.,https://investors.capgemini.com/en/file/28667?download=1#page=314
+capgemini,2025,GDPR,Annual report (company website),ok,1,5,1,2,0,0,0,0,1,0,,adopted a new Data Protection Impact Assessment (DPIA) Policy aligned with GDPR and ISO/IEC 27701; — published and communicated a new Data Protection Risk Management Procedure to reinforce data protection risk management both at group and local level; and,https://investors.capgemini.com/en/file/30242?download=1#page=290
+capgemini,2025,DMA,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+capgemini,2025,AI_ACT,Annual report (company website),ok,1,1,1,0,0,1,0,0,0,0,,Adherence to the Pact involves voluntarily undertaking to begin to apply certain provisions of the EU AI Act before they officially come into force and sharing progress and best practice with the EU AI Office and other signatories of the Pact.,https://investors.capgemini.com/en/file/30242?download=1#page=295
+capgemini,2026,GDPR,,not found,,0,0,0,0,0,0,0,0,0,,,
+capgemini,2026,DMA,,not found,,0,0,0,0,0,0,0,0,0,,,
+capgemini,2026,AI_ACT,,not found,,0,0,0,0,0,0,0,0,0,,,
+hsbc,2016,GDPR,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+hsbc,2016,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+hsbc,2016,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+hsbc,2017,GDPR,20-F,ok,1,3,3,2,1,0,0,0,0,0,,"The EU will continue to drive forward with implementation of its General Data Protection Regulation and is expected also to focus on the embedding of recently implemented measures such as Markets in Financial Instrument Regulation/Directive (‘MiFID II’), the EU’s Framework for Benchmarks and Indices, the Packaged Retai…",https://www.sec.gov/Archives/edgar/data/1089113/000162828018001920/filing20flivegroupq42017doc.htm
+hsbc,2017,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+hsbc,2017,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+hsbc,2018,GDPR,20-F,ok,1,3,1,2,1,0,0,0,0,0,,We are leveraging our investment in the GDPR initiative to roll out and implement a global and consistent data privacy framework.,https://www.sec.gov/Archives/edgar/data/1089113/000162828019001584/livehsbcgroup20ffiling.htm
+hsbc,2018,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+hsbc,2018,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+hsbc,2019,GDPR,20-F,ok,1,4,3,2,0,1,0,0,0,0,,"In addition, failure to comply with GDPR or similar privacy legislation in the other jurisdictions in which we operate may result in regulatory sanctions.",https://www.sec.gov/Archives/edgar/data/1089113/000162828020001784/liveprojgroup20ffiling20.htm
+hsbc,2019,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+hsbc,2019,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+hsbc,2020,GDPR,20-F,ok,1,2,1,1,0,0,0,0,0,0,,"Along with other organisations, we also need to meet external/regulatory obligations such as the General Data Protection Regulation (‘GDPR’) and Basel III.",https://www.sec.gov/Archives/edgar/data/1089113/000162828021003046/hsbc-20201231.htm
+hsbc,2020,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+hsbc,2020,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+hsbc,2021,GDPR,20-F,ok,1,1,1,1,0,0,0,0,0,0,,"Along with other banks and financial institutions, we need to meet external regulatory obligations and laws that cover data, such as the Basel Committee on Banking Supervision’s 239 guidelines and the General Data Protection Regulation (‘GDPR’).",https://www.sec.gov/Archives/edgar/data/1089113/000108911322000002/hsbc-20211231.htm
+hsbc,2021,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+hsbc,2021,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+hsbc,2022,GDPR,20-F,ok,1,1,0,1,0,0,0,0,0,0,,"Along with other banks and financial institutions, we need to meet external regulatory obligations and laws that cover data, such as the Basel Committee on Banking Supervision’s 239 guidelines and the General Data Protection Regulation (‘GDPR’).",https://www.sec.gov/Archives/edgar/data/1089113/000108911323000006/hsbc-20221231.htm
+hsbc,2022,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+hsbc,2022,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+hsbc,2023,GDPR,20-F,ok,1,2,2,0,0,0,0,0,0,1,,challenges of General Data Protection Regulation (‘GDPR’) implementation globally.,https://www.sec.gov/Archives/edgar/data/1089113/000108911324000004/hsbc-20231231.htm
+hsbc,2023,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+hsbc,2023,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+hsbc,2024,GDPR,20-F,ok,1,1,0,0,0,0,0,0,0,0,,guidelines and the General Data Protection Regulation.,https://www.sec.gov/Archives/edgar/data/1089113/000108911325000040/hsbc-20241231.htm
+hsbc,2024,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+hsbc,2024,AI_ACT,20-F,ok,1,1,1,0,0,0,1,0,0,0,,"use of AI for example, the EU’s AI Act; – continuing supervisory and regulatory change focus globally on payment services and related infrastructure; – ongoing expectations with respect to managing emerging financial",https://www.sec.gov/Archives/edgar/data/1089113/000108911325000040/hsbc-20241231.htm
+hsbc,2025,GDPR,20-F,ok,1,1,1,0,0,0,0,0,0,0,,(‘BCBS239’) principles and the UK/EU General Data Protection Regulation.,https://www.sec.gov/Archives/edgar/data/1089113/000108911326000010/hsbc-20251231.htm
+hsbc,2025,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+hsbc,2025,AI_ACT,20-F,ok,1,1,1,0,0,0,0,0,0,0,,"including in connection with, the implementation of the EU’s AI Act and the US’s AI Action Plan; – the supervisory and regulatory focus on technology adoption and digital delivery, underpinned by consumer protection, including in",https://www.sec.gov/Archives/edgar/data/1089113/000108911326000010/hsbc-20251231.htm
+hsbc,2026,GDPR,,not found,,0,0,0,0,0,0,0,0,0,,,
+hsbc,2026,DMA,,not found,,0,0,0,0,0,0,0,0,0,,,
+hsbc,2026,AI_ACT,,not found,,0,0,0,0,0,0,0,0,0,,,
+meta,2016,GDPR,10-K,ok,1,1,1,0,0,1,0,0,0,0,,"There currently are a number of proposals pending before federal, state, and foreign legislative and regulatory bodies, including a data protection regulation, known as the General Data Protection Regulation (GDPR), which has been finalized and is due to come into force in or around May 2018.",https://www.sec.gov/Archives/edgar/data/1326801/000132680117000007/fb-12312016x10k.htm
+meta,2016,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+meta,2016,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+meta,2017,GDPR,10-K,ok,1,3,3,0,0,1,0,0,0,0,,"In addition, the new European General Data Protection Regulation (GDPR) will take effect in May 2018 and will apply to all of our products and services that provide service in Europe.",https://www.sec.gov/Archives/edgar/data/1326801/000132680118000009/fb-12312017x10k.htm
+meta,2017,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+meta,2017,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+meta,2018,GDPR,10-K,ok,1,3,3,0,0,1,1,0,0,0,,"For example, the European General Data Protection Regulation (GDPR) took effect in May 2018 and applies to all of our products and services used by people in Europe.",https://www.sec.gov/Archives/edgar/data/1326801/000132680119000009/fb-12312018x10k.htm
+meta,2018,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+meta,2018,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+meta,2019,GDPR,10-K,ok,1,8,8,2,3,2,2,1,2,0,,"From time to time we also notify the IDPC, our designated European privacy regulator under the General Data Protection Regulation, of certain other personal data breaches and privacy issues, and are subject to inquiries and investigations regarding various aspects of our regulatory compliance.",https://www.sec.gov/Archives/edgar/data/1326801/000132680120000013/fb-12312019x10k.htm
+meta,2019,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+meta,2019,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+meta,2020,GDPR,10-K,ok,1,11,8,1,2,1,2,1,4,0,,"Compliance with our FTC consent order, the GDPR, the CCPA, the ePrivacy Directive, and other regulatory and legislative privacy requirements require significant operational resources and modifications to our business practices, and any compliance failures may have a material adverse effect on our business, reputation, …",https://www.sec.gov/Archives/edgar/data/1326801/000132680121000014/fb-20201231.htm
+meta,2020,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+meta,2020,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+meta,2021,GDPR,10-K,ok,1,11,7,1,2,2,2,1,6,0,,"For example, the GDPR includes operational requirements for companies that receive or process personal data of residents of the European Union that are different from those previously in place in the European Union, requires submission of personal data breach notifications to our lead European Union privacy regulator, …",https://www.sec.gov/Archives/edgar/data/1326801/000132680122000018/fb-20211231.htm
+meta,2021,DMA,10-K,ok,1,2,2,2,2,0,0,0,0,0,,"For example, the proposed Digital Markets Act in the European Union and pending proposals to modify competition laws in the United States and other jurisdictions could cause us to incur significant compliance costs and could potentially impose new restrictions and requirements on companies like ours, including in areas…",https://www.sec.gov/Archives/edgar/data/1326801/000132680122000018/fb-20211231.htm
+meta,2021,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+meta,2022,GDPR,10-K,ok,1,13,11,2,2,4,5,0,4,0,,"We also notify the IDPC, our lead European Union privacy regulator under the GDPR, and other regulators of certain other personal data breaches and privacy issues, and are subject to inquiries and investigations by the IDPC and other regulators regarding various aspects of our regulatory compliance.",https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm
+meta,2022,DMA,10-K,ok,1,7,7,4,2,2,3,0,1,0,,"Compliance with our FTC consent order, the GDPR, the CPRA, the ePrivacy Directive, the DMA, the DSA, and other regulatory and legislative privacy requirements require significant operational resources and modifications to our business practices, and any compliance failures may have a material adverse effect on our busi…",https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm
+meta,2022,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+meta,2023,GDPR,10-K,ok,1,18,15,4,2,12,6,0,9,0,€1.2 billion | €1.2 billion,"We also notify the IDPC, our lead European Union privacy regulator under the GDPR, and other regulators of certain other personal data breaches and privacy issues, and are subject to inquiries and investigations by the IDPC and other regulators regarding various aspects of our regulatory compliance.",https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-20231231.htm
+meta,2023,DMA,10-K,ok,1,13,11,6,2,6,8,1,3,0,,"…the mandates of the FTC consent order (including any future modifications to the order), GDPR, U.S. state privacy laws, including the CCPA, ePrivacy Directive, DMA, DSA, or other regulatory or legislative requirements, or if any relevant authority believes that we are in violation of the consent order or other applicab…",https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-20231231.htm
+meta,2023,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+meta,2024,GDPR,10-K,ok,1,18,15,4,2,7,9,0,8,0,€1.2 billion,"We also notify the IDPC, our lead European Union privacy regulator under the GDPR, and other regulators of certain other personal data breaches and privacy issues, issue similar notifications to European regulators under other laws (such as UK GDPR and Member State implementations of the ePrivacy Directive), and are su…",https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm
+meta,2024,DMA,10-K,ok,1,15,12,4,3,5,8,0,6,0,,"…andates of the FTC consent order (including any future modifications to the order), GDPR, U.S. state privacy laws, youth social media laws, ePrivacy Directive, DMA, DSA, or other regulatory or legislative requirements, or if any relevant authority believes that we are in violation of the consent order or other applicab…",https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm
+meta,2024,AI_ACT,10-K,ok,1,4,3,0,1,0,0,0,1,0,,"requirements around the world, such as U.S. state privacy laws, youth social media laws, the ePrivacy Directive, DMA, DSA, EU AI Act, the Korean Personal Information Protection Act, and the Indian Digital Personal Data Protection Act.",https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm
+meta,2025,GDPR,10-K,ok,1,17,7,4,2,5,10,0,9,0,€1.2 billion,"In particular, legislative and regulatory developments such as the General Data Protection Regulation, including its evolving interpretation through decisions of the Court of Justice of the European Union, ePrivacy Directive, European Digital Services Act, Digital Markets Act, and U.S. state privacy laws have impacted …",https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm
+meta,2025,DMA,10-K,ok,1,14,7,5,3,4,9,0,6,0,,"The interpretation and enforcement of the DMA, DSA, and OSA, as well as the imposition and amount of penalties for non-compliance, are subject to significant uncertainty.",https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm
+meta,2025,AI_ACT,10-K,ok,1,4,3,0,1,0,0,0,2,0,,"…lity, cybersecurity, export controls, consumer protection, and data protection laws to AI and/or are considering general legal frameworks on AI (such as the EU AI Act).…",https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm
+meta,2026,GDPR,,not found,,0,0,0,0,0,0,0,0,0,,,
+meta,2026,DMA,,not found,,0,0,0,0,0,0,0,0,0,,,
+meta,2026,AI_ACT,,not found,,0,0,0,0,0,0,0,0,0,,,
+orange,2016,GDPR,20-F,ok,1,2,2,0,0,0,0,0,0,0,,Adoption by the European Parliament of a General Data Protection Regulation July 2016 Statement of compliance with the European Commission privacy shield January 2017 Draft regulation modifying the e-privacy directive,https://www.sec.gov/Archives/edgar/data/1038143/000163462117000007/lorange2016_20-f.htm
+orange,2016,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+orange,2016,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+orange,2017,GDPR,20-F,ok,1,4,4,0,0,0,0,0,0,0,,"In order to ensure the protection of the citizen’s right to privacy, the European Union adopted the General Data Protection Regulation (GDPR), a new legal framework for protecting personal data in Europe, which will be directly applicable in Member States in May 2018 (see section 1.6 Regulation of telecom activities ).",https://www.sec.gov/Archives/edgar/data/1038143/000163462118000011/lo2017_20-f.htm
+orange,2017,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+orange,2017,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+orange,2018,GDPR,20-F,ok,1,7,7,1,0,1,0,1,0,1,,"In addition, the entry into effect of the GDPR has indirect effects on the implementation of sector directive no. 2002/58/EC on privacy and electronic communications of July 12, 2002 given that it changes the meaning of the concept of consent and the penalties to which this directive refers.",https://www.sec.gov/Archives/edgar/data/1038143/000163462119000026/lo2018_20-f.htm
+orange,2018,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+orange,2018,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+orange,2019,GDPR,20-F,ok,1,6,4,0,0,1,0,1,1,0,,"In addition, the coming into force of the GDPR has indirect effects on the implementation of sector Directive No. 2002/58/EC on Privacy and electronic communications of July 12, 2002, given that it changes the meaning of the concept of consent and the penalties to which this sector directive refers.",https://www.sec.gov/Archives/edgar/data/1038143/000163462120000009/oran-20191231x20f.htm
+orange,2019,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+orange,2019,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+orange,2020,GDPR,20-F,ok,1,6,5,1,0,1,0,0,1,0,,"Orange may be held liable in various countries under laws relating to the protection of personal data (such as the General Data Protection Regulation (EU) 2016/679 of April 27, 2016, GDPR), which reinforces the rights of individuals and the obligations of companies involved in data processing, such as operators and fin…",https://www.sec.gov/Archives/edgar/data/1038143/000163462121000008/oran-20201231x20f.htm
+orange,2020,DMA,20-F,ok,1,2,2,0,0,0,1,0,1,0,,"Digital Services Act and Digital Market Act On December 15, 2020, the European Commission published two pieces of legislation: an update of the e-Commerce Directive  [18] , known as the Digital Services Act (DSA), and a Regulation to combat the role of large online platforms, known as the Digital Market Act (DMA).",https://www.sec.gov/Archives/edgar/data/1038143/000163462121000008/oran-20201231x20f.htm
+orange,2020,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+orange,2021,GDPR,20-F,ok,1,4,3,2,0,2,0,0,1,0,,"However, the e-Privacy regulation project is made less urgent by the fact that the Code has extended the scope of application of the confidentiality of communications to OTT services, and that the GDPR has strengthened the methods used to collect consent and the regime of sanctions to which the 2002 Directive refers.",https://www.sec.gov/Archives/edgar/data/1038143/000163462122000007/oran-20211231x20f.htm
+orange,2021,DMA,20-F,ok,1,2,1,0,0,0,1,0,1,0,,"Digital Services Act and Digital Market Act On December 15, 2020, the European Commission published two pieces of legislation: an update of the e-Commerce Directive  [20] , known as the Digital Services Act (DSA), and a Regulation to combat the role of large online platforms, known as the Digital Market Act (DMA).",https://www.sec.gov/Archives/edgar/data/1038143/000163462122000007/oran-20211231x20f.htm
+orange,2021,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+orange,2022,GDPR,20-F,ok,1,3,2,2,0,2,0,0,0,0,,"Orange may be held liable in various countries, under personal data protection laws (such as the General Data Protection Regulation (EU) 2016/679 of April 27, 2016, GDPR), which strengthen the rights of individuals and increase the obligations of companies involved in data processing, such as telecommunication operator…",https://www.sec.gov/Archives/edgar/data/1038143/000163462123000008/oran-20211231x20f.htm
+orange,2022,DMA,20-F,ok,1,3,3,0,0,0,1,0,1,0,,"Digital Services Act and Digital Market Act At the end of 2020, the European Commission published two pieces of legislation: an update of the e-Commerce Directive  [17] , known as the Digital Services Act (DSA), and a Regulation to combat the role of large online platforms, known as the Digital Market Act (DMA).",https://www.sec.gov/Archives/edgar/data/1038143/000163462123000008/oran-20211231x20f.htm
+orange,2022,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+orange,2023,GDPR,20-F,ok,1,3,0,2,0,2,0,0,0,0,,"However, the e-Privacy regulation project is made less urgent by the fact that the Code has extended the scope of application of the confidentiality of communications to OTT services, and that the GDPR has strengthened the methods used to collect consent and the regime of sanctions to which the 2002 Directive refers.",https://www.sec.gov/Archives/edgar/data/1038143/000163462124000010/oran-20231231x20f.htm
+orange,2023,DMA,20-F,ok,1,4,3,0,0,0,1,0,1,0,,"For its part, the DMA ushers in an ex-ante regulatory framework for online platforms acting as gatekeepers, and also gives the European Commission broad powers to conduct market investigations.",https://www.sec.gov/Archives/edgar/data/1038143/000163462124000010/oran-20231231x20f.htm
+orange,2023,AI_ACT,20-F,ok,1,1,1,0,0,0,0,0,0,0,,"− the various regulatory changes (PSD3, MiCA, AI Act, etc.) will have a significant impact on how the sector is structured.",https://www.sec.gov/Archives/edgar/data/1038143/000163462124000010/oran-20231231x20f.htm
+orange,2024,GDPR,ESEF annual financial report,ok,1,3,3,0,0,2,0,0,0,0,,"Il introduit un niveau de sanctions aligné sur celui du Règlement Général sur la Protection des Données (RGPD) entré en vigueur en 2018  (13) , et maintient l’asymétrie réglementaire entre opérateurs de télécommunications et acteurs du numérique (prestataires de services OTT) concernant la collecte des métadonnées.",https://filings.xbrl.org/969500MCOONR8990S771/2024-12-31/ESEF/FR/0/ORAN-2024-12-31-0-fr/reports/969500MCOONR8990S771-2024-12-31-0-fr.xhtml
+orange,2024,DMA,ESEF annual financial report,ok,1,4,3,0,0,0,0,0,0,0,,"Le règlement sur les marchés numériques ( Digital Market Act ) du 14 septembre 2022, applicable progressivement depuis le 2 mai 2023, encadre l’activité économique des grandes plateformes numériques dans l’Union européenne et devrait permettre d’instaurer des relations équitables entre les plateformes et les entreprise…",https://filings.xbrl.org/969500MCOONR8990S771/2024-12-31/ESEF/FR/0/ORAN-2024-12-31-0-fr/reports/969500MCOONR8990S771-2024-12-31-0-fr.xhtml
+orange,2024,AI_ACT,ESEF annual financial report,ok,1,1,1,0,0,0,0,0,0,0,,"… des questions qu’elle soulève, et d’autre part de l’entrée en vigueur de la nouvelle réglementation européenne sur l’intelligence artificielle (Règlement (UE) 2024/1689 du 13 juin 2024), Orange a mobilisé ses équipes en 2024 pour assurer sa conformité.…",https://filings.xbrl.org/969500MCOONR8990S771/2024-12-31/ESEF/FR/0/ORAN-2024-12-31-0-fr/reports/969500MCOONR8990S771-2024-12-31-0-fr.xhtml
+orange,2025,GDPR,,not found,,0,0,0,0,0,0,0,0,0,,,
+orange,2025,DMA,,not found,,0,0,0,0,0,0,0,0,0,,,
+orange,2025,AI_ACT,,not found,,0,0,0,0,0,0,0,0,0,,,
+orange,2026,GDPR,,not found,,0,0,0,0,0,0,0,0,0,,,
+orange,2026,DMA,,not found,,0,0,0,0,0,0,0,0,0,,,
+orange,2026,AI_ACT,,not found,,0,0,0,0,0,0,0,0,0,,,
+relx,2016,GDPR,20-F,ok,1,2,2,0,0,0,1,0,0,0,,"In the year, we developed a comprehensive plan for complying with EU General Data Protection Regulations coming into force in 2018, and reviewed and updated internal privacy policies.",https://www.sec.gov/Archives/edgar/data/929869/000119312517072911/d319472d20f.htm
+relx,2016,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2016,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2017,GDPR,20-F,ok,1,3,3,2,0,0,0,0,0,0,,"Legal regulations, such as the European Union’s General Data Protection Regulation (“GDPR”), relating to internet communications, privacy and data protection, e-commerce, information governance and use of public records, are becoming more prevalent worldwide.",https://www.sec.gov/Archives/edgar/data/929869/000119312518053616/d528576d20f.htm
+relx,2017,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2017,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2018,GDPR,20-F,ok,1,4,4,2,0,0,0,0,0,0,,"The disruption or loss of data sources, either because of data privacy laws such as the European Union’s General Data Protection Regulation (“GDPR”), relating to internet communications, privacy and data protection, e-commerce, information governance and use of public records or because data suppliers decide not to sup…",https://www.sec.gov/Archives/edgar/data/929869/000119312519055997/d687928d20f.htm
+relx,2018,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2018,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2019,GDPR,20-F,ok,1,2,1,2,0,0,0,0,0,0,,"Areas of focus in 2019 included: cyber security; data privacy (including compliance with existing and proposed data privacy laws such as the EU General Data Protection Regulation and California Consumer Privacy Act); the operational, financial and IT control environment; the potential consequences of the United Kingdom…",https://www.sec.gov/Archives/edgar/data/929869/000119312520042817/d813464d20f.htm
+relx,2019,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2019,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2020,GDPR,20-F,ok,1,2,1,1,0,0,0,0,0,0,,"…ws relating to internet communications, privacy and data protection, e-commerce, information governance and use of public records, include the European Union’s General Data Protection Regulation and the California Consumer Privacy Act, as well as evolving regulation in many jurisdictions where RELX operates.…",https://www.sec.gov/Archives/edgar/data/929869/000119312521047466/d848056d20f.htm
+relx,2020,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2020,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2021,GDPR,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2021,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2021,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2022,GDPR,20-F,ok,1,2,1,0,0,0,0,0,0,0,,"Employee awareness privacy promotions continued during the year, with messaging in May about Privacy Awareness Week in the Asia Pacific region and globally about the fourth anniversary of the GDPR framework in the European Union.",https://www.sec.gov/Archives/edgar/data/929869/000155837023001846/relx-20221231x20f.htm
+relx,2022,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2022,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2023,GDPR,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2023,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2023,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2024,GDPR,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2024,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2024,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2025,GDPR,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2025,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2025,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+relx,2026,GDPR,,not found,,0,0,0,0,0,0,0,0,0,,,
+relx,2026,DMA,,not found,,0,0,0,0,0,0,0,0,0,,,
+relx,2026,AI_ACT,,not found,,0,0,0,0,0,0,0,0,0,,,
+salesforce,2016,GDPR,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+salesforce,2016,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+salesforce,2016,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+salesforce,2017,GDPR,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+salesforce,2017,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+salesforce,2017,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+salesforce,2018,GDPR,10-K,ok,1,2,2,1,0,1,1,0,0,0,,"In some cases, new data privacy laws and regulations, such as the European Union’s (""EU"") General Data Protection Regulation that takes effect in May 2018 and an amended Act on the Protection of Personal Information in Japan, impose new obligations directly on Salesforce as both a data controller and a data processor, …",https://www.sec.gov/Archives/edgar/data/1108524/000110852418000011/crmq4fy1810-k.htm
+salesforce,2018,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+salesforce,2018,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+salesforce,2019,GDPR,10-K,ok,1,3,2,1,2,2,1,0,0,0,,"Although we monitor the regulatory environment and have invested in addressing these developments, such as GDPR and CCPA readiness, these laws may require us to make additional changes to our services to enable Salesforce or our customers to meet the new legal requirements, and may also increase our potential liability…",https://www.sec.gov/Archives/edgar/data/1108524/000110852419000009/crmq4fy1910-k.htm
+salesforce,2019,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+salesforce,2019,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+salesforce,2020,GDPR,10-K,ok,1,4,4,1,2,2,1,0,0,1,,"Although we monitor the regulatory environment and have invested in addressing these developments, such as GDPR and CCPA readiness, these laws may require us to make additional changes to our practices and services to enable us or our customers to meet the new legal requirements, and may also increase our potential lia…",https://www.sec.gov/Archives/edgar/data/1108524/000110852420000014/crm-20200131.htm
+salesforce,2020,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+salesforce,2020,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+salesforce,2021,GDPR,10-K,ok,1,6,4,2,2,1,0,0,1,1,,"For example, in 2020 we were made a party to a legal proceeding brought by a Dutch privacy advocacy group on behalf of certain Dutch citizens that claims we violated the GDPR and Dutch Telecommunications Act through the processing and sharing of data in connection with our Audience Studio and Data Studio products.",https://www.sec.gov/Archives/edgar/data/1108524/000110852422000008/crm-20210131.htm
+salesforce,2021,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+salesforce,2021,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+salesforce,2022,GDPR,10-K,ok,1,2,1,1,0,1,0,0,1,0,,"In some cases, data privacy laws and regulations, such as the European Union’s (“EU”) General Data Protection Regulation (“GDPR”), impose obligations directly on Salesforce as both a data controller and a data processor, as well as on many of our customers.",https://www.sec.gov/Archives/edgar/data/1108524/000110852422000013/crm-20220131.htm
+salesforce,2022,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+salesforce,2022,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+salesforce,2023,GDPR,10-K,ok,1,2,2,1,0,1,0,0,1,0,,… party to a legal proceeding brought by a Dutch privacy advocacy group (the Privacy Collective) on behalf of certain Dutch citizens that claims we violated the GDPR and Dutch Telecommunications Act through the processing and sharing of data in connection with our Audience Studio and Data Studio products.…,https://www.sec.gov/Archives/edgar/data/1108524/000110852423000011/crm-20230131.htm
+salesforce,2023,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+salesforce,2023,AI_ACT,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+salesforce,2024,GDPR,10-K,ok,1,2,2,1,0,1,0,0,1,0,,… party to a legal proceeding brought by a Dutch privacy advocacy group (the Privacy Collective) on behalf of certain Dutch citizens that claims we violated the GDPR and Dutch Telecommunications Act through the processing and sharing of data in connection with our Audience Studio and Data Studio products.…,https://www.sec.gov/Archives/edgar/data/1108524/000110852424000005/crm-20240131.htm
+salesforce,2024,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+salesforce,2024,AI_ACT,10-K,ok,1,1,1,0,1,0,0,0,0,0,,"The introduction of numerous new pieces of EU legislation related to the use of data, including in the DSA, the Data Act and AI Act, may impose additional rules and restrictions on the use of the data in our products and services.",https://www.sec.gov/Archives/edgar/data/1108524/000110852424000005/crm-20240131.htm
+salesforce,2025,GDPR,10-K,ok,1,2,2,1,0,1,0,0,1,0,,… party to a legal proceeding brought by a Dutch privacy advocacy group (the Privacy Collective) on behalf of certain Dutch citizens that claims we violated the GDPR and Dutch Telecommunications Act through the processing and sharing of data in connection with our Audience Studio and Data Studio products.…,https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm
+salesforce,2025,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+salesforce,2025,AI_ACT,10-K,ok,1,1,1,0,1,0,0,0,0,0,,"New EU laws, including the DSA, the Data Act and the AI Act, may impose additional rules and restrictions on the use of our products and services.",https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm
+salesforce,2026,GDPR,10-K,ok,1,2,2,1,0,1,0,0,1,0,,"For example, in 2020 we were named as a defendant in a legal proceeding brought by a Dutch privacy advocacy group (the Privacy Collective) on behalf of certain Dutch citizens alleging violations of the GDPR and Dutch Telecommunications Act.",https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm
+salesforce,2026,DMA,10-K,ok,0,0,0,0,0,0,0,0,0,0,,,
+salesforce,2026,AI_ACT,10-K,ok,1,3,2,1,2,1,0,0,1,0,,"Regulatory frameworks such as the EU Digital Services Act (“DSA”), the EU AI Act and other rapidly evolving and sometimes conflicting global laws and regulations related to AI, privacy and consumer protection could increase compliance costs, restrict features or data flows, delay launches and expose us to penalties or …",https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm
+sap,2016,GDPR,20-F,ok,1,4,4,2,0,2,0,0,1,0,€ 20 million,"With regard to data protection requirements, in May 2016, the EU enacted a “General Data Protection Regulation” (GDPR), as a successor to the Data Protection Directive of 1995, with the aim of further harmonizing data protection laws across the EU.",https://www.sec.gov/Archives/edgar/data/1000184/000119312517060157/d344005d20f.htm
+sap,2016,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+sap,2016,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+sap,2017,GDPR,20-F,ok,1,3,3,2,0,0,0,0,0,0,,"With regard to data protection requirements, in May 2016, the EU enacted a “General Data Protection Regulation” (GDPR) with the aim of further harmonizing data protection laws across the EU.",https://www.sec.gov/Archives/edgar/data/1000184/000110465918013050/a17-27645_420f.htm
+sap,2017,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+sap,2017,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+sap,2018,GDPR,20-F,ok,1,7,6,2,0,0,0,0,0,0,,"With regard to data protection requirements, in May 2016, the EU enacted a “General Data Protection Regulation” (GDPR) with the aim of further harmonizing data protection laws across the EU.",https://www.sec.gov/Archives/edgar/data/1000184/000110465919011304/a18-38214_120f.htm
+sap,2018,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+sap,2018,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+sap,2019,GDPR,20-F,ok,1,5,3,0,0,0,0,0,0,0,,One of the latest major harmonizations of European data protection laws has been the General Data Protection Regulation (GDPR).,https://www.sec.gov/Archives/edgar/data/1000184/000110465920025681/sap-20191231x20f6ea59a.htm
+sap,2019,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+sap,2019,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+sap,2020,GDPR,20-F,ok,1,5,5,1,0,0,0,0,0,0,,"- Compliance with and stringent enforcement of laws, as for example the EU GDPR or China’s Cyber Security Law, and regulations (including interpretations), implications of government elections, lack of reforms, data protection and privacy rules, regulatory requirements and standards (such as the Payment Card Industry D…",https://www.sec.gov/Archives/edgar/data/1000184/000110465921031847/sap-20201231x20f.htm
+sap,2020,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+sap,2020,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+sap,2021,GDPR,20-F,ok,1,4,3,0,0,0,0,0,1,0,,"In 2021, SAP experienced two significant incidents in processing personal data – on our own behalf – that were subject to GDPR only and were reported to the supervisory authorities. 30 Table of Contents",https://www.sec.gov/Archives/edgar/data/1000184/000110465922029675/sap-20211231x20f.htm
+sap,2021,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+sap,2021,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+sap,2022,GDPR,20-F,ok,1,4,2,1,0,0,0,0,1,0,,One of the relevant European data protection laws is the General Data Protection Regulation.,https://www.sec.gov/Archives/edgar/data/1000184/000110465923027626/sap-20221231x20f.htm
+sap,2022,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+sap,2022,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+sap,2023,GDPR,20-F,ok,1,4,3,1,0,0,0,0,1,0,,"In 2023, there were two notifiable data protection incidents in accordance with the GDPR for data that SAP processes for its own purposes and were reported to the supervisory authorities. 32 Table of Contents",https://www.sec.gov/Archives/edgar/data/1000184/000110465924029038/sap-20231231x20f.htm
+sap,2023,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+sap,2023,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+sap,2024,GDPR,20-F,ok,1,2,2,1,0,0,0,0,1,0,,One of the relevant European data protection laws is the General Data Protection Regulation.,https://www.sec.gov/Archives/edgar/data/1000184/000110465925017815/sap-20241224x20f.htm
+sap,2024,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+sap,2024,AI_ACT,20-F,ok,1,1,1,0,1,0,0,0,0,0,,"Examples include the EU’s Data Act, Digital Services Act, AI Act, and e-Privacy Directive, the Turkish Personal Data Protection Law, China’s Personal Information Protection Law, and Saudi Arabia’s Personal Data Protection Law, which also imposes requirements regarding data localization.",https://www.sec.gov/Archives/edgar/data/1000184/000110465925017815/sap-20241224x20f.htm
+sap,2025,GDPR,20-F,ok,1,2,2,2,0,0,0,0,0,0,,One of the relevant European data protection laws is the General Data Protection Regulation.,https://www.sec.gov/Archives/edgar/data/1000184/000110465926020058/sap-20251231x20f.htm
+sap,2025,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+sap,2025,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+sap,2026,GDPR,,not found,,0,0,0,0,0,0,0,0,0,,,
+sap,2026,DMA,,not found,,0,0,0,0,0,0,0,0,0,,,
+sap,2026,AI_ACT,,not found,,0,0,0,0,0,0,0,0,0,,,
+telekom,2016,GDPR,,not found,,0,0,0,0,0,0,0,0,0,,,
+telekom,2016,DMA,,not found,,0,0,0,0,0,0,0,0,0,,,
+telekom,2016,AI_ACT,,not found,,0,0,0,0,0,0,0,0,0,,,
+telekom,2017,GDPR,,not found,,0,0,0,0,0,0,0,0,0,,,
+telekom,2017,DMA,,not found,,0,0,0,0,0,0,0,0,0,,,
+telekom,2017,AI_ACT,,not found,,0,0,0,0,0,0,0,0,0,,,
+telekom,2018,GDPR,Annual report (company website),ok,1,3,3,1,0,0,0,0,0,1,,"Still, we used the intro duction of the General Data Protection Regulation as an opportunity to thoroughly re-assess data privacy in a three-phase project.",https://report.telekom.com/annual-report-2018/servicepages/downloads/files/entire_dtag_ar18.pdf#page=122
+telekom,2018,DMA,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+telekom,2018,AI_ACT,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+telekom,2019,GDPR,Annual report (company website),ok,1,1,1,1,0,0,0,0,0,0,,"Following the successful implementation of the General Data Protection Regulation (GDPR) in 2018, the aim for 2019 was to further consolidate the more stringent data protection requirements under the GDPR and harmonize them within the Group while constantly adapting them to new developments.",https://report.telekom.com/annual-report-2019/servicepages/downloads/files/entire_dtag_ar19.pdf#page=125
+telekom,2019,DMA,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+telekom,2019,AI_ACT,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+telekom,2020,GDPR,Annual report (company website),ok,1,2,2,1,0,0,0,0,0,1,,"Their goal is to create a trusted public cloud offering for European markets and all sectors for which data sovereignty and GDPR compliance are key, including the public sector, essential infrastructure operators, and companies operating in strategic or sensitive areas of public interest.",https://report.telekom.com/annual-report-2020/_assets/downloads/entire-dtag-ar20.pdf#page=21
+telekom,2020,DMA,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+telekom,2020,AI_ACT,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+telekom,2021,GDPR,Annual report (company website),ok,1,2,2,2,0,0,0,0,0,1,,"Risks and opportunities arising from data privacy and data security Since the introduction of the General Data Protection Regulation (GDPR), data privacy law has been largely harmonized in Europe.",https://report.telekom.com/annual-report-2021/_assets/downloads/entire-dtag-ar21.pdf#page=142
+telekom,2021,DMA,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+telekom,2021,AI_ACT,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+telekom,2022,GDPR,Annual report (company website),ok,1,2,2,2,0,0,0,0,0,1,,All Group companies are subject to specific data privacy regulations (in the EU especially the General Data Protection Regulation (GDPR)).,https://report.telekom.com/annual-report-2022/_assets/downloads/entire-dtag-ar22.pdf#page=155
+telekom,2022,DMA,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+telekom,2022,AI_ACT,Annual report (company website),ok,1,1,1,0,1,0,0,0,0,0,,The working group is also preparing the enforcement of the upcoming EU AI Act.,https://report.telekom.com/annual-report-2022/_assets/downloads/entire-dtag-ar22.pdf#page=112
+telekom,2023,GDPR,Annual report (company website),ok,1,3,3,0,0,0,0,0,0,0,,"In 2023, together with further IDunion industry partners, Deutsche Telekom put a pre-production network into operation, developed the associated governance framework, and worked on the identity network’s GDPR-compliant regular operations.",https://report.telekom.com/annual-report-2023/_assets/downloads/entire-dtag-ar23.pdf#page=130
+telekom,2023,DMA,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+telekom,2023,AI_ACT,Annual report (company website),ok,1,2,2,0,0,0,0,0,0,0,,The working group is also preparing the implementation of the planned EU AI Act.,https://report.telekom.com/annual-report-2023/_assets/downloads/entire-dtag-ar23.pdf#page=108
+telekom,2024,GDPR,Annual report (company website),ok,1,4,4,0,0,0,0,0,0,0,,"In the EU, for example, the General Data Protection Regulation (GDPR) in particular applies.",https://report.telekom.com/annual-report-2024/_assets/downloads/entire-dtag-ar24.pdf#page=169
+telekom,2024,DMA,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+telekom,2024,AI_ACT,Annual report (company website),ok,1,1,1,1,0,0,0,0,0,0,,The interdisciplinary working group is also preparing the implementation of the EU AI Act.,https://report.telekom.com/annual-report-2024/_assets/downloads/entire-dtag-ar24.pdf#page=173
+telekom,2025,GDPR,Annual report (company website),ok,1,4,4,2,0,0,0,0,0,0,,"Available since 2022, the joint T‑Systems Sovereign Cloud powered by Google Cloud combines the open-source expertise of both providers, enabling business customers to process their data in the cloud in compliance with German and European data protection and sovereignty requirements (GDPR and Schrems II).",https://report.telekom.com/annual-report-2025/_assets/downloads/entire-dtag-ar25.pdf#page=169
+telekom,2025,DMA,Annual report (company website),ok,0,0,0,0,0,0,0,0,0,0,,,
+telekom,2025,AI_ACT,Annual report (company website),ok,1,1,1,0,0,0,0,0,0,0,,"The Digital Ethics interdisciplinary working group, which handles the implementation of the EU AI Act, was founded in the same year.",https://report.telekom.com/annual-report-2025/_assets/downloads/entire-dtag-ar25.pdf#page=168
+telekom,2026,GDPR,,not found,,0,0,0,0,0,0,0,0,0,,,
+telekom,2026,DMA,,not found,,0,0,0,0,0,0,0,0,0,,,
+telekom,2026,AI_ACT,,not found,,0,0,0,0,0,0,0,0,0,,,
+vodafone,2016,GDPR,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+vodafone,2016,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+vodafone,2016,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+vodafone,2017,GDPR,20-F,ok,1,3,3,3,2,1,0,0,1,0,,"… Policy Compliance Review which tests the extent to which local markets and Group entities are compliant with our high risk policies; –– a review of the new EU General Data Protection Regulation, likely to take effect from May 2018, including the areas of potential impact for the Group; and –– results of the use of “Sp…",https://www.sec.gov/Archives/edgar/data/839923/000110465917038355/a17-12473_120f.htm
+vodafone,2017,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+vodafone,2017,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+vodafone,2018,GDPR,20-F,ok,1,7,7,5,1,1,1,2,2,4,,"…T, fixed or mobile assets causing service disruption PoliticalData measures management Data management failures leading to missed commercial opportunities or a GDPR breach 9 Legal and regulatory compliance Non compliance with laws and regulations includingEconomic Allocation of money laundering, sanctions and intellect…",https://www.sec.gov/Archives/edgar/data/839923/000110465922116238/a22-28490_120f.htm
+vodafone,2018,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+vodafone,2018,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+vodafone,2019,GDPR,20-F,ok,1,4,4,1,1,2,0,1,0,1,,…an anticipated to integrate acquired businesses. – Cyber threat and information security Cyber security breach caused by ongoing IT transformation leading to a GDPR fine. – Geo-political risk in supply chain Disruption in the supply chain due to international trade rulings restricting access to key suppliers. – Global …,https://www.sec.gov/Archives/edgar/data/839923/000110465919034465/a19-9811_120f.htm
+vodafone,2019,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+vodafone,2019,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+vodafone,2020,GDPR,20-F,ok,1,3,3,1,0,1,0,1,0,0,€13.3 billion,"…he period considered, provide the Group with sufficient on revenue and adjusted EBITDA over the review period confirmed exploits vulnerabilities and leads to a GDPR fine.The Board deemed the stress test conducted to be adequate and Geo-political risk in supply chain: Increase in trade wars leads therefore confirm that …",https://www.sec.gov/Archives/edgar/data/839923/000110465920080647/a20-18706_120f.htm
+vodafone,2020,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+vodafone,2020,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+vodafone,2021,GDPR,20-F,ok,1,3,3,2,1,1,0,0,0,0,,The European Union’s General Data Protection Regulation (‘GDPR’) provides a framework for notifying customers in the event there is a loss of customer data as a result of a data breach and this framework is a baseline across all our markets.,https://www.sec.gov/Archives/edgar/data/839923/000110465921084539/tm2115442d1_20f.htm
+vodafone,2021,DMA,20-F,ok,1,1,1,0,0,0,0,0,0,0,,"In December 2020, the EC published the Digital Services Act package, comprising a Digital Services Act and Digital Markets Act, intended to reshape the regulatory environment for digital services in Europe regarding security, fairness and competition.",https://www.sec.gov/Archives/edgar/data/839923/000110465921084539/tm2115442d1_20f.htm
+vodafone,2021,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+vodafone,2022,GDPR,20-F,ok,1,4,4,3,1,1,0,0,0,1,,The European Union’s GDPR provides a framework for notifying customers in the event there is a loss of customer data as a result of a data breach and this framework is a baseline across all our markets.,https://www.sec.gov/Archives/edgar/data/839923/000110465922071759/vod-20220331x20f.htm
+vodafone,2022,DMA,20-F,ok,1,1,0,0,0,0,0,0,0,0,,Negotiations on the Digital Services Act package (consisting of the Digital Services Act (‘DSA’) and the Digital Markets Act (‘DMA’)) continue.,https://www.sec.gov/Archives/edgar/data/839923/000110465922071759/vod-20220331x20f.htm
+vodafone,2022,AI_ACT,20-F,ok,1,1,1,1,0,0,0,0,1,0,,"In April 2021, the EC published its AI regulation (‘AI Act’) setting out a number of prohibited AI use cases and new requirements for providers of high-risk AI.",https://www.sec.gov/Archives/edgar/data/839923/000110465922071759/vod-20220331x20f.htm
+vodafone,2023,GDPR,20-F,ok,1,3,2,2,0,1,0,0,1,0,,"Data management and privacy: A data breach, through malicious activities (e.g. cyber-attack), leading to an investigation and a subsequent GDPR fine.",https://www.sec.gov/Archives/edgar/data/839923/000110465923073356/vod-20230331x20f.htm
+vodafone,2023,DMA,20-F,ok,1,1,1,0,0,0,0,0,0,0,,The Digital Markets Act (‘DMA’) was agreed in March 2022 and published in the official EU Journal in November 2022.,https://www.sec.gov/Archives/edgar/data/839923/000110465923073356/vod-20230331x20f.htm
+vodafone,2023,AI_ACT,20-F,ok,1,2,2,1,0,0,0,0,0,1,,"New European data regulations, such as the Artificial Intelligence Act or the Cyber Act, will introduce significant new legal requirements around data management of our business activities.",https://www.sec.gov/Archives/edgar/data/839923/000110465923073356/vod-20230331x20f.htm
+vodafone,2024,GDPR,20-F,ok,1,8,8,1,0,2,0,2,2,0,,Under the GDPR the authority has the power to impose fines of up to 2 % of the Group’s annual revenue from the preceding financial year.,https://www.sec.gov/Archives/edgar/data/839923/000110465924071761/vod-20240331x20f.htm
+vodafone,2024,DMA,20-F,ok,1,2,2,1,0,0,1,0,0,0,,Read more about our approach to data management and privacy on pages 45 and 46 Mitigation activities Our increasingly deep partnerships with big technology players and the potential to leverage the new Digital Markets Act have improved our ability to defend against the customer ownership risks.,https://www.sec.gov/Archives/edgar/data/839923/000110465924071761/vod-20240331x20f.htm
+vodafone,2024,AI_ACT,20-F,ok,1,3,3,1,0,0,0,0,0,0,,"In December 2023, negotiators finalised the text of the EU Artificial Intelligence Act (‘AI Act’), the world’s first comprehensive, horizontal regulation for AI systems.",https://www.sec.gov/Archives/edgar/data/839923/000110465924071761/vod-20240331x20f.htm
+vodafone,2025,GDPR,20-F,ok,1,6,6,1,0,1,0,0,1,0,,"The European Union’s GDPR provides a framework for notifying customers in the event there is a loss of customer data because of a data breach, and this framework is a baseline across all our markets.",https://www.sec.gov/Archives/edgar/data/839923/000119312525136298/d786242d20f.htm
+vodafone,2025,DMA,20-F,ok,1,3,3,1,0,0,0,0,2,0,,Our increasingly deep partnerships with Big Tech companies and the potential to leverage the new Digital Markets Act have improved our ability to defend against customer ownership risks.,https://www.sec.gov/Archives/edgar/data/839923/000119312525136298/d786242d20f.htm
+vodafone,2025,AI_ACT,20-F,ok,1,2,2,1,0,0,0,0,0,0,,The AI Act entered into force on 1 August 2024.,https://www.sec.gov/Archives/edgar/data/839923/000119312525136298/d786242d20f.htm
+vodafone,2026,GDPR,20-F,ok,1,6,4,1,0,0,0,0,0,0,,Our privacy management standards are based on the European Union General Data Protection Regulation (‘GDPR’) and this is applied across Vodafone markets both inside and outside the European Economic Area.,https://www.sec.gov/Archives/edgar/data/839923/000119312526235425/d143190d20f.htm
+vodafone,2026,DMA,20-F,ok,1,1,1,0,1,0,0,0,0,0,,"Partnerships with leading technology companies and protections under the Digital Markets Act help safeguard customer ownership, while we secure spectrum, expand 5G and FTTH coverage, and continue to upgrade our cable networks to sustain performance.",https://www.sec.gov/Archives/edgar/data/839923/000119312526235425/d143190d20f.htm
+vodafone,2026,AI_ACT,20-F,ok,1,1,1,0,0,0,0,0,0,0,,"New European data regulations, such as the EU AI Act or the Cybersecurity Act, will introduce significant new legal requirements around data management of our business activities.",https://www.sec.gov/Archives/edgar/data/839923/000119312526235425/d143190d20f.htm
+wpp,2016,GDPR,20-F,ok,1,1,1,0,1,0,0,0,0,0,,"Existing and new data protection laws, in particular the General Data Protection Regulation (GDPR) and E-privacy regulation in the EU, concerning user privacy, use of personal information, consent and online tracking may restrict some of the Group’s activities and increase costs.",https://www.sec.gov/Archives/edgar/data/806968/000119312517146369/d362219d20f.htm
+wpp,2016,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2016,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2017,GDPR,20-F,ok,1,2,1,0,1,0,0,0,0,0,,The Group has implemented extensive training ahead of GDPR implementation in 2018 and is rolling out a GDPR toolkit to assist the operating companies to prepare for implementation.,https://www.sec.gov/Archives/edgar/data/806968/000119312518141442/d462033d20f.htm
+wpp,2017,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2017,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2018,GDPR,20-F,ok,1,2,2,0,1,0,0,0,0,0,,"Existing and new data protection laws, General Data Protection Regulation (GDPR) and e-privacy regulation in the EU concerning user privacy, use of personal information, consent and online tracking may restrict some of our activities and increase costs.",https://www.sec.gov/Archives/edgar/data/806968/000119312519121544/d714282d20f.htm
+wpp,2018,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2018,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2019,GDPR,20-F,ok,1,3,3,1,2,0,0,0,0,0,,"The platform also includes our regulatory toolkits for GDPR, California Consumer Privacy Act (CCPA) and Brazil’s Lei Geral de Proteção de Dados (LGPD), model data protection contract clauses, privacy impact assessment tools, policy templates and other topic-specific or jurisdiction-specific guidance and resources.",https://www.sec.gov/Archives/edgar/data/806968/000119312520128655/d861241d20f.htm
+wpp,2019,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2019,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2020,GDPR,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2020,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2020,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2021,GDPR,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2021,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2021,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2022,GDPR,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2022,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2022,AI_ACT,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2023,GDPR,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2023,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2023,AI_ACT,20-F,ok,1,1,1,0,1,0,0,0,0,0,,"WPP may incur costs when ensuring it can comply with the introduction of artificial intelligence laws and regulations, including the EU AI Act.",https://www.sec.gov/Archives/edgar/data/806968/000162828024012449/wpp-20231231.htm
+wpp,2024,GDPR,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2024,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2024,AI_ACT,20-F,ok,1,1,1,0,1,0,0,0,0,0,,"WPP may incur costs when ensuring it can comply with the introduction of AI laws and regulations, including the EU AI Act.",https://www.sec.gov/Archives/edgar/data/806968/000162828025015363/wpp-20241231.htm
+wpp,2025,GDPR,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2025,DMA,20-F,ok,0,0,0,0,0,0,0,0,0,0,,,
+wpp,2025,AI_ACT,20-F,ok,1,1,0,0,1,0,0,0,0,0,,"WPP may incur costs when ensuring it can comply with the introduction of AI laws and regulations, including the EU AI Act.",https://www.sec.gov/Archives/edgar/data/806968/000162828026019643/wpp-20251231.htm
+wpp,2026,GDPR,,not found,,0,0,0,0,0,0,0,0,0,,,
+wpp,2026,DMA,,not found,,0,0,0,0,0,0,0,0,0,,,
+wpp,2026,AI_ACT,,not found,,0,0,0,0,0,0,0,0,0,,,

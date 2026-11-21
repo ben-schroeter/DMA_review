@@ -1,0 +1,101 @@
+{
+ "_note": "Text patterns (Python regex, case-sensitive unless (?i)) that identify a law in a company report. 'eu' laws are counted; 'uk' and 'other' laws are logged separately and never counted as EU. 'abbrev' patterns only count in a report that also uses one of the law's full-name patterns (so 'DMA' = direct memory access is not counted). 'not_before' rejects a match when the preceding 40 characters match it. 'abbrev_conflicts': if a report matches one of these (another meaning defined for the abbreviation, e.g. DMA = double materiality assessment under the CSRD), the abbreviation is not used for that report.",
+ "laws": [
+  {
+   "id": "GDPR",
+   "scope": "eu",
+   "name": "General Data Protection Regulation",
+   "celex": "32016R0679",
+   "full": [
+    "General Data Protection Regulation",
+    "(?i)Regulation \\(EU\\) 2016/679",
+    "\\b2016/679\\b",
+    "(?i)r[èe]glement g[ée]n[ée]ral (europ[ée]en )?sur la protection des donn[ée]es",
+    "Datenschutz-Grundverordnung",
+    "\\bEU (and|&|or) UK GDPR\\b",
+    "\\bGDPR\\b",
+    "\\bRGPD\\b",
+    "\\bDSGVO\\b"
+   ],
+   "abbrev": [],
+   "not_before": "(?i)(\\bUK|United Kingdom|U\\.K\\.|British)['’]?s?\\s*(version of the\\s*)?$",
+   "abbrev_conflicts": []
+  },
+  {
+   "id": "DMA",
+   "scope": "eu",
+   "name": "Digital Markets Act",
+   "celex": "32022R1925",
+   "full": [
+    "Digital Markets? Act",
+    "(?i)Regulation \\(EU\\) 2022/1925",
+    "\\b2022/1925\\b",
+    "(?i)r[èe]glement (europ[ée]en )?(sur|relatif aux) (les )?march[ée]s num[ée]riques",
+    "(?i)l[ée]gislation sur les march[ée]s num[ée]riques",
+    "Gesetz über digitale Märkte"
+   ],
+   "abbrev": [
+    "\\bDMA\\b"
+   ],
+   "not_before": "",
+   "abbrev_conflicts": [
+    "(?i)materiality assessment\\W{0,6}\\(?\\W{0,3}DMA\\b",
+    "(?i)\\bDMA\\W{0,6}(double )?materiality"
+   ]
+  },
+  {
+   "id": "AI_ACT",
+   "scope": "eu",
+   "name": "Artificial Intelligence Act",
+   "celex": "32024R1689",
+   "full": [
+    "\\bAI Act\\b",
+    "Artificial Intelligence Act",
+    "(?i)Regulation \\(EU\\) 2024/1689",
+    "\\b2024/1689\\b",
+    "(?i)r[èe]glement (europ[ée]en )?(sur|relatif [àa]) l['’]intelligence artificielle",
+    "KI-Verordnung"
+   ],
+   "abbrev": [],
+   "not_before": "(?i)(Colorado|Utah|Texas|California|Illinois|Korea|Korean|Japan|Japanese|Basic|China|Chinese|state)['’]?s?\\s*(Artificial Intelligence|AI)?\\s*$",
+   "abbrev_conflicts": []
+  },
+  {
+   "id": "UK_GDPR",
+   "scope": "uk",
+   "name": "UK GDPR / Data Protection Act 2018",
+   "full": [
+    "\\bUK GDPR\\b",
+    "UK General Data Protection Regulation",
+    "Data Protection Act 2018"
+   ],
+   "abbrev": [],
+   "not_before": "",
+   "abbrev_conflicts": []
+  },
+  {
+   "id": "UK_DMCC",
+   "scope": "uk",
+   "name": "Digital Markets, Competition and Consumers Act 2024",
+   "full": [
+    "Digital Markets, Competition and Consumers (Act|Bill)",
+    "\\bDMCCA?\\b"
+   ],
+   "abbrev": [],
+   "not_before": "",
+   "abbrev_conflicts": []
+  },
+  {
+   "id": "OTHER_AI_ACT",
+   "scope": "other",
+   "name": "Non-EU AI laws (Colorado AI Act, Korea AI Basic Act, etc.)",
+   "full": [
+    "(?i)(Colorado|Utah|Texas|Korea|Korean)['’]?s? (Artificial Intelligence|AI) (Act|Basic Act)",
+    "(?i)AI Basic Act"
+   ],
+   "abbrev": [],
+   "not_before": "",
+   "abbrev_conflicts": []
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "_note": "Pilot sample for the Company responses section: 12 listed companies (4 US, 4 EU: 2 CAC 40 + 2 DAX, 4 UK). 'sources' lists where each annual report is taken from, in order of preference; see METHOD.md. 'gatekeeper' = designated under the DMA (Art. 3) at any time.",
+ "companies": [
+  {
+   "id": "alphabet",
+   "name": "Alphabet Inc.",
+   "hq": "US",
+   "index": "S&P 500",
+   "sector": "Internet services",
+   "gatekeeper": true,
+   "sec_cik": 1652044,
+   "lei": "5493006MHB84DD0ZWV18"
+  },
+  {
+   "id": "meta",
+   "name": "Meta Platforms, Inc.",
+   "hq": "US",
+   "index": "S&P 500",
+   "sector": "Internet services",
+   "gatekeeper": true,
+   "sec_cik": 1326801,
+   "lei": "BQ4BKCS1HXDV9HN80Z93"
+  },
+  {
+   "id": "apple",
+   "name": "Apple Inc.",
+   "hq": "US",
+   "index": "S&P 500",
+   "sector": "Hardware and services",
+   "gatekeeper": true,
+   "sec_cik": 320193,
+   "lei": "HWUPKR0MPOU8FGXBT394"
+  },
+  {
+   "id": "salesforce",
+   "name": "Salesforce, Inc.",
+   "hq": "US",
+   "index": "S&P 500",
+   "sector": "Enterprise software",
+   "gatekeeper": false,
+   "sec_cik": 1108524,
+   "lei": "RCGZFPDMRW58VJ54VR07"
+  },
+  {
+   "id": "orange",
+   "name": "Orange SA",
+   "hq": "FR",
+   "index": "CAC 40",
+   "sector": "Telecommunications",
+   "gatekeeper": false,
+   "sec_cik": 1038143,
+   "lei": "969500MCOONR8990S771"
+  },
+  {
+   "id": "capgemini",
+   "name": "Capgemini SE",
+   "hq": "FR",
+   "index": "CAC 40",
+   "sector": "IT services",
+   "gatekeeper": false,
+   "sec_cik": null,
+   "lei": "96950077L0TN7BAROX36"
+  },
+  {
+   "id": "sap",
+   "name": "SAP SE",
+   "hq": "DE",
+   "index": "DAX",
+   "sector": "Enterprise software",
+   "gatekeeper": false,
+   "sec_cik": 1000184,
+   "lei": "529900D6BF99LW9R2E68"
+  },
+  {
+   "id": "telekom",
+   "name": "Deutsche Telekom AG",
+   "hq": "DE",
+   "index": "DAX",
+   "sector": "Telecommunications",
+   "gatekeeper": false,
+   "sec_cik": null,
+   "lei": "549300V9QSIG4WX4GJ96"
+  },
+  {
+   "id": "vodafone",
+   "name": "Vodafone Group Plc",
+   "hq": "UK",
+   "index": "FTSE 100",
+   "sector": "Telecommunications",
+   "gatekeeper": false,
+   "sec_cik": 839923,
+   "lei": "213800TB53ELEUKM7Q61",
+   "ch_number": "01833679"
+  },
+  {
+   "id": "relx",
+   "name": "RELX PLC",
+   "hq": "UK",
+   "index": "FTSE 100",
+   "sector": "Information and analytics",
+   "gatekeeper": false,
+   "sec_cik": 929869,
+   "lei": "549300WSX3VBUFFJOO66",
+   "ch_number": "00077536"
+  },
+  {
+   "id": "wpp",
+   "name": "WPP plc",
+   "hq": "UK",
+   "index": "FTSE 100",
+   "sector": "Advertising",
+   "gatekeeper": false,
+   "sec_cik": 806968,
+   "lei": "549300LSGBXPYHXGDT93",
+   "ch_number": null
+  },
+  {
+   "id": "hsbc",
+   "name": "HSBC Holdings plc",
+   "hq": "UK",
+   "index": "FTSE 100",
+   "sector": "Banking",
+   "gatekeeper": false,
+   "sec_cik": 1089113,
+   "lei": "MLU0ZO3ML4LN2LL2TL39",
+   "ch_number": "00617987"
+  }
+ ],
+ "web_reports": {
+  "_note": "Annual reports not on SEC EDGAR: taken from the company's own investor site (URLs checked November 2026). Capgemini = Universal Registration Document (annual financial report); Deutsche Telekom = Annual Report (contains the combined management report and consolidated financial statements).",
+  "capgemini": {
+   "2016": "https://investors.capgemini.com/en/file/16870?download=1",
+   "2017": "https://investors.capgemini.com/en/file/8825?download=1",
+   "2018": "https://investors.capgemini.com/en/file/13002?download=1",
+   "2019": "https://investors.capgemini.com/en/file/15064?download=1",
+   "2020": "https://investors.capgemini.com/en/file/16754?download=1",
+   "2021": "https://investors.capgemini.com/en/file/22708?download=1",
+   "2022": "https://investors.capgemini.com/en/file/24133?download=1",
+   "2023": "https://investors.capgemini.com/en/file/26225?download=1",
+   "2024": "https://investors.capgemini.com/en/file/28667?download=1",
+   "2025": "https://investors.capgemini.com/en/file/30242?download=1"
+  },
+  "telekom": {
+   "2018": "https://report.telekom.com/annual-report-2018/servicepages/downloads/files/entire_dtag_ar18.pdf",
+   "2019": "https://report.telekom.com/annual-report-2019/servicepages/downloads/files/entire_dtag_ar19.pdf",
+   "2020": "https://report.telekom.com/annual-report-2020/_assets/downloads/entire-dtag-ar20.pdf",
+   "2021": "https://report.telekom.com/annual-report-2021/_assets/downloads/entire-dtag-ar21.pdf",
+   "2022": "https://report.telekom.com/annual-report-2022/_assets/downloads/entire-dtag-ar22.pdf",
+   "2023": "https://report.telekom.com/annual-report-2023/_assets/downloads/entire-dtag-ar23.pdf",
+   "2024": "https://report.telekom.com/annual-report-2024/_assets/downloads/entire-dtag-ar24.pdf",
+   "2025": "https://report.telekom.com/annual-report-2025/_assets/downloads/entire-dtag-ar25.pdf",
+   "_note": "Annual Report PDFs for 2018-2025. The 2016 and 2017 Annual Reports are no longer on telekom.com (only figure back-ups are), so those years are gaps."
+  }
+ },
+ "esef_reports": {
+  "_note": "ESEF annual financial reports from filings.xbrl.org, used where the company stopped filing with the SEC.",
+  "orange": {
+   "2024": "https://filings.xbrl.org/969500MCOONR8990S771/2024-12-31/ESEF/FR/0/ORAN-2024-12-31-0-fr/reports/969500MCOONR8990S771-2024-12-31-0-fr.xhtml"
+  }
+ }
+}
