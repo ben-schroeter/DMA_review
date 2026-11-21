@@ -192,6 +192,21 @@ for o, c, lid in sorted(pts, key=lambda p: p[2] in LAB):
         lab = {"R65": "Machinery Regulation", "R135": "In-vitro diagnostics Reg.", "R103": "Toys Safety Regulation",
                "R110": "Radio Equipment Directive", "R81": "Health Data Space"}.get(lid, nm(lid))
         g.append(t(X(o) + dx, Y(c) + dy, lab, 11.5, INK, anc))
+# fitted lines (least squares on log(1 + x) against log(1 + y), the scales of the chart) with their correlations
+def _fit(P):
+    xs_ = [math.log1p(p[0]) for p in P]; ys_ = [math.log1p(p[1]) for p in P]
+    mx_, my_ = st.mean(xs_), st.mean(ys_)
+    sxy = sum((u - mx_) * (v - my_) for u, v in zip(xs_, ys_)); sxx = sum((u - mx_) ** 2 for u in xs_); syy = sum((v - my_) ** 2 for v in ys_)
+    return my_ - sxy / sxx * mx_, sxy / sxx, sxy / math.sqrt(sxx * syy), min(xs_), max(xs_)
+for P, dash, col, lab in ((pts, "6 5", MUTED, "all laws"), ([p for p in pts if p[1] >= 2], "", GOLD_D, "laws named by 2+ companies")):
+    a0, b1, r, x0, x1 = _fit(P)
+    yv = lambda u: math.expm1(a0 + b1 * u)
+    g.append(f'<line x1="{X(math.expm1(x0)):.1f}" y1="{Y(max(yv(x0), 0)):.1f}" x2="{X(math.expm1(x1)):.1f}" y2="{Y(yv(x1)):.1f}" stroke="{col}" stroke-width="2"'
+             + (f' stroke-dasharray="{dash}"' if dash else "") + "></line>")
+    # legend, top left of the plot (no dots there)
+    ly = TM4 + 14 + (0 if dash else 20)
+    g.append(f'<line x1="{LM4 + 14}" x2="{LM4 + 44}" y1="{ly - 4}" y2="{ly - 4}" stroke="{col}" stroke-width="2"' + (f' stroke-dasharray="{dash}"' if dash else "") + "></line>")
+    g.append(t(LM4 + 52, ly, f"Fitted line, {lab}: r = {r:.2f}", 12.5, col, "start", 600))
 H = TM4 + PH4 + 44
 svg("cr_size.svg", W4, H, "Each EU law by the number of obligations it places on companies and the number of companies naming it in an annual report. "
     "The GDPR, the AI Act, DORA and the platform laws are widely named; large product laws such as the Machinery Regulation, the Toys Safety Regulation and the Radio Equipment Directive are never named.", g)
@@ -199,7 +214,12 @@ xs = [math.log1p(p[0]) for p in pts]; ys = [math.log1p(p[1]) for p in pts]
 mx, my = st.mean(xs), st.mean(ys)
 corr = sum((a - mx) * (b - my) for a, b in zip(xs, ys)) / math.sqrt(sum((a - mx) ** 2 for a in xs) * sum((b - my) ** 2 for b in ys))
 never = [p for p in pts if p[1] == 0]; wide = [p for p in pts if p[1] >= 10]
-facts.update(cr_corr_size=(corr, f"{corr:.2f}"), cr_laws_never=(len(never), str(len(never))), cr_laws_named=(len(pts) - len(never), str(len(pts) - len(never))),
+# the same correlation among laws that at least two companies name (laws nobody names pull the overall figure down)
+_p2 = [p for p in pts if p[1] >= 2]
+_x2 = [math.log1p(p[0]) for p in _p2]; _y2 = [math.log1p(p[1]) for p in _p2]
+_mx2, _my2 = st.mean(_x2), st.mean(_y2)
+corr2 = sum((a - _mx2) * (b - _my2) for a, b in zip(_x2, _y2)) / math.sqrt(sum((a - _mx2) ** 2 for a in _x2) * sum((b - _my2) ** 2 for b in _y2))
+facts.update(cr_corr_size=(corr, f"{corr:.2f}"), cr_corr_named2=(corr2, f"{corr2:.2f}"), cr_named2_n=(len(_p2), str(len(_p2))), cr_laws_never=(len(never), str(len(never))), cr_laws_named=(len(pts) - len(never), str(len(pts) - len(never))),
              cr_laws_total=(len(pts), str(len(pts))), cr_never_median_oblig=(st.median(p[0] for p in never), f"{st.median(p[0] for p in never):.0f}"),
              cr_wide_n=(len(wide), str(len(wide))), cr_wide_median_oblig=(st.median(p[0] for p in wide), f"{st.median(p[0] for p in wide):.0f}"),
              cr_machinery_oblig=(db[laws["R65"]["row_id"]][ix["addr_private_parties"]], f'{db[laws["R65"]["row_id"]][ix["addr_private_parties"]]:,}'))
