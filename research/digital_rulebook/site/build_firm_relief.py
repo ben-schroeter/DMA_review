@@ -38,6 +38,10 @@ for r in rows:
         cnt["unchanged"] += 1
 tot = sum(cnt.values())
 json.dump({"total": tot, **cnt}, open("data/firm_size/relief.json", "w"), indent=1)
+# the chain from all obligations on companies to the firm-size base, for the company-types page (site/counts.py)
+import sys as _s; _s.path.insert(0, "site"); from counts import record as _rec
+_ct = sum(1 for r in rows if r["row_id"] in M)
+_rec("ct_total", _ct); _rec("ct_outside", len(rows) - _ct); _rec("firm_desig_only", _ct - tot)
 
 INK, INK2, MUTED, LINE, BG = "#282424", "#3F3B3B", "#666666", "#E8E6E3", "#FAF9F5"
 F = 'font-family="DM Sans, sans-serif"'

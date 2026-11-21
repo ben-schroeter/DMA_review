@@ -19,7 +19,8 @@ inst = [r for r in sheet("instruments") if r["adoption_date"] and r["restriction
 for r in inst:
     r["d"] = dt.date.fromisoformat(str(r["adoption_date"])[:10])
     r["type"] = {"R": "Regulation", "L": "Directive", "D": "Decision"}[r["celex_measured"].split(";")[0][5]]
-sec = [r for r in sheet("secondary_acts") if r["kind"] in ("implementing", "delegated") and r["date"] and r["restrictions_total"] is not None]
+sec = [r for r in sheet("secondary_acts") if r["kind"] in ("implementing", "delegated") and r["date"] and r["restrictions_total"] is not None]  # an act listed under two parent laws counts once
+_seen_sec = set(); sec = [r for r in sec if not (r["celex"] in _seen_sec or _seen_sec.add(r["celex"]))]
 for r in sec:
     r["d"] = dt.date.fromisoformat(str(r["date"])[:10])
 Y0, Y1 = 1986.0, 2027.0

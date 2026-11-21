@@ -79,8 +79,19 @@ def style(ws, widths):
     ws.row_dimensions[1].height = 45
 
 
+# who must act: the October 2026 recheck (rules plus model, no obligation left unclear), per document, from the
+# instance file it was applied to (scripts/reporting.py). It replaces the original counter's addressee columns for adopted
+# laws and their implementing and delegated acts, so every page and chart uses one coding (see Methodology, section 2).
+import collections as _co
+_V2 = _co.defaultdict(_co.Counter)
+for _l in open(D + "reporting/reporting_instances.jsonl"):
+    _r = json.loads(_l); _V2[(_r["doc"], _r["kind"])][_r["addressee"]] += 1
+_V2KEY = {"private_parties": "addr_private_parties", "member_states": "addr_member_states", "eu_institutions": "addr_eu_institutions", "no_actor": "addr_no_actor"}
+
+
 def summed(celexes, kind="main"):
     out, notes = {}, []
+    v2 = [_V2[(c, kind)] for c in celexes if (c, kind) in _V2] if kind in ("main", "secondary") else []
     for c in celexes:
         m = meas.get((c, kind)) or mainm.get(c)
         if not m or "error" in m:
@@ -91,6 +102,10 @@ def summed(celexes, kind="main"):
             v = m.get(k)
             if v is not None:
                 out[k] = out.get(k, 0) + v
+    if v2:
+        for src, k in _V2KEY.items():
+            out[k] = sum(c[src] for c in v2)
+        out["addr_unclear"] = 0
     return out, notes
 
 

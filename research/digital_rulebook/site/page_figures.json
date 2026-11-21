@@ -108,12 +108,12 @@
   "text": "29"
  },
  "sec_since_2020": {
-  "value": 542,
-  "text": "542"
+  "value": 536,
+  "text": "536"
  },
  "sec_dated": {
-  "value": 812,
-  "text": "812"
+  "value": 803,
+  "text": "803"
  },
  "n_regulations": {
   "value": 54,
@@ -156,28 +156,28 @@
   "text": "59"
  },
  "priv_avg_since_2020": {
-  "value": 113,
-  "text": "113"
+  "value": 118,
+  "text": "118"
  },
  "priv_avg_2000s": {
-  "value": 39,
-  "text": "39"
+  "value": 43,
+  "text": "43"
  },
  "sox_cmp_ai_priv": {
-  "value": 346,
-  "text": "346"
+  "value": 347,
+  "text": "347"
  },
  "sox_cmp_dsa_priv": {
-  "value": 185,
-  "text": "185"
+  "value": 190,
+  "text": "190"
  },
  "growth_min_area": {
   "value": "IPR",
   "text": "IP"
  },
  "growth_min_x": {
-  "value": 1.4,
-  "text": "1.4"
+  "value": 1.3,
+  "text": "1.3"
  },
  "growth_max_area": {
   "value": "AI & Digital Trust",
@@ -258,5 +258,21 @@
  "us_pairs_public": {
   "value": 2,
   "text": "two"
+ },
+ "priv_growth_verb": {
+  "value": 3.82,
+  "text": "nearly quadrupled"
+ },
+ "ct_total": {
+  "value": 18298,
+  "text": "18,298"
+ },
+ "ct_outside": {
+  "value": 613,
+  "text": "613"
+ },
+ "firm_desig_only": {
+  "value": 298,
+  "text": "298"
  }
 }

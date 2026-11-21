@@ -27,7 +27,8 @@ def sheet(n):
 instruments = sheet("instruments")
 area_of = {r["row_id"]: r["policy_area"] for r in instruments}
 inst = [r for r in instruments if r["adoption_date"] and r["restrictions_total"] is not None and r["status"] == "adopted"]
-sec = [r for r in sheet("secondary_acts") if r["kind"] in ("implementing", "delegated") and r["date"] and r["restrictions_total"] is not None]
+sec = [r for r in sheet("secondary_acts") if r["kind"] in ("implementing", "delegated") and r["date"] and r["restrictions_total"] is not None]  # an act listed under two parent laws counts once
+_seen_sec = set(); sec = [r for r in sec if not (r["celex"] in _seen_sec or _seen_sec.add(r["celex"]))]
 yr = lambda d: int(str(d)[:4])
 then, now, now_laws = collections.Counter(), collections.Counter(), collections.Counter()
 for r in inst:

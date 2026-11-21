@@ -18,6 +18,7 @@ put("laws_adopted", len(A))
 main = s(A, "restrictions_total"); put("obligations_main", main); put("obligations_main_k", main, k100(main))
 put("words_m", s(A, "words_legal_text"), f"{s(A, 'words_legal_text') / 1e6:.1f}")
 impl = [x for x in SEC if x["parent_row_id"] in Aid and x["kind"] in ("implementing", "delegated")]
+_seen = set(); impl = [x for x in impl if not (x["celex"] in _seen or _seen.add(x["celex"]))]   # an act listed under two parent laws counts once
 put("secondary_acts", len(impl)); put("implementing_acts", sum(x["kind"] == "implementing" for x in impl)); put("delegated_acts", sum(x["kind"] == "delegated" for x in impl))
 sec_obl = s(impl, "restrictions_total"); put("obligations_secondary", sec_obl); put("obligations_secondary_k", sec_obl, k100(sec_obl))
 put("amending_acts", sum(1 for x in AM if x["parent_row_id"] in Aid and x["kind"] == "amendment"))
@@ -156,7 +157,10 @@ _cells = [c for v in _ev for c in v["cells"].values()]
 put("evmap_pairs", len(_cells)); put("evmap_pairs_any", sum(c["best"] in ("causal", "measured") for c in _cells)); put("evmap_pairs_causal", sum(c["best"] == "causal" for c in _cells))
 _eco = [c for v in _ev for k, c in v["cells"].items() if k in ("costs", "consumers", "competition", "innovation", "growth")]
 put("evmap_eco_pairs", len(_eco)); put("evmap_eco_any", sum(c["best"] in ("causal", "measured") for c in _eco)); put("evmap_eco_causal", sum(c["best"] == "causal" for c in _eco))
-put("ms_company_conduct", s(A, "ult_private_parties") - s(A, "addr_private_parties"), f'{round(s(A, "ult_private_parties") - s(A, "addr_private_parties"), -1):,}')
+# duties formally on member states whose content is company conduct (rechecked coding, main acts)
+_Acel = {c for x in A for c in str(x["celex_measured"]).split(";")}
+_msc = sum(1 for l in open("data/addressee/v2_final_main.jsonl") for o in [json.loads(l)] if o["doc"] in _Acel and o["ultimately_bound"] == "private_parties" and o["formal"] != "private_parties")
+put("ms_company_conduct", _msc, f"{round(_msc, -1):,}")
 _us = [x for x in json.load(open("data/us_map/us_counterparts.json")) if x["row_id"] in Aid]
 _uq = collections.Counter(x["match_quality"] for x in _us)
 put("us_mapped", len(_us))

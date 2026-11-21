@@ -18,7 +18,8 @@ def sheet(n):
 
 
 inst = [r for r in sheet("instruments") if r["adoption_date"] and r["restrictions_total"] is not None and r["status"] == "adopted"]
-sec = [r for r in sheet("secondary_acts") if r["kind"] in ("implementing", "delegated") and r["date"] and r["restrictions_total"] is not None]
+sec = [r for r in sheet("secondary_acts") if r["kind"] in ("implementing", "delegated") and r["date"] and r["restrictions_total"] is not None]  # an act listed under two parent laws counts once
+_seen_sec = set(); sec = [r for r in sec if not (r["celex"] in _seen_sec or _seen_sec.add(r["celex"]))]
 yr = lambda d: int(str(d)[:4])
 m, s = collections.Counter(), collections.Counter()
 for r in inst:
@@ -45,9 +46,15 @@ slot = (W - L - R) / n
 bw = slot * 0.72
 Yc = lambda v: BOT - v / ymax * (BOT - TOP)
 g = [f'<rect width="{W}" height="{H}" fill="{BG}"></rect>', f'<rect width="{W}" height="10" fill="{GOLD}"></rect>']
+# headline, subtitle, legend; the verb follows the growth of all obligations on companies since the start of 2018
+_gx = sum(cum[Y1]) / sum(cum[2017])
+VERB = ("quadrupled" if 3.95 <= _gx < 4.5 else "nearly quadrupled" if 3.5 <= _gx < 3.95 else "tripled" if 2.95 <= _gx < 3.5
+        else "more than quadrupled" if _gx >= 4.5 else f"grown {_gx:.1f}-fold")
+from counts import record as _record
+_record("priv_growth_verb", round(_gx, 2), VERB)
 # headline, subtitle, legend
 g.append(t(56, 112, "EU tech rules aimed directly at companies", 50, INK, weight=700))
-g.append(t(56, 172, "have quadrupled since 2018", 50, INK, weight=700))
+g.append(t(56, 172, f"have {VERB} since 2018", 50, INK, weight=700))
 g.append(t(56, 228, "Obligations in EU digital laws that name a company as the one who must act,", 24, MUTED))
 g.append(t(56, 260, "cumulative at year end", 24, MUTED))
 g.append(f'<rect x="56" y="300" width="20" height="20" rx="3" fill="{GOLD}"></rect>' + t(86, 317, "In the laws themselves", 21, INK2))
@@ -84,7 +91,7 @@ g.append(f'<g transform="translate({W - 330},1160)"><rect x="0" y="0" width="22"
 g.append(t(W - 298, 1178, "The EU Digital Rulebook", 22, INK, weight=400, font=SERIF))
 g.append(t(56, 1180, f'Source: The EU Digital Rulebook (2026) · <tspan fill="{GOLD}" font-weight="700" font-size="18">eutechlaws.org</tspan>', 16, INK2, weight=500))
 
-aria = (f"EU tech rules aimed directly at companies have quadrupled since 2018. Obligations naming a company in the laws themselves rose from "
+aria = (f"EU tech rules aimed directly at companies have {VERB} since 2018. Obligations naming a company in the laws themselves rose from "
         f"{base:,} at the start of 2018 to {now:,} in 2026 (x{factor:.1f}); with implementing and delegated acts, from "
         f"{sum(cum[2017]):,} to {sum(cum[Y1]):,}.")
 svg = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="{aria}">' + "".join(g) + "</svg>"

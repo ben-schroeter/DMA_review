@@ -6,6 +6,7 @@ def _sheet(n):
     r = list(_wb[n].iter_rows(values_only=True)); return [dict(zip(r[0], x)) for x in r[1:] if any(v is not None for v in x)]
 _A = [x for x in _sheet("instruments") if x["row_id"] and x["status"] == "adopted"]; _Aid = {x["row_id"] for x in _A}
 _impl = [x for x in _sheet("secondary_acts") if x["parent_row_id"] in _Aid and x["kind"] in ("implementing", "delegated")]
+_seen = set(); _impl = [x for x in _impl if not (x["celex"] in _seen or _seen.add(x["celex"]))]   # an act listed under two parent laws counts once
 N_LAWS = len(_A); N_SEC = len(_impl)
 N_IMPL = sum(x["kind"] == "implementing" for x in _impl); N_DEL = sum(x["kind"] == "delegated" for x in _impl)
 
