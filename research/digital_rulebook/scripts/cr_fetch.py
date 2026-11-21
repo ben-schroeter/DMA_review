@@ -163,7 +163,7 @@ def main():
         cid = c["id"]
         if c.get("exclude"):
             continue
-        if only and cid not in only:
+        if (only and cid not in only) or (os.environ.get("CR_RESUME") and any(k[0] == cid for k in old)):
             rows += [r for k, r in old.items() if k[0] == cid]
             continue
         found = {}
@@ -223,6 +223,10 @@ def main():
             r.setdefault("language", "en")
             print(cid, y, r.get("form"), r["status"], r.get("chars"), flush=True)
             rows.append(r)
+        # save after every company so an interrupted run can resume
+        done = {x["company"] for x in rows}
+        part = rows + [r for k, r in old.items() if k[0] not in done]
+        json.dump(sorted(part, key=lambda r: (r["company"], r["year"])), open(manifest_path, "w"), indent=1)
     rows.sort(key=lambda r: (r["company"], r["year"]))
     json.dump(rows, open(manifest_path, "w"), indent=1)
 
