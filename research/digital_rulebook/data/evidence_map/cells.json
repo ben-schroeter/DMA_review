@@ -4250,14 +4250,13 @@
     },
     "consumers": {
      "best": "causal",
-     "n": 13,
+     "n": 12,
      "causal": 1,
-     "measured": 11,
+     "measured": 10,
      "forecast": 1,
      "ids": [
       "ec-2020-dma-ia",
       "ec-2026-dma-review",
-      "madio-manenti-motta-2026-tying",
       "calzada-2026-serp-airtravel",
       "bauer-2025-ecipe-consumers",
       "nextrade-2025-consumersurvey",
@@ -4272,9 +4271,9 @@
     },
     "competition": {
      "best": "causal",
-     "n": 16,
+     "n": 12,
      "causal": 7,
-     "measured": 9,
+     "measured": 5,
      "forecast": 0,
      "ids": [
       "ec-2026-dma-review",
@@ -4282,12 +4281,8 @@
       "pape-rossi-2026-maps",
       "yang-2025-entry-investment",
       "decarolis-li-paternollo-defaults",
-      "jrc-2021-expert-panel",
-      "madio-manenti-motta-2026-tying",
       "waldfogel-2024-amazon",
       "farronato-fradkin-mackay-2023",
-      "motta-2023-self-preferencing",
-      "motta-peitz-2020-expert-report",
       "vasquezduque-2025-choicescreens",
       "verlooy-2025-eventstudy",
       "auer-2026-icle-sevenclaims",
@@ -4297,14 +4292,12 @@
     },
     "innovation": {
      "best": "causal",
-     "n": 3,
+     "n": 1,
      "causal": 1,
-     "measured": 2,
+     "measured": 0,
      "forecast": 0,
      "ids": [
-      "yang-2025-entry-investment",
-      "jrc-2021-expert-panel",
-      "oxera-2021-innovation"
+      "yang-2025-entry-investment"
      ]
     },
     "growth": {
@@ -4327,12 +4320,11 @@
     },
     "rights": {
      "best": "measured",
-     "n": 2,
+     "n": 1,
      "causal": 0,
-     "measured": 2,
+     "measured": 1,
      "forecast": 0,
      "ids": [
-      "motta-2023-self-preferencing",
       "bauer-2025-ecipe-consumers"
      ]
     },

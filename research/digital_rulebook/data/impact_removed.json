@@ -1,0 +1,25 @@
+{
+ "note": "Sources removed at the author's request (21 November 2026). scripts/impact_merge_additions.py skips them (kept outside data/impact/, which holds one record per law).",
+ "removed": [
+  {
+   "celex": "32022R1925",
+   "id": "jrc-2021-expert-panel"
+  },
+  {
+   "celex": "32022R1925",
+   "id": "oxera-2021-innovation"
+  },
+  {
+   "celex": "32022R1925",
+   "id": "madio-manenti-motta-2026-tying"
+  },
+  {
+   "celex": "32022R1925",
+   "id": "motta-2023-self-preferencing"
+  },
+  {
+   "celex": "32022R1925",
+   "id": "motta-peitz-2020-expert-report"
+  }
+ ]
+}

@@ -8,6 +8,8 @@ KEYS = ["id", "authors", "year", "title", "venue", "url", "pdf_url", "source_typ
         "headline", "summary_plain", "period_geography", "quality", "verified", "access", "interested_party", "source_class"]
 norm = lambda t: re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()
 added, skipped, none = {}, [], []
+_RM = os.path.join(OUT, "..", "impact_removed.json")
+REMOVED = {x["id"] for x in json.load(open(_RM))["removed"]} if os.path.exists(_RM) else set()
 for f in sorted(glob.glob(os.path.join(OUT, "additions", "found_*.json"))):
     for s in json.load(open(f)):
         if s.get("none_found"):
@@ -17,7 +19,7 @@ for f in sorted(glob.glob(os.path.join(OUT, "additions", "found_*.json"))):
         seen = {(l.get("id") or ""): 1 for l in rec["literature"]}
         urls = {(l.get("url") or "").rstrip("/") for l in rec["literature"]}
         titles = {norm(l.get("title")) for l in rec["literature"]}
-        if s["id"] in seen or s["url"].rstrip("/") in urls or norm(s["title"]) in titles:
+        if s["id"] in REMOVED or s["id"] in seen or s["url"].rstrip("/") in urls or norm(s["title"]) in titles:
             skipped.append((s["celex"], s["title"])); continue
         l = {k: s.get(k, "") for k in KEYS}
         l["citation"] = f'{l["authors"]} ({l["year"]}), {l["title"]}, {l["venue"]}'
