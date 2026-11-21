@@ -29,13 +29,13 @@ Fortune 100 (2026) and DAX, CAC 40, FTSE 100 and EURO STOXX 50 constituents head
 | Walt Disney | US (US) | – | 2000–2025 | 26 | – | SEC |
 | eBay | US (US) | – | 2000–2025 | 26 | – | SEC |
 | Allegro | EU (LU) | – | 2021–2024 | 4 | 2025 | ESEF |
-| Delivery Hero | EU (DE) | – | 2017–2025 | 7 | 2018 2022 | IR site / archives |
-| Prosus | EU (NL) | – | 2022–2024 | 3 | 2025 | ESEF |
+| Delivery Hero | EU (DE) | – | 2014–2025 | 12 | – | IR site / archives |
+| Prosus | EU (NL) | – | 2020–2025 | 6 | – | ESEF, IR site / archives |
 | Scout24 | EU (DE) | – | 2015–2025 | 11 | – | IR site / archives |
 | Spotify | EU (SE) | – | 2018–2025 | 8 | – | SEC, IR site / archives |
 | Autotrader Group | UK (GB) | – | 2015–2025 | 11 | – | ESEF, IR site / archives |
-| Informa | UK (GB) | – | 2021–2025 | 5 | – | ESEF |
-| Next plc | UK (GB) | – | 2022–2025 | 4 | – | ESEF |
+| Informa | UK (GB) | – | 2010–2025 | 16 | – | ESEF, IR site / archives |
+| Next plc | UK (GB) | – | 2003–2025 | 23 | – | ESEF, IR site / archives |
 | Pearson plc | UK (GB) | – | 2000–2025 | 26 | – | SEC, ESEF |
 
 ## Cloud, data and AI (24)
@@ -62,7 +62,7 @@ Fortune 100 (2026) and DAX, CAC 40, FTSE 100 and EURO STOXX 50 constituents head
 | Publicis | EU (FR) | – | 2000–2024 | 17 | 2008 2012 2013 2014 2015 2017 2018 2019 2025 | SEC, ESEF, IR site / archives |
 | SAP | EU (DE) | – | 2000–2025 | 26 | – | SEC |
 | Wolters Kluwer | EU (NL) | – | 2021–2025 | 5 | – | ESEF |
-| Computacenter | UK (GB) | – | 2000–2025 | 25 | 2016 | ESEF, IR site / archives |
+| Computacenter | UK (GB) | – | 2000–2025 | 26 | – | ESEF, IR site / archives |
 | RELX | UK (GB) | – | 2000–2025 | 26 | – | SEC, ESEF |
 | Sage Group | UK (GB) | – | 2006–2025 | 20 | – | ESEF, IR site / archives |
 | WPP | UK (GB) | – | 2000–2025 | 26 | – | SEC, ESEF |
@@ -75,15 +75,15 @@ Fortune 100 (2026) and DAX, CAC 40, FTSE 100 and EURO STOXX 50 constituents head
 | Comcast | US (US) | – | 2000–2025 | 26 | – | SEC |
 | Verizon Communications | US (US) | – | 2000–2025 | 26 | – | SEC |
 | Bouygues | EU (FR) | – | 2009–2024 | 8 | 2012 2013 2014 2015 2016 2017 2018 2019 2025 | ESEF, IR site / archives |
-| Cellnex | EU (ES) | – | 2020–2025 | 6 | – | ESEF |
+| Cellnex | EU (ES) | – | 2015–2025 | 8 | 2016 2018 2019 | ESEF, IR site / archives |
 | Deutsche Telekom | EU (DE) | – | 2001–2025 | 25 | – | SEC, IR site / archives |
-| KPN | EU (NL) | – | 2021–2025 | 5 | – | ESEF |
+| KPN | EU (NL) | – | 2007–2025 | 19 | – | ESEF, IR site / archives |
 | Orange | EU (FR) | – | 2001–2024 | 24 | 2025 | SEC, ESEF, IR site / archives |
-| Proximus | EU (BE) | – | 2021–2024 | 4 | 2025 | ESEF |
-| Telecom Italia | EU (IT) | – | 2001–2025 | 21 | 2019 2020 2022 2023 | SEC, ESEF |
+| Proximus | EU (BE) | – | 2009–2025 | 16 | 2018 | ESEF, IR site / archives |
+| Telecom Italia | EU (IT) | – | 2001–2025 | 25 | – | SEC, ESEF, IR site / archives |
 | Telefónica | EU (ES) | – | 2001–2025 | 25 | – | SEC, ESEF |
-| Telia | EU (SE) | – | 2021–2025 | 5 | – | ESEF |
-| BT Group | UK (GB) | – | 2001–2025 | 23 | 2003 2021 | SEC, ESEF |
+| Telia | EU (SE) | – | 2007–2025 | 19 | – | ESEF, IR site / archives |
+| BT Group | UK (GB) | – | 2001–2025 | 25 | – | SEC, ESEF, IR site / archives |
 | Vodafone Group | UK (GB) | – | 2002–2025 | 24 | – | SEC, ESEF |
 
 ## Finance, payments and crypto (41)
@@ -102,35 +102,35 @@ Fortune 100 (2026) and DAX, CAC 40, FTSE 100 and EURO STOXX 50 constituents head
 | PayPal | US (US) | – | 2015–2025 | 11 | – | SEC |
 | Visa | US (US) | – | 2007–2025 | 19 | – | SEC |
 | Wells Fargo | US (US) | – | 2000–2025 | 26 | – | SEC |
-| ABN AMRO | EU (NL) | – | 2021–2025 | 5 | – | ESEF |
-| Adyen | EU (NL) | – | 2020–2025 | 6 | – | ESEF |
+| ABN AMRO | EU (NL) | – | 2008–2025 | 18 | – | ESEF, IR site / archives |
+| Adyen | EU (NL) | – | 2018–2025 | 8 | – | ESEF, IR site / archives |
 | Allianz | EU (DE) | – | 2000–2025 | 26 | – | SEC, IR site / archives |
 | Axa | EU (FR) | – | 2000–2025 | 26 | – | SEC, ESEF, IR site / archives |
 | BBVA | EU (ES) | – | 2001–2025 | 25 | – | SEC, ESEF |
-| BNP Paribas | EU (FR) | – | 2007–2025 | 13 | 2013 2014 2015 2016 2017 2019 | ESEF, IR site / archives |
+| BNP Paribas | EU (FR) | – | 2005–2025 | 21 | – | ESEF, IR site / archives |
 | Banco Santander | EU (ES) | – | 2001–2025 | 25 | – | SEC, ESEF |
-| CaixaBank | EU (ES) | – | 2020–2025 | 6 | – | ESEF |
+| CaixaBank | EU (ES) | – | 2017–2025 | 8 | 2018 | ESEF, IR site / archives |
 | Commerzbank | EU (DE) | – | 2000–2024 | 25 | 2025 | IR site / archives |
 | Crédit Agricole | EU (FR) | – | 2007–2025 | 18 | 2013 | ESEF, IR site / archives |
 | Deutsche Bank | EU (DE) | – | 2001–2025 | 25 | – | SEC |
 | Deutsche Börse | EU (DE) | – | 2002–2024 | 23 | 2025 | IR site / archives |
-| Euronext | EU (NL) | – | 2021–2025 | 5 | – | ESEF, IR site / archives |
-| Generali | EU (IT) | – | 2021–2025 | 4 | 2023 | ESEF |
+| Euronext | EU (NL) | – | 2011–2025 | 13 | 2013 2020 | ESEF, IR site / archives |
+| Generali | EU (IT) | – | 2014–2025 | 10 | 2017 2023 | ESEF, IR site / archives |
 | Hannover Re | EU (DE) | – | 2002–2025 | 24 | – | IR site / archives |
 | ING Group | EU (NL) | – | 2001–2025 | 25 | – | SEC, ESEF |
-| Intesa Sanpaolo | EU (IT) | – | 2016–2024 | 9 | 2025 | ESEF, IR site / archives |
-| KBC | EU (BE) | – | 2021–2025 | 5 | – | ESEF |
+| Intesa Sanpaolo | EU (IT) | – | 2014–2025 | 12 | – | ESEF, IR site / archives |
+| KBC | EU (BE) | – | 2010–2025 | 16 | – | ESEF, IR site / archives |
 | Munich Re | EU (DE) | – | 2000–2025 | 26 | – | IR site / archives |
 | Nexi | EU (IT) | – | 2021–2024 | 4 | 2025 | ESEF |
 | Nordea | EU (FI) | – | 2000–2025 | 26 | – | ESEF, IR site / archives |
-| Société Générale | EU (FR) | – | 2008–2025 | 6 | 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2024 | ESEF, IR site / archives |
-| UniCredit | EU (IT) | – | 2005–2024 | 20 | 2025 | ESEF, IR site / archives |
+| Société Générale | EU (FR) | – | 2004–2025 | 19 | 2005 2006 2015 | ESEF, IR site / archives |
+| UniCredit | EU (IT) | – | 2005–2025 | 21 | – | ESEF, IR site / archives |
 | Worldline | EU (FR) | – | 2020–2025 | 6 | – | ESEF, IR site / archives |
 | Barclays | UK (GB) | – | 2001–2025 | 25 | – | SEC, ESEF |
 | HSBC | UK (GB) | – | 2001–2025 | 25 | – | SEC, ESEF |
 | Klarna | UK (GB) | – | 2025–2025 | 1 | – | SEC |
 | Lloyds Banking Group | UK (GB) | – | 2001–2025 | 25 | – | SEC, ESEF |
-| Wise | UK (GB) | – | 2022–2025 | 4 | – | ESEF |
+| Wise | UK (GB) | – | 2021–2025 | 5 | – | ESEF, IR site / archives |
 
 ## Makers of connected products (31)
 

@@ -1,0 +1,424 @@
+company,year,source,detected,counts,url
+abn-amro,2009,financialreports.eu,2009,"{""2009"": 2}",https://cdn.financialreports.eu/financialreports/media/filings/3800/2010/10-K/3800_10-k_2010-05-10_d04a59fe-29b3-46e5-84d8-dfbadda83080.pdf
+abn-amro,2011,financialreports.eu,2011,"{""2011"": 4}",https://cdn.financialreports.eu/financialreports/media/filings/3800/2012/10-K/3800_10-k_2012-04-17-162500_d083722d-d9d0-43f2-a41a-ccb723dee88b.pdf
+abn-amro,2013,financialreports.eu,2013,"{""2013"": 4}",https://cdn.financialreports.eu/financialreports/media/filings/3800/2014/10-K/3800_10-k_2014-03-10-141000_b98f31a1-8090-44c4-b96f-9b886e89e77a.pdf
+abn-amro,2014,financialreports.eu,2014,"{""2014"": 4}",https://cdn.financialreports.eu/financialreports/media/filings/3800/2015/10-K/3800_10-k_2015-04-13-095400_278b1788-dfe9-4025-af67-13457116deb4.pdf
+abn-amro,2015,financialreports.eu,2015,"{""2015"": 5}",https://cdn.financialreports.eu/financialreports/media/filings/3800/2016/10-K/3800_10-k_2016-03-16-143400_062fd13d-8a0a-4e91-8b7a-a028ffb4e36c.pdf
+abn-amro,2016,financialreports.eu,2016,"{""2016"": 8}",https://cdn.financialreports.eu/financialreports/media/filings/3800/2017/10-K/3800_10-k_2017-03-16-133700_985a1868-a15c-4ad1-b716-118b7a7601a2.pdf
+abn-amro,2017,financialreports.eu,2017,"{""2017"": 5}",https://cdn.financialreports.eu/financialreports/media/filings/3800/2018/10-K/3800_10-k_2018-03-14-125300_ac84c3c5-ad03-4a40-afa1-b8bf7a6faeb8.pdf
+abn-amro,2018,financialreports.eu,2018,"{""2018"": 6}",https://cdn.financialreports.eu/financialreports/media/filings/3800/2019/10-K/3800_10-k_2019-03-13-123800_59c400f3-a970-4e6c-963f-875fe036c1b7.pdf
+abn-amro,2019,financialreports.eu,2019,"{""2019"": 8}",https://cdn.financialreports.eu/financialreports/media/filings/3800/2020/10-K/3800_10-k_2020-03-11-105700_bd13b5ca-77b1-4568-9e20-0b0c0ec72dd7.pdf
+abn-amro,2020,financialreports.eu,2020,"{""2020"": 9}",https://cdn.financialreports.eu/financialreports/media/filings/3800/2021/10-K/3800_10-k_2021-03-10-144100_737d51e5-2fd3-4655-9da1-fe301ae6b5c0.pdf
+allianz,2000,annualreports.com,2000,"{""2000"": 4}",https://www.annualreports.com/HostedData/AnnualReportArchive/a/NYSE_AZ_2000.pdf
+atos,2007,AMF (info-financiere.gouv.fr),2007,"{""2007"": 1}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN094053_20090916.pdf
+atos,2008,AMF (info-financiere.gouv.fr),2008,"{""2008"": 6}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN115152_20090917.pdf
+atos,2009,AMF (info-financiere.gouv.fr),2009,"{""2009"": 6}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/04/FCMAN132221_20100426.pdf
+atos,2010,AMF (info-financiere.gouv.fr),2010,"{""2010"": 4}",https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2011/06/FCCNS103953_20110601.pdf
+atos,2011,AMF (info-financiere.gouv.fr),2011,"{""2011"": 1}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/10/FCMAN114331_20121016.pdf
+atos,2020,AMF (info-financiere.gouv.fr),2020,"{""2020"": 6}",https://echanges.dila.gouv.fr/OPENDATA/AMF/259/8888/01/FC259379571_20210407.pdf
+autotrader-group,2015,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AUTO_2015.pdf
+autotrader-group,2016,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AUTO_2016.pdf
+autotrader-group,2017,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AUTO_2017.pdf
+autotrader-group,2018,annualreports.com,2018,"{""2018"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AUTO_2018.pdf
+autotrader-group,2019,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AUTO_2019.pdf
+autotrader-group,2020,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AUTO_2020.pdf
+autotrader-group,2021,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/A/LSE_AUTO_2021.pdf
+axa,2009,annualreports.com,2009,"{""2009"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2009.pdf
+axa,2010,annualreports.com,2010,"{""2010"": 7, ""2009"": 2, ""2008"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2010.pdf
+axa,2011,annualreports.com,2011,"{""2011"": 8, ""2010"": 1, ""2009"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2011.pdf
+axa,2012,annualreports.com,2012,"{""2012"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2012.pdf
+axa,2013,annualreports.com,2013,"{""2013"": 5}",https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2013.pdf
+axa,2014,annualreports.com,2014,"{""2014"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2014.pdf
+axa,2015,annualreports.com,2015,"{""2015"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2015.pdf
+axa,2016,annualreports.com,2016,"{""2016"": 8}",https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2016.pdf
+axa,2017,annualreports.com,2017,"{""2017"": 11}",https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2017.pdf
+axa,2018,annualreports.com,2018,"{""2018"": 6, ""2017"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2018.pdf
+axa,2019,annualreports.com,2019,"{""2019"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/a/axa_2019.pdf
+bmw,2006,annualreports.com,2006,"{""2006"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2006.pdf
+bmw,2007,annualreports.com,2007,"{""2007"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2007.pdf
+bmw,2008,annualreports.com,2008,"{""2008"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2008.pdf
+bmw,2009,annualreports.com,2009,"{""2009"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2009.pdf
+bmw,2010,annualreports.com,2010,"{""2010"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2010.pdf
+bmw,2011,annualreports.com,2011,"{""2011"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2011.pdf
+bmw,2012,annualreports.com,2012,"{""2012"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2012.pdf
+bmw,2021,annualreports.com,2021,"{""2021"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2021.pdf
+bmw,2022,annualreports.com,2022,"{""2022"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2022.pdf
+bmw,2023,annualreports.com,2023,"{""2023"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2023.pdf
+bmw,2024,annualreports.com,2024,"{""2024"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAMGF_2024.pdf
+bnp-paribas,2005,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/1158/2006/10-K/1158_10-k_2006-02-23_a265292d-518f-4a0c-affb-d70ca9046358.pdf
+bnp-paribas,2006,financialreports.eu,2006,"{""2006"": 6}",https://cdn.financialreports.eu/financialreports/media/filings/1158/2007/10-K/1158_10-k_2007-03-08_ab326980-3d82-4924-9aaa-01fae4410736.pdf
+bnp-paribas,2007,AMF (info-financiere.gouv.fr),2007,"{""2007"": 6}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN140432_20090914.pdf
+bnp-paribas,2009,AMF (info-financiere.gouv.fr),2009,"{""2009"": 5}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/07/FCMAN085146_20100728.pdf
+bnp-paribas,2010,AMF (info-financiere.gouv.fr),2010,"{""2010"": 8}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/04/FCMAN154432_20110421.pdf
+bnp-paribas,2011,AMF (info-financiere.gouv.fr),2011,"{""2011"": 8}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/04/FCMAN141957_20120427.pdf
+bnp-paribas,2012,AMF (info-financiere.gouv.fr),2012,"{""2012"": 2}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2013/08/FCMAN112804_20130828.pdf
+bnp-paribas,2018,AMF (info-financiere.gouv.fr),,{},https://echanges.dila.gouv.fr/OPENDATA/AMF/303/2019/02/FC303269337_20190212.pdf
+bnp-paribas,2020,AMF (info-financiere.gouv.fr),2020,"{""2020"": 7}",https://echanges.dila.gouv.fr/OPENDATA/AMF/303/8888/01/FC303375868_20210302.pdf
+bosch,2000,annualreports.com,2000,"{""2000"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2000.pdf
+bosch,2001,annualreports.com,2001,"{""2001"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2001.pdf
+bosch,2002,annualreports.com,2002,"{""2002"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2002.pdf
+bosch,2003,annualreports.com,2003,"{""2003"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2003.pdf
+bosch,2004,annualreports.com,2004,"{""2004"": 3}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2004.pdf
+bosch,2005,annualreports.com,2005,"{""2005"": 5, ""2004"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2005.pdf
+bosch,2006,annualreports.com,2006,"{""2006"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2006.pdf
+bosch,2007,annualreports.com,2007,"{""2007"": 4}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2007.pdf
+bosch,2008,annualreports.com,2008,"{""2008"": 7}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2008.pdf
+bosch,2009,annualreports.com,2009,"{""2009"": 5}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2009.pdf
+bosch,2010,annualreports.com,2010,"{""2010"": 7}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2010.pdf
+bosch,2011,annualreports.com,2011,"{""2011"": 7}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2011.pdf
+bosch,2012,annualreports.com,2012,"{""2012"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2012.pdf
+bosch,2013,annualreports.com,2013,"{""2013"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2013.pdf
+bosch,2014,annualreports.com,2014,"{""2014"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2014.pdf
+bosch,2015,annualreports.com,2015,"{""2015"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2015.pdf
+bosch,2016,annualreports.com,2016,"{""2016"": 5}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2016.pdf
+bosch,2017,annualreports.com,2017,"{""2017"": 4}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2017.pdf
+bosch,2018,annualreports.com,2018,"{""2018"": 4}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2018.pdf
+bosch,2019,annualreports.com,2019,"{""2019"": 5}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2019.pdf
+bosch,2020,annualreports.com,2020,"{""2020"": 5}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2020.pdf
+bosch,2021,annualreports.com,2021,"{""2021"": 12}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2021.pdf
+bosch,2022,annualreports.com,2022,"{""2022"": 12}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2022.pdf
+bosch,2023,annualreports.com,2023,"{""2023"": 11}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2023.pdf
+bosch,2024,annualreports.com,2024,"{""2024"": 13}",https://www.annualreports.com/HostedData/AnnualReportArchive/b/bosch_2024.pdf
+bouygues,2009,AMF (info-financiere.gouv.fr),,{},https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/04/FCMAN145622_20100429.pdf
+bouygues,2010,AMF (info-financiere.gouv.fr),2010,"{""2010"": 6}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/08/FCMAN145916_20110816.pdf
+bouygues,2011,AMF (info-financiere.gouv.fr),2011,"{""2011"": 8}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/10/FCMAN140648_20121016.pdf
+bouygues,2020,AMF (info-financiere.gouv.fr),2020,"{""2020"": 4}",https://echanges.dila.gouv.fr/OPENDATA/AMF/134/8888/01/FC134377572_20210317.pdf
+caixabank,2017,financialreports.eu,2017,"{""2017"": 5}",https://cdn.financialreports.eu/financialreports/media/filings/1802/2018/10-K/1802_10-k_2018-02-23_d0619211-c932-4306-9a43-4ad855589916.pdf
+caixabank,2019,financialreports.eu,2019,"{""2019"": 1, ""2018"": 1}",https://cdn.financialreports.eu/financialreports/media/filings/1802/2020/10-K/1802_10-k_2020-02-21_2e209fd2-7a54-44dd-b936-8354d1153555.pdf
+capgemini,2007,AMF (info-financiere.gouv.fr),2007,"{""2007"": 5}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN114707_20090911.pdf
+capgemini,2008,AMF (info-financiere.gouv.fr),2008,"{""2008"": 4}",https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR048223_20090312.pdf
+capgemini,2009,AMF (info-financiere.gouv.fr),2009,"{""2009"": 4}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/06/FCMAN111444_20100614.pdf
+capgemini,2010,AMF (info-financiere.gouv.fr),2010,"{""2010"": 5}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/08/FCMAN122144_20110818.pdf
+capgemini,2011,AMF (info-financiere.gouv.fr),2011,"{""2011"": 3}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/10/FCMAN130207_20121022.pdf
+capgemini,2012,AMF (info-financiere.gouv.fr),2012,"{""2012"": 8}",https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2013/04/FCCNS117002_20130422.pdf
+capgemini,2013,AMF (info-financiere.gouv.fr),2013,"{""2013"": 8}",https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2014/04/FCCNS124478_20140404.pdf
+capgemini,2014,AMF (info-financiere.gouv.fr),2014,"{""2014"": 8}",https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2015/04/FCCNS133639_20150402.pdf
+capgemini,2015,AMF (info-financiere.gouv.fr),2015,"{""2015"": 3}",https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2016/04/FCCNS143458_20160407.pdf
+cellnex,2015,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/1805/2016/10-K/1805_10-k_2016-02-19_c00bcaee-a7b7-4ded-b6c2-aa16e0b04ee2.pdf
+cellnex,2017,financialreports.eu,2017,"{""2017"": 2, ""2016"": 1, ""2013"": 1, ""2015"": 1}",https://cdn.financialreports.eu/financialreports/media/filings/1805/2018/10-K/1805_10-k_2018-02-16_cbf2b545-7a77-4474-adf5-35b2fd39bfee.pdf
+commerzbank,2000,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2000.pdf
+commerzbank,2001,annualreports.com,2001,"{""2001"": 4}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2001.pdf
+commerzbank,2002,annualreports.com,2002,"{""2002"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2002.pdf
+commerzbank,2003,annualreports.com,2003,"{""2003"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2003.pdf
+commerzbank,2004,annualreports.com,2004,"{""2004"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2004.pdf
+commerzbank,2005,annualreports.com,2005,"{""2005"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2005.pdf
+commerzbank,2006,annualreports.com,2006,"{""2006"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2006.pdf
+commerzbank,2007,annualreports.com,2007,"{""2007"": 5}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2007.pdf
+commerzbank,2008,annualreports.com,2008,"{""2008"": 3}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2008.pdf
+commerzbank,2009,annualreports.com,2009,"{""2009"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2009.pdf
+commerzbank,2010,annualreports.com,2010,"{""2010"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2010.pdf
+commerzbank,2011,annualreports.com,2011,"{""2011"": 3}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2011.pdf
+commerzbank,2012,annualreports.com,2012,"{""2012"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2012.pdf
+commerzbank,2013,annualreports.com,2013,"{""2013"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2013.pdf
+commerzbank,2015,annualreports.com,2015,"{""2016"": 2, ""2015"": 6, ""2017"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2015.pdf
+commerzbank,2016,annualreports.com,2016,"{""2017"": 1, ""2016"": 5, ""2018"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2016.pdf
+commerzbank,2017,annualreports.com,2017,"{""2018"": 1, ""2017"": 4, ""2019"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2017.pdf
+commerzbank,2018,annualreports.com,2018,"{""2019"": 1, ""2018"": 4, ""2020"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2018.pdf
+commerzbank,2019,annualreports.com,2019,"{""2019"": 5}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2019.pdf
+commerzbank,2020,annualreports.com,2020,"{""2020"": 3}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2020.pdf
+commerzbank,2021,annualreports.com,2021,"{""2021"": 3}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2021.pdf
+commerzbank,2023,annualreports.com,2023,"{""2023"": 3}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2023.pdf
+commerzbank,2024,annualreports.com,2024,"{""2024"": 3}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/commerzbank_2024.pdf
+computacenter,2000,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2000.pdf
+computacenter,2001,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2001.pdf
+computacenter,2002,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2002.pdf
+computacenter,2003,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2003.pdf
+computacenter,2004,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2004.pdf
+computacenter,2005,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2005.pdf
+computacenter,2006,annualreports.com,2006,"{""2006"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2006.pdf
+computacenter,2007,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2007.pdf
+computacenter,2008,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2008.pdf
+computacenter,2009,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2009.pdf
+computacenter,2010,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2010.pdf
+computacenter,2011,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2011.pdf
+computacenter,2012,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2012.pdf
+computacenter,2013,annualreports.com,2012,"{""2012"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2013.pdf
+computacenter,2014,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2014.pdf
+computacenter,2015,annualreports.com,2015,"{""2015"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2015.pdf
+computacenter,2017,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2017.pdf
+computacenter,2018,annualreports.com,2017,"{""2017"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2018.pdf
+computacenter,2019,annualreports.com,2019,"{""2019"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2019.pdf
+computacenter,2020,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2020.pdf
+cr-dit-agricole,2008,AMF (info-financiere.gouv.fr),2008,"{""2008"": 9}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/04/FCMAN153750_20110413.pdf
+cr-dit-agricole,2009,AMF (info-financiere.gouv.fr),2009,"{""2009"": 8}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/04/FCMAN153542_20110413.pdf
+cr-dit-agricole,2010,AMF (info-financiere.gouv.fr),2010,"{""2010"": 3}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/04/FCMAN153654_20110413.pdf
+cr-dit-agricole,2011,AMF (info-financiere.gouv.fr),,{},https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/06/FCMAN113340_20120620.pdf
+cr-dit-agricole,2012,AMF (info-financiere.gouv.fr),,{},https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2013/07/FCMAN121929_20130715.pdf
+cr-dit-agricole,2014,AMF (info-financiere.gouv.fr),,{},https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2015/02/FCCNS132629_20150225.pdf
+cr-dit-agricole,2015,AMF (info-financiere.gouv.fr),,{},https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2016/03/FCCNS142928_20160321.pdf
+cr-dit-agricole,2016,AMF (info-financiere.gouv.fr),,{},https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2017/02/FCCNS151842_20170217.pdf
+cr-dit-agricole,2017,AMF (info-financiere.gouv.fr),,{},https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2018/02/FCCNS161473_20180216.pdf
+cr-dit-agricole,2018,AMF (info-financiere.gouv.fr),,{},https://echanges.dila.gouv.fr/OPENDATA/AMF/CNS/2019/02/FCCNS170512_20190214.pdf
+cr-dit-agricole,2019,AMF (info-financiere.gouv.fr),,{},https://echanges.dila.gouv.fr/OPENDATA/AMF/305/2020/02/FC305327865_20200220.pdf
+dassault-syst-mes,2008,AMF (info-financiere.gouv.fr),2010,"{""2010"": 2, ""2009"": 2}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN072647_20090917.pdf
+dassault-syst-mes,2009,AMF (info-financiere.gouv.fr),2010,"{""2010"": 2, ""2009"": 2, ""2015"": 1}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/04/FCMAN134758_20100426.pdf
+dassault-syst-mes,2010,AMF (info-financiere.gouv.fr),2010,"{""2010"": 2, ""2016"": 2, ""2015"": 2}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/05/FCMAN144152_20110510.pdf
+dassault-syst-mes,2011,AMF (info-financiere.gouv.fr),2016,"{""2016"": 2, ""2015"": 2}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/05/FCMAN131215_20120524.pdf
+dassault-syst-mes,2016,AMF (info-financiere.gouv.fr),2016,"{""2016"": 9}",https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR099514_20170323.pdf
+dassault-syst-mes,2017,AMF (info-financiere.gouv.fr),2017,"{""2017"": 7}",https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR108198_20180322.pdf
+dassault-syst-mes,2018,AMF (info-financiere.gouv.fr),2018,"{""2018"": 10}",https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR116554_20190327.pdf
+delivery-hero,2014,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/94/2014/10-K/94_10-k_2014-12-31_5f1c5f0e-5fe1-4caa-9eb3-ca76d76f45d3.pdf
+delivery-hero,2015,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/94/2015/10-K/94_10-k_2015-12-31_f719e18e-6a09-4a06-953c-43555d2a4879.pdf
+delivery-hero,2016,financialreports.eu,2016,"{""2016"": 1}",https://cdn.financialreports.eu/financialreports/media/filings/94/2016/10-K/94_10-k_2016-12-31_210ca127-14c6-4dab-9ed4-d140fd5c82b9.pdf
+delivery-hero,2018,financialreports.eu,2018,"{""2018"": 4}",https://cdn.financialreports.eu/financialreports/media/filings/94/2019/10-K/94_10-k_2019-04-25_181a2a5b-bfba-42be-9789-e7270ff88408.pdf
+delivery-hero,2022,financialreports.eu,2022,"{""2022"": 6}",https://cdn.financialreports.eu/financialreports/media/filings/94/2023/10-K/94_10-k_2023-04-26_3aa2a3eb-8ad4-4ca3-bf85-cc278f6e1992.pdf
+deutsche-b-rse,2002,annualreports.com,2002,"{""2002"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2002.pdf
+deutsche-b-rse,2003,annualreports.com,2003,"{""2003"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2003.pdf
+deutsche-b-rse,2004,annualreports.com,2004,"{""2004"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2004.pdf
+deutsche-b-rse,2005,annualreports.com,2005,"{""2005"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2005.pdf
+deutsche-b-rse,2006,annualreports.com,2006,"{""2006"": 4}",https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2006.pdf
+deutsche-b-rse,2007,annualreports.com,2007,"{""2007"": 4}",https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2007.pdf
+deutsche-b-rse,2008,annualreports.com,2008,"{""2008"": 4}",https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2008.pdf
+deutsche-b-rse,2009,annualreports.com,2009,"{""2009"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2009.pdf
+deutsche-b-rse,2010,annualreports.com,2010,"{""2010"": 4}",https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2010.pdf
+deutsche-b-rse,2011,annualreports.com,2011,"{""2011"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2011.pdf
+deutsche-b-rse,2012,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2012.pdf
+deutsche-b-rse,2013,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2013.pdf
+deutsche-b-rse,2014,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2014.pdf
+deutsche-b-rse,2015,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2015.pdf
+deutsche-b-rse,2016,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2016.pdf
+deutsche-b-rse,2018,annualreports.com,2018,"{""2018"": 9}",https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2018.pdf
+deutsche-b-rse,2019,annualreports.com,2019,"{""2019"": 7}",https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2019.pdf
+deutsche-b-rse,2020,annualreports.com,2020,"{""2020"": 10}",https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2020.pdf
+deutsche-b-rse,2022,annualreports.com,2022,"{""2022"": 9}",https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2022.pdf
+deutsche-b-rse,2023,annualreports.com,2023,"{""2023"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2023.pdf
+deutsche-b-rse,2024,annualreports.com,2024,"{""2024"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/d/OTC_DB1GN_2024.pdf
+ericsson,2000,annualreports.com,2000,"{""2000"": 9, ""2001"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/l/NASDAQ_ERIC_2000.pdf
+euronext,2011,financialreports.eu,2011,"{""2011"": 3}",https://cdn.financialreports.eu/financialreports/media/filings/3839/2012/10-K/3839_10-k_2012-03-16_4888b94a-5db7-4e95-8a0a-80d07d25a85b.pdf
+euronext,2012,financialreports.eu,2012,"{""2012"": 2}",https://cdn.financialreports.eu/financialreports/media/filings/3839/2013/10-K/3839_10-k_2013-02-27_17299067-2854-416a-b18c-82925b64b695.pdf
+euronext,2014,financialreports.eu,2014,"{""2014"": 1}",https://cdn.financialreports.eu/financialreports/media/filings/3839/2015/10-K/3839_10-k_2015-04-02_3b5a58dc-ea50-4f45-944f-3f7407284232.pdf
+euronext,2015,financialreports.eu,2015,"{""2015"": 2}",https://cdn.financialreports.eu/financialreports/media/filings/3839/2016/10-K/3839_10-k_2016-05-12-133300_1098f036-e7b3-4f8a-be06-d7b7f1b03aff.pdf
+euronext,2016,financialreports.eu,2016,"{""2016"": 2}",https://cdn.financialreports.eu/financialreports/media/filings/3839/2017/10-K/3839_10-k_2017-04-07-095300_7e666215-4fe0-43e9-abb1-b6ecd0160cfc.pdf
+euronext,2017,financialreports.eu,2017,"{""2017"": 1}",https://cdn.financialreports.eu/financialreports/media/filings/3839/2018/10-K/3839_10-k_2018-04-03-142000_5fde8e46-ebec-4794-bc81-7a3a3884baaf.pdf
+euronext,2018,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/3839/2019/10-K/3839_10-k_2019-04-04-081200_fad38446-a772-495d-a5bb-8f11c8a7626f.pdf
+euronext,2019,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/3839/2020/10-K/3839_10-k_2020-04-02-100700_aa5dfc8f-f9c0-4718-98a4-7f6c179902a3.pdf
+experian,2007,annualreports.com,2007,"{""2007"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2007.pdf
+experian,2008,annualreports.com,2008,"{""2008"": 9, ""2009"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2008.pdf
+experian,2009,annualreports.com,2009,"{""2009"": 8}",https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2009.pdf
+experian,2010,annualreports.com,2010,"{""2010"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2010.pdf
+experian,2011,annualreports.com,2011,"{""2011"": 6, ""2010"": 3}",https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2011.pdf
+experian,2012,annualreports.com,2012,"{""2012"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2012.pdf
+experian,2013,annualreports.com,2013,"{""2013"": 9, ""2012"": 3}",https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2013.pdf
+experian,2014,annualreports.com,2014,"{""2014"": 4}",https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2014.pdf
+experian,2015,annualreports.com,2015,"{""2015"": 14}",https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2015.pdf
+experian,2016,annualreports.com,2016,"{""2016"": 10}",https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2016.pdf
+experian,2017,annualreports.com,2017,"{""2017"": 7}",https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2017.pdf
+experian,2018,annualreports.com,2018,"{""2018"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2018.pdf
+experian,2020,annualreports.com,2020,"{""2020"": 8}",https://www.annualreports.com/HostedData/AnnualReportArchive/E/LSE_EXPN_2020.pdf
+generali,2014,financialreports.eu,2014,"{""2014"": 7}",https://cdn.financialreports.eu/financialreports/media/filings/4190/2015/RNS/4190_rns_2015-04-07_bb50b78d-067e-47a6-b261-8aa36e2522ad.pdf
+generali,2015,financialreports.eu,2015,"{""2015"": 7, ""2011"": 1}",https://cdn.financialreports.eu/financialreports/media/filings/4190/2016/10-K/4190_10-k_2016-04-05_cafa7d97-19a2-4f0a-9e01-4ac48916cbd9.pdf
+generali,2016,financialreports.eu,2016,"{""2016"": 11}",https://cdn.financialreports.eu/financialreports/media/filings/4190/2017/10-K/4190_10-k_2017-04-04_b5e9e247-51cc-4f2d-b05b-9bc6b0fa0b2e.pdf
+generali,2018,financialreports.eu,2018,"{""2018"": 9, ""2017"": 1}",https://cdn.financialreports.eu/financialreports/media/filings/4190/2019/10-K/4190_10-k_2019-04-08_b632f5ce-19ea-4196-8e34-d3d01921eb0b.pdf
+generali,2019,financialreports.eu,2019,"{""2019"": 11}",https://cdn.financialreports.eu/financialreports/media/filings/4190/2020/10-K/4190_10-k_2020-04-16_07570f4f-fd01-4f9b-86ff-bf8b293826e1.pdf
+generali,2020,financialreports.eu,2020,"{""2020"": 5}",https://cdn.financialreports.eu/financialreports/media/filings/4190/2021/10-K/4190_10-k_2021-04-01_fed738b9-2753-4e7b-8497-be92739a5496.pdf
+informa,2010,financialreports.eu,2010,"{""2010"": 5}",https://cdn.financialreports.eu/financialreports/media/filings/4915/2010/10-K/4915_10-k_2010-12-31_329e5477-4569-4d3c-b8e1-28b4505ac97b.pdf
+informa,2011,financialreports.eu,2011,"{""2011"": 9}",https://cdn.financialreports.eu/financialreports/media/filings/4915/2011/10-K/4915_10-k_2011-12-31_7130a795-9c8a-4c8e-9f67-563d4eec78af.pdf
+informa,2012,financialreports.eu,2012,"{""2012"": 5}",https://cdn.financialreports.eu/financialreports/media/filings/4915/2012/10-K/4915_10-k_2012-12-31_b42d866c-a9bf-4a79-8f8b-445141697b39.pdf
+informa,2013,financialreports.eu,2013,"{""2013"": 4}",https://cdn.financialreports.eu/financialreports/media/filings/4915/2013/10-K/4915_10-k_2013-12-31_bd1330eb-37da-4461-b07b-449be248cdd6.pdf
+intesa-sanpaolo,2016,annualreports.com,2016,"{""2016"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/i/intesa-sanpaolo-group_2016.pdf
+intesa-sanpaolo,2017,annualreports.com,2017,"{""2017"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/i/intesa-sanpaolo-group_2017.pdf
+intesa-sanpaolo,2018,annualreports.com,2018,"{""2018"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/i/intesa-sanpaolo-group_2018.pdf
+intesa-sanpaolo,2019,annualreports.com,2019,"{""2019"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/i/intesa-sanpaolo-group_2019.pdf
+intesa-sanpaolo,2020,annualreports.com,2020,"{""2020"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/i/intesa-sanpaolo-group_2020.pdf
+intesa-sanpaolo,2023,annualreports.com,2023,"{""2023"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/i/intesa-sanpaolo-group_2023.pdf
+intesa-sanpaolo,2024,annualreports.com,2024,"{""2024"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/i/intesa-sanpaolo-group_2024.pdf
+kbc,2010,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/3968/2011/10-K/3968_10-k_2011-04-08_d4636eed-28c0-44f1-965a-b4d0361bf699.pdf
+kbc,2011,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/3968/2012/10-K/3968_10-k_2012-04-03_bb7df56b-89b0-43a3-a0da-c4a5e774cc5d.pdf
+kbc,2012,financialreports.eu,2012,"{""2012"": 2}",https://cdn.financialreports.eu/financialreports/media/filings/3968/2013/10-K/3968_10-k_2013-04-02_330054bf-11e8-4b78-b496-a38a9a8bf876.pdf
+kbc,2013,financialreports.eu,2013,"{""2013"": 5}",https://cdn.financialreports.eu/financialreports/media/filings/3968/2014/10-K/3968_10-k_2014-03-31_7d4954ed-7b92-43b0-9474-3f345eba04fc.pdf
+kbc,2014,financialreports.eu,2014,"{""2014"": 3}",https://cdn.financialreports.eu/financialreports/media/filings/3968/2015/10-K/3968_10-k_2015-04-02_59e1412b-3098-4703-b662-08298111813e.pdf
+kbc,2015,financialreports.eu,2015,"{""2015"": 2}",https://cdn.financialreports.eu/financialreports/media/filings/3968/2016/10-K/3968_10-k_2016-03-31_66276800-f8c1-4d64-9c7d-076bf8766715.pdf
+kbc,2016,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/3968/2017/10-K/3968_10-k_2017-03-31_027e5c45-deaf-44a8-8372-92c005464664.pdf
+kbc,2017,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/3968/2018/10-K/3968_10-k_2018-03-29_3a641144-d95b-43f5-9114-d6f89e1664e4.pdf
+kbc,2018,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/3968/2019/10-K/3968_10-k_2019-03-29_27a8c7fc-3c4b-4e79-8be3-5909d3a3820a.pdf
+kbc,2019,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/3968/2020/10-K/3968_10-k_2020-04-03_71a9043b-1390-4e86-b6f3-8d17634544ef.pdf
+kbc,2020,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/3968/2021/10-K/3968_10-k_2021-04-01_9b945aab-f04c-4316-a927-64f1e3c4f1e3.pdf
+kpn,2007,financialreports.eu,2007,"{""2007"": 3}",https://cdn.financialreports.eu/financialreports/media/filings/3858/2008/10-Q/3858_10-q_2008-02-20_ac8941d3-96c1-4d30-82a0-cd94b762c512.pdf
+kpn,2008,financialreports.eu,2008,"{""2008"": 8}",https://cdn.financialreports.eu/financialreports/media/filings/3858/2009/10-Q/3858_10-q_2009-02-12_11dd2546-aa81-4220-91c1-0f5750eaf47f.pdf
+kpn,2009,financialreports.eu,2009,"{""2009"": 9}",https://cdn.financialreports.eu/financialreports/media/filings/3858/2010/10-K/3858_10-k_2010-02-24_88c576ee-7444-4a30-a428-537fad1ed20e.pdf
+kpn,2010,financialreports.eu,2010,"{""2010"": 6}",https://cdn.financialreports.eu/financialreports/media/filings/3858/2011/10-K/3858_10-k_2011-02-22_304793bc-3718-4ca0-b0bb-9d976d495c7c.pdf
+kpn,2011,financialreports.eu,2011,"{""2011"": 7}",https://cdn.financialreports.eu/financialreports/media/filings/3858/2012/10-K/3858_10-k_2012-04-20_617ca724-3753-4e22-a8c5-1e84472b3029.pdf
+kpn,2012,financialreports.eu,2012,"{""2012"": 4}",https://cdn.financialreports.eu/financialreports/media/filings/3858/2013/10-K/3858_10-k_2013-02-28_05d5e158-f3f8-426a-b5a1-551512456d6b.pdf
+kpn,2013,financialreports.eu,2013,"{""2013"": 12}",https://cdn.financialreports.eu/financialreports/media/filings/3858/2014/10-K/3858_10-k_2014-02-27_b8730c6b-9ca5-4463-96d1-9a176437c1b0.pdf
+kpn,2014,financialreports.eu,2014,"{""2014"": 15}",https://cdn.financialreports.eu/financialreports/media/filings/3858/2015/10-K/3858_10-k_2015-02-27_a6085c24-c196-4ced-b9b8-c921fe630dda.pdf
+kpn,2015,financialreports.eu,2015,"{""2015"": 7}",https://cdn.financialreports.eu/financialreports/media/filings/3858/2016/10-K/3858_10-k_2016-02-25_3072df80-e7a4-4a42-acb9-e587d44fb4f9.pdf
+kpn,2016,financialreports.eu,2016,"{""2016"": 4}",https://cdn.financialreports.eu/financialreports/media/filings/3858/2017/10-K/3858_10-k_2017-02-27_7e78b236-6fca-4775-8127-ed7697c43759.pdf
+kpn,2017,financialreports.eu,2016,"{""2017"": 1, ""2016"": 2}",https://cdn.financialreports.eu/financialreports/media/filings/3858/2018/10-K/3858_10-k_2018-02-26_ea79aa39-624f-4585-b127-b5fc21fb5c45.pdf
+kpn,2018,financialreports.eu,2018,"{""2018"": 11}",https://cdn.financialreports.eu/financialreports/media/filings/3858/2019/10-K/3858_10-k_2019-02-25_5a6d96cb-3037-4147-81d9-affc9a813f67.pdf
+kpn,2019,financialreports.eu,2019,"{""2019"": 8}",https://cdn.financialreports.eu/financialreports/media/filings/3858/2020/10-K/3858_10-k_2020-02-24_d526b4e8-7e42-4721-abac-4495796d68ba.pdf
+kpn,2020,financialreports.eu,2020,"{""2020"": 8}",https://cdn.financialreports.eu/financialreports/media/filings/3858/2021/10-K/3858_10-k_2021-02-22_67c8e0d7-12a9-407a-b74b-05c84ced2cab.pdf
+legrand,2007,AMF (info-financiere.gouv.fr),2007,"{""2007"": 6}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN112559_20090914.pdf
+legrand,2008,AMF (info-financiere.gouv.fr),2008,"{""2008"": 9}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN131053_20090914.pdf
+legrand,2009,AMF (info-financiere.gouv.fr),2009,"{""2009"": 8, ""2008"": 2, ""2007"": 1}",https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR058051_20100416.pdf
+legrand,2010,AMF (info-financiere.gouv.fr),2010,"{""2010"": 5, ""2008"": 3, ""2009"": 2}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/08/FCMAN131247_20110817.pdf
+legrand,2011,AMF (info-financiere.gouv.fr),2011,"{""2011"": 4}",https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR075143_20120209.pdf
+legrand,2012,AMF (info-financiere.gouv.fr),,{},https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR087403_20130214.pdf
+legrand,2016,AMF (info-financiere.gouv.fr),2015,"{""2015"": 1}",https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR098614_20170209.pdf
+legrand,2017,AMF (info-financiere.gouv.fr),,{},https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR107236_20180208.pdf
+legrand,2018,AMF (info-financiere.gouv.fr),,{},https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR115636_20190214.pdf
+legrand,2019,AMF (info-financiere.gouv.fr),2019,"{""2019"": 7}",https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR123550_20200213.pdf
+legrand,2020,AMF (info-financiere.gouv.fr),2020,"{""2020"": 8}",https://echanges.dila.gouv.fr/OPENDATA/AMF/370/8888/01/FC370379993_20210412.pdf
+mercedes-benz-group,2019,annualreports.com,2019,"{""2019"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/d/NYSE_DAI_2019.pdf
+mercedes-benz-group,2022,annualreports.com,2022,"{""2022"": 11}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/OTC_MBGAF_2022.pdf
+munich-re,2000,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2000.pdf
+munich-re,2001,annualreports.com,2001,"{""2001"": 8}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2001.pdf
+munich-re,2002,annualreports.com,2002,"{""2002"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2002.pdf
+munich-re,2003,annualreports.com,2003,"{""2003"": 5}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2003.pdf
+munich-re,2004,annualreports.com,2004,"{""2004"": 4}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2004.pdf
+munich-re,2005,annualreports.com,2005,"{""2005"": 4}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2005.pdf
+munich-re,2006,annualreports.com,2006,"{""2006"": 3}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2006.pdf
+munich-re,2007,annualreports.com,2007,"{""2007"": 4}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2007.pdf
+munich-re,2008,annualreports.com,2008,"{""2008"": 4}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2008.pdf
+munich-re,2009,annualreports.com,2009,"{""2009"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2009.pdf
+munich-re,2010,annualreports.com,2010,"{""2010"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2010.pdf
+munich-re,2011,annualreports.com,2011,"{""2011"": 8}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2011.pdf
+munich-re,2012,annualreports.com,2012,"{""2012"": 7}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2012.pdf
+munich-re,2013,annualreports.com,2013,"{""2013"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2013.pdf
+munich-re,2014,annualreports.com,2014,"{""2014"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2014.pdf
+munich-re,2015,annualreports.com,2015,"{""2015"": 8}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2015.pdf
+munich-re,2016,annualreports.com,2016,"{""2016"": 7}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2016.pdf
+munich-re,2017,annualreports.com,2017,"{""2017"": 7}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2017.pdf
+munich-re,2018,annualreports.com,2018,"{""2018"": 5}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2018.pdf
+munich-re,2019,annualreports.com,2019,"{""2019"": 7}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2019.pdf
+munich-re,2020,annualreports.com,2020,"{""2020"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2020.pdf
+munich-re,2021,annualreports.com,2021,"{""2021"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2021.pdf
+munich-re,2022,annualreports.com,2022,"{""2022"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2022.pdf
+munich-re,2023,annualreports.com,2023,"{""2023"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2023.pdf
+munich-re,2024,annualreports.com,2024,"{""2024"": 8}",https://www.annualreports.com/HostedData/AnnualReportArchive/m/munich-re_2024.pdf
+nordea,2000,annualreports.com,2000,"{""2000"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2000.pdf
+nordea,2002,annualreports.com,2002,"{""2002"": 9, ""2001"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2002.pdf
+nordea,2003,annualreports.com,2003,"{""2003"": 9}",https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2003.pdf
+nordea,2004,annualreports.com,2004,"{""2004"": 5}",https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2004.pdf
+nordea,2005,annualreports.com,2005,"{""2005"": 5}",https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2005.pdf
+nordea,2006,annualreports.com,2006,"{""2006"": 5}",https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2006.pdf
+nordea,2007,annualreports.com,2007,"{""2007"": 4}",https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2007.pdf
+nordea,2008,annualreports.com,2008,"{""2008"": 5}",https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2008.pdf
+nordea,2009,annualreports.com,2009,"{""2009"": 4}",https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2009.pdf
+nordea,2010,annualreports.com,2010,"{""2010"": 1, ""2009"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2010.pdf
+nordea,2011,annualreports.com,2011,"{""2011"": 7, ""2009"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2011.pdf
+nordea,2012,annualreports.com,2012,"{""2012"": 5}",https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2012.pdf
+nordea,2013,annualreports.com,2013,"{""2013"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2013.pdf
+nordea,2014,annualreports.com,2014,"{""2014"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2014.pdf
+nordea,2015,annualreports.com,2015,"{""2015"": 5}",https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2015.pdf
+nordea,2016,annualreports.com,2016,"{""2016"": 7, ""2015"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2016.pdf
+nordea,2017,annualreports.com,2017,"{""2017"": 4}",https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2017.pdf
+nordea,2018,annualreports.com,2018,"{""2018"": 4}",https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2018.pdf
+nordea,2019,annualreports.com,2019,"{""2019"": 8}",https://www.annualreports.com/HostedData/AnnualReportArchive/n/nordea_2019.pdf
+proximus,2010,financialreports.eu,2010,"{""2010"": 2}",https://cdn.financialreports.eu/financialreports/media/filings/3989/2011/10-K/3989_10-k_2011-03-29_f8bf9c2f-ec51-4aa2-a7e2-7291355dcee4.pdf
+proximus,2011,financialreports.eu,2011,"{""2011"": 1}",https://cdn.financialreports.eu/financialreports/media/filings/3989/2012/10-K/3989_10-k_2012-04-05_f57d50ba-395c-41a4-bf63-5043877d3053.pdf
+proximus,2012,financialreports.eu,2012,"{""2012"": 6}",https://cdn.financialreports.eu/financialreports/media/filings/3989/2013/10-K/3989_10-k_2013-04-03_fcf9a9d3-c8db-4f74-b931-7a9e175710c1.pdf
+proximus,2013,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/3989/2014/10-K/3989_10-k_2014-04-02_c49f1492-9fed-4f66-881e-c79d0683f0b0.pdf
+proximus,2014,financialreports.eu,2014,"{""2014"": 11}",https://cdn.financialreports.eu/financialreports/media/filings/3989/2015/10-K/3989_10-k_2015-04-07_a3af5091-229b-4ff6-a24a-9f1f09133393.pdf
+proximus,2016,financialreports.eu,2016,"{""2016"": 13}",https://cdn.financialreports.eu/financialreports/media/filings/3989/2017/10-K/3989_10-k_2017-03-17_1d367cb1-6f0e-4a5b-8a46-0b66df2b0214.pdf
+proximus,2017,financialreports.eu,2017,"{""2017"": 5}",https://cdn.financialreports.eu/financialreports/media/filings/3989/2018/10-K/3989_10-k_2018-03-16_73a20590-30ac-4a13-b9d6-3b5f20e0f683.pdf
+proximus,2019,financialreports.eu,2019,"{""2019"": 9}",https://cdn.financialreports.eu/financialreports/media/filings/3989/2020/10-K/3989_10-k_2020-03-13_5a3aed40-363c-4b8c-a969-b73971cd76a2.pdf
+proximus,2020,financialreports.eu,2020,"{""2020"": 16}",https://cdn.financialreports.eu/financialreports/media/filings/3989/2021/10-K/3989_10-k_2021-03-19_cce10386-326e-4e8b-b052-95c63f623151.pdf
+proximus,2025,financialreports.eu,2025,"{""2025"": 13}",https://cdn.financialreports.eu/financialreports/media/filings/3989/2026/RNS/3989_rns_2026-03-13_8eae1155-dda1-4b25-8590-bb12937b893b.pdf
+publicis,2007,AMF (info-financiere.gouv.fr),,{},https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN075739_20090915.pdf
+publicis,2009,AMF (info-financiere.gouv.fr),,{},https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN132830_20090916.pdf
+publicis,2010,AMF (info-financiere.gouv.fr),2010,"{""2010"": 7}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/05/FCMAN155810_20110520.pdf
+publicis,2016,AMF (info-financiere.gouv.fr),2016,"{""2016"": 2}",https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/8888/01/FCBWR100639_20170428.pdf
+publicis,2020,AMF (info-financiere.gouv.fr),2020,"{""2020"": 3}",https://echanges.dila.gouv.fr/OPENDATA/AMF/118/8888/01/FC118379846_20210409.pdf
+renault,2000,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2000.pdf
+renault,2001,annualreports.com,2001,"{""2001"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2001.pdf
+renault,2002,annualreports.com,2002,"{""2002"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2002.pdf
+renault,2003,annualreports.com,2003,"{""2003"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2003.pdf
+renault,2004,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2004.pdf
+renault,2005,annualreports.com,2005,"{""2005"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2005.pdf
+renault,2006,annualreports.com,2006,"{""2006"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2006.pdf
+renault,2007,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2007.pdf
+renault,2008,annualreports.com,2008,"{""2008"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2008.pdf
+renault,2009,annualreports.com,2009,"{""2009"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2009.pdf
+renault,2010,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2010.pdf
+renault,2011,annualreports.com,2011,"{""2011"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2011.pdf
+renault,2012,annualreports.com,2012,"{""2012"": 4}",https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2012.pdf
+renault,2013,annualreports.com,2013,"{""2013"": 5}",https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2013.pdf
+renault,2014,annualreports.com,2014,"{""2014"": 4}",https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2014.pdf
+renault,2015,annualreports.com,2015,"{""2015"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2015.pdf
+renault,2016,annualreports.com,2017,"{""2017"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/g/groupe-renault_2016.pdf
+renault,2020,AMF (info-financiere.gouv.fr),2020,"{""2020"": 10}",https://echanges.dila.gouv.fr/OPENDATA/AMF/281/8888/01/FC281377157_20210315.pdf
+sage-group,2005,annualreports.com,2005,"{""2005"": 2, ""2006"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2006.pdf
+sage-group,2006,annualreports.com,2006,"{""2006"": 2, ""2007"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2007.pdf
+sage-group,2008,annualreports.com,2008,"{""2008"": 3, ""2007"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2008.pdf
+sage-group,2009,annualreports.com,2008,"{""2008"": 2, ""2009"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2009.pdf
+sage-group,2010,annualreports.com,2009,"{""2009"": 4, ""2010"": 3}",https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2010.pdf
+sage-group,2012,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2012.pdf
+sage-group,2013,annualreports.com,2012,"{""2012"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2013.pdf
+sage-group,2014,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2014.pdf
+sage-group,2015,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2015.pdf
+sage-group,2016,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2016.pdf
+sage-group,2017,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2017.pdf
+sage-group,2018,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2018.pdf
+sage-group,2019,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2019.pdf
+sage-group,2020,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2020.pdf
+sage-group,2021,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SGE_2021.pdf
+schneider-electric,2007,AMF (info-financiere.gouv.fr),,{},https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN141203_20090914.pdf
+schneider-electric,2008,AMF (info-financiere.gouv.fr),2008,"{""2008"": 2, ""2007"": 1, ""2006"": 1}",https://echanges.dila.gouv.fr/OPENDATA/AMF/ECO/2009/02/FCECO010512_20090219.pdf
+schneider-electric,2009,AMF (info-financiere.gouv.fr),2009,"{""2009"": 6}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/04/FCMAN100030_20100427.pdf
+schneider-electric,2010,AMF (info-financiere.gouv.fr),2010,"{""2010"": 5}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/05/FCMAN145913_20110510.pdf
+schneider-electric,2011,annualreports.com,2011,"{""2011"": 3, ""2007"": 1, ""2010"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2011.pdf
+schneider-electric,2012,annualreports.com,2012,"{""2012"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2012.pdf
+schneider-electric,2013,annualreports.com,2013,"{""2013"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2013.pdf
+schneider-electric,2014,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2014.pdf
+schneider-electric,2015,annualreports.com,2015,"{""2015"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2015.pdf
+schneider-electric,2016,annualreports.com,2016,"{""2016"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2016.pdf
+schneider-electric,2017,annualreports.com,2017,"{""2017"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2017.pdf
+schneider-electric,2018,annualreports.com,2018,"{""2018"": 6}",https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2018.pdf
+schneider-electric,2019,annualreports.com,2019,"{""2019"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/s/OTC_SU_2019.pdf
+soci-t-g-n-rale,2004,financialreports.eu,2004,"{""2004"": 4}",https://cdn.financialreports.eu/financialreports/media/filings/1671/2005/10-K/1671_10-k_2005-08-03_ae4fd02b-4672-4bec-a9ff-b5f2f916399b.pdf
+soci-t-g-n-rale,2007,financialreports.eu,2007,"{""2007"": 5}",https://cdn.financialreports.eu/financialreports/media/filings/1671/2007/10-K/1671_10-k_2007-03-07_1e6f3bfd-0b09-4831-8845-a03775eebbab.pdf
+soci-t-g-n-rale,2008,AMF (info-financiere.gouv.fr),2008,"{""2008"": 7}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN080712_20090915.pdf
+soci-t-g-n-rale,2009,AMF (info-financiere.gouv.fr),2010,"{""2010"": 6}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/03/FCMAN095619_20100326.pdf
+soci-t-g-n-rale,2010,financialreports.eu,2011,"{""2011"": 6}",https://cdn.financialreports.eu/financialreports/media/filings/1671/2011/RF/1671_rf_2011-03-07_9260ef09-2454-4c30-93cd-1b4cbf12e906.pdf
+soci-t-g-n-rale,2011,financialreports.eu,2012,"{""2012"": 9}",https://cdn.financialreports.eu/financialreports/media/filings/1671/2012/10-K/1671_10-k_2012-03-05_1bbfdf16-1166-4170-83ff-011ca22bd896.pdf
+soci-t-g-n-rale,2012,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/1671/2013/RNS/1671_rns_2013-03-20_62fd333b-faae-417c-b7de-e6389bda977f.pdf
+soci-t-g-n-rale,2013,financialreports.eu,2014,"{""2014"": 1}",https://cdn.financialreports.eu/financialreports/media/filings/1671/2014/10-K/1671_10-k_2014-03-05_35f477c1-5a4b-4b10-b5b4-899e5f23a059.pdf
+soci-t-g-n-rale,2014,financialreports.eu,2014,"{""2014"": 8}",https://cdn.financialreports.eu/financialreports/media/filings/1671/2014/10-K/1671_10-k_2014-08-05_604f6a71-a3d6-44d6-a16b-97f4fddf8b1b.pdf
+soci-t-g-n-rale,2016,financialreports.eu,2016,"{""2016"": 2}",https://cdn.financialreports.eu/financialreports/media/filings/1671/2017/10-K/1671_10-k_2017-03-09_bcc65d5d-d3ce-47b6-be6f-252b5d86eafa.pdf
+soci-t-g-n-rale,2017,financialreports.eu,2018,"{""2017"": 2, ""2018"": 3}",https://cdn.financialreports.eu/financialreports/media/filings/1671/2018/10-K/1671_10-k_2018-03-09_60251c96-b3d2-4176-b2d3-07c72a3de7b8.pdf
+soci-t-g-n-rale,2018,financialreports.eu,2019,"{""2019"": 7}",https://cdn.financialreports.eu/financialreports/media/filings/1671/2019/10-K/1671_10-k_2019-03-12_96496aaf-4c52-411e-aca8-62a2ede81df7.pdf
+soci-t-g-n-rale,2019,financialreports.eu,2020,"{""2019"": 2, ""2020"": 9}",https://cdn.financialreports.eu/financialreports/media/filings/1671/2020/10-K/1671_10-k_2020-03-13_fad02254-0230-4c14-b73b-3d25d19e1794.pdf
+soci-t-g-n-rale,2020,financialreports.eu,2020,"{""2020"": 1}",https://cdn.financialreports.eu/financialreports/media/filings/1671/2021/REG_DOC/1671_reg_doc_2021-03-17_7775827c-39e1-487a-97ad-ab4cce4f1bf3.pdf
+soci-t-g-n-rale,2024,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/1671/2025/10-K/1671_10-k_2025-02-07_36867d1e-2625-4fb1-875c-688bcd341209.pdf
+telecom-italia,2019,financialreports.eu,2019,"{""2019"": 1}",https://cdn.financialreports.eu/financialreports/media/filings/4448/2020/10-K/4448_10-k_2020-03-26_16783dfb-9fff-4c9d-8fc1-0bc2db6d5179.pdf
+telecom-italia,2020,financialreports.eu,2021,"{""2021"": 1}",https://cdn.financialreports.eu/financialreports/media/filings/4448/2021/10-K/4448_10-k_2021-03-10_f5f77a1a-1b38-4ce1-b0c7-a02693f9d258.pdf
+telecom-italia,2022,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/4448/2023/10-K/4448_10-k_2023-03-30_78e5540b-d9f4-41fd-99e3-257ab6770c3c.pdf
+telecom-italia,2023,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/4448/2024/10-K/4448_10-k_2024-03-26_9787eba3-a89b-40cc-b1e3-a3e569097770.pdf
+telia,2007,financialreports.eu,2007,"{""2007"": 7}",https://cdn.financialreports.eu/financialreports/media/filings/2982/2008/10-K/2982_10-k_2008-03-17_6bc50184-8f07-40d1-9e4f-f4c7d925e81a.pdf
+telia,2008,financialreports.eu,2008,"{""2008"": 7}",https://cdn.financialreports.eu/financialreports/media/filings/2982/2009/10-K/2982_10-k_2009-03-18_b6a9f093-81e8-421e-b7f8-5e7e5341c079.pdf
+telia,2009,financialreports.eu,2009,"{""2009"": 2}",https://cdn.financialreports.eu/financialreports/media/filings/2982/2010/10-K/2982_10-k_2010-03-22_ed4f11d9-4d04-4488-bc73-8d24bb234383.pdf
+telia,2010,financialreports.eu,2010,"{""2010"": 2}",https://cdn.financialreports.eu/financialreports/media/filings/2982/2011/10-K/2982_10-k_2011-03-16_2f73e389-cc2d-4b82-9a45-a3337588c43e.pdf
+telia,2011,financialreports.eu,2011,"{""2011"": 9}",https://cdn.financialreports.eu/financialreports/media/filings/2982/2012/10-K/2982_10-k_2012-04-01_584cc20d-ea38-4a81-ab59-15469afccb5a.pdf
+telia,2012,financialreports.eu,2012,"{""2012"": 8}",https://cdn.financialreports.eu/financialreports/media/filings/2982/2013/10-K/2982_10-k_2013-03-13_24371285-a019-46aa-be00-d9a0a55a0b32.pdf
+telia,2013,financialreports.eu,2013,"{""2013"": 8}",https://cdn.financialreports.eu/financialreports/media/filings/2982/2014/10-K/2982_10-k_2014-03-12_41a5d038-b1db-4492-a781-e16a48a27962.pdf
+telia,2014,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/2982/2015/10-K/2982_10-k_2015-03-18_da9fd7d7-c47b-4832-8642-4557f52a8fe0.pdf
+telia,2015,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/2982/2016/10-K/2982_10-k_2016-03-22_e5b58db1-11d1-49c6-b8b7-085259d749c9.pdf
+telia,2016,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/2982/2017/10-K/2982_10-k_2017-03-15_df15a875-4d72-4b2f-aec5-dd68c6f75f6b.pdf
+telia,2017,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/2982/2018/10-K/2982_10-k_2018-03-20_29018237-bcc9-45ac-b26a-e3b18a51f47c.pdf
+telia,2018,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/2982/2019/10-K/2982_10-k_2019-03-20_0fc3c964-d5b1-423c-8b06-fe9a10db4e45.pdf
+telia,2019,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/2982/2020/10-K/2982_10-k_2020-03-12_27bd83b4-8cf1-4017-be5c-9d89f2108bdf.pdf
+telia,2020,financialreports.eu,,{},https://cdn.financialreports.eu/financialreports/media/filings/2982/2021/10-K/2982_10-k_2021-03-11_2d5145cd-011d-42f2-9b67-907a9e3790a2.pdf
+thales,2007,AMF (info-financiere.gouv.fr),2007,"{""2005"": 1, ""2006"": 1, ""2007"": 8}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN125905_20090915.pdf
+thales,2008,AMF (info-financiere.gouv.fr),2008,"{""2008"": 5, ""2006"": 1, ""2007"": 1}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2009/09/FCMAN092952_20090917.pdf
+thales,2009,AMF (info-financiere.gouv.fr),2009,"{""2009"": 8, ""2007"": 2, ""2008"": 2}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2010/04/FCMAN115037_20100427.pdf
+thales,2010,AMF (info-financiere.gouv.fr),2010,"{""2010"": 8, ""2008"": 1, ""2009"": 1}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2011/08/FCMAN143759_20110812.pdf
+thales,2011,AMF (info-financiere.gouv.fr),2011,"{""2011"": 10, ""2009"": 2, ""2010"": 3}",https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/10/FCMAN131608_20121016.pdf
+thales,2015,AMF (info-financiere.gouv.fr),2015,"{""2015"": 5, ""2013"": 1, ""2014"": 1}",https://echanges.dila.gouv.fr/OPENDATA/AMF/ECO/2016/03/FCECO039663_20160331.pdf
+unicredit,2005,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2005.pdf
+unicredit,2006,annualreports.com,2006,"{""2006"": 11}",https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2006.pdf
+unicredit,2007,annualreports.com,2007,"{""2007"": 12}",https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2007.pdf
+unicredit,2008,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2008.pdf
+unicredit,2009,annualreports.com,2009,"{""2009"": 1, ""2008"": 1}",https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2009.pdf
+unicredit,2010,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2010.pdf
+unicredit,2011,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2011.pdf
+unicredit,2012,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2012.pdf
+unicredit,2013,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2013.pdf
+unicredit,2014,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2014.pdf
+unicredit,2015,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2015.pdf
+unicredit,2016,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2016.pdf
+unicredit,2017,annualreports.com,,{},https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2017.pdf
+unicredit,2018,annualreports.com,2018,"{""2018"": 10}",https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2018.pdf
+unicredit,2019,annualreports.com,2019,"{""2019"": 10}",https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2019.pdf
+unicredit,2020,annualreports.com,2020,"{""2020"": 14}",https://www.annualreports.com/HostedData/AnnualReportArchive/u/OTC_UNCIF_2020.pdf
+volkswagen-group,2008,annualreports.com,2007,"{""2008"": 1, ""2007"": 2}",https://www.annualreports.com/HostedData/AnnualReportArchive/v/OTC_VWAGY_2008.pdf
+worldline,2020,AMF (info-financiere.gouv.fr),2020,"{""2018"": 2, ""2020"": 3, ""2019"": 1}",https://echanges.dila.gouv.fr/OPENDATA/AMF/130/8888/01/FC130380121_20210413.pdf
