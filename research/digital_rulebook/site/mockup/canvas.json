@@ -1660,6 +1660,16 @@
       "w": 1440,
       "x": 1520,
       "y": 0
+    },
+    "CompanyResponses.dc.html": {
+      "expand": "fill",
+      "h": 6820,
+      "is_interactive": true,
+      "page": "site",
+      "title": "Findings: what companies say",
+      "w": 1440,
+      "x": 7600,
+      "y": 0
     }
   },
   "createdOnFiles": {
@@ -1679,6 +1689,7 @@
     "CompanyTypes.dc.html",
     "UsComparison.dc.html",
     "Evidence.dc.html",
+    "CompanyResponses.dc.html",
     "Instruments.dc.html",
     "Instrument.dc.html",
     "DigitalPolicy.dc.html",
