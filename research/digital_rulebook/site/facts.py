@@ -35,7 +35,7 @@ put("compared_with_proposal", len(both)); put("grew_in_negotiation", sum(x["rest
 L = json.load(open("site/studies_data.json"))["L"]
 tags = collections.Counter(t for x in L for t in str(x[-1]).split())
 put("studies_evidence", tags["ev"]); put("studies_causal", tags["causal"]); put("studies_review", tags["review"])
-put("sources_total", tags["ev"])   # ex-post assessments only (impact assessments are counted on the law pages, not here)
+put("sources_total", tags["ev"] + tags["econ"])   # the whole studies library: evidence on the laws plus economics of regulation (impact assessments are counted on the law pages)
 _IA = json.load(open("data/ia/summary.json"))
 put("ia_full", _IA["status"].get("full", 0)); put("ia_pre", _IA["status"].get("pre", 0)); put("ia_codification", _IA["status"].get("codification", 0))
 put("ia_without", _IA["status"].get("none", 0) + _IA["status"].get("swd", 0)); put("ia_unknown", _IA["status"].get("unknown", 0))
@@ -50,7 +50,7 @@ for k, key in (("measured", "obj_measured"), ("partially measured", "obj_partly"
     put(key, sg[k])
 put("obj_never_pct", round(100 * sg["not measured"] / len(krs)), f"{100 * sg['not measured'] / len(krs):.0f}%")
 ev = [x for x in LIT if (x["category"] or "evidence") == "evidence" and x["parent_row_id"] in Aid]
-sc = collections.Counter(x["source_class"] for x in ev)
+sc = collections.Counter(x[9] for x in L)   # who produced the sources: whole studies library, economics of regulation included
 for k, key in (("official", "src_official"), ("academic", "src_academic"), ("think tank", "src_thinktank"), ("consultancy or industry", "src_industry"), ("other", "src_other")):
     put(key, sc[k])
 lv = collections.Counter(x["impact_evidence_level"] for x in A)
