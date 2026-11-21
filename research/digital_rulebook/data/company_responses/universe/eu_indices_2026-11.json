@@ -1,0 +1,1355 @@
+{
+ "_source": "Constituent tables on English Wikipedia pages DAX, CAC 40, FTSE 100 Index and EURO STOXX 50, retrieved 2026-11-21 (the pages state their own 'as of' dates). To be checked against the index providers' lists.",
+ "constituents": [
+  {
+   "index": "DAX",
+   "name": "Adidas",
+   "ticker": "ADS.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Airbus",
+   "ticker": "AIR.PA"
+  },
+  {
+   "index": "DAX",
+   "name": "Allianz",
+   "ticker": "ALV.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "BASF",
+   "ticker": "BAS.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Bayer",
+   "ticker": "BAYN.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Beiersdorf",
+   "ticker": "BEI.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "BMW",
+   "ticker": "BMW.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Brenntag",
+   "ticker": "BNR.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Commerzbank",
+   "ticker": "CBK.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Continental",
+   "ticker": "CON.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Daimler Truck",
+   "ticker": "DTG.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Deutsche Bank",
+   "ticker": "DBK.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Deutsche Börse",
+   "ticker": "DB1.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Deutsche Post",
+   "ticker": "DHL.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Deutsche Telekom",
+   "ticker": "DTE.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "E.ON",
+   "ticker": "EOAN.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Fresenius",
+   "ticker": "FRE.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Fresenius Medical Care",
+   "ticker": "FME.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "GEA Group",
+   "ticker": "G1A.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Hannover Re",
+   "ticker": "HNR1.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Heidelberg Materials",
+   "ticker": "HEI.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Henkel",
+   "ticker": "HEN3.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Infineon Technologies",
+   "ticker": "IFX.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Mercedes-Benz Group",
+   "ticker": "MBG.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Merck",
+   "ticker": "MRK.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "MTU Aero Engines",
+   "ticker": "MTX.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Munich Re",
+   "ticker": "MUV2.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Porsche SE",
+   "ticker": "PAH3.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Qiagen",
+   "ticker": "QIA.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Rheinmetall",
+   "ticker": "RHM.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "RWE",
+   "ticker": "RWE.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "SAP",
+   "ticker": "SAP.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Scout24",
+   "ticker": "G24.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Siemens",
+   "ticker": "SIE.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Siemens Energy",
+   "ticker": "ENR.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Siemens Healthineers",
+   "ticker": "SHL.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Symrise",
+   "ticker": "SY1.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Volkswagen Group",
+   "ticker": "VOW3.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Vonovia",
+   "ticker": "VNA.DE"
+  },
+  {
+   "index": "DAX",
+   "name": "Zalando",
+   "ticker": "ZAL.DE"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Accor",
+   "ticker": "AC.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Air Liquide",
+   "ticker": "AI.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Airbus",
+   "ticker": "AIR.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "ArcelorMittal",
+   "ticker": "MT.AS"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Axa",
+   "ticker": "CS.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "BNP Paribas",
+   "ticker": "BNP.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Bouygues",
+   "ticker": "EN.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Bureau Veritas",
+   "ticker": "BVI.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Capgemini",
+   "ticker": "CAP.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Carrefour",
+   "ticker": "CA.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Crédit Agricole",
+   "ticker": "ACA.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Danone",
+   "ticker": "BN.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Dassault Systèmes",
+   "ticker": "DSY.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Eiffage",
+   "ticker": "FGR.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Engie",
+   "ticker": "ENGI.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "EssilorLuxottica",
+   "ticker": "EL.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Eurofins Scientific",
+   "ticker": "ERF.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Euronext",
+   "ticker": "ENX.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Hermès",
+   "ticker": "RMS.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Kering",
+   "ticker": "KER.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "L'Oréal",
+   "ticker": "OR.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Legrand",
+   "ticker": "LR.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "LVMH",
+   "ticker": "MC.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Michelin",
+   "ticker": "ML.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Orange",
+   "ticker": "ORA.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Pernod Ricard",
+   "ticker": "RI.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Publicis",
+   "ticker": "PUB.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Renault",
+   "ticker": "RNO.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Safran",
+   "ticker": "SAF.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Saint-Gobain",
+   "ticker": "SGO.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Sanofi",
+   "ticker": "SAN.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Schneider Electric",
+   "ticker": "SU.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Société Générale",
+   "ticker": "GLE.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Stellantis",
+   "ticker": "STLAP.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "STMicroelectronics",
+   "ticker": "STMPA.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Thales",
+   "ticker": "HO.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "TotalEnergies",
+   "ticker": "TTE.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Unibail-Rodamco-Westfield",
+   "ticker": "URW.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Veolia",
+   "ticker": "VIE.PA"
+  },
+  {
+   "index": "CAC 40",
+   "name": "Vinci",
+   "ticker": "DG.PA"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "3i",
+   "ticker": "III",
+   "isin": "GB00B1YW4409"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Aberdeen Group",
+   "ticker": "ABDN",
+   "isin": "GB00BF8Q6K64"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Admiral Group",
+   "ticker": "ADM",
+   "isin": "GB00B02J6398"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Airtel Africa",
+   "ticker": "AAF",
+   "isin": "GB00BKDRYJ47"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Alliance Witan",
+   "ticker": "ALW",
+   "isin": "GB00B11V7W98"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Anglo American plc",
+   "ticker": "AAL",
+   "isin": "GB00BTK05J60"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Antofagasta plc",
+   "ticker": "ANTO",
+   "isin": "GB0000456144"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Associated British Foods",
+   "ticker": "ABF",
+   "isin": "GB0006731235"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "AstraZeneca",
+   "ticker": "AZN",
+   "isin": "GB0009895292"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Autotrader Group",
+   "ticker": "AUTO",
+   "isin": "GB00BVYVFW23"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Aviva",
+   "ticker": "AV",
+   "isin": "GB00BPQY8M80"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Babcock International",
+   "ticker": "BAB",
+   "isin": "GB0009697037"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "BAE Systems",
+   "ticker": "BA",
+   "isin": "GB0002634946"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Balfour Beatty",
+   "ticker": "BBY",
+   "isin": "GB0000961622"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Barclays",
+   "ticker": "BARC",
+   "isin": "GB0031348658"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Barratt Redrow",
+   "ticker": "BTRW",
+   "isin": "GB0000811801"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "BP",
+   "ticker": "BP",
+   "isin": "GB0007980591"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "British American Tobacco",
+   "ticker": "BATS",
+   "isin": "GB0002875804"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "British Land",
+   "ticker": "BLND",
+   "isin": "GB0001367019"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "BT Group",
+   "ticker": "BT.A",
+   "isin": "GB0030913577"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Bunzl",
+   "ticker": "BNZL",
+   "isin": "GB00B0744B38"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Burberry Group",
+   "ticker": "BRBY",
+   "isin": "GB0031743007"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Centrica",
+   "ticker": "CNA",
+   "isin": "GB00B033F229"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Coca-Cola Europacific Partners",
+   "ticker": "CCEP",
+   "isin": "GB00BDCPN049"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Coca-Cola HBC",
+   "ticker": "CCH",
+   "isin": "CH0198251305"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Compass Group",
+   "ticker": "CPG",
+   "isin": "GB00BD6K4575"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Computacenter",
+   "ticker": "CCC",
+   "isin": "GB00BV9FP302"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Convatec",
+   "ticker": "CTEC",
+   "isin": "GB00BD3VFW73"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Croda International",
+   "ticker": "CRDA",
+   "isin": "GB00BJFFLV09"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "DCC Energy",
+   "ticker": "DCC",
+   "isin": "IE0002424939"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Diageo",
+   "ticker": "DGE",
+   "isin": "GB0002374006"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Diploma",
+   "ticker": "DPLM",
+   "isin": "GB0001826634"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "EasyJet",
+   "ticker": "EZJ",
+   "isin": "GB00B7KR2P84"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Endeavour Mining",
+   "ticker": "EDV",
+   "isin": "GB00BL6K5J42"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Experian",
+   "ticker": "EXPN",
+   "isin": "GB00B19NLV48"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "F & C Investment Trust",
+   "ticker": "FCIT",
+   "isin": "GB00BS88V647"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Fresnillo plc",
+   "ticker": "FRES",
+   "isin": "GB00B2QPKJ12"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Games Workshop",
+   "ticker": "GAW",
+   "isin": "GB0003718474"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Glencore",
+   "ticker": "GLEN",
+   "isin": "JE00B4T3BW64"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "GSK plc",
+   "ticker": "GSK",
+   "isin": "GB00BN7SWP63"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Haleon",
+   "ticker": "HLN",
+   "isin": "GB00BMX86B70"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Halma plc",
+   "ticker": "HLMA",
+   "isin": "GB0004052071"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Hiscox",
+   "ticker": "HSX",
+   "isin": "BMG4593F1389"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Howdens Joinery",
+   "ticker": "HWDN",
+   "isin": "GB0005576813"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "HSBC",
+   "ticker": "HSBA",
+   "isin": "GB0005405286"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "ICG",
+   "ticker": "ICG",
+   "isin": "GB00BYT1DJ19"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "IG Group",
+   "ticker": "IGG",
+   "isin": "GB00B06QFB75"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "IHG Hotels & Resorts",
+   "ticker": "IHG",
+   "isin": "GB00BHJYC057"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "IMI",
+   "ticker": "IMI",
+   "isin": "GB00BGLP8L22"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Imperial Brands",
+   "ticker": "IMB",
+   "isin": "GB0004544929"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Informa",
+   "ticker": "INF",
+   "isin": "GB00BMJ6DW54"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "International Airlines Group",
+   "ticker": "IAG",
+   "isin": "ES0177542018"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Intertek",
+   "ticker": "ITRK",
+   "isin": "GB0031638363"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Investec",
+   "ticker": "INVP",
+   "isin": "GB00B17BBQ50"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Ithaca Energy",
+   "ticker": "ITH",
+   "isin": "GB00BPJHV584"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "JD Sports",
+   "ticker": "JD",
+   "isin": "GB00BM8Q5M07"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Lion Finance Group",
+   "ticker": "BGEO",
+   "isin": "GB00BF4HYT85"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Kingfisher plc",
+   "ticker": "KGF",
+   "isin": "GB0033195214"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Land Securities",
+   "ticker": "LAND",
+   "isin": "GB00BYW0PQ60"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Legal & General",
+   "ticker": "LGEN",
+   "isin": "GB0005603997"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Lloyds Banking Group",
+   "ticker": "LLOY",
+   "isin": "GB0008706128"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "LondonMetric Property",
+   "ticker": "LMP",
+   "isin": "GB00B4WFW713"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "London Stock Exchange Group",
+   "ticker": "LSEG",
+   "isin": "GB00B0SWJX34"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "M&G",
+   "ticker": "MNG",
+   "isin": "GB00BKFB1C65"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Marks & Spencer",
+   "ticker": "MKS",
+   "isin": "GB0031274896"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Melrose Industries",
+   "ticker": "MRO",
+   "isin": "GB00BNGDN821"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Metlen Energy & Metals",
+   "ticker": "MTLN",
+   "isin": "GB00BTQGS779"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "National Grid plc",
+   "ticker": "NG",
+   "isin": "GB00BDR05C01"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "NatWest Group",
+   "ticker": "NWG",
+   "isin": "GB00BM8PJY71"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Next plc",
+   "ticker": "NXT",
+   "isin": "GB0032089863"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Pearson plc",
+   "ticker": "PSON",
+   "isin": "GB0006776081"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Pershing Square Holdings",
+   "ticker": "PSH",
+   "isin": "GG00BPFJTF46"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Polar Capital Technology Trust",
+   "ticker": "PCT",
+   "isin": "GB00BR3YV268"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Prudential plc",
+   "ticker": "PRU",
+   "isin": "GB0007099541"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Reckitt",
+   "ticker": "RKT",
+   "isin": "GB00BSZBP530"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "RELX",
+   "ticker": "REL",
+   "isin": "GB00B2B0DG97"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Rentokil Initial",
+   "ticker": "RTO",
+   "isin": "GB00B082RF11"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Rio Tinto",
+   "ticker": "RIO",
+   "isin": "GB0007188757"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Rolls-Royce Holdings",
+   "ticker": "RR",
+   "isin": "GB00B63H8491"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Sage Group",
+   "ticker": "SGE",
+   "isin": "GB00B8C3BL03"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Sainsbury's",
+   "ticker": "SBRY",
+   "isin": "GB00B019KW72"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Scottish Mortgage Investment Trust",
+   "ticker": "SMT",
+   "isin": "GB00BLDYK618"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Segro",
+   "ticker": "SGRO",
+   "isin": "GB00B5ZN1N88"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Severn Trent",
+   "ticker": "SVT",
+   "isin": "GB00B1FH8J72"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Shell plc",
+   "ticker": "SHEL",
+   "isin": "GB00BP6MXD84"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Smiths Group",
+   "ticker": "SMIN",
+   "isin": "GB00B1WY2338"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Smith & Nephew",
+   "ticker": "SN",
+   "isin": "GB0009223206"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Spirax Group",
+   "ticker": "SPX",
+   "isin": "GB00BWFGQN14"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "SSE plc",
+   "ticker": "SSE",
+   "isin": "GB0007908733"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Standard Chartered",
+   "ticker": "STAN",
+   "isin": "GB0004082847"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Standard Life",
+   "ticker": "SDLF",
+   "isin": "GB00BGXQNP29"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "St. James's Place",
+   "ticker": "STJ",
+   "isin": "GB0007669376"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Tesco",
+   "ticker": "TSCO",
+   "isin": "GB00BLGZ9862"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Tritax Big Box REIT",
+   "ticker": "BBOX",
+   "isin": "GB00BG49KP99"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Unilever",
+   "ticker": "ULVR",
+   "isin": "GB00BVZK7T90"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "United Utilities",
+   "ticker": "UU",
+   "isin": "GB00B39J2M42"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Vodafone Group",
+   "ticker": "VOD",
+   "isin": "GB00BH4HKS39"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Weir",
+   "ticker": "WEIR",
+   "isin": "GB0009465807"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "Whitbread",
+   "ticker": "WTB",
+   "isin": "GB00B1KJJ408"
+  },
+  {
+   "index": "FTSE 100",
+   "name": "WPP",
+   "ticker": "WPP",
+   "isin": "JE00B8KF9B49"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Adidas",
+   "ticker": "ADS.DE",
+   "registered_office": "Germany",
+   "main_listing": "FWB: ADS"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Adyen",
+   "ticker": "ADYEN.AS",
+   "registered_office": "Netherlands",
+   "main_listing": "Euronext Amsterdam: ADYEN"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Ahold Delhaize",
+   "ticker": "AD.AS",
+   "registered_office": "Netherlands",
+   "main_listing": "Euronext Amsterdam: AD"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Air Liquide",
+   "ticker": "AI.PA",
+   "registered_office": "France",
+   "main_listing": "Euronext Paris: AI"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Airbus",
+   "ticker": "AIR.PA",
+   "registered_office": "France",
+   "main_listing": "Euronext Paris: AIR"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Allianz",
+   "ticker": "ALV.DE",
+   "registered_office": "Germany",
+   "main_listing": "FWB: ALV"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Anheuser-Busch InBev",
+   "ticker": "ABI.BR",
+   "registered_office": "Belgium",
+   "main_listing": "Euronext Brussels: ABI"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Argenx",
+   "ticker": "ARGX.BR",
+   "registered_office": "Netherlands",
+   "main_listing": "Euronext Brussels: ARGX"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "ASML Holding",
+   "ticker": "ASML.AS",
+   "registered_office": "Netherlands",
+   "main_listing": "Euronext Amsterdam: ASML"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Axa",
+   "ticker": "CS.PA",
+   "registered_office": "France",
+   "main_listing": "Euronext Paris: CS"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "BASF",
+   "ticker": "BAS.DE",
+   "registered_office": "Germany",
+   "main_listing": "FWB: BAS"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Bayer",
+   "ticker": "BAYN.DE",
+   "registered_office": "Germany",
+   "main_listing": "FWB: BAYN"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "BBVA",
+   "ticker": "BBVA.MC",
+   "registered_office": "Spain",
+   "main_listing": "BMAD: BBVA"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Banco Santander",
+   "ticker": "SAN.MC",
+   "registered_office": "Spain",
+   "main_listing": "BMAD: SAN"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "BMW",
+   "ticker": "BMW.DE",
+   "registered_office": "Germany",
+   "main_listing": "FWB: BMW"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "BNP Paribas",
+   "ticker": "BNP.PA",
+   "registered_office": "France",
+   "main_listing": "Euronext Paris: BNP"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Danone",
+   "ticker": "BN.PA",
+   "registered_office": "France",
+   "main_listing": "Euronext Paris: BN"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Deutsche Bank",
+   "ticker": "DBK.DE",
+   "registered_office": "Germany",
+   "main_listing": "FWB: DBK"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Deutsche Börse",
+   "ticker": "DB1.DE",
+   "registered_office": "Germany",
+   "main_listing": "FWB: DB1"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Deutsche Post",
+   "ticker": "DHL.DE",
+   "registered_office": "Germany",
+   "main_listing": "FWB: DHL"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Deutsche Telekom",
+   "ticker": "DTE.DE",
+   "registered_office": "Germany",
+   "main_listing": "FWB: DTE"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Enel",
+   "ticker": "ENEL.MI",
+   "registered_office": "Italy",
+   "main_listing": "BIT: ENEL"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Engie",
+   "ticker": "ENGI.PA",
+   "registered_office": "France",
+   "main_listing": "Euronext Paris: ENGI"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Eni",
+   "ticker": "ENI.MI",
+   "registered_office": "Italy",
+   "main_listing": "BIT: ENI"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "EssilorLuxottica",
+   "ticker": "EL.PA",
+   "registered_office": "France",
+   "main_listing": "Euronext Paris: EL"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Ferrari",
+   "ticker": "RACE.MI",
+   "registered_office": "Netherlands",
+   "main_listing": "BIT: RACE"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Hermès",
+   "ticker": "RMS.PA",
+   "registered_office": "France",
+   "main_listing": "Euronext Paris: RMS"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Iberdrola",
+   "ticker": "IBE.MC",
+   "registered_office": "Spain",
+   "main_listing": "BMAD: IBE"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Inditex",
+   "ticker": "ITX.MC",
+   "registered_office": "Spain",
+   "main_listing": "BMAD: ITX"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Infineon Technologies",
+   "ticker": "IFX.DE",
+   "registered_office": "Germany",
+   "main_listing": "FWB: IFX"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "ING Group",
+   "ticker": "INGA.AS",
+   "registered_office": "Netherlands",
+   "main_listing": "Euronext Amsterdam: INGA"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Intesa Sanpaolo",
+   "ticker": "ISP.MI",
+   "registered_office": "Italy",
+   "main_listing": "BIT: ISP"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "L'Oréal",
+   "ticker": "OR.PA",
+   "registered_office": "France",
+   "main_listing": "Euronext Paris: OR"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "LVMH Moët Hennessy Louis Vuitton",
+   "ticker": "MC.PA",
+   "registered_office": "France",
+   "main_listing": "Euronext Paris: MC"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Mercedes-Benz Group",
+   "ticker": "MBG.DE",
+   "registered_office": "Germany",
+   "main_listing": "FWB: MBG"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Munich Re",
+   "ticker": "MUV2.DE",
+   "registered_office": "Germany",
+   "main_listing": "FWB: MUV2"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Nokia",
+   "ticker": "NOKIA.HE",
+   "registered_office": "Finland",
+   "main_listing": "Nasdaq Helsinki: NOKIA"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Nordea",
+   "ticker": "NDA-FI.HE",
+   "registered_office": "Finland",
+   "main_listing": "Nasdaq Helsinki: NDA FI"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Prosus",
+   "ticker": "PRX.AS",
+   "registered_office": "Netherlands",
+   "main_listing": "Euronext Amsterdam: PRX"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Rheinmetall",
+   "ticker": "RHM.DE",
+   "registered_office": "Germany",
+   "main_listing": "FWB: RHM"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Safran",
+   "ticker": "SAF.PA",
+   "registered_office": "France",
+   "main_listing": "Euronext Paris: SAF"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Saint-Gobain",
+   "ticker": "SGO.PA",
+   "registered_office": "France",
+   "main_listing": "Euronext Paris: SGO"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Sanofi",
+   "ticker": "SAN.PA",
+   "registered_office": "France",
+   "main_listing": "Euronext Paris: SAN"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "SAP",
+   "ticker": "SAP.DE",
+   "registered_office": "Germany",
+   "main_listing": "FWB: SAP"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Schneider Electric",
+   "ticker": "SU.PA",
+   "registered_office": "France",
+   "main_listing": "Euronext Paris: SU"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Siemens",
+   "ticker": "SIE.DE",
+   "registered_office": "Germany",
+   "main_listing": "FWB: SIE"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Siemens Energy",
+   "ticker": "ENR.DE",
+   "registered_office": "Germany",
+   "main_listing": "FWB: ENR"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "TotalEnergies",
+   "ticker": "TTE.PA",
+   "registered_office": "France",
+   "main_listing": "Euronext Paris: TTE"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "Vinci SA",
+   "ticker": "DG.PA",
+   "registered_office": "France",
+   "main_listing": "Euronext Paris: DG"
+  },
+  {
+   "index": "EURO STOXX 50",
+   "name": "UniCredit",
+   "ticker": "UCG.MI",
+   "registered_office": "Italy",
+   "main_listing": "BIT: UCG"
+  }
+ ]
+}

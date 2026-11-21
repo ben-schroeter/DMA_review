@@ -22,7 +22,7 @@ WEB_UA = "Mozilla/5.0 (compatible; EU Digital Rulebook research)"
 YEARS = range(2016, 2027)
 
 
-def get(url, ua, binary=True, sleep=0.25, retries=4):
+def get(url, ua, binary=True, sleep=0.25, retries=6):
     os.makedirs(CACHE, exist_ok=True)
     path = os.path.join(CACHE, "raw_" + hashlib.sha1(url.encode()).hexdigest())
     if os.path.exists(path):
@@ -35,9 +35,10 @@ def get(url, ua, binary=True, sleep=0.25, retries=4):
                     data = r.read()
                 break
             except Exception as e:
-                if i == retries - 1:
+                if i == retries - 1 or getattr(e, "code", None) in (403, 404):
                     raise
-                time.sleep(2 ** (i + 1))
+                # filings.xbrl.org answers 429 when polled quickly
+                time.sleep(15 * (i + 1) if getattr(e, "code", None) == 429 else 2 ** (i + 1))
         open(path, "wb").write(data)
         time.sleep(sleep)
     return data if binary else data.decode("utf-8", "replace")
@@ -82,8 +83,8 @@ def to_text(url, ua, kind):
     raw = get(url, ua)
     text = pdf_to_text(raw) if kind == "pdf" or raw[:4] == b"%PDF" else html_to_text(raw)
     open(tpath, "w", encoding="utf-8").write(text)
-    # raw copies of large PDFs are not needed once the text exists
-    if len(raw) > 5_000_000:
+    # raw copies of large documents are not needed once the text exists
+    if len(raw) > 1_000_000:
         os.remove(os.path.join(CACHE, "raw_" + hashlib.sha1(url.encode()).hexdigest()))
     return text
 
@@ -126,28 +127,42 @@ def sec_exhibits(url):
 
 
 def main():
-    cfg = json.load(open(os.path.join(DATA, "companies.json")))
-    only = set(sys.argv[1:])
-    manifest_path = os.path.join(DATA, "reports.json")
+    """python3 cr_fetch.py [--config FILE] [--manifest FILE] [company ids ...]
+    Defaults: the pilot (data/company_responses/companies.json -> reports.json)."""
+    args = sys.argv[1:]
+    opt = {}
+    for k in ("--config", "--manifest"):
+        if k in args:
+            i = args.index(k)
+            opt[k] = args[i + 1]
+            del args[i:i + 2]
+    cfg = json.load(open(opt.get("--config", os.path.join(DATA, "companies.json"))))
+    only = set(args)
+    manifest_path = opt.get("--manifest", os.path.join(DATA, "reports.json"))
     old = {(r["company"], r["year"]): r for r in json.load(open(manifest_path))} if os.path.exists(manifest_path) else {}
     rows = []
     for c in cfg["companies"]:
         cid = c["id"]
+        if c.get("exclude"):
+            continue
         if only and cid not in only:
             rows += [r for k, r in old.items() if k[0] == cid]
             continue
         found = {}
-        if c.get("sec_cik"):
-            for f in sorted(sec_annual_filings(c["sec_cik"]), key=lambda f: f["filed"]):
-                y = int(f["period_end"][:4])
-                if y in YEARS and y not in found:   # first original filing for the period
-                    found[y] = dict(f, source="SEC EDGAR", kind="html")
-        for y, url in cfg["esef_reports"].get(cid, {}).items():
+        ciks = c.get("sec_ciks") or ([c["sec_cik"]] if c.get("sec_cik") else [])
+        filings = [f for cik in ciks for f in sec_annual_filings(cik)]
+        for f in sorted(filings, key=lambda f: f["filed"]):
+            y = int(f["period_end"][:4])
+            if y in YEARS and y not in found:   # first original filing for the period
+                found[y] = dict(f, source="SEC EDGAR", kind="html")
+        esef = c.get("esef_reports") or {y: {"url": u} for y, u in cfg.get("esef_reports", {}).get(cid, {}).items()}
+        for y, e in esef.items():
             if y.startswith("_") or int(y) in found:
                 continue
-            found[int(y)] = {"form": "ESEF annual financial report", "period_end": f"{y}-12-31", "url": url,
-                             "source": "filings.xbrl.org", "kind": "html", "language": "fr" if "-fr" in url else "en"}
-        for y, url in cfg["web_reports"].get(cid, {}).items():
+            lang = e.get("language") or ("fr" if "-fr" in e["url"] else "")
+            found[int(y)] = {"form": "ESEF annual financial report", "period_end": e.get("period_end", f"{y}-12-31"),
+                             "url": e["url"], "source": "filings.xbrl.org", "kind": "html", "language": lang}
+        for y, url in cfg.get("web_reports", {}).get(cid, {}).items():
             if y.startswith("_") or int(y) in found:
                 continue
             found[int(y)] = {"form": "Annual report (company website)", "period_end": f"{y}-12-31", "url": url,

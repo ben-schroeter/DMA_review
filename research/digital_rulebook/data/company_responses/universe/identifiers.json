@@ -1,0 +1,1393 @@
+{
+ "_note": "Identifiers for each company: SEC CIKs (several where the registrant changed, e.g. Disney 2019) and LEI (used for filings.xbrl.org and GLEIF headquarters). Matched by name and checked by hand on 2026-11-21. 'exclude' = not counted, with the reason.",
+ "companies": {
+  "Amazon": {
+   "sec_ciks": [
+    1018724
+   ]
+  },
+  "Walmart": {
+   "sec_ciks": [
+    104169
+   ]
+  },
+  "UnitedHealth Group": {
+   "sec_ciks": [
+    731766
+   ]
+  },
+  "Apple": {
+   "sec_ciks": [
+    320193
+   ]
+  },
+  "Alphabet": {
+   "sec_ciks": [
+    1652044
+   ]
+  },
+  "CVS Health": {
+   "sec_ciks": [
+    64803
+   ]
+  },
+  "Berkshire Hathaway": {
+   "sec_ciks": [
+    1067983
+   ]
+  },
+  "McKesson": {
+   "sec_ciks": [
+    927653
+   ]
+  },
+  "Exxon Mobil Holdings": {
+   "sec_ciks": [
+    34088,
+    2115436
+   ]
+  },
+  "Cencora": {
+   "sec_ciks": [
+    1140859
+   ]
+  },
+  "Microsoft": {
+   "sec_ciks": [
+    789019
+   ]
+  },
+  "JPMorgan Chase": {
+   "sec_ciks": [
+    19617
+   ]
+  },
+  "Costco Wholesale": {
+   "sec_ciks": [
+    909832
+   ]
+  },
+  "Cigna Group": {
+   "sec_ciks": [
+    701221,
+    1739940
+   ]
+  },
+  "Cardinal Health": {
+   "sec_ciks": [
+    721371
+   ]
+  },
+  "Nvidia": {
+   "sec_ciks": [
+    1045810
+   ]
+  },
+  "Meta Platforms": {
+   "sec_ciks": [
+    1326801
+   ]
+  },
+  "Elevance Health": {
+   "sec_ciks": [
+    1156039
+   ]
+  },
+  "Centene": {
+   "sec_ciks": [
+    1071739
+   ]
+  },
+  "Bank of America": {
+   "sec_ciks": [
+    70858
+   ]
+  },
+  "Chevron": {
+   "sec_ciks": [
+    93410
+   ]
+  },
+  "Ford Motor": {
+   "sec_ciks": [
+    37996
+   ]
+  },
+  "General Motors": {
+   "sec_ciks": [
+    1467858
+   ]
+  },
+  "Citigroup": {
+   "sec_ciks": [
+    831001
+   ]
+  },
+  "Home Depot": {
+   "sec_ciks": [
+    354950
+   ]
+  },
+  "Fannie Mae": {
+   "sec_ciks": [
+    310522
+   ]
+  },
+  "Kroger": {
+   "sec_ciks": [
+    56873
+   ]
+  },
+  "Verizon Communications": {
+   "sec_ciks": [
+    732712
+   ]
+  },
+  "Phillips 66": {
+   "sec_ciks": [
+    1534701
+   ]
+  },
+  "Marathon Petroleum": {
+   "sec_ciks": [
+    1510295
+   ]
+  },
+  "StoneX Group": {
+   "sec_ciks": [
+    913760
+   ]
+  },
+  "State Farm Insurance": {
+   "sec_ciks": [],
+   "note": "mutual / member-owned; does not file 10-Ks with the SEC"
+  },
+  "Freddie Mac": {
+   "sec_ciks": [
+    1026214
+   ]
+  },
+  "Humana": {
+   "sec_ciks": [
+    49071
+   ]
+  },
+  "AT&T": {
+   "sec_ciks": [
+    732717
+   ]
+  },
+  "Goldman Sachs Group": {
+   "sec_ciks": [
+    886982
+   ]
+  },
+  "Comcast": {
+   "sec_ciks": [
+    1166691
+   ]
+  },
+  "Wells Fargo": {
+   "sec_ciks": [
+    72971
+   ]
+  },
+  "Morgan Stanley": {
+   "sec_ciks": [
+    895421
+   ]
+  },
+  "Valero Energy": {
+   "sec_ciks": [
+    1035002
+   ]
+  },
+  "Dell Technologies": {
+   "sec_ciks": [
+    1571996
+   ]
+  },
+  "Target": {
+   "sec_ciks": [
+    27419
+   ]
+  },
+  "Tesla": {
+   "sec_ciks": [
+    1318605
+   ]
+  },
+  "Walt Disney": {
+   "sec_ciks": [
+    1001039,
+    1744489
+   ]
+  },
+  "Johnson & Johnson": {
+   "sec_ciks": [
+    200406
+   ]
+  },
+  "PepsiCo": {
+   "sec_ciks": [
+    77476
+   ]
+  },
+  "Boeing": {
+   "sec_ciks": [
+    12927
+   ]
+  },
+  "UPS": {
+   "sec_ciks": [
+    1090727
+   ]
+  },
+  "RTX": {
+   "sec_ciks": [
+    101829
+   ]
+  },
+  "FedEx": {
+   "sec_ciks": [
+    1048911
+   ]
+  },
+  "Progressive": {
+   "sec_ciks": [
+    80661
+   ]
+  },
+  "Lowe's": {
+   "sec_ciks": [
+    60667
+   ]
+  },
+  "Energy Transfer": {
+   "sec_ciks": [
+    1276187
+   ]
+  },
+  "Procter & Gamble": {
+   "sec_ciks": [
+    80424
+   ]
+  },
+  "Sysco": {
+   "sec_ciks": [
+    96021
+   ]
+  },
+  "American Express": {
+   "sec_ciks": [
+    4962
+   ]
+  },
+  "Albertsons": {
+   "sec_ciks": [
+    1646972
+   ]
+  },
+  "Archer Daniels Midland": {
+   "sec_ciks": [
+    7084
+   ]
+  },
+  "MetLife": {
+   "sec_ciks": [
+    1099219
+   ]
+  },
+  "HCA Healthcare": {
+   "sec_ciks": [
+    860730
+   ]
+  },
+  "Lockheed Martin": {
+   "sec_ciks": [
+    936468
+   ]
+  },
+  "New York Life Insurance": {
+   "sec_ciks": [],
+   "note": "mutual / member-owned; does not file 10-Ks with the SEC"
+  },
+  "Capital One Financial": {
+   "sec_ciks": [
+    927628
+   ]
+  },
+  "Allstate": {
+   "sec_ciks": [
+    899051
+   ]
+  },
+  "Caterpillar": {
+   "sec_ciks": [
+    18230
+   ]
+  },
+  "International Business Machines": {
+   "sec_ciks": [
+    51143
+   ]
+  },
+  "Eli Lilly": {
+   "sec_ciks": [
+    59478
+   ]
+  },
+  "MSD": {
+   "sec_ciks": [
+    310158
+   ]
+  },
+  "Nationwide": {
+   "sec_ciks": [],
+   "note": "mutual / member-owned; does not file 10-Ks with the SEC"
+  },
+  "Broadcom": {
+   "sec_ciks": [
+    1649338,
+    1730168
+   ]
+  },
+  "Delta Air Lines": {
+   "sec_ciks": [
+    27904
+   ]
+  },
+  "Publix Super Markets": {
+   "sec_ciks": [
+    81061
+   ]
+  },
+  "Pfizer": {
+   "sec_ciks": [
+    78003
+   ]
+  },
+  "TD Synnex": {
+   "sec_ciks": [
+    1177394
+   ]
+  },
+  "ConocoPhillips": {
+   "sec_ciks": [
+    1163165
+   ]
+  },
+  "Galaxy Digital": {
+   "sec_ciks": [
+    1859392
+   ]
+  },
+  "AbbVie": {
+   "sec_ciks": [
+    1551152
+   ]
+  },
+  "Prudential Financial": {
+   "sec_ciks": [
+    1137774
+   ]
+  },
+  "TJX": {
+   "sec_ciks": [
+    109198
+   ]
+  },
+  "Performance Food Group": {
+   "sec_ciks": [
+    1618673
+   ]
+  },
+  "United Airlines Holdings": {
+   "sec_ciks": [
+    100517
+   ]
+  },
+  "Oracle": {
+   "sec_ciks": [
+    1341439
+   ]
+  },
+  "Cisco Systems": {
+   "sec_ciks": [
+    858877
+   ]
+  },
+  "HP": {
+   "sec_ciks": [
+    47217
+   ]
+  },
+  "Charter Communications": {
+   "sec_ciks": [
+    1091667
+   ]
+  },
+  "American Airlines Group": {
+   "sec_ciks": [
+    6201
+   ]
+  },
+  "Tyson Foods": {
+   "sec_ciks": [
+    100493
+   ]
+  },
+  "Intel": {
+   "sec_ciks": [
+    50863
+   ]
+  },
+  "Enterprise Products Partners": {
+   "sec_ciks": [
+    1061219
+   ]
+  },
+  "Ingram Micro Holding": {
+   "sec_ciks": [
+    1897762
+   ]
+  },
+  "General Dynamics": {
+   "sec_ciks": [
+    40533
+   ]
+  },
+  "Uber Technologies": {
+   "sec_ciks": [
+    1543151
+   ]
+  },
+  "United Services Automobile Assn.": {
+   "sec_ciks": [],
+   "note": "mutual / member-owned; does not file 10-Ks with the SEC"
+  },
+  "TIAA": {
+   "sec_ciks": [],
+   "note": "mutual / member-owned; does not file 10-Ks with the SEC"
+  },
+  "Liberty Mutual Insurance Group": {
+   "sec_ciks": [],
+   "note": "mutual / member-owned; does not file 10-Ks with the SEC"
+  },
+  "Travelers": {
+   "sec_ciks": [
+    86312
+   ]
+  },
+  "Bristol-Myers Squibb": {
+   "sec_ciks": [
+    14272
+   ]
+  },
+  "Coca-Cola": {
+   "sec_ciks": [
+    21344
+   ]
+  },
+  "Nike": {
+   "sec_ciks": [
+    320187
+   ]
+  },
+  "Massachusetts Mutual Life Insurance": {
+   "sec_ciks": [],
+   "note": "mutual / member-owned; does not file 10-Ks with the SEC"
+  },
+  "Adidas": {
+   "sec_ciks": [],
+   "lei": "549300JSX0Z4CW0V5023"
+  },
+  "Airbus": {
+   "sec_ciks": [],
+   "lei": "MINO79WLOO247M1IL051"
+  },
+  "Allianz": {
+   "sec_ciks": [],
+   "lei": "529900K9B0N5BT694847"
+  },
+  "BASF": {
+   "sec_ciks": [],
+   "lei": "529900PM64WH8AF1E917"
+  },
+  "Bayer": {
+   "sec_ciks": [],
+   "lei": "549300J4U55H3WP1XT59"
+  },
+  "Beiersdorf": {
+   "sec_ciks": [],
+   "lei": "L47NHHI0Z9X22DV46U41"
+  },
+  "BMW": {
+   "sec_ciks": [],
+   "lei": null
+  },
+  "Brenntag": {
+   "sec_ciks": [],
+   "lei": null
+  },
+  "Commerzbank": {
+   "sec_ciks": [],
+   "lei": "851WYGNLUQLFZBSYGB56"
+  },
+  "Continental": {
+   "sec_ciks": [],
+   "lei": null
+  },
+  "Daimler Truck": {
+   "sec_ciks": [],
+   "lei": null
+  },
+  "Deutsche Bank": {
+   "sec_ciks": [
+    1159508
+   ],
+   "lei": "7LTWFZYICNSX8D621K86"
+  },
+  "Deutsche Börse": {
+   "sec_ciks": [],
+   "lei": "529900G3SW56SHYNPR95"
+  },
+  "Deutsche Post": {
+   "sec_ciks": [],
+   "lei": null
+  },
+  "Deutsche Telekom": {
+   "sec_ciks": [
+    946770
+   ],
+   "lei": "549300V9QSIG4WX4GJ96"
+  },
+  "E.ON": {
+   "sec_ciks": [
+    1136808
+   ],
+   "lei": null
+  },
+  "Fresenius": {
+   "sec_ciks": [],
+   "lei": null
+  },
+  "Fresenius Medical Care": {
+   "sec_ciks": [
+    1333141
+   ],
+   "lei": "549300CP8NY40UP89Q40"
+  },
+  "GEA Group": {
+   "sec_ciks": [],
+   "lei": null
+  },
+  "Hannover Re": {
+   "sec_ciks": [],
+   "lei": "529900KIN5BE45V5KB18"
+  },
+  "Heidelberg Materials": {
+   "sec_ciks": [],
+   "lei": null
+  },
+  "Henkel": {
+   "sec_ciks": [],
+   "lei": "549300VZCL1HTH4O4Y49"
+  },
+  "Infineon Technologies": {
+   "sec_ciks": [
+    1107457
+   ],
+   "lei": null
+  },
+  "Mercedes-Benz Group": {
+   "sec_ciks": [
+    1067318
+   ],
+   "lei": "529900R27DL06UVNT076"
+  },
+  "Merck": {
+   "sec_ciks": [],
+   "lei": "529900OAREIS0MOPTW25"
+  },
+  "MTU Aero Engines": {
+   "sec_ciks": [],
+   "lei": "529900807L67JY81RD65"
+  },
+  "Munich Re": {
+   "sec_ciks": [],
+   "lei": null
+  },
+  "Porsche SE": {
+   "sec_ciks": [],
+   "lei": null
+  },
+  "Qiagen": {
+   "sec_ciks": [
+    1015820
+   ],
+   "lei": "54930036WK3GMCN17Z57"
+  },
+  "Rheinmetall": {
+   "sec_ciks": [],
+   "lei": "5299001OU9CSE29O6S05"
+  },
+  "RWE": {
+   "sec_ciks": [],
+   "lei": null
+  },
+  "SAP": {
+   "sec_ciks": [
+    1000184
+   ],
+   "lei": "529900D6BF99LW9R2E68"
+  },
+  "Scout24": {
+   "sec_ciks": [],
+   "lei": "5493007EIKM2ENQS7U66"
+  },
+  "Siemens": {
+   "sec_ciks": [],
+   "lei": "W38RGI023J3WT1HWRP32"
+  },
+  "Siemens Energy": {
+   "sec_ciks": [],
+   "lei": null
+  },
+  "Siemens Healthineers": {
+   "sec_ciks": [],
+   "lei": null
+  },
+  "Symrise": {
+   "sec_ciks": [],
+   "lei": null
+  },
+  "Volkswagen Group": {
+   "sec_ciks": [],
+   "lei": "529900NNUPAGGOMPXZ31"
+  },
+  "Vonovia": {
+   "sec_ciks": [],
+   "lei": "5299005A2ZEP6AP7KM81"
+  },
+  "Zalando": {
+   "sec_ciks": [],
+   "lei": "529900YRFFGH5AXU4S86"
+  },
+  "Accor": {
+   "sec_ciks": [],
+   "lei": "969500QZC2Q0TK11NV07"
+  },
+  "Air Liquide": {
+   "sec_ciks": [],
+   "lei": "969500MMPQVHK671GT54"
+  },
+  "ArcelorMittal": {
+   "sec_ciks": [
+    1243429
+   ],
+   "lei": "2EULGUTUI56JI9SAL165"
+  },
+  "Axa": {
+   "sec_ciks": [],
+   "lei": "F5WCUMTUM4RKZ1MAIE39"
+  },
+  "BNP Paribas": {
+   "sec_ciks": [],
+   "lei": "R0MUWSFPU8MPRO8K5P83"
+  },
+  "Bouygues": {
+   "sec_ciks": [],
+   "lei": "969500MOCLNQFNZN0D63"
+  },
+  "Bureau Veritas": {
+   "sec_ciks": [],
+   "lei": "969500TPU5T3HA5D1F11"
+  },
+  "Capgemini": {
+   "sec_ciks": [],
+   "lei": "96950077L0TN7BAROX36"
+  },
+  "Carrefour": {
+   "sec_ciks": [],
+   "lei": "549300B8P6MUJ1YWTS08"
+  },
+  "Crédit Agricole": {
+   "sec_ciks": [
+    1279967
+   ],
+   "lei": "969500TJ5KRTCJQWXH05"
+  },
+  "Danone": {
+   "sec_ciks": [],
+   "lei": "969500KMUQ2B6CBAF162"
+  },
+  "Dassault Systèmes": {
+   "sec_ciks": [],
+   "lei": "96950065LBWY0APQIM86"
+  },
+  "Eiffage": {
+   "sec_ciks": [],
+   "lei": "969500OQXKE5WDM9M994"
+  },
+  "Engie": {
+   "sec_ciks": [],
+   "lei": "LAXUQCHT4FH58LRZDY46"
+  },
+  "EssilorLuxottica": {
+   "sec_ciks": [],
+   "lei": "549300M3VH1A3ER1TB49"
+  },
+  "Eurofins Scientific": {
+   "sec_ciks": [],
+   "lei": "529900JEHFM47DYY3S57"
+  },
+  "Euronext": {
+   "sec_ciks": [],
+   "lei": "724500QJ4QSZ3H9QU415"
+  },
+  "Hermès": {
+   "sec_ciks": [],
+   "lei": "969500Y4IJGHJE2MTJ13"
+  },
+  "Kering": {
+   "sec_ciks": [],
+   "lei": "549300VGEJKB7SVUZR78"
+  },
+  "L'Oréal": {
+   "sec_ciks": [],
+   "lei": "529900JI1GG6F7RKVI53"
+  },
+  "Legrand": {
+   "sec_ciks": [],
+   "lei": "969500XXRPGD7HCAFA90"
+  },
+  "LVMH": {
+   "sec_ciks": [],
+   "lei": "IOG4E947OATN0KJYSD45"
+  },
+  "Michelin": {
+   "sec_ciks": [],
+   "lei": "549300SOSI58J6VIW052"
+  },
+  "Orange": {
+   "sec_ciks": [
+    1038143
+   ],
+   "lei": "969500MCOONR8990S771"
+  },
+  "Pernod Ricard": {
+   "sec_ciks": [],
+   "lei": "52990097YFPX9J0H5D87"
+  },
+  "Publicis": {
+   "sec_ciks": [],
+   "lei": "2138004KW8BV57III342"
+  },
+  "Renault": {
+   "sec_ciks": [],
+   "lei": "969500F7JLTX36OUI695"
+  },
+  "Safran": {
+   "sec_ciks": [],
+   "lei": "969500UIC89GT3UL7L24"
+  },
+  "Saint-Gobain": {
+   "sec_ciks": [
+    1012037
+   ],
+   "lei": null
+  },
+  "Sanofi": {
+   "sec_ciks": [
+    1121404
+   ],
+   "lei": "549300E9PC51EN656011"
+  },
+  "Schneider Electric": {
+   "sec_ciks": [],
+   "lei": "969500A1YF1XUYYXS284"
+  },
+  "Société Générale": {
+   "sec_ciks": [],
+   "lei": "O2RNE8IBXP4R0TD8PU41"
+  },
+  "Stellantis": {
+   "sec_ciks": [
+    1605484
+   ],
+   "lei": "549300LKT9PW7ZIBDF31"
+  },
+  "STMicroelectronics": {
+   "sec_ciks": [
+    932787
+   ],
+   "lei": "213800Z8NOHIKRI42W10"
+  },
+  "Thales": {
+   "sec_ciks": [],
+   "lei": "529900FNDVTQJOVVPZ19"
+  },
+  "TotalEnergies": {
+   "sec_ciks": [
+    879764
+   ],
+   "lei": "529900S21EQ1BO4ESM68"
+  },
+  "Unibail-Rodamco-Westfield": {
+   "sec_ciks": [],
+   "lei": "969500SHQITWXSIS7N89"
+  },
+  "Veolia": {
+   "sec_ciks": [],
+   "lei": "969500LENY69X51OOT31"
+  },
+  "Vinci": {
+   "sec_ciks": [],
+   "lei": "213800WFQ334R8UXUG83"
+  },
+  "3i": {
+   "sec_ciks": [],
+   "lei": "35GDVHRBMFE7NWATNM84"
+  },
+  "Aberdeen Group": {
+   "sec_ciks": [],
+   "lei": "0TMBS544NMO7GLCE7H90"
+  },
+  "Admiral Group": {
+   "sec_ciks": [],
+   "lei": "213800FGVM7Z9EJB2685"
+  },
+  "Airtel Africa": {
+   "sec_ciks": [],
+   "lei": "254900ZNZDQL6OWQH623"
+  },
+  "Alliance Witan": {
+   "exclude": "investment trust / fund"
+  },
+  "Anglo American plc": {
+   "sec_ciks": [],
+   "lei": "549300S9XF92D1X8ME43"
+  },
+  "Antofagasta plc": {
+   "sec_ciks": [],
+   "lei": "213800MY6QVH4FVLD628"
+  },
+  "Associated British Foods": {
+   "sec_ciks": [],
+   "lei": "GBQKSY6W7G0OHCQ8OQ72"
+  },
+  "AstraZeneca": {
+   "sec_ciks": [
+    901832
+   ],
+   "lei": "PY6ZZQWO2IZFZC3IOL08"
+  },
+  "Autotrader Group": {
+   "sec_ciks": [],
+   "lei": "213800QLK9BZILB1DI86"
+  },
+  "Aviva": {
+   "sec_ciks": [
+    1140022
+   ],
+   "lei": "YF0Y5B0IB8SM0ZFG9G81"
+  },
+  "Babcock International": {
+   "sec_ciks": [],
+   "lei": "213800TSKOLX4EU6L377"
+  },
+  "BAE Systems": {
+   "sec_ciks": [
+    895564
+   ],
+   "lei": "8SVCSVKSGDWMW2QHOH83"
+  },
+  "Balfour Beatty": {
+   "sec_ciks": [],
+   "lei": "CT4UIJ3TUKGYYHMENQ17"
+  },
+  "Barclays": {
+   "sec_ciks": [
+    312069
+   ],
+   "lei": "213800LBQA1Y9L22JB70"
+  },
+  "Barratt Redrow": {
+   "sec_ciks": [],
+   "lei": "2138006R85VEOF5YNK29"
+  },
+  "BP": {
+   "sec_ciks": [
+    313807
+   ],
+   "lei": "213800LH1BZH3DI6G760"
+  },
+  "British American Tobacco": {
+   "sec_ciks": [
+    1303523
+   ],
+   "lei": "213800FKA5MF17RJKT63"
+  },
+  "British Land": {
+   "sec_ciks": [],
+   "lei": "RV5B68J2GV3QGMRPW209"
+  },
+  "BT Group": {
+   "sec_ciks": [],
+   "lei": "213800LRO7NS5CYQMN21"
+  },
+  "Bunzl": {
+   "sec_ciks": [],
+   "lei": "213800Q1Q9DV4L78UM09"
+  },
+  "Burberry Group": {
+   "sec_ciks": [],
+   "lei": "213800PE1KEFCNFR1R50"
+  },
+  "Centrica": {
+   "sec_ciks": [],
+   "lei": "E26EDV109X6EEPBKVH76"
+  },
+  "Coca-Cola Europacific Partners": {
+   "sec_ciks": [
+    1650107
+   ],
+   "lei": "549300LTH67W4GWMRF57"
+  },
+  "Coca-Cola HBC": {
+   "sec_ciks": [],
+   "lei": "549300EFP3TNG7JGVE49"
+  },
+  "Compass Group": {
+   "sec_ciks": [],
+   "lei": "2138008M6MH9OZ6U2T68"
+  },
+  "Computacenter": {
+   "sec_ciks": [],
+   "lei": "549300XSXUZ1I19DB105"
+  },
+  "Convatec": {
+   "sec_ciks": [],
+   "lei": "213800LS272L4FIDOH92"
+  },
+  "Croda International": {
+   "sec_ciks": [],
+   "lei": "2138004WCNBFJEEOXV26"
+  },
+  "DCC Energy": {
+   "sec_ciks": [],
+   "lei": "213800UPS1QEE4TD3T45"
+  },
+  "Diageo": {
+   "sec_ciks": [
+    835403
+   ],
+   "lei": "213800ZVIELEA55JMJ32"
+  },
+  "Diploma": {
+   "sec_ciks": [],
+   "lei": "2138008OGI7VYG8FGR19"
+  },
+  "EasyJet": {
+   "sec_ciks": [],
+   "lei": "2138001S47XKWIB7TH90"
+  },
+  "Endeavour Mining": {
+   "sec_ciks": [],
+   "lei": "529900NI5MXQ91GHXR07"
+  },
+  "Experian": {
+   "sec_ciks": [],
+   "lei": "635400RXXHHYT1JTSZ26"
+  },
+  "F & C Investment Trust": {
+   "exclude": "investment trust / fund"
+  },
+  "Fresnillo plc": {
+   "sec_ciks": [],
+   "lei": "549300JXWH1UV5J0XV81"
+  },
+  "Games Workshop": {
+   "sec_ciks": [],
+   "lei": "213800RP9QJQYGWHNT41"
+  },
+  "Glencore": {
+   "sec_ciks": [],
+   "lei": "2138002658CPO9NBH955"
+  },
+  "GSK plc": {
+   "sec_ciks": [
+    1131399
+   ],
+   "lei": "5493000HZTVUYLO1D793"
+  },
+  "Haleon": {
+   "sec_ciks": [
+    1900304
+   ],
+   "lei": "549300PSB3WWEODCUP19"
+  },
+  "Halma plc": {
+   "sec_ciks": [],
+   "lei": "2138007FRGLUR9KGBT40"
+  },
+  "Hiscox": {
+   "sec_ciks": [],
+   "lei": "5493007JXOLJ0QCY2D70"
+  },
+  "Howdens Joinery": {
+   "sec_ciks": [],
+   "lei": "213800KC1LJOJTY3JP45"
+  },
+  "HSBC": {
+   "sec_ciks": [
+    1089113
+   ],
+   "lei": "MLU0ZO3ML4LN2LL2TL39"
+  },
+  "ICG": {
+   "sec_ciks": [],
+   "lei": "549300OGASR5WRKJ8R68"
+  },
+  "IG Group": {
+   "sec_ciks": [],
+   "lei": "2138003A5Q1M7ANOUD76"
+  },
+  "IHG Hotels & Resorts": {
+   "sec_ciks": [
+    858446
+   ],
+   "lei": "2138007ZFQYRUSLU3J98"
+  },
+  "IMI": {
+   "sec_ciks": [],
+   "lei": "2138002W9Q21PF751R30"
+  },
+  "Imperial Brands": {
+   "sec_ciks": [],
+   "lei": "549300DFVPOB67JL3A42"
+  },
+  "Informa": {
+   "sec_ciks": [],
+   "lei": "5493006VM2LKUPSEDU20"
+  },
+  "International Airlines Group": {
+   "sec_ciks": [],
+   "lei": "959800TZHQRUSH1ESL13"
+  },
+  "Intertek": {
+   "sec_ciks": [],
+   "lei": "2138003GAT25WW1RN369"
+  },
+  "Investec": {
+   "sec_ciks": [],
+   "lei": "2138007Z3U5GWDN3MY22"
+  },
+  "Ithaca Energy": {
+   "sec_ciks": [],
+   "lei": "21380057TNFLXPXBIP34"
+  },
+  "JD Sports": {
+   "sec_ciks": [],
+   "lei": "213800HROV6Y9MUU8375"
+  },
+  "Lion Finance Group": {
+   "sec_ciks": [],
+   "lei": "213800XKDG12NQG8VC53"
+  },
+  "Kingfisher plc": {
+   "sec_ciks": [],
+   "lei": "213800KBMEV7I92FY281"
+  },
+  "Land Securities": {
+   "sec_ciks": [],
+   "lei": "213800V8IAVKS37D6B88"
+  },
+  "Legal & General": {
+   "sec_ciks": [],
+   "lei": "213800JH9QQWHLO99821"
+  },
+  "Lloyds Banking Group": {
+   "sec_ciks": [
+    1160106
+   ],
+   "lei": "549300PPXHEU2JF0AM85"
+  },
+  "LondonMetric Property": {
+   "sec_ciks": [],
+   "lei": "213800OCERWWPQDURL87"
+  },
+  "London Stock Exchange Group": {
+   "sec_ciks": [],
+   "lei": "213800QAUUUP6I445N30"
+  },
+  "M&G": {
+   "sec_ciks": [],
+   "lei": "254900TWUJUQ44TQJY84"
+  },
+  "Marks & Spencer": {
+   "sec_ciks": [],
+   "lei": "213800EJP14A79ZG1X44"
+  },
+  "Melrose Industries": {
+   "sec_ciks": [],
+   "lei": "213800RGNXXZY2M7TR85"
+  },
+  "Metlen Energy & Metals": {
+   "sec_ciks": [],
+   "lei": "213800ZSR3HVKMMPVG86"
+  },
+  "National Grid plc": {
+   "sec_ciks": [
+    1004315
+   ],
+   "lei": "8R95QZMKZLJX5Q2XR704"
+  },
+  "NatWest Group": {
+   "sec_ciks": [
+    844150
+   ],
+   "lei": "2138005O9XJIJN4JPN90"
+  },
+  "Next plc": {
+   "sec_ciks": [],
+   "lei": "213800WQD8ECPZP9PH98"
+  },
+  "Pearson plc": {
+   "sec_ciks": [
+    938323
+   ],
+   "lei": "2138004JBXWWJKIURC57"
+  },
+  "Pershing Square Holdings": {
+   "exclude": "investment trust / fund"
+  },
+  "Polar Capital Technology Trust": {
+   "exclude": "investment trust / fund"
+  },
+  "Prudential plc": {
+   "sec_ciks": [
+    1116578
+   ],
+   "lei": "5493001Z3ZE83NGK8Y12"
+  },
+  "Reckitt": {
+   "sec_ciks": [],
+   "lei": "5493003JFSMOJG48V108"
+  },
+  "RELX": {
+   "sec_ciks": [
+    929869
+   ],
+   "lei": "549300WSX3VBUFFJOO66"
+  },
+  "Rentokil Initial": {
+   "sec_ciks": [
+    930157
+   ],
+   "lei": "549300VN4WV7Z6T14K68"
+  },
+  "Rio Tinto": {
+   "sec_ciks": [
+    863064
+   ],
+   "lei": "213800YOEO5OQ72G2R82"
+  },
+  "Rolls-Royce Holdings": {
+   "sec_ciks": [],
+   "lei": "213800EC7997ZBLZJH69"
+  },
+  "Sage Group": {
+   "sec_ciks": [],
+   "lei": "2138005RN5XYLTF8G138"
+  },
+  "Sainsbury's": {
+   "sec_ciks": [],
+   "lei": "213800VGZAAJIKJ9Y484"
+  },
+  "Scottish Mortgage Investment Trust": {
+   "exclude": "investment trust / fund"
+  },
+  "Segro": {
+   "sec_ciks": [],
+   "lei": "213800XC35KGM9NFC641"
+  },
+  "Severn Trent": {
+   "sec_ciks": [],
+   "lei": "213800RPBXRETY4A4C59"
+  },
+  "Shell plc": {
+   "sec_ciks": [
+    1306965
+   ],
+   "lei": "21380068P1DRHMJ8KU70"
+  },
+  "Smiths Group": {
+   "sec_ciks": [],
+   "lei": "213800MJL6IPZS3ASA11"
+  },
+  "Smith & Nephew": {
+   "sec_ciks": [
+    845982
+   ],
+   "lei": "213800ZTMDN8S67S1H61"
+  },
+  "Spirax Group": {
+   "sec_ciks": [],
+   "lei": "213800WFVZQMHOZP2W17"
+  },
+  "SSE plc": {
+   "sec_ciks": [],
+   "lei": "549300KI75VYLLMSK856"
+  },
+  "Standard Chartered": {
+   "sec_ciks": [],
+   "lei": "U4LOSYZ7YG4W3S5F2G91"
+  },
+  "Standard Life": {
+   "sec_ciks": [
+    1370418
+   ],
+   "lei": "2138001P49OLAEU33T68"
+  },
+  "St. James's Place": {
+   "sec_ciks": [],
+   "lei": "213800M993ICXOMBCP87"
+  },
+  "Tesco": {
+   "sec_ciks": [],
+   "lei": "2138002P5RNKC5W2JZ46"
+  },
+  "Tritax Big Box REIT": {
+   "sec_ciks": [],
+   "lei": "213800L6X88MIYPVR714"
+  },
+  "Unilever": {
+   "sec_ciks": [
+    217410
+   ],
+   "lei": "549300MKFYEKVRWML317"
+  },
+  "United Utilities": {
+   "sec_ciks": [],
+   "lei": "2138002IEYQAOC88ZJ59"
+  },
+  "Vodafone Group": {
+   "sec_ciks": [
+    839923
+   ],
+   "lei": "213800TB53ELEUKM7Q61"
+  },
+  "Weir": {
+   "sec_ciks": [],
+   "lei": "549300KDR56WHY9I3D10"
+  },
+  "Whitbread": {
+   "sec_ciks": [],
+   "lei": "21380099VMZKRMN3EX36"
+  },
+  "WPP": {
+   "sec_ciks": [
+    806968
+   ],
+   "lei": "549300LSGBXPYHXGDT93"
+  },
+  "Adyen": {
+   "sec_ciks": [],
+   "lei": "724500973ODKK3IFQ447"
+  },
+  "Ahold Delhaize": {
+   "sec_ciks": [],
+   "lei": null
+  },
+  "Anheuser-Busch InBev": {
+   "sec_ciks": [
+    1668717
+   ],
+   "lei": "5493008H3828EMEXB082"
+  },
+  "Argenx": {
+   "sec_ciks": [
+    1697862
+   ],
+   "lei": "7245009C5FZE6G9ODQ71"
+  },
+  "ASML Holding": {
+   "sec_ciks": [
+    937966
+   ],
+   "lei": "724500Y6DUVHQD6OXN27"
+  },
+  "BBVA": {
+   "sec_ciks": [
+    842180
+   ],
+   "lei": "K8MS7FD7N5Z2WQ51AZ71"
+  },
+  "Banco Santander": {
+   "sec_ciks": [
+    891478
+   ],
+   "lei": "5493006QMFDDMYWIAM13"
+  },
+  "Enel": {
+   "sec_ciks": [],
+   "lei": "WOCMU6HCI0OJWNPRZS33"
+  },
+  "Eni": {
+   "sec_ciks": [
+    1002242
+   ],
+   "lei": "BUCRF72VH5RBN7X3VL35"
+  },
+  "Ferrari": {
+   "sec_ciks": [
+    1648416
+   ],
+   "lei": "549300RIVY5EX8RCON76"
+  },
+  "Iberdrola": {
+   "sec_ciks": [],
+   "lei": "5QK37QC7NWOJ8D7WVQ45"
+  },
+  "Inditex": {
+   "sec_ciks": [],
+   "lei": "549300TTCXZOGZM2EY83"
+  },
+  "ING Group": {
+   "sec_ciks": [
+    1039765
+   ],
+   "lei": "549300NYKK9MWM7GGW15"
+  },
+  "Intesa Sanpaolo": {
+   "sec_ciks": [],
+   "lei": "2W8N8UU78PMDQKZENC08"
+  },
+  "LVMH Moët Hennessy Louis Vuitton": {
+   "same_as": "LVMH"
+  },
+  "Nokia": {
+   "sec_ciks": [
+    924613
+   ],
+   "lei": "549300A0JPRWG1KI7U06"
+  },
+  "Nordea": {
+   "sec_ciks": [],
+   "lei": "529900ODI3047E2LIV03"
+  },
+  "Prosus": {
+   "sec_ciks": [],
+   "lei": "635400Z5LQ5F9OLVT688"
+  },
+  "Vinci SA": {
+   "same_as": "Vinci"
+  },
+  "UniCredit": {
+   "sec_ciks": [],
+   "lei": "549300TRUWO2CD2G5692"
+  }
+ }
+}

@@ -1,0 +1,505 @@
+{
+ "_source": "Fortune 500 2026 (ranked on 2025 revenue), https://fortune.com/ranking/fortune500/, retrieved 2026-11-21",
+ "companies": [
+  {
+   "rank": 1,
+   "name": "Amazon",
+   "fortune_url": "https://fortune.com/company/amazon-com/"
+  },
+  {
+   "rank": 2,
+   "name": "Walmart",
+   "fortune_url": "https://fortune.com/company/walmart/"
+  },
+  {
+   "rank": 3,
+   "name": "UnitedHealth Group",
+   "fortune_url": "https://fortune.com/company/unitedhealth-group/"
+  },
+  {
+   "rank": 4,
+   "name": "Apple",
+   "fortune_url": "https://fortune.com/company/apple/"
+  },
+  {
+   "rank": 5,
+   "name": "Alphabet",
+   "fortune_url": "https://fortune.com/company/alphabet/"
+  },
+  {
+   "rank": 6,
+   "name": "CVS Health",
+   "fortune_url": "https://fortune.com/company/cvs-health/"
+  },
+  {
+   "rank": 7,
+   "name": "Berkshire Hathaway",
+   "fortune_url": "https://fortune.com/company/berkshire-hathaway/"
+  },
+  {
+   "rank": 8,
+   "name": "McKesson",
+   "fortune_url": "https://fortune.com/company/mckesson/"
+  },
+  {
+   "rank": 9,
+   "name": "Exxon Mobil Holdings",
+   "fortune_url": "https://fortune.com/company/exxon-mobil/"
+  },
+  {
+   "rank": 10,
+   "name": "Cencora",
+   "fortune_url": "https://fortune.com/company/amerisourcebergen/"
+  },
+  {
+   "rank": 11,
+   "name": "Microsoft",
+   "fortune_url": "https://fortune.com/company/microsoft/"
+  },
+  {
+   "rank": 12,
+   "name": "JPMorgan Chase",
+   "fortune_url": "https://fortune.com/company/jpmorgan-chase/"
+  },
+  {
+   "rank": 13,
+   "name": "Costco Wholesale",
+   "fortune_url": "https://fortune.com/company/costco/"
+  },
+  {
+   "rank": 14,
+   "name": "Cigna Group",
+   "fortune_url": "https://fortune.com/company/cigna/"
+  },
+  {
+   "rank": 15,
+   "name": "Cardinal Health",
+   "fortune_url": "https://fortune.com/company/cardinal-health/"
+  },
+  {
+   "rank": 16,
+   "name": "Nvidia",
+   "fortune_url": "https://fortune.com/company/nvidia/"
+  },
+  {
+   "rank": 17,
+   "name": "Meta Platforms",
+   "fortune_url": "https://fortune.com/company/facebook/"
+  },
+  {
+   "rank": 18,
+   "name": "Elevance Health",
+   "fortune_url": "https://fortune.com/company/elevance-health/"
+  },
+  {
+   "rank": 19,
+   "name": "Centene",
+   "fortune_url": "https://fortune.com/company/centene/"
+  },
+  {
+   "rank": 20,
+   "name": "Bank of America",
+   "fortune_url": "https://fortune.com/company/bank-of-america-corp/"
+  },
+  {
+   "rank": 21,
+   "name": "Chevron",
+   "fortune_url": "https://fortune.com/company/chevron/"
+  },
+  {
+   "rank": 22,
+   "name": "Ford Motor",
+   "fortune_url": "https://fortune.com/company/ford-motor/"
+  },
+  {
+   "rank": 23,
+   "name": "General Motors",
+   "fortune_url": "https://fortune.com/company/general-motors/"
+  },
+  {
+   "rank": 24,
+   "name": "Citigroup",
+   "fortune_url": "https://fortune.com/company/citigroup/"
+  },
+  {
+   "rank": 25,
+   "name": "Home Depot",
+   "fortune_url": "https://fortune.com/company/home-depot/"
+  },
+  {
+   "rank": 26,
+   "name": "Fannie Mae",
+   "fortune_url": "https://fortune.com/company/fannie-mae/"
+  },
+  {
+   "rank": 27,
+   "name": "Kroger",
+   "fortune_url": "https://fortune.com/company/kroger/"
+  },
+  {
+   "rank": 28,
+   "name": "Verizon Communications",
+   "fortune_url": "https://fortune.com/company/verizon/"
+  },
+  {
+   "rank": 29,
+   "name": "Phillips 66",
+   "fortune_url": "https://fortune.com/company/phillips/"
+  },
+  {
+   "rank": 30,
+   "name": "Marathon Petroleum",
+   "fortune_url": "https://fortune.com/company/marathon-petroleum/"
+  },
+  {
+   "rank": 31,
+   "name": "StoneX Group",
+   "fortune_url": "https://fortune.com/company/stonex-group/"
+  },
+  {
+   "rank": 32,
+   "name": "State Farm Insurance",
+   "fortune_url": "https://fortune.com/company/state-farm-insurance-cos/"
+  },
+  {
+   "rank": 33,
+   "name": "Freddie Mac",
+   "fortune_url": "https://fortune.com/company/freddie-mac/"
+  },
+  {
+   "rank": 34,
+   "name": "Humana",
+   "fortune_url": "https://fortune.com/company/humana/"
+  },
+  {
+   "rank": 35,
+   "name": "AT&T",
+   "fortune_url": "https://fortune.com/company/att/"
+  },
+  {
+   "rank": 36,
+   "name": "Goldman Sachs Group",
+   "fortune_url": "https://fortune.com/company/goldman-sachs-group/"
+  },
+  {
+   "rank": 37,
+   "name": "Comcast",
+   "fortune_url": "https://fortune.com/company/comcast/"
+  },
+  {
+   "rank": 38,
+   "name": "Wells Fargo",
+   "fortune_url": "https://fortune.com/company/wells-fargo/"
+  },
+  {
+   "rank": 39,
+   "name": "Morgan Stanley",
+   "fortune_url": "https://fortune.com/company/morgan-stanley/"
+  },
+  {
+   "rank": 40,
+   "name": "Valero Energy",
+   "fortune_url": "https://fortune.com/company/valero-energy/"
+  },
+  {
+   "rank": 41,
+   "name": "Dell Technologies",
+   "fortune_url": "https://fortune.com/company/dell-technologies/"
+  },
+  {
+   "rank": 42,
+   "name": "Target",
+   "fortune_url": "https://fortune.com/company/target/"
+  },
+  {
+   "rank": 43,
+   "name": "Tesla",
+   "fortune_url": "https://fortune.com/company/tesla/"
+  },
+  {
+   "rank": 44,
+   "name": "Walt Disney",
+   "fortune_url": "https://fortune.com/company/disney/"
+  },
+  {
+   "rank": 45,
+   "name": "Johnson & Johnson",
+   "fortune_url": "https://fortune.com/company/johnson-johnson/"
+  },
+  {
+   "rank": 46,
+   "name": "PepsiCo",
+   "fortune_url": "https://fortune.com/company/pepsico/"
+  },
+  {
+   "rank": 47,
+   "name": "Boeing",
+   "fortune_url": "https://fortune.com/company/boeing/"
+  },
+  {
+   "rank": 48,
+   "name": "UPS",
+   "fortune_url": "https://fortune.com/company/ups/"
+  },
+  {
+   "rank": 49,
+   "name": "RTX",
+   "fortune_url": "https://fortune.com/company/raytheon-technologies/"
+  },
+  {
+   "rank": 50,
+   "name": "FedEx",
+   "fortune_url": "https://fortune.com/company/fedex/"
+  },
+  {
+   "rank": 51,
+   "name": "Progressive",
+   "fortune_url": "https://fortune.com/company/progressive/"
+  },
+  {
+   "rank": 52,
+   "name": "Lowe's",
+   "fortune_url": "https://fortune.com/company/lowes/"
+  },
+  {
+   "rank": 53,
+   "name": "Energy Transfer",
+   "fortune_url": "https://fortune.com/company/energy-transfer-equity/"
+  },
+  {
+   "rank": 54,
+   "name": "Procter & Gamble",
+   "fortune_url": "https://fortune.com/company/procter-gamble/"
+  },
+  {
+   "rank": 55,
+   "name": "Sysco",
+   "fortune_url": "https://fortune.com/company/sysco/"
+  },
+  {
+   "rank": 56,
+   "name": "American Express",
+   "fortune_url": "https://fortune.com/company/american-express/"
+  },
+  {
+   "rank": 57,
+   "name": "Albertsons",
+   "fortune_url": "https://fortune.com/company/albertsons-cos/"
+  },
+  {
+   "rank": 58,
+   "name": "Archer Daniels Midland",
+   "fortune_url": "https://fortune.com/company/archer-daniels-midland/"
+  },
+  {
+   "rank": 59,
+   "name": "MetLife",
+   "fortune_url": "https://fortune.com/company/metlife/"
+  },
+  {
+   "rank": 60,
+   "name": "HCA Healthcare",
+   "fortune_url": "https://fortune.com/company/hca-holdings/"
+  },
+  {
+   "rank": 61,
+   "name": "Lockheed Martin",
+   "fortune_url": "https://fortune.com/company/lockheed-martin/"
+  },
+  {
+   "rank": 62,
+   "name": "New York Life Insurance",
+   "fortune_url": "https://fortune.com/company/new-york-life-insurance/"
+  },
+  {
+   "rank": 63,
+   "name": "Capital One Financial",
+   "fortune_url": "https://fortune.com/company/capital-one-financial/"
+  },
+  {
+   "rank": 64,
+   "name": "Allstate",
+   "fortune_url": "https://fortune.com/company/allstate/"
+  },
+  {
+   "rank": 65,
+   "name": "Caterpillar",
+   "fortune_url": "https://fortune.com/company/caterpillar/"
+  },
+  {
+   "rank": 66,
+   "name": "International Business Machines",
+   "fortune_url": "https://fortune.com/company/ibm/"
+  },
+  {
+   "rank": 67,
+   "name": "Eli Lilly",
+   "fortune_url": "https://fortune.com/company/eli-lilly/"
+  },
+  {
+   "rank": 68,
+   "name": "MSD",
+   "fortune_url": "https://fortune.com/company/merck/"
+  },
+  {
+   "rank": 69,
+   "name": "Nationwide",
+   "fortune_url": "https://fortune.com/company/nationwide/"
+  },
+  {
+   "rank": 70,
+   "name": "Broadcom",
+   "fortune_url": "https://fortune.com/company/broadcom/"
+  },
+  {
+   "rank": 71,
+   "name": "Delta Air Lines",
+   "fortune_url": "https://fortune.com/company/delta-air-lines/"
+  },
+  {
+   "rank": 72,
+   "name": "Publix Super Markets",
+   "fortune_url": "https://fortune.com/company/publix-super-markets/"
+  },
+  {
+   "rank": 73,
+   "name": "Pfizer",
+   "fortune_url": "https://fortune.com/company/pfizer/"
+  },
+  {
+   "rank": 74,
+   "name": "TD Synnex",
+   "fortune_url": "https://fortune.com/company/synnex/"
+  },
+  {
+   "rank": 75,
+   "name": "ConocoPhillips",
+   "fortune_url": "https://fortune.com/company/conocophillips/"
+  },
+  {
+   "rank": 76,
+   "name": "Galaxy Digital",
+   "fortune_url": "https://fortune.com/company/galaxy-digital/"
+  },
+  {
+   "rank": 77,
+   "name": "AbbVie",
+   "fortune_url": "https://fortune.com/company/abbvie/"
+  },
+  {
+   "rank": 78,
+   "name": "Prudential Financial",
+   "fortune_url": "https://fortune.com/company/prudential-financial/"
+  },
+  {
+   "rank": 79,
+   "name": "TJX",
+   "fortune_url": "https://fortune.com/company/tjx/"
+  },
+  {
+   "rank": 80,
+   "name": "Performance Food Group",
+   "fortune_url": "https://fortune.com/company/performance-food-group/"
+  },
+  {
+   "rank": 81,
+   "name": "United Airlines Holdings",
+   "fortune_url": "https://fortune.com/company/united-continental-holdings/"
+  },
+  {
+   "rank": 82,
+   "name": "Oracle",
+   "fortune_url": "https://fortune.com/company/oracle/"
+  },
+  {
+   "rank": 83,
+   "name": "Cisco Systems",
+   "fortune_url": "https://fortune.com/company/cisco-systems-inc/"
+  },
+  {
+   "rank": 84,
+   "name": "HP",
+   "fortune_url": "https://fortune.com/company/hp/"
+  },
+  {
+   "rank": 85,
+   "name": "Charter Communications",
+   "fortune_url": "https://fortune.com/company/charter-communications/"
+  },
+  {
+   "rank": 86,
+   "name": "American Airlines Group",
+   "fortune_url": "https://fortune.com/company/american-airlines-group/"
+  },
+  {
+   "rank": 87,
+   "name": "Tyson Foods",
+   "fortune_url": "https://fortune.com/company/tyson-foods/"
+  },
+  {
+   "rank": 88,
+   "name": "Intel",
+   "fortune_url": "https://fortune.com/company/intel/"
+  },
+  {
+   "rank": 89,
+   "name": "Enterprise Products Partners",
+   "fortune_url": "https://fortune.com/company/enterprise-products-partners/"
+  },
+  {
+   "rank": 90,
+   "name": "Ingram Micro Holding",
+   "fortune_url": "https://fortune.com/company/ingram-micro/"
+  },
+  {
+   "rank": 91,
+   "name": "General Dynamics",
+   "fortune_url": "https://fortune.com/company/general-dynamics/"
+  },
+  {
+   "rank": 92,
+   "name": "Uber Technologies",
+   "fortune_url": "https://fortune.com/company/uber-technologies/"
+  },
+  {
+   "rank": 93,
+   "name": "United Services Automobile Assn.",
+   "fortune_url": "https://fortune.com/company/usaa/"
+  },
+  {
+   "rank": 94,
+   "name": "TIAA",
+   "fortune_url": "https://fortune.com/company/tiaa/"
+  },
+  {
+   "rank": 95,
+   "name": "Liberty Mutual Insurance Group",
+   "fortune_url": "https://fortune.com/company/liberty-mutual-insurance-group/"
+  },
+  {
+   "rank": 96,
+   "name": "Travelers",
+   "fortune_url": "https://fortune.com/company/travelers-cos/"
+  },
+  {
+   "rank": 97,
+   "name": "Bristol-Myers Squibb",
+   "fortune_url": "https://fortune.com/company/bristol-myers-squibb/"
+  },
+  {
+   "rank": 98,
+   "name": "Coca-Cola",
+   "fortune_url": "https://fortune.com/company/coca-cola/"
+  },
+  {
+   "rank": 99,
+   "name": "Nike",
+   "fortune_url": "https://fortune.com/company/nike/"
+  },
+  {
+   "rank": 100,
+   "name": "Massachusetts Mutual Life Insurance",
+   "fortune_url": "https://fortune.com/company/massachusetts-mutual-life-insurance/"
+  }
+ ]
+}
