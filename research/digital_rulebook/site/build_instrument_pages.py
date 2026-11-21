@@ -158,12 +158,14 @@ def page(r):
     # Impact assessments (and Parliament's appraisals of them) are never listed as studies: see ia_line / ia_pend in the header
     ev = [l for l in LIT if l["parent_row_id"] == rid and ((l["category"] or "evidence") == "evidence" or pend) and not (pend and IA_TYPE.search(l["source_type"] or ""))]
     causal = [l for l in ev if is_causal(l["method"] or "")]
-    kpi = [(f"{n:,}", "obligations in the " + ("proposal" if pend else "adopted text"))]
-    if not pend and r["proposal_restrictions_total"]:
-        kpi.append((f'{(n - r["proposal_restrictions_total"]) / r["proposal_restrictions_total"] * 100:+.0f}%', f'obligations vs the proposal ({r["proposal_restrictions_total"]:,})'))
-    kpi.append((f'{r["words_legal_text"] or 0:,}', f'words, {r["pages"] or "?"} pages'))
-    kpi.append((f'{len(impl)}', f'implementing and delegated acts ({sum(s["restrictions_total"] or 0 for s in impl):,} obligations)'))
-    kpi.append((f'{len(causal)}', f'causal studies among {len(ev)} sources'))
+    # official reviews: as the Studies page's "Official reviews" collection (site/build_studies_data.py)
+    REVIEW = re.compile(r"evaluation|review|audit|implementation report|monitoring report|fitness check|special report", re.I)
+    reviews = [l for l in ev if l["source_class"] == "official" and REVIEW.search(l["source_type"] or "")]
+    kpi = [(f'{r["words_legal_text"] or 0:,}', f'words, {r["pages"] or "?"} pages'),
+           (f"{n:,}", "obligations in the " + ("proposal" if pend else "adopted text")),
+           (f'{len(impl)}', f'implementing and delegated acts ({sum(s["restrictions_total"] or 0 for s in impl):,} obligations)'),
+           (f'{len(ev)}', ("studies and assessments of the proposal" if pend else "studies since adoption") + f' ({len(causal)} with a causal design)'),
+           (f'{len(reviews)}', "official reviews (evaluations, audits, implementation reports)")]
     kpis = "".join(f'<div style="display: flex; flex-direction: column; gap: 8px"><span class="num">{a}</span><span class="cap">{esc(b)}</span></div>' for a, b in kpi)
     rank = sum(1 for a in adopted if a["restrictions_total"] < n)
     cmp_text = (f"With {n:,} obligations, the {esc(name)} has more than {rank} of the {len(adopted)} adopted EU digital acts. The median act has {med:.0f}."

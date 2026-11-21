@@ -22,7 +22,7 @@ for k, *_ in SERIES:
         c += cnt[k][y]; cum[k][y] = c
 total = {y: sum(cum[k][y] for k, *_ in SERIES) for y in range(Y0, Y1 + 1)}
 
-W, LM, RM, TOP, PH = 580, 40, 196, 30, 260   # compact: sits beside the intro text
+W, LM, RM, TOP, PH = 580, 40, 196, 48, 260   # compact: sits beside the intro text
 PW = W - LM - RM
 step = 100
 YM = -(-total[Y1] // step) * step
@@ -52,7 +52,10 @@ for (lab, col, n, y0), y in zip(ends, ys):
     g.append(f'<rect x="{lx}" y="{y - 13:.1f}" width="10" height="10" rx="2" fill="{col}"></rect>')
     g.append(t(lx + 16, y - 4, lab, 13.5, INK2))
     g.append(t(lx + 16, y + 12, f"{n:,}", 13, INK, weight="600"))
-g.append(t(LM, TOP - 12, f"Total: {total[Y1]:,} sources", 13, INK, weight="600"))
+# the total splits into the page's two collections: "All evidence" (the first three series) and "Economics of regulation"
+ev_n = sum(cum[k][Y1] for k in ("ev causal", "ev review", "ev"))
+g.append(t(LM, TOP - 30, f"Total: {total[Y1]:,} sources", 13, INK, weight="600"))
+g.append(t(LM, TOP - 12, f"All evidence {ev_n:,} + economics of regulation {cum['econ'][Y1]:,}", 12.5, MUTED))
 H = TOP + PH + 28
 aria = "Cumulative number of sources in the evidence library by type of study, " + f"{Y0} to {Y1}: " + "; ".join(f"{lab} {n:,}" for lab, _, n, _ in ends)
 svg = f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="{aria}">' + "".join(g) + "</svg>"
