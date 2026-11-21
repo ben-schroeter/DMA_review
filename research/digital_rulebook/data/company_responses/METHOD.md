@@ -106,10 +106,10 @@ CR_FROM=2000 python3 cr_fetch.py --config ../data/company_responses/universe/uni
 python3 cr_frequency.py                      # frequency.csv, frequency_summary.csv
 ```
 
-### Trend estimates (headline: company fixed effects)
+### Trend estimates (raw means and company fixed effects)
 
 The sample changes over time (companies list or become retrievable; sources switch from 20-F to ESEF or company PDFs; report length and language differ by source). Plain yearly averages therefore mix changes in reporting with changes in who and what is measured. The headline trend is estimated within companies (`scripts/cr_trend.py`):
 
   y_it = company fixed effect + year dummies + source/document-type dummies + language dummies + error,
 
-with standard errors clustered by company, for three outcomes per report: the number of EU laws named, log(1 + mentions of all EU laws per 100,000 words), and whether an EU law other than the GDPR is named. Year coefficients are changes relative to the base year (2010) for the same company and document type. A balanced panel and an SEC-filings-only version are reported as robustness checks; raw yearly means are kept for reference only.
+with standard errors clustered by company, for three outcomes per report: the number of EU laws named, log(1 + mentions of all EU laws per 100,000 words), and whether an EU law other than the GDPR is named. Year coefficients are changes relative to the base year (2010) for the same company and document type. Results are reported in two forms side by side: raw yearly means (what the reports say, for the sample as it is each year) and the fixed-effects year coefficients (the change within companies, net of sample and source changes). A balanced panel and an SEC-filings-only version remain as robustness checks.
