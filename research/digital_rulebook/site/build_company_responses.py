@@ -281,3 +281,39 @@ facts.update(cr_companies=(len({r["company"] for r in rep}), str(len({r["company
              cr_booking_dma_2023=(rate("booking-holdings", 2023, "DMA"), f'{rate("booking-holdings", 2023, "DMA"):.0f}'), cr_booking_dma_2024=(rate("booking-holdings", 2024, "DMA"), f'{rate("booking-holdings", 2024, "DMA"):.0f}'))
 json.dump({k: {"value": v, "text": s} for k, (v, s) in facts.items()}, open("site/company_responses_facts.json", "w"), indent=1)
 print({k: s for k, (v, s) in facts.items()})
+
+# ---------- top five companies per company type (table below the 'by type' chart) ----------
+# Measure: distinct EU tech laws named per annual report, averaged over each company's 2024 and 2025 reports; second column:
+# mentions per 100,000 words. Each company counts under its main type (the first listed in universe/company_types.json).
+import csv as _csv, html as _html
+_T = json.load(open("data/company_responses/universe/company_types.json"))["types"]
+_reps = [r for r in _csv.DictReader(open("data/company_responses/frequency_all_reports.csv")) if r["report_status"] == "ok"]
+_men = list(_csv.DictReader(open("data/company_responses/frequency_all_mentions.csv")))
+_name = {r["company"]: r["name"] for r in _reps}; _hq = {r["company"]: r["hq"] for r in _reps}
+_laws, _rate = collections.defaultdict(set), collections.defaultdict(float)
+for m in _men:
+    _laws[(m["company"], int(m["year"]))].add(m["law"]); _rate[(m["company"], int(m["year"]))] += float(m["per_100k"] or 0)
+_YRS = (2024, 2025)
+_by = collections.defaultdict(list)
+for c in {r["company"] for r in _reps}:
+    ys = sorted({int(r["year"]) for r in _reps if r["company"] == c and int(r["year"]) in _YRS})
+    t = _T.get(_name[c])
+    if not ys or not t or t.get("status") not in ("include", "borderline"):
+        continue
+    _by[t["types"].split(";")[0]].append((st.mean(len(_laws[(c, y)]) for y in ys), st.mean(_rate[(c, y)] for y in ys), _name[c], _hq[c]))
+_LAB = [("TC", "Telecoms"), ("GK", "Gatekeepers and very large platforms"), ("FI", "Finance, payments and crypto"),
+        ("CL", "Cloud, data and AI"), ("PL", "Online platforms and digital services"), ("PR", "Makers of connected products")]
+_cells = []
+for k, lab in _LAB:
+    L = sorted(_by[k], key=lambda x: (-x[0], -x[1]))
+    rows = "".join(f'<tr><td style="padding: 5px 8px 5px 0; border-bottom: 1px solid #EFEDE9">{_html.escape(nm)} <span style="color: {MUTED}; font-size: 12.5px">{h}</span></td>'
+                   f'<td style="padding: 5px 8px; border-bottom: 1px solid #EFEDE9; text-align: right; font-weight: 600">{n:.1f}</td>'
+                   f'<td style="padding: 5px 0 5px 8px; border-bottom: 1px solid #EFEDE9; text-align: right; color: {MUTED}">{f:.0f}</td></tr>' for n, f, nm, h in L[:5])
+    _cells.append(f'<div style="display: flex; flex-direction: column; gap: 6px"><p style="margin: 0; font-weight: 600; font-size: 15px">{lab}</p>'
+                  f'<p class="cap" style="margin: 0">{len(L)} companies; median {st.median(x[0] for x in L):.1f} laws per report</p>'
+                  f'<table style="border-collapse: collapse; font-size: 14px; width: 100%; font-variant-numeric: tabular-nums"><thead><tr>'
+                  f'<th style="text-align: left; font-weight: 500; color: {MUTED}; font-size: 12px; padding: 0 8px 4px 0">Company</th>'
+                  f'<th style="text-align: right; font-weight: 500; color: {MUTED}; font-size: 12px; padding: 0 8px 4px">Laws</th>'
+                  f'<th style="text-align: right; font-weight: 500; color: {MUTED}; font-size: 12px; padding: 0 0 4px 8px">Per 100k words</th></tr></thead><tbody>{rows}</tbody></table></div>')
+open("site/cr_top_by_type.html", "w").write('<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px 40px">' + "".join(_cells) + "</div>")
+print("top by type:", {k: [x[2] for x in sorted(_by[k], key=lambda x: (-x[0], -x[1]))[:5]] for k, _ in _LAB})
