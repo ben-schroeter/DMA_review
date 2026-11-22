@@ -90,7 +90,7 @@ F = [
  dict(id="digital-services-tax", name="Digital services tax", stage="proposed", area="Finance", row=None, proc="2018/0073(CNS)",
       what="An interim 3% tax on revenues from online advertising, digital intermediation and the sale of user data, for large digital companies.",
       track=["Mar 2018", "Dec 2018", None, None, None], target="—",
-      latest="Stalled: pending in Council since 2018, not discussed there since 2019; tax rules need unanimity. Unlike the companion proposal on a significant digital presence, the 2027 work programme does not list it for withdrawal."),
+      latest="Revived on 21 November 2026: European Council President António Costa's compromise for the 2028–2034 EU budget would fund it partly with a levy on large digital companies' revenues from online advertising, digital intermediation and user data, replacing the Commission's CORE proposal, and calls for Council work on this directive to resume for agreement in 2027. Under the draft conclusions the digital services own resource would apply only from the year after the directive applies. Leaders discuss the draft at a special European Council on 26–27 November; tax rules need unanimity."),
  dict(id="significant-digital-presence", name="Corporate taxation of a significant digital presence", stage="withdrawn", area="Finance", row=None, proc="2018/0072(CNS)",
       what="The long-term reform: a taxable digital presence for companies with large online revenues or user numbers in a member state, without a physical presence.",
       track=["Mar 2018", "Dec 2018", None, None, None], target="—",
@@ -496,6 +496,12 @@ dfa["chips"] = ["Regulation replacing the Unfair Commercial Practices Directive"
 dfa["latest_long"] = ("The Commission proposed the Digital Fairness Act on 11 November 2026, in a consumer package with a directive simplifying the Consumer Rights Directive and the revision of the Consumer Protection Cooperation Regulation. "
                       "The proposals are backed by an impact assessment, on which the Regulatory Scrutiny Board gave a positive opinion with reservations on 3 July 2026. "
                       "They now go to the European Parliament and the Council; no Parliament committee has been named yet.")
+# Council-side documents for stalled consultation-procedure files: (date, title, ref, url)
+STALLED_COUNCIL = {"digital-services-tax": [
+    ("21 Nov 2026", "Press release: Multiannual Financial Framework, President Costa's proposal", "European Council", "https://www.consilium.europa.eu/en/press/press-releases/2026/11/21/multiannual-financial-framework-president-costa-s-proposal/"),
+    ("Nov 2026", "Factsheet: President Costa's proposal for the 2028-2034 budget, with a digital services own resource", "European Council (PDF)", "/_blob/73b27e89718fa59b3f9f07d7db5e51a0"),
+    ("21 Nov 2026", "Draft conclusions for the special European Council of 26-27 November on the 2028-2034 budget (points 141 and 145 on the digital services own resource)", "ST 15692/26", "https://data.consilium.europa.eu/doc/document/ST-15692-2026-INIT/en/pdf"),
+    ("21 Nov 2026", "Summary table of the main figures in the draft conclusions", "ST 16196/26", "https://data.consilium.europa.eu/doc/document/ST-16196-2026-INIT/en/pdf")]}
 CONSUMER_PKG = [("Nov 2026", "Press release: Commission strengthens consumer protection laws, making them fit for the digital age", "IP/26/2407", "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2407"),
                 ("Nov 2026", "Questions and answers on the consumer package", "QANDA/26/2408", "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2408")]
 fpage(dfa, [("Proposed", "11 Nov 2026"), ("Procedure", "2026/0356(COD)"), ("Would apply", "12 months after entry into force")],
@@ -547,7 +553,7 @@ for f in F:
         com += (CONSUMER_PKG + [("", "Initiative page: consultation (2022), documents and feedback", "Have your say", "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/13535-Reinforced-consumer-protection-cooperation_en")]) if f["id"] == "cpc-review" else []
         wd = f["stage"] == "withdrawn"
         docs = ([("Commission", com), ("European Parliament", d["ep"]), ("Withdrawal", [CWP27])] if wd else
-                [("Commission", com), ("European Parliament", d["ep"]), ("Council", [("", "No agreement; tax rules need unanimity", "", "")])] if d.get("ep") else   # stalled consultation-procedure files
+                [("Commission", com), ("European Parliament", d["ep"]), ("Council", STALLED_COUNCIL.get(f["id"], []) + [("", "No agreement; tax rules need unanimity", "", "")])] if d.get("ep") else   # stalled consultation-procedure files
                 [("Commission", com), ("European Parliament", parl_docs(f["id"]) or [("", "Not yet referred to a committee", "", "")]), ("Council", council_docs(f["id"])), ("Planning", [ROADMAP])])
         if wd and not d["changes"]:
             chg = [("No law in the current Digital Acquis", "would have been a new instrument", "Instruments.dc.html")]
