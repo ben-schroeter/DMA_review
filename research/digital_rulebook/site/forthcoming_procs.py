@@ -43,7 +43,7 @@ COUNCIL = {
 REC = {"psr": "52023PC0367", "psd3": "52023PC0366", "digital-euro": "52023PC0369", "csar": "52022PC0209", "csa-directive": "52024PC0060",
        "digital-travel": "52024PC0670", "space-act": "52025PC0335", "infosec": "52022PC0119", "digital-omnibus": "52025PC0837",
        "digital-networks-act": "52026PC0016", "cybersecurity-act-2": "52026PC0011", "cloud-ai-development-act": "52026PC0502",
-       "eu-kids-act": "52026PC0681", "digital-fairness-act": "fc-digital-fairness-act",
+       "eu-kids-act": "52026PC0681", "digital-fairness-act": "fc-digital-fairness-act", "cpc-review": "fc-cpc-review",
        "fida": "52023PC0360", "late-payment": "52023PC0533", "digital-services-tax": "52018PC0148", "significant-digital-presence": "52018PC0147",
        "vat-imported-distance-sales": "52023PC0262", "medical-devices-revision": "52025PC1023"}
 PREP = {
