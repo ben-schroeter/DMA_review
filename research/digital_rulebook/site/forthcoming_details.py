@@ -203,7 +203,7 @@ D = {
           "Only for companies with worldwide revenues above EUR 750 million and EU digital revenues above EUR 50 million.",
           "Collected through a one-stop shop in one member state."],
     changes=[],
-    latest="Parliament gave its opinion in December 2018, but member states could not agree unanimously; the file has not been discussed in Council since 2019. Unlike the companion proposal on a significant digital presence, the Commission's 2027 work programme does not list it for withdrawal.",
+    latest="On 21 November 2026, European Council President António Costa proposed reviving it in his compromise for the 2028–2034 EU budget: a digital services own resource on large companies' revenues from online advertising, online intermediation and the monetisation of user data would replace the Commission's CORE proposal. His draft conclusions call on the Council to resume work on this directive with a view to a swift agreement in 2027, and the own resource would apply only from the year after the directive applies. Leaders discuss the draft at the Special meeting of the European Council on 26 and 27 November 2026. Tax rules need unanimity; the file had not been discussed in Council since 2019.",
     date="Mar 2018", ref="COM(2018) 148", eurlex="52018PC0148",
     ep=[("Dec 2018", "Parliament opinion (consultation)", "T8-0523/2018", "https://www.europarl.europa.eu/doceo/document/TA-8-2018-0523_EN.html")]),
  "significant-digital-presence": dict(
